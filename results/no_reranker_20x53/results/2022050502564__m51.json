@@ -1,0 +1,1565 @@
+{
+  "document_id": "2022050502564",
+  "metric_id": 51,
+  "metric_name": "独立第三方审计（鉴证）",
+  "query": "独立第三方审计（鉴证） 独立第三方审计（鉴证） 衡量ESG关键数据是否经过独立鉴证 2分：由独立第三方按国际准则（ISAE 3000/AA1000AS）出具鉴证报告。 1分：虽无报告，但披露了具体的内部审计路径（提及了内审委员会或具体复核频率）。 0分：仅董事会背书。 独立鉴证 有限保证 合理保证 独立核查 鉴证范围 ESG鉴证 鉴证报告 核查声明 ISAE 3000 AA1000AS independent assurance limited assurance reasonable assurance ISAE 3000 AA1000AS verification statement ESG assurance assurance scope 是否有独立第三方ESG鉴证/核查报告？ 鉴证机构与准则（ISAE 3000/AA1000AS等）是什么？ 保证等级是有限保证还是合理保证？ 鉴证范围覆盖哪些指标与报告期？ 若无外部鉴证，是否披露内审路径与复核频率？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '独立第三方审计（鉴证）'. Prefer explicit, auditable disclosure that answers: 是否有独立第三方ESG鉴证/核查报告？ 鉴证机构与准则（ISAE 3000/AA1000AS等）是什么？ 保证等级是有限保证还是合理保证？ 鉴证范围覆盖哪些指标与报告期？ 若无外部鉴证，是否披露内审路径与复核频率？ Exclude or down-rank: 排除：仅有董事会对ESG报告真实性声明；仅有ISO 45001/14001管理体系认证；仅有财务审计意见；仅有“数据已经核对”无机构无准则；区分：本指标是ESG数据独立鉴证；ISO体系认证不是ESG报告鉴证；温室气体核算关注方法学，鉴证关注外部保证结论。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 186,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "L14_007",
+      "alias_source_ids": [
+        "L14_007"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "Confirm the accuracy of performance indicator data in the ESG Report",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nConfirm the accuracy of performance indicator data in the ESG Report",
+      "bm25_rank": 47,
+      "dense_rank": 1,
+      "bm25_score": 10.44753360748291,
+      "dense_score": 0.6862195730209351,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3470622489163594,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.6912751677852349,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.6885399665617953,
+      "rank": 1,
+      "rrf_score": 0.6885399665617953,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T73_001",
+      "alias_source_ids": [
+        "T73_001"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX",
+      "pages": [
+        73
+      ],
+      "text": "Disclosure Issue/Item | Headline of Disclosure Item | Chapter GRI302: Energy 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components | 2.2 Addressing Climate Change 302-1 | Energy Consumption Within Organization | Appendix 1 ESG Data 302-2 | Energy Consumption Outside Organization | Appendix 1 ESG Data 302-3 | Energy Intensity | Appendix 1 ESG Data 302-4 | Reductions in Energy Consumption | 2.2 Addressing Climate Change 302-5 | Reductions in Energy Demand for Products and Services | 2.2 Addressing Climate Change GRI303: Water Resources 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components | 2.3 Use of Resources 303-1 | Water withdrawal by sources | Appendix 1 ESG Data 303-2 | Water sources significantly affected by withdrawal of water | 2.3 Use of Resources 303-3 | Water Recycling and Reuse | 2.3 Use of Resources GRI305: Emissions 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components | 2.4 Emissions Management 305-1 | Direct (Scope 1) Greenhouse Gas Emissions | Appendix 1 ESG Data 305-2 305-3 | Indirect (Scope 2) Greenhouse Gas Emissions Related to Energy Other Indirect (Scope 3) Greenhouse Gas Emissions | Appendix 1 ESG Data Appendix 1 ESG Data 305-4 | Greenhouse Gas Emission Intensity | Appendix 1 ESG Data 305-5 | Reductions in Greenhouse Gas Emissions | Appendix 1 ESG Data 305-7 | Emissions of Nitrogen Oxides (NO X ), Sulfur Oxides (SO X ) and Other Significant Gas | Appendix 1 ESG Data",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX\n\n[Content]\nDisclosure Issue/Item | Headline of Disclosure Item | Chapter GRI302: Energy 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components | 2.2 Addressing Climate Change 302-1 | Energy Consumption Within Organization | Appendix 1 ESG Data 302-2 | Energy Consumption Outside Organization | Appendix 1 ESG Data 302-3 | Energy Intensity | Appendix 1 ESG Data 302-4 | Reductions in Energy Consumption | 2.2 Addressing Climate Change 302-5 | Reductions in Energy Demand for Products and Services | 2.2 Addressing Climate Change GRI303: Water Resources 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components | 2.3 Use of Resources 303-1 | Water withdrawal by sources | Appendix 1 ESG Data 303-2 | Water sources significantly affected by withdrawal of water | 2.3 Use of Resources 303-3 | Water Recycling and Reuse | 2.3 Use of Resources GRI305: Emissions 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components | 2.4 Emissions Management 305-1 | Direct (Scope 1) Greenhouse Gas Emissions | Appendix 1 ESG Data 305-2 305-3 | Indirect (Scope 2) Greenhouse Gas Emissions Related to Energy Other Indirect (Scope 3) Greenhouse Gas Emissions | Appendix 1 ESG Data Appendix 1 ESG Data 305-4 | Greenhouse Gas Emission Intensity | Appendix 1 ESG Data 305-5 | Reductions in Greenhouse Gas Emissions | Appendix 1 ESG Data 305-7 | Emissions of Nitrogen Oxides (NO X ), Sulfur Oxides (SO X ) and Other Significant Gas | Appendix 1 ESG Data",
+      "bm25_rank": 6,
+      "dense_rank": 6,
+      "bm25_score": 20.262920379638672,
+      "dense_score": 0.5388882756233215,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7392456854130147,
+      "normalized_dense": 0.5872489477750256,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.6433191547099022,
+      "rank": 2,
+      "rrf_score": 0.6433191547099022,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "ABOUT THIS REPORT / SCOPE OF THE REPORT",
+      "pages": [
+        3
+      ],
+      "text": "This Report has been prepared with reference to the Environmental, Social and Governance Reporting Guide in Appendix 27 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited issued by The Stock Exchange of Hong Kong Limited (the 'Stock Exchange'), the core option of the GRI Standards issued by the Global Reporting Initiative (the 'GRI') in 2016 and the United Nation's Sustainable Development Goals (the 'SDGs'). The contents of this Report are determined by systematic procedures. The relevant procedures include identifying important stakeholders, and identifying and ranking key issues relevant to ESG, determining the boundary of ESG Report, collecting the relevant materials and data, preparing the Report based on the data and reviewing the information contained in the Report.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / SCOPE OF THE REPORT\n\n[Content]\nThis Report has been prepared with reference to the Environmental, Social and Governance Reporting Guide in Appendix 27 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited issued by The Stock Exchange of Hong Kong Limited (the 'Stock Exchange'), the core option of the GRI Standards issued by the Global Reporting Initiative (the 'GRI') in 2016 and the United Nation's Sustainable Development Goals (the 'SDGs'). The contents of this Report are determined by systematic procedures. The relevant procedures include identifying important stakeholders, and identifying and ranking key issues relevant to ESG, determining the boundary of ESG Report, collecting the relevant materials and data, preparing the Report based on the data and reviewing the information contained in the Report.",
+      "bm25_rank": 21,
+      "dense_rank": 2,
+      "bm25_score": 12.75611400604248,
+      "dense_score": 0.5618606209754944,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4393038503073823,
+      "normalized_dense": 0.6516063510129505,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6011578922448682,
+      "rank": 3,
+      "rrf_score": 0.6011578922448682,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_012",
+      "alias_source_ids": [
+        "P72_012"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "1.2 Compliance Operation Appendix 1 ESG Data",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\n1.2 Compliance Operation Appendix 1 ESG Data",
+      "bm25_rank": 8,
+      "dense_rank": 9,
+      "bm25_score": 17.04175567626953,
+      "dense_score": 0.5258269309997559,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6105408801706247,
+      "normalized_dense": 0.5506573760446795,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.5994020160390245,
+      "rank": 4,
+      "rrf_score": 0.5994020160390245,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_001",
+      "alias_source_ids": [
+        "P3_001"
+      ],
+      "section": "ABOUT THIS REPORT / SCOPE OF THE REPORT",
+      "pages": [
+        3
+      ],
+      "text": "This Report is the Environmental, Social and Governance ('ESG') Report (the 'Report') issued by Impro Precision Industries Limited ('the Company') to focus on the disclosure of the Group's actions and performance in the aspects of environmental and social risk management during the period from 1 January 2021 to 31 December 2021 (the 'Reporting Period') to satisfy the expectations and requirements of the relevant stakeholders of the Group. The relevant policies, representations and information of ESG in this Report cover the Company and its subsidiaries in operating regions and countries including China, the U.S., Hong Kong, Luxembourg, Germany, Turkey, the Czech Republic and Mexico, any content with a different scope of coverage will be specified in this Report.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / SCOPE OF THE REPORT\n\n[Content]\nThis Report is the Environmental, Social and Governance ('ESG') Report (the 'Report') issued by Impro Precision Industries Limited ('the Company') to focus on the disclosure of the Group's actions and performance in the aspects of environmental and social risk management during the period from 1 January 2021 to 31 December 2021 (the 'Reporting Period') to satisfy the expectations and requirements of the relevant stakeholders of the Group. The relevant policies, representations and information of ESG in this Report cover the Company and its subsidiaries in operating regions and countries including China, the U.S., Hong Kong, Luxembourg, Germany, Turkey, the Czech Republic and Mexico, any content with a different scope of coverage will be specified in this Report.",
+      "bm25_rank": 13,
+      "dense_rank": 7,
+      "bm25_score": 14.398897171020508,
+      "dense_score": 0.5366726517677307,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5049428681082501,
+      "normalized_dense": 0.5810418411121294,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.5882458354605598,
+      "rank": 5,
+      "rrf_score": 0.5882458354605598,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P14_001",
+      "alias_source_ids": [
+        "P14_001"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "In 2020, the Group formally established the Sustainability Committee to carry out planning, risk identification and assessment on ESG matters. The committee, which includes 2 independent non-executive directors and 3 executive directors, regularly convenes committee meetings with the management and external consultants of the Group to ensure that the management and all employees are involved in and engaged in the Group's sustainability management. We carry out the Group's comprehensive sustainability management with a sustainable development hierarchy to ensure that the management and frontline employees identify the Group's ESG responsibilities, and voluntarily participate in ESG management, so as to jointly realize the Group's sustainable development vision.",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nIn 2020, the Group formally established the Sustainability Committee to carry out planning, risk identification and assessment on ESG matters. The committee, which includes 2 independent non-executive directors and 3 executive directors, regularly convenes committee meetings with the management and external consultants of the Group to ensure that the management and all employees are involved in and engaged in the Group's sustainability management. We carry out the Group's comprehensive sustainability management with a sustainable development hierarchy to ensure that the management and frontline employees identify the Group's ESG responsibilities, and voluntarily participate in ESG management, so as to jointly realize the Group's sustainable development vision.",
+      "bm25_rank": 7,
+      "dense_rank": 16,
+      "bm25_score": 19.30609893798828,
+      "dense_score": 0.5027031898498535,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7010149432312965,
+      "normalized_dense": 0.4858758349900173,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.586098457067262,
+      "rank": 6,
+      "rrf_score": 0.586098457067262,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_003",
+      "alias_source_ids": [
+        "P72_003",
+        "P72_008",
+        "P72_015"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "103-1 Explanation of Substantive Issues and Their",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\n103-1 Explanation of Substantive Issues and Their",
+      "bm25_rank": 11,
+      "dense_rank": 11,
+      "bm25_score": 14.855903625488281,
+      "dense_score": 0.5198358297348022,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.52320301067571,
+      "normalized_dense": 0.5338732073393543,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.5713619965159965,
+      "rank": 7,
+      "rrf_score": 0.5713619965159965,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_014",
+      "alias_source_ids": [
+        "P72_014"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "GRI301: Materials 2016 GRI103:",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\nGRI301: Materials 2016 GRI103:",
+      "bm25_rank": 31,
+      "dense_rank": 5,
+      "bm25_score": 11.89246940612793,
+      "dense_score": 0.5410919785499573,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4047960805201427,
+      "normalized_dense": 0.5934226577594386,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.563153790615134,
+      "rank": 8,
+      "rrf_score": 0.563153790615134,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T68_001",
+      "alias_source_ids": [
+        "T68_001"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX",
+      "pages": [
+        68
+      ],
+      "text": "ESG aspects and general disclosure and key performance index (KPI) | Chapter B6: Product Responsibility | General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | 1.3 Craftsmanship Manufacturing B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Appendix 1 ESG Data B6.2 | Number of products and service related complaints received and how they are dealt with. | Appendix 1 ESG Data B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 1.3 Craftsmanship Manufacturing Appendix 1 ESG Data B6.4 | Description of quality assurance process and recall procedures. | 1.3 Craftsmanship Manufacturing B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 1.3 Craftsmanship Manufacturing",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX\n\n[Content]\nESG aspects and general disclosure and key performance index (KPI) | Chapter B6: Product Responsibility | General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | 1.3 Craftsmanship Manufacturing B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Appendix 1 ESG Data B6.2 | Number of products and service related complaints received and how they are dealt with. | Appendix 1 ESG Data B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 1.3 Craftsmanship Manufacturing Appendix 1 ESG Data B6.4 | Description of quality assurance process and recall procedures. | 1.3 Craftsmanship Manufacturing B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 1.3 Craftsmanship Manufacturing",
+      "bm25_rank": 1,
+      "dense_rank": 52,
+      "bm25_score": 26.788959503173828,
+      "dense_score": 0.4605557918548584,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.3677992064782209,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.6577181208053691,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.5602733464284511,
+      "rank": 9,
+      "rrf_score": 0.5602733464284511,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T74_001",
+      "alias_source_ids": [
+        "T74_001"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX",
+      "pages": [
+        74
+      ],
+      "text": "Disclosure Issue/Item | Headline of Disclosure Item | Chapter GRI306: Wastewater and Wastes 2016 GRI103: | 103-1 Explanation of Substantive Issues and Their | 2.4 Emissions Management Management | Boundaries Measures 2016 | 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods 306-1 | Total Amount of Water Discharge by Water Quality and Discharge Destination | Appendix 1 ESG Data 306-2 | Total Amount of Wastes by Type and Treatment Method | Appendix 1 ESG Data 306-3 | Significant Spills | 2.4 Emissions Management 306-4 | Transport of Hazardous Waste | 2.4 Emissions Management GRI307: Environmental Compliance 2016 GRI103: | 103-1 Explanation of Substantive Issues and Their | 2.1 Environmental Management Management | Boundaries Measures 2016 | 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods 307-1 | Non-compliance with Environmental Laws and | 1.4 Industry Co-Construction GRI308: Supplier Environmental Assessment 2016 GRI103: | 103-1 Explanation of Substantive Issues and Their | 1.4 Industry Co-Construction Management | Boundaries Measures 2016 | 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods 308-1 | New Suppliers Selected Using Environmental Standards | Appendix 1 ESG Data 308-2 | Negative Environmental Impacts in the Supply Chain and Actions Taken | 1.4 Industry Co-Construction Society GRI103: | 103-1 Explanation of Substantive Issues and Their | 3.1 Employer Responsibility Management | Boundaries Measures 2016 | 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods 401-1 | New Employee Hires and Employee Turnover | Appendix 1 ESG Data 401-2 | Benefits Provided to Full-time Employees (Excluding Temporary or Part-Time Employees) | 3.1 Employer Responsibility",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX\n\n[Content]\nDisclosure Issue/Item | Headline of Disclosure Item | Chapter GRI306: Wastewater and Wastes 2016 GRI103: | 103-1 Explanation of Substantive Issues and Their | 2.4 Emissions Management Management | Boundaries Measures 2016 | 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods 306-1 | Total Amount of Water Discharge by Water Quality and Discharge Destination | Appendix 1 ESG Data 306-2 | Total Amount of Wastes by Type and Treatment Method | Appendix 1 ESG Data 306-3 | Significant Spills | 2.4 Emissions Management 306-4 | Transport of Hazardous Waste | 2.4 Emissions Management GRI307: Environmental Compliance 2016 GRI103: | 103-1 Explanation of Substantive Issues and Their | 2.1 Environmental Management Management | Boundaries Measures 2016 | 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods 307-1 | Non-compliance with Environmental Laws and | 1.4 Industry Co-Construction GRI308: Supplier Environmental Assessment 2016 GRI103: | 103-1 Explanation of Substantive Issues and Their | 1.4 Industry Co-Construction Management | Boundaries Measures 2016 | 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods 308-1 | New Suppliers Selected Using Environmental Standards | Appendix 1 ESG Data 308-2 | Negative Environmental Impacts in the Supply Chain and Actions Taken | 1.4 Industry Co-Construction Society GRI103: | 103-1 Explanation of Substantive Issues and Their | 3.1 Employer Responsibility Management | Boundaries Measures 2016 | 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods 401-1 | New Employee Hires and Employee Turnover | Appendix 1 ESG Data 401-2 | Benefits Provided to Full-time Employees (Excluding Temporary or Part-Time Employees) | 3.1 Employer Responsibility",
+      "bm25_rank": 14,
+      "dense_rank": 13,
+      "bm25_score": 14.224319458007812,
+      "dense_score": 0.5151106715202332,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.49796744380614605,
+      "normalized_dense": 0.5206355989055574,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.5569837336130736,
+      "rank": 10,
+      "rrf_score": 0.5569837336130736,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T64_001",
+      "alias_source_ids": [
+        "T64_001"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / CONTENT INDEX OF ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE STOCK EXCHANGE",
+      "pages": [
+        64
+      ],
+      "text": "ESG aspects and general disclosure and key performance index (KPI) | Chapter Environmental A1: Emissions | General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous waste. | 2.1 Environmental Management A1.1 | The types of emissions and respective emissions data. | Appendix 1 ESG Data A1.2 | Direct (scope 1) and energy indirect (scope 2) greenhouse gas emissions in total (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Appendix 1 ESG Data A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Appendix 1 ESG Data A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Appendix 1 ESG Data A1.5 | Description of emissions target(s) set and steps taken to achieve them. | 2.4 Emissions Management A1.6 | Description of how hazardous and non-hazardous wastes are handled, description of reduction target(s) set and steps taken to achieve them. | 2.4 Emissions Management",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / CONTENT INDEX OF ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE STOCK EXCHANGE\n\n[Content]\nESG aspects and general disclosure and key performance index (KPI) | Chapter Environmental A1: Emissions | General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous waste. | 2.1 Environmental Management A1.1 | The types of emissions and respective emissions data. | Appendix 1 ESG Data A1.2 | Direct (scope 1) and energy indirect (scope 2) greenhouse gas emissions in total (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Appendix 1 ESG Data A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Appendix 1 ESG Data A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Appendix 1 ESG Data A1.5 | Description of emissions target(s) set and steps taken to achieve them. | 2.4 Emissions Management A1.6 | Description of how hazardous and non-hazardous wastes are handled, description of reduction target(s) set and steps taken to achieve them. | 2.4 Emissions Management",
+      "bm25_rank": 10,
+      "dense_rank": 18,
+      "bm25_score": 16.055734634399414,
+      "dense_score": 0.5011138916015625,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5711434392306887,
+      "normalized_dense": 0.4814233898146309,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.553867813878574,
+      "rank": 11,
+      "rrf_score": 0.553867813878574,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P14_002",
+      "alias_source_ids": [
+        "P14_002"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "Currently, the Group's ESG management structure is as follows:",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nCurrently, the Group's ESG management structure is as follows:",
+      "bm25_rank": 4,
+      "dense_rank": 45,
+      "bm25_score": 20.968042373657227,
+      "dense_score": 0.4696333408355713,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7674195285006911,
+      "normalized_dense": 0.3932301092096434,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5300406184201577,
+      "rank": 12,
+      "rrf_score": 0.5300406184201577,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_001",
+      "alias_source_ids": [
+        "P5_001"
+      ],
+      "section": "STATEMENT OF THE BOARD / RESPONSIBILITY OF THE BOARD",
+      "pages": [
+        5
+      ],
+      "text": "As the leader of the ESG works of Impro Group, the Board undertakes ultimate responsibility on the Group's ESG strategy, policy and performance. Under the supervision of the Board, we have established the Sustainability Committee to formulate the strategic framework of sustainable development of the Group.",
+      "retrieval_text": "[Section]\nSTATEMENT OF THE BOARD / RESPONSIBILITY OF THE BOARD\n\n[Content]\nAs the leader of the ESG works of Impro Group, the Board undertakes ultimate responsibility on the Group's ESG strategy, policy and performance. Under the supervision of the Board, we have established the Sustainability Committee to formulate the strategic framework of sustainable development of the Group.",
+      "bm25_rank": 5,
+      "dense_rank": 42,
+      "bm25_score": 20.315074920654297,
+      "dense_score": 0.47114479541778564,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7413295714176332,
+      "normalized_dense": 0.3974644740745342,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.5296603594042446,
+      "rank": 13,
+      "rrf_score": 0.5296603594042446,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P14_003",
+      "alias_source_ids": [
+        "P14_003"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "As at the end of the Reporting Period, the Sustainability Committee held two meetings to identify and manage internal and external risks, formulate risk management mechanism and risk prevention system based on the demands of various stakeholders, set ESG-related objectives, review, formulate and approve the Group's sustainability standards, priorities and goals, review the Company's performance on sustainable development matters, review the key performance indicators of sustainable development and make recommendations to the Board.",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nAs at the end of the Reporting Period, the Sustainability Committee held two meetings to identify and manage internal and external risks, formulate risk management mechanism and risk prevention system based on the demands of various stakeholders, set ESG-related objectives, review, formulate and approve the Group's sustainability standards, priorities and goals, review the Company's performance on sustainable development matters, review the key performance indicators of sustainable development and make recommendations to the Board.",
+      "bm25_rank": 36,
+      "dense_rank": 12,
+      "bm25_score": 11.64409065246582,
+      "dense_score": 0.5171635150909424,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3948718630211141,
+      "normalized_dense": 0.5263866739237649,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.5249546749204936,
+      "rank": 14,
+      "rrf_score": 0.5249546749204936,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T22_001",
+      "alias_source_ids": [
+        "T22_001"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY",
+      "pages": [
+        22
+      ],
+      "text": "Types of Issues | Major Issues | Corresponding Stock Exchange/GRI disclosures Economic issues | 1 Financial performance 2 Corporate governance | GRI 102 General Disclosures GRI 102 General Disclosures Environmental issues | 3 Utilization of resources 4 Discharge of pollutants | GRI 302 Energy; A2 Use of Resources GRI 305 Emissions; A1 Emission Employment issues | 14 Health and safety management | GRI 403 Occupational Health and Safety; B2 Health and Safety Operation issues | 19 Product quality assurance 20 Customer privacy protection | B6 Product Responsibility GRI 418 Customer Privacy; B6 Product Responsibility B6 Product Responsibility 21 Maintenance of customer relationship 22 Protection of intellectual property | B6 Product Responsibility GRI 205 Anti-Corruption; 23 Anti-corruption management | B7 Anti-corruption",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY\n\n[Content]\nTypes of Issues | Major Issues | Corresponding Stock Exchange/GRI disclosures Economic issues | 1 Financial performance 2 Corporate governance | GRI 102 General Disclosures GRI 102 General Disclosures Environmental issues | 3 Utilization of resources 4 Discharge of pollutants | GRI 302 Energy; A2 Use of Resources GRI 305 Emissions; A1 Emission Employment issues | 14 Health and safety management | GRI 403 Occupational Health and Safety; B2 Health and Safety Operation issues | 19 Product quality assurance 20 Customer privacy protection | B6 Product Responsibility GRI 418 Customer Privacy; B6 Product Responsibility B6 Product Responsibility 21 Maintenance of customer relationship 22 Protection of intellectual property | B6 Product Responsibility GRI 205 Anti-Corruption; 23 Anti-corruption management | B7 Anti-corruption",
+      "bm25_rank": 3,
+      "dense_rank": 57,
+      "bm25_score": 21.973705291748047,
+      "dense_score": 0.4566017985343933,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8076017799319802,
+      "normalized_dense": 0.35672202917550533,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.5098629990837289,
+      "rank": 15,
+      "rrf_score": 0.5098629990837289,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_004",
+      "alias_source_ids": [
+        "P72_004"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "1.1 Sustainable Development Management",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\n1.1 Sustainable Development Management",
+      "bm25_rank": 26,
+      "dense_rank": 20,
+      "bm25_score": 12.135570526123047,
+      "dense_score": 0.49794989824295044,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4145094249729901,
+      "normalized_dense": 0.47255941039500005,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.5060157994382171,
+      "rank": 16,
+      "rrf_score": 0.5060157994382171,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L14_004",
+      "alias_source_ids": [
+        "L14_004"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "Review the Company's public reporting on sustainable development matters and make recommendations to the Board",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nReview the Company's public reporting on sustainable development matters and make recommendations to the Board",
+      "bm25_rank": 90,
+      "dense_rank": 3,
+      "bm25_score": 8.028064727783203,
+      "dense_score": 0.5513406991958618,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.25038998915079325,
+      "normalized_dense": 0.6221346171684475,
+      "normalized_bm25_rank": 0.40268456375838924,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.505409006456565,
+      "rank": 17,
+      "rrf_score": 0.505409006456565,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_002",
+      "alias_source_ids": [
+        "P72_002"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "GRI201: Economic Performance 2016 GRI103:",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\nGRI201: Economic Performance 2016 GRI103:",
+      "bm25_rank": 34,
+      "dense_rank": 22,
+      "bm25_score": 11.7745361328125,
+      "dense_score": 0.49326956272125244,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.40008394054239366,
+      "normalized_dense": 0.45944737347230025,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.49048779835398515,
+      "rank": 18,
+      "rrf_score": 0.49048779835398515,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_009",
+      "alias_source_ids": [
+        "P72_009",
+        "P72_011",
+        "P72_013"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "1.2 Compliance Operation",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\n1.2 Compliance Operation",
+      "bm25_rank": 23,
+      "dense_rank": 26,
+      "bm25_score": 12.260886192321777,
+      "dense_score": 0.48724105954170227,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4195165357224213,
+      "normalized_dense": 0.4425584226882339,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.49047660743435945,
+      "rank": 19,
+      "rrf_score": 0.49047660743435945,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T71_001",
+      "alias_source_ids": [
+        "T71_001"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX",
+      "pages": [
+        71
+      ],
+      "text": "Disclosure Issue/Item | Headline of Disclosure Item | Chapter 102-31 | Review of Economic, Environmental and Social Issues | 1.1 Sustainable Development Management 102-32 | Role of the Highest Governance Body in Sustainable Development Report | Statement of the Board 1.1 Sustainable Development Management 102-33 | Communication of Important Concerns | 1.1 Sustainable Development Management 102-34 | Nature and Total Number of Important Concerns | 1.1 Sustainable Development Management 102-35 | Remuneration Policy | 1.1 Sustainable Development Management 3.1 Employer Responsibility Stakeholder Engagement 102-40 | List of Each Stakeholder Group | 1.1 Sustainable Development Management 102-42 | Identification and Selection of Each Stakeholder | 1.1 Sustainable Development Management 102-43 | Each Stakeholder Engagement Policy | 1.1 Sustainable Development Management 102-44 | Major Issues Raised and Concerns | 1.1 Sustainable Development Management Reporting Practice 102-45 | Entities Covered in Combined Financial Statements | About This Report 102-46 | Definition of Report Contents and Issue Boundaries | About This Report 102-47 | List of Substantive Issues | 1.1 Sustainable Development Management 102-48 | Information Restatement | About This Report 102-49 | Report Changes | About This Report 102-50 | Reporting Period | About This Report 102-51 | Latest Reporting Date | About This Report 102-52 | Reporting Cycle | About This Report 102-53 | Contact Information for Issues Related to This Report | About This Report 102-54 | Statement of Reporting in Compliance with GRI Standards | About This Report 102-55 | GRI Content Index | Appendix 2: ESG Content Index GRI103: Management Measures 2016 General Requirements for Report Management Methods 103-1 | Explanation of Substantive Issues and Their Boundaries 103-2 | Management Method and Its Components | 1.1 Sustainable Development Management 103-3 | Evaluation of Management Methods",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX\n\n[Content]\nDisclosure Issue/Item | Headline of Disclosure Item | Chapter 102-31 | Review of Economic, Environmental and Social Issues | 1.1 Sustainable Development Management 102-32 | Role of the Highest Governance Body in Sustainable Development Report | Statement of the Board 1.1 Sustainable Development Management 102-33 | Communication of Important Concerns | 1.1 Sustainable Development Management 102-34 | Nature and Total Number of Important Concerns | 1.1 Sustainable Development Management 102-35 | Remuneration Policy | 1.1 Sustainable Development Management 3.1 Employer Responsibility Stakeholder Engagement 102-40 | List of Each Stakeholder Group | 1.1 Sustainable Development Management 102-42 | Identification and Selection of Each Stakeholder | 1.1 Sustainable Development Management 102-43 | Each Stakeholder Engagement Policy | 1.1 Sustainable Development Management 102-44 | Major Issues Raised and Concerns | 1.1 Sustainable Development Management Reporting Practice 102-45 | Entities Covered in Combined Financial Statements | About This Report 102-46 | Definition of Report Contents and Issue Boundaries | About This Report 102-47 | List of Substantive Issues | 1.1 Sustainable Development Management 102-48 | Information Restatement | About This Report 102-49 | Report Changes | About This Report 102-50 | Reporting Period | About This Report 102-51 | Latest Reporting Date | About This Report 102-52 | Reporting Cycle | About This Report 102-53 | Contact Information for Issues Related to This Report | About This Report 102-54 | Statement of Reporting in Compliance with GRI Standards | About This Report 102-55 | GRI Content Index | Appendix 2: ESG Content Index GRI103: Management Measures 2016 General Requirements for Report Management Methods 103-1 | Explanation of Substantive Issues and Their Boundaries 103-2 | Management Method and Its Components | 1.1 Sustainable Development Management 103-3 | Evaluation of Management Methods",
+      "bm25_rank": 58,
+      "dense_rank": 14,
+      "bm25_score": 9.867913246154785,
+      "dense_score": 0.5119450688362122,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.32390294705227496,
+      "normalized_dense": 0.5117671109343314,
+      "normalized_bm25_rank": 0.6174496644295302,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4881943802508938,
+      "rank": 20,
+      "rrf_score": 0.4881943802508938,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T65_001",
+      "alias_source_ids": [
+        "T65_001"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX",
+      "pages": [
+        65
+      ],
+      "text": "ESG aspects and general disclosure and key performance index (KPI) | Chapter A2: Use of | General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 2.2 Addressing Climate Change 2.3 Use of Resources A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Appendix 1 ESG Data A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Appendix 1 ESG Data A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 2.2 Addressing Climate Change A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | 2.3 Use of Resources A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Appendix 1 ESG Data A3: The Environment and Natural Resources | General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | 2.1 Environmental Management A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 2.1 Environmental Management 2.4 Emissions Management A4: Climate Change | General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | 2.2 Addressing Climate Change A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 2.2 Addressing Climate Change",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX\n\n[Content]\nESG aspects and general disclosure and key performance index (KPI) | Chapter A2: Use of | General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 2.2 Addressing Climate Change 2.3 Use of Resources A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Appendix 1 ESG Data A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Appendix 1 ESG Data A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 2.2 Addressing Climate Change A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | 2.3 Use of Resources A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Appendix 1 ESG Data A3: The Environment and Natural Resources | General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | 2.1 Environmental Management A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 2.1 Environmental Management 2.4 Emissions Management A4: Climate Change | General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | 2.2 Addressing Climate Change A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 2.2 Addressing Climate Change",
+      "bm25_rank": 48,
+      "dense_rank": 17,
+      "bm25_score": 10.34738540649414,
+      "dense_score": 0.5020080804824829,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3430607290033436,
+      "normalized_dense": 0.4839284746676592,
+      "normalized_bm25_rank": 0.6845637583892618,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.48496697770616154,
+      "rank": 21,
+      "rrf_score": 0.48496697770616154,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_001",
+      "alias_source_ids": [
+        "P72_001",
+        "P76_001"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "Headline of Disclosure Item",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\nHeadline of Disclosure Item",
+      "bm25_rank": 25,
+      "dense_rank": 30,
+      "bm25_score": 12.135570526123047,
+      "dense_score": 0.4838065505027771,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4145094249729901,
+      "normalized_dense": 0.43293658914212196,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.4793961341473608,
+      "rank": 22,
+      "rrf_score": 0.4793961341473608,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_016",
+      "alias_source_ids": [
+        "P72_016"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods Weight or Volume of Materials Used Use of Recycled Materials Recycling products and their packaging materials",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\n103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods Weight or Volume of Materials Used Use of Recycled Materials Recycling products and their packaging materials",
+      "bm25_rank": 46,
+      "dense_rank": 24,
+      "bm25_score": 10.498126983642578,
+      "dense_score": 0.4900391399860382,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.34908375704302375,
+      "normalized_dense": 0.4503972910618215,
+      "normalized_bm25_rank": 0.697986577181208,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.4663819777768866,
+      "rank": 23,
+      "rrf_score": 0.4663819777768866,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_003",
+      "alias_source_ids": [
+        "P58_003"
+      ],
+      "section": "APPENDIX 1 ESG DATA / Economic Performance",
+      "pages": [
+        58
+      ],
+      "text": "1 In 2019, data categories including comprehensive energy consumption per unit revenue, greenhouse gas emission per unit revenue, water consumption per unit revenue, hazardous waste disposal per unit revenue, non-hazardous solid waste disposal per unit revenue, nitrogen oxides, sulfur dioxide, particulates, total amount of waste water, chemical oxygen demand and ammonia nitrogen only include China region and Turkish Plants of Impro Group. 2 Scope 1 greenhouse gases consist of the greenhouse gas emissions from natural gas, diesel and gasoline. Scope 2 greenhouse gases consist of purchased electricity and purchased steam. Calculation is made with reference to Greenhouse gas emissions accounting methods and reporting guidelines for mechanic equipment manufacturers (trial) and GHG Protocol issued by WRI and WBCSD.",
+      "retrieval_text": "[Section]\nAPPENDIX 1 ESG DATA / Economic Performance\n\n[Content]\n1 In 2019, data categories including comprehensive energy consumption per unit revenue, greenhouse gas emission per unit revenue, water consumption per unit revenue, hazardous waste disposal per unit revenue, non-hazardous solid waste disposal per unit revenue, nitrogen oxides, sulfur dioxide, particulates, total amount of waste water, chemical oxygen demand and ammonia nitrogen only include China region and Turkish Plants of Impro Group. 2 Scope 1 greenhouse gases consist of the greenhouse gas emissions from natural gas, diesel and gasoline. Scope 2 greenhouse gases consist of purchased electricity and purchased steam. Calculation is made with reference to Greenhouse gas emissions accounting methods and reporting guidelines for mechanic equipment manufacturers (trial) and GHG Protocol issued by WRI and WBCSD.",
+      "bm25_rank": 20,
+      "dense_rank": 40,
+      "bm25_score": 13.081791877746582,
+      "dense_score": 0.47300204634666443,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.45231663012754814,
+      "normalized_dense": 0.4026675930905278,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.46629631246625475,
+      "rank": 24,
+      "rrf_score": 0.46629631246625475,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L14_010",
+      "alias_source_ids": [
+        "L14_010"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "Review progress against ESG-related goals",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nReview progress against ESG-related goals",
+      "bm25_rank": 73,
+      "dense_rank": 15,
+      "bm25_score": 8.840293884277344,
+      "dense_score": 0.5063740611076355,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2828434043050786,
+      "normalized_dense": 0.4961598411787558,
+      "normalized_bm25_rank": 0.5167785234899329,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.4631105313138487,
+      "rank": 25,
+      "rrf_score": 0.4631105313138487,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P22_001",
+      "alias_source_ids": [
+        "P22_001"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY",
+      "pages": [
+        22
+      ],
+      "text": "The table below sets forth the highly important issues identified together with the disclosure standards of the GRI Sustainable Development Report and the Stock Exchange ESG Report.",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY\n\n[Content]\nThe table below sets forth the highly important issues identified together with the disclosure standards of the GRI Sustainable Development Report and the Stock Exchange ESG Report.",
+      "bm25_rank": 100,
+      "dense_rank": 8,
+      "bm25_score": 7.414921760559082,
+      "dense_score": 0.526214063167572,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.22589125858300144,
+      "normalized_dense": 0.5517419331784228,
+      "normalized_bm25_rank": 0.3355704697986577,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4624490021545516,
+      "rank": 26,
+      "rrf_score": 0.4624490021545516,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T63_001",
+      "alias_source_ids": [
+        "T63_001"
+      ],
+      "section": "APPENDIX 1 ESG DATA",
+      "pages": [
+        63
+      ],
+      "text": "2021 | 2020 | 2019 | Unit | Indicators of the Stock Exchange Suppliers' Environmental Total number of suppliers obtaining ISO 14001 certification | 110 | N/A | N/A | number | B5: Supply Chain Management Product quality Total number of product complaints | 446 | N/A | N/A | number | B6: Product Percentage of product recall due to safety and health reasons | 0 | 0 | N/A | % | Responsibility Product research and development Total invention patent newly applied | 6 | 3 | N/A | SKUs Total existing invention patents | 90 | 85 | N/A | SKUs Total utility patent newly applied | 28 | 46 | N/A | SKUs | B6: Product Total existing utility patent | 291 | 256 | N/A | SKUs | Responsibility Research and development costs expenses | 211.0 | 171.3 | 177.6 | HK$ million Commercial Ethics Performance Corruption litigation cases | 0 | 0 | 0 | incident Number of directors and employees who have participated in anti-corruption training | 2,466 | N/A | N/A | number | B7:Anti-corruption Social Contributions Total number of staff who have taken part in chartable activities | 120 | N/A | N/A | staff Total number of hours of participation in community events | 280 | N/A | N/A | hours | B8: Social Investment Social donations | 0.6 | 0.2 | 1.0 | HK$ million",
+      "retrieval_text": "[Section]\nAPPENDIX 1 ESG DATA\n\n[Content]\n2021 | 2020 | 2019 | Unit | Indicators of the Stock Exchange Suppliers' Environmental Total number of suppliers obtaining ISO 14001 certification | 110 | N/A | N/A | number | B5: Supply Chain Management Product quality Total number of product complaints | 446 | N/A | N/A | number | B6: Product Percentage of product recall due to safety and health reasons | 0 | 0 | N/A | % | Responsibility Product research and development Total invention patent newly applied | 6 | 3 | N/A | SKUs Total existing invention patents | 90 | 85 | N/A | SKUs Total utility patent newly applied | 28 | 46 | N/A | SKUs | B6: Product Total existing utility patent | 291 | 256 | N/A | SKUs | Responsibility Research and development costs expenses | 211.0 | 171.3 | 177.6 | HK$ million Commercial Ethics Performance Corruption litigation cases | 0 | 0 | 0 | incident Number of directors and employees who have participated in anti-corruption training | 2,466 | N/A | N/A | number | B7:Anti-corruption Social Contributions Total number of staff who have taken part in chartable activities | 120 | N/A | N/A | staff Total number of hours of participation in community events | 280 | N/A | N/A | hours | B8: Social Investment Social donations | 0.6 | 0.2 | 1.0 | HK$ million",
+      "bm25_rank": 32,
+      "dense_rank": 38,
+      "bm25_score": 11.818929672241211,
+      "dense_score": 0.4748726487159729,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4018577280920388,
+      "normalized_dense": 0.4079081163864226,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.45266958769593757,
+      "rank": 27,
+      "rrf_score": 0.45266958769593757,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_007",
+      "alias_source_ids": [
+        "P72_007"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "3.1 Employer Responsibility",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\n3.1 Employer Responsibility",
+      "bm25_rank": 22,
+      "dense_rank": 43,
+      "bm25_score": 12.260886192321777,
+      "dense_score": 0.47022825479507446,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4195165357224213,
+      "normalized_dense": 0.3948967704493498,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.45164737814403855,
+      "rank": 28,
+      "rrf_score": 0.45164737814403855,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T77_001",
+      "alias_source_ids": [
+        "T77_001"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX",
+      "pages": [
+        77
+      ],
+      "text": "Disclosure Issue/Item | Headline of Disclosure Item | Chapter GRI414: Supplier Assessment for Impacts on Society 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods | 1.4 Industry Co-Construction 414-1 | Selecting New Suppliers by Using Social Standards | 1.4 Industry Co-Construction GRI418: Customer Privacy 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods | 1.3 Craftsmanship Manufacturing 418-1 | Substantiated Complaints Concerning Breaches of Customer Privacy and Losses of Customer Data | 1.3 Craftsmanship Manufacturing GRI419: Socioeconomic Compliance 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods | 1.2 Compliance Operation",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX\n\n[Content]\nDisclosure Issue/Item | Headline of Disclosure Item | Chapter GRI414: Supplier Assessment for Impacts on Society 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods | 1.4 Industry Co-Construction 414-1 | Selecting New Suppliers by Using Social Standards | 1.4 Industry Co-Construction GRI418: Customer Privacy 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods | 1.3 Craftsmanship Manufacturing 418-1 | Substantiated Complaints Concerning Breaches of Customer Privacy and Losses of Customer Data | 1.3 Craftsmanship Manufacturing GRI419: Socioeconomic Compliance 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods | 1.2 Compliance Operation",
+      "bm25_rank": 56,
+      "dense_rank": 27,
+      "bm25_score": 9.933910369873047,
+      "dense_score": 0.4862751066684723,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3265399270694198,
+      "normalized_dense": 0.43985228983073643,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.44744420631772897,
+      "rank": 29,
+      "rrf_score": 0.44744420631772897,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L14_001",
+      "alias_source_ids": [
+        "L14_001"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "Review, formulate and endorse sustainability standards, priorities and goals",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nReview, formulate and endorse sustainability standards, priorities and goals",
+      "bm25_rank": 79,
+      "dense_rank": 19,
+      "bm25_score": 8.496447563171387,
+      "dense_score": 0.4980095624923706,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.26910468621190975,
+      "normalized_dense": 0.4727265607708087,
+      "normalized_bm25_rank": 0.47651006711409394,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.44276516639807106,
+      "rank": 30,
+      "rrf_score": 0.44276516639807106,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_006",
+      "alias_source_ids": [
+        "P72_006"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "2.2 Addressing Climate Change",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\n2.2 Addressing Climate Change",
+      "bm25_rank": 27,
+      "dense_rank": 46,
+      "bm25_score": 12.135570526123047,
+      "dense_score": 0.4688761532306671,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4145094249729901,
+      "normalized_dense": 0.3911088356840838,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.697986577181208,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.44193762849073875,
+      "rank": 31,
+      "rrf_score": 0.44193762849073875,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T21_001",
+      "alias_source_ids": [
+        "T21_001"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / Impro Group 2021 Materiality Matrix",
+      "pages": [
+        21
+      ],
+      "text": "1 Financial performance | 3 Utilization of resources 2 Corporate governance | 4 Discharge of pollutants 5 Environmental impact on soil and ground water 6 Emission of greenhouse gases 7 Disposal of general solid waste 8 Disposal of hazardous waste 9 Use of packaging materials 10 Noise reduction 11 Green design 12 Climate change risk and actions Employment issues | Operation issues 13 Employee remuneration and benefits | 19 Product quality assurance 14 Health and safety management | 20 Customer privacy protection 15 Career development and training | 21 Maintenance of customer relationship 16 Diversity and equal opportunities | 22 Protection of intellectual property 17 Protection for human rights | 23 Anti-corruption management Supplier management issues | Community issues 24 Diversification and localization of suppliers 25 Management of supplier ESG performance | 26 Contribution to community and charity 27 Community communication",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / Impro Group 2021 Materiality Matrix\n\n[Content]\n1 Financial performance | 3 Utilization of resources 2 Corporate governance | 4 Discharge of pollutants 5 Environmental impact on soil and ground water 6 Emission of greenhouse gases 7 Disposal of general solid waste 8 Disposal of hazardous waste 9 Use of packaging materials 10 Noise reduction 11 Green design 12 Climate change risk and actions Employment issues | Operation issues 13 Employee remuneration and benefits | 19 Product quality assurance 14 Health and safety management | 20 Customer privacy protection 15 Career development and training | 21 Maintenance of customer relationship 16 Diversity and equal opportunities | 22 Protection of intellectual property 17 Protection for human rights | 23 Anti-corruption management Supplier management issues | Community issues 24 Diversification and localization of suppliers 25 Management of supplier ESG performance | 26 Contribution to community and charity 27 Community communication",
+      "bm25_rank": 2,
+      "dense_rank": 79,
+      "bm25_score": 22.004573822021484,
+      "dense_score": 0.4150281548500061,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8088351624326658,
+      "normalized_dense": 0.24025278279910753,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.47651006711409394,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.4404863789494423,
+      "rank": 32,
+      "rrf_score": 0.4404863789494423,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L14_012",
+      "alias_source_ids": [
+        "L14_012"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "Report the progress of work to the ESG Working Team periodically and assist to assess the effectiveness of the Group's ESG risk management and internal control systems",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nReport the progress of work to the ESG Working Team periodically and assist to assess the effectiveness of the Group's ESG risk management and internal control systems",
+      "bm25_rank": 45,
+      "dense_rank": 36,
+      "bm25_score": 10.668878555297852,
+      "dense_score": 0.47653764486312866,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.35590630410239577,
+      "normalized_dense": 0.41257263047017767,
+      "normalized_bm25_rank": 0.7046979865771812,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.4390716143709474,
+      "rank": 33,
+      "rrf_score": 0.4390716143709474,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L14_008",
+      "alias_source_ids": [
+        "L14_008"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "Approve ESG strategy and policy",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nApprove ESG strategy and policy",
+      "bm25_rank": 44,
+      "dense_rank": 39,
+      "bm25_score": 10.836234092712402,
+      "dense_score": 0.47406846284866333,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.36259315927209457,
+      "normalized_dense": 0.4056551764559428,
+      "normalized_bm25_rank": 0.7114093959731543,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.4346321718019183,
+      "rank": 34,
+      "rrf_score": 0.4346321718019183,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_002",
+      "alias_source_ids": [
+        "P58_002"
+      ],
+      "section": "APPENDIX 1 ESG DATA / Economic Performance",
+      "pages": [
+        58
+      ],
+      "text": "Equality and Diversification Proportion of female members in the Board",
+      "retrieval_text": "[Section]\nAPPENDIX 1 ESG DATA / Economic Performance\n\n[Content]\nEquality and Diversification Proportion of female members in the Board",
+      "bm25_rank": 37,
+      "dense_rank": 47,
+      "bm25_score": 11.550034523010254,
+      "dense_score": 0.4688177704811096,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3911137578206038,
+      "normalized_dense": 0.3909452754512121,
+      "normalized_bm25_rank": 0.7583892617449665,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.42914755770358864,
+      "rank": 35,
+      "rrf_score": 0.42914755770358864,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_005",
+      "alias_source_ids": [
+        "P72_005"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods Economic Value Directly Generated and Distributed Financial Impact Brought About by Climate Changes and Other Risks and Opportunities Compulsory Fixed Benefit Plan and Other Retirement Plans",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\n103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods Economic Value Directly Generated and Distributed Financial Impact Brought About by Climate Changes and Other Risks and Opportunities Compulsory Fixed Benefit Plan and Other Retirement Plans",
+      "bm25_rank": 59,
+      "dense_rank": 34,
+      "bm25_score": 9.78930950164795,
+      "dense_score": 0.47894662618637085,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.32076225709702566,
+      "normalized_dense": 0.4193214312580721,
+      "normalized_bm25_rank": 0.610738255033557,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.4276934758496632,
+      "rank": 36,
+      "rrf_score": 0.4276934758496632,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_004",
+      "alias_source_ids": [
+        "P8_004"
+      ],
+      "section": "2021 ESG HIGHLIGHTS / ENVIRONMENTAL HIGHLIGHTS",
+      "pages": [
+        8
+      ],
+      "text": "Green capital expenditures with certification from the HKQAA Green and Sustainable Finance Certification Scheme",
+      "retrieval_text": "[Section]\n2021 ESG HIGHLIGHTS / ENVIRONMENTAL HIGHLIGHTS\n\n[Content]\nGreen capital expenditures with certification from the HKQAA Green and Sustainable Finance Certification Scheme",
+      "bm25_rank": 84,
+      "dense_rank": 23,
+      "bm25_score": 8.178346633911133,
+      "dense_score": 0.49182918667793274,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.25639465058254796,
+      "normalized_dense": 0.4554121363028658,
+      "normalized_bm25_rank": 0.4429530201342282,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.42543827849365357,
+      "rank": 37,
+      "rrf_score": 0.42543827849365357,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L14_006",
+      "alias_source_ids": [
+        "L14_006"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "Review ESG-related policies",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nReview ESG-related policies",
+      "bm25_rank": 67,
+      "dense_rank": 31,
+      "bm25_score": 9.022869110107422,
+      "dense_score": 0.4829922616481781,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.29013837710108864,
+      "normalized_dense": 0.43065534552662765,
+      "normalized_bm25_rank": 0.5570469798657718,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.42419328796527567,
+      "rank": 38,
+      "rrf_score": 0.42419328796527567,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_001",
+      "alias_source_ids": [
+        "P25_001"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY",
+      "pages": [
+        25
+      ],
+      "text": "Impro Group takes comprehensive production management processes and specifications as the basic guarantee for product quality and have been in pursuit of higher product quality under the guidance of industry standards. During the Reporting Period, we have obtained quality system certifications by benchmarking against industry standards in many industries, such as aviation and aerospace, vessel and marine, automobile and medical device, and obtained the new ISO 3834-2 Welding Quality Management System Certification, which has been recognized by the industry. As at the end of the Reporting Period, we have obtained the following quality management system certifications:",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY\n\n[Content]\nImpro Group takes comprehensive production management processes and specifications as the basic guarantee for product quality and have been in pursuit of higher product quality under the guidance of industry standards. During the Reporting Period, we have obtained quality system certifications by benchmarking against industry standards in many industries, such as aviation and aerospace, vessel and marine, automobile and medical device, and obtained the new ISO 3834-2 Welding Quality Management System Certification, which has been recognized by the industry. As at the end of the Reporting Period, we have obtained the following quality management system certifications:",
+      "bm25_rank": 29,
+      "dense_rank": 54,
+      "bm25_score": 11.924532890319824,
+      "dense_score": 0.45960327982902527,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4060772085804353,
+      "normalized_dense": 0.3651307283757133,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.6442953020134228,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.41907831074154644,
+      "rank": 39,
+      "rrf_score": 0.41907831074154644,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P72_010",
+      "alias_source_ids": [
+        "P72_010"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX / Disclosure",
+      "pages": [
+        72
+      ],
+      "text": "103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods Operation Points Which Have Been Assessed for Corruption Risk Communication and Training of Anti-Corruption Policies and Procedures Confirmed Corruption Incidents and Actions Taken",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX / Disclosure\n\n[Content]\n103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods Operation Points Which Have Been Assessed for Corruption Risk Communication and Training of Anti-Corruption Policies and Procedures Confirmed Corruption Incidents and Actions Taken",
+      "bm25_rank": 55,
+      "dense_rank": 41,
+      "bm25_score": 9.991399765014648,
+      "dense_score": 0.4728124141693115,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.32883697241996135,
+      "normalized_dense": 0.40213633542755556,
+      "normalized_bm25_rank": 0.6375838926174497,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.4165822259775965,
+      "rank": 40,
+      "rrf_score": 0.4165822259775965,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_005",
+      "alias_source_ids": [
+        "P3_005"
+      ],
+      "section": "ABOUT THIS REPORT / SCOPE OF THE REPORT",
+      "pages": [
+        3
+      ],
+      "text": "This Report, after confirmation by the management, has been approved by the Board of Directors ('the Board') on 5 May 2022 for issuance.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / SCOPE OF THE REPORT\n\n[Content]\nThis Report, after confirmation by the management, has been approved by the Board of Directors ('the Board') on 5 May 2022 for issuance.",
+      "bm25_rank": 123,
+      "dense_rank": 10,
+      "bm25_score": 4.32839298248291,
+      "dense_score": 0.5229306817054749,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10256596421297882,
+      "normalized_dense": 0.5425434860237823,
+      "normalized_bm25_rank": 0.18120805369127513,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.4164436814072954,
+      "rank": 41,
+      "rrf_score": 0.4164436814072954,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_004",
+      "alias_source_ids": [
+        "P5_004"
+      ],
+      "section": "STATEMENT OF THE BOARD / RESPONSIBILITY OF THE BOARD",
+      "pages": [
+        5
+      ],
+      "text": "Impro Group actively and regularly communicates with internal and external stakeholders to identify and assess ESG materiality development issues as an important basis for the formulation of sustainability strategy. We discuss the materiality issues identified and acknowledge the materiality of the issues. We formulate our sustainability goal, strategy and management direction based on the materiality of the relevant issues, the carbon neutrality and emission peak strategy of the PRC government and the Group's environmentally friendly development philosophy. We pay attention to our peers' and international sustainability performance for active follow-up and regular review on the Group's sustainability-related work.",
+      "retrieval_text": "[Section]\nSTATEMENT OF THE BOARD / RESPONSIBILITY OF THE BOARD\n\n[Content]\nImpro Group actively and regularly communicates with internal and external stakeholders to identify and assess ESG materiality development issues as an important basis for the formulation of sustainability strategy. We discuss the materiality issues identified and acknowledge the materiality of the issues. We formulate our sustainability goal, strategy and management direction based on the materiality of the relevant issues, the carbon neutrality and emission peak strategy of the PRC government and the Group's environmentally friendly development philosophy. We pay attention to our peers' and international sustainability performance for active follow-up and regular review on the Group's sustainability-related work.",
+      "bm25_rank": 19,
+      "dense_rank": 61,
+      "bm25_score": 13.112895011901855,
+      "dense_score": 0.4479772448539734,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4535593864571749,
+      "normalized_dense": 0.33256020022644617,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.5973154362416108,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.41449049770626156,
+      "rank": 42,
+      "rrf_score": 0.41449049770626156,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T58_001",
+      "alias_source_ids": [
+        "T58_001"
+      ],
+      "section": "APPENDIX 1 ESG DATA / Economic Performance",
+      "pages": [
+        58
+      ],
+      "text": "2021 | 2020 | 2019 1 | Unit | Indicators of the Stock Exchange Greenhouse Gas Emission Scope 1 Greenhouse Gas Emissions | 12,557 | 10,683 | 11,456 | tons carbon dioxide | A1: Emission Scope 2 Greenhouse Gas Emissions | 199,705 | 156,619 | 176,595 | tons carbon dioxide Total Greenhouse Gas Emissions 2 | 212,262 | 167,301 | 188,051 | tons carbon dioxide Greenhouse gas emission per unit revenue | 56.2 | 57.2 | 57.6 | tons carbon dioxide/ HK$ million Waste disposal Hazardous Waste | 2,459 | 2,709 | 2,423 | tons | A1: Emission Non hazardous solid waste | 46,824 | 35,177 | 39,432 | tons Total amount of waste disposal | 49,283 | 37,886 | 41,855 | tons Hazardous waste disposal per unit revenue | 0.65 | 0.93 | 0.74 | tons/HK$ million Non hazardous solid waste disposal per unit revenue | 12.39 | 12.03 | 12.07 | tons/HK$ million",
+      "retrieval_text": "[Section]\nAPPENDIX 1 ESG DATA / Economic Performance\n\n[Content]\n2021 | 2020 | 2019 1 | Unit | Indicators of the Stock Exchange Greenhouse Gas Emission Scope 1 Greenhouse Gas Emissions | 12,557 | 10,683 | 11,456 | tons carbon dioxide | A1: Emission Scope 2 Greenhouse Gas Emissions | 199,705 | 156,619 | 176,595 | tons carbon dioxide Total Greenhouse Gas Emissions 2 | 212,262 | 167,301 | 188,051 | tons carbon dioxide Greenhouse gas emission per unit revenue | 56.2 | 57.2 | 57.6 | tons carbon dioxide/ HK$ million Waste disposal Hazardous Waste | 2,459 | 2,709 | 2,423 | tons | A1: Emission Non hazardous solid waste | 46,824 | 35,177 | 39,432 | tons Total amount of waste disposal | 49,283 | 37,886 | 41,855 | tons Hazardous waste disposal per unit revenue | 0.65 | 0.93 | 0.74 | tons/HK$ million Non hazardous solid waste disposal per unit revenue | 12.39 | 12.03 | 12.07 | tons/HK$ million",
+      "bm25_rank": 16,
+      "dense_rank": 65,
+      "bm25_score": 13.99848461151123,
+      "dense_score": 0.44101837277412415,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.48894399030037333,
+      "normalized_dense": 0.3130648056701549,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.5704697986577181,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.4113883256822128,
+      "rank": 43,
+      "rrf_score": 0.4113883256822128,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L14_011",
+      "alias_source_ids": [
+        "L14_011"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "Designate responsible officers for the collection of ESG-related data and report preparation work",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nDesignate responsible officers for the collection of ESG-related data and report preparation work",
+      "bm25_rank": 85,
+      "dense_rank": 29,
+      "bm25_score": 8.178346633911133,
+      "dense_score": 0.4852352440357208,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.25639465058254796,
+      "normalized_dense": 0.43693909756664284,
+      "normalized_bm25_rank": 0.43624161073825507,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.41024788272121043,
+      "rank": 44,
+      "rrf_score": 0.41024788272121043,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L14_003",
+      "alias_source_ids": [
+        "L14_003"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "Supervise, review and evaluate the performance and effectiveness of the implementation of objectives or measures",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nSupervise, review and evaluate the performance and effectiveness of the implementation of objectives or measures",
+      "bm25_rank": 89,
+      "dense_rank": 28,
+      "bm25_score": 8.028064727783203,
+      "dense_score": 0.485666424036026,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.25038998915079325,
+      "normalized_dense": 0.43814705542738186,
+      "normalized_bm25_rank": 0.4093959731543624,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.4081274538069235,
+      "rank": 45,
+      "rrf_score": 0.4081274538069235,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L25_004",
+      "alias_source_ids": [
+        "L25_004"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY",
+      "pages": [
+        25
+      ],
+      "text": "Third-party Audit: To renew the quality management system certification and supervise the audit, submit improvement measures and evidence for improvement based on the audit results, and obtain third-party approval",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY\n\n[Content]\nThird-party Audit: To renew the quality management system certification and supervise the audit, submit improvement measures and evidence for improvement based on the audit results, and obtain third-party approval",
+      "bm25_rank": null,
+      "dense_rank": 4,
+      "bm25_score": null,
+      "dense_score": 0.542959988117218,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5986559172777632,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.4055027254096333,
+      "rank": 46,
+      "rrf_score": 0.4055027254096333,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T66_001",
+      "alias_source_ids": [
+        "T66_001"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX",
+      "pages": [
+        66
+      ],
+      "text": "ESG aspects and general disclosure and key performance index | (KPI) | Chapter Social B1: Employment | General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, antidiscrimination, and other benefits and welfare. | 3.1 Employer Responsibility B1.1 | Total workforce by gender, employment type, age group and geographical region. | 3.1 Employer Responsibility Appendix 1 ESG Data B1.2 | Employee turnover rate by gender, age group and geographical region. | Appendix 1 ESG Data B2: Health and Safety | General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | 3.1 Employer Responsibility B2.1 | Number and rate of work-related fatalities in the past three years (including the reporting year). | 3.1 Employer Responsibility Appendix 1 ESG Data B2.2 | Lost days due to work injury. | Appendix 1 ESG Data B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | 3.1 Employer Responsibility B3: and | General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | 3.1 Employer Responsibility B3.1 | The percentage of employees trained by gender and employee category. | Appendix 1 ESG Data B3.2 | The average training hours completed per employee by gender and employee category. | 3.1 Employer Responsibility Appendix 1 ESG Data",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX\n\n[Content]\nESG aspects and general disclosure and key performance index | (KPI) | Chapter Social B1: Employment | General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, antidiscrimination, and other benefits and welfare. | 3.1 Employer Responsibility B1.1 | Total workforce by gender, employment type, age group and geographical region. | 3.1 Employer Responsibility Appendix 1 ESG Data B1.2 | Employee turnover rate by gender, age group and geographical region. | Appendix 1 ESG Data B2: Health and Safety | General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | 3.1 Employer Responsibility B2.1 | Number and rate of work-related fatalities in the past three years (including the reporting year). | 3.1 Employer Responsibility Appendix 1 ESG Data B2.2 | Lost days due to work injury. | Appendix 1 ESG Data B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | 3.1 Employer Responsibility B3: and | General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | 3.1 Employer Responsibility B3.1 | The percentage of employees trained by gender and employee category. | Appendix 1 ESG Data B3.2 | The average training hours completed per employee by gender and employee category. | 3.1 Employer Responsibility Appendix 1 ESG Data",
+      "bm25_rank": 17,
+      "dense_rank": 66,
+      "bm25_score": 13.531813621520996,
+      "dense_score": 0.43752267956733704,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.470297691706531,
+      "normalized_dense": 0.3032715636717277,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.563758389261745,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.4022180084452029,
+      "rank": 47,
+      "rrf_score": 0.4022180084452029,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L14_009",
+      "alias_source_ids": [
+        "L14_009"
+      ],
+      "section": "GOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE",
+      "pages": [
+        14
+      ],
+      "text": "Identify, assess and manage material ESG-related issues",
+      "retrieval_text": "[Section]\nGOVERNANCE & OPERATIONAL RESPONSIBILITY / ESG GOVERNANCE STRUCTURE\n\n[Content]\nIdentify, assess and manage material ESG-related issues",
+      "bm25_rank": 74,
+      "dense_rank": 37,
+      "bm25_score": 8.664960861206055,
+      "dense_score": 0.4762920141220093,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2758378008463834,
+      "normalized_dense": 0.41188449191003035,
+      "normalized_bm25_rank": 0.5100671140939597,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.4020116960961766,
+      "rank": 48,
+      "rrf_score": 0.4020116960961766,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T75_001",
+      "alias_source_ids": [
+        "T75_001"
+      ],
+      "section": "APPENDIX 2 ESG CONTENT INDEX",
+      "pages": [
+        75
+      ],
+      "text": "Disclosure Issue/Item | Headline of Disclosure Item | Chapter GRI402 : Labor/Management Relations 2016 GRI103: | 103-1 Explanation of Substantive Issues and Their | 3.1 Employer Responsibility Management Measures 2016 402-1 | Boundaries 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods Minimum notice periods regarding operational changes | 3.1 Employer Responsibility 403-1 | Worker Representatives in the Labour/Management Joint Health and Safety Committee | 3.1 Employer Responsibility 403-2 | Types of Work-Related Injuries, and Rates of Work-Related Injuries, Occupational Diseases and Lost Working Days, Absence | Appendix 1 ESG Data 403-3 | Workers with High Incidence or High Risk of Diseases Related to Their Occupation | 3.1 Employer Responsibility 403-4 | Health and Safety Topics Covered in Formal Agreements with Trade Unions | 3.1 Employer Responsibility GRI404: Training and Education 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods | 3.1 Employer Responsibility 404-1 | Average Hours of Training Received by Each Employee Each Year | 3.1 Employer Responsibility Appendix 1 ESG Data 404-2 | Employee Skill Improvement Plan and Transition Assistance Plan | 3.1 Employer Responsibility 404-3 | Percentage of Employees Receiving Regular Performance and Career Development Reviews | 3.1 Employer Responsibility Appendix 1 ESG Data",
+      "retrieval_text": "[Section]\nAPPENDIX 2 ESG CONTENT INDEX\n\n[Content]\nDisclosure Issue/Item | Headline of Disclosure Item | Chapter GRI402 : Labor/Management Relations 2016 GRI103: | 103-1 Explanation of Substantive Issues and Their | 3.1 Employer Responsibility Management Measures 2016 402-1 | Boundaries 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods Minimum notice periods regarding operational changes | 3.1 Employer Responsibility 403-1 | Worker Representatives in the Labour/Management Joint Health and Safety Committee | 3.1 Employer Responsibility 403-2 | Types of Work-Related Injuries, and Rates of Work-Related Injuries, Occupational Diseases and Lost Working Days, Absence | Appendix 1 ESG Data 403-3 | Workers with High Incidence or High Risk of Diseases Related to Their Occupation | 3.1 Employer Responsibility 403-4 | Health and Safety Topics Covered in Formal Agreements with Trade Unions | 3.1 Employer Responsibility GRI404: Training and Education 2016 GRI103: Management Measures 2016 | 103-1 Explanation of Substantive Issues and Their Boundaries 103-2 Management Methods and Its Components 103-3 Evaluation of Management Methods | 3.1 Employer Responsibility 404-1 | Average Hours of Training Received by Each Employee Each Year | 3.1 Employer Responsibility Appendix 1 ESG Data 404-2 | Employee Skill Improvement Plan and Transition Assistance Plan | 3.1 Employer Responsibility 404-3 | Percentage of Employees Receiving Regular Performance and Career Development Reviews | 3.1 Employer Responsibility Appendix 1 ESG Data",
+      "bm25_rank": 18,
+      "dense_rank": 68,
+      "bm25_score": 13.391925811767578,
+      "dense_score": 0.43558698892593384,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.46470833662286615,
+      "normalized_dense": 0.29784869451131435,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.5503355704697986,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.39584642852433866,
+      "rank": 49,
+      "rrf_score": 0.39584642852433866,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_002",
+      "alias_source_ids": [
+        "P8_002"
+      ],
+      "section": "2021 ESG HIGHLIGHTS / ENVIRONMENTAL HIGHLIGHTS",
+      "pages": [
+        8
+      ],
+      "text": "Work-related fatality (2020: 0)",
+      "retrieval_text": "[Section]\n2021 ESG HIGHLIGHTS / ENVIRONMENTAL HIGHLIGHTS\n\n[Content]\nWork-related fatality (2020: 0)",
+      "bm25_rank": 9,
+      "dense_rank": 86,
+      "bm25_score": 16.20708656311035,
+      "dense_score": 0.4006462097167969,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5771908544676143,
+      "normalized_dense": 0.1999615270263873,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.4295302013422819,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.36596161810443634,
+      "rank": 50,
+      "rrf_score": 0.36596161810443634,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

@@ -1,0 +1,1561 @@
+{
+  "document_id": "2022052701713",
+  "metric_id": 12,
+  "metric_name": "水风险评估",
+  "query": "水风险评估 水风险评估 衡量企业识别、评估和管理水风险的体系成熟度。 内容质量得分 (取值：0, 1, 2) • 2分（卓越）：使用了专业风险识别工具（如 WRI Aqueduct），具备水压力情景分析，有针对高风险站点的应对措施，且建立了水资源治理机制（如首席水官或专项考核）。 • 1分（合格）：有基础的水风险识别和定性描述，具备通用性应对措施（如节水计划），但缺乏针对性工具应用或深度的情景评估。 • 0分（不合格）：无水风险评估披露，或仅笼统提及“重视水资源保护”。 水风险评估 水压力 基准水压力 水资源短缺 干旱风险 洪涝风险 流域风险 高水压力地区 高风险站点 水压力情景分析 WRI Aqueduct WWF水风险过滤器 water risk assessment water stress baseline water stress water scarcity drought risk flood risk basin risk high water stress areas high-risk sites water stress scenario WRI Aqueduct WWF Water Risk Filter 企业是否使用专业水风险工具（如WRI Aqueduct）识别水风险？ 是否按流域、运营点或高水压力区域开展评估？ 是否包含水压力情景分析？ 对高风险站点采取了哪些针对性应对措施？ 是否建立水资源治理机制（如专项职责或考核）？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '水风险评估'. Prefer explicit, auditable disclosure that answers: 企业是否使用专业水风险工具（如WRI Aqueduct）识别水风险？ 是否按流域、运营点或高水压力区域开展评估？ 是否包含水压力情景分析？ 对高风险站点采取了哪些针对性应对措施？ 是否建立水资源治理机制（如专项职责或考核）？ Exclude or down-rank: 排除：仅有笼统“重视节水”；仅有用水效益目标而无风险评估；仅有排污合规数据；仅有社区饮水公益项目；区分：水风险评估关注风险识别工具、情景与高风险站点应对；用水效益目标与行动方案关注节水量化目标及工程/管理措施，二者不可互相替代。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 162,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P27_004",
+      "alias_source_ids": [
+        "P27_004"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Resources Management",
+      "pages": [
+        27
+      ],
+      "text": "Water scarcity is a severe global challenge. Hence, the Group continuously strengthens the monitoring of water consumption by requiring all subsidiaries to install water consumption meters and monitor water consumption statistics regularly. Subsidiaries are required to set water consumption targets at the beginning of each year and formulate annual water conservation work plans. At the same time, data are regularly collected from water consumption indicators, summarized and analyzed in analysis reports and assessment evaluations, and to be submitted to the Group's headquarters annually. The Group has also formulated a reward and punishment mechanism for water use, whereby rewards and punishments are given to different units based on the subsidiary's assessment results or individual water use performances. At the same time, the Group actively advocates on the importance of protecting water facilities, raising employees' awareness on water conservation, and reducing the consumption of freshwater. In the future, the Group will actively explore and apply innovative technologies to further reduce the impact of production and operation on water resources, thereby alleviating the pressure of water shortage.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Resources Management\n\n[Content]\nWater scarcity is a severe global challenge. Hence, the Group continuously strengthens the monitoring of water consumption by requiring all subsidiaries to install water consumption meters and monitor water consumption statistics regularly. Subsidiaries are required to set water consumption targets at the beginning of each year and formulate annual water conservation work plans. At the same time, data are regularly collected from water consumption indicators, summarized and analyzed in analysis reports and assessment evaluations, and to be submitted to the Group's headquarters annually. The Group has also formulated a reward and punishment mechanism for water use, whereby rewards and punishments are given to different units based on the subsidiary's assessment results or individual water use performances. At the same time, the Group actively advocates on the importance of protecting water facilities, raising employees' awareness on water conservation, and reducing the consumption of freshwater. In the future, the Group will actively explore and apply innovative technologies to further reduce the impact of production and operation on water resources, thereby alleviating the pressure of water shortage.",
+      "bm25_rank": 1,
+      "dense_rank": 1,
+      "bm25_score": 42.86974334716797,
+      "dense_score": 0.5852462649345398,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 1.0,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 1,
+      "composite_score": 0.88,
+      "rank": 1,
+      "rrf_score": 0.88,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T53_001",
+      "alias_source_ids": [
+        "T53_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        53
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation A2: Use of Resources | General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Tackling Climate Change / Resources Management A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Resources Management A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Tackling Climate Change A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Resources Management A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Resources Management A3: The Environment and Natural Resources | General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | Protecting Natural Resources A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Protecting Natural Resources A4: Climate Change | General Disclosure | General Disclosure Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Tackling Climate Change A4.1 | Description of the significant climate- related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Tackling Climate Change",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation A2: Use of Resources | General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Tackling Climate Change / Resources Management A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Resources Management A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Tackling Climate Change A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Resources Management A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Resources Management A3: The Environment and Natural Resources | General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | Protecting Natural Resources A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Protecting Natural Resources A4: Climate Change | General Disclosure | General Disclosure Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Tackling Climate Change A4.1 | Description of the significant climate- related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Tackling Climate Change",
+      "bm25_rank": 12,
+      "dense_rank": 2,
+      "bm25_score": 25.792987823486328,
+      "dense_score": 0.5085055232048035,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.585539102119927,
+      "normalized_dense": 0.7315611658809116,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6644293962675393,
+      "rank": 2,
+      "rrf_score": 0.6644293962675393,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P27_002",
+      "alias_source_ids": [
+        "P27_002"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Resources Management",
+      "pages": [
+        27
+      ],
+      "text": "Water conservation is an important part of the Group's environmental policy. To manage water consumption wisely, the Group continued to strengthen water resources management and formulated relevant water efficiency targets during the Reporting Period:",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Resources Management\n\n[Content]\nWater conservation is an important part of the Group's environmental policy. To manage water consumption wisely, the Group continued to strengthen water resources management and formulated relevant water efficiency targets during the Reporting Period:",
+      "bm25_rank": 2,
+      "dense_rank": 12,
+      "bm25_score": 36.893341064453125,
+      "dense_score": 0.4693179428577423,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8549499023540222,
+      "normalized_dense": 0.5944831530391749,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6636228424237773,
+      "rank": 3,
+      "rrf_score": 0.6636228424237773,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_007",
+      "alias_source_ids": [
+        "L59_007"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "Newly produced water consumption and intensity",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nNewly produced water consumption and intensity",
+      "bm25_rank": 6,
+      "dense_rank": 4,
+      "bm25_score": 29.59549903869629,
+      "dense_score": 0.49157437682151794,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6778278398880246,
+      "normalized_dense": 0.6723360777076024,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6635006448396954,
+      "rank": 4,
+      "rrf_score": 0.6635006448396954,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_001",
+      "alias_source_ids": [
+        "P8_001"
+      ],
+      "section": "ESG Risk Management",
+      "pages": [
+        8
+      ],
+      "text": "Since Sinofert's establishment, the Group understands that internal control and risk management are critical to Sinofert's sustainable development. The Group adopts the principle of 'high priority, frequent monitoring, and diversion as the main solution' to identify, assess and prioritize risks to manage and respond to significant risks faced by our businesses. We adhere to the 'Internal Control - Integrated Framework' published by the Committee of Sponsoring Organizations of the Treadway Commission in the United States, ISO Risk Management Guidelines and the 'Internal Control and Risk Management - A Basic Framework' issued by the Hong Kong Institute of Certified Public Accountants, 'Central Enterprises Comprehensive Risk Management Guidelines', the 'Basic Rules of Corporate Internal Control' and its reinforcing guidelines, and the 'Central Enterprises Compliance Management Guidelines' of China and national requirements, on strengthening internal control and supervision in recent years, improving internal control and risk management mechanisms and keeping it in line with our business strategy and development.",
+      "retrieval_text": "[Section]\nESG Risk Management\n\n[Content]\nSince Sinofert's establishment, the Group understands that internal control and risk management are critical to Sinofert's sustainable development. The Group adopts the principle of 'high priority, frequent monitoring, and diversion as the main solution' to identify, assess and prioritize risks to manage and respond to significant risks faced by our businesses. We adhere to the 'Internal Control - Integrated Framework' published by the Committee of Sponsoring Organizations of the Treadway Commission in the United States, ISO Risk Management Guidelines and the 'Internal Control and Risk Management - A Basic Framework' issued by the Hong Kong Institute of Certified Public Accountants, 'Central Enterprises Comprehensive Risk Management Guidelines', the 'Basic Rules of Corporate Internal Control' and its reinforcing guidelines, and the 'Central Enterprises Compliance Management Guidelines' of China and national requirements, on strengthening internal control and supervision in recent years, improving internal control and risk management mechanisms and keeping it in line with our business strategy and development.",
+      "bm25_rank": 5,
+      "dense_rank": 5,
+      "bm25_score": 30.21532440185547,
+      "dense_score": 0.48838624358177185,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6928712933231659,
+      "normalized_dense": 0.6611839992861068,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.6619349671396029,
+      "rank": 5,
+      "rrf_score": 0.6619349671396029,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_002",
+      "alias_source_ids": [
+        "P8_002"
+      ],
+      "section": "ESG Risk Management",
+      "pages": [
+        8
+      ],
+      "text": "Sinofert continues to implement a hierarchical authorization risk management model, in which the Board undertakes the overall responsibility of the Group's internal control and risk management system. Senior management, risk management, and others that are vulnerable to significant risks are responsible for incorporating risk and compliance management approaches into the business cycle besides fulfilling their daily duties. During the Reporting Period, the Group has refined and strengthened its internal control and risk management system with the motto of 'streamlining, high efficiency, accountability and controlled authority', stepping up internal control monitoring, enhancing rewards and punishment mechanisms, as well as furthering risks' awareness to ensure risks we face are properly identified and mitigated by appropriate management measures.",
+      "retrieval_text": "[Section]\nESG Risk Management\n\n[Content]\nSinofert continues to implement a hierarchical authorization risk management model, in which the Board undertakes the overall responsibility of the Group's internal control and risk management system. Senior management, risk management, and others that are vulnerable to significant risks are responsible for incorporating risk and compliance management approaches into the business cycle besides fulfilling their daily duties. During the Reporting Period, the Group has refined and strengthened its internal control and risk management system with the motto of 'streamlining, high efficiency, accountability and controlled authority', stepping up internal control monitoring, enhancing rewards and punishment mechanisms, as well as furthering risks' awareness to ensure risks we face are properly identified and mitigated by appropriate management measures.",
+      "bm25_rank": 4,
+      "dense_rank": 8,
+      "bm25_score": 32.632843017578125,
+      "dense_score": 0.478704571723938,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7515456085187368,
+      "normalized_dense": 0.6273175465093878,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6584608670088787,
+      "rank": 6,
+      "rrf_score": 0.6584608670088787,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P27_005",
+      "alias_source_ids": [
+        "P27_005"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Resources Management",
+      "pages": [
+        27
+      ],
+      "text": "During the Reporting Period, the Group's use of water resources is shown in the following table:",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Resources Management\n\n[Content]\nDuring the Reporting Period, the Group's use of water resources is shown in the following table:",
+      "bm25_rank": 10,
+      "dense_rank": 3,
+      "bm25_score": 26.77906608581543,
+      "dense_score": 0.4972592890262604,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.609471685883756,
+      "normalized_dense": 0.6922218798240954,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6554471629004195,
+      "rank": 7,
+      "rrf_score": 0.6554471629004195,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P27_003",
+      "alias_source_ids": [
+        "P27_003"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Resources Management",
+      "pages": [
+        27
+      ],
+      "text": "Improve use efficiency of water resources and reduce freshwater consumption.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Resources Management\n\n[Content]\nImprove use efficiency of water resources and reduce freshwater consumption.",
+      "bm25_rank": 8,
+      "dense_rank": 15,
+      "bm25_score": 28.24521255493164,
+      "dense_score": 0.46507757902145386,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6450557510869449,
+      "normalized_dense": 0.579650375836385,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.6083988488742178,
+      "rank": 8,
+      "rrf_score": 0.6083988488742178,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T27_001",
+      "alias_source_ids": [
+        "T27_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Resources Management",
+      "pages": [
+        27
+      ],
+      "text": "2021 | 2020 | Unit Newly produced water consumption | 5,014,643 | 5,281,355 | m 3 Newly produced water intensity | 5.14 | 4.57 | m 3 /tonne of product Recycled water consumption | 156,140,259 | 198,882,924 | m 3",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Resources Management\n\n[Content]\n2021 | 2020 | Unit Newly produced water consumption | 5,014,643 | 5,281,355 | m 3 Newly produced water intensity | 5.14 | 4.57 | m 3 /tonne of product Recycled water consumption | 156,140,259 | 198,882,924 | m 3",
+      "bm25_rank": 3,
+      "dense_rank": 20,
+      "bm25_score": 34.23269271850586,
+      "dense_score": 0.4416152834892273,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7903747141178735,
+      "normalized_dense": 0.4975793518083764,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6053820783726138,
+      "rank": 9,
+      "rrf_score": 0.6053820783726138,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_003",
+      "alias_source_ids": [
+        "P8_003"
+      ],
+      "section": "ESG Risk Management",
+      "pages": [
+        8
+      ],
+      "text": "Sinofert has identified ESG-related risks that have a significant impact on its operations and businesses during the Reporting Period. We reviewed corresponding management measures to ensure such risks are effectively controlled and met the requirements of external regulatory authorities from other countries. Details are as follows:",
+      "retrieval_text": "[Section]\nESG Risk Management\n\n[Content]\nSinofert has identified ESG-related risks that have a significant impact on its operations and businesses during the Reporting Period. We reviewed corresponding management measures to ensure such risks are effectively controlled and met the requirements of external regulatory authorities from other countries. Details are as follows:",
+      "bm25_rank": 16,
+      "dense_rank": 10,
+      "bm25_score": 18.97911834716797,
+      "dense_score": 0.4734114110469818,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4201632813279645,
+      "normalized_dense": 0.6088020898054224,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.5749657366907793,
+      "rank": 10,
+      "rrf_score": 0.5749657366907793,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T9_001",
+      "alias_source_ids": [
+        "T9_001"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY",
+      "pages": [
+        9
+      ],
+      "text": "Risks | Impacts of Risks | Management Measures HSE Risk | Unstable HSE management may lead to major HSE accidents, environmental pollution, and security incidents | The Group has signed HSE responsibility statements with all business units, formulated personal action plans, strengthened the HSE management system, promoted a three-year special rectification plan for hazardous chemicals, held regular project meetings, improved HSE leadership to ensure major risks are under control Construction Projects Management Risk | Different management standards on construction units may have a negative impact on project progress, quality and employee safety, etc. | The Group has strengthened on-site safety measures, established the Fuling Relocation Project Brigade, conducted follow-up inspections and protocols on construction facilities and professional operators, provided employees with a series of preventive measures to improve conditions and working environment of engineering projects",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY\n\n[Content]\nRisks | Impacts of Risks | Management Measures HSE Risk | Unstable HSE management may lead to major HSE accidents, environmental pollution, and security incidents | The Group has signed HSE responsibility statements with all business units, formulated personal action plans, strengthened the HSE management system, promoted a three-year special rectification plan for hazardous chemicals, held regular project meetings, improved HSE leadership to ensure major risks are under control Construction Projects Management Risk | Different management standards on construction units may have a negative impact on project progress, quality and employee safety, etc. | The Group has strengthened on-site safety measures, established the Fuling Relocation Project Brigade, conducted follow-up inspections and protocols on construction facilities and professional operators, provided employees with a series of preventive measures to improve conditions and working environment of engineering projects",
+      "bm25_rank": 18,
+      "dense_rank": 11,
+      "bm25_score": 18.480501174926758,
+      "dense_score": 0.4718189537525177,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4080616077624603,
+      "normalized_dense": 0.6032316800090738,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.5679111947905673,
+      "rank": 11,
+      "rrf_score": 0.5679111947905673,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_002",
+      "alias_source_ids": [
+        "P21_002"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        21
+      ],
+      "text": "The Group implements annual risk identification processes to formulate mitigations and precautionary measures against risks caused by climate change. The Group understands that its operations are subject to climate risks, including transitional risks, such as increased demand on the Group's production and products, changing customer preferences, and the cost of adopting low-carbon technologies, as well as physical risks, such as damage to operations or supply chain disruptions caused by extreme weather events, for example, strong typhoons and floods. We understand that there is an increase in the frequency, scope and extent of damage of natural disasters around the world. To assure that we have an explicit and efficient climate risk management system, we continue to strengthen our mitigation and management of climate risks, supervise the implementation of climate change-related works, as well as review work progresses and performance regularly.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\nThe Group implements annual risk identification processes to formulate mitigations and precautionary measures against risks caused by climate change. The Group understands that its operations are subject to climate risks, including transitional risks, such as increased demand on the Group's production and products, changing customer preferences, and the cost of adopting low-carbon technologies, as well as physical risks, such as damage to operations or supply chain disruptions caused by extreme weather events, for example, strong typhoons and floods. We understand that there is an increase in the frequency, scope and extent of damage of natural disasters around the world. To assure that we have an explicit and efficient climate risk management system, we continue to strengthen our mitigation and management of climate risks, supervise the implementation of climate change-related works, as well as review work progresses and performance regularly.",
+      "bm25_rank": 21,
+      "dense_rank": 17,
+      "bm25_score": 17.933250427246094,
+      "dense_score": 0.4602974057197571,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3947795744198427,
+      "normalized_dense": 0.562929347096348,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.5410818575086299,
+      "rank": 12,
+      "rrf_score": 0.5410818575086299,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P27_001",
+      "alias_source_ids": [
+        "P27_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Resources Management",
+      "pages": [
+        27
+      ],
+      "text": "Management on the consumption of water resources and packaging materials are essential to Sinofert's production and are of paramount importance in reducing the environmental impacts along the entire value chain. We are committed to promoting circular economy and 'closed-loop management' by improving water efficiency and reducing our raw material inputs.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Resources Management\n\n[Content]\nManagement on the consumption of water resources and packaging materials are essential to Sinofert's production and are of paramount importance in reducing the environmental impacts along the entire value chain. We are committed to promoting circular economy and 'closed-loop management' by improving water efficiency and reducing our raw material inputs.",
+      "bm25_rank": 7,
+      "dense_rank": 33,
+      "bm25_score": 28.538400650024414,
+      "dense_score": 0.3997507393360138,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.652171564214994,
+      "normalized_dense": 0.3511373293557698,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.5063525123457062,
+      "rank": 13,
+      "rrf_score": 0.5063525123457062,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_001",
+      "alias_source_ids": [
+        "P25_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        25
+      ],
+      "text": "During the Reporting Period, the Group's water pollutant emissions are shown in the following table:",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\nDuring the Reporting Period, the Group's water pollutant emissions are shown in the following table:",
+      "bm25_rank": 9,
+      "dense_rank": 34,
+      "bm25_score": 27.49260711669922,
+      "dense_score": 0.39916980266571045,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6267896627046018,
+      "normalized_dense": 0.34910521500610064,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.4978803282628543,
+      "rank": 14,
+      "rrf_score": 0.4978803282628543,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T4_001",
+      "alias_source_ids": [
+        "T4_001"
+      ],
+      "section": "ABOUT THIS REPORT",
+      "pages": [
+        4
+      ],
+      "text": "Materiality | This Report aims to disclose the material issues related to its business, including inviting stakeholders to assess and prioritize the materiality of ESG issues. Details of the materiality assessment process and results can be found in the 'Materiality Assessment' in this report. Quantitative | The Group continuously records and discloses quantitative indicators related to its business to facilitate a better understanding of the effectiveness of the Group's ESG management system. In addition, the Group has disclosed the standards, methodologies, assumptions, and references used in the calculation of environmental data, including the sources of major conversion factors. Balance | This Report discloses positive and negative ESG performances of the Group in an unbiased manner and objectively reflects the operations of the Group. Consistency | Unless otherwise stated, this Report is prepared in a consistent manner with previous reports for readers to make meaningful comparisons of the Group's ESG information during the year.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT\n\n[Content]\nMateriality | This Report aims to disclose the material issues related to its business, including inviting stakeholders to assess and prioritize the materiality of ESG issues. Details of the materiality assessment process and results can be found in the 'Materiality Assessment' in this report. Quantitative | The Group continuously records and discloses quantitative indicators related to its business to facilitate a better understanding of the effectiveness of the Group's ESG management system. In addition, the Group has disclosed the standards, methodologies, assumptions, and references used in the calculation of environmental data, including the sources of major conversion factors. Balance | This Report discloses positive and negative ESG performances of the Group in an unbiased manner and objectively reflects the operations of the Group. Consistency | Unless otherwise stated, this Report is prepared in a consistent manner with previous reports for readers to make meaningful comparisons of the Group's ESG information during the year.",
+      "bm25_rank": 77,
+      "dense_rank": 7,
+      "bm25_score": 2.7575957775115967,
+      "dense_score": 0.4825921058654785,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.026459289965079787,
+      "normalized_dense": 0.6409161267293769,
+      "normalized_bm25_rank": 0.4899328859060402,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.4705520996637341,
+      "rank": 15,
+      "rrf_score": 0.4705520996637341,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_003",
+      "alias_source_ids": [
+        "P48_003"
+      ],
+      "section": "JOINT DEVELOPMENT",
+      "pages": [
+        48
+      ],
+      "text": "Through evaluation and assessment, suppliers are classified as class A (80 points and above), class B (60 points to 79 points), and class C (below 60 points). For class C suppliers, the Group will suspend the partnerships with them and will require them to provide explanatory reports and corrective measures for their deficiencies, and then report to the Supply Chain Management Department and other relevant departments for review and filing. We will then decide whether to continue working with them based on their corrective measures and results, so as to ensure that the Group's supply chain is not affected by any potential environmental and social risks.",
+      "retrieval_text": "[Section]\nJOINT DEVELOPMENT\n\n[Content]\nThrough evaluation and assessment, suppliers are classified as class A (80 points and above), class B (60 points to 79 points), and class C (below 60 points). For class C suppliers, the Group will suspend the partnerships with them and will require them to provide explanatory reports and corrective measures for their deficiencies, and then report to the Supply Chain Management Department and other relevant departments for review and filing. We will then decide whether to continue working with them based on their corrective measures and results, so as to ensure that the Group's supply chain is not affected by any potential environmental and social risks.",
+      "bm25_rank": 82,
+      "dense_rank": 6,
+      "bm25_score": 2.1365487575531006,
+      "dense_score": 0.48469629883766174,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.011386186344149798,
+      "normalized_dense": 0.6482765860562324,
+      "normalized_bm25_rank": 0.4563758389261745,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.46810021688515563,
+      "rank": 16,
+      "rrf_score": 0.46810021688515563,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_006",
+      "alias_source_ids": [
+        "P12_006"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY / Materiality Assessment",
+      "pages": [
+        12
+      ],
+      "text": "The Board reviewed the results of the materiality analysis and confirmed the material issues for 2021.",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY / Materiality Assessment\n\n[Content]\nThe Board reviewed the results of the materiality analysis and confirmed the material issues for 2021.",
+      "bm25_rank": 68,
+      "dense_rank": 13,
+      "bm25_score": 3.7125308513641357,
+      "dense_score": 0.46931689977645874,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04963601387948111,
+      "normalized_dense": 0.5944795043446569,
+      "normalized_bm25_rank": 0.5503355704697986,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.45692120379317047,
+      "rank": 17,
+      "rrf_score": 0.45692120379317047,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_002",
+      "alias_source_ids": [
+        "P12_002"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY / Materiality Assessment",
+      "pages": [
+        12
+      ],
+      "text": "The Group identified the material ESG issues in 2021 through the following steps:",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY / Materiality Assessment\n\n[Content]\nThe Group identified the material ESG issues in 2021 through the following steps:",
+      "bm25_rank": 65,
+      "dense_rank": 14,
+      "bm25_score": 3.810581922531128,
+      "dense_score": 0.4683637022972107,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05201575954824227,
+      "normalized_dense": 0.5911452230457384,
+      "normalized_bm25_rank": 0.5704697986577181,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4569012954118985,
+      "rank": 18,
+      "rrf_score": 0.4569012954118985,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P47_004",
+      "alias_source_ids": [
+        "P47_004"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE",
+      "pages": [
+        47
+      ],
+      "text": "We pay special attention to the management of environmental and social risks in every part of our supply chain. Therefore, we select suppliers with the best performances in environmental and social aspects as our partners. In terms of environmental protection, suppliers with sound environmental management systems, especially those who have passed the ISO14000 or relevant certifications, will be given priority in the access review process. In terms of social aspects, we have established a supply chain assessment and evaluation system with methods and evaluation indicators to evaluate suppliers' social performances. The scoring indicators include the supplier's business nature, size, operational status, supply capability, quality standards, after-sales services, and other performances. The evaluation system is categorized into annual static and dynamic assessments:",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE\n\n[Content]\nWe pay special attention to the management of environmental and social risks in every part of our supply chain. Therefore, we select suppliers with the best performances in environmental and social aspects as our partners. In terms of environmental protection, suppliers with sound environmental management systems, especially those who have passed the ISO14000 or relevant certifications, will be given priority in the access review process. In terms of social aspects, we have established a supply chain assessment and evaluation system with methods and evaluation indicators to evaluate suppliers' social performances. The scoring indicators include the supplier's business nature, size, operational status, supply capability, quality standards, after-sales services, and other performances. The evaluation system is categorized into annual static and dynamic assessments:",
+      "bm25_rank": 83,
+      "dense_rank": 9,
+      "bm25_score": 1.9622076749801636,
+      "dense_score": 0.47525668144226074,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.007154846174153317,
+      "normalized_dense": 0.6152568389045077,
+      "normalized_bm25_rank": 0.44966442953020136,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.4509990507708715,
+      "rank": 19,
+      "rrf_score": 0.4509990507708715,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_005",
+      "alias_source_ids": [
+        "P12_005"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY / Materiality Assessment",
+      "pages": [
+        12
+      ],
+      "text": "The Group analyzed the results of the questionnaire survey and constructed a materiality analysis matrix, aiming to identify issues with more than 5 points under both dimensions of 'Importance to Sinofert' and 'Importance to Stakeholders' as material issues. A total of 8 material issues were identified in this materiality assessment.",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY / Materiality Assessment\n\n[Content]\nThe Group analyzed the results of the questionnaire survey and constructed a materiality analysis matrix, aiming to identify issues with more than 5 points under both dimensions of 'Importance to Sinofert' and 'Importance to Stakeholders' as material issues. A total of 8 material issues were identified in this materiality assessment.",
+      "bm25_rank": 63,
+      "dense_rank": 18,
+      "bm25_score": 3.972353219985962,
+      "dense_score": 0.45605647563934326,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.055942025114401744,
+      "normalized_dense": 0.548094589173677,
+      "normalized_bm25_rank": 0.5838926174496644,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.43859198103232505,
+      "rank": 20,
+      "rrf_score": 0.43859198103232505,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_001",
+      "alias_source_ids": [
+        "P61_001"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has identified its material issues through appropriate methods based on the expectations and concerns of the key stakeholders, its own industry characteristics, legal and regulatory requirements, and outward economic and social impacts. Sinofert has disclosed the methodology, process and results of materiality assessment in the ESG Report. In our professional opinion, Sinofert adheres to the Principle of Materiality.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has identified its material issues through appropriate methods based on the expectations and concerns of the key stakeholders, its own industry characteristics, legal and regulatory requirements, and outward economic and social impacts. Sinofert has disclosed the methodology, process and results of materiality assessment in the ESG Report. In our professional opinion, Sinofert adheres to the Principle of Materiality.",
+      "bm25_rank": 40,
+      "dense_rank": 25,
+      "bm25_score": 7.300342559814453,
+      "dense_score": 0.43092891573905945,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1367138935180817,
+      "normalized_dense": 0.46019847647196677,
+      "normalized_bm25_rank": 0.738255033557047,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.4300229837238383,
+      "rank": 21,
+      "rrf_score": 0.4300229837238383,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P14_001",
+      "alias_source_ids": [
+        "P14_001"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY",
+      "pages": [
+        14
+      ],
+      "text": "The Group identified 8 material issues (located at the top right corner of the materiality matrix) in this materiality assessment, and the table below shows the material ESG issues prioritized with its materiality:",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY\n\n[Content]\nThe Group identified 8 material issues (located at the top right corner of the materiality matrix) in this materiality assessment, and the table below shows the material ESG issues prioritized with its materiality:",
+      "bm25_rank": 74,
+      "dense_rank": 19,
+      "bm25_score": 3.289336681365967,
+      "dense_score": 0.4472738206386566,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.039364892094560296,
+      "normalized_dense": 0.5173728940777726,
+      "normalized_bm25_rank": 0.5100671140939597,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.415799128930025,
+      "rank": 22,
+      "rrf_score": 0.415799128930025,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T25_001",
+      "alias_source_ids": [
+        "T25_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        25
+      ],
+      "text": "2021 | 2020 | Unit Water pollutants Chemical oxygen demand (COD) | 51.81 | 33.09 | Tonnes Ammonia nitrogen (NH 3 -N) | 6.51 | 5.67 | Tonnes",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\n2021 | 2020 | Unit Water pollutants Chemical oxygen demand (COD) | 51.81 | 33.09 | Tonnes Ammonia nitrogen (NH 3 -N) | 6.51 | 5.67 | Tonnes",
+      "bm25_rank": 11,
+      "dense_rank": 64,
+      "bm25_score": 26.32360076904297,
+      "dense_score": 0.36898139119148254,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5984173281703742,
+      "normalized_dense": 0.24350626199378012,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.5771812080536913,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.41363548954666296,
+      "rank": 23,
+      "rrf_score": 0.41363548954666296,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_001",
+      "alias_source_ids": [
+        "P12_001"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY / Materiality Assessment",
+      "pages": [
+        12
+      ],
+      "text": "To better understand our stakeholders' expectations and to set a clear direction for our ESG management and development, the Group appointed a third-party consultancy to assist in conducting a materiality assessment during the Reporting Period, as well as collecting and analyzing stakeholders' opinions on the Group's ESG issues. By inviting various stakeholders to conduct questionnaire surveys and management reviews, we have identified the material issues in 2021, and will be further disclosed in this Report.",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY / Materiality Assessment\n\n[Content]\nTo better understand our stakeholders' expectations and to set a clear direction for our ESG management and development, the Group appointed a third-party consultancy to assist in conducting a materiality assessment during the Reporting Period, as well as collecting and analyzing stakeholders' opinions on the Group's ESG issues. By inviting various stakeholders to conduct questionnaire surveys and management reviews, we have identified the material issues in 2021, and will be further disclosed in this Report.",
+      "bm25_rank": 71,
+      "dense_rank": 23,
+      "bm25_score": 3.5635533332824707,
+      "dense_score": 0.4359789788722992,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04602025936320636,
+      "normalized_dense": 0.4778635788564199,
+      "normalized_bm25_rank": 0.5302013422818792,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.3999462373582943,
+      "rank": 24,
+      "rrf_score": 0.3999462373582943,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_005",
+      "alias_source_ids": [
+        "P48_005"
+      ],
+      "section": "JOINT DEVELOPMENT",
+      "pages": [
+        48
+      ],
+      "text": "The Group conducts comprehensive and effective management of suppliers by gathering and consolidating information on suppliers' regional distribution, nature, and networks. During the Reporting Period, the Group has reviewed and assessed 2,253 suppliers, including 1,071 trading and 1,182 production suppliers. All suppliers have been reviewed and assessed according to the above policies.",
+      "retrieval_text": "[Section]\nJOINT DEVELOPMENT\n\n[Content]\nThe Group conducts comprehensive and effective management of suppliers by gathering and consolidating information on suppliers' regional distribution, nature, and networks. During the Reporting Period, the Group has reviewed and assessed 2,253 suppliers, including 1,071 trading and 1,182 production suppliers. All suppliers have been reviewed and assessed according to the above policies.",
+      "bm25_rank": 30,
+      "dense_rank": 42,
+      "bm25_score": 13.090574264526367,
+      "dense_score": 0.38870465755462646,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27724554356955344,
+      "normalized_dense": 0.312498175652741,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.390326825897068,
+      "rank": 25,
+      "rrf_score": 0.390326825897068,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T52_001",
+      "alias_source_ids": [
+        "T52_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        52
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation 'Comply or Explain' Provisions A. Environmental A1: Emissions | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous waste. | Protecting our Environment A1.1 | The types of emissions and respective emissions data. | Emissions Management A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions Management A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions Management",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation 'Comply or Explain' Provisions A. Environmental A1: Emissions | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous waste. | Protecting our Environment A1.1 | The types of emissions and respective emissions data. | Emissions Management A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions Management A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions Management",
+      "bm25_rank": 17,
+      "dense_rank": 61,
+      "bm25_score": 18.90923309326172,
+      "dense_score": 0.3706567585468292,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4184671333072006,
+      "normalized_dense": 0.24936669088009847,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.5973154362416108,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.3796966006842397,
+      "rank": 26,
+      "rrf_score": 0.3796966006842397,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_004",
+      "alias_source_ids": [
+        "P12_004"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY / Materiality Assessment",
+      "pages": [
+        12
+      ],
+      "text": "The Group invited internal and external stakeholders to complete an online questionnaire to assess the materiality of 19 ESG issues related to the Group. We have obtained 68 stakeholders' opinions in this survey, in which internal stakeholders (the Board and senior staff) ranked ESG issues from the perspective of 'Importance to Sinofert', and external stakeholders (employees, customers, and business partners) ranked ESG issues from the perspective of 'Importance to Stakeholders'.",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY / Materiality Assessment\n\n[Content]\nThe Group invited internal and external stakeholders to complete an online questionnaire to assess the materiality of 19 ESG issues related to the Group. We have obtained 68 stakeholders' opinions in this survey, in which internal stakeholders (the Board and senior staff) ranked ESG issues from the perspective of 'Importance to Sinofert', and external stakeholders (employees, customers, and business partners) ranked ESG issues from the perspective of 'Importance to Stakeholders'.",
+      "bm25_rank": 78,
+      "dense_rank": 26,
+      "bm25_score": 2.537332534790039,
+      "dense_score": 0.4298931062221527,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.02111339734386414,
+      "normalized_dense": 0.4565752185672265,
+      "normalized_bm25_rank": 0.4832214765100671,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.37878910663844306,
+      "rank": 27,
+      "rrf_score": 0.37878910663844306,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_001",
+      "alias_source_ids": [
+        "P13_001"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY",
+      "pages": [
+        13
+      ],
+      "text": "The following is the materiality matrix of the Group in 2021:",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY\n\n[Content]\nThe following is the materiality matrix of the Group in 2021:",
+      "bm25_rank": null,
+      "dense_rank": 16,
+      "bm25_score": null,
+      "dense_score": 0.46108734607696533,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5656925555789999,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.3778581662647305,
+      "rank": 28,
+      "rrf_score": 0.3778581662647305,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_005",
+      "alias_source_ids": [
+        "P61_005"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Disclosure for general disclosures and key performance indicators of environmental and social subject areas in the ESG Report have been provided in accordance with the 'Comply or Explain' provision, in all material aspects, in alignment with the ESG Reporting Guide of the SEHK. Sinofert has disclosed the process of the materiality assessment. Impacts caused by its business are objectively disclosed; relevant environmental and social data are calculated and disclosed. Our assurance findings and comments for the ESG Report have been either adopted or responded by Sinofert before the issuance of this independent assurance statement.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nDisclosure for general disclosures and key performance indicators of environmental and social subject areas in the ESG Report have been provided in accordance with the 'Comply or Explain' provision, in all material aspects, in alignment with the ESG Reporting Guide of the SEHK. Sinofert has disclosed the process of the materiality assessment. Impacts caused by its business are objectively disclosed; relevant environmental and social data are calculated and disclosed. Our assurance findings and comments for the ESG Report have been either adopted or responded by Sinofert before the issuance of this independent assurance statement.",
+      "bm25_rank": 34,
+      "dense_rank": 40,
+      "bm25_score": 9.261068344116211,
+      "dense_score": 0.3924485445022583,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18430163159463617,
+      "normalized_dense": 0.32559427851340095,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.3763216795033156,
+      "rank": 29,
+      "rrf_score": 0.3763216795033156,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_004",
+      "alias_source_ids": [
+        "P25_004"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        25
+      ],
+      "text": "We have actively implemented internal management measures such as 'Sinofert's Measures on Environmental Protection', 'HSE Risk Management and Control Standards for Hazardous Chemicals' and waste classification guidelines to enhance the reduction and harmless disposal of waste. According to the Group's internal management measures for hazardous and non-hazardous wastes, each subsidiary is required to carry out waste classification procedures and take appropriate measures for the collection, storage, transportation, and reuse of different types of wastes, preventing the Scattering, Running-off, Leaking or Seeping of wastes and reducing environmental pollution. All hazardous wastes are reasonably used, disposed and managed by qualified units to avoid secondary pollution.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\nWe have actively implemented internal management measures such as 'Sinofert's Measures on Environmental Protection', 'HSE Risk Management and Control Standards for Hazardous Chemicals' and waste classification guidelines to enhance the reduction and harmless disposal of waste. According to the Group's internal management measures for hazardous and non-hazardous wastes, each subsidiary is required to carry out waste classification procedures and take appropriate measures for the collection, storage, transportation, and reuse of different types of wastes, preventing the Scattering, Running-off, Leaking or Seeping of wastes and reducing environmental pollution. All hazardous wastes are reasonably used, disposed and managed by qualified units to avoid secondary pollution.",
+      "bm25_rank": 26,
+      "dense_rank": 50,
+      "bm25_score": 13.585970878601074,
+      "dense_score": 0.38071703910827637,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.28926905267181907,
+      "normalized_dense": 0.284557515518419,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.6711409395973154,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.37489860539534064,
+      "rank": 30,
+      "rrf_score": 0.37489860539534064,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_002",
+      "alias_source_ids": [
+        "L59_002"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "AA1000AS' Type 2 Moderate Level of Assurance was adopted to evaluate the nature and extent of Sinofert's adherence to the four AA1000 Accountability Principles set out in the AA1000AS v3;",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nAA1000AS' Type 2 Moderate Level of Assurance was adopted to evaluate the nature and extent of Sinofert's adherence to the four AA1000 Accountability Principles set out in the AA1000AS v3;",
+      "bm25_rank": 49,
+      "dense_rank": 32,
+      "bm25_score": 5.440361976623535,
+      "dense_score": 0.40093326568603516,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09157128891267179,
+      "normalized_dense": 0.3552738022065636,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.36883458519912693,
+      "rank": 31,
+      "rrf_score": 0.36883458519912693,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_003",
+      "alias_source_ids": [
+        "P12_003"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY / Materiality Assessment",
+      "pages": [
+        12
+      ],
+      "text": "The Group communicates with key stakeholders to understand their expectations. During the Reporting Period, we referred to disclosure requirements of the Guide published by the Stock Exchange, chemicals materiality map published by the Sustainability Accounting Standards Board (SASB), and ESG issues concerned by industry peers. In addition, the Group established a database of ESG issues, with reference to ESG issues disclosed in the 2020 ESG report. The person in charge of ESG matters screened and confirmed 19 potential ESG issues related to the Group.",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY / Materiality Assessment\n\n[Content]\nThe Group communicates with key stakeholders to understand their expectations. During the Reporting Period, we referred to disclosure requirements of the Guide published by the Stock Exchange, chemicals materiality map published by the Sustainability Accounting Standards Board (SASB), and ESG issues concerned by industry peers. In addition, the Group established a database of ESG issues, with reference to ESG issues disclosed in the 2020 ESG report. The person in charge of ESG matters screened and confirmed 19 potential ESG issues related to the Group.",
+      "bm25_rank": 81,
+      "dense_rank": 27,
+      "bm25_score": 2.344891309738159,
+      "dense_score": 0.4247068166732788,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.016442758192677903,
+      "normalized_dense": 0.4384335966787289,
+      "normalized_bm25_rank": 0.46308724832214765,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.3681497064492451,
+      "rank": 32,
+      "rrf_score": 0.3681497064492451,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_002",
+      "alias_source_ids": [
+        "P61_002"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has established channels for its stakeholders to understand their concerns and expectations. Meanwhile, through the ESG Report, Sinofert has disclosed corporate sustainability strategies, management systems, management key points, key stakeholder participation activities as well as major sustainability development related issues to respond to key stakeholders. In our professional opinion, Sinofert adheres to the Principle of Responsiveness.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has established channels for its stakeholders to understand their concerns and expectations. Meanwhile, through the ESG Report, Sinofert has disclosed corporate sustainability strategies, management systems, management key points, key stakeholder participation activities as well as major sustainability development related issues to respond to key stakeholders. In our professional opinion, Sinofert adheres to the Principle of Responsiveness.",
+      "bm25_rank": 60,
+      "dense_rank": 30,
+      "bm25_score": 4.646347999572754,
+      "dense_score": 0.40635693073272705,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07230019579422646,
+      "normalized_dense": 0.3742457627189321,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.3669225661775856,
+      "rank": 33,
+      "rrf_score": 0.3669225661775856,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_003",
+      "alias_source_ids": [
+        "P61_003"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has considered and evaluate its impacts and realised its impacts on stakeholders, so as to make a more effective decision-making and result-based management within the organisation. In our professional opinion, Sinofert adheres to the Principle of Impact.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has considered and evaluate its impacts and realised its impacts on stakeholders, so as to make a more effective decision-making and result-based management within the organisation. In our professional opinion, Sinofert adheres to the Principle of Impact.",
+      "bm25_rank": 52,
+      "dense_rank": 35,
+      "bm25_score": 5.283340930938721,
+      "dense_score": 0.3965449333190918,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08776031419382979,
+      "normalized_dense": 0.3399234316242987,
+      "normalized_bm25_rank": 0.6577181208053691,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.35665949209518993,
+      "rank": 34,
+      "rrf_score": 0.35665949209518993,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_002",
+      "alias_source_ids": [
+        "P6_002"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        6,
+        7
+      ],
+      "text": "In parallel with our operations, we proactively contribute to the societies in the communities where we operate, by carrying out various community investment activities, such as donating protective equipment field guidance, free soil testing, and other services, allowing us to promote the growth of a healthy agricultural industry, ensuring food security, and maintaining a healthy and harmonious relationship with surrounding communities. Sound governance is the key to achieving stable and sustainable growth. During the Reporting Period, the board of Directors of the Company (the ' Board ') continued to enhance its corporate governance, risk management, and internal controls, creating long-term value for our stakeholders and establishing a sustainable business model. The Group has also enhanced its disclosure responsibilities to ensure the transparency and accountability of the Group's operational activities.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nIn parallel with our operations, we proactively contribute to the societies in the communities where we operate, by carrying out various community investment activities, such as donating protective equipment field guidance, free soil testing, and other services, allowing us to promote the growth of a healthy agricultural industry, ensuring food security, and maintaining a healthy and harmonious relationship with surrounding communities. Sound governance is the key to achieving stable and sustainable growth. During the Reporting Period, the board of Directors of the Company (the ' Board ') continued to enhance its corporate governance, risk management, and internal controls, creating long-term value for our stakeholders and establishing a sustainable business model. The Group has also enhanced its disclosure responsibilities to ensure the transparency and accountability of the Group's operational activities.",
+      "bm25_rank": 32,
+      "dense_rank": 53,
+      "bm25_score": 11.921820640563965,
+      "dense_score": 0.3781633675098419,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2488793427583813,
+      "normalized_dense": 0.275624781599571,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.3556405152658886,
+      "rank": 35,
+      "rrf_score": 0.3556405152658886,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_001",
+      "alias_source_ids": [
+        "P16_001"
+      ],
+      "section": "ENVIRONMENTAL PROTECTION LAWS AND REGULATIONS COMPLIED BY SINOFERT (INCLUDING BUT NOT LIMITED TO)",
+      "pages": [
+        16,
+        17
+      ],
+      "text": "On the basis of complying with relevant laws and regulations on environmental protection, the Group has formulated internal management policies such as 'Sinofert's Measures on Environmental Protection', the 'Three-simultaneity' management of environmental protection for construction projects, and 'Sinofert's Measures on HSE Incident Reporting', to investigate and respond to environmental incidents and risks, reducing the impact of production and operation activities on the environment and natural resources. Environmental incidents are one of the major classifications of the Group's HSE incidents. In case of sudden environmental pollution incidents such as atmospheric pollution, water pollution, soil pollution, and radiation pollution, we take emergency response measures as soon as possible. While the government department investigates environmental incidents, we initiate incident investigation procedures simultaneously to identify the process of the incident, make recommendations to those responsible for the incident, implement preventive and corrective measures, and submit incident investigation reports to prevent the recurrence of the accident, fulfilling our responsibility to protect the environment. In addition, we have implemented the 'Five-Star Quantitative Evaluation Standard for the HSE Management System of Sinofert', and actively provided training on production safety knowledge and management skills that are suitable for production and operation activities. We incorporate considerations on the performances of environmental protection and safety works into employees' promotion and reward assessment system, and we evaluate the contribution of employees to the prevention of environmental incidents and safety rectification work. Employees with five-star ratings would be prioritized in their promotion, and we will demote leaders and person-in-charge at all levels who fail to perform their duties on safety production and environmental protection, thereby urging employees to undertake and commit to compliant environmental protection measures.",
+      "retrieval_text": "[Section]\nENVIRONMENTAL PROTECTION LAWS AND REGULATIONS COMPLIED BY SINOFERT (INCLUDING BUT NOT LIMITED TO)\n\n[Content]\nOn the basis of complying with relevant laws and regulations on environmental protection, the Group has formulated internal management policies such as 'Sinofert's Measures on Environmental Protection', the 'Three-simultaneity' management of environmental protection for construction projects, and 'Sinofert's Measures on HSE Incident Reporting', to investigate and respond to environmental incidents and risks, reducing the impact of production and operation activities on the environment and natural resources. Environmental incidents are one of the major classifications of the Group's HSE incidents. In case of sudden environmental pollution incidents such as atmospheric pollution, water pollution, soil pollution, and radiation pollution, we take emergency response measures as soon as possible. While the government department investigates environmental incidents, we initiate incident investigation procedures simultaneously to identify the process of the incident, make recommendations to those responsible for the incident, implement preventive and corrective measures, and submit incident investigation reports to prevent the recurrence of the accident, fulfilling our responsibility to protect the environment. In addition, we have implemented the 'Five-Star Quantitative Evaluation Standard for the HSE Management System of Sinofert', and actively provided training on production safety knowledge and management skills that are suitable for production and operation activities. We incorporate considerations on the performances of environmental protection and safety works into employees' promotion and reward assessment system, and we evaluate the contribution of employees to the prevention of environmental incidents and safety rectification work. Employees with five-star ratings would be prioritized in their promotion, and we will demote leaders and person-in-charge at all levels who fail to perform their duties on safety production and environmental protection, thereby urging employees to undertake and commit to compliant environmental protection measures.",
+      "bm25_rank": 35,
+      "dense_rank": 51,
+      "bm25_score": 9.246126174926758,
+      "dense_score": 0.3806837797164917,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18393897811224905,
+      "normalized_dense": 0.28444117428750376,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.34640932071703584,
+      "rank": 36,
+      "rrf_score": 0.34640932071703584,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L60_003",
+      "alias_source_ids": [
+        "L60_003"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Assessing whether the reporting and management approach disclosed in the ESG Report responded to the principles of Inclusivity, Materiality, Responsiveness, and Impact as defined in the AA1000AS v3;",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nAssessing whether the reporting and management approach disclosed in the ESG Report responded to the principles of Inclusivity, Materiality, Responsiveness, and Impact as defined in the AA1000AS v3;",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.43868112564086914,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4873156783777946,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.34371484984833545,
+      "rank": 37,
+      "rrf_score": 0.34371484984833545,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L7_001",
+      "alias_source_ids": [
+        "L7_001"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        7
+      ],
+      "text": "Assisting the Board in identifying ESG-related issues, risks and opportunities",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nAssisting the Board in identifying ESG-related issues, risks and opportunities",
+      "bm25_rank": null,
+      "dense_rank": 22,
+      "bm25_score": null,
+      "dense_score": 0.43715187907218933,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.48196637946923376,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.3405003133511446,
+      "rank": 38,
+      "rrf_score": 0.3405003133511446,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_004",
+      "alias_source_ids": [
+        "P48_004"
+      ],
+      "section": "JOINT DEVELOPMENT",
+      "pages": [
+        48
+      ],
+      "text": "In addition, to promote the usage of environmentally friendly products and services, the Group prioritizes the procurement and usage of high-efficiency energy-saving and emission-reduction products and equipment with environmental protection certification when selecting equipment, while reducing or eliminating the use of energy-intensive equipment and equipment that wastes energy and water resources, thereby effectively improving the overall efficiency and energy-saving development of the Group.",
+      "retrieval_text": "[Section]\nJOINT DEVELOPMENT\n\n[Content]\nIn addition, to promote the usage of environmentally friendly products and services, the Group prioritizes the procurement and usage of high-efficiency energy-saving and emission-reduction products and equipment with environmental protection certification when selecting equipment, while reducing or eliminating the use of energy-intensive equipment and equipment that wastes energy and water resources, thereby effectively improving the overall efficiency and energy-saving development of the Group.",
+      "bm25_rank": 15,
+      "dense_rank": 78,
+      "bm25_score": 19.395889282226562,
+      "dense_score": 0.35232141613960266,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.430278508176247,
+      "normalized_dense": 0.1852297301467234,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.4832214765100671,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.33813442933425364,
+      "rank": 39,
+      "rrf_score": 0.33813442933425364,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T55_001",
+      "alias_source_ids": [
+        "T55_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        55
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B3: Development and Training | General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Staff Training and Development B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Staff Training and Development B3.2 | The average training hours completed per employee by gender and employee category. | Staff Training and Development B4: Labour Standards | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | Staff Management B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Staff Management B4.2 | Description of steps taken to eliminate such practices when discovered. | Staff Management B5: Supply Chain Management | General Disclosure | Policies on managing environmental and social risks of the supply chain. | Supply Chain Management B5.1 | Number of suppliers by geographical region. | Supply Chain Management B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | Supply Chain Management B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Supply Chain Management B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Supply Chain Management",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B3: Development and Training | General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Staff Training and Development B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Staff Training and Development B3.2 | The average training hours completed per employee by gender and employee category. | Staff Training and Development B4: Labour Standards | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | Staff Management B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Staff Management B4.2 | Description of steps taken to eliminate such practices when discovered. | Staff Management B5: Supply Chain Management | General Disclosure | Policies on managing environmental and social risks of the supply chain. | Supply Chain Management B5.1 | Number of suppliers by geographical region. | Supply Chain Management B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | Supply Chain Management B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Supply Chain Management B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Supply Chain Management",
+      "bm25_rank": 79,
+      "dense_rank": 31,
+      "bm25_score": 2.5215625762939453,
+      "dense_score": 0.4023283123970032,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.020730653025204868,
+      "normalized_dense": 0.36015367050328634,
+      "normalized_bm25_rank": 0.47651006711409394,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.33758246561676164,
+      "rank": 40,
+      "rrf_score": 0.33758246561676164,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L7_003",
+      "alias_source_ids": [
+        "L7_003"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        7
+      ],
+      "text": "Coordinating internal and external materiality assessments",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nCoordinating internal and external materiality assessments",
+      "bm25_rank": null,
+      "dense_rank": 24,
+      "bm25_score": null,
+      "dense_score": 0.43453383445739746,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.47280846897442075,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.33461048091957074,
+      "rank": 41,
+      "rrf_score": 0.33461048091957074,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T56_001",
+      "alias_source_ids": [
+        "T56_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        56
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B6: Product Responsibility | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Product Responsibility B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Product Responsibility B6.2 | Number of products and service related complaints received and how they are dealt with. | Product Responsibility B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product Responsibility B6.4 | Description of quality assurance process and recall procedures. | Product Responsibility B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Product Responsibility",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B6: Product Responsibility | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Product Responsibility B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Product Responsibility B6.2 | Number of products and service related complaints received and how they are dealt with. | Product Responsibility B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product Responsibility B6.4 | Description of quality assurance process and recall procedures. | Product Responsibility B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Product Responsibility",
+      "bm25_rank": 69,
+      "dense_rank": 38,
+      "bm25_score": 3.6968295574188232,
+      "dense_score": 0.3939545750617981,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04925493608180294,
+      "normalized_dense": 0.3308623679068336,
+      "normalized_bm25_rank": 0.5436241610738255,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.3303508025609336,
+      "rank": 42,
+      "rrf_score": 0.3303508025609336,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_003",
+      "alias_source_ids": [
+        "P24_003"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        24
+      ],
+      "text": "All three subsidiaries of Sinofert are equipped with wastewater treatment facilities to reduce wastewater discharge. Wastewater from the production plants is collected in the wastewater collection tank and then purified through procedures such as sludge activation, sedimentation, and filtration. We also adopt other various wastewater treatment measures, such as biochemical reactions, aerobic and anaerobic treatments, when necessary, to address more complex pollutants. Wastewater treated at our on-site wastewater treatment facilities generally meets discharge standards and is discharged into nearby water bodies, otherwise, it will be transferred to qualified treatment institutions for secondary treatment. In addition, we have installed pollutant monitoring systems at each wastewater facility to monitor real-time chemical oxygen demand (COD), ammonia nitrogen (NH3-N), acidity and alkalinity (pH), and wastewater flow of all discharged wastewater on a long-term basis, allowing us to address abnormalities in a timely manner and to ensure all facilities comply with national or regional laws, standards and requirements.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\nAll three subsidiaries of Sinofert are equipped with wastewater treatment facilities to reduce wastewater discharge. Wastewater from the production plants is collected in the wastewater collection tank and then purified through procedures such as sludge activation, sedimentation, and filtration. We also adopt other various wastewater treatment measures, such as biochemical reactions, aerobic and anaerobic treatments, when necessary, to address more complex pollutants. Wastewater treated at our on-site wastewater treatment facilities generally meets discharge standards and is discharged into nearby water bodies, otherwise, it will be transferred to qualified treatment institutions for secondary treatment. In addition, we have installed pollutant monitoring systems at each wastewater facility to monitor real-time chemical oxygen demand (COD), ammonia nitrogen (NH3-N), acidity and alkalinity (pH), and wastewater flow of all discharged wastewater on a long-term basis, allowing us to address abnormalities in a timely manner and to ensure all facilities comply with national or regional laws, standards and requirements.",
+      "bm25_rank": 31,
+      "dense_rank": 67,
+      "bm25_score": 12.254592895507812,
+      "dense_score": 0.36673951148986816,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2569558820859098,
+      "normalized_dense": 0.2356641749905551,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.5570469798657718,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.3251488054491111,
+      "rank": 43,
+      "rrf_score": 0.3251488054491111,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L60_002",
+      "alias_source_ids": [
+        "L60_002"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Conducting online interviews 1 with Sinofert's sustainability management and other personnel involved in the preparation and provision of the content and information in the ESG Report;",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nConducting online interviews 1 with Sinofert's sustainability management and other personnel involved in the preparation and provision of the content and information in the ESG Report;",
+      "bm25_rank": 41,
+      "dense_rank": 55,
+      "bm25_score": 7.142812252044678,
+      "dense_score": 0.3778723478317261,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13289055876862987,
+      "normalized_dense": 0.2746067958290626,
+      "normalized_bm25_rank": 0.7315436241610738,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.3233616312334952,
+      "rank": 44,
+      "rrf_score": 0.3233616312334952,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T57_001",
+      "alias_source_ids": [
+        "T57_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        57
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B7: Anti- Corruption | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | Integrity and Anti-Corruption B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees During the Reporting Period and the outcomes of the cases. | Integrity and Anti-Corruption B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | Integrity and Anti-Corruption B7.3 | Description of anti-corruption training provided to directors and staff | Integrity and Anti-Corruption B8: Community Investment | General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Community Investment B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Community Investment B8.2 | Resources contributed (e.g. money or time) to the focus area. | Community Investment",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B7: Anti- Corruption | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | Integrity and Anti-Corruption B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees During the Reporting Period and the outcomes of the cases. | Integrity and Anti-Corruption B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | Integrity and Anti-Corruption B7.3 | Description of anti-corruption training provided to directors and staff | Integrity and Anti-Corruption B8: Community Investment | General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Community Investment B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Community Investment B8.2 | Resources contributed (e.g. money or time) to the focus area. | Community Investment",
+      "bm25_rank": 48,
+      "dense_rank": 49,
+      "bm25_score": 5.492915153503418,
+      "dense_score": 0.3807622790336609,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09284677926245638,
+      "normalized_dense": 0.2847157646120833,
+      "normalized_bm25_rank": 0.6845637583892618,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 48,
+      "composite_score": 0.3222467191043043,
+      "rank": 45,
+      "rrf_score": 0.3222467191043043,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_006",
+      "alias_source_ids": [
+        "P58_006"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "The assurance team of CECEPAC (HK) is composed of experienced personnel in the industry who have received professional training in sustainability-related standards such as GRI Sustainability Reporting Standards issued by Global Reporting Initiative, AA1000AS v3, the ESG Reporting Guide of the SEHK, ISO 14001, and ISO 9001, etc.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nThe assurance team of CECEPAC (HK) is composed of experienced personnel in the industry who have received professional training in sustainability-related standards such as GRI Sustainability Reporting Standards issued by Global Reporting Initiative, AA1000AS v3, the ESG Reporting Guide of the SEHK, ISO 14001, and ISO 9001, etc.",
+      "bm25_rank": 56,
+      "dense_rank": 47,
+      "bm25_score": 4.862329006195068,
+      "dense_score": 0.38207805156707764,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07754215652883956,
+      "normalized_dense": 0.2893183321254417,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.31811212942886713,
+      "rank": 46,
+      "rrf_score": 0.31811212942886713,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_001",
+      "alias_source_ids": [
+        "P4_001"
+      ],
+      "section": "ABOUT THIS REPORT",
+      "pages": [
+        4
+      ],
+      "text": "This 2021 Environmental, Social and Governance (' ESG ') report of the Company (this ' Report ') aims to report on the Group's ESG performances, policies, and strategies during the period from 1 January 2021 to 31 December 2021 (the ' Reporting Period ' or the ' Year '), as disclosed in the various chapters of this Report. We strive to facilitate communication with stakeholders by disclosing ESG-related issues that are of key concern to the Group.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT\n\n[Content]\nThis 2021 Environmental, Social and Governance (' ESG ') report of the Company (this ' Report ') aims to report on the Group's ESG performances, policies, and strategies during the period from 1 January 2021 to 31 December 2021 (the ' Reporting Period ' or the ' Year '), as disclosed in the various chapters of this Report. We strive to facilitate communication with stakeholders by disclosing ESG-related issues that are of key concern to the Group.",
+      "bm25_rank": 50,
+      "dense_rank": 54,
+      "bm25_score": 5.427745342254639,
+      "dense_score": 0.37791430950164795,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09126507725545706,
+      "normalized_dense": 0.27475357759709906,
+      "normalized_bm25_rank": 0.6711409395973154,
+      "normalized_dense_rank": 0.6442953020134228,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 50,
+      "composite_score": 0.31038992197249216,
+      "rank": 47,
+      "rrf_score": 0.31038992197249216,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T51_001",
+      "alias_source_ids": [
+        "T51_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        51
+      ],
+      "text": "Aspect | Description | Relevant Sections in this Report/ Explanation Mandatory Disclosure Requirements Governance Structure | A statement from the board containing the following elements: (i) a disclosure of the board's oversight of ESG issues; (ii) the board's ESG management approach and strategy, including the process used to evaluate, prioritise and manage material ESG-related issues (including risks to the issuer's businesses); and (iii) how the board reviews progress made against ESG-related goals and targets with an explanation of how they relate to the issuer's businesses. | Our ESG Management Strategy Reporting principles | A description of, or an explanation on, the application of the Reporting Principles in the preparation of the ESG report. | About this Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About this Report",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Description | Relevant Sections in this Report/ Explanation Mandatory Disclosure Requirements Governance Structure | A statement from the board containing the following elements: (i) a disclosure of the board's oversight of ESG issues; (ii) the board's ESG management approach and strategy, including the process used to evaluate, prioritise and manage material ESG-related issues (including risks to the issuer's businesses); and (iii) how the board reviews progress made against ESG-related goals and targets with an explanation of how they relate to the issuer's businesses. | Our ESG Management Strategy Reporting principles | A description of, or an explanation on, the application of the Reporting Principles in the preparation of the ESG report. | About this Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About this Report",
+      "bm25_rank": 72,
+      "dense_rank": 44,
+      "bm25_score": 3.4045236110687256,
+      "dense_score": 0.38696861267089844,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04216053311913601,
+      "normalized_dense": 0.3064254969938927,
+      "normalized_bm25_rank": 0.5234899328859061,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 44,
+      "composite_score": 0.31031190305491113,
+      "rank": 48,
+      "rrf_score": 0.31031190305491113,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_002",
+      "alias_source_ids": [
+        "P48_002"
+      ],
+      "section": "JOINT DEVELOPMENT",
+      "pages": [
+        48
+      ],
+      "text": "Supply Chain Management Department conducts random sampling assessments on the credibility and contract performances of shortlisted suppliers throughout the year, and carries out corresponding penalties for unqualified suppliers according to the assessment.",
+      "retrieval_text": "[Section]\nJOINT DEVELOPMENT\n\n[Content]\nSupply Chain Management Department conducts random sampling assessments on the credibility and contract performances of shortlisted suppliers throughout the year, and carries out corresponding penalties for unqualified suppliers according to the assessment.",
+      "bm25_rank": 73,
+      "dense_rank": 45,
+      "bm25_score": 3.366077184677124,
+      "dense_score": 0.38673239946365356,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0412274202464685,
+      "normalized_dense": 0.30559922405819895,
+      "normalized_bm25_rank": 0.5167785234899329,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 45,
+      "composite_score": 0.3078226621340929,
+      "rank": 49,
+      "rrf_score": 0.3078226621340929,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P38_001",
+      "alias_source_ids": [
+        "P38_001"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE / Occupational Health and Safety",
+      "pages": [
+        38
+      ],
+      "text": "Sinofert cares about the occupational safety and health of all employees. Most of our employees have frequent exposures to machinery operations and are exposed to certain risks. In this regard, the Group strictly abides by the Law of the People's Republic of China on the Prevention and Treatment of Occupational Diseases, the Provisions on the Supervision and Administration of Occupational Health at Work Sites, the Measures for the Supervision and Administration of Employers' Occupational Health Surveillance and other laws and regulations, protecting the health and safety of employees through practical risk prevention and safety measures. Sinofert adheres to the principle of 'preventionoriented, integrated prevention and control, and comprehensive management' on occupational health management, and implements the management system of 'corporate responsibility, hierarchical management, and periodic assessment' while striving to achieve the aim of 'no production accidents of a high level or above, no environmental accidents of level IV and above, and no occupational diseases hazard accidents', so as to create a healthy, safe and environmentally friendly working environment and promoting the sustainable and stable development of the Group.",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE / Occupational Health and Safety\n\n[Content]\nSinofert cares about the occupational safety and health of all employees. Most of our employees have frequent exposures to machinery operations and are exposed to certain risks. In this regard, the Group strictly abides by the Law of the People's Republic of China on the Prevention and Treatment of Occupational Diseases, the Provisions on the Supervision and Administration of Occupational Health at Work Sites, the Measures for the Supervision and Administration of Employers' Occupational Health Surveillance and other laws and regulations, protecting the health and safety of employees through practical risk prevention and safety measures. Sinofert adheres to the principle of 'preventionoriented, integrated prevention and control, and comprehensive management' on occupational health management, and implements the management system of 'corporate responsibility, hierarchical management, and periodic assessment' while striving to achieve the aim of 'no production accidents of a high level or above, no environmental accidents of level IV and above, and no occupational diseases hazard accidents', so as to create a healthy, safe and environmentally friendly working environment and promoting the sustainable and stable development of the Group.",
+      "bm25_rank": 24,
+      "dense_rank": 82,
+      "bm25_score": 15.966776847839355,
+      "dense_score": 0.3500380516052246,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3470523346494953,
+      "normalized_dense": 0.1772425293500987,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.4563758389261745,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.3072842783769303,
+      "rank": 50,
+      "rrf_score": 0.3072842783769303,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

@@ -1,0 +1,1553 @@
+{
+  "document_id": "2022052702223",
+  "metric_id": 12,
+  "metric_name": "水风险评估",
+  "query": "水风险评估 水风险评估 衡量企业识别、评估和管理水风险的体系成熟度。 内容质量得分 (取值：0, 1, 2) • 2分（卓越）：使用了专业风险识别工具（如 WRI Aqueduct），具备水压力情景分析，有针对高风险站点的应对措施，且建立了水资源治理机制（如首席水官或专项考核）。 • 1分（合格）：有基础的水风险识别和定性描述，具备通用性应对措施（如节水计划），但缺乏针对性工具应用或深度的情景评估。 • 0分（不合格）：无水风险评估披露，或仅笼统提及“重视水资源保护”。 水风险评估 水压力 基准水压力 水资源短缺 干旱风险 洪涝风险 流域风险 高水压力地区 高风险站点 水压力情景分析 WRI Aqueduct WWF水风险过滤器 water risk assessment water stress baseline water stress water scarcity drought risk flood risk basin risk high water stress areas high-risk sites water stress scenario WRI Aqueduct WWF Water Risk Filter 企业是否使用专业水风险工具（如WRI Aqueduct）识别水风险？ 是否按流域、运营点或高水压力区域开展评估？ 是否包含水压力情景分析？ 对高风险站点采取了哪些针对性应对措施？ 是否建立水资源治理机制（如专项职责或考核）？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '水风险评估'. Prefer explicit, auditable disclosure that answers: 企业是否使用专业水风险工具（如WRI Aqueduct）识别水风险？ 是否按流域、运营点或高水压力区域开展评估？ 是否包含水压力情景分析？ 对高风险站点采取了哪些针对性应对措施？ 是否建立水资源治理机制（如专项职责或考核）？ Exclude or down-rank: 排除：仅有笼统“重视节水”；仅有用水效益目标而无风险评估；仅有排污合规数据；仅有社区饮水公益项目；区分：水风险评估关注风险识别工具、情景与高风险站点应对；用水效益目标与行动方案关注节水量化目标及工程/管理措施，二者不可互相替代。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 164,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P17_004",
+      "alias_source_ids": [
+        "P17_004"
+      ],
+      "section": "Resource Planning and Recycling Measures / Resource Planning",
+      "pages": [
+        17
+      ],
+      "text": "During the Reporting Period, we purchased tap water from the local municipal water supply agency, during which we did not encounter any problems in obtaining water sources. Nevertheless, we are committed to the principle of resource conservation. The Group uses water-saving sanitary ware, cold source stations and retrofitted cooling towers, recycles condensed water, conducts water balance tests to understand water consumption in the pipe network, analyses unreasonable water use factors, and regularly conducts inspection on and maintenance of water use equipment.",
+      "retrieval_text": "[Section]\nResource Planning and Recycling Measures / Resource Planning\n\n[Content]\nDuring the Reporting Period, we purchased tap water from the local municipal water supply agency, during which we did not encounter any problems in obtaining water sources. Nevertheless, we are committed to the principle of resource conservation. The Group uses water-saving sanitary ware, cold source stations and retrofitted cooling towers, recycles condensed water, conducts water balance tests to understand water consumption in the pipe network, analyses unreasonable water use factors, and regularly conducts inspection on and maintenance of water use equipment.",
+      "bm25_rank": 1,
+      "dense_rank": 1,
+      "bm25_score": 39.269676208496094,
+      "dense_score": 0.4984614849090576,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.85,
+      "rank": 1,
+      "rrf_score": 0.85,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_004",
+      "alias_source_ids": [
+        "P10_004"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        10
+      ],
+      "text": "We have developed and continue to optimize a comprehensive risk management organizational framework, which is composed of the Board, audit committee and senior management. The Board is responsible for assessing the nature and extent of risks so as to achieve the Group's strategic objectives; the audit committee is responsible for reviewing and supervising the Group's financial reporting procedures, risk management and internal control system, and providing opinions and suggestions to the Board; and the senior management is responsible for the design, implementation and monitoring of risk management and internal control systems. The senior management identifies, at least annually, the risks that adversely affect the achievement of the Group's objectives; also they shall assess and arrange the priorities of the risks to be identified according to the relevant standards and criterion.",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nWe have developed and continue to optimize a comprehensive risk management organizational framework, which is composed of the Board, audit committee and senior management. The Board is responsible for assessing the nature and extent of risks so as to achieve the Group's strategic objectives; the audit committee is responsible for reviewing and supervising the Group's financial reporting procedures, risk management and internal control system, and providing opinions and suggestions to the Board; and the senior management is responsible for the design, implementation and monitoring of risk management and internal control systems. The senior management identifies, at least annually, the risks that adversely affect the achievement of the Group's objectives; also they shall assess and arrange the priorities of the risks to be identified according to the relevant standards and criterion.",
+      "bm25_rank": 14,
+      "dense_rank": 5,
+      "bm25_score": 20.256122589111328,
+      "dense_score": 0.47692278027534485,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.49828420144964775,
+      "normalized_dense": 0.8985686300542778,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.7000619010773832,
+      "rank": 2,
+      "rrf_score": 0.7000619010773832,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_002",
+      "alias_source_ids": [
+        "P15_002"
+      ],
+      "section": "Major Environmental Management Goals in 2022",
+      "pages": [
+        15
+      ],
+      "text": "In order to tackle climate-related risks and opportunities, we actively respond to peak China's carbon dioxide emissions before 2030 and become carbon-neutral by 2060, and give full play to the development of green and low-carbon wind power, in a bid to promote the national energy transformation. The Group further integrates climate change risks and opportunities into the Group's risk assessment and management, and proactively identifies and responds to physical climate change risks from extreme weather and water use stress on normal production operations. Meanwhile, in line with the energy management and control requirements of local government departments, each business segment and production department formulated emergency plans for electricity consumption during the period of power management and control, adopted partitioned power outages, shutted down non-productive loads. All these measures were made to prioritize the production of work-in-progress; and we used photovoltaic roof system, stored energy during valley period. The Group strives to minimize the adverse impact of transitional types of climate related risks, such as power control or energy control policies, on production operations and customers' products demand.",
+      "retrieval_text": "[Section]\nMajor Environmental Management Goals in 2022\n\n[Content]\nIn order to tackle climate-related risks and opportunities, we actively respond to peak China's carbon dioxide emissions before 2030 and become carbon-neutral by 2060, and give full play to the development of green and low-carbon wind power, in a bid to promote the national energy transformation. The Group further integrates climate change risks and opportunities into the Group's risk assessment and management, and proactively identifies and responds to physical climate change risks from extreme weather and water use stress on normal production operations. Meanwhile, in line with the energy management and control requirements of local government departments, each business segment and production department formulated emergency plans for electricity consumption during the period of power management and control, adopted partitioned power outages, shutted down non-productive loads. All these measures were made to prioritize the production of work-in-progress; and we used photovoltaic roof system, stored energy during valley period. The Group strives to minimize the adverse impact of transitional types of climate related risks, such as power control or energy control policies, on production operations and customers' products demand.",
+      "bm25_rank": 2,
+      "dense_rank": 15,
+      "bm25_score": 37.59646987915039,
+      "dense_score": 0.4217011630535126,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9558486505746449,
+      "normalized_dense": 0.6385156519071319,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.695187121034103,
+      "rank": 3,
+      "rrf_score": 0.695187121034103,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P34_004",
+      "alias_source_ids": [
+        "P34_004"
+      ],
+      "section": "Substainable Supply Chains",
+      "pages": [
+        34
+      ],
+      "text": "We manage suppliers according to their business importance, supply period and performance evaluation. We examine the quality, cost, logistics and service of suppliers, and determine the grade of qualified suppliers through monthly and annually comprehensive evaluation. At the same time, we carry out risk assessment on suppliers from the dimensions of products and technologies, enterprise nature, EHS performance, supplier resources and purchase volume, and adjust the audit dates according to the risk level. If major accidents or other irregularities were found in suppliers, we would appropriately increase the audit frequency, put forward recertification plans for suppliers based on the audit results and conduct real-time supervision, so as to help them optimize and improve their business level. Meanwhile, these efforts enhance their social responsibility awareness and ability. We strive to maintain close communication with suppliers, discuss the future cooperation with representatives from different countries or regions by means of exchange visits, supplier conferences, large-scale exhibitions and exchange meetings, and explore the possibility of business upgrading and further cooperation so as to achieve win-win results in the long term.",
+      "retrieval_text": "[Section]\nSubstainable Supply Chains\n\n[Content]\nWe manage suppliers according to their business importance, supply period and performance evaluation. We examine the quality, cost, logistics and service of suppliers, and determine the grade of qualified suppliers through monthly and annually comprehensive evaluation. At the same time, we carry out risk assessment on suppliers from the dimensions of products and technologies, enterprise nature, EHS performance, supplier resources and purchase volume, and adjust the audit dates according to the risk level. If major accidents or other irregularities were found in suppliers, we would appropriately increase the audit frequency, put forward recertification plans for suppliers based on the audit results and conduct real-time supervision, so as to help them optimize and improve their business level. Meanwhile, these efforts enhance their social responsibility awareness and ability. We strive to maintain close communication with suppliers, discuss the future cooperation with representatives from different countries or regions by means of exchange visits, supplier conferences, large-scale exhibitions and exchange meetings, and explore the possibility of business upgrading and further cooperation so as to achieve win-win results in the long term.",
+      "bm25_rank": 23,
+      "dense_rank": 3,
+      "bm25_score": 16.76532745361328,
+      "dense_score": 0.48117244243621826,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4061716430062588,
+      "normalized_dense": 0.9185813960081413,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.685288152774571,
+      "rank": 4,
+      "rrf_score": 0.685288152774571,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_001",
+      "alias_source_ids": [
+        "P10_001"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        10
+      ],
+      "text": "The Group actively promotes responsible business practices, and has formulated a comprehensive risk organization framework, continuously strengthened compliance, and strictly met regulatory and compliance requirements. We identify and evaluate ESG risks in the process of the Group's operation and development, clarify the strategies of dealing with such risks, and always manage the risks in a perfect and orderly manner. The contents of this section can be referred to in conjunction with the \"Corporate Governance Report\" section of the Group's 2021 Annual Report .",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nThe Group actively promotes responsible business practices, and has formulated a comprehensive risk organization framework, continuously strengthened compliance, and strictly met regulatory and compliance requirements. We identify and evaluate ESG risks in the process of the Group's operation and development, clarify the strategies of dealing with such risks, and always manage the risks in a perfect and orderly manner. The contents of this section can be referred to in conjunction with the \"Corporate Governance Report\" section of the Group's 2021 Annual Report .",
+      "bm25_rank": 30,
+      "dense_rank": 2,
+      "bm25_score": 13.839523315429688,
+      "dense_score": 0.48729050159454346,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3289676553153873,
+      "normalized_dense": 0.9473929300530708,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6765756874541354,
+      "rank": 5,
+      "rrf_score": 0.6765756874541354,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_002",
+      "alias_source_ids": [
+        "P5_002"
+      ],
+      "section": "Sustainable Development Management",
+      "pages": [
+        5
+      ],
+      "text": "We integrate the concept of sustainable development into the daily operation and management of the Group by combining the expectations of stakeholders such as regulators, stakeholders, employees, customers and suppliers. At the level of the Group, we have formulated and improved relevant risk management policies in accordance with the laws and regulations of the State, local governments and the industry in a bid to effectively examine and monitor the environmental, social and governance risks during the Group's development. The management identifies, evaluates, controls, supervises and manages relevant risks, improves the organization and operation mechanism for risk management, and reports to the Board at least once a year.",
+      "retrieval_text": "[Section]\nSustainable Development Management\n\n[Content]\nWe integrate the concept of sustainable development into the daily operation and management of the Group by combining the expectations of stakeholders such as regulators, stakeholders, employees, customers and suppliers. At the level of the Group, we have formulated and improved relevant risk management policies in accordance with the laws and regulations of the State, local governments and the industry in a bid to effectively examine and monitor the environmental, social and governance risks during the Group's development. The management identifies, evaluates, controls, supervises and manages relevant risks, improves the organization and operation mechanism for risk management, and reports to the Board at least once a year.",
+      "bm25_rank": 18,
+      "dense_rank": 6,
+      "bm25_score": 18.211462020874023,
+      "dense_score": 0.46751272678375244,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.44433118823113343,
+      "normalized_dense": 0.8542542372833781,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.6697344153262814,
+      "rank": 6,
+      "rrf_score": 0.6697344153262814,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_003",
+      "alias_source_ids": [
+        "P10_003"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        10
+      ],
+      "text": "We set each operation and management department as the \"First Defence Line\" for risk management, which is assigned with the direct responsibility for risks and risk management; we set the management departments (including financial control, security control, risk management and compliance inspection) as the \"Second Defence Line\" for risk management, which shall be responsible for overall examination and supervision on risks; we take the internal audit function as the \"Third Defence Line\" risk management, which provides comprehensive confirmation services to the corporate governance institutions and the senior management. Among them, the Board and the senior management of the Group are the \"stakeholders\" of all three defence lines. By setting the corporate strategy, formulating the goal of realizing the strategy, and establishing the governance framework and processes to manage the risks which affect the Group's realization of its business objective, we continually support the three defence lines to operate effectively.",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nWe set each operation and management department as the \"First Defence Line\" for risk management, which is assigned with the direct responsibility for risks and risk management; we set the management departments (including financial control, security control, risk management and compliance inspection) as the \"Second Defence Line\" for risk management, which shall be responsible for overall examination and supervision on risks; we take the internal audit function as the \"Third Defence Line\" risk management, which provides comprehensive confirmation services to the corporate governance institutions and the senior management. Among them, the Board and the senior management of the Group are the \"stakeholders\" of all three defence lines. By setting the corporate strategy, formulating the goal of realizing the strategy, and establishing the governance framework and processes to manage the risks which affect the Group's realization of its business objective, we continually support the three defence lines to operate effectively.",
+      "bm25_rank": 9,
+      "dense_rank": 10,
+      "bm25_score": 23.4154052734375,
+      "dense_score": 0.43246662616729736,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5816490508903644,
+      "normalized_dense": 0.6892130216097733,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.6401047033119633,
+      "rank": 7,
+      "rrf_score": 0.6401047033119633,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T51_001",
+      "alias_source_ids": [
+        "T51_001"
+      ],
+      "section": "HKEX ESG Reporting Guide Content Index",
+      "pages": [
+        51
+      ],
+      "text": "Aspect | Indicator number | Indicator contents | Chapter | Page General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous wastes. | Green and low-carbon development | p12­ -20 A1.1 | The types of emissions and respective emissions data. | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p16-20 P44-45 A1: Emissions | A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p16, p44 A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p19, p44 A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p20, p45 A1.5 | Description of emission target(s) set and steps taken to achieve them. | Green and low-carbon development | p13-20 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Green and low-carbon development | P19-20 General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Green and low-carbon development | P12-20 A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | KPIs of the HKEX ESG Reporting Guide | P45 A2: Use of | A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | KPIs of the HKEX ESG Reporting Guide | P45 Resources | A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Green and low-carbon development | p13-15 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Green and low-carbon development | p15-16 A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | KPIs of the HKEX ESG Reporting Guide | p45 A3: The | General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | Green and low-carbon development | p12-20 Environment and Natural Resources | A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Sustainable development management Green and low-carbon development | p3, p12-13 A4: Climate | General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Board Statement Sustainable development management Green and low-carbon development | p2, p3, p13 Change | A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Sustainable development management Green and low-carbon development | p3, p13",
+      "retrieval_text": "[Section]\nHKEX ESG Reporting Guide Content Index\n\n[Content]\nAspect | Indicator number | Indicator contents | Chapter | Page General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous wastes. | Green and low-carbon development | p12­ -20 A1.1 | The types of emissions and respective emissions data. | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p16-20 P44-45 A1: Emissions | A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p16, p44 A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p19, p44 A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p20, p45 A1.5 | Description of emission target(s) set and steps taken to achieve them. | Green and low-carbon development | p13-20 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Green and low-carbon development | P19-20 General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Green and low-carbon development | P12-20 A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | KPIs of the HKEX ESG Reporting Guide | P45 A2: Use of | A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | KPIs of the HKEX ESG Reporting Guide | P45 Resources | A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Green and low-carbon development | p13-15 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Green and low-carbon development | p15-16 A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | KPIs of the HKEX ESG Reporting Guide | p45 A3: The | General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | Green and low-carbon development | p12-20 Environment and Natural Resources | A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Sustainable development management Green and low-carbon development | p3, p12-13 A4: Climate | General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Board Statement Sustainable development management Green and low-carbon development | p2, p3, p13 Change | A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Sustainable development management Green and low-carbon development | p3, p13",
+      "bm25_rank": 7,
+      "dense_rank": 14,
+      "bm25_score": 25.71222686767578,
+      "dense_score": 0.42543643712997437,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6422559055241086,
+      "normalized_dense": 0.656106030397454,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.6366117816768166,
+      "rank": 8,
+      "rrf_score": 0.6366117816768166,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_003",
+      "alias_source_ids": [
+        "P5_003"
+      ],
+      "section": "Sustainable Development Management",
+      "pages": [
+        5
+      ],
+      "text": "The Group has specified the responsibilities of the personnel at all levels for environmental protection, formulated the Emergency Plan for Environmental Emergencies and conducted regular drills. We ensure that all environmental protection systems are put in place through regular inspections by various responsible units during the production process and irregular spot checks in cooperation with relevant regulators. At the level of our subsidiaries, we have established safety and environment departments for implementing ESG management requirements in compliance with the Group's management system. And we established and implemented the Environmental, Occupational Health and Safety (EHS) Management System in the daily operation of subsidiaries. At the beginning of each year, the subsidiaries formulate ESG risk management objectives and measures according to the requirements of the Group, and the heads of departments assume risk management responsibilities and closely supervise the implementation of relevant objectives.",
+      "retrieval_text": "[Section]\nSustainable Development Management\n\n[Content]\nThe Group has specified the responsibilities of the personnel at all levels for environmental protection, formulated the Emergency Plan for Environmental Emergencies and conducted regular drills. We ensure that all environmental protection systems are put in place through regular inspections by various responsible units during the production process and irregular spot checks in cooperation with relevant regulators. At the level of our subsidiaries, we have established safety and environment departments for implementing ESG management requirements in compliance with the Group's management system. And we established and implemented the Environmental, Occupational Health and Safety (EHS) Management System in the daily operation of subsidiaries. At the beginning of each year, the subsidiaries formulate ESG risk management objectives and measures according to the requirements of the Group, and the heads of departments assume risk management responsibilities and closely supervise the implementation of relevant objectives.",
+      "bm25_rank": 24,
+      "dense_rank": 7,
+      "bm25_score": 16.389144897460938,
+      "dense_score": 0.4437786936759949,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.39624521182254446,
+      "normalized_dense": 0.7424844937729485,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.6156286822991349,
+      "rank": 9,
+      "rrf_score": 0.6156286822991349,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_003",
+      "alias_source_ids": [
+        "P8_003"
+      ],
+      "section": "Stakeholder Communication and Materiality Assessment",
+      "pages": [
+        8
+      ],
+      "text": "The material issues marked in the \"High-High\" area of this materiality matrix will be detailed in different sections below.",
+      "retrieval_text": "[Section]\nStakeholder Communication and Materiality Assessment\n\n[Content]\nThe material issues marked in the \"High-High\" area of this materiality matrix will be detailed in different sections below.",
+      "bm25_rank": 50,
+      "dense_rank": 4,
+      "bm25_score": 4.1433844566345215,
+      "dense_score": 0.4806249141693115,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07311300826845991,
+      "normalized_dense": 0.9160029427937622,
+      "normalized_bm25_rank": 0.6711409395973154,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5983108799536564,
+      "rank": 10,
+      "rrf_score": 0.5983108799536564,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_005",
+      "alias_source_ids": [
+        "P19_005"
+      ],
+      "section": "Air Pollutant",
+      "pages": [
+        19
+      ],
+      "text": "In the production process, the Group strictly controls the concentration of water pollutants, so that its wastewater discharge is superior to the standards set by the State and the Group. At the same time, a series of measures are taken to improve production equipment, enhance the recycling efficiency of resources, and reduce the generation and discharge of wastewater.",
+      "retrieval_text": "[Section]\nAir Pollutant\n\n[Content]\nIn the production process, the Group strictly controls the concentration of water pollutants, so that its wastewater discharge is superior to the standards set by the State and the Group. At the same time, a series of measures are taken to improve production equipment, enhance the recycling efficiency of resources, and reduce the generation and discharge of wastewater.",
+      "bm25_rank": 12,
+      "dense_rank": 30,
+      "bm25_score": 21.792821884155273,
+      "dense_score": 0.3980146646499634,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5388335027206472,
+      "normalized_dense": 0.5269697616993876,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.5458973923067003,
+      "rank": 11,
+      "rrf_score": 0.5458973923067003,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_002",
+      "alias_source_ids": [
+        "P18_002"
+      ],
+      "section": "Water-saving Project",
+      "pages": [
+        18
+      ],
+      "text": "Centralized supply system is also used for coolant replenishment, and single machine processing is usually employed in the traditional gear processing sector; therefore, the corresponding cooling system is also set up by single machine, with a large number of equipment and a large workload of coolant maintenance. Given that the coolant has a high probability of deterioration and failure, it should be frequently replaced, and it costs a lot of labour, materials and water, so we have upgraded the single liquid supply system to an intelligent centralized liquid supply system. By means of automatic operation control, we pump the coolants in the single machine system to the centralized water tank for fine filtration, oil removal and detection. As a result, the service life of coolants is maximized, and the coolant replacement period is extended by more than six times as compared with that of the single machine, thus effectively reducing the water resources consumed by configuring the coolants. About two tons of coolant stock solution will be saved annually, so it is estimated that about 1,800 tons of water will be saved annually.",
+      "retrieval_text": "[Section]\nWater-saving Project\n\n[Content]\nCentralized supply system is also used for coolant replenishment, and single machine processing is usually employed in the traditional gear processing sector; therefore, the corresponding cooling system is also set up by single machine, with a large number of equipment and a large workload of coolant maintenance. Given that the coolant has a high probability of deterioration and failure, it should be frequently replaced, and it costs a lot of labour, materials and water, so we have upgraded the single liquid supply system to an intelligent centralized liquid supply system. By means of automatic operation control, we pump the coolants in the single machine system to the centralized water tank for fine filtration, oil removal and detection. As a result, the service life of coolants is maximized, and the coolant replacement period is extended by more than six times as compared with that of the single machine, thus effectively reducing the water resources consumed by configuring the coolants. About two tons of coolant stock solution will be saved annually, so it is estimated that about 1,800 tons of water will be saved annually.",
+      "bm25_rank": 4,
+      "dense_rank": 47,
+      "bm25_score": 32.89879608154297,
+      "dense_score": 0.3719291687011719,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8318898573960377,
+      "normalized_dense": 0.4041263672243959,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5440638107460012,
+      "rank": 12,
+      "rrf_score": 0.5440638107460012,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T47_001",
+      "alias_source_ids": [
+        "T47_001"
+      ],
+      "section": "Environmental KPIs",
+      "pages": [
+        47
+      ],
+      "text": "KPIs | Unit | 2021 | 2020 Oily waste | Ton | 203.57 | 333.59 Intensity of non-hazardous wastes | Kg/thousand RMB | 0.50 | 0.99 Total non-hazardous wastes 6 | Ton | 6,985.10 | 13,056.32 Intensity of energy consumption | kWh/thousand RMB | 25.38 | 25.49 Total energy consumption 4 | MWh | 354,865.75 | 335,946.99 Purchased electricity | MWh | 315,893.00 | 299,922.96 Renewable energy (solar photovoltaic energy) | MWh | 32,294.00 | 31,429.20 Natural gas | MWh | 1390.71 | - LPG | MWh | 4,324.91 | 3,041.71 Diesel | MWh | 508.19 | 720.54 Gasoline | MWh | 454.94 | 832.58 Intensity of water consumption | m3/thousand RMB | 0.05 | 0.45 Total water consumption | m3 | 699,110.00 | 600,353.00 Total sewage discharge | m3 | 230,054.00 | 180,840.00 Intensity of packaging material used | Kg/thousand RMB | 0.67 | 0.72 Total packaging material used 7 | Ton | 9,304.87 | 9,513.50",
+      "retrieval_text": "[Section]\nEnvironmental KPIs\n\n[Content]\nKPIs | Unit | 2021 | 2020 Oily waste | Ton | 203.57 | 333.59 Intensity of non-hazardous wastes | Kg/thousand RMB | 0.50 | 0.99 Total non-hazardous wastes 6 | Ton | 6,985.10 | 13,056.32 Intensity of energy consumption | kWh/thousand RMB | 25.38 | 25.49 Total energy consumption 4 | MWh | 354,865.75 | 335,946.99 Purchased electricity | MWh | 315,893.00 | 299,922.96 Renewable energy (solar photovoltaic energy) | MWh | 32,294.00 | 31,429.20 Natural gas | MWh | 1390.71 | - LPG | MWh | 4,324.91 | 3,041.71 Diesel | MWh | 508.19 | 720.54 Gasoline | MWh | 454.94 | 832.58 Intensity of water consumption | m3/thousand RMB | 0.05 | 0.45 Total water consumption | m3 | 699,110.00 | 600,353.00 Total sewage discharge | m3 | 230,054.00 | 180,840.00 Intensity of packaging material used | Kg/thousand RMB | 0.67 | 0.72 Total packaging material used 7 | Ton | 9,304.87 | 9,513.50",
+      "bm25_rank": 10,
+      "dense_rank": 34,
+      "bm25_score": 23.304431915283203,
+      "dense_score": 0.3944912552833557,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5787207667768974,
+      "normalized_dense": 0.5103771093086203,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.5440405711435979,
+      "rank": 13,
+      "rrf_score": 0.5440405711435979,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_005",
+      "alias_source_ids": [
+        "P18_005"
+      ],
+      "section": "Water-saving Project",
+      "pages": [
+        18
+      ],
+      "text": "2. GHG Scope 1 (Direct emissions) includes GHG emissions from operations directly controlled or managed by the Group, while Scope 2 (indirect emissions) includes indirect emissions from purchased electricity outside of the Group.",
+      "retrieval_text": "[Section]\nWater-saving Project\n\n[Content]\n2. GHG Scope 1 (Direct emissions) includes GHG emissions from operations directly controlled or managed by the Group, while Scope 2 (indirect emissions) includes indirect emissions from purchased electricity outside of the Group.",
+      "bm25_rank": 19,
+      "dense_rank": 27,
+      "bm25_score": 18.16421890258789,
+      "dense_score": 0.4005500078201294,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4430845712498254,
+      "normalized_dense": 0.5389093530260616,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.5302553220372745,
+      "rank": 14,
+      "rrf_score": 0.5302553220372745,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_002",
+      "alias_source_ids": [
+        "P8_002"
+      ],
+      "section": "Stakeholder Communication and Materiality Assessment",
+      "pages": [
+        8
+      ],
+      "text": "The internal opinions collected have been grouped into material issues showing the priority for each material issue given by different stakeholders. Issues in the \"high-high\" area of the materiality matrix diagram are marked as material issues, while other listed issues will also be discussed. This comprehensive process enables us to identify and address the issues and priorities of common concerns by the Group and stakeholders.",
+      "retrieval_text": "[Section]\nStakeholder Communication and Materiality Assessment\n\n[Content]\nThe internal opinions collected have been grouped into material issues showing the priority for each material issue given by different stakeholders. Issues in the \"high-high\" area of the materiality matrix diagram are marked as material issues, while other listed issues will also be discussed. This comprehensive process enables us to identify and address the issues and priorities of common concerns by the Group and stakeholders.",
+      "bm25_rank": 60,
+      "dense_rank": 8,
+      "bm25_score": 3.108603000640869,
+      "dense_score": 0.4431810975074768,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04580794920839819,
+      "normalized_dense": 0.7396702577695341,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.5190528914704126,
+      "rank": 15,
+      "rrf_score": 0.5190528914704126,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_001",
+      "alias_source_ids": [
+        "P8_001"
+      ],
+      "section": "Stakeholder Communication and Materiality Assessment",
+      "pages": [
+        8
+      ],
+      "text": "As the society attaches more importance to sustainable development and concerns more about climate change risks, and stakeholders raise their expectations of the Group, we invite relevant stakeholders to evaluate our performance in the environmental, social and economic fields, provide views on the Group's business and share their challenges encountered during sustainable development.",
+      "retrieval_text": "[Section]\nStakeholder Communication and Materiality Assessment\n\n[Content]\nAs the society attaches more importance to sustainable development and concerns more about climate change risks, and stakeholders raise their expectations of the Group, we invite relevant stakeholders to evaluate our performance in the environmental, social and economic fields, provide views on the Group's business and share their challenges encountered during sustainable development.",
+      "bm25_rank": 54,
+      "dense_rank": 9,
+      "bm25_score": 3.325244188308716,
+      "dense_score": 0.4358272850513458,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.051524519011470454,
+      "normalized_dense": 0.7050392395892776,
+      "normalized_bm25_rank": 0.6442953020134228,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.5107599128263264,
+      "rank": 16,
+      "rrf_score": 0.5107599128263264,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_002",
+      "alias_source_ids": [
+        "P10_002"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        10
+      ],
+      "text": "By adhering to legality and compliance, the Group has built a culture of integrity and honesty, and set up a flexible and efficient compliance system. In accordance with the Corporate Governance Code as set out in Appendix 14 to the Listing Rules, the COSO Enterprise Risk Management Framework and the ISO 31000 Standard, and by basing on our own characteristics, the Group has formulated the Comprehensive Risk Management System for all employees and set up \"Three Defence Lines\" for risk management, in a bid to establish a standardized and effective enterprise risk management system within the Group, making it convenient for efficiently achieving the Group's strategic and operational objectives. The specific sample graphs are as follows:",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nBy adhering to legality and compliance, the Group has built a culture of integrity and honesty, and set up a flexible and efficient compliance system. In accordance with the Corporate Governance Code as set out in Appendix 14 to the Listing Rules, the COSO Enterprise Risk Management Framework and the ISO 31000 Standard, and by basing on our own characteristics, the Group has formulated the Comprehensive Risk Management System for all employees and set up \"Three Defence Lines\" for risk management, in a bid to establish a standardized and effective enterprise risk management system within the Group, making it convenient for efficiently achieving the Group's strategic and operational objectives. The specific sample graphs are as follows:",
+      "bm25_rank": 11,
+      "dense_rank": 42,
+      "bm25_score": 23.204681396484375,
+      "dense_score": 0.3788086771965027,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5760886227707427,
+      "normalized_dense": 0.43652376451923747,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.5062560756929286,
+      "rank": 17,
+      "rrf_score": 0.5062560756929286,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T10_001",
+      "alias_source_ids": [
+        "T10_001"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        10
+      ],
+      "text": "Senior governance institution/ the Board/audit committee Senior execution and management First | defence line | Second defence line line | Third defence | External Business operation management and control | Internal control measures for business | Financial control Security control Risk management Inspection | Internal audit | audit",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nSenior governance institution/ the Board/audit committee Senior execution and management First | defence line | Second defence line line | Third defence | External Business operation management and control | Internal control measures for business | Financial control Security control Risk management Inspection | Internal audit | audit",
+      "bm25_rank": 22,
+      "dense_rank": 35,
+      "bm25_score": 17.381711959838867,
+      "dense_score": 0.39382174611091614,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.42243634822368575,
+      "normalized_dense": 0.5072242162397641,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.5022842017044935,
+      "rank": 18,
+      "rrf_score": 0.5022842017044935,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_002",
+      "alias_source_ids": [
+        "P21_002"
+      ],
+      "section": "Waste Management / Hazardous wastes",
+      "pages": [
+        21
+      ],
+      "text": "Regarding the specific measures, the Group carried out the comprehensive improvement project of source substitution, which mainly involved the innovation of paint technology, the introduction of single-layer paint technology and the adoption of high-solids paint. In addition, the sewage treatment station was renovated, added with a new cleaning room, and all solvent-based cleaning agents were replaced with high-pressure water containing 4% water-soluble cleaning agents. Comprehensive improvement projects have improved the Group's technological level, ensured the recycling of resources, reduced hazardous wastes generated in the production process, and thus better practicing the corporate social responsibility.",
+      "retrieval_text": "[Section]\nWaste Management / Hazardous wastes\n\n[Content]\nRegarding the specific measures, the Group carried out the comprehensive improvement project of source substitution, which mainly involved the innovation of paint technology, the introduction of single-layer paint technology and the adoption of high-solids paint. In addition, the sewage treatment station was renovated, added with a new cleaning room, and all solvent-based cleaning agents were replaced with high-pressure water containing 4% water-soluble cleaning agents. Comprehensive improvement projects have improved the Group's technological level, ensured the recycling of resources, reduced hazardous wastes generated in the production process, and thus better practicing the corporate social responsibility.",
+      "bm25_rank": 20,
+      "dense_rank": 39,
+      "bm25_score": 17.890047073364258,
+      "dense_score": 0.3856615424156189,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4358499247974808,
+      "normalized_dense": 0.46879569168705676,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.487490087788221,
+      "rank": 19,
+      "rrf_score": 0.487490087788221,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T21_001",
+      "alias_source_ids": [
+        "T21_001"
+      ],
+      "section": "Waste Management / Hazardous wastes",
+      "pages": [
+        21
+      ],
+      "text": "Unit | 2021 Total amount of hazardous wastes | Ton | 1,613.48 Intensity of hazardous wastes | Kg/thousand RMB | 0.12",
+      "retrieval_text": "[Section]\nWaste Management / Hazardous wastes\n\n[Content]\nUnit | 2021 Total amount of hazardous wastes | Ton | 1,613.48 Intensity of hazardous wastes | Kg/thousand RMB | 0.12",
+      "bm25_rank": 38,
+      "dense_rank": 23,
+      "bm25_score": 7.963865280151367,
+      "dense_score": 0.4091030955314636,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17392507241952126,
+      "normalized_dense": 0.579188070738205,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.4831384231348934,
+      "rank": 20,
+      "rrf_score": 0.4831384231348934,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_004",
+      "alias_source_ids": [
+        "P18_004"
+      ],
+      "section": "Water-saving Project",
+      "pages": [
+        18
+      ],
+      "text": "1. GHG emissions mainly comprise the Group's wind power gear transmission equipment business segment and industrial gear transmission equipment business segment.",
+      "retrieval_text": "[Section]\nWater-saving Project\n\n[Content]\n1. GHG emissions mainly comprise the Group's wind power gear transmission equipment business segment and industrial gear transmission equipment business segment.",
+      "bm25_rank": 39,
+      "dense_rank": 24,
+      "bm25_score": 7.9058146476745605,
+      "dense_score": 0.40693730115890503,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17239327462872006,
+      "normalized_dense": 0.5689887809496489,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.47724888933194665,
+      "rank": 21,
+      "rrf_score": 0.47724888933194665,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T15_001",
+      "alias_source_ids": [
+        "T15_001"
+      ],
+      "section": "Major Environmental Management Goals in 2022",
+      "pages": [
+        15
+      ],
+      "text": "Environmental Management Goals in 2022 Air Pollutant | Strengthen the extensive use and maintenance of air pollutant collection and purification equipment. The emission of air pollutant shall reach the secondary standards of the Integrated Emission Standard of Air Pollutants , the Emission Standards for Air Pollutants from Industrial Furnaces , the Emission Standards for Odour Pollutants and the Emission Control Standards for Volatile Organic Compounds from Industrial Enterprises . Wastewater | The test results of wastewater shall meet the standards. Continuously promote the reconstruction of sewage station and pipeline. Improve the water quality of the total sewage pipeline. Noise | The noises at factories shall meet the secondary standards of the Emission Standard for Industrial Enterprises Noise at boundary . Continuously implement noise reduction measures such as closed isolation and shock absorbers for some equipment noise sources. Waste | The collection, storage and transfer of hazardous wastes inside and outside totally meet the compliance requirements. Improve the level of harmless treatment of hazardous waste, and continuously optimize the comprehensive waste management capacity. Resource Planning and Energy Management | Implement the energy-saving measures, source management, resource transformation and recycle. Continuously improve resource use efficiency, renewable energy usage and clean production standards, and promote paperless office in entirely.",
+      "retrieval_text": "[Section]\nMajor Environmental Management Goals in 2022\n\n[Content]\nEnvironmental Management Goals in 2022 Air Pollutant | Strengthen the extensive use and maintenance of air pollutant collection and purification equipment. The emission of air pollutant shall reach the secondary standards of the Integrated Emission Standard of Air Pollutants , the Emission Standards for Air Pollutants from Industrial Furnaces , the Emission Standards for Odour Pollutants and the Emission Control Standards for Volatile Organic Compounds from Industrial Enterprises . Wastewater | The test results of wastewater shall meet the standards. Continuously promote the reconstruction of sewage station and pipeline. Improve the water quality of the total sewage pipeline. Noise | The noises at factories shall meet the secondary standards of the Emission Standard for Industrial Enterprises Noise at boundary . Continuously implement noise reduction measures such as closed isolation and shock absorbers for some equipment noise sources. Waste | The collection, storage and transfer of hazardous wastes inside and outside totally meet the compliance requirements. Improve the level of harmless treatment of hazardous waste, and continuously optimize the comprehensive waste management capacity. Resource Planning and Energy Management | Implement the energy-saving measures, source management, resource transformation and recycle. Continuously improve resource use efficiency, renewable energy usage and clean production standards, and promote paperless office in entirely.",
+      "bm25_rank": 32,
+      "dense_rank": 32,
+      "bm25_score": 11.96785831451416,
+      "dense_score": 0.3963465094566345,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27957952307293776,
+      "normalized_dense": 0.5191139844175646,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.4751896917781849,
+      "rank": 22,
+      "rrf_score": 0.4751896917781849,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T18_001",
+      "alias_source_ids": [
+        "T18_001"
+      ],
+      "section": "Water-saving Project",
+      "pages": [
+        18
+      ],
+      "text": "Unit | 2021 | 2020 Total GHG emissions | tCO 2 e | 223,689.74 | 254,906.62 Direct emission (Scope I) | tCO 2 e | 1,484.36 | 13,617.64 Indirect emission (Scope II) | tCO 2 e | 222,230.73 | 241,318.01 GHG removal (Scope I) tree plantation | tCO 2 e | 25.35 | 29.03 GHG emissions intensity | Kg CO 2 e/thousand RMB | 16.00 | 19.34",
+      "retrieval_text": "[Section]\nWater-saving Project\n\n[Content]\nUnit | 2021 | 2020 Total GHG emissions | tCO 2 e | 223,689.74 | 254,906.62 Direct emission (Scope I) | tCO 2 e | 1,484.36 | 13,617.64 Indirect emission (Scope II) | tCO 2 e | 222,230.73 | 241,318.01 GHG removal (Scope I) tree plantation | tCO 2 e | 25.35 | 29.03 GHG emissions intensity | Kg CO 2 e/thousand RMB | 16.00 | 19.34",
+      "bm25_rank": 17,
+      "dense_rank": 44,
+      "bm25_score": 18.844614028930664,
+      "dense_score": 0.3765615224838257,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.46103834206912153,
+      "normalized_dense": 0.4259413276984989,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.47283075726937274,
+      "rank": 23,
+      "rrf_score": 0.47283075726937274,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_001",
+      "alias_source_ids": [
+        "P18_001"
+      ],
+      "section": "Water-saving Project",
+      "pages": [
+        18
+      ],
+      "text": "We continuously renovated cooling towers to reduce the floating water in them and save water.",
+      "retrieval_text": "[Section]\nWater-saving Project\n\n[Content]\nWe continuously renovated cooling towers to reduce the floating water in them and save water.",
+      "bm25_rank": 3,
+      "dense_rank": 79,
+      "bm25_score": 35.68050765991211,
+      "dense_score": 0.3419167101383209,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9052916356125704,
+      "normalized_dense": 0.2627898830096326,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.47651006711409394,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.46699451771950967,
+      "rank": 24,
+      "rrf_score": 0.46699451771950967,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_002",
+      "alias_source_ids": [
+        "P7_002"
+      ],
+      "section": "Stakeholder Communication and Materiality Assessment",
+      "pages": [
+        7
+      ],
+      "text": "Continuous and consistent communication with different types of stakeholders is very important for creating a clear and positive mutual understanding and establishing an effective and long-term relationship. Stakeholders' perspectives, priorities and expectations are helpful for us to identify risks and opportunities, balance interests and make informed decisions. We have conducted two-way dialogues with internal and external stakeholders on the potential environmental and social impacts of the Group. We try to connect with stakeholders through various channels, communicate closely with them through daily business exchanges, forums, meetings, shareholders' meetings, trainings, sharing meetings and seminars, etc., and positively understand the ideas, concerns and needs of all parties, so as to protect the interests of stakeholders and uphold the high standards of management and compliance.",
+      "retrieval_text": "[Section]\nStakeholder Communication and Materiality Assessment\n\n[Content]\nContinuous and consistent communication with different types of stakeholders is very important for creating a clear and positive mutual understanding and establishing an effective and long-term relationship. Stakeholders' perspectives, priorities and expectations are helpful for us to identify risks and opportunities, balance interests and make informed decisions. We have conducted two-way dialogues with internal and external stakeholders on the potential environmental and social impacts of the Group. We try to connect with stakeholders through various channels, communicate closely with them through daily business exchanges, forums, meetings, shareholders' meetings, trainings, sharing meetings and seminars, etc., and positively understand the ideas, concerns and needs of all parties, so as to protect the interests of stakeholders and uphold the high standards of management and compliance.",
+      "bm25_rank": 49,
+      "dense_rank": 19,
+      "bm25_score": 4.144938945770264,
+      "dense_score": 0.41204607486724854,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07315402699508457,
+      "normalized_dense": 0.5930473269389415,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.46582153090147194,
+      "rank": 25,
+      "rrf_score": 0.46582153090147194,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_001",
+      "alias_source_ids": [
+        "P54_001",
+        "P6_001"
+      ],
+      "section": "Solutions / Corresonding Sustainable Development Goals",
+      "pages": [
+        6
+      ],
+      "text": "China High Speed Transmission 2021 Environmental, Social and Governance Report",
+      "retrieval_text": "[Section]\nSolutions / Corresonding Sustainable Development Goals\n\n[Content]\nChina High Speed Transmission 2021 Environmental, Social and Governance Report",
+      "bm25_rank": 55,
+      "dense_rank": 17,
+      "bm25_score": 3.30633807182312,
+      "dense_score": 0.4138149619102478,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.051025638185721714,
+      "normalized_dense": 0.6013774767367999,
+      "normalized_bm25_rank": 0.6375838926174497,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.4629691236896552,
+      "rank": 26,
+      "rrf_score": 0.4629691236896552,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "Board Statement",
+      "pages": [
+        4
+      ],
+      "text": "The Board encourages the promotion of sustainable transformation and innovation, and holds meetings in order to discuss sustainable development management and responses to climate change. We commit to the concept of green and low-carbon development and put climate change risk and opportunity management on the key agendas of the Board. The strict adherence to ethical standards and the strengthening of compliance in operation have also become the focus of the Board. Through systematic training, publicity and education, the Group promotes integrity in business practices, enhances employees' awareness of business ethics, standardizes employees' behaviour, and prevents the corruption and bribery.",
+      "retrieval_text": "[Section]\nBoard Statement\n\n[Content]\nThe Board encourages the promotion of sustainable transformation and innovation, and holds meetings in order to discuss sustainable development management and responses to climate change. We commit to the concept of green and low-carbon development and put climate change risk and opportunity management on the key agendas of the Board. The strict adherence to ethical standards and the strengthening of compliance in operation have also become the focus of the Board. Through systematic training, publicity and education, the Group promotes integrity in business practices, enhances employees' awareness of business ethics, standardizes employees' behaviour, and prevents the corruption and bribery.",
+      "bm25_rank": 31,
+      "dense_rank": 38,
+      "bm25_score": 12.939138412475586,
+      "dense_score": 0.3864685297012329,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.30520895456795094,
+      "normalized_dense": 0.47259600499747234,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.4566517349445847,
+      "rank": 27,
+      "rrf_score": 0.4566517349445847,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_001",
+      "alias_source_ids": [
+        "P7_001"
+      ],
+      "section": "Stakeholder Communication and Materiality Assessment",
+      "pages": [
+        7
+      ],
+      "text": "While pursuing steady business development, we actively fulfill our social responsibilities. We measure business development and the expectations and demands of various stakeholders, and work with stakeholders to jointly build the sustainable development of the Group. Our main stakeholders include customers, suppliers, shareholders, employees, trade unions, government and regulatory agencies, the public and nearby communities.",
+      "retrieval_text": "[Section]\nStakeholder Communication and Materiality Assessment\n\n[Content]\nWhile pursuing steady business development, we actively fulfill our social responsibilities. We measure business development and the expectations and demands of various stakeholders, and work with stakeholders to jointly build the sustainable development of the Group. Our main stakeholders include customers, suppliers, shareholders, employees, trade unions, government and regulatory agencies, the public and nearby communities.",
+      "bm25_rank": 56,
+      "dense_rank": 21,
+      "bm25_score": 3.28706431388855,
+      "dense_score": 0.40990734100341797,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05051705630530193,
+      "normalized_dense": 0.582975472133983,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.4503864372462094,
+      "rank": 28,
+      "rrf_score": 0.4503864372462094,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_006",
+      "alias_source_ids": [
+        "P24_006"
+      ],
+      "section": "Product Responsibility / Product Quality and Safety",
+      "pages": [
+        24
+      ],
+      "text": "The Group has successively introduced advanced concepts and tools such as \"Zero Defects Management\", \"Failure Mode Effect Analysis(FMEA)\", \"Six Sigma Management\", \"VDA6.3 Process Audit\" and \"RCA Quality Closed-loop Management\". Gradually, it has formed the NGCQS, an excellent customer-centered quality management system, to protect the development of the enterprise from five dimensions: product reliability design, architecture and talent cultivation, customerfocused concept, quality control in the whole manufacturing process and supplier quality management; besides, its quality management meets the level of prevention and assurance. At the same time, we have established the perfect customer quality service channels and networks, built an IoT cloud platform for monitoring and diagnosing the healthy operation of GearSight gearboxes, and realized the closed-loop management of high quality in the whole life cycle of products.",
+      "retrieval_text": "[Section]\nProduct Responsibility / Product Quality and Safety\n\n[Content]\nThe Group has successively introduced advanced concepts and tools such as \"Zero Defects Management\", \"Failure Mode Effect Analysis(FMEA)\", \"Six Sigma Management\", \"VDA6.3 Process Audit\" and \"RCA Quality Closed-loop Management\". Gradually, it has formed the NGCQS, an excellent customer-centered quality management system, to protect the development of the enterprise from five dimensions: product reliability design, architecture and talent cultivation, customerfocused concept, quality control in the whole manufacturing process and supplier quality management; besides, its quality management meets the level of prevention and assurance. At the same time, we have established the perfect customer quality service channels and networks, built an IoT cloud platform for monitoring and diagnosing the healthy operation of GearSight gearboxes, and realized the closed-loop management of high quality in the whole life cycle of products.",
+      "bm25_rank": 74,
+      "dense_rank": 16,
+      "bm25_score": 1.7141326665878296,
+      "dense_score": 0.415342777967453,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.009011682123905877,
+      "normalized_dense": 0.6085723604748329,
+      "normalized_bm25_rank": 0.5100671140939597,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.44567514581244916,
+      "rank": 29,
+      "rrf_score": 0.44567514581244916,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T30_001",
+      "alias_source_ids": [
+        "T30_001"
+      ],
+      "section": "Intellectual Property Rights Protection",
+      "pages": [
+        30
+      ],
+      "text": "Professional database guarantee | • We cooperated with domestic database companies to use commercial patent database to facilitate global patent data retrieval and patent analysis of related product technologies, providing data guarantee for technological innovation and patent risk avoidance in product research and development. Intellectual property rights management system | • We established a patent team, organized monthly patent meetings, and established and improved the management system of intellectual property rights organizations. • In order to ensure that employees at all levels are included in the Group's intellectual property rights management system, we have formulated comprehensive intellectual property rights management systems such as the General Principles of Intellectual Property Rights Management , Patent Management System , Copyright Management System , Intellectual Property Rights Confidentiality System , Technology Contract Management System and Infringement Retrieval Process Management Regulations . Development and construction of intellectual property rights | • We strive to boost the development and construction of intellectual property rights. We cooperated with Nanjing Ruihong Patent and Trademark Office to build a high-value patent cultivation demonstration center, targeting to become a patent creation highland with important influence in the field of high-reliability wind power gearbox technology research, a R&D base for key technologies and a leader for regional innovation and development, furthermore, cultivating a number of high-value patents for wind power gearbox technology and products. Patent application layout | • We strengthened the forward-looking layout of patent technology, and the patent management in the process of research and development. By establishing a pre-examination mechanism of patent application, we identify patent risk items, cultivate patent layout awareness, improve the post-tracking of patent application and expande the scope of patent protection as per the process of compilation-retrieval and sci-tech novelty retrieval-review. • Up to now, we have applied for seven PCT international patents, and completed the patent application arrangement in Europe, the United States, India, Brazil and other countries and regions through PCT and the Paris Convention.",
+      "retrieval_text": "[Section]\nIntellectual Property Rights Protection\n\n[Content]\nProfessional database guarantee | • We cooperated with domestic database companies to use commercial patent database to facilitate global patent data retrieval and patent analysis of related product technologies, providing data guarantee for technological innovation and patent risk avoidance in product research and development. Intellectual property rights management system | • We established a patent team, organized monthly patent meetings, and established and improved the management system of intellectual property rights organizations. • In order to ensure that employees at all levels are included in the Group's intellectual property rights management system, we have formulated comprehensive intellectual property rights management systems such as the General Principles of Intellectual Property Rights Management , Patent Management System , Copyright Management System , Intellectual Property Rights Confidentiality System , Technology Contract Management System and Infringement Retrieval Process Management Regulations . Development and construction of intellectual property rights | • We strive to boost the development and construction of intellectual property rights. We cooperated with Nanjing Ruihong Patent and Trademark Office to build a high-value patent cultivation demonstration center, targeting to become a patent creation highland with important influence in the field of high-reliability wind power gearbox technology research, a R&D base for key technologies and a leader for regional innovation and development, furthermore, cultivating a number of high-value patents for wind power gearbox technology and products. Patent application layout | • We strengthened the forward-looking layout of patent technology, and the patent management in the process of research and development. By establishing a pre-examination mechanism of patent application, we identify patent risk items, cultivate patent layout awareness, improve the post-tracking of patent application and expande the scope of patent protection as per the process of compilation-retrieval and sci-tech novelty retrieval-review. • Up to now, we have applied for seven PCT international patents, and completed the patent application arrangement in Europe, the United States, India, Brazil and other countries and regions through PCT and the Paris Convention.",
+      "bm25_rank": 34,
+      "dense_rank": 40,
+      "bm25_score": 10.94522476196289,
+      "dense_score": 0.38430124521255493,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.25259501403725937,
+      "normalized_dense": 0.4623896978640044,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.4378587527645514,
+      "rank": 30,
+      "rrf_score": 0.4378587527645514,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T46_001",
+      "alias_source_ids": [
+        "T46_001"
+      ],
+      "section": "KPIs of The HKEX ESG Reporting Guide / Environmental KPIs",
+      "pages": [
+        46
+      ],
+      "text": "KPIs | Unit | 2021 | 2020 Emission of nitrous oxides (NOX) | Kg | 1,269.21 | 5,077.30 Emission of sulphur oxides (SOX) | Kg | 12.24 | 13.16 Emission of particulate matter | Kg | 23.57 | 166.31 Emission intensity of GHG | Kg CO 2 e/thousand RMB | 16.00 | 19.34 Total emission of GHG 3,4 | tCO 2 e | 223,689.74 | 254,906.62 Direct emissions (Scope 1) | tCO 2 e | 1,484.36 | 13,617.64 Indirect emissions (Scope 2) | tCO 2 e | 222,230.73 | 241,318.01 GHG removal (Scope 1) Tree plantation | tCO 2 e | 25.35 | 29.03 Intensity of hazardous wastes | Kg/thousand RMB | 0.12 | 0.10 Total hazardous wastes | Ton | 1,613.48 | 1,301.85 Waste of paint residue | Ton | 203.21 | 175.40 Waste of lead acid battery | Ton | 64.47 | 9.16 Waste oil | Ton | 142.31 | 127.51 Contaminants | Ton | 359.30 | 83.02 Washable waste containers | Ton | 132.40 | 257.57 Waste chemical containers (including waste paint buckets) | Ton | 105.79 | 39.60 Waste cleaner | Ton | 20.63 | - Waste activated carbon | Ton | 117.92 | 30.48 Waste quenching oil | Ton | 82.42 | 24.08 Dross (including sludge) | Ton | 170.43 | 29.25 Waste salt | Ton | 2.88 | - Waste rust preventive oil | Ton | 8.16 | 13.15 Waste quenching fluid 5 | Ton | - | 179.04",
+      "retrieval_text": "[Section]\nKPIs of The HKEX ESG Reporting Guide / Environmental KPIs\n\n[Content]\nKPIs | Unit | 2021 | 2020 Emission of nitrous oxides (NOX) | Kg | 1,269.21 | 5,077.30 Emission of sulphur oxides (SOX) | Kg | 12.24 | 13.16 Emission of particulate matter | Kg | 23.57 | 166.31 Emission intensity of GHG | Kg CO 2 e/thousand RMB | 16.00 | 19.34 Total emission of GHG 3,4 | tCO 2 e | 223,689.74 | 254,906.62 Direct emissions (Scope 1) | tCO 2 e | 1,484.36 | 13,617.64 Indirect emissions (Scope 2) | tCO 2 e | 222,230.73 | 241,318.01 GHG removal (Scope 1) Tree plantation | tCO 2 e | 25.35 | 29.03 Intensity of hazardous wastes | Kg/thousand RMB | 0.12 | 0.10 Total hazardous wastes | Ton | 1,613.48 | 1,301.85 Waste of paint residue | Ton | 203.21 | 175.40 Waste of lead acid battery | Ton | 64.47 | 9.16 Waste oil | Ton | 142.31 | 127.51 Contaminants | Ton | 359.30 | 83.02 Washable waste containers | Ton | 132.40 | 257.57 Waste chemical containers (including waste paint buckets) | Ton | 105.79 | 39.60 Waste cleaner | Ton | 20.63 | - Waste activated carbon | Ton | 117.92 | 30.48 Waste quenching oil | Ton | 82.42 | 24.08 Dross (including sludge) | Ton | 170.43 | 29.25 Waste salt | Ton | 2.88 | - Waste rust preventive oil | Ton | 8.16 | 13.15 Waste quenching fluid 5 | Ton | - | 179.04",
+      "bm25_rank": 16,
+      "dense_rank": 60,
+      "bm25_score": 19.673969268798828,
+      "dense_score": 0.3614214062690735,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4829227638233038,
+      "normalized_dense": 0.35464257715079517,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.6040268456375839,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.4314477098009961,
+      "rank": 31,
+      "rrf_score": 0.4314477098009961,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L47_005",
+      "alias_source_ids": [
+        "L47_005"
+      ],
+      "section": "Environmental KPIs",
+      "pages": [
+        47
+      ],
+      "text": "Waste quenching liquid was produced once in the technical transformation in 2020, but no waste quenching liquid was produced in other production acitvities, thus, there was no data for 2021.",
+      "retrieval_text": "[Section]\nEnvironmental KPIs\n\n[Content]\nWaste quenching liquid was produced once in the technical transformation in 2020, but no waste quenching liquid was produced in other production acitvities, thus, there was no data for 2021.",
+      "bm25_rank": null,
+      "dense_rank": 11,
+      "bm25_score": null,
+      "dense_score": 0.4310902953147888,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6827315211554704,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4255332136124683,
+      "rank": 32,
+      "rrf_score": 0.4255332136124683,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_003",
+      "alias_source_ids": [
+        "P4_003"
+      ],
+      "section": "Board Statement",
+      "pages": [
+        4
+      ],
+      "text": "In 2022, the Board will strive to improve the Environmental, Social and Governance framework and system, strengthen the compliance management in, among others, environmental protection, supply chain codes, employees' rights in health and safety, and data security. Also, we will continue to join hands with all stakeholders to tap and secure the multi-dimensional benefits in high-end manufacturing industries, create and share an efficient and sustainable future.",
+      "retrieval_text": "[Section]\nBoard Statement\n\n[Content]\nIn 2022, the Board will strive to improve the Environmental, Social and Governance framework and system, strengthen the compliance management in, among others, environmental protection, supply chain codes, employees' rights in health and safety, and data security. Also, we will continue to join hands with all stakeholders to tap and secure the multi-dimensional benefits in high-end manufacturing industries, create and share an efficient and sustainable future.",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.4268171489238739,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6626081618457975,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.4171477559748882,
+      "rank": 33,
+      "rrf_score": 0.4171477559748882,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_006",
+      "alias_source_ids": [
+        "P18_006"
+      ],
+      "section": "Water-saving Project",
+      "pages": [
+        18,
+        19,
+        20
+      ],
+      "text": "3. The calculation of greenhouse gas emissions refers to the Guidelines for Accounting Methods and Reporting of Greenhouse Gas Emissions of Machinery and Equipment Manufacturing Enterprises (Trial) . The emission coefficients of natural gas and liquefied petroleum gas refer to Industrial Boiler (Heat Supply) Industry Coefficients Manual , the sulfur content refers to Natural Gas (GB 17820-2018) , and the emission coefficients of gasoline and diesel refer to the HKEX's How to Prepare Environmental and Social and Governance Report , and the electricity emission factor refers to the 2012 China Regional Power Grid Average Carbon Dioxide Emission Factor . The Group has all the time taken environmental protection as its important responsibility. While ensuring production and operation, we actively safeguard the living environment of employees and the communities, and strictly control waste discharge during production. We have continuously invested in comprehensive treatment tools for air pollutant, and adopted all-round treatment measures of \"source substitution, process innovation, end treatment and management improvement\". During the Reporting Period, we also achieved the goal of \"all those in need are collected, treated and deeply managed\". In 2021, the Group's projects and main measures in wastewater treatment, equipment and material upgrading include:",
+      "retrieval_text": "[Section]\nWater-saving Project\n\n[Content]\n3. The calculation of greenhouse gas emissions refers to the Guidelines for Accounting Methods and Reporting of Greenhouse Gas Emissions of Machinery and Equipment Manufacturing Enterprises (Trial) . The emission coefficients of natural gas and liquefied petroleum gas refer to Industrial Boiler (Heat Supply) Industry Coefficients Manual , the sulfur content refers to Natural Gas (GB 17820-2018) , and the emission coefficients of gasoline and diesel refer to the HKEX's How to Prepare Environmental and Social and Governance Report , and the electricity emission factor refers to the 2012 China Regional Power Grid Average Carbon Dioxide Emission Factor . The Group has all the time taken environmental protection as its important responsibility. While ensuring production and operation, we actively safeguard the living environment of employees and the communities, and strictly control waste discharge during production. We have continuously invested in comprehensive treatment tools for air pollutant, and adopted all-round treatment measures of \"source substitution, process innovation, end treatment and management improvement\". During the Reporting Period, we also achieved the goal of \"all those in need are collected, treated and deeply managed\". In 2021, the Group's projects and main measures in wastewater treatment, equipment and material upgrading include:",
+      "bm25_rank": null,
+      "dense_rank": 13,
+      "bm25_score": null,
+      "dense_score": 0.4263901114463806,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6605971311409838,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.41510161334900875,
+      "rank": 34,
+      "rrf_score": 0.41510161334900875,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_004",
+      "alias_source_ids": [
+        "L19_004"
+      ],
+      "section": "Air Pollutant",
+      "pages": [
+        19
+      ],
+      "text": "Built a new cleaning room in the painting line, and replaced all solventbased cleaning agents with high-pressure water;",
+      "retrieval_text": "[Section]\nAir Pollutant\n\n[Content]\nBuilt a new cleaning room in the painting line, and replaced all solventbased cleaning agents with high-pressure water;",
+      "bm25_rank": 5,
+      "dense_rank": 91,
+      "bm25_score": 28.288963317871094,
+      "dense_score": 0.33239030838012695,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.710248949414942,
+      "normalized_dense": 0.21792757594802226,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.3959731543624161,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.3948345085788902,
+      "rank": 35,
+      "rrf_score": 0.3948345085788902,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T53_001",
+      "alias_source_ids": [
+        "T53_001"
+      ],
+      "section": "Social",
+      "pages": [
+        53
+      ],
+      "text": "Aspect | Indicator number | Indicator contents | Chapter | Page General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Product responsibility | p22-30 B6: | B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | KPIs of the HKEX ESG Reporting Guide | p46 Product Responsibility | B6.2 | Number of products and services related complaints received and how they are dealt with. | Product responsibility KPIs of the HKEX ESG Reporting Guide | p29-30, p48 B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product responsibility | p28 B6.4 | Description of quality assurance process and recall procedures. | Product responsibility | p22-23, p29 B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Product responsibility | p30 General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | Corporate governance | p8-10 B7: Anti- corruption | B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the Reporting Period and the outcomes of the cases. | Corporate governance KPIs of the HKEX ESG Reporting Guide | p9, p48 B7.2 | Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored. | Corporate governance | p8-9 B7.3 | Description of anti-corruption training provided to directors and staff. | Corporate governance | p9-10 General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Public welfare and community engagement | p43 B8: Community | B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Public welfare and community engagement | p43 Investment | B8.2 | Resources contributed (e.g. money or time) to the focus area. | Public welfare and community engagement KPIs of the HKEX ESG Reporting Guide | p43, p48",
+      "retrieval_text": "[Section]\nSocial\n\n[Content]\nAspect | Indicator number | Indicator contents | Chapter | Page General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Product responsibility | p22-30 B6: | B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | KPIs of the HKEX ESG Reporting Guide | p46 Product Responsibility | B6.2 | Number of products and services related complaints received and how they are dealt with. | Product responsibility KPIs of the HKEX ESG Reporting Guide | p29-30, p48 B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product responsibility | p28 B6.4 | Description of quality assurance process and recall procedures. | Product responsibility | p22-23, p29 B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Product responsibility | p30 General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | Corporate governance | p8-10 B7: Anti- corruption | B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the Reporting Period and the outcomes of the cases. | Corporate governance KPIs of the HKEX ESG Reporting Guide | p9, p48 B7.2 | Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored. | Corporate governance | p8-9 B7.3 | Description of anti-corruption training provided to directors and staff. | Corporate governance | p9-10 General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Public welfare and community engagement | p43 B8: Community | B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Public welfare and community engagement | p43 Investment | B8.2 | Resources contributed (e.g. money or time) to the focus area. | Public welfare and community engagement KPIs of the HKEX ESG Reporting Guide | p43, p48",
+      "bm25_rank": 76,
+      "dense_rank": 33,
+      "bm25_score": 1.586723804473877,
+      "dense_score": 0.39522749185562134,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.005649709907795659,
+      "normalized_dense": 0.5138442390826253,
+      "normalized_bm25_rank": 0.49664429530201337,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.3876868350564512,
+      "rank": 36,
+      "rrf_score": 0.3876868350564512,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_003",
+      "alias_source_ids": [
+        "P25_003"
+      ],
+      "section": "Product Responsibility / Product Quality and Safety",
+      "pages": [
+        25
+      ],
+      "text": "A good management system should be matched with a complete quality inspection and verification system. We carry out full-scale inspection and process capability evaluation, etc., and conduct multi-step quality evaluation on raw materials, semi-finished products and finished products, including no-load test, load test, highly accelerated life service test and anti-corrosion performance inspection.",
+      "retrieval_text": "[Section]\nProduct Responsibility / Product Quality and Safety\n\n[Content]\nA good management system should be matched with a complete quality inspection and verification system. We carry out full-scale inspection and process capability evaluation, etc., and conduct multi-step quality evaluation on raw materials, semi-finished products and finished products, including no-load test, load test, highly accelerated life service test and anti-corrosion performance inspection.",
+      "bm25_rank": null,
+      "dense_rank": 18,
+      "bm25_score": null,
+      "dense_score": 0.41370922327041626,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.600879525941861,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.3874890421333427,
+      "rank": 37,
+      "rrf_score": 0.3874890421333427,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_003",
+      "alias_source_ids": [
+        "P18_003"
+      ],
+      "section": "Water-saving Project",
+      "pages": [
+        18
+      ],
+      "text": "The Group complies with the environmental protection requirements of the State such as the Environmental Protection Law of the People's Republic of China , the Law of the People's Republic on the Prevention and Control of Atmosphere Pollution , the Comprehensive Emission Standards for Air Pollutants , the Law on Prevention and Control of Environmental Pollution by Solid Waste and the Regulations on Safe Management of Hazardous Chemicals ; and based on its own characteristics, the Group has formulated rules and regulations such as the EHS Responsibility System , the Hazardous Chemicals Management System and the Hazardous Chemicals Control Procedure to ensure that waste discharge and management shall comply with such laws and regulations. At the same time, by combining with the environmental protectionrelated laws, regulations, standards and technologies of the State and the Group, and to deal with the identified environmental impact factors, we have kept optimizing environmental protection-related solutions.",
+      "retrieval_text": "[Section]\nWater-saving Project\n\n[Content]\nThe Group complies with the environmental protection requirements of the State such as the Environmental Protection Law of the People's Republic of China , the Law of the People's Republic on the Prevention and Control of Atmosphere Pollution , the Comprehensive Emission Standards for Air Pollutants , the Law on Prevention and Control of Environmental Pollution by Solid Waste and the Regulations on Safe Management of Hazardous Chemicals ; and based on its own characteristics, the Group has formulated rules and regulations such as the EHS Responsibility System , the Hazardous Chemicals Management System and the Hazardous Chemicals Control Procedure to ensure that waste discharge and management shall comply with such laws and regulations. At the same time, by combining with the environmental protectionrelated laws, regulations, standards and technologies of the State and the Group, and to deal with the identified environmental impact factors, we have kept optimizing environmental protection-related solutions.",
+      "bm25_rank": null,
+      "dense_rank": 20,
+      "bm25_score": null,
+      "dense_score": 0.41163986921310425,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5911343987159943,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.3813936838459,
+      "rank": 38,
+      "rrf_score": 0.3813936838459,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T7_001",
+      "alias_source_ids": [
+        "T7_001"
+      ],
+      "section": "Stakeholder Communication and Materiality Assessment",
+      "pages": [
+        7
+      ],
+      "text": "Key stakeholders | Main concerns/Material issues | Ways of communication Customers | • Responses to climate change/carbon emission reduction • Product responsibility • Circular economy | • Exchange visit with customers and Customers' Day • Official website and official account of social media platforms • Communication via customer's hotline, and meetings with customers • Customer satisfaction survey • Communication of routine business activities Suppliers | • Fair competition • Training and empowerment • Cooperative supply • Social responsibilities • Energy saving and emission reduction | • Visit to a supplier or a supplier's visit and the meetings of suppliers • Exchange meeting • Official website and official account of a social media platform • Communication of routine business activities Shareholders | • Open and transparency • Contribution to the economy, society and environment | • General meeting of shareholders • Regular report and company announcement • Exchange meeting • Official website and official account of a social media platform Employees and trade union | • Occupational health and safety • Salary, welfare and incentives • Employees' training and development • Employee relations and work experience | • Meetings of employee representatives and internal meetings • Email and mailbox for general manager • Internal publications • Official account of a social media platform The government and supervisory authority | • Compliance management • Employment and value creation | • Policies and guidelines • Meetings of government • Notice of regulation • Site investigation General public and nearby communities | • Local employment and purchase • Environmental protection • Contribution for communities | • Site visit • Charitable activities • Official website and official account of a social media platform",
+      "retrieval_text": "[Section]\nStakeholder Communication and Materiality Assessment\n\n[Content]\nKey stakeholders | Main concerns/Material issues | Ways of communication Customers | • Responses to climate change/carbon emission reduction • Product responsibility • Circular economy | • Exchange visit with customers and Customers' Day • Official website and official account of social media platforms • Communication via customer's hotline, and meetings with customers • Customer satisfaction survey • Communication of routine business activities Suppliers | • Fair competition • Training and empowerment • Cooperative supply • Social responsibilities • Energy saving and emission reduction | • Visit to a supplier or a supplier's visit and the meetings of suppliers • Exchange meeting • Official website and official account of a social media platform • Communication of routine business activities Shareholders | • Open and transparency • Contribution to the economy, society and environment | • General meeting of shareholders • Regular report and company announcement • Exchange meeting • Official website and official account of a social media platform Employees and trade union | • Occupational health and safety • Salary, welfare and incentives • Employees' training and development • Employee relations and work experience | • Meetings of employee representatives and internal meetings • Email and mailbox for general manager • Internal publications • Official account of a social media platform The government and supervisory authority | • Compliance management • Employment and value creation | • Policies and guidelines • Meetings of government • Notice of regulation • Site investigation General public and nearby communities | • Local employment and purchase • Environmental protection • Contribution for communities | • Site visit • Charitable activities • Official website and official account of a social media platform",
+      "bm25_rank": 75,
+      "dense_rank": 36,
+      "bm25_score": 1.6732593774795532,
+      "dense_score": 0.3918150067329407,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.007933147553522825,
+      "normalized_dense": 0.49777395784708983,
+      "normalized_bm25_rank": 0.5033557046979866,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.3791632194551726,
+      "rank": 39,
+      "rrf_score": 0.3791632194551726,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P14_004",
+      "alias_source_ids": [
+        "P14_004"
+      ],
+      "section": "Green and Low-Carbon Development / \"Become the nevigator for the sustainable development of the transmission equipment sector!\"",
+      "pages": [
+        14
+      ],
+      "text": "In accordance with the relevant provisions of the Production Safety Law of the People's Republic of China , the Law of the People's Republic of China on Prevention and Control of Occupational Diseases and the Environmental Protection Law of the People's Republic of China , the Group has formulated the EHS Responsibility Management System and EHS Performance Assessment Regulation , which require the step-by-step implementation of environmental and safety responsibilities, thus forming a closed-loop management. As the EHS responsibility management department, the Safety and Environmental Protection Department is committed to supervise, inspect, review, assess and track the implementation of the EHS responsibility system, and provide training of the EHS responsibility system for the whole management, and all departments and posts of the Group through the HR Department. In daily operation, we also provide training for employees in different positions, including environmental protection laws and regulations, environmental protection case analysis and related management systems, so as to enhance the environmental and safety awareness of all employees.",
+      "retrieval_text": "[Section]\nGreen and Low-Carbon Development / \"Become the nevigator for the sustainable development of the transmission equipment sector!\"\n\n[Content]\nIn accordance with the relevant provisions of the Production Safety Law of the People's Republic of China , the Law of the People's Republic of China on Prevention and Control of Occupational Diseases and the Environmental Protection Law of the People's Republic of China , the Group has formulated the EHS Responsibility Management System and EHS Performance Assessment Regulation , which require the step-by-step implementation of environmental and safety responsibilities, thus forming a closed-loop management. As the EHS responsibility management department, the Safety and Environmental Protection Department is committed to supervise, inspect, review, assess and track the implementation of the EHS responsibility system, and provide training of the EHS responsibility system for the whole management, and all departments and posts of the Group through the HR Department. In daily operation, we also provide training for employees in different positions, including environmental protection laws and regulations, environmental protection case analysis and related management systems, so as to enhance the environmental and safety awareness of all employees.",
+      "bm25_rank": 69,
+      "dense_rank": 37,
+      "bm25_score": 1.9595907926559448,
+      "dense_score": 0.3873026967048645,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.015488652299822016,
+      "normalized_dense": 0.4765243146790786,
+      "normalized_bm25_rank": 0.5436241610738255,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.3759215090540178,
+      "rank": 40,
+      "rrf_score": 0.3759215090540178,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L47_002",
+      "alias_source_ids": [
+        "L47_002"
+      ],
+      "section": "Environmental KPIs",
+      "pages": [
+        47
+      ],
+      "text": "The intensity set out in this Report is measured by dividing the total amount of exhaust emissions, greenhouse gas emissions, hazardous wastes, non-hazardous wastes or resource consumption by the sales revenue of the Group's wind power gear transmission equipment business segment and industrial gear transmission equipment business segment in the corresponding year.",
+      "retrieval_text": "[Section]\nEnvironmental KPIs\n\n[Content]\nThe intensity set out in this Report is measured by dividing the total amount of exhaust emissions, greenhouse gas emissions, hazardous wastes, non-hazardous wastes or resource consumption by the sales revenue of the Group's wind power gear transmission equipment business segment and industrial gear transmission equipment business segment in the corresponding year.",
+      "bm25_rank": null,
+      "dense_rank": 22,
+      "bm25_score": null,
+      "dense_score": 0.40983837842941284,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5826507094114665,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.37573982883092605,
+      "rank": 41,
+      "rrf_score": 0.37573982883092605,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P36_005",
+      "alias_source_ids": [
+        "P36_005"
+      ],
+      "section": "Employment Management",
+      "pages": [
+        36
+      ],
+      "text": "1. The employee-related data of 2021 cover more than 95% of the Group's employees in the Mainland China, i.e. 5,690 employees. The calculation method refers to the calculation instructions of social key performance indicators as specified in How to Prepare An ESG Report.",
+      "retrieval_text": "[Section]\nEmployment Management\n\n[Content]\n1. The employee-related data of 2021 cover more than 95% of the Group's employees in the Mainland China, i.e. 5,690 employees. The calculation method refers to the calculation instructions of social key performance indicators as specified in How to Prepare An ESG Report.",
+      "bm25_rank": 41,
+      "dense_rank": 50,
+      "bm25_score": 6.728692531585693,
+      "dense_score": 0.37060126662254333,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1413322339475769,
+      "normalized_dense": 0.39787293047972533,
+      "normalized_bm25_rank": 0.7315436241610738,
+      "normalized_dense_rank": 0.6711409395973154,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.3749045227929897,
+      "rank": 42,
+      "rrf_score": 0.3749045227929897,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L47_001",
+      "alias_source_ids": [
+        "L47_001"
+      ],
+      "section": "Environmental KPIs",
+      "pages": [
+        47
+      ],
+      "text": "Environmental performance data mainly include the Group's wind power gear transmission equipment business segment and industrial gear transmission equipment business segment.",
+      "retrieval_text": "[Section]\nEnvironmental KPIs\n\n[Content]\nEnvironmental performance data mainly include the Group's wind power gear transmission equipment business segment and industrial gear transmission equipment business segment.",
+      "bm25_rank": null,
+      "dense_rank": 25,
+      "bm25_score": null,
+      "dense_score": 0.40239912271499634,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5476173166739694,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.35945129573521817,
+      "rank": 43,
+      "rrf_score": 0.35945129573521817,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_011",
+      "alias_source_ids": [
+        "L6_011"
+      ],
+      "section": "Solutions / Corresonding Sustainable Development Goals",
+      "pages": [
+        6
+      ],
+      "text": "The Group provides its suppliers with transparent and clear rules, development goals and requirements, and provides product optimization, technical training and other support for them. At the same time, by introducing advanced equipment, we have carried out a couple of measures in waste management and other fields in a bid to ensure that our business operations will meet the requirements of environmental protectionrelated policies and successfully manage the compliance risks and achieve sustainable development of the Group.",
+      "retrieval_text": "[Section]\nSolutions / Corresonding Sustainable Development Goals\n\n[Content]\nThe Group provides its suppliers with transparent and clear rules, development goals and requirements, and provides product optimization, technical training and other support for them. At the same time, by introducing advanced equipment, we have carried out a couple of measures in waste management and other fields in a bid to ensure that our business operations will meet the requirements of environmental protectionrelated policies and successfully manage the compliance risks and achieve sustainable development of the Group.",
+      "bm25_rank": null,
+      "dense_rank": 26,
+      "bm25_score": null,
+      "dense_score": 0.40222036838531494,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.546775515978354,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.35781438361255813,
+      "rank": 44,
+      "rrf_score": 0.35781438361255813,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_001",
+      "alias_source_ids": [
+        "P25_001"
+      ],
+      "section": "Product Responsibility / Product Quality and Safety",
+      "pages": [
+        25
+      ],
+      "text": "In 2021, the Group launched the Quality Month activity of \"ensuring good quality by means of careful, meticulous and concerted efforts as well as original inspirations\". It introduced the excellent performance management mode, set up an excellent company-level performance leading group and a functional group; moreover, starting from its strategy, the Group transformed its strategic objectives into implementation plans and related key performance indicators, applied excellent performance mode diagnosis, and improved quality management day by day.",
+      "retrieval_text": "[Section]\nProduct Responsibility / Product Quality and Safety\n\n[Content]\nIn 2021, the Group launched the Quality Month activity of \"ensuring good quality by means of careful, meticulous and concerted efforts as well as original inspirations\". It introduced the excellent performance management mode, set up an excellent company-level performance leading group and a functional group; moreover, starting from its strategy, the Group transformed its strategic objectives into implementation plans and related key performance indicators, applied excellent performance mode diagnosis, and improved quality management day by day.",
+      "bm25_rank": null,
+      "dense_rank": 28,
+      "bm25_score": null,
+      "dense_score": 0.4003395438194275,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5379182232307238,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.3520297673924983,
+      "rank": 45,
+      "rrf_score": 0.3520297673924983,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_001",
+      "alias_source_ids": [
+        "P15_001"
+      ],
+      "section": "Major Environmental Management Goals in 2022",
+      "pages": [
+        15
+      ],
+      "text": "(Specific measures and cases for each goal are presented in the corresponding sections below)",
+      "retrieval_text": "[Section]\nMajor Environmental Management Goals in 2022\n\n[Content]\n(Specific measures and cases for each goal are presented in the corresponding sections below)",
+      "bm25_rank": null,
+      "dense_rank": 29,
+      "bm25_score": null,
+      "dense_score": 0.3995092809200287,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5340082989927865,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.3493190120300256,
+      "rank": 46,
+      "rrf_score": 0.3493190120300256,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_004",
+      "alias_source_ids": [
+        "P5_004"
+      ],
+      "section": "Sustainable Development Management",
+      "pages": [
+        5
+      ],
+      "text": "The Group has passed the ISO9001:2015 Quality Management System Certification, ISO14001:2015 Environmental Management System Certification and ISO45001:2018 Occupational Health and Safety Management System Certification. At the same time, we believe that in addition to identifying risks, we should identify potential opportunities, provide reference for the formulation of the Group's annual strategic objectives, and improve the Group's solutions to sustainable development.",
+      "retrieval_text": "[Section]\nSustainable Development Management\n\n[Content]\nThe Group has passed the ISO9001:2015 Quality Management System Certification, ISO14001:2015 Environmental Management System Certification and ISO45001:2018 Occupational Health and Safety Management System Certification. At the same time, we believe that in addition to identifying risks, we should identify potential opportunities, provide reference for the formulation of the Group's annual strategic objectives, and improve the Group's solutions to sustainable development.",
+      "bm25_rank": null,
+      "dense_rank": 31,
+      "bm25_score": null,
+      "dense_score": 0.3979945182800293,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5268748871961806,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.34413775414282427,
+      "rank": 47,
+      "rrf_score": 0.34413775414282427,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L47_003",
+      "alias_source_ids": [
+        "L47_003"
+      ],
+      "section": "Environmental KPIs",
+      "pages": [
+        47
+      ],
+      "text": "GHG Scope 1 (Direct emissions) includes GHG emissions from operations directly controlled or managed by the Group, while Scope 2 (indirect emissions) includes indirect emissions from purchased electricity outside of the Group.",
+      "retrieval_text": "[Section]\nEnvironmental KPIs\n\n[Content]\nGHG Scope 1 (Direct emissions) includes GHG emissions from operations directly controlled or managed by the Group, while Scope 2 (indirect emissions) includes indirect emissions from purchased electricity outside of the Group.",
+      "bm25_rank": 26,
+      "dense_rank": 81,
+      "bm25_score": 15.802055358886719,
+      "dense_score": 0.34025081992149353,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.38075352086552006,
+      "normalized_dense": 0.25494477209207544,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.46308724832214765,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.34122030057982705,
+      "rank": 48,
+      "rrf_score": 0.34122030057982705,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L16_002",
+      "alias_source_ids": [
+        "L16_002"
+      ],
+      "section": "Energy-saving measures",
+      "pages": [
+        16
+      ],
+      "text": "Closely observe the temperature change and automatically adjust the outlet water temperature of the unit to ensure that the field temperature meets the requirements and the power load is reduced at the same time.",
+      "retrieval_text": "[Section]\nEnergy-saving measures\n\n[Content]\nClosely observe the temperature change and automatically adjust the outlet water temperature of the unit to ensure that the field temperature meets the requirements and the power load is reduced at the same time.",
+      "bm25_rank": 8,
+      "dense_rank": 120,
+      "bm25_score": 25.275278091430664,
+      "dense_score": 0.30845165252685547,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6307260196023147,
+      "normalized_dense": 0.10519421063430903,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.20134228187919467,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.2985336474411288,
+      "rank": 49,
+      "rrf_score": 0.2985336474411288,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T49_001",
+      "alias_source_ids": [
+        "T49_001"
+      ],
+      "section": "Social KPIs",
+      "pages": [
+        49
+      ],
+      "text": "KPIs | Unit | 2021 | 2020 Number of deaths related to work -total number | Person | 0 | 0 Number of deaths related to work­ -female employees | Person | 0 | 0 Number of deaths related to work -male employees | Person | 0 | 0 Working days lost due to injury related to work -total number | Person | 1,291 | 703 Working days lost due to injury related to work -female employees | Person | 0 | 0 Working days lost due to injury related to work -male employees | Person | 1,291 | 703 Number of injuries due to work -total number | Person | 30 | 18 Number of injuries due to work -female employees | Person | 0 | 0 Number of injuries due to work -male employees | Person | 30 | 18 Total trainees 2 | Person | 5,669 | 5,490 Number of trainees -female employees | Person | 482 | 494 Number of trainees -male employees | Person | 5,187 | 4,996 Number of trainees -senior management | Person | 25 | 16 Number of trainees -middle management | Person | 229 | 243 Number of trainees -General and skilled employees | Person | 5,415 | 5,231 Total training hours | Hour | 97,742 | 89,064 Total training hours-female employees | Hour | 8,070 | 8,607 Total training hours-male employees | Hour | 89,672 | 80,457 Total training hours-senior management | Hour | 511 | 80 Total training hours-middle management | Hour | 6,447 | 7,776 Total training hours-General and skilled employees | Hour | 90,784 | 81,208 Average training hours | Hour/person | 17 | 15 Total nubmer of courses | Course | 2,252 | 2,022 Total number of suppliers | Number | 631 | 496 Total number of suppliers -Mainland China | Number | 614 | 496 Total number of suppliers -Hong Kong, China | Number | 1 | 0 Total number of suppliers -other countries or regions | Number | 16 | 0",
+      "retrieval_text": "[Section]\nSocial KPIs\n\n[Content]\nKPIs | Unit | 2021 | 2020 Number of deaths related to work -total number | Person | 0 | 0 Number of deaths related to work­ -female employees | Person | 0 | 0 Number of deaths related to work -male employees | Person | 0 | 0 Working days lost due to injury related to work -total number | Person | 1,291 | 703 Working days lost due to injury related to work -female employees | Person | 0 | 0 Working days lost due to injury related to work -male employees | Person | 1,291 | 703 Number of injuries due to work -total number | Person | 30 | 18 Number of injuries due to work -female employees | Person | 0 | 0 Number of injuries due to work -male employees | Person | 30 | 18 Total trainees 2 | Person | 5,669 | 5,490 Number of trainees -female employees | Person | 482 | 494 Number of trainees -male employees | Person | 5,187 | 4,996 Number of trainees -senior management | Person | 25 | 16 Number of trainees -middle management | Person | 229 | 243 Number of trainees -General and skilled employees | Person | 5,415 | 5,231 Total training hours | Hour | 97,742 | 89,064 Total training hours-female employees | Hour | 8,070 | 8,607 Total training hours-male employees | Hour | 89,672 | 80,457 Total training hours-senior management | Hour | 511 | 80 Total training hours-middle management | Hour | 6,447 | 7,776 Total training hours-General and skilled employees | Hour | 90,784 | 81,208 Average training hours | Hour/person | 17 | 15 Total nubmer of courses | Course | 2,252 | 2,022 Total number of suppliers | Number | 631 | 496 Total number of suppliers -Mainland China | Number | 614 | 496 Total number of suppliers -Hong Kong, China | Number | 1 | 0 Total number of suppliers -other countries or regions | Number | 16 | 0",
+      "bm25_rank": 6,
+      "dense_rank": 133,
+      "bm25_score": 27.250566482543945,
+      "dense_score": 0.30021053552627563,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6828484903593992,
+      "normalized_dense": 0.06638464425289275,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.11409395973154357,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.2792674108087144,
+      "rank": 50,
+      "rrf_score": 0.2792674108087144,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

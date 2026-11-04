@@ -1,0 +1,1557 @@
+{
+  "document_id": "2022052700950",
+  "metric_id": 46,
+  "metric_name": "举报人保护机制",
+  "query": "举报人保护机制 举报人保护机制 衡量企业是否建立并披露了制度化、可操作的举报渠道，以及对举报人实施保密、保护和禁止报复的正式机制。 2分：企业同时满足以下三项标准。第一，披露了具体的举报渠道。第二，明确承诺对举报人身份保密或允许匿名举报。第三，制定了禁止对举报人实施报复的政策或声明。 1分：企业满足上述2分标准中的任意一项或两项。或者，企业虽提及设有举报机制，但缺乏具体渠道描述、保密承诺或保护政策的任一项内容。 0分：企业在ESG报告、企业管治报告及公司官网中均未披露任何举报机制相关信息。或者，仅以“本公司设有举报制度”等笼统表述一笔带过，无任何可验证的具体内容。 举报人保护 举报机制 吹哨人 举报热线 匿名举报 保密举报 禁止报复 反舞弊举报 诉说政策 whistleblowing whistleblower protection speak-up reporting hotline anonymous reporting confidential reporting non-retaliation anti-fraud reporting 披露了哪些具体举报渠道（热线、邮箱、平台）？ 是否允许匿名或承诺保密？ 是否有禁止报复政策？ 可举报事项范围是什么？ 受理与反馈流程如何运作？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '举报人保护机制'. Prefer explicit, auditable disclosure that answers: 披露了哪些具体举报渠道（热线、邮箱、平台）？ 是否允许匿名或承诺保密？ 是否有禁止报复政策？ 可举报事项范围是什么？ 受理与反馈流程如何运作？ Exclude or down-rank: 排除：仅有“设有举报制度”无渠道；仅有员工申诉意见箱且无反舞弊定位；仅有客户投诉；仅有反腐政策而无举报机制细节；区分：举报人保护强调舞弊/合规举报渠道与反报复；员工申诉偏劳动权益；供应商申诉面向供应商；反贿赂政策是实体规范，不等于已建立可操作举报保护。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 169,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P35_002",
+      "alias_source_ids": [
+        "P35_002"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        35
+      ],
+      "text": "As stated in the Whistleblowing Procedure (檢舉告密制), the Group has multiple whistleblowing channels, such as e-mail, telephone or letter, that allows employees to report unethical behaviours to the reporting department. A set ou t u sr ouor is confidential and anonymous.",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nAs stated in the Whistleblowing Procedure (檢舉告密制), the Group has multiple whistleblowing channels, such as e-mail, telephone or letter, that allows employees to report unethical behaviours to the reporting department. A set ou t u sr ouor is confidential and anonymous.",
+      "bm25_rank": 3,
+      "dense_rank": 1,
+      "bm25_score": 24.677900314331055,
+      "dense_score": 0.7632445096969604,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7056842066733114,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 1.0,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 1,
+      "composite_score": 0.8197945594554678,
+      "rank": 1,
+      "rrf_score": 0.8197945594554678,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L35_001",
+      "alias_source_ids": [
+        "L35_001"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        35
+      ],
+      "text": "Employees are encouraged to speak up on unethical behaviours, criminal activities, fraud, misconduct, management override, regulatory non-compliance. They may speak to their supervisors or report the issue through our whistleblowing platform;",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nEmployees are encouraged to speak up on unethical behaviours, criminal activities, fraud, misconduct, management override, regulatory non-compliance. They may speak to their supervisors or report the issue through our whistleblowing platform;",
+      "bm25_rank": 56,
+      "dense_rank": 3,
+      "bm25_score": 5.347265243530273,
+      "dense_score": 0.6626312732696533,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11331645783439166,
+      "normalized_dense": 0.7595757163226754,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 3,
+      "composite_score": 0.5789174768435732,
+      "rank": 2,
+      "rrf_score": 0.5789174768435732,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T41_001",
+      "alias_source_ids": [
+        "T41_001"
+      ],
+      "section": "HKEX ESG REPORTING GUIDE CONTENT INDEX",
+      "pages": [
+        41
+      ],
+      "text": "Aspects,General Disclosures and KPIs | Description | Relevant Chapter/ Explanation KPI B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product Responsibility— Intellectual Property Rights KPI B6.4 | Description of quality assurance process and recall procedures. | Product Responsibility— Product Recall KPI B6.5 | Description of consumer data protection and privacy policies, and how they are implemented and monitored. | Product Responsibility— Protection of Customers' Data Aspect B7: Anti-Corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | Anti-corruption KPI B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | Anti-corruption KPI B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | Anti-corruption KPI B7.3 | Description of anti-corruption training provided to directors and staff. | Anti-corruption Community Aspect B8: Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Community Investment KPI B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Community Investment KPI B8.2 | Resources contributed (e.g. money or time) to the focused area | Community Investment",
+      "retrieval_text": "[Section]\nHKEX ESG REPORTING GUIDE CONTENT INDEX\n\n[Content]\nAspects,General Disclosures and KPIs | Description | Relevant Chapter/ Explanation KPI B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product Responsibility— Intellectual Property Rights KPI B6.4 | Description of quality assurance process and recall procedures. | Product Responsibility— Product Recall KPI B6.5 | Description of consumer data protection and privacy policies, and how they are implemented and monitored. | Product Responsibility— Protection of Customers' Data Aspect B7: Anti-Corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | Anti-corruption KPI B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | Anti-corruption KPI B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | Anti-corruption KPI B7.3 | Description of anti-corruption training provided to directors and staff. | Anti-corruption Community Aspect B8: Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Community Investment KPI B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Community Investment KPI B8.2 | Resources contributed (e.g. money or time) to the focused area | Community Investment",
+      "bm25_rank": 32,
+      "dense_rank": 4,
+      "bm25_score": 8.750267028808594,
+      "dense_score": 0.6201860904693604,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21759800365308457,
+      "normalized_dense": 0.6581491741232649,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.549039596908659,
+      "rank": 3,
+      "rrf_score": 0.549039596908659,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P33_003",
+      "alias_source_ids": [
+        "P33_003"
+      ],
+      "section": "Intellectual Property Rights",
+      "pages": [
+        33
+      ],
+      "text": "The Group is committed to protecting the customers', employees' and partners' personal information and their rights to privacy. The Confidential Policy of Centenary United Group (世紀聯合集團保密制度),outlines our confidentiality system and privacy measures, including but not limited to the collection, process, use and disclose of personal data.",
+      "retrieval_text": "[Section]\nIntellectual Property Rights\n\n[Content]\nThe Group is committed to protecting the customers', employees' and partners' personal information and their rights to privacy. The Confidential Policy of Centenary United Group (世紀聯合集團保密制度),outlines our confidentiality system and privacy measures, including but not limited to the collection, process, use and disclose of personal data.",
+      "bm25_rank": 1,
+      "dense_rank": 34,
+      "bm25_score": 34.282257080078125,
+      "dense_score": 0.44138383865356445,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.2308852788428026,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.5365145455815581,
+      "rank": 4,
+      "rrf_score": 0.5365145455815581,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_004",
+      "alias_source_ids": [
+        "P35_004"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        35
+      ],
+      "text": "If employees are involved directly or indirectly in any confirmed cases of unethical behaviours, they will be subject to punishment by the relevant departments in accordance with management authority and in accordance with relevant national laws and regulations depending on the severity of the case. On an ongoing basis, the Group will continue to review the effectiveness of the whistleblowing mechanism and make relevant changes according to our business development.",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nIf employees are involved directly or indirectly in any confirmed cases of unethical behaviours, they will be subject to punishment by the relevant departments in accordance with management authority and in accordance with relevant national laws and regulations depending on the severity of the case. On an ongoing basis, the Group will continue to review the effectiveness of the whistleblowing mechanism and make relevant changes according to our business development.",
+      "bm25_rank": 64,
+      "dense_rank": 5,
+      "bm25_score": 3.9347798824310303,
+      "dense_score": 0.6176152229309082,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07003227340083668,
+      "normalized_dense": 0.6520058573161545,
+      "normalized_bm25_rank": 0.5771812080536913,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 5,
+      "composite_score": 0.524557498029412,
+      "rank": 5,
+      "rrf_score": 0.524557498029412,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "ABOUT THIS REPORT / INTRODUCTION",
+      "pages": [
+        3
+      ],
+      "text": "The ESG Report is prepared according to the \"Comply or Explain\" provisions and the four Reporting Principles as required by the ESG Reporting Guide:",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / INTRODUCTION\n\n[Content]\nThe ESG Report is prepared according to the \"Comply or Explain\" provisions and the four Reporting Principles as required by the ESG Reporting Guide:",
+      "bm25_rank": 8,
+      "dense_rank": 15,
+      "bm25_score": 17.07959747314453,
+      "dense_score": 0.5127293467521667,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.47284190570675694,
+      "normalized_dense": 0.4013717206599721,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.5115585504864356,
+      "rank": 6,
+      "rrf_score": 0.5115585504864356,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T39_001",
+      "alias_source_ids": [
+        "T39_001"
+      ],
+      "section": "HKEX ESG REPORTING GUIDE CONTENT INDEX",
+      "pages": [
+        39
+      ],
+      "text": "Aspects,General Disclosures and KPIs | Description | Relevant Chapter/ Explanation Aspect A3 The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | The Environment and Natural Resources KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | The Environment and Natural Resources Aspect A4: Climate Change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Climate Change KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Climate Change B. Social Employment and Labour Practices Aspect B1: Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | Employment KPI B1.1 | Total workforce by gender, employment type (for example, full- or part-time), age group and geographical region. | Employment KPI B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment Aspect B2: Health and Safety General Disclosure | Information on (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Health and Safety KPI B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Health and Safety KPI B2.2 | Lost days due to work injury. | Health and Safety KPI B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. | Health and Safety",
+      "retrieval_text": "[Section]\nHKEX ESG REPORTING GUIDE CONTENT INDEX\n\n[Content]\nAspects,General Disclosures and KPIs | Description | Relevant Chapter/ Explanation Aspect A3 The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | The Environment and Natural Resources KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | The Environment and Natural Resources Aspect A4: Climate Change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Climate Change KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Climate Change B. Social Employment and Labour Practices Aspect B1: Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | Employment KPI B1.1 | Total workforce by gender, employment type (for example, full- or part-time), age group and geographical region. | Employment KPI B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment Aspect B2: Health and Safety General Disclosure | Information on (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Health and Safety KPI B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Health and Safety KPI B2.2 | Lost days due to work injury. | Health and Safety KPI B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. | Health and Safety",
+      "bm25_rank": 33,
+      "dense_rank": 7,
+      "bm25_score": 8.445438385009766,
+      "dense_score": 0.5604411363601685,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2082568383552363,
+      "normalized_dense": 0.5153832885887591,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.49250531733483116,
+      "rank": 7,
+      "rrf_score": 0.49250531733483116,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_001",
+      "alias_source_ids": [
+        "P3_001"
+      ],
+      "section": "ABOUT THIS REPORT / INTRODUCTION",
+      "pages": [
+        3
+      ],
+      "text": "In accordance to Appendix 27- Environmental, Social and Governance Reporting Guide (the \"ESG Reporting Guide\") of the Rules Governing the Listing of Securities (the \"Listing Rules\") on the Stock Exchange of Hong Kong Limited (the \"Stock E (, , , (re (collectively known as the \"Group\" or \"we\") are pleased to present our Environmental, Social and Governance Report (the \"\"ESG Report\"). The aim of the ESG Report is to provide our stakeholders with a comprehensive understanding of our enuvi- l sne s otd (o o rs rm commitment to fulfilling our corporate social responsibility .",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / INTRODUCTION\n\n[Content]\nIn accordance to Appendix 27- Environmental, Social and Governance Reporting Guide (the \"ESG Reporting Guide\") of the Rules Governing the Listing of Securities (the \"Listing Rules\") on the Stock Exchange of Hong Kong Limited (the \"Stock E (, , , (re (collectively known as the \"Group\" or \"we\") are pleased to present our Environmental, Social and Governance Report (the \"\"ESG Report\"). The aim of the ESG Report is to provide our stakeholders with a comprehensive understanding of our enuvi- l sne s otd (o o rs rm commitment to fulfilling our corporate social responsibility .",
+      "bm25_rank": 14,
+      "dense_rank": 16,
+      "bm25_score": 12.582199096679688,
+      "dense_score": 0.5112924575805664,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.33502368389766196,
+      "normalized_dense": 0.397938146091925,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4774240275090216,
+      "rank": 8,
+      "rrf_score": 0.4774240275090216,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_001",
+      "alias_source_ids": [
+        "P25_001"
+      ],
+      "section": "Physical Wellbeing",
+      "pages": [
+        25
+      ],
+      "text": "In order to protect the physical wellbeing of our employees, the Group's operation revolves around the principal of \"safety foremost, prevention-dominated\" and is governed by a set of policy and procedures, including but not limited to Employee Protection Policy(員工保障政策),Emergency Procedures (應急救援),Hazard Identification and Risk Control (危險源辨識與風險控制)and Safety Standardised Policy(安全標準化制度).",
+      "retrieval_text": "[Section]\nPhysical Wellbeing\n\n[Content]\nIn order to protect the physical wellbeing of our employees, the Group's operation revolves around the principal of \"safety foremost, prevention-dominated\" and is governed by a set of policy and procedures, including but not limited to Employee Protection Policy(員工保障政策),Emergency Procedures (應急救援),Hazard Identification and Risk Control (危險源辨識與風險控制)and Safety Standardised Policy(安全標準化制度).",
+      "bm25_rank": 5,
+      "dense_rank": 28,
+      "bm25_score": 21.1123046875,
+      "dense_score": 0.45827004313468933,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5964201371277519,
+      "normalized_dense": 0.2712363674327866,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.47529058153038145,
+      "rank": 9,
+      "rrf_score": 0.47529058153038145,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L35_002",
+      "alias_source_ids": [
+        "L35_002"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        35
+      ],
+      "text": "Employees can report unethical behaviour without fear of retaliation; and",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nEmployees can report unethical behaviour without fear of retaliation; and",
+      "bm25_rank": null,
+      "dense_rank": 2,
+      "bm25_score": null,
+      "dense_score": 0.670241117477417,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7777601163828951,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.47087375885481864,
+      "rank": 10,
+      "rrf_score": 0.47087375885481864,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_001",
+      "alias_source_ids": [
+        "P30_001"
+      ],
+      "section": "LABOUR STANDARDS",
+      "pages": [
+        30
+      ],
+      "text": "The Group has strictly adhered with all laws and regulations relevant to the prohibition of child labour or forced labour, including but not limited to the Law of the People's Republic of China on the Protection of Minors (《中華人 民共和國未成年人保護法》) the Labour Contract Law of the People's Republic of China(《中華人民共和國勞動 合同法》), the Provisions on the Prohibition of Using Child Labour(《禁止使用童工規定》), and the Employment Ordinance (Cap. 57 of the Laws of Hong Kong). During the Reporting Period, the Group was not aware of any nc od l sd s coa significant impact on us, nor were there any cases of forced labour or child labour.",
+      "retrieval_text": "[Section]\nLABOUR STANDARDS\n\n[Content]\nThe Group has strictly adhered with all laws and regulations relevant to the prohibition of child labour or forced labour, including but not limited to the Law of the People's Republic of China on the Protection of Minors (《中華人 民共和國未成年人保護法》) the Labour Contract Law of the People's Republic of China(《中華人民共和國勞動 合同法》), the Provisions on the Prohibition of Using Child Labour(《禁止使用童工規定》), and the Employment Ordinance (Cap. 57 of the Laws of Hong Kong). During the Reporting Period, the Group was not aware of any nc od l sd s coa significant impact on us, nor were there any cases of forced labour or child labour.",
+      "bm25_rank": 2,
+      "dense_rank": 38,
+      "bm25_score": 25.933639526367188,
+      "dense_score": 0.4290253221988678,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7441650639983879,
+      "normalized_dense": 0.20135350378573424,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.4689711686548859,
+      "rank": 11,
+      "rrf_score": 0.4689711686548859,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_008",
+      "alias_source_ids": [
+        "P32_008"
+      ],
+      "section": "PRODUCT RESPONSIBILITY",
+      "pages": [
+        32
+      ],
+      "text": "All complaint will be remediated in accordance with the Complaint Handling Policy (客戶投訴處理規程) to ensure that all customer complaints are properly handled. Complaints will also be kept confidential, and the Group guarantees that there will be no retribution of any kind against any complaints.",
+      "retrieval_text": "[Section]\nPRODUCT RESPONSIBILITY\n\n[Content]\nAll complaint will be remediated in accordance with the Complaint Handling Policy (客戶投訴處理規程) to ensure that all customer complaints are properly handled. Complaints will also be kept confidential, and the Group guarantees that there will be no retribution of any kind against any complaints.",
+      "bm25_rank": 66,
+      "dense_rank": 6,
+      "bm25_score": 3.8591079711914062,
+      "dense_score": 0.5797579884529114,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.067713384262059,
+      "normalized_dense": 0.5615426259901953,
+      "normalized_bm25_rank": 0.563758389261745,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.45974702547918156,
+      "rank": 12,
+      "rrf_score": 0.45974702547918156,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T7_001",
+      "alias_source_ids": [
+        "T7_001"
+      ],
+      "section": "STAKEHOLDERENGAGEMENT",
+      "pages": [
+        7
+      ],
+      "text": "Major Stakeholders Groups | Communication and Response Channels | Sustainability Topics of Interest Stock Exchange | Webinars and reports on regulatory updates Training events Updates and announcements on website | Disclosure of materials ESG topics Compliance with the Listing Rules Corporate governance Timely announcements and the publish of external reports Media | Public relation events Newsletters of company website | Financial performance Corporate governance Community engagement Environmental impact Community | Philanthropic partnership Community volunteering events and welfare services Charitable activities | Environmental impact Community development and engagement Social welfare services Corporate social responsibility Customers | Customer service hotline and e-mails After-sale services Telephone consultations | Integrity of business Quality of products and services Privacy protection measures Transparent, fair and reasonable pricing",
+      "retrieval_text": "[Section]\nSTAKEHOLDERENGAGEMENT\n\n[Content]\nMajor Stakeholders Groups | Communication and Response Channels | Sustainability Topics of Interest Stock Exchange | Webinars and reports on regulatory updates Training events Updates and announcements on website | Disclosure of materials ESG topics Compliance with the Listing Rules Corporate governance Timely announcements and the publish of external reports Media | Public relation events Newsletters of company website | Financial performance Corporate governance Community engagement Environmental impact Community | Philanthropic partnership Community volunteering events and welfare services Charitable activities | Environmental impact Community development and engagement Social welfare services Corporate social responsibility Customers | Customer service hotline and e-mails After-sale services Telephone consultations | Integrity of business Quality of products and services Privacy protection measures Transparent, fair and reasonable pricing",
+      "bm25_rank": 43,
+      "dense_rank": 10,
+      "bm25_score": 7.369359970092773,
+      "dense_score": 0.5398496985435486,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17528150433833245,
+      "normalized_dense": 0.4661782151536762,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.45795021979561423,
+      "rank": 13,
+      "rrf_score": 0.45795021979561423,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_002",
+      "alias_source_ids": [
+        "P30_002"
+      ],
+      "section": "LABOUR STANDARDS",
+      "pages": [
+        30
+      ],
+      "text": "The Group acknowledges that child and forced labour is a violation of fundamental human rights; hence, all forms of child or forced labour are prohibited. The Group has adopted a series of measures to prevent such_occurrence, which are stated in the Anti-Child Labour Policy of Centenary United Holdings Company Limited (世紀聯合控股有 限公司反童工政策).",
+      "retrieval_text": "[Section]\nLABOUR STANDARDS\n\n[Content]\nThe Group acknowledges that child and forced labour is a violation of fundamental human rights; hence, all forms of child or forced labour are prohibited. The Group has adopted a series of measures to prevent such_occurrence, which are stated in the Anti-Child Labour Policy of Centenary United Holdings Company Limited (世紀聯合控股有 限公司反童工政策).",
+      "bm25_rank": 4,
+      "dense_rank": 36,
+      "bm25_score": 21.593116760253906,
+      "dense_score": 0.4335719347000122,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6111541365079393,
+      "normalized_dense": 0.21221803903538589,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.44751385237336894,
+      "rank": 14,
+      "rrf_score": 0.44751385237336894,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T6_001",
+      "alias_source_ids": [
+        "T6_001"
+      ],
+      "section": "STAKEHOLDERENGAGEMENT",
+      "pages": [
+        6
+      ],
+      "text": "Major Stakeholders Groups | Communication and Response Channels | Sustainability Topics of Interest Internal | Employees | Training events and seminars Meetings and briefings Performance appraisal meetings and interview | ● Training opportunities and career development Protection of employee data and privacy Health and safety of working environment Employee rights, benefits and compensation Shareholders and investors | Management information circular and annual reports Annual general meetings and shareholder meetings Telephone and e-mail correspondence | Sound risk management and effective corporate governance Diversity and inclusion Financial stability and responsible investment Information transparency Ethical business operation External | Suppliers | Tender conferences Site visits Supplier performance review Industry seminars | Fair and transparent supplier selection process Win-win cooperation Governments | Site visits and conferences Industry updates and seminars Mandatory local and regional reporting requirements | Adherence to laws and regulations Community engagement and social welfare Corporate governance Environmental impact and carbon footprint",
+      "retrieval_text": "[Section]\nSTAKEHOLDERENGAGEMENT\n\n[Content]\nMajor Stakeholders Groups | Communication and Response Channels | Sustainability Topics of Interest Internal | Employees | Training events and seminars Meetings and briefings Performance appraisal meetings and interview | ● Training opportunities and career development Protection of employee data and privacy Health and safety of working environment Employee rights, benefits and compensation Shareholders and investors | Management information circular and annual reports Annual general meetings and shareholder meetings Telephone and e-mail correspondence | Sound risk management and effective corporate governance Diversity and inclusion Financial stability and responsible investment Information transparency Ethical business operation External | Suppliers | Tender conferences Site visits Supplier performance review Industry seminars | Fair and transparent supplier selection process Win-win cooperation Governments | Site visits and conferences Industry updates and seminars Mandatory local and regional reporting requirements | Adherence to laws and regulations Community engagement and social welfare Corporate governance Environmental impact and carbon footprint",
+      "bm25_rank": 47,
+      "dense_rank": 13,
+      "bm25_score": 6.704407691955566,
+      "dense_score": 0.523960530757904,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15490471471694878,
+      "normalized_dense": 0.42820963449031135,
+      "normalized_bm25_rank": 0.6912751677852349,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.43387444924318663,
+      "rank": 15,
+      "rrf_score": 0.43387444924318663,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P22_002",
+      "alias_source_ids": [
+        "P22_002"
+      ],
+      "section": "SOCIAL / EMPLOYMENT",
+      "pages": [
+        22
+      ],
+      "text": "This was achieved through establishing a transparent platform to receive feedbacks from employees and to gauge eamd se s s o e s e os onal growth, and the protection and respect of their legitimate rights and interests.",
+      "retrieval_text": "[Section]\nSOCIAL / EMPLOYMENT\n\n[Content]\nThis was achieved through establishing a transparent platform to receive feedbacks from employees and to gauge eamd se s s o e s e os onal growth, and the protection and respect of their legitimate rights and interests.",
+      "bm25_rank": 76,
+      "dense_rank": 8,
+      "bm25_score": 3.326735019683838,
+      "dense_score": 0.5533933043479919,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05139935393288339,
+      "normalized_dense": 0.498541866692646,
+      "normalized_bm25_rank": 0.49664429530201337,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4250379805048417,
+      "rank": 16,
+      "rrf_score": 0.4250379805048417,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T10_001",
+      "alias_source_ids": [
+        "T10_001"
+      ],
+      "section": "MATERIALITYASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "Item | ESG Topic | Item | ESG Topic 1 | Customer satisfaction | 15 | Selection and monitoring of suppliers 2 | Customer information and privacy | 16 | Cultivation of local employment 3 | Occupational health and safety | 17 | Hazardous waste production 4 | Product health and safety | 18 | Energy use (e.g. electricity, gas, fuel) 5 | Employee development and training | 19 | Anti-corruption training provided to directors and staff 6 | Observing and protecting intellectual property rights | 20 | Environmental risks (e.g. pollution) and social risks (e.g. monopoly) of the suppliers 7 | Preventing child and forced labour | 21 | Air emissions 8 | Employee remuneration, benefits and rights (e.g. working hours, rest periods, working conditions) | 22 | Greenhouse gas emissions 9 | Environmentally preferable products and services | 23 | Community support (e.g. donation, volunteering) 10 | Diversity and equal opportunity of employees | 24 | Mitigation measures to protect environment and natural resources 11 | Product and service labelling | 25 | Use of materials (e.g. paper, packaging, raw materials) 12 | Number of concluded legal cases regarding corrupt practices, e.g. bribery, extortion, fraud and money laundering | 26 | Water use 13 | Marketing communications (e.g. advertisement) | 27 | Climate change 14 | Anti-corruption policies and whistle-blowing procedure | 28 | Non-hazardous waste production",
+      "retrieval_text": "[Section]\nMATERIALITYASSESSMENT\n\n[Content]\nItem | ESG Topic | Item | ESG Topic 1 | Customer satisfaction | 15 | Selection and monitoring of suppliers 2 | Customer information and privacy | 16 | Cultivation of local employment 3 | Occupational health and safety | 17 | Hazardous waste production 4 | Product health and safety | 18 | Energy use (e.g. electricity, gas, fuel) 5 | Employee development and training | 19 | Anti-corruption training provided to directors and staff 6 | Observing and protecting intellectual property rights | 20 | Environmental risks (e.g. pollution) and social risks (e.g. monopoly) of the suppliers 7 | Preventing child and forced labour | 21 | Air emissions 8 | Employee remuneration, benefits and rights (e.g. working hours, rest periods, working conditions) | 22 | Greenhouse gas emissions 9 | Environmentally preferable products and services | 23 | Community support (e.g. donation, volunteering) 10 | Diversity and equal opportunity of employees | 24 | Mitigation measures to protect environment and natural resources 11 | Product and service labelling | 25 | Use of materials (e.g. paper, packaging, raw materials) 12 | Number of concluded legal cases regarding corrupt practices, e.g. bribery, extortion, fraud and money laundering | 26 | Water use 13 | Marketing communications (e.g. advertisement) | 27 | Climate change 14 | Anti-corruption policies and whistle-blowing procedure | 28 | Non-hazardous waste production",
+      "bm25_rank": 51,
+      "dense_rank": 14,
+      "bm25_score": 6.262588024139404,
+      "dense_score": 0.5185976028442383,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14136559812515345,
+      "normalized_dense": 0.41539444090504396,
+      "normalized_bm25_rank": 0.6644295302013423,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.42265446253240013,
+      "rank": 17,
+      "rrf_score": 0.42265446253240013,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P34_005",
+      "alias_source_ids": [
+        "P34_005"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        34
+      ],
+      "text": "During the Reporting Period, the Group provided 607 employees with relevant training on anti-corruption, and the average training hour for each employee was about 1 hour. The Group generally arranges in-person conferences for employees at the management level, while the rest of the employees received training through other platforms and received training materials such as case studies related to anti-corruption.",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nDuring the Reporting Period, the Group provided 607 employees with relevant training on anti-corruption, and the average training hour for each employee was about 1 hour. The Group generally arranges in-person conferences for employees at the management level, while the rest of the employees received training through other platforms and received training materials such as case studies related to anti-corruption.",
+      "bm25_rank": 25,
+      "dense_rank": 24,
+      "bm25_score": 10.269561767578125,
+      "dense_score": 0.47914597392082214,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2641552533725807,
+      "normalized_dense": 0.32112126214025055,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.41824362665179177,
+      "rank": 18,
+      "rrf_score": 0.41824362665179177,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_002",
+      "alias_source_ids": [
+        "P10_002"
+      ],
+      "section": "MATERIALITYASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "The latest information on our financial performance and corporate governance of the Group during the Reporting Period are available on our official website (www.car2000.com.cn) and our annual report. The Group welcomes all feedback from investors and stakeholders in particular the important areas identified in the materiality assessment. Your opinion is highly valued, should you have any suggestions or comments, please contact us through the channels below: Post:",
+      "retrieval_text": "[Section]\nMATERIALITYASSESSMENT\n\n[Content]\nThe latest information on our financial performance and corporate governance of the Group during the Reporting Period are available on our official website (www.car2000.com.cn) and our annual report. The Group welcomes all feedback from investors and stakeholders in particular the important areas identified in the materiality assessment. Your opinion is highly valued, should you have any suggestions or comments, please contact us through the channels below: Post:",
+      "bm25_rank": 44,
+      "dense_rank": 18,
+      "bm25_score": 7.070728778839111,
+      "dense_score": 0.5072014331817627,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16613025370181167,
+      "normalized_dense": 0.38816227916312906,
+      "normalized_bm25_rank": 0.7114093959731543,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.4174049960984642,
+      "rank": 19,
+      "rrf_score": 0.4174049960984642,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L13_001",
+      "alias_source_ids": [
+        "L13_001"
+      ],
+      "section": "ENVIRONMENT / EMISSIONS",
+      "pages": [
+        13
+      ],
+      "text": "The above GHG emission data have been compiled with reference to \"How to prepare an ESG Report — Appendix Il: Reporting Guidance on Environmental KPIs\" issued by the Stock Exchange.",
+      "retrieval_text": "[Section]\nENVIRONMENT / EMISSIONS\n\n[Content]\nThe above GHG emission data have been compiled with reference to \"How to prepare an ESG Report — Appendix Il: Reporting Guidance on Environmental KPIs\" issued by the Stock Exchange.",
+      "bm25_rank": 13,
+      "dense_rank": 33,
+      "bm25_score": 12.608528137207031,
+      "dense_score": 0.4441971480846405,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3358305106992206,
+      "normalized_dense": 0.23760793213124753,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.3993221669763848,
+      "rank": 20,
+      "rrf_score": 0.3993221669763848,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T38_001",
+      "alias_source_ids": [
+        "T38_001"
+      ],
+      "section": "HKEX ESG REPORTING GUIDE CONTENT INDEX",
+      "pages": [
+        38
+      ],
+      "text": "Aspects,General Disclosures and KPIs | Description | Relevant Chapter/ Explanation A. Environmental Aspect A1: Emissions General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | Emissions KPI A1.1 | The types of emissions and respective emissions data. | Emissions—Air Emissions KPI A1.2 | Direct (Scope 1) and energy indirect Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | Emissions—GHG Emissions KPI A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | Emissions—Waste Management KPI A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions—Waste Management KPI A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions KPI A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions—Waste Management Aspect A2: Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Use of Resources KPI A2.1 | Direct and/or indirect energy consumption by type gas or oil) in total (kWh in ’000s) and intensity (e.g. per unit of production volume, per facility). | Use of Resources—Energy Management KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Use of Resources—Water Stewardship KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Use of Resources—Energy Management KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Use of Resources—Water Stewardship KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Use of Resources—Use of Packaging Materials",
+      "retrieval_text": "[Section]\nHKEX ESG REPORTING GUIDE CONTENT INDEX\n\n[Content]\nAspects,General Disclosures and KPIs | Description | Relevant Chapter/ Explanation A. Environmental Aspect A1: Emissions General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | Emissions KPI A1.1 | The types of emissions and respective emissions data. | Emissions—Air Emissions KPI A1.2 | Direct (Scope 1) and energy indirect Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | Emissions—GHG Emissions KPI A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | Emissions—Waste Management KPI A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions—Waste Management KPI A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions KPI A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions—Waste Management Aspect A2: Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Use of Resources KPI A2.1 | Direct and/or indirect energy consumption by type gas or oil) in total (kWh in ’000s) and intensity (e.g. per unit of production volume, per facility). | Use of Resources—Energy Management KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Use of Resources—Water Stewardship KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Use of Resources—Energy Management KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Use of Resources—Water Stewardship KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Use of Resources—Use of Packaging Materials",
+      "bm25_rank": 39,
+      "dense_rank": 26,
+      "bm25_score": 7.697207450866699,
+      "dense_score": 0.4628176689147949,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18532805859985865,
+      "normalized_dense": 0.2821033240027045,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.3767413724363545,
+      "rank": 21,
+      "rrf_score": 0.3767413724363545,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_005",
+      "alias_source_ids": [
+        "P35_005"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        35
+      ],
+      "text": "During the Reporting Period, there were no concluded cases of corruption, bribery or money laundering. However, we noted a case of suspected misappropriation of funds of a subsidiary in 2021, which was discovered after the Re t i t o t p ptg ton and litigation, and make appropriate disclosures upon the development of this case.",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nDuring the Reporting Period, there were no concluded cases of corruption, bribery or money laundering. However, we noted a case of suspected misappropriation of funds of a subsidiary in 2021, which was discovered after the Re t i t o t p ptg ton and litigation, and make appropriate disclosures upon the development of this case.",
+      "bm25_rank": 38,
+      "dense_rank": 27,
+      "bm25_score": 7.864344120025635,
+      "dense_score": 0.46137377619743347,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19044979268130457,
+      "normalized_dense": 0.2786530138386999,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.37588696975564484,
+      "rank": 22,
+      "rrf_score": 0.37588696975564484,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_003",
+      "alias_source_ids": [
+        "P3_003"
+      ],
+      "section": "ABOUT THIS REPORT / INTRODUCTION",
+      "pages": [
+        3
+      ],
+      "text": "The scope of the ESG Report mainly focuses on the Group's principle activities during 1 January 2021 to 31 December or os , ces including, but not limited to, repair services, the sales of accessories, insurance agency services and other value-added services in the People's Republic of China (the \"PRC\"). Unless otherwise stated, the information compiled in this ESG Re o on a t n n o o n t so oan Guangdong Province, the PRC. With exception to the data section, the disclosure of systems, policies, and compliance with laws and regulations is made on a Group-wide basis. The Group has compiled KPl, as shown in this ESG Report and supplemented by notes for benchmarking purposes. The Group will continue to assess the key ESG aspects of the different businesses to determine whether they are required to be included in the ESG Report.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / INTRODUCTION\n\n[Content]\nThe scope of the ESG Report mainly focuses on the Group's principle activities during 1 January 2021 to 31 December or os , ces including, but not limited to, repair services, the sales of accessories, insurance agency services and other value-added services in the People's Republic of China (the \"PRC\"). Unless otherwise stated, the information compiled in this ESG Re o on a t n n o o n t so oan Guangdong Province, the PRC. With exception to the data section, the disclosure of systems, policies, and compliance with laws and regulations is made on a Group-wide basis. The Group has compiled KPl, as shown in this ESG Report and supplemented by notes for benchmarking purposes. The Group will continue to assess the key ESG aspects of the different businesses to determine whether they are required to be included in the ESG Report.",
+      "bm25_rank": 60,
+      "dense_rank": 22,
+      "bm25_score": 5.094366073608398,
+      "dense_score": 0.48698005080223083,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10556661871006089,
+      "normalized_dense": 0.33984148613231546,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.3722726089889938,
+      "rank": 23,
+      "rrf_score": 0.3722726089889938,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_007",
+      "alias_source_ids": [
+        "P30_007"
+      ],
+      "section": "LABOUR STANDARDS",
+      "pages": [
+        30
+      ],
+      "text": "The Group has established a series of rigorous and standardised process for the selection of suppliers, such as the Purchase Management Policy (採購管理制度) and the Purchase Supplier Assessment Procedures (採購供應商開 發及評估流程).",
+      "retrieval_text": "[Section]\nLABOUR STANDARDS\n\n[Content]\nThe Group has established a series of rigorous and standardised process for the selection of suppliers, such as the Purchase Management Policy (採購管理制度) and the Purchase Supplier Assessment Procedures (採購供應商開 發及評估流程).",
+      "bm25_rank": 17,
+      "dense_rank": 40,
+      "bm25_score": 11.35460090637207,
+      "dense_score": 0.42697858810424805,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.29740517970430075,
+      "normalized_dense": 0.19646265049395645,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.36515571529159724,
+      "rank": 24,
+      "rrf_score": 0.36515571529159724,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_005",
+      "alias_source_ids": [
+        "P30_005"
+      ],
+      "section": "LABOUR STANDARDS",
+      "pages": [
+        30
+      ],
+      "text": "As stipulated in the Company Personnel System (公司人事制度), all overtime work is at the discretionary of the employee and will be compensated accordingly. The Group has been transparent with the working hours and resting periods arrangement with the employees, and will strive to arranging the employee's working schedule, suchsd se l sr e l d se t t ccasl punishment, verbal abuse, sexual harassment, physical abuse, and oppression, against any employees is strictly prohibited.",
+      "retrieval_text": "[Section]\nLABOUR STANDARDS\n\n[Content]\nAs stipulated in the Company Personnel System (公司人事制度), all overtime work is at the discretionary of the employee and will be compensated accordingly. The Group has been transparent with the working hours and resting periods arrangement with the employees, and will strive to arranging the employee's working schedule, suchsd se l sr e l d se t t ccasl punishment, verbal abuse, sexual harassment, physical abuse, and oppression, against any employees is strictly prohibited.",
+      "bm25_rank": 15,
+      "dense_rank": 42,
+      "bm25_score": 11.73232650756836,
+      "dense_score": 0.42567554116249084,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3089801984887304,
+      "normalized_dense": 0.19334890384695091,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.36503862584283664,
+      "rank": 25,
+      "rrf_score": 0.36503862584283664,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_009",
+      "alias_source_ids": [
+        "P32_009"
+      ],
+      "section": "PRODUCT RESPONSIBILITY",
+      "pages": [
+        32
+      ],
+      "text": "During the Reporting Period, the Group received 23 cases of complaints related to product safety and service u s n m r t o nb consistent approach to handling customer's feedback will help us to further understand our clients and the market trends. Ultimately, this will help the Group unlock new opportunities and to develop innovative solutions to serve our customers.",
+      "retrieval_text": "[Section]\nPRODUCT RESPONSIBILITY\n\n[Content]\nDuring the Reporting Period, the Group received 23 cases of complaints related to product safety and service u s n m r t o nb consistent approach to handling customer's feedback will help us to further understand our clients and the market trends. Ultimately, this will help the Group unlock new opportunities and to develop innovative solutions to serve our customers.",
+      "bm25_rank": 40,
+      "dense_rank": 30,
+      "bm25_score": 7.526438236236572,
+      "dense_score": 0.45520299673080444,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18009500883864105,
+      "normalized_dense": 0.2639073870635695,
+      "normalized_bm25_rank": 0.738255033557047,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.36328591609903793,
+      "rank": 26,
+      "rrf_score": 0.36328591609903793,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P34_004",
+      "alias_source_ids": [
+        "P34_004"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        34
+      ],
+      "text": "The Group strictly complies with the laws and regulations relevant to anti-corruption, including but not limited to the Anti-Money Laundering Law of the People's Republic of China (《中華人民共和國反洗錢法》), the Criminal Law ofti i o i 《oiiii》 i d tial Bribery(《關於禁止商業賄賂行為的暫行規定》).",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nThe Group strictly complies with the laws and regulations relevant to anti-corruption, including but not limited to the Anti-Money Laundering Law of the People's Republic of China (《中華人民共和國反洗錢法》), the Criminal Law ofti i o i 《oiiii》 i d tial Bribery(《關於禁止商業賄賂行為的暫行規定》).",
+      "bm25_rank": 10,
+      "dense_rank": 54,
+      "bm25_score": 15.410606384277344,
+      "dense_score": 0.41039347648620605,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.42169736283357145,
+      "normalized_dense": 0.15683105009953763,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.6442953020134228,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.36204913204786116,
+      "rank": 27,
+      "rrf_score": 0.36204913204786116,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P34_001",
+      "alias_source_ids": [
+        "P34_001"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        34
+      ],
+      "text": "Tho t te e ot ete otr n t e rt se to and accountability, which is essential for maintaining our reputation and business partner confidence. An ethical culture, including a zero tolerance for corruption and bribery, is also a vital element for a healthy and sustainable development of our business.",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nTho t te e ot ete otr n t e rt se to and accountability, which is essential for maintaining our reputation and business partner confidence. An ethical culture, including a zero tolerance for corruption and bribery, is also a vital element for a healthy and sustainable development of our business.",
+      "bm25_rank": null,
+      "dense_rank": 9,
+      "bm25_score": null,
+      "dense_score": 0.5414403676986694,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.46997926067976714,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.35375448620436145,
+      "rank": 28,
+      "rrf_score": 0.35375448620436145,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_005",
+      "alias_source_ids": [
+        "P24_005"
+      ],
+      "section": "Recruitment, Promotion and Dismissal",
+      "pages": [
+        24
+      ],
+      "text": "During the Reporting Period, the Group has adhered with the employment-related laws and regulations in PRC and Hong Kong.",
+      "retrieval_text": "[Section]\nRecruitment, Promotion and Dismissal\n\n[Content]\nDuring the Reporting Period, the Group has adhered with the employment-related laws and regulations in PRC and Hong Kong.",
+      "bm25_rank": 20,
+      "dense_rank": 44,
+      "bm25_score": 10.547804832458496,
+      "dense_score": 0.4231787621974945,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27268173050949557,
+      "normalized_dense": 0.18738262828047947,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.3496504673423488,
+      "rank": 29,
+      "rrf_score": 0.3496504673423488,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_007",
+      "alias_source_ids": [
+        "P32_007"
+      ],
+      "section": "PRODUCT RESPONSIBILITY",
+      "pages": [
+        32
+      ],
+      "text": "The Group established several communication platforms such as customer service hotlines and e-mails for our Cie i sr il promptly respond with an appropriate action. Complaints that involve in any unethical or illegal issues may be escalated to the management to take further appropriate actions.",
+      "retrieval_text": "[Section]\nPRODUCT RESPONSIBILITY\n\n[Content]\nThe Group established several communication platforms such as customer service hotlines and e-mails for our Cie i sr il promptly respond with an appropriate action. Complaints that involve in any unethical or illegal issues may be escalated to the management to take further appropriate actions.",
+      "bm25_rank": null,
+      "dense_rank": 11,
+      "bm25_score": null,
+      "dense_score": 0.5370501279830933,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.45948839211942866,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.3473981184498537,
+      "rank": 30,
+      "rrf_score": 0.3473981184498537,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_001",
+      "alias_source_ids": [
+        "P35_001"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        35
+      ],
+      "text": "Te t u s d -d sue u at. right, speak up and confront unethical behaviours. Our principles:",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nTe t u s d -d sue u at. right, speak up and confront unethical behaviours. Our principles:",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.5314862132072449,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4461929225378342,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.34140242221710104,
+      "rank": 31,
+      "rrf_score": 0.34140242221710104,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L3_001",
+      "alias_source_ids": [
+        "L3_001"
+      ],
+      "section": "ABOUT THIS REPORT / INTRODUCTION",
+      "pages": [
+        3
+      ],
+      "text": "Materiality: ESG topics that may influence the perspectives of the stakeholders are disclosed.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / INTRODUCTION\n\n[Content]\nMateriality: ESG topics that may influence the perspectives of the stakeholders are disclosed.",
+      "bm25_rank": 77,
+      "dense_rank": 29,
+      "bm25_score": 3.2699201107025146,
+      "dense_score": 0.45690250396728516,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04965831854472941,
+      "normalized_dense": 0.26796851087236895,
+      "normalized_bm25_rank": 0.4899328859060402,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.3151300384874294,
+      "rank": 32,
+      "rrf_score": 0.3151300384874294,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_003",
+      "alias_source_ids": [
+        "P35_003"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        35
+      ],
+      "text": "The Group has formulated a standardised work process to handle unethical behaviours. In particular, for antr n o- t e d t -ary United Group(世紀聯合反貪管理程序). The Group may also further consult with external independent third-parties to provide support on the investigation.",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nThe Group has formulated a standardised work process to handle unethical behaviours. In particular, for antr n o- t e d t -ary United Group(世紀聯合反貪管理程序). The Group may also further consult with external independent third-parties to provide support on the investigation.",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.507864236831665,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.38974610747841854,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.3149346275503324,
+      "rank": 33,
+      "rrf_score": 0.3149346275503324,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_008",
+      "alias_source_ids": [
+        "P25_008"
+      ],
+      "section": "Physical Wellbeing",
+      "pages": [
+        25
+      ],
+      "text": "One of the key initiatives is to promote the concept of work-life balance. The Group strives to develop a working environment and a corporate culture that provides an optimal balance between the employee's private lives and professional lives. Within our business operation, the employee's working hours, resting time and holidays are clearly stated through the Company Personnel System (公司人事制度), which protects the legitimate rights and interests of employees, and their rights to rest and vacation.",
+      "retrieval_text": "[Section]\nPhysical Wellbeing\n\n[Content]\nOne of the key initiatives is to promote the concept of work-life balance. The Group strives to develop a working environment and a corporate culture that provides an optimal balance between the employee's private lives and professional lives. Within our business operation, the employee's working hours, resting time and holidays are clearly stated through the Company Personnel System (公司人事制度), which protects the legitimate rights and interests of employees, and their rights to rest and vacation.",
+      "bm25_rank": 16,
+      "dense_rank": 66,
+      "bm25_score": 11.659744262695312,
+      "dense_score": 0.4026210904121399,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.30675598904896567,
+      "normalized_dense": 0.13825824178250193,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.563758389261745,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.3124261461920581,
+      "rank": 34,
+      "rrf_score": 0.3124261461920581,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P33_007",
+      "alias_source_ids": [
+        "P33_007"
+      ],
+      "section": "Intellectual Property Rights",
+      "pages": [
+        33
+      ],
+      "text": "During the Reporting Period, the Group complied with relevant laws and regulations related to protection of cuos o o t p rso China(《中華人民共和國個人信息保護法》)and the Personal Data (Privacy) Ordinance(Cap. 486 of the Laws of Hong Kong).",
+      "retrieval_text": "[Section]\nIntellectual Property Rights\n\n[Content]\nDuring the Reporting Period, the Group complied with relevant laws and regulations related to protection of cuos o o t p rso China(《中華人民共和國個人信息保護法》)and the Personal Data (Privacy) Ordinance(Cap. 486 of the Laws of Hong Kong).",
+      "bm25_rank": 11,
+      "dense_rank": 77,
+      "bm25_score": 15.073020935058594,
+      "dense_score": 0.39045268297195435,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.41135239838403037,
+      "normalized_dense": 0.10918074913655007,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.4899328859060402,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.3117589096598335,
+      "rank": 35,
+      "rrf_score": 0.3117589096598335,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_004",
+      "alias_source_ids": [
+        "P30_004"
+      ],
+      "section": "LABOUR STANDARDS",
+      "pages": [
+        30
+      ],
+      "text": "If there is a violation of the law, the regulatory authorities will be notified promptly and the Group will also conduct an investigation to prevent the reoccurrence of similar issues.",
+      "retrieval_text": "[Section]\nLABOUR STANDARDS\n\n[Content]\nIf there is a violation of the law, the regulatory authorities will be notified promptly and the Group will also conduct an investigation to prevent the reoccurrence of similar issues.",
+      "bm25_rank": null,
+      "dense_rank": 19,
+      "bm25_score": null,
+      "dense_score": 0.5019858479499817,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.375699174030685,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.30733363708523637,
+      "rank": 36,
+      "rrf_score": 0.30733363708523637,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_001",
+      "alias_source_ids": [
+        "P32_001"
+      ],
+      "section": "PRODUCT RESPONSIBILITY",
+      "pages": [
+        32
+      ],
+      "text": "The Group believes that high product quality directly correlates to a positive reputation and a sustainable business development. The Group has established a Quality Management Assessment System of Centenary United Holdings Company Limited (世紀聯合控股有限公司質量管理考核制度) to reduce the risk of product responsibility. The policy sets out the maintenance quality inspection standards, which aims to ensure our operation complies with the regulations in our operating region, and also to align the quality of our services to an international level.",
+      "retrieval_text": "[Section]\nPRODUCT RESPONSIBILITY\n\n[Content]\nThe Group believes that high product quality directly correlates to a positive reputation and a sustainable business development. The Group has established a Quality Management Assessment System of Centenary United Holdings Company Limited (世紀聯合控股有限公司質量管理考核制度) to reduce the risk of product responsibility. The policy sets out the maintenance quality inspection standards, which aims to ensure our operation complies with the regulations in our operating region, and also to align the quality of our services to an international level.",
+      "bm25_rank": 26,
+      "dense_rank": 60,
+      "bm25_score": 10.044157028198242,
+      "dense_score": 0.4062102437019348,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2572479532474145,
+      "normalized_dense": 0.1468348430265193,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.6040268456375839,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.30686863134634856,
+      "rank": 37,
+      "rrf_score": 0.30686863134634856,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L35_003",
+      "alias_source_ids": [
+        "L35_003"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        35
+      ],
+      "text": "Employees shall remain alert at all times for any signs of unethical behaviour.",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nEmployees shall remain alert at all times for any signs of unethical behaviour.",
+      "bm25_rank": null,
+      "dense_rank": 20,
+      "bm25_score": null,
+      "dense_score": 0.4984185993671417,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.36717491603359825,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.3030078649070614,
+      "rank": 38,
+      "rrf_score": 0.3030078649070614,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_003",
+      "alias_source_ids": [
+        "P32_003"
+      ],
+      "section": "PRODUCT RESPONSIBILITY",
+      "pages": [
+        32
+      ],
+      "text": "Tho i ' i s ei ts it not m t 共和國消費者權益保護法》), the Advertising Law of the People's Republic of China(《中華人民共和國廣告法》), and the Product Quality Law of the People's Republic of China(《中華人民共和國產品質量法》). During the Reporting Period, the Group was not aware of any incompliance with the relevant laws and regulations on the product and service safety, labelling, advertising, and privacy matters.",
+      "retrieval_text": "[Section]\nPRODUCT RESPONSIBILITY\n\n[Content]\nTho i ' i s ei ts it not m t 共和國消費者權益保護法》), the Advertising Law of the People's Republic of China(《中華人民共和國廣告法》), and the Product Quality Law of the People's Republic of China(《中華人民共和國產品質量法》). During the Reporting Period, the Group was not aware of any incompliance with the relevant laws and regulations on the product and service safety, labelling, advertising, and privacy matters.",
+      "bm25_rank": 54,
+      "dense_rank": 41,
+      "bm25_score": 5.399702072143555,
+      "dense_score": 0.4268834888935089,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11492333138035297,
+      "normalized_dense": 0.19623540246544527,
+      "normalized_bm25_rank": 0.6442953020134228,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.30240531217253347,
+      "rank": 39,
+      "rrf_score": 0.30240531217253347,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P33_002",
+      "alias_source_ids": [
+        "P33_002"
+      ],
+      "section": "Intellectual Property Rights",
+      "pages": [
+        33
+      ],
+      "text": "The safety of our customers remain our utmost priority. If the Group identifies that the maintenance materials and products may have safety hazards or quality problems, the Group will trace back all affected products as soon as possible in accordance with regulations. The Group will further conduct an investigation to gain a better understanding of the situation to determine whether a recall is necessary. Once the recall is confirmed, the customer service department will be responsible for initiating the recall procedure, supervising the entire recall process, and providing compensation to the affected customers with value-added services and feedback on the extent of the impact. During the Reporting Period, there were no recall of sold or shipped products due to safety and health reasons.",
+      "retrieval_text": "[Section]\nIntellectual Property Rights\n\n[Content]\nThe safety of our customers remain our utmost priority. If the Group identifies that the maintenance materials and products may have safety hazards or quality problems, the Group will trace back all affected products as soon as possible in accordance with regulations. The Group will further conduct an investigation to gain a better understanding of the situation to determine whether a recall is necessary. Once the recall is confirmed, the customer service department will be responsible for initiating the recall procedure, supervising the entire recall process, and providing compensation to the affected customers with value-added services and feedback on the extent of the impact. During the Reporting Period, there were no recall of sold or shipped products due to safety and health reasons.",
+      "bm25_rank": 59,
+      "dense_rank": 39,
+      "bm25_score": 5.186530590057373,
+      "dense_score": 0.4272448420524597,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10839090704470404,
+      "normalized_dense": 0.19709888800154624,
+      "normalized_bm25_rank": 0.610738255033557,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.3007299063034417,
+      "rank": 40,
+      "rrf_score": 0.3007299063034417,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P34_003",
+      "alias_source_ids": [
+        "P34_003"
+      ],
+      "section": "ANTI-CORRUPTION",
+      "pages": [
+        34
+      ],
+      "text": "The Group's Anti-Corruption Management Procedure of Centenary United Group(世紀聯合反貪管理程序) sets out the minimal standards to assist our employees in identifying circumstances that may lead to an unethical behaviour, and the procedures to prevent, detect and resolve any incidence of anti-corruption. Any money laundering activities using public or private bank accounts is also strictly prohibited, and the Group will take relevant actions against these misconduct.",
+      "retrieval_text": "[Section]\nANTI-CORRUPTION\n\n[Content]\nThe Group's Anti-Corruption Management Procedure of Centenary United Group(世紀聯合反貪管理程序) sets out the minimal standards to assist our employees in identifying circumstances that may lead to an unethical behaviour, and the procedures to prevent, detect and resolve any incidence of anti-corruption. Any money laundering activities using public or private bank accounts is also strictly prohibited, and the Group will take relevant actions against these misconduct.",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.4959104061126709,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3611813650064813,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.2995678401683758,
+      "rank": 41,
+      "rrf_score": 0.2995678401683758,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L3_002",
+      "alias_source_ids": [
+        "L3_002"
+      ],
+      "section": "ABOUT THIS REPORT / INTRODUCTION",
+      "pages": [
+        3
+      ],
+      "text": "Quantitative: ESG data are presented numerically, so our ESG performance can be compared against our peers, industry standards and our previous year's performance.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / INTRODUCTION\n\n[Content]\nQuantitative: ESG data are presented numerically, so our ESG performance can be compared against our peers, industry standards and our previous year's performance.",
+      "bm25_rank": 65,
+      "dense_rank": 37,
+      "bm25_score": 3.877761125564575,
+      "dense_score": 0.4295099973678589,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06828499130054008,
+      "normalized_dense": 0.20251167824128968,
+      "normalized_bm25_rank": 0.5704697986577181,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.2932609178593245,
+      "rank": 42,
+      "rrf_score": 0.2932609178593245,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P22_003",
+      "alias_source_ids": [
+        "P22_003"
+      ],
+      "section": "SOCIAL / EMPLOYMENT",
+      "pages": [
+        22
+      ],
+      "text": "To further our commitment, the Group has further developed workplace facilities and updated the human resources policies, such as the \"Company Personnel System\" chapter (\"Company Personnel System\") of the Rules and Regulations of Centenary United Group (世紀聯合集團規章制度). The policy outlines the relevant regulations anras s sd srt s ss ns ss ry capital calculation and compensation, other benefits, diversity and anti-discrimination, and equal opportunities.",
+      "retrieval_text": "[Section]\nSOCIAL / EMPLOYMENT\n\n[Content]\nTo further our commitment, the Group has further developed workplace facilities and updated the human resources policies, such as the \"Company Personnel System\" chapter (\"Company Personnel System\") of the Rules and Regulations of Centenary United Group (世紀聯合集團規章制度). The policy outlines the relevant regulations anras s sd srt s ss ns ss ry capital calculation and compensation, other benefits, diversity and anti-discrimination, and equal opportunities.",
+      "bm25_rank": 52,
+      "dense_rank": 47,
+      "bm25_score": 5.615475654602051,
+      "dense_score": 0.4189041256904602,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1215354944485451,
+      "normalized_dense": 0.1771680038763913,
+      "normalized_bm25_rank": 0.6577181208053691,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.29034274588402986,
+      "rank": 43,
+      "rrf_score": 0.29034274588402986,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_004",
+      "alias_source_ids": [
+        "P3_004"
+      ],
+      "section": "ABOUT THIS REPORT / INTRODUCTION",
+      "pages": [
+        3
+      ],
+      "text": "Information regarding to the Group's corporate governance practices, please refer to the section headed \"Corporate Governance Report\" in the latest annual report.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / INTRODUCTION\n\n[Content]\nInformation regarding to the Group's corporate governance practices, please refer to the section headed \"Corporate Governance Report\" in the latest annual report.",
+      "bm25_rank": null,
+      "dense_rank": 23,
+      "bm25_score": null,
+      "dense_score": 0.4813694655895233,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.32643449338787284,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.2847218713434736,
+      "rank": 44,
+      "rrf_score": 0.2847218713434736,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_005",
+      "alias_source_ids": [
+        "P19_005"
+      ],
+      "section": "Water Stewardship",
+      "pages": [
+        19
+      ],
+      "text": "In the Reporting Period, there were no notable water-related risks, and the Group did not encounter any issues in obtaining suitable water sources as our water is directly supplied by the government rather than from natural water sources.",
+      "retrieval_text": "[Section]\nWater Stewardship\n\n[Content]\nIn the Reporting Period, there were no notable water-related risks, and the Group did not encounter any issues in obtaining suitable water sources as our water is directly supplied by the government rather than from natural water sources.",
+      "bm25_rank": 30,
+      "dense_rank": 67,
+      "bm25_score": 9.010525703430176,
+      "dense_score": 0.4016467034816742,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.22557336735100372,
+      "normalized_dense": 0.13592985748536204,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.5570469798657718,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.28463643231490965,
+      "rank": 45,
+      "rrf_score": 0.28463643231490965,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_004",
+      "alias_source_ids": [
+        "P32_004"
+      ],
+      "section": "PRODUCT RESPONSIBILITY",
+      "pages": [
+        32
+      ],
+      "text": "As an important lever for sustainability, it is critical to maintain a high level of product and service quality across all ou t t n d t e t t t te the Quality Assurance Policy (質量管理考核制度) that outlines the product's quality standards. If the product is discovered to be substandard, the Group shall initiate the recall procedure and refund the customer. The recall procedure will be further elaborated in the Product Recall section.",
+      "retrieval_text": "[Section]\nPRODUCT RESPONSIBILITY\n\n[Content]\nAs an important lever for sustainability, it is critical to maintain a high level of product and service quality across all ou t t n d t e t t t te the Quality Assurance Policy (質量管理考核制度) that outlines the product's quality standards. If the product is discovered to be substandard, the Group shall initiate the recall procedure and refund the customer. The recall procedure will be further elaborated in the Product Recall section.",
+      "bm25_rank": 53,
+      "dense_rank": 49,
+      "bm25_score": 5.410833835601807,
+      "dense_score": 0.4135667085647583,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11526445300601194,
+      "normalized_dense": 0.16441377058959006,
+      "normalized_bm25_rank": 0.651006711409396,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 49,
+      "composite_score": 0.2812688512471562,
+      "rank": 46,
+      "rrf_score": 0.2812688512471562,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L13_003",
+      "alias_source_ids": [
+        "L13_003"
+      ],
+      "section": "ENVIRONMENT / EMISSIONS",
+      "pages": [
+        13
+      ],
+      "text": "The intensity is calculated by dividing the total emissions by the Group's total number of employees at the end of the Reporting Period.",
+      "retrieval_text": "[Section]\nENVIRONMENT / EMISSIONS\n\n[Content]\nThe intensity is calculated by dividing the total emissions by the Group's total number of employees at the end of the Reporting Period.",
+      "bm25_rank": 23,
+      "dense_rank": 74,
+      "bm25_score": 10.34025764465332,
+      "dense_score": 0.39289116859436035,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.26632165698021404,
+      "normalized_dense": 0.11500772757241422,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.5100671140939597,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.2807653581940388,
+      "rank": 47,
+      "rrf_score": 0.2807653581940388,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P27_004",
+      "alias_source_ids": [
+        "P27_004"
+      ],
+      "section": "Enhanced Communication",
+      "pages": [
+        27
+      ],
+      "text": "The Group encourages employees to work with their supervisors and other senior staffs to design their own career development plan and set annual objectives. Based on the employee's unique career pathway, the Group will strive to arrange the relevant training opportunities. In 2021, the Group has developed a set of training principles and pro or rn o oro r or ro or ri e n ories coao o a nn r o o p r e ro pe Centenary United Holdings Limited (世紀聯合控股有限公司培訓政策).",
+      "retrieval_text": "[Section]\nEnhanced Communication\n\n[Content]\nThe Group encourages employees to work with their supervisors and other senior staffs to design their own career development plan and set annual objectives. Based on the employee's unique career pathway, the Group will strive to arrange the relevant training opportunities. In 2021, the Group has developed a set of training principles and pro or rn o oro r or ro or ri e n ories coao o a nn r o o p r e ro pe Centenary United Holdings Limited (世紀聯合控股有限公司培訓政策).",
+      "bm25_rank": 7,
+      "dense_rank": 104,
+      "bm25_score": 17.87102508544922,
+      "dense_score": 0.3727903962135315,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.49709440394868193,
+      "normalized_dense": 0.066975142868578,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.3087248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.2805783015991078,
+      "rank": 48,
+      "rrf_score": 0.2805783015991078,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_003",
+      "alias_source_ids": [
+        "P12_003"
+      ],
+      "section": "ENVIRONMENT / EMISSIONS",
+      "pages": [
+        12
+      ],
+      "text": "The Group's GHG emissions are grouped by direct and indirect GHG emission, which includes fuel consumption of our vehicles (Scope 1) and purchased electricity (Scope 2). During the Reporting Period, the GHG emission were as follows:",
+      "retrieval_text": "[Section]\nENVIRONMENT / EMISSIONS\n\n[Content]\nThe Group's GHG emissions are grouped by direct and indirect GHG emission, which includes fuel consumption of our vehicles (Scope 1) and purchased electricity (Scope 2). During the Reporting Period, the GHG emission were as follows:",
+      "bm25_rank": 6,
+      "dense_rank": 127,
+      "bm25_score": 19.45081329345703,
+      "dense_score": 0.3553863763809204,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5455054148126458,
+      "normalized_dense": 0.025386688407274045,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.15436241610738255,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.24550320242856502,
+      "rank": 49,
+      "rrf_score": 0.24550320242856502,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T12_002",
+      "alias_source_ids": [
+        "T12_002"
+      ],
+      "section": "ENVIRONMENT / EMISSIONS",
+      "pages": [
+        12
+      ],
+      "text": "GHG Emissions1 | Unit4 | 2021 | 2020 | Percentage Change Direct emission (Scope 1) | tCO2e | 380.18 | 329.35 | +15% - Stationary combustion | tCO2e | 26.61 | 74.91 | -64% - Mobile sources combustion | tCO2e | 93.87 | 90.29 | +4% - HFC and PFC emissions | tCO2e | 261.17 | 164.15 | %6S+ - GHG removals from newly planted trees | tCO2e | (1.47) | n/a Energy indirect emission (Scope 2) | tCO2e | 3,546.34 | 3,337.45 | +6% - Purchased electricity | tCO2e | 3,546.34 | 3,337.45 | +6% Total GHG emissions (Scope 1 & 2)2 | tCO2e | 3,926.52 | 3,666.80 | +7% GHG emission intensity3 | tCO2e/number of employees | 4.35 | 4.38 | -1%",
+      "retrieval_text": "[Section]\nENVIRONMENT / EMISSIONS\n\n[Content]\nGHG Emissions1 | Unit4 | 2021 | 2020 | Percentage Change Direct emission (Scope 1) | tCO2e | 380.18 | 329.35 | +15% - Stationary combustion | tCO2e | 26.61 | 74.91 | -64% - Mobile sources combustion | tCO2e | 93.87 | 90.29 | +4% - HFC and PFC emissions | tCO2e | 261.17 | 164.15 | %6S+ - GHG removals from newly planted trees | tCO2e | (1.47) | n/a Energy indirect emission (Scope 2) | tCO2e | 3,546.34 | 3,337.45 | +6% - Purchased electricity | tCO2e | 3,546.34 | 3,337.45 | +6% Total GHG emissions (Scope 1 & 2)2 | tCO2e | 3,926.52 | 3,666.80 | +7% GHG emission intensity3 | tCO2e/number of employees | 4.35 | 4.38 | -1%",
+      "bm25_rank": 9,
+      "dense_rank": null,
+      "bm25_score": 16.592374801635742,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.45791146001535266,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.18621316448629202,
+      "rank": 50,
+      "rrf_score": 0.18621316448629202,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

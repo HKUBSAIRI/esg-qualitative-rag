@@ -1,0 +1,1582 @@
+{
+  "document_id": "2022052701713",
+  "metric_id": 42,
+  "metric_name": "首席独立董事",
+  "query": "首席独立董事 首席独立董事 衡量企业是否设立首席独立董事（或资深独立董事）职位的制度化程度及其实际发挥的监督作用。重点考察其授权范围、召集权、对董事长的制衡能力及履职透明度。 一、内容质量得分 (权重 50%，取值：0, 1, 2) • 2分（卓越/高分）：设有首席独立董事；具备明确的职权清单（如：在董事长缺席或回避时主持会议、批准董事会会议日程）；拥有独立召集权（可定期在无内部董事参与的情况下召集独董会议）；并详细披露了年度履职报告或具体贡献。 • 1分（合格/中低分）：名义上设立了首席独立董事或类似职位，但在公司章程或治理报告中缺乏具体的职权边界说明，且未见其独立行使召集权或监督权的实质记录。 • 0分（不合格）：未设立首席独立董事，或在董事长与 CEO 合一的情况下未建立任何抵消性的独立治理机制。 二、覆盖应用得分 (权重 50%，取值：0, 1, 2) • 2分（高覆盖）：首席独立董事的职权已正式写入《公司章程》或《董事会议事规则》，且覆盖集团所有核心治理决策环节。 • 1分（部分覆盖）：仅在个别委员会（如审计委）中发挥牵头作用，或仅作为临时性安排，未形成制度化的长效机制。 • 0分（无覆盖）：无相关制度覆盖。 首席独立董事 资深独立董事 首席独立非执行董事 独董召集人 召集独董会议 纯独董会议 批准董事会议程 制衡董事长 股东沟通联系人 履职报告 SID LID Lead Independent Director Senior Independent Director Lead Independent Non-Executive Director LID SID convene independent directors independent directors-only meeting executive session board agenda approval checks on the chair shareholder liaison 是否设立首席独立董事、资深独立董事或实质等同职位？ 职权是否包括主持会议、批准或建议议程？ 可否在无执行董事或管理层参与下召集独董会议？ 是否作为股东与董事会沟通联系人并制衡董事长？ 是否披露年度履职？ 职权是否写入章程、议事规则或治理文件？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '首席独立董事'. Prefer explicit, auditable disclosure that answers: 是否设立首席独立董事、资深独立董事或实质等同职位？ 职权是否包括主持会议、批准或建议议程？ 可否在无执行董事或管理层参与下召集独董会议？ 是否作为股东与董事会沟通联系人并制衡董事长？ 是否披露年度履职？ 职权是否写入章程、议事规则或治理文件？ Exclude or down-rank: 排除：仅有普通独立董事名单；仅有董事会独立性比例；董事长与CEO分离但无首席独董；仅有ESG委员会主席；区分：首席独立董事关注独董领导与对董事长制衡；ESG监督委员会关注可持续发展议题监督，二者职位与职能不同。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 192,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P58_001",
+      "alias_source_ids": [
+        "P58_001"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "To the Board of Directors of Sinofert Holdings Limited,",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nTo the Board of Directors of Sinofert Holdings Limited,",
+      "bm25_rank": 1,
+      "dense_rank": 3,
+      "bm25_score": 44.250038146972656,
+      "dense_score": 0.47447678446769714,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.9309193792952103,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.8231372189949343,
+      "rank": 1,
+      "rrf_score": 0.8231372189949343,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_005",
+      "alias_source_ids": [
+        "P58_005"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "CECEPAC (HK) was not involved in collecting and calculating data, or in the development of the ESG Report. CECEPAC (HK)'s activities of Assurance Engagement are independent from Sinofert. There is no relationship between Sinofert and CECEPAC (HK) beyond the contractual agreement for providing proper assurance service.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nCECEPAC (HK) was not involved in collecting and calculating data, or in the development of the ESG Report. CECEPAC (HK)'s activities of Assurance Engagement are independent from Sinofert. There is no relationship between Sinofert and CECEPAC (HK) beyond the contractual agreement for providing proper assurance service.",
+      "bm25_rank": 6,
+      "dense_rank": 1,
+      "bm25_score": 30.980419158935547,
+      "dense_score": 0.4883706569671631,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6976642842809277,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.786177152158199,
+      "rank": 2,
+      "rrf_score": 0.786177152158199,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_002",
+      "alias_source_ids": [
+        "P58_002"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "CECEP (HK) Advisory Company Limited (' CECEPAC (HK) ' or ' We ') has been engaged by Sinofert Holdings Limited (' Sinofert ') to conduct an independent limited assurance engagement (' Assurance Engagement ') on the information and data related to sustainability development in Sinofert's 2021 Environmental, Social and Governance Report (' ESG Report ').",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nCECEP (HK) Advisory Company Limited (' CECEPAC (HK) ' or ' We ') has been engaged by Sinofert Holdings Limited (' Sinofert ') to conduct an independent limited assurance engagement (' Assurance Engagement ') on the information and data related to sustainability development in Sinofert's 2021 Environmental, Social and Governance Report (' ESG Report ').",
+      "bm25_rank": 5,
+      "dense_rank": 5,
+      "bm25_score": 32.33356475830078,
+      "dense_score": 0.4546801745891571,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7284944267006174,
+      "normalized_dense": 0.8324902265652795,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.7290167733628036,
+      "rank": 3,
+      "rrf_score": 0.7290167733628036,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P59_001",
+      "alias_source_ids": [
+        "P59_001"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "CECEPAC (HK) is responsible for issuing an independent assurance statement according to AA1000AS v3 and the SEHK's ESG Reporting Guide to the Board of Directors of Sinofert. This independent assurance statement applies solely to the ESG Report in the specified scope, expresses a conclusion on the assurance work, and does not serve any other intents or purposes.",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nCECEPAC (HK) is responsible for issuing an independent assurance statement according to AA1000AS v3 and the SEHK's ESG Reporting Guide to the Board of Directors of Sinofert. This independent assurance statement applies solely to the ESG Report in the specified scope, expresses a conclusion on the assurance work, and does not serve any other intents or purposes.",
+      "bm25_rank": 10,
+      "dense_rank": 4,
+      "bm25_score": 27.88956069946289,
+      "dense_score": 0.46125996112823486,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.627241998202219,
+      "normalized_dense": 0.8652050609818169,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.71820305689012,
+      "rank": 4,
+      "rrf_score": 0.71820305689012,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_003",
+      "alias_source_ids": [
+        "P61_003"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has considered and evaluate its impacts and realised its impacts on stakeholders, so as to make a more effective decision-making and result-based management within the organisation. In our professional opinion, Sinofert adheres to the Principle of Impact.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has considered and evaluate its impacts and realised its impacts on stakeholders, so as to make a more effective decision-making and result-based management within the organisation. In our professional opinion, Sinofert adheres to the Principle of Impact.",
+      "bm25_rank": 9,
+      "dense_rank": 16,
+      "bm25_score": 27.992931365966797,
+      "dense_score": 0.4249595105648041,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6295972010509212,
+      "normalized_dense": 0.6847184718842328,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [
+        "anchor_1",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 9,
+      "composite_score": 0.7000675496649678,
+      "rank": 5,
+      "rrf_score": 0.7000675496649678,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_008",
+      "alias_source_ids": [
+        "P58_008"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "Sinofert is responsible for the preparation and presentation of the ESG Report in accordance with the SEHK's ESG Reporting Guide. Sinofert is also responsible for implementing internal audit procedures and ensuring that contents of the ESG Report are free from material misstatement, whether due to fraud or error.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nSinofert is responsible for the preparation and presentation of the ESG Report in accordance with the SEHK's ESG Reporting Guide. Sinofert is also responsible for implementing internal audit procedures and ensuring that contents of the ESG Report are free from material misstatement, whether due to fraud or error.",
+      "bm25_rank": 14,
+      "dense_rank": 7,
+      "bm25_score": 25.246200561523438,
+      "dense_score": 0.44407981634140015,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5670155380508257,
+      "normalized_dense": 0.7797850266668109,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.669549343453616,
+      "rank": 6,
+      "rrf_score": 0.669549343453616,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_003",
+      "alias_source_ids": [
+        "P58_003"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "CECEPAC (HK) has been engaged to assure Sinofert's adherence to the four AA1000 Accountability Principles (Inclusivity, Materiality, Responsiveness and Impact) set out in the AA1000 Assurance Standard v3 (' AA1000AS v3 '). Meanwhile, CECEPAC (HK) has also been engaged to provide limited assurance on the reliability and quality of specified performance information disclosed in the ESG Report that have been selected in accordance with the Environmental, Social and Governance Reporting Guide (' ESG Reporting Guide ') published by the Stock Exchange of Hong Kong Limited (' SEHK ').",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nCECEPAC (HK) has been engaged to assure Sinofert's adherence to the four AA1000 Accountability Principles (Inclusivity, Materiality, Responsiveness and Impact) set out in the AA1000 Assurance Standard v3 (' AA1000AS v3 '). Meanwhile, CECEPAC (HK) has also been engaged to provide limited assurance on the reliability and quality of specified performance information disclosed in the ESG Report that have been selected in accordance with the Environmental, Social and Governance Reporting Guide (' ESG Reporting Guide ') published by the Stock Exchange of Hong Kong Limited (' SEHK ').",
+      "bm25_rank": 20,
+      "dense_rank": 6,
+      "bm25_score": 20.809009552001953,
+      "dense_score": 0.45338892936706543,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.46591833843602704,
+      "normalized_dense": 0.8260701286820137,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.662845125477588,
+      "rank": 7,
+      "rrf_score": 0.662845125477588,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_006",
+      "alias_source_ids": [
+        "P58_006"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "The assurance team of CECEPAC (HK) is composed of experienced personnel in the industry who have received professional training in sustainability-related standards such as GRI Sustainability Reporting Standards issued by Global Reporting Initiative, AA1000AS v3, the ESG Reporting Guide of the SEHK, ISO 14001, and ISO 9001, etc.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nThe assurance team of CECEPAC (HK) is composed of experienced personnel in the industry who have received professional training in sustainability-related standards such as GRI Sustainability Reporting Standards issued by Global Reporting Initiative, AA1000AS v3, the ESG Reporting Guide of the SEHK, ISO 14001, and ISO 9001, etc.",
+      "bm25_rank": 16,
+      "dense_rank": 10,
+      "bm25_score": 24.74717140197754,
+      "dense_score": 0.4371371269226074,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.555645630727035,
+      "normalized_dense": 0.7452658316454651,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.6498245162146085,
+      "rank": 8,
+      "rrf_score": 0.6498245162146085,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_004",
+      "alias_source_ids": [
+        "P58_004"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "If there is any inconsistency or ambiguity between the English version and the Chinese version of this assurance statement, the Chinese version shall prevail.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nIf there is any inconsistency or ambiguity between the English version and the Chinese version of this assurance statement, the Chinese version shall prevail.",
+      "bm25_rank": 7,
+      "dense_rank": 17,
+      "bm25_score": 30.087364196777344,
+      "dense_score": 0.4247734844684601,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6773168717889804,
+      "normalized_dense": 0.6837935462954003,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.6492877598564882,
+      "rank": 9,
+      "rrf_score": 0.6492877598564882,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_007",
+      "alias_source_ids": [
+        "P58_007"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "The assurance team of CECEPAC (HK) has rich experience in conducting Assurance Engagement and has a full understanding and practical ability of AA1000AS v3. Meanwhile, the assurance team of CECEPAC (HK) carries out Assurance Engagement on sustainable development issues in accordance with the internal assurance protocol of CECEPAC (HK).",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nThe assurance team of CECEPAC (HK) has rich experience in conducting Assurance Engagement and has a full understanding and practical ability of AA1000AS v3. Meanwhile, the assurance team of CECEPAC (HK) carries out Assurance Engagement on sustainable development issues in accordance with the internal assurance protocol of CECEPAC (HK).",
+      "bm25_rank": 13,
+      "dense_rank": 12,
+      "bm25_score": 25.640331268310547,
+      "dense_score": 0.4335014522075653,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.575995433361367,
+      "normalized_dense": 0.7271891819565125,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.6468965084107441,
+      "rank": 10,
+      "rrf_score": 0.6468965084107441,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_001",
+      "alias_source_ids": [
+        "P61_001"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has identified its material issues through appropriate methods based on the expectations and concerns of the key stakeholders, its own industry characteristics, legal and regulatory requirements, and outward economic and social impacts. Sinofert has disclosed the methodology, process and results of materiality assessment in the ESG Report. In our professional opinion, Sinofert adheres to the Principle of Materiality.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has identified its material issues through appropriate methods based on the expectations and concerns of the key stakeholders, its own industry characteristics, legal and regulatory requirements, and outward economic and social impacts. Sinofert has disclosed the methodology, process and results of materiality assessment in the ESG Report. In our professional opinion, Sinofert adheres to the Principle of Materiality.",
+      "bm25_rank": 17,
+      "dense_rank": 13,
+      "bm25_score": 24.406082153320312,
+      "dense_score": 0.4329363703727722,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5478742348633081,
+      "normalized_dense": 0.7243795834160042,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.6362620635843705,
+      "rank": 11,
+      "rrf_score": 0.6362620635843705,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_002",
+      "alias_source_ids": [
+        "P61_002"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has established channels for its stakeholders to understand their concerns and expectations. Meanwhile, through the ESG Report, Sinofert has disclosed corporate sustainability strategies, management systems, management key points, key stakeholder participation activities as well as major sustainability development related issues to respond to key stakeholders. In our professional opinion, Sinofert adheres to the Principle of Responsiveness.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has established channels for its stakeholders to understand their concerns and expectations. Meanwhile, through the ESG Report, Sinofert has disclosed corporate sustainability strategies, management systems, management key points, key stakeholder participation activities as well as major sustainability development related issues to respond to key stakeholders. In our professional opinion, Sinofert adheres to the Principle of Responsiveness.",
+      "bm25_rank": 19,
+      "dense_rank": 11,
+      "bm25_score": 23.589468002319336,
+      "dense_score": 0.4342578947544098,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5292684539413554,
+      "normalized_dense": 0.7309502299052062,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.6361829155503952,
+      "rank": 12,
+      "rrf_score": 0.6361829155503952,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_004",
+      "alias_source_ids": [
+        "P61_004"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Based on the procedures that CECEPAC (HK) has performed and the evidence we have obtained, no specific issue has come to our attention that causes us to believe that the disclosure of the six selected specified performance information in the ESG Report is unreliable and unqualified or not been prepared in all material respects in accordance with the basis of reporting.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nBased on the procedures that CECEPAC (HK) has performed and the evidence we have obtained, no specific issue has come to our attention that causes us to believe that the disclosure of the six selected specified performance information in the ESG Report is unreliable and unqualified or not been prepared in all material respects in accordance with the basis of reporting.",
+      "bm25_rank": 18,
+      "dense_rank": 15,
+      "bm25_score": 24.11988067626953,
+      "dense_score": 0.4316354990005493,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5413534049523655,
+      "normalized_dense": 0.7179116241156936,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.6293384071490866,
+      "rank": 13,
+      "rrf_score": 0.6293384071490866,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_002",
+      "alias_source_ids": [
+        "P5_002"
+      ],
+      "section": "ABOUT THIS REPORT / SINOCHEM YUNLONG",
+      "pages": [
+        5
+      ],
+      "text": "To ensure the reliability and accuracy of the Report, CECEP (HK) Advisory Company Limited has verified this Report in accordance with the international standard AA1000 Assurance Standard v3 and has provided an independent assurance statement.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / SINOCHEM YUNLONG\n\n[Content]\nTo ensure the reliability and accuracy of the Report, CECEP (HK) Advisory Company Limited has verified this Report in accordance with the international standard AA1000 Assurance Standard v3 and has provided an independent assurance statement.",
+      "bm25_rank": 25,
+      "dense_rank": 9,
+      "bm25_score": 16.518844604492188,
+      "dense_score": 0.43746593594551086,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3681709885590199,
+      "normalized_dense": 0.7469006768908334,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.6082037970397032,
+      "rank": 14,
+      "rrf_score": 0.6082037970397032,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_001",
+      "alias_source_ids": [
+        "P7_001"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        7
+      ],
+      "text": "The Board is responsible for leading and monitoring the Group's sustainability performances. The Corporate Governance Committee (the ' Committee ') has been assigned to oversee the Group's ESG issues and matters, and to establish appropriate and effective ESG management approaches and strategies. The duties of the Committee include (but not limited to):",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nThe Board is responsible for leading and monitoring the Group's sustainability performances. The Corporate Governance Committee (the ' Committee ') has been assigned to oversee the Group's ESG issues and matters, and to establish appropriate and effective ESG management approaches and strategies. The duties of the Committee include (but not limited to):",
+      "bm25_rank": 66,
+      "dense_rank": 2,
+      "bm25_score": 3.4370880126953125,
+      "dense_score": 0.47937655448913574,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07011553982238296,
+      "normalized_dense": 0.9552811369264761,
+      "normalized_bm25_rank": 0.563758389261745,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.603405062935723,
+      "rank": 15,
+      "rrf_score": 0.603405062935723,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T51_001",
+      "alias_source_ids": [
+        "T51_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        51
+      ],
+      "text": "Aspect | Description | Relevant Sections in this Report/ Explanation Mandatory Disclosure Requirements Governance Structure | A statement from the board containing the following elements: (i) a disclosure of the board's oversight of ESG issues; (ii) the board's ESG management approach and strategy, including the process used to evaluate, prioritise and manage material ESG-related issues (including risks to the issuer's businesses); and (iii) how the board reviews progress made against ESG-related goals and targets with an explanation of how they relate to the issuer's businesses. | Our ESG Management Strategy Reporting principles | A description of, or an explanation on, the application of the Reporting Principles in the preparation of the ESG report. | About this Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About this Report",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Description | Relevant Sections in this Report/ Explanation Mandatory Disclosure Requirements Governance Structure | A statement from the board containing the following elements: (i) a disclosure of the board's oversight of ESG issues; (ii) the board's ESG management approach and strategy, including the process used to evaluate, prioritise and manage material ESG-related issues (including risks to the issuer's businesses); and (iii) how the board reviews progress made against ESG-related goals and targets with an explanation of how they relate to the issuer's businesses. | Our ESG Management Strategy Reporting principles | A description of, or an explanation on, the application of the Reporting Principles in the preparation of the ESG report. | About this Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About this Report",
+      "bm25_rank": 34,
+      "dense_rank": 8,
+      "bm25_score": 10.5954008102417,
+      "dense_score": 0.44286683201789856,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2332109252240492,
+      "normalized_dense": 0.773754043585896,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.5859124761387996,
+      "rank": 16,
+      "rrf_score": 0.5859124761387996,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_005",
+      "alias_source_ids": [
+        "P61_005"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Disclosure for general disclosures and key performance indicators of environmental and social subject areas in the ESG Report have been provided in accordance with the 'Comply or Explain' provision, in all material aspects, in alignment with the ESG Reporting Guide of the SEHK. Sinofert has disclosed the process of the materiality assessment. Impacts caused by its business are objectively disclosed; relevant environmental and social data are calculated and disclosed. Our assurance findings and comments for the ESG Report have been either adopted or responded by Sinofert before the issuance of this independent assurance statement.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nDisclosure for general disclosures and key performance indicators of environmental and social subject areas in the ESG Report have been provided in accordance with the 'Comply or Explain' provision, in all material aspects, in alignment with the ESG Reporting Guide of the SEHK. Sinofert has disclosed the process of the materiality assessment. Impacts caused by its business are objectively disclosed; relevant environmental and social data are calculated and disclosed. Our assurance findings and comments for the ESG Report have been either adopted or responded by Sinofert before the issuance of this independent assurance statement.",
+      "bm25_rank": 15,
+      "dense_rank": 25,
+      "bm25_score": 24.7685546875,
+      "dense_score": 0.4016522169113159,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5561328286592956,
+      "normalized_dense": 0.5688341269981215,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.5687077719261682,
+      "rank": 17,
+      "rrf_score": 0.5687077719261682,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T57_001",
+      "alias_source_ids": [
+        "T57_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        57
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B7: Anti- Corruption | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | Integrity and Anti-Corruption B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees During the Reporting Period and the outcomes of the cases. | Integrity and Anti-Corruption B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | Integrity and Anti-Corruption B7.3 | Description of anti-corruption training provided to directors and staff | Integrity and Anti-Corruption B8: Community Investment | General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Community Investment B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Community Investment B8.2 | Resources contributed (e.g. money or time) to the focus area. | Community Investment",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B7: Anti- Corruption | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | Integrity and Anti-Corruption B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees During the Reporting Period and the outcomes of the cases. | Integrity and Anti-Corruption B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | Integrity and Anti-Corruption B7.3 | Description of anti-corruption training provided to directors and staff | Integrity and Anti-Corruption B8: Community Investment | General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Community Investment B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Community Investment B8.2 | Resources contributed (e.g. money or time) to the focus area. | Community Investment",
+      "bm25_rank": 37,
+      "dense_rank": 24,
+      "bm25_score": 10.244193077087402,
+      "dense_score": 0.4028806686401367,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.22520898926303903,
+      "normalized_dense": 0.5749420143373839,
+      "normalized_bm25_rank": 0.7583892617449665,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [
+        "anchor_1",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 24,
+      "composite_score": 0.5512379458237123,
+      "rank": 18,
+      "rrf_score": 0.5512379458237123,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_002",
+      "alias_source_ids": [
+        "P8_002"
+      ],
+      "section": "ESG Risk Management",
+      "pages": [
+        8
+      ],
+      "text": "Sinofert continues to implement a hierarchical authorization risk management model, in which the Board undertakes the overall responsibility of the Group's internal control and risk management system. Senior management, risk management, and others that are vulnerable to significant risks are responsible for incorporating risk and compliance management approaches into the business cycle besides fulfilling their daily duties. During the Reporting Period, the Group has refined and strengthened its internal control and risk management system with the motto of 'streamlining, high efficiency, accountability and controlled authority', stepping up internal control monitoring, enhancing rewards and punishment mechanisms, as well as furthering risks' awareness to ensure risks we face are properly identified and mitigated by appropriate management measures.",
+      "retrieval_text": "[Section]\nESG Risk Management\n\n[Content]\nSinofert continues to implement a hierarchical authorization risk management model, in which the Board undertakes the overall responsibility of the Group's internal control and risk management system. Senior management, risk management, and others that are vulnerable to significant risks are responsible for incorporating risk and compliance management approaches into the business cycle besides fulfilling their daily duties. During the Reporting Period, the Group has refined and strengthened its internal control and risk management system with the motto of 'streamlining, high efficiency, accountability and controlled authority', stepping up internal control monitoring, enhancing rewards and punishment mechanisms, as well as furthering risks' awareness to ensure risks we face are properly identified and mitigated by appropriate management measures.",
+      "bm25_rank": 54,
+      "dense_rank": 22,
+      "bm25_score": 5.267715930938721,
+      "dense_score": 0.40627580881118774,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11182466518433928,
+      "normalized_dense": 0.5918227213112665,
+      "normalized_bm25_rank": 0.6442953020134228,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [
+        "anchor_1",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 22,
+      "composite_score": 0.5257444962340662,
+      "rank": 19,
+      "rrf_score": 0.5257444962340662,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T56_001",
+      "alias_source_ids": [
+        "T56_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        56
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B6: Product Responsibility | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Product Responsibility B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Product Responsibility B6.2 | Number of products and service related complaints received and how they are dealt with. | Product Responsibility B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product Responsibility B6.4 | Description of quality assurance process and recall procedures. | Product Responsibility B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Product Responsibility",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B6: Product Responsibility | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Product Responsibility B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Product Responsibility B6.2 | Number of products and service related complaints received and how they are dealt with. | Product Responsibility B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product Responsibility B6.4 | Description of quality assurance process and recall procedures. | Product Responsibility B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Product Responsibility",
+      "bm25_rank": 43,
+      "dense_rank": 19,
+      "bm25_score": 8.635810852050781,
+      "dense_score": 0.41665881872177124,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18856352177865487,
+      "normalized_dense": 0.6434472607933052,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.5105702523447971,
+      "rank": 20,
+      "rrf_score": 0.5105702523447971,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_002",
+      "alias_source_ids": [
+        "P7_002"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        7
+      ],
+      "text": "The Group has also set up an ESG Report Working Group to oversee the preparation of the ESG report. The ESG Report Working Group consists of members from departments including Health, Safety and Environment (' HSE ') and Operational Management (' HSE and Operational Management ') Department, Human Resources Department, Supply Chain and Operational Management Department, Sales Department, Basic Fertilizer Department, Administration and Communications Department, Legal Department, Discipline Inspection and Compliance (' Discipline and Compliance ') Department, and other departments. The Committee meets at least once a year to discuss issues of concern to the Board, report on the progress and performances of ESG work, and make recommendations to the Board to ensure that ESG-related policies formulated by the Board are implemented and completed in a timely manner. For details of the Board and the Committee of Sinofert, please refer to the Corporate Governance Report in the Company's 2021 Annual Report.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nThe Group has also set up an ESG Report Working Group to oversee the preparation of the ESG report. The ESG Report Working Group consists of members from departments including Health, Safety and Environment (' HSE ') and Operational Management (' HSE and Operational Management ') Department, Human Resources Department, Supply Chain and Operational Management Department, Sales Department, Basic Fertilizer Department, Administration and Communications Department, Legal Department, Discipline Inspection and Compliance (' Discipline and Compliance ') Department, and other departments. The Committee meets at least once a year to discuss issues of concern to the Board, report on the progress and performances of ESG work, and make recommendations to the Board to ensure that ESG-related policies formulated by the Board are implemented and completed in a timely manner. For details of the Board and the Committee of Sinofert, please refer to the Corporate Governance Report in the Company's 2021 Annual Report.",
+      "bm25_rank": 55,
+      "dense_rank": 18,
+      "bm25_score": 5.163357734680176,
+      "dense_score": 0.4232511818408966,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1094469624043708,
+      "normalized_dense": 0.6762246262253004,
+      "normalized_bm25_rank": 0.6375838926174497,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.4995076089751656,
+      "rank": 21,
+      "rrf_score": 0.4995076089751656,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_004",
+      "alias_source_ids": [
+        "P4_004"
+      ],
+      "section": "ABOUT THIS REPORT",
+      "pages": [
+        4
+      ],
+      "text": "The Group will gradually expand the disclosure of environmental key performance indicators ('KPIs') to other subsidiaries. For details of corporate governance, please refer to the Corporate Governance Report in the Company's 2021 Annual Report.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT\n\n[Content]\nThe Group will gradually expand the disclosure of environmental key performance indicators ('KPIs') to other subsidiaries. For details of corporate governance, please refer to the Corporate Governance Report in the Company's 2021 Annual Report.",
+      "bm25_rank": 150,
+      "dense_rank": 14,
+      "bm25_score": 0.3596927523612976,
+      "dense_score": 0.43168672919273376,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7181663416881389,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [
+        "anchor_1",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 14,
+      "composite_score": 0.49390855516131843,
+      "rank": 22,
+      "rrf_score": 0.49390855516131843,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T52_001",
+      "alias_source_ids": [
+        "T52_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        52
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation 'Comply or Explain' Provisions A. Environmental A1: Emissions | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous waste. | Protecting our Environment A1.1 | The types of emissions and respective emissions data. | Emissions Management A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions Management A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions Management",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation 'Comply or Explain' Provisions A. Environmental A1: Emissions | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous waste. | Protecting our Environment A1.1 | The types of emissions and respective emissions data. | Emissions Management A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions Management A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions Management",
+      "bm25_rank": 21,
+      "dense_rank": 35,
+      "bm25_score": 18.385242462158203,
+      "dense_score": 0.38277795910835266,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4106950981527248,
+      "normalized_dense": 0.47499092781653696,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.4893254416817691,
+      "rank": 23,
+      "rrf_score": 0.4893254416817691,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L7_004",
+      "alias_source_ids": [
+        "L7_004"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        7
+      ],
+      "text": "Organizing ESG-related training for the Board and senior staff",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nOrganizing ESG-related training for the Board and senior staff",
+      "bm25_rank": 39,
+      "dense_rank": 26,
+      "bm25_score": 9.80882740020752,
+      "dense_score": 0.3985401391983032,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21528959416679233,
+      "normalized_dense": 0.5533608124053236,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.477673800490658,
+      "rank": 24,
+      "rrf_score": 0.477673800490658,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P60_005",
+      "alias_source_ids": [
+        "P60_005"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Sinofert has identified key stakeholders and continuously communicated with key stakeholders through various channels to understand their expectations and concerns. On this basis, Sinofert has fully considered the expectations of, and the impacts on, key stakeholders in formulating its policies. In our professional opinion, Sinofert adheres to the Principle of Inclusivity.",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nSinofert has identified key stakeholders and continuously communicated with key stakeholders through various channels to understand their expectations and concerns. On this basis, Sinofert has fully considered the expectations of, and the impacts on, key stakeholders in formulating its policies. In our professional opinion, Sinofert adheres to the Principle of Inclusivity.",
+      "bm25_rank": 71,
+      "dense_rank": 33,
+      "bm25_score": 1.8351119756698608,
+      "dense_score": 0.3896380066871643,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.033616031271645176,
+      "normalized_dense": 0.5090992259045548,
+      "normalized_bm25_rank": 0.5302013422818792,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [
+        "anchor_1",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 33,
+      "composite_score": 0.4549750494148829,
+      "rank": 25,
+      "rrf_score": 0.4549750494148829,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_012",
+      "alias_source_ids": [
+        "L59_012"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "The scope of the assurance is confined to the information and data provided by Sinofert. Any queries regarding the content or related matters within this Independent Assurance Statement should be addressed to Sinofert only.",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nThe scope of the assurance is confined to the information and data provided by Sinofert. Any queries regarding the content or related matters within this Independent Assurance Statement should be addressed to Sinofert only.",
+      "bm25_rank": 23,
+      "dense_rank": 44,
+      "bm25_score": 17.034034729003906,
+      "dense_score": 0.3720448613166809,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3799091081814499,
+      "normalized_dense": 0.42162574416724174,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.4510676106183145,
+      "rank": 26,
+      "rrf_score": 0.4510676106183145,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_005",
+      "alias_source_ids": [
+        "P48_005"
+      ],
+      "section": "JOINT DEVELOPMENT",
+      "pages": [
+        48
+      ],
+      "text": "The Group conducts comprehensive and effective management of suppliers by gathering and consolidating information on suppliers' regional distribution, nature, and networks. During the Reporting Period, the Group has reviewed and assessed 2,253 suppliers, including 1,071 trading and 1,182 production suppliers. All suppliers have been reviewed and assessed according to the above policies.",
+      "retrieval_text": "[Section]\nJOINT DEVELOPMENT\n\n[Content]\nThe Group conducts comprehensive and effective management of suppliers by gathering and consolidating information on suppliers' regional distribution, nature, and networks. During the Reporting Period, the Group has reviewed and assessed 2,253 suppliers, including 1,071 trading and 1,182 production suppliers. All suppliers have been reviewed and assessed according to the above policies.",
+      "bm25_rank": 11,
+      "dense_rank": 86,
+      "bm25_score": 27.600595474243164,
+      "dense_score": 0.3369181752204895,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6206581989037245,
+      "normalized_dense": 0.24697513621611192,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.4295302013422819,
+      "facets": [
+        "anchor_1",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 11,
+      "composite_score": 0.4497675683288673,
+      "rank": 27,
+      "rrf_score": 0.4497675683288673,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L7_002",
+      "alias_source_ids": [
+        "L7_002"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        7
+      ],
+      "text": "Assisting the Board in reviewing progress made against ESG goals and targets",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nAssisting the Board in reviewing progress made against ESG goals and targets",
+      "bm25_rank": 61,
+      "dense_rank": 27,
+      "bm25_score": 4.404410362243652,
+      "dense_score": 0.39771267771720886,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09215506447982852,
+      "normalized_dense": 0.5492466568503839,
+      "normalized_bm25_rank": 0.5973154362416108,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.43549955755870073,
+      "rank": 28,
+      "rrf_score": 0.43549955755870073,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L45_003",
+      "alias_source_ids": [
+        "L45_003"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE",
+      "pages": [
+        45
+      ],
+      "text": "Examine and evaluate the discipline inspection and supervision performance of subsidiaries",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE\n\n[Content]\nExamine and evaluate the discipline inspection and supervision performance of subsidiaries",
+      "bm25_rank": null,
+      "dense_rank": 23,
+      "bm25_score": null,
+      "dense_score": 0.40383467078208923,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5796853326687067,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [
+        "anchor_1",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 23,
+      "composite_score": 0.43335966509176543,
+      "rank": 29,
+      "rrf_score": 0.43335966509176543,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_011",
+      "alias_source_ids": [
+        "L59_011"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "CECEPAC (HK)'s assurance work was with respect to information disclosed from January 1, 2021 to December 31, 2021 only. Any information that falls outside this period that is disclosed in the ESG Report is not included within the scope of the Assurance Engagement. Therefore, we do not express any conclusions on this information; and",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nCECEPAC (HK)'s assurance work was with respect to information disclosed from January 1, 2021 to December 31, 2021 only. Any information that falls outside this period that is disclosed in the ESG Report is not included within the scope of the Assurance Engagement. Therefore, we do not express any conclusions on this information; and",
+      "bm25_rank": 29,
+      "dense_rank": 73,
+      "bm25_score": 13.152544975280762,
+      "dense_score": 0.34791475534439087,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.29147303599233254,
+      "normalized_dense": 0.30165035945702334,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.5167785234899329,
+      "facets": [
+        "anchor_1",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 29,
+      "composite_score": 0.40843599139768644,
+      "rank": 30,
+      "rrf_score": 0.40843599139768644,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T54_001",
+      "alias_source_ids": [
+        "T54_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        54
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B. Social B1: Employment | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti- discrimination, and other benefits and welfare. | Staff Management B1.1 | Total workforce by gender, employment type, age group and geographical region. | Staff Management B1.2 | Employee turnover rate by gender, age group and geographical region. | Staff Management B2: Health and Safety | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Occupational Health and Safety B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Occupational Health and Safety B2.2 | Lost days due to work injury. | Occupational Health and Safety B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | Occupational Health and Safety",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B. Social B1: Employment | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti- discrimination, and other benefits and welfare. | Staff Management B1.1 | Total workforce by gender, employment type, age group and geographical region. | Staff Management B1.2 | Employee turnover rate by gender, age group and geographical region. | Staff Management B2: Health and Safety | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Occupational Health and Safety B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Occupational Health and Safety B2.2 | Lost days due to work injury. | Occupational Health and Safety B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | Occupational Health and Safety",
+      "bm25_rank": 24,
+      "dense_rank": 59,
+      "bm25_score": 16.549110412597656,
+      "dense_score": 0.3581923246383667,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3688605663655592,
+      "normalized_dense": 0.35275064601799677,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.610738255033557,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.4039462487753839,
+      "rank": 31,
+      "rrf_score": 0.4039462487753839,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_002",
+      "alias_source_ids": [
+        "L59_002"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "AA1000AS' Type 2 Moderate Level of Assurance was adopted to evaluate the nature and extent of Sinofert's adherence to the four AA1000 Accountability Principles set out in the AA1000AS v3;",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nAA1000AS' Type 2 Moderate Level of Assurance was adopted to evaluate the nature and extent of Sinofert's adherence to the four AA1000 Accountability Principles set out in the AA1000AS v3;",
+      "bm25_rank": 32,
+      "dense_rank": 51,
+      "bm25_score": 11.214951515197754,
+      "dense_score": 0.3627699315547943,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24732680194786555,
+      "normalized_dense": 0.3755106020447642,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.39297460801799233,
+      "rank": 32,
+      "rrf_score": 0.39297460801799233,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_003",
+      "alias_source_ids": [
+        "P19_003"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / CASE STUDY: SINOCHEM FULING TOOK THE INITIATIVE AND IMPLEMENTED THE PROTECTION OF THE YANGTZE RIVER PROJECT, FURTHERING ENVIRONMENTAL PROTECTION EFFORTS",
+      "pages": [
+        19
+      ],
+      "text": "'Unified leadership, confirmed responsibilities, hierarchical management, classified guidance, and full participation' are the principles followed by Sinofert in energy conservation and emission reduction works. We have established an energy management system and organized an energy management leadership committee, with the managers from different departments as members of the committee. The Energy Management Leadership Committee is responsible for the daily duties of energy management. Each member has clear responsibilities to ensure energy conservation management has been fully implemented. Each year, the Group signs an energy-saving responsibility agreement and strictly enforces the energysaving targets set out therein. We also incorporated the completion of energy-saving targets into corporate's performance appraisals to monitor, guide, and evaluate our subsidiaries, as well as implement a reward and punishment system.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / CASE STUDY: SINOCHEM FULING TOOK THE INITIATIVE AND IMPLEMENTED THE PROTECTION OF THE YANGTZE RIVER PROJECT, FURTHERING ENVIRONMENTAL PROTECTION EFFORTS\n\n[Content]\n'Unified leadership, confirmed responsibilities, hierarchical management, classified guidance, and full participation' are the principles followed by Sinofert in energy conservation and emission reduction works. We have established an energy management system and organized an energy management leadership committee, with the managers from different departments as members of the committee. The Energy Management Leadership Committee is responsible for the daily duties of energy management. Each member has clear responsibilities to ensure energy conservation management has been fully implemented. Each year, the Group signs an energy-saving responsibility agreement and strictly enforces the energysaving targets set out therein. We also incorporated the completion of energy-saving targets into corporate's performance appraisals to monitor, guide, and evaluate our subsidiaries, as well as implement a reward and punishment system.",
+      "bm25_rank": 148,
+      "dense_rank": 34,
+      "bm25_score": 0.36104676127433777,
+      "dense_score": 0.3862783908843994,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 3.08498122050869e-05,
+      "normalized_dense": 0.4923951468226761,
+      "normalized_bm25_rank": 0.01342281879194629,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [
+        "anchor_1",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 34,
+      "composite_score": 0.38939145121614943,
+      "rank": 33,
+      "rrf_score": 0.38939145121614943,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L4_002",
+      "alias_source_ids": [
+        "L4_002"
+      ],
+      "section": "ABOUT THIS REPORT",
+      "pages": [
+        4
+      ],
+      "text": "Sinochem Jilin Changshan Chemical Co., Ltd. (' Sinochem Changshan ')",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT\n\n[Content]\nSinochem Jilin Changshan Chemical Co., Ltd. (' Sinochem Changshan ')",
+      "bm25_rank": null,
+      "dense_rank": 20,
+      "bm25_score": null,
+      "dense_score": 0.40927982330322266,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6067587433399653,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.38686220446428987,
+      "rank": 34,
+      "rrf_score": 0.38686220446428987,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P45_002",
+      "alias_source_ids": [
+        "P45_002"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE",
+      "pages": [
+        45
+      ],
+      "text": "The Group also strictly follows the Code of Conduct Manual, which sets out the operational standards of Sinofert, regulates the compliance behavior of employees, and the standards that we expect our business partners to follow. Managers are required to ensure that employees have received, read, and understood the standards, and to ensure that these standards are implemented in their daily work. Managers can regularly share the cases related to the code of conduct and compliance, organize training, and provide support and guidance at any time to encourage and lead employees' compliance behaviors. All employees must read and understand the code of conduct and sign a letter of commitment to the code of conduct every year. All employees are obliged to immediately report to the Discipline Inspection and Audit and Compliance Department when aware of or suspecting any violation of the code of conduct. Involved issues will then be handled by the Discipline and Compliance Department. In addition, we have also established various reporting channels, and conduct regular updates and maintenance on reporting platforms such as letters, reporting hotlines, emails, and QR codes, to encourage employees and other stakeholders to report any misconduct, dishonest behavior, and corruption. Whistleblowing can be conducted in real name or anonymously to prevent any retaliation against the whistleblower and create a corporate atmosphere where anyone can voice out and speak up.",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE\n\n[Content]\nThe Group also strictly follows the Code of Conduct Manual, which sets out the operational standards of Sinofert, regulates the compliance behavior of employees, and the standards that we expect our business partners to follow. Managers are required to ensure that employees have received, read, and understood the standards, and to ensure that these standards are implemented in their daily work. Managers can regularly share the cases related to the code of conduct and compliance, organize training, and provide support and guidance at any time to encourage and lead employees' compliance behaviors. All employees must read and understand the code of conduct and sign a letter of commitment to the code of conduct every year. All employees are obliged to immediately report to the Discipline Inspection and Audit and Compliance Department when aware of or suspecting any violation of the code of conduct. Involved issues will then be handled by the Discipline and Compliance Department. In addition, we have also established various reporting channels, and conduct regular updates and maintenance on reporting platforms such as letters, reporting hotlines, emails, and QR codes, to encourage employees and other stakeholders to report any misconduct, dishonest behavior, and corruption. Whistleblowing can be conducted in real name or anonymously to prevent any retaliation against the whistleblower and create a corporate atmosphere where anyone can voice out and speak up.",
+      "bm25_rank": 59,
+      "dense_rank": 38,
+      "bm25_score": 4.619838237762451,
+      "dense_score": 0.37686240673065186,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09706338483096542,
+      "normalized_dense": 0.4455786793538442,
+      "normalized_bm25_rank": 0.610738255033557,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.38677461071319297,
+      "rank": 35,
+      "rrf_score": 0.38677461071319297,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L7_001",
+      "alias_source_ids": [
+        "L7_001"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        7
+      ],
+      "text": "Assisting the Board in identifying ESG-related issues, risks and opportunities",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nAssisting the Board in identifying ESG-related issues, risks and opportunities",
+      "bm25_rank": 60,
+      "dense_rank": 39,
+      "bm25_score": 4.481113433837891,
+      "dense_score": 0.3761998116970062,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09390267140578486,
+      "normalized_dense": 0.44228424317689563,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.38297599254743286,
+      "rank": 36,
+      "rrf_score": 0.38297599254743286,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L7_003",
+      "alias_source_ids": [
+        "L7_003"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        7
+      ],
+      "text": "Coordinating internal and external materiality assessments",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nCoordinating internal and external materiality assessments",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.40736138820648193,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5972202444607078,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3821814479773551,
+      "rank": 37,
+      "rrf_score": 0.3821814479773551,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_001",
+      "alias_source_ids": [
+        "P8_001"
+      ],
+      "section": "ESG Risk Management",
+      "pages": [
+        8
+      ],
+      "text": "Since Sinofert's establishment, the Group understands that internal control and risk management are critical to Sinofert's sustainable development. The Group adopts the principle of 'high priority, frequent monitoring, and diversion as the main solution' to identify, assess and prioritize risks to manage and respond to significant risks faced by our businesses. We adhere to the 'Internal Control - Integrated Framework' published by the Committee of Sponsoring Organizations of the Treadway Commission in the United States, ISO Risk Management Guidelines and the 'Internal Control and Risk Management - A Basic Framework' issued by the Hong Kong Institute of Certified Public Accountants, 'Central Enterprises Comprehensive Risk Management Guidelines', the 'Basic Rules of Corporate Internal Control' and its reinforcing guidelines, and the 'Central Enterprises Compliance Management Guidelines' of China and national requirements, on strengthening internal control and supervision in recent years, improving internal control and risk management mechanisms and keeping it in line with our business strategy and development.",
+      "retrieval_text": "[Section]\nESG Risk Management\n\n[Content]\nSince Sinofert's establishment, the Group understands that internal control and risk management are critical to Sinofert's sustainable development. The Group adopts the principle of 'high priority, frequent monitoring, and diversion as the main solution' to identify, assess and prioritize risks to manage and respond to significant risks faced by our businesses. We adhere to the 'Internal Control - Integrated Framework' published by the Committee of Sponsoring Organizations of the Treadway Commission in the United States, ISO Risk Management Guidelines and the 'Internal Control and Risk Management - A Basic Framework' issued by the Hong Kong Institute of Certified Public Accountants, 'Central Enterprises Comprehensive Risk Management Guidelines', the 'Basic Rules of Corporate Internal Control' and its reinforcing guidelines, and the 'Central Enterprises Compliance Management Guidelines' of China and national requirements, on strengthening internal control and supervision in recent years, improving internal control and risk management mechanisms and keeping it in line with our business strategy and development.",
+      "bm25_rank": 120,
+      "dense_rank": 28,
+      "bm25_score": 1.013564944267273,
+      "dense_score": 0.39768436551094055,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.01489785933619594,
+      "normalized_dense": 0.5491058879767231,
+      "normalized_bm25_rank": 0.20134228187919467,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.37905925010875674,
+      "rank": 38,
+      "rrf_score": 0.37905925010875674,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_002",
+      "alias_source_ids": [
+        "P6_002"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        6,
+        7
+      ],
+      "text": "In parallel with our operations, we proactively contribute to the societies in the communities where we operate, by carrying out various community investment activities, such as donating protective equipment field guidance, free soil testing, and other services, allowing us to promote the growth of a healthy agricultural industry, ensuring food security, and maintaining a healthy and harmonious relationship with surrounding communities. Sound governance is the key to achieving stable and sustainable growth. During the Reporting Period, the board of Directors of the Company (the ' Board ') continued to enhance its corporate governance, risk management, and internal controls, creating long-term value for our stakeholders and establishing a sustainable business model. The Group has also enhanced its disclosure responsibilities to ensure the transparency and accountability of the Group's operational activities.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nIn parallel with our operations, we proactively contribute to the societies in the communities where we operate, by carrying out various community investment activities, such as donating protective equipment field guidance, free soil testing, and other services, allowing us to promote the growth of a healthy agricultural industry, ensuring food security, and maintaining a healthy and harmonious relationship with surrounding communities. Sound governance is the key to achieving stable and sustainable growth. During the Reporting Period, the board of Directors of the Company (the ' Board ') continued to enhance its corporate governance, risk management, and internal controls, creating long-term value for our stakeholders and establishing a sustainable business model. The Group has also enhanced its disclosure responsibilities to ensure the transparency and accountability of the Group's operational activities.",
+      "bm25_rank": 52,
+      "dense_rank": 47,
+      "bm25_score": 6.284879207611084,
+      "dense_score": 0.36954841017723083,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13499976821730028,
+      "normalized_dense": 0.4092133375988772,
+      "normalized_bm25_rank": 0.6577181208053691,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.3742514674406509,
+      "rank": 39,
+      "rrf_score": 0.3742514674406509,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L60_002",
+      "alias_source_ids": [
+        "L60_002"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Conducting online interviews 1 with Sinofert's sustainability management and other personnel involved in the preparation and provision of the content and information in the ESG Report;",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nConducting online interviews 1 with Sinofert's sustainability management and other personnel involved in the preparation and provision of the content and information in the ESG Report;",
+      "bm25_rank": 28,
+      "dense_rank": 67,
+      "bm25_score": 14.650790214538574,
+      "dense_score": 0.3534429967403412,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3256091364442046,
+      "normalized_dense": 0.329136889728036,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.5570469798657718,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.3736083292976804,
+      "rank": 40,
+      "rrf_score": 0.3736083292976804,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_001",
+      "alias_source_ids": [
+        "P4_001"
+      ],
+      "section": "ABOUT THIS REPORT",
+      "pages": [
+        4
+      ],
+      "text": "This 2021 Environmental, Social and Governance (' ESG ') report of the Company (this ' Report ') aims to report on the Group's ESG performances, policies, and strategies during the period from 1 January 2021 to 31 December 2021 (the ' Reporting Period ' or the ' Year '), as disclosed in the various chapters of this Report. We strive to facilitate communication with stakeholders by disclosing ESG-related issues that are of key concern to the Group.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT\n\n[Content]\nThis 2021 Environmental, Social and Governance (' ESG ') report of the Company (this ' Report ') aims to report on the Group's ESG performances, policies, and strategies during the period from 1 January 2021 to 31 December 2021 (the ' Reporting Period ' or the ' Year '), as disclosed in the various chapters of this Report. We strive to facilitate communication with stakeholders by disclosing ESG-related issues that are of key concern to the Group.",
+      "bm25_rank": 31,
+      "dense_rank": 62,
+      "bm25_score": 12.206343650817871,
+      "dense_score": 0.354978084564209,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.26991473391118603,
+      "normalized_dense": 0.33676937805792595,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.5906040268456376,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.36983880628371935,
+      "rank": 41,
+      "rrf_score": 0.36983880628371935,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T37_001",
+      "alias_source_ids": [
+        "T37_001"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE",
+      "pages": [
+        37
+      ],
+      "text": "Employee turnover rate 9 Indicators | 2021 Gender | Number | Ratio Male | 245 | 7% Female | 73 | 8% Age Group | Number | Ratio < 31 years old | 96 | 11% 31 - 50 years old | 171 | 6% > 50 years old | 51 | 8% Geographic Location | Number | Ratio Mainland China | 318 | 7% Other regions | 0 | 0%",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE\n\n[Content]\nEmployee turnover rate 9 Indicators | 2021 Gender | Number | Ratio Male | 245 | 7% Female | 73 | 8% Age Group | Number | Ratio < 31 years old | 96 | 11% 31 - 50 years old | 171 | 6% > 50 years old | 51 | 8% Geographic Location | Number | Ratio Mainland China | 318 | 7% Other regions | 0 | 0%",
+      "bm25_rank": 2,
+      "dense_rank": 120,
+      "bm25_score": 42.87002182006836,
+      "dense_score": 0.30660176277160645,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9685576334727654,
+      "normalized_dense": 0.09624130807771805,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.20134228187919467,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.366993299957996,
+      "rank": 42,
+      "rrf_score": 0.366993299957996,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T55_001",
+      "alias_source_ids": [
+        "T55_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        55
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B3: Development and Training | General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Staff Training and Development B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Staff Training and Development B3.2 | The average training hours completed per employee by gender and employee category. | Staff Training and Development B4: Labour Standards | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | Staff Management B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Staff Management B4.2 | Description of steps taken to eliminate such practices when discovered. | Staff Management B5: Supply Chain Management | General Disclosure | Policies on managing environmental and social risks of the supply chain. | Supply Chain Management B5.1 | Number of suppliers by geographical region. | Supply Chain Management B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | Supply Chain Management B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Supply Chain Management B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Supply Chain Management",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B3: Development and Training | General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Staff Training and Development B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Staff Training and Development B3.2 | The average training hours completed per employee by gender and employee category. | Staff Training and Development B4: Labour Standards | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | Staff Management B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Staff Management B4.2 | Description of steps taken to eliminate such practices when discovered. | Staff Management B5: Supply Chain Management | General Disclosure | Policies on managing environmental and social risks of the supply chain. | Supply Chain Management B5.1 | Number of suppliers by geographical region. | Supply Chain Management B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | Supply Chain Management B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Supply Chain Management B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Supply Chain Management",
+      "bm25_rank": 46,
+      "dense_rank": 53,
+      "bm25_score": 8.117670059204102,
+      "dense_score": 0.36114126443862915,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17675817396951474,
+      "normalized_dense": 0.3674128355429848,
+      "normalized_bm25_rank": 0.697986577181208,
+      "normalized_dense_rank": 0.651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 46,
+      "composite_score": 0.36394612723394765,
+      "rank": 43,
+      "rrf_score": 0.36394612723394765,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_001",
+      "alias_source_ids": [
+        "P5_001"
+      ],
+      "section": "ABOUT THIS REPORT / SINOCHEM YUNLONG",
+      "pages": [
+        5
+      ],
+      "text": "The information disclosed in this Report is derived from the Group's internal documents, statistical reports, and records collected by monitoring devices. The Company will be fully responsible for the reliability, accuracy, and completeness of the information in this Report. This Report is published in both Chinese and English. In case of any ambiguity, the Chinese version shall prevail.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / SINOCHEM YUNLONG\n\n[Content]\nThe information disclosed in this Report is derived from the Group's internal documents, statistical reports, and records collected by monitoring devices. The Company will be fully responsible for the reliability, accuracy, and completeness of the information in this Report. This Report is published in both Chinese and English. In case of any ambiguity, the Chinese version shall prevail.",
+      "bm25_rank": 143,
+      "dense_rank": 29,
+      "bm25_score": 0.36415061354637146,
+      "dense_score": 0.39543217420578003,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.00010156815001098549,
+      "normalized_dense": 0.537907946343647,
+      "normalized_bm25_rank": 0.046979865771812124,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.35540218881001023,
+      "rank": 44,
+      "rrf_score": 0.35540218881001023,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P45_001",
+      "alias_source_ids": [
+        "P45_001"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE",
+      "pages": [
+        45
+      ],
+      "text": "To improve the governance level of Sinofert, the Group strictly implements internal policies such as the 'Work Management Regulations', and enforces the discipline inspection and supervision and anticorruption construction work of Sinofert, and deploys guides, and inspects the discipline inspection and supervision work of all entities in the system of Sinofert. The Group's discipline inspection and supervision work are mainly carried out by the Discipline Inspection and Compliance Department, whose responsibilities include (but are not limited to):",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE\n\n[Content]\nTo improve the governance level of Sinofert, the Group strictly implements internal policies such as the 'Work Management Regulations', and enforces the discipline inspection and supervision and anticorruption construction work of Sinofert, and deploys guides, and inspects the discipline inspection and supervision work of all entities in the system of Sinofert. The Group's discipline inspection and supervision work are mainly carried out by the Discipline Inspection and Compliance Department, whose responsibilities include (but are not limited to):",
+      "bm25_rank": 139,
+      "dense_rank": 30,
+      "bm25_score": 0.3709522485733032,
+      "dense_score": 0.3940647840499878,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0002565369698227073,
+      "normalized_dense": 0.5311092542791145,
+      "normalized_bm25_rank": 0.0738255033557047,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.3543959222305807,
+      "rank": 45,
+      "rrf_score": 0.3543959222305807,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P47_003",
+      "alias_source_ids": [
+        "P47_003"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE",
+      "pages": [
+        47
+      ],
+      "text": "The Group strictly implements internal management policies such as the 'Administrative Measures for Qualified Suppliers of the Agricultural Business Department of Sinochem Group'. The Supply Chain Management Department comprehensively manages and monitors our supply chain, including access approval, inspection, supervision, and evaluation, to promote the sustainable development of the Group and our partners, and is committed to building a responsible and transparent supply chain with low environmental and social risks. The Supply Chain Management Department is responsible for:",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE\n\n[Content]\nThe Group strictly implements internal management policies such as the 'Administrative Measures for Qualified Suppliers of the Agricultural Business Department of Sinochem Group'. The Supply Chain Management Department comprehensively manages and monitors our supply chain, including access approval, inspection, supervision, and evaluation, to promote the sustainable development of the Group and our partners, and is committed to building a responsible and transparent supply chain with low environmental and social risks. The Supply Chain Management Department is responsible for:",
+      "bm25_rank": 58,
+      "dense_rank": 50,
+      "bm25_score": 4.720822334289551,
+      "dense_score": 0.36394059658050537,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09936421194041666,
+      "normalized_dense": 0.3813311727039967,
+      "normalized_bm25_rank": 0.6174496644295302,
+      "normalized_dense_rank": 0.6711409395973154,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 50,
+      "composite_score": 0.3493119071968983,
+      "rank": 46,
+      "rrf_score": 0.3493119071968983,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L45_004",
+      "alias_source_ids": [
+        "L45_004"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE",
+      "pages": [
+        45
+      ],
+      "text": "Handle reports, complaints, and other correspondence involving party members, cadres, and employees in violation of disciplines and regulations, and carry out inspections and trials according to relevant regulations and procedures",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE\n\n[Content]\nHandle reports, complaints, and other correspondence involving party members, cadres, and employees in violation of disciplines and regulations, and carry out inspections and trials according to relevant regulations and procedures",
+      "bm25_rank": null,
+      "dense_rank": 31,
+      "bm25_score": null,
+      "dense_score": 0.3929183781147003,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.525409300317945,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.3436247987354418,
+      "rank": 47,
+      "rrf_score": 0.3436247987354418,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T21_002",
+      "alias_source_ids": [
+        "T21_002"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        21
+      ],
+      "text": "2021 | 2020 | Unit Scope 1 2 | 1,390,803 | 1,001,131 | tCO 2 e Scope 2 3 | 196,698 | 194,779 | tCO 2 e Scope 3 4 | 835 | 2,288 | tCO 2 e Total GHG emissions | 1,588,336 | 1,198,198 | tCO 2 e Total GHG emission intensity | 1.63 | 1.04 | tCO 2 e/tonne of product",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\n2021 | 2020 | Unit Scope 1 2 | 1,390,803 | 1,001,131 | tCO 2 e Scope 2 3 | 196,698 | 194,779 | tCO 2 e Scope 3 4 | 835 | 2,288 | tCO 2 e Total GHG emissions | 1,588,336 | 1,198,198 | tCO 2 e Total GHG emission intensity | 1.63 | 1.04 | tCO 2 e/tonne of product",
+      "bm25_rank": 3,
+      "dense_rank": null,
+      "bm25_score": 39.96466064453125,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.9023617275300015,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.2791300636268057,
+      "rank": 48,
+      "rrf_score": 0.2791300636268057,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T39_001",
+      "alias_source_ids": [
+        "T39_001"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE / CASE STUDY: CARRYING OUT PROFESSIONAL TRAINING TO ENHANCE EMPLOYEES' PROFESSIONALISM",
+      "pages": [
+        39
+      ],
+      "text": "Indicators | 2021 | 2020 | 2019 | Unit Number of work-related fatalities | 0 | 0 | 0 | Person Rate of work-related fatalities | 0 | 0 | 0 | Percentage Lost work days due to work injury 10 | 55 | 39 | / | Day",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE / CASE STUDY: CARRYING OUT PROFESSIONAL TRAINING TO ENHANCE EMPLOYEES' PROFESSIONALISM\n\n[Content]\nIndicators | 2021 | 2020 | 2019 | Unit Number of work-related fatalities | 0 | 0 | 0 | Person Rate of work-related fatalities | 0 | 0 | 0 | Percentage Lost work days due to work injury 10 | 55 | 39 | / | Day",
+      "bm25_rank": 4,
+      "dense_rank": null,
+      "bm25_score": 35.860164642333984,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.8088446689310232,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.25975551096741273,
+      "rank": 49,
+      "rrf_score": 0.25975551096741273,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T28_001",
+      "alias_source_ids": [
+        "T28_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Packaging materials",
+      "pages": [
+        28
+      ],
+      "text": "2021 | 2020 | Unit Total packaging materials used | 1,901 | 2,114 | Ten thousand-piece",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Packaging materials\n\n[Content]\n2021 | 2020 | Unit Total packaging materials used | 1,901 | 2,114 | Ten thousand-piece",
+      "bm25_rank": 8,
+      "dense_rank": null,
+      "bm25_score": 29.068790435791016,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.6541096322052293,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.22612393986386467,
+      "rank": 50,
+      "rrf_score": 0.22612393986386467,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

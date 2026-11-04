@@ -1,0 +1,1546 @@
+{
+  "document_id": "2022053000380",
+  "metric_id": 12,
+  "metric_name": "水风险评估",
+  "query": "水风险评估 水风险评估 衡量企业识别、评估和管理水风险的体系成熟度。 内容质量得分 (取值：0, 1, 2) • 2分（卓越）：使用了专业风险识别工具（如 WRI Aqueduct），具备水压力情景分析，有针对高风险站点的应对措施，且建立了水资源治理机制（如首席水官或专项考核）。 • 1分（合格）：有基础的水风险识别和定性描述，具备通用性应对措施（如节水计划），但缺乏针对性工具应用或深度的情景评估。 • 0分（不合格）：无水风险评估披露，或仅笼统提及“重视水资源保护”。 水风险评估 水压力 基准水压力 水资源短缺 干旱风险 洪涝风险 流域风险 高水压力地区 高风险站点 水压力情景分析 WRI Aqueduct WWF水风险过滤器 water risk assessment water stress baseline water stress water scarcity drought risk flood risk basin risk high water stress areas high-risk sites water stress scenario WRI Aqueduct WWF Water Risk Filter 企业是否使用专业水风险工具（如WRI Aqueduct）识别水风险？ 是否按流域、运营点或高水压力区域开展评估？ 是否包含水压力情景分析？ 对高风险站点采取了哪些针对性应对措施？ 是否建立水资源治理机制（如专项职责或考核）？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '水风险评估'. Prefer explicit, auditable disclosure that answers: 企业是否使用专业水风险工具（如WRI Aqueduct）识别水风险？ 是否按流域、运营点或高水压力区域开展评估？ 是否包含水压力情景分析？ 对高风险站点采取了哪些针对性应对措施？ 是否建立水资源治理机制（如专项职责或考核）？ Exclude or down-rank: 排除：仅有笼统“重视节水”；仅有用水效益目标而无风险评估；仅有排污合规数据；仅有社区饮水公益项目；区分：水风险评估关注风险识别工具、情景与高风险站点应对；用水效益目标与行动方案关注节水量化目标及工程/管理措施，二者不可互相替代。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 171,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P7_004",
+      "alias_source_ids": [
+        "P7_004"
+      ],
+      "section": "Investor relations / Anti-corruption and integrity",
+      "pages": [
+        7
+      ],
+      "text": "The Company implements tiered risk management over the General Manager, functional departments of the Headquarters and subsidiaries, and the Risk Control and Audit Department. We also prepare risk assessment standards from business nature, operating characteristics and strategic objectives to continuously monitor and manage risks.",
+      "retrieval_text": "[Section]\nInvestor relations / Anti-corruption and integrity\n\n[Content]\nThe Company implements tiered risk management over the General Manager, functional departments of the Headquarters and subsidiaries, and the Risk Control and Audit Department. We also prepare risk assessment standards from business nature, operating characteristics and strategic objectives to continuously monitor and manage risks.",
+      "bm25_rank": 2,
+      "dense_rank": 1,
+      "bm25_score": 36.13733673095703,
+      "dense_score": 0.528229832649231,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7022170380284286,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.7897722666660885,
+      "rank": 1,
+      "rrf_score": 0.7897722666660885,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L16_003",
+      "alias_source_ids": [
+        "L16_003"
+      ],
+      "section": "Green Operation to Safeguard Environment",
+      "pages": [
+        16
+      ],
+      "text": "Water saving: We reasonably advocate to conserve and recycle water, plan water intake stations, post water conservation signs in related sites, and promote water-saving irrigation methods including sprinkler irrigation, micro-irrigation and drip irrigation to protect water resources and improve water use efficiency. In 2021, the Company's total water consumption was 923,106 tons, with a water consumption density of 6.09 tons per ten thousand yuan.",
+      "retrieval_text": "[Section]\nGreen Operation to Safeguard Environment\n\n[Content]\nWater saving: We reasonably advocate to conserve and recycle water, plan water intake stations, post water conservation signs in related sites, and promote water-saving irrigation methods including sprinkler irrigation, micro-irrigation and drip irrigation to protect water resources and improve water use efficiency. In 2021, the Company's total water consumption was 923,106 tons, with a water consumption density of 6.09 tons per ten thousand yuan.",
+      "bm25_rank": 1,
+      "dense_rank": 3,
+      "bm25_score": 50.762054443359375,
+      "dense_score": 0.47839564085006714,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.7936133311215513,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.7750801021341537,
+      "rank": 2,
+      "rrf_score": 0.7750801021341537,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T29_001",
+      "alias_source_ids": [
+        "T29_001"
+      ],
+      "section": "Appendix / Outlook 2022",
+      "pages": [
+        29
+      ],
+      "text": "Major category | Content | Location A.Environmental Aspect A2: Use of Resources | General Disclosure: Policies on the efficient use of resources, including energy, water and other raw materials. | P25-P26 A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. perunit of production volume, per facility). | P26 A2.2 | Water consumption in total and intensity (e.g. per unit of prod uction volume, per facility). | P26 A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | P25-P26 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | P26 A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | P28 Aspect A3: The Environment and Natural Resources | General Disclosure: Policies on minimising the issuer's significant impacts on the environment and natural resources. | P25 A3.1 | Description ofthe significantimpacts of activities on the environment and natural resources and the actions taken to manage them. | P25 Aspect A4: Climate Change | significant climate-related issues which have impacted, and General Disclosure: Policies on identification and mitigation of those which may impact, the issuer. | P27",
+      "retrieval_text": "[Section]\nAppendix / Outlook 2022\n\n[Content]\nMajor category | Content | Location A.Environmental Aspect A2: Use of Resources | General Disclosure: Policies on the efficient use of resources, including energy, water and other raw materials. | P25-P26 A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. perunit of production volume, per facility). | P26 A2.2 | Water consumption in total and intensity (e.g. per unit of prod uction volume, per facility). | P26 A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | P25-P26 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | P26 A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | P28 Aspect A3: The Environment and Natural Resources | General Disclosure: Policies on minimising the issuer's significant impacts on the environment and natural resources. | P25 A3.1 | Description ofthe significantimpacts of activities on the environment and natural resources and the actions taken to manage them. | P25 Aspect A4: Climate Change | significant climate-related issues which have impacted, and General Disclosure: Policies on identification and mitigation of those which may impact, the issuer. | P27",
+      "bm25_rank": 3,
+      "dense_rank": 2,
+      "bm25_score": 27.00635528564453,
+      "dense_score": 0.5068648457527161,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5162954528078979,
+      "normalized_dense": 0.9115176083526371,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.7196056897266132,
+      "rank": 3,
+      "rrf_score": 0.7196056897266132,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_010",
+      "alias_source_ids": [
+        "P18_010"
+      ],
+      "section": "Green charity / 【Spotlight】Jinmao Services·Focus",
+      "pages": [
+        18
+      ],
+      "text": "Rou u r uts u rt eue t ion sys s 'ys sd o ss s e sors abnormal information as soon as possible; and a water level alarm system to protect important computer rooms from flooding.",
+      "retrieval_text": "[Section]\nGreen charity / 【Spotlight】Jinmao Services·Focus\n\n[Content]\nRou u r uts u rt eue t ion sys s 'ys sd o ss s e sors abnormal information as soon as possible; and a water level alarm system to protect important computer rooms from flooding.",
+      "bm25_rank": 7,
+      "dense_rank": 4,
+      "bm25_score": 24.833824157714844,
+      "dense_score": 0.4477333128452301,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.47205919697222404,
+      "normalized_dense": 0.6666263065806441,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6196773554225026,
+      "rank": 4,
+      "rrf_score": 0.6196773554225026,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_004",
+      "alias_source_ids": [
+        "P16_004"
+      ],
+      "section": "Green Operation to Safeguard Environment",
+      "pages": [
+        16
+      ],
+      "text": "The Company attaches great importance to the utilization and protection of all renewable and non-renewable resources. We constantly improve the energy management system and regulate the rational use of energy & water to enhance our economic and environmental benefits.",
+      "retrieval_text": "[Section]\nGreen Operation to Safeguard Environment\n\n[Content]\nThe Company attaches great importance to the utilization and protection of all renewable and non-renewable resources. We constantly improve the energy management system and regulate the rational use of energy & water to enhance our economic and environmental benefits.",
+      "bm25_rank": 6,
+      "dense_rank": 7,
+      "bm25_score": 24.833824157714844,
+      "dense_score": 0.4257239103317261,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.47205919697222404,
+      "normalized_dense": 0.5754750888168744,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5844187245071965,
+      "rank": 5,
+      "rrf_score": 0.5844187245071965,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_001",
+      "alias_source_ids": [
+        "L19_001"
+      ],
+      "section": "「Occupational health and safety",
+      "pages": [
+        19
+      ],
+      "text": "Hidden hazard management: We have formulated the Management Standards for Investigation and Treat ment of HSE Hidden Hazards to strengthen institutional building for risk identification and hidden hazard in vestigation. We carry out regular safety investigation and hidden hazard rectification in central city subsidiaries and commercial office buildings to establish a sound order for work safety and operation.",
+      "retrieval_text": "[Section]\n「Occupational health and safety\n\n[Content]\nHidden hazard management: We have formulated the Management Standards for Investigation and Treat ment of HSE Hidden Hazards to strengthen institutional building for risk identification and hidden hazard in vestigation. We carry out regular safety investigation and hidden hazard rectification in central city subsidiaries and commercial office buildings to establish a sound order for work safety and operation.",
+      "bm25_rank": 13,
+      "dense_rank": 5,
+      "bm25_score": 16.943008422851562,
+      "dense_score": 0.4392649233341217,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3113893961522884,
+      "normalized_dense": 0.6315547495058049,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.5698992227655431,
+      "rank": 6,
+      "rrf_score": 0.5698992227655431,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_002",
+      "alias_source_ids": [
+        "P13_002"
+      ],
+      "section": "Customer satisfaction / Digital scenario empowerment,",
+      "pages": [
+        13
+      ],
+      "text": "We secure risk early warning in all scenarios through video monitoring without escape corner, electronic fence and infrared curtain in the park, coupled with Al algorithm.",
+      "retrieval_text": "[Section]\nCustomer satisfaction / Digital scenario empowerment,\n\n[Content]\nWe secure risk early warning in all scenarios through video monitoring without escape corner, electronic fence and infrared curtain in the park, coupled with Al algorithm.",
+      "bm25_rank": 5,
+      "dense_rank": 11,
+      "bm25_score": 25.040847778320312,
+      "dense_score": 0.39828526973724365,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.47627453351097276,
+      "normalized_dense": 0.4618388598263356,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.5407911250910764,
+      "rank": 7,
+      "rrf_score": 0.5407911250910764,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_002",
+      "alias_source_ids": [
+        "P16_002"
+      ],
+      "section": "Green Operation to Safeguard Environment",
+      "pages": [
+        16
+      ],
+      "text": "In accordance with the Environmental Protection Law of the People's Republic of China and the China Jinmao's Administrative Guidelines on Environmental Protection ,we have formulated the Measures for the Management of Environmental Protection, which specifies the measures, such as saving energy use, reducing carbon emissions, optimizing water resources use and reducing waste emissions, to improve the systematic environmental management.",
+      "retrieval_text": "[Section]\nGreen Operation to Safeguard Environment\n\n[Content]\nIn accordance with the Environmental Protection Law of the People's Republic of China and the China Jinmao's Administrative Guidelines on Environmental Protection ,we have formulated the Measures for the Management of Environmental Protection, which specifies the measures, such as saving energy use, reducing carbon emissions, optimizing water resources use and reducing waste emissions, to improve the systematic environmental management.",
+      "bm25_rank": 10,
+      "dense_rank": 12,
+      "bm25_score": 20.924358367919922,
+      "dense_score": 0.3973334729671478,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3924561355316332,
+      "normalized_dense": 0.4578970247581357,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.5179498166441574,
+      "rank": 8,
+      "rrf_score": 0.5179498166441574,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_003",
+      "alias_source_ids": [
+        "P7_003"
+      ],
+      "section": "Investor relations / Anti-corruption and integrity",
+      "pages": [
+        7
+      ],
+      "text": "The Company continues to promote audit and risk control, and strengthen the building of compliance system. We have revised the rules and regulations including the Management and Control Procedures for Compliance Evaluation of Laws, Regulations and Other Requirements to provide normative support. The 100 Legal Knowledge Q&A in the Property Industry is developed to improve the legal awareness of all employees.",
+      "retrieval_text": "[Section]\nInvestor relations / Anti-corruption and integrity\n\n[Content]\nThe Company continues to promote audit and risk control, and strengthen the building of compliance system. We have revised the rules and regulations including the Management and Control Procedures for Compliance Evaluation of Laws, Regulations and Other Requirements to provide normative support. The 100 Legal Knowledge Q&A in the Property Industry is developed to improve the legal awareness of all employees.",
+      "bm25_rank": 15,
+      "dense_rank": 9,
+      "bm25_score": 16.321916580200195,
+      "dense_score": 0.404609352350235,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2987429593322286,
+      "normalized_dense": 0.4880298402974847,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.510424807782646,
+      "rank": 9,
+      "rrf_score": 0.510424807782646,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_009",
+      "alias_source_ids": [
+        "P17_009"
+      ],
+      "section": "Waste discharge* / Response to climate change",
+      "pages": [
+        17
+      ],
+      "text": "The Company actively advocates green and low-carbon operation and lifestyle. In office spaces, we use energysaving lamps, set energy-saving mode for electrical equipment, promote ventilation for minimizing the use of air conditioners, and encourage double-sided printing to save paper. In washrooms and toilets, we adopt water-saving faucets to save water.",
+      "retrieval_text": "[Section]\nWaste discharge* / Response to climate change\n\n[Content]\nThe Company actively advocates green and low-carbon operation and lifestyle. In office spaces, we use energysaving lamps, set energy-saving mode for electrical equipment, promote ventilation for minimizing the use of air conditioners, and encourage double-sided printing to save paper. In washrooms and toilets, we adopt water-saving faucets to save water.",
+      "bm25_rank": 8,
+      "dense_rank": 16,
+      "bm25_score": 22.259279251098633,
+      "dense_score": 0.39058297872543335,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.41963728886449736,
+      "normalized_dense": 0.429940074529157,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.5095742690930039,
+      "rank": 10,
+      "rrf_score": 0.5095742690930039,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T28_001",
+      "alias_source_ids": [
+        "T28_001"
+      ],
+      "section": "Appendix / Outlook 2022",
+      "pages": [
+        28
+      ],
+      "text": "Major category | Content | Location A.Environmental Aspect A1: Emissions | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | P25, P27-P28 A1.1 | The types of emissions and respective emissions data. | P27 A1.2 | emissions (in tonnes) and, where appropriate, intensity (e.g. per Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas unit of production volume, per facility). | P27 A1.3 | appropriate, intensity (e.g. per unit of production volume, Total hazardous waste produced (in tonnes) and, where per facility). | P28 A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | P28 A1.5 | Description of emission target(s) set and steps taken to achieve them. | P25, P27-P28 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | P28",
+      "retrieval_text": "[Section]\nAppendix / Outlook 2022\n\n[Content]\nMajor category | Content | Location A.Environmental Aspect A1: Emissions | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | P25, P27-P28 A1.1 | The types of emissions and respective emissions data. | P27 A1.2 | emissions (in tonnes) and, where appropriate, intensity (e.g. per Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas unit of production volume, per facility). | P27 A1.3 | appropriate, intensity (e.g. per unit of production volume, Total hazardous waste produced (in tonnes) and, where per facility). | P28 A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | P28 A1.5 | Description of emission target(s) set and steps taken to achieve them. | P25, P27-P28 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | P28",
+      "bm25_rank": 11,
+      "dense_rank": 18,
+      "bm25_score": 17.972721099853516,
+      "dense_score": 0.3851577043533325,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.33235601560896905,
+      "normalized_dense": 0.4074714788725441,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4795560193849024,
+      "rank": 11,
+      "rrf_score": 0.4795560193849024,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_003",
+      "alias_source_ids": [
+        "P17_003"
+      ],
+      "section": "Waste discharge* / Response to climate change",
+      "pages": [
+        17
+      ],
+      "text": "In strict accordance with Chinese laws, such as the Law on the Prevention and Control of Atmospheric Pollution, the Water Pollution Prevention Law and the Law on the Prevention and Control of Environmental Pollution by Solid Waste as well as our internal systems including the Clean Management Control Procedure, the Solid Waste Management Standard and the Chemicals Safety Management Standard, we rationally dispose of wastes generated in the process of operation to minimize the discharge of waste water, waste gas and hazardous waste, and continuously improve the surrounding environment.",
+      "retrieval_text": "[Section]\nWaste discharge* / Response to climate change\n\n[Content]\nIn strict accordance with Chinese laws, such as the Law on the Prevention and Control of Atmospheric Pollution, the Water Pollution Prevention Law and the Law on the Prevention and Control of Environmental Pollution by Solid Waste as well as our internal systems including the Clean Management Control Procedure, the Solid Waste Management Standard and the Chemicals Safety Management Standard, we rationally dispose of wastes generated in the process of operation to minimize the discharge of waste water, waste gas and hazardous waste, and continuously improve the surrounding environment.",
+      "bm25_rank": 4,
+      "dense_rank": 33,
+      "bm25_score": 26.158172607421875,
+      "dense_score": 0.3638530373573303,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.499025078419753,
+      "normalized_dense": 0.31923890011236644,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.4665721877702588,
+      "rank": 12,
+      "rrf_score": 0.4665721877702588,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_012",
+      "alias_source_ids": [
+        "P13_012"
+      ],
+      "section": "Customer satisfaction / Digital scenario empowerment,",
+      "pages": [
+        13
+      ],
+      "text": "Based on high-quality customer services, we keep fine-tuning our management mode and have established a business audit mechanism and a basic business accountability mechanism to ensure the progress and quality of rectification, achieving stable property management services.",
+      "retrieval_text": "[Section]\nCustomer satisfaction / Digital scenario empowerment,\n\n[Content]\nBased on high-quality customer services, we keep fine-tuning our management mode and have established a business audit mechanism and a basic business accountability mechanism to ensure the progress and quality of rectification, achieving stable property management services.",
+      "bm25_rank": 69,
+      "dense_rank": 8,
+      "bm25_score": 2.583231210708618,
+      "dense_score": 0.40904805064201355,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.019001052283093567,
+      "normalized_dense": 0.5064125635146797,
+      "normalized_bm25_rank": 0.5436241610738255,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.42601105063977673,
+      "rank": 13,
+      "rrf_score": 0.42601105063977673,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_005",
+      "alias_source_ids": [
+        "P8_005"
+      ],
+      "section": "Sustainability Management / Stakeholder Communication",
+      "pages": [
+        8
+      ],
+      "text": "High Significance to the Company's sustainable development Extremely high",
+      "retrieval_text": "[Section]\nSustainability Management / Stakeholder Communication\n\n[Content]\nHigh Significance to the Company's sustainable development Extremely high",
+      "bm25_rank": 38,
+      "dense_rank": 15,
+      "bm25_score": 4.825695991516113,
+      "dense_score": 0.39261114597320557,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06466127066662468,
+      "normalized_dense": 0.4383396625847438,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.4227269749641598,
+      "rank": 14,
+      "rrf_score": 0.4227269749641598,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T17_003",
+      "alias_source_ids": [
+        "T17_003"
+      ],
+      "section": "Waste discharge* / Response to climate change",
+      "pages": [
+        17
+      ],
+      "text": "Non-hazardous waste (ton) | Density of non-hazardous waste (ton/RMB 10,000) | Hazardous waste (ton) | Density of hazardous waste (ton/RMB 10,000) | Hazardous waste treatment rate (%) 2021 | 2,951.17 | 0.0195 | 19.67 | 0.00013 | %86",
+      "retrieval_text": "[Section]\nWaste discharge* / Response to climate change\n\n[Content]\nNon-hazardous waste (ton) | Density of non-hazardous waste (ton/RMB 10,000) | Hazardous waste (ton) | Density of hazardous waste (ton/RMB 10,000) | Hazardous waste treatment rate (%) 2021 | 2,951.17 | 0.0195 | 19.67 | 0.00013 | %86",
+      "bm25_rank": 34,
+      "dense_rank": 19,
+      "bm25_score": 6.562716007232666,
+      "dense_score": 0.38506150245666504,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1000298142143287,
+      "normalized_dense": 0.4070730618765786,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.41617280966745346,
+      "rank": 15,
+      "rrf_score": 0.41617280966745346,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_009",
+      "alias_source_ids": [
+        "P13_009"
+      ],
+      "section": "Customer satisfaction / Digital scenario empowerment,",
+      "pages": [
+        13
+      ],
+      "text": "We effectively monitor the park environment using our system. monitoring andearly warning",
+      "retrieval_text": "[Section]\nCustomer satisfaction / Digital scenario empowerment,\n\n[Content]\nWe effectively monitor the park environment using our system. monitoring andearly warning",
+      "bm25_rank": 49,
+      "dense_rank": 14,
+      "bm25_score": 3.330721378326416,
+      "dense_score": 0.3930719494819641,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03422116391431426,
+      "normalized_dense": 0.4402480651843777,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4112666260671937,
+      "rank": 16,
+      "rrf_score": 0.4112666260671937,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T8_001",
+      "alias_source_ids": [
+        "T8_001"
+      ],
+      "section": "Sustainability Management / Stakeholder Communication",
+      "pages": [
+        8
+      ],
+      "text": "1 Customer health and safety | 19 Community development 2 Providing high-quality products and services | 20 Charitable activities 3 Customer satisfaction | 21 Work-life balance 4 Addressing climate change 5 Reducing pollutant emissions 6 Protecting the rights of employees 7 Improving corporate governance 8 Integrity and compliance management 9 Deepening anti-corruption and integrity 10 Technological innovation 11 Occupational health and safety 12 Staff training and development 13 Saving resources 14 Supplier management 15 Intellectual property protection 16 Protection of customer privacy 17 Customer complaint handling 18 Promoting suppliers to fulfill their responsibilities",
+      "retrieval_text": "[Section]\nSustainability Management / Stakeholder Communication\n\n[Content]\n1 Customer health and safety | 19 Community development 2 Providing high-quality products and services | 20 Charitable activities 3 Customer satisfaction | 21 Work-life balance 4 Addressing climate change 5 Reducing pollutant emissions 6 Protecting the rights of employees 7 Improving corporate governance 8 Integrity and compliance management 9 Deepening anti-corruption and integrity 10 Technological innovation 11 Occupational health and safety 12 Staff training and development 13 Saving resources 14 Supplier management 15 Intellectual property protection 16 Protection of customer privacy 17 Customer complaint handling 18 Promoting suppliers to fulfill their responsibilities",
+      "bm25_rank": 20,
+      "dense_rank": 25,
+      "bm25_score": 8.822795867919922,
+      "dense_score": 0.3733084797859192,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1460487041814838,
+      "normalized_dense": 0.35839830443205584,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.40968270443449617,
+      "rank": 17,
+      "rrf_score": 0.40968270443449617,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_004",
+      "alias_source_ids": [
+        "P8_004"
+      ],
+      "section": "Sustainability Management / Stakeholder Communication",
+      "pages": [
+        8
+      ],
+      "text": "Based on the analysis of material topics, the changes of external environment and internal conditions, Jinmao Services identifies 21 material sustainability topics from two dimensions: \"Significance to the Company's sustainable development\" and\" Influence on stakeholder assessments and decisions\". We form an analysis matrix ranked by importance and disclose it in the report as a highlight of ESG management.",
+      "retrieval_text": "[Section]\nSustainability Management / Stakeholder Communication\n\n[Content]\nBased on the analysis of material topics, the changes of external environment and internal conditions, Jinmao Services identifies 21 material sustainability topics from two dimensions: \"Significance to the Company's sustainable development\" and\" Influence on stakeholder assessments and decisions\". We form an analysis matrix ranked by importance and disclose it in the report as a highlight of ESG management.",
+      "bm25_rank": null,
+      "dense_rank": 6,
+      "bm25_score": null,
+      "dense_score": 0.432217538356781,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6023682360445437,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.40411747321961716,
+      "rank": 18,
+      "rrf_score": 0.40411747321961716,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_013",
+      "alias_source_ids": [
+        "P13_013"
+      ],
+      "section": "Customer satisfaction / Digital scenario empowerment,",
+      "pages": [
+        13
+      ],
+      "text": "In 2021, residential customer satisfaction was 89, office building customers satisfaction was 99, other public buildings was 100, at the forefront in the industry.",
+      "retrieval_text": "[Section]\nCustomer satisfaction / Digital scenario empowerment,\n\n[Content]\nIn 2021, residential customer satisfaction was 89, office building customers satisfaction was 99, other public buildings was 100, at the forefront in the industry.",
+      "bm25_rank": 63,
+      "dense_rank": 13,
+      "bm25_score": 2.924522638320923,
+      "dense_score": 0.39459550380706787,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.025950299045218166,
+      "normalized_dense": 0.44655781539123857,
+      "normalized_bm25_rank": 0.5838926174496644,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.403767174390608,
+      "rank": 19,
+      "rrf_score": 0.403767174390608,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T29_002",
+      "alias_source_ids": [
+        "T29_002"
+      ],
+      "section": "Appendix / Outlook 2022",
+      "pages": [
+        29
+      ],
+      "text": "Major category | Content | Location A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact the issuer, and the actions taken to manage them. | P27 B. Social Employment and Labor Practices Aspect B1: Employment | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | P3-40 B1.1 | Total workforce by gender, employment type (for example, full- or part-time), age group and geographical region. | PE B1.2 | Employee tumover rate by gender, age group and geographical region. | P40 Aspect B2: Health and Safety | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | P322-PP3 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | P32 B2.2 | Lost days due to work injury. | P32 B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | P32-P33 Aspect B3: Development and Training | and skills for discharging duties at work. Description of training General Disclosure: Policies on improving employees' knowledge activities. | P41",
+      "retrieval_text": "[Section]\nAppendix / Outlook 2022\n\n[Content]\nMajor category | Content | Location A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact the issuer, and the actions taken to manage them. | P27 B. Social Employment and Labor Practices Aspect B1: Employment | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | P3-40 B1.1 | Total workforce by gender, employment type (for example, full- or part-time), age group and geographical region. | PE B1.2 | Employee tumover rate by gender, age group and geographical region. | P40 Aspect B2: Health and Safety | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | P322-PP3 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | P32 B2.2 | Lost days due to work injury. | P32 B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | P32-P33 Aspect B3: Development and Training | and skills for discharging duties at work. Description of training General Disclosure: Policies on improving employees' knowledge activities. | P41",
+      "bm25_rank": 39,
+      "dense_rank": 20,
+      "bm25_score": 4.599972724914551,
+      "dense_score": 0.38430988788604736,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06006517901984304,
+      "normalized_dense": 0.40396027481392394,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.402392420579446,
+      "rank": 20,
+      "rrf_score": 0.402392420579446,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_006",
+      "alias_source_ids": [
+        "P13_006"
+      ],
+      "section": "Customer satisfaction / Digital scenario empowerment,",
+      "pages": [
+        13
+      ],
+      "text": "Focusing on the core competitiveness featured by \"high, comprehensive, innovative and fast\", we strengthen highquality management and customer relationship maintenance, listen carefully to customers, gain insight into their needs, and value their evaluation and feedback, to offer them a reassured work and life environment.",
+      "retrieval_text": "[Section]\nCustomer satisfaction / Digital scenario empowerment,\n\n[Content]\nFocusing on the core competitiveness featured by \"high, comprehensive, innovative and fast\", we strengthen highquality management and customer relationship maintenance, listen carefully to customers, gain insight into their needs, and value their evaluation and feedback, to offer them a reassured work and life environment.",
+      "bm25_rank": 36,
+      "dense_rank": 23,
+      "bm25_score": 5.10860538482666,
+      "dense_score": 0.37754693627357483,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0704217645623907,
+      "normalized_dense": 0.37595173279302657,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.3926473251618496,
+      "rank": 21,
+      "rrf_score": 0.3926473251618496,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T17_001",
+      "alias_source_ids": [
+        "T17_001"
+      ],
+      "section": "Waste discharge* / Response to climate change",
+      "pages": [
+        17
+      ],
+      "text": "Total GHG emissions (Scope I + Scope II)1 (tCO2e) | Direct GHG emissions (Scope I)® (tCO2e) | Indirect GHG emissions (Scope II)3 (tCO2e) | GHG emission density (tCO2e) 2021 | 56,684.19 | 2,414.02 | 54,270.17 | 0.37",
+      "retrieval_text": "[Section]\nWaste discharge* / Response to climate change\n\n[Content]\nTotal GHG emissions (Scope I + Scope II)1 (tCO2e) | Direct GHG emissions (Scope I)® (tCO2e) | Indirect GHG emissions (Scope II)3 (tCO2e) | GHG emission density (tCO2e) 2021 | 56,684.19 | 2,414.02 | 54,270.17 | 0.37",
+      "bm25_rank": 12,
+      "dense_rank": 44,
+      "bm25_score": 17.56743621826172,
+      "dense_score": 0.34913313388824463,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.32410375837870775,
+      "normalized_dense": 0.2582769032681055,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.39011699667863886,
+      "rank": 22,
+      "rrf_score": 0.39011699667863886,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_015",
+      "alias_source_ids": [
+        "P13_015"
+      ],
+      "section": "Customer satisfaction / Digital scenario empowerment,",
+      "pages": [
+        13
+      ],
+      "text": "In 2021, there was no customer privacy leakage incident or related lawsuit.",
+      "retrieval_text": "[Section]\nCustomer satisfaction / Digital scenario empowerment,\n\n[Content]\nIn 2021, there was no customer privacy leakage incident or related lawsuit.",
+      "bm25_rank": 50,
+      "dense_rank": 24,
+      "bm25_score": 3.330721378326416,
+      "dense_score": 0.37537631392478943,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03422116391431426,
+      "normalized_dense": 0.3669621716145417,
+      "normalized_bm25_rank": 0.6711409395973154,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.3715226035862075,
+      "rank": 23,
+      "rrf_score": 0.3715226035862075,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L20_001",
+      "alias_source_ids": [
+        "L20_001"
+      ],
+      "section": "Win-win Cooperation with Partners",
+      "pages": [
+        20
+      ],
+      "text": "CoVID-19 control:We pursue strict control over personnel flow and require employees in medium and high-risk areas to report their situation and work from home. We reduce meetings and advocate online conferencing to minimize gathering. Besides, we implement information reporting with 100% coverage and vigorously promote vaccination among employees. We also produce videos about COvID-19 fight to cheer up employees and pull through difficulties.",
+      "retrieval_text": "[Section]\nWin-win Cooperation with Partners\n\n[Content]\nCoVID-19 control:We pursue strict control over personnel flow and require employees in medium and high-risk areas to report their situation and work from home. We reduce meetings and advocate online conferencing to minimize gathering. Besides, we implement information reporting with 100% coverage and vigorously promote vaccination among employees. We also produce videos about COvID-19 fight to cheer up employees and pull through difficulties.",
+      "bm25_rank": 27,
+      "dense_rank": 35,
+      "bm25_score": 7.441450119018555,
+      "dense_score": 0.36000216007232666,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1179222653192927,
+      "normalized_dense": 0.3032906182918328,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.36664892114385234,
+      "rank": 24,
+      "rrf_score": 0.36664892114385234,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_001",
+      "alias_source_ids": [
+        "P17_001"
+      ],
+      "section": "Waste discharge* / Response to climate change",
+      "pages": [
+        17
+      ],
+      "text": "In response to the China's 30-60 Decarbonization Goal (China strives to peak carbon dioxide emissions by 2030 and achieve carbon neutrality by 2060), we earnestly implement the national policy of energy conservation and emission reduction. In 2021, we formulated the Work Instructions for Energy Conservation and Emission Reduction to standardize the management of energy conservation and emission reduction. In daily operation, we advocate green office and save water, electricity and paper to reduce carbon emissions. Upon carbon emissions verification, performance and asset management for projects in Beijing, we registered an annual balance of 4,269.3 tons of carbon assets, contributing our share to carbon reduction.",
+      "retrieval_text": "[Section]\nWaste discharge* / Response to climate change\n\n[Content]\nIn response to the China's 30-60 Decarbonization Goal (China strives to peak carbon dioxide emissions by 2030 and achieve carbon neutrality by 2060), we earnestly implement the national policy of energy conservation and emission reduction. In 2021, we formulated the Work Instructions for Energy Conservation and Emission Reduction to standardize the management of energy conservation and emission reduction. In daily operation, we advocate green office and save water, electricity and paper to reduce carbon emissions. Upon carbon emissions verification, performance and asset management for projects in Beijing, we registered an annual balance of 4,269.3 tons of carbon assets, contributing our share to carbon reduction.",
+      "bm25_rank": 17,
+      "dense_rank": 52,
+      "bm25_score": 15.387495040893555,
+      "dense_score": 0.34172430634498596,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2797166219234186,
+      "normalized_dense": 0.22759348728916484,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.6577181208053691,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.3564064140634082,
+      "rank": 25,
+      "rrf_score": 0.3564064140634082,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T30_001",
+      "alias_source_ids": [
+        "T30_001"
+      ],
+      "section": "Appendix / Outlook 2022",
+      "pages": [
+        30
+      ],
+      "text": "Major category | Content | Location B3.1 | category (e.g. senior management, middle management). The percentage of employees trained by gender and employee | P41 B3.2 | The average training hours completed per employee by gender and employee category. | P41 Aspect B4: Labor Standards | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labor. | P39 B4.1 | Description of measures to review employment practices to avoid child and forced labor. B4.2 | Description of steps taken to eliminate such practices when discovered. | Pε Product Practices Aspect B5: Supply Chain Management | General Disclosure: Policies on managing environmental and social risks of the supply chain. | P34-P36 B5.1 | Number of suppliers by geographical region. | P34 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | P34-P35 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | P34-P35 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | P34",
+      "retrieval_text": "[Section]\nAppendix / Outlook 2022\n\n[Content]\nMajor category | Content | Location B3.1 | category (e.g. senior management, middle management). The percentage of employees trained by gender and employee | P41 B3.2 | The average training hours completed per employee by gender and employee category. | P41 Aspect B4: Labor Standards | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labor. | P39 B4.1 | Description of measures to review employment practices to avoid child and forced labor. B4.2 | Description of steps taken to eliminate such practices when discovered. | Pε Product Practices Aspect B5: Supply Chain Management | General Disclosure: Policies on managing environmental and social risks of the supply chain. | P34-P36 B5.1 | Number of suppliers by geographical region. | P34 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | P34-P35 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | P34-P35 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | P34",
+      "bm25_rank": null,
+      "dense_rank": 10,
+      "bm25_score": null,
+      "dense_score": 0.40216630697250366,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4779120480904619,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.35518867991891,
+      "rank": 26,
+      "rrf_score": 0.35518867991891,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_004",
+      "alias_source_ids": [
+        "P18_004"
+      ],
+      "section": "Green charity / 【Spotlight】Jinmao Services·Focus",
+      "pages": [
+        18
+      ],
+      "text": "We have formulated policies including the Measures for Safety Management, the Measures for Fire Safety Management, and the Measures for Electrical Safety Management to make clear all work safety processes and methods, and strictly supervise their implementation. Aligning with the HSE management system of Sinochem Holdings and China Jinmao, our HSE management system features high standards and strong control, protecting the safety of customers with full-range safety management without escape corner.",
+      "retrieval_text": "[Section]\nGreen charity / 【Spotlight】Jinmao Services·Focus\n\n[Content]\nWe have formulated policies including the Measures for Safety Management, the Measures for Fire Safety Management, and the Measures for Electrical Safety Management to make clear all work safety processes and methods, and strictly supervise their implementation. Aligning with the HSE management system of Sinochem Holdings and China Jinmao, our HSE management system features high standards and strong control, protecting the safety of customers with full-range safety management without escape corner.",
+      "bm25_rank": 77,
+      "dense_rank": 28,
+      "bm25_score": 2.165886402130127,
+      "dense_score": 0.36876386404037476,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.01050323538803181,
+      "normalized_dense": 0.33957692755821234,
+      "normalized_bm25_rank": 0.4899328859060402,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.3337042495753297,
+      "rank": 27,
+      "rrf_score": 0.3337042495753297,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L5_004",
+      "alias_source_ids": [
+        "L5_004"
+      ],
+      "section": "About Us / Company Profile",
+      "pages": [
+        5
+      ],
+      "text": "Building excellent customer-oriented scenario design and stable service capabilities",
+      "retrieval_text": "[Section]\nAbout Us / Company Profile\n\n[Content]\nBuilding excellent customer-oriented scenario design and stable service capabilities",
+      "bm25_rank": 48,
+      "dense_rank": 36,
+      "bm25_score": 3.492412805557251,
+      "dense_score": 0.3585062026977539,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.037513463504163895,
+      "normalized_dense": 0.297095159949366,
+      "normalized_bm25_rank": 0.6845637583892618,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.332962508750225,
+      "rank": 28,
+      "rrf_score": 0.332962508750225,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_011",
+      "alias_source_ids": [
+        "P13_011"
+      ],
+      "section": "Customer satisfaction / Digital scenario empowerment,",
+      "pages": [
+        13
+      ],
+      "text": "We help address hot and key problems forowners with high -rise littering recognition and intelligent trash.",
+      "retrieval_text": "[Section]\nCustomer satisfaction / Digital scenario empowerment,\n\n[Content]\nWe help address hot and key problems forowners with high -rise littering recognition and intelligent trash.",
+      "bm25_rank": 31,
+      "dense_rank": 46,
+      "bm25_score": 6.690971851348877,
+      "dense_score": 0.347385048866272,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10264131112675805,
+      "normalized_dense": 0.2510372665533128,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.697986577181208,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.3278543927673333,
+      "rank": 29,
+      "rrf_score": 0.3278543927673333,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_003",
+      "alias_source_ids": [
+        "P13_003"
+      ],
+      "section": "Customer satisfaction / Digital scenario empowerment,",
+      "pages": [
+        13
+      ],
+      "text": "We ensure smooth and safe elevator operation through integration of support. multiple functions including equipment monitoring and Al algorithm",
+      "retrieval_text": "[Section]\nCustomer satisfaction / Digital scenario empowerment,\n\n[Content]\nWe ensure smooth and safe elevator operation through integration of support. multiple functions including equipment monitoring and Al algorithm",
+      "bm25_rank": 58,
+      "dense_rank": 37,
+      "bm25_score": 3.0810868740081787,
+      "dense_score": 0.3579464256763458,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.02913820070312359,
+      "normalized_dense": 0.2947768617971914,
+      "normalized_bm25_rank": 0.6174496644295302,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.322422360561588,
+      "rank": 30,
+      "rrf_score": 0.322422360561588,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_001",
+      "alias_source_ids": [
+        "P16_001"
+      ],
+      "section": "Green Operation to Safeguard Environment",
+      "pages": [
+        16
+      ],
+      "text": "In line with the philosophy of \"lucid waters and lush mountains are invaluable assets\", we carry out operation activities with a responsible environmental attitude, continuously raise our awareness of green management, and keep exploring the path to low-carbon property development.",
+      "retrieval_text": "[Section]\nGreen Operation to Safeguard Environment\n\n[Content]\nIn line with the philosophy of \"lucid waters and lush mountains are invaluable assets\", we carry out operation activities with a responsible environmental attitude, continuously raise our awareness of green management, and keep exploring the path to low-carbon property development.",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.3858591914176941,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.41037666451412874,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.32215532251283097,
+      "rank": 31,
+      "rrf_score": 0.32215532251283097,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L16_004",
+      "alias_source_ids": [
+        "L16_004"
+      ],
+      "section": "Green Operation to Safeguard Environment",
+      "pages": [
+        16
+      ],
+      "text": "The statistical scope includes Jinmao Services Shanghai (Jin Mao Tower), the central city subsidiaries of Jinmao Services in Shanghai, Qingdao, Nanjing, Chongqing, Changsha, Fuzhou, Guangzhou, Chongqing, and Beijing as well as Beijing Office Building Management Center.",
+      "retrieval_text": "[Section]\nGreen Operation to Safeguard Environment\n\n[Content]\nThe statistical scope includes Jinmao Services Shanghai (Jin Mao Tower), the central city subsidiaries of Jinmao Services in Shanghai, Qingdao, Nanjing, Chongqing, Changsha, Fuzhou, Guangzhou, Chongqing, and Beijing as well as Beijing Office Building Management Center.",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.3827803134918213,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.39762559268848036,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3123233198570755,
+      "rank": 32,
+      "rrf_score": 0.3123233198570755,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_002",
+      "alias_source_ids": [
+        "P31_002"
+      ],
+      "section": "Reader Feedback",
+      "pages": [
+        31
+      ],
+      "text": "1.Your overall evaluation of this report.",
+      "retrieval_text": "[Section]\nReader Feedback\n\n[Content]\n1.Your overall evaluation of this report.",
+      "bm25_rank": 19,
+      "dense_rank": 59,
+      "bm25_score": 9.314652442932129,
+      "dense_score": 0.3352777659893036,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15606370143836198,
+      "normalized_dense": 0.20089535209793455,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.610738255033557,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.31159322761590924,
+      "rank": 33,
+      "rrf_score": 0.31159322761590924,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_006",
+      "alias_source_ids": [
+        "P17_006"
+      ],
+      "section": "Waste discharge* / Response to climate change",
+      "pages": [
+        17
+      ],
+      "text": "*The statistical scope covers hazardous and non-hazardous wastes generated by all the projects of Jinmao Services' subsidiaries in Shanghai, Beijing, Guangzhou, Nanjing, Qingdao, Changsha and Chongqing, Jinmao (Shanghai) Property Service Co., Ltd. as well as the administrative work lines of the Company. Our non-hazardous wastes mainly include paper and kitchen waste. Our hazardous wastes mainly include mercury-containing fluorescent lamps or energy-saving lamps, waste toner cartridges and ink car tridges, waste electronic and electrical equipment, waste batteries, and paint barrels.",
+      "retrieval_text": "[Section]\nWaste discharge* / Response to climate change\n\n[Content]\n*The statistical scope covers hazardous and non-hazardous wastes generated by all the projects of Jinmao Services' subsidiaries in Shanghai, Beijing, Guangzhou, Nanjing, Qingdao, Changsha and Chongqing, Jinmao (Shanghai) Property Service Co., Ltd. as well as the administrative work lines of the Company. Our non-hazardous wastes mainly include paper and kitchen waste. Our hazardous wastes mainly include mercury-containing fluorescent lamps or energy-saving lamps, waste toner cartridges and ink car tridges, waste electronic and electrical equipment, waste batteries, and paint barrels.",
+      "bm25_rank": null,
+      "dense_rank": 22,
+      "bm25_score": null,
+      "dense_score": 0.3820536136627197,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3946159892096631,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.30992767676029487,
+      "rank": 34,
+      "rrf_score": 0.30992767676029487,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L21_001",
+      "alias_source_ids": [
+        "L21_001"
+      ],
+      "section": "Exploring an innovative property management mode with Sinochem Lantian",
+      "pages": [
+        21
+      ],
+      "text": "Transparent procurement: We have revised the Measures for the Management of Bidding Procurement to standardize the bid and procurement system and optimize the Transparent Bidding Procurement Platform and Material Procurement Platform to ensure a transparent procurement system. We sign the Transparent Bidding Procurement Agreementwith suppliers to strengthen integrity risk management of suppliers. Under the same conditions, priority is given to eco-friendly, energy-efficient products.",
+      "retrieval_text": "[Section]\nExploring an innovative property management mode with Sinochem Lantian\n\n[Content]\nTransparent procurement: We have revised the Measures for the Management of Bidding Procurement to standardize the bid and procurement system and optimize the Transparent Bidding Procurement Platform and Material Procurement Platform to ensure a transparent procurement system. We sign the Transparent Bidding Procurement Agreementwith suppliers to strengthen integrity risk management of suppliers. Under the same conditions, priority is given to eco-friendly, energy-efficient products.",
+      "bm25_rank": 16,
+      "dense_rank": 73,
+      "bm25_score": 15.744750022888184,
+      "dense_score": 0.3262697458267212,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.28699091253261394,
+      "normalized_dense": 0.16358893240043526,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.5167785234899329,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.30794289945070197,
+      "rank": 35,
+      "rrf_score": 0.30794289945070197,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T30_002",
+      "alias_source_ids": [
+        "T30_002"
+      ],
+      "section": "Appendix / Outlook 2022",
+      "pages": [
+        30
+      ],
+      "text": "Major category | Content | Location Responsibility Aspect B6: Product | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | P13-P20 B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Not applicable. Explanation completed. B6.2 | Number of products and service related complaints received and how they are dealt with. | P20 B6.3 | Description of practices relating to observing and protecting intellectual property rights. | P8 B6.4 | Description of quality assurance process and recall procedures. | Not applicable. Explanation completed B6.5 | Description of consumer data protection and privacy policies, and how they are implemented and monitored. | P20 Aspect B7: Anti-corruption | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | P8 B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | P8 B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | P8 B7.3 | Description of anti-corruption training provided to directors and staff. | P8",
+      "retrieval_text": "[Section]\nAppendix / Outlook 2022\n\n[Content]\nMajor category | Content | Location Responsibility Aspect B6: Product | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | P13-P20 B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Not applicable. Explanation completed. B6.2 | Number of products and service related complaints received and how they are dealt with. | P20 B6.3 | Description of practices relating to observing and protecting intellectual property rights. | P8 B6.4 | Description of quality assurance process and recall procedures. | Not applicable. Explanation completed B6.5 | Description of consumer data protection and privacy policies, and how they are implemented and monitored. | P20 Aspect B7: Anti-corruption | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | P8 B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | P8 B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | P8 B7.3 | Description of anti-corruption training provided to directors and staff. | P8",
+      "bm25_rank": null,
+      "dense_rank": 26,
+      "bm25_score": null,
+      "dense_score": 0.3712289333343506,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.34978593109113926,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.28886802890203295,
+      "rank": 36,
+      "rrf_score": 0.28886802890203295,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_008",
+      "alias_source_ids": [
+        "P4_008"
+      ],
+      "section": "About the Report / Message",
+      "pages": [
+        4
+      ],
+      "text": "This report is prepared mainly with reference to the Guidance on Social Responsibility Reporting (GB/T 36001-2015) and Environmental, Social and Governance Reporting Guide (ESG Reporting Guide) issued by The Stock Exchange of Hong Kong Ltd.(SEHK), and follows the reporting principles of \"materiality\", \"quantitative\", and \"consistency\".",
+      "retrieval_text": "[Section]\nAbout the Report / Message\n\n[Content]\nThis report is prepared mainly with reference to the Guidance on Social Responsibility Reporting (GB/T 36001-2015) and Environmental, Social and Governance Reporting Guide (ESG Reporting Guide) issued by The Stock Exchange of Hong Kong Ltd.(SEHK), and follows the reporting principles of \"materiality\", \"quantitative\", and \"consistency\".",
+      "bm25_rank": null,
+      "dense_rank": 27,
+      "bm25_score": null,
+      "dense_score": 0.3708589971065521,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.34825385235169704,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.28698951946403356,
+      "rank": 37,
+      "rrf_score": 0.28698951946403356,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_004",
+      "alias_source_ids": [
+        "P28_004"
+      ],
+      "section": "Appendix / Outlook 2022",
+      "pages": [
+        28
+      ],
+      "text": "We will fully implement environmental protection and apply advanced environmental technologies to strengthen integrated energy management, improve resource use efficiency and reduce waste emissions. We will also promote green office and green operation, and actively respond to international issues including global climate change.",
+      "retrieval_text": "[Section]\nAppendix / Outlook 2022\n\n[Content]\nWe will fully implement environmental protection and apply advanced environmental technologies to strengthen integrated energy management, improve resource use efficiency and reduce waste emissions. We will also promote green office and green operation, and actively respond to international issues including global climate change.",
+      "bm25_rank": null,
+      "dense_rank": 29,
+      "bm25_score": null,
+      "dense_score": 0.3673853874206543,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3338680119041271,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.27926991154899483,
+      "rank": 38,
+      "rrf_score": 0.27926991154899483,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_001",
+      "alias_source_ids": [
+        "P31_001"
+      ],
+      "section": "Reader Feedback",
+      "pages": [
+        31
+      ],
+      "text": "Dear readers, thank you very much for reading Jinmao Services ESG Report 2021. To continuously improve our ESG reporting preparation, we hope to receive your comments and suggestions. Please help answer the following questions in the feedback form and send it back by mail or email. We sincerely thank you for your valuable comments!",
+      "retrieval_text": "[Section]\nReader Feedback\n\n[Content]\nDear readers, thank you very much for reading Jinmao Services ESG Report 2021. To continuously improve our ESG reporting preparation, we hope to receive your comments and suggestions. Please help answer the following questions in the feedback form and send it back by mail or email. We sincerely thank you for your valuable comments!",
+      "bm25_rank": null,
+      "dense_rank": 30,
+      "bm25_score": null,
+      "dense_score": 0.3671494126319885,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.33289073006582026,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.27758558102639275,
+      "rank": 39,
+      "rrf_score": 0.27758558102639275,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_001",
+      "alias_source_ids": [
+        "P21_001"
+      ],
+      "section": "Exploring an innovative property management mode with Sinochem Lantian",
+      "pages": [
+        21
+      ],
+      "text": "In 2021, we assessed 737 suppliers.",
+      "retrieval_text": "[Section]\nExploring an innovative property management mode with Sinochem Lantian\n\n[Content]\nIn 2021, we assessed 737 suppliers.",
+      "bm25_rank": null,
+      "dense_rank": 31,
+      "bm25_score": null,
+      "dense_score": 0.3652256429195404,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.32492350097456646,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.27345476896525933,
+      "rank": 40,
+      "rrf_score": 0.27345476896525933,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L18_001",
+      "alias_source_ids": [
+        "L18_001"
+      ],
+      "section": "Green charity / 【Spotlight】Jinmao Services·Focus",
+      "pages": [
+        18
+      ],
+      "text": "Work safety management: Under a three-tier control mode of \"Headquarters-Central City Subsidiary two certified safety engineers/certified fire engineers or professional fire electromechanical engineers -Project\", the HSE department of the Headquarters and central city subsidiaries is equipped with at least to strengthen the main responsibilities of safety at all levels.",
+      "retrieval_text": "[Section]\nGreen charity / 【Spotlight】Jinmao Services·Focus\n\n[Content]\nWork safety management: Under a three-tier control mode of \"Headquarters-Central City Subsidiary two certified safety engineers/certified fire engineers or professional fire electromechanical engineers -Project\", the HSE department of the Headquarters and central city subsidiaries is equipped with at least to strengthen the main responsibilities of safety at all levels.",
+      "bm25_rank": null,
+      "dense_rank": 32,
+      "bm25_score": null,
+      "dense_score": 0.3644014000892639,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3215099263595054,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.2709177359707933,
+      "rank": 41,
+      "rrf_score": 0.2709177359707933,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_003",
+      "alias_source_ids": [
+        "P10_003"
+      ],
+      "section": "Service Upgrade to Build a Better Home",
+      "pages": [
+        10
+      ],
+      "text": "In November 2021, the White Book on the Development of High-end Property Services jointly compiled by Jinmao Services and Beijing China Index Academy (CIA) was officially released at the 2021 China Real Estate Brand Value Research Release Conference cum 18th China Real Estate Brand Development Summit Forum. Combined with the evaluation model for high-end property services, ClA judged several indicators, setting Jinmao Services asa benchmarkinthehigh-end property service industry.",
+      "retrieval_text": "[Section]\nService Upgrade to Build a Better Home\n\n[Content]\nIn November 2021, the White Book on the Development of High-end Property Services jointly compiled by Jinmao Services and Beijing China Index Academy (CIA) was officially released at the 2021 China Real Estate Brand Value Research Release Conference cum 18th China Real Estate Brand Development Summit Forum. Combined with the evaluation model for high-end property services, ClA judged several indicators, setting Jinmao Services asa benchmarkinthehigh-end property service industry.",
+      "bm25_rank": null,
+      "dense_rank": 34,
+      "bm25_score": null,
+      "dense_score": 0.36296164989471436,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.31554724820737035,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.2661462348591568,
+      "rank": 42,
+      "rrf_score": 0.2661462348591568,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_017",
+      "alias_source_ids": [
+        "P13_017"
+      ],
+      "section": "Customer satisfaction / Digital scenario empowerment,",
+      "pages": [
+        13
+      ],
+      "text": "In 2021, the customer complaints handling rate was 100% and the complaints closure rate (principal responsibility) was 98.2%.",
+      "retrieval_text": "[Section]\nCustomer satisfaction / Digital scenario empowerment,\n\n[Content]\nIn 2021, the customer complaints handling rate was 100% and the complaints closure rate (principal responsibility) was 98.2%.",
+      "bm25_rank": 57,
+      "dense_rank": 57,
+      "bm25_score": 3.1144332885742188,
+      "dense_score": 0.33678027987480164,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.029817187764336152,
+      "normalized_dense": 0.2071179640150954,
+      "normalized_bm25_rank": 0.6241610738255033,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 57,
+      "composite_score": 0.2657030471058016,
+      "rank": 43,
+      "rrf_score": 0.2657030471058016,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_014",
+      "alias_source_ids": [
+        "P4_014"
+      ],
+      "section": "About the Report / Message",
+      "pages": [
+        4
+      ],
+      "text": "To be a responsible business in the new era, we are committed to enhancing people's well-being and realizing co-development and common prosperity with communities, cities and the society. We express our care for communities through launching campaigns for the elderly, parent-child and left-behind kids. In terms of emergency rescue and disaster relief, we have fought COvID-19 and Zhengzhou flood. To help rural vitalization, we have sold agricultural products for Ar Horqin Banner and Linxi County, Inner Mongolia, returning to society with concrete action.",
+      "retrieval_text": "[Section]\nAbout the Report / Message\n\n[Content]\nTo be a responsible business in the new era, we are committed to enhancing people's well-being and realizing co-development and common prosperity with communities, cities and the society. We express our care for communities through launching campaigns for the elderly, parent-child and left-behind kids. In terms of emergency rescue and disaster relief, we have fought COvID-19 and Zhengzhou flood. To help rural vitalization, we have sold agricultural products for Ar Horqin Banner and Linxi County, Inner Mongolia, returning to society with concrete action.",
+      "bm25_rank": 44,
+      "dense_rank": 63,
+      "bm25_score": 3.9704487323760986,
+      "dense_score": 0.3313217759132385,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04724704995802225,
+      "normalized_dense": 0.18451174910491944,
+      "normalized_bm25_rank": 0.7114093959731543,
+      "normalized_dense_rank": 0.5838926174496644,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 44,
+      "composite_score": 0.26194798526557456,
+      "rank": 44,
+      "rrf_score": 0.26194798526557456,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_009",
+      "alias_source_ids": [
+        "P6_009"
+      ],
+      "section": "Organizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST",
+      "pages": [
+        6
+      ],
+      "text": "By the end of 2021, the Company had 175 projects under management in48 cities, covering an area of 36.42 million square meters. In 2021, the Company had total assets of RMB 1.359 billion, operating income of RMB 1.516 bllion, and profits before tax of RMB 248 million.",
+      "retrieval_text": "[Section]\nOrganizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST\n\n[Content]\nBy the end of 2021, the Company had 175 projects under management in48 cities, covering an area of 36.42 million square meters. In 2021, the Company had total assets of RMB 1.359 billion, operating income of RMB 1.516 bllion, and profits before tax of RMB 248 million.",
+      "bm25_rank": 70,
+      "dense_rank": 55,
+      "bm25_score": 2.5489306449890137,
+      "dense_score": 0.3385765552520752,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.01830263715754059,
+      "normalized_dense": 0.2145571795038894,
+      "normalized_bm25_rank": 0.5369127516778524,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 55,
+      "composite_score": 0.2599635939491446,
+      "rank": 45,
+      "rrf_score": 0.2599635939491446,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_014",
+      "alias_source_ids": [
+        "P13_014"
+      ],
+      "section": "Customer satisfaction / Digital scenario empowerment,",
+      "pages": [
+        13
+      ],
+      "text": "To protect customer privacy and avoid information theft or leakage caused by work faults, we have developed rules and regulations including the Information Security Management Handbook and the Measures for the Protection and Management of Users'Personal Information, stipulating normative requirements to user data acquisition, storage and disposal. In all privacy statements of products for customers, we also specify data acquisition and disposal.",
+      "retrieval_text": "[Section]\nCustomer satisfaction / Digital scenario empowerment,\n\n[Content]\nTo protect customer privacy and avoid information theft or leakage caused by work faults, we have developed rules and regulations including the Information Security Management Handbook and the Measures for the Protection and Management of Users'Personal Information, stipulating normative requirements to user data acquisition, storage and disposal. In all privacy statements of products for customers, we also specify data acquisition and disposal.",
+      "bm25_rank": 79,
+      "dense_rank": 53,
+      "bm25_score": 2.1097540855407715,
+      "dense_score": 0.34145358204841614,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.009360290421502366,
+      "normalized_dense": 0.22647229150497947,
+      "normalized_bm25_rank": 0.47651006711409394,
+      "normalized_dense_rank": 0.651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 53,
+      "composite_score": 0.25898970910433194,
+      "rank": 46,
+      "rrf_score": 0.25898970910433194,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T16_001",
+      "alias_source_ids": [
+        "T16_001"
+      ],
+      "section": "Green Operation to Safeguard Environment",
+      "pages": [
+        16
+      ],
+      "text": "Indicator | Goal | Performance Environmental accident/ Incident control goal | Zero general or above environmental incident | Zero general or above environmental incident COD emissions (ton) | <85 | 69.38",
+      "retrieval_text": "[Section]\nGreen Operation to Safeguard Environment\n\n[Content]\nIndicator | Goal | Performance Environmental accident/ Incident control goal | Zero general or above environmental incident | Zero general or above environmental incident COD emissions (ton) | <85 | 69.38",
+      "bm25_rank": null,
+      "dense_rank": 38,
+      "bm25_score": null,
+      "dense_score": 0.3572348654270172,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.2918299583908495,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.252476055906596,
+      "rank": 47,
+      "rrf_score": 0.252476055906596,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_002",
+      "alias_source_ids": [
+        "P6_002"
+      ],
+      "section": "Organizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST",
+      "pages": [
+        6
+      ],
+      "text": "High tier·High quality·High customer base We constantly deliver premium services around high-end cities and high-quality projects and adhere to \"customer-centric\" to achieve a virtuous circle at a high level of \"high customer satisfaction - high renewal rate - high payment rate - high pricing power - high level of service input - high satisfaction\" and continuously gain customer reputation. Service quality highlights brand value",
+      "retrieval_text": "[Section]\nOrganizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST\n\n[Content]\nHigh tier·High quality·High customer base We constantly deliver premium services around high-end cities and high-quality projects and adhere to \"customer-centric\" to achieve a virtuous circle at a high level of \"high customer satisfaction - high renewal rate - high payment rate - high pricing power - high level of service input - high satisfaction\" and continuously gain customer reputation. Service quality highlights brand value",
+      "bm25_rank": 35,
+      "dense_rank": 75,
+      "bm25_score": 5.557862758636475,
+      "dense_score": 0.32586240768432617,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0795693730216777,
+      "normalized_dense": 0.16190195485989742,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.5033557046979866,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.25043190779858826,
+      "rank": 48,
+      "rrf_score": 0.25043190779858826,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_013",
+      "alias_source_ids": [
+        "P4_013"
+      ],
+      "section": "About the Report / Message",
+      "pages": [
+        4
+      ],
+      "text": "We make determined endeavors to uphold the concept of green and sustainable development, helping restore the ecological environment and caring for health and safety. We have developed an array of policies for and improved the system of environmental management. In positive response to China's 30·60 Decarbonization Goal, we strive to minimize the possible greenhouse gas (GHG) emissions from operational activities. We channel great efforts in green office and ear n ns g r safe operation as a priority task and resolutely practice the regular COvID-19 response requirements to build a defense line of health across the country, demonstrating our responsibility.",
+      "retrieval_text": "[Section]\nAbout the Report / Message\n\n[Content]\nWe make determined endeavors to uphold the concept of green and sustainable development, helping restore the ecological environment and caring for health and safety. We have developed an array of policies for and improved the system of environmental management. In positive response to China's 30·60 Decarbonization Goal, we strive to minimize the possible greenhouse gas (GHG) emissions from operational activities. We channel great efforts in green office and ear n ns g r safe operation as a priority task and resolutely practice the regular COvID-19 response requirements to build a defense line of health across the country, demonstrating our responsibility.",
+      "bm25_rank": null,
+      "dense_rank": 39,
+      "bm25_score": null,
+      "dense_score": 0.3567068874835968,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.28964335507594113,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.2503684628671834,
+      "rank": 49,
+      "rrf_score": 0.2503684628671834,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T19_001",
+      "alias_source_ids": [
+        "T19_001"
+      ],
+      "section": "「Occupational health and safety",
+      "pages": [
+        19
+      ],
+      "text": "2019 | 2020 | 2021 Work-related fatalities (headcount) | 0 | 0 | 0 Percentage of work-related fatalities (%) | 0 | 0 | 0 Lost days due to work injury (day)* | 237 | 502 | 453",
+      "retrieval_text": "[Section]\n「Occupational health and safety\n\n[Content]\n2019 | 2020 | 2021 Work-related fatalities (headcount) | 0 | 0 | 0 Percentage of work-related fatalities (%) | 0 | 0 | 0 Lost days due to work injury (day)* | 237 | 502 | 453",
+      "bm25_rank": 9,
+      "dense_rank": null,
+      "bm25_score": 21.769956588745117,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.40967388617728684,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.17656564971867886,
+      "rank": 50,
+      "rrf_score": 0.17656564971867886,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

@@ -1,0 +1,1554 @@
+{
+  "document_id": "2022051200815",
+  "metric_id": 29,
+  "metric_name": "客户隐私保护政策",
+  "query": "客户隐私保护政策 客户隐私保护政策 衡量企业在个人信息收集、使用、存储和共享方面的治理水平。重点考察“最小必要”原则的落地、用户授权机制、数据留存期限、第三方共享管理及隐私安全事件的应急响应。 一、内容质量得分 (权重 50%，取值：0, 1, 2) • 2分（卓越）：具备完善的隐私政策，严格遵循“最小必要”原则；建立了动态授权与撤回机制；明确了数据留存与销毁时限；对第三方数据共享有严苛的审计要求，并披露了具体的隐私漏洞响应与补偿机制。 • 1分（合格）：有正式的隐私政策及用户协议，包含基础的收集与使用告知，具备数据加密等保护措施，但缺乏深度的第三方穿透管理、明确的留存期限或用户撤回授权的操作指南。 • 0分（不合格）：无正式隐私政策披露，或仅有笼统的“重视信息安全”表述。 二、覆盖应用得分 (权重 50%，取值：0, 1, 2) • 2分（高覆盖）：隐私保护机制覆盖 >80% 的业务线、APP/平台终端及经营地区，且通过了相关的外部审计（如 ISO 27701）。 • 1分（部分覆盖）：占比 >0% - 80%，或仅核心 APP 具备政策而其他子业务线存在盲区，或未披露具体覆盖比例。 • 0分（无覆盖）：无相关覆盖范围信息。 隐私政策 个人信息保护 最小必要 用户授权 数据留存 第三方共享 隐私事件响应 撤回同意 个人信息保护法 PIPL GDPR ISO 27701 privacy policy personal data protection data minimization user consent data retention third-party sharing privacy incident response PIPL GDPR ISO 27701 是否有正式客户/用户隐私政策或用户协议？ 是否披露个人信息收集和使用告知、最小必要原则及用户授权机制？ 用户能否撤回同意、注销账户、访问、更正或删除个人信息？ 是否采用数据加密、脱敏或访问控制？ 数据留存与销毁时限如何规定？ 第三方共享及SDK如何审核和约束？ 隐私事件响应、补偿、外部认证及覆盖范围是什么？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '客户隐私保护政策'. Prefer explicit, auditable disclosure that answers: 是否有正式客户/用户隐私政策或用户协议？ 是否披露个人信息收集和使用告知、最小必要原则及用户授权机制？ 用户能否撤回同意、注销账户、访问、更正或删除个人信息？ 是否采用数据加密、脱敏或访问控制？ 数据留存与销毁时限如何规定？ 第三方共享及SDK如何审核和约束？ 隐私事件响应、补偿、外部认证及覆盖范围是什么？ Exclude or down-rank: 排除：仅有笼统“重视信息安全”；仅有网络安全防火墙描述；仅有员工个人信息内控；仅有ISO 27001证书而无隐私政策要点；区分：客户隐私保护政策关注个人信息收集使用共享与用户权利；网络安全风险管理关注攻击监测拦截与应急；治理指标关注董事会层面网络风险监督，不能互相替代。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 199,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P20_002",
+      "alias_source_ids": [
+        "P20_002"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "The Group handles and processes customers' information with great attention to protect personal data and privacy. In Sun Ferry, a Privacy Policy is in place aligning with the Personal Data (Privacy) Ordinance to ensure customers' personal data will be gathered and stored in the Group's database in an appropriate and secure manner. Without the Group's consent, all employees are prohibited to disclose any confidential information to others. We also hire professional third party to collect and destroy confidential documents.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nThe Group handles and processes customers' information with great attention to protect personal data and privacy. In Sun Ferry, a Privacy Policy is in place aligning with the Personal Data (Privacy) Ordinance to ensure customers' personal data will be gathered and stored in the Group's database in an appropriate and secure manner. Without the Group's consent, all employees are prohibited to disclose any confidential information to others. We also hire professional third party to collect and destroy confidential documents.",
+      "bm25_rank": 4,
+      "dense_rank": 1,
+      "bm25_score": 35.98381423950195,
+      "dense_score": 0.5856521129608154,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6703242938232032,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 1.0,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 1,
+      "composite_score": 0.8120514359458488,
+      "rank": 1,
+      "rrf_score": 0.8120514359458488,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_001",
+      "alias_source_ids": [
+        "P20_001"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "The Group emphasises safeguarding the privacy and confidentiality of customers' information by strictly aligning with the Management Measures for Brand Building to regulate the information dissemination of the Group. Our businesses in Hong Kong and Guangzhou have obtained certification from ISO27001 Information Security Management System. Customers' information is kept strictly confidential within the Group since we have installed a solid system to secure information entrusted to us. The Group strictly follows the designated internal departments that are assigned for the approval and dissemination of the Group's information to ensure they are authentic and accurate.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nThe Group emphasises safeguarding the privacy and confidentiality of customers' information by strictly aligning with the Management Measures for Brand Building to regulate the information dissemination of the Group. Our businesses in Hong Kong and Guangzhou have obtained certification from ISO27001 Information Security Management System. Customers' information is kept strictly confidential within the Group since we have installed a solid system to secure information entrusted to us. The Group strictly follows the designated internal departments that are assigned for the approval and dissemination of the Group's information to ensure they are authentic and accurate.",
+      "bm25_rank": 9,
+      "dense_rank": 2,
+      "bm25_score": 16.217018127441406,
+      "dense_score": 0.5614057183265686,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2825814486393586,
+      "normalized_dense": 0.923448855925597,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6730119799058575,
+      "rank": 2,
+      "rrf_score": 0.6730119799058575,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T31_001",
+      "alias_source_ids": [
+        "T31_001"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        31
+      ],
+      "text": "Law and Regulations 14 PRODUCT RESPONSIBILITY Mainland China ‧ Product Quality Law of the People's Republic of China ‧ Law of the People's Republic of China on Import and Export Commodity Inspection ‧ Law of the People's Republic of China on the Protection of Consumer Rights and Interests | Kong Cap. 486 Personal Data (Privacy) Ordinance Cap. 456 Consumer Goods Safety Ordinance Hong ‧ ‧ ‧ Cap. | 362 Trade Descriptions Ordinance Macao ‧ Act | Law No. 8/2005 Personal Data Protection ANTI-CORRUPTION Mainland ‧ Criminal ‧ Anti-Unfair ‧ The ‧ Supervision ‧ Interim | China Law of the People's Republic of China Competition Law of the People's Republic of China Bidding Law of the People's Republic of China Law of the People's Republic of China Provisions on Banning Commercial Bribery Hong Kong ‧ | Cap. 201 Prevention of Bribery Ordinance",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nLaw and Regulations 14 PRODUCT RESPONSIBILITY Mainland China ‧ Product Quality Law of the People's Republic of China ‧ Law of the People's Republic of China on Import and Export Commodity Inspection ‧ Law of the People's Republic of China on the Protection of Consumer Rights and Interests | Kong Cap. 486 Personal Data (Privacy) Ordinance Cap. 456 Consumer Goods Safety Ordinance Hong ‧ ‧ ‧ Cap. | 362 Trade Descriptions Ordinance Macao ‧ Act | Law No. 8/2005 Personal Data Protection ANTI-CORRUPTION Mainland ‧ Criminal ‧ Anti-Unfair ‧ The ‧ Supervision ‧ Interim | China Law of the People's Republic of China Competition Law of the People's Republic of China Bidding Law of the People's Republic of China Law of the People's Republic of China Provisions on Banning Commercial Bribery Hong Kong ‧ | Cap. 201 Prevention of Bribery Ordinance",
+      "bm25_rank": 5,
+      "dense_rank": 8,
+      "bm25_score": 23.342496871948242,
+      "dense_score": 0.4258517026901245,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4223538925917884,
+      "normalized_dense": 0.4954753308971552,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 5,
+      "composite_score": 0.5758066074196103,
+      "rank": 3,
+      "rrf_score": 0.5758066074196103,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_004",
+      "alias_source_ids": [
+        "P20_004"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "During the Reporting Period, the Group did not encounter any cases of infringement of laws and regulations related to data privacy and security as well as intellectual property rights.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nDuring the Reporting Period, the Group did not encounter any cases of infringement of laws and regulations related to data privacy and security as well as intellectual property rights.",
+      "bm25_rank": 6,
+      "dense_rank": 4,
+      "bm25_score": 20.098915100097656,
+      "dense_score": 0.4600849151611328,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3587282236834901,
+      "normalized_dense": 0.6035570320955821,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5756080556345813,
+      "rank": 4,
+      "rrf_score": 0.5756080556345813,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T34_002",
+      "alias_source_ids": [
+        "T34_002"
+      ],
+      "section": "Appendix 2 Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        34
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks KPI B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 6.3 KPI B6.4 | Description of quality assurance process and recall procedures. | 6.1 * Due to the Group's business nature, recall procedure is not applicable to the Group. KPI B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 6.3 Aspect B7: Anti-Corruption General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | 3.1, Appendix 1 KPI B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | 3.1 KPI B7.2 | Description of preventive measures and whistle- blowing procedures, how they are implemented and monitored. | 3.1 KPI B7.3 | Description of anti-corruption training provided to directors and staff. | 3.1 Aspect B8: Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | 8 KPI B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | 8 KPI B8.2 | Resources contributed (e.g. money or time) to the focus area. | 8",
+      "retrieval_text": "[Section]\nAppendix 2 Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks KPI B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 6.3 KPI B6.4 | Description of quality assurance process and recall procedures. | 6.1 * Due to the Group's business nature, recall procedure is not applicable to the Group. KPI B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 6.3 Aspect B7: Anti-Corruption General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | 3.1, Appendix 1 KPI B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | 3.1 KPI B7.2 | Description of preventive measures and whistle- blowing procedures, how they are implemented and monitored. | 3.1 KPI B7.3 | Description of anti-corruption training provided to directors and staff. | 3.1 Aspect B8: Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | 8 KPI B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | 8 KPI B8.2 | Resources contributed (e.g. money or time) to the focus area. | 8",
+      "bm25_rank": 17,
+      "dense_rank": 3,
+      "bm25_score": 11.583893775939941,
+      "dense_score": 0.4812934696674347,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19169869718295854,
+      "normalized_dense": 0.6705170538271668,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.5595978894841538,
+      "rank": 5,
+      "rrf_score": 0.5595978894841538,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_003",
+      "alias_source_ids": [
+        "P20_003"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "As for intellectual property rights, we have developed the Computer User Handbook to ensure the use of authentic software. We also ensure our advertisements would not against intellectual property rights by requesting the advertising company to follow the practices.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nAs for intellectual property rights, we have developed the Computer User Handbook to ensure the use of authentic software. We also ensure our advertisements would not against intellectual property rights by requesting the advertising company to follow the practices.",
+      "bm25_rank": 19,
+      "dense_rank": 5,
+      "bm25_score": 11.345075607299805,
+      "dense_score": 0.4525434970855713,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18701407172999387,
+      "normalized_dense": 0.5797471341566859,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.5228646468713086,
+      "rank": 6,
+      "rrf_score": 0.5228646468713086,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_009",
+      "alias_source_ids": [
+        "P20_009"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "During the Reporting Period, the number and percentage of our suppliers 2 by geographical region are as follows:",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nDuring the Reporting Period, the number and percentage of our suppliers 2 by geographical region are as follows:",
+      "bm25_rank": 11,
+      "dense_rank": 9,
+      "bm25_score": 15.834586143493652,
+      "dense_score": 0.4189155399799347,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27507971367408873,
+      "normalized_dense": 0.4735763558552629,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.5033180028546296,
+      "rank": 7,
+      "rrf_score": 0.5033180028546296,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T28_002",
+      "alias_source_ids": [
+        "T28_002"
+      ],
+      "section": "Our Performance / Employees 9",
+      "pages": [
+        28
+      ],
+      "text": "No. of employees (as of the end of the Reporting Period of each year) Unit | 2021 | 2020 | 2019 Total no. of employees | No. | 2,212 | 2,243 | 1,878 By gender Male | No. | 1,772 | 1,809 | 1,438 Female | No. | 440 | 434 | 440 By employment type Full-time | No. | 2,212 | 2,243 | 1,878 Part-time | No. | 0 | 0 | 0 By employee category Directors and senior management | No. | 53 | 72 | 64 Middle management | No. | 425 | 440 | 541 General employee | No. | 1,734 | 1,731 | 1,273 By age group ≤ 30 | No. | 324 | 370 | 339 31 - 40 | No. | 603 | 603 | 605 41 - 50 | No. | 634 | 644 | 564 > 50 | No. | 651 | 626 | 370 By operating location Mainland China | No. | 1,406 | 1,453 | 1,413 Hong Kong | No. | 797 | 786 | 460 Macao | No. | 9 | 4 | 5",
+      "retrieval_text": "[Section]\nOur Performance / Employees 9\n\n[Content]\nNo. of employees (as of the end of the Reporting Period of each year) Unit | 2021 | 2020 | 2019 Total no. of employees | No. | 2,212 | 2,243 | 1,878 By gender Male | No. | 1,772 | 1,809 | 1,438 Female | No. | 440 | 434 | 440 By employment type Full-time | No. | 2,212 | 2,243 | 1,878 Part-time | No. | 0 | 0 | 0 By employee category Directors and senior management | No. | 53 | 72 | 64 Middle management | No. | 425 | 440 | 541 General employee | No. | 1,734 | 1,731 | 1,273 By age group ≤ 30 | No. | 324 | 370 | 339 31 - 40 | No. | 603 | 603 | 605 41 - 50 | No. | 634 | 644 | 564 > 50 | No. | 651 | 626 | 370 By operating location Mainland China | No. | 1,406 | 1,453 | 1,413 Hong Kong | No. | 797 | 786 | 460 Macao | No. | 9 | 4 | 5",
+      "bm25_rank": 1,
+      "dense_rank": 59,
+      "bm25_score": 52.79039764404297,
+      "dense_score": 0.3213678300380707,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.1655970083880567,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.610738255033557,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.48010660394253124,
+      "rank": 8,
+      "rrf_score": 0.48010660394253124,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_008",
+      "alias_source_ids": [
+        "P20_008"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "Every year, we evaluate the performance of our existing suppliers according to the criteria and procedures specified in the Regulations Governing Integrated Supplier Evaluation to ensure suppliers are aligned with our requirements. If the suppliers fail to fulfill our specifications, they will be compelled to develop rectification plans and carry out corrective actions. To facilitate energy-saving, the Group is tended to choose energy-efficient products with Grade 1 Energy Label when procuring air-conditioners and dehumidifiers.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nEvery year, we evaluate the performance of our existing suppliers according to the criteria and procedures specified in the Regulations Governing Integrated Supplier Evaluation to ensure suppliers are aligned with our requirements. If the suppliers fail to fulfill our specifications, they will be compelled to develop rectification plans and carry out corrective actions. To facilitate energy-saving, the Group is tended to choose energy-efficient products with Grade 1 Energy Label when procuring air-conditioners and dehumidifiers.",
+      "bm25_rank": 37,
+      "dense_rank": 6,
+      "bm25_score": 8.291354179382324,
+      "dense_score": 0.4362325072288513,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12711267809255186,
+      "normalized_dense": 0.5282497897740173,
+      "normalized_bm25_rank": 0.7583892617449665,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.4794374788179399,
+      "rank": 9,
+      "rrf_score": 0.4794374788179399,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_017",
+      "alias_source_ids": [
+        "L30_017"
+      ],
+      "section": "Appendix 1 Applicable Laws and Regulations / Law and Regulations 14",
+      "pages": [
+        30
+      ],
+      "text": "‧ Law of the People's Republic of China on the Protection of Minors",
+      "retrieval_text": "[Section]\nAppendix 1 Applicable Laws and Regulations / Law and Regulations 14\n\n[Content]\n‧ Law of the People's Republic of China on the Protection of Minors",
+      "bm25_rank": 34,
+      "dense_rank": 7,
+      "bm25_score": 8.787775993347168,
+      "dense_score": 0.4301128387451172,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1368504224122098,
+      "normalized_dense": 0.5089286646808776,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.4752937748388699,
+      "rank": 10,
+      "rrf_score": 0.4752937748388699,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T33_002",
+      "alias_source_ids": [
+        "T33_002"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        33
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Social Aspect B1: Employment General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti- | 5.2, Appendix 1 KPI B1.1 | Total workforce by gender, employment type, age group and geographical region. | 5.1, 9 KPI B1.2 | Employee turnover rate by gender, age group and geographical region. | 9 Aspect B2: Health and Safety General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | 4.1, 4.2, Appendix 1 KPI B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | 4.1 KPI B2.2 | Lost days due to work injury. | 4.1 KPI B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | 4.1, 4.2 Aspect B3: Development and | Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities | 5.2 KPI B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | 9 KPI B3.2 | The average training hours completed per employee by gender and employee category. | 9",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Social Aspect B1: Employment General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti- | 5.2, Appendix 1 KPI B1.1 | Total workforce by gender, employment type, age group and geographical region. | 5.1, 9 KPI B1.2 | Employee turnover rate by gender, age group and geographical region. | 9 Aspect B2: Health and Safety General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | 4.1, 4.2, Appendix 1 KPI B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | 4.1 KPI B2.2 | Lost days due to work injury. | 4.1 KPI B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | 4.1, 4.2 Aspect B3: Development and | Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities | 5.2 KPI B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | 9 KPI B3.2 | The average training hours completed per employee by gender and employee category. | 9",
+      "bm25_rank": 35,
+      "dense_rank": 14,
+      "bm25_score": 8.539169311523438,
+      "dense_score": 0.39091938734054565,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13197378678569907,
+      "normalized_dense": 0.385186409780568,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.42094154440449966,
+      "rank": 11,
+      "rrf_score": 0.42094154440449966,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_004",
+      "alias_source_ids": [
+        "P9_004"
+      ],
+      "section": "Approach to Sustainability / Preventing Illegal Acts",
+      "pages": [
+        9
+      ],
+      "text": "The Group established the Whistle-blowing Policy to support the identification and report of any suspicious cases of unethical business conduct or misbehaviour have developed a whistle-blowing system along with the policy to provide a channel for employees and business partners to report or submit a grievance on any misconduct malpractices. All relevant information will be treated in a confidential manner to protect whistle-blowers. Personal details of the whistle-blowers are anonymous to safeguard their rights and personal safety. All complaints and reports will undergo a thorough and fair investigation. During the Reporting Period, there was no legal case regarding corrupt practices were brought against the Group or our employees.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Preventing Illegal Acts\n\n[Content]\nThe Group established the Whistle-blowing Policy to support the identification and report of any suspicious cases of unethical business conduct or misbehaviour have developed a whistle-blowing system along with the policy to provide a channel for employees and business partners to report or submit a grievance on any misconduct malpractices. All relevant information will be treated in a confidential manner to protect whistle-blowers. Personal details of the whistle-blowers are anonymous to safeguard their rights and personal safety. All complaints and reports will undergo a thorough and fair investigation. During the Reporting Period, there was no legal case regarding corrupt practices were brought against the Group or our employees.",
+      "bm25_rank": 39,
+      "dense_rank": 17,
+      "bm25_score": 8.126330375671387,
+      "dense_score": 0.373220831155777,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12387559309348628,
+      "normalized_dense": 0.3293082165544505,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.39305312864094283,
+      "rank": 12,
+      "rrf_score": 0.39305312864094283,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L10_005",
+      "alias_source_ids": [
+        "L10_005"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "‧ Employees' Rights",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\n‧ Employees' Rights",
+      "bm25_rank": 27,
+      "dense_rank": 24,
+      "bm25_score": 10.287665367126465,
+      "dense_score": 0.3587801158428192,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16627205300693013,
+      "normalized_dense": 0.2837157358935002,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.3842327705131044,
+      "rank": 13,
+      "rrf_score": 0.3842327705131044,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T32_002",
+      "alias_source_ids": [
+        "T32_002"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        32
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Environmental Aspect A1: Emissions General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation | 6.1, 6.2, Appendix 1 KPI A1.1 | The types of emissions and respective emissions data. | 9 KPI A1.2 | Greenhouse gas emissions in total (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.5 | Description of emission target(s) set and steps taken to achieve them. | 7.1 KPI A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | 7.1",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Environmental Aspect A1: Emissions General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation | 6.1, 6.2, Appendix 1 KPI A1.1 | The types of emissions and respective emissions data. | 9 KPI A1.2 | Greenhouse gas emissions in total (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.5 | Description of emission target(s) set and steps taken to achieve them. | 7.1 KPI A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | 7.1",
+      "bm25_rank": 18,
+      "dense_rank": 28,
+      "bm25_score": 11.483848571777344,
+      "dense_score": 0.3476983904838562,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18973622375584934,
+      "normalized_dense": 0.24872831746104032,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.3773511491511246,
+      "rank": 14,
+      "rrf_score": 0.3773511491511246,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_001",
+      "alias_source_ids": [
+        "P18_001"
+      ],
+      "section": "Quality and Reliable Service / ‧ Improving terminal security",
+      "pages": [
+        18
+      ],
+      "text": "The Group is committed to delivering top-quality and dependable services by operating in a safe, secure and efficient manner. We strive to provide first-class services to our customers across all business segments by focusing on service optimisation and increasing customer satisfaction. The Group has been certificated from the ISO 9001:2015 Quality Management System.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / ‧ Improving terminal security\n\n[Content]\nThe Group is committed to delivering top-quality and dependable services by operating in a safe, secure and efficient manner. We strive to provide first-class services to our customers across all business segments by focusing on service optimisation and increasing customer satisfaction. The Group has been certificated from the ISO 9001:2015 Quality Management System.",
+      "bm25_rank": 13,
+      "dense_rank": 33,
+      "bm25_score": 13.058700561523438,
+      "dense_score": 0.339790403842926,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.22062831106154143,
+      "normalized_dense": 0.22376108279295273,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.3714353297804458,
+      "rank": 15,
+      "rrf_score": 0.3714353297804458,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_002",
+      "alias_source_ids": [
+        "P21_002"
+      ],
+      "section": "Environmental Protection / 7. ENVIRONMENTAL PROTECTION",
+      "pages": [
+        21
+      ],
+      "text": "The Group implemented the ESG Policy which outlines our vision and commitment in relation to environmental protection. We incorporate green management in every business segment by continuously evaluating how our operations affect the environment and carrying out appropriate measures to minimise the impacts.",
+      "retrieval_text": "[Section]\nEnvironmental Protection / 7. ENVIRONMENTAL PROTECTION\n\n[Content]\nThe Group implemented the ESG Policy which outlines our vision and commitment in relation to environmental protection. We incorporate green management in every business segment by continuously evaluating how our operations affect the environment and carrying out appropriate measures to minimise the impacts.",
+      "bm25_rank": 43,
+      "dense_rank": 26,
+      "bm25_score": 7.388754844665527,
+      "dense_score": 0.35616132616996765,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10940740951386699,
+      "normalized_dense": 0.27544764702622326,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.35654319191899847,
+      "rank": 16,
+      "rrf_score": 0.35654319191899847,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T34_001",
+      "alias_source_ids": [
+        "T34_001"
+      ],
+      "section": "Appendix 2 Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        34
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Aspect B4: Labour Standards General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer | 5.2 KPI B4.1 | relating to preventing child and forced labour Description of measures to review employment practices to avoid child and forced labour. | 5.2 KPI B4.2 | Description of steps taken to eliminate such practices when discovered. | 5.2 Aspect B5: Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | 6.4 KPI B5.1 | Number of suppliers by geographical region. | 6.4 KPI B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | 6.4 KPI B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 6.4 KPI B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | 6.4 Aspect B6: Product Responsibility General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | 6.1, 6.2, Appendix 1 * Due to the Group's business nature, products, labelling relating to the services provided, and recall procedures are not applicable to the Group. KPI B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | * The Group does not produce any products. KPI B6.2 | Number of products and service related complaints received and how they are dealt with. | 6.2",
+      "retrieval_text": "[Section]\nAppendix 2 Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Aspect B4: Labour Standards General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer | 5.2 KPI B4.1 | relating to preventing child and forced labour Description of measures to review employment practices to avoid child and forced labour. | 5.2 KPI B4.2 | Description of steps taken to eliminate such practices when discovered. | 5.2 Aspect B5: Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | 6.4 KPI B5.1 | Number of suppliers by geographical region. | 6.4 KPI B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | 6.4 KPI B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 6.4 KPI B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | 6.4 Aspect B6: Product Responsibility General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | 6.1, 6.2, Appendix 1 * Due to the Group's business nature, products, labelling relating to the services provided, and recall procedures are not applicable to the Group. KPI B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | * The Group does not produce any products. KPI B6.2 | Number of products and service related complaints received and how they are dealt with. | 6.2",
+      "bm25_rank": 112,
+      "dense_rank": 15,
+      "bm25_score": 5.716886043548584,
+      "dense_score": 0.38734182715415955,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07661225333154266,
+      "normalized_dense": 0.37389127376574505,
+      "normalized_bm25_rank": 0.25503355704697983,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.35289580588029246,
+      "rank": 17,
+      "rrf_score": 0.35289580588029246,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_006",
+      "alias_source_ids": [
+        "P20_006"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "The major suppliers of the Group are terminal machinery, components, oils and lubricants suppliers and ferry owners. Under the principles of 'transparency, fairness, impartiality and honesty', the Group has established a comprehensive tendering evaluation system and set up stringent supplier screening procedures in the Management Measures for Tendering and Bidding and the Procedures of Procurement Management, regulating the management of different types of suppliers of the Group. A total of 234 suppliers were covered in the evaluation during the Reporting Period. The Group's Technical Support Department works closely together with relevant departments to identify suitable suppliers and to assess their qualifications and performance. At least three potential suppliers would be invited for tendering for the Group to choose the right suppliers.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nThe major suppliers of the Group are terminal machinery, components, oils and lubricants suppliers and ferry owners. Under the principles of 'transparency, fairness, impartiality and honesty', the Group has established a comprehensive tendering evaluation system and set up stringent supplier screening procedures in the Management Measures for Tendering and Bidding and the Procedures of Procurement Management, regulating the management of different types of suppliers of the Group. A total of 234 suppliers were covered in the evaluation during the Reporting Period. The Group's Technical Support Department works closely together with relevant departments to identify suitable suppliers and to assess their qualifications and performance. At least three potential suppliers would be invited for tendering for the Group to choose the right suppliers.",
+      "bm25_rank": 131,
+      "dense_rank": 11,
+      "bm25_score": 3.653749942779541,
+      "dense_score": 0.3993924856185913,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03614204980545887,
+      "normalized_dense": 0.4119378248599505,
+      "normalized_bm25_rank": 0.12751677852348997,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.35073550772247714,
+      "rank": 18,
+      "rrf_score": 0.35073550772247714,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T33_001",
+      "alias_source_ids": [
+        "T33_001"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        33
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Aspect A2: Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 7.1 KPI A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | The Group does not produce any products, and thus the total packaging material used for finished products is not applicable to the Group. Aspect A3: The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources | 7.1 KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 7.1 Aspect A4: Climate change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | 7.2 KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 7.2",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Aspect A2: Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 7.1 KPI A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | The Group does not produce any products, and thus the total packaging material used for finished products is not applicable to the Group. Aspect A3: The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources | 7.1 KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 7.1 Aspect A4: Climate change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | 7.2 KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 7.2",
+      "bm25_rank": 125,
+      "dense_rank": 13,
+      "bm25_score": 4.1223039627075195,
+      "dense_score": 0.3943183422088623,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04533314318140322,
+      "normalized_dense": 0.3959176499402654,
+      "normalized_bm25_rank": 0.16778523489932884,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.34830894705497084,
+      "rank": 19,
+      "rrf_score": 0.34830894705497084,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_002",
+      "alias_source_ids": [
+        "P16_002"
+      ],
+      "section": "People-oriented Workplace / 5.2.2. Focusing on Employee Engagement",
+      "pages": [
+        16
+      ],
+      "text": "The Group provides employees various benefits above the statutory requirements to improve workplace morale and help with employee retention. We provide subsidies on holidays and festivals, and meals, transportation, residential allowances and other benefits for employees.",
+      "retrieval_text": "[Section]\nPeople-oriented Workplace / 5.2.2. Focusing on Employee Engagement\n\n[Content]\nThe Group provides employees various benefits above the statutory requirements to improve workplace morale and help with employee retention. We provide subsidies on holidays and festivals, and meals, transportation, residential allowances and other benefits for employees.",
+      "bm25_rank": 14,
+      "dense_rank": 44,
+      "bm25_score": 12.978029251098633,
+      "dense_score": 0.3320547044277191,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.219045873358866,
+      "normalized_dense": 0.19933779638758511,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.3471344503872938,
+      "rank": 20,
+      "rrf_score": 0.3471344503872938,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_022",
+      "alias_source_ids": [
+        "L30_022"
+      ],
+      "section": "Appendix 1 Applicable Laws and Regulations / Law and Regulations 14",
+      "pages": [
+        30
+      ],
+      "text": "‧ Law No. 4/98/M Framework Law on Employment Policy and Worker's Rights",
+      "retrieval_text": "[Section]\nAppendix 1 Applicable Laws and Regulations / Law and Regulations 14\n\n[Content]\n‧ Law No. 4/98/M Framework Law on Employment Policy and Worker's Rights",
+      "bm25_rank": 21,
+      "dense_rank": 42,
+      "bm25_score": 10.757270812988281,
+      "dense_score": 0.3350118398666382,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1754837710142399,
+      "normalized_dense": 0.20867411646514736,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3396763191267234,
+      "rank": 21,
+      "rrf_score": 0.3396763191267234,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_005",
+      "alias_source_ids": [
+        "P20_005"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "The Group recognizes an effective supply chain management would be beneficial to the Group in terms of risk reduction and service quality enhancement. To this extent, we work with partners and suppliers to improve operational efficiency and sustainable performance.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nThe Group recognizes an effective supply chain management would be beneficial to the Group in terms of risk reduction and service quality enhancement. To this extent, we work with partners and suppliers to improve operational efficiency and sustainable performance.",
+      "bm25_rank": 99,
+      "dense_rank": 18,
+      "bm25_score": 6.110101222991943,
+      "dense_score": 0.369197279214859,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08432551002638042,
+      "normalized_dense": 0.31660498751911137,
+      "normalized_bm25_rank": 0.3422818791946308,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.33908624361011946,
+      "rank": 22,
+      "rrf_score": 0.33908624361011946,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T29_001",
+      "alias_source_ids": [
+        "T29_001"
+      ],
+      "section": "Our Performance / Employee Turnover",
+      "pages": [
+        29
+      ],
+      "text": "Employee turnover rate 10 | Unit | 2021 | 2020 | 2019 Employees turnover rate | % | 13.0% | 13.8% | 16.7% By gender Male | % | 13.0% | 11.8% | 16.3% Female | % | 13.0% | 22.4% | 18.0% By age group ≤ 30 | % | 23.8% | 22.4% | 33.0% 31 - 40 | % | 9.6% | 14.6% | 18.8% 41 - 50 | % | 11.0% | 8.2% | 10.6% > 50 | % | 12.6% | 13.7% | 7.6% By operating location Mainland China | % | 10.1% | 11.4% | 15.5% Hong Kong | % | 18.2% | 18.3% | 20.7% Macao | % | 0.0% | 25.0% | 0.0%",
+      "retrieval_text": "[Section]\nOur Performance / Employee Turnover\n\n[Content]\nEmployee turnover rate 10 | Unit | 2021 | 2020 | 2019 Employees turnover rate | % | 13.0% | 13.8% | 16.7% By gender Male | % | 13.0% | 11.8% | 16.3% Female | % | 13.0% | 22.4% | 18.0% By age group ≤ 30 | % | 23.8% | 22.4% | 33.0% 31 - 40 | % | 9.6% | 14.6% | 18.8% 41 - 50 | % | 11.0% | 8.2% | 10.6% > 50 | % | 12.6% | 13.7% | 7.6% By operating location Mainland China | % | 10.1% | 11.4% | 15.5% Hong Kong | % | 18.2% | 18.3% | 20.7% Macao | % | 0.0% | 25.0% | 0.0%",
+      "bm25_rank": 15,
+      "dense_rank": 47,
+      "bm25_score": 12.279159545898438,
+      "dense_score": 0.3300611674785614,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20533693811357445,
+      "normalized_dense": 0.19304376642912408,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.33749176627559285,
+      "rank": 23,
+      "rrf_score": 0.33749176627559285,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_008",
+      "alias_source_ids": [
+        "L30_008"
+      ],
+      "section": "Appendix 1 Applicable Laws and Regulations / Law and Regulations 14",
+      "pages": [
+        30
+      ],
+      "text": "‧ Law of the People's Republic of China on Conserving Energy",
+      "retrieval_text": "[Section]\nAppendix 1 Applicable Laws and Regulations / Law and Regulations 14\n\n[Content]\n‧ Law of the People's Republic of China on Conserving Energy",
+      "bm25_rank": 96,
+      "dense_rank": 20,
+      "bm25_score": 6.114485740661621,
+      "dense_score": 0.36764073371887207,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08441151614221032,
+      "normalized_dense": 0.31169063467123026,
+      "normalized_bm25_rank": 0.36241610738255037,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.3367122803969297,
+      "rank": 24,
+      "rrf_score": 0.3367122803969297,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "This Report has complied with the 'comply or explain' provisions as well as mandatory disclosure requirements of the ESG Guide and was prepared in adherence to the four reporting principles: Materiality, Quantitative, Balance and Consistency.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nThis Report has complied with the 'comply or explain' provisions as well as mandatory disclosure requirements of the ESG Guide and was prepared in adherence to the four reporting principles: Materiality, Quantitative, Balance and Consistency.",
+      "bm25_rank": null,
+      "dense_rank": 10,
+      "bm25_score": null,
+      "dense_score": 0.4013940691947937,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.41825725977100353,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.3343095040070996,
+      "rank": 25,
+      "rrf_score": 0.3343095040070996,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L10_003",
+      "alias_source_ids": [
+        "L10_003"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "‧ Service Quality",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\n‧ Service Quality",
+      "bm25_rank": 25,
+      "dense_rank": 43,
+      "bm25_score": 10.287665367126465,
+      "dense_score": 0.33331120014190674,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16627205300693013,
+      "normalized_dense": 0.20330482678103537,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.33192787849823835,
+      "rank": 26,
+      "rrf_score": 0.33192787849823835,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "About this Report / 1. ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "Unless otherwise specified, this Report contains information pertaining to the period from 1 January 2021 to 31 December 2021 (the ' Reporting Period ').",
+      "retrieval_text": "[Section]\nAbout this Report / 1. ABOUT THIS REPORT\n\n[Content]\nUnless otherwise specified, this Report contains information pertaining to the period from 1 January 2021 to 31 December 2021 (the ' Reporting Period ').",
+      "bm25_rank": 42,
+      "dense_rank": 35,
+      "bm25_score": 7.410031795501709,
+      "dense_score": 0.3392106592655182,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10982477535339341,
+      "normalized_dense": 0.2219307030049072,
+      "normalized_bm25_rank": 0.7248322147651007,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.32648633870628885,
+      "rank": 27,
+      "rrf_score": 0.32648633870628885,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_005",
+      "alias_source_ids": [
+        "P4_005"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "We reported our quantitative performance for stakeholders to evaluate the effectiveness of our ESG policies and management systems. Moreover, we disclosed the standards, methodologies, assumptions, and source of conversion factors used for the reporting of key performance indicators where applicable.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nWe reported our quantitative performance for stakeholders to evaluate the effectiveness of our ESG policies and management systems. Moreover, we disclosed the standards, methodologies, assumptions, and source of conversion factors used for the reporting of key performance indicators where applicable.",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.3946247398853302,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3968850140795188,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.32414465425669065,
+      "rank": 28,
+      "rrf_score": 0.32414465425669065,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_003",
+      "alias_source_ids": [
+        "P16_003"
+      ],
+      "section": "People-oriented Workplace / 5.2.2. Focusing on Employee Engagement",
+      "pages": [
+        16
+      ],
+      "text": "The Group maintains regular communications with our employees in a variety of channels, including WeChat groups, regular team meetings, employee performance appraisals, suggestion boxes, etc. We value constructive feedbacks and opinions from our employees and respond to them appropriately.",
+      "retrieval_text": "[Section]\nPeople-oriented Workplace / 5.2.2. Focusing on Employee Engagement\n\n[Content]\nThe Group maintains regular communications with our employees in a variety of channels, including WeChat groups, regular team meetings, employee performance appraisals, suggestion boxes, etc. We value constructive feedbacks and opinions from our employees and respond to them appropriately.",
+      "bm25_rank": 44,
+      "dense_rank": 41,
+      "bm25_score": 7.23552942276001,
+      "dense_score": 0.335246205329895,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10640176000408677,
+      "normalized_dense": 0.2094140592324938,
+      "normalized_bm25_rank": 0.7114093959731543,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.3120249371617204,
+      "rank": 29,
+      "rrf_score": 0.3120249371617204,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_006",
+      "alias_source_ids": [
+        "P19_006"
+      ],
+      "section": "Quality and Reliable Service / Passenger Transportation",
+      "pages": [
+        19
+      ],
+      "text": "The Group has established the Management Rules for Customer Engagement, the Management Procedures for Customer Relationship and relevant policies and procedures to regulate the process of interacting with customers and strengthen our relationship with them. The Group has identified and enumerated the roles of various departments and individuals in relation to customer involvement.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Passenger Transportation\n\n[Content]\nThe Group has established the Management Rules for Customer Engagement, the Management Procedures for Customer Relationship and relevant policies and procedures to regulate the process of interacting with customers and strengthen our relationship with them. The Group has identified and enumerated the roles of various departments and individuals in relation to customer involvement.",
+      "bm25_rank": null,
+      "dense_rank": 16,
+      "bm25_score": null,
+      "dense_score": 0.3843083083629608,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.36431379482339277,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.307375600000268,
+      "rank": 30,
+      "rrf_score": 0.307375600000268,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_006",
+      "alias_source_ids": [
+        "P4_006"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "We adopted consistent methodologies and reported the changes to the scope and methods to allow for meaningful comparisons of ESG data over time.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nWe adopted consistent methodologies and reported the changes to the scope and methods to allow for meaningful comparisons of ESG data over time.",
+      "bm25_rank": 16,
+      "dense_rank": 67,
+      "bm25_score": 12.214792251586914,
+      "dense_score": 0.317426860332489,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20407431782389038,
+      "normalized_dense": 0.15315450944024514,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.5570469798657718,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.2957612237480585,
+      "rank": 31,
+      "rrf_score": 0.2957612237480585,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_001",
+      "alias_source_ids": [
+        "L30_001"
+      ],
+      "section": "Appendix 1 Applicable Laws and Regulations / Law and Regulations 14",
+      "pages": [
+        30
+      ],
+      "text": "‧ Environmental Protection Law of the People's Republic of China",
+      "retrieval_text": "[Section]\nAppendix 1 Applicable Laws and Regulations / Law and Regulations 14\n\n[Content]\n‧ Environmental Protection Law of the People's Republic of China",
+      "bm25_rank": 31,
+      "dense_rank": 56,
+      "bm25_score": 9.080791473388672,
+      "dense_score": 0.3238476514816284,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14259817512186018,
+      "normalized_dense": 0.17342634431482795,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.6308724832214765,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.2952591239909377,
+      "rank": 32,
+      "rrf_score": 0.2952591239909377,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L10_002",
+      "alias_source_ids": [
+        "L10_002"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "‧ Compliant Operation",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\n‧ Compliant Operation",
+      "bm25_rank": 24,
+      "dense_rank": 61,
+      "bm25_score": 10.287665367126465,
+      "dense_score": 0.3210483193397522,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16627205300693013,
+      "normalized_dense": 0.16458824358532004,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.5973154362416108,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.294887141493832,
+      "rank": 33,
+      "rrf_score": 0.294887141493832,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T11_001",
+      "alias_source_ids": [
+        "T11_001"
+      ],
+      "section": "Safety and Health / 4. SAFETY AND HEALTH",
+      "pages": [
+        11
+      ],
+      "text": "Safety performance | Unit | 2021 | 2020 | 2019 Number of work-related fatalities | No. | 0 | 0 | 0 Work-related fatalities rate | % | 0% | 0% | 0% Lost days due to work injury 1 | Days | 880 1 | 408 | 333",
+      "retrieval_text": "[Section]\nSafety and Health / 4. SAFETY AND HEALTH\n\n[Content]\nSafety performance | Unit | 2021 | 2020 | 2019 Number of work-related fatalities | No. | 0 | 0 | 0 Work-related fatalities rate | % | 0% | 0% | 0% Lost days due to work injury 1 | Days | 880 1 | 408 | 333",
+      "bm25_rank": 2,
+      "dense_rank": null,
+      "bm25_score": 51.206844329833984,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.9689372286702009,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.2931163047944429,
+      "rank": 34,
+      "rrf_score": 0.2931163047944429,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T32_001",
+      "alias_source_ids": [
+        "T32_001"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        32
+      ],
+      "text": "Mandatary Disclosure Requirements | Descriptions | Relevant Sections and Remarks Reporting Principles | A description of, or an explanation on, the application of the following Reporting Principles in the preparation of the ESG report: Materiality: The ESG report should disclose: (i) the process to identify and the criteria for the selection of material ESG factors; (ii) if a stakeholder engagement is conducted, a description of significant stakeholders identified, and the process and results of the issuer's stakeholder engagement. Quantitative: Information on the standards, methodologies, assumptions and/or calculation tools used, and source of conversion factors used, for the reporting of emissions/energy consumption (where applicable) should be disclosed. Balance: The ESG report should provide an unbiased picture of the issuer's performance. The report should avoid selections, omissions, or presentation formats that may inappropriately influence a decision or judgment by the report reader. Consistency: The issuer should disclose in the ESG report any changes to the methods or KPIs used, or any other relevant factors affecting a | About This Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About This Report",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMandatary Disclosure Requirements | Descriptions | Relevant Sections and Remarks Reporting Principles | A description of, or an explanation on, the application of the following Reporting Principles in the preparation of the ESG report: Materiality: The ESG report should disclose: (i) the process to identify and the criteria for the selection of material ESG factors; (ii) if a stakeholder engagement is conducted, a description of significant stakeholders identified, and the process and results of the issuer's stakeholder engagement. Quantitative: Information on the standards, methodologies, assumptions and/or calculation tools used, and source of conversion factors used, for the reporting of emissions/energy consumption (where applicable) should be disclosed. Balance: The ESG report should provide an unbiased picture of the issuer's performance. The report should avoid selections, omissions, or presentation formats that may inappropriately influence a decision or judgment by the report reader. Consistency: The issuer should disclose in the ESG report any changes to the methods or KPIs used, or any other relevant factors affecting a | About This Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About This Report",
+      "bm25_rank": 141,
+      "dense_rank": 22,
+      "bm25_score": 2.864673137664795,
+      "dense_score": 0.363335520029068,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.020663624078332984,
+      "normalized_dense": 0.29809813820275394,
+      "normalized_bm25_rank": 0.06040268456375841,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.28631942217991907,
+      "rank": 35,
+      "rrf_score": 0.28631942217991907,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_008",
+      "alias_source_ids": [
+        "P19_008"
+      ],
+      "section": "Quality and Reliable Service / Passenger Transportation",
+      "pages": [
+        19
+      ],
+      "text": "It's critical for the Group to know its performance from the standpoint of our customers. As a result, we conduct a customer satisfaction survey every year to collect customers' feedback. The customer satisfaction rates for the terminal navigation logistics business and the fuel supply business have customer satisfaction rates of >93% and 98% respectively.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Passenger Transportation\n\n[Content]\nIt's critical for the Group to know its performance from the standpoint of our customers. As a result, we conduct a customer satisfaction survey every year to collect customers' feedback. The customer satisfaction rates for the terminal navigation logistics business and the fuel supply business have customer satisfaction rates of >93% and 98% respectively.",
+      "bm25_rank": null,
+      "dense_rank": 19,
+      "bm25_score": null,
+      "dense_score": 0.3681831359863281,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3134031166607655,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.2855300170057645,
+      "rank": 36,
+      "rrf_score": 0.2855300170057645,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_005",
+      "alias_source_ids": [
+        "P19_005"
+      ],
+      "section": "Quality and Reliable Service / Passenger Transportation",
+      "pages": [
+        19
+      ],
+      "text": "The Group is dedicated to exceeding client expectations while creating long-term relationships with them. Customers' opinions are important to the Group, therefore we listen to and respond to their needs in a friendly timely manner, and work hard to defend customers' rights.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Passenger Transportation\n\n[Content]\nThe Group is dedicated to exceeding client expectations while creating long-term relationships with them. Customers' opinions are important to the Group, therefore we listen to and respond to their needs in a friendly timely manner, and work hard to defend customers' rights.",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.3667173981666565,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.30877546340750606,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.2812257746087345,
+      "rank": 37,
+      "rrf_score": 0.2812257746087345,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_005",
+      "alias_source_ids": [
+        "L30_005"
+      ],
+      "section": "Appendix 1 Applicable Laws and Regulations / Law and Regulations 14",
+      "pages": [
+        30
+      ],
+      "text": "‧ Law of the People's Republic of China on Water and Soil Conservation",
+      "retrieval_text": "[Section]\nAppendix 1 Applicable Laws and Regulations / Law and Regulations 14\n\n[Content]\n‧ Law of the People's Republic of China on Water and Soil Conservation",
+      "bm25_rank": 105,
+      "dense_rank": 34,
+      "bm25_score": 5.98295259475708,
+      "dense_score": 0.339354932308197,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08183137943518522,
+      "normalized_dense": 0.22238620439564016,
+      "normalized_bm25_rank": 0.30201342281879195,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.2801074876939675,
+      "rank": 38,
+      "rrf_score": 0.2801074876939675,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_021",
+      "alias_source_ids": [
+        "L30_021"
+      ],
+      "section": "Appendix 1 Applicable Laws and Regulations / Law and Regulations 14",
+      "pages": [
+        30
+      ],
+      "text": "‧ Cap. 608 Minimum Wage Ordinance",
+      "retrieval_text": "[Section]\nAppendix 1 Applicable Laws and Regulations / Law and Regulations 14\n\n[Content]\n‧ Cap. 608 Minimum Wage Ordinance",
+      "bm25_rank": 73,
+      "dense_rank": 45,
+      "bm25_score": 6.470092296600342,
+      "dense_score": 0.33039313554763794,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09138704707722001,
+      "normalized_dense": 0.19409186186216984,
+      "normalized_bm25_rank": 0.5167785234899329,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 45,
+      "composite_score": 0.27882701073163296,
+      "rank": 39,
+      "rrf_score": 0.27882701073163296,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T9_001",
+      "alias_source_ids": [
+        "T9_001"
+      ],
+      "section": "Approach to Sustainability / Preventing Illegal Acts",
+      "pages": [
+        9
+      ],
+      "text": "Stakeholder Groups | Communication Channels | Communication Frequency Regulatory Authorities | ‧ On-site inspection ‧ Meeting | ‧ Regularly/as needed ‧ Regularly/as needed Shareholders and Investors | ‧ Annual general meeting and other shareholder meetings ‧ Annual report ‧ Announcement | ‧ Annually ‧ Annually ‧ As needed Employees | ‧ Meeting ‧ Group interview ‧ Performance appraisal ‧ Training, seminar and briefing session ‧ Cultural and sports activity ‧ Newsletter | ‧ Regularly ‧ Regularly ‧ Annually ‧ Regularly ‧ Regularly/as needed ‧ Regularly Customers | ‧ Website ‧ Email ‧ Customer service hotline ‧ Satisfaction survey | ‧ Daily/as needed ‧ As needed ‧ As needed ‧ Annually Suppliers | ‧ Open tendering ‧ Supplier evaluation and appraisal | ‧ As needed ‧ Annually Potential Investors and Financial Institutions | ‧ Potential investor briefing ‧ Roadshow ‧ Analyst briefing | ‧ As needed ‧ As needed ‧ As needed Communities | ‧ Information disclosure ‧ Website ‧ Email | ‧ Regularly/as needed ‧ As needed ‧ Daily/as needed",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Preventing Illegal Acts\n\n[Content]\nStakeholder Groups | Communication Channels | Communication Frequency Regulatory Authorities | ‧ On-site inspection ‧ Meeting | ‧ Regularly/as needed ‧ Regularly/as needed Shareholders and Investors | ‧ Annual general meeting and other shareholder meetings ‧ Annual report ‧ Announcement | ‧ Annually ‧ Annually ‧ As needed Employees | ‧ Meeting ‧ Group interview ‧ Performance appraisal ‧ Training, seminar and briefing session ‧ Cultural and sports activity ‧ Newsletter | ‧ Regularly ‧ Regularly ‧ Annually ‧ Regularly ‧ Regularly/as needed ‧ Regularly Customers | ‧ Website ‧ Email ‧ Customer service hotline ‧ Satisfaction survey | ‧ Daily/as needed ‧ As needed ‧ As needed ‧ Annually Suppliers | ‧ Open tendering ‧ Supplier evaluation and appraisal | ‧ As needed ‧ Annually Potential Investors and Financial Institutions | ‧ Potential investor briefing ‧ Roadshow ‧ Analyst briefing | ‧ As needed ‧ As needed ‧ As needed Communities | ‧ Information disclosure ‧ Website ‧ Email | ‧ Regularly/as needed ‧ As needed ‧ Daily/as needed",
+      "bm25_rank": null,
+      "dense_rank": 23,
+      "bm25_score": null,
+      "dense_score": 0.36106622219085693,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.2909334711097231,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.2722965135461212,
+      "rank": 40,
+      "rrf_score": 0.2722965135461212,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L3_027",
+      "alias_source_ids": [
+        "L3_027"
+      ],
+      "section": "About this Report / 1. ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "Guangdong Digital Port & Shipping Technology Co., Ltd (formerly known as Guangzhou Pintu Internet Company Limited)",
+      "retrieval_text": "[Section]\nAbout this Report / 1. ABOUT THIS REPORT\n\n[Content]\nGuangdong Digital Port & Shipping Technology Co., Ltd (formerly known as Guangzhou Pintu Internet Company Limited)",
+      "bm25_rank": 102,
+      "dense_rank": 40,
+      "bm25_score": 5.98295259475708,
+      "dense_score": 0.3365655839443207,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08183137943518522,
+      "normalized_dense": 0.21357962462582974,
+      "normalized_bm25_rank": 0.3221476510067114,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 40,
+      "composite_score": 0.27098491631815796,
+      "rank": 41,
+      "rrf_score": 0.27098491631815796,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T29_005",
+      "alias_source_ids": [
+        "T29_005"
+      ],
+      "section": "Our Performance / Employee Turnover",
+      "pages": [
+        29
+      ],
+      "text": "Safety performance | Unit | 2021 | 2020 | 2019 Number of work-related fatalities | No. | 0 | 0 | 0 Work-related fatalities rate | % | 0% | 0% | 0% Lost days due to work injury | Days | 880 | 408 | 333",
+      "retrieval_text": "[Section]\nOur Performance / Employee Turnover\n\n[Content]\nSafety performance | Unit | 2021 | 2020 | 2019 Number of work-related fatalities | No. | 0 | 0 | 0 Work-related fatalities rate | % | 0% | 0% | 0% Lost days due to work injury | Days | 880 | 408 | 333",
+      "bm25_rank": 3,
+      "dense_rank": null,
+      "bm25_score": 44.88155746459961,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.8448612422621884,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.26762996657324306,
+      "rank": 42,
+      "rrf_score": 0.26762996657324306,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_005",
+      "alias_source_ids": [
+        "P15_005"
+      ],
+      "section": "People-oriented Workplace / Merit-based Remuneration and Promotion",
+      "pages": [
+        15
+      ],
+      "text": "The Group strictly prohibits unfair or unreasonable dismissal, and the termination of labour contracts and dismissal of employees are carried out in strict compliance with the relevant laws and regulations to protect the rights and obligations of both employees and the Group. Relevant dismissal conditions and rules are stipulated clearly in the Employee Handbook.",
+      "retrieval_text": "[Section]\nPeople-oriented Workplace / Merit-based Remuneration and Promotion\n\n[Content]\nThe Group strictly prohibits unfair or unreasonable dismissal, and the termination of labour contracts and dismissal of employees are carried out in strict compliance with the relevant laws and regulations to protect the rights and obligations of both employees and the Group. Relevant dismissal conditions and rules are stipulated clearly in the Employee Handbook.",
+      "bm25_rank": null,
+      "dense_rank": 25,
+      "bm25_score": null,
+      "dense_score": 0.35683706402778625,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.27758109848944973,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.2649386193706363,
+      "rank": 43,
+      "rrf_score": 0.2649386193706363,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_004",
+      "alias_source_ids": [
+        "P19_004"
+      ],
+      "section": "Quality and Reliable Service / Passenger Transportation",
+      "pages": [
+        19
+      ],
+      "text": "The Group applies the highest standard of operational integrity in our fuel supply business. We clearly communicate with customers about the types and quantity of oil and lubricant, with the supplement of the material safety data sheet (MSDS). We also carry out pre-inspections prior to delivery and conduct oil sampling together with our customers to ensure the quality of products.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Passenger Transportation\n\n[Content]\nThe Group applies the highest standard of operational integrity in our fuel supply business. We clearly communicate with customers about the types and quantity of oil and lubricant, with the supplement of the material safety data sheet (MSDS). We also carry out pre-inspections prior to delivery and conduct oil sampling together with our customers to ensure the quality of products.",
+      "bm25_rank": 32,
+      "dense_rank": 73,
+      "bm25_score": 8.915245056152344,
+      "dense_score": 0.31277215480804443,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13935083860534495,
+      "normalized_dense": 0.13845859119752266,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.5167785234899329,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.2588810102106717,
+      "rank": 44,
+      "rrf_score": 0.2588810102106717,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_004",
+      "alias_source_ids": [
+        "P10_004"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "The Group defined our major stakeholders as groups or individuals who have impacts on or are affected by the Group, and invited them to fill in an online survey to participate in the materiality assessment process. Major stakeholders were asked to prioritise each ESG issue based on the level of importance.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nThe Group defined our major stakeholders as groups or individuals who have impacts on or are affected by the Group, and invited them to fill in an online survey to participate in the materiality assessment process. Major stakeholders were asked to prioritise each ESG issue based on the level of importance.",
+      "bm25_rank": 74,
+      "dense_rank": 55,
+      "bm25_score": 6.467965126037598,
+      "dense_score": 0.3244740664958954,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0913453207821991,
+      "normalized_dense": 0.17540407282790713,
+      "normalized_bm25_rank": 0.5100671140939597,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 55,
+      "composite_score": 0.2581839795790932,
+      "rank": 45,
+      "rrf_score": 0.2581839795790932,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_016",
+      "alias_source_ids": [
+        "L30_016"
+      ],
+      "section": "Appendix 1 Applicable Laws and Regulations / Law and Regulations 14",
+      "pages": [
+        30
+      ],
+      "text": "‧ Labour Contract Law of the People's Republic of China",
+      "retrieval_text": "[Section]\nAppendix 1 Applicable Laws and Regulations / Law and Regulations 14\n\n[Content]\n‧ Labour Contract Law of the People's Republic of China",
+      "bm25_rank": 94,
+      "dense_rank": 49,
+      "bm25_score": 6.182445526123047,
+      "dense_score": 0.32943999767303467,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08574460626078644,
+      "normalized_dense": 0.19108259818143822,
+      "normalized_bm25_rank": 0.37583892617449666,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 49,
+      "composite_score": 0.25718219303176804,
+      "rank": 46,
+      "rrf_score": 0.25718219303176804,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_004",
+      "alias_source_ids": [
+        "P18_004"
+      ],
+      "section": "Quality and Reliable Service / ‧ Improving terminal security",
+      "pages": [
+        18
+      ],
+      "text": "The Group leverages technology to enhance operational efficiency at cargo terminals. We adopted an information management and business intelligence system for the review of operation data to support better business decision-making. The system consists of information required for a smooth operation, including customer demands, fleet schedules, vessel information, and containers and cargo locations, in order to meet customers' needs pertaining to container loading and unloading, customs clearance of cargoes, and cargo transportation. The Group also utilises an e-platform, namely HK ETouch, to offer customers access to the most updated information on the location and arrangement of containers at the terminals, providing them with accurate and real-time logistics information.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / ‧ Improving terminal security\n\n[Content]\nThe Group leverages technology to enhance operational efficiency at cargo terminals. We adopted an information management and business intelligence system for the review of operation data to support better business decision-making. The system consists of information required for a smooth operation, including customer demands, fleet schedules, vessel information, and containers and cargo locations, in order to meet customers' needs pertaining to container loading and unloading, customs clearance of cargoes, and cargo transportation. The Group also utilises an e-platform, namely HK ETouch, to offer customers access to the most updated information on the location and arrangement of containers at the terminals, providing them with accurate and real-time logistics information.",
+      "bm25_rank": 56,
+      "dense_rank": 63,
+      "bm25_score": 6.566259384155273,
+      "dense_score": 0.3202296495437622,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09327344788442224,
+      "normalized_dense": 0.16200352489012593,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.5838926174496644,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 56,
+      "composite_score": 0.25522169510050907,
+      "rank": 47,
+      "rrf_score": 0.25522169510050907,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T27_001",
+      "alias_source_ids": [
+        "T27_001"
+      ],
+      "section": "Our Performance / 9. OUR PERFORMANCE",
+      "pages": [
+        27
+      ],
+      "text": "Revenue | Units | 2021 | 2020 | 2019 Revenue | HKD million | 2,268.41 | 1,854.55 | 2,147.90",
+      "retrieval_text": "[Section]\nOur Performance / 9. OUR PERFORMANCE\n\n[Content]\nRevenue | Units | 2021 | 2020 | 2019 Revenue | HKD million | 2,268.41 | 1,854.55 | 2,147.90",
+      "bm25_rank": 7,
+      "dense_rank": 118,
+      "bm25_score": 18.364948272705078,
+      "dense_score": 0.2863438129425049,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.32471496087164853,
+      "normalized_dense": 0.05501856490433765,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.21476510067114096,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.2231256643874922,
+      "rank": 48,
+      "rrf_score": 0.2231256643874922,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T27_003",
+      "alias_source_ids": [
+        "T27_003"
+      ],
+      "section": "Our Performance / 9. OUR PERFORMANCE",
+      "pages": [
+        27
+      ],
+      "text": "Emissions and wastes | Units | 2021 | 2020 | 2019 GHG emissions Total GHG emissions (Scope 1 and Scope 2) | Tonnes CO 2 e | 71,394.34 | 51,476.72 | 20,037.82 Tonnes CO 2 e per HKD million revenue | 31.47 | 27.76 | 9.33 Direct GHG emissions 6 (scope 1) | Tonnes CO 2 e | 63,356.95 | 45,055.77 | 13,859.51 Indirect GHG emissions 7 (scope 2) | Tonnes CO 2 e | 8,037.39 | 6,420.95 | 6,178.31 Non-hazardous waste Domestic waste 8 | Tonnes | 1,118.62 | 95.43 | 112.62 Tonnes per HKD million revenue | 0.49 | 0.05 | 0.05 Waste tire | Pcs | 1,824.60 | 1,784 | 1,594 Pcs per HKD million revenue | 0.80 | 0.96 | 0.74 Hazardous waste Waste machine oil | Tonnes | 39.85 | 15.93 | 16.16 Tonnes per HKD million revenue | 0.02 | 0.01 | 0.01 Waste vehicle battery | Pcs | 3,791 | 275 | 192 Pcs per HKD million revenue | 1.67 | 0.15 | 0.09",
+      "retrieval_text": "[Section]\nOur Performance / 9. OUR PERFORMANCE\n\n[Content]\nEmissions and wastes | Units | 2021 | 2020 | 2019 GHG emissions Total GHG emissions (Scope 1 and Scope 2) | Tonnes CO 2 e | 71,394.34 | 51,476.72 | 20,037.82 Tonnes CO 2 e per HKD million revenue | 31.47 | 27.76 | 9.33 Direct GHG emissions 6 (scope 1) | Tonnes CO 2 e | 63,356.95 | 45,055.77 | 13,859.51 Indirect GHG emissions 7 (scope 2) | Tonnes CO 2 e | 8,037.39 | 6,420.95 | 6,178.31 Non-hazardous waste Domestic waste 8 | Tonnes | 1,118.62 | 95.43 | 112.62 Tonnes per HKD million revenue | 0.49 | 0.05 | 0.05 Waste tire | Pcs | 1,824.60 | 1,784 | 1,594 Pcs per HKD million revenue | 0.80 | 0.96 | 0.74 Hazardous waste Waste machine oil | Tonnes | 39.85 | 15.93 | 16.16 Tonnes per HKD million revenue | 0.02 | 0.01 | 0.01 Waste vehicle battery | Pcs | 3,791 | 275 | 192 Pcs per HKD million revenue | 1.67 | 0.15 | 0.09",
+      "bm25_rank": 8,
+      "dense_rank": null,
+      "bm25_score": 18.200077056884766,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.32148086901636386,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.1595981872260916,
+      "rank": 49,
+      "rrf_score": 0.1595981872260916,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_003",
+      "alias_source_ids": [
+        "P23_003"
+      ],
+      "section": "Environmental Protection / Employing Electrical Machinery",
+      "pages": [
+        23
+      ],
+      "text": "The major contributors to the Group's carbon footprint are fuel consumption of machinery, vehicles, ferries and vessels and electricity consumption from the operation of offices and cargo and passenger terminals. The total amount of GHG emissions was 71,394.34 tCO 2 e, Scope 1 and Scope 2 GHG emissions were approximately 63,356.95 tCO 2 e and 8,037.39 tCO 2 e respectively. Therefore, the Group strives to reduce our fuel and electricity consumption in order to cut down the associated GHG emissions.",
+      "retrieval_text": "[Section]\nEnvironmental Protection / Employing Electrical Machinery\n\n[Content]\nThe major contributors to the Group's carbon footprint are fuel consumption of machinery, vehicles, ferries and vessels and electricity consumption from the operation of offices and cargo and passenger terminals. The total amount of GHG emissions was 71,394.34 tCO 2 e, Scope 1 and Scope 2 GHG emissions were approximately 63,356.95 tCO 2 e and 8,037.39 tCO 2 e respectively. Therefore, the Group strives to reduce our fuel and electricity consumption in order to cut down the associated GHG emissions.",
+      "bm25_rank": 10,
+      "dense_rank": null,
+      "bm25_score": 16.17279052734375,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.28171388591445873,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.1503025087265159,
+      "rank": 50,
+      "rrf_score": 0.1503025087265159,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

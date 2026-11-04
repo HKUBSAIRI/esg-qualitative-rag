@@ -1,0 +1,1559 @@
+{
+  "document_id": "2022053000555",
+  "metric_id": 19,
+  "metric_name": "反歧视政策",
+  "query": "反歧视政策 反歧视政策 衡量企业在招聘、晋升、薪酬及日常管理中，针对消除基于性别、种族、年龄、残疾、宗教等特征歧视的承诺、规则与执行机制。 一、内容质量得分 (权重 50%，取值：0, 1, 2) • 2分（卓越）：明确界定了受保护的多元特征（包含但不限于性别、民族、生理状况等）；且规定了面向全员的反歧视/DEI 专项培训要求。 • 1分（合格）：有正式的反歧视声明或包含在员工手册中，具备基础的公平雇佣承诺。 • 0分（不合格）：无相关政策披露，或仅有笼统的“依法合规雇佣”表述。 二、执行机制得分 (权重 50%，取值：0, 1, 2) • 2分（高覆盖）：具备匿名举报热线；有明确的违规调查处理流程。 • 1分（部分覆盖）：缺乏明确的举报渠道或未说明处理机制。 • 0分（无覆盖）：未采取实质性的合规管理行动。 反歧视政策 禁止就业歧视 受保护特征 公平雇佣声明 反歧视培训 无意识偏见培训 歧视投诉 歧视调查处理 多元与共融 anti-discrimination policy non-discrimination in employment protected characteristics equal employment opportunity employment discrimination anti-discrimination training unconscious bias training discrimination complaint discrimination investigation diversity and inclusion 企业是否有正式反歧视政策或公平雇佣声明？ 明确保护哪些特征（性别、种族、年龄、残疾、宗教等）？ 是否要求全员反歧视/DEI培训？ 是否有匿名举报热线或投诉渠道？ 违规调查与处理流程是什么？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '反歧视政策'. Prefer explicit, auditable disclosure that answers: 企业是否有正式反歧视政策或公平雇佣声明？ 明确保护哪些特征（性别、种族、年龄、残疾、宗教等）？ 是否要求全员反歧视/DEI培训？ 是否有匿名举报热线或投诉渠道？ 违规调查与处理流程是什么？ Exclude or down-rank: 排除：仅有“依法合规雇佣”口号；仅有多元化人数统计而无政策；仅有客户反歧视营销政策；仅有反骚扰但完全不涉及雇佣歧视时可谨慎区分；区分：反歧视政策关注禁止基于特定特征的歧视及合规执行；平等机会措施关注选拔流程公平与监控指标；员工申诉机制是通用渠道， alone 不能证明存在反歧视政策。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 170,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P22_002",
+      "alias_source_ids": [
+        "P22_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        22
+      ],
+      "text": "The Group has formulated human resources policies such as 'Personnel Recruitment Management Procedures', 'Employee Communication Management Procedures', 'Working Time and Remuneration Management Procedures' and 'Employee Shared Benefits Management Procedures', to protect the legitimate rights and interests of employees in recruitment, resignation, promotion, compensation and benefits; in order to provide equal opportunities for employees and prevent employment discrimination, the Group has established the 'Procedures for the Administration of Prohibited Discriminatory and Disciplinary Measures' and ensures that its employees are not discriminated in the workplace due to race, skin colour, gender, age, sexual orientation, religion, and other factors.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\nThe Group has formulated human resources policies such as 'Personnel Recruitment Management Procedures', 'Employee Communication Management Procedures', 'Working Time and Remuneration Management Procedures' and 'Employee Shared Benefits Management Procedures', to protect the legitimate rights and interests of employees in recruitment, resignation, promotion, compensation and benefits; in order to provide equal opportunities for employees and prevent employment discrimination, the Group has established the 'Procedures for the Administration of Prohibited Discriminatory and Disciplinary Measures' and ensures that its employees are not discriminated in the workplace due to race, skin colour, gender, age, sexual orientation, religion, and other factors.",
+      "bm25_rank": 5,
+      "dense_rank": 1,
+      "bm25_score": 22.731557846069336,
+      "dense_score": 0.7253821492195129,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6431749999634312,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 1.0,
+      "facets": [
+        "anchor_2"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 1,
+      "composite_score": 0.805950436234297,
+      "rank": 1,
+      "rrf_score": 0.805950436234297,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L22_002",
+      "alias_source_ids": [
+        "L22_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        22
+      ],
+      "text": "3 Creating a fair working environment, and eradicating any forms of discrimination in the workplace;",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\n3 Creating a fair working environment, and eradicating any forms of discrimination in the workplace;",
+      "bm25_rank": 8,
+      "dense_rank": 2,
+      "bm25_score": 19.76306915283203,
+      "dense_score": 0.6321829557418823,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5581697518601515,
+      "normalized_dense": 0.785039972752334,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6803576723789713,
+      "rank": 2,
+      "rrf_score": 0.6803576723789713,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T31_001",
+      "alias_source_ids": [
+        "T31_001"
+      ],
+      "section": "APPENDIX: HKEX ESG REPORTING GUIDE INDEX",
+      "pages": [
+        31
+      ],
+      "text": "Key Performance Indicators | Report Content Index Aspect B2 | Health and Safety General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working | Health and safety B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Health and safety B2.2 | Lost days due to work injury. | Health and safety B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. | Health and safety Aspect B3 | Development and Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. Training refers to vocational training. It may include internal and external courses paid by the employer. | Development and training B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Development and training The percentage of employees trained was not recorded since there was a significant change in the total number of production workers based on the business nature of the Group. Development and B3.2 | The average training hours completed per employee by gender and employee category. | training Aspect B4 | Labour Standards General | Information on: | Employment Disclosure | (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | management B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Employment management B4.2 | Description of steps taken to eliminate such practices when discovered. | Employment management",
+      "retrieval_text": "[Section]\nAPPENDIX: HKEX ESG REPORTING GUIDE INDEX\n\n[Content]\nKey Performance Indicators | Report Content Index Aspect B2 | Health and Safety General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working | Health and safety B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Health and safety B2.2 | Lost days due to work injury. | Health and safety B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. | Health and safety Aspect B3 | Development and Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. Training refers to vocational training. It may include internal and external courses paid by the employer. | Development and training B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Development and training The percentage of employees trained was not recorded since there was a significant change in the total number of production workers based on the business nature of the Group. Development and B3.2 | The average training hours completed per employee by gender and employee category. | training Aspect B4 | Labour Standards General | Information on: | Employment Disclosure | (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | management B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Employment management B4.2 | Description of steps taken to eliminate such practices when discovered. | Employment management",
+      "bm25_rank": 4,
+      "dense_rank": 4,
+      "bm25_score": 23.940717697143555,
+      "dense_score": 0.5516765117645264,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6778003409227042,
+      "normalized_dense": 0.5993552393845629,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6392941335127621,
+      "rank": 3,
+      "rrf_score": 0.6392941335127621,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T23_001",
+      "alias_source_ids": [
+        "T23_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / The number of employees",
+      "pages": [
+        23
+      ],
+      "text": "As of 31 December 2021 Breakdown by gender Male | 18,660 Female | 14,057 Breakdown by age 16-17 | 2,385 18-25 | 7,261 26-35 | 10,077 36-50 | 12,124 51 or above | 870 Breakdown by employee category Salaried employees (non-productive workers) | 4,655 Hourly employees (general productive workers) | 28,062 Breakdown by region 1 China mainland | 32,717 Other areas | 143",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / The number of employees\n\n[Content]\nAs of 31 December 2021 Breakdown by gender Male | 18,660 Female | 14,057 Breakdown by age 16-17 | 2,385 18-25 | 7,261 26-35 | 10,077 36-50 | 12,124 51 or above | 870 Breakdown by employee category Salaried employees (non-productive workers) | 4,655 Hourly employees (general productive workers) | 28,062 Breakdown by region 1 China mainland | 32,717 Other areas | 143",
+      "bm25_rank": 2,
+      "dense_rank": 16,
+      "bm25_score": 30.411083221435547,
+      "dense_score": 0.47159165143966675,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8630848690276524,
+      "normalized_dense": 0.4146428710131643,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.5969366095326212,
+      "rank": 4,
+      "rrf_score": 0.5969366095326212,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T30_001",
+      "alias_source_ids": [
+        "T30_001"
+      ],
+      "section": "APPENDIX: HKEX ESG REPORTING GUIDE INDEX",
+      "pages": [
+        30
+      ],
+      "text": "Key Performance Indicators | Report Content Index Aspect A3 | The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impacts on the environment and natural resources. | Responsibility for environmental protection A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Responsibility for environmental protection Aspect A4 | Climate Change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Responsibility for environmental protection A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Responsibility for environmental protection B. Social Employment and Labour | Practices Aspect B1 | Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a | Employment management B1.1 | Total workforce by gender, employment type (for example, full-or part- time), age group and geographical region. | Employment management B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment management Employee turnover rate by age group is not available this year and will be disclosed in the",
+      "retrieval_text": "[Section]\nAPPENDIX: HKEX ESG REPORTING GUIDE INDEX\n\n[Content]\nKey Performance Indicators | Report Content Index Aspect A3 | The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impacts on the environment and natural resources. | Responsibility for environmental protection A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Responsibility for environmental protection Aspect A4 | Climate Change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Responsibility for environmental protection A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Responsibility for environmental protection B. Social Employment and Labour | Practices Aspect B1 | Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a | Employment management B1.1 | Total workforce by gender, employment type (for example, full-or part- time), age group and geographical region. | Employment management B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment management Employee turnover rate by age group is not available this year and will be disclosed in the",
+      "bm25_rank": 6,
+      "dense_rank": 8,
+      "bm25_score": 21.454254150390625,
+      "dense_score": 0.5186277031898499,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6065983009172929,
+      "normalized_dense": 0.5231295497983061,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5916633247605168,
+      "rank": 5,
+      "rrf_score": 0.5916633247605168,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P22_004",
+      "alias_source_ids": [
+        "P22_004"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        22
+      ],
+      "text": "Total number and percentage of Ju Teng International's employees by gender, age, and employment category",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\nTotal number and percentage of Ju Teng International's employees by gender, age, and employment category",
+      "bm25_rank": 13,
+      "dense_rank": 11,
+      "bm25_score": 14.642804145812988,
+      "dense_score": 0.4927942156791687,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4115465229195248,
+      "normalized_dense": 0.46354569534648493,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.5230737878880606,
+      "rank": 6,
+      "rrf_score": 0.5230737878880606,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L22_006",
+      "alias_source_ids": [
+        "L22_006"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        22
+      ],
+      "text": "3 Forbidding employment of child labour and any forms of forced labour.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\n3 Forbidding employment of child labour and any forms of forced labour.",
+      "bm25_rank": 12,
+      "dense_rank": 13,
+      "bm25_score": 15.014443397521973,
+      "dense_score": 0.48481833934783936,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4221887351901693,
+      "normalized_dense": 0.44514967141610534,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.5167501991477648,
+      "rank": 7,
+      "rrf_score": 0.5167501991477648,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_003",
+      "alias_source_ids": [
+        "P24_003"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Compensation and benefits",
+      "pages": [
+        24
+      ],
+      "text": "Employee communication mechanisms help create a harmonious work environment and serve as a bridge for internal collaboration. Ju Teng International established the 'Employee Communication Management Procedures', and employees can make requests to department heads or the Human Resources Department through SMS, phone, interview, company WeChat platform, company suggestion box and other channels. Meanwhile, for the purpose of protecting whistleblowers, employees may voluntarily decide whether or not to disclose personal information during the complaint process, and the Group will protect the personal information of employees who file complaints to ensure their anonymity and promote the effective operation of the employee communication mechanisms.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Compensation and benefits\n\n[Content]\nEmployee communication mechanisms help create a harmonious work environment and serve as a bridge for internal collaboration. Ju Teng International established the 'Employee Communication Management Procedures', and employees can make requests to department heads or the Human Resources Department through SMS, phone, interview, company WeChat platform, company suggestion box and other channels. Meanwhile, for the purpose of protecting whistleblowers, employees may voluntarily decide whether or not to disclose personal information during the complaint process, and the Group will protect the personal information of employees who file complaints to ensure their anonymity and promote the effective operation of the employee communication mechanisms.",
+      "bm25_rank": 39,
+      "dense_rank": 3,
+      "bm25_score": 3.167829751968384,
+      "dense_score": 0.5693495273590088,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08295067967116221,
+      "normalized_dense": 0.6401173079388385,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.5124432742497387,
+      "rank": 8,
+      "rrf_score": 0.5124432742497387,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_001",
+      "alias_source_ids": [
+        "P23_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / The number of employees",
+      "pages": [
+        23
+      ],
+      "text": "Employee turnover rate of Ju Teng International's employees by gender and employment category",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / The number of employees\n\n[Content]\nEmployee turnover rate of Ju Teng International's employees by gender and employment category",
+      "bm25_rank": 14,
+      "dense_rank": 20,
+      "bm25_score": 14.263209342956543,
+      "dense_score": 0.445081889629364,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4006764965424534,
+      "normalized_dense": 0.35349921827930714,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4696318377867851,
+      "rank": 9,
+      "rrf_score": 0.4696318377867851,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T33_001",
+      "alias_source_ids": [
+        "T33_001"
+      ],
+      "section": "APPENDIX: HKEX ESG REPORTING GUIDE INDEX",
+      "pages": [
+        33
+      ],
+      "text": "Key Performance Indicators | Report Content Index Aspect B7 | Anti-corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money | Anti-corruption management B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | Anti-corruption management B7.2 | Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored. | Anti-corruption management B7.3 | Description of anti-corruption training provided to directors and staff. | Anti-corruption management Community Aspect B8 | Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Responsibilities to the community B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Responsibilities to the community B8.2 | Resources contributed (e.g. money or time) to the focus area. | Undisclosed",
+      "retrieval_text": "[Section]\nAPPENDIX: HKEX ESG REPORTING GUIDE INDEX\n\n[Content]\nKey Performance Indicators | Report Content Index Aspect B7 | Anti-corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money | Anti-corruption management B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | Anti-corruption management B7.2 | Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored. | Anti-corruption management B7.3 | Description of anti-corruption training provided to directors and staff. | Anti-corruption management Community Aspect B8 | Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Responsibilities to the community B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Responsibilities to the community B8.2 | Resources contributed (e.g. money or time) to the focus area. | Undisclosed",
+      "bm25_rank": 40,
+      "dense_rank": 7,
+      "bm25_score": 3.125127077102661,
+      "dense_score": 0.5226221084594727,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08172785154319795,
+      "normalized_dense": 0.5323424778672858,
+      "normalized_bm25_rank": 0.738255033557047,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.4684372496427266,
+      "rank": 10,
+      "rrf_score": 0.4684372496427266,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T25_001",
+      "alias_source_ids": [
+        "T25_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Development and training",
+      "pages": [
+        25
+      ],
+      "text": "As of 31 December 2021 Breakdown by gender Male | 13.5 Female | 12.5 Breakdown by employee category Salaried employees (non-production workers) | 15.1 Hourly employees (general production workers) | 12.7",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Development and training\n\n[Content]\nAs of 31 December 2021 Breakdown by gender Male | 13.5 Female | 12.5 Breakdown by employee category Salaried employees (non-production workers) | 15.1 Hourly employees (general production workers) | 12.7",
+      "bm25_rank": 29,
+      "dense_rank": 12,
+      "bm25_score": 6.52022123336792,
+      "dense_score": 0.4876212179660797,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17894931704677305,
+      "normalized_dense": 0.45161439328404146,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.46029785407890333,
+      "rank": 11,
+      "rrf_score": 0.46029785407890333,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P22_003",
+      "alias_source_ids": [
+        "P22_003"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        22
+      ],
+      "text": "For child labour and forced labour, Ju Teng International strictly implements the 'Provisions on the Prohibition of Using Child Labour', 'Law of the People's Republic of China on the Protection of Minors' and 'Special Protection of Minors Regulations' issued by the State Council, and formulated the 'Management Procedures of Prohibited Use of Child Labour and Minors' at the group level. Employees will not be accepted until we confirm their true identity by conducting identity check, observing the candidates' characteristics in appearance, and conducting interviews.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\nFor child labour and forced labour, Ju Teng International strictly implements the 'Provisions on the Prohibition of Using Child Labour', 'Law of the People's Republic of China on the Protection of Minors' and 'Special Protection of Minors Regulations' issued by the State Council, and formulated the 'Management Procedures of Prohibited Use of Child Labour and Minors' at the group level. Employees will not be accepted until we confirm their true identity by conducting identity check, observing the candidates' characteristics in appearance, and conducting interviews.",
+      "bm25_rank": 37,
+      "dense_rank": 10,
+      "bm25_score": 4.150341987609863,
+      "dense_score": 0.49462372064590454,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11108576960614529,
+      "normalized_dense": 0.46776537174951804,
+      "normalized_bm25_rank": 0.7583892617449665,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.4496934232953053,
+      "rank": 12,
+      "rrf_score": 0.4496934232953053,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_002",
+      "alias_source_ids": [
+        "P7_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication",
+      "pages": [
+        7
+      ],
+      "text": "During the Reporting Period, Ju Teng International strictly complied with the 'Anti-Unfair Competition Law of the People's Republic of China' to protect the fair competition market and stop unfair competition practices. Meanwhile, we remain committed to managing our business practices in accordance with the 'Responsible Business Alliance (RBA) Code of Conduct', and require that the management and all employees strictly abide by it. We have established this Code as a programmatic document to achieve the Company's professional ethics, honest operation and compliance goals. Ju Teng International had not provided trainings on ethics and anti-corruption for employees during the year due to the COVID-19 pandemic. In accordance with this Code, we have formulated the internal 'Business Ethics Management Procedure' to strictly manage the business ethics of our employees. We continue to provide channels such as telephone hotlines and emails for anyone to report corruption and immorality of our employees in real names or anonymously.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication\n\n[Content]\nDuring the Reporting Period, Ju Teng International strictly complied with the 'Anti-Unfair Competition Law of the People's Republic of China' to protect the fair competition market and stop unfair competition practices. Meanwhile, we remain committed to managing our business practices in accordance with the 'Responsible Business Alliance (RBA) Code of Conduct', and require that the management and all employees strictly abide by it. We have established this Code as a programmatic document to achieve the Company's professional ethics, honest operation and compliance goals. Ju Teng International had not provided trainings on ethics and anti-corruption for employees during the year due to the COVID-19 pandemic. In accordance with this Code, we have formulated the internal 'Business Ethics Management Procedure' to strictly manage the business ethics of our employees. We continue to provide channels such as telephone hotlines and emails for anyone to report corruption and immorality of our employees in real names or anonymously.",
+      "bm25_rank": 76,
+      "dense_rank": 5,
+      "bm25_score": 1.328732967376709,
+      "dense_score": 0.5322349667549133,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.030286548318292063,
+      "normalized_dense": 0.554514131977274,
+      "normalized_bm25_rank": 0.49664429530201337,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.44443255786912716,
+      "rank": 13,
+      "rrf_score": 0.44443255786912716,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L7_001",
+      "alias_source_ids": [
+        "L7_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication",
+      "pages": [
+        7
+      ],
+      "text": "Adopting a zero-tolerance policy and prohibiting any form of bribery, extortion and corruption",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication\n\n[Content]\nAdopting a zero-tolerance policy and prohibiting any form of bribery, extortion and corruption",
+      "bm25_rank": 31,
+      "dense_rank": 15,
+      "bm25_score": 6.435035705566406,
+      "dense_score": 0.47210681438446045,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17650995558244503,
+      "normalized_dense": 0.41583107271875547,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.44191669207140916,
+      "rank": 14,
+      "rrf_score": 0.44191669207140916,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_003",
+      "alias_source_ids": [
+        "P25_003"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Development and training",
+      "pages": [
+        25
+      ],
+      "text": "During the Reporting Period, all Production Plants of Ju Teng International have completed trainings in accordance with the annual training plan:",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Development and training\n\n[Content]\nDuring the Reporting Period, all Production Plants of Ju Teng International have completed trainings in accordance with the annual training plan:",
+      "bm25_rank": 19,
+      "dense_rank": 22,
+      "bm25_score": 9.9691162109375,
+      "dense_score": 0.4450293183326721,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27771141572626457,
+      "normalized_dense": 0.3533779647904339,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.43895611444606586,
+      "rank": 15,
+      "rrf_score": 0.43895611444606586,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_001",
+      "alias_source_ids": [
+        "P25_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Development and training",
+      "pages": [
+        25
+      ],
+      "text": "Ju Teng International understands that its development depends on the cultivation of talents. Therefore, improving the business and management level of our talents and teams is a top priority for the development of our company. The Group attaches great importance to staff development, establishes an effective training system, and formulates annual training plans based on the 'Education and Training Management Procedures'. The Group promotes staff development and implements training systems by conducting skills training, product quality training, system implementation and management training.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Development and training\n\n[Content]\nJu Teng International understands that its development depends on the cultivation of talents. Therefore, improving the business and management level of our talents and teams is a top priority for the development of our company. The Group attaches great importance to staff development, establishes an effective training system, and formulates annual training plans based on the 'Education and Training Management Procedures'. The Group promotes staff development and implements training systems by conducting skills training, product quality training, system implementation and management training.",
+      "bm25_rank": 18,
+      "dense_rank": 26,
+      "bm25_score": 10.514363288879395,
+      "dense_score": 0.43949347734451294,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2933250386595872,
+      "normalized_dense": 0.34060977994622643,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.4329119877600766,
+      "rank": 16,
+      "rrf_score": 0.4329119877600766,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_002",
+      "alias_source_ids": [
+        "P24_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Compensation and benefits",
+      "pages": [
+        24
+      ],
+      "text": "Ju Teng International established a legal and incentive-based salary and welfare system in accordance with laws and regulations to make distribution on the basis of performance, provide equal pay for equal work, and ensure employees receive reasonable and legitimate remuneration. In addition, Ju Teng International has developed an employee share award plan. This is to reward eligible participants who have made outstanding contributions to the construction and development of the Group and to attract suitable talents to join the Group and promote its further development.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Compensation and benefits\n\n[Content]\nJu Teng International established a legal and incentive-based salary and welfare system in accordance with laws and regulations to make distribution on the basis of performance, provide equal pay for equal work, and ensure employees receive reasonable and legitimate remuneration. In addition, Ju Teng International has developed an employee share award plan. This is to reward eligible participants who have made outstanding contributions to the construction and development of the Group and to attract suitable talents to join the Group and promote its further development.",
+      "bm25_rank": 28,
+      "dense_rank": 17,
+      "bm25_score": 6.696437358856201,
+      "dense_score": 0.4580974578857422,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18399541862063293,
+      "normalized_dense": 0.3835190800682016,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.43143344631175556,
+      "rank": 17,
+      "rrf_score": 0.43143344631175556,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T22_001",
+      "alias_source_ids": [
+        "T22_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        22
+      ],
+      "text": "As of 31 December 2019 | As of 31 December 2020 | As of 31 December 2021 Breakdown by gender Male | 58.19% | 56.51% | 57.03% Female | 41.81% | 43.49% | 42.97% Breakdown by age 16-17 | 1.59% | 2.59% | 7.29% 18-25 | 25.82% | 21.14% | 22.19% 26-35 | 39.01% | 36.02% | 30.80% 36-50 | 32.96% | 39.20% | 37.06% 51 or above | 0.62% | 1.04% | 2.66% Breakdown by employee category Salaried employees (non-production workers) | 18.58% | 14.17% | 14.23% Hourly employees (general production workers) | 81.42% | 85.83% | 85.77%",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\nAs of 31 December 2019 | As of 31 December 2020 | As of 31 December 2021 Breakdown by gender Male | 58.19% | 56.51% | 57.03% Female | 41.81% | 43.49% | 42.97% Breakdown by age 16-17 | 1.59% | 2.59% | 7.29% 18-25 | 25.82% | 21.14% | 22.19% 26-35 | 39.01% | 36.02% | 30.80% 36-50 | 32.96% | 39.20% | 37.06% 51 or above | 0.62% | 1.04% | 2.66% Breakdown by employee category Salaried employees (non-production workers) | 18.58% | 14.17% | 14.23% Hourly employees (general production workers) | 81.42% | 85.83% | 85.77%",
+      "bm25_rank": 24,
+      "dense_rank": 23,
+      "bm25_score": 7.623726844787598,
+      "dense_score": 0.44136160612106323,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2105491572266569,
+      "normalized_dense": 0.3449185405451664,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.41786487768311953,
+      "rank": 18,
+      "rrf_score": 0.41786487768311953,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T20_001",
+      "alias_source_ids": [
+        "T20_001"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        20
+      ],
+      "text": "Category | Unit | 2019 | 2020 | 2021 | YoY Change Effluent discharged | m 3 | 2,791,076 | 2,354,812 | 2,107,135 | -10.52% Effluent discharged intensity | m 3 /HK$ million | 313.0 | 234.8 | 186.8 | -20.46% Hazardous waste Total hazardous waste disposed | Tons | / | / | 3,278 | N/A Intensity of total hazardous waste disposed | Tons/HK$ million income | / | / | 0.4 | N/A Non-hazardous waste Total non-hazardous waste disposed | Tons | / | / | 1,133 | N/A Intensity of total non-hazardous waste disposed | Tons/HK$ million income | / | 0.1 | N/A Greenhouse gas emission Scope 1 greenhouse gas emission | tCO 2 equivalent | 43,560 | 37,750 | 44,291 | 17.33% Scope 2 greenhouse gas emission | tCO 2 equivalent | 581,784 | 653,503 | 465,900 | -28.71% Greenhouse gas emissions intensity | tCO 2 equivalent/ HK$ million income | 70.1 | 68.9 | 45.2 | -34.39%",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nCategory | Unit | 2019 | 2020 | 2021 | YoY Change Effluent discharged | m 3 | 2,791,076 | 2,354,812 | 2,107,135 | -10.52% Effluent discharged intensity | m 3 /HK$ million | 313.0 | 234.8 | 186.8 | -20.46% Hazardous waste Total hazardous waste disposed | Tons | / | / | 3,278 | N/A Intensity of total hazardous waste disposed | Tons/HK$ million income | / | / | 0.4 | N/A Non-hazardous waste Total non-hazardous waste disposed | Tons | / | / | 1,133 | N/A Intensity of total non-hazardous waste disposed | Tons/HK$ million income | / | 0.1 | N/A Greenhouse gas emission Scope 1 greenhouse gas emission | tCO 2 equivalent | 43,560 | 37,750 | 44,291 | 17.33% Scope 2 greenhouse gas emission | tCO 2 equivalent | 581,784 | 653,503 | 465,900 | -28.71% Greenhouse gas emissions intensity | tCO 2 equivalent/ HK$ million income | 70.1 | 68.9 | 45.2 | -34.39%",
+      "bm25_rank": 1,
+      "dense_rank": 104,
+      "bm25_score": 35.19232940673828,
+      "dense_score": 0.3407537043094635,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.11287063854328093,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.3087248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.4012496899331014,
+      "rank": 19,
+      "rrf_score": 0.4012496899331014,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_003",
+      "alias_source_ids": [
+        "P26_003"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Health and safety",
+      "pages": [
+        26
+      ],
+      "text": "For emergency management work, in order to protect the safety of employees and the public, and to reduce environmental damage and social impact, Ju Teng International and its Production Plants have formulated the 'Comprehensive Emergency Response Plan for Production Safety Accidents', which stipulates prior prevention, emergency response, on-the-spot disposition and the handling of the aftermath of the incident. In 2021, fire drills and training, first-aid knowledge training, etc. were conducted in several Production Plants of the Group to improve employees' fire-fighting awareness and increase their knowledge of first aid, so as to prevent problems before they occur.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Health and safety\n\n[Content]\nFor emergency management work, in order to protect the safety of employees and the public, and to reduce environmental damage and social impact, Ju Teng International and its Production Plants have formulated the 'Comprehensive Emergency Response Plan for Production Safety Accidents', which stipulates prior prevention, emergency response, on-the-spot disposition and the handling of the aftermath of the incident. In 2021, fire drills and training, first-aid knowledge training, etc. were conducted in several Production Plants of the Group to improve employees' fire-fighting awareness and increase their knowledge of first aid, so as to prevent problems before they occur.",
+      "bm25_rank": 26,
+      "dense_rank": 34,
+      "bm25_score": 7.451215744018555,
+      "dense_score": 0.4221082925796509,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20560915224875345,
+      "normalized_dense": 0.3005115811173124,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.38522705833745435,
+      "rank": 20,
+      "rrf_score": 0.38522705833745435,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L22_001",
+      "alias_source_ids": [
+        "L22_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        22
+      ],
+      "text": "3 Respecting basic labour rights of employees;",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\n3 Respecting basic labour rights of employees;",
+      "bm25_rank": null,
+      "dense_rank": 6,
+      "bm25_score": null,
+      "dense_score": 0.5255400538444519,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5390725964021945,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.38196399934479497,
+      "rank": 21,
+      "rrf_score": 0.38196399934479497,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P27_005",
+      "alias_source_ids": [
+        "P27_005"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        27
+      ],
+      "text": "In 2021, Neijiang Production Plant provided training on the use of occupational disease protective supplies to enable employees to correctly use protective supplies to avoid occupational disease hazards in the production process.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\nIn 2021, Neijiang Production Plant provided training on the use of occupational disease protective supplies to enable employees to correctly use protective supplies to avoid occupational disease hazards in the production process.",
+      "bm25_rank": 27,
+      "dense_rank": 36,
+      "bm25_score": 7.408153057098389,
+      "dense_score": 0.4203912019729614,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20437601486339574,
+      "normalized_dense": 0.2965511837165638,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.38023858707213426,
+      "rank": 22,
+      "rrf_score": 0.38023858707213426,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_005",
+      "alias_source_ids": [
+        "P25_005"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Development and training",
+      "pages": [
+        25
+      ],
+      "text": "In 2021, each Production Plant of Ju Teng International has successively carried out cadre training to improve the management level, increase the understanding of each department, and encourage cadres to empower downward and act as a bridge between employees and the Company.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Development and training\n\n[Content]\nIn 2021, each Production Plant of Ju Teng International has successively carried out cadre training to improve the management level, increase the understanding of each department, and encourage cadres to empower downward and act as a bridge between employees and the Company.",
+      "bm25_rank": 20,
+      "dense_rank": 41,
+      "bm25_score": 8.945727348327637,
+      "dense_score": 0.41103023290634155,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24840578812846717,
+      "normalized_dense": 0.2749605015385239,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.37947438014404256,
+      "rank": 23,
+      "rrf_score": 0.37947438014404256,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_004",
+      "alias_source_ids": [
+        "P24_004"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Compensation and benefits",
+      "pages": [
+        24
+      ],
+      "text": "Channels for employee complaints (Supervisor, Management, General Manager, Government Labour Administration)",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Compensation and benefits\n\n[Content]\nChannels for employee complaints (Supervisor, Management, General Manager, Government Labour Administration)",
+      "bm25_rank": 138,
+      "dense_rank": 9,
+      "bm25_score": 0.3270231783390045,
+      "dense_score": 0.5019664764404297,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0016017197930493043,
+      "normalized_dense": 0.484701129740202,
+      "normalized_bm25_rank": 0.08053691275167785,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.36728117560929135,
+      "rank": 24,
+      "rrf_score": 0.36728117560929135,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "ABOUT THIS REPORT / Overview",
+      "pages": [
+        3
+      ],
+      "text": "Unless otherwise specified, the disclosed information of this report covers the period from 1 January to 31 December 2021 (the 'Reporting Period').",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Overview\n\n[Content]\nUnless otherwise specified, the disclosed information of this report covers the period from 1 January to 31 December 2021 (the 'Reporting Period').",
+      "bm25_rank": 11,
+      "dense_rank": 66,
+      "bm25_score": 15.68516731262207,
+      "dense_score": 0.3768305480480194,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.44139549617321644,
+      "normalized_dense": 0.19608036411790322,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.563758389261745,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.36294749513228525,
+      "rank": 25,
+      "rrf_score": 0.36294749513228525,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P27_004",
+      "alias_source_ids": [
+        "P27_004"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        27
+      ],
+      "text": "In June 2021, the Group provided training on rescue knowledge for first-aiders to allow employees to participate in a first-aid drill and teach first aid knowledge, so as to prevent problems before they occur.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\nIn June 2021, the Group provided training on rescue knowledge for first-aiders to allow employees to participate in a first-aid drill and teach first aid knowledge, so as to prevent problems before they occur.",
+      "bm25_rank": 25,
+      "dense_rank": 48,
+      "bm25_score": 7.559602737426758,
+      "dense_score": 0.4091249108314514,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20871290780181403,
+      "normalized_dense": 0.2705659561583403,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.3572460353432987,
+      "rank": 26,
+      "rrf_score": 0.3572460353432987,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_001",
+      "alias_source_ids": [
+        "P24_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Compensation and benefits",
+      "pages": [
+        24
+      ],
+      "text": "Ju Teng International strictly follow the 'Labour Law of the People's Republic of China' and established internal policies and systems such as 'Working Time and Remuneration Management Procedures' and 'Personnel Administrative Systems and Related Norms', and employees are provided with reasonable and appropriate rest time during normal working hours. The Group persists in not forcing any employees to work overtime and adopt an appropriate rest system. According to the internal 'Management Procedure for Employees' Shared Benefits', the Group provide annual leave, paid sick leave and other legal holidays for employees; male employees are entitled to paid paternity leave; employees in special jobs, such as smashers and grain pumpers, are entitled to special subsidies.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Compensation and benefits\n\n[Content]\nJu Teng International strictly follow the 'Labour Law of the People's Republic of China' and established internal policies and systems such as 'Working Time and Remuneration Management Procedures' and 'Personnel Administrative Systems and Related Norms', and employees are provided with reasonable and appropriate rest time during normal working hours. The Group persists in not forcing any employees to work overtime and adopt an appropriate rest system. According to the internal 'Management Procedure for Employees' Shared Benefits', the Group provide annual leave, paid sick leave and other legal holidays for employees; male employees are entitled to paid paternity leave; employees in special jobs, such as smashers and grain pumpers, are entitled to special subsidies.",
+      "bm25_rank": 77,
+      "dense_rank": 19,
+      "bm25_score": 1.3160279989242554,
+      "dense_score": 0.4468933343887329,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.029922730528483547,
+      "normalized_dense": 0.35767723957221714,
+      "normalized_bm25_rank": 0.4899328859060402,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.35600379472107335,
+      "rank": 27,
+      "rrf_score": 0.35600379472107335,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_003",
+      "alias_source_ids": [
+        "P4_003"
+      ],
+      "section": "ABOUT JU TENG INTERNATIONAL / Company overview",
+      "pages": [
+        4
+      ],
+      "text": "In order to help pubic better understand Ju Teng International's business philosophy, mission and vision, environmental protection and social responsibility practices, we discloses and elaborates on environmental, social and governance, and other non-financial information publicly and in detail in this report, and also hope that this information disclosure will provide Ju Teng International with an opportunity to review its ESG risk management performance.",
+      "retrieval_text": "[Section]\nABOUT JU TENG INTERNATIONAL / Company overview\n\n[Content]\nIn order to help pubic better understand Ju Teng International's business philosophy, mission and vision, environmental protection and social responsibility practices, we discloses and elaborates on environmental, social and governance, and other non-financial information publicly and in detail in this report, and also hope that this information disclosure will provide Ju Teng International with an opportunity to review its ESG risk management performance.",
+      "bm25_rank": 33,
+      "dense_rank": 40,
+      "bm25_score": 5.762526512145996,
+      "dense_score": 0.41348886489868164,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1572520716064428,
+      "normalized_dense": 0.2806312330153179,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.3558458425209451,
+      "rank": 28,
+      "rrf_score": 0.3558458425209451,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T7_001",
+      "alias_source_ids": [
+        "T7_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication",
+      "pages": [
+        7
+      ],
+      "text": "Environment | Labour • Minimising emission and wastewater • Waste management • Energy saving and minimising greenhouse gas emission • New energy application • Environmental compliance | • Complying with labour laws • Protecting workers against health and safety hazards • Labour relations • Training and development Governance and community | Product responsibility • Anti-corruption • Managing suppliers' environmental and social performance | • Protecting customer information and privacy • Assuring product quality • Satisfying customer service and communication • Fair sales of products • Product and technological innovation",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication\n\n[Content]\nEnvironment | Labour • Minimising emission and wastewater • Waste management • Energy saving and minimising greenhouse gas emission • New energy application • Environmental compliance | • Complying with labour laws • Protecting workers against health and safety hazards • Labour relations • Training and development Governance and community | Product responsibility • Anti-corruption • Managing suppliers' environmental and social performance | • Protecting customer information and privacy • Assuring product quality • Satisfying customer service and communication • Fair sales of products • Product and technological innovation",
+      "bm25_rank": 36,
+      "dense_rank": 38,
+      "bm25_score": 4.999568462371826,
+      "dense_score": 0.4159834384918213,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1354041061884849,
+      "normalized_dense": 0.2863848622855252,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.3541611606215234,
+      "rank": 29,
+      "rrf_score": 0.3541611606215234,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L22_005",
+      "alias_source_ids": [
+        "L22_005"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        22
+      ],
+      "text": "3 Providing reasonable compensation and benefits;",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\n3 Providing reasonable compensation and benefits;",
+      "bm25_rank": 127,
+      "dense_rank": 14,
+      "bm25_score": 0.35644111037254333,
+      "dense_score": 0.48261523246765137,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.002444127789041789,
+      "normalized_dense": 0.4400682978835286,
+      "normalized_bm25_rank": 0.15436241610738255,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.35249930699825144,
+      "rank": 30,
+      "rrf_score": 0.35249930699825144,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_002",
+      "alias_source_ids": [
+        "P26_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Health and safety",
+      "pages": [
+        26
+      ],
+      "text": "In the daily work, the Group and each Production Plant upload problems to WeChat in a timely manner with the help of WeChat and constantly update the treatment progress, and security departments of the Production Plants follow up the information from WeChat, thus ensuring that problems are dealt with in a close end cycle from discovery to resolution. In addition to the basic health and safety regulations and systems, Ju Teng International has also formulated the 'Risk Assessment and Control Management Procedures', 'Hazardous Chemicals Safety Management Procedures' and 'Production Safety Accident Emergency Management System' according to its own industry characteristics. Regarding the management of hazardous chemicals, we strictly control the whole process (transportation, storage and custody, entry and exit, use and post-processing) of hazardous products in accordance with the 'Hazardous Chemicals Safety Management Regulations' and internal management procedures. In addition, the Group's various safety systems enable the Group identify the risk sources in the process of production, services and activities, control the risks in all links, and take measures to influence the possible hazards, so that the risks can be controlled effectively to achieve the policy of 'Safety First, Prevention First, and Comprehensive Management'.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Health and safety\n\n[Content]\nIn the daily work, the Group and each Production Plant upload problems to WeChat in a timely manner with the help of WeChat and constantly update the treatment progress, and security departments of the Production Plants follow up the information from WeChat, thus ensuring that problems are dealt with in a close end cycle from discovery to resolution. In addition to the basic health and safety regulations and systems, Ju Teng International has also formulated the 'Risk Assessment and Control Management Procedures', 'Hazardous Chemicals Safety Management Procedures' and 'Production Safety Accident Emergency Management System' according to its own industry characteristics. Regarding the management of hazardous chemicals, we strictly control the whole process (transportation, storage and custody, entry and exit, use and post-processing) of hazardous products in accordance with the 'Hazardous Chemicals Safety Management Regulations' and internal management procedures. In addition, the Group's various safety systems enable the Group identify the risk sources in the process of production, services and activities, control the risks in all links, and take measures to influence the possible hazards, so that the risks can be controlled effectively to achieve the policy of 'Safety First, Prevention First, and Comprehensive Management'.",
+      "bm25_rank": 34,
+      "dense_rank": 44,
+      "bm25_score": 5.727331638336182,
+      "dense_score": 0.41046375036239624,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15624423587273004,
+      "normalized_dense": 0.27365393333188986,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.34716195202862693,
+      "rank": 31,
+      "rrf_score": 0.34716195202862693,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_006",
+      "alias_source_ids": [
+        "P25_006"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Development and training",
+      "pages": [
+        25
+      ],
+      "text": "In August 2021, Dachangbao Production Plant organised instructors to train employees on laser engraving technology.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Development and training\n\n[Content]\nIn August 2021, Dachangbao Production Plant organised instructors to train employees on laser engraving technology.",
+      "bm25_rank": 22,
+      "dense_rank": 56,
+      "bm25_score": 8.376605033874512,
+      "dense_score": 0.3981774151325226,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.23210847709224378,
+      "normalized_dense": 0.24531601690537588,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.6308724832214765,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.344362838248082,
+      "rank": 32,
+      "rrf_score": 0.344362838248082,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_002",
+      "alias_source_ids": [
+        "P25_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Development and training",
+      "pages": [
+        25
+      ],
+      "text": "In the first half of 2021, despite the impact of the pandemic, the Group did not stop its staff training activities and conducted staff development and training both online and offline. Starting from the second half of the year, in order to provide excellent frontline workers with training courses, improve quality management and control and enhance management level, the Group has provided 'Training Camp for Excellent Production Workers at Frontline', Advanced Qualification Program (AQP) for suppliers and cadre training for different trainee groups.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Development and training\n\n[Content]\nIn the first half of 2021, despite the impact of the pandemic, the Group did not stop its staff training activities and conducted staff development and training both online and offline. Starting from the second half of the year, in order to provide excellent frontline workers with training courses, improve quality management and control and enhance management level, the Group has provided 'Training Camp for Excellent Production Workers at Frontline', Advanced Qualification Program (AQP) for suppliers and cadre training for different trainee groups.",
+      "bm25_rank": 17,
+      "dense_rank": 64,
+      "bm25_score": 10.833001136779785,
+      "dense_score": 0.3863452076911926,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.302449509767587,
+      "normalized_dense": 0.21802552715882248,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.5771812080536913,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.3414968230362865,
+      "rank": 33,
+      "rrf_score": 0.3414968230362865,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P22_001",
+      "alias_source_ids": [
+        "P22_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        22
+      ],
+      "text": "Adhering to its mission of 'being people-oriented', Ju Teng International respects and cares for all employees, provides reasonable compensation and benefits and a fair and healthy working environment for employees. As the Group regards its employees, and focus on employee development as key assets, Ju Teng International strives to promote the common development of employees and the Group, which is the value that Ju Teng has always maintained.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\nAdhering to its mission of 'being people-oriented', Ju Teng International respects and cares for all employees, provides reasonable compensation and benefits and a fair and healthy working environment for employees. As the Group regards its employees, and focus on employee development as key assets, Ju Teng International strives to promote the common development of employees and the Group, which is the value that Ju Teng has always maintained.",
+      "bm25_rank": 108,
+      "dense_rank": 18,
+      "bm25_score": 0.44160863757133484,
+      "dense_score": 0.4513959586620331,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0048829737905001286,
+      "normalized_dense": 0.3680623534381104,
+      "normalized_bm25_rank": 0.2818791946308725,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.33516754597821724,
+      "rank": 34,
+      "rrf_score": 0.33516754597821724,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T32_001",
+      "alias_source_ids": [
+        "T32_001"
+      ],
+      "section": "APPENDIX: HKEX ESG REPORTING GUIDE INDEX",
+      "pages": [
+        32
+      ],
+      "text": "Key | Performance | Indicators | Report Content Index Operating Practices Aspect B5 | Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | Mutual success with suppliers B5.1 | Number of suppliers by geographical region. | Mutual success with suppliers B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | Mutual success with suppliers B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Mutual success with suppliers B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Mutual success with suppliers Aspect B6 | Product Responsibility General | Information on: | Quality control Disclosure | (a) (b) | the policies; and compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. B6.1 | Percentage of total products sold or shipped subject to recalls for safety | Quality control B6.2 | Number of products and service related complaints received and how they are dealt with. | Quality control B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Quality control B6.4 | Description of quality assurance process and recall procedures. | Quality control Mutual success with customers B6.5 | Description of consumer data protection and privacy policies, and how they are implemented and monitored. | Mutual success with customers",
+      "retrieval_text": "[Section]\nAPPENDIX: HKEX ESG REPORTING GUIDE INDEX\n\n[Content]\nKey | Performance | Indicators | Report Content Index Operating Practices Aspect B5 | Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | Mutual success with suppliers B5.1 | Number of suppliers by geographical region. | Mutual success with suppliers B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | Mutual success with suppliers B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Mutual success with suppliers B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Mutual success with suppliers Aspect B6 | Product Responsibility General | Information on: | Quality control Disclosure | (a) (b) | the policies; and compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. B6.1 | Percentage of total products sold or shipped subject to recalls for safety | Quality control B6.2 | Number of products and service related complaints received and how they are dealt with. | Quality control B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Quality control B6.4 | Description of quality assurance process and recall procedures. | Quality control Mutual success with customers B6.5 | Description of consumer data protection and privacy policies, and how they are implemented and monitored. | Mutual success with customers",
+      "bm25_rank": 103,
+      "dense_rank": 25,
+      "bm25_score": 0.4582307040691376,
+      "dense_score": 0.44007691740989685,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.005358961079875322,
+      "normalized_dense": 0.34195545996418075,
+      "normalized_bm25_rank": 0.31543624161073824,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.320085062263841,
+      "rank": 35,
+      "rrf_score": 0.320085062263841,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T26_001",
+      "alias_source_ids": [
+        "T26_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Health and safety",
+      "pages": [
+        26
+      ],
+      "text": "Unit | 2021 Number of work-related incidents | Case | 154 Lost days due to work-related accidents | Day | 2,467 Incident rate per one million work hours 2 | / | 4.43 Lost day rate per one million work hours 3 | / | 71.0 2019 | 2021",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Health and safety\n\n[Content]\nUnit | 2021 Number of work-related incidents | Case | 154 Lost days due to work-related accidents | Day | 2,467 Incident rate per one million work hours 2 | / | 4.43 Lost day rate per one million work hours 3 | / | 71.0 2019 | 2021",
+      "bm25_rank": 7,
+      "dense_rank": 99,
+      "bm25_score": 20.025753021240234,
+      "dense_score": 0.3442400097846985,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5656919322402347,
+      "normalized_dense": 0.12091165576656916,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.3422818791946308,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.31988699616768845,
+      "rank": 36,
+      "rrf_score": 0.31988699616768845,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L22_003",
+      "alias_source_ids": [
+        "L22_003"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        22
+      ],
+      "text": "3 Providing safe and hygienic condition for working and living to ensure the safety and health of employees;",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\n3 Providing safe and hygienic condition for working and living to ensure the safety and health of employees;",
+      "bm25_rank": 107,
+      "dense_rank": 24,
+      "bm25_score": 0.44681525230407715,
+      "dense_score": 0.4402937889099121,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.005032069718722204,
+      "normalized_dense": 0.3424556649746856,
+      "normalized_bm25_rank": 0.28859060402684567,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.31885247386609245,
+      "rank": 37,
+      "rrf_score": 0.31885247386609245,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_001",
+      "alias_source_ids": [
+        "P9_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION / Mutual success with customers",
+      "pages": [
+        9
+      ],
+      "text": "Customer opinions are vital to the development of Ju Teng International. The Group has established 'Customer Complaint Handling', 'Customer Complaint Handling Procedure' and 'Corrective and Preventive Measures Control Procedure' to standardise the handling process of customer complaints in each Production Plant, and has set up the Quality Assurance Centre under all Production Plants (hereinafter referred to the 'Quality Assurance Centre') to retain the back-end customers. The Quality Assurance Centre receives customer complaints mainly through phone, email, written quality complaint form, business department or other means. After receiving customer feedback, the Quality Assurance Centre is required to communicate with the customer as soon as possible to confirm the details of defective products, clarify the defective situation and defective rate of the products, or visit the customer for confirmation.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION / Mutual success with customers\n\n[Content]\nCustomer opinions are vital to the development of Ju Teng International. The Group has established 'Customer Complaint Handling', 'Customer Complaint Handling Procedure' and 'Corrective and Preventive Measures Control Procedure' to standardise the handling process of customer complaints in each Production Plant, and has set up the Quality Assurance Centre under all Production Plants (hereinafter referred to the 'Quality Assurance Centre') to retain the back-end customers. The Quality Assurance Centre receives customer complaints mainly through phone, email, written quality complaint form, business department or other means. After receiving customer feedback, the Quality Assurance Centre is required to communicate with the customer as soon as possible to confirm the details of defective products, clarify the defective situation and defective rate of the products, or visit the customer for confirmation.",
+      "bm25_rank": 35,
+      "dense_rank": 57,
+      "bm25_score": 5.592980861663818,
+      "dense_score": 0.39601218700408936,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15239698486924116,
+      "normalized_dense": 0.2403220091235689,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.3166055229858893,
+      "rank": 38,
+      "rrf_score": 0.3166055229858893,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_004",
+      "alias_source_ids": [
+        "P7_004"
+      ],
+      "section": "RESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication",
+      "pages": [
+        7
+      ],
+      "text": "During the Reporting Period, Ju Teng International continued to apply its internal 'Laws and Regulations Management Procedures' to monitor and identify the laws and regulations applicable to the Group and the procedures required by customers, and to maintain regular updates to ensure the compliance and legal operation of our business. Meanwhile, the Group has conducted compliance promotion for employees to prevent corruption-related incidents. During the Reporting Period, there were no filed and concluded case of corruption lawsuits against Ju Teng International or its employees.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication\n\n[Content]\nDuring the Reporting Period, Ju Teng International continued to apply its internal 'Laws and Regulations Management Procedures' to monitor and identify the laws and regulations applicable to the Group and the procedures required by customers, and to maintain regular updates to ensure the compliance and legal operation of our business. Meanwhile, the Group has conducted compliance promotion for employees to prevent corruption-related incidents. During the Reporting Period, there were no filed and concluded case of corruption lawsuits against Ju Teng International or its employees.",
+      "bm25_rank": 105,
+      "dense_rank": 27,
+      "bm25_score": 0.45076167583465576,
+      "dense_score": 0.43877044320106506,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.005145078978990469,
+      "normalized_dense": 0.3389421320473865,
+      "normalized_bm25_rank": 0.30201342281879195,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.3149607754352022,
+      "rank": 39,
+      "rrf_score": 0.3149607754352022,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T12_001",
+      "alias_source_ids": [
+        "T12_001"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        12
+      ],
+      "text": "Targets | Purpose Develop climate change policies | Summarise the methods to mitigate climate-related risks in business operations Upgrade the lighting, HVAC systems and electrical appliances in all premises to the energy-saving mode in stages | Improve the disclosure and transparency of environmental data Disclose the quantity of hazardous and non-hazardous wastes recycled by all Production Plants of the Group | Improve the disclosure and transparency of environmental data Promote the paperless business operation | Reduce paper consumption and promote digital transformation Drive all Production Plants to strengthen the recycling of water resources and the reuse of reclaimed water | Enhance water efficiency",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nTargets | Purpose Develop climate change policies | Summarise the methods to mitigate climate-related risks in business operations Upgrade the lighting, HVAC systems and electrical appliances in all premises to the energy-saving mode in stages | Improve the disclosure and transparency of environmental data Disclose the quantity of hazardous and non-hazardous wastes recycled by all Production Plants of the Group | Improve the disclosure and transparency of environmental data Promote the paperless business operation | Reduce paper consumption and promote digital transformation Drive all Production Plants to strengthen the recycling of water resources and the reuse of reclaimed water | Enhance water efficiency",
+      "bm25_rank": 57,
+      "dense_rank": 42,
+      "bm25_score": 1.535543441772461,
+      "dense_score": 0.41095656156539917,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.036208745605557424,
+      "normalized_dense": 0.27479058168336823,
+      "normalized_bm25_rank": 0.6241610738255033,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 42,
+      "composite_score": 0.31080100304586084,
+      "rank": 40,
+      "rrf_score": 0.31080100304586084,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_001",
+      "alias_source_ids": [
+        "P26_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Health and safety",
+      "pages": [
+        26
+      ],
+      "text": "Ju Teng International adheres to national and local laws and regulations on occupational health and safety such as the 'People's Republic of China's Work Safety Law' and 'The Law of the People's Republic of China on Occupational Disease Prevention and Control'. On this basis, we formulated safety and occupational health systems such as the 'Comprehensive Emergency Response Plan for Production Safety Accidents', the 'Fire Safety Management System' and the 'Occupational Disease Prevention and Control Plan and Implementation Plan', and required each Production Plant to strictly implement relevant laws and regulations to ensure the occupational health and safety of employees and to provide a sound working environment for employees.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Health and safety\n\n[Content]\nJu Teng International adheres to national and local laws and regulations on occupational health and safety such as the 'People's Republic of China's Work Safety Law' and 'The Law of the People's Republic of China on Occupational Disease Prevention and Control'. On this basis, we formulated safety and occupational health systems such as the 'Comprehensive Emergency Response Plan for Production Safety Accidents', the 'Fire Safety Management System' and the 'Occupational Disease Prevention and Control Plan and Implementation Plan', and required each Production Plant to strictly implement relevant laws and regulations to ensure the occupational health and safety of employees and to provide a sound working environment for employees.",
+      "bm25_rank": 101,
+      "dense_rank": 30,
+      "bm25_score": 0.48170143365859985,
+      "dense_score": 0.43374180793762207,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.006031065776269305,
+      "normalized_dense": 0.327343795914706,
+      "normalized_bm25_rank": 0.32885906040268453,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.30973627326902514,
+      "rank": 41,
+      "rrf_score": 0.30973627326902514,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L8_004",
+      "alias_source_ids": [
+        "L8_004"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION",
+      "pages": [
+        8
+      ],
+      "text": "■ Implementing a sound customer complaint and improvement system;",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION\n\n[Content]\n■ Implementing a sound customer complaint and improvement system;",
+      "bm25_rank": 32,
+      "dense_rank": 62,
+      "bm25_score": 6.0230255126953125,
+      "dense_score": 0.38875529170036316,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16471168640059652,
+      "normalized_dense": 0.22358428475048348,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.5906040268456376,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.3085122731843993,
+      "rank": 42,
+      "rrf_score": 0.3085122731843993,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_004",
+      "alias_source_ids": [
+        "P25_004"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Development and training",
+      "pages": [
+        25
+      ],
+      "text": "From 24 September to 26 September 2021, the Group invited DELL-recognised instructors to provide AQP training for a total of 37 senior supervisors and engineers from all Production Plants.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Development and training\n\n[Content]\nFrom 24 September to 26 September 2021, the Group invited DELL-recognised instructors to provide AQP training for a total of 37 senior supervisors and engineers from all Production Plants.",
+      "bm25_rank": 21,
+      "dense_rank": 70,
+      "bm25_score": 8.618104934692383,
+      "dense_score": 0.3724821209907532,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.23902403618893442,
+      "normalized_dense": 0.18605089965758262,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.5369127516778524,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.30688235366156497,
+      "rank": 43,
+      "rrf_score": 0.30688235366156497,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_002",
+      "alias_source_ids": [
+        "P9_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION / Mutual success with customers",
+      "pages": [
+        9
+      ],
+      "text": "In order to improve customer service, optimise quality assurance management capabilities, ensure customer interests and enhance the Group's image, the Group collects, summarises and analyses customer feedback on the Group's product quality and service quality, and responds to them one by one according to the 'Customer Complaint Handling' and 'Customer Complaint Handling Procedure'.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION / Mutual success with customers\n\n[Content]\nIn order to improve customer service, optimise quality assurance management capabilities, ensure customer interests and enhance the Group's image, the Group collects, summarises and analyses customer feedback on the Group's product quality and service quality, and responds to them one by one according to the 'Customer Complaint Handling' and 'Customer Complaint Handling Procedure'.",
+      "bm25_rank": 30,
+      "dense_rank": 65,
+      "bm25_score": 6.483916282653809,
+      "dense_score": 0.3834877908229828,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17790969329821002,
+      "normalized_dense": 0.2114350151068512,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.5704697986577181,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.3042150664302614,
+      "rank": 44,
+      "rrf_score": 0.3042150664302614,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P27_001",
+      "alias_source_ids": [
+        "P27_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        27
+      ],
+      "text": "During the Reporting Period, our Production Plants adopted the following four measures to further enhance employee safety:",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\nDuring the Reporting Period, our Production Plants adopted the following four measures to further enhance employee safety:",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.44506123661994934,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3534515829801069,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.2968624164591448,
+      "rank": 45,
+      "rrf_score": 0.2968624164591448,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L5_002",
+      "alias_source_ids": [
+        "L5_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE MANAGEMENT",
+      "pages": [
+        5
+      ],
+      "text": "3 Appointing dedicated personnel to take responsibility in implementing internationally recognised environmental, health and safety, labour rights management systems;",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE MANAGEMENT\n\n[Content]\n3 Appointing dedicated personnel to take responsibility in implementing internationally recognised environmental, health and safety, labour rights management systems;",
+      "bm25_rank": 68,
+      "dense_rank": 47,
+      "bm25_score": 1.3815548419952393,
+      "dense_score": 0.409810334444046,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03179914850688559,
+      "normalized_dense": 0.2721468569466598,
+      "normalized_bm25_rank": 0.5503355704697986,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.2948998202367349,
+      "rank": 46,
+      "rrf_score": 0.2948998202367349,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L22_004",
+      "alias_source_ids": [
+        "L22_004"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER",
+      "pages": [
+        22
+      ],
+      "text": "3 Arranging appropriate working hours and leave;",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER\n\n[Content]\n3 Arranging appropriate working hours and leave;",
+      "bm25_rank": 128,
+      "dense_rank": 29,
+      "bm25_score": 0.35247763991355896,
+      "dense_score": 0.43575337529182434,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.00233063037519496,
+      "normalized_dense": 0.331983391571439,
+      "normalized_bm25_rank": 0.1476510067114094,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.2938415211787339,
+      "rank": 47,
+      "rrf_score": 0.2938415211787339,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T29_001",
+      "alias_source_ids": [
+        "T29_001"
+      ],
+      "section": "APPENDIX: HKEX ESG REPORTING GUIDE INDEX",
+      "pages": [
+        29
+      ],
+      "text": "Key Performance Indicators | Report Content Index A. Environmental Aspect A1 | Emissions General | Information on: | Responsibility for A1.1 | The types of emissions and respective emissions data. | Emission reduction A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emission reduction A1.6 | Description of how hazardous and non-hazardous wastes are handled, a description of reduction targets and steps taken to achieve them. | Emission reduction Aspect A2 Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. Resources may be used in production, in storage, transportation, in | Resource conservation A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Resource conservation A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Resource conservation A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Resource conservation A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Resource conservation A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Resource conservation",
+      "retrieval_text": "[Section]\nAPPENDIX: HKEX ESG REPORTING GUIDE INDEX\n\n[Content]\nKey Performance Indicators | Report Content Index A. Environmental Aspect A1 | Emissions General | Information on: | Responsibility for A1.1 | The types of emissions and respective emissions data. | Emission reduction A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emission reduction A1.6 | Description of how hazardous and non-hazardous wastes are handled, a description of reduction targets and steps taken to achieve them. | Emission reduction Aspect A2 Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. Resources may be used in production, in storage, transportation, in | Resource conservation A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Resource conservation A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Resource conservation A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Resource conservation A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Resource conservation A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Resource conservation",
+      "bm25_rank": 10,
+      "dense_rank": 113,
+      "bm25_score": 17.100482940673828,
+      "dense_score": 0.32905736565589905,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.48192428659140896,
+      "normalized_dense": 0.0858935244519277,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.24832214765100669,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.270071751950282,
+      "rank": 48,
+      "rrf_score": 0.270071751950282,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T16_001",
+      "alias_source_ids": [
+        "T16_001"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION / Material management",
+      "pages": [
+        16
+      ],
+      "text": "Category | Unit | 2019 | 2020 | 2021 | YoY Change Water Water consumption | m 3 | 6,545,454 | 6,692,940 | 7,524,755 | 12.43% Water intensity | m 3 /HK$ million income | 734.1 | 667.3 | 666.9 | -0.06% Energy Diesel consumption | L | 287,185 | 159,414 | 171,475 | 7.57% Purchased electricity consumption | MWh | 674,919 | 736,225 | 763,645 | 3.72% Natural gas consumption | m 3 | 19,820,768 | 16,699,469 | 20,298,888 | 21.55% Total energy consumption | MWh | 885,062 | 912,505 | 977,713 | 7.15% Energy intensity | MWh/HK$ million income | 99.3 | 91.0 | 86.7 | -4.76% Recycling of scrap materials Paper | Tons | 1,625 | 1,660 | 1,936 | 16.63% Plastic | Tons | 2,531 | 3,697 | 7,255 | 96.26% Metal | Tons | 15,723 | 18,943 | 16,480 | -13.00% Total use of packaging materials Cardboard | Tons | 4,848 | 10,649 | 7,723 | -27.47% Plastic | Tons | 2,796 | 5,795 | 3,337 | -42.43%",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION / Material management\n\n[Content]\nCategory | Unit | 2019 | 2020 | 2021 | YoY Change Water Water consumption | m 3 | 6,545,454 | 6,692,940 | 7,524,755 | 12.43% Water intensity | m 3 /HK$ million income | 734.1 | 667.3 | 666.9 | -0.06% Energy Diesel consumption | L | 287,185 | 159,414 | 171,475 | 7.57% Purchased electricity consumption | MWh | 674,919 | 736,225 | 763,645 | 3.72% Natural gas consumption | m 3 | 19,820,768 | 16,699,469 | 20,298,888 | 21.55% Total energy consumption | MWh | 885,062 | 912,505 | 977,713 | 7.15% Energy intensity | MWh/HK$ million income | 99.3 | 91.0 | 86.7 | -4.76% Recycling of scrap materials Paper | Tons | 1,625 | 1,660 | 1,936 | 16.63% Plastic | Tons | 2,531 | 3,697 | 7,255 | 96.26% Metal | Tons | 15,723 | 18,943 | 16,480 | -13.00% Total use of packaging materials Cardboard | Tons | 4,848 | 10,649 | 7,723 | -27.47% Plastic | Tons | 2,796 | 5,795 | 3,337 | -42.43%",
+      "bm25_rank": 3,
+      "dense_rank": null,
+      "bm25_score": 26.88416862487793,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.762088610897222,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.25107544030024975,
+      "rank": 49,
+      "rrf_score": 0.25107544030024975,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_003",
+      "alias_source_ids": [
+        "P15_003"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        15
+      ],
+      "text": "Ju Teng International always encourages each Production Plant to fully utilise its own advantages and resources to develop and build new energy projects such as photovoltaic power generation. During the Reporting Period, the Compal Production Plant continued to utilise the unused vacant land and roof of the plant for photovoltaic power generation. In 2021, 11,890 MWh of photovoltaic power was generated, saving 1,462 tons of coal equivalent. Clean electricity produced by photovoltaic power plants was used for the Company's production and operation, which reduces the purchased electricity and indirectly reduces the greenhouse gas emissions caused by thermal power generation, with a decrease in emission of 11,316 tons CO 2 .",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nJu Teng International always encourages each Production Plant to fully utilise its own advantages and resources to develop and build new energy projects such as photovoltaic power generation. During the Reporting Period, the Compal Production Plant continued to utilise the unused vacant land and roof of the plant for photovoltaic power generation. In 2021, 11,890 MWh of photovoltaic power was generated, saving 1,462 tons of coal equivalent. Clean electricity produced by photovoltaic power plants was used for the Company's production and operation, which reduces the purchased electricity and indirectly reduces the greenhouse gas emissions caused by thermal power generation, with a decrease in emission of 11,316 tons CO 2 .",
+      "bm25_rank": 9,
+      "dense_rank": null,
+      "bm25_score": 18.813587188720703,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.5309805123953877,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.200826974962299,
+      "rank": 50,
+      "rrf_score": 0.200826974962299,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

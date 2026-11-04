@@ -1,0 +1,1557 @@
+{
+  "document_id": "2022052701713",
+  "metric_id": 32,
+  "metric_name": "产品回收率",
+  "query": "产品回收率 产品回收率 衡量企业在报告期内，因安全、健康等潜在风险而必须执行回收的受影响产品数量，占同期已售或已运送产品总数的百分比。 A. 数据透明度得分 (权重 50%) 2分：清晰披露了回收百分比，或明确声明本期“回收率为 0%”。 1分：仅定性描述有/无回收，未给出具体的百分比或产品基数。 0分：未披露任何回收相关数据。 B. 统计口径得分 (权重 50%) 2分：说明了计算口径（如涵盖的所有产品线）及回收原因（如技术缺陷、标签错误）。 1分：仅给出一个孤立的数字，无背景说明。 0分：无说明。 最终得分 = 0.5×A+0.5×B 产品召回率 召回百分比 产品召回数量 已售产品数量 已运送产品数量 零召回 未发生产品召回 安全原因召回 健康风险召回 缺陷产品召回 标签错误召回 product recall rate percentage of products recalled recalled units units sold units shipped zero recalls no product recalls safety-related recall health-related recall defective product recall mislabeling recall 报告期内是否定性说明发生或未发生产品召回？ 是否披露因安全、健康、技术缺陷或标签错误召回的产品占已售或已运送产品的百分比，或明确声明召回率为0%？ 召回数量、已售/已运送数量及计算公式是什么？ 召回原因和产品范围是什么？ 报告期与统计边界是什么？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '产品回收率'. Prefer explicit, auditable disclosure that answers: 报告期内是否定性说明发生或未发生产品召回？ 是否披露因安全、健康、技术缺陷或标签错误召回的产品占已售或已运送产品的百分比，或明确声明召回率为0%？ 召回数量、已售/已运送数量及计算公式是什么？ 召回原因和产品范围是什么？ 报告期与统计边界是什么？ Exclude or down-rank: 排除：仅有“本期无重大召回”无比例；仅有召回制度而无数量占比；循环经济产品回收再利用率；仅有客户退货率；区分：尽管指标名含“回收率”，定义实为安全/健康原因召回数量占比，不是循环经济回收利用率；召回程序看制度完备性；本指标看量化比率或0%声明。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 211,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "T56_001",
+      "alias_source_ids": [
+        "T56_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        56
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B6: Product Responsibility | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Product Responsibility B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Product Responsibility B6.2 | Number of products and service related complaints received and how they are dealt with. | Product Responsibility B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product Responsibility B6.4 | Description of quality assurance process and recall procedures. | Product Responsibility B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Product Responsibility",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B6: Product Responsibility | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Product Responsibility B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Product Responsibility B6.2 | Number of products and service related complaints received and how they are dealt with. | Product Responsibility B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product Responsibility B6.4 | Description of quality assurance process and recall procedures. | Product Responsibility B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Product Responsibility",
+      "bm25_rank": 1,
+      "dense_rank": 1,
+      "bm25_score": 68.32052612304688,
+      "dense_score": 0.6785157918930054,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.85,
+      "rank": 1,
+      "rrf_score": 0.85,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_004",
+      "alias_source_ids": [
+        "P29_004"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Packaging materials",
+      "pages": [
+        29
+      ],
+      "text": "During the Reporting Period, there were no recall of sold or shipped products for safety and health reasons.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Packaging materials\n\n[Content]\nDuring the Reporting Period, there were no recall of sold or shipped products for safety and health reasons.",
+      "bm25_rank": 2,
+      "dense_rank": 2,
+      "bm25_score": 53.190433502197266,
+      "dense_score": 0.6256611347198486,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7729027895433421,
+      "normalized_dense": 0.8611418465459513,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.7539667813809594,
+      "rank": 2,
+      "rrf_score": 0.7539667813809594,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T37_001",
+      "alias_source_ids": [
+        "T37_001"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE",
+      "pages": [
+        37
+      ],
+      "text": "Employee turnover rate 9 Indicators | 2021 Gender | Number | Ratio Male | 245 | 7% Female | 73 | 8% Age Group | Number | Ratio < 31 years old | 96 | 11% 31 - 50 years old | 171 | 6% > 50 years old | 51 | 8% Geographic Location | Number | Ratio Mainland China | 318 | 7% Other regions | 0 | 0%",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE\n\n[Content]\nEmployee turnover rate 9 Indicators | 2021 Gender | Number | Ratio Male | 245 | 7% Female | 73 | 8% Age Group | Number | Ratio < 31 years old | 96 | 11% 31 - 50 years old | 171 | 6% > 50 years old | 51 | 8% Geographic Location | Number | Ratio Mainland China | 318 | 7% Other regions | 0 | 0%",
+      "bm25_rank": 3,
+      "dense_rank": 15,
+      "bm25_score": 48.72095489501953,
+      "dense_score": 0.42144715785980225,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7058175343951304,
+      "normalized_dense": 0.3246370756722239,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.534652255176385,
+      "rank": 3,
+      "rrf_score": 0.534652255176385,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T54_001",
+      "alias_source_ids": [
+        "T54_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        54
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B. Social B1: Employment | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti- discrimination, and other benefits and welfare. | Staff Management B1.1 | Total workforce by gender, employment type, age group and geographical region. | Staff Management B1.2 | Employee turnover rate by gender, age group and geographical region. | Staff Management B2: Health and Safety | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Occupational Health and Safety B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Occupational Health and Safety B2.2 | Lost days due to work injury. | Occupational Health and Safety B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | Occupational Health and Safety",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B. Social B1: Employment | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti- discrimination, and other benefits and welfare. | Staff Management B1.1 | Total workforce by gender, employment type, age group and geographical region. | Staff Management B1.2 | Employee turnover rate by gender, age group and geographical region. | Staff Management B2: Health and Safety | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Occupational Health and Safety B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Occupational Health and Safety B2.2 | Lost days due to work injury. | Occupational Health and Safety B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | Occupational Health and Safety",
+      "bm25_rank": 6,
+      "dense_rank": 7,
+      "bm25_score": 26.920778274536133,
+      "dense_score": 0.4494704008102417,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.37860477885971666,
+      "normalized_dense": 0.39825889024845124,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5037021713857469,
+      "rank": 4,
+      "rrf_score": 0.5037021713857469,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L29_001",
+      "alias_source_ids": [
+        "L29_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Packaging materials",
+      "pages": [
+        29
+      ],
+      "text": "The laboratory of corresponding subsidiaries undertakes inspection procedures in accordance with the requirements of the inspection plan. If the finished products fail to pass the inspection (including the non-conformity of arsenic, chromium, lead, cadmium, and mercury in the finished product), the whole batch of products will be deemed as non-conforming, and the 'Disposal of Non-conforming Products Form' must be filled out.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Packaging materials\n\n[Content]\nThe laboratory of corresponding subsidiaries undertakes inspection procedures in accordance with the requirements of the inspection plan. If the finished products fail to pass the inspection (including the non-conformity of arsenic, chromium, lead, cadmium, and mercury in the finished product), the whole batch of products will be deemed as non-conforming, and the 'Disposal of Non-conforming Products Form' must be filled out.",
+      "bm25_rank": 24,
+      "dense_rank": 6,
+      "bm25_score": 12.432544708251953,
+      "dense_score": 0.45318692922592163,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1611416403450435,
+      "normalized_dense": 0.4080228410649351,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.45288867143502454,
+      "rank": 5,
+      "rrf_score": 0.45288867143502454,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T21_002",
+      "alias_source_ids": [
+        "T21_002"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        21
+      ],
+      "text": "2021 | 2020 | Unit Scope 1 2 | 1,390,803 | 1,001,131 | tCO 2 e Scope 2 3 | 196,698 | 194,779 | tCO 2 e Scope 3 4 | 835 | 2,288 | tCO 2 e Total GHG emissions | 1,588,336 | 1,198,198 | tCO 2 e Total GHG emission intensity | 1.63 | 1.04 | tCO 2 e/tonne of product",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\n2021 | 2020 | Unit Scope 1 2 | 1,390,803 | 1,001,131 | tCO 2 e Scope 2 3 | 196,698 | 194,779 | tCO 2 e Scope 3 4 | 835 | 2,288 | tCO 2 e Total GHG emissions | 1,588,336 | 1,198,198 | tCO 2 e Total GHG emission intensity | 1.63 | 1.04 | tCO 2 e/tonne of product",
+      "bm25_rank": 5,
+      "dense_rank": 25,
+      "bm25_score": 29.155725479125977,
+      "dense_score": 0.40036582946777344,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.41215052695255006,
+      "normalized_dense": 0.26925284863456894,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.4417692735535488,
+      "rank": 6,
+      "rrf_score": 0.4417692735535488,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T26_001",
+      "alias_source_ids": [
+        "T26_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        26
+      ],
+      "text": "2021 | 2020 | Unit Hazardous Waste Waste mineral oil | 65.08 | 31.77 | Tonnes Waste catalyst | 33.34 | 11.16 | Tonnes Battery | 0.78 | 7.15 | Tonnes Waste chemical reagent | 1.07 | 1.77 | Tonnes Heat insulation cotton | 30.02 | 16.88 | Tonnes Paint Bucket | 14 | / | Tonnes Chemical reagent packaging containers | 3.90 | / | Tonnes Fiberglass reinforced plastic | 0 | 11.44 | Tonnes Fluorosilicic acid | 85,618.65 | 89,638.71 | Tonnes Total hazardous waste | 85,767 | 89,719 | Tonnes Total hazardous waste intensity 7 | 0.08 | 0.08 | Tonnes/tonne of products Non-hazardous Waste Phosphogypsum | 872,802 | 907,781 | Tonnes Phosphorus slag powder | 23,494 | 13,216 | Tonnes Coal ash | 88,974 | 43,382 | Tonnes Waste steel | 497 | 311 | Tonnes Slag | 53,013 | 7,654 | Tonnes Sulfur slag | 203 | 251 | Tonnes Plastic | 1,290 | 1,210 | Tonnes Total non-hazardous waste | 1,040,273 | 978,959 | Tonnes Total non-hazardous waste intensity | 1.07 | 0.85 | Tonnes/tonne of products",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\n2021 | 2020 | Unit Hazardous Waste Waste mineral oil | 65.08 | 31.77 | Tonnes Waste catalyst | 33.34 | 11.16 | Tonnes Battery | 0.78 | 7.15 | Tonnes Waste chemical reagent | 1.07 | 1.77 | Tonnes Heat insulation cotton | 30.02 | 16.88 | Tonnes Paint Bucket | 14 | / | Tonnes Chemical reagent packaging containers | 3.90 | / | Tonnes Fiberglass reinforced plastic | 0 | 11.44 | Tonnes Fluorosilicic acid | 85,618.65 | 89,638.71 | Tonnes Total hazardous waste | 85,767 | 89,719 | Tonnes Total hazardous waste intensity 7 | 0.08 | 0.08 | Tonnes/tonne of products Non-hazardous Waste Phosphogypsum | 872,802 | 907,781 | Tonnes Phosphorus slag powder | 23,494 | 13,216 | Tonnes Coal ash | 88,974 | 43,382 | Tonnes Waste steel | 497 | 311 | Tonnes Slag | 53,013 | 7,654 | Tonnes Sulfur slag | 203 | 251 | Tonnes Plastic | 1,290 | 1,210 | Tonnes Total non-hazardous waste | 1,040,273 | 978,959 | Tonnes Total non-hazardous waste intensity | 1.07 | 0.85 | Tonnes/tonne of products",
+      "bm25_rank": 8,
+      "dense_rank": 17,
+      "bm25_score": 21.85950469970703,
+      "dense_score": 0.40713798999786377,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.30263689558200396,
+      "normalized_dense": 0.2870444635346902,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4348184447092471,
+      "rank": 7,
+      "rrf_score": 0.4348184447092471,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T55_001",
+      "alias_source_ids": [
+        "T55_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        55
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B3: Development and Training | General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Staff Training and Development B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Staff Training and Development B3.2 | The average training hours completed per employee by gender and employee category. | Staff Training and Development B4: Labour Standards | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | Staff Management B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Staff Management B4.2 | Description of steps taken to eliminate such practices when discovered. | Staff Management B5: Supply Chain Management | General Disclosure | Policies on managing environmental and social risks of the supply chain. | Supply Chain Management B5.1 | Number of suppliers by geographical region. | Supply Chain Management B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | Supply Chain Management B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Supply Chain Management B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Supply Chain Management",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B3: Development and Training | General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Staff Training and Development B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Staff Training and Development B3.2 | The average training hours completed per employee by gender and employee category. | Staff Training and Development B4: Labour Standards | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | Staff Management B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Staff Management B4.2 | Description of steps taken to eliminate such practices when discovered. | Staff Management B5: Supply Chain Management | General Disclosure | Policies on managing environmental and social risks of the supply chain. | Supply Chain Management B5.1 | Number of suppliers by geographical region. | Supply Chain Management B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | Supply Chain Management B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Supply Chain Management B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Supply Chain Management",
+      "bm25_rank": 9,
+      "dense_rank": 18,
+      "bm25_score": 20.274568557739258,
+      "dense_score": 0.4068855047225952,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27884757811960975,
+      "normalized_dense": 0.2863811418716006,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.42781499581589494,
+      "rank": 8,
+      "rrf_score": 0.42781499581589494,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_003",
+      "alias_source_ids": [
+        "P29_003"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Packaging materials",
+      "pages": [
+        29
+      ],
+      "text": "For the control and management of defective products, Sinofert has formulated the 'Management Approach for Non-conforming Products' policy, setting out the control and handling procedures for nonconforming products, including:",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Packaging materials\n\n[Content]\nFor the control and management of defective products, Sinofert has formulated the 'Management Approach for Non-conforming Products' policy, setting out the control and handling procedures for nonconforming products, including:",
+      "bm25_rank": 30,
+      "dense_rank": 10,
+      "bm25_score": 10.029647827148438,
+      "dense_score": 0.43726062774658203,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12507502843536905,
+      "normalized_dense": 0.36618174449839197,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.4216349921004372,
+      "rank": 9,
+      "rrf_score": 0.4216349921004372,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T27_001",
+      "alias_source_ids": [
+        "T27_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Resources Management",
+      "pages": [
+        27
+      ],
+      "text": "2021 | 2020 | Unit Newly produced water consumption | 5,014,643 | 5,281,355 | m 3 Newly produced water intensity | 5.14 | 4.57 | m 3 /tonne of product Recycled water consumption | 156,140,259 | 198,882,924 | m 3",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Resources Management\n\n[Content]\n2021 | 2020 | Unit Newly produced water consumption | 5,014,643 | 5,281,355 | m 3 Newly produced water intensity | 5.14 | 4.57 | m 3 /tonne of product Recycled water consumption | 156,140,259 | 198,882,924 | m 3",
+      "bm25_rank": 29,
+      "dense_rank": 11,
+      "bm25_score": 10.44943904876709,
+      "dense_score": 0.4282952547073364,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13137594263284177,
+      "normalized_dense": 0.3426281881641242,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.41398028928334063,
+      "rank": 10,
+      "rrf_score": 0.41398028928334063,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L29_003",
+      "alias_source_ids": [
+        "L29_003"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Packaging materials",
+      "pages": [
+        29
+      ],
+      "text": "Non-conforming products will be immediately separated and labeled.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Packaging materials\n\n[Content]\nNon-conforming products will be immediately separated and labeled.",
+      "bm25_rank": 83,
+      "dense_rank": 3,
+      "bm25_score": 3.0479891300201416,
+      "dense_score": 0.47183433175086975,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.020282859992630995,
+      "normalized_dense": 0.4570127318298251,
+      "normalized_bm25_rank": 0.44966442953020136,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.40629290733359585,
+      "rank": 11,
+      "rrf_score": 0.40629290733359585,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_002",
+      "alias_source_ids": [
+        "P32_002"
+      ],
+      "section": "CREATING QUALITY PRODUCTS",
+      "pages": [
+        32
+      ],
+      "text": "To avoid false information and information leakages, the Group strictly abides by the Advertising Law of the People's Republic of China, the Trademark Law of the People's Republic of China, and other relevant laws and regulations. The Group complies with the 'Administrative Measures for Product Packaging and Labelling' to control the labeling on product packaging and any other content involved in product promotion, to prevent any exaggerated or false information. The marketing department of the Group is responsible for coordinating and organizing online advertising strategies for the Group's brand and products. Designs and launches of advertising projects of each subsidiary are required to be submitted to the marketing department for review. The marketing department will inspect all kinds of advertisements posted by each subsidiary. If any discrepancies are found, the relevant department will be required to rectify the situation. The Group has also established the 'Administrative Measures for Product Marking and Tracing' to regulate the labeling of finished products, so as to avoid ambiguity of brand marks or inconsistency with packaging. When discrepancies are found in the production process or after-sales, the quality and technology department and the sales management department have the right to find out the causes and shall explain to the customers to resolve discrepancies. In addition, the Group requires that the design of product packaging and promotional materials shall comply with relevant national standards and regulations, and relevant departments should complete the registration of fertilizers and product enterprise standards in advance. Before launching the product packaging and promotional programs, all subsidiaries are required to strictly implement preliminary work and perform fertilizer efficiency verification in accordance with the 'Administrative Measures for the Entry and Exit of Products of Sinofert'.",
+      "retrieval_text": "[Section]\nCREATING QUALITY PRODUCTS\n\n[Content]\nTo avoid false information and information leakages, the Group strictly abides by the Advertising Law of the People's Republic of China, the Trademark Law of the People's Republic of China, and other relevant laws and regulations. The Group complies with the 'Administrative Measures for Product Packaging and Labelling' to control the labeling on product packaging and any other content involved in product promotion, to prevent any exaggerated or false information. The marketing department of the Group is responsible for coordinating and organizing online advertising strategies for the Group's brand and products. Designs and launches of advertising projects of each subsidiary are required to be submitted to the marketing department for review. The marketing department will inspect all kinds of advertisements posted by each subsidiary. If any discrepancies are found, the relevant department will be required to rectify the situation. The Group has also established the 'Administrative Measures for Product Marking and Tracing' to regulate the labeling of finished products, so as to avoid ambiguity of brand marks or inconsistency with packaging. When discrepancies are found in the production process or after-sales, the quality and technology department and the sales management department have the right to find out the causes and shall explain to the customers to resolve discrepancies. In addition, the Group requires that the design of product packaging and promotional materials shall comply with relevant national standards and regulations, and relevant departments should complete the registration of fertilizers and product enterprise standards in advance. Before launching the product packaging and promotional programs, all subsidiaries are required to strictly implement preliminary work and perform fertilizer efficiency verification in accordance with the 'Administrative Measures for the Entry and Exit of Products of Sinofert'.",
+      "bm25_rank": 15,
+      "dense_rank": 20,
+      "bm25_score": 15.092781066894531,
+      "dense_score": 0.4062492549419403,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20107082460995662,
+      "normalized_dense": 0.2847096057307484,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.40496319806869285,
+      "rank": 12,
+      "rrf_score": 0.40496319806869285,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T39_001",
+      "alias_source_ids": [
+        "T39_001"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE / CASE STUDY: CARRYING OUT PROFESSIONAL TRAINING TO ENHANCE EMPLOYEES' PROFESSIONALISM",
+      "pages": [
+        39
+      ],
+      "text": "Indicators | 2021 | 2020 | 2019 | Unit Number of work-related fatalities | 0 | 0 | 0 | Person Rate of work-related fatalities | 0 | 0 | 0 | Percentage Lost work days due to work injury 10 | 55 | 39 | / | Day",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE / CASE STUDY: CARRYING OUT PROFESSIONAL TRAINING TO ENHANCE EMPLOYEES' PROFESSIONALISM\n\n[Content]\nIndicators | 2021 | 2020 | 2019 | Unit Number of work-related fatalities | 0 | 0 | 0 | Person Rate of work-related fatalities | 0 | 0 | 0 | Percentage Lost work days due to work injury 10 | 55 | 39 | / | Day",
+      "bm25_rank": 4,
+      "dense_rank": 63,
+      "bm25_score": 47.06972122192383,
+      "dense_score": 0.35653069615364075,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.681033115001994,
+      "normalized_dense": 0.15409051490735576,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.5838926174496644,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.4049034038891143,
+      "rank": 13,
+      "rrf_score": 0.4049034038891143,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_001",
+      "alias_source_ids": [
+        "P29_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Packaging materials",
+      "pages": [
+        29
+      ],
+      "text": "The Group strictly abides by the 'Product Quality Law of the People's Republic of China' and has the 'Quality Management Measures' in place to ensure that the quality of all aspects of procurement, production, and marketing, meets the standards and ensure an effective operation of the quality management system, as well as defining product quality management responsibilities to improve product quality and corporate image. During the Reporting Period, the quality management systems of the Group's subsidiaries met the relevant requirements of ISO 9001.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Packaging materials\n\n[Content]\nThe Group strictly abides by the 'Product Quality Law of the People's Republic of China' and has the 'Quality Management Measures' in place to ensure that the quality of all aspects of procurement, production, and marketing, meets the standards and ensure an effective operation of the quality management system, as well as defining product quality management responsibilities to improve product quality and corporate image. During the Reporting Period, the quality management systems of the Group's subsidiaries met the relevant requirements of ISO 9001.",
+      "bm25_rank": 19,
+      "dense_rank": 19,
+      "bm25_score": 13.593725204467773,
+      "dense_score": 0.40664592385292053,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17857053903955014,
+      "normalized_dense": 0.28575172227179213,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.39948559986478227,
+      "rank": 14,
+      "rrf_score": 0.39948559986478227,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T57_001",
+      "alias_source_ids": [
+        "T57_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        57
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B7: Anti- Corruption | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | Integrity and Anti-Corruption B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees During the Reporting Period and the outcomes of the cases. | Integrity and Anti-Corruption B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | Integrity and Anti-Corruption B7.3 | Description of anti-corruption training provided to directors and staff | Integrity and Anti-Corruption B8: Community Investment | General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Community Investment B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Community Investment B8.2 | Resources contributed (e.g. money or time) to the focus area. | Community Investment",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B7: Anti- Corruption | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | Integrity and Anti-Corruption B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees During the Reporting Period and the outcomes of the cases. | Integrity and Anti-Corruption B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | Integrity and Anti-Corruption B7.3 | Description of anti-corruption training provided to directors and staff | Integrity and Anti-Corruption B8: Community Investment | General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Community Investment B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Community Investment B8.2 | Resources contributed (e.g. money or time) to the focus area. | Community Investment",
+      "bm25_rank": 13,
+      "dense_rank": 27,
+      "bm25_score": 18.116832733154297,
+      "dense_score": 0.39687657356262207,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24646074487640884,
+      "normalized_dense": 0.26008598126977556,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.39736922228547505,
+      "rank": 15,
+      "rrf_score": 0.39736922228547505,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_005",
+      "alias_source_ids": [
+        "L59_005"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "Number of products and service related to complaints received",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nNumber of products and service related to complaints received",
+      "bm25_rank": 75,
+      "dense_rank": 5,
+      "bm25_score": 3.414205551147461,
+      "dense_score": 0.4550606906414032,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.025779635838327358,
+      "normalized_dense": 0.4129455302674176,
+      "normalized_bm25_rank": 0.5033557046979866,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.3946533057142818,
+      "rank": 16,
+      "rrf_score": 0.3946533057142818,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_003",
+      "alias_source_ids": [
+        "P48_003"
+      ],
+      "section": "JOINT DEVELOPMENT",
+      "pages": [
+        48
+      ],
+      "text": "Through evaluation and assessment, suppliers are classified as class A (80 points and above), class B (60 points to 79 points), and class C (below 60 points). For class C suppliers, the Group will suspend the partnerships with them and will require them to provide explanatory reports and corrective measures for their deficiencies, and then report to the Supply Chain Management Department and other relevant departments for review and filing. We will then decide whether to continue working with them based on their corrective measures and results, so as to ensure that the Group's supply chain is not affected by any potential environmental and social risks.",
+      "retrieval_text": "[Section]\nJOINT DEVELOPMENT\n\n[Content]\nThrough evaluation and assessment, suppliers are classified as class A (80 points and above), class B (60 points to 79 points), and class C (below 60 points). For class C suppliers, the Group will suspend the partnerships with them and will require them to provide explanatory reports and corrective measures for their deficiencies, and then report to the Supply Chain Management Department and other relevant departments for review and filing. We will then decide whether to continue working with them based on their corrective measures and results, so as to ensure that the Group's supply chain is not affected by any potential environmental and social risks.",
+      "bm25_rank": 48,
+      "dense_rank": 12,
+      "bm25_score": 7.329355239868164,
+      "dense_score": 0.42809638381004333,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08454461468607724,
+      "normalized_dense": 0.34210572056995553,
+      "normalized_bm25_rank": 0.6845637583892618,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.3903372003044851,
+      "rank": 17,
+      "rrf_score": 0.3903372003044851,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T52_001",
+      "alias_source_ids": [
+        "T52_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        52
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation 'Comply or Explain' Provisions A. Environmental A1: Emissions | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous waste. | Protecting our Environment A1.1 | The types of emissions and respective emissions data. | Emissions Management A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions Management A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions Management",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation 'Comply or Explain' Provisions A. Environmental A1: Emissions | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous waste. | Protecting our Environment A1.1 | The types of emissions and respective emissions data. | Emissions Management A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions Management A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions Management",
+      "bm25_rank": 14,
+      "dense_rank": 28,
+      "bm25_score": 16.11818504333496,
+      "dense_score": 0.39540135860443115,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21646176691786365,
+      "normalized_dense": 0.25621034124110054,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.3879995298649378,
+      "rank": 18,
+      "rrf_score": 0.3879995298649378,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_003",
+      "alias_source_ids": [
+        "P31_003"
+      ],
+      "section": "CREATING QUALITY PRODUCTS / Research, development and innovation",
+      "pages": [
+        31
+      ],
+      "text": "Sinofert continues to maintain fluid communication with its customers. We have established a sound customer service system to receive and take care of complaints and opinions regarding product quality, which aims to improve customers' experience and satisfaction. In this respect, the Group continued to enhance the responsibilities of corresponding departments and set up a complete working mechanism to satisfy the needs of customers continuously. During the Reporting Period, the Group received 16 complaints regarding our products and services. We follow up and communicate with our customers promptly whenever customers provide us feedback on product issues or raise questions on our sales distribution website. The Group strives to maintain a good brand image, and if the complaints cannot be resolved through communication, the Group will organize relevant units to provide technical consultation for customers, conduct external investigations, offer technical on-site services if necessary, and provide essential explanations and reassurance to customers involved in the incident.",
+      "retrieval_text": "[Section]\nCREATING QUALITY PRODUCTS / Research, development and innovation\n\n[Content]\nSinofert continues to maintain fluid communication with its customers. We have established a sound customer service system to receive and take care of complaints and opinions regarding product quality, which aims to improve customers' experience and satisfaction. In this respect, the Group continued to enhance the responsibilities of corresponding departments and set up a complete working mechanism to satisfy the needs of customers continuously. During the Reporting Period, the Group received 16 complaints regarding our products and services. We follow up and communicate with our customers promptly whenever customers provide us feedback on product issues or raise questions on our sales distribution website. The Group strives to maintain a good brand image, and if the complaints cannot be resolved through communication, the Group will organize relevant units to provide technical consultation for customers, conduct external investigations, offer technical on-site services if necessary, and provide essential explanations and reassurance to customers involved in the incident.",
+      "bm25_rank": 10,
+      "dense_rank": 36,
+      "bm25_score": 19.181650161743164,
+      "dense_score": 0.3857667148113251,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2624432688263901,
+      "normalized_dense": 0.23089849706594476,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.3802829935101708,
+      "rank": 19,
+      "rrf_score": 0.3802829935101708,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L29_002",
+      "alias_source_ids": [
+        "L29_002"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Packaging materials",
+      "pages": [
+        29
+      ],
+      "text": "According to the 'Disposal of Non-conforming Products Form', non-conforming products will be disposed after evaluation, and relevant records will be documented.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Packaging materials\n\n[Content]\nAccording to the 'Disposal of Non-conforming Products Form', non-conforming products will be disposed after evaluation, and relevant records will be documented.",
+      "bm25_rank": 74,
+      "dense_rank": 9,
+      "bm25_score": 3.816720724105835,
+      "dense_score": 0.4420775771141052,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03182124280240904,
+      "normalized_dense": 0.3788366878889929,
+      "normalized_bm25_rank": 0.5100671140939597,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.37922554569746825,
+      "rank": 20,
+      "rrf_score": 0.37922554569746825,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_005",
+      "alias_source_ids": [
+        "P48_005"
+      ],
+      "section": "JOINT DEVELOPMENT",
+      "pages": [
+        48
+      ],
+      "text": "The Group conducts comprehensive and effective management of suppliers by gathering and consolidating information on suppliers' regional distribution, nature, and networks. During the Reporting Period, the Group has reviewed and assessed 2,253 suppliers, including 1,071 trading and 1,182 production suppliers. All suppliers have been reviewed and assessed according to the above policies.",
+      "retrieval_text": "[Section]\nJOINT DEVELOPMENT\n\n[Content]\nThe Group conducts comprehensive and effective management of suppliers by gathering and consolidating information on suppliers' regional distribution, nature, and networks. During the Reporting Period, the Group has reviewed and assessed 2,253 suppliers, including 1,071 trading and 1,182 production suppliers. All suppliers have been reviewed and assessed according to the above policies.",
+      "bm25_rank": 21,
+      "dense_rank": 30,
+      "bm25_score": 13.350493431091309,
+      "dense_score": 0.39053988456726074,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17491971821429603,
+      "normalized_dense": 0.24343842398781593,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3678383987500041,
+      "rank": 21,
+      "rrf_score": 0.3678383987500041,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_005",
+      "alias_source_ids": [
+        "P58_005"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "CECEPAC (HK) was not involved in collecting and calculating data, or in the development of the ESG Report. CECEPAC (HK)'s activities of Assurance Engagement are independent from Sinofert. There is no relationship between Sinofert and CECEPAC (HK) beyond the contractual agreement for providing proper assurance service.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nCECEPAC (HK) was not involved in collecting and calculating data, or in the development of the ESG Report. CECEPAC (HK)'s activities of Assurance Engagement are independent from Sinofert. There is no relationship between Sinofert and CECEPAC (HK) beyond the contractual agreement for providing proper assurance service.",
+      "bm25_rank": 35,
+      "dense_rank": 23,
+      "bm25_score": 8.766342163085938,
+      "dense_score": 0.4016737639904022,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10611326795894313,
+      "normalized_dense": 0.2726890145727197,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.3643148154036499,
+      "rank": 22,
+      "rrf_score": 0.3643148154036499,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T4_001",
+      "alias_source_ids": [
+        "T4_001"
+      ],
+      "section": "ABOUT THIS REPORT",
+      "pages": [
+        4
+      ],
+      "text": "Materiality | This Report aims to disclose the material issues related to its business, including inviting stakeholders to assess and prioritize the materiality of ESG issues. Details of the materiality assessment process and results can be found in the 'Materiality Assessment' in this report. Quantitative | The Group continuously records and discloses quantitative indicators related to its business to facilitate a better understanding of the effectiveness of the Group's ESG management system. In addition, the Group has disclosed the standards, methodologies, assumptions, and references used in the calculation of environmental data, including the sources of major conversion factors. Balance | This Report discloses positive and negative ESG performances of the Group in an unbiased manner and objectively reflects the operations of the Group. Consistency | Unless otherwise stated, this Report is prepared in a consistent manner with previous reports for readers to make meaningful comparisons of the Group's ESG information during the year.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT\n\n[Content]\nMateriality | This Report aims to disclose the material issues related to its business, including inviting stakeholders to assess and prioritize the materiality of ESG issues. Details of the materiality assessment process and results can be found in the 'Materiality Assessment' in this report. Quantitative | The Group continuously records and discloses quantitative indicators related to its business to facilitate a better understanding of the effectiveness of the Group's ESG management system. In addition, the Group has disclosed the standards, methodologies, assumptions, and references used in the calculation of environmental data, including the sources of major conversion factors. Balance | This Report discloses positive and negative ESG performances of the Group in an unbiased manner and objectively reflects the operations of the Group. Consistency | Unless otherwise stated, this Report is prepared in a consistent manner with previous reports for readers to make meaningful comparisons of the Group's ESG information during the year.",
+      "bm25_rank": 126,
+      "dense_rank": 4,
+      "bm25_score": 2.1525888442993164,
+      "dense_score": 0.45779016613960266,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.006843225997986264,
+      "normalized_dense": 0.4201163255738061,
+      "normalized_bm25_rank": 0.1610738255033557,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.3604898960631811,
+      "rank": 23,
+      "rrf_score": 0.3604898960631811,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_002",
+      "alias_source_ids": [
+        "P29_002"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Packaging materials",
+      "pages": [
+        29
+      ],
+      "text": "Sinofert has always prudently treated product quality by strengthening the Group's quality management system and adopting advanced processes, technologies, and equipment to meet the requirements of national quality and safety regulations and all industry-related standards. The Group encourages all subsidiaries to set internal standards for product quality that are equivalent to or more stringent than the national standards for each product category. According to the 'Quality Management Measures', the quality management departments of the subsidiaries are required to formulate product quality and technical indicators, quality control indicators, and action plans. Unqualified products will not be allowed to enter the next process, and the responsible department or personnel will be required to identify the cause of non-conformity, devise corrective measures, and carry out reasonable disposal. The Group and all subsidiaries have set up professional laboratories to strictly monitor the quality of products leaving the factory, we have also inspected and analyzed each batch of products to ensure that the quality of products meets customers' requirements and prevents defective products. In addition, the Group continues to promote and educate on quality management by providing operational training to quality control personnel, improving the overall management level of product quality.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Packaging materials\n\n[Content]\nSinofert has always prudently treated product quality by strengthening the Group's quality management system and adopting advanced processes, technologies, and equipment to meet the requirements of national quality and safety regulations and all industry-related standards. The Group encourages all subsidiaries to set internal standards for product quality that are equivalent to or more stringent than the national standards for each product category. According to the 'Quality Management Measures', the quality management departments of the subsidiaries are required to formulate product quality and technical indicators, quality control indicators, and action plans. Unqualified products will not be allowed to enter the next process, and the responsible department or personnel will be required to identify the cause of non-conformity, devise corrective measures, and carry out reasonable disposal. The Group and all subsidiaries have set up professional laboratories to strictly monitor the quality of products leaving the factory, we have also inspected and analyzed each batch of products to ensure that the quality of products meets customers' requirements and prevents defective products. In addition, the Group continues to promote and educate on quality management by providing operational training to quality control personnel, improving the overall management level of product quality.",
+      "bm25_rank": 11,
+      "dense_rank": 43,
+      "bm25_score": 18.184240341186523,
+      "dense_score": 0.37586286664009094,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24747250865943946,
+      "normalized_dense": 0.20487940730737442,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.35811504596732124,
+      "rank": 24,
+      "rrf_score": 0.35811504596732124,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_005",
+      "alias_source_ids": [
+        "P61_005"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Disclosure for general disclosures and key performance indicators of environmental and social subject areas in the ESG Report have been provided in accordance with the 'Comply or Explain' provision, in all material aspects, in alignment with the ESG Reporting Guide of the SEHK. Sinofert has disclosed the process of the materiality assessment. Impacts caused by its business are objectively disclosed; relevant environmental and social data are calculated and disclosed. Our assurance findings and comments for the ESG Report have been either adopted or responded by Sinofert before the issuance of this independent assurance statement.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nDisclosure for general disclosures and key performance indicators of environmental and social subject areas in the ESG Report have been provided in accordance with the 'Comply or Explain' provision, in all material aspects, in alignment with the ESG Reporting Guide of the SEHK. Sinofert has disclosed the process of the materiality assessment. Impacts caused by its business are objectively disclosed; relevant environmental and social data are calculated and disclosed. Our assurance findings and comments for the ESG Report have been either adopted or responded by Sinofert before the issuance of this independent assurance statement.",
+      "bm25_rank": 73,
+      "dense_rank": 14,
+      "bm25_score": 4.160260200500488,
+      "dense_score": 0.42299121618270874,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03697764592075199,
+      "normalized_dense": 0.3286935789022371,
+      "normalized_bm25_rank": 0.5167785234899329,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.3566664697193965,
+      "rank": 25,
+      "rrf_score": 0.3566664697193965,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P27_004",
+      "alias_source_ids": [
+        "P27_004"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Resources Management",
+      "pages": [
+        27
+      ],
+      "text": "Water scarcity is a severe global challenge. Hence, the Group continuously strengthens the monitoring of water consumption by requiring all subsidiaries to install water consumption meters and monitor water consumption statistics regularly. Subsidiaries are required to set water consumption targets at the beginning of each year and formulate annual water conservation work plans. At the same time, data are regularly collected from water consumption indicators, summarized and analyzed in analysis reports and assessment evaluations, and to be submitted to the Group's headquarters annually. The Group has also formulated a reward and punishment mechanism for water use, whereby rewards and punishments are given to different units based on the subsidiary's assessment results or individual water use performances. At the same time, the Group actively advocates on the importance of protecting water facilities, raising employees' awareness on water conservation, and reducing the consumption of freshwater. In the future, the Group will actively explore and apply innovative technologies to further reduce the impact of production and operation on water resources, thereby alleviating the pressure of water shortage.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Resources Management\n\n[Content]\nWater scarcity is a severe global challenge. Hence, the Group continuously strengthens the monitoring of water consumption by requiring all subsidiaries to install water consumption meters and monitor water consumption statistics regularly. Subsidiaries are required to set water consumption targets at the beginning of each year and formulate annual water conservation work plans. At the same time, data are regularly collected from water consumption indicators, summarized and analyzed in analysis reports and assessment evaluations, and to be submitted to the Group's headquarters annually. The Group has also formulated a reward and punishment mechanism for water use, whereby rewards and punishments are given to different units based on the subsidiary's assessment results or individual water use performances. At the same time, the Group actively advocates on the importance of protecting water facilities, raising employees' awareness on water conservation, and reducing the consumption of freshwater. In the future, the Group will actively explore and apply innovative technologies to further reduce the impact of production and operation on water resources, thereby alleviating the pressure of water shortage.",
+      "bm25_rank": 44,
+      "dense_rank": 26,
+      "bm25_score": 7.745489120483398,
+      "dense_score": 0.40026625990867615,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09079063351969606,
+      "normalized_dense": 0.2689912625065729,
+      "normalized_bm25_rank": 0.7114093959731543,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.3498889611986894,
+      "rank": 26,
+      "rrf_score": 0.3498889611986894,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_001",
+      "alias_source_ids": [
+        "P28_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Packaging materials",
+      "pages": [
+        28
+      ],
+      "text": "Strict control of packaging usage and strengthening the management of packaging materials are Sinofert's missions. The Group is mindful of the principle of minimizing environmental damage and makes every effort to avoid excessive production and procurement. Our packaging materials are mainly from plastic bags and carton boxes with specific capacities. We use packaging materials reasonably to avoid excessive packaging and waste. In the design process of our products and packaging, we will consider their impact on human health and the environment during their life cycle, and we prioritize the use of non-toxic, nonhazardous, easily degradable, or recyclable packaging. In the future, we will continue to optimize our management of packaging materials, disclose total packaging materials used in tonnes for more effective data analysis, and further enhance the recycling rates of packaging materials.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Packaging materials\n\n[Content]\nStrict control of packaging usage and strengthening the management of packaging materials are Sinofert's missions. The Group is mindful of the principle of minimizing environmental damage and makes every effort to avoid excessive production and procurement. Our packaging materials are mainly from plastic bags and carton boxes with specific capacities. We use packaging materials reasonably to avoid excessive packaging and waste. In the design process of our products and packaging, we will consider their impact on human health and the environment during their life cycle, and we prioritize the use of non-toxic, nonhazardous, easily degradable, or recyclable packaging. In the future, we will continue to optimize our management of packaging materials, disclose total packaging materials used in tonnes for more effective data analysis, and further enhance the recycling rates of packaging materials.",
+      "bm25_rank": 144,
+      "dense_rank": 8,
+      "bm25_score": 1.864410400390625,
+      "dense_score": 0.4475937783718109,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0025177719267256396,
+      "normalized_dense": 0.3933286846531858,
+      "normalized_bm25_rank": 0.04026845637583898,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.3327994664971817,
+      "rank": 27,
+      "rrf_score": 0.3327994664971817,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_001",
+      "alias_source_ids": [
+        "P32_001"
+      ],
+      "section": "CREATING QUALITY PRODUCTS",
+      "pages": [
+        32
+      ],
+      "text": "Sinofert understands that the accuracy and completeness of customer information are vital to maintaining service excellence. The Group strictly abides by the Law of the People's Republic of China on the Protection of Consumers' Rights and Interests and other relevant laws and regulations and has formulated 'Customer Management Regulations of Sinochem Group'. Customer information is a crucial asset of the Group and an integral part of our trade confidentiality. Without the approval of the Group, no one is allowed to publicly disclose customer information. Paper and electronic documents related to customer information management should be properly archived and stored in accordance with the 'Administrative Measures of Documentation'. The Group conducts an annual audit on customer information to verify the validity and completeness of customer information. Each business unit is responsible for devising customer spot checks and customer return visit plans, organizing regular and irregular checks and visits to verify customer information, understanding the needs and opinions of customers. The results of spot checks and return visits are then recorded by the Group.",
+      "retrieval_text": "[Section]\nCREATING QUALITY PRODUCTS\n\n[Content]\nSinofert understands that the accuracy and completeness of customer information are vital to maintaining service excellence. The Group strictly abides by the Law of the People's Republic of China on the Protection of Consumers' Rights and Interests and other relevant laws and regulations and has formulated 'Customer Management Regulations of Sinochem Group'. Customer information is a crucial asset of the Group and an integral part of our trade confidentiality. Without the approval of the Group, no one is allowed to publicly disclose customer information. Paper and electronic documents related to customer information management should be properly archived and stored in accordance with the 'Administrative Measures of Documentation'. The Group conducts an annual audit on customer information to verify the validity and completeness of customer information. Each business unit is responsible for devising customer spot checks and customer return visit plans, organizing regular and irregular checks and visits to verify customer information, understanding the needs and opinions of customers. The results of spot checks and return visits are then recorded by the Group.",
+      "bm25_rank": 70,
+      "dense_rank": 22,
+      "bm25_score": 4.525165557861328,
+      "dense_score": 0.40215516090393066,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04245474317415157,
+      "normalized_dense": 0.27395372595419826,
+      "normalized_bm25_rank": 0.5369127516778524,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.32987810842349774,
+      "rank": 28,
+      "rrf_score": 0.32987810842349774,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "Contents",
+      "pages": [
+        3
+      ],
+      "text": "Benchmarking of Sinofert in the crop nutrition product market in 2021",
+      "retrieval_text": "[Section]\nContents\n\n[Content]\nBenchmarking of Sinofert in the crop nutrition product market in 2021",
+      "bm25_rank": 20,
+      "dense_rank": 51,
+      "bm25_score": 13.390466690063477,
+      "dense_score": 0.36497101187705994,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1755197023540449,
+      "normalized_dense": 0.17626465657444784,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.3169307984597852,
+      "rank": 29,
+      "rrf_score": 0.3169307984597852,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T28_001",
+      "alias_source_ids": [
+        "T28_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Packaging materials",
+      "pages": [
+        28
+      ],
+      "text": "2021 | 2020 | Unit Total packaging materials used | 1,901 | 2,114 | Ten thousand-piece",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Packaging materials\n\n[Content]\n2021 | 2020 | Unit Total packaging materials used | 1,901 | 2,114 | Ten thousand-piece",
+      "bm25_rank": 17,
+      "dense_rank": 54,
+      "bm25_score": 14.534395217895508,
+      "dense_score": 0.36219125986099243,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19268965525138929,
+      "normalized_dense": 0.16896177632405174,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.6442953020134228,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.31579535813282344,
+      "rank": 30,
+      "rrf_score": 0.31579535813282344,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_004",
+      "alias_source_ids": [
+        "P61_004"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Based on the procedures that CECEPAC (HK) has performed and the evidence we have obtained, no specific issue has come to our attention that causes us to believe that the disclosure of the six selected specified performance information in the ESG Report is unreliable and unqualified or not been prepared in all material respects in accordance with the basis of reporting.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nBased on the procedures that CECEPAC (HK) has performed and the evidence we have obtained, no specific issue has come to our attention that causes us to believe that the disclosure of the six selected specified performance information in the ESG Report is unreliable and unqualified or not been prepared in all material respects in accordance with the basis of reporting.",
+      "bm25_rank": 42,
+      "dense_rank": 41,
+      "bm25_score": 7.962640285491943,
+      "dense_score": 0.38158878684043884,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09404999385916268,
+      "normalized_dense": 0.21992237132170442,
+      "normalized_bm25_rank": 0.7248322147651007,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.31457477504315395,
+      "rank": 31,
+      "rrf_score": 0.31457477504315395,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_002",
+      "alias_source_ids": [
+        "P30_002"
+      ],
+      "section": "CREATING QUALITY PRODUCTS / Quality control on fertilizers",
+      "pages": [
+        30
+      ],
+      "text": "Implement 'Sinofert Compound Fertilizer Enterprise Standard' (stricter than the GB15063 National Standard) and test specified products according to national standards and indicators such as nutrients, water, chloride, etc., as well as scrap rates, particle strength testing, and other corporate indicators (not specified in national standards but the Group). For national standard projects, Sinofert carries out continuous sampling and inspection in batches of no more than 300 tonnes, and for non-national standard projects, Sinofert carries out inspections once every three months (except special circumstances).",
+      "retrieval_text": "[Section]\nCREATING QUALITY PRODUCTS / Quality control on fertilizers\n\n[Content]\nImplement 'Sinofert Compound Fertilizer Enterprise Standard' (stricter than the GB15063 National Standard) and test specified products according to national standards and indicators such as nutrients, water, chloride, etc., as well as scrap rates, particle strength testing, and other corporate indicators (not specified in national standards but the Group). For national standard projects, Sinofert carries out continuous sampling and inspection in batches of no more than 300 tonnes, and for non-national standard projects, Sinofert carries out inspections once every three months (except special circumstances).",
+      "bm25_rank": 60,
+      "dense_rank": 32,
+      "bm25_score": 5.493264198303223,
+      "dense_score": 0.38887450098991394,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05698555314343593,
+      "normalized_dense": 0.23906317872635352,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.3138611694916358,
+      "rank": 32,
+      "rrf_score": 0.3138611694916358,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_002",
+      "alias_source_ids": [
+        "P61_002"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has established channels for its stakeholders to understand their concerns and expectations. Meanwhile, through the ESG Report, Sinofert has disclosed corporate sustainability strategies, management systems, management key points, key stakeholder participation activities as well as major sustainability development related issues to respond to key stakeholders. In our professional opinion, Sinofert adheres to the Principle of Responsiveness.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has established channels for its stakeholders to understand their concerns and expectations. Meanwhile, through the ESG Report, Sinofert has disclosed corporate sustainability strategies, management systems, management key points, key stakeholder participation activities as well as major sustainability development related issues to respond to key stakeholders. In our professional opinion, Sinofert adheres to the Principle of Responsiveness.",
+      "bm25_rank": 66,
+      "dense_rank": 31,
+      "bm25_score": 4.896371364593506,
+      "dense_score": 0.390442430973053,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.048026407890732606,
+      "normalized_dense": 0.2431823968586489,
+      "normalized_bm25_rank": 0.563758389261745,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.31082650302900927,
+      "rank": 33,
+      "rrf_score": 0.31082650302900927,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_004",
+      "alias_source_ids": [
+        "P25_004"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        25
+      ],
+      "text": "We have actively implemented internal management measures such as 'Sinofert's Measures on Environmental Protection', 'HSE Risk Management and Control Standards for Hazardous Chemicals' and waste classification guidelines to enhance the reduction and harmless disposal of waste. According to the Group's internal management measures for hazardous and non-hazardous wastes, each subsidiary is required to carry out waste classification procedures and take appropriate measures for the collection, storage, transportation, and reuse of different types of wastes, preventing the Scattering, Running-off, Leaking or Seeping of wastes and reducing environmental pollution. All hazardous wastes are reasonably used, disposed and managed by qualified units to avoid secondary pollution.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\nWe have actively implemented internal management measures such as 'Sinofert's Measures on Environmental Protection', 'HSE Risk Management and Control Standards for Hazardous Chemicals' and waste classification guidelines to enhance the reduction and harmless disposal of waste. According to the Group's internal management measures for hazardous and non-hazardous wastes, each subsidiary is required to carry out waste classification procedures and take appropriate measures for the collection, storage, transportation, and reuse of different types of wastes, preventing the Scattering, Running-off, Leaking or Seeping of wastes and reducing environmental pollution. All hazardous wastes are reasonably used, disposed and managed by qualified units to avoid secondary pollution.",
+      "bm25_rank": 37,
+      "dense_rank": 45,
+      "bm25_score": 8.291060447692871,
+      "dense_score": 0.37310028076171875,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0989794615473364,
+      "normalized_dense": 0.19762162541367564,
+      "normalized_bm25_rank": 0.7583892617449665,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.3057419846941866,
+      "rank": 34,
+      "rrf_score": 0.3057419846941866,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_001",
+      "alias_source_ids": [
+        "P61_001"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has identified its material issues through appropriate methods based on the expectations and concerns of the key stakeholders, its own industry characteristics, legal and regulatory requirements, and outward economic and social impacts. Sinofert has disclosed the methodology, process and results of materiality assessment in the ESG Report. In our professional opinion, Sinofert adheres to the Principle of Materiality.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has identified its material issues through appropriate methods based on the expectations and concerns of the key stakeholders, its own industry characteristics, legal and regulatory requirements, and outward economic and social impacts. Sinofert has disclosed the methodology, process and results of materiality assessment in the ESG Report. In our professional opinion, Sinofert adheres to the Principle of Materiality.",
+      "bm25_rank": 65,
+      "dense_rank": 35,
+      "bm25_score": 4.989809036254883,
+      "dense_score": 0.3872055113315582,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.049428873501327936,
+      "normalized_dense": 0.23467845967815432,
+      "normalized_bm25_rank": 0.5704697986577181,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.30343263156077394,
+      "rank": 35,
+      "rrf_score": 0.30343263156077394,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_008",
+      "alias_source_ids": [
+        "P58_008"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "Sinofert is responsible for the preparation and presentation of the ESG Report in accordance with the SEHK's ESG Reporting Guide. Sinofert is also responsible for implementing internal audit procedures and ensuring that contents of the ESG Report are free from material misstatement, whether due to fraud or error.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nSinofert is responsible for the preparation and presentation of the ESG Report in accordance with the SEHK's ESG Reporting Guide. Sinofert is also responsible for implementing internal audit procedures and ensuring that contents of the ESG Report are free from material misstatement, whether due to fraud or error.",
+      "bm25_rank": 61,
+      "dense_rank": 37,
+      "bm25_score": 5.327808856964111,
+      "dense_score": 0.38569316267967224,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.054502128394172476,
+      "normalized_dense": 0.2307052631348181,
+      "normalized_bm25_rank": 0.5973154362416108,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.30305666374917517,
+      "rank": 36,
+      "rrf_score": 0.30305666374917517,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_003",
+      "alias_source_ids": [
+        "P58_003"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "CECEPAC (HK) has been engaged to assure Sinofert's adherence to the four AA1000 Accountability Principles (Inclusivity, Materiality, Responsiveness and Impact) set out in the AA1000 Assurance Standard v3 (' AA1000AS v3 '). Meanwhile, CECEPAC (HK) has also been engaged to provide limited assurance on the reliability and quality of specified performance information disclosed in the ESG Report that have been selected in accordance with the Environmental, Social and Governance Reporting Guide (' ESG Reporting Guide ') published by the Stock Exchange of Hong Kong Limited (' SEHK ').",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nCECEPAC (HK) has been engaged to assure Sinofert's adherence to the four AA1000 Accountability Principles (Inclusivity, Materiality, Responsiveness and Impact) set out in the AA1000 Assurance Standard v3 (' AA1000AS v3 '). Meanwhile, CECEPAC (HK) has also been engaged to provide limited assurance on the reliability and quality of specified performance information disclosed in the ESG Report that have been selected in accordance with the Environmental, Social and Governance Reporting Guide (' ESG Reporting Guide ') published by the Stock Exchange of Hong Kong Limited (' SEHK ').",
+      "bm25_rank": 72,
+      "dense_rank": 33,
+      "bm25_score": 4.212404251098633,
+      "dense_score": 0.3887946307659149,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03776030923481732,
+      "normalized_dense": 0.23885334609449796,
+      "normalized_bm25_rank": 0.5234899328859061,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.30054670613440015,
+      "rank": 37,
+      "rrf_score": 0.30054670613440015,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_007",
+      "alias_source_ids": [
+        "L59_007"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "Newly produced water consumption and intensity",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nNewly produced water consumption and intensity",
+      "bm25_rank": null,
+      "dense_rank": 13,
+      "bm25_score": null,
+      "dense_score": 0.4243999719619751,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.33239461939022635,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.3002307342362437,
+      "rank": 38,
+      "rrf_score": 0.3002307342362437,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_003",
+      "alias_source_ids": [
+        "P30_003"
+      ],
+      "section": "CREATING QUALITY PRODUCTS / Quality control on fertilizers",
+      "pages": [
+        30
+      ],
+      "text": "Implement national standards (e.g. GB/T 24402017) and test on various national standards indicators such as nutrients, water, chloride, etc., as well as scrap rates, particle strength testing, and other corporate standards indicators. For national standard projects, Sinofert carries out continuous sampling and inspection in batches of no more than 300 tonnes, and for non-national standard projects, Sinofert carries out inspections once every three months (except special circumstances).",
+      "retrieval_text": "[Section]\nCREATING QUALITY PRODUCTS / Quality control on fertilizers\n\n[Content]\nImplement national standards (e.g. GB/T 24402017) and test on various national standards indicators such as nutrients, water, chloride, etc., as well as scrap rates, particle strength testing, and other corporate standards indicators. For national standard projects, Sinofert carries out continuous sampling and inspection in batches of no more than 300 tonnes, and for non-national standard projects, Sinofert carries out inspections once every three months (except special circumstances).",
+      "bm25_rank": 63,
+      "dense_rank": 38,
+      "bm25_score": 5.077530384063721,
+      "dense_score": 0.3843001127243042,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.050745539161221744,
+      "normalized_dense": 0.22704548451137654,
+      "normalized_bm25_rank": 0.5838926174496644,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.29833985962599124,
+      "rank": 39,
+      "rrf_score": 0.29833985962599124,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_003",
+      "alias_source_ids": [
+        "P61_003"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has considered and evaluate its impacts and realised its impacts on stakeholders, so as to make a more effective decision-making and result-based management within the organisation. In our professional opinion, Sinofert adheres to the Principle of Impact.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has considered and evaluate its impacts and realised its impacts on stakeholders, so as to make a more effective decision-making and result-based management within the organisation. In our professional opinion, Sinofert adheres to the Principle of Impact.",
+      "bm25_rank": 46,
+      "dense_rank": 48,
+      "bm25_score": 7.494187355041504,
+      "dense_score": 0.36926645040512085,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0870186850363111,
+      "normalized_dense": 0.18754950249309355,
+      "normalized_bm25_rank": 0.697986577181208,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 46,
+      "composite_score": 0.2897574722758181,
+      "rank": 40,
+      "rrf_score": 0.2897574722758181,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T53_001",
+      "alias_source_ids": [
+        "T53_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        53
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation A2: Use of Resources | General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Tackling Climate Change / Resources Management A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Resources Management A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Tackling Climate Change A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Resources Management A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Resources Management A3: The Environment and Natural Resources | General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | Protecting Natural Resources A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Protecting Natural Resources A4: Climate Change | General Disclosure | General Disclosure Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Tackling Climate Change A4.1 | Description of the significant climate- related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Tackling Climate Change",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation A2: Use of Resources | General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Tackling Climate Change / Resources Management A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Resources Management A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Tackling Climate Change A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Resources Management A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Resources Management A3: The Environment and Natural Resources | General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | Protecting Natural Resources A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Protecting Natural Resources A4: Climate Change | General Disclosure | General Disclosure Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Tackling Climate Change A4.1 | Description of the significant climate- related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Tackling Climate Change",
+      "bm25_rank": 36,
+      "dense_rank": 52,
+      "bm25_score": 8.363190650939941,
+      "dense_score": 0.36441802978515625,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10006210977412311,
+      "normalized_dense": 0.17481187878188087,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.6577181208053691,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.28925027080365073,
+      "rank": 41,
+      "rrf_score": 0.28925027080365073,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_001",
+      "alias_source_ids": [
+        "P58_001"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "To the Board of Directors of Sinofert Holdings Limited,",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nTo the Board of Directors of Sinofert Holdings Limited,",
+      "bm25_rank": 49,
+      "dense_rank": 47,
+      "bm25_score": 7.190890789031982,
+      "dense_score": 0.37032562494277954,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08246631342776385,
+      "normalized_dense": 0.19033213373792404,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.289149777950202,
+      "rank": 42,
+      "rrf_score": 0.289149777950202,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L29_004",
+      "alias_source_ids": [
+        "L29_004"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT / Packaging materials",
+      "pages": [
+        29
+      ],
+      "text": "The cause of non-conformity and corrective measures will be documented.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT / Packaging materials\n\n[Content]\nThe cause of non-conformity and corrective measures will be documented.",
+      "bm25_rank": null,
+      "dense_rank": 16,
+      "bm25_score": null,
+      "dense_score": 0.4160982370376587,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3105845529985553,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.2885703653615749,
+      "rank": 43,
+      "rrf_score": 0.2885703653615749,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_002",
+      "alias_source_ids": [
+        "L59_002"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "AA1000AS' Type 2 Moderate Level of Assurance was adopted to evaluate the nature and extent of Sinofert's adherence to the four AA1000 Accountability Principles set out in the AA1000AS v3;",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nAA1000AS' Type 2 Moderate Level of Assurance was adopted to evaluate the nature and extent of Sinofert's adherence to the four AA1000 Accountability Principles set out in the AA1000AS v3;",
+      "bm25_rank": 58,
+      "dense_rank": 49,
+      "bm25_score": 5.830611705780029,
+      "dense_score": 0.36920541524887085,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06204901705091513,
+      "normalized_dense": 0.18738915278039198,
+      "normalized_bm25_rank": 0.6174496644295302,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 49,
+      "composite_score": 0.27531144312493094,
+      "rank": 44,
+      "rrf_score": 0.27531144312493094,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P36_001",
+      "alias_source_ids": [
+        "P36_001"
+      ],
+      "section": "BUILDING A STRONGER WORKFORCE",
+      "pages": [
+        36
+      ],
+      "text": "During the Reporting Period, Sinofert has a total of 4,499 employees, all of whom were full-time employees. The number of employees and turnover rate by gender, age group, and region are shown in the following charts:",
+      "retrieval_text": "[Section]\nBUILDING A STRONGER WORKFORCE\n\n[Content]\nDuring the Reporting Period, Sinofert has a total of 4,499 employees, all of whom were full-time employees. The number of employees and turnover rate by gender, age group, and region are shown in the following charts:",
+      "bm25_rank": 47,
+      "dense_rank": 55,
+      "bm25_score": 7.382111549377441,
+      "dense_score": 0.36200886964797974,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08533646778465215,
+      "normalized_dense": 0.16848260628414283,
+      "normalized_bm25_rank": 0.6912751677852349,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.2726805010583938,
+      "rank": 45,
+      "rrf_score": 0.2726805010583938,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_001",
+      "alias_source_ids": [
+        "P30_001"
+      ],
+      "section": "CREATING QUALITY PRODUCTS / Quality control on fertilizers",
+      "pages": [
+        30
+      ],
+      "text": "The Group has consistently enhanced the quality inspection process of fertilizers and has established a fullprocess quality inspection procedure for all products, from raw material procurement, production, and processing, process inspection, logistics and warehousing, sales tracking to product accident handling. Each subsidiary has a dedicated quality management department to carry out the entire internal and external quality management process to ensure quality inspection process and results are controllable. We implement a quality control target system to define the key quality indicators of the Group and perform periodic tracking and assessment of the operation results of the quality indicators. For example, Sinochem Yunlong has set up a comprehensive quality management system to ensure devices and facilities within the production processes are 'stable, long-lasting and excellent', meeting international standards and acquiring the one-time inspection passing rate of approximately 100%. At the same time, Sinochem Yunlong has obtained the European Feed Additive and Premixture Feed Quality System (FAMI-QS (ver.6.0)) certification.",
+      "retrieval_text": "[Section]\nCREATING QUALITY PRODUCTS / Quality control on fertilizers\n\n[Content]\nThe Group has consistently enhanced the quality inspection process of fertilizers and has established a fullprocess quality inspection procedure for all products, from raw material procurement, production, and processing, process inspection, logistics and warehousing, sales tracking to product accident handling. Each subsidiary has a dedicated quality management department to carry out the entire internal and external quality management process to ensure quality inspection process and results are controllable. We implement a quality control target system to define the key quality indicators of the Group and perform periodic tracking and assessment of the operation results of the quality indicators. For example, Sinochem Yunlong has set up a comprehensive quality management system to ensure devices and facilities within the production processes are 'stable, long-lasting and excellent', meeting international standards and acquiring the one-time inspection passing rate of approximately 100%. At the same time, Sinochem Yunlong has obtained the European Feed Additive and Premixture Feed Quality System (FAMI-QS (ver.6.0)) certification.",
+      "bm25_rank": 25,
+      "dense_rank": 69,
+      "bm25_score": 12.291646003723145,
+      "dense_score": 0.3489711284637451,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1590268018204362,
+      "normalized_dense": 0.1342302477810199,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.5436241610738255,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.27140339675187375,
+      "rank": 46,
+      "rrf_score": 0.27140339675187375,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_010",
+      "alias_source_ids": [
+        "L59_010"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "Assuring the conformity of disclosures for general disclosure and key performance indicators of environmental and social subject areas in Sinofert's ESG Report with the 'Comply or Explain' provision in the ESG Reporting Guide of the SEHK;",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nAssuring the conformity of disclosures for general disclosure and key performance indicators of environmental and social subject areas in Sinofert's ESG Report with the 'Comply or Explain' provision in the ESG Reporting Guide of the SEHK;",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.40332379937171936,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.2770239375187323,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.27011274054766365,
+      "rank": 47,
+      "rrf_score": 0.27011274054766365,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T21_001",
+      "alias_source_ids": [
+        "T21_001"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        21
+      ],
+      "text": "2021 | 2020 | Unit Fuel consumption from stationary sources | 2,008,434 | 2,828,979 | MWh Vehicle fuel consumption | 187 | 635 | MWh Purchased electricity | 264,599 | 272,326 | MWh Purchased steam | 2,599 | 2,632 | MWh Total energy consumption | 2,275,819 | 3,104,572 | MWh Intensity of energy consumption | 2.34 | 2.69 | MWh/tonne of product",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\n2021 | 2020 | Unit Fuel consumption from stationary sources | 2,008,434 | 2,828,979 | MWh Vehicle fuel consumption | 187 | 635 | MWh Purchased electricity | 264,599 | 272,326 | MWh Purchased steam | 2,599 | 2,632 | MWh Total energy consumption | 2,275,819 | 3,104,572 | MWh Intensity of energy consumption | 2.34 | 2.69 | MWh/tonne of product",
+      "bm25_rank": 12,
+      "dense_rank": 86,
+      "bm25_score": 18.130598068237305,
+      "dense_score": 0.3394879102706909,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24666735757050726,
+      "normalized_dense": 0.10931622435304998,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.4295302013422819,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.2661176399705549,
+      "rank": 48,
+      "rrf_score": 0.2661176399705549,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_005",
+      "alias_source_ids": [
+        "P25_005"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        25
+      ],
+      "text": "The Group strives to reduce the generation of hazardous and non-hazardous waste while actively improving recycling rates. For example, we continue to recycle steel tailings, sulfur slag and sell other recyclables, such as phosphorus slag powder for fertilizer production. In addition, Sinochem Yunlong has set a target to increase the comprehensive utilization of phosphogypsum to 1.3 million tonnes per year and to utilize the phosphogypsum produced in the process of phosphate fertilizer production to make cement retarders and gypsum powder. Furthermore, the fluorosilicic acid produced in the phosphoric acid plant is used for the Group's internal production of sodium fluosilicate, thereby reducing waste and disposing of it safely. Hazardous wastes are collected and stored in dedicated storage facilities by qualified contractors or used for internal purposes. As for non-hazardous wastes, the Group also centralizes and stores them in dedicated storage facilities while taking corresponding treatment measures.",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\nThe Group strives to reduce the generation of hazardous and non-hazardous waste while actively improving recycling rates. For example, we continue to recycle steel tailings, sulfur slag and sell other recyclables, such as phosphorus slag powder for fertilizer production. In addition, Sinochem Yunlong has set a target to increase the comprehensive utilization of phosphogypsum to 1.3 million tonnes per year and to utilize the phosphogypsum produced in the process of phosphate fertilizer production to make cement retarders and gypsum powder. Furthermore, the fluorosilicic acid produced in the phosphoric acid plant is used for the Group's internal production of sodium fluosilicate, thereby reducing waste and disposing of it safely. Hazardous wastes are collected and stored in dedicated storage facilities by qualified contractors or used for internal purposes. As for non-hazardous wastes, the Group also centralizes and stores them in dedicated storage facilities while taking corresponding treatment measures.",
+      "bm25_rank": null,
+      "dense_rank": 24,
+      "bm25_score": null,
+      "dense_score": 0.4011961817741394,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.271434325048285,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.26412953054542326,
+      "rank": 49,
+      "rrf_score": 0.26412953054542326,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T48_001",
+      "alias_source_ids": [
+        "T48_001"
+      ],
+      "section": "JOINT DEVELOPMENT",
+      "pages": [
+        48
+      ],
+      "text": "Total number of suppliers (by geographical region) | 2021 | Unit Mainland China | 2,199 | Units Overseas | 54 | Units",
+      "retrieval_text": "[Section]\nJOINT DEVELOPMENT\n\n[Content]\nTotal number of suppliers (by geographical region) | 2021 | Unit Mainland China | 2,199 | Units Overseas | 54 | Units",
+      "bm25_rank": 7,
+      "dense_rank": 124,
+      "bm25_score": 24.309175491333008,
+      "dense_score": 0.3183756470680237,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3394055669481527,
+      "normalized_dense": 0.0538507263184301,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.17449664429530198,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.2176013508225576,
+      "rank": 50,
+      "rrf_score": 0.2176013508225576,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

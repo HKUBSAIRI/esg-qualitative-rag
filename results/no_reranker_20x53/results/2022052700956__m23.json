@@ -1,0 +1,1563 @@
+{
+  "document_id": "2022052700956",
+  "metric_id": 23,
+  "metric_name": "按性别及雇员类别划分的受训雇员百分比",
+  "query": "按性别及雇员类别划分的受训雇员百分比 按性别及雇员类别划分的受训雇员百分比 衡量企业培训资源的分配情况。指报告期内参加培训的雇员人数占该类别雇员总人数的百分比，需分别按性别（男、女）及雇员类别（如高级管理层、中级管理层、一般员工）进行细分披露。 A. 披露完整性得分 (权重 50%) 2分：完整披露了性别及所有层级类别的受训百分比。 1分：仅披露了整体受训百分比，或缺少其中一个维度（如缺性别划分）。 0分：未披露具体百分比数据。 B. 数据逻辑与口径得分 (权重 50%) 2分：披露了计算方法，且数据分布逻辑合理（如百分比不应无故超过100%）。 1分：仅给出数字，无计算口径说明。 0分：数据存在逻辑错误或未说明。 受训雇员百分比 培训覆盖率 按性别划分的培训 按雇员类别划分的培训 按职级培训 受训人数占比 员工培训统计 percentage of employees trained training coverage rate training by gender training by employee category training by job level trained employees workforce training statistics 是否按男/女披露受训雇员百分比？ 是否按高级管理层、中级管理层、一般员工等类别披露？ 计算口径与分母（该类别雇员总数）是什么？ 报告期是什么？ 数据是否存在明显逻辑异常（如无故超过100%）？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '按性别及雇员类别划分的受训雇员百分比'. Prefer explicit, auditable disclosure that answers: 是否按男/女披露受训雇员百分比？ 是否按高级管理层、中级管理层、一般员工等类别披露？ 计算口径与分母（该类别雇员总数）是什么？ 报告期是什么？ 数据是否存在明显逻辑异常（如无故超过100%）？ Exclude or down-rank: 排除：仅有培训总时长或人均学时；仅有培训课程名称清单；仅有人才发展战略描述；仅有整体受训人数无百分比且无细分；区分：本指标是按性别与雇员类别细分的受训百分比披露；人才储备战略关注继任与高潜计划；平等机会措施关注选拔公平流程，不是培训覆盖率统计。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 170,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "T43_001",
+      "alias_source_ids": [
+        "T43_001"
+      ],
+      "section": "Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        43
+      ],
+      "text": "Material Aspect | Content | Page Index/Remarks A4 Climate Change General Disclosure | Policies on identification and mitigation of significant climate- related issues which have impacted, and those which may impact, the issuer. | 7 A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 7-8 B. Social B1 Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | 20, 26-28, 41 B1.1 | Total workforce by gender, employment type, age group and geographical region. | 38 B1.2 | Employee turnover rate by gender, age group and geographical region. | 38 B2 Health and Safety General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | 25, 41 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | 25, 39 B2.2 | Lost days due to work injury. | 39 B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | 25 B3 Development and Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | 29-30 B3.1 | The percentage of employees trained by gender and employee category. | 39 B3.2 | The average training hours completed per employee by gender and employee category. | 40",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMaterial Aspect | Content | Page Index/Remarks A4 Climate Change General Disclosure | Policies on identification and mitigation of significant climate- related issues which have impacted, and those which may impact, the issuer. | 7 A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 7-8 B. Social B1 Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | 20, 26-28, 41 B1.1 | Total workforce by gender, employment type, age group and geographical region. | 38 B1.2 | Employee turnover rate by gender, age group and geographical region. | 38 B2 Health and Safety General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | 25, 41 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | 25, 39 B2.2 | Lost days due to work injury. | 39 B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | 25 B3 Development and Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | 29-30 B3.1 | The percentage of employees trained by gender and employee category. | 39 B3.2 | The average training hours completed per employee by gender and employee category. | 40",
+      "bm25_rank": 2,
+      "dense_rank": 2,
+      "bm25_score": 48.640647888183594,
+      "dense_score": 0.6460636854171753,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8258543405945654,
+      "normalized_dense": 0.8908174206140961,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 2,
+      "composite_score": 0.8049435425150547,
+      "rank": 1,
+      "rrf_score": 0.8049435425150547,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T40_001",
+      "alias_source_ids": [
+        "T40_001"
+      ],
+      "section": "Key Performance Indicator Summary",
+      "pages": [
+        40
+      ],
+      "text": "Average Training of the Employees Distribution of Employees | 2021 | 2020 Gender | Male | 6.91 | 1.80 Female | 5.98 | 1.79 Position | Senior Management | 16.00 | 1.47 Middle Management | 16.00 | 1.90 General Staff | 6.15 | 1.80 6.54 | 1.80 Location of Suppliers and Contractors 17 | 2021 Hohhot and Baotou | 416 Jilin and Zibo | 431 Yinchuan, Zunyi and Weinan | 641 Hefei, Huangshan, Chuzhou and Anqing | 885 Shaoxing, Jinhua and Yiwu | 416 Lanzhou, Tianshui and Xining | 523 Nanning, Guilin and Liuzhou | 373 Ganzhou, Jiujiang and Zhuzhou | 641 Yangzhou, Taizhou and Danyang | 1,086 Nantong and Yancheng | 530 Changzhou | 252 Shantou and Quanzhou | 469 Weifang and Linyi | 346 Huizhou, Qingyuan and Zhanjiang | 702 Tangshan and Langfang",
+      "retrieval_text": "[Section]\nKey Performance Indicator Summary\n\n[Content]\nAverage Training of the Employees Distribution of Employees | 2021 | 2020 Gender | Male | 6.91 | 1.80 Female | 5.98 | 1.79 Position | Senior Management | 16.00 | 1.47 Middle Management | 16.00 | 1.90 General Staff | 6.15 | 1.80 6.54 | 1.80 Location of Suppliers and Contractors 17 | 2021 Hohhot and Baotou | 416 Jilin and Zibo | 431 Yinchuan, Zunyi and Weinan | 641 Hefei, Huangshan, Chuzhou and Anqing | 885 Shaoxing, Jinhua and Yiwu | 416 Lanzhou, Tianshui and Xining | 523 Nanning, Guilin and Liuzhou | 373 Ganzhou, Jiujiang and Zhuzhou | 641 Yangzhou, Taizhou and Danyang | 1,086 Nantong and Yancheng | 530 Changzhou | 252 Shantou and Quanzhou | 469 Weifang and Linyi | 346 Huizhou, Qingyuan and Zhanjiang | 702 Tangshan and Langfang",
+      "bm25_rank": 17,
+      "dense_rank": 1,
+      "bm25_score": 19.081615447998047,
+      "dense_score": 0.6923319101333618,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.320276686470719,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.7033170822605868,
+      "rank": 2,
+      "rrf_score": 0.7033170822605868,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T38_002",
+      "alias_source_ids": [
+        "T38_002"
+      ],
+      "section": "Key Performance Indicator Summary",
+      "pages": [
+        38
+      ],
+      "text": "Number of Employees Distribution of Employees 12 | 2021 | 2020 Region | Mainland China | 3,494 | 2,974 Hong Kong | 11 | 10 Gender | Male | 2,120 | 1,844 Female | 1,385 | 1,140 Position | Senior Management | 31 | 30 Middle Management | 109 | 87 General Staff | 3,365 | 2,867 Age | Under 30 | 1,315 | 1,228 30-50 | 2,151 | 1,716 50 Above | 39 | 40 3,505 | 2,984 Male to Female Employee Ratio | 1.5:1 | 1.62:1",
+      "retrieval_text": "[Section]\nKey Performance Indicator Summary\n\n[Content]\nNumber of Employees Distribution of Employees 12 | 2021 | 2020 Region | Mainland China | 3,494 | 2,974 Hong Kong | 11 | 10 Gender | Male | 2,120 | 1,844 Female | 1,385 | 1,140 Position | Senior Management | 31 | 30 Middle Management | 109 | 87 General Staff | 3,365 | 2,867 Age | Under 30 | 1,315 | 1,228 30-50 | 2,151 | 1,716 50 Above | 39 | 40 3,505 | 2,984 Male to Female Employee Ratio | 1.5:1 | 1.62:1",
+      "bm25_rank": 3,
+      "dense_rank": 4,
+      "bm25_score": 38.057838439941406,
+      "dense_score": 0.5996481776237488,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6448459809431162,
+      "normalized_dense": 0.7812872863701531,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6970506189013983,
+      "rank": 3,
+      "rrf_score": 0.6970506189013983,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T38_003",
+      "alias_source_ids": [
+        "T38_003"
+      ],
+      "section": "Key Performance Indicator Summary",
+      "pages": [
+        38
+      ],
+      "text": "Number of Employee Turnover (Percentage) Distribution of Employee Turnover | 2021 | 2020 Region | Mainland China | 820 (23.47%) 13 | 488 (16.41%) 14 Hong Kong | 3 (27.27%) | 0 Gender | Male | 457 (21.56%) | 347 (18.82%) Female | 366 (26.43%) | 141 (12.37%) Age | Under 30 | 416 (31.63%) | 171 (13.93%) 30-50 | 397 (18.46%) | 315 (18.36%) 50 Above | 10 (25.64%) | 2 (5%) Total | 823 (23.48%) | 488 (16.35%)",
+      "retrieval_text": "[Section]\nKey Performance Indicator Summary\n\n[Content]\nNumber of Employee Turnover (Percentage) Distribution of Employee Turnover | 2021 | 2020 Region | Mainland China | 820 (23.47%) 13 | 488 (16.41%) 14 Hong Kong | 3 (27.27%) | 0 Gender | Male | 457 (21.56%) | 347 (18.82%) Female | 366 (26.43%) | 141 (12.37%) Age | Under 30 | 416 (31.63%) | 171 (13.93%) 30-50 | 397 (18.46%) | 315 (18.36%) 50 Above | 10 (25.64%) | 2 (5%) Total | 823 (23.48%) | 488 (16.35%)",
+      "bm25_rank": 4,
+      "dense_rank": 5,
+      "bm25_score": 33.07779312133789,
+      "dense_score": 0.5745530128479004,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.559667292002437,
+      "normalized_dense": 0.7220683550809468,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6572748323432483,
+      "rank": 4,
+      "rrf_score": 0.6572748323432483,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_003",
+      "alias_source_ids": [
+        "P30_003"
+      ],
+      "section": "Material Issues",
+      "pages": [
+        30
+      ],
+      "text": "The total training hours of employees in 2021 were",
+      "retrieval_text": "[Section]\nMaterial Issues\n\n[Content]\nThe total training hours of employees in 2021 were",
+      "bm25_rank": 12,
+      "dense_rank": 3,
+      "bm25_score": 22.646089553833008,
+      "dense_score": 0.6019909381866455,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3812434471473388,
+      "normalized_dense": 0.7868156731347128,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6415670609326575,
+      "rank": 5,
+      "rrf_score": 0.6415670609326575,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_003",
+      "alias_source_ids": [
+        "P32_003"
+      ],
+      "section": "Material Issues / Anti-corruption",
+      "pages": [
+        32
+      ],
+      "text": "To promote the anti-corruption work, the Group has produced a guideline for Integrity Risk Prevention Education and a TV feature video to raise employees' awareness of integrity and self-discipline. During the Reporting Year, the Group provided a total of 155 hours of anti-corruption training for its employees. On the other hand, the Board has received 2 hours of anticorruption training during the Reporting Year.",
+      "retrieval_text": "[Section]\nMaterial Issues / Anti-corruption\n\n[Content]\nTo promote the anti-corruption work, the Group has produced a guideline for Integrity Risk Prevention Education and a TV feature video to raise employees' awareness of integrity and self-discipline. During the Reporting Year, the Group provided a total of 155 hours of anti-corruption training for its employees. On the other hand, the Board has received 2 hours of anticorruption training during the Reporting Year.",
+      "bm25_rank": 8,
+      "dense_rank": 8,
+      "bm25_score": 27.166500091552734,
+      "dense_score": 0.5599193572998047,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.458560543366971,
+      "normalized_dense": 0.6875362270732998,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.6182558284175055,
+      "rank": 6,
+      "rrf_score": 0.6182558284175055,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_002",
+      "alias_source_ids": [
+        "P30_002"
+      ],
+      "section": "Material Issues",
+      "pages": [
+        30
+      ],
+      "text": "During the Reporting Year, the Group launched the cultivation projects of T+ (Leading Talents), H+ (High Potential Talents) and Y+ (Young Talents) to promote innovation-driven development. 63 young talented representatives from headquarters and district companies participated in the training. In addition, the Group has used '3 talks, 1 workshop' (which includes the 'Talk of Creator', 'Talk of Enabler', 'Talk of Fighter', and 'Creative Thinking Workshop') and 'Target Achievement Action' as the topics of the career-shaping training series that cover all the employees from the general, middle, and senior management levels. During the Reporting Year, employees received an average of 6.5 hours of training with a significant increase of 2.6 times over the previous year. For details, please refer to 'Key Performance Indicator Summary'.",
+      "retrieval_text": "[Section]\nMaterial Issues\n\n[Content]\nDuring the Reporting Year, the Group launched the cultivation projects of T+ (Leading Talents), H+ (High Potential Talents) and Y+ (Young Talents) to promote innovation-driven development. 63 young talented representatives from headquarters and district companies participated in the training. In addition, the Group has used '3 talks, 1 workshop' (which includes the 'Talk of Creator', 'Talk of Enabler', 'Talk of Fighter', and 'Creative Thinking Workshop') and 'Target Achievement Action' as the topics of the career-shaping training series that cover all the employees from the general, middle, and senior management levels. During the Reporting Year, employees received an average of 6.5 hours of training with a significant increase of 2.6 times over the previous year. For details, please refer to 'Key Performance Indicator Summary'.",
+      "bm25_rank": 10,
+      "dense_rank": 6,
+      "bm25_score": 23.58081817626953,
+      "dense_score": 0.5707477331161499,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.39723104434390344,
+      "normalized_dense": 0.7130887527956646,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.6162755944949143,
+      "rank": 7,
+      "rrf_score": 0.6162755944949143,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T39_001",
+      "alias_source_ids": [
+        "T39_001"
+      ],
+      "section": "Key Performance Indicator Summary",
+      "pages": [
+        39
+      ],
+      "text": "Number of New Hires (Percentage) Distribution of New Hires | 2021 | 2020 Region | Mainland China | 1,025 (29.34%) | 879 (29.56%) Hong Kong | 4 (36.36%) | 0 Gender | Male | 612 (28.87%) | 523 (28.36%) Female | 417 (30.11%) | 356 (31.23%) Age | Under 30 | 517 (39.32%) | 511 (41.61%) 30-50 | 509 (23.66%) | 366 (21.33%) 50 Above | 3 (7.69%) | 2 (5%) Total | 1,029 (29.36%) | 879 (29.46%) Occupational Safety and Health Performance | 2021 | 2020 Work-related Injury | 0 | 0 Work-related Fatalities | 0 | 0 Lost Days Due to Work-related Injury | 0 | 0 Number of Employees Received Training (Percentage) 15,16 Distribution of Employees Received Training | 2021 | 2020 Gender | Male | 1,719 (81.08%) | 1,839 (99.73%) Female | 972 (70.18%) | 1,135 (99.56%) Position | Senior Management | 31 (100.00%) | 29 (96.67%) Middle Management | 109 (100.00%) | 84 (96.55%) General Staff | 2,551 (75.81%) | 2,861 (99.79%) Total | 2,691 (76.78%) | 2,974 (99.66%)",
+      "retrieval_text": "[Section]\nKey Performance Indicator Summary\n\n[Content]\nNumber of New Hires (Percentage) Distribution of New Hires | 2021 | 2020 Region | Mainland China | 1,025 (29.34%) | 879 (29.56%) Hong Kong | 4 (36.36%) | 0 Gender | Male | 612 (28.87%) | 523 (28.36%) Female | 417 (30.11%) | 356 (31.23%) Age | Under 30 | 517 (39.32%) | 511 (41.61%) 30-50 | 509 (23.66%) | 366 (21.33%) 50 Above | 3 (7.69%) | 2 (5%) Total | 1,029 (29.36%) | 879 (29.46%) Occupational Safety and Health Performance | 2021 | 2020 Work-related Injury | 0 | 0 Work-related Fatalities | 0 | 0 Lost Days Due to Work-related Injury | 0 | 0 Number of Employees Received Training (Percentage) 15,16 Distribution of Employees Received Training | 2021 | 2020 Gender | Male | 1,719 (81.08%) | 1,839 (99.73%) Female | 972 (70.18%) | 1,135 (99.56%) Position | Senior Management | 31 (100.00%) | 29 (96.67%) Middle Management | 109 (100.00%) | 84 (96.55%) General Staff | 2,551 (75.81%) | 2,861 (99.79%) Total | 2,691 (76.78%) | 2,974 (99.66%)",
+      "bm25_rank": 1,
+      "dense_rank": 27,
+      "bm25_score": 58.82222366333008,
+      "dense_score": 0.44902315735816956,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.4258461962153231,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.6141468398163027,
+      "rank": 8,
+      "rrf_score": 0.6141468398163027,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_004",
+      "alias_source_ids": [
+        "P29_004"
+      ],
+      "section": "Material Issues / Mental Care and Welfare",
+      "pages": [
+        29
+      ],
+      "text": "of employees at different levels, for example, providing a training programme",
+      "retrieval_text": "[Section]\nMaterial Issues / Mental Care and Welfare\n\n[Content]\nof employees at different levels, for example, providing a training programme",
+      "bm25_rank": 11,
+      "dense_rank": 9,
+      "bm25_score": 22.675342559814453,
+      "dense_score": 0.552869439125061,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3817437905252927,
+      "normalized_dense": 0.6709000095503743,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.5937140970181594,
+      "rank": 9,
+      "rrf_score": 0.5937140970181594,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_002",
+      "alias_source_ids": [
+        "P28_002"
+      ],
+      "section": "Material Issues / Labour Standards",
+      "pages": [
+        28
+      ],
+      "text": "As of the end of 2021, the Group employed 3,505 employees, including 11 employees in Hong Kong and 3,494 employees in Mainland China. The ratio of male to female employees was 1.5:1 and the total number of new hires during the Reporting Year was 1,029. Please refer to the 'Key Performance Indicator Summary' for details.",
+      "retrieval_text": "[Section]\nMaterial Issues / Labour Standards\n\n[Content]\nAs of the end of 2021, the Group employed 3,505 employees, including 11 employees in Hong Kong and 3,494 employees in Mainland China. The ratio of male to female employees was 1.5:1 and the total number of new hires during the Reporting Year was 1,029. Please refer to the 'Key Performance Indicator Summary' for details.",
+      "bm25_rank": 28,
+      "dense_rank": 7,
+      "bm25_score": 12.90263557434082,
+      "dense_score": 0.5624945163726807,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21459142239032028,
+      "normalized_dense": 0.6936130219283063,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.5595083455086759,
+      "rank": 10,
+      "rrf_score": 0.5595083455086759,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_003",
+      "alias_source_ids": [
+        "P29_003"
+      ],
+      "section": "Material Issues / Mental Care and Welfare",
+      "pages": [
+        29
+      ],
+      "text": "COGO has continued to put in resources for employee development, and is committed to providing sound opportunities for career development in building an industry-leading team. A training system with the theme of the 'Endless Ocean Training System' is coordinated by the Human Resources and Administration Department of the headquarters, and the training programmes are carried out by various departments and district business offices according to their needs. The Group arranges different training to meet the needs",
+      "retrieval_text": "[Section]\nMaterial Issues / Mental Care and Welfare\n\n[Content]\nCOGO has continued to put in resources for employee development, and is committed to providing sound opportunities for career development in building an industry-leading team. A training system with the theme of the 'Endless Ocean Training System' is coordinated by the Human Resources and Administration Department of the headquarters, and the training programmes are carried out by various departments and district business offices according to their needs. The Group arranges different training to meet the needs",
+      "bm25_rank": 6,
+      "dense_rank": 14,
+      "bm25_score": 28.708385467529297,
+      "dense_score": 0.4845239520072937,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.48493294892156913,
+      "normalized_dense": 0.5096200681072495,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5545482444943344,
+      "rank": 11,
+      "rrf_score": 0.5545482444943344,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P33_002",
+      "alias_source_ids": [
+        "P33_002"
+      ],
+      "section": "Material Issues / Raise Awareness of Prevention",
+      "pages": [
+        33
+      ],
+      "text": "The Group also arranges training on different risks issues for assistant manager grade and above employees of various project companies to learn, including the bidding and contract management risks, sales management risks, investment management risks, operation and construction application risks, dynamic cost and design management risks, project management risks, human and general management risks, and financial capital management risks. These training topics ensure all managers at different levels understand their fiduciary responsibilities, improve business management, control business risks, and strictly implement the internal control system.",
+      "retrieval_text": "[Section]\nMaterial Issues / Raise Awareness of Prevention\n\n[Content]\nThe Group also arranges training on different risks issues for assistant manager grade and above employees of various project companies to learn, including the bidding and contract management risks, sales management risks, investment management risks, operation and construction application risks, dynamic cost and design management risks, project management risks, human and general management risks, and financial capital management risks. These training topics ensure all managers at different levels understand their fiduciary responsibilities, improve business management, control business risks, and strictly implement the internal control system.",
+      "bm25_rank": 18,
+      "dense_rank": 10,
+      "bm25_score": 17.331064224243164,
+      "dense_score": 0.5298929214477539,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.29033526051503006,
+      "normalized_dense": 0.6166806077751299,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.5504153319383954,
+      "rank": 12,
+      "rrf_score": 0.5504153319383954,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_001",
+      "alias_source_ids": [
+        "P25_001"
+      ],
+      "section": "Material Issues / Employee Health and Well-Being",
+      "pages": [
+        25
+      ],
+      "text": "Employees power the Group's development and success. The Group invests a lot of resources in their health and wellbeing and provides them with learning and developmental training opportunities to ensure that they can make the most of their talents.",
+      "retrieval_text": "[Section]\nMaterial Issues / Employee Health and Well-Being\n\n[Content]\nEmployees power the Group's development and success. The Group invests a lot of resources in their health and wellbeing and provides them with learning and developmental training opportunities to ensure that they can make the most of their talents.",
+      "bm25_rank": 14,
+      "dense_rank": 13,
+      "bm25_score": 20.276546478271484,
+      "dense_score": 0.4873649477958679,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.34071478532757193,
+      "normalized_dense": 0.5163241776797204,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.5240242044883159,
+      "rank": 13,
+      "rrf_score": 0.5240242044883159,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_001",
+      "alias_source_ids": [
+        "P30_001"
+      ],
+      "section": "Material Issues",
+      "pages": [
+        30
+      ],
+      "text": "The Group also organizes training camps from time to time on different topics to meet the needs of employees at different levels, including 'Sons of the Sea Cornerstone Camp', 'Haina Inclusion Camp', 'Employee with Potential Training Camp', 'Sales Manager Studying Camp' and 'Senior Management Power Camp'. In addition, the Group established a LAMPS system, in which employees can choose to develop themselves in-depth in different parts of the company such as management (LM), professional (P), sales (S), and administration (A). They can also choose to change their professions and develop themselves in breadth. The LAMPS system interrelates with various aspects that run through the human resources value chain such as personnel management, qualification standards, appointment procedures, business performance evaluation, opt-out mechanisms, and remuneration packages and fringe benefits. At the same time, the Group has established a human resources shared service centre to provide induction training and guidance for new employees to help them understand the company culture and integrate into the team quickly.",
+      "retrieval_text": "[Section]\nMaterial Issues\n\n[Content]\nThe Group also organizes training camps from time to time on different topics to meet the needs of employees at different levels, including 'Sons of the Sea Cornerstone Camp', 'Haina Inclusion Camp', 'Employee with Potential Training Camp', 'Sales Manager Studying Camp' and 'Senior Management Power Camp'. In addition, the Group established a LAMPS system, in which employees can choose to develop themselves in-depth in different parts of the company such as management (LM), professional (P), sales (S), and administration (A). They can also choose to change their professions and develop themselves in breadth. The LAMPS system interrelates with various aspects that run through the human resources value chain such as personnel management, qualification standards, appointment procedures, business performance evaluation, opt-out mechanisms, and remuneration packages and fringe benefits. At the same time, the Group has established a human resources shared service centre to provide induction training and guidance for new employees to help them understand the company culture and integrate into the team quickly.",
+      "bm25_rank": 15,
+      "dense_rank": 12,
+      "bm25_score": 19.979997634887695,
+      "dense_score": 0.48739898204803467,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.33564261427885766,
+      "normalized_dense": 0.5164044908419787,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.5237090208249607,
+      "rank": 14,
+      "rrf_score": 0.5237090208249607,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L27_001",
+      "alias_source_ids": [
+        "L27_001"
+      ],
+      "section": "Material Issues / Anti-discrimination and Equal Opportunity",
+      "pages": [
+        27
+      ],
+      "text": "The Company culture is open to employees in terms of gender, education, sexual orientation, religious beliefs, etc.;",
+      "retrieval_text": "[Section]\nMaterial Issues / Anti-discrimination and Equal Opportunity\n\n[Content]\nThe Company culture is open to employees in terms of gender, education, sexual orientation, religious beliefs, etc.;",
+      "bm25_rank": 39,
+      "dense_rank": 11,
+      "bm25_score": 9.020122528076172,
+      "dense_score": 0.5251508951187134,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14818492407181888,
+      "normalized_dense": 0.6054904947051684,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.5026324834645284,
+      "rank": 15,
+      "rrf_score": 0.5026324834645284,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_002",
+      "alias_source_ids": [
+        "P7_002"
+      ],
+      "section": "Governance / Climate-related Financial Disclosure Recommendations",
+      "pages": [
+        7
+      ],
+      "text": "The Board understands its leadership role in the governance of climate-related issues and will be proactively involved in the preparation works, including the development of the climate change risk management policy. The Group will also provide relevant training for employees to enhance their awareness of climate disclosure.",
+      "retrieval_text": "[Section]\nGovernance / Climate-related Financial Disclosure Recommendations\n\n[Content]\nThe Board understands its leadership role in the governance of climate-related issues and will be proactively involved in the preparation works, including the development of the climate change risk management policy. The Group will also provide relevant training for employees to enhance their awareness of climate disclosure.",
+      "bm25_rank": 21,
+      "dense_rank": 17,
+      "bm25_score": 16.17441749572754,
+      "dense_score": 0.4717763066291809,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27055197630786676,
+      "normalized_dense": 0.47953849890902095,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.4870495410206703,
+      "rank": 16,
+      "rrf_score": 0.4870495410206703,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T45_001",
+      "alias_source_ids": [
+        "T45_001"
+      ],
+      "section": "Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        45
+      ],
+      "text": "Material Aspect | Content | Page Index/Remarks B7 Anti-corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | 32, 41 B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | 41 B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | 32 B7.3 | Description of anti-corruption training provided to directors and staff. | 32-33 B8 Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | 20, 34-36 B8.1 | Focus areas of contribution. | 34-36 B8.2 | Resources contributed to the focus area. | 34-36",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMaterial Aspect | Content | Page Index/Remarks B7 Anti-corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | 32, 41 B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | 41 B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | 32 B7.3 | Description of anti-corruption training provided to directors and staff. | 32-33 B8 Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | 20, 34-36 B8.1 | Focus areas of contribution. | 34-36 B8.2 | Resources contributed to the focus area. | 34-36",
+      "bm25_rank": 19,
+      "dense_rank": 19,
+      "bm25_score": 16.636457443237305,
+      "dense_score": 0.4664885103702545,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27845470699589553,
+      "normalized_dense": 0.46706049184568227,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.4829205028069128,
+      "rank": 17,
+      "rrf_score": 0.4829205028069128,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_002",
+      "alias_source_ids": [
+        "P20_002"
+      ],
+      "section": "Material Issues / Stakeholder Engagement and Material Issues",
+      "pages": [
+        20
+      ],
+      "text": "The Group employs staff in Hong Kong and Mainland China, and is committed to providing an inclusive, mutually s u p p o r t i v e a n d e q u a l w o r k i n g environment for all. The Group regularly communicates with employees through satisfaction surveys, employee seminars, sharing sessions and other trade union activities. To encourage staff to provide suggestions for the Group's development, management constantly gives feedback on the adoption and implementation results of the proposals made by employees.",
+      "retrieval_text": "[Section]\nMaterial Issues / Stakeholder Engagement and Material Issues\n\n[Content]\nThe Group employs staff in Hong Kong and Mainland China, and is committed to providing an inclusive, mutually s u p p o r t i v e a n d e q u a l w o r k i n g environment for all. The Group regularly communicates with employees through satisfaction surveys, employee seminars, sharing sessions and other trade union activities. To encourage staff to provide suggestions for the Group's development, management constantly gives feedback on the adoption and implementation results of the proposals made by employees.",
+      "bm25_rank": 34,
+      "dense_rank": 20,
+      "bm25_score": 10.1792573928833,
+      "dense_score": 0.46049612760543823,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16801076535902007,
+      "normalized_dense": 0.4529198194740149,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.4444730831762998,
+      "rank": 18,
+      "rrf_score": 0.4444730831762998,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T44_001",
+      "alias_source_ids": [
+        "T44_001"
+      ],
+      "section": "Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        44
+      ],
+      "text": "Material Aspect | Content | Page Index/Remarks B4 Labour Standards General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | 28, 41 B4.1 | Description of measures to review employment practices to avoid child and forced labour. | 28 B4.2 | Description of steps taken to eliminate such practices when discovered. | 28 B5 Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | 22 B5.1 | Number of suppliers by geographical region. | 40 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | 20, 22 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 22 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | 22 B6 Product Responsibility General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | 31, 41 B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | The Group's operation does not involve product recalls. B6.2 | Number of products and service-related complaints received and how they are dealt with. | 31 B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 31 B6.4 | Description of quality assurance process and recall procedures. | The Group's operation does not involve product recalls. B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 31",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMaterial Aspect | Content | Page Index/Remarks B4 Labour Standards General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | 28, 41 B4.1 | Description of measures to review employment practices to avoid child and forced labour. | 28 B4.2 | Description of steps taken to eliminate such practices when discovered. | 28 B5 Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | 22 B5.1 | Number of suppliers by geographical region. | 40 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | 20, 22 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 22 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | 22 B6 Product Responsibility General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | 31, 41 B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | The Group's operation does not involve product recalls. B6.2 | Number of products and service-related complaints received and how they are dealt with. | 31 B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 31 B6.4 | Description of quality assurance process and recall procedures. | The Group's operation does not involve product recalls. B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 31",
+      "bm25_rank": 33,
+      "dense_rank": 23,
+      "bm25_score": 11.211997985839844,
+      "dense_score": 0.45840343832969666,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18567475917755935,
+      "normalized_dense": 0.44798154456979644,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.4429217810255447,
+      "rank": 19,
+      "rrf_score": 0.4429217810255447,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L28_003",
+      "alias_source_ids": [
+        "L28_003"
+      ],
+      "section": "Material Issues / Labour Standards",
+      "pages": [
+        28
+      ],
+      "text": "Employee relations questions were answered through the '100 Questions on Employee Relations Work';",
+      "retrieval_text": "[Section]\nMaterial Issues / Labour Standards\n\n[Content]\nEmployee relations questions were answered through the '100 Questions on Employee Relations Work';",
+      "bm25_rank": 20,
+      "dense_rank": 31,
+      "bm25_score": 16.440763473510742,
+      "dense_score": 0.43828779458999634,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2751075575808818,
+      "normalized_dense": 0.4005131603173087,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.4421809833990465,
+      "rank": 20,
+      "rrf_score": 0.4421809833990465,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T42_001",
+      "alias_source_ids": [
+        "T42_001"
+      ],
+      "section": "Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        42
+      ],
+      "text": "Material Aspect | Content | Page Index/Remarks A. Environmental A1 Emissions General Disclosure | Information on (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | 23-24, 41 A1.1 | The types of emissions and respective emissions data. | 24, 37 A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions and intensity. | 23, 37 A1.3 | Total hazardous waste produced and intensity. | 37 A1.4 | Total non-hazardous waste produced and intensity. | 24, 37 A1.5 | Description of emissions target(s) set and steps taken to achieve them. | 10-11 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | 11, 24 A2 Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 23-24 A2.1 | Direct and/or indirect energy consumption by type in total and intensity. | 24, 37 A2.2 | Water consumption in total and intensity. | 24, 38 A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 12, 24 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | The Group has no issue in sourcing water. A2.5 | Total packaging material used for finished products with reference to per unit produced. | The Group does not use a huge amount of packaging materials. A3 The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | 23-24 A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 23-24",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMaterial Aspect | Content | Page Index/Remarks A. Environmental A1 Emissions General Disclosure | Information on (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | 23-24, 41 A1.1 | The types of emissions and respective emissions data. | 24, 37 A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions and intensity. | 23, 37 A1.3 | Total hazardous waste produced and intensity. | 37 A1.4 | Total non-hazardous waste produced and intensity. | 24, 37 A1.5 | Description of emissions target(s) set and steps taken to achieve them. | 10-11 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | 11, 24 A2 Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 23-24 A2.1 | Direct and/or indirect energy consumption by type in total and intensity. | 24, 37 A2.2 | Water consumption in total and intensity. | 24, 38 A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 12, 24 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | The Group has no issue in sourcing water. A2.5 | Total packaging material used for finished products with reference to per unit produced. | The Group does not use a huge amount of packaging materials. A3 The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | 23-24 A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 23-24",
+      "bm25_rank": 30,
+      "dense_rank": 30,
+      "bm25_score": 11.668896675109863,
+      "dense_score": 0.4400619864463806,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19348955379104457,
+      "normalized_dense": 0.4046998531155248,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.4219535976036761,
+      "rank": 21,
+      "rrf_score": 0.4219535976036761,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_004",
+      "alias_source_ids": [
+        "P30_004"
+      ],
+      "section": "Material Issues",
+      "pages": [
+        30
+      ],
+      "text": "Employees received an average of",
+      "retrieval_text": "[Section]\nMaterial Issues\n\n[Content]\nEmployees received an average of",
+      "bm25_rank": 77,
+      "dense_rank": 15,
+      "bm25_score": 5.0499773025512695,
+      "dense_score": 0.4805985987186432,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08027956506815084,
+      "normalized_dense": 0.5003571192976776,
+      "normalized_bm25_rank": 0.4899328859060402,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.4213822470496965,
+      "rank": 22,
+      "rrf_score": 0.4213822470496965,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_006",
+      "alias_source_ids": [
+        "P31_006"
+      ],
+      "section": "Material Issues / Excellent Services and Products",
+      "pages": [
+        31
+      ],
+      "text": "The Group makes all reasonable efforts to ensure all information for promotion or marketing comply with relevant government regulations and industry guidelines, and respects all property rights, including intellectual property rights. Employees are also required to abide by all relevant laws and regulations regarding the collection, possession, processing, disclosure, and use of personal data, while respecting the privacy of others and keeping the data obtained in the course of business confidentially. Employees from Hong Kong and Mainland China can refer to 'Employee Handbook' of the Hong Kong office and the 'Employee Relations management Methods' of the Mainland China offices respectively as all relevant requirements in different regions are listed in them. In addition, the Group has implemented firewalls, behavioural analysis tools, anti-virus software, and encrypted all files to enhance network security and protect customer data. The Group reviews its cybersecurity regularly and has formulated a contingency plan that sets out procedures and guidelines for responding to and handling cybersecurity incidents such as cyberattacks that may threaten its business.",
+      "retrieval_text": "[Section]\nMaterial Issues / Excellent Services and Products\n\n[Content]\nThe Group makes all reasonable efforts to ensure all information for promotion or marketing comply with relevant government regulations and industry guidelines, and respects all property rights, including intellectual property rights. Employees are also required to abide by all relevant laws and regulations regarding the collection, possession, processing, disclosure, and use of personal data, while respecting the privacy of others and keeping the data obtained in the course of business confidentially. Employees from Hong Kong and Mainland China can refer to 'Employee Handbook' of the Hong Kong office and the 'Employee Relations management Methods' of the Mainland China offices respectively as all relevant requirements in different regions are listed in them. In addition, the Group has implemented firewalls, behavioural analysis tools, anti-virus software, and encrypted all files to enhance network security and protect customer data. The Group reviews its cybersecurity regularly and has formulated a contingency plan that sets out procedures and guidelines for responding to and handling cybersecurity incidents such as cyberattacks that may threaten its business.",
+      "bm25_rank": 41,
+      "dense_rank": 24,
+      "bm25_score": 8.151110649108887,
+      "dense_score": 0.4517121911048889,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13332134597388579,
+      "normalized_dense": 0.4321917096281135,
+      "normalized_bm25_rank": 0.7315436241610738,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.42021324675924776,
+      "rank": 23,
+      "rrf_score": 0.42021324675924776,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_005",
+      "alias_source_ids": [
+        "P30_005"
+      ],
+      "section": "Material Issues",
+      "pages": [
+        30
+      ],
+      "text": "6.5 hours of training",
+      "retrieval_text": "[Section]\nMaterial Issues\n\n[Content]\n6.5 hours of training",
+      "bm25_rank": 16,
+      "dense_rank": 44,
+      "bm25_score": 19.392051696777344,
+      "dense_score": 0.41171324253082275,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3255863876840602,
+      "normalized_dense": 0.33780320856006096,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.4155631656335045,
+      "rank": 24,
+      "rrf_score": 0.4155631656335045,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_001",
+      "alias_source_ids": [
+        "P26_001"
+      ],
+      "section": "Material Issues / Diversity and Inclusion",
+      "pages": [
+        26
+      ],
+      "text": "The Group actively promotes diversity in the workplace to create a people-oriented and flexible working environment. The Group has developed employment management system, including 'Employee Handbook' of the Hong Kong office and the policies for the Mainland China offices, such as the 'Employee Relations Management Methods' and 'Employee Salary Management Methods'. The policies set out the general employment practices, including arrangements and requirements for compensation and dismissal, working hours and rest periods.",
+      "retrieval_text": "[Section]\nMaterial Issues / Diversity and Inclusion\n\n[Content]\nThe Group actively promotes diversity in the workplace to create a people-oriented and flexible working environment. The Group has developed employment management system, including 'Employee Handbook' of the Hong Kong office and the policies for the Mainland China offices, such as the 'Employee Relations Management Methods' and 'Employee Salary Management Methods'. The policies set out the general employment practices, including arrangements and requirements for compensation and dismissal, working hours and rest periods.",
+      "bm25_rank": 85,
+      "dense_rank": 18,
+      "bm25_score": 4.344586372375488,
+      "dense_score": 0.4666207432746887,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06821455947501544,
+      "normalized_dense": 0.46737253168888737,
+      "normalized_bm25_rank": 0.43624161073825507,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.39802866711363044,
+      "rank": 25,
+      "rrf_score": 0.39802866711363044,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L26_004",
+      "alias_source_ids": [
+        "L26_004"
+      ],
+      "section": "Material Issues / Diversity and Inclusion",
+      "pages": [
+        26
+      ],
+      "text": "'Employee Salary Management Methods' are established to regulate the standard, composition, salary adjustment and payment of monthly salary. When terminating the labour relations with the employees, the expenses will be settled uniformly again;",
+      "retrieval_text": "[Section]\nMaterial Issues / Diversity and Inclusion\n\n[Content]\n'Employee Salary Management Methods' are established to regulate the standard, composition, salary adjustment and payment of monthly salary. When terminating the labour relations with the employees, the expenses will be settled uniformly again;",
+      "bm25_rank": 57,
+      "dense_rank": 28,
+      "bm25_score": 6.198549270629883,
+      "dense_score": 0.4478556513786316,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09992473858283404,
+      "normalized_dense": 0.42309114531210945,
+      "normalized_bm25_rank": 0.6241610738255033,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.39424134522010046,
+      "rank": 26,
+      "rrf_score": 0.39424134522010046,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T41_001",
+      "alias_source_ids": [
+        "T41_001"
+      ],
+      "section": "Key Performance Indicator Summary / Compliance Performance",
+      "pages": [
+        41
+      ],
+      "text": "Aspects | Relevant Laws and Regulations | Compliance Status A1 Emission | • Environmental Protection Law of the People's Republic of China • Environmental Impact Assessment Law of the People's Republic of China • Water Pollution Prevention and Control Law of the People's Republic of China • Prevention and Control of Noise Pollution Law of the People's Republic of China • Law of the People's Republic of China on the Prevention and Control of Environmental Pollution by Solid Waste • Administrative Regulations on Environmental Protection for Construction Projects • Interim Methods for Endorsement of Environmental Protection for Completed Construction Projects • Technical Guidelines of Environmental Protection Inspections for Completed Construction Projects - Pollution Impacts Category | The Group has not identified any cases of non-compliance in relation to emissions during the Reporting Year. B1 Employment | • The Labour Law of the People's Republic of China • The Labour Contract Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B2 Health and Safety | • The Production Safety Law of the People's Republic of China • The Law of the People's Republic of China on the Prevention and Treatment of Occupational Diseases • Fire Control Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B4 Labour Standards | • The Labour Law of the People's Republic of China • The Law of the People's Republic of China on the Protection of Minors | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B6 Product Responsibility | • Product Quality Law of the People's Republic of China • Patent Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B7 Anti-corruption | • Anti-Unfair Competition Law of the People's Republic of China • Anti-Money Laundering Law of the People's Republic of China | The Group did not receive any cases of corruption proceedings against the Group or its employees during the Reporting Year, and did not breach any relevant laws and regulations that have a significant impact on the Group.",
+      "retrieval_text": "[Section]\nKey Performance Indicator Summary / Compliance Performance\n\n[Content]\nAspects | Relevant Laws and Regulations | Compliance Status A1 Emission | • Environmental Protection Law of the People's Republic of China • Environmental Impact Assessment Law of the People's Republic of China • Water Pollution Prevention and Control Law of the People's Republic of China • Prevention and Control of Noise Pollution Law of the People's Republic of China • Law of the People's Republic of China on the Prevention and Control of Environmental Pollution by Solid Waste • Administrative Regulations on Environmental Protection for Construction Projects • Interim Methods for Endorsement of Environmental Protection for Completed Construction Projects • Technical Guidelines of Environmental Protection Inspections for Completed Construction Projects - Pollution Impacts Category | The Group has not identified any cases of non-compliance in relation to emissions during the Reporting Year. B1 Employment | • The Labour Law of the People's Republic of China • The Labour Contract Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B2 Health and Safety | • The Production Safety Law of the People's Republic of China • The Law of the People's Republic of China on the Prevention and Treatment of Occupational Diseases • Fire Control Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B4 Labour Standards | • The Labour Law of the People's Republic of China • The Law of the People's Republic of China on the Protection of Minors | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B6 Product Responsibility | • Product Quality Law of the People's Republic of China • Patent Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B7 Anti-corruption | • Anti-Unfair Competition Law of the People's Republic of China • Anti-Money Laundering Law of the People's Republic of China | The Group did not receive any cases of corruption proceedings against the Group or its employees during the Reporting Year, and did not breach any relevant laws and regulations that have a significant impact on the Group.",
+      "bm25_rank": 25,
+      "dense_rank": 42,
+      "bm25_score": 13.871129989624023,
+      "dense_score": 0.4122975170612335,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.23115654966577365,
+      "normalized_dense": 0.3391819647300036,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.3938040579913406,
+      "rank": 27,
+      "rrf_score": 0.3938040579913406,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_006",
+      "alias_source_ids": [
+        "P5_006"
+      ],
+      "section": "Chairman's Statement",
+      "pages": [
+        5
+      ],
+      "text": "The Group believes that talent is an important factor for the success and sustainable development of a company. The Group promotes diversity in the workplace to create a people-oriented and flexible working environment, and is committed to nurturing potential employees to prepare for the rapid development of the Group through our talent development program.",
+      "retrieval_text": "[Section]\nChairman's Statement\n\n[Content]\nThe Group believes that talent is an important factor for the success and sustainable development of a company. The Group promotes diversity in the workplace to create a people-oriented and flexible working environment, and is committed to nurturing potential employees to prepare for the rapid development of the Group through our talent development program.",
+      "bm25_rank": 81,
+      "dense_rank": 22,
+      "bm25_score": 4.8360981941223145,
+      "dense_score": 0.4588713049888611,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07662137706337012,
+      "normalized_dense": 0.44908560440718126,
+      "normalized_bm25_rank": 0.46308724832214765,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.390625042324315,
+      "rank": 28,
+      "rrf_score": 0.390625042324315,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L26_001",
+      "alias_source_ids": [
+        "L26_001"
+      ],
+      "section": "Material Issues / Diversity and Inclusion",
+      "pages": [
+        26
+      ],
+      "text": "A fair recruitment system and a transparent promotion mechanism are in place to promote staff based on objective assessment results;",
+      "retrieval_text": "[Section]\nMaterial Issues / Diversity and Inclusion\n\n[Content]\nA fair recruitment system and a transparent promotion mechanism are in place to promote staff based on objective assessment results;",
+      "bm25_rank": 111,
+      "dense_rank": 16,
+      "bm25_score": 1.610530972480774,
+      "dense_score": 0.4800328016281128,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.021451279312834057,
+      "normalized_dense": 0.4990219657202044,
+      "normalized_bm25_rank": 0.261744966442953,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.3849882123210142,
+      "rank": 29,
+      "rrf_score": 0.3849882123210142,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L27_005",
+      "alias_source_ids": [
+        "L27_005"
+      ],
+      "section": "Material Issues / Anti-discrimination and Equal Opportunity",
+      "pages": [
+        27
+      ],
+      "text": "Mandatory Provident Fund Schemes voluntary contributions are provided for Hong Kong employees under the Mandatory Provident Fund Schemes Ordinance, and a medical insurance scheme is provided for employees and their families;",
+      "retrieval_text": "[Section]\nMaterial Issues / Anti-discrimination and Equal Opportunity\n\n[Content]\nMandatory Provident Fund Schemes voluntary contributions are provided for Hong Kong employees under the Mandatory Provident Fund Schemes Ordinance, and a medical insurance scheme is provided for employees and their families;",
+      "bm25_rank": 66,
+      "dense_rank": 29,
+      "bm25_score": 5.608208179473877,
+      "dense_score": 0.44746121764183044,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08982754529332014,
+      "normalized_dense": 0.4221603706164099,
+      "normalized_bm25_rank": 0.563758389261745,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.3845135850831324,
+      "rank": 30,
+      "rrf_score": 0.3845135850831324,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_002",
+      "alias_source_ids": [
+        "P32_002"
+      ],
+      "section": "Material Issues / Anti-corruption",
+      "pages": [
+        32
+      ],
+      "text": "Hong Kong's 'Employee Handbook' and Mainland China's 'Employees' Code of Conducts' both contain anti-corruption codes of conduct that require strict compliance by staff. The leadership team or department heads at all levels shall sign the 'Statement of Integrity Commitment' and commit to abide by the relevant laws and regulations and systems, and lead by example in practising integrity and self-discipline.",
+      "retrieval_text": "[Section]\nMaterial Issues / Anti-corruption\n\n[Content]\nHong Kong's 'Employee Handbook' and Mainland China's 'Employees' Code of Conducts' both contain anti-corruption codes of conduct that require strict compliance by staff. The leadership team or department heads at all levels shall sign the 'Statement of Integrity Commitment' and commit to abide by the relevant laws and regulations and systems, and lead by example in practising integrity and self-discipline.",
+      "bm25_rank": 27,
+      "dense_rank": 45,
+      "bm25_score": 12.924121856689453,
+      "dense_score": 0.4102490544319153,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21495892373691025,
+      "normalized_dense": 0.33434805474066376,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.3835035367925204,
+      "rank": 31,
+      "rrf_score": 0.3835035367925204,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L27_007",
+      "alias_source_ids": [
+        "L27_007"
+      ],
+      "section": "Material Issues / Anti-discrimination and Equal Opportunity",
+      "pages": [
+        27
+      ],
+      "text": "Trade union organizations were established and specific standards were formulated in accordance with the relevant regulations of Guangdong's trade union management to protect the rights of employees in the areas of basic care, labour recuperation, cultural and sports activities, etc.",
+      "retrieval_text": "[Section]\nMaterial Issues / Anti-discrimination and Equal Opportunity\n\n[Content]\nTrade union organizations were established and specific standards were formulated in accordance with the relevant regulations of Guangdong's trade union management to protect the rights of employees in the areas of basic care, labour recuperation, cultural and sports activities, etc.",
+      "bm25_rank": 92,
+      "dense_rank": 21,
+      "bm25_score": 3.802628993988037,
+      "dense_score": 0.4597333073616028,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05894492114856833,
+      "normalized_dense": 0.45111973567264524,
+      "normalized_bm25_rank": 0.38926174496644295,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3817614286278912,
+      "rank": 32,
+      "rrf_score": 0.3817614286278912,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L26_005",
+      "alias_source_ids": [
+        "L26_005"
+      ],
+      "section": "Material Issues / Diversity and Inclusion",
+      "pages": [
+        26
+      ],
+      "text": "'Employee Relations Management Methods' are established to clearly stipulate that the daily working hours shall not exceed 8 hours and the normal working hours shall not exceed 40 hours per week. If overtime work arises due to work requirements, the Group will compensate employees for overtime work, including compensatory time off and overtime payment.",
+      "retrieval_text": "[Section]\nMaterial Issues / Diversity and Inclusion\n\n[Content]\n'Employee Relations Management Methods' are established to clearly stipulate that the daily working hours shall not exceed 8 hours and the normal working hours shall not exceed 40 hours per week. If overtime work arises due to work requirements, the Group will compensate employees for overtime work, including compensatory time off and overtime payment.",
+      "bm25_rank": 78,
+      "dense_rank": 26,
+      "bm25_score": 4.906614303588867,
+      "dense_score": 0.4493981897830963,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07782748451205548,
+      "normalized_dense": 0.42673118818892974,
+      "normalized_bm25_rank": 0.4832214765100671,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.37968651343967746,
+      "rank": 33,
+      "rrf_score": 0.37968651343967746,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_001",
+      "alias_source_ids": [
+        "P29_001"
+      ],
+      "section": "Material Issues / Mental Care and Welfare",
+      "pages": [
+        29
+      ],
+      "text": "HRSSC is the EAP project brand of COGO, and is launched by COGO's Human Resources and Administration Department HRSSC Centre, which aims to provide mental care and welfare for all employees and their immediate family members. The Group hopes to ease its employees' mental stress and negativities, and help them work and live happily by providing professional consultation, training, and counselling.",
+      "retrieval_text": "[Section]\nMaterial Issues / Mental Care and Welfare\n\n[Content]\nHRSSC is the EAP project brand of COGO, and is launched by COGO's Human Resources and Administration Department HRSSC Centre, which aims to provide mental care and welfare for all employees and their immediate family members. The Group hopes to ease its employees' mental stress and negativities, and help them work and live happily by providing professional consultation, training, and counselling.",
+      "bm25_rank": 13,
+      "dense_rank": 59,
+      "bm25_score": 21.873577117919922,
+      "dense_score": 0.3796744644641876,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.36803039540348464,
+      "normalized_dense": 0.26219891530815287,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.610738255033557,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.37946965917009406,
+      "rank": 34,
+      "rrf_score": 0.37946965917009406,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L28_001",
+      "alias_source_ids": [
+        "L28_001"
+      ],
+      "section": "Material Issues / Labour Standards",
+      "pages": [
+        28
+      ],
+      "text": "The 'Employee Relations Management Methods' stipulate that the signing of labour contracts must comply with the relevant provisions of the law, and forced labour is not allowed. In the event of forced work, employees may file a complaint with the Intendance and Audit Department through the procedures set forth in the 'Complaint Management Methods';",
+      "retrieval_text": "[Section]\nMaterial Issues / Labour Standards\n\n[Content]\nThe 'Employee Relations Management Methods' stipulate that the signing of labour contracts must comply with the relevant provisions of the law, and forced labour is not allowed. In the event of forced work, employees may file a complaint with the Intendance and Audit Department through the procedures set forth in the 'Complaint Management Methods';",
+      "bm25_rank": 51,
+      "dense_rank": 35,
+      "bm25_score": 6.549860954284668,
+      "dense_score": 0.43137404322624207,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10593357318348955,
+      "normalized_dense": 0.3841982657701786,
+      "normalized_bm25_rank": 0.6644295302013423,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.3764614767837772,
+      "rank": 35,
+      "rrf_score": 0.3764614767837772,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L27_004",
+      "alias_source_ids": [
+        "L27_004"
+      ],
+      "section": "Material Issues / Anti-discrimination and Equal Opportunity",
+      "pages": [
+        27
+      ],
+      "text": "On top of the statutory paid annual leave of the national and regional governments, employees are entitled to additional paid welfare leave according to their length of service, divisional experience, duties, etc.;",
+      "retrieval_text": "[Section]\nMaterial Issues / Anti-discrimination and Equal Opportunity\n\n[Content]\nOn top of the statutory paid annual leave of the national and regional governments, employees are entitled to additional paid welfare leave according to their length of service, divisional experience, duties, etc.;",
+      "bm25_rank": 91,
+      "dense_rank": 25,
+      "bm25_score": 4.02587366104126,
+      "dense_score": 0.4514056146144867,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06276329765641991,
+      "normalized_dense": 0.43146825822693013,
+      "normalized_bm25_rank": 0.3959731543624161,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.37094910024628,
+      "rank": 36,
+      "rrf_score": 0.37094910024628,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L25_004",
+      "alias_source_ids": [
+        "L25_004"
+      ],
+      "section": "Material Issues / Employee Health and Well-Being",
+      "pages": [
+        25
+      ],
+      "text": "Holding seminars on occupational safety and health to ensure that employees' physical and mental health are properly protected.",
+      "retrieval_text": "[Section]\nMaterial Issues / Employee Health and Well-Being\n\n[Content]\nHolding seminars on occupational safety and health to ensure that employees' physical and mental health are properly protected.",
+      "bm25_rank": 52,
+      "dense_rank": 40,
+      "bm25_score": 6.4645771980285645,
+      "dense_score": 0.4214326739311218,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1044748799224675,
+      "normalized_dense": 0.36073887546663563,
+      "normalized_bm25_rank": 0.6577181208053691,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 40,
+      "composite_score": 0.36057640118976225,
+      "rank": 37,
+      "rrf_score": 0.36057640118976225,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "About this Report / Reporting Standards",
+      "pages": [
+        3
+      ],
+      "text": "The Group has followed the reporting principles set out in the Guide in defining the contents of this Report and ensuring the accuracy and reliability of the information presented in this Report. All information has been subject to internal control and review procedures and has been validated and approved by the board of directors (the 'Board') and the executive committee (the 'Executive Committee') of the Company, which comprises all Executive Directors of the Company.",
+      "retrieval_text": "[Section]\nAbout this Report / Reporting Standards\n\n[Content]\nThe Group has followed the reporting principles set out in the Guide in defining the contents of this Report and ensuring the accuracy and reliability of the information presented in this Report. All information has been subject to internal control and review procedures and has been validated and approved by the board of directors (the 'Board') and the executive committee (the 'Executive Committee') of the Company, which comprises all Executive Directors of the Company.",
+      "bm25_rank": 82,
+      "dense_rank": 32,
+      "bm25_score": 4.8199310302734375,
+      "dense_score": 0.4348352551460266,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07634485391298991,
+      "normalized_dense": 0.3923659455876216,
+      "normalized_bm25_rank": 0.4563758389261745,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.3566238973758495,
+      "rank": 38,
+      "rrf_score": 0.3566238973758495,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P33_001",
+      "alias_source_ids": [
+        "P33_001"
+      ],
+      "section": "Material Issues / Raise Awareness of Prevention",
+      "pages": [
+        33
+      ],
+      "text": "In November 2021, the Group's Nanning Company held a conference about the mitigation of operational risks and case analysis to raise the awareness of various departments and project companies on risk management. To achieve the working requirements of 'Integrity of COGO', Nanning Company established an educational activity in December in relation to integrity to remind all employees to demonstrate integrity at work and lower related risks to create a clean, upright, and honest development environment.",
+      "retrieval_text": "[Section]\nMaterial Issues / Raise Awareness of Prevention\n\n[Content]\nIn November 2021, the Group's Nanning Company held a conference about the mitigation of operational risks and case analysis to raise the awareness of various departments and project companies on risk management. To achieve the working requirements of 'Integrity of COGO', Nanning Company established an educational activity in December in relation to integrity to remind all employees to demonstrate integrity at work and lower related risks to create a clean, upright, and honest development environment.",
+      "bm25_rank": 84,
+      "dense_rank": 39,
+      "bm25_score": 4.384387969970703,
+      "dense_score": 0.42322152853012085,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06889532595082244,
+      "normalized_dense": 0.36496016903177914,
+      "normalized_bm25_rank": 0.4429530201342282,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.334803714955314,
+      "rank": 39,
+      "rrf_score": 0.334803714955314,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L25_003",
+      "alias_source_ids": [
+        "L25_003"
+      ],
+      "section": "Material Issues / Employee Health and Well-Being",
+      "pages": [
+        25
+      ],
+      "text": "Purchasing medical and comprehensive accident insurance for the employees, providing them with regular medical check-ups and psychological counselling services every year;",
+      "retrieval_text": "[Section]\nMaterial Issues / Employee Health and Well-Being\n\n[Content]\nPurchasing medical and comprehensive accident insurance for the employees, providing them with regular medical check-ups and psychological counselling services every year;",
+      "bm25_rank": 55,
+      "dense_rank": 48,
+      "bm25_score": 6.29329776763916,
+      "dense_score": 0.40629276633262634,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10154531675793652,
+      "normalized_dense": 0.32501210675208647,
+      "normalized_bm25_rank": 0.6375838926174497,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 48,
+      "composite_score": 0.3347344416544149,
+      "rank": 40,
+      "rrf_score": 0.3347344416544149,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_003",
+      "alias_source_ids": [
+        "P25_003"
+      ],
+      "section": "Material Issues / Employee Health and Well-Being",
+      "pages": [
+        25
+      ],
+      "text": "During the pandemic in 2021, the Group actively arranged various online activities such as workshops and sharing sessions. In addition, the Group set up emergency responding teams, implemented flexible working hours and encouraged online meetings to reduce the risk of employee exposure during the pandemic. The Group provides epidemic prevention materials to employees and their families and engages external parties to arrange regular disinfection. Since the disclosure of health and safety information in 2017, the Group has maintained zero work-related fatalities.",
+      "retrieval_text": "[Section]\nMaterial Issues / Employee Health and Well-Being\n\n[Content]\nDuring the pandemic in 2021, the Group actively arranged various online activities such as workshops and sharing sessions. In addition, the Group set up emergency responding teams, implemented flexible working hours and encouraged online meetings to reduce the risk of employee exposure during the pandemic. The Group provides epidemic prevention materials to employees and their families and engages external parties to arrange regular disinfection. Since the disclosure of health and safety information in 2017, the Group has maintained zero work-related fatalities.",
+      "bm25_rank": 70,
+      "dense_rank": 43,
+      "bm25_score": 5.4284539222717285,
+      "dense_score": 0.4118470251560211,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08675302870151569,
+      "normalized_dense": 0.3381189053948925,
+      "normalized_bm25_rank": 0.5369127516778524,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 43,
+      "composite_score": 0.3330076588701263,
+      "rank": 41,
+      "rrf_score": 0.3330076588701263,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_005",
+      "alias_source_ids": [
+        "P32_005"
+      ],
+      "section": "Material Issues / Anti-corruption",
+      "pages": [
+        32
+      ],
+      "text": "The Group establishes 'Complaint Management Methods' and standardizes reporting management procedures that allow employees and cooperation partners to report any suspicious actions. All the information of the whistle-blower and reports will be kept strictly confidential to protect them against unfair treatment. The Group has also set up telephone and mailbox for anonymous reporting, and promises to handle the cases promptly after receiving complaints and reports.",
+      "retrieval_text": "[Section]\nMaterial Issues / Anti-corruption\n\n[Content]\nThe Group establishes 'Complaint Management Methods' and standardizes reporting management procedures that allow employees and cooperation partners to report any suspicious actions. All the information of the whistle-blower and reports will be kept strictly confidential to protect them against unfair treatment. The Group has also set up telephone and mailbox for anonymous reporting, and promises to handle the cases promptly after receiving complaints and reports.",
+      "bm25_rank": 96,
+      "dense_rank": 36,
+      "bm25_score": 3.052621364593506,
+      "dense_score": 0.4298495054244995,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04611679158744071,
+      "normalized_dense": 0.38060070025763504,
+      "normalized_bm25_rank": 0.36241610738255037,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.3316953483741034,
+      "rank": 42,
+      "rrf_score": 0.3316953483741034,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L27_002",
+      "alias_source_ids": [
+        "L27_002"
+      ],
+      "section": "Material Issues / Anti-discrimination and Equal Opportunity",
+      "pages": [
+        27
+      ],
+      "text": "The Hong Kong office has established the 'Policy on Prevention of Discrimination and Harassments' t o e n s u r e t h a t e m p l o y e e s a r e g i v e n f a i r opportunities from entry to promotion;",
+      "retrieval_text": "[Section]\nMaterial Issues / Anti-discrimination and Equal Opportunity\n\n[Content]\nThe Hong Kong office has established the 'Policy on Prevention of Discrimination and Harassments' t o e n s u r e t h a t e m p l o y e e s a r e g i v e n f a i r opportunities from entry to promotion;",
+      "bm25_rank": 102,
+      "dense_rank": 33,
+      "bm25_score": 1.9605097770690918,
+      "dense_score": 0.43236950039863586,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.02743731635159307,
+      "normalized_dense": 0.3865473202760916,
+      "normalized_bm25_rank": 0.3221476510067114,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.33004077033339363,
+      "rank": 43,
+      "rrf_score": 0.33004077033339363,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L27_006",
+      "alias_source_ids": [
+        "L27_006"
+      ],
+      "section": "Material Issues / Anti-discrimination and Equal Opportunity",
+      "pages": [
+        27
+      ],
+      "text": "Mainland China employees are entitled to social security in the form of 'Five Social Insurance and One Housing Fund', with the option of contributing to a corporate annuity for additional protection. In addition, employees are also entitled to other additional benefits such as wedding vouchers, long service awards, etc.;",
+      "retrieval_text": "[Section]\nMaterial Issues / Anti-discrimination and Equal Opportunity\n\n[Content]\nMainland China employees are entitled to social security in the form of 'Five Social Insurance and One Housing Fund', with the option of contributing to a corporate annuity for additional protection. In addition, employees are also entitled to other additional benefits such as wedding vouchers, long service awards, etc.;",
+      "bm25_rank": 64,
+      "dense_rank": 47,
+      "bm25_score": 5.633710861206055,
+      "dense_score": 0.407624214887619,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09026374312997507,
+      "normalized_dense": 0.3281540251733238,
+      "normalized_bm25_rank": 0.5771812080536913,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.3288798117990745,
+      "rank": 44,
+      "rrf_score": 0.3288798117990745,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_002",
+      "alias_source_ids": [
+        "P25_002"
+      ],
+      "section": "Material Issues / Employee Health and Well-Being",
+      "pages": [
+        25
+      ],
+      "text": "COGO has always put the safety of employees in the first place. By formulating safety policies such as 'Construction Safety Management Policy', 'Construction Safety Management Reward and Punishment Rules', 'Project Safety Management Scheme' and 'Self-Checking Standards of Office Environment Management', the safety standards for different positions are clearly defined. Every office designs a program tailored to local conditions to take care of the physical and mental health of employees.",
+      "retrieval_text": "[Section]\nMaterial Issues / Employee Health and Well-Being\n\n[Content]\nCOGO has always put the safety of employees in the first place. By formulating safety policies such as 'Construction Safety Management Policy', 'Construction Safety Management Reward and Punishment Rules', 'Project Safety Management Scheme' and 'Self-Checking Standards of Office Environment Management', the safety standards for different positions are clearly defined. Every office designs a program tailored to local conditions to take care of the physical and mental health of employees.",
+      "bm25_rank": 32,
+      "dense_rank": 62,
+      "bm25_score": 11.321212768554688,
+      "dense_score": 0.3787398338317871,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18754276868539255,
+      "normalized_dense": 0.259993397723579,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.5906040268456376,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.3258216791819419,
+      "rank": 45,
+      "rrf_score": 0.3258216791819419,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L25_007",
+      "alias_source_ids": [
+        "L25_007"
+      ],
+      "section": "Material Issues / Employee Health and Well-Being",
+      "pages": [
+        25
+      ],
+      "text": "Implementing measures such as salary reduction and demotion to punish the person in charge if there are employees who suffered injuries or deaths at the operating sites due to safety incidents;",
+      "retrieval_text": "[Section]\nMaterial Issues / Employee Health and Well-Being\n\n[Content]\nImplementing measures such as salary reduction and demotion to punish the person in charge if there are employees who suffered injuries or deaths at the operating sites due to safety incidents;",
+      "bm25_rank": 61,
+      "dense_rank": 49,
+      "bm25_score": 5.782594680786133,
+      "dense_score": 0.4008016586303711,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09281025179505441,
+      "normalized_dense": 0.31205433051805925,
+      "normalized_bm25_rank": 0.5973154362416108,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 49,
+      "composite_score": 0.3230830794631504,
+      "rank": 46,
+      "rrf_score": 0.3230830794631504,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_004",
+      "alias_source_ids": [
+        "P24_004"
+      ],
+      "section": "Material Issues / Air Emissions",
+      "pages": [
+        24
+      ],
+      "text": "The Group has established the 'Self-Checking Standards of Office Environment Management', which is supported by regular inspections and various reward and punishment measures to reduce waste of various resources such as energy, water resources and paper. During the Reporting Year, a total of 8,278.65 MWh of energy was consumed at the Group's headquarters and offices, with the use of gasoline, natural gas and purchased electricity accounting for 26.09%, 9.00% and 61.78% of total energy consumption respectively. In addition, the water consumption was 86,536.31 cubic meters, with a water consumption intensity (by area) of 2.23 cubic meters per square meter.",
+      "retrieval_text": "[Section]\nMaterial Issues / Air Emissions\n\n[Content]\nThe Group has established the 'Self-Checking Standards of Office Environment Management', which is supported by regular inspections and various reward and punishment measures to reduce waste of various resources such as energy, water resources and paper. During the Reporting Year, a total of 8,278.65 MWh of energy was consumed at the Group's headquarters and offices, with the use of gasoline, natural gas and purchased electricity accounting for 26.09%, 9.00% and 61.78% of total energy consumption respectively. In addition, the water consumption was 86,536.31 cubic meters, with a water consumption intensity (by area) of 2.23 cubic meters per square meter.",
+      "bm25_rank": 46,
+      "dense_rank": 54,
+      "bm25_score": 7.211923599243164,
+      "dense_score": 0.3886122405529022,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11725749184011267,
+      "normalized_dense": 0.2832900518997439,
+      "normalized_bm25_rank": 0.697986577181208,
+      "normalized_dense_rank": 0.6442953020134228,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 46,
+      "composite_score": 0.3212607346537383,
+      "rank": 47,
+      "rrf_score": 0.3212607346537383,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_002",
+      "alias_source_ids": [
+        "P13_002"
+      ],
+      "section": "Feature Stories / Feature Story 1",
+      "pages": [
+        13
+      ],
+      "text": "The '14 th Five-Year Plan for Building Energy Conservation and Green Building Development' issued by the Ministry of Housing and Urban-Rural Development sets development goals for the nation's construction industry. By 2025, all new buildings in urban areas will be fully constructed as green building. More than 50 million square meters of ultra-low energy and near-zero energy buildings will be built. Prefabricated buildings shall account for 30% of new urban buildings of the year. The installed capacity of solar photovoltaics in new buildings will be more than 50 million kilowatts. The application area of geothermal buildings will be more than 100 million square meters, and the replacement rate of renewable energy in urban buildings will reach 8%. The proportion of electricity consumption in building energy consumption is more than 55%. With these goals, a green, low-carbon, and circular construction and development mode will be formed, and a solid foundation will be laid for carbon peaking in urban and rural construction by 2030.",
+      "retrieval_text": "[Section]\nFeature Stories / Feature Story 1\n\n[Content]\nThe '14 th Five-Year Plan for Building Energy Conservation and Green Building Development' issued by the Ministry of Housing and Urban-Rural Development sets development goals for the nation's construction industry. By 2025, all new buildings in urban areas will be fully constructed as green building. More than 50 million square meters of ultra-low energy and near-zero energy buildings will be built. Prefabricated buildings shall account for 30% of new urban buildings of the year. The installed capacity of solar photovoltaics in new buildings will be more than 50 million kilowatts. The application area of geothermal buildings will be more than 100 million square meters, and the replacement rate of renewable energy in urban buildings will reach 8%. The proportion of electricity consumption in building energy consumption is more than 55%. With these goals, a green, low-carbon, and circular construction and development mode will be formed, and a solid foundation will be laid for carbon peaking in urban and rural construction by 2030.",
+      "bm25_rank": 9,
+      "dense_rank": 102,
+      "bm25_score": 24.345672607421875,
+      "dense_score": 0.323434054851532,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.41031311358384653,
+      "normalized_dense": 0.12948422774674884,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.3221476510067114,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.2864425051126952,
+      "rank": 48,
+      "rrf_score": 0.2864425051126952,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T23_001",
+      "alias_source_ids": [
+        "T23_001"
+      ],
+      "section": "Material Issues / Environmental Management",
+      "pages": [
+        23
+      ],
+      "text": "GHG Emissions (tonnes of carbon dioxide equivalent) | Mainland China | Hong Kong | Total Scope 1 Direct GHG Emissions 4 | 1,483.69 | 0 | 1,483.69 Scope 2 Energy Indirect GHG Emissions 5 | 2,972.81 | 16.58 | 2,989.39 Scope 3 Other Indirect GHG Emissions 6 | 705.08 | 2.72 | 707.80 Total GHG Emissions | 5,161.57 | 19.3 | 5,180.87 GHG Intensity (by Area) | 0.13 per square meter | 0.04 per square meter | 0.13 per square meter",
+      "retrieval_text": "[Section]\nMaterial Issues / Environmental Management\n\n[Content]\nGHG Emissions (tonnes of carbon dioxide equivalent) | Mainland China | Hong Kong | Total Scope 1 Direct GHG Emissions 4 | 1,483.69 | 0 | 1,483.69 Scope 2 Energy Indirect GHG Emissions 5 | 2,972.81 | 16.58 | 2,989.39 Scope 3 Other Indirect GHG Emissions 6 | 705.08 | 2.72 | 707.80 Total GHG Emissions | 5,161.57 | 19.3 | 5,180.87 GHG Intensity (by Area) | 0.13 per square meter | 0.04 per square meter | 0.13 per square meter",
+      "bm25_rank": 7,
+      "dense_rank": 108,
+      "bm25_score": 27.66208267211914,
+      "dense_score": 0.3162132501602173,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.46703698720911707,
+      "normalized_dense": 0.11244475657024258,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.2818791946308725,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.28511205552999896,
+      "rank": 49,
+      "rrf_score": 0.28511205552999896,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T37_001",
+      "alias_source_ids": [
+        "T37_001"
+      ],
+      "section": "Key Performance Indicator Summary / Environmental Performance",
+      "pages": [
+        37
+      ],
+      "text": "Environmental Key Performance Indicators 7 | 2021 | Unit Air Emissions | Mainland China | Hong Kong Nitrogen Oxides | 240.10 | 0 | kg Sulphur Oxides | 18.96 | 0 | kg Respiratory Suspended Particulates | 10.44 | 0 | kg GHG Emissions | Mainland China | Hong Kong Scope 1 Direct GHG Emissions 8 | 1,483.69 | 0 | tonnes of carbon dioxide equivalent Scope 2 Energy Indirect GHG Emissions 9 | 2,972.81 | 16.58 | tonnes of carbon dioxide equivalent Scope 3 Other Indirect GHG Emissions 10 | 705.08 | 2.72 | tonnes of carbon dioxide equivalent Total GHG Emissions | 5,161.57 | 19.30 | tonnes of carbon dioxide equivalent GHG Intensity (by Area) | 0.13 | 0.04 | tonnes of carbon dioxide equivalent /square meter Generation of Waste | Mainland China | Hong Kong Total Generation of Hazardous Waste | 1.28 | 0.002 | tonnes Hazardous Waste Intensity (by Area) | 0.03 | 0.004 | tonnes/1000 m 2 Total Generation of Non-hazardous Waste | 168.29 | 0.56 | tonnes Non-hazardous Waste Intensity (by Area) | 4.38 | 1.30 | tonnes/1000 m 2 Consumption of energy | Mainland China | Hong Kong Gasoline | 2,159.60 | 0 | MWh Diesel | 11.97 | 0 | MWh Liquefied Petroleum Gas | 152.51 | 0 | MWh Natural Gas | 745.30 | 0 | MWh Biodiesel | 94.62 | 0 | MWh Purchased Electricity | 5,091.30 | 23.35 | MWh Total Energy Consumption 11 | 8,255.30 | 23.35 | MWh-equivalent Energy Intensity (by Area) | 0.21 | 0.05 | MWh-equivalent/ square meter",
+      "retrieval_text": "[Section]\nKey Performance Indicator Summary / Environmental Performance\n\n[Content]\nEnvironmental Key Performance Indicators 7 | 2021 | Unit Air Emissions | Mainland China | Hong Kong Nitrogen Oxides | 240.10 | 0 | kg Sulphur Oxides | 18.96 | 0 | kg Respiratory Suspended Particulates | 10.44 | 0 | kg GHG Emissions | Mainland China | Hong Kong Scope 1 Direct GHG Emissions 8 | 1,483.69 | 0 | tonnes of carbon dioxide equivalent Scope 2 Energy Indirect GHG Emissions 9 | 2,972.81 | 16.58 | tonnes of carbon dioxide equivalent Scope 3 Other Indirect GHG Emissions 10 | 705.08 | 2.72 | tonnes of carbon dioxide equivalent Total GHG Emissions | 5,161.57 | 19.30 | tonnes of carbon dioxide equivalent GHG Intensity (by Area) | 0.13 | 0.04 | tonnes of carbon dioxide equivalent /square meter Generation of Waste | Mainland China | Hong Kong Total Generation of Hazardous Waste | 1.28 | 0.002 | tonnes Hazardous Waste Intensity (by Area) | 0.03 | 0.004 | tonnes/1000 m 2 Total Generation of Non-hazardous Waste | 168.29 | 0.56 | tonnes Non-hazardous Waste Intensity (by Area) | 4.38 | 1.30 | tonnes/1000 m 2 Consumption of energy | Mainland China | Hong Kong Gasoline | 2,159.60 | 0 | MWh Diesel | 11.97 | 0 | MWh Liquefied Petroleum Gas | 152.51 | 0 | MWh Natural Gas | 745.30 | 0 | MWh Biodiesel | 94.62 | 0 | MWh Purchased Electricity | 5,091.30 | 23.35 | MWh Total Energy Consumption 11 | 8,255.30 | 23.35 | MWh-equivalent Energy Intensity (by Area) | 0.21 | 0.05 | MWh-equivalent/ square meter",
+      "bm25_rank": 5,
+      "dense_rank": 129,
+      "bm25_score": 30.166881561279297,
+      "dense_score": 0.29897943139076233,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5098790642965922,
+      "normalized_dense": 0.07177682955423101,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.14093959731543626,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.25260105890799733,
+      "rank": 50,
+      "rrf_score": 0.25260105890799733,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

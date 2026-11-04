@@ -1,0 +1,1610 @@
+{
+  "document_id": "2022052701713",
+  "metric_id": 51,
+  "metric_name": "独立第三方审计（鉴证）",
+  "query": "独立第三方审计（鉴证） 独立第三方审计（鉴证） 衡量ESG关键数据是否经过独立鉴证 2分：由独立第三方按国际准则（ISAE 3000/AA1000AS）出具鉴证报告。 1分：虽无报告，但披露了具体的内部审计路径（提及了内审委员会或具体复核频率）。 0分：仅董事会背书。 独立鉴证 有限保证 合理保证 独立核查 鉴证范围 ESG鉴证 鉴证报告 核查声明 ISAE 3000 AA1000AS independent assurance limited assurance reasonable assurance ISAE 3000 AA1000AS verification statement ESG assurance assurance scope 是否有独立第三方ESG鉴证/核查报告？ 鉴证机构与准则（ISAE 3000/AA1000AS等）是什么？ 保证等级是有限保证还是合理保证？ 鉴证范围覆盖哪些指标与报告期？ 若无外部鉴证，是否披露内审路径与复核频率？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '独立第三方审计（鉴证）'. Prefer explicit, auditable disclosure that answers: 是否有独立第三方ESG鉴证/核查报告？ 鉴证机构与准则（ISAE 3000/AA1000AS等）是什么？ 保证等级是有限保证还是合理保证？ 鉴证范围覆盖哪些指标与报告期？ 若无外部鉴证，是否披露内审路径与复核频率？ Exclude or down-rank: 排除：仅有董事会对ESG报告真实性声明；仅有ISO 45001/14001管理体系认证；仅有财务审计意见；仅有“数据已经核对”无机构无准则；区分：本指标是ESG数据独立鉴证；ISO体系认证不是ESG报告鉴证；温室气体核算关注方法学，鉴证关注外部保证结论。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 194,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P59_001",
+      "alias_source_ids": [
+        "P59_001"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "CECEPAC (HK) is responsible for issuing an independent assurance statement according to AA1000AS v3 and the SEHK's ESG Reporting Guide to the Board of Directors of Sinofert. This independent assurance statement applies solely to the ESG Report in the specified scope, expresses a conclusion on the assurance work, and does not serve any other intents or purposes.",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nCECEPAC (HK) is responsible for issuing an independent assurance statement according to AA1000AS v3 and the SEHK's ESG Reporting Guide to the Board of Directors of Sinofert. This independent assurance statement applies solely to the ESG Report in the specified scope, expresses a conclusion on the assurance work, and does not serve any other intents or purposes.",
+      "bm25_rank": 3,
+      "dense_rank": 1,
+      "bm25_score": 70.57929992675781,
+      "dense_score": 0.716566801071167,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8995447995562876,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 1.0,
+      "facets": [
+        "anchor_1",
+        "anchor_2",
+        "anchor_5"
+      ],
+      "facet_score": 0.6,
+      "best_channel_rank": 1,
+      "composite_score": 0.9185666780320629,
+      "rank": 1,
+      "rrf_score": 0.9185666780320629,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_003",
+      "alias_source_ids": [
+        "P58_003"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "CECEPAC (HK) has been engaged to assure Sinofert's adherence to the four AA1000 Accountability Principles (Inclusivity, Materiality, Responsiveness and Impact) set out in the AA1000 Assurance Standard v3 (' AA1000AS v3 '). Meanwhile, CECEPAC (HK) has also been engaged to provide limited assurance on the reliability and quality of specified performance information disclosed in the ESG Report that have been selected in accordance with the Environmental, Social and Governance Reporting Guide (' ESG Reporting Guide ') published by the Stock Exchange of Hong Kong Limited (' SEHK ').",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nCECEPAC (HK) has been engaged to assure Sinofert's adherence to the four AA1000 Accountability Principles (Inclusivity, Materiality, Responsiveness and Impact) set out in the AA1000 Assurance Standard v3 (' AA1000AS v3 '). Meanwhile, CECEPAC (HK) has also been engaged to provide limited assurance on the reliability and quality of specified performance information disclosed in the ESG Report that have been selected in accordance with the Environmental, Social and Governance Reporting Guide (' ESG Reporting Guide ') published by the Stock Exchange of Hong Kong Limited (' SEHK ').",
+      "bm25_rank": 1,
+      "dense_rank": 3,
+      "bm25_score": 78.25959777832031,
+      "dense_score": 0.6825302839279175,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.9179033833128525,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [
+        "anchor_1",
+        "anchor_2",
+        "anchor_5"
+      ],
+      "facet_score": 0.6,
+      "best_channel_rank": 1,
+      "composite_score": 0.908581620401109,
+      "rank": 2,
+      "rrf_score": 0.908581620401109,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_006",
+      "alias_source_ids": [
+        "P58_006"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "The assurance team of CECEPAC (HK) is composed of experienced personnel in the industry who have received professional training in sustainability-related standards such as GRI Sustainability Reporting Standards issued by Global Reporting Initiative, AA1000AS v3, the ESG Reporting Guide of the SEHK, ISO 14001, and ISO 9001, etc.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nThe assurance team of CECEPAC (HK) is composed of experienced personnel in the industry who have received professional training in sustainability-related standards such as GRI Sustainability Reporting Standards issued by Global Reporting Initiative, AA1000AS v3, the ESG Reporting Guide of the SEHK, ISO 14001, and ISO 9001, etc.",
+      "bm25_rank": 4,
+      "dense_rank": 2,
+      "bm25_score": 66.41609191894531,
+      "dense_score": 0.6847994327545166,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8450917167466685,
+      "normalized_dense": 0.923376606105871,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [
+        "anchor_1",
+        "anchor_2",
+        "anchor_5"
+      ],
+      "facet_score": 0.6,
+      "best_channel_rank": 2,
+      "composite_score": 0.8788444507884019,
+      "rank": 3,
+      "rrf_score": 0.8788444507884019,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_007",
+      "alias_source_ids": [
+        "P58_007"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "The assurance team of CECEPAC (HK) has rich experience in conducting Assurance Engagement and has a full understanding and practical ability of AA1000AS v3. Meanwhile, the assurance team of CECEPAC (HK) carries out Assurance Engagement on sustainable development issues in accordance with the internal assurance protocol of CECEPAC (HK).",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nThe assurance team of CECEPAC (HK) has rich experience in conducting Assurance Engagement and has a full understanding and practical ability of AA1000AS v3. Meanwhile, the assurance team of CECEPAC (HK) carries out Assurance Engagement on sustainable development issues in accordance with the internal assurance protocol of CECEPAC (HK).",
+      "bm25_rank": 6,
+      "dense_rank": 5,
+      "bm25_score": 61.654945373535156,
+      "dense_score": 0.6770809888839722,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7828178388574454,
+      "normalized_dense": 0.9047595976383338,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [
+        "anchor_1",
+        "anchor_2",
+        "anchor_5"
+      ],
+      "facet_score": 0.6,
+      "best_channel_rank": 5,
+      "composite_score": 0.8545045947301408,
+      "rank": 4,
+      "rrf_score": 0.8545045947301408,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L60_003",
+      "alias_source_ids": [
+        "L60_003"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Assessing whether the reporting and management approach disclosed in the ESG Report responded to the principles of Inclusivity, Materiality, Responsiveness, and Impact as defined in the AA1000AS v3;",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nAssessing whether the reporting and management approach disclosed in the ESG Report responded to the principles of Inclusivity, Materiality, Responsiveness, and Impact as defined in the AA1000AS v3;",
+      "bm25_rank": 5,
+      "dense_rank": 6,
+      "bm25_score": 61.82582092285156,
+      "dense_score": 0.6659317016601562,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7850528221731011,
+      "normalized_dense": 0.877867340839666,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [
+        "anchor_2",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 5,
+      "composite_score": 0.814868160574141,
+      "rank": 5,
+      "rrf_score": 0.814868160574141,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_002",
+      "alias_source_ids": [
+        "L59_002"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "AA1000AS' Type 2 Moderate Level of Assurance was adopted to evaluate the nature and extent of Sinofert's adherence to the four AA1000 Accountability Principles set out in the AA1000AS v3;",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nAA1000AS' Type 2 Moderate Level of Assurance was adopted to evaluate the nature and extent of Sinofert's adherence to the four AA1000 Accountability Principles set out in the AA1000AS v3;",
+      "bm25_rank": 2,
+      "dense_rank": 12,
+      "bm25_score": 75.8010482788086,
+      "dense_score": 0.6285085678100586,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9678431634361689,
+      "normalized_dense": 0.787602151190771,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [
+        "anchor_2",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 2,
+      "composite_score": 0.8137931439932653,
+      "rank": 6,
+      "rrf_score": 0.8137931439932653,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_002",
+      "alias_source_ids": [
+        "P5_002"
+      ],
+      "section": "ABOUT THIS REPORT / SINOCHEM YUNLONG",
+      "pages": [
+        5
+      ],
+      "text": "To ensure the reliability and accuracy of the Report, CECEP (HK) Advisory Company Limited has verified this Report in accordance with the international standard AA1000 Assurance Standard v3 and has provided an independent assurance statement.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / SINOCHEM YUNLONG\n\n[Content]\nTo ensure the reliability and accuracy of the Report, CECEP (HK) Advisory Company Limited has verified this Report in accordance with the international standard AA1000 Assurance Standard v3 and has provided an independent assurance statement.",
+      "bm25_rank": 7,
+      "dense_rank": 11,
+      "bm25_score": 56.97780990600586,
+      "dense_score": 0.6315022706985474,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.721642792007216,
+      "normalized_dense": 0.794823009819669,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 7,
+      "composite_score": 0.7350669474087972,
+      "rank": 7,
+      "rrf_score": 0.7350669474087972,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P60_004",
+      "alias_source_ids": [
+        "P60_004"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "In accordance with the principles of Inclusivity, Materiality, Responsiveness and Impact in the AA1000AS v3, our conclusions are detailed as follows:",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nIn accordance with the principles of Inclusivity, Materiality, Responsiveness and Impact in the AA1000AS v3, our conclusions are detailed as follows:",
+      "bm25_rank": 8,
+      "dense_rank": 18,
+      "bm25_score": 56.667667388916016,
+      "dense_score": 0.5736353397369385,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7175862528830154,
+      "normalized_dense": 0.6552470587897018,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [
+        "anchor_2",
+        "anchor_5"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 8,
+      "composite_score": 0.7053369426295089,
+      "rank": 8,
+      "rrf_score": 0.7053369426295089,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_001",
+      "alias_source_ids": [
+        "L59_001"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "The scope of the Assurance Engagement is limited to the ESG Report only, and the contents only involve Sinofert and its subsidiaries. The scope of the Assurance Engagement does not include Sinofert's suppliers, contractors, and data or information provided by other third parties;",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nThe scope of the Assurance Engagement is limited to the ESG Report only, and the contents only involve Sinofert and its subsidiaries. The scope of the Assurance Engagement does not include Sinofert's suppliers, contractors, and data or information provided by other third parties;",
+      "bm25_rank": 12,
+      "dense_rank": 4,
+      "bm25_score": 31.44948959350586,
+      "dense_score": 0.6792804598808289,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.38774265121231677,
+      "normalized_dense": 0.9100647564060033,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6846617990114101,
+      "rank": 9,
+      "rrf_score": 0.6846617990114101,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_005",
+      "alias_source_ids": [
+        "P58_005"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "CECEPAC (HK) was not involved in collecting and calculating data, or in the development of the ESG Report. CECEPAC (HK)'s activities of Assurance Engagement are independent from Sinofert. There is no relationship between Sinofert and CECEPAC (HK) beyond the contractual agreement for providing proper assurance service.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nCECEPAC (HK) was not involved in collecting and calculating data, or in the development of the ESG Report. CECEPAC (HK)'s activities of Assurance Engagement are independent from Sinofert. There is no relationship between Sinofert and CECEPAC (HK) beyond the contractual agreement for providing proper assurance service.",
+      "bm25_rank": 10,
+      "dense_rank": 10,
+      "bm25_score": 32.67644500732422,
+      "dense_score": 0.6445626616477966,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4037907335149512,
+      "normalized_dense": 0.8263248789748526,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 10,
+      "composite_score": 0.6818510489750612,
+      "rank": 10,
+      "rrf_score": 0.6818510489750612,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_008",
+      "alias_source_ids": [
+        "P58_008"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "Sinofert is responsible for the preparation and presentation of the ESG Report in accordance with the SEHK's ESG Reporting Guide. Sinofert is also responsible for implementing internal audit procedures and ensuring that contents of the ESG Report are free from material misstatement, whether due to fraud or error.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nSinofert is responsible for the preparation and presentation of the ESG Report in accordance with the SEHK's ESG Reporting Guide. Sinofert is also responsible for implementing internal audit procedures and ensuring that contents of the ESG Report are free from material misstatement, whether due to fraud or error.",
+      "bm25_rank": 15,
+      "dense_rank": 9,
+      "bm25_score": 29.743427276611328,
+      "dense_score": 0.6455573439598083,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.36542804371591114,
+      "normalized_dense": 0.828724068414566,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 9,
+      "composite_score": 0.6730048045003609,
+      "rank": 11,
+      "rrf_score": 0.6730048045003609,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_002",
+      "alias_source_ids": [
+        "P58_002"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "CECEP (HK) Advisory Company Limited (' CECEPAC (HK) ' or ' We ') has been engaged by Sinofert Holdings Limited (' Sinofert ') to conduct an independent limited assurance engagement (' Assurance Engagement ') on the information and data related to sustainability development in Sinofert's 2021 Environmental, Social and Governance Report (' ESG Report ').",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nCECEP (HK) Advisory Company Limited (' CECEPAC (HK) ' or ' We ') has been engaged by Sinofert Holdings Limited (' Sinofert ') to conduct an independent limited assurance engagement (' Assurance Engagement ') on the information and data related to sustainability development in Sinofert's 2021 Environmental, Social and Governance Report (' ESG Report ').",
+      "bm25_rank": 9,
+      "dense_rank": 14,
+      "bm25_score": 37.30046844482422,
+      "dense_score": 0.6192758083343506,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.46427109641858333,
+      "normalized_dense": 0.7653325895769394,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 9,
+      "composite_score": 0.6679018336893368,
+      "rank": 12,
+      "rrf_score": 0.6679018336893368,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_005",
+      "alias_source_ids": [
+        "P61_005"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Disclosure for general disclosures and key performance indicators of environmental and social subject areas in the ESG Report have been provided in accordance with the 'Comply or Explain' provision, in all material aspects, in alignment with the ESG Reporting Guide of the SEHK. Sinofert has disclosed the process of the materiality assessment. Impacts caused by its business are objectively disclosed; relevant environmental and social data are calculated and disclosed. Our assurance findings and comments for the ESG Report have been either adopted or responded by Sinofert before the issuance of this independent assurance statement.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nDisclosure for general disclosures and key performance indicators of environmental and social subject areas in the ESG Report have been provided in accordance with the 'Comply or Explain' provision, in all material aspects, in alignment with the ESG Reporting Guide of the SEHK. Sinofert has disclosed the process of the materiality assessment. Impacts caused by its business are objectively disclosed; relevant environmental and social data are calculated and disclosed. Our assurance findings and comments for the ESG Report have been either adopted or responded by Sinofert before the issuance of this independent assurance statement.",
+      "bm25_rank": 11,
+      "dense_rank": 13,
+      "bm25_score": 31.77069664001465,
+      "dense_score": 0.6279944777488708,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3919439099218874,
+      "normalized_dense": 0.786362157847199,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 11,
+      "composite_score": 0.6607967452845884,
+      "rank": 13,
+      "rrf_score": 0.6607967452845884,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_004",
+      "alias_source_ids": [
+        "P61_004"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Based on the procedures that CECEPAC (HK) has performed and the evidence we have obtained, no specific issue has come to our attention that causes us to believe that the disclosure of the six selected specified performance information in the ESG Report is unreliable and unqualified or not been prepared in all material respects in accordance with the basis of reporting.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nBased on the procedures that CECEPAC (HK) has performed and the evidence we have obtained, no specific issue has come to our attention that causes us to believe that the disclosure of the six selected specified performance information in the ESG Report is unreliable and unqualified or not been prepared in all material respects in accordance with the basis of reporting.",
+      "bm25_rank": 24,
+      "dense_rank": 8,
+      "bm25_score": 23.45342254638672,
+      "dense_score": 0.6459792256355286,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.28315731695782537,
+      "normalized_dense": 0.8297416536766881,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 8,
+      "composite_score": 0.6522088274133053,
+      "rank": 14,
+      "rrf_score": 0.6522088274133053,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L60_006",
+      "alias_source_ids": [
+        "L60_006"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Evaluating the conformity of the ESG Report in accordance with the ESG Reporting Guide; and",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nEvaluating the conformity of the ESG Report in accordance with the ESG Reporting Guide; and",
+      "bm25_rank": 21,
+      "dense_rank": 7,
+      "bm25_score": 24.376333236694336,
+      "dense_score": 0.6474806070327759,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.29522861681862894,
+      "normalized_dense": 0.833363009309295,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.6292462665548649,
+      "rank": 15,
+      "rrf_score": 0.6292462665548649,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_012",
+      "alias_source_ids": [
+        "L59_012"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "The scope of the assurance is confined to the information and data provided by Sinofert. Any queries regarding the content or related matters within this Independent Assurance Statement should be addressed to Sinofert only.",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nThe scope of the assurance is confined to the information and data provided by Sinofert. Any queries regarding the content or related matters within this Independent Assurance Statement should be addressed to Sinofert only.",
+      "bm25_rank": 18,
+      "dense_rank": 16,
+      "bm25_score": 27.313276290893555,
+      "dense_score": 0.5858091711997986,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.33364264826681417,
+      "normalized_dense": 0.6846105324675185,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 16,
+      "composite_score": 0.6047985918559204,
+      "rank": 16,
+      "rrf_score": 0.6047985918559204,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_011",
+      "alias_source_ids": [
+        "L59_011"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "CECEPAC (HK)'s assurance work was with respect to information disclosed from January 1, 2021 to December 31, 2021 only. Any information that falls outside this period that is disclosed in the ESG Report is not included within the scope of the Assurance Engagement. Therefore, we do not express any conclusions on this information; and",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nCECEPAC (HK)'s assurance work was with respect to information disclosed from January 1, 2021 to December 31, 2021 only. Any information that falls outside this period that is disclosed in the ESG Report is not included within the scope of the Assurance Engagement. Therefore, we do not express any conclusions on this information; and",
+      "bm25_rank": 17,
+      "dense_rank": 15,
+      "bm25_score": 28.698379516601562,
+      "dense_score": 0.599136471748352,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3517592402093289,
+      "normalized_dense": 0.7167561917899502,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.5916863138260664,
+      "rank": 17,
+      "rrf_score": 0.5916863138260664,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_002",
+      "alias_source_ids": [
+        "P61_002"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has established channels for its stakeholders to understand their concerns and expectations. Meanwhile, through the ESG Report, Sinofert has disclosed corporate sustainability strategies, management systems, management key points, key stakeholder participation activities as well as major sustainability development related issues to respond to key stakeholders. In our professional opinion, Sinofert adheres to the Principle of Responsiveness.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has established channels for its stakeholders to understand their concerns and expectations. Meanwhile, through the ESG Report, Sinofert has disclosed corporate sustainability strategies, management systems, management key points, key stakeholder participation activities as well as major sustainability development related issues to respond to key stakeholders. In our professional opinion, Sinofert adheres to the Principle of Responsiveness.",
+      "bm25_rank": 13,
+      "dense_rank": 22,
+      "bm25_score": 31.348953247070312,
+      "dense_score": 0.5586812496185303,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.386427676320945,
+      "normalized_dense": 0.6191775573425038,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 13,
+      "composite_score": 0.5877560695958104,
+      "rank": 18,
+      "rrf_score": 0.5877560695958104,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_003",
+      "alias_source_ids": [
+        "L59_003"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "Sinofert and CECEPAC (HK) reached an agreement to select the specified performance information in the ESG Report as part of the content for Assurance Engagement. The selected specified performance information is as follows:",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nSinofert and CECEPAC (HK) reached an agreement to select the specified performance information in the ESG Report as part of the content for Assurance Engagement. The selected specified performance information is as follows:",
+      "bm25_rank": 14,
+      "dense_rank": 17,
+      "bm25_score": 31.194610595703125,
+      "dense_score": 0.5824635028839111,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.38440893664707276,
+      "normalized_dense": 0.6765407276712242,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.5834696997324639,
+      "rank": 19,
+      "rrf_score": 0.5834696997324639,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_001",
+      "alias_source_ids": [
+        "P58_001"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "To the Board of Directors of Sinofert Holdings Limited,",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nTo the Board of Directors of Sinofert Holdings Limited,",
+      "bm25_rank": 16,
+      "dense_rank": 21,
+      "bm25_score": 28.8660888671875,
+      "dense_score": 0.5604221820831299,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.35395281092168973,
+      "normalized_dense": 0.6233767139313792,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 16,
+      "composite_score": 0.5820596603824684,
+      "rank": 20,
+      "rrf_score": 0.5820596603824684,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_001",
+      "alias_source_ids": [
+        "P61_001"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has identified its material issues through appropriate methods based on the expectations and concerns of the key stakeholders, its own industry characteristics, legal and regulatory requirements, and outward economic and social impacts. Sinofert has disclosed the methodology, process and results of materiality assessment in the ESG Report. In our professional opinion, Sinofert adheres to the Principle of Materiality.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has identified its material issues through appropriate methods based on the expectations and concerns of the key stakeholders, its own industry characteristics, legal and regulatory requirements, and outward economic and social impacts. Sinofert has disclosed the methodology, process and results of materiality assessment in the ESG Report. In our professional opinion, Sinofert adheres to the Principle of Materiality.",
+      "bm25_rank": 22,
+      "dense_rank": 20,
+      "bm25_score": 23.747343063354492,
+      "dense_score": 0.5627753138542175,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.28700167885851785,
+      "normalized_dense": 0.6290525049123504,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 20,
+      "composite_score": 0.5679713970547846,
+      "rank": 21,
+      "rrf_score": 0.5679713970547846,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_004",
+      "alias_source_ids": [
+        "P58_004"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT",
+      "pages": [
+        58
+      ],
+      "text": "If there is any inconsistency or ambiguity between the English version and the Chinese version of this assurance statement, the Chinese version shall prevail.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT\n\n[Content]\nIf there is any inconsistency or ambiguity between the English version and the Chinese version of this assurance statement, the Chinese version shall prevail.",
+      "bm25_rank": 19,
+      "dense_rank": 26,
+      "bm25_score": 26.719228744506836,
+      "dense_score": 0.5356314182281494,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3258727457840305,
+      "normalized_dense": 0.563581000139095,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 19,
+      "composite_score": 0.5467903153128719,
+      "rank": 22,
+      "rrf_score": 0.5467903153128719,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_003",
+      "alias_source_ids": [
+        "P61_003"
+      ],
+      "section": "APPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality",
+      "pages": [
+        61
+      ],
+      "text": "Sinofert has considered and evaluate its impacts and realised its impacts on stakeholders, so as to make a more effective decision-making and result-based management within the organisation. In our professional opinion, Sinofert adheres to the Principle of Impact.",
+      "retrieval_text": "[Section]\nAPPENDIX 2: INDEPENDENT ASSURANCE STATEMENT / Materiality\n\n[Content]\nSinofert has considered and evaluate its impacts and realised its impacts on stakeholders, so as to make a more effective decision-making and result-based management within the organisation. In our professional opinion, Sinofert adheres to the Principle of Impact.",
+      "bm25_rank": 20,
+      "dense_rank": 27,
+      "bm25_score": 25.656169891357422,
+      "dense_score": 0.5348501801490784,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3119683644383433,
+      "normalized_dense": 0.5616966415588981,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 20,
+      "composite_score": 0.5413364907218736,
+      "rank": 23,
+      "rrf_score": 0.5413364907218736,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_010",
+      "alias_source_ids": [
+        "L59_010"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "Assuring the conformity of disclosures for general disclosure and key performance indicators of environmental and social subject areas in Sinofert's ESG Report with the 'Comply or Explain' provision in the ESG Reporting Guide of the SEHK;",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nAssuring the conformity of disclosures for general disclosure and key performance indicators of environmental and social subject areas in Sinofert's ESG Report with the 'Comply or Explain' provision in the ESG Reporting Guide of the SEHK;",
+      "bm25_rank": 25,
+      "dense_rank": 19,
+      "bm25_score": 21.478225708007812,
+      "dense_score": 0.5695724487304688,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2573225383919429,
+      "normalized_dense": 0.6454473015408625,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.5371026068418515,
+      "rank": 24,
+      "rrf_score": 0.5371026068418515,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L60_002",
+      "alias_source_ids": [
+        "L60_002"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Conducting online interviews 1 with Sinofert's sustainability management and other personnel involved in the preparation and provision of the content and information in the ESG Report;",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nConducting online interviews 1 with Sinofert's sustainability management and other personnel involved in the preparation and provision of the content and information in the ESG Report;",
+      "bm25_rank": 23,
+      "dense_rank": 23,
+      "bm25_score": 23.63092041015625,
+      "dense_score": 0.5581616163253784,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.28547891747748116,
+      "normalized_dense": 0.6179241936359229,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.5290739492546465,
+      "rank": 25,
+      "rrf_score": 0.5290739492546465,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_001",
+      "alias_source_ids": [
+        "P4_001"
+      ],
+      "section": "ABOUT THIS REPORT",
+      "pages": [
+        4
+      ],
+      "text": "This 2021 Environmental, Social and Governance (' ESG ') report of the Company (this ' Report ') aims to report on the Group's ESG performances, policies, and strategies during the period from 1 January 2021 to 31 December 2021 (the ' Reporting Period ' or the ' Year '), as disclosed in the various chapters of this Report. We strive to facilitate communication with stakeholders by disclosing ESG-related issues that are of key concern to the Group.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT\n\n[Content]\nThis 2021 Environmental, Social and Governance (' ESG ') report of the Company (this ' Report ') aims to report on the Group's ESG performances, policies, and strategies during the period from 1 January 2021 to 31 December 2021 (the ' Reporting Period ' or the ' Year '), as disclosed in the various chapters of this Report. We strive to facilitate communication with stakeholders by disclosing ESG-related issues that are of key concern to the Group.",
+      "bm25_rank": 29,
+      "dense_rank": 30,
+      "bm25_score": 16.663482666015625,
+      "dense_score": 0.526714563369751,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1943476399288714,
+      "normalized_dense": 0.5420734054494293,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.47087709908770536,
+      "rank": 26,
+      "rrf_score": 0.47087709908770536,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L60_005",
+      "alias_source_ids": [
+        "L60_005"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Recalculating and verifying selected specified performance information;",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nRecalculating and verifying selected specified performance information;",
+      "bm25_rank": 42,
+      "dense_rank": 28,
+      "bm25_score": 13.794684410095215,
+      "dense_score": 0.5306202173233032,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1568249149772046,
+      "normalized_dense": 0.5514939044443159,
+      "normalized_bm25_rank": 0.7248322147651007,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.4606294602892066,
+      "rank": 27,
+      "rrf_score": 0.4606294602892066,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T51_001",
+      "alias_source_ids": [
+        "T51_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        51
+      ],
+      "text": "Aspect | Description | Relevant Sections in this Report/ Explanation Mandatory Disclosure Requirements Governance Structure | A statement from the board containing the following elements: (i) a disclosure of the board's oversight of ESG issues; (ii) the board's ESG management approach and strategy, including the process used to evaluate, prioritise and manage material ESG-related issues (including risks to the issuer's businesses); and (iii) how the board reviews progress made against ESG-related goals and targets with an explanation of how they relate to the issuer's businesses. | Our ESG Management Strategy Reporting principles | A description of, or an explanation on, the application of the Reporting Principles in the preparation of the ESG report. | About this Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About this Report",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Description | Relevant Sections in this Report/ Explanation Mandatory Disclosure Requirements Governance Structure | A statement from the board containing the following elements: (i) a disclosure of the board's oversight of ESG issues; (ii) the board's ESG management approach and strategy, including the process used to evaluate, prioritise and manage material ESG-related issues (including risks to the issuer's businesses); and (iii) how the board reviews progress made against ESG-related goals and targets with an explanation of how they relate to the issuer's businesses. | Our ESG Management Strategy Reporting principles | A description of, or an explanation on, the application of the Reporting Principles in the preparation of the ESG report. | About this Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About this Report",
+      "bm25_rank": 30,
+      "dense_rank": 32,
+      "bm25_score": 16.3863582611084,
+      "dense_score": 0.5151774883270264,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19072296440445327,
+      "normalized_dense": 0.5142457983095117,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.4570567967858641,
+      "rank": 28,
+      "rrf_score": 0.4570567967858641,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_001",
+      "alias_source_ids": [
+        "P12_001"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY / Materiality Assessment",
+      "pages": [
+        12
+      ],
+      "text": "To better understand our stakeholders' expectations and to set a clear direction for our ESG management and development, the Group appointed a third-party consultancy to assist in conducting a materiality assessment during the Reporting Period, as well as collecting and analyzing stakeholders' opinions on the Group's ESG issues. By inviting various stakeholders to conduct questionnaire surveys and management reviews, we have identified the material issues in 2021, and will be further disclosed in this Report.",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY / Materiality Assessment\n\n[Content]\nTo better understand our stakeholders' expectations and to set a clear direction for our ESG management and development, the Group appointed a third-party consultancy to assist in conducting a materiality assessment during the Reporting Period, as well as collecting and analyzing stakeholders' opinions on the Group's ESG issues. By inviting various stakeholders to conduct questionnaire surveys and management reviews, we have identified the material issues in 2021, and will be further disclosed in this Report.",
+      "bm25_rank": 27,
+      "dense_rank": 34,
+      "bm25_score": 16.961809158325195,
+      "dense_score": 0.5124101638793945,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1982496302112575,
+      "normalized_dense": 0.5075709680538179,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.45555479841813473,
+      "rank": 29,
+      "rrf_score": 0.45555479841813473,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L7_002",
+      "alias_source_ids": [
+        "L7_002"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        7
+      ],
+      "text": "Assisting the Board in reviewing progress made against ESG goals and targets",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nAssisting the Board in reviewing progress made against ESG goals and targets",
+      "bm25_rank": 68,
+      "dense_rank": 24,
+      "bm25_score": 9.289238929748535,
+      "dense_score": 0.5449128746986389,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09789550396167136,
+      "normalized_dense": 0.5859680196731234,
+      "normalized_bm25_rank": 0.5503355704697986,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.4488289815034308,
+      "rank": 30,
+      "rrf_score": 0.4488289815034308,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T4_001",
+      "alias_source_ids": [
+        "T4_001"
+      ],
+      "section": "ABOUT THIS REPORT",
+      "pages": [
+        4
+      ],
+      "text": "Materiality | This Report aims to disclose the material issues related to its business, including inviting stakeholders to assess and prioritize the materiality of ESG issues. Details of the materiality assessment process and results can be found in the 'Materiality Assessment' in this report. Quantitative | The Group continuously records and discloses quantitative indicators related to its business to facilitate a better understanding of the effectiveness of the Group's ESG management system. In addition, the Group has disclosed the standards, methodologies, assumptions, and references used in the calculation of environmental data, including the sources of major conversion factors. Balance | This Report discloses positive and negative ESG performances of the Group in an unbiased manner and objectively reflects the operations of the Group. Consistency | Unless otherwise stated, this Report is prepared in a consistent manner with previous reports for readers to make meaningful comparisons of the Group's ESG information during the year.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT\n\n[Content]\nMateriality | This Report aims to disclose the material issues related to its business, including inviting stakeholders to assess and prioritize the materiality of ESG issues. Details of the materiality assessment process and results can be found in the 'Materiality Assessment' in this report. Quantitative | The Group continuously records and discloses quantitative indicators related to its business to facilitate a better understanding of the effectiveness of the Group's ESG management system. In addition, the Group has disclosed the standards, methodologies, assumptions, and references used in the calculation of environmental data, including the sources of major conversion factors. Balance | This Report discloses positive and negative ESG performances of the Group in an unbiased manner and objectively reflects the operations of the Group. Consistency | Unless otherwise stated, this Report is prepared in a consistent manner with previous reports for readers to make meaningful comparisons of the Group's ESG information during the year.",
+      "bm25_rank": 64,
+      "dense_rank": 25,
+      "bm25_score": 9.408411979675293,
+      "dense_score": 0.5424242615699768,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09945423942340159,
+      "normalized_dense": 0.5799654455188258,
+      "normalized_bm25_rank": 0.5771812080536913,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.44838210952096735,
+      "rank": 31,
+      "rrf_score": 0.44838210952096735,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P59_002",
+      "alias_source_ids": [
+        "P59_002"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "CECEPAC (HK) ensures that all personnel involved in Assurance Engagement meet professional qualification, training and experience requirements, and are proficient in conducting assurance engagements. The results of all assurance and certification audit are internally reviewed by senior staff to ensure that methodologies used in the process are sufficiently stringent and transparent.",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nCECEPAC (HK) ensures that all personnel involved in Assurance Engagement meet professional qualification, training and experience requirements, and are proficient in conducting assurance engagements. The results of all assurance and certification audit are internally reviewed by senior staff to ensure that methodologies used in the process are sufficiently stringent and transparent.",
+      "bm25_rank": 28,
+      "dense_rank": 36,
+      "bm25_score": 16.884536743164062,
+      "dense_score": 0.5065691471099854,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19723893816469812,
+      "normalized_dense": 0.4934823433933334,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.44706593667966676,
+      "rank": 32,
+      "rrf_score": 0.44706593667966676,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P60_003",
+      "alias_source_ids": [
+        "P60_003"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "The absence of a significant body of established practice on which to draw to evaluate and measure nonfinancial information allows for different, but acceptable, measures and measurement techniques and can affect comparability between entities.",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nThe absence of a significant body of established practice on which to draw to evaluate and measure nonfinancial information allows for different, but acceptable, measures and measurement techniques and can affect comparability between entities.",
+      "bm25_rank": 54,
+      "dense_rank": 29,
+      "bm25_score": 11.027336120605469,
+      "dense_score": 0.530566930770874,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12062911469822181,
+      "normalized_dense": 0.5513653764386169,
+      "normalized_bm25_rank": 0.6442953020134228,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.4439493422770529,
+      "rank": 33,
+      "rrf_score": 0.4439493422770529,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L60_004",
+      "alias_source_ids": [
+        "L60_004"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Conducting random sampling of evidence pertaining to data reliability and quality for selected specified performance information;",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nConducting random sampling of evidence pertaining to data reliability and quality for selected specified performance information;",
+      "bm25_rank": 45,
+      "dense_rank": 31,
+      "bm25_score": 12.729820251464844,
+      "dense_score": 0.5188122391700745,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14289692096343384,
+      "normalized_dense": 0.5230128747250898,
+      "normalized_bm25_rank": 0.7046979865771812,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.4418352326283474,
+      "rank": 34,
+      "rrf_score": 0.4418352326283474,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L60_001",
+      "alias_source_ids": [
+        "L60_001"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Evaluating the appropriateness of Sinofert's stakeholder engagement participation process;",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nEvaluating the appropriateness of Sinofert's stakeholder engagement participation process;",
+      "bm25_rank": 43,
+      "dense_rank": 33,
+      "bm25_score": 13.542932510375977,
+      "dense_score": 0.5146750807762146,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15353210159455222,
+      "normalized_dense": 0.5130339833653994,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.4391273748994848,
+      "rank": 35,
+      "rrf_score": 0.4391273748994848,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "ABOUT THIS REPORT",
+      "pages": [
+        4
+      ],
+      "text": "The Group prepared this report in accordance with the Environmental, Social and Governance Reporting Guide (' the ESG Guide ') as set out in Appendix 27 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited issued by the Stock Exchange in 2019. The Group has made corresponding disclosures in this Report in respect of all mandatory disclosure requirements and 'comply or explain' provisions in the ESG Guide. This Report has been prepared in accordance with the four reporting principles set out in the Guide, including:",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT\n\n[Content]\nThe Group prepared this report in accordance with the Environmental, Social and Governance Reporting Guide (' the ESG Guide ') as set out in Appendix 27 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited issued by the Stock Exchange in 2019. The Group has made corresponding disclosures in this Report in respect of all mandatory disclosure requirements and 'comply or explain' provisions in the ESG Guide. This Report has been prepared in accordance with the four reporting principles set out in the Guide, including:",
+      "bm25_rank": 34,
+      "dense_rank": 35,
+      "bm25_score": 14.786490440368652,
+      "dense_score": 0.5065747499465942,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16979733811729564,
+      "normalized_dense": 0.4934958575236866,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.4388977828574206,
+      "rank": 36,
+      "rrf_score": 0.4388977828574206,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P60_001",
+      "alias_source_ids": [
+        "P60_001"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "CECEPAC (HK)'s Assurance Engagement was conducted at Sinofert and its subsidiaries and the assurance work included:",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nCECEPAC (HK)'s Assurance Engagement was conducted at Sinofert and its subsidiaries and the assurance work included:",
+      "bm25_rank": 26,
+      "dense_rank": 43,
+      "bm25_score": 17.65003776550293,
+      "dense_score": 0.49084675312042236,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20725138301060642,
+      "normalized_dense": 0.4555596808796261,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.427741802493883,
+      "rank": 37,
+      "rrf_score": 0.427741802493883,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_001",
+      "alias_source_ids": [
+        "P7_001"
+      ],
+      "section": "ABOUT THIS REPORT / Highlights of the Year",
+      "pages": [
+        7
+      ],
+      "text": "The Board is responsible for leading and monitoring the Group's sustainability performances. The Corporate Governance Committee (the ' Committee ') has been assigned to oversee the Group's ESG issues and matters, and to establish appropriate and effective ESG management approaches and strategies. The duties of the Committee include (but not limited to):",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Highlights of the Year\n\n[Content]\nThe Board is responsible for leading and monitoring the Group's sustainability performances. The Corporate Governance Committee (the ' Committee ') has been assigned to oversee the Group's ESG issues and matters, and to establish appropriate and effective ESG management approaches and strategies. The duties of the Committee include (but not limited to):",
+      "bm25_rank": 48,
+      "dense_rank": 38,
+      "bm25_score": 12.277342796325684,
+      "dense_score": 0.5027933120727539,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1369786982159895,
+      "normalized_dense": 0.48437496967407584,
+      "normalized_bm25_rank": 0.6845637583892618,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.41571892533784927,
+      "rank": 38,
+      "rrf_score": 0.41571892533784927,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_007",
+      "alias_source_ids": [
+        "L59_007"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "Newly produced water consumption and intensity",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nNewly produced water consumption and intensity",
+      "bm25_rank": 38,
+      "dense_rank": 42,
+      "bm25_score": 14.190364837646484,
+      "dense_score": 0.4916653633117676,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16200025549518077,
+      "normalized_dense": 0.4575341815846252,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.4126712428415744,
+      "rank": 39,
+      "rrf_score": 0.4126712428415744,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P14_002",
+      "alias_source_ids": [
+        "P14_002"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY",
+      "pages": [
+        14
+      ],
+      "text": "This Report focuses on the above material issues and discloses the corresponding ESG management strategies and performance of the Group in each chapter to specifically respond to the major concerns of key stakeholders.",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY\n\n[Content]\nThis Report focuses on the above material issues and discloses the corresponding ESG management strategies and performance of the Group in each chapter to specifically respond to the major concerns of key stakeholders.",
+      "bm25_rank": 59,
+      "dense_rank": 39,
+      "bm25_score": 10.608497619628906,
+      "dense_score": 0.49654990434646606,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.115150875913435,
+      "normalized_dense": 0.46931577167301697,
+      "normalized_bm25_rank": 0.610738255033557,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.39735780936220266,
+      "rank": 40,
+      "rrf_score": 0.39735780936220266,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_003",
+      "alias_source_ids": [
+        "P12_003"
+      ],
+      "section": "OUR ESG MANAGEMENT STRATEGY / Materiality Assessment",
+      "pages": [
+        12
+      ],
+      "text": "The Group communicates with key stakeholders to understand their expectations. During the Reporting Period, we referred to disclosure requirements of the Guide published by the Stock Exchange, chemicals materiality map published by the Sustainability Accounting Standards Board (SASB), and ESG issues concerned by industry peers. In addition, the Group established a database of ESG issues, with reference to ESG issues disclosed in the 2020 ESG report. The person in charge of ESG matters screened and confirmed 19 potential ESG issues related to the Group.",
+      "retrieval_text": "[Section]\nOUR ESG MANAGEMENT STRATEGY / Materiality Assessment\n\n[Content]\nThe Group communicates with key stakeholders to understand their expectations. During the Reporting Period, we referred to disclosure requirements of the Guide published by the Stock Exchange, chemicals materiality map published by the Sustainability Accounting Standards Board (SASB), and ESG issues concerned by industry peers. In addition, the Group established a database of ESG issues, with reference to ESG issues disclosed in the 2020 ESG report. The person in charge of ESG matters screened and confirmed 19 potential ESG issues related to the Group.",
+      "bm25_rank": 46,
+      "dense_rank": 45,
+      "bm25_score": 12.548273086547852,
+      "dense_score": 0.4854723811149597,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14052235721679296,
+      "normalized_dense": 0.44259661075674456,
+      "normalized_bm25_rank": 0.697986577181208,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 45,
+      "composite_score": 0.3937515402417762,
+      "rank": 41,
+      "rrf_score": 0.3937515402417762,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T52_001",
+      "alias_source_ids": [
+        "T52_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        52
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation 'Comply or Explain' Provisions A. Environmental A1: Emissions | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous waste. | Protecting our Environment A1.1 | The types of emissions and respective emissions data. | Emissions Management A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions Management A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions Management",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation 'Comply or Explain' Provisions A. Environmental A1: Emissions | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous waste. | Protecting our Environment A1.1 | The types of emissions and respective emissions data. | Emissions Management A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Tackling Climate Change A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions Management A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions Management A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions Management",
+      "bm25_rank": 57,
+      "dense_rank": 44,
+      "bm25_score": 10.684896469116211,
+      "dense_score": 0.48823657631874084,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1161501420730612,
+      "normalized_dense": 0.4492638932268688,
+      "normalized_bm25_rank": 0.6241610738255033,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 44,
+      "composite_score": 0.38517037762119755,
+      "rank": 42,
+      "rrf_score": 0.38517037762119755,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_009",
+      "alias_source_ids": [
+        "L59_009"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "Purchased steam",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nPurchased steam",
+      "bm25_rank": 36,
+      "dense_rank": 52,
+      "bm25_score": 14.75465202331543,
+      "dense_score": 0.4662938117980957,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1693809044543432,
+      "normalized_dense": 0.3963375987906291,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.6577181208053691,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.3806480317427566,
+      "rank": 43,
+      "rrf_score": 0.3806480317427566,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_003",
+      "alias_source_ids": [
+        "P8_003"
+      ],
+      "section": "ESG Risk Management",
+      "pages": [
+        8
+      ],
+      "text": "Sinofert has identified ESG-related risks that have a significant impact on its operations and businesses during the Reporting Period. We reviewed corresponding management measures to ensure such risks are effectively controlled and met the requirements of external regulatory authorities from other countries. Details are as follows:",
+      "retrieval_text": "[Section]\nESG Risk Management\n\n[Content]\nSinofert has identified ESG-related risks that have a significant impact on its operations and businesses during the Reporting Period. We reviewed corresponding management measures to ensure such risks are effectively controlled and met the requirements of external regulatory authorities from other countries. Details are as follows:",
+      "bm25_rank": 44,
+      "dense_rank": 49,
+      "bm25_score": 13.066211700439453,
+      "dense_score": 0.4714965224266052,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14729678553736056,
+      "normalized_dense": 0.40888661896226575,
+      "normalized_bm25_rank": 0.7114093959731543,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 44,
+      "composite_score": 0.3792810831402383,
+      "rank": 44,
+      "rrf_score": 0.3792810831402383,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L60_007",
+      "alias_source_ids": [
+        "L60_007"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Performing other procedures we deemed necessary.",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nPerforming other procedures we deemed necessary.",
+      "bm25_rank": 40,
+      "dense_rank": 51,
+      "bm25_score": 13.924103736877441,
+      "dense_score": 0.4678279757499695,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15851766761056166,
+      "normalized_dense": 0.4000380264625362,
+      "normalized_bm25_rank": 0.738255033557047,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 40,
+      "composite_score": 0.3784282521799732,
+      "rank": 45,
+      "rrf_score": 0.3784282521799732,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P60_002",
+      "alias_source_ids": [
+        "P60_002"
+      ],
+      "section": "V. Methodology of the Assurance Engagement",
+      "pages": [
+        60
+      ],
+      "text": "Assurance Engagement was performed and the conclusions within were based upon information and data provided by Sinofert to CECEPAC (HK), and on assumptions that the information provided was complete and accurate.",
+      "retrieval_text": "[Section]\nV. Methodology of the Assurance Engagement\n\n[Content]\nAssurance Engagement was performed and the conclusions within were based upon information and data provided by Sinofert to CECEPAC (HK), and on assumptions that the information provided was complete and accurate.",
+      "bm25_rank": 33,
+      "dense_rank": 56,
+      "bm25_score": 14.921664237976074,
+      "dense_score": 0.4623029828071594,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1715653569097737,
+      "normalized_dense": 0.3867116562609061,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.6308724832214765,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.37436013765045306,
+      "rank": 46,
+      "rrf_score": 0.37436013765045306,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_004",
+      "alias_source_ids": [
+        "L59_004"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "Total number of suppliers (by geographical region)",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nTotal number of suppliers (by geographical region)",
+      "bm25_rank": 39,
+      "dense_rank": 57,
+      "bm25_score": 14.055973052978516,
+      "dense_score": 0.460531622171402,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16024246511676954,
+      "normalized_dense": 0.3824391064428257,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.36523103933874557,
+      "rank": 47,
+      "rrf_score": 0.36523103933874557,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_008",
+      "alias_source_ids": [
+        "L59_008"
+      ],
+      "section": "III. Assurance Provider's Responsibilities",
+      "pages": [
+        59
+      ],
+      "text": "Purchased electricity",
+      "retrieval_text": "[Section]\nIII. Assurance Provider's Responsibilities\n\n[Content]\nPurchased electricity",
+      "bm25_rank": 35,
+      "dense_rank": 59,
+      "bm25_score": 14.75465202331543,
+      "dense_score": 0.45648396015167236,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1693809044543432,
+      "normalized_dense": 0.37267608175042494,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.610738255033557,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.36364166856392005,
+      "rank": 48,
+      "rrf_score": 0.36364166856392005,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T56_001",
+      "alias_source_ids": [
+        "T56_001"
+      ],
+      "section": "APPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE",
+      "pages": [
+        56
+      ],
+      "text": "Aspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B6: Product Responsibility | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Product Responsibility B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Product Responsibility B6.2 | Number of products and service related complaints received and how they are dealt with. | Product Responsibility B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product Responsibility B6.4 | Description of quality assurance process and recall procedures. | Product Responsibility B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Product Responsibility",
+      "retrieval_text": "[Section]\nAPPENDIX 1: INDEX OF THE STOCK EXCHANGE'S ESG GUIDE\n\n[Content]\nAspect | Key Performance Indicators | Description | Relevant Sections in this Report/ Explanation B6: Product Responsibility | General Disclosure | Information on: (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Product Responsibility B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | Product Responsibility B6.2 | Number of products and service related complaints received and how they are dealt with. | Product Responsibility B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Product Responsibility B6.4 | Description of quality assurance process and recall procedures. | Product Responsibility B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Product Responsibility",
+      "bm25_rank": 49,
+      "dense_rank": 53,
+      "bm25_score": 12.230403900146484,
+      "dense_score": 0.46586382389068604,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13636475637214177,
+      "normalized_dense": 0.3953004611696983,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 49,
+      "composite_score": 0.3636146898650308,
+      "rank": 49,
+      "rrf_score": 0.3636146898650308,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T21_002",
+      "alias_source_ids": [
+        "T21_002"
+      ],
+      "section": "PROTECTING OUR ENVIRONMENT",
+      "pages": [
+        21
+      ],
+      "text": "2021 | 2020 | Unit Scope 1 2 | 1,390,803 | 1,001,131 | tCO 2 e Scope 2 3 | 196,698 | 194,779 | tCO 2 e Scope 3 4 | 835 | 2,288 | tCO 2 e Total GHG emissions | 1,588,336 | 1,198,198 | tCO 2 e Total GHG emission intensity | 1.63 | 1.04 | tCO 2 e/tonne of product",
+      "retrieval_text": "[Section]\nPROTECTING OUR ENVIRONMENT\n\n[Content]\n2021 | 2020 | Unit Scope 1 2 | 1,390,803 | 1,001,131 | tCO 2 e Scope 2 3 | 196,698 | 194,779 | tCO 2 e Scope 3 4 | 835 | 2,288 | tCO 2 e Total GHG emissions | 1,588,336 | 1,198,198 | tCO 2 e Total GHG emission intensity | 1.63 | 1.04 | tCO 2 e/tonne of product",
+      "bm25_rank": 32,
+      "dense_rank": 61,
+      "bm25_score": 15.450227737426758,
+      "dense_score": 0.4549722671508789,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17847875445121753,
+      "normalized_dense": 0.36902985436727453,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.5973154362416108,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.363513918039595,
+      "rank": 50,
+      "rrf_score": 0.363513918039595,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

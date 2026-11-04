@@ -1,0 +1,1554 @@
+{
+  "document_id": "2022053000380",
+  "metric_id": 44,
+  "metric_name": "投票权差异",
+  "query": "投票权差异 投票权差异 衡量企业表决权配置与经济所有权的一致性程度。重点考察差异化投票权架构（如双重股权）的复杂程度、是否存在对中小股东的实质性不公平以及抵消性保护机制。 一、架构公平性评分 (权重 70%，取值：0, 1, 2) • 2分（卓越/高分）：严格执行一股一票制；公司章程明确所有股份具有同等法律地位；无任何差异化投票安排。 • 1分（合格/中分）：存在适度的差异化架构（如 1:10 及以内的投票权倍数）；通常用于保护初创团队的控制权，且该架构已在主流证券交易所合规备案。 • 0分（不合格/低分）：存在极高杠杆的投票差异（如超过 1:20 的表决权比例）或金字塔持股结构；控制权与所有权严重背离；存在“黄金股”等赋予特定人无限否决权的安排。 二、抵消性保护机制 (权重 30%，取值：0, 1, 2) • 2分（完善）：具备强制性的“日落条款”（如创始人离职或特定年限后自动失效）；在涉及并购、章程修改等重大事项时强制执行一股一票；由普通股东独立选派特定比例的独董。 • 1分（基础）：具备基础的保护机制（如相关关联交易需经无利害关系股东批准），但缺乏自动退出（日落）机制或重大事项的穿透表决权。 • 0分（缺失）：没有任何抵消性安排，控股股东或创始人拥有不受限的永久特权。 一股一票 同股同权 股份法律地位平等 投票权差异 差异化表决权 投票权倍数 日落条款 重大事项一股一票 控制权与所有权偏离 同股不同权保护机制 WVR one share one vote equal voting rights equal legal status of shares voting rights disparity dual-class structure voting multiple sunset clause one-share-one-vote on reserved matters ownership-control divergence weighted voting rights WVR minority shareholder protection 企业是否严格执行一股一票，章程是否明确所有股份具有同等法律地位？ 若存在差异化投票权，其股份类别、投票倍数和控制安排是什么？ 是否有日落条款或失效条件？ 重大事项是否强制恢复一股一票？ 普通股东或中小股东有哪些抵消性保护？ 是否存在黄金股或过高杠杆表决安排？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '投票权差异'. Prefer explicit, auditable disclosure that answers: 企业是否严格执行一股一票，章程是否明确所有股份具有同等法律地位？ 若存在差异化投票权，其股份类别、投票倍数和控制安排是什么？ 是否有日落条款或失效条件？ 重大事项是否强制恢复一股一票？ 普通股东或中小股东有哪些抵消性保护？ 是否存在黄金股或过高杠杆表决安排？ Exclude or down-rank: 排除：仅声明重视股东权益而无股份类别或表决权依据；仅有独董人数、分红政策或未说明投票权的股权激励；未经章程、股本结构或上市文件支持的一股一票口号。区分：本指标接受严格一股一票作为2分证据，也评估差异架构的投票倍数、日落条款和保护机制；第43项侧重是否同股同权，本项侧重差异程度与抵消保护。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 195,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P6_006",
+      "alias_source_ids": [
+        "P6_006"
+      ],
+      "section": "Organizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST",
+      "pages": [
+        6
+      ],
+      "text": "Jinmao Services strictly abides by relevant laws and regulations and keeps improving the corporate governance mechanism and structure to enhance the corporate value and protect shareholders' rights and interests with high-level corporate governance.",
+      "retrieval_text": "[Section]\nOrganizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST\n\n[Content]\nJinmao Services strictly abides by relevant laws and regulations and keeps improving the corporate governance mechanism and structure to enhance the corporate value and protect shareholders' rights and interests with high-level corporate governance.",
+      "bm25_rank": 17,
+      "dense_rank": 1,
+      "bm25_score": 16.047422409057617,
+      "dense_score": 0.3259966969490051,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.35488500507693904,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.7102387459818309,
+      "rank": 1,
+      "rrf_score": 0.7102387459818309,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_008",
+      "alias_source_ids": [
+        "P7_008"
+      ],
+      "section": "Investor relations / Anti-corruption and integrity",
+      "pages": [
+        7
+      ],
+      "text": "The Company protects intellectual property in strict compliance with the Patent Law, the Anti-Unfair Competition Lawand other Chinese laws and regulations. Through patent application and trademark registration, we have improved the intellectual property protection system to curb unfair competition, and safeguard our legitimate rights and interests from infringement.",
+      "retrieval_text": "[Section]\nInvestor relations / Anti-corruption and integrity\n\n[Content]\nThe Company protects intellectual property in strict compliance with the Patent Law, the Anti-Unfair Competition Lawand other Chinese laws and regulations. Through patent application and trademark registration, we have improved the intellectual property protection system to curb unfair competition, and safeguard our legitimate rights and interests from infringement.",
+      "bm25_rank": 25,
+      "dense_rank": 2,
+      "bm25_score": 12.75379467010498,
+      "dense_score": 0.2779642641544342,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27933254672757374,
+      "normalized_dense": 0.7969210378088326,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.617339208149076,
+      "rank": 2,
+      "rrf_score": 0.617339208149076,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_006",
+      "alias_source_ids": [
+        "P28_006"
+      ],
+      "section": "Appendix / Outlook 2022",
+      "pages": [
+        28
+      ],
+      "text": "We will improve the reliable and stable organizational mechanism, and standardize the employee management system to guarantee equal employment opportunities and protect employees' rights. We will offer competitive salary and benefits, and deepen the democratic communication mechanism. We will also better the employee training system, expand talent development channels, and strengthen talent echelon building to reserve sufficient strength for business expansion and upgrading.",
+      "retrieval_text": "[Section]\nAppendix / Outlook 2022\n\n[Content]\nWe will improve the reliable and stable organizational mechanism, and standardize the employee management system to guarantee equal employment opportunities and protect employees' rights. We will offer competitive salary and benefits, and deepen the democratic communication mechanism. We will also better the employee training system, expand talent development channels, and strengthen talent echelon building to reserve sufficient strength for business expansion and upgrading.",
+      "bm25_rank": 16,
+      "dense_rank": 8,
+      "bm25_score": 16.83460807800293,
+      "dense_score": 0.24130456149578094,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3729422407999781,
+      "normalized_dense": 0.6419254663374337,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.5797992741297753,
+      "rank": 3,
+      "rrf_score": 0.5797992741297753,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_008",
+      "alias_source_ids": [
+        "P6_008"
+      ],
+      "section": "Organizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST",
+      "pages": [
+        6
+      ],
+      "text": "With a sound management mechanism, the Company continues to improve the efficiency of corporate governance and drive sustainable growth of operating results.",
+      "retrieval_text": "[Section]\nOrganizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST\n\n[Content]\nWith a sound management mechanism, the Company continues to improve the efficiency of corporate governance and drive sustainable growth of operating results.",
+      "bm25_rank": 44,
+      "dense_rank": 3,
+      "bm25_score": 4.664919376373291,
+      "dense_score": 0.26603907346725464,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09378200423754346,
+      "normalized_dense": 0.7465018687644129,
+      "normalized_bm25_rank": 0.7114093959731543,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.5484884307539794,
+      "rank": 4,
+      "rrf_score": 0.5484884307539794,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T23_001",
+      "alias_source_ids": [
+        "T23_001"
+      ],
+      "section": "People-oriented Value to Realize Employees' Dreams / Employee turnover",
+      "pages": [
+        23
+      ],
+      "text": "Employment | 2021 Total employees (headcount) | 2,658 By gender | Female (headcount) | 981 Male (headcount) | 1,677 By age group | (headcount) | 698 31-50 years old (headcount) | 1,819 51 years old or older (headunt) | 141 Byeducational background | Master's degree or higher (heceut) | 82 Bachelor's degree (headcount) | 868 Junior college or lower (headcount) | 1,708 Other data | Employee labor contract signing rate (%) | 100% Employee sodalinsurance coverage (%) | 100% Newemployees (headcount) | 1,032 Percentage of female management(%) | 27.8% Proportion of employees from minor ethic groups (%) | 3.4%",
+      "retrieval_text": "[Section]\nPeople-oriented Value to Realize Employees' Dreams / Employee turnover\n\n[Content]\nEmployment | 2021 Total employees (headcount) | 2,658 By gender | Female (headcount) | 981 Male (headcount) | 1,677 By age group | (headcount) | 698 31-50 years old (headcount) | 1,819 51 years old or older (headunt) | 141 Byeducational background | Master's degree or higher (heceut) | 82 Bachelor's degree (headcount) | 868 Junior college or lower (headcount) | 1,708 Other data | Employee labor contract signing rate (%) | 100% Employee sodalinsurance coverage (%) | 100% Newemployees (headcount) | 1,032 Percentage of female management(%) | 27.8% Proportion of employees from minor ethic groups (%) | 3.4%",
+      "bm25_rank": 4,
+      "dense_rank": 32,
+      "bm25_score": 37.97113037109375,
+      "dense_score": 0.16695481538772583,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8577924870233081,
+      "normalized_dense": 0.32757808894398155,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5425866674612297,
+      "rank": 5,
+      "rrf_score": 0.5425866674612297,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_003",
+      "alias_source_ids": [
+        "P23_003"
+      ],
+      "section": "People-oriented Value to Realize Employees' Dreams / Employee turnover",
+      "pages": [
+        23
+      ],
+      "text": "The Company actively implements the policy of stabilizing employment. In 2021, no active layoff occurred. In recruitment, we oppose employment discrimination and offer equal employment opportunities for employees regardless ofsns t c r s s s ity of talents, and create a harmonious and inclusive workplace. In the process of employment, we legally examine the identity information of candidates to avoid child and forced labor, and protect the rights of employees including privacy. During COVID-19 control period, we pay wages and so cial insurance as usual for employees under home quarantine. In addition, we improve employment norms and guidelines, and have established a mechanism for handling employment violations. Regular employment self-inspection is organized to timely rectify, hold accountable and compensate in case of violations including child labor, forced labor, harassment and abuse.",
+      "retrieval_text": "[Section]\nPeople-oriented Value to Realize Employees' Dreams / Employee turnover\n\n[Content]\nThe Company actively implements the policy of stabilizing employment. In 2021, no active layoff occurred. In recruitment, we oppose employment discrimination and offer equal employment opportunities for employees regardless ofsns t c r s s s ity of talents, and create a harmonious and inclusive workplace. In the process of employment, we legally examine the identity information of candidates to avoid child and forced labor, and protect the rights of employees including privacy. During COVID-19 control period, we pay wages and so cial insurance as usual for employees under home quarantine. In addition, we improve employment norms and guidelines, and have established a mechanism for handling employment violations. Regular employment self-inspection is organized to timely rectify, hold accountable and compensate in case of violations including child labor, forced labor, harassment and abuse.",
+      "bm25_rank": 27,
+      "dense_rank": 11,
+      "bm25_score": 11.659265518188477,
+      "dense_score": 0.2173125445842743,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.25422516522712696,
+      "normalized_dense": 0.5404882995776352,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.5091434546761212,
+      "rank": 6,
+      "rrf_score": 0.5091434546761212,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_006",
+      "alias_source_ids": [
+        "P23_006"
+      ],
+      "section": "People-oriented Value to Realize Employees' Dreams / Employee turnover",
+      "pages": [
+        23
+      ],
+      "text": "We continuously deepen the democratic management mechanism and implement the Measures for Strengthening thed ss e we s s wpen the labor protection supervision mechanism by Labor Union to track the occupational health and safety, compensation survey, and opinion collection on a regular basis. and benefits, and fair promotion of employees in real time. We also conduct supervision and inspection, satisfaction",
+      "retrieval_text": "[Section]\nPeople-oriented Value to Realize Employees' Dreams / Employee turnover\n\n[Content]\nWe continuously deepen the democratic management mechanism and implement the Measures for Strengthening thed ss e we s s wpen the labor protection supervision mechanism by Labor Union to track the occupational health and safety, compensation survey, and opinion collection on a regular basis. and benefits, and fair promotion of employees in real time. We also conduct supervision and inspection, satisfaction",
+      "bm25_rank": 47,
+      "dense_rank": 7,
+      "bm25_score": 4.212834358215332,
+      "dense_score": 0.24492032825946808,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08341163538838724,
+      "normalized_dense": 0.6572127653388263,
+      "normalized_bm25_rank": 0.6912751677852349,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.5077806204496224,
+      "rank": 7,
+      "rrf_score": 0.5077806204496224,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_007",
+      "alias_source_ids": [
+        "P6_007"
+      ],
+      "section": "Organizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST",
+      "pages": [
+        6
+      ],
+      "text": "Jinmao Services has established the Board of Directors composed of property management and related senior professionals, and enriches its diversity in terms of gender, age, and cultural and educational background. At present, there are three female directors in the Board. We have set up and specified the management responsibilities of the Audit Committee, the Remuneration and Nomination Committee and the Strategy and Investment Committee for mutual coordination and supervision, promoting the standardized operation and scientific decision-making of the Board together. As of April 2022, the Board held three on-site meetings to fully discuss important issues of the Company.",
+      "retrieval_text": "[Section]\nOrganizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST\n\n[Content]\nJinmao Services has established the Board of Directors composed of property management and related senior professionals, and enriches its diversity in terms of gender, age, and cultural and educational background. At present, there are three female directors in the Board. We have set up and specified the management responsibilities of the Audit Committee, the Remuneration and Nomination Committee and the Strategy and Investment Committee for mutual coordination and supervision, promoting the standardized operation and scientific decision-making of the Board together. As of April 2022, the Board held three on-site meetings to fully discuss important issues of the Company.",
+      "bm25_rank": 59,
+      "dense_rank": 6,
+      "bm25_score": 3.0887303352355957,
+      "dense_score": 0.24953877925872803,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05762583653440455,
+      "normalized_dense": 0.6767393681214046,
+      "normalized_bm25_rank": 0.610738255033557,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5027463622567551,
+      "rank": 8,
+      "rrf_score": 0.5027463622567551,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_004",
+      "alias_source_ids": [
+        "P23_004"
+      ],
+      "section": "People-oriented Value to Realize Employees' Dreams / Employee turnover",
+      "pages": [
+        23
+      ],
+      "text": "In 2021, Jinmao Services had 2,658 employees in total, all of whom were full-time. There was no child labor, forced labor, harassment, abuse, or infringement of employee rights.",
+      "retrieval_text": "[Section]\nPeople-oriented Value to Realize Employees' Dreams / Employee turnover\n\n[Content]\nIn 2021, Jinmao Services had 2,658 employees in total, all of whom were full-time. There was no child labor, forced labor, harassment, abuse, or infringement of employee rights.",
+      "bm25_rank": 7,
+      "dense_rank": 39,
+      "bm25_score": 25.80634117126465,
+      "dense_score": 0.15984183549880981,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5787446400309939,
+      "normalized_dense": 0.2975047303842423,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.4648420265937037,
+      "rank": 9,
+      "rrf_score": 0.4648420265937037,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_003",
+      "alias_source_ids": [
+        "P7_003"
+      ],
+      "section": "Investor relations / Anti-corruption and integrity",
+      "pages": [
+        7
+      ],
+      "text": "The Company continues to promote audit and risk control, and strengthen the building of compliance system. We have revised the rules and regulations including the Management and Control Procedures for Compliance Evaluation of Laws, Regulations and Other Requirements to provide normative support. The 100 Legal Knowledge Q&A in the Property Industry is developed to improve the legal awareness of all employees.",
+      "retrieval_text": "[Section]\nInvestor relations / Anti-corruption and integrity\n\n[Content]\nThe Company continues to promote audit and risk control, and strengthen the building of compliance system. We have revised the rules and regulations including the Management and Control Procedures for Compliance Evaluation of Laws, Regulations and Other Requirements to provide normative support. The 100 Legal Knowledge Q&A in the Property Industry is developed to improve the legal awareness of all employees.",
+      "bm25_rank": 39,
+      "dense_rank": 14,
+      "bm25_score": 6.09099006652832,
+      "dense_score": 0.2126157134771347,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12649461020297975,
+      "normalized_dense": 0.5206303092296446,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4645665101367433,
+      "rank": 10,
+      "rrf_score": 0.4645665101367433,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_005",
+      "alias_source_ids": [
+        "P6_005"
+      ],
+      "section": "Organizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST",
+      "pages": [
+        6
+      ],
+      "text": "Fast placement-Fast growth ·Fast development We adhere to the core strategic positioning of \"high tier, high quality and high customer base\" and \"diverse property types, full cycle and all scenarios\" and the core driver of \"innovative technology, innovative platform and innovative ecology\" foryears, we have built the reputation of quality and the capability to serve the whole country. Coupled with the strong and steady resource support of Sinochem Holdings and China Jinmao, we have demonstrated a great potential for scale-up and performance growth since our premiere on the market. Fast, steady and high-quality growth",
+      "retrieval_text": "[Section]\nOrganizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST\n\n[Content]\nFast placement-Fast growth ·Fast development We adhere to the core strategic positioning of \"high tier, high quality and high customer base\" and \"diverse property types, full cycle and all scenarios\" and the core driver of \"innovative technology, innovative platform and innovative ecology\" foryears, we have built the reputation of quality and the capability to serve the whole country. Coupled with the strong and steady resource support of Sinochem Holdings and China Jinmao, we have demonstrated a great potential for scale-up and performance growth since our premiere on the market. Fast, steady and high-quality growth",
+      "bm25_rank": 49,
+      "dense_rank": 12,
+      "bm25_score": 4.14556884765625,
+      "dense_score": 0.21582183241844177,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08186863323767062,
+      "normalized_dense": 0.53418563569097,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.45635883336756156,
+      "rank": 11,
+      "rrf_score": 0.45635883336756156,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_002",
+      "alias_source_ids": [
+        "P23_002"
+      ],
+      "section": "People-oriented Value to Realize Employees' Dreams / Employee turnover",
+      "pages": [
+        23
+      ],
+      "text": "In strictly accordance with relevant Chinese laws and regulations, including the Company Law and the Labor Law, we provide jobs, regulate employee recruitment, optimize salary and welfare, and deepen democratic management.",
+      "retrieval_text": "[Section]\nPeople-oriented Value to Realize Employees' Dreams / Employee turnover\n\n[Content]\nIn strictly accordance with relevant Chinese laws and regulations, including the Company Law and the Labor Law, we provide jobs, regulate employee recruitment, optimize salary and welfare, and deepen democratic management.",
+      "bm25_rank": null,
+      "dense_rank": 4,
+      "bm25_score": null,
+      "dense_score": 0.2590858042240143,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7171037596202803,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.4469594702295142,
+      "rank": 12,
+      "rrf_score": 0.4469594702295142,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_002",
+      "alias_source_ids": [
+        "P7_002"
+      ],
+      "section": "Investor relations / Anti-corruption and integrity",
+      "pages": [
+        7
+      ],
+      "text": "In strict accordance with Chinese laws, such as the Company Law, the Securities Law and the regulatory requirements of the Stock Exchange of Hong Kong Limited, Jinmao Services has established a listing compliance system. We prepare the Articles of Association and bylaws, and carry out information disclosure, risk management, anti-corruption and other related work to ensure the compliance operation of the Company.",
+      "retrieval_text": "[Section]\nInvestor relations / Anti-corruption and integrity\n\n[Content]\nIn strict accordance with Chinese laws, such as the Company Law, the Securities Law and the regulatory requirements of the Stock Exchange of Hong Kong Limited, Jinmao Services has established a listing compliance system. We prepare the Articles of Association and bylaws, and carry out information disclosure, risk management, anti-corruption and other related work to ensure the compliance operation of the Company.",
+      "bm25_rank": 103,
+      "dense_rank": 9,
+      "bm25_score": 0.8845396041870117,
+      "dense_score": 0.24054816365242004,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.007063951099664469,
+      "normalized_dense": 0.6387274503283272,
+      "normalized_bm25_rank": 0.31543624161073824,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.44577276696236423,
+      "rank": 13,
+      "rrf_score": 0.44577276696236423,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_007",
+      "alias_source_ids": [
+        "P7_007"
+      ],
+      "section": "Investor relations / Anti-corruption and integrity",
+      "pages": [
+        7
+      ],
+      "text": "In 2021, 125 copies of the Integrity Commitment Letter were signed, 4 sessions of integrity education were carried out, 1 integrity training for key positions was held, and no corruption lawsuit occurred.",
+      "retrieval_text": "[Section]\nInvestor relations / Anti-corruption and integrity\n\n[Content]\nIn 2021, 125 copies of the Integrity Commitment Letter were signed, 4 sessions of integrity education were carried out, 1 integrity training for key positions was held, and no corruption lawsuit occurred.",
+      "bm25_rank": 11,
+      "dense_rank": 38,
+      "bm25_score": 21.396684646606445,
+      "dense_score": 0.16022072732448578,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4775916205278883,
+      "normalized_dense": 0.2991066679556761,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4438298189638898,
+      "rank": 14,
+      "rrf_score": 0.4438298189638898,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T8_001",
+      "alias_source_ids": [
+        "T8_001"
+      ],
+      "section": "Sustainability Management / Stakeholder Communication",
+      "pages": [
+        8
+      ],
+      "text": "1 Customer health and safety | 19 Community development 2 Providing high-quality products and services | 20 Charitable activities 3 Customer satisfaction | 21 Work-life balance 4 Addressing climate change 5 Reducing pollutant emissions 6 Protecting the rights of employees 7 Improving corporate governance 8 Integrity and compliance management 9 Deepening anti-corruption and integrity 10 Technological innovation 11 Occupational health and safety 12 Staff training and development 13 Saving resources 14 Supplier management 15 Intellectual property protection 16 Protection of customer privacy 17 Customer complaint handling 18 Promoting suppliers to fulfill their responsibilities",
+      "retrieval_text": "[Section]\nSustainability Management / Stakeholder Communication\n\n[Content]\n1 Customer health and safety | 19 Community development 2 Providing high-quality products and services | 20 Charitable activities 3 Customer satisfaction | 21 Work-life balance 4 Addressing climate change 5 Reducing pollutant emissions 6 Protecting the rights of employees 7 Improving corporate governance 8 Integrity and compliance management 9 Deepening anti-corruption and integrity 10 Technological innovation 11 Occupational health and safety 12 Staff training and development 13 Saving resources 14 Supplier management 15 Intellectual property protection 16 Protection of customer privacy 17 Customer complaint handling 18 Promoting suppliers to fulfill their responsibilities",
+      "bm25_rank": 3,
+      "dense_rank": 80,
+      "bm25_score": 39.70428466796875,
+      "dense_score": 0.13391250371932983,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8975492774702187,
+      "normalized_dense": 0.18787668363074894,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.4697986577181208,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.4378841444292354,
+      "rank": 15,
+      "rrf_score": 0.4378841444292354,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_004",
+      "alias_source_ids": [
+        "P7_004"
+      ],
+      "section": "Investor relations / Anti-corruption and integrity",
+      "pages": [
+        7
+      ],
+      "text": "The Company implements tiered risk management over the General Manager, functional departments of the Headquarters and subsidiaries, and the Risk Control and Audit Department. We also prepare risk assessment standards from business nature, operating characteristics and strategic objectives to continuously monitor and manage risks.",
+      "retrieval_text": "[Section]\nInvestor relations / Anti-corruption and integrity\n\n[Content]\nThe Company implements tiered risk management over the General Manager, functional departments of the Headquarters and subsidiaries, and the Risk Control and Audit Department. We also prepare risk assessment standards from business nature, operating characteristics and strategic objectives to continuously monitor and manage risks.",
+      "bm25_rank": null,
+      "dense_rank": 5,
+      "bm25_score": null,
+      "dense_score": 0.2528351843357086,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6906764202973372,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.43636761958728953,
+      "rank": 16,
+      "rrf_score": 0.43636761958728953,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_001",
+      "alias_source_ids": [
+        "P7_001"
+      ],
+      "section": "Investor relations / Anti-corruption and integrity",
+      "pages": [
+        7
+      ],
+      "text": "The Company has established a sound investor communication mechanism. We strengthen effective communication and exchange with investors through investor relations email and investor hotline, and timely disclose the latest investment and operating information to domestic and overseas investors in accordance with legal requirements on the premise of the completeness, accuracy and compliance of information disclosure. By the end of 2021, over 60 investor communication activities were held. On March 28, 2022, the 2021 Annual Results Announcement was held in the livestreaming form.",
+      "retrieval_text": "[Section]\nInvestor relations / Anti-corruption and integrity\n\n[Content]\nThe Company has established a sound investor communication mechanism. We strengthen effective communication and exchange with investors through investor relations email and investor hotline, and timely disclose the latest investment and operating information to domestic and overseas investors in accordance with legal requirements on the premise of the completeness, accuracy and compliance of information disclosure. By the end of 2021, over 60 investor communication activities were held. On March 28, 2022, the 2021 Annual Results Announcement was held in the livestreaming form.",
+      "bm25_rank": 40,
+      "dense_rank": 17,
+      "bm25_score": 5.787093639373779,
+      "dense_score": 0.18973404169082642,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11952353636741156,
+      "normalized_dense": 0.4238876316426866,
+      "normalized_bm25_rank": 0.738255033557047,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.4246143716370132,
+      "rank": 17,
+      "rrf_score": 0.4246143716370132,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T29_002",
+      "alias_source_ids": [
+        "T29_002"
+      ],
+      "section": "Appendix / Outlook 2022",
+      "pages": [
+        29
+      ],
+      "text": "Major category | Content | Location A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact the issuer, and the actions taken to manage them. | P27 B. Social Employment and Labor Practices Aspect B1: Employment | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | P3-40 B1.1 | Total workforce by gender, employment type (for example, full- or part-time), age group and geographical region. | PE B1.2 | Employee tumover rate by gender, age group and geographical region. | P40 Aspect B2: Health and Safety | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | P322-PP3 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | P32 B2.2 | Lost days due to work injury. | P32 B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | P32-P33 Aspect B3: Development and Training | and skills for discharging duties at work. Description of training General Disclosure: Policies on improving employees' knowledge activities. | P41",
+      "retrieval_text": "[Section]\nAppendix / Outlook 2022\n\n[Content]\nMajor category | Content | Location A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact the issuer, and the actions taken to manage them. | P27 B. Social Employment and Labor Practices Aspect B1: Employment | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | P3-40 B1.1 | Total workforce by gender, employment type (for example, full- or part-time), age group and geographical region. | PE B1.2 | Employee tumover rate by gender, age group and geographical region. | P40 Aspect B2: Health and Safety | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | P322-PP3 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | P32 B2.2 | Lost days due to work injury. | P32 B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | P32-P33 Aspect B3: Development and Training | and skills for discharging duties at work. Description of training General Disclosure: Policies on improving employees' knowledge activities. | P41",
+      "bm25_rank": 15,
+      "dense_rank": 37,
+      "bm25_score": 17.398996353149414,
+      "dense_score": 0.16031920909881592,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3858887317305028,
+      "normalized_dense": 0.29952304446134353,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.4242926911022017,
+      "rank": 18,
+      "rrf_score": 0.4242926911022017,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_004",
+      "alias_source_ids": [
+        "P24_004"
+      ],
+      "section": "「Employee care / Employee training and development,",
+      "pages": [
+        24
+      ],
+      "text": "Based on business needs and development requirements, the Company divides all employees into management sequence (M), talent sequence (T), basic property management skill sequence (S), value-added business sequence (A) and create investment opportunities sequence (C), building a Y-shaped developmentchannelfor personnel of different business segments. The Company helps employees set up personal development plans, conducts regular performance appraisal and evaluation, and tie employee performance and contribution to their promotion, striving to create a fair, open and just employee development channel.",
+      "retrieval_text": "[Section]\n「Employee care / Employee training and development,\n\n[Content]\nBased on business needs and development requirements, the Company divides all employees into management sequence (M), talent sequence (T), basic property management skill sequence (S), value-added business sequence (A) and create investment opportunities sequence (C), building a Y-shaped developmentchannelfor personnel of different business segments. The Company helps employees set up personal development plans, conducts regular performance appraisal and evaluation, and tie employee performance and contribution to their promotion, striving to create a fair, open and just employee development channel.",
+      "bm25_rank": 92,
+      "dense_rank": 13,
+      "bm25_score": 1.6784965991973877,
+      "dense_score": 0.21372950077056885,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.025276514130780987,
+      "normalized_dense": 0.5253393517347305,
+      "normalized_bm25_rank": 0.38926174496644295,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.4117428678796206,
+      "rank": 19,
+      "rrf_score": 0.4117428678796206,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T24_001",
+      "alias_source_ids": [
+        "T24_001"
+      ],
+      "section": "「Employee care / Employee training and development,",
+      "pages": [
+        24
+      ],
+      "text": "Employee training | 2021 Total training hours (hour) | 41,028 Training hours per employee (hour) | 15.43 By gender | Training hours of female employees (hour) | 15,136 Percentage of female employees trained (%) | 100% Training hours of male employees (hour) | 25,892 Percentage of male employees trained (%) | 100% Training hours of senior management (hour) | 530 Percentage of senior management trained (%) | 100% Training hours of mid-level management (hour) | 2,070 Percentage of mid-level management trained (%) | 100% Training hours of ordinary employees (hour) | 38,428 Percentage of ordinary employees trained (%) | 100%",
+      "retrieval_text": "[Section]\n「Employee care / Employee training and development,\n\n[Content]\nEmployee training | 2021 Total training hours (hour) | 41,028 Training hours per employee (hour) | 15.43 By gender | Training hours of female employees (hour) | 15,136 Percentage of female employees trained (%) | 100% Training hours of male employees (hour) | 25,892 Percentage of male employees trained (%) | 100% Training hours of senior management (hour) | 530 Percentage of senior management trained (%) | 100% Training hours of mid-level management (hour) | 2,070 Percentage of mid-level management trained (%) | 100% Training hours of ordinary employees (hour) | 38,428 Percentage of ordinary employees trained (%) | 100%",
+      "bm25_rank": 29,
+      "dense_rank": 29,
+      "bm25_score": 9.85551643371582,
+      "dense_score": 0.17225056886672974,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2128490024126062,
+      "normalized_dense": 0.3499682961012158,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.4086828651917723,
+      "rank": 20,
+      "rrf_score": 0.4086828651917723,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_006",
+      "alias_source_ids": [
+        "P7_006"
+      ],
+      "section": "Investor relations / Anti-corruption and integrity",
+      "pages": [
+        7
+      ],
+      "text": "In strict accordance with the Criminal Lawand other governing Chinese laws and regulations on anti-corruption, fraud and money laundering, the Company implements the supervisory duties of the responsible person, and carries out related work including responsibility letter signing, integrity talks, and opinions on Party conduct and clean governance. We also constantly strengthen integrity education through the conference of warning adn o g n g ep standardizing reporting channels and uniformly produce the poster on whistle-blowing by letters and visits.",
+      "retrieval_text": "[Section]\nInvestor relations / Anti-corruption and integrity\n\n[Content]\nIn strict accordance with the Criminal Lawand other governing Chinese laws and regulations on anti-corruption, fraud and money laundering, the Company implements the supervisory duties of the responsible person, and carries out related work including responsibility letter signing, integrity talks, and opinions on Party conduct and clean governance. We also constantly strengthen integrity education through the conference of warning adn o g n g ep standardizing reporting channels and uniformly produce the poster on whistle-blowing by letters and visits.",
+      "bm25_rank": 64,
+      "dense_rank": 18,
+      "bm25_score": 2.9636282920837402,
+      "dense_score": 0.1888837218284607,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05475612336285569,
+      "normalized_dense": 0.4202925175680298,
+      "normalized_bm25_rank": 0.5771812080536913,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.39295293468044207,
+      "rank": 21,
+      "rrf_score": 0.39295293468044207,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_005",
+      "alias_source_ids": [
+        "P7_005"
+      ],
+      "section": "Investor relations / Anti-corruption and integrity",
+      "pages": [
+        7
+      ],
+      "text": "In 2021, 9 training sessions on compliance were carried out, the legal review rate of contracts was 100%, and there was no violation of laws and regulations.",
+      "retrieval_text": "[Section]\nInvestor relations / Anti-corruption and integrity\n\n[Content]\nIn 2021, 9 training sessions on compliance were carried out, the legal review rate of contracts was 100%, and there was no violation of laws and regulations.",
+      "bm25_rank": 33,
+      "dense_rank": 33,
+      "bm25_score": 7.606698036193848,
+      "dense_score": 0.16631361842155457,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16126340386281557,
+      "normalized_dense": 0.32486713705430537,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.3815266485402278,
+      "rank": 22,
+      "rrf_score": 0.3815266485402278,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_005",
+      "alias_source_ids": [
+        "P23_005"
+      ],
+      "section": "People-oriented Value to Realize Employees' Dreams / Employee turnover",
+      "pages": [
+        23
+      ],
+      "text": "We continuously improve the system of compensation and benefits, and make regular adjustments according to market practices and employee performance. Besides, appropriate incentive plans are rolled out for employees at different levels, and mechanisms for medium- and long-term incentives and key project rewards are established. While developing a standard working hours system according to law, we provide benefits including five mandatory insurances (endowment insurance, medical insurance, unemployment insurance, employment injury insurance, maternity insurance) and housing provident fund, and statutory holidays. In particular, female employees are entitled to nursing and maternity leaves.",
+      "retrieval_text": "[Section]\nPeople-oriented Value to Realize Employees' Dreams / Employee turnover\n\n[Content]\nWe continuously improve the system of compensation and benefits, and make regular adjustments according to market practices and employee performance. Besides, appropriate incentive plans are rolled out for employees at different levels, and mechanisms for medium- and long-term incentives and key project rewards are established. While developing a standard working hours system according to law, we provide benefits including five mandatory insurances (endowment insurance, medical insurance, unemployment insurance, employment injury insurance, maternity insurance) and housing provident fund, and statutory holidays. In particular, female employees are entitled to nursing and maternity leaves.",
+      "bm25_rank": null,
+      "dense_rank": 10,
+      "bm25_score": null,
+      "dense_score": 0.21923568844795227,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.548619265203515,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.37993620590847854,
+      "rank": 23,
+      "rrf_score": 0.37993620590847854,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_003",
+      "alias_source_ids": [
+        "P17_003"
+      ],
+      "section": "Waste discharge* / Response to climate change",
+      "pages": [
+        17
+      ],
+      "text": "In strict accordance with Chinese laws, such as the Law on the Prevention and Control of Atmospheric Pollution, the Water Pollution Prevention Law and the Law on the Prevention and Control of Environmental Pollution by Solid Waste as well as our internal systems including the Clean Management Control Procedure, the Solid Waste Management Standard and the Chemicals Safety Management Standard, we rationally dispose of wastes generated in the process of operation to minimize the discharge of waste water, waste gas and hazardous waste, and continuously improve the surrounding environment.",
+      "retrieval_text": "[Section]\nWaste discharge* / Response to climate change\n\n[Content]\nIn strict accordance with Chinese laws, such as the Law on the Prevention and Control of Atmospheric Pollution, the Water Pollution Prevention Law and the Law on the Prevention and Control of Environmental Pollution by Solid Waste as well as our internal systems including the Clean Management Control Procedure, the Solid Waste Management Standard and the Chemicals Safety Management Standard, we rationally dispose of wastes generated in the process of operation to minimize the discharge of waste water, waste gas and hazardous waste, and continuously improve the surrounding environment.",
+      "bm25_rank": 67,
+      "dense_rank": 23,
+      "bm25_score": 2.710705280303955,
+      "dense_score": 0.18074917793273926,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04895432764468967,
+      "normalized_dense": 0.38590003240478976,
+      "normalized_bm25_rank": 0.5570469798657718,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.37103037351490964,
+      "rank": 24,
+      "rrf_score": 0.37103037351490964,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_004",
+      "alias_source_ids": [
+        "P21_004"
+      ],
+      "section": "Exploring an innovative property management mode with Sinochem Lantian",
+      "pages": [
+        21
+      ],
+      "text": "In August 2021, Jinmao Services concluded an equity cooperation agreement with Beijing Zhongguancun Science City Construction Co., Ltd. (\"Zhongguancun Science City\" for short) to establish a specialized property service platform company based on their respective advantages, aiming to build an intelligent, diversified and quality service system and create a new quality service model.",
+      "retrieval_text": "[Section]\nExploring an innovative property management mode with Sinochem Lantian\n\n[Content]\nIn August 2021, Jinmao Services concluded an equity cooperation agreement with Beijing Zhongguancun Science City Construction Co., Ltd. (\"Zhongguancun Science City\" for short) to establish a specialized property service platform company based on their respective advantages, aiming to build an intelligent, diversified and quality service system and create a new quality service model.",
+      "bm25_rank": 98,
+      "dense_rank": 16,
+      "bm25_score": 1.4952802658081055,
+      "dense_score": 0.191546231508255,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.021073718461553648,
+      "normalized_dense": 0.43154948855904907,
+      "normalized_bm25_rank": 0.3489932885906041,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.37002216535911886,
+      "rank": 25,
+      "rrf_score": 0.37002216535911886,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_012",
+      "alias_source_ids": [
+        "P13_012"
+      ],
+      "section": "Customer satisfaction / Digital scenario empowerment,",
+      "pages": [
+        13
+      ],
+      "text": "Based on high-quality customer services, we keep fine-tuning our management mode and have established a business audit mechanism and a basic business accountability mechanism to ensure the progress and quality of rectification, achieving stable property management services.",
+      "retrieval_text": "[Section]\nCustomer satisfaction / Digital scenario empowerment,\n\n[Content]\nBased on high-quality customer services, we keep fine-tuning our management mode and have established a business audit mechanism and a basic business accountability mechanism to ensure the progress and quality of rectification, achieving stable property management services.",
+      "bm25_rank": 79,
+      "dense_rank": 22,
+      "bm25_score": 2.326408624649048,
+      "dense_score": 0.18562956154346466,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.040138954636141755,
+      "normalized_dense": 0.4065340744696531,
+      "normalized_bm25_rank": 0.47651006711409394,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.3697778042399291,
+      "rank": 26,
+      "rrf_score": 0.3697778042399291,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_009",
+      "alias_source_ids": [
+        "P6_009"
+      ],
+      "section": "Organizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST",
+      "pages": [
+        6
+      ],
+      "text": "By the end of 2021, the Company had 175 projects under management in48 cities, covering an area of 36.42 million square meters. In 2021, the Company had total assets of RMB 1.359 billion, operating income of RMB 1.516 bllion, and profits before tax of RMB 248 million.",
+      "retrieval_text": "[Section]\nOrganizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST\n\n[Content]\nBy the end of 2021, the Company had 175 projects under management in48 cities, covering an area of 36.42 million square meters. In 2021, the Company had total assets of RMB 1.359 billion, operating income of RMB 1.516 bllion, and profits before tax of RMB 248 million.",
+      "bm25_rank": 51,
+      "dense_rank": 28,
+      "bm25_score": 3.9952166080474854,
+      "dense_score": 0.1727708876132965,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07841970633362795,
+      "normalized_dense": 0.3521681803234727,
+      "normalized_bm25_rank": 0.6644295302013423,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.36914414666182027,
+      "rank": 27,
+      "rrf_score": 0.36914414666182027,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_001",
+      "alias_source_ids": [
+        "P6_001"
+      ],
+      "section": "Organizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST",
+      "pages": [
+        6
+      ],
+      "text": "Writing a New Chapter with Multiple Roles",
+      "retrieval_text": "[Section]\nOrganizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST\n\n[Content]\nWriting a New Chapter with Multiple Roles",
+      "bm25_rank": 28,
+      "dense_rank": 44,
+      "bm25_score": 10.749156951904297,
+      "dense_score": 0.15516544878482819,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.23334820371311815,
+      "normalized_dense": 0.27773317800958736,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.36803732687148255,
+      "rank": 28,
+      "rrf_score": 0.36803732687148255,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_002",
+      "alias_source_ids": [
+        "P6_002"
+      ],
+      "section": "Organizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST",
+      "pages": [
+        6
+      ],
+      "text": "High tier·High quality·High customer base We constantly deliver premium services around high-end cities and high-quality projects and adhere to \"customer-centric\" to achieve a virtuous circle at a high level of \"high customer satisfaction - high renewal rate - high payment rate - high pricing power - high level of service input - high satisfaction\" and continuously gain customer reputation. Service quality highlights brand value",
+      "retrieval_text": "[Section]\nOrganizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST\n\n[Content]\nHigh tier·High quality·High customer base We constantly deliver premium services around high-end cities and high-quality projects and adhere to \"customer-centric\" to achieve a virtuous circle at a high level of \"high customer satisfaction - high renewal rate - high payment rate - high pricing power - high level of service input - high satisfaction\" and continuously gain customer reputation. Service quality highlights brand value",
+      "bm25_rank": 56,
+      "dense_rank": 30,
+      "bm25_score": 3.404254913330078,
+      "dense_score": 0.1700693666934967,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06486364828305866,
+      "normalized_dense": 0.34074627156700676,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.35639499853056744,
+      "rank": 29,
+      "rrf_score": 0.35639499853056744,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T28_001",
+      "alias_source_ids": [
+        "T28_001"
+      ],
+      "section": "Appendix / Outlook 2022",
+      "pages": [
+        28
+      ],
+      "text": "Major category | Content | Location A.Environmental Aspect A1: Emissions | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | P25, P27-P28 A1.1 | The types of emissions and respective emissions data. | P27 A1.2 | emissions (in tonnes) and, where appropriate, intensity (e.g. per Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas unit of production volume, per facility). | P27 A1.3 | appropriate, intensity (e.g. per unit of production volume, Total hazardous waste produced (in tonnes) and, where per facility). | P28 A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | P28 A1.5 | Description of emission target(s) set and steps taken to achieve them. | P25, P27-P28 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | P28",
+      "retrieval_text": "[Section]\nAppendix / Outlook 2022\n\n[Content]\nMajor category | Content | Location A.Environmental Aspect A1: Emissions | General Disclosure: Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | P25, P27-P28 A1.1 | The types of emissions and respective emissions data. | P27 A1.2 | emissions (in tonnes) and, where appropriate, intensity (e.g. per Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas unit of production volume, per facility). | P27 A1.3 | appropriate, intensity (e.g. per unit of production volume, Total hazardous waste produced (in tonnes) and, where per facility). | P28 A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | P28 A1.5 | Description of emission target(s) set and steps taken to achieve them. | P25, P27-P28 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | P28",
+      "bm25_rank": 10,
+      "dense_rank": 77,
+      "bm25_score": 21.5106258392334,
+      "dense_score": 0.13459685444831848,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.48020531518087367,
+      "normalized_dense": 0.19077008768571682,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.4899328859060402,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.3547569024510079,
+      "rank": 30,
+      "rrf_score": 0.3547569024510079,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_001",
+      "alias_source_ids": [
+        "P23_001"
+      ],
+      "section": "People-oriented Value to Realize Employees' Dreams / Employee turnover",
+      "pages": [
+        23
+      ],
+      "text": "Regarding employees as our most valuable assets, we are willing to absorb the most outstanding and potential talents, the democratic management mechanism as well as the compensation and benefit system, and help employees realize hoping that every employee can reap satisfactory growth. We keep improving the employment management system, their career dreams.",
+      "retrieval_text": "[Section]\nPeople-oriented Value to Realize Employees' Dreams / Employee turnover\n\n[Content]\nRegarding employees as our most valuable assets, we are willing to absorb the most outstanding and potential talents, the democratic management mechanism as well as the compensation and benefit system, and help employees realize hoping that every employee can reap satisfactory growth. We keep improving the employment management system, their career dreams.",
+      "bm25_rank": null,
+      "dense_rank": 15,
+      "bm25_score": null,
+      "dense_score": 0.20571333169937134,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.49144734999727674,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.35321462619032207,
+      "rank": 31,
+      "rrf_score": 0.35321462619032207,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_003",
+      "alias_source_ids": [
+        "P24_003"
+      ],
+      "section": "「Employee care / Employee training and development,",
+      "pages": [
+        24
+      ],
+      "text": "In 2021, the Company invested a total of RMB 876,400 for all trainings, covering 2,635 participants, with the employee coverage of 100%.",
+      "retrieval_text": "[Section]\n「Employee care / Employee training and development,\n\n[Content]\nIn 2021, the Company invested a total of RMB 876,400 for all trainings, covering 2,635 participants, with the employee coverage of 100%.",
+      "bm25_rank": 19,
+      "dense_rank": 63,
+      "bm25_score": 15.158555030822754,
+      "dense_score": 0.14344611763954163,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3344952947347634,
+      "normalized_dense": 0.22818437383516246,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.5838926174496644,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.3514615763664407,
+      "rank": 32,
+      "rrf_score": 0.3514615763664407,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_003",
+      "alias_source_ids": [
+        "P18_003"
+      ],
+      "section": "Green charity / 【Spotlight】Jinmao Services·Focus",
+      "pages": [
+        18
+      ],
+      "text": "Protecting the health and safety of customers and employees is one of the important principles in our operation. As the first property service provider in China to create and implement the HSE management system in line with Sinochem Holdings across the board, we step up investment in work safety and improve work safety management to minimize hidden safety hazards in operation, building a strong defense to protect the health and safety of customers and employees with practical actions.",
+      "retrieval_text": "[Section]\nGreen charity / 【Spotlight】Jinmao Services·Focus\n\n[Content]\nProtecting the health and safety of customers and employees is one of the important principles in our operation. As the first property service provider in China to create and implement the HSE management system in line with Sinochem Holdings across the board, we step up investment in work safety and improve work safety management to minimize hidden safety hazards in operation, building a strong defense to protect the health and safety of customers and employees with practical actions.",
+      "bm25_rank": 35,
+      "dense_rank": 42,
+      "bm25_score": 6.820003509521484,
+      "dense_score": 0.15586674213409424,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14321743444218274,
+      "normalized_dense": 0.2806982146998925,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.3490355130401103,
+      "rank": 33,
+      "rrf_score": 0.3490355130401103,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_008",
+      "alias_source_ids": [
+        "P4_008"
+      ],
+      "section": "About the Report / Message",
+      "pages": [
+        4
+      ],
+      "text": "This report is prepared mainly with reference to the Guidance on Social Responsibility Reporting (GB/T 36001-2015) and Environmental, Social and Governance Reporting Guide (ESG Reporting Guide) issued by The Stock Exchange of Hong Kong Ltd.(SEHK), and follows the reporting principles of \"materiality\", \"quantitative\", and \"consistency\".",
+      "retrieval_text": "[Section]\nAbout the Report / Message\n\n[Content]\nThis report is prepared mainly with reference to the Guidance on Social Responsibility Reporting (GB/T 36001-2015) and Environmental, Social and Governance Reporting Guide (ESG Reporting Guide) issued by The Stock Exchange of Hong Kong Ltd.(SEHK), and follows the reporting principles of \"materiality\", \"quantitative\", and \"consistency\".",
+      "bm25_rank": 76,
+      "dense_rank": 27,
+      "bm25_score": 2.3540728092193604,
+      "dense_score": 0.1739080250263214,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04077354279187011,
+      "normalized_dense": 0.3569759460823611,
+      "normalized_bm25_rank": 0.49664429530201337,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.34786139035834135,
+      "rank": 34,
+      "rrf_score": 0.34786139035834135,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_005",
+      "alias_source_ids": [
+        "P20_005"
+      ],
+      "section": "Win-win Cooperation with Partners",
+      "pages": [
+        20
+      ],
+      "text": "We evaluate different business types of suppliers in different cycles, and adopt method of \"scoring by the business department+scoring bythe supervision department\" to ensure supervision oversupplier evaluation.",
+      "retrieval_text": "[Section]\nWin-win Cooperation with Partners\n\n[Content]\nWe evaluate different business types of suppliers in different cycles, and adopt method of \"scoring by the business department+scoring bythe supervision department\" to ensure supervision oversupplier evaluation.",
+      "bm25_rank": 107,
+      "dense_rank": 20,
+      "bm25_score": 0.8334330916404724,
+      "dense_score": 0.186235710978508,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0058916198690009865,
+      "normalized_dense": 0.40909684697646803,
+      "normalized_bm25_rank": 0.28859060402684567,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.34771792511355054,
+      "rank": 35,
+      "rrf_score": 0.34771792511355054,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T8_002",
+      "alias_source_ids": [
+        "T8_002"
+      ],
+      "section": "Sustainability Management / Stakeholder Communication",
+      "pages": [
+        8
+      ],
+      "text": "Stakeholders | Expectations and requirements | Communication and response Government/Regulators | Operation in compliance with laws and regulations Paying tax in accordance with the laws | Strengthening compliance management Paying taxes on time and in full Shareholders/Investors | Financial performance Improving organizational structure Disclosing information | Continuously improve profitability Improving corporate governance Daily information disclosure Customers/owners | Quality property services Customer safety Privacy protection Harmonious community environment | Improving the service system and innovating in service methods Regular COVID-19 response Protecting consumers' rights and privacy Colorful activities held on\"MAO Neighborhood\" platform Employees | Respecting and protecting basic rights Career development and training Working environment Employee care | Signing contracts and competitive salary system Improving career development path and providing diversified training Safeguarding occupational health Carrying out various cultural and sports activities Environment | Protecting the community environment Addressing climate change Saving resources Advocating green lifestyle | Integrating green concepts into business management Green and low-carbon operation Resource recycling Organizing events on environmental protection Suppliers and Partners | Honoring commitments Win-win cooperation | Improving supplier management Contracts fulfillment in accordance with the law Participating in industry exchange Communities | Harmonious community environment Promoting employment Charity | Advocating harmonious culture Providing employment opportunities Carrying out charitable activities Providing voluntary services",
+      "retrieval_text": "[Section]\nSustainability Management / Stakeholder Communication\n\n[Content]\nStakeholders | Expectations and requirements | Communication and response Government/Regulators | Operation in compliance with laws and regulations Paying tax in accordance with the laws | Strengthening compliance management Paying taxes on time and in full Shareholders/Investors | Financial performance Improving organizational structure Disclosing information | Continuously improve profitability Improving corporate governance Daily information disclosure Customers/owners | Quality property services Customer safety Privacy protection Harmonious community environment | Improving the service system and innovating in service methods Regular COVID-19 response Protecting consumers' rights and privacy Colorful activities held on\"MAO Neighborhood\" platform Employees | Respecting and protecting basic rights Career development and training Working environment Employee care | Signing contracts and competitive salary system Improving career development path and providing diversified training Safeguarding occupational health Carrying out various cultural and sports activities Environment | Protecting the community environment Addressing climate change Saving resources Advocating green lifestyle | Integrating green concepts into business management Green and low-carbon operation Resource recycling Organizing events on environmental protection Suppliers and Partners | Honoring commitments Win-win cooperation | Improving supplier management Contracts fulfillment in accordance with the law Participating in industry exchange Communities | Harmonious community environment Promoting employment Charity | Advocating harmonious culture Providing employment opportunities Carrying out charitable activities Providing voluntary services",
+      "bm25_rank": 24,
+      "dense_rank": 62,
+      "bm25_score": 12.762271881103516,
+      "dense_score": 0.14461705088615417,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2795270052947369,
+      "normalized_dense": 0.2331350268560956,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.5906040268456376,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.3401872242169701,
+      "rank": 36,
+      "rrf_score": 0.3401872242169701,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_005",
+      "alias_source_ids": [
+        "P18_005"
+      ],
+      "section": "Green charity / 【Spotlight】Jinmao Services·Focus",
+      "pages": [
+        18
+      ],
+      "text": "In 1999, Jin Mao Tower on the Huangpu River in Shanghai made its debut as \"the tallest building in China\". After more than two decades, it still stands as one of the three landmarks in Shanghai. Safety is the top priority to operate this 421-meter high-rise building. Adhering to long-term doctrine, we ensure all-round safe operation of Jin Mao Tower with high standards and strict requirements.",
+      "retrieval_text": "[Section]\nGreen charity / 【Spotlight】Jinmao Services·Focus\n\n[Content]\nIn 1999, Jin Mao Tower on the Huangpu River in Shanghai made its debut as \"the tallest building in China\". After more than two decades, it still stands as one of the three landmarks in Shanghai. Safety is the top priority to operate this 421-meter high-rise building. Adhering to long-term doctrine, we ensure all-round safe operation of Jin Mao Tower with high standards and strict requirements.",
+      "bm25_rank": 31,
+      "dense_rank": 53,
+      "bm25_score": 8.575874328613281,
+      "dense_score": 0.15007375180721283,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18349531872077596,
+      "normalized_dense": 0.25620571254831465,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.33643817723002506,
+      "rank": 37,
+      "rrf_score": 0.33643817723002506,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_002",
+      "alias_source_ids": [
+        "P16_002"
+      ],
+      "section": "Green Operation to Safeguard Environment",
+      "pages": [
+        16
+      ],
+      "text": "In accordance with the Environmental Protection Law of the People's Republic of China and the China Jinmao's Administrative Guidelines on Environmental Protection ,we have formulated the Measures for the Management of Environmental Protection, which specifies the measures, such as saving energy use, reducing carbon emissions, optimizing water resources use and reducing waste emissions, to improve the systematic environmental management.",
+      "retrieval_text": "[Section]\nGreen Operation to Safeguard Environment\n\n[Content]\nIn accordance with the Environmental Protection Law of the People's Republic of China and the China Jinmao's Administrative Guidelines on Environmental Protection ,we have formulated the Measures for the Management of Environmental Protection, which specifies the measures, such as saving energy use, reducing carbon emissions, optimizing water resources use and reducing waste emissions, to improve the systematic environmental management.",
+      "bm25_rank": 36,
+      "dense_rank": 49,
+      "bm25_score": 6.483926773071289,
+      "dense_score": 0.15340256690979004,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1355081771595372,
+      "normalized_dense": 0.27027979285253095,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.33378009984304496,
+      "rank": 38,
+      "rrf_score": 0.33378009984304496,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L18_001",
+      "alias_source_ids": [
+        "L18_001"
+      ],
+      "section": "Green charity / 【Spotlight】Jinmao Services·Focus",
+      "pages": [
+        18
+      ],
+      "text": "Work safety management: Under a three-tier control mode of \"Headquarters-Central City Subsidiary two certified safety engineers/certified fire engineers or professional fire electromechanical engineers -Project\", the HSE department of the Headquarters and central city subsidiaries is equipped with at least to strengthen the main responsibilities of safety at all levels.",
+      "retrieval_text": "[Section]\nGreen charity / 【Spotlight】Jinmao Services·Focus\n\n[Content]\nWork safety management: Under a three-tier control mode of \"Headquarters-Central City Subsidiary two certified safety engineers/certified fire engineers or professional fire electromechanical engineers -Project\", the HSE department of the Headquarters and central city subsidiaries is equipped with at least to strengthen the main responsibilities of safety at all levels.",
+      "bm25_rank": 106,
+      "dense_rank": 24,
+      "bm25_score": 0.8416039943695068,
+      "dense_score": 0.17888042330741882,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.006079052037127066,
+      "normalized_dense": 0.3779990220286734,
+      "normalized_bm25_rank": 0.2953020134228188,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.3321731862382665,
+      "rank": 39,
+      "rrf_score": 0.3321731862382665,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_004",
+      "alias_source_ids": [
+        "P18_004"
+      ],
+      "section": "Green charity / 【Spotlight】Jinmao Services·Focus",
+      "pages": [
+        18
+      ],
+      "text": "We have formulated policies including the Measures for Safety Management, the Measures for Fire Safety Management, and the Measures for Electrical Safety Management to make clear all work safety processes and methods, and strictly supervise their implementation. Aligning with the HSE management system of Sinochem Holdings and China Jinmao, our HSE management system features high standards and strong control, protecting the safety of customers with full-range safety management without escape corner.",
+      "retrieval_text": "[Section]\nGreen charity / 【Spotlight】Jinmao Services·Focus\n\n[Content]\nWe have formulated policies including the Measures for Safety Management, the Measures for Fire Safety Management, and the Measures for Electrical Safety Management to make clear all work safety processes and methods, and strictly supervise their implementation. Aligning with the HSE management system of Sinochem Holdings and China Jinmao, our HSE management system features high standards and strong control, protecting the safety of customers with full-range safety management without escape corner.",
+      "bm25_rank": 138,
+      "dense_rank": 19,
+      "bm25_score": 0.6415085792541504,
+      "dense_score": 0.1870056390762329,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0014890674624861834,
+      "normalized_dense": 0.4123520682915431,
+      "normalized_bm25_rank": 0.08053691275167785,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.32851365484420175,
+      "rank": 40,
+      "rrf_score": 0.32851365484420175,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L21_001",
+      "alias_source_ids": [
+        "L21_001"
+      ],
+      "section": "Exploring an innovative property management mode with Sinochem Lantian",
+      "pages": [
+        21
+      ],
+      "text": "Transparent procurement: We have revised the Measures for the Management of Bidding Procurement to standardize the bid and procurement system and optimize the Transparent Bidding Procurement Platform and Material Procurement Platform to ensure a transparent procurement system. We sign the Transparent Bidding Procurement Agreementwith suppliers to strengthen integrity risk management of suppliers. Under the same conditions, priority is given to eco-friendly, energy-efficient products.",
+      "retrieval_text": "[Section]\nExploring an innovative property management mode with Sinochem Lantian\n\n[Content]\nTransparent procurement: We have revised the Measures for the Management of Bidding Procurement to standardize the bid and procurement system and optimize the Transparent Bidding Procurement Platform and Material Procurement Platform to ensure a transparent procurement system. We sign the Transparent Bidding Procurement Agreementwith suppliers to strengthen integrity risk management of suppliers. Under the same conditions, priority is given to eco-friendly, energy-efficient products.",
+      "bm25_rank": 133,
+      "dense_rank": 21,
+      "bm25_score": 0.6583537459373474,
+      "dense_score": 0.18569858372211456,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0018754783914350245,
+      "normalized_dense": 0.40682589713181855,
+      "normalized_bm25_rank": 0.11409395973154357,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3273279180636852,
+      "rank": 41,
+      "rrf_score": 0.3273279180636852,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_003",
+      "alias_source_ids": [
+        "P6_003"
+      ],
+      "section": "Organizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST",
+      "pages": [
+        6
+      ],
+      "text": "Diverse property types-Full cycle-All scenarios Through nationwide layout, we provide a full range of business services for residential properties, commercial properties, industrial parks, public properties and city facilities, services in the full life cycle from consulting, operation and management to delivery of assets, and services under all scenarios oriented by owners and users of properties needs and provide value-added services across the field. Provide \"total solutions\" to customers Strive to realize future human habitats and city dreams",
+      "retrieval_text": "[Section]\nOrganizational Structure / HIGH, COMPREHENSIVE INNOVATIVE AND FAST\n\n[Content]\nDiverse property types-Full cycle-All scenarios Through nationwide layout, we provide a full range of business services for residential properties, commercial properties, industrial parks, public properties and city facilities, services in the full life cycle from consulting, operation and management to delivery of assets, and services under all scenarios oriented by owners and users of properties needs and provide value-added services across the field. Provide \"total solutions\" to customers Strive to realize future human habitats and city dreams",
+      "bm25_rank": 57,
+      "dense_rank": 40,
+      "bm25_score": 3.1947174072265625,
+      "dense_score": 0.15878154337406158,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.060057071779197294,
+      "normalized_dense": 0.29302186304262234,
+      "normalized_bm25_rank": 0.6241610738255033,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 40,
+      "composite_score": 0.324636180514717,
+      "rank": 42,
+      "rrf_score": 0.324636180514717,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_002",
+      "alias_source_ids": [
+        "P8_002"
+      ],
+      "section": "Sustainability Management / Stakeholder Communication",
+      "pages": [
+        8
+      ],
+      "text": "At Jinmao Services, sustainability is part of our gene. Sustainability has been integrated into our strategic management and routine operation and the Board of Directors values the importance of sustainability to the Company and society. Together, we are committed to creating value with shareholders, sharing quality with customers, co-depending with the environment, progressing together with employees, achieving win-win cooperation with partners, and building a harmonious relationship with the community.",
+      "retrieval_text": "[Section]\nSustainability Management / Stakeholder Communication\n\n[Content]\nAt Jinmao Services, sustainability is part of our gene. Sustainability has been integrated into our strategic management and routine operation and the Board of Directors values the importance of sustainability to the Company and society. Together, we are committed to creating value with shareholders, sharing quality with customers, co-depending with the environment, progressing together with employees, achieving win-win cooperation with partners, and building a harmonious relationship with the community.",
+      "bm25_rank": 114,
+      "dense_rank": 26,
+      "bm25_score": 0.7820966243743896,
+      "dense_score": 0.17610064148902893,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.004714013711798274,
+      "normalized_dense": 0.36624622971830134,
+      "normalized_bm25_rank": 0.24161073825503354,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.31973300998940274,
+      "rank": 43,
+      "rrf_score": 0.31973300998940274,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_004",
+      "alias_source_ids": [
+        "P8_004"
+      ],
+      "section": "Sustainability Management / Stakeholder Communication",
+      "pages": [
+        8
+      ],
+      "text": "Based on the analysis of material topics, the changes of external environment and internal conditions, Jinmao Services identifies 21 material sustainability topics from two dimensions: \"Significance to the Company's sustainable development\" and\" Influence on stakeholder assessments and decisions\". We form an analysis matrix ranked by importance and disclose it in the report as a highlight of ESG management.",
+      "retrieval_text": "[Section]\nSustainability Management / Stakeholder Communication\n\n[Content]\nBased on the analysis of material topics, the changes of external environment and internal conditions, Jinmao Services identifies 21 material sustainability topics from two dimensions: \"Significance to the Company's sustainable development\" and\" Influence on stakeholder assessments and decisions\". We form an analysis matrix ranked by importance and disclose it in the report as a highlight of ESG management.",
+      "bm25_rank": 63,
+      "dense_rank": 47,
+      "bm25_score": 2.997657060623169,
+      "dense_score": 0.15372036397457123,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05553670857816388,
+      "normalized_dense": 0.27162342452697025,
+      "normalized_bm25_rank": 0.5838926174496644,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.3028198356020858,
+      "rank": 44,
+      "rrf_score": 0.3028198356020858,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T19_001",
+      "alias_source_ids": [
+        "T19_001"
+      ],
+      "section": "「Occupational health and safety",
+      "pages": [
+        19
+      ],
+      "text": "2019 | 2020 | 2021 Work-related fatalities (headcount) | 0 | 0 | 0 Percentage of work-related fatalities (%) | 0 | 0 | 0 Lost days due to work injury (day)* | 237 | 502 | 453",
+      "retrieval_text": "[Section]\n「Occupational health and safety\n\n[Content]\n2019 | 2020 | 2021 Work-related fatalities (headcount) | 0 | 0 | 0 Percentage of work-related fatalities (%) | 0 | 0 | 0 Lost days due to work injury (day)* | 237 | 502 | 453",
+      "bm25_rank": 1,
+      "dense_rank": null,
+      "bm25_score": 44.17051315307617,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.30000000000000004,
+      "rank": 45,
+      "rrf_score": 0.30000000000000004,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T17_001",
+      "alias_source_ids": [
+        "T17_001"
+      ],
+      "section": "Waste discharge* / Response to climate change",
+      "pages": [
+        17
+      ],
+      "text": "Total GHG emissions (Scope I + Scope II)1 (tCO2e) | Direct GHG emissions (Scope I)® (tCO2e) | Indirect GHG emissions (Scope II)3 (tCO2e) | GHG emission density (tCO2e) 2021 | 56,684.19 | 2,414.02 | 54,270.17 | 0.37",
+      "retrieval_text": "[Section]\nWaste discharge* / Response to climate change\n\n[Content]\nTotal GHG emissions (Scope I + Scope II)1 (tCO2e) | Direct GHG emissions (Scope I)® (tCO2e) | Indirect GHG emissions (Scope II)3 (tCO2e) | GHG emission density (tCO2e) 2021 | 56,684.19 | 2,414.02 | 54,270.17 | 0.37",
+      "bm25_rank": 2,
+      "dense_rank": 144,
+      "bm25_score": 41.355133056640625,
+      "dense_score": 0.09207015484571457,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9354180543969977,
+      "normalized_dense": 0.010969117419466127,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.04026845637583898,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.2983053523117832,
+      "rank": 46,
+      "rrf_score": 0.2983053523117832,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L10_002",
+      "alias_source_ids": [
+        "L10_002"
+      ],
+      "section": "Service Upgrade to Build a Better Home",
+      "pages": [
+        10
+      ],
+      "text": "2021 High-end Property Service No.1 issued by Shanghai E-house China R&D Institute",
+      "retrieval_text": "[Section]\nService Upgrade to Build a Better Home\n\n[Content]\n2021 High-end Property Service No.1 issued by Shanghai E-house China R&D Institute",
+      "bm25_rank": 8,
+      "dense_rank": 112,
+      "bm25_score": 24.234451293945312,
+      "dense_score": 0.1129031553864479,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5426870907574615,
+      "normalized_dense": 0.09905010526437813,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.25503355704697983,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.28951367982623943,
+      "rank": 47,
+      "rrf_score": 0.28951367982623943,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_002",
+      "alias_source_ids": [
+        "P31_002"
+      ],
+      "section": "Reader Feedback",
+      "pages": [
+        31
+      ],
+      "text": "1.Your overall evaluation of this report.",
+      "retrieval_text": "[Section]\nReader Feedback\n\n[Content]\n1.Your overall evaluation of this report.",
+      "bm25_rank": 5,
+      "dense_rank": 134,
+      "bm25_score": 28.743471145629883,
+      "dense_score": 0.09899407625198364,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6461194035570831,
+      "normalized_dense": 0.04024314523088405,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.10738255033557043,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.2621009278509509,
+      "rank": 48,
+      "rrf_score": 0.2621009278509509,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "About the Report / Message",
+      "pages": [
+        4
+      ],
+      "text": "1 January - 31 December 2021, part of the contents extends to April 2022.",
+      "retrieval_text": "[Section]\nAbout the Report / Message\n\n[Content]\n1 January - 31 December 2021, part of the contents extends to April 2022.",
+      "bm25_rank": 6,
+      "dense_rank": null,
+      "bm25_score": 26.081941604614258,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.5850666326519132,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.21365762183239606,
+      "rank": 49,
+      "rrf_score": 0.21365762183239606,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L17_001",
+      "alias_source_ids": [
+        "L17_001"
+      ],
+      "section": "Waste discharge* / Response to climate change",
+      "pages": [
+        17
+      ],
+      "text": "1 : GHG emissions are the sum of direct GHG emissions (Scope l) and indirect GHG emissions (Scope Il).",
+      "retrieval_text": "[Section]\nWaste discharge* / Response to climate change\n\n[Content]\n1 : GHG emissions are the sum of direct GHG emissions (Scope l) and indirect GHG emissions (Scope Il).",
+      "bm25_rank": 9,
+      "dense_rank": null,
+      "bm25_score": 24.127124786376953,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.540225130227757,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.20267589852877288,
+      "rank": 50,
+      "rrf_score": 0.20267589852877288,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

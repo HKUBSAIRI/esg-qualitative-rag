@@ -1,0 +1,1556 @@
+{
+  "document_id": "2022053000555",
+  "metric_id": 32,
+  "metric_name": "产品回收率",
+  "query": "产品回收率 产品回收率 衡量企业在报告期内，因安全、健康等潜在风险而必须执行回收的受影响产品数量，占同期已售或已运送产品总数的百分比。 A. 数据透明度得分 (权重 50%) 2分：清晰披露了回收百分比，或明确声明本期“回收率为 0%”。 1分：仅定性描述有/无回收，未给出具体的百分比或产品基数。 0分：未披露任何回收相关数据。 B. 统计口径得分 (权重 50%) 2分：说明了计算口径（如涵盖的所有产品线）及回收原因（如技术缺陷、标签错误）。 1分：仅给出一个孤立的数字，无背景说明。 0分：无说明。 最终得分 = 0.5×A+0.5×B 产品召回率 召回百分比 产品召回数量 已售产品数量 已运送产品数量 零召回 未发生产品召回 安全原因召回 健康风险召回 缺陷产品召回 标签错误召回 product recall rate percentage of products recalled recalled units units sold units shipped zero recalls no product recalls safety-related recall health-related recall defective product recall mislabeling recall 报告期内是否定性说明发生或未发生产品召回？ 是否披露因安全、健康、技术缺陷或标签错误召回的产品占已售或已运送产品的百分比，或明确声明召回率为0%？ 召回数量、已售/已运送数量及计算公式是什么？ 召回原因和产品范围是什么？ 报告期与统计边界是什么？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '产品回收率'. Prefer explicit, auditable disclosure that answers: 报告期内是否定性说明发生或未发生产品召回？ 是否披露因安全、健康、技术缺陷或标签错误召回的产品占已售或已运送产品的百分比，或明确声明召回率为0%？ 召回数量、已售/已运送数量及计算公式是什么？ 召回原因和产品范围是什么？ 报告期与统计边界是什么？ Exclude or down-rank: 排除：仅有“本期无重大召回”无比例；仅有召回制度而无数量占比；循环经济产品回收再利用率；仅有客户退货率；区分：尽管指标名含“回收率”，定义实为安全/健康原因召回数量占比，不是循环经济回收利用率；召回程序看制度完备性；本指标看量化比率或0%声明。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 176,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "T32_001",
+      "alias_source_ids": [
+        "T32_001"
+      ],
+      "section": "APPENDIX: HKEX ESG REPORTING GUIDE INDEX",
+      "pages": [
+        32
+      ],
+      "text": "Key | Performance | Indicators | Report Content Index Operating Practices Aspect B5 | Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | Mutual success with suppliers B5.1 | Number of suppliers by geographical region. | Mutual success with suppliers B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | Mutual success with suppliers B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Mutual success with suppliers B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Mutual success with suppliers Aspect B6 | Product Responsibility General | Information on: | Quality control Disclosure | (a) (b) | the policies; and compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. B6.1 | Percentage of total products sold or shipped subject to recalls for safety | Quality control B6.2 | Number of products and service related complaints received and how they are dealt with. | Quality control B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Quality control B6.4 | Description of quality assurance process and recall procedures. | Quality control Mutual success with customers B6.5 | Description of consumer data protection and privacy policies, and how they are implemented and monitored. | Mutual success with customers",
+      "retrieval_text": "[Section]\nAPPENDIX: HKEX ESG REPORTING GUIDE INDEX\n\n[Content]\nKey | Performance | Indicators | Report Content Index Operating Practices Aspect B5 | Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | Mutual success with suppliers B5.1 | Number of suppliers by geographical region. | Mutual success with suppliers B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | Mutual success with suppliers B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Mutual success with suppliers B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Mutual success with suppliers Aspect B6 | Product Responsibility General | Information on: | Quality control Disclosure | (a) (b) | the policies; and compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. B6.1 | Percentage of total products sold or shipped subject to recalls for safety | Quality control B6.2 | Number of products and service related complaints received and how they are dealt with. | Quality control B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Quality control B6.4 | Description of quality assurance process and recall procedures. | Quality control Mutual success with customers B6.5 | Description of consumer data protection and privacy policies, and how they are implemented and monitored. | Mutual success with customers",
+      "bm25_rank": 1,
+      "dense_rank": 1,
+      "bm25_score": 38.6155891418457,
+      "dense_score": 0.5685747861862183,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.85,
+      "rank": 1,
+      "rrf_score": 0.85,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_002",
+      "alias_source_ids": [
+        "P8_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION",
+      "pages": [
+        8
+      ],
+      "text": "At the operation level of the Production Plants, in order to ensure the quality of outputs and to prevent unqualified raw materials and products from entering the next stage, 'Quality Control Personnel' (staffs of Quality Management Departments of all Production Plants) must be responsible for conducting label management on the outputs of each production stage, and inspection and testing procedures. Outputs which fail to meet the Group's quality requirements are required to be inspected and labelled. Regarding the management of unqualified products, Ju Teng International has established a whole-process inspection system to manage and inspect unqualified products from five aspects: incoming material inspection, process inspection, finished product inspection, delivery inspection and customer return. It is not allowed to release or deliver unqualified products until these products are re-inspected by the Quality Control Personnel and become qualified to ensure the quality of products leaving the factory. During the Reporting Period, no products of the Group sold or shipped were recalled for safety and health reasons.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION\n\n[Content]\nAt the operation level of the Production Plants, in order to ensure the quality of outputs and to prevent unqualified raw materials and products from entering the next stage, 'Quality Control Personnel' (staffs of Quality Management Departments of all Production Plants) must be responsible for conducting label management on the outputs of each production stage, and inspection and testing procedures. Outputs which fail to meet the Group's quality requirements are required to be inspected and labelled. Regarding the management of unqualified products, Ju Teng International has established a whole-process inspection system to manage and inspect unqualified products from five aspects: incoming material inspection, process inspection, finished product inspection, delivery inspection and customer return. It is not allowed to release or deliver unqualified products until these products are re-inspected by the Quality Control Personnel and become qualified to ensure the quality of products leaving the factory. During the Reporting Period, no products of the Group sold or shipped were recalled for safety and health reasons.",
+      "bm25_rank": 2,
+      "dense_rank": 2,
+      "bm25_score": 22.87432289123535,
+      "dense_score": 0.5168513059616089,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5905181178747183,
+      "normalized_dense": 0.8225217860635049,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.7039728258783784,
+      "rank": 2,
+      "rrf_score": 0.7039728258783784,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T31_001",
+      "alias_source_ids": [
+        "T31_001"
+      ],
+      "section": "APPENDIX: HKEX ESG REPORTING GUIDE INDEX",
+      "pages": [
+        31
+      ],
+      "text": "Key Performance Indicators | Report Content Index Aspect B2 | Health and Safety General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working | Health and safety B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Health and safety B2.2 | Lost days due to work injury. | Health and safety B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. | Health and safety Aspect B3 | Development and Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. Training refers to vocational training. It may include internal and external courses paid by the employer. | Development and training B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Development and training The percentage of employees trained was not recorded since there was a significant change in the total number of production workers based on the business nature of the Group. Development and B3.2 | The average training hours completed per employee by gender and employee category. | training Aspect B4 | Labour Standards General | Information on: | Employment Disclosure | (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | management B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Employment management B4.2 | Description of steps taken to eliminate such practices when discovered. | Employment management",
+      "retrieval_text": "[Section]\nAPPENDIX: HKEX ESG REPORTING GUIDE INDEX\n\n[Content]\nKey Performance Indicators | Report Content Index Aspect B2 | Health and Safety General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working | Health and safety B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Health and safety B2.2 | Lost days due to work injury. | Health and safety B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. | Health and safety Aspect B3 | Development and Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. Training refers to vocational training. It may include internal and external courses paid by the employer. | Development and training B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Development and training The percentage of employees trained was not recorded since there was a significant change in the total number of production workers based on the business nature of the Group. Development and B3.2 | The average training hours completed per employee by gender and employee category. | training Aspect B4 | Labour Standards General | Information on: | Employment Disclosure | (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | management B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Employment management B4.2 | Description of steps taken to eliminate such practices when discovered. | Employment management",
+      "bm25_rank": 4,
+      "dense_rank": 3,
+      "bm25_score": 21.61520767211914,
+      "dense_score": 0.49520403146743774,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5577644078791009,
+      "normalized_dense": 0.748243729035343,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.668740200161009,
+      "rank": 3,
+      "rrf_score": 0.668740200161009,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T30_001",
+      "alias_source_ids": [
+        "T30_001"
+      ],
+      "section": "APPENDIX: HKEX ESG REPORTING GUIDE INDEX",
+      "pages": [
+        30
+      ],
+      "text": "Key Performance Indicators | Report Content Index Aspect A3 | The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impacts on the environment and natural resources. | Responsibility for environmental protection A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Responsibility for environmental protection Aspect A4 | Climate Change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Responsibility for environmental protection A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Responsibility for environmental protection B. Social Employment and Labour | Practices Aspect B1 | Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a | Employment management B1.1 | Total workforce by gender, employment type (for example, full-or part- time), age group and geographical region. | Employment management B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment management Employee turnover rate by age group is not available this year and will be disclosed in the",
+      "retrieval_text": "[Section]\nAPPENDIX: HKEX ESG REPORTING GUIDE INDEX\n\n[Content]\nKey Performance Indicators | Report Content Index Aspect A3 | The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impacts on the environment and natural resources. | Responsibility for environmental protection A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Responsibility for environmental protection Aspect A4 | Climate Change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Responsibility for environmental protection A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Responsibility for environmental protection B. Social Employment and Labour | Practices Aspect B1 | Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a | Employment management B1.1 | Total workforce by gender, employment type (for example, full-or part- time), age group and geographical region. | Employment management B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment management Employee turnover rate by age group is not available this year and will be disclosed in the",
+      "bm25_rank": 6,
+      "dense_rank": 4,
+      "bm25_score": 19.16408920288086,
+      "dense_score": 0.43476131558418274,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4940027899688,
+      "normalized_dense": 0.5408472968183318,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5807145615446057,
+      "rank": 4,
+      "rrf_score": 0.5807145615446057,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T9_001",
+      "alias_source_ids": [
+        "T9_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION / Mutual success with customers",
+      "pages": [
+        9
+      ],
+      "text": "Unit | 2019 | 2020 | 2021 Number of Product Complaints Received and Handled | Cases | 879 | 722 | 721",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION / Mutual success with customers\n\n[Content]\nUnit | 2019 | 2020 | 2021 Number of Product Complaints Received and Handled | Cases | 879 | 722 | 721",
+      "bm25_rank": 15,
+      "dense_rank": 6,
+      "bm25_score": 11.664441108703613,
+      "dense_score": 0.43438437581062317,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2989123844074363,
+      "normalized_dense": 0.5395539074817582,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5325189619497671,
+      "rank": 5,
+      "rrf_score": 0.5325189619497671,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_005",
+      "alias_source_ids": [
+        "P11_005"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION",
+      "pages": [
+        11
+      ],
+      "text": "Ju Teng International classifies all the suppliers into different levels (A/B/C/D) by the quality of the supplier's products and services and the degree of risk involved. Ju Teng International has conducted a risk assessment based on the risk items listed in the 'Supplier's Basic Information Table'. High-risk suppliers (scores below 80) are required to provide a rectification plan and make rectification, and if the rectification is not completed within the agreed period, the audit qualification of these suppliers will be cancelled. In addition, all Production Plants of Ju Teng International have introduced new procurement categories such as moulds, auxiliary materials, and equipment to strengthen centralised management of the procurement process.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION\n\n[Content]\nJu Teng International classifies all the suppliers into different levels (A/B/C/D) by the quality of the supplier's products and services and the degree of risk involved. Ju Teng International has conducted a risk assessment based on the risk items listed in the 'Supplier's Basic Information Table'. High-risk suppliers (scores below 80) are required to provide a rectification plan and make rectification, and if the rectification is not completed within the agreed period, the audit qualification of these suppliers will be cancelled. In addition, all Production Plants of Ju Teng International have introduced new procurement categories such as moulds, auxiliary materials, and equipment to strengthen centralised management of the procurement process.",
+      "bm25_rank": 19,
+      "dense_rank": 5,
+      "bm25_score": 10.645744323730469,
+      "dense_score": 0.4345351755619049,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27241274516719394,
+      "normalized_dense": 0.5400713450246949,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.5260578553625518,
+      "rank": 6,
+      "rrf_score": 0.5260578553625518,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T29_001",
+      "alias_source_ids": [
+        "T29_001"
+      ],
+      "section": "APPENDIX: HKEX ESG REPORTING GUIDE INDEX",
+      "pages": [
+        29
+      ],
+      "text": "Key Performance Indicators | Report Content Index A. Environmental Aspect A1 | Emissions General | Information on: | Responsibility for A1.1 | The types of emissions and respective emissions data. | Emission reduction A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emission reduction A1.6 | Description of how hazardous and non-hazardous wastes are handled, a description of reduction targets and steps taken to achieve them. | Emission reduction Aspect A2 Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. Resources may be used in production, in storage, transportation, in | Resource conservation A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Resource conservation A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Resource conservation A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Resource conservation A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Resource conservation A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Resource conservation",
+      "retrieval_text": "[Section]\nAPPENDIX: HKEX ESG REPORTING GUIDE INDEX\n\n[Content]\nKey Performance Indicators | Report Content Index A. Environmental Aspect A1 | Emissions General | Information on: | Responsibility for A1.1 | The types of emissions and respective emissions data. | Emission reduction A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emission reduction A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emission reduction A1.6 | Description of how hazardous and non-hazardous wastes are handled, a description of reduction targets and steps taken to achieve them. | Emission reduction Aspect A2 Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. Resources may be used in production, in storage, transportation, in | Resource conservation A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Resource conservation A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Resource conservation A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Resource conservation A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Resource conservation A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Resource conservation",
+      "bm25_rank": 13,
+      "dense_rank": 11,
+      "bm25_score": 13.626561164855957,
+      "dense_score": 0.4203135073184967,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.34995355230064007,
+      "normalized_dense": 0.49127268978964833,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.5204596418193909,
+      "rank": 7,
+      "rrf_score": 0.5204596418193909,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T33_001",
+      "alias_source_ids": [
+        "T33_001"
+      ],
+      "section": "APPENDIX: HKEX ESG REPORTING GUIDE INDEX",
+      "pages": [
+        33
+      ],
+      "text": "Key Performance Indicators | Report Content Index Aspect B7 | Anti-corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money | Anti-corruption management B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | Anti-corruption management B7.2 | Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored. | Anti-corruption management B7.3 | Description of anti-corruption training provided to directors and staff. | Anti-corruption management Community Aspect B8 | Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Responsibilities to the community B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Responsibilities to the community B8.2 | Resources contributed (e.g. money or time) to the focus area. | Undisclosed",
+      "retrieval_text": "[Section]\nAPPENDIX: HKEX ESG REPORTING GUIDE INDEX\n\n[Content]\nKey Performance Indicators | Report Content Index Aspect B7 | Anti-corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money | Anti-corruption management B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | Anti-corruption management B7.2 | Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored. | Anti-corruption management B7.3 | Description of anti-corruption training provided to directors and staff. | Anti-corruption management Community Aspect B8 | Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Responsibilities to the community B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Responsibilities to the community B8.2 | Resources contributed (e.g. money or time) to the focus area. | Undisclosed",
+      "bm25_rank": 10,
+      "dense_rank": 12,
+      "bm25_score": 14.629343032836914,
+      "dense_score": 0.4115998148918152,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.37603919243432543,
+      "normalized_dense": 0.4613734919405524,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.5158831915385417,
+      "rank": 8,
+      "rrf_score": 0.5158831915385417,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_003",
+      "alias_source_ids": [
+        "P8_003"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION",
+      "pages": [
+        8
+      ],
+      "text": "To be responsible to the customers, suppliers, partners and employees, Ju Teng International adopts the 'Product Identification and Traceability Procedure', which enables all incoming materials, work in process and finished goods to be identified and tracked at any time, so as to fundamentally guarantee the quality of the finished products and raw materials at each stage.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION\n\n[Content]\nTo be responsible to the customers, suppliers, partners and employees, Ju Teng International adopts the 'Product Identification and Traceability Procedure', which enables all incoming materials, work in process and finished goods to be identified and tracked at any time, so as to fundamentally guarantee the quality of the finished products and raw materials at each stage.",
+      "bm25_rank": 16,
+      "dense_rank": 10,
+      "bm25_score": 11.052835464477539,
+      "dense_score": 0.42525559663772583,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.28300251881409955,
+      "normalized_dense": 0.508230427004595,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.5123335022077168,
+      "rank": 9,
+      "rrf_score": 0.5123335022077168,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T26_001",
+      "alias_source_ids": [
+        "T26_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Health and safety",
+      "pages": [
+        26
+      ],
+      "text": "Unit | 2021 Number of work-related incidents | Case | 154 Lost days due to work-related accidents | Day | 2,467 Incident rate per one million work hours 2 | / | 4.43 Lost day rate per one million work hours 3 | / | 71.0 2019 | 2021",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Health and safety\n\n[Content]\nUnit | 2021 Number of work-related incidents | Case | 154 Lost days due to work-related accidents | Day | 2,467 Incident rate per one million work hours 2 | / | 4.43 Lost day rate per one million work hours 3 | / | 71.0 2019 | 2021",
+      "bm25_rank": 9,
+      "dense_rank": 15,
+      "bm25_score": 14.932004928588867,
+      "dense_score": 0.399444580078125,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3839124194509455,
+      "normalized_dense": 0.4196653672098806,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.499504288588144,
+      "rank": 10,
+      "rrf_score": 0.499504288588144,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T11_001",
+      "alias_source_ids": [
+        "T11_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION",
+      "pages": [
+        11
+      ],
+      "text": "Percentage of Qualified Suppliers by Region | 2019 | 2020 | 2021 Mainland China and Hong Kong | 95.0% | 90.5% | 90.2% Taiwan | 4.5% | 8.8% | 9.2% Other regions | 0.5% | 0.7% | 0.6% Number of Qualified Suppliers by Region | 2021 Mainland China and Hong Kong | 749 Taiwan | 76 Other regions | 5",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION\n\n[Content]\nPercentage of Qualified Suppliers by Region | 2019 | 2020 | 2021 Mainland China and Hong Kong | 95.0% | 90.5% | 90.2% Taiwan | 4.5% | 8.8% | 9.2% Other regions | 0.5% | 0.7% | 0.6% Number of Qualified Suppliers by Region | 2021 Mainland China and Hong Kong | 749 Taiwan | 76 Other regions | 5",
+      "bm25_rank": 11,
+      "dense_rank": 14,
+      "bm25_score": 14.549245834350586,
+      "dense_score": 0.40102338790893555,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.37395560201237493,
+      "normalized_dense": 0.4250827133115819,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4994089962360253,
+      "rank": 11,
+      "rrf_score": 0.4994089962360253,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T7_001",
+      "alias_source_ids": [
+        "T7_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication",
+      "pages": [
+        7
+      ],
+      "text": "Environment | Labour • Minimising emission and wastewater • Waste management • Energy saving and minimising greenhouse gas emission • New energy application • Environmental compliance | • Complying with labour laws • Protecting workers against health and safety hazards • Labour relations • Training and development Governance and community | Product responsibility • Anti-corruption • Managing suppliers' environmental and social performance | • Protecting customer information and privacy • Assuring product quality • Satisfying customer service and communication • Fair sales of products • Product and technological innovation",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication\n\n[Content]\nEnvironment | Labour • Minimising emission and wastewater • Waste management • Energy saving and minimising greenhouse gas emission • New energy application • Environmental compliance | • Complying with labour laws • Protecting workers against health and safety hazards • Labour relations • Training and development Governance and community | Product responsibility • Anti-corruption • Managing suppliers' environmental and social performance | • Protecting customer information and privacy • Assuring product quality • Satisfying customer service and communication • Fair sales of products • Product and technological innovation",
+      "bm25_rank": 8,
+      "dense_rank": 17,
+      "bm25_score": 15.382209777832031,
+      "dense_score": 0.3974223732948303,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.39562372183761796,
+      "normalized_dense": 0.4127265911153315,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4974045546135943,
+      "rank": 12,
+      "rrf_score": 0.4974045546135943,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T20_001",
+      "alias_source_ids": [
+        "T20_001"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        20
+      ],
+      "text": "Category | Unit | 2019 | 2020 | 2021 | YoY Change Effluent discharged | m 3 | 2,791,076 | 2,354,812 | 2,107,135 | -10.52% Effluent discharged intensity | m 3 /HK$ million | 313.0 | 234.8 | 186.8 | -20.46% Hazardous waste Total hazardous waste disposed | Tons | / | / | 3,278 | N/A Intensity of total hazardous waste disposed | Tons/HK$ million income | / | / | 0.4 | N/A Non-hazardous waste Total non-hazardous waste disposed | Tons | / | / | 1,133 | N/A Intensity of total non-hazardous waste disposed | Tons/HK$ million income | / | 0.1 | N/A Greenhouse gas emission Scope 1 greenhouse gas emission | tCO 2 equivalent | 43,560 | 37,750 | 44,291 | 17.33% Scope 2 greenhouse gas emission | tCO 2 equivalent | 581,784 | 653,503 | 465,900 | -28.71% Greenhouse gas emissions intensity | tCO 2 equivalent/ HK$ million income | 70.1 | 68.9 | 45.2 | -34.39%",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nCategory | Unit | 2019 | 2020 | 2021 | YoY Change Effluent discharged | m 3 | 2,791,076 | 2,354,812 | 2,107,135 | -10.52% Effluent discharged intensity | m 3 /HK$ million | 313.0 | 234.8 | 186.8 | -20.46% Hazardous waste Total hazardous waste disposed | Tons | / | / | 3,278 | N/A Intensity of total hazardous waste disposed | Tons/HK$ million income | / | / | 0.4 | N/A Non-hazardous waste Total non-hazardous waste disposed | Tons | / | / | 1,133 | N/A Intensity of total non-hazardous waste disposed | Tons/HK$ million income | / | 0.1 | N/A Greenhouse gas emission Scope 1 greenhouse gas emission | tCO 2 equivalent | 43,560 | 37,750 | 44,291 | 17.33% Scope 2 greenhouse gas emission | tCO 2 equivalent | 581,784 | 653,503 | 465,900 | -28.71% Greenhouse gas emissions intensity | tCO 2 equivalent/ HK$ million income | 70.1 | 68.9 | 45.2 | -34.39%",
+      "bm25_rank": 3,
+      "dense_rank": 36,
+      "bm25_score": 21.68297004699707,
+      "dense_score": 0.381479412317276,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.559527129146916,
+      "normalized_dense": 0.35802168288277747,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.48889086718734864,
+      "rank": 13,
+      "rrf_score": 0.48889086718734864,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_001",
+      "alias_source_ids": [
+        "P8_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION",
+      "pages": [
+        8
+      ],
+      "text": "Following the guiding principle of 'Do It Right at First Time', taking customer satisfaction as the goal and based on the ISO 9001 international quality standard, Ju Teng International formulated two whole process operation systems such as the 'Process Inspection and Testing Procedure' and 'Unqualified Product Control Procedure', as well as operational management systems such as 'Incoming Material Control Procedure', 'Measurement and Monitoring Procedure for Finished Product Quality Inspection', and 'Corrective and Preventive Measures Control Procedure'. Strict control is carried out in the whole process of incoming materials, finished products in storage and delivery, thus forming a complete product management system.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION\n\n[Content]\nFollowing the guiding principle of 'Do It Right at First Time', taking customer satisfaction as the goal and based on the ISO 9001 international quality standard, Ju Teng International formulated two whole process operation systems such as the 'Process Inspection and Testing Procedure' and 'Unqualified Product Control Procedure', as well as operational management systems such as 'Incoming Material Control Procedure', 'Measurement and Monitoring Procedure for Finished Product Quality Inspection', and 'Corrective and Preventive Measures Control Procedure'. Strict control is carried out in the whole process of incoming materials, finished products in storage and delivery, thus forming a complete product management system.",
+      "bm25_rank": 7,
+      "dense_rank": 23,
+      "bm25_score": 15.837141990661621,
+      "dense_score": 0.3908449411392212,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.40745799843157726,
+      "normalized_dense": 0.3901575198502744,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.4844896846540457,
+      "rank": 14,
+      "rrf_score": 0.4844896846540457,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T16_001",
+      "alias_source_ids": [
+        "T16_001"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION / Material management",
+      "pages": [
+        16
+      ],
+      "text": "Category | Unit | 2019 | 2020 | 2021 | YoY Change Water Water consumption | m 3 | 6,545,454 | 6,692,940 | 7,524,755 | 12.43% Water intensity | m 3 /HK$ million income | 734.1 | 667.3 | 666.9 | -0.06% Energy Diesel consumption | L | 287,185 | 159,414 | 171,475 | 7.57% Purchased electricity consumption | MWh | 674,919 | 736,225 | 763,645 | 3.72% Natural gas consumption | m 3 | 19,820,768 | 16,699,469 | 20,298,888 | 21.55% Total energy consumption | MWh | 885,062 | 912,505 | 977,713 | 7.15% Energy intensity | MWh/HK$ million income | 99.3 | 91.0 | 86.7 | -4.76% Recycling of scrap materials Paper | Tons | 1,625 | 1,660 | 1,936 | 16.63% Plastic | Tons | 2,531 | 3,697 | 7,255 | 96.26% Metal | Tons | 15,723 | 18,943 | 16,480 | -13.00% Total use of packaging materials Cardboard | Tons | 4,848 | 10,649 | 7,723 | -27.47% Plastic | Tons | 2,796 | 5,795 | 3,337 | -42.43%",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION / Material management\n\n[Content]\nCategory | Unit | 2019 | 2020 | 2021 | YoY Change Water Water consumption | m 3 | 6,545,454 | 6,692,940 | 7,524,755 | 12.43% Water intensity | m 3 /HK$ million income | 734.1 | 667.3 | 666.9 | -0.06% Energy Diesel consumption | L | 287,185 | 159,414 | 171,475 | 7.57% Purchased electricity consumption | MWh | 674,919 | 736,225 | 763,645 | 3.72% Natural gas consumption | m 3 | 19,820,768 | 16,699,469 | 20,298,888 | 21.55% Total energy consumption | MWh | 885,062 | 912,505 | 977,713 | 7.15% Energy intensity | MWh/HK$ million income | 99.3 | 91.0 | 86.7 | -4.76% Recycling of scrap materials Paper | Tons | 1,625 | 1,660 | 1,936 | 16.63% Plastic | Tons | 2,531 | 3,697 | 7,255 | 96.26% Metal | Tons | 15,723 | 18,943 | 16,480 | -13.00% Total use of packaging materials Cardboard | Tons | 4,848 | 10,649 | 7,723 | -27.47% Plastic | Tons | 2,796 | 5,795 | 3,337 | -42.43%",
+      "bm25_rank": 12,
+      "dense_rank": 19,
+      "bm25_score": 13.630331039428711,
+      "dense_score": 0.3936893343925476,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3500516190832515,
+      "normalized_dense": 0.3999174554180517,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.47843780905189454,
+      "rank": 15,
+      "rrf_score": 0.47843780905189454,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_001",
+      "alias_source_ids": [
+        "P9_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION / Mutual success with customers",
+      "pages": [
+        9
+      ],
+      "text": "Customer opinions are vital to the development of Ju Teng International. The Group has established 'Customer Complaint Handling', 'Customer Complaint Handling Procedure' and 'Corrective and Preventive Measures Control Procedure' to standardise the handling process of customer complaints in each Production Plant, and has set up the Quality Assurance Centre under all Production Plants (hereinafter referred to the 'Quality Assurance Centre') to retain the back-end customers. The Quality Assurance Centre receives customer complaints mainly through phone, email, written quality complaint form, business department or other means. After receiving customer feedback, the Quality Assurance Centre is required to communicate with the customer as soon as possible to confirm the details of defective products, clarify the defective situation and defective rate of the products, or visit the customer for confirmation.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION / Mutual success with customers\n\n[Content]\nCustomer opinions are vital to the development of Ju Teng International. The Group has established 'Customer Complaint Handling', 'Customer Complaint Handling Procedure' and 'Corrective and Preventive Measures Control Procedure' to standardise the handling process of customer complaints in each Production Plant, and has set up the Quality Assurance Centre under all Production Plants (hereinafter referred to the 'Quality Assurance Centre') to retain the back-end customers. The Quality Assurance Centre receives customer complaints mainly through phone, email, written quality complaint form, business department or other means. After receiving customer feedback, the Quality Assurance Centre is required to communicate with the customer as soon as possible to confirm the details of defective products, clarify the defective situation and defective rate of the products, or visit the customer for confirmation.",
+      "bm25_rank": 17,
+      "dense_rank": 32,
+      "bm25_score": 11.010868072509766,
+      "dense_score": 0.3857726454734802,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2819108095210059,
+      "normalized_dense": 0.3727530070177211,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.434496721071813,
+      "rank": 16,
+      "rrf_score": 0.434496721071813,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "ABOUT THIS REPORT / Overview",
+      "pages": [
+        3
+      ],
+      "text": "Unless otherwise specified, the disclosed information of this report covers the period from 1 January to 31 December 2021 (the 'Reporting Period').",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Overview\n\n[Content]\nUnless otherwise specified, the disclosed information of this report covers the period from 1 January to 31 December 2021 (the 'Reporting Period').",
+      "bm25_rank": 23,
+      "dense_rank": 26,
+      "bm25_score": 8.099019050598145,
+      "dense_score": 0.39015087485313416,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20616408120994648,
+      "normalized_dense": 0.38777597776777445,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.4286322608097036,
+      "rank": 17,
+      "rrf_score": 0.4286322608097036,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T21_001",
+      "alias_source_ids": [
+        "T21_001"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        21
+      ],
+      "text": "Potential climate risks and opportunities | Impact on the Group's operations Government policies and market demands | Preparations should be made to address the increasingly stringent government policies and regulations, as well as evolving consumer preferences for low-carbon products. As sustainability issues are becoming increasingly important, many mechanical parts manufacturers have announced their sustainable development goals and commit to using more recyclable materials in their new products. To meet the needs of customers and the market demands, the Group will increase the use of recyclable materials in the process of production. In addition, the Group will strictly abide by the relevant regulations on the disposal of electrical and electronic products across the production process to ensure full utilization of resources and protection of environment and public health. Impact on supply chain | The procurement of raw materials may be affected by climate- related risks, thus affecting the supply and cost of raw materials. Technology innovation | New technologies are introduced in the process of transformation toward low-carbon economy to improve the resource efficiency of our operating facilities.",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nPotential climate risks and opportunities | Impact on the Group's operations Government policies and market demands | Preparations should be made to address the increasingly stringent government policies and regulations, as well as evolving consumer preferences for low-carbon products. As sustainability issues are becoming increasingly important, many mechanical parts manufacturers have announced their sustainable development goals and commit to using more recyclable materials in their new products. To meet the needs of customers and the market demands, the Group will increase the use of recyclable materials in the process of production. In addition, the Group will strictly abide by the relevant regulations on the disposal of electrical and electronic products across the production process to ensure full utilization of resources and protection of environment and public health. Impact on supply chain | The procurement of raw materials may be affected by climate- related risks, thus affecting the supply and cost of raw materials. Technology innovation | New technologies are introduced in the process of transformation toward low-carbon economy to improve the resource efficiency of our operating facilities.",
+      "bm25_rank": 57,
+      "dense_rank": 13,
+      "bm25_score": 3.1516993045806885,
+      "dense_score": 0.4095304310321808,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07746809393533642,
+      "normalized_dense": 0.45427283765816356,
+      "normalized_bm25_rank": 0.6241610738255033,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.42079783679963934,
+      "rank": 18,
+      "rrf_score": 0.42079783679963934,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T12_001",
+      "alias_source_ids": [
+        "T12_001"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        12
+      ],
+      "text": "Targets | Purpose Develop climate change policies | Summarise the methods to mitigate climate-related risks in business operations Upgrade the lighting, HVAC systems and electrical appliances in all premises to the energy-saving mode in stages | Improve the disclosure and transparency of environmental data Disclose the quantity of hazardous and non-hazardous wastes recycled by all Production Plants of the Group | Improve the disclosure and transparency of environmental data Promote the paperless business operation | Reduce paper consumption and promote digital transformation Drive all Production Plants to strengthen the recycling of water resources and the reuse of reclaimed water | Enhance water efficiency",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nTargets | Purpose Develop climate change policies | Summarise the methods to mitigate climate-related risks in business operations Upgrade the lighting, HVAC systems and electrical appliances in all premises to the energy-saving mode in stages | Improve the disclosure and transparency of environmental data Disclose the quantity of hazardous and non-hazardous wastes recycled by all Production Plants of the Group | Improve the disclosure and transparency of environmental data Promote the paperless business operation | Reduce paper consumption and promote digital transformation Drive all Production Plants to strengthen the recycling of water resources and the reuse of reclaimed water | Enhance water efficiency",
+      "bm25_rank": 88,
+      "dense_rank": 8,
+      "bm25_score": 0.35121798515319824,
+      "dense_score": 0.43147650361061096,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.004618404254787562,
+      "normalized_dense": 0.5295761572961045,
+      "normalized_bm25_rank": 0.4161073825503355,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4184901010052653,
+      "rank": 19,
+      "rrf_score": 0.4184901010052653,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_005",
+      "alias_source_ids": [
+        "P13_005"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        13
+      ],
+      "text": "During the Reporting Period, the Chongqing Production Plants have recycled and reused the treated sewage in the painting and spraying workshop, which is expected to save about 10,000 m 3 of tap water in a year.",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nDuring the Reporting Period, the Chongqing Production Plants have recycled and reused the treated sewage in the painting and spraying workshop, which is expected to save about 10,000 m 3 of tap water in a year.",
+      "bm25_rank": 54,
+      "dense_rank": 16,
+      "bm25_score": 3.2833070755004883,
+      "dense_score": 0.3979710340499878,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08089164302475373,
+      "normalized_dense": 0.4146092047843952,
+      "normalized_bm25_rank": 0.6442953020134228,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.4055868522929119,
+      "rank": 20,
+      "rrf_score": 0.4055868522929119,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L21_001",
+      "alias_source_ids": [
+        "L21_001"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        21
+      ],
+      "text": "We have taken measures to improve water efficiency, such as strengthening the recycling of water resources and the reuse of reclaimed water in the production process.",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nWe have taken measures to improve water efficiency, such as strengthening the recycling of water resources and the reuse of reclaimed water in the production process.",
+      "bm25_rank": 95,
+      "dense_rank": 9,
+      "bm25_score": 0.32639309763908386,
+      "dense_score": 0.42569276690483093,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.00397262763802817,
+      "normalized_dense": 0.5097304845771912,
+      "normalized_bm25_rank": 0.3691275167785235,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.40537469177391783,
+      "rank": 21,
+      "rrf_score": 0.40537469177391783,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_004",
+      "alias_source_ids": [
+        "P10_004"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION / Mutual success with suppliers",
+      "pages": [
+        10
+      ],
+      "text": "Ju Teng International formulated the 'Environment-Related Substance Reduction Plan Form', which imposes strict requirements on the suppliers to ban the use of heavy metals, formaldehyde, ozone hazardous substances, radioactive substances and so on. In order to restrict suppliers from using prohibited materials or chemical substances in the production process and on the products, parts and packaging materials provided to Ju Teng International, Ju Teng International has signed the 'Environmental Protection Agreement' with suppliers. In addition, Ju Teng International performs due diligence on the source and chain of custody of the purchased minerals, and requires the suppliers to complete and sign the 'Metal Mineral Origin Survey Form' and the 'Commitment on the Non-use of Conflict Minerals' so that no conflict minerals are used in the production process and on the products. That is, whenever reasonably possible, the products manufactured do not contain minerals such as gold, tantalum, tin and tungsten from armed groups abusing human rights in the Democratic Republic of the Congo or its neighbouring countries/regions.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION / Mutual success with suppliers\n\n[Content]\nJu Teng International formulated the 'Environment-Related Substance Reduction Plan Form', which imposes strict requirements on the suppliers to ban the use of heavy metals, formaldehyde, ozone hazardous substances, radioactive substances and so on. In order to restrict suppliers from using prohibited materials or chemical substances in the production process and on the products, parts and packaging materials provided to Ju Teng International, Ju Teng International has signed the 'Environmental Protection Agreement' with suppliers. In addition, Ju Teng International performs due diligence on the source and chain of custody of the purchased minerals, and requires the suppliers to complete and sign the 'Metal Mineral Origin Survey Form' and the 'Commitment on the Non-use of Conflict Minerals' so that no conflict minerals are used in the production process and on the products. That is, whenever reasonably possible, the products manufactured do not contain minerals such as gold, tantalum, tin and tungsten from armed groups abusing human rights in the Democratic Republic of the Congo or its neighbouring countries/regions.",
+      "bm25_rank": 32,
+      "dense_rank": 28,
+      "bm25_score": 5.036661624908447,
+      "dense_score": 0.3883887827396393,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12650213645609745,
+      "normalized_dense": 0.3817297303045989,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.4018588530320574,
+      "rank": 22,
+      "rrf_score": 0.4018588530320574,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_001",
+      "alias_source_ids": [
+        "P23_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / The number of employees",
+      "pages": [
+        23
+      ],
+      "text": "Employee turnover rate of Ju Teng International's employees by gender and employment category",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / The number of employees\n\n[Content]\nEmployee turnover rate of Ju Teng International's employees by gender and employment category",
+      "bm25_rank": 35,
+      "dense_rank": 31,
+      "bm25_score": 4.654252529144287,
+      "dense_score": 0.3862505853176117,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11655442362395706,
+      "normalized_dense": 0.3743929567956013,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.3912611712811042,
+      "rank": 23,
+      "rrf_score": 0.3912611712811042,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_004",
+      "alias_source_ids": [
+        "P5_004"
+      ],
+      "section": "RESPONSIBILITIES OF THE MANAGEMENT",
+      "pages": [
+        5
+      ],
+      "text": "The Group's ESG management system can be distributed to all departments and units responsible for managing and implementing ESG issues and monitoring ESG trends to improve the Group's ESG performance. Considering the safety risks in the manufacturing industry, the Group requires each operational unit in the Production Plants to assign designated staff to participate in the management of occupational safety and health, such as the formulation of internal regulations and policies, identification and evaluation of safety risks, etc.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE MANAGEMENT\n\n[Content]\nThe Group's ESG management system can be distributed to all departments and units responsible for managing and implementing ESG issues and monitoring ESG trends to improve the Group's ESG performance. Considering the safety risks in the manufacturing industry, the Group requires each operational unit in the Production Plants to assign designated staff to participate in the management of occupational safety and health, such as the formulation of internal regulations and policies, identification and evaluation of safety risks, etc.",
+      "bm25_rank": 14,
+      "dense_rank": 55,
+      "bm25_score": 12.810696601867676,
+      "dense_score": 0.3616415560245514,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3287302433563035,
+      "normalized_dense": 0.28995226280755065,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.3860212869626283,
+      "rank": 24,
+      "rrf_score": 0.3860212869626283,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T23_001",
+      "alias_source_ids": [
+        "T23_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / The number of employees",
+      "pages": [
+        23
+      ],
+      "text": "As of 31 December 2021 Breakdown by gender Male | 18,660 Female | 14,057 Breakdown by age 16-17 | 2,385 18-25 | 7,261 26-35 | 10,077 36-50 | 12,124 51 or above | 870 Breakdown by employee category Salaried employees (non-productive workers) | 4,655 Hourly employees (general productive workers) | 28,062 Breakdown by region 1 China mainland | 32,717 Other areas | 143",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / The number of employees\n\n[Content]\nAs of 31 December 2021 Breakdown by gender Male | 18,660 Female | 14,057 Breakdown by age 16-17 | 2,385 18-25 | 7,261 26-35 | 10,077 36-50 | 12,124 51 or above | 870 Breakdown by employee category Salaried employees (non-productive workers) | 4,655 Hourly employees (general productive workers) | 28,062 Breakdown by region 1 China mainland | 32,717 Other areas | 143",
+      "bm25_rank": 5,
+      "dense_rank": 71,
+      "bm25_score": 19.448822021484375,
+      "dense_score": 0.3451872766017914,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5014096229775539,
+      "normalized_dense": 0.2334928731670593,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.5302013422818792,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.38536013490196813,
+      "rank": 25,
+      "rrf_score": 0.38536013490196813,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_004",
+      "alias_source_ids": [
+        "P3_004"
+      ],
+      "section": "ABOUT THIS REPORT / Overview",
+      "pages": [
+        3
+      ],
+      "text": "Unless otherwise specified, the content and metrics reported in this report cover the following subsidiaries only:",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Overview\n\n[Content]\nUnless otherwise specified, the content and metrics reported in this report cover the following subsidiaries only:",
+      "bm25_rank": null,
+      "dense_rank": 7,
+      "bm25_score": null,
+      "dense_score": 0.43187934160232544,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5309584109063563,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.3777817525420569,
+      "rank": 26,
+      "rrf_score": 0.3777817525420569,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T6_001",
+      "alias_source_ids": [
+        "T6_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE MANAGEMENT / Stakeholder identification and communication",
+      "pages": [
+        6
+      ],
+      "text": "Stakeholder category | Aspiration and expectation | Engagement channel | Frequency Shareholders/Investors | • Enterprise risk management • Business ethics • Transparent operation | • HKEX official website • 'Investor relations' section on the official website | Unscheduled announcement Customers | • Product quality and safety control • Customer services and communication • Customer privacy management • Product and technological innovation • Emission control • Human rights protection • Quality and quick service | • Official website • Customer satisfaction survey • On-site research communication | Frequent communication during the cooperation period Employees | • Labour law compliance • Employees' wellbeing and development • Employees' health and safety | • Worker union • Various staff activities • WeChat official accounts managed by respective Production Plants • Employee complaints mechanism • Employee performance appraisal | Few posts per week on the official accounts Two to four issues of the internal magazine per year Suppliers | • Supplier management • Energy use management • Fair and open procurement • Supplier support and growth | • On-site examination • Supplier self-assessment questionnaires | Frequent communication during the cooperation period Community | • Anti-corruption • Environmental impact • Giving back to the community | • Press release • Community activities | Unscheduled announcement and activities",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE MANAGEMENT / Stakeholder identification and communication\n\n[Content]\nStakeholder category | Aspiration and expectation | Engagement channel | Frequency Shareholders/Investors | • Enterprise risk management • Business ethics • Transparent operation | • HKEX official website • 'Investor relations' section on the official website | Unscheduled announcement Customers | • Product quality and safety control • Customer services and communication • Customer privacy management • Product and technological innovation • Emission control • Human rights protection • Quality and quick service | • Official website • Customer satisfaction survey • On-site research communication | Frequent communication during the cooperation period Employees | • Labour law compliance • Employees' wellbeing and development • Employees' health and safety | • Worker union • Various staff activities • WeChat official accounts managed by respective Production Plants • Employee complaints mechanism • Employee performance appraisal | Few posts per week on the official accounts Two to four issues of the internal magazine per year Suppliers | • Supplier management • Energy use management • Fair and open procurement • Supplier support and growth | • On-site examination • Supplier self-assessment questionnaires | Frequent communication during the cooperation period Community | • Anti-corruption • Environmental impact • Giving back to the community | • Press release • Community activities | Unscheduled announcement and activities",
+      "bm25_rank": 25,
+      "dense_rank": 45,
+      "bm25_score": 7.799339294433594,
+      "dense_score": 0.36971378326416016,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19836842940942198,
+      "normalized_dense": 0.31765040815187057,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.3756835435001397,
+      "rank": 27,
+      "rrf_score": 0.3756835435001397,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_002",
+      "alias_source_ids": [
+        "P26_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Health and safety",
+      "pages": [
+        26
+      ],
+      "text": "In the daily work, the Group and each Production Plant upload problems to WeChat in a timely manner with the help of WeChat and constantly update the treatment progress, and security departments of the Production Plants follow up the information from WeChat, thus ensuring that problems are dealt with in a close end cycle from discovery to resolution. In addition to the basic health and safety regulations and systems, Ju Teng International has also formulated the 'Risk Assessment and Control Management Procedures', 'Hazardous Chemicals Safety Management Procedures' and 'Production Safety Accident Emergency Management System' according to its own industry characteristics. Regarding the management of hazardous chemicals, we strictly control the whole process (transportation, storage and custody, entry and exit, use and post-processing) of hazardous products in accordance with the 'Hazardous Chemicals Safety Management Regulations' and internal management procedures. In addition, the Group's various safety systems enable the Group identify the risk sources in the process of production, services and activities, control the risks in all links, and take measures to influence the possible hazards, so that the risks can be controlled effectively to achieve the policy of 'Safety First, Prevention First, and Comprehensive Management'.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Health and safety\n\n[Content]\nIn the daily work, the Group and each Production Plant upload problems to WeChat in a timely manner with the help of WeChat and constantly update the treatment progress, and security departments of the Production Plants follow up the information from WeChat, thus ensuring that problems are dealt with in a close end cycle from discovery to resolution. In addition to the basic health and safety regulations and systems, Ju Teng International has also formulated the 'Risk Assessment and Control Management Procedures', 'Hazardous Chemicals Safety Management Procedures' and 'Production Safety Accident Emergency Management System' according to its own industry characteristics. Regarding the management of hazardous chemicals, we strictly control the whole process (transportation, storage and custody, entry and exit, use and post-processing) of hazardous products in accordance with the 'Hazardous Chemicals Safety Management Regulations' and internal management procedures. In addition, the Group's various safety systems enable the Group identify the risk sources in the process of production, services and activities, control the risks in all links, and take measures to influence the possible hazards, so that the risks can be controlled effectively to achieve the policy of 'Safety First, Prevention First, and Comprehensive Management'.",
+      "bm25_rank": 43,
+      "dense_rank": 35,
+      "bm25_score": 3.715710401535034,
+      "dense_score": 0.3816666603088379,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09213986949922762,
+      "normalized_dense": 0.3586641848753211,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.37013493525050317,
+      "rank": 28,
+      "rrf_score": 0.37013493525050317,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_003",
+      "alias_source_ids": [
+        "L19_003"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION / Sewage management",
+      "pages": [
+        19
+      ],
+      "text": "The Wujiang Production Plants changed the types of cutting fluid and made more recycling efforts, achieving a reduction in the frequency of waste cutting fluid generation. Cutting fluids were replaced with SK1200Z type and SK37 type cutting fluids with better environmental protection, which can be recycled for 25 days and reduce the amount of waste cutting fluid by about 25%.",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION / Sewage management\n\n[Content]\nThe Wujiang Production Plants changed the types of cutting fluid and made more recycling efforts, achieving a reduction in the frequency of waste cutting fluid generation. Cutting fluids were replaced with SK1200Z type and SK37 type cutting fluids with better environmental protection, which can be recycled for 25 days and reduce the amount of waste cutting fluid by about 25%.",
+      "bm25_rank": 64,
+      "dense_rank": 30,
+      "bm25_score": 2.790637254714966,
+      "dense_score": 0.3875052332878113,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06807568767085971,
+      "normalized_dense": 0.37869801670075687,
+      "normalized_bm25_rank": 0.5771812080536913,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.36495138968816165,
+      "rank": 29,
+      "rrf_score": 0.36495138968816165,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_004",
+      "alias_source_ids": [
+        "P26_004"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / Health and safety",
+      "pages": [
+        26
+      ],
+      "text": "Number of work-related fatalities (Percentage)",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / Health and safety\n\n[Content]\nNumber of work-related fatalities (Percentage)",
+      "bm25_rank": 29,
+      "dense_rank": 46,
+      "bm25_score": 5.475162506103516,
+      "dense_score": 0.3692528009414673,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1379089803075817,
+      "normalized_dense": 0.31606864453247474,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.697986577181208,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.3590111907753992,
+      "rank": 30,
+      "rrf_score": 0.3590111907753992,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T23_002",
+      "alias_source_ids": [
+        "T23_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE EMPLOYER / The number of employees",
+      "pages": [
+        23
+      ],
+      "text": "As of 31 December 2021 Breakdown by gender Male | 339.17% Female | 315.48% Breakdown by employee category Salaried employees (non-production workers) | 49.41% Hourly employees (general production workers) | 375.37%",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE EMPLOYER / The number of employees\n\n[Content]\nAs of 31 December 2021 Breakdown by gender Male | 339.17% Female | 315.48% Breakdown by employee category Salaried employees (non-production workers) | 49.41% Hourly employees (general production workers) | 375.37%",
+      "bm25_rank": 85,
+      "dense_rank": 20,
+      "bm25_score": 0.3574533462524414,
+      "dense_score": 0.39223337173461914,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.004780606415528593,
+      "normalized_dense": 0.39492162661911423,
+      "normalized_bm25_rank": 0.43624161073825507,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.3572994959689232,
+      "rank": 31,
+      "rrf_score": 0.3572994959689232,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_002",
+      "alias_source_ids": [
+        "P15_002"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        15
+      ],
+      "text": "During the Reporting Period, both the Compal Production Plant and the Neijiang Production Plant adopted the residual heat recovery unit of air compressor to heat domestic water and reduce the consumption of electricity and energy. The residual heat recovery of the Compal Production Plant was 745.89 million kcal replacing 455,600 m 3 of natural gas and 553 tons of coal equivalent; the Neijiang Production Plant saved 300,000 m 3 of natural gas and reduced 369 tons of coal equivalent for the whole year.",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nDuring the Reporting Period, both the Compal Production Plant and the Neijiang Production Plant adopted the residual heat recovery unit of air compressor to heat domestic water and reduce the consumption of electricity and energy. The residual heat recovery of the Compal Production Plant was 745.89 million kcal replacing 455,600 m 3 of natural gas and 553 tons of coal equivalent; the Neijiang Production Plant saved 300,000 m 3 of natural gas and reduced 369 tons of coal equivalent for the whole year.",
+      "bm25_rank": 79,
+      "dense_rank": 24,
+      "bm25_score": 0.3739965260028839,
+      "dense_score": 0.3904377818107605,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.00521094869376084,
+      "normalized_dense": 0.38876043848434566,
+      "normalized_bm25_rank": 0.47651006711409394,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.353886866698206,
+      "rank": 32,
+      "rrf_score": 0.353886866698206,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_001",
+      "alias_source_ids": [
+        "P16_001"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION / Material management",
+      "pages": [
+        16
+      ],
+      "text": "The main packaging materials used by Ju Teng International in its production and operation are cartons and plastics. Most of our customers sort and recycle their packaging materials through third parties. In addition, all departments of Ju Teng International are required to reuse paper printed on single side to reduce the cost while uplifting the paper recycling rate.",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION / Material management\n\n[Content]\nThe main packaging materials used by Ju Teng International in its production and operation are cartons and plastics. Most of our customers sort and recycle their packaging materials through third parties. In addition, all departments of Ju Teng International are required to reuse paper printed on single side to reduce the cost while uplifting the paper recycling rate.",
+      "bm25_rank": 55,
+      "dense_rank": 38,
+      "bm25_score": 3.2582147121429443,
+      "dense_score": 0.3790839910507202,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0802389084854202,
+      "normalized_dense": 0.3498022999996523,
+      "normalized_bm25_rank": 0.6375838926174497,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.352572546428506,
+      "rank": 33,
+      "rrf_score": 0.352572546428506,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_007",
+      "alias_source_ids": [
+        "P11_007"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION",
+      "pages": [
+        11
+      ],
+      "text": "Excellent suppliers (Total scores reach 90 marks or above)",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION\n\n[Content]\nExcellent suppliers (Total scores reach 90 marks or above)",
+      "bm25_rank": 116,
+      "dense_rank": 21,
+      "bm25_score": 0.2926974892616272,
+      "dense_score": 0.3920831084251404,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0030960945232145908,
+      "normalized_dense": 0.3944060297630893,
+      "normalized_bm25_rank": 0.22818791946308725,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3346344836841402,
+      "rank": 34,
+      "rrf_score": 0.3346344836841402,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_001",
+      "alias_source_ids": [
+        "P10_001"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION / Mutual success with suppliers",
+      "pages": [
+        10
+      ],
+      "text": "Ju Teng International clarifies the cooperation, communication, and management model with suppliers and potential suppliers at all stages through the 'Supplier Management Procedure'. Through effective management of suppliers, Ju Teng International understands suppliers' quality, price, delivery, coordination, labour, environmental protection, safety, ethics and other relevant information, and follows up and deals with supplier problems in a timely manner. For different types of suppliers, Ju Teng International has different management processes in order to manage them in a more targeted manner. For example, for the management of non-enclosure suppliers, Ju Teng International revised the relevant management requirements (on-site audit, production part approval process (PPAP) submission, quality technical agreement terms, etc.). After an abnormal problem occurs, the 8D or applicable problem solving procedures are initiated so that the abnormal problem can be solved in a timely and thorough manner.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION / Mutual success with suppliers\n\n[Content]\nJu Teng International clarifies the cooperation, communication, and management model with suppliers and potential suppliers at all stages through the 'Supplier Management Procedure'. Through effective management of suppliers, Ju Teng International understands suppliers' quality, price, delivery, coordination, labour, environmental protection, safety, ethics and other relevant information, and follows up and deals with supplier problems in a timely manner. For different types of suppliers, Ju Teng International has different management processes in order to manage them in a more targeted manner. For example, for the management of non-enclosure suppliers, Ju Teng International revised the relevant management requirements (on-site audit, production part approval process (PPAP) submission, quality technical agreement terms, etc.). After an abnormal problem occurs, the 8D or applicable problem solving procedures are initiated so that the abnormal problem can be solved in a timely and thorough manner.",
+      "bm25_rank": 47,
+      "dense_rank": 49,
+      "bm25_score": 3.5415070056915283,
+      "dense_score": 0.3675055503845215,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08760826872029737,
+      "normalized_dense": 0.310073322740521,
+      "normalized_bm25_rank": 0.6912751677852349,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.33074530328042306,
+      "rank": 35,
+      "rrf_score": 0.33074530328042306,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_003",
+      "alias_source_ids": [
+        "P9_003"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION / Mutual success with customers",
+      "pages": [
+        9
+      ],
+      "text": "In addition, the Group will invite customers to fill in the 'Customer Satisfaction Survey' via email or fax every six months. By establishing customer communication and feedback channels, the Group obtains and understands customer satisfaction with our products and services on a regular basis. When the customer is dissatisfied or the rating is below the Group's internal target, the relevant departments is required to submit an improvement plan within three days and implement the improvement measures.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION / Mutual success with customers\n\n[Content]\nIn addition, the Group will invite customers to fill in the 'Customer Satisfaction Survey' via email or fax every six months. By establishing customer communication and feedback channels, the Group obtains and understands customer satisfaction with our products and services on a regular basis. When the customer is dissatisfied or the rating is below the Group's internal target, the relevant departments is required to submit an improvement plan within three days and implement the improvement measures.",
+      "bm25_rank": 37,
+      "dense_rank": 56,
+      "bm25_score": 4.521922588348389,
+      "dense_score": 0.3588500916957855,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11311208853121757,
+      "normalized_dense": 0.2803739416817211,
+      "normalized_bm25_rank": 0.7583892617449665,
+      "normalized_dense_rank": 0.6308724832214765,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.3227667201136379,
+      "rank": 36,
+      "rrf_score": 0.3227667201136379,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_003",
+      "alias_source_ids": [
+        "P13_003"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        13
+      ],
+      "text": "During the Reporting Period, with the support and cooperation of the energy working group, all departments of the Compal Production Plant have mobilised employees at all levels to participate in discussions on production energy use analysis. Starting from various aspects that affect energy consumption, such as personnel, machinery and equipment, material use, and process methods, and combining the process flow of production operations and the Company's 'Energy and Resource Management Procedure', these departments have conducted a comprehensive analysis of the energy utilisation and consumption data and equipment operation records for the year 2021. Besides, the Compal Production Plant has sorted out the energy use of the plants and strengthened the energy consumption management of all plants in accordance with the energy efficiency limit standards of various types of equipment, the economic operation standards of various types of equipment, the design parameters of various types of energy-consuming equipment, and the advanced energy consumption level of the industry, etc.",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nDuring the Reporting Period, with the support and cooperation of the energy working group, all departments of the Compal Production Plant have mobilised employees at all levels to participate in discussions on production energy use analysis. Starting from various aspects that affect energy consumption, such as personnel, machinery and equipment, material use, and process methods, and combining the process flow of production operations and the Company's 'Energy and Resource Management Procedure', these departments have conducted a comprehensive analysis of the energy utilisation and consumption data and equipment operation records for the year 2021. Besides, the Compal Production Plant has sorted out the energy use of the plants and strengthened the energy consumption management of all plants in accordance with the energy efficiency limit standards of various types of equipment, the economic operation standards of various types of equipment, the design parameters of various types of energy-consuming equipment, and the advanced energy consumption level of the industry, etc.",
+      "bm25_rank": 74,
+      "dense_rank": 41,
+      "bm25_score": 1.912876009941101,
+      "dense_score": 0.371886670589447,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04524224334406066,
+      "normalized_dense": 0.32510621274782037,
+      "normalized_bm25_rank": 0.5100671140939597,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.32015105937216004,
+      "rank": 37,
+      "rrf_score": 0.32015105937216004,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L3_006",
+      "alias_source_ids": [
+        "L3_006"
+      ],
+      "section": "ABOUT THIS REPORT / Overview",
+      "pages": [
+        3
+      ],
+      "text": "-Juteng Electronic Technology (Taizhou) Co. Ltd. (the above two companies, collectively referred to as 'Taizhou Production Plants')",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Overview\n\n[Content]\n-Juteng Electronic Technology (Taizhou) Co. Ltd. (the above two companies, collectively referred to as 'Taizhou Production Plants')",
+      "bm25_rank": null,
+      "dense_rank": 18,
+      "bm25_score": null,
+      "dense_score": 0.39509809017181396,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.40475130376876556,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.31884416437275925,
+      "rank": 38,
+      "rrf_score": 0.31884416437275925,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_003",
+      "alias_source_ids": [
+        "P10_003"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION / Mutual success with suppliers",
+      "pages": [
+        10
+      ],
+      "text": "The Group found that the qualification of outsourced supplier is weak while their quality is unstable. There is negligence in the work to promote the improvement of quality abnormality, and the outsourced suppliers fail to conduct continuous tracking to confirm the improvement effect after significant anomalies. In 2021, the Group assigned relevant staff to hold a QTI meeting lasting about one hour every day with suppliers, at which mainly review the significant abnormalities in the manufacturing procedure, external inspection and rejection, the yield rate of anode final inspection, and various checks and operation status of inspectors.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION / Mutual success with suppliers\n\n[Content]\nThe Group found that the qualification of outsourced supplier is weak while their quality is unstable. There is negligence in the work to promote the improvement of quality abnormality, and the outsourced suppliers fail to conduct continuous tracking to confirm the improvement effect after significant anomalies. In 2021, the Group assigned relevant staff to hold a QTI meeting lasting about one hour every day with suppliers, at which mainly review the significant abnormalities in the manufacturing procedure, external inspection and rejection, the yield rate of anode final inspection, and various checks and operation status of inspectors.",
+      "bm25_rank": 34,
+      "dense_rank": 60,
+      "bm25_score": 4.670600891113281,
+      "dense_score": 0.357080340385437,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11697969805373613,
+      "normalized_dense": 0.27430141329986285,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.6040268456375839,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.31805915238650456,
+      "rank": 39,
+      "rrf_score": 0.31805915238650456,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_002",
+      "alias_source_ids": [
+        "P7_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication",
+      "pages": [
+        7
+      ],
+      "text": "During the Reporting Period, Ju Teng International strictly complied with the 'Anti-Unfair Competition Law of the People's Republic of China' to protect the fair competition market and stop unfair competition practices. Meanwhile, we remain committed to managing our business practices in accordance with the 'Responsible Business Alliance (RBA) Code of Conduct', and require that the management and all employees strictly abide by it. We have established this Code as a programmatic document to achieve the Company's professional ethics, honest operation and compliance goals. Ju Teng International had not provided trainings on ethics and anti-corruption for employees during the year due to the COVID-19 pandemic. In accordance with this Code, we have formulated the internal 'Business Ethics Management Procedure' to strictly manage the business ethics of our employees. We continue to provide channels such as telephone hotlines and emails for anyone to report corruption and immorality of our employees in real names or anonymously.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE MANAGEMENT / Materiality identification and communication\n\n[Content]\nDuring the Reporting Period, Ju Teng International strictly complied with the 'Anti-Unfair Competition Law of the People's Republic of China' to protect the fair competition market and stop unfair competition practices. Meanwhile, we remain committed to managing our business practices in accordance with the 'Responsible Business Alliance (RBA) Code of Conduct', and require that the management and all employees strictly abide by it. We have established this Code as a programmatic document to achieve the Company's professional ethics, honest operation and compliance goals. Ju Teng International had not provided trainings on ethics and anti-corruption for employees during the year due to the COVID-19 pandemic. In accordance with this Code, we have formulated the internal 'Business Ethics Management Procedure' to strictly manage the business ethics of our employees. We continue to provide channels such as telephone hotlines and emails for anyone to report corruption and immorality of our employees in real names or anonymously.",
+      "bm25_rank": 75,
+      "dense_rank": 44,
+      "bm25_score": 1.8327618837356567,
+      "dense_score": 0.37013036012649536,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04315821257670383,
+      "normalized_dense": 0.31907980379913686,
+      "normalized_bm25_rank": 0.5033557046979866,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 44,
+      "composite_score": 0.3129270235094682,
+      "rank": 40,
+      "rrf_score": 0.3129270235094682,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_010",
+      "alias_source_ids": [
+        "P11_010"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION",
+      "pages": [
+        11
+      ],
+      "text": "Level-D Suppliers: Unqualified suppliers (69 marks and below)",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION\n\n[Content]\nLevel-D Suppliers: Unqualified suppliers (69 marks and below)",
+      "bm25_rank": 112,
+      "dense_rank": 33,
+      "bm25_score": 0.295916348695755,
+      "dense_score": 0.38481462001800537,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0031798275976953217,
+      "normalized_dense": 0.36946574471431415,
+      "normalized_bm25_rank": 0.25503355704697983,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.31249931174001877,
+      "rank": 41,
+      "rrf_score": 0.31249931174001877,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_002",
+      "alias_source_ids": [
+        "P9_002"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION / Mutual success with customers",
+      "pages": [
+        9
+      ],
+      "text": "In order to improve customer service, optimise quality assurance management capabilities, ensure customer interests and enhance the Group's image, the Group collects, summarises and analyses customer feedback on the Group's product quality and service quality, and responds to them one by one according to the 'Customer Complaint Handling' and 'Customer Complaint Handling Procedure'.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION / Mutual success with customers\n\n[Content]\nIn order to improve customer service, optimise quality assurance management capabilities, ensure customer interests and enhance the Group's image, the Group collects, summarises and analyses customer feedback on the Group's product quality and service quality, and responds to them one by one according to the 'Customer Complaint Handling' and 'Customer Complaint Handling Procedure'.",
+      "bm25_rank": 22,
+      "dense_rank": 73,
+      "bm25_score": 8.44083023071289,
+      "dense_score": 0.3437862992286682,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21505570931257276,
+      "normalized_dense": 0.22868571477656413,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.5167785234899329,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.312312887000755,
+      "rank": 42,
+      "rrf_score": 0.312312887000755,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L17_009",
+      "alias_source_ids": [
+        "L17_009"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION / Emission reduction",
+      "pages": [
+        17
+      ],
+      "text": "Carry out recycling activities to improve the resources utilisation",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION / Emission reduction\n\n[Content]\nCarry out recycling activities to improve the resources utilisation",
+      "bm25_rank": null,
+      "dense_rank": 22,
+      "bm25_score": null,
+      "dense_score": 0.391490638256073,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3923730933295756,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.30914266320226425,
+      "rank": 43,
+      "rrf_score": 0.30914266320226425,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_005",
+      "alias_source_ids": [
+        "P3_005"
+      ],
+      "section": "ABOUT THIS REPORT / Overview",
+      "pages": [
+        3
+      ],
+      "text": "The information and case studies of this report are prepared based on the Group's internal statistical reports and other relevant internal documents.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Overview\n\n[Content]\nThe information and case studies of this report are prepared based on the Group's internal statistical reports and other relevant internal documents.",
+      "bm25_rank": 139,
+      "dense_rank": 27,
+      "bm25_score": 0.2564351558685303,
+      "dense_score": 0.3894479274749756,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0021527924856492176,
+      "normalized_dense": 0.38536396209084856,
+      "normalized_bm25_rank": 0.0738255033557047,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.3077911667054369,
+      "rank": 44,
+      "rrf_score": 0.3077911667054369,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L3_010",
+      "alias_source_ids": [
+        "L3_010"
+      ],
+      "section": "ABOUT THIS REPORT / Overview",
+      "pages": [
+        3
+      ],
+      "text": "-Lian-Yi Precision (Zhongshan) Inc. (Abbreviated as 'Lian-Yi Production Plant')",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Overview\n\n[Content]\n-Lian-Yi Precision (Zhongshan) Inc. (Abbreviated as 'Lian-Yi Production Plant')",
+      "bm25_rank": null,
+      "dense_rank": 25,
+      "bm25_score": null,
+      "dense_score": 0.39022549986839294,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.38803203776925926,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.30359644811856956,
+      "rank": 45,
+      "rrf_score": 0.30359644811856956,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_011",
+      "alias_source_ids": [
+        "P11_011"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION",
+      "pages": [
+        11
+      ],
+      "text": "Excellent and qualified suppliers will be included in Ju Teng International's 'Qualified Suppliers List'. During the Reporting Period, the number and percentage of Ju Teng International's qualified suppliers by location is as follows:",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION\n\n[Content]\nExcellent and qualified suppliers will be included in Ju Teng International's 'Qualified Suppliers List'. During the Reporting Period, the number and percentage of Ju Teng International's qualified suppliers by location is as follows:",
+      "bm25_rank": 39,
+      "dense_rank": 65,
+      "bm25_score": 4.320194721221924,
+      "dense_score": 0.3538028299808502,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.107864486121541,
+      "normalized_dense": 0.26305532757171063,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.5704697986577181,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.30223286590125253,
+      "rank": 46,
+      "rrf_score": 0.30223286590125253,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_002",
+      "alias_source_ids": [
+        "P12_002"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        12
+      ],
+      "text": "In 2021, we set the following qualitative environmental targets to demonstrate our commitments to reduce carbon footprint and enhance environmental data disclosure. In combination with current targets, the Group plans to lay a foundation for setting more comprehensive environmental targets in the future.",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nIn 2021, we set the following qualitative environmental targets to demonstrate our commitments to reduce carbon footprint and enhance environmental data disclosure. In combination with current targets, the Group plans to lay a foundation for setting more comprehensive environmental targets in the future.",
+      "bm25_rank": 62,
+      "dense_rank": 57,
+      "bm25_score": 2.913201093673706,
+      "dense_score": 0.35842713713645935,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07126397447436758,
+      "normalized_dense": 0.2789226623122832,
+      "normalized_bm25_rank": 0.5906040268456376,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 57,
+      "composite_score": 0.29576834415383707,
+      "rank": 47,
+      "rrf_score": 0.29576834415383707,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L3_009",
+      "alias_source_ids": [
+        "L3_009"
+      ],
+      "section": "ABOUT THIS REPORT / Overview",
+      "pages": [
+        3
+      ],
+      "text": "-Compal Electronic Technology (Chongqing) Co., Ltd. (the above two companies, collectively referred to as 'Chongqing Production Plants')",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Overview\n\n[Content]\n-Compal Electronic Technology (Chongqing) Co., Ltd. (the above two companies, collectively referred to as 'Chongqing Production Plants')",
+      "bm25_rank": null,
+      "dense_rank": 29,
+      "bm25_score": null,
+      "dense_score": 0.38798925280570984,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.38035882759696893,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.29554169704148947,
+      "rank": 48,
+      "rrf_score": 0.29554169704148947,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_004",
+      "alias_source_ids": [
+        "P13_004"
+      ],
+      "section": "RESPONSIBILITY FOR ENVIRONMENTAL PROTECTION",
+      "pages": [
+        13
+      ],
+      "text": "Ju Teng International truly understands that water is the important source of production and life and requires all Production Plants to use water resources in a responsible manner. To reduce the water wastage, Ju Teng International defined the strategy of water resource management in the 'Energy and Resource Management Procedure', which requires our staff to turn off water sources after usage while consciously maintaining water facilities and equipment; notify the management department immediately once a malfunction occurs to reduce the loss of water resources.",
+      "retrieval_text": "[Section]\nRESPONSIBILITY FOR ENVIRONMENTAL PROTECTION\n\n[Content]\nJu Teng International truly understands that water is the important source of production and life and requires all Production Plants to use water resources in a responsible manner. To reduce the water wastage, Ju Teng International defined the strategy of water resource management in the 'Energy and Resource Management Procedure', which requires our staff to turn off water sources after usage while consciously maintaining water facilities and equipment; notify the management department immediately once a malfunction occurs to reduce the loss of water resources.",
+      "bm25_rank": 46,
+      "dense_rank": 67,
+      "bm25_score": 3.581514596939087,
+      "dense_score": 0.3524695634841919,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08864899717902057,
+      "normalized_dense": 0.258480504773617,
+      "normalized_bm25_rank": 0.697986577181208,
+      "normalized_dense_rank": 0.5570469798657718,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 46,
+      "composite_score": 0.28940602979784524,
+      "rank": 49,
+      "rrf_score": 0.28940602979784524,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_004",
+      "alias_source_ids": [
+        "P9_004"
+      ],
+      "section": "RESPONSIBILITIES OF THE OPERATION / Mutual success with customers",
+      "pages": [
+        9
+      ],
+      "text": "Ensuring customer privacy is also the basic principle of Ju Teng International. For customer privacy, Ju Teng International has always been committed to doing its best to safeguard all confidential information, personal information and intellectual property delivered by customers and other third-party companies to Ju Teng International, and employees only have limited access to customer codes or product codes, which fundamentally reduces the possibility of customer confidential information leakage. Besides, through the 'Business Ethics Management Procedure', the Group clarifies the management process of customer information and the standard process of collecting, storing, processing, and transmitting customer information, thus improving the confidentiality of customer privacy from the management system.",
+      "retrieval_text": "[Section]\nRESPONSIBILITIES OF THE OPERATION / Mutual success with customers\n\n[Content]\nEnsuring customer privacy is also the basic principle of Ju Teng International. For customer privacy, Ju Teng International has always been committed to doing its best to safeguard all confidential information, personal information and intellectual property delivered by customers and other third-party companies to Ju Teng International, and employees only have limited access to customer codes or product codes, which fundamentally reduces the possibility of customer confidential information leakage. Besides, through the 'Business Ethics Management Procedure', the Group clarifies the management process of customer information and the standard process of collecting, storing, processing, and transmitting customer information, thus improving the confidentiality of customer privacy from the management system.",
+      "bm25_rank": 27,
+      "dense_rank": 77,
+      "bm25_score": 6.261329650878906,
+      "dense_score": 0.3411558270454407,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15835976215591005,
+      "normalized_dense": 0.21965980424499215,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.4899328859060402,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.2890897966686071,
+      "rank": 50,
+      "rrf_score": 0.2890897966686071,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

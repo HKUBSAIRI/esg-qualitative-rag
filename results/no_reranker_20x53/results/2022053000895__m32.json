@@ -1,0 +1,1555 @@
+{
+  "document_id": "2022053000895",
+  "metric_id": 32,
+  "metric_name": "产品回收率",
+  "query": "产品回收率 产品回收率 衡量企业在报告期内，因安全、健康等潜在风险而必须执行回收的受影响产品数量，占同期已售或已运送产品总数的百分比。 A. 数据透明度得分 (权重 50%) 2分：清晰披露了回收百分比，或明确声明本期“回收率为 0%”。 1分：仅定性描述有/无回收，未给出具体的百分比或产品基数。 0分：未披露任何回收相关数据。 B. 统计口径得分 (权重 50%) 2分：说明了计算口径（如涵盖的所有产品线）及回收原因（如技术缺陷、标签错误）。 1分：仅给出一个孤立的数字，无背景说明。 0分：无说明。 最终得分 = 0.5×A+0.5×B 产品召回率 召回百分比 产品召回数量 已售产品数量 已运送产品数量 零召回 未发生产品召回 安全原因召回 健康风险召回 缺陷产品召回 标签错误召回 product recall rate percentage of products recalled recalled units units sold units shipped zero recalls no product recalls safety-related recall health-related recall defective product recall mislabeling recall 报告期内是否定性说明发生或未发生产品召回？ 是否披露因安全、健康、技术缺陷或标签错误召回的产品占已售或已运送产品的百分比，或明确声明召回率为0%？ 召回数量、已售/已运送数量及计算公式是什么？ 召回原因和产品范围是什么？ 报告期与统计边界是什么？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '产品回收率'. Prefer explicit, auditable disclosure that answers: 报告期内是否定性说明发生或未发生产品召回？ 是否披露因安全、健康、技术缺陷或标签错误召回的产品占已售或已运送产品的百分比，或明确声明召回率为0%？ 召回数量、已售/已运送数量及计算公式是什么？ 召回原因和产品范围是什么？ 报告期与统计边界是什么？ Exclude or down-rank: 排除：仅有“本期无重大召回”无比例；仅有召回制度而无数量占比；循环经济产品回收再利用率；仅有客户退货率；区分：尽管指标名含“回收率”，定义实为安全/健康原因召回数量占比，不是循环经济回收利用率；召回程序看制度完备性；本指标看量化比率或0%声明。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 189,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P22_003",
+      "alias_source_ids": [
+        "P22_003"
+      ],
+      "section": "Innovation",
+      "pages": [
+        22
+      ],
+      "text": "With regards to quality assurance and recall procedures, Home Control installed quality control within our entire product lifecycle. This includes product design quality, supplier quality control, manufacturing quality control and aftersales serves. Additionally, official procedures are also in placed to manage customers should there be a need to recall products from customers. As of FY2021, Home Control has zero instances of total products sold or shipped that are subject to recall. However, Home Control received 41 customer complaints and service requests from customer within the reporting year. In response to complaints and service request received, Home Control offered to conduct failure analysis and subsequently generate improvement reports to customers to manage the expectations and requests of our customers.",
+      "retrieval_text": "[Section]\nInnovation\n\n[Content]\nWith regards to quality assurance and recall procedures, Home Control installed quality control within our entire product lifecycle. This includes product design quality, supplier quality control, manufacturing quality control and aftersales serves. Additionally, official procedures are also in placed to manage customers should there be a need to recall products from customers. As of FY2021, Home Control has zero instances of total products sold or shipped that are subject to recall. However, Home Control received 41 customer complaints and service requests from customer within the reporting year. In response to complaints and service request received, Home Control offered to conduct failure analysis and subsequently generate improvement reports to customers to manage the expectations and requests of our customers.",
+      "bm25_rank": 2,
+      "dense_rank": 1,
+      "bm25_score": 51.03434753417969,
+      "dense_score": 0.5704247951507568,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9378998680311055,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.8369088326666239,
+      "rank": 1,
+      "rrf_score": 0.8369088326666239,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T52_001",
+      "alias_source_ids": [
+        "T52_001"
+      ],
+      "section": "Content Index",
+      "pages": [
+        52
+      ],
+      "text": "Disclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Product | 103 | B6 | Information on: | Innovation Responsibility | (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer B6.1 | relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. Percentage of total products sold or shipped | Innovation B6.2 | Number of products and service related complaints received and how they are dealt with. | Innovation B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Not identified as material in FY2021 B6.4 | Description of quality assurance process | Innovation B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Data security and privacy",
+      "retrieval_text": "[Section]\nContent Index\n\n[Content]\nDisclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Product | 103 | B6 | Information on: | Innovation Responsibility | (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer B6.1 | relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. Percentage of total products sold or shipped | Innovation B6.2 | Number of products and service related complaints received and how they are dealt with. | Innovation B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Not identified as material in FY2021 B6.4 | Description of quality assurance process | Innovation B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | Data security and privacy",
+      "bm25_rank": 7,
+      "dense_rank": 2,
+      "bm25_score": 29.000925064086914,
+      "dense_score": 0.5119879245758057,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5275612834936712,
+      "normalized_dense": 0.7755015937905768,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6715686870086576,
+      "rank": 2,
+      "rrf_score": 0.6715686870086576,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T49_001",
+      "alias_source_ids": [
+        "T49_001"
+      ],
+      "section": "Content Index",
+      "pages": [
+        49
+      ],
+      "text": "Disclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Employment | 103 | B1 | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal | Employment and Labour Standards 102-8, 405-1(b) | B1.1 | opportunity, diversity, anti-discrimination, and other benefits and welfare. Total workforce by gender, employment type (e.g. full time or part time), age group | Employment and Labour Standards 401-1(b) | B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment and Labour Standards Health and safety | 103 | B2 | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. Number and rate of work-related occurred in each of the past 3 years | Occupational Health and Safety B2.1 | fatalities including the reporting year. | Occupational Health and Safety B2.2 | Lost days due to work injury. | Occupational Health and Safety B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | Occupational Health and Safety",
+      "retrieval_text": "[Section]\nContent Index\n\n[Content]\nDisclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Employment | 103 | B1 | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal | Employment and Labour Standards 102-8, 405-1(b) | B1.1 | opportunity, diversity, anti-discrimination, and other benefits and welfare. Total workforce by gender, employment type (e.g. full time or part time), age group | Employment and Labour Standards 401-1(b) | B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment and Labour Standards Health and safety | 103 | B2 | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. Number and rate of work-related occurred in each of the past 3 years | Occupational Health and Safety B2.1 | fatalities including the reporting year. | Occupational Health and Safety B2.2 | Lost days due to work injury. | Occupational Health and Safety B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | Occupational Health and Safety",
+      "bm25_rank": 8,
+      "dense_rank": 3,
+      "bm25_score": 24.44213104248047,
+      "dense_score": 0.46933043003082275,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.442660760728184,
+      "normalized_dense": 0.6116232162523246,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.5952177274983799,
+      "rank": 3,
+      "rrf_score": 0.5952177274983799,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T28_001",
+      "alias_source_ids": [
+        "T28_001"
+      ],
+      "section": "Employment and Labour Standards",
+      "pages": [
+        28
+      ],
+      "text": "Total rate of attritions | FY2020 | FY2021 By Gender | Male: 10 out of 98 Female: 3 out of 81 | Male: 17 out of 101 Female: 13 out of 86 By Age group | <30 years: 0 out of 2 30-50 years: 11 out of 155 >50 years: 2 out of 22 | <30 years: 0 out of 3 30-50 years: 30 out of 162 >50 years: 0 out of 22 By Region | Singapore: 4 out of 39 China: 9 out of 140 | Singapore: 1 out of 36 China: 29 out of 151",
+      "retrieval_text": "[Section]\nEmployment and Labour Standards\n\n[Content]\nTotal rate of attritions | FY2020 | FY2021 By Gender | Male: 10 out of 98 Female: 3 out of 81 | Male: 17 out of 101 Female: 13 out of 86 By Age group | <30 years: 0 out of 2 30-50 years: 11 out of 155 >50 years: 2 out of 22 | <30 years: 0 out of 3 30-50 years: 30 out of 162 >50 years: 0 out of 22 By Region | Singapore: 4 out of 39 China: 9 out of 140 | Singapore: 1 out of 36 China: 29 out of 151",
+      "bm25_rank": 4,
+      "dense_rank": 29,
+      "bm25_score": 41.72478485107422,
+      "dense_score": 0.41263943910598755,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7645235902770152,
+      "normalized_dense": 0.39383200012731545,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5511486026637219,
+      "rank": 4,
+      "rrf_score": 0.5511486026637219,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P37_001",
+      "alias_source_ids": [
+        "P37_001"
+      ],
+      "section": "Climate Change & Emissions (Air, Land, Water)",
+      "pages": [
+        37
+      ],
+      "text": "Currently, there is a high composition of plastic material in our products, with plastic making up 30 to 40% of our final product by weight, contributing to high CO 2 emissions. To reduce the impact of our products on the environment and mitigate the potential climate-related risks identified, Home Control has formed a committee and set policies to recommend the use of recycled materials and PCR resin in products to customers. In the year, we managed to increase the ratio of PCR resin within our products by 2.09% from FY2020, thereby reducing CO 2 emissions by 11.38 tonnes. We currently also have a strong business continuity plan for our supply chains, described on page 19 of this report, under 'Supply chains and Business continuity'.",
+      "retrieval_text": "[Section]\nClimate Change & Emissions (Air, Land, Water)\n\n[Content]\nCurrently, there is a high composition of plastic material in our products, with plastic making up 30 to 40% of our final product by weight, contributing to high CO 2 emissions. To reduce the impact of our products on the environment and mitigate the potential climate-related risks identified, Home Control has formed a committee and set policies to recommend the use of recycled materials and PCR resin in products to customers. In the year, we managed to increase the ratio of PCR resin within our products by 2.09% from FY2020, thereby reducing CO 2 emissions by 11.38 tonnes. We currently also have a strong business continuity plan for our supply chains, described on page 19 of this report, under 'Supply chains and Business continuity'.",
+      "bm25_rank": 18,
+      "dense_rank": 6,
+      "bm25_score": 15.359610557556152,
+      "dense_score": 0.4531291425228119,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27351279450210897,
+      "normalized_dense": 0.5493823195666603,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5288655653796255,
+      "rank": 5,
+      "rrf_score": 0.5288655653796255,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T51_001",
+      "alias_source_ids": [
+        "T51_001"
+      ],
+      "section": "Content Index",
+      "pages": [
+        51
+      ],
+      "text": "Disclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Supply Chain Management | 103 | B5 | Policies on managing environmental and social risks of the supply chain. | Occupational Health and Safety B5.1 | Number of suppliers by geographical region. | Information not disclosed due to confidentiality constraints. B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | Sustainability in our supply chains B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Sustainability in our supply chains B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Sustainability in our supply chains",
+      "retrieval_text": "[Section]\nContent Index\n\n[Content]\nDisclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Supply Chain Management | 103 | B5 | Policies on managing environmental and social risks of the supply chain. | Occupational Health and Safety B5.1 | Number of suppliers by geographical region. | Information not disclosed due to confidentiality constraints. B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | Sustainability in our supply chains B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Sustainability in our supply chains B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Sustainability in our supply chains",
+      "bm25_rank": 24,
+      "dense_rank": 7,
+      "bm25_score": 12.277176856994629,
+      "dense_score": 0.44996681809425354,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21610721062898425,
+      "normalized_dense": 0.5372335376907056,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.5077632474316378,
+      "rank": 6,
+      "rrf_score": 0.5077632474316378,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_002",
+      "alias_source_ids": [
+        "P40_002"
+      ],
+      "section": "WASTE",
+      "pages": [
+        40
+      ],
+      "text": "All our hazardous waste (such as waste printed circuit boards) is treated by a qualified third-party company. In FY2021, 35,315 kg of such waste was generated (FY2020: 41,370 kg). The decrease in hazardous waste was mostly due to the fall in production quantity due to COVID-19. In FY2021, our hazardous waste production intensity was 280.26 kg/ US$M of revenue (FY2020: 308.30 kg/US$M of revenue). Furthermore, all our chemical containers are recycled by our suppliers. We continue to work with our partners to ensure that their management of hazardous waste in relation to our products was in line with environmental regulations such as the Restriction of Hazardous Substances (RoHS). In FY2021, we achieved our target of 100% compliance with environmental regulations and reduced hazardous waste intensity by 1% from FY2020.",
+      "retrieval_text": "[Section]\nWASTE\n\n[Content]\nAll our hazardous waste (such as waste printed circuit boards) is treated by a qualified third-party company. In FY2021, 35,315 kg of such waste was generated (FY2020: 41,370 kg). The decrease in hazardous waste was mostly due to the fall in production quantity due to COVID-19. In FY2021, our hazardous waste production intensity was 280.26 kg/ US$M of revenue (FY2020: 308.30 kg/US$M of revenue). Furthermore, all our chemical containers are recycled by our suppliers. We continue to work with our partners to ensure that their management of hazardous waste in relation to our products was in line with environmental regulations such as the Restriction of Hazardous Substances (RoHS). In FY2021, we achieved our target of 100% compliance with environmental regulations and reduced hazardous waste intensity by 1% from FY2020.",
+      "bm25_rank": 60,
+      "dense_rank": 4,
+      "bm25_score": 5.916758060455322,
+      "dense_score": 0.4623318314552307,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09765419909254083,
+      "normalized_dense": 0.5847365227921613,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.4805644617219391,
+      "rank": 7,
+      "rrf_score": 0.4805644617219391,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_004",
+      "alias_source_ids": [
+        "P6_004"
+      ],
+      "section": "Statement from Chairman / Dear Stakeholders,",
+      "pages": [
+        6
+      ],
+      "text": "As one of the leading companies in the world providing control systems, we prize product innovation as a strategic thrust and key enabler to delivering value to our stakeholders. In response to the growing concern of climate change, we launched a solar-powered remote control, Model P, to significantly reduce the use and disposal of millions of alkaline batteries each year in FY2021. In the year, we also launched a new product that uses 65% Post-Consumer Recycled ('PCR') plastic to better meet the needs of our customers. The product is expected to reduce carbon emissions by reducing the use of new plastic resin material.",
+      "retrieval_text": "[Section]\nStatement from Chairman / Dear Stakeholders,\n\n[Content]\nAs one of the leading companies in the world providing control systems, we prize product innovation as a strategic thrust and key enabler to delivering value to our stakeholders. In response to the growing concern of climate change, we launched a solar-powered remote control, Model P, to significantly reduce the use and disposal of millions of alkaline batteries each year in FY2021. In the year, we also launched a new product that uses 65% Post-Consumer Recycled ('PCR') plastic to better meet the needs of our customers. The product is expected to reduce carbon emissions by reducing the use of new plastic resin material.",
+      "bm25_rank": 21,
+      "dense_rank": 15,
+      "bm25_score": 12.895581245422363,
+      "dense_score": 0.4283168911933899,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.22762404065226413,
+      "normalized_dense": 0.4540604650060469,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.4722312057818981,
+      "rank": 8,
+      "rrf_score": 0.4722312057818981,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_005",
+      "alias_source_ids": [
+        "P21_005"
+      ],
+      "section": "Innovation",
+      "pages": [
+        21
+      ],
+      "text": "In November 2021, we developed a new product using 65% Post-Consumer Recycled Plastics for one customer account, which made up 2.09% of our products in 2021. This is expected to reduce carbon emissions by reducing the use of new plastic resin material.",
+      "retrieval_text": "[Section]\nInnovation\n\n[Content]\nIn November 2021, we developed a new product using 65% Post-Consumer Recycled Plastics for one customer account, which made up 2.09% of our products in 2021. This is expected to reduce carbon emissions by reducing the use of new plastic resin material.",
+      "bm25_rank": 23,
+      "dense_rank": 16,
+      "bm25_score": 12.796412467956543,
+      "dense_score": 0.4275495409965515,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.22577717479060025,
+      "normalized_dense": 0.45111251631372684,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.46814548680886403,
+      "rank": 9,
+      "rrf_score": 0.46814548680886403,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_001",
+      "alias_source_ids": [
+        "P28_001"
+      ],
+      "section": "Employment and Labour Standards",
+      "pages": [
+        28
+      ],
+      "text": "In FY2021, our attrition rate was 16% i , a 10% increase from FY2020. Our higher attrition rate was in line with global trends of increased turnover after the COVID-19 pandemic, an economic trend termed the 'Great Resignation' ii .",
+      "retrieval_text": "[Section]\nEmployment and Labour Standards\n\n[Content]\nIn FY2021, our attrition rate was 16% i , a 10% increase from FY2020. Our higher attrition rate was in line with global trends of increased turnover after the COVID-19 pandemic, an economic trend termed the 'Great Resignation' ii .",
+      "bm25_rank": 37,
+      "dense_rank": 10,
+      "bm25_score": 8.347601890563965,
+      "dense_score": 0.4386848211288452,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14292492441141755,
+      "normalized_dense": 0.493891204114763,
+      "normalized_bm25_rank": 0.7583892617449665,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.46520529558419554,
+      "rank": 10,
+      "rrf_score": 0.46520529558419554,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T50_001",
+      "alias_source_ids": [
+        "T50_001"
+      ],
+      "section": "Content Index",
+      "pages": [
+        50
+      ],
+      "text": "Disclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Development and Training | 103, 404-2, 404-3 | B3 | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Employment and Labour Standards B3.1 | courses paid by the employer. The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Employment and Labour Standards 404-1 | B3.2 | The average training hours completed per employee by gender and employee category. | Employment and Labour Standards Labour Standards | 103 | B4 | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer | Employment and Labour Standards relating to preventing child and forced labour. 408-1 | B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Employment and Labour Standards B4.2 | Description of steps taken to eliminate such practices when discovered. | No policies in FY2021 as strict labour laws and frequent audits in China prevent this from being a possibility.",
+      "retrieval_text": "[Section]\nContent Index\n\n[Content]\nDisclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Development and Training | 103, 404-2, 404-3 | B3 | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Employment and Labour Standards B3.1 | courses paid by the employer. The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Employment and Labour Standards 404-1 | B3.2 | The average training hours completed per employee by gender and employee category. | Employment and Labour Standards Labour Standards | 103 | B4 | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer | Employment and Labour Standards relating to preventing child and forced labour. 408-1 | B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Employment and Labour Standards B4.2 | Description of steps taken to eliminate such practices when discovered. | No policies in FY2021 as strict labour laws and frequent audits in China prevent this from being a possibility.",
+      "bm25_rank": 11,
+      "dense_rank": 35,
+      "bm25_score": 23.275123596191406,
+      "dense_score": 0.40295204520225525,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.42092704304066203,
+      "normalized_dense": 0.35661569353332395,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.45665190805620515,
+      "rank": 11,
+      "rrf_score": 0.45665190805620515,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_002",
+      "alias_source_ids": [
+        "P23_002"
+      ],
+      "section": "Occupational Health and Safety",
+      "pages": [
+        23
+      ],
+      "text": "As we have outsourced our product assembly process, this section will cover data collected for Home Control's Singapore and China offices, as well as Home Control's main manufacturing partner factory in China.",
+      "retrieval_text": "[Section]\nOccupational Health and Safety\n\n[Content]\nAs we have outsourced our product assembly process, this section will cover data collected for Home Control's Singapore and China offices, as well as Home Control's main manufacturing partner factory in China.",
+      "bm25_rank": 45,
+      "dense_rank": 11,
+      "bm25_score": 7.607320308685303,
+      "dense_score": 0.4363062381744385,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12913831922651983,
+      "normalized_dense": 0.4847533417164622,
+      "normalized_bm25_rank": 0.7046979865771812,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4525383133118375,
+      "rank": 12,
+      "rrf_score": 0.4525383133118375,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T14_001",
+      "alias_source_ids": [
+        "T14_001"
+      ],
+      "section": "Materiality Matrix",
+      "pages": [
+        14
+      ],
+      "text": "Material ESG matters/(Sub-topics) | Key stakeholders | Approach | Targets | Performance as at 31 Dec 2021 3. | Occupational Health and Safety | Employees | Provide a healthy, safe and productive work environment for employees, factory workers and visitors | Perpetual target: ≤ 1 work-related injury/ fatality across all employees and factory workers Zero cases of non- compliance with health and safety laws | Target met Zero work-related injuries/fatalities across all employees and factory workers for year ended 31 December 2019 ('FY2019'), year ended in 2020 ('FY2020') and FY2021 4. | Employment and Labour standards | Employees | Ensure fair employment practices and enable the personal development of our employees | Perpetual target: Zero cases of non- compliance with internal and external labour and human rights laws | Target met",
+      "retrieval_text": "[Section]\nMateriality Matrix\n\n[Content]\nMaterial ESG matters/(Sub-topics) | Key stakeholders | Approach | Targets | Performance as at 31 Dec 2021 3. | Occupational Health and Safety | Employees | Provide a healthy, safe and productive work environment for employees, factory workers and visitors | Perpetual target: ≤ 1 work-related injury/ fatality across all employees and factory workers Zero cases of non- compliance with health and safety laws | Target met Zero work-related injuries/fatalities across all employees and factory workers for year ended 31 December 2019 ('FY2019'), year ended in 2020 ('FY2020') and FY2021 4. | Employment and Labour standards | Employees | Ensure fair employment practices and enable the personal development of our employees | Perpetual target: Zero cases of non- compliance with internal and external labour and human rights laws | Target met",
+      "bm25_rank": 39,
+      "dense_rank": 14,
+      "bm25_score": 8.241503715515137,
+      "dense_score": 0.4295189380645752,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14094900918396547,
+      "normalized_dense": 0.4586783989254207,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.44577422132646216,
+      "rank": 13,
+      "rrf_score": 0.44577422132646216,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T45_001",
+      "alias_source_ids": [
+        "T45_001"
+      ],
+      "section": "Content Index",
+      "pages": [
+        45
+      ],
+      "text": "Disclosure | GRI indicator | Description | Location/Remarks/ Reasons for omission Organisational | 102-1 | Name of organisation | About Us profile | 102-2 | Activities, brands, products, and services | About Us 102-3 | Location of headquarters | About Us 102-4 | Location of operations | About Us 102-5 | Ownership and legal form | About Us 102-6 | Markets served | About Us 102-7 | Scale of the organisation | About Us 102-8 | Information on employees and other workers | Employment and Labour Standards 102-9 | Supply chain | Sustainability in our supply chains 102-10 | Significant changes to the organisation and its supply chain | None 102-11 | Precautionary Principle or approach | Not in use 102-12 | External initiatives | None 102-13 | Membership of associations | None Strategy | 102-14 | Statement from senior decision-maker | Statement from Chairman Ethics and integrity | 102-16 | Values, principles, standards, and norms of behaviour | Our Sustainability Approach Governance | 102-18 | Governance structure | Sustainability governance Stakeholder engagement | 102-40 | List of stakeholder groups | Stakeholder engagement and materiality assessment 102-41 | Collective bargaining agreements | Singapore - No unions China - 100% employees covered 102-42 | Identifying and selecting stakeholders | Stakeholder engagement and materiality assessment",
+      "retrieval_text": "[Section]\nContent Index\n\n[Content]\nDisclosure | GRI indicator | Description | Location/Remarks/ Reasons for omission Organisational | 102-1 | Name of organisation | About Us profile | 102-2 | Activities, brands, products, and services | About Us 102-3 | Location of headquarters | About Us 102-4 | Location of operations | About Us 102-5 | Ownership and legal form | About Us 102-6 | Markets served | About Us 102-7 | Scale of the organisation | About Us 102-8 | Information on employees and other workers | Employment and Labour Standards 102-9 | Supply chain | Sustainability in our supply chains 102-10 | Significant changes to the organisation and its supply chain | None 102-11 | Precautionary Principle or approach | Not in use 102-12 | External initiatives | None 102-13 | Membership of associations | None Strategy | 102-14 | Statement from senior decision-maker | Statement from Chairman Ethics and integrity | 102-16 | Values, principles, standards, and norms of behaviour | Our Sustainability Approach Governance | 102-18 | Governance structure | Sustainability governance Stakeholder engagement | 102-40 | List of stakeholder groups | Stakeholder engagement and materiality assessment 102-41 | Collective bargaining agreements | Singapore - No unions China - 100% employees covered 102-42 | Identifying and selecting stakeholders | Stakeholder engagement and materiality assessment",
+      "bm25_rank": 47,
+      "dense_rank": 13,
+      "bm25_score": 7.327310085296631,
+      "dense_score": 0.43368732929229736,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12392355974567759,
+      "normalized_dense": 0.4746922131128303,
+      "normalized_bm25_rank": 0.6912751677852349,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.4439471207668141,
+      "rank": 14,
+      "rrf_score": 0.4439471207668141,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_003",
+      "alias_source_ids": [
+        "P40_003"
+      ],
+      "section": "WASTE",
+      "pages": [
+        40
+      ],
+      "text": "Our non-hazardous waste (mainly comprising cartons, pallet packaging film, and paper and plastic packaging material) is recycled by a third party. In FY2021, 23,245 kg of non-hazardous waste was generated, leading to a non-hazardous waste production intensity of 184.47 kg/US$M of revenue (FY2020: 30,790 kg of non-hazardous waste generated, leading to non-hazardous waste production intensity of 229.45 kg/US$M of revenue.",
+      "retrieval_text": "[Section]\nWASTE\n\n[Content]\nOur non-hazardous waste (mainly comprising cartons, pallet packaging film, and paper and plastic packaging material) is recycled by a third party. In FY2021, 23,245 kg of non-hazardous waste was generated, leading to a non-hazardous waste production intensity of 184.47 kg/US$M of revenue (FY2020: 30,790 kg of non-hazardous waste generated, leading to non-hazardous waste production intensity of 229.45 kg/US$M of revenue.",
+      "bm25_rank": 92,
+      "dense_rank": 5,
+      "bm25_score": 4.189722061157227,
+      "dense_score": 0.4540296792984009,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06549081147724449,
+      "normalized_dense": 0.5528419345129021,
+      "normalized_bm25_rank": 0.38926174496644295,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.4401498863548305,
+      "rank": 15,
+      "rrf_score": 0.4401498863548305,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L8_002",
+      "alias_source_ids": [
+        "L8_002"
+      ],
+      "section": "Our Sustainability Approach",
+      "pages": [
+        8
+      ],
+      "text": "Rick Siu, our head of Product & Marketing",
+      "retrieval_text": "[Section]\nOur Sustainability Approach\n\n[Content]\nRick Siu, our head of Product & Marketing",
+      "bm25_rank": 27,
+      "dense_rank": 22,
+      "bm25_score": 10.655637741088867,
+      "dense_score": 0.41725242137908936,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18590854010941282,
+      "normalized_dense": 0.41155381099765304,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.4355879579784437,
+      "rank": 16,
+      "rrf_score": 0.4355879579784437,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L20_002",
+      "alias_source_ids": [
+        "L20_002"
+      ],
+      "section": "Innovation",
+      "pages": [
+        20
+      ],
+      "text": "Product commercial release on time hit rate of 100% achieved",
+      "retrieval_text": "[Section]\nInnovation\n\n[Content]\nProduct commercial release on time hit rate of 100% achieved",
+      "bm25_rank": 17,
+      "dense_rank": 32,
+      "bm25_score": 15.69997787475586,
+      "dense_score": 0.40722575783729553,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27985161196689945,
+      "normalized_dense": 0.37303412363958777,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.434183272378645,
+      "rank": 17,
+      "rrf_score": 0.434183272378645,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T47_001",
+      "alias_source_ids": [
+        "T47_001"
+      ],
+      "section": "Content Index",
+      "pages": [
+        47
+      ],
+      "text": "Disclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Emissions | A1 | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of | Climate Change & Emissions (Air, Land, Water) A1.1 | The types of emissions and respective emissions data. | Climate Change & Emissions (Air, Land, Water) A1.2 | Greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Climate Change & Emissions (Air, Land, Water) A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Climate Change & Emissions (Air, Land, Water) A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Climate Change & Emissions (Air, Land, Water) A1.5 | Description of emission targets set and steps taken to achieve them. | Climate Change & Emissions (Air, Land, Water) A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction targets set and steps taken to achieve them. | Climate Change & Emissions (Air, Land, Water)",
+      "retrieval_text": "[Section]\nContent Index\n\n[Content]\nDisclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Emissions | A1 | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of | Climate Change & Emissions (Air, Land, Water) A1.1 | The types of emissions and respective emissions data. | Climate Change & Emissions (Air, Land, Water) A1.2 | Greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Climate Change & Emissions (Air, Land, Water) A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Climate Change & Emissions (Air, Land, Water) A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Climate Change & Emissions (Air, Land, Water) A1.5 | Description of emission targets set and steps taken to achieve them. | Climate Change & Emissions (Air, Land, Water) A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction targets set and steps taken to achieve them. | Climate Change & Emissions (Air, Land, Water)",
+      "bm25_rank": 28,
+      "dense_rank": 27,
+      "bm25_score": 10.050975799560547,
+      "dense_score": 0.41296279430389404,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17464764201030136,
+      "normalized_dense": 0.3950742419834469,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.42018537886807883,
+      "rank": 18,
+      "rrf_score": 0.42018537886807883,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T46_001",
+      "alias_source_ids": [
+        "T46_001"
+      ],
+      "section": "Content Index",
+      "pages": [
+        46
+      ],
+      "text": "Disclosure | GRI indicator | Description | Location/Remarks/ Reasons for omission 102-43 | Approach to stakeholder engagement | Stakeholder engagement and materiality assessment 102-44 | Key topics and concerns raised | Stakeholder engagement and materiality assessment Reporting practice | 102-45 | Entities included in the consolidated financial statements | 2021 Annual Report 102-46 | Defining report content and topic Boundaries | Stakeholder engagement and materiality assessment 102-47 | List of material topics | Reporting scope; FY2020 Key stakeholder concerns, targets and progress 102-48 | Restatements of information | None 102-49 | Changes in reporting | Stakeholder engagement and materiality assessment 102-50 | Reporting period | Reporting scope 102-51 | Date of most recent report | 30 June 2021 102-52 | Reporting cycle | Annually 102-53 | Contact point for questions regarding the report | Feedback 102-54 | Claims of reporting in accordance with the GRI Standards | Reporting standards 102-55 | GRI content index | Content Index 102-56 | External assurance | No external assurance done for FY2021",
+      "retrieval_text": "[Section]\nContent Index\n\n[Content]\nDisclosure | GRI indicator | Description | Location/Remarks/ Reasons for omission 102-43 | Approach to stakeholder engagement | Stakeholder engagement and materiality assessment 102-44 | Key topics and concerns raised | Stakeholder engagement and materiality assessment Reporting practice | 102-45 | Entities included in the consolidated financial statements | 2021 Annual Report 102-46 | Defining report content and topic Boundaries | Stakeholder engagement and materiality assessment 102-47 | List of material topics | Reporting scope; FY2020 Key stakeholder concerns, targets and progress 102-48 | Restatements of information | None 102-49 | Changes in reporting | Stakeholder engagement and materiality assessment 102-50 | Reporting period | Reporting scope 102-51 | Date of most recent report | 30 June 2021 102-52 | Reporting cycle | Annually 102-53 | Contact point for questions regarding the report | Feedback 102-54 | Claims of reporting in accordance with the GRI Standards | Reporting standards 102-55 | GRI content index | Content Index 102-56 | External assurance | No external assurance done for FY2021",
+      "bm25_rank": 61,
+      "dense_rank": 17,
+      "bm25_score": 5.880763053894043,
+      "dense_score": 0.4271734654903412,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09698384749088569,
+      "normalized_dense": 0.44966773751349437,
+      "normalized_bm25_rank": 0.5973154362416108,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.4150355111849472,
+      "rank": 19,
+      "rrf_score": 0.4150355111849472,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T15_001",
+      "alias_source_ids": [
+        "T15_001"
+      ],
+      "section": "Materiality Matrix",
+      "pages": [
+        15
+      ],
+      "text": "Material ESG matters/(Sub-topics) | Key stakeholders | Approach | Targets | Performance as at 31 Dec 2021 5. Climate Change & Emissions (Air, Land, Water) | Government, Customers | Minimise the adverse effects of our activities on the environment | Perpetual target: Zero cases of non-compliance with relevant environmental legislations | Target met FY2021: Reduce greenhouse gas (GHG) emissions intensity by 0.5% from FY2020 | Target not met 3.14% increase in GHG emissions intensity (tCO 2 /US$ Million) from FY2020 Reduce electricity consumption intensity by 0.5% from FY2020 | Target not met 3.61% increase in electricity consumption intensity (KwH/US$Million) from FY2020 Reduce water consumption intensity by 1% from FY2020 | Target not met 7.96% increase in water consumption intensity (kg/ US$Million) from FY2020 FY2021: Meet customers' environmental requirements for their products | Target met Produced PVC-BFR Free products for 3 customers Produced non- SUP (Non-Single Use Plastics) products 2 customers Produced products using for Post-Consumer Recycled Plastics for 2 customers",
+      "retrieval_text": "[Section]\nMateriality Matrix\n\n[Content]\nMaterial ESG matters/(Sub-topics) | Key stakeholders | Approach | Targets | Performance as at 31 Dec 2021 5. Climate Change & Emissions (Air, Land, Water) | Government, Customers | Minimise the adverse effects of our activities on the environment | Perpetual target: Zero cases of non-compliance with relevant environmental legislations | Target met FY2021: Reduce greenhouse gas (GHG) emissions intensity by 0.5% from FY2020 | Target not met 3.14% increase in GHG emissions intensity (tCO 2 /US$ Million) from FY2020 Reduce electricity consumption intensity by 0.5% from FY2020 | Target not met 3.61% increase in electricity consumption intensity (KwH/US$Million) from FY2020 Reduce water consumption intensity by 1% from FY2020 | Target not met 7.96% increase in water consumption intensity (kg/ US$Million) from FY2020 FY2021: Meet customers' environmental requirements for their products | Target met Produced PVC-BFR Free products for 3 customers Produced non- SUP (Non-Single Use Plastics) products 2 customers Produced products using for Post-Consumer Recycled Plastics for 2 customers",
+      "bm25_rank": 13,
+      "dense_rank": 48,
+      "bm25_score": 19.364948272705078,
+      "dense_score": 0.3916364908218384,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.34810604531729616,
+      "normalized_dense": 0.31314444158595245,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.40808082402122714,
+      "rank": 20,
+      "rrf_score": 0.40808082402122714,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T13_001",
+      "alias_source_ids": [
+        "T13_001"
+      ],
+      "section": "Materiality Matrix",
+      "pages": [
+        13
+      ],
+      "text": "Material ESG matters/(Sub-topics) | Key stakeholders | Approach | Targets | Performance as at 31 Dec 2021 Innovation | Customers, shareholders | Deliver innovative solutions that improves lives with speed, quality, fairness and integrity | Perpetual target: Develop and implement new technology Perpetual target: Release high quality products on time Perpetual target: Meet customers' environmental requirements for their products | Completed development of new solution per customer requirements Target met Product commercial release on-time hit rate > 95% rate Target met Developed PVC-BFR free products for four customer accounts (5.19% of total products) Developed product packaging with no single-use plastics for one customer account (8.86% of total products) Developed products using Post-Consumer Recycled Plastics for one customer account (2.09% of total products)",
+      "retrieval_text": "[Section]\nMateriality Matrix\n\n[Content]\nMaterial ESG matters/(Sub-topics) | Key stakeholders | Approach | Targets | Performance as at 31 Dec 2021 Innovation | Customers, shareholders | Deliver innovative solutions that improves lives with speed, quality, fairness and integrity | Perpetual target: Develop and implement new technology Perpetual target: Release high quality products on time Perpetual target: Meet customers' environmental requirements for their products | Completed development of new solution per customer requirements Target met Product commercial release on-time hit rate > 95% rate Target met Developed PVC-BFR free products for four customer accounts (5.19% of total products) Developed product packaging with no single-use plastics for one customer account (8.86% of total products) Developed products using Post-Consumer Recycled Plastics for one customer account (2.09% of total products)",
+      "bm25_rank": 16,
+      "dense_rank": 44,
+      "bm25_score": 16.500539779663086,
+      "dense_score": 0.39523303508758545,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.29476084539807057,
+      "normalized_dense": 0.32696137681156934,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.40560341606433453,
+      "rank": 21,
+      "rrf_score": 0.40560341606433453,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L20_004",
+      "alias_source_ids": [
+        "L20_004"
+      ],
+      "section": "Innovation",
+      "pages": [
+        20
+      ],
+      "text": "Developed product packaging with no single-use plastics for one customer account (8.86% of total products)",
+      "retrieval_text": "[Section]\nInnovation\n\n[Content]\nDeveloped product packaging with no single-use plastics for one customer account (8.86% of total products)",
+      "bm25_rank": 15,
+      "dense_rank": 52,
+      "bm25_score": 16.610923767089844,
+      "dense_score": 0.38762274384498596,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.29681657728528754,
+      "normalized_dense": 0.29772472813508355,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.6577181208053691,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.38571462131104817,
+      "rank": 22,
+      "rrf_score": 0.38571462131104817,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_002",
+      "alias_source_ids": [
+        "P21_002"
+      ],
+      "section": "Innovation",
+      "pages": [
+        21
+      ],
+      "text": "We are constantly striving toward shortening the lead time to the introduction of a product. To achieve this, we stimulate our Operations group staff toward 'continuous improvement' (Kaizen) through weekly, monthly, quarterly and half-yearly trainings, small group activities, and competitions, with the aim of improving quality and efficiency outcomes. In FY2021, we maintained a product commercial release on-time hit rate of 100% and kept the cost of nonquality products to below 0.5% of annual sales.",
+      "retrieval_text": "[Section]\nInnovation\n\n[Content]\nWe are constantly striving toward shortening the lead time to the introduction of a product. To achieve this, we stimulate our Operations group staff toward 'continuous improvement' (Kaizen) through weekly, monthly, quarterly and half-yearly trainings, small group activities, and competitions, with the aim of improving quality and efficiency outcomes. In FY2021, we maintained a product commercial release on-time hit rate of 100% and kept the cost of nonquality products to below 0.5% of annual sales.",
+      "bm25_rank": 10,
+      "dense_rank": 66,
+      "bm25_score": 23.91489028930664,
+      "dense_score": 0.3762349486351013,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.43284171311261455,
+      "normalized_dense": 0.2539759467628952,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.563758389261745,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.38217133338550946,
+      "rank": 23,
+      "rrf_score": 0.38217133338550946,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L17_004",
+      "alias_source_ids": [
+        "L17_004"
+      ],
+      "section": "Good Corporate Governance",
+      "pages": [
+        17
+      ],
+      "text": "Zero reported incidents and legal cases of leaks, thefts or losses of customer data",
+      "retrieval_text": "[Section]\nGood Corporate Governance\n\n[Content]\nZero reported incidents and legal cases of leaks, thefts or losses of customer data",
+      "bm25_rank": 84,
+      "dense_rank": 20,
+      "bm25_score": 4.3905744552612305,
+      "dense_score": 0.4207221269607544,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06923137820987361,
+      "normalized_dense": 0.42488346683712286,
+      "normalized_bm25_rank": 0.4429530201342282,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.38134743534369253,
+      "rank": 24,
+      "rrf_score": 0.38134743534369253,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_004",
+      "alias_source_ids": [
+        "P21_004"
+      ],
+      "section": "Innovation",
+      "pages": [
+        21
+      ],
+      "text": "In FY2021, we manufactured PVC-BFR free products for four major customer accounts. This made up 5.19% of our products in 2021 and is expected to reduce the bromine and chlorine emissions of the products after treatment at the end of their lifecycle. Consequently, ozone depletion arising from these emissions can be minimized. We foresee that more customers in the EU and US will request for such PVC-BFR free products in future.",
+      "retrieval_text": "[Section]\nInnovation\n\n[Content]\nIn FY2021, we manufactured PVC-BFR free products for four major customer accounts. This made up 5.19% of our products in 2021 and is expected to reduce the bromine and chlorine emissions of the products after treatment at the end of their lifecycle. Consequently, ozone depletion arising from these emissions can be minimized. We foresee that more customers in the EU and US will request for such PVC-BFR free products in future.",
+      "bm25_rank": 96,
+      "dense_rank": 18,
+      "bm25_score": 4.031292915344238,
+      "dense_score": 0.4256663918495178,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0625403124555597,
+      "normalized_dense": 0.44387797452522604,
+      "normalized_bm25_rank": 0.36241610738255037,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.3812881723668874,
+      "rank": 25,
+      "rrf_score": 0.3812881723668874,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L35_005",
+      "alias_source_ids": [
+        "L35_005"
+      ],
+      "section": "Climate Change & Emissions (Air, Land, Water)",
+      "pages": [
+        35
+      ],
+      "text": "9.10% decrease in hazardous waste production intensity from 308.30 kilograms (kg)/US$M of revenue in FY2020 to 280.26 kg/US$M of revenue in FY2021",
+      "retrieval_text": "[Section]\nClimate Change & Emissions (Air, Land, Water)\n\n[Content]\n9.10% decrease in hazardous waste production intensity from 308.30 kilograms (kg)/US$M of revenue in FY2020 to 280.26 kg/US$M of revenue in FY2021",
+      "bm25_rank": 146,
+      "dense_rank": 8,
+      "bm25_score": 0.6958975791931152,
+      "dense_score": 0.447005033493042,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0004237074221497929,
+      "normalized_dense": 0.5258551747502264,
+      "normalized_bm25_rank": 0.02684563758389258,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.3774226432510361,
+      "rank": 26,
+      "rrf_score": 0.3774226432510361,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T3_001",
+      "alias_source_ids": [
+        "T3_001"
+      ],
+      "section": "About this Report",
+      "pages": [
+        3
+      ],
+      "text": "Material ESG matters | Scope | Rationale 1. Good Corporate Governance | All of Home Control's operations | N.A. 2. Innovation | All of Home Control's operations | N.A. 3. O ccupational Health and Safety | All of Home Control's employees and workers in Singapore and China only | Majority of Home Control's employees (FY2021: 88%) are located in Singapore and China. Home Control's main manufacturing partner is situated in China. 4. E mployment and Labour Standards | All of Home Control's employees in Singapore and China only | Majority of Home Control's employees (FY2021: 88%) are located in Singapore and China. 5. C limate Change & Emissions (Air, Land, Water) | All company-owned assets or leased assets in Singapore and China, where Home Control has operational control | Home Control's assets (FY2021: 94.9%) are mainly concentrated in Singapore and China. 6. Community Investment | All of Home Control's operations | N.A.",
+      "retrieval_text": "[Section]\nAbout this Report\n\n[Content]\nMaterial ESG matters | Scope | Rationale 1. Good Corporate Governance | All of Home Control's operations | N.A. 2. Innovation | All of Home Control's operations | N.A. 3. O ccupational Health and Safety | All of Home Control's employees and workers in Singapore and China only | Majority of Home Control's employees (FY2021: 88%) are located in Singapore and China. Home Control's main manufacturing partner is situated in China. 4. E mployment and Labour Standards | All of Home Control's employees in Singapore and China only | Majority of Home Control's employees (FY2021: 88%) are located in Singapore and China. 5. C limate Change & Emissions (Air, Land, Water) | All company-owned assets or leased assets in Singapore and China, where Home Control has operational control | Home Control's assets (FY2021: 94.9%) are mainly concentrated in Singapore and China. 6. Community Investment | All of Home Control's operations | N.A.",
+      "bm25_rank": 35,
+      "dense_rank": 40,
+      "bm25_score": 8.911169052124023,
+      "dense_score": 0.3978042006492615,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15342049547761152,
+      "normalized_dense": 0.33683908869137436,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.373409994902604,
+      "rank": 27,
+      "rrf_score": 0.373409994902604,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L23_009",
+      "alias_source_ids": [
+        "L23_009"
+      ],
+      "section": "Occupational Health and Safety",
+      "pages": [
+        23
+      ],
+      "text": "Reporting on our OHS performance regularly and in a transparent manner",
+      "retrieval_text": "[Section]\nOccupational Health and Safety\n\n[Content]\nReporting on our OHS performance regularly and in a transparent manner",
+      "bm25_rank": 108,
+      "dense_rank": 19,
+      "bm25_score": 3.699124813079834,
+      "dense_score": 0.4232527017593384,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.056354192750522,
+      "normalized_dense": 0.4346052401539739,
+      "normalized_bm25_rank": 0.2818791946308725,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.36740951824157914,
+      "rank": 28,
+      "rrf_score": 0.36740951824157914,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P37_002",
+      "alias_source_ids": [
+        "P37_002"
+      ],
+      "section": "Climate Change & Emissions (Air, Land, Water)",
+      "pages": [
+        37
+      ],
+      "text": "The following subsections on energy consumption, waste and water will cover data collected for Home Control's Singapore and China offices, as well as Home Control's main manufacturing partner factory in China. Intensity is calculated per US$ million of revenue generated in the year.",
+      "retrieval_text": "[Section]\nClimate Change & Emissions (Air, Land, Water)\n\n[Content]\nThe following subsections on energy consumption, waste and water will cover data collected for Home Control's Singapore and China offices, as well as Home Control's main manufacturing partner factory in China. Intensity is calculated per US$ million of revenue generated in the year.",
+      "bm25_rank": null,
+      "dense_rank": 9,
+      "bm25_score": null,
+      "dense_score": 0.4402717351913452,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.49998769207377564,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.36425743719226444,
+      "rank": 29,
+      "rrf_score": 0.36425743719226444,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T53_001",
+      "alias_source_ids": [
+        "T53_001"
+      ],
+      "section": "Content Index",
+      "pages": [
+        53
+      ],
+      "text": "Disclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Anti-corruption | 103, 205-3 | B7 | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer | Good Corporate Governance 205-3 | B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | Good Corporate Governance 103 | B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | Good Corporate Governance B7.3 | Description of anti-corruption training provided to directors and staff | Good Corporate Governance Community Investment | 103 | B8 | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the | Community Investment B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Community Investment B8.2 | Resources contributed (e.g. money or time) to the focus area. | Community Investment Innovation | Company's efforts to drive innovation to meet ongoing and future needs of the company and customers. | Innovation Business Continuity Planning | Disclosure of company's strategy and approach in recognising threats and risks facing the organisation's personnel and assets to ensure functionality and operations in the event of crisis or disaster. | Good Corporate Governance",
+      "retrieval_text": "[Section]\nContent Index\n\n[Content]\nDisclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Anti-corruption | 103, 205-3 | B7 | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer | Good Corporate Governance 205-3 | B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | Good Corporate Governance 103 | B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | Good Corporate Governance B7.3 | Description of anti-corruption training provided to directors and staff | Good Corporate Governance Community Investment | 103 | B8 | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the | Community Investment B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Community Investment B8.2 | Resources contributed (e.g. money or time) to the focus area. | Community Investment Innovation | Company's efforts to drive innovation to meet ongoing and future needs of the company and customers. | Innovation Business Continuity Planning | Disclosure of company's strategy and approach in recognising threats and risks facing the organisation's personnel and assets to ensure functionality and operations in the event of crisis or disaster. | Good Corporate Governance",
+      "bm25_rank": 20,
+      "dense_rank": 55,
+      "bm25_score": 12.989023208618164,
+      "dense_score": 0.38515663146972656,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.22936425341159414,
+      "normalized_dense": 0.2882506017431,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.36152566196354474,
+      "rank": 30,
+      "rrf_score": 0.36152566196354474,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L20_005",
+      "alias_source_ids": [
+        "L20_005"
+      ],
+      "section": "Innovation",
+      "pages": [
+        20
+      ],
+      "text": "Developed products using PCR Plastics for one customer account (2.09% of total products)",
+      "retrieval_text": "[Section]\nInnovation\n\n[Content]\nDeveloped products using PCR Plastics for one customer account (2.09% of total products)",
+      "bm25_rank": 90,
+      "dense_rank": 26,
+      "bm25_score": 4.288541316986084,
+      "dense_score": 0.41319042444229126,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06733116803632631,
+      "normalized_dense": 0.3959487344532287,
+      "normalized_bm25_rank": 0.40268456375838924,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.35875970006186847,
+      "rank": 31,
+      "rrf_score": 0.35875970006186847,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_002",
+      "alias_source_ids": [
+        "P25_002"
+      ],
+      "section": "Employment and Labour Standards",
+      "pages": [
+        25
+      ],
+      "text": "As at 31 December 2021, Home Control had a total of 35 employees in Singapore and 122 employees in China (FY2020: 35 employees in Singapore and 131 employees in China). All of our employees were full-time and permanent. 54% of our employees were male and 46% were female (FY2020: 53% male and 47% female). In FY2021, there were no COVID19-related retrenchment cases. In fact, Home Control provided a salary increase to our employees.",
+      "retrieval_text": "[Section]\nEmployment and Labour Standards\n\n[Content]\nAs at 31 December 2021, Home Control had a total of 35 employees in Singapore and 122 employees in China (FY2020: 35 employees in Singapore and 131 employees in China). All of our employees were full-time and permanent. 54% of our employees were male and 46% were female (FY2020: 53% male and 47% female). In FY2021, there were no COVID19-related retrenchment cases. In fact, Home Control provided a salary increase to our employees.",
+      "bm25_rank": 58,
+      "dense_rank": 37,
+      "bm25_score": 5.989509582519531,
+      "dense_score": 0.4006778597831726,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0990090842279433,
+      "normalized_dense": 0.3478788977914314,
+      "normalized_bm25_rank": 0.6174496644295302,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.35498224986453597,
+      "rank": 32,
+      "rrf_score": 0.35498224986453597,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_003",
+      "alias_source_ids": [
+        "P4_003"
+      ],
+      "section": "REPORTING STANDARDS",
+      "pages": [
+        4
+      ],
+      "text": "We are committed to continually improving our sustainability practices and disclosures. If you have any feedback or queries, please send them to info@omniremotes.com .",
+      "retrieval_text": "[Section]\nREPORTING STANDARDS\n\n[Content]\nWe are committed to continually improving our sustainability practices and disclosures. If you have any feedback or queries, please send them to info@omniremotes.com .",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.4343114495277405,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.47708991163366943,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.35221636840064335,
+      "rank": 33,
+      "rrf_score": 0.35221636840064335,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L29_002",
+      "alias_source_ids": [
+        "L29_002"
+      ],
+      "section": "LABOUR STANDARDS",
+      "pages": [
+        29
+      ],
+      "text": "Zero reported complaints and cases on non-compliance to internal and external labour and human rights laws",
+      "retrieval_text": "[Section]\nLABOUR STANDARDS\n\n[Content]\nZero reported complaints and cases on non-compliance to internal and external labour and human rights laws",
+      "bm25_rank": 110,
+      "dense_rank": 23,
+      "bm25_score": 3.5714550018310547,
+      "dense_score": 0.4168044924736023,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05397653899713464,
+      "normalized_dense": 0.4098329911729843,
+      "normalized_bm25_rank": 0.2684563758389261,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.3515522909515822,
+      "rank": 34,
+      "rrf_score": 0.3515522909515822,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P22_001",
+      "alias_source_ids": [
+        "P22_001"
+      ],
+      "section": "Innovation",
+      "pages": [
+        22
+      ],
+      "text": "We also continued to avoid the use of single-use plastics from the product and pallet packaging for another customer account, which made up 8.86% of our products in 2021. This can reduce plastic pollution and is in line with our customer's requirements and wider efforts to protect the ocean.",
+      "retrieval_text": "[Section]\nInnovation\n\n[Content]\nWe also continued to avoid the use of single-use plastics from the product and pallet packaging for another customer account, which made up 8.86% of our products in 2021. This can reduce plastic pollution and is in line with our customer's requirements and wider efforts to protect the ocean.",
+      "bm25_rank": 31,
+      "dense_rank": 51,
+      "bm25_score": 9.4327392578125,
+      "dense_score": 0.3877468407154083,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16313393787311817,
+      "normalized_dense": 0.2982014742262293,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.3497489814061529,
+      "rank": 35,
+      "rrf_score": 0.3497489814061529,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P39_002",
+      "alias_source_ids": [
+        "P39_002"
+      ],
+      "section": "Climate Change & Emissions (Air, Land, Water)",
+      "pages": [
+        39
+      ],
+      "text": "Total GHG emissions intensity for Home Control increased slightly to 8.12 tCO 2 /US$M of revenue in FY2021, from 7.87 tCO2 /US$M of revenue. vii",
+      "retrieval_text": "[Section]\nClimate Change & Emissions (Air, Land, Water)\n\n[Content]\nTotal GHG emissions intensity for Home Control increased slightly to 8.12 tCO 2 /US$M of revenue in FY2021, from 7.87 tCO2 /US$M of revenue. vii",
+      "bm25_rank": 42,
+      "dense_rank": 50,
+      "bm25_score": 8.022210121154785,
+      "dense_score": 0.3892117738723755,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13686500347717642,
+      "normalized_dense": 0.3038293450500211,
+      "normalized_bm25_rank": 0.7248322147651007,
+      "normalized_dense_rank": 0.6711409395973154,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 42,
+      "composite_score": 0.34042468085891586,
+      "rank": 36,
+      "rrf_score": 0.34042468085891586,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_005",
+      "alias_source_ids": [
+        "P23_005"
+      ],
+      "section": "Occupational Health and Safety",
+      "pages": [
+        23
+      ],
+      "text": "To this end, we are proud to report that we have maintained our track record of zero work-related fatalities and lost days due to work injuries amongst both our employees and factory workers for the past three years. There were also zero COVID-19 cases amongst our employees and workers.",
+      "retrieval_text": "[Section]\nOccupational Health and Safety\n\n[Content]\nTo this end, we are proud to report that we have maintained our track record of zero work-related fatalities and lost days due to work injuries amongst both our employees and factory workers for the past three years. There were also zero COVID-19 cases amongst our employees and workers.",
+      "bm25_rank": 95,
+      "dense_rank": 33,
+      "bm25_score": 4.073271751403809,
+      "dense_score": 0.40582841634750366,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06332210367263433,
+      "normalized_dense": 0.3676659214360453,
+      "normalized_bm25_rank": 0.3691275167785235,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.3353072247807669,
+      "rank": 37,
+      "rrf_score": 0.3353072247807669,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L17_002",
+      "alias_source_ids": [
+        "L17_002"
+      ],
+      "section": "Good Corporate Governance",
+      "pages": [
+        17
+      ],
+      "text": "Zero reported incidents and legal cases of non-compliance with applicable laws",
+      "retrieval_text": "[Section]\nGood Corporate Governance\n\n[Content]\nZero reported incidents and legal cases of non-compliance with applicable laws",
+      "bm25_rank": 85,
+      "dense_rank": 36,
+      "bm25_score": 4.370132923126221,
+      "dense_score": 0.40292099118232727,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06885068613294176,
+      "normalized_dense": 0.35649639251820053,
+      "normalized_bm25_rank": 0.43624161073825507,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.33518816990997197,
+      "rank": 38,
+      "rrf_score": 0.33518816990997197,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_003",
+      "alias_source_ids": [
+        "P6_003"
+      ],
+      "section": "Statement from Chairman / Dear Stakeholders,",
+      "pages": [
+        6
+      ],
+      "text": "Additionally, safeguarding the health and safety of our stakeholders remained a core priority for Home Control, as we strove to maintain the highest standards of Occupational Health and Safety practices in compliance with local governments' and international health authorities' recommendations. We issued COVID-19 safety guidelines and distributed medical masks to our various offices across our countries of operations, in efforts to prevent workplace transmission of the COVID-19 virus. We also conducted a mental wellness workshop to support employees who were psychologically affected by the pandemic. In FY2021, there were zero cases of COVID-19 and work injuries among our employees.",
+      "retrieval_text": "[Section]\nStatement from Chairman / Dear Stakeholders,\n\n[Content]\nAdditionally, safeguarding the health and safety of our stakeholders remained a core priority for Home Control, as we strove to maintain the highest standards of Occupational Health and Safety practices in compliance with local governments' and international health authorities' recommendations. We issued COVID-19 safety guidelines and distributed medical masks to our various offices across our countries of operations, in efforts to prevent workplace transmission of the COVID-19 virus. We also conducted a mental wellness workshop to support employees who were psychologically affected by the pandemic. In FY2021, there were zero cases of COVID-19 and work injuries among our employees.",
+      "bm25_rank": 70,
+      "dense_rank": 41,
+      "bm25_score": 5.30609130859375,
+      "dense_score": 0.3976081311702728,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08628147064224778,
+      "normalized_dense": 0.3360858436064445,
+      "normalized_bm25_rank": 0.5369127516778524,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.3348863393907051,
+      "rank": 39,
+      "rrf_score": 0.3348863393907051,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P41_004",
+      "alias_source_ids": [
+        "P41_004"
+      ],
+      "section": "WASTE",
+      "pages": [
+        41
+      ],
+      "text": "In total, Home Control's water consumption was 22,466,100 litres of water (FY2020: 22,160,700 litres of water) and our water consumption intensity was 178,291.54 litres/US$M of revenue (FY2020: 165,145.43 litres/US$M of revenue).",
+      "retrieval_text": "[Section]\nWASTE\n\n[Content]\nIn total, Home Control's water consumption was 22,466,100 litres of water (FY2020: 22,160,700 litres of water) and our water consumption intensity was 178,291.54 litres/US$M of revenue (FY2020: 165,145.43 litres/US$M of revenue).",
+      "bm25_rank": 134,
+      "dense_rank": 21,
+      "bm25_score": 0.812002956867218,
+      "dense_score": 0.4195516109466553,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0025859913976258443,
+      "normalized_dense": 0.42038666581026396,
+      "normalized_bm25_rank": 0.10738255033557043,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.33154514876278196,
+      "rank": 40,
+      "rrf_score": 0.33154514876278196,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T16_001",
+      "alias_source_ids": [
+        "T16_001"
+      ],
+      "section": "Materiality Matrix",
+      "pages": [
+        16
+      ],
+      "text": "Material ESG matters/(Sub-topics) | Key stakeholders | Approach | Targets | Performance as at 31 Dec 2021 Reduce hazardous waste intensity by 1% from FY2020 | Target met Hazardous waste intensity (kg/ US$ Million) has been reduced by 9.10% from FY2020 6. Community Investment | Government | Actively engage with and contribute to our local communities | Perpetual target: Organise at least one charitable community engagement event in the year in Singapore and China | Organised fundraising initiative in April 2021 in support of Asian Women's Welfare Association (AWWA)'s Legacy of Love Campaign. Held a recycling auction, where proceeds from the auction were donated to charity",
+      "retrieval_text": "[Section]\nMateriality Matrix\n\n[Content]\nMaterial ESG matters/(Sub-topics) | Key stakeholders | Approach | Targets | Performance as at 31 Dec 2021 Reduce hazardous waste intensity by 1% from FY2020 | Target met Hazardous waste intensity (kg/ US$ Million) has been reduced by 9.10% from FY2020 6. Community Investment | Government | Actively engage with and contribute to our local communities | Perpetual target: Organise at least one charitable community engagement event in the year in Singapore and China | Organised fundraising initiative in April 2021 in support of Asian Women's Welfare Association (AWWA)'s Legacy of Love Campaign. Held a recycling auction, where proceeds from the auction were donated to charity",
+      "bm25_rank": 68,
+      "dense_rank": 43,
+      "bm25_score": 5.418787479400635,
+      "dense_score": 0.39555883407592773,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08838026338651868,
+      "normalized_dense": 0.32821300703933237,
+      "normalized_bm25_rank": 0.5503355704697986,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 43,
+      "composite_score": 0.33120832326187544,
+      "rank": 41,
+      "rrf_score": 0.33120832326187544,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_004",
+      "alias_source_ids": [
+        "P19_004"
+      ],
+      "section": "SUSTAINABILITY IN OUR SUPPLY CHAINS",
+      "pages": [
+        19
+      ],
+      "text": "As we continue to roll out new initiatives to reduce the environmental footprint of our products, we recognise that engaging with our suppliers is crucial to meeting our goals. Since FY2020, we have issued formal letters with our Green Product and Process requirements to all our suppliers and requested a yearly report from them on their environmental performance, including their carbon footprint. On an ongoing basis, we also consult with key suppliers and welcome their ideas on how our products and processes can be made more sustainable.",
+      "retrieval_text": "[Section]\nSUSTAINABILITY IN OUR SUPPLY CHAINS\n\n[Content]\nAs we continue to roll out new initiatives to reduce the environmental footprint of our products, we recognise that engaging with our suppliers is crucial to meeting our goals. Since FY2020, we have issued formal letters with our Green Product and Process requirements to all our suppliers and requested a yearly report from them on their environmental performance, including their carbon footprint. On an ongoing basis, we also consult with key suppliers and welcome their ideas on how our products and processes can be made more sustainable.",
+      "bm25_rank": 30,
+      "dense_rank": 62,
+      "bm25_score": 9.615995407104492,
+      "dense_score": 0.3801063895225525,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16654680162636967,
+      "normalized_dense": 0.26884895930472924,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.5906040268456376,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.32606421420273457,
+      "rank": 42,
+      "rrf_score": 0.32606421420273457,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T48_001",
+      "alias_source_ids": [
+        "T48_001"
+      ],
+      "section": "Content Index",
+      "pages": [
+        48
+      ],
+      "text": "Disclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Use of Resources | A2 | Policies on the efficient use of resources, including energy, water and other raw materials. | Climate Change & Emissions (Air, Land, Water) A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in'000s) and intensity (e.g. per unit of production volume, per facility). | Climate Change & Emissions (Air, Land, Water) A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Climate Change & Emissions (Air, Land, Water) A2.3 | Description of energy use efficiency targets set and steps taken to achieve them. | Emissions (Air, Land, Water) - Energy consumption A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency targets set and steps taken to achieve them. | Climate Change & Emissions (Air, Land, Water) A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Climate Change & Emissions (Air, Land, Water) The Environment and Natural Resources | A3 | Policies on minimising the issuer's significant impact on the environment and natural resources. | Climate Change & Emissions (Air, Land, Water) A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Climate Change & Emissions (Air, Land, Water) Climate Change | A4 | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Climate Change & Emissions (Air, Land, Water) A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Climate Change & Emissions (Air, Land, Water)",
+      "retrieval_text": "[Section]\nContent Index\n\n[Content]\nDisclosure | GRI indicator | ESG Reporting Guide from the Stock Exchange | Description | Location/Remarks/ Reasons for omission Use of Resources | A2 | Policies on the efficient use of resources, including energy, water and other raw materials. | Climate Change & Emissions (Air, Land, Water) A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in'000s) and intensity (e.g. per unit of production volume, per facility). | Climate Change & Emissions (Air, Land, Water) A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Climate Change & Emissions (Air, Land, Water) A2.3 | Description of energy use efficiency targets set and steps taken to achieve them. | Emissions (Air, Land, Water) - Energy consumption A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency targets set and steps taken to achieve them. | Climate Change & Emissions (Air, Land, Water) A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Climate Change & Emissions (Air, Land, Water) The Environment and Natural Resources | A3 | Policies on minimising the issuer's significant impact on the environment and natural resources. | Climate Change & Emissions (Air, Land, Water) A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Climate Change & Emissions (Air, Land, Water) Climate Change | A4 | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Climate Change & Emissions (Air, Land, Water) A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Climate Change & Emissions (Air, Land, Water)",
+      "bm25_rank": 51,
+      "dense_rank": 53,
+      "bm25_score": 6.803641319274902,
+      "dense_score": 0.38668176531791687,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1141710348936038,
+      "normalized_dense": 0.29410974708757254,
+      "normalized_bm25_rank": 0.6644295302013423,
+      "normalized_dense_rank": 0.651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 51,
+      "composite_score": 0.3224169137613846,
+      "rank": 43,
+      "rrf_score": 0.3224169137613846,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P41_001",
+      "alias_source_ids": [
+        "P41_001"
+      ],
+      "section": "WASTE",
+      "pages": [
+        41
+      ],
+      "text": "In total, we estimate that packaging material used for our finished products in FY2021 was 335.55 tonnes of carton packaging and 46.82 tonnes of plastic polyethylene bags (FY2020: 373.73 tonnes of carton packaging and 50.45 tonnes of plastic polyethylene bags). This translates to 3.03 tonnes of packaging used per US$M of revenue generated in FY2021 (FY2020: 3.16 tonnes of packaging used/US$M of revenue). In FY2021, we have reduced our total packaging material intensity tonnes per US$M by 3.97%.",
+      "retrieval_text": "[Section]\nWASTE\n\n[Content]\nIn total, we estimate that packaging material used for our finished products in FY2021 was 335.55 tonnes of carton packaging and 46.82 tonnes of plastic polyethylene bags (FY2020: 373.73 tonnes of carton packaging and 50.45 tonnes of plastic polyethylene bags). This translates to 3.03 tonnes of packaging used per US$M of revenue generated in FY2021 (FY2020: 3.16 tonnes of packaging used/US$M of revenue). In FY2021, we have reduced our total packaging material intensity tonnes per US$M by 3.97%.",
+      "bm25_rank": 125,
+      "dense_rank": 30,
+      "bm25_score": 2.4183733463287354,
+      "dense_score": 0.4122278094291687,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.032502167731520225,
+      "normalized_dense": 0.392250631969077,
+      "normalized_bm25_rank": 0.16778523489932884,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.32164050372876957,
+      "rank": 44,
+      "rrf_score": 0.32164050372876957,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L35_004",
+      "alias_source_ids": [
+        "L35_004"
+      ],
+      "section": "Climate Change & Emissions (Air, Land, Water)",
+      "pages": [
+        35
+      ],
+      "text": "3.14% increase in GHG emissions intensity from 7.87 tonnes carbon dioxide (tCO 2 )/US$M of revenue in FY2020 to 8.12 tCO 2 /US$M of revenue in FY2021",
+      "retrieval_text": "[Section]\nClimate Change & Emissions (Air, Land, Water)\n\n[Content]\n3.14% increase in GHG emissions intensity from 7.87 tonnes carbon dioxide (tCO 2 )/US$M of revenue in FY2020 to 8.12 tCO 2 /US$M of revenue in FY2021",
+      "bm25_rank": 43,
+      "dense_rank": 58,
+      "bm25_score": 7.922938346862793,
+      "dense_score": 0.3823927044868469,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.135016219458135,
+      "normalized_dense": 0.27763235342776893,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.6174496644295302,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 43,
+      "composite_score": 0.31947658101416493,
+      "rank": 45,
+      "rrf_score": 0.31947658101416493,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T42_001",
+      "alias_source_ids": [
+        "T42_001"
+      ],
+      "section": "WASTE",
+      "pages": [
+        42
+      ],
+      "text": "Water consumption (litres) - By Country 23,077,000.00 | 22,139,000.00 | 22,451,000.00 20,000,000 | 200,000.00 | 165,145.43 | 178,291.54 15,000,000 | 150,000.00 | 128,527.06 10,000,000 | 100,000.00 5,000,000 | 50,000.00 0 | 54,400.00 | 21,700.00 | 15,100.00 | 0 FY2019 | FY2020 | FY2021 | FY2019 | FY2020 | FY2021 Singapore | China | FY2019 | FY2020 | FY2021",
+      "retrieval_text": "[Section]\nWASTE\n\n[Content]\nWater consumption (litres) - By Country 23,077,000.00 | 22,139,000.00 | 22,451,000.00 20,000,000 | 200,000.00 | 165,145.43 | 178,291.54 15,000,000 | 150,000.00 | 128,527.06 10,000,000 | 100,000.00 5,000,000 | 50,000.00 0 | 54,400.00 | 21,700.00 | 15,100.00 | 0 FY2019 | FY2020 | FY2021 | FY2019 | FY2020 | FY2021 Singapore | China | FY2019 | FY2020 | FY2021",
+      "bm25_rank": 9,
+      "dense_rank": 89,
+      "bm25_score": 24.063552856445312,
+      "dense_score": 0.34746092557907104,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4356103246370468,
+      "normalized_dense": 0.14343405338708978,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.4093959731543624,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.3138340507269847,
+      "rank": 46,
+      "rrf_score": 0.3138340507269847,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T27_002",
+      "alias_source_ids": [
+        "T27_002"
+      ],
+      "section": "Employment and Labour Standards",
+      "pages": [
+        27
+      ],
+      "text": "29 | 28 10 | 0 | 0 | 0 | 1 | 3 | 3 | 0 | 2 | 2 | 2 | 0 | 0 | 0 | 3 | 3 | 1 | 0 | 3 | 2 | 2 FY2020 (<30 years) | FY2020 (30-50 years) | FY2020 (>50 years) | FY2021 (<30 years) | FY2021 (30-50 years) | FY2021 (>50 years) Management Team | Senior Management | Managers/Chief Engineers | Admin/Engineers",
+      "retrieval_text": "[Section]\nEmployment and Labour Standards\n\n[Content]\n29 | 28 10 | 0 | 0 | 0 | 1 | 3 | 3 | 0 | 2 | 2 | 2 | 0 | 0 | 0 | 3 | 3 | 1 | 0 | 3 | 2 | 2 FY2020 (<30 years) | FY2020 (30-50 years) | FY2020 (>50 years) | FY2021 (<30 years) | FY2021 (30-50 years) | FY2021 (>50 years) Management Team | Senior Management | Managers/Chief Engineers | Admin/Engineers",
+      "bm25_rank": 1,
+      "dense_rank": null,
+      "bm25_score": 54.368858337402344,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.30000000000000004,
+      "rank": 47,
+      "rrf_score": 0.30000000000000004,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T27_001",
+      "alias_source_ids": [
+        "T27_001"
+      ],
+      "section": "Employment and Labour Standards",
+      "pages": [
+        27
+      ],
+      "text": "5 | 5 | 5 | 5 4 | 4 | 4 | 4 3 | 3 2 | 2 | 2 | 2 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 FY2020 (<30 years) | FY2020 (30-50 years) | FY2020 (>50 years) | FY2021 (<30 years) | FY2021 (30-50 years) | FY2021 (>50 years) Management Team | Senior Management | Managers/Chief Engineers | Admin/Engineers",
+      "retrieval_text": "[Section]\nEmployment and Labour Standards\n\n[Content]\n5 | 5 | 5 | 5 4 | 4 | 4 | 4 3 | 3 2 | 2 | 2 | 2 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 FY2020 (<30 years) | FY2020 (30-50 years) | FY2020 (>50 years) | FY2021 (<30 years) | FY2021 (30-50 years) | FY2021 (>50 years) Management Team | Senior Management | Managers/Chief Engineers | Admin/Engineers",
+      "bm25_rank": 3,
+      "dense_rank": null,
+      "bm25_score": 48.91468048095703,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.8984243312872962,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.27834258437826465,
+      "rank": 48,
+      "rrf_score": 0.27834258437826465,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T26_001",
+      "alias_source_ids": [
+        "T26_001"
+      ],
+      "section": "Employment and Labour Standards",
+      "pages": [
+        26
+      ],
+      "text": "50 | 47 40 | 40 | 38 20 | 20 | 19 10 | 11 | 11 3 | 4 | 0 | 1 | 3 | 3 | 0 | 1 FY2020 (Male) | FY2020 (Female) | FY2021 (Male) | FY2021 (Female) Management Team | Senior Management | Managers/Chief Engineers | Admin/Engineers",
+      "retrieval_text": "[Section]\nEmployment and Labour Standards\n\n[Content]\n50 | 47 40 | 40 | 38 20 | 20 | 19 10 | 11 | 11 3 | 4 | 0 | 1 | 3 | 3 | 0 | 1 FY2020 (Male) | FY2020 (Female) | FY2021 (Male) | FY2021 (Female) Management Team | Senior Management | Managers/Chief Engineers | Admin/Engineers",
+      "bm25_rank": 5,
+      "dense_rank": null,
+      "bm25_score": 34.46993637084961,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.629413202390172,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.22319807671964514,
+      "rank": 49,
+      "rrf_score": 0.22319807671964514,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T25_001",
+      "alias_source_ids": [
+        "T25_001"
+      ],
+      "section": "Employment and Labour Standards",
+      "pages": [
+        25
+      ],
+      "text": "6 | 6 | 6 4 | 4 3 | 3 | 3 2 | 2 | 2 | 2 | 2 0 | 0 | 0 FY2020 (Male) | FY2020 (Female) | FY2021 (Male) | FY2021 (Female) Management Team | Senior Management | Managers/Chief Engineers | Admin/Engineers",
+      "retrieval_text": "[Section]\nEmployment and Labour Standards\n\n[Content]\n6 | 6 | 6 4 | 4 3 | 3 | 3 2 | 2 | 2 | 2 | 2 0 | 0 | 0 FY2020 (Male) | FY2020 (Female) | FY2021 (Male) | FY2021 (Female) Management Team | Senior Management | Managers/Chief Engineers | Admin/Engineers",
+      "bm25_rank": 6,
+      "dense_rank": null,
+      "bm25_score": 33.11787796020508,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.6042331952810234,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.21749093435821812,
+      "rank": 50,
+      "rrf_score": 0.21749093435821812,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

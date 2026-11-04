@@ -1,0 +1,1543 @@
+{
+  "document_id": "2022052701981",
+  "metric_id": 17,
+  "metric_name": "供应商环境标准",
+  "query": "供应商环境标准 供应商环境标准 衡量供应链环境准入标准与约束机制。 一、内容质量得分 (权重 50%，取值：0, 1, 2) • 2分（卓越）：具备系统的供应商环境准入标准（含碳足迹、排污等硬性指标）；实行动态环境分级管理，并根据分级结果执行差异化采购政策；有明确的违规处理机制（如红线淘汰制）。 • 1分（合格）：发布了供应商行为准则，包含基础的环境保护要求，具备初次准入的环境审核，但缺乏动态分级管理或明确的违规退出机制。 • 0分（不合格）：无供应商环境标准披露，或仅笼统提及“推行绿色采购”。 二、覆盖应用得分 (权重 50%，取值：0, 1, 2) • 2分（高覆盖）：已签署环境协议或执行环境标准的供应商数量（或采购额）占比 >80%。 • 1分（部分覆盖）：占比 >0% - 80%，或仅针对一级供应商/关键原材料供应商执行，或未披露具体覆盖比例。 • 0分（无覆盖）：无相关覆盖范围信息。 供应商环境标准 绿色采购 供应商行为准则 环境准入 供应商环境审核 分级管理 环境黑名单 供应商退出机制 supplier environmental standards green procurement supplier code of conduct environmental prequalification supplier environmental audit tiered supplier management environmental blacklist supplier exit mechanism 企业是否制定供应商环境准入标准？ 标准是否包含碳足迹、排污等硬性要求？ 是否实行动态环境分级管理与差异化采购？ 违规处理或红线淘汰机制是什么？ 已签署/执行标准的供应商数量或采购额占比是多少？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '供应商环境标准'. Prefer explicit, auditable disclosure that answers: 企业是否制定供应商环境准入标准？ 标准是否包含碳足迹、排污等硬性要求？ 是否实行动态环境分级管理与差异化采购？ 违规处理或红线淘汰机制是什么？ 已签署/执行标准的供应商数量或采购额占比是多少？ Exclude or down-rank: 排除：仅有笼统“绿色采购”；仅有企业自身环境政策；仅有供应商劳工准则而无环境条款；仅有一次性供应商培训活动；区分：本指标聚焦供应链环境准入与约束；供应商行为准则可能同时含劳工与环境，需抽出环境条款；企业环境政策不等于已对供应商设硬性标准；道德采购更偏人权/合规采购。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 234,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P30_001",
+      "alias_source_ids": [
+        "P30_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "The Group selects all suppliers and contractors under unified standards and formulates 'Supplier in Construction Category Management Operation Guide' to standardise the cooperation guidelines with suppliers, aiming to select suppliers in an objective, fair, just and high transparent manner.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nThe Group selects all suppliers and contractors under unified standards and formulates 'Supplier in Construction Category Management Operation Guide' to standardise the cooperation guidelines with suppliers, aiming to select suppliers in an objective, fair, just and high transparent manner.",
+      "bm25_rank": 11,
+      "dense_rank": 2,
+      "bm25_score": 34.74463653564453,
+      "dense_score": 0.6386012434959412,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4576671838872383,
+      "normalized_dense": 0.9460651819695294,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.7146025591916152,
+      "rank": 1,
+      "rrf_score": 0.7146025591916152,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_001",
+      "alias_source_ids": [
+        "L30_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "Supplier sourcing methods are not limited, including internal recommendations and recommendations from collaborators, recommendation information should be in written form, while the suppliers listed on the blacklist of the governmental or renowned developers are strictly prohibited",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nSupplier sourcing methods are not limited, including internal recommendations and recommendations from collaborators, recommendation information should be in written form, while the suppliers listed on the blacklist of the governmental or renowned developers are strictly prohibited",
+      "bm25_rank": 8,
+      "dense_rank": 6,
+      "bm25_score": 35.80474853515625,
+      "dense_score": 0.6246853470802307,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4732531775582712,
+      "normalized_dense": 0.8886351694931931,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.6942635488611175,
+      "rank": 2,
+      "rrf_score": 0.6942635488611175,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_001",
+      "alias_source_ids": [
+        "P31_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        31
+      ],
+      "text": "In order to meet the market needs and the current requirements of corporate development, the Group clearly recognises that the cooperation with suppliers should be transformed from a purely beneficial need to a long-term partnership or even a strategic alliance in order to support the large-scale development of the business in a high quality and efficient manner. A shared vision of development is a prerequisite for the formation of trusting and win-win partnerships and alliances, including the pursuit of sustainable development. Currently, the Group has regarded environmental protection risk and social and governance risk of suppliers as one of the criteria for the review of supplier cooperation, and standardised management is carried out to more effectively reduce the negative impact of the supply chain on the Group's operation. In addition, the Group encourages contractors and subcontractors to use more eco-friendly equipment and facilities, as well as adopt new eco-friendly technologies, hoping to prevent pollution and reduce resource utilisation together with the construction unit during the construction stage, so as to reduce the impact on the environment.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nIn order to meet the market needs and the current requirements of corporate development, the Group clearly recognises that the cooperation with suppliers should be transformed from a purely beneficial need to a long-term partnership or even a strategic alliance in order to support the large-scale development of the business in a high quality and efficient manner. A shared vision of development is a prerequisite for the formation of trusting and win-win partnerships and alliances, including the pursuit of sustainable development. Currently, the Group has regarded environmental protection risk and social and governance risk of suppliers as one of the criteria for the review of supplier cooperation, and standardised management is carried out to more effectively reduce the negative impact of the supply chain on the Group's operation. In addition, the Group encourages contractors and subcontractors to use more eco-friendly equipment and facilities, as well as adopt new eco-friendly technologies, hoping to prevent pollution and reduce resource utilisation together with the construction unit during the construction stage, so as to reduce the impact on the environment.",
+      "bm25_rank": 28,
+      "dense_rank": 4,
+      "bm25_score": 20.078977584838867,
+      "dense_score": 0.6301423907279968,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24204952490963455,
+      "normalized_dense": 0.9111560388222654,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6451668675630083,
+      "rank": 3,
+      "rrf_score": 0.6451668675630083,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_004",
+      "alias_source_ids": [
+        "P30_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "本集團以統一標準篩選及評估各供應商及承 商,並制定 《工程類供應商管理作業指導書》 , 規範供應商合作準則,旨在以客觀、公平、公 正及高透明度的原則選取供應商。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n本集團以統一標準篩選及評估各供應商及承 商,並制定 《工程類供應商管理作業指導書》 , 規範供應商合作準則,旨在以客觀、公平、公 正及高透明度的原則選取供應商。",
+      "bm25_rank": 62,
+      "dense_rank": 1,
+      "bm25_score": 11.037494659423828,
+      "dense_score": 0.6516702175140381,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10911970644028646,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.5906040268456376,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.630884343972621,
+      "rank": 4,
+      "rrf_score": 0.630884343972621,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T73_002",
+      "alias_source_ids": [
+        "T73_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        73
+      ],
+      "text": "General Disclosure | Policies on managing environmental and social risks of the supply chain. | 29-30 一般披露 | 管理供應鏈的環境及社會風險政策。 B5.1 | Number of suppliers by geographical region. | 28, 65 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | 29-30 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 29-30 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. 描述在揀選供應商時促使多用環保產品及服務的慣例,以及 相關執行及監察方法。 | 30",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nGeneral Disclosure | Policies on managing environmental and social risks of the supply chain. | 29-30 一般披露 | 管理供應鏈的環境及社會風險政策。 B5.1 | Number of suppliers by geographical region. | 28, 65 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | 29-30 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 29-30 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. 描述在揀選供應商時促使多用環保產品及服務的慣例,以及 相關執行及監察方法。 | 30",
+      "bm25_rank": 45,
+      "dense_rank": 3,
+      "bm25_score": 14.98559284210205,
+      "dense_score": 0.630331814289093,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16716549152354349,
+      "normalized_dense": 0.9119377777165549,
+      "normalized_bm25_rank": 0.7046979865771812,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6203965554048317,
+      "rank": 5,
+      "rrf_score": 0.6203965554048317,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_001",
+      "alias_source_ids": [
+        "P29_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Standards of Cooperation",
+      "pages": [
+        29
+      ],
+      "text": "In the process of continuous development of China SCE, the supplier base continues to expand and the performance of many suppliers and contractors is also closely related to the operation of the Group. During the Year, the Group had 3,717 suppliers, with a geographical distribution as follows:",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Standards of Cooperation\n\n[Content]\nIn the process of continuous development of China SCE, the supplier base continues to expand and the performance of many suppliers and contractors is also closely related to the operation of the Group. During the Year, the Group had 3,717 suppliers, with a geographical distribution as follows:",
+      "bm25_rank": 14,
+      "dense_rank": 12,
+      "bm25_score": 31.53323745727539,
+      "dense_score": 0.5681509375572205,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.410452506821347,
+      "normalized_dense": 0.6553212853381402,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.5879630183467124,
+      "rank": 6,
+      "rrf_score": 0.5879630183467124,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_002",
+      "alias_source_ids": [
+        "P31_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        31
+      ],
+      "text": "為適應市場形勢的需要及企業當前發展的要 求,本集團清晰認識到,與供應商的合作應從 單純利益需要向長期的夥伴、甚至戰略聯盟轉 型,才能高質高效地支持業務規模化發展。共 同的發展理念是形成具備信任與共贏的夥伴及 聯盟關係的必備條件,括對可持續發展的追 求。目前,本集團已將供應商環境保護風險及 社會及管治風險作為供應商合作評審標準之 一,進行標準化管理,以更有效地減少供應鏈 對本集團運營的負面影響。此外,本集團鼓勵 承商和分商使用更環保的設備及設施,以 及採用更環保的新技術,希望在施工階段,與 施工單位一起防止污染及減少資源使用,減低 對環境的影響。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n為適應市場形勢的需要及企業當前發展的要 求,本集團清晰認識到,與供應商的合作應從 單純利益需要向長期的夥伴、甚至戰略聯盟轉 型,才能高質高效地支持業務規模化發展。共 同的發展理念是形成具備信任與共贏的夥伴及 聯盟關係的必備條件,括對可持續發展的追 求。目前,本集團已將供應商環境保護風險及 社會及管治風險作為供應商合作評審標準之 一,進行標準化管理,以更有效地減少供應鏈 對本集團運營的負面影響。此外,本集團鼓勵 承商和分商使用更環保的設備及設施,以 及採用更環保的新技術,希望在施工階段,與 施工單位一起防止污染及減少資源使用,減低 對環境的影響。",
+      "bm25_rank": 84,
+      "dense_rank": 5,
+      "bm25_score": 8.181108474731445,
+      "dense_score": 0.629132866859436,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06712450497369932,
+      "normalized_dense": 0.9069897985288156,
+      "normalized_bm25_rank": 0.4429530201342282,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.5697975049764696,
+      "rank": 7,
+      "rrf_score": 0.5697975049764696,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_001",
+      "alias_source_ids": [
+        "P26_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        26
+      ],
+      "text": "In order to maintain a good business discipline, the Group signs the 'Employee Integrity Commitment' with employees to ensure that they are aware of and comply with the Group's anti-corruption requirements when performing their duties. Prior to cooperation with each supplier and contractor, the Group conducts integrity conduct investigations and requires external parties to sign the 'Integrity Management Agreement' with the Group to ensure that both parties are honest and trustworthy in the business exchange process. The Internal Audit and Compliance Department also monitors suppliers and contractors on an ongoing basis and will cease cooperation and blacklist them if any violations are found, including bribery.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nIn order to maintain a good business discipline, the Group signs the 'Employee Integrity Commitment' with employees to ensure that they are aware of and comply with the Group's anti-corruption requirements when performing their duties. Prior to cooperation with each supplier and contractor, the Group conducts integrity conduct investigations and requires external parties to sign the 'Integrity Management Agreement' with the Group to ensure that both parties are honest and trustworthy in the business exchange process. The Internal Audit and Compliance Department also monitors suppliers and contractors on an ongoing basis and will cease cooperation and blacklist them if any violations are found, including bribery.",
+      "bm25_rank": 7,
+      "dense_rank": 17,
+      "bm25_score": 37.27410888671875,
+      "dense_score": 0.5345818996429443,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4948560281537441,
+      "normalized_dense": 0.5167840176951445,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.5543422561193514,
+      "rank": 8,
+      "rrf_score": 0.5543422561193514,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_003",
+      "alias_source_ids": [
+        "P30_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "重點審核供應商的資 質、企業性質、主營 業務、發展歷史、資 源、信譽、業績、能 力、經營管理模式、 業務覆蓋區域等。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n重點審核供應商的資 質、企業性質、主營 業務、發展歷史、資 源、信譽、業績、能 力、經營管理模式、 業務覆蓋區域等。",
+      "bm25_rank": 69,
+      "dense_rank": 8,
+      "bm25_score": 10.121185302734375,
+      "dense_score": 0.5982138514518738,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0956479300235984,
+      "normalized_dense": 0.779389003900331,
+      "normalized_bm25_rank": 0.5436241610738255,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.5368821803228556,
+      "rank": 9,
+      "rrf_score": 0.5368821803228556,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_005",
+      "alias_source_ids": [
+        "P30_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "根據類別重點評判品質管控 體系、項目履約能力、現場 配合、安全文明、技術研 發、生產能力、財務狀況、 售後服務、價格水準等。公 司考察時著重看其經營狀 況、辦公運營情況和資質原 件;項目考察時,要求供應 商提供相關合同原件,確認 其真實性。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n根據類別重點評判品質管控 體系、項目履約能力、現場 配合、安全文明、技術研 發、生產能力、財務狀況、 售後服務、價格水準等。公 司考察時著重看其經營狀 況、辦公運營情況和資質原 件;項目考察時,要求供應 商提供相關合同原件,確認 其真實性。",
+      "bm25_rank": 99,
+      "dense_rank": 9,
+      "bm25_score": 6.459143161773682,
+      "dense_score": 0.5952948331832886,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04180780213299995,
+      "normalized_dense": 0.767342402619637,
+      "normalized_bm25_rank": 0.3422818791946308,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.5004213342293791,
+      "rank": 10,
+      "rrf_score": 0.5004213342293791,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_002",
+      "alias_source_ids": [
+        "L30_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "We focus on auditing the suppliers' qualifications, business nature, main business, development history, resources, reputation, performance, capabilities, business management model, business coverage areas and other aspects",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nWe focus on auditing the suppliers' qualifications, business nature, main business, development history, resources, reputation, performance, capabilities, business management model, business coverage areas and other aspects",
+      "bm25_rank": null,
+      "dense_rank": 7,
+      "bm25_score": null,
+      "dense_score": 0.6020194888114929,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7950946253360149,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.47022942759243747,
+      "rank": 11,
+      "rrf_score": 0.47022942759243747,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P50_003",
+      "alias_source_ids": [
+        "P50_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Energy 能源",
+      "pages": [
+        50
+      ],
+      "text": "為減低碳足跡並推動節約能源,在 《關於辦公 環境節能管控通知》的指引下,透過空調管 理、照明管理、設備用電管理、用水管理及辦 公用品、辦公耗材管理五方面進一步加強辦公 環境能源、資源的使用管理。節能措施括為 空調使用的條件與溫度提供指引,並提醒僱員 下班前關掉照明、電腦、空調、影印機等耗電 設備,以盡量減少資源消耗。除此之外,為緊 跟市場趨勢,本集團也會定期檢視電器耗能情 況,淘汰落後產品,採購高效能源設備,協力 低碳經濟發展。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Energy 能源\n\n[Content]\n為減低碳足跡並推動節約能源,在 《關於辦公 環境節能管控通知》的指引下,透過空調管 理、照明管理、設備用電管理、用水管理及辦 公用品、辦公耗材管理五方面進一步加強辦公 環境能源、資源的使用管理。節能措施括為 空調使用的條件與溫度提供指引,並提醒僱員 下班前關掉照明、電腦、空調、影印機等耗電 設備,以盡量減少資源消耗。除此之外,為緊 跟市場趨勢,本集團也會定期檢視電器耗能情 況,淘汰落後產品,採購高效能源設備,協力 低碳經濟發展。",
+      "bm25_rank": 17,
+      "dense_rank": 20,
+      "bm25_score": 26.544063568115234,
+      "dense_score": 0.5048999190330505,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3371006037243639,
+      "normalized_dense": 0.3942883863807211,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.46917944523987015,
+      "rank": 12,
+      "rrf_score": 0.46917944523987015,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_003",
+      "alias_source_ids": [
+        "P26_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        26
+      ],
+      "text": "為維持良好的商業紀律,本集團與員工簽署 《員工廉潔從業承諾書》 ,確保員工在履行職責 時瞭解並遵守本集團的反貪污工作規定。與各 供應商及承商合作之前,本集團會進行廉潔 行為調查,並要求外部方與本集團簽署 《廉政 管理協議書》 ,確保雙方人員在業務交流過程 中能保持誠信。審計監察部也會對供應商及承 商進行持續監察,如發現任何括行賄受賄 在內的違法違規行為,便會停止與他們的合 作,並將其納入黑名單。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n為維持良好的商業紀律,本集團與員工簽署 《員工廉潔從業承諾書》 ,確保員工在履行職責 時瞭解並遵守本集團的反貪污工作規定。與各 供應商及承商合作之前,本集團會進行廉潔 行為調查,並要求外部方與本集團簽署 《廉政 管理協議書》 ,確保雙方人員在業務交流過程 中能保持誠信。審計監察部也會對供應商及承 商進行持續監察,如發現任何括行賄受賄 在內的違法違規行為,便會停止與他們的合 作,並將其納入黑名單。",
+      "bm25_rank": 56,
+      "dense_rank": 14,
+      "bm25_score": 12.604278564453125,
+      "dense_score": 0.5454798936843872,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13215489898495195,
+      "normalized_dense": 0.5617593405252655,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4686843328734508,
+      "rank": 13,
+      "rrf_score": 0.4686843328734508,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_002",
+      "alias_source_ids": [
+        "P30_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "供應商資源收集方式 不限,括內部推薦 及協力廠商推薦,推 薦資料應為書面形 式,嚴禁收集政府╱ 知名開發商黑名單上 的資源。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n供應商資源收集方式 不限,括內部推薦 及協力廠商推薦,推 薦資料應為書面形 式,嚴禁收集政府╱ 知名開發商黑名單上 的資源。",
+      "bm25_rank": 107,
+      "dense_rank": 10,
+      "bm25_score": 5.6144633293151855,
+      "dense_score": 0.5727263689041138,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.029389138323127964,
+      "normalized_dense": 0.6742037972142741,
+      "normalized_bm25_rank": 0.28859060402684567,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.4586276801795544,
+      "rank": 14,
+      "rrf_score": 0.4586276801795544,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T14_001",
+      "alias_source_ids": [
+        "T14_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Materiality Assessment",
+      "pages": [
+        14
+      ],
+      "text": "Steps 步驟 | Action 行動 Step 1: Identify - Set out Relevant Issues 步驟 1 :識別 - 訂定相關議題 | Adhere to industry sustainability trends and local reporting standards, identify 20 issues most relevant to the Group's operations for materiality assessment. 緊貼行業可持續發展趨勢及本地報告標準,識別 20 項與本集團 運營最為相關的議題作重要性評估。 Step 2: Sequencing - Questionnaire Survey and Analysis 步驟 2 :排列次序 - 問卷調查及分析 | By inviting internal and external stakeholders to participate in the questionnaire, the importance of each issue to the stakeholders and the Group's operations and development was assessed, and the materiality sequence of different issues is generated through matrix analysis. 透過邀請內部和外部持份者參與問卷調查,評定每項議題對持份 者和本集團運營及發展的重要性,並通過矩陣分析產生不同議題 重要性序列。 Step 3: Validation - Identify Material Issues 步驟 3 :驗證 - 釐定重要議題 | The Board and senior management reviewed and confirmed the six significant material issues assessed in the above steps for prioritisation and focused reporting. 董事會及高級管理層審視並確認上述步驟所評估出的六項高度重 要議題,以作優先處理和重點匯報。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Materiality Assessment\n\n[Content]\nSteps 步驟 | Action 行動 Step 1: Identify - Set out Relevant Issues 步驟 1 :識別 - 訂定相關議題 | Adhere to industry sustainability trends and local reporting standards, identify 20 issues most relevant to the Group's operations for materiality assessment. 緊貼行業可持續發展趨勢及本地報告標準,識別 20 項與本集團 運營最為相關的議題作重要性評估。 Step 2: Sequencing - Questionnaire Survey and Analysis 步驟 2 :排列次序 - 問卷調查及分析 | By inviting internal and external stakeholders to participate in the questionnaire, the importance of each issue to the stakeholders and the Group's operations and development was assessed, and the materiality sequence of different issues is generated through matrix analysis. 透過邀請內部和外部持份者參與問卷調查,評定每項議題對持份 者和本集團運營及發展的重要性,並通過矩陣分析產生不同議題 重要性序列。 Step 3: Validation - Identify Material Issues 步驟 3 :驗證 - 釐定重要議題 | The Board and senior management reviewed and confirmed the six significant material issues assessed in the above steps for prioritisation and focused reporting. 董事會及高級管理層審視並確認上述步驟所評估出的六項高度重 要議題,以作優先處理和重點匯報。",
+      "bm25_rank": 18,
+      "dense_rank": 26,
+      "bm25_score": 26.26812171936035,
+      "dense_score": 0.48273688554763794,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3330436475628945,
+      "normalized_dense": 0.3028229678724501,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.42763032531491635,
+      "rank": 15,
+      "rrf_score": 0.42763032531491635,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T67_001",
+      "alias_source_ids": [
+        "T67_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / ESG Reporting Guide Content Index",
+      "pages": [
+        67
+      ],
+      "text": "Aspect 層面 | Content 內容 | Page Index/Remarks 頁碼索引╱備註 A1. Emissions A1. 排放物 General Disclosures | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | 10-11, 43-44, 50 一般披露 | 有關廢氣及溫室氣體排放、向水及土地的排污、有害及無害 廢棄物的產生等的: (a) 政策;及 (b) 遵守對發行人有重大影響的相關法律及規例的資料。 A1.1 | The types of emissions and respective emissions data. 排放物種類及相關排放數據。 | 52, 58 A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions and intensity. | 51, 58 A1.3 | Total hazardous waste produced and, where appropriate, intensity. | 50, 59 A1.4 | Total non-hazardous waste produced and intensity. 所產生無害廢棄物總量及密度。 | 50, 59 A1.5 | Description of emission target(s) set and steps taken to achieve them. | 49-50 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. 描述處理有害及無害廢棄物的方法,及描述所訂立的減廢目 標及為達到這些目標所採取的步驟。 | 50",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / ESG Reporting Guide Content Index\n\n[Content]\nAspect 層面 | Content 內容 | Page Index/Remarks 頁碼索引╱備註 A1. Emissions A1. 排放物 General Disclosures | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | 10-11, 43-44, 50 一般披露 | 有關廢氣及溫室氣體排放、向水及土地的排污、有害及無害 廢棄物的產生等的: (a) 政策;及 (b) 遵守對發行人有重大影響的相關法律及規例的資料。 A1.1 | The types of emissions and respective emissions data. 排放物種類及相關排放數據。 | 52, 58 A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions and intensity. | 51, 58 A1.3 | Total hazardous waste produced and, where appropriate, intensity. | 50, 59 A1.4 | Total non-hazardous waste produced and intensity. 所產生無害廢棄物總量及密度。 | 50, 59 A1.5 | Description of emission target(s) set and steps taken to achieve them. | 49-50 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. 描述處理有害及無害廢棄物的方法,及描述所訂立的減廢目 標及為達到這些目標所採取的步驟。 | 50",
+      "bm25_rank": 5,
+      "dense_rank": 44,
+      "bm25_score": 40.05243682861328,
+      "dense_score": 0.46232396364212036,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5357036006162452,
+      "normalized_dense": 0.218580147669444,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.42324108724379605,
+      "rank": 16,
+      "rrf_score": 0.42324108724379605,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T66_001",
+      "alias_source_ids": [
+        "T66_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        66
+      ],
+      "text": "2021 二零二一年 Number of suppliers 供應商數量 Region | Northern China Region | 457 地區 | 華北地區 Central China Region 華中地區 | 716 Southern China Region 華南地區 | 561 Eastern China Region 華東地區 | 816 Southwest Region 西南地區 | 498 West Taiwan Strait Region 海西地區 | 669 Total 總數 | 3,717",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n2021 二零二一年 Number of suppliers 供應商數量 Region | Northern China Region | 457 地區 | 華北地區 Central China Region 華中地區 | 716 Southern China Region 華南地區 | 561 Eastern China Region 華東地區 | 816 Southwest Region 西南地區 | 498 West Taiwan Strait Region 海西地區 | 669 Total 總數 | 3,717",
+      "bm25_rank": null,
+      "dense_rank": 11,
+      "bm25_score": null,
+      "dense_score": 0.5710451006889343,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6672653110622203,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4201200400798308,
+      "rank": 17,
+      "rrf_score": 0.4201200400798308,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_002",
+      "alias_source_ids": [
+        "P29_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Standards of Cooperation",
+      "pages": [
+        29
+      ],
+      "text": "中駿在持續發展的過程中,供應商庫不斷擴 張,而眾多供應商及承商的表現也與本集團 的經營息息相關。本年度,本集團共有 3,717 名供應商,地區分佈如下:",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Standards of Cooperation\n\n[Content]\n中駿在持續發展的過程中,供應商庫不斷擴 張,而眾多供應商及承商的表現也與本集團 的經營息息相關。本年度,本集團共有 3,717 名供應商,地區分佈如下:",
+      "bm25_rank": 125,
+      "dense_rank": 13,
+      "bm25_score": 4.439391136169434,
+      "dense_score": 0.5596055388450623,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.012112975263175797,
+      "normalized_dense": 0.6200549726268395,
+      "normalized_bm25_rank": 0.16778523489932884,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.4201129764116263,
+      "rank": 18,
+      "rrf_score": 0.4201129764116263,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_003",
+      "alias_source_ids": [
+        "L30_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "According to the categories, we focus on quality control system, project performance capability, on-site cooperation, safety and civilisation, technology research and development, production capability, financial status, after-sales service, price level and other aspects. During inspections, the Company focuses on the operation, office operation and the qualification original documents; during project inspections, the Company requests the suppliers to provide the original documents of relevant contracts to confirm their authenticity.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nAccording to the categories, we focus on quality control system, project performance capability, on-site cooperation, safety and civilisation, technology research and development, production capability, financial status, after-sales service, price level and other aspects. During inspections, the Company focuses on the operation, office operation and the qualification original documents; during project inspections, the Company requests the suppliers to provide the original documents of relevant contracts to confirm their authenticity.",
+      "bm25_rank": null,
+      "dense_rank": 15,
+      "bm25_score": null,
+      "dense_score": 0.5352096557617188,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5193747269571515,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.3629892081262782,
+      "rank": 19,
+      "rrf_score": 0.3629892081262782,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P59_001",
+      "alias_source_ids": [
+        "P59_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Overview of Key Performance Indicators",
+      "pages": [
+        59
+      ],
+      "text": "Environmental Performance",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Overview of Key Performance Indicators\n\n[Content]\nEnvironmental Performance",
+      "bm25_rank": null,
+      "dense_rank": 16,
+      "bm25_score": null,
+      "dense_score": 0.5348225831985474,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5177773033009159,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.36108782796740113,
+      "rank": 20,
+      "rrf_score": 0.36108782796740113,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_003",
+      "alias_source_ids": [
+        "P58_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reduction of Environmental Footprint",
+      "pages": [
+        58
+      ],
+      "text": "In July 2021, Henan Province was hit by heavy rainfall and multiple areas were flooded. China SCE Central China Region company donated RMB1 million for the procurement of disaster relief supplies to contribute to the flood prevention and rescue and post-disaster reconstruction work.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reduction of Environmental Footprint\n\n[Content]\nIn July 2021, Henan Province was hit by heavy rainfall and multiple areas were flooded. China SCE Central China Region company donated RMB1 million for the procurement of disaster relief supplies to contribute to the flood prevention and rescue and post-disaster reconstruction work.",
+      "bm25_rank": 22,
+      "dense_rank": 49,
+      "bm25_score": 23.196800231933594,
+      "dense_score": 0.4600375294685364,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2878884212407803,
+      "normalized_dense": 0.20914418039916405,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.3522546574549776,
+      "rank": 21,
+      "rrf_score": 0.3522546574549776,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T72_002",
+      "alias_source_ids": [
+        "T72_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        72
+      ],
+      "text": "General Disclosure | Information on: | 10-11, 33 一般披露 | 有關防止童工或強制勞工的: (a) 政策;及 B4.1 | Description of measures to review employment practices to avoid child and forced labour. | 33 B4.2 | Description of steps taken to eliminate such practices when discovered. | 33",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nGeneral Disclosure | Information on: | 10-11, 33 一般披露 | 有關防止童工或強制勞工的: (a) 政策;及 B4.1 | Description of measures to review employment practices to avoid child and forced labour. | 33 B4.2 | Description of steps taken to eliminate such practices when discovered. | 33",
+      "bm25_rank": 57,
+      "dense_rank": 29,
+      "bm25_score": 12.423330307006836,
+      "dense_score": 0.47344717383384705,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12949455894857723,
+      "normalized_dense": 0.2644849231150696,
+      "normalized_bm25_rank": 0.6241610738255033,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.34330084964509044,
+      "rank": 22,
+      "rrf_score": 0.34330084964509044,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T10_001",
+      "alias_source_ids": [
+        "T10_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Environmental, Social and Governance Approach",
+      "pages": [
+        10
+      ],
+      "text": "Supervision 監督 | Identify and manage the matters significantly affecting the Group 識別並管理對本集團有重大影響的事宜 Manage significant ESG risks 管理重大環境、社會及管治風險 Plan 計劃 | Develop ESG policies, initiatives and performance targets 制定環境、社會及管治政策、措施及績效目標 Review 檢討 | Review ESG policies, initiatives and performance targets on a regular basis 定期檢視環境、社會及管治政策、措施及績效目標 Responsible for preparing and approving the annual ESG report 負責籌備審批每年環境、社會及管治報告的工作",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Environmental, Social and Governance Approach\n\n[Content]\nSupervision 監督 | Identify and manage the matters significantly affecting the Group 識別並管理對本集團有重大影響的事宜 Manage significant ESG risks 管理重大環境、社會及管治風險 Plan 計劃 | Develop ESG policies, initiatives and performance targets 制定環境、社會及管治政策、措施及績效目標 Review 檢討 | Review ESG policies, initiatives and performance targets on a regular basis 定期檢視環境、社會及管治政策、措施及績效目標 Responsible for preparing and approving the annual ESG report 負責籌備審批每年環境、社會及管治報告的工作",
+      "bm25_rank": 43,
+      "dense_rank": 39,
+      "bm25_score": 15.087267875671387,
+      "dense_score": 0.4652082920074463,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16866033964378324,
+      "normalized_dense": 0.2304835859430654,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.3352066921363463,
+      "rank": 23,
+      "rrf_score": 0.3352066921363463,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P42_001",
+      "alias_source_ids": [
+        "P42_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系",
+      "pages": [
+        42
+      ],
+      "text": "Training implementation consists of ten parts, including (1) plan decomposition, (2) training approval, (3) training contract, (4) training notice, (5) training project creation, (6) training attendance, (7) training discipline, (8) training evaluation, (9) training report and (10) training file. Each training must be strictly implemented in accordance with the training implementation steps.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系\n\n[Content]\nTraining implementation consists of ten parts, including (1) plan decomposition, (2) training approval, (3) training contract, (4) training notice, (5) training project creation, (6) training attendance, (7) training discipline, (8) training evaluation, (9) training report and (10) training file. Each training must be strictly implemented in accordance with the training implementation steps.",
+      "bm25_rank": 6,
+      "dense_rank": 81,
+      "bm25_score": 39.4288215637207,
+      "dense_score": 0.43704473972320557,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5265350754262162,
+      "normalized_dense": 0.11425441099491894,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.46308724832214765,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.33455780389990786,
+      "rank": 24,
+      "rrf_score": 0.33455780389990786,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_003",
+      "alias_source_ids": [
+        "P6_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reporting Principles 報告原則",
+      "pages": [
+        6
+      ],
+      "text": "Each of the Group's units is responsible for recording environmental and social key performance data and entrust professional consultants to evaluate carbon emissions and other environmental key performance in accordance with local guidance and international standard. In addition, the Group ensures the key performance data is calculable and clearly explains its calculation standard and method.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reporting Principles 報告原則\n\n[Content]\nEach of the Group's units is responsible for recording environmental and social key performance data and entrust professional consultants to evaluate carbon emissions and other environmental key performance in accordance with local guidance and international standard. In addition, the Group ensures the key performance data is calculable and clearly explains its calculation standard and method.",
+      "bm25_rank": null,
+      "dense_rank": 18,
+      "bm25_score": null,
+      "dense_score": 0.513703465461731,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.430620058170426,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.3278982284133404,
+      "rank": 25,
+      "rrf_score": 0.3278982284133404,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T68_001",
+      "alias_source_ids": [
+        "T68_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        68
+      ],
+      "text": "Aspect 層面 | Content 內容 | Page Index/Remarks 頁碼索引╱備註 A2. Use of Resources A2. 資源使用 General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 43, 48-50 一般披露 | 有效使用資源 (括能源、水及其他原材料) 的政策。 A2.1 | Direct and/or indirect energy consumption by type in total and intensity. | 49, 59 按類型劃分的直接及╱或間接能源總耗量及密度。 A2.2 | Water consumption in total and intensity. 總耗水量及密度。 | 48, 60 A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 49-50 描述所訂立的能源使用效益目標及為達到這些目標所採取的 步驟。 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | 48, 50; The Group had no problem in sourcing water that is fit for purpose. 描述求取適用水源上可有任何問題,以及所訂立的用水效益 目標及為達到這些目標所採取的步驟。 | 48, 50 ;本集團在求 取適用水源上無任何 問題。 A2.5 | Total packaging material used for finished products and with reference to per unit produced. | The business nature of the Group did not involve the use of packaging materials. 製成品所用裝材料的總量及每生產單位佔量。 | 本集團的業務性質並不 涉及裝材料的使用。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nAspect 層面 | Content 內容 | Page Index/Remarks 頁碼索引╱備註 A2. Use of Resources A2. 資源使用 General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 43, 48-50 一般披露 | 有效使用資源 (括能源、水及其他原材料) 的政策。 A2.1 | Direct and/or indirect energy consumption by type in total and intensity. | 49, 59 按類型劃分的直接及╱或間接能源總耗量及密度。 A2.2 | Water consumption in total and intensity. 總耗水量及密度。 | 48, 60 A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 49-50 描述所訂立的能源使用效益目標及為達到這些目標所採取的 步驟。 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | 48, 50; The Group had no problem in sourcing water that is fit for purpose. 描述求取適用水源上可有任何問題,以及所訂立的用水效益 目標及為達到這些目標所採取的步驟。 | 48, 50 ;本集團在求 取適用水源上無任何 問題。 A2.5 | Total packaging material used for finished products and with reference to per unit produced. | The business nature of the Group did not involve the use of packaging materials. 製成品所用裝材料的總量及每生產單位佔量。 | 本集團的業務性質並不 涉及裝材料的使用。",
+      "bm25_rank": 12,
+      "dense_rank": 77,
+      "bm25_score": 33.229251861572266,
+      "dense_score": 0.4389801621437073,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.43538767384476246,
+      "normalized_dense": 0.12224177526064522,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.4899328859060402,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.3204661829558159,
+      "rank": 26,
+      "rrf_score": 0.3204661829558159,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P59_002",
+      "alias_source_ids": [
+        "P59_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Overview of Key Performance Indicators",
+      "pages": [
+        59
+      ],
+      "text": "12 排放因子參考聯交所 《如何準備環境、社會及管 治報告 -附錄二:環境關鍵績效指標匯報指 引》 、中華人民共和國生態環境部 《道路機動車大 氣污染物排放清單編製技術指南》 及 《大氣可吸入 顆粒物一次源排放清單編製技術指南 (試行) 》 , 以及美國國家環境保護局 《 AP-42 :空氣污染物排 放因子彙編》 。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Overview of Key Performance Indicators\n\n[Content]\n12 排放因子參考聯交所 《如何準備環境、社會及管 治報告 -附錄二:環境關鍵績效指標匯報指 引》 、中華人民共和國生態環境部 《道路機動車大 氣污染物排放清單編製技術指南》 及 《大氣可吸入 顆粒物一次源排放清單編製技術指南 (試行) 》 , 以及美國國家環境保護局 《 AP-42 :空氣污染物排 放因子彙編》 。",
+      "bm25_rank": null,
+      "dense_rank": 19,
+      "bm25_score": null,
+      "dense_score": 0.5086372494697571,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4097121095241281,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.3192381645079415,
+      "rank": 27,
+      "rrf_score": 0.3192381645079415,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P69_001",
+      "alias_source_ids": [
+        "P69_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        69
+      ],
+      "text": "Policies on minimising the issuer's significant impacts on the environment and natural resources. 43-44, 47",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nPolicies on minimising the issuer's significant impacts on the environment and natural resources. 43-44, 47",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.5005914568901062,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.37650763929612996,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.30493203616975284,
+      "rank": 28,
+      "rrf_score": 0.30493203616975284,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_002",
+      "alias_source_ids": [
+        "P58_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reduction of Environmental Footprint",
+      "pages": [
+        58
+      ],
+      "text": "'Environmental Protection' is a traditional part of China SCE's 'Walk for Good' event. This year, together with China SCE's 4 th 'Walk for Good', China SCE's public welfare initiated the 'Environmental Partnerships, Speak Up for the Earth'. Over 800 team members and staff used their own water bottles throughout the 11 stops across the country, refusing to use bottled water or canned sports drinks. At the same time, the team members worked together to simulate various environmental protection symbols and spread them to their friends on social media to let more people understand environmental protection knowledge. They also used biodegradable garbage bags to collect recyclable garbage for a demonstration of recycling at the end point. The measures above make the concepts of 'Low-carbon Green' and 'Traceless Travel' have a real impact on everyone.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reduction of Environmental Footprint\n\n[Content]\n'Environmental Protection' is a traditional part of China SCE's 'Walk for Good' event. This year, together with China SCE's 4 th 'Walk for Good', China SCE's public welfare initiated the 'Environmental Partnerships, Speak Up for the Earth'. Over 800 team members and staff used their own water bottles throughout the 11 stops across the country, refusing to use bottled water or canned sports drinks. At the same time, the team members worked together to simulate various environmental protection symbols and spread them to their friends on social media to let more people understand environmental protection knowledge. They also used biodegradable garbage bags to collect recyclable garbage for a demonstration of recycling at the end point. The measures above make the concepts of 'Low-carbon Green' and 'Traceless Travel' have a real impact on everyone.",
+      "bm25_rank": null,
+      "dense_rank": 22,
+      "bm25_score": null,
+      "dense_score": 0.5004574060440063,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3759544200471503,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.3033961275534154,
+      "rank": 29,
+      "rrf_score": 0.3033961275534154,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P69_002",
+      "alias_source_ids": [
+        "P69_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        69
+      ],
+      "text": "減低發行人對環境及天然資源造成重大影響的政策。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n減低發行人對環境及天然資源造成重大影響的政策。",
+      "bm25_rank": null,
+      "dense_rank": 23,
+      "bm25_score": null,
+      "dense_score": 0.4990893006324768,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.37030833671152114,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.3000777165067505,
+      "rank": 30,
+      "rrf_score": 0.3000777165067505,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T36_001",
+      "alias_source_ids": [
+        "T36_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        36
+      ],
+      "text": "Employee Composition 僱員組成 | Number of Employees 人數 | Ratio 比例 By gender 按性別劃分 | • Male • 男性 | 2,627 | 58% • Female • 女性 | 1,871 | 42% By age group 按年齡組別劃分 | • Under 30 • 30 歲以下 | 1,764 | 39% • 30-50 • 30-50 歲 | 2,710 | 60% • Over 50 • 50 歲以上 | 24 | 1% By grade 按職級劃分 | • Senior management • 高級管理人員 | 66 | 1% • Middle management • 中級管理人員 | 359 | 8% • General staff | 4,073 | 91%",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nEmployee Composition 僱員組成 | Number of Employees 人數 | Ratio 比例 By gender 按性別劃分 | • Male • 男性 | 2,627 | 58% • Female • 女性 | 1,871 | 42% By age group 按年齡組別劃分 | • Under 30 • 30 歲以下 | 1,764 | 39% • 30-50 • 30-50 歲 | 2,710 | 60% • Over 50 • 50 歲以上 | 24 | 1% By grade 按職級劃分 | • Senior management • 高級管理人員 | 66 | 1% • Middle management • 中級管理人員 | 359 | 8% • General staff | 4,073 | 91%",
+      "bm25_rank": 1,
+      "dense_rank": null,
+      "bm25_score": 71.6324691772461,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.30000000000000004,
+      "rank": 31,
+      "rrf_score": 0.30000000000000004,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P50_001",
+      "alias_source_ids": [
+        "P50_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Energy 能源",
+      "pages": [
+        50
+      ],
+      "text": "In order to reduce the carbon footprint and promote energy conservation, we have further strengthened the management of energy and resources in the office environment through five aspects: air conditioning management, lighting management, equipment and energy consumption management, water consumption management and management of office supplies and consumables, under the guidance of the 'Notice Regarding Workplace Energy Saving Measures'. Energy saving measures include providing guidelines on the conditions on using and temperature of air-conditioning, and reminding employees to switch off power-consuming equipment such as lighting, computers, air-conditioning and photocopiers before getting off work to minimise resource consumption. In addition, to keep up with market trends, the Group regularly reviews the energy consumption of electrical appliances, eliminates outdated products and purchases energy-efficient equipment to contribute to the development of a low-carbon economy.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Energy 能源\n\n[Content]\nIn order to reduce the carbon footprint and promote energy conservation, we have further strengthened the management of energy and resources in the office environment through five aspects: air conditioning management, lighting management, equipment and energy consumption management, water consumption management and management of office supplies and consumables, under the guidance of the 'Notice Regarding Workplace Energy Saving Measures'. Energy saving measures include providing guidelines on the conditions on using and temperature of air-conditioning, and reminding employees to switch off power-consuming equipment such as lighting, computers, air-conditioning and photocopiers before getting off work to minimise resource consumption. In addition, to keep up with market trends, the Group regularly reviews the energy consumption of electrical appliances, eliminates outdated products and purchases energy-efficient equipment to contribute to the development of a low-carbon economy.",
+      "bm25_rank": 106,
+      "dense_rank": 31,
+      "bm25_score": 5.617588043212891,
+      "dense_score": 0.4726825952529907,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.02943507853610155,
+      "normalized_dense": 0.26132955632259003,
+      "normalized_bm25_rank": 0.2953020134228188,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.2866141053865698,
+      "rank": 32,
+      "rrf_score": 0.2866141053865698,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L52_002",
+      "alias_source_ids": [
+        "L52_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Emissions 排放物",
+      "pages": [
+        52
+      ],
+      "text": "Scope 2 - Energy indirect greenhouse gas emissions 10 範圍 2 - 能源間接溫室氣體排放 10",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Emissions 排放物\n\n[Content]\nScope 2 - Energy indirect greenhouse gas emissions 10 範圍 2 - 能源間接溫室氣體排放 10",
+      "bm25_rank": 27,
+      "dense_rank": 71,
+      "bm25_score": 20.256601333618164,
+      "dense_score": 0.44285255670547485,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2446609873075457,
+      "normalized_dense": 0.1382228993903519,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.5302013422818792,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.285900816274978,
+      "rank": 33,
+      "rrf_score": 0.285900816274978,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P69_004",
+      "alias_source_ids": [
+        "P69_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        69
+      ],
+      "text": "描述業務活動對環境及天然資源的重大影響及已採取管理有 關影響的行動。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n描述業務活動對環境及天然資源的重大影響及已採取管理有 關影響的行動。",
+      "bm25_rank": 70,
+      "dense_rank": 47,
+      "bm25_score": 9.94551944732666,
+      "dense_score": 0.46123868227005005,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09306525299337678,
+      "normalized_dense": 0.21410126101518806,
+      "normalized_bm25_rank": 0.5369127516778524,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.2854948006788234,
+      "rank": 34,
+      "rrf_score": 0.2854948006788234,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_004",
+      "alias_source_ids": [
+        "P6_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reporting Principles 報告原則",
+      "pages": [
+        6
+      ],
+      "text": "本集團各單位負責記錄環境及社會關鍵績效數據。並已委託專業顧問公司根據本地指引 及國際標準評估碳排放量及其他環境關鍵績效。此外,本集團確保關鍵績效數據可予計 算,並會清楚說明計算標準及方式。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reporting Principles 報告原則\n\n[Content]\n本集團各單位負責記錄環境及社會關鍵績效數據。並已委託專業顧問公司根據本地指引 及國際標準評估碳排放量及其他環境關鍵績效。此外,本集團確保關鍵績效數據可予計 算,並會清楚說明計算標準及方式。",
+      "bm25_rank": null,
+      "dense_rank": 24,
+      "bm25_score": null,
+      "dense_score": 0.489876389503479,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.33228724304454094,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.2854280518441128,
+      "rank": 35,
+      "rrf_score": 0.2854280518441128,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_005",
+      "alias_source_ids": [
+        "P58_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reduction of Environmental Footprint",
+      "pages": [
+        58
+      ],
+      "text": "「環保」是中駿「駿行」徒步活動的傳統環節。 本年度,結合中駿集團第四屆駿行徒步,中駿 公益發起「環保合夥人,為地球發聲」倡導。 在徒步全國 11 個站點的過程中,全體逾 800 名 隊員及工作人員全程使用自帶水壺,拒用瓶裝 水及罐裝運動飲料。同時,各隊隊員合力合力 模擬各類環保標誌造型並廣發社交媒體,讓更 多人瞭解環保知識;亦全程使用可降解垃圾袋 帶回可回收垃圾,在終點進行循環再生科普演 示。以上舉措令「低碳綠色」和「無痕出行」的 環保理念更加深入人心。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reduction of Environmental Footprint\n\n[Content]\n「環保」是中駿「駿行」徒步活動的傳統環節。 本年度,結合中駿集團第四屆駿行徒步,中駿 公益發起「環保合夥人,為地球發聲」倡導。 在徒步全國 11 個站點的過程中,全體逾 800 名 隊員及工作人員全程使用自帶水壺,拒用瓶裝 水及罐裝運動飲料。同時,各隊隊員合力合力 模擬各類環保標誌造型並廣發社交媒體,讓更 多人瞭解環保知識;亦全程使用可降解垃圾袋 帶回可回收垃圾,在終點進行循環再生科普演 示。以上舉措令「低碳綠色」和「無痕出行」的 環保理念更加深入人心。",
+      "bm25_rank": null,
+      "dense_rank": 25,
+      "bm25_score": null,
+      "dense_score": 0.48840031027793884,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3261955586997847,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.2819536804442535,
+      "rank": 36,
+      "rrf_score": 0.2819536804442535,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P52_002",
+      "alias_source_ids": [
+        "P52_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Emissions 排放物",
+      "pages": [
+        52
+      ],
+      "text": "本集團把減少排放物作為企業履行環境保護責 任的重要工作之一,並聘請專業顧問公司進行 進行碳評估,以量化其營運產生的排放。本年 度,本集團共產生溫室氣體排放 2,214.2 公噸 二氧化碳當量,溫室氣體密度為 0.07 公噸二氧 化碳當量╱平方米。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Emissions 排放物\n\n[Content]\n本集團把減少排放物作為企業履行環境保護責 任的重要工作之一,並聘請專業顧問公司進行 進行碳評估,以量化其營運產生的排放。本年 度,本集團共產生溫室氣體排放 2,214.2 公噸 二氧化碳當量,溫室氣體密度為 0.07 公噸二氧 化碳當量╱平方米。",
+      "bm25_rank": 53,
+      "dense_rank": 57,
+      "bm25_score": 12.89279556274414,
+      "dense_score": 0.4531594216823578,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13639673768824026,
+      "normalized_dense": 0.18075867046335617,
+      "normalized_bm25_rank": 0.651006711409396,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 53,
+      "composite_score": 0.280477768105863,
+      "rank": 37,
+      "rrf_score": 0.280477768105863,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T59_001",
+      "alias_source_ids": [
+        "T59_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Overview of Key Performance Indicators",
+      "pages": [
+        59
+      ],
+      "text": "2021 | 二零二一年 | 2020 二零二零年 | Unit Headquarters 總部 | Regional companies 區域公司 | Headquarters 總部 | 單位 Air pollutants 12 空氣污染物 12 Nitrogen oxides 氮氧化物 | 54.7 | 20.2 | 52.2 | kg 千克 Sulfur oxides 硫氧化物 | 0.4 | 0.6 | 1.1 | kg 千克 Respirable suspended particulates 可吸入懸浮粒子 | 1.2 | 1.7 | 1.2 | kg 千克 Total greenhouse gas emission 13 溫室氣體總排放 13 Scope 1 - Direct greenhouse gas emissions 範圍一 - 直接溫室氣體排放 | 152.4 | 299.9 | 96.4 | tonnes of carbon dioxide equivalent 公噸二氧化碳當量 Scope 2 - Energy indirect greenhouse gas emissions | 1,052.0 | 709.9 | 712.7 | tonnes of carbon dioxide equivalent 範圍二 - 能源間接溫室氣體排放 Total greenhouse gas emission | 1,204.4 | 1,009.8 | 809.1 | 公噸二氧化碳當量 tonnes of carbon dioxide equivalent Greenhouse gas intensity | 0.07 | - | tonnes of carbon dioxide equivalent/ sq.m. (in terms of surface area) 溫室氣體密度 (以面積計算) | 公噸二氧化碳當量╱ 平方米",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Overview of Key Performance Indicators\n\n[Content]\n2021 | 二零二一年 | 2020 二零二零年 | Unit Headquarters 總部 | Regional companies 區域公司 | Headquarters 總部 | 單位 Air pollutants 12 空氣污染物 12 Nitrogen oxides 氮氧化物 | 54.7 | 20.2 | 52.2 | kg 千克 Sulfur oxides 硫氧化物 | 0.4 | 0.6 | 1.1 | kg 千克 Respirable suspended particulates 可吸入懸浮粒子 | 1.2 | 1.7 | 1.2 | kg 千克 Total greenhouse gas emission 13 溫室氣體總排放 13 Scope 1 - Direct greenhouse gas emissions 範圍一 - 直接溫室氣體排放 | 152.4 | 299.9 | 96.4 | tonnes of carbon dioxide equivalent 公噸二氧化碳當量 Scope 2 - Energy indirect greenhouse gas emissions | 1,052.0 | 709.9 | 712.7 | tonnes of carbon dioxide equivalent 範圍二 - 能源間接溫室氣體排放 Total greenhouse gas emission | 1,204.4 | 1,009.8 | 809.1 | 公噸二氧化碳當量 tonnes of carbon dioxide equivalent Greenhouse gas intensity | 0.07 | - | tonnes of carbon dioxide equivalent/ sq.m. (in terms of surface area) 溫室氣體密度 (以面積計算) | 公噸二氧化碳當量╱ 平方米",
+      "bm25_rank": 19,
+      "dense_rank": 88,
+      "bm25_score": 25.97022819519043,
+      "dense_score": 0.43379542231559753,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3286639531678753,
+      "normalized_dense": 0.10084468634018286,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.4161073825503355,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.2721693704499545,
+      "rank": 38,
+      "rrf_score": 0.2721693704499545,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_006",
+      "alias_source_ids": [
+        "P19_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs",
+      "pages": [
+        19
+      ],
+      "text": "此外,因建設單位是工程質量的第一責任人, 本集團已與建築承商訂立合約,以取得彌償 協議及承商對品質保證及遵守監管規定的承 諾,確保其明確及落實自身責任,避免工程缺 陷或不合規事件。本集團亦於各施工階段進行 突擊巡查,從「實測實量」 、 「實體質量」及「安 全文明」三方面對項目進行評估。就突擊巡查 結果,本集團提出改善項目質量的建議,以供 承商及時進行整改,降低質量風險。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs\n\n[Content]\n此外,因建設單位是工程質量的第一責任人, 本集團已與建築承商訂立合約,以取得彌償 協議及承商對品質保證及遵守監管規定的承 諾,確保其明確及落實自身責任,避免工程缺 陷或不合規事件。本集團亦於各施工階段進行 突擊巡查,從「實測實量」 、 「實體質量」及「安 全文明」三方面對項目進行評估。就突擊巡查 結果,本集團提出改善項目質量的建議,以供 承商及時進行整改,降低質量風險。",
+      "bm25_rank": 149,
+      "dense_rank": 27,
+      "bm25_score": 3.661020517349243,
+      "dense_score": 0.4821876287460327,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.000669203714285498,
+      "normalized_dense": 0.30055622026046813,
+      "normalized_bm25_rank": 0.006711409395973145,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.2711003299145579,
+      "rank": 39,
+      "rrf_score": 0.2711003299145579,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T43_002",
+      "alias_source_ids": [
+        "T43_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        43
+      ],
+      "text": "2% | 8% Senior management | Middle management 高級管理人員 | 中級管理人員",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n2% | 8% Senior management | Middle management 高級管理人員 | 中級管理人員",
+      "bm25_rank": 10,
+      "dense_rank": 110,
+      "bm25_score": 34.9336051940918,
+      "dense_score": 0.4279036223888397,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4604454415769345,
+      "normalized_dense": 0.07652960571628732,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.2684563758389261,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.26652545702749686,
+      "rank": 40,
+      "rrf_score": 0.26652545702749686,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T62_001",
+      "alias_source_ids": [
+        "T62_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Social Performance",
+      "pages": [
+        62
+      ],
+      "text": "2021 二零二一年 | 2020 二零二零年 Regional companies 區域公司 | Headquarters 總部 Headquarters 總部 Number of employees 18 員工人數 18 Gender | Male | 221 | 2,406 | 278 性別 | 男性 Female | 150 | 1,721 | 174 女性 Age | Under 30 | 94 | 1,670 | 125 年齡 | 30 歲以下 30-50 | 264 | 2,446 | 316 30-50 歲 Over 50 | 13 | 11 | 11 50 歲以上 Grade | General staff | 259 | 3,814 | 334 職級 | 一般員工 Middle management | 79 | 280 | 85 中級管理人員 Senior management | 33 | 33 | 33 高級管理人員 Total | 371 | 4,127 | 452",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Social Performance\n\n[Content]\n2021 二零二一年 | 2020 二零二零年 Regional companies 區域公司 | Headquarters 總部 Headquarters 總部 Number of employees 18 員工人數 18 Gender | Male | 221 | 2,406 | 278 性別 | 男性 Female | 150 | 1,721 | 174 女性 Age | Under 30 | 94 | 1,670 | 125 年齡 | 30 歲以下 30-50 | 264 | 2,446 | 316 30-50 歲 Over 50 | 13 | 11 | 11 50 歲以上 Grade | General staff | 259 | 3,814 | 334 職級 | 一般員工 Middle management | 79 | 280 | 85 中級管理人員 Senior management | 33 | 33 | 33 高級管理人員 Total | 371 | 4,127 | 452",
+      "bm25_rank": 2,
+      "dense_rank": null,
+      "bm25_score": 59.02293395996094,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.8146119125320779,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.2622512415668183,
+      "rank": 41,
+      "rrf_score": 0.2622512415668183,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P51_002",
+      "alias_source_ids": [
+        "P51_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        51
+      ],
+      "text": "未來,我們將繼續完善管控,檢視現有的數據 收集及統計的過程,探討並根據實際消耗情況 逐步設定可行的目標,為將來我們進一步制定 更長遠的行動措施奠定穩健基礎。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n未來,我們將繼續完善管控,檢視現有的數據 收集及統計的過程,探討並根據實際消耗情況 逐步設定可行的目標,為將來我們進一步制定 更長遠的行動措施奠定穩健基礎。",
+      "bm25_rank": null,
+      "dense_rank": 28,
+      "bm25_score": null,
+      "dense_score": 0.4770662486553192,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.27942061291477915,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.26155560378191767,
+      "rank": 42,
+      "rrf_score": 0.26155560378191767,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P44_004",
+      "alias_source_ids": [
+        "P44_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Advocacy for Green Development",
+      "pages": [
+        44
+      ],
+      "text": "0.07 tonnes of carbon dioxide equivalent/sq.m.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Advocacy for Green Development\n\n[Content]\n0.07 tonnes of carbon dioxide equivalent/sq.m.",
+      "bm25_rank": 130,
+      "dense_rank": 33,
+      "bm25_score": 4.157263278961182,
+      "dense_score": 0.47020694613456726,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.007965071080509043,
+      "normalized_dense": 0.2511127111039393,
+      "normalized_bm25_rank": 0.13422818791946312,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.25995226176019864,
+      "rank": 43,
+      "rrf_score": 0.25995226176019864,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P42_002",
+      "alias_source_ids": [
+        "P42_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系",
+      "pages": [
+        42
+      ],
+      "text": "培訓實施共十部份構成,含 (1) 計劃分解、 (2) 培訓審批、 (3) 培訓合同、 (4) 培訓通知、 (5) 培訓項目創建、 (6) 培訓考勤、 (7) 培訓紀律、 (8) 培訓評 估、 (9) 培訓報告及 (10) 培訓檔案組成。每次培訓需按照培訓實施步驟嚴 格執行。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系\n\n[Content]\n培訓實施共十部份構成,含 (1) 計劃分解、 (2) 培訓審批、 (3) 培訓合同、 (4) 培訓通知、 (5) 培訓項目創建、 (6) 培訓考勤、 (7) 培訓紀律、 (8) 培訓評 估、 (9) 培訓報告及 (10) 培訓檔案組成。每次培訓需按照培訓實施步驟嚴 格執行。",
+      "bm25_rank": 15,
+      "dense_rank": 107,
+      "bm25_score": 30.591392517089844,
+      "dense_score": 0.4285035729408264,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3966053007869019,
+      "normalized_dense": 0.07900556318654288,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.28859060402684567,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.25529515492367716,
+      "rank": 44,
+      "rrf_score": 0.25529515492367716,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_006",
+      "alias_source_ids": [
+        "P40_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety",
+      "pages": [
+        40
+      ],
+      "text": "《辦公場所管理作業指導書》 規範了維持安全辦 公環境的措施,括每日檢查辦公室公共區域 電源及設施、定期辦公室空氣質量檢測,及季 度整體安全檢查,以及時識別和消除安全隱 患。行政部門對辦公場所進行括整理、整 頓、清掃、清潔和素養在內的 5S 管理及監督, 確保員工遵守安全要求。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety\n\n[Content]\n《辦公場所管理作業指導書》 規範了維持安全辦 公環境的措施,括每日檢查辦公室公共區域 電源及設施、定期辦公室空氣質量檢測,及季 度整體安全檢查,以及時識別和消除安全隱 患。行政部門對辦公場所進行括整理、整 頓、清掃、清潔和素養在內的 5S 管理及監督, 確保員工遵守安全要求。",
+      "bm25_rank": 40,
+      "dense_rank": 76,
+      "bm25_score": 15.797937393188477,
+      "dense_score": 0.44072413444519043,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1791087551011303,
+      "normalized_dense": 0.12943903715744193,
+      "normalized_bm25_rank": 0.738255033557047,
+      "normalized_dense_rank": 0.49664429530201337,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 40,
+      "composite_score": 0.2542797764414381,
+      "rank": 45,
+      "rrf_score": 0.2542797764414381,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T52_001",
+      "alias_source_ids": [
+        "T52_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Emissions 排放物",
+      "pages": [
+        52
+      ],
+      "text": "200 | 299.9 Headquarters | Regional companies 總部 | 區域公司",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Emissions 排放物\n\n[Content]\n200 | 299.9 Headquarters | Regional companies 總部 | 區域公司",
+      "bm25_rank": null,
+      "dense_rank": 30,
+      "bm25_score": null,
+      "dense_score": 0.4726845622062683,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.2613376738126818,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.2525420113377943,
+      "rank": 46,
+      "rrf_score": 0.2525420113377943,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_004",
+      "alias_source_ids": [
+        "P25_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Commitment to Ethics and Integrity",
+      "pages": [
+        25
+      ],
+      "text": "本集團致力以高標準的誠信及問責性營運,絕 不容忍如貪污、賄賂、敲詐、欺詐及洗黑錢等 行為。為此,本集團嚴格遵守 《中華人民共和 國公司法》 、 《中華人民共和國刑法》 及 《中華人 民共和國反不正當競爭法》等法律法規,並已 制定 《員工手冊》 及 《廉政監察管理作業指導書》 等內部政策制度,並積極營造清正誠信的良好 氛圍。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Commitment to Ethics and Integrity\n\n[Content]\n本集團致力以高標準的誠信及問責性營運,絕 不容忍如貪污、賄賂、敲詐、欺詐及洗黑錢等 行為。為此,本集團嚴格遵守 《中華人民共和 國公司法》 、 《中華人民共和國刑法》 及 《中華人 民共和國反不正當競爭法》等法律法規,並已 制定 《員工手冊》 及 《廉政監察管理作業指導書》 等內部政策制度,並積極營造清正誠信的良好 氛圍。",
+      "bm25_rank": 65,
+      "dense_rank": 61,
+      "bm25_score": 10.638592720031738,
+      "dense_score": 0.4476790130138397,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1032549646907435,
+      "normalized_dense": 0.15814137519137597,
+      "normalized_bm25_rank": 0.5704697986577181,
+      "normalized_dense_rank": 0.5973154362416108,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 61,
+      "composite_score": 0.25251054136922424,
+      "rank": 47,
+      "rrf_score": 0.25251054136922424,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_004",
+      "alias_source_ids": [
+        "P18_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Quality Operations",
+      "pages": [
+        18
+      ],
+      "text": "開展年度住宅客戶滿意度調研,業主對 購房至入住全過程服務的集團滿意度達 80 分",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Quality Operations\n\n[Content]\n開展年度住宅客戶滿意度調研,業主對 購房至入住全過程服務的集團滿意度達 80 分",
+      "bm25_rank": 3,
+      "dense_rank": null,
+      "bm25_score": 50.094913482666016,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.6833502432763172,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.23532776677606881,
+      "rank": 48,
+      "rrf_score": 0.23532776677606881,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T50_001",
+      "alias_source_ids": [
+        "T50_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Energy 能源",
+      "pages": [
+        50
+      ],
+      "text": "2,495.0 2,500 | 2,305.9 Total energy consumption (MWh) | 總能源使用 (兆瓦時) | 2,000 | Direct energy 1,500 | 2,019.0 | 1,215.8 1,000 | 間接能源 500 | 1,090.1 Headquarters | Regional companies 總部 | 區域公司",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Energy 能源\n\n[Content]\n2,495.0 2,500 | 2,305.9 Total energy consumption (MWh) | 總能源使用 (兆瓦時) | 2,000 | Direct energy 1,500 | 2,019.0 | 1,215.8 1,000 | 間接能源 500 | 1,090.1 Headquarters | Regional companies 總部 | 區域公司",
+      "bm25_rank": 4,
+      "dense_rank": null,
+      "bm25_score": 47.73008728027344,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.6485820619515514,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.22770298957151835,
+      "rank": 49,
+      "rrf_score": 0.22770298957151835,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T60_001",
+      "alias_source_ids": [
+        "T60_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        60
+      ],
+      "text": "2021 二零二一年 Headquarters | Regional companies | 2020 二零二零年 Headquarters | Unit 單位 Hazardous waste 有害廢棄物 Total hazardous waste 有害廢棄物總量 | - | 0.8 14 | - | kg 千克 Total hazardous waste intensity (in terms of surface area) 有害廢棄物密度 (以面積計算) | 0.001 | - | kg/sq.m. 千克╱平方米 Non-hazardous waste 15 無害廢棄物 15 Total non-hazardous waste 無害廢棄物總量 | 78.0 | 56.0 | 80.0 | tonnes 公噸 Total non-hazardous waste intensity (in terms of surface area) | 0.007 | - | tonnes/sq.m. 公噸╱平方米 Energy 能源 Direct energy | 476.0 | 1,090.1 | 459.3 | MWh Indirect energy 16 間接能源 16 | 2,019.0 | 1,215.8 | 1,168.3 | MWh 兆瓦時 Total energy consumption 能源總耗量 | 2,495.0 | 2,305.9 | 1,627.6 | MWh 兆瓦時 Energy intensity (in terms of surface area) 能源密度 (以面積計算) | 0.15 | - | MWh/sq.m. 兆瓦時╱平方米",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n2021 二零二一年 Headquarters | Regional companies | 2020 二零二零年 Headquarters | Unit 單位 Hazardous waste 有害廢棄物 Total hazardous waste 有害廢棄物總量 | - | 0.8 14 | - | kg 千克 Total hazardous waste intensity (in terms of surface area) 有害廢棄物密度 (以面積計算) | 0.001 | - | kg/sq.m. 千克╱平方米 Non-hazardous waste 15 無害廢棄物 15 Total non-hazardous waste 無害廢棄物總量 | 78.0 | 56.0 | 80.0 | tonnes 公噸 Total non-hazardous waste intensity (in terms of surface area) | 0.007 | - | tonnes/sq.m. 公噸╱平方米 Energy 能源 Direct energy | 476.0 | 1,090.1 | 459.3 | MWh Indirect energy 16 間接能源 16 | 2,019.0 | 1,215.8 | 1,168.3 | MWh 兆瓦時 Total energy consumption 能源總耗量 | 2,495.0 | 2,305.9 | 1,627.6 | MWh 兆瓦時 Energy intensity (in terms of surface area) 能源密度 (以面積計算) | 0.15 | - | MWh/sq.m. 兆瓦時╱平方米",
+      "bm25_rank": 9,
+      "dense_rank": null,
+      "bm25_score": 35.48275375366211,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.4685191413160771,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.1883347007464369,
+      "rank": 50,
+      "rrf_score": 0.1883347007464369,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

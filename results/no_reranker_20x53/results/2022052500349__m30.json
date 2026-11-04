@@ -1,0 +1,1565 @@
+{
+  "document_id": "2022052500349",
+  "metric_id": 30,
+  "metric_name": "网络安全风险管理",
+  "query": "网络安全风险管理 网络安全风险管理 衡量企业识别、监测、拦截及应对网络攻击与系统漏洞的能力。重点考察网络安全治理架构、数据分级防护体系、安全应急演练及重大安全事件的响应机制。 一、内容质量得分 (权重 50%，取值：0, 1, 2) • 2分（卓越）：具备由董事会/高管直接负责的治理架构；建立了成熟的数据分级分类防护及实时监测系统；披露了定期的攻防演练或压力测试结果；具备标准化的事件响应手册（IRP）及灾难恢复计划（DRP）。 • 1分（合格）：建立了基础的网络安全防护制度和管理团队，具备防火墙、入侵检测等技术手段，有初步的应急响应流程，但缺乏高级别的治理参与或定期的实战化演练。 • 0分（不合格）：无正式网络安全政策披露，或仅有笼统的“安装防病毒软件”等非系统性描述。 二、覆盖应用得分 (权重 50%，取值：0, 1, 2) • 2分（高覆盖）：网络安全管理体系覆盖 >80% 的关键信息基础设施、核心业务系统及数据中心，且核心实体通过了 ISO 27001 等国际标准认证。 • 1分（部分覆盖）：占比 >0% - 80%，或仅针对互联网端业务进行防护而忽略了内部生产网/内网，或未披露具体覆盖比例。 • 0分（无覆盖）：无相关覆盖范围信息。 网络安全风险管理 信息安全 安全运营监测 入侵检测 事件响应手册 灾难恢复计划 渗透测试 攻防演练 等保 ISO 27001 IRP DRP cybersecurity risk management information security SOC monitoring intrusion detection incident response plan disaster recovery plan penetration test red team exercise ISO 27001 IRP DRP 网络安全由谁负责（董事会、高管或专职团队）？ 是否建立数据分级分类、实时监测、防火墙、入侵检测或其他防护机制？ 是否有IRP、DRP及攻防演练/压力测试结果？ 体系覆盖哪些关键信息基础设施、核心业务系统和数据中心，覆盖比例是多少？ 核心实体是否取得ISO 27001、等级保护或其他网络安全认证？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '网络安全风险管理'. Prefer explicit, auditable disclosure that answers: 网络安全由谁负责（董事会、高管或专职团队）？ 是否建立数据分级分类、实时监测、防火墙、入侵检测或其他防护机制？ 是否有IRP、DRP及攻防演练/压力测试结果？ 体系覆盖哪些关键信息基础设施、核心业务系统和数据中心，覆盖比例是多少？ 核心实体是否取得ISO 27001、等级保护或其他网络安全认证？ Exclude or down-rank: 排除：仅有“安装杀毒软件”；仅有客户隐私政策条款；仅有一次性安全宣传；仅有数据泄露争议新闻无管理机制；区分：网络安全风险管理聚焦识别监测拦截与应急技术/管理能力；网络安全风险治理更强调董事会监督与治理安排；客户隐私政策聚焦个人信息合规，不是攻击防护体系。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 206,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P45_001",
+      "alias_source_ids": [
+        "P45_001"
+      ],
+      "section": "Case: Data Disaster Recovery Drill",
+      "pages": [
+        45
+      ],
+      "text": "In September 2021, in order to test the results of the information system emergency response plan, the Group held an information security emergency drill at Agile Centre. The drill was divided into four stages: determination of drill target and form, plan preparation, drill implementation, and drill summary and evaluation. By locating and analysing system servers and terminals, disconnecting and isolating the network, confirming the scope of infection, arranging backup and recovery and other measures, the Group effectively curbed the spread of risks and resumed business operations at the fastest speed, and ultimately achieved the expected results, enhancing the Group's ability to quickly recover its business systems and to respond to risks under extreme circumstance.",
+      "retrieval_text": "[Section]\nCase: Data Disaster Recovery Drill\n\n[Content]\nIn September 2021, in order to test the results of the information system emergency response plan, the Group held an information security emergency drill at Agile Centre. The drill was divided into four stages: determination of drill target and form, plan preparation, drill implementation, and drill summary and evaluation. By locating and analysing system servers and terminals, disconnecting and isolating the network, confirming the scope of infection, arranging backup and recovery and other measures, the Group effectively curbed the spread of risks and resumed business operations at the fastest speed, and ultimately achieved the expected results, enhancing the Group's ability to quickly recover its business systems and to respond to risks under extreme circumstance.",
+      "bm25_rank": 9,
+      "dense_rank": 5,
+      "bm25_score": 26.847816467285156,
+      "dense_score": 0.513224184513092,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5049265465332076,
+      "normalized_dense": 0.7575283931727218,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 5,
+      "composite_score": 0.6853819918835371,
+      "rank": 1,
+      "rrf_score": 0.6853819918835371,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T27_001",
+      "alias_source_ids": [
+        "T27_001"
+      ],
+      "section": "Construction of Full-cycle Quality Management System",
+      "pages": [
+        27
+      ],
+      "text": "1. Risk pre-control system | 1. Comprehensive supplier | 1. T echnology | 1. High-precision technique 2. Regular management | onboarding assessment | standardisation | system inspections and coaching | 2. Full-cycle quantitative | 2. Management | 2. Informatised 3. Targeted follow-up | assessment of suppliers | standardisation | management technology services and technical | 3. Comprehensive | 3. Assessment standards | 3. Prefabricated support | assessment of project | 4. On-site standards | construction system management | 5. Other standardisation | 4. New technologies for systems | electrical and mechanical",
+      "retrieval_text": "[Section]\nConstruction of Full-cycle Quality Management System\n\n[Content]\n1. Risk pre-control system | 1. Comprehensive supplier | 1. T echnology | 1. High-precision technique 2. Regular management | onboarding assessment | standardisation | system inspections and coaching | 2. Full-cycle quantitative | 2. Management | 2. Informatised 3. Targeted follow-up | assessment of suppliers | standardisation | management technology services and technical | 3. Comprehensive | 3. Assessment standards | 3. Prefabricated support | assessment of project | 4. On-site standards | construction system management | 5. Other standardisation | 4. New technologies for systems | electrical and mechanical",
+      "bm25_rank": 2,
+      "dense_rank": 16,
+      "bm25_score": 46.65749740600586,
+      "dense_score": 0.4669102728366852,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9059058680179375,
+      "normalized_dense": 0.5591779809225653,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6560880977989686,
+      "rank": 2,
+      "rrf_score": 0.6560880977989686,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_002",
+      "alias_source_ids": [
+        "P20_002"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT (CONTINUED)",
+      "pages": [
+        20
+      ],
+      "text": "Responsible for formulating relevant defence response plans for its business, implementing the Company's systems, codes, guidelines and other risk management measures in day-to-day operations, paying attention to and reporting on various risks during the course of operation, self-examining the standardisation and control defects of business execution, and implementing corrective measures to remedy defects and reduce risks",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT (CONTINUED)\n\n[Content]\nResponsible for formulating relevant defence response plans for its business, implementing the Company's systems, codes, guidelines and other risk management measures in day-to-day operations, paying attention to and reporting on various risks during the course of operation, self-examining the standardisation and control defects of business execution, and implementing corrective measures to remedy defects and reduce risks",
+      "bm25_rank": 56,
+      "dense_rank": 1,
+      "bm25_score": 7.338031768798828,
+      "dense_score": 0.5698401927947998,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11001759999782638,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.6350907683217129,
+      "rank": 3,
+      "rrf_score": 0.6350907683217129,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_003",
+      "alias_source_ids": [
+        "P19_003"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT / Important Issues Responded to in this Section",
+      "pages": [
+        19
+      ],
+      "text": "The Group has established a comprehensive risk management framework, continuously improved the Risk Management System of Agile Group Holdings Limited and implemented a closed-loop risk management process that includes procedures for identification, response, monitoring, aggregation and reporting to continuously monitor and manage risks. The Board is responsible for overseeing the design, implementation and monitoring of risk management of the Group by the management. The Risk Management Committee under the Board is responsible for reviewing and formulating the risk management framework, reviewing and assessing the effectiveness of the Group's risk management framework, and monitoring the implementation of risk controls to ensure their effective implementation.",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT / Important Issues Responded to in this Section\n\n[Content]\nThe Group has established a comprehensive risk management framework, continuously improved the Risk Management System of Agile Group Holdings Limited and implemented a closed-loop risk management process that includes procedures for identification, response, monitoring, aggregation and reporting to continuously monitor and manage risks. The Board is responsible for overseeing the design, implementation and monitoring of risk management of the Group by the management. The Risk Management Committee under the Board is responsible for reviewing and formulating the risk management framework, reviewing and assessing the effectiveness of the Group's risk management framework, and monitoring the implementation of risk controls to ensure their effective implementation.",
+      "bm25_rank": 31,
+      "dense_rank": 2,
+      "bm25_score": 12.068058013916016,
+      "dense_score": 0.5439350605010986,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20576082373974994,
+      "normalized_dense": 0.8890550704127198,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6308449293252878,
+      "rank": 4,
+      "rrf_score": 0.6308449293252878,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T37_001",
+      "alias_source_ids": [
+        "T37_001"
+      ],
+      "section": "Environmental Protection Group",
+      "pages": [
+        37
+      ],
+      "text": "Property Group | No more than 2 serious accidents Eliminate fire, traffic, explosion, equipment and other major accidents Environmental Protection Group | The incidence of serious injuries and above is 0 No more than 2 major accidents A-City Technology | Score over 100 points (out of 120 points) in quality management No more than 2 serious accidents A-Living | Score over 100 points (out of 120 points) in safety and quality management from a third-party evaluation",
+      "retrieval_text": "[Section]\nEnvironmental Protection Group\n\n[Content]\nProperty Group | No more than 2 serious accidents Eliminate fire, traffic, explosion, equipment and other major accidents Environmental Protection Group | The incidence of serious injuries and above is 0 No more than 2 major accidents A-City Technology | Score over 100 points (out of 120 points) in quality management No more than 2 serious accidents A-Living | Score over 100 points (out of 120 points) in safety and quality management from a third-party evaluation",
+      "bm25_rank": 3,
+      "dense_rank": 20,
+      "bm25_score": 41.11668395996094,
+      "dense_score": 0.45164954662323,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7937510270115967,
+      "normalized_dense": 0.4938202681725623,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6047416616788235,
+      "rank": 5,
+      "rrf_score": 0.6047416616788235,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_003",
+      "alias_source_ids": [
+        "P20_003"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT (CONTINUED)",
+      "pages": [
+        20
+      ],
+      "text": "Responsible for formulating risk management strategies from a professional perspective, guiding and supervising the implementation of risk management measures in frontline business departments, and conducting comprehensive evaluation of risk control effectiveness to continuously improve risk management",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT (CONTINUED)\n\n[Content]\nResponsible for formulating risk management strategies from a professional perspective, guiding and supervising the implementation of risk management measures in frontline business departments, and conducting comprehensive evaluation of risk control effectiveness to continuously improve risk management",
+      "bm25_rank": 69,
+      "dense_rank": 3,
+      "bm25_score": 5.801990032196045,
+      "dense_score": 0.5315163135528564,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07892568210068805,
+      "normalized_dense": 0.8358688141097559,
+      "normalized_bm25_rank": 0.5436241610738255,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.5600170737075455,
+      "rank": 6,
+      "rrf_score": 0.5600170737075455,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P44_001",
+      "alias_source_ids": [
+        "P44_001"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)",
+      "pages": [
+        44
+      ],
+      "text": "The Group exercises hierarchical control over internal data and strictly protects sensitive data, specifying specific requirements for internal data transmission, public network data transmission, data encryption and storage, and open data sharing; penalties are imposed for breaches of the Group's regulations and legal liabilities are pursued according to the circumstances. The Group also conducts regular information security training and dissemination, and further enhances employees' awareness of information security and privacy protection through measures such as publishing WeChat articles on information security and conducting annual information security examinations and data disaster recovery drills for all staff. At the same time, the Group conducts data governance exchanges with its peers to share its experience in information technology construction and data governance and to continuously improve its own information technology level.",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)\n\n[Content]\nThe Group exercises hierarchical control over internal data and strictly protects sensitive data, specifying specific requirements for internal data transmission, public network data transmission, data encryption and storage, and open data sharing; penalties are imposed for breaches of the Group's regulations and legal liabilities are pursued according to the circumstances. The Group also conducts regular information security training and dissemination, and further enhances employees' awareness of information security and privacy protection through measures such as publishing WeChat articles on information security and conducting annual information security examinations and data disaster recovery drills for all staff. At the same time, the Group conducts data governance exchanges with its peers to share its experience in information technology construction and data governance and to continuously improve its own information technology level.",
+      "bm25_rank": 24,
+      "dense_rank": 18,
+      "bm25_score": 15.228498458862305,
+      "dense_score": 0.46192246675491333,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.26973314460284914,
+      "normalized_dense": 0.5378165075178633,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 18,
+      "composite_score": 0.5339273729947751,
+      "rank": 7,
+      "rrf_score": 0.5339273729947751,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P77_001",
+      "alias_source_ids": [
+        "P77_001"
+      ],
+      "section": "Governance: Monitor Climate-related Risks and Opportunities",
+      "pages": [
+        77
+      ],
+      "text": "The Group's Sustainable Development Steering Group incorporates physical and transformation risk factors related to climate change into the Enterprise Risk Management (ERM) Risk Assessment System, oversees the effective management of climate change risks in the Group's operations in order to mitigate the impact of climate change on business, adapts to changes in the climate environment, and strengthens the Group's resilience to climate change.",
+      "retrieval_text": "[Section]\nGovernance: Monitor Climate-related Risks and Opportunities\n\n[Content]\nThe Group's Sustainable Development Steering Group incorporates physical and transformation risk factors related to climate change into the Enterprise Risk Management (ERM) Risk Assessment System, oversees the effective management of climate change risks in the Group's operations in order to mitigate the impact of climate change on business, adapts to changes in the climate environment, and strengthens the Group's resilience to climate change.",
+      "bm25_rank": 93,
+      "dense_rank": 4,
+      "bm25_score": 4.463848114013672,
+      "dense_score": 0.5263999700546265,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.051839570009187895,
+      "normalized_dense": 0.8139568484529164,
+      "normalized_bm25_rank": 0.3825503355704698,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5294809988798214,
+      "rank": 8,
+      "rrf_score": 0.5294809988798214,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_002",
+      "alias_source_ids": [
+        "P19_002"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT / Important Issues Responded to in this Section",
+      "pages": [
+        19
+      ],
+      "text": "The Group is committed to protecting the interests of its shareholders and complies with its Memorandum and Articles of Association in accordance with the Corporate Governance Code as set out in Appendix 14 to the Listing Rules. The Board and its Audit Committee, Nomination Committee, Remuneration Committee and Risk Management Committee oversee the implementation of corporate governance. The Group continues to improve its internal control mechanism, with the Audit Committee responsible for financial audit monitoring and the Risk Management Committee responsible for monitoring risks including those relating to ESG.",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT / Important Issues Responded to in this Section\n\n[Content]\nThe Group is committed to protecting the interests of its shareholders and complies with its Memorandum and Articles of Association in accordance with the Corporate Governance Code as set out in Appendix 14 to the Listing Rules. The Board and its Audit Committee, Nomination Committee, Remuneration Committee and Risk Management Committee oversee the implementation of corporate governance. The Group continues to improve its internal control mechanism, with the Audit Committee responsible for financial audit monitoring and the Risk Management Committee responsible for monitoring risks including those relating to ESG.",
+      "bm25_rank": 53,
+      "dense_rank": 7,
+      "bm25_score": 7.6936445236206055,
+      "dense_score": 0.4968700408935547,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11721576545949386,
+      "normalized_dense": 0.6874878586655496,
+      "normalized_bm25_rank": 0.651006711409396,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.521110883490613,
+      "rank": 9,
+      "rrf_score": 0.521110883490613,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_004",
+      "alias_source_ids": [
+        "P20_004"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT (CONTINUED)",
+      "pages": [
+        20
+      ],
+      "text": "Responsible for facilitating the building of Risk Management System of Agile Group Holdings Limited, and assisting each department to regularly assess core operational risks, set early warning indicators, continuously monitor the trend of changes in indicator data, and issue risk warnings",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT (CONTINUED)\n\n[Content]\nResponsible for facilitating the building of Risk Management System of Agile Group Holdings Limited, and assisting each department to regularly assess core operational risks, set early warning indicators, continuously monitor the trend of changes in indicator data, and issue risk warnings",
+      "bm25_rank": 81,
+      "dense_rank": 6,
+      "bm25_score": 4.929459095001221,
+      "dense_score": 0.5107747316360474,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06126427380980771,
+      "normalized_dense": 0.7470380249364184,
+      "normalized_bm25_rank": 0.46308724832214765,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5133134789259496,
+      "rank": 10,
+      "rrf_score": 0.5133134789259496,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L50_001",
+      "alias_source_ids": [
+        "L50_001"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Supplier Chain Environmental and Social Risk Management",
+      "pages": [
+        50
+      ],
+      "text": "Require suppliers to provide certifications for ISO 14001 Environmental Management System and ISO 45001 Occupational Health and Safety Management System;",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Supplier Chain Environmental and Social Risk Management\n\n[Content]\nRequire suppliers to provide certifications for ISO 14001 Environmental Management System and ISO 45001 Occupational Health and Safety Management System;",
+      "bm25_rank": 6,
+      "dense_rank": 32,
+      "bm25_score": 33.803077697753906,
+      "dense_score": 0.41979438066482544,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6457120512351583,
+      "normalized_dense": 0.35739289524207746,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5092634806287387,
+      "rank": 11,
+      "rrf_score": 0.5092634806287387,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P43_003",
+      "alias_source_ids": [
+        "P43_003"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Case: Launch of 'E Legou' System and Realise Online Marketing Model",
+      "pages": [
+        43
+      ],
+      "text": "The Group strictly complies with the Cybersecurity Law of the PRC, the Law of the PRC on the Protection of Personal Information and other laws and regulations relating to information security, and in other regions where it operates, it also complies with relevant local laws and regulations in accordance with the law. Agile has established internal management systems such as the Management System for Safety of Sensitive Privacy Data within Information System to clarify the workflow and responsibilities related to the protection of customer privacy. In addition, the Group's third-generation Enterprise Resource Planning (ERP3) system has passed the national network security level 2 protection assessment and won a number of awards in the information field to protect information security.",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Case: Launch of 'E Legou' System and Realise Online Marketing Model\n\n[Content]\nThe Group strictly complies with the Cybersecurity Law of the PRC, the Law of the PRC on the Protection of Personal Information and other laws and regulations relating to information security, and in other regions where it operates, it also complies with relevant local laws and regulations in accordance with the law. Agile has established internal management systems such as the Management System for Safety of Sensitive Privacy Data within Information System to clarify the workflow and responsibilities related to the protection of customer privacy. In addition, the Group's third-generation Enterprise Resource Planning (ERP3) system has passed the national network security level 2 protection assessment and won a number of awards in the information field to protect information security.",
+      "bm25_rank": 16,
+      "dense_rank": 27,
+      "bm25_score": 20.779254913330078,
+      "dense_score": 0.4315189719200134,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3820892478497705,
+      "normalized_dense": 0.40760626363945707,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 16,
+      "composite_score": 0.5041135988907439,
+      "rank": 12,
+      "rrf_score": 0.5041135988907439,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_001",
+      "alias_source_ids": [
+        "P18_001"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT",
+      "pages": [
+        18
+      ],
+      "text": "COMPLIANCE AND RISK MANAGEMENT",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT\n\n[Content]\nCOMPLIANCE AND RISK MANAGEMENT",
+      "bm25_rank": 71,
+      "dense_rank": 8,
+      "bm25_score": 5.655303478240967,
+      "dense_score": 0.4928979277610779,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07595651389157913,
+      "normalized_dense": 0.6704763334280389,
+      "normalized_bm25_rank": 0.5302013422818792,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4934821805519549,
+      "rank": 13,
+      "rrf_score": 0.4934821805519549,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P39_002",
+      "alias_source_ids": [
+        "P39_002"
+      ],
+      "section": "Health and Safety Management of Contractors",
+      "pages": [
+        39
+      ],
+      "text": "The Group aggregates the security information of assets and equipment through a security protection middle-platform, collects and comprehensively analyses the log information of security equipment at all levels, simplifies overall operation and maintenance, and improves the efficiency of security risk monitoring and active prevention capability; by integrating a cloud threat intelligence system, an external risk identification and graded response mechanism is established to obtain potential security threat factors in a timely manner, improve the ability to analyse and determine threat events, automatically trigger security incident work orders, and improve the efficiency of vulnerability patching, monitoring capabilities, and the closed-loop accuracy and efficiency of security risks of local assets, and effectively ensure project security and stable operation.",
+      "retrieval_text": "[Section]\nHealth and Safety Management of Contractors\n\n[Content]\nThe Group aggregates the security information of assets and equipment through a security protection middle-platform, collects and comprehensively analyses the log information of security equipment at all levels, simplifies overall operation and maintenance, and improves the efficiency of security risk monitoring and active prevention capability; by integrating a cloud threat intelligence system, an external risk identification and graded response mechanism is established to obtain potential security threat factors in a timely manner, improve the ability to analyse and determine threat events, automatically trigger security incident work orders, and improve the efficiency of vulnerability patching, monitoring capabilities, and the closed-loop accuracy and efficiency of security risks of local assets, and effectively ensure project security and stable operation.",
+      "bm25_rank": 15,
+      "dense_rank": 23,
+      "bm25_score": 20.865083694458008,
+      "dense_score": 0.4393148422241211,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3838265583358404,
+      "normalized_dense": 0.44099394420231974,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.49218701764133577,
+      "rank": 14,
+      "rrf_score": 0.49218701764133577,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_001",
+      "alias_source_ids": [
+        "P20_001"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT (CONTINUED)",
+      "pages": [
+        20
+      ],
+      "text": "At the same time, the Group continued to improve the three lines of defence in risk management, clarify the responsibilities and obligations at each level, to achieve regular management of risks and further enhance the Group's risk management level.",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT (CONTINUED)\n\n[Content]\nAt the same time, the Group continued to improve the three lines of defence in risk management, clarify the responsibilities and obligations at each level, to achieve regular management of risks and further enhance the Group's risk management level.",
+      "bm25_rank": 74,
+      "dense_rank": 9,
+      "bm25_score": 5.287420272827148,
+      "dense_score": 0.49217748641967773,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06850997507307019,
+      "normalized_dense": 0.6673908709417948,
+      "normalized_bm25_rank": 0.5100671140939597,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.48755725622008117,
+      "rank": 15,
+      "rrf_score": 0.48755725622008117,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L20_002",
+      "alias_source_ids": [
+        "L20_002"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT (CONTINUED)",
+      "pages": [
+        20
+      ],
+      "text": "The annual risk management results are directly linked to the annual performance of each relevant business executive and are used as a deduction in the annual performance.",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT (CONTINUED)\n\n[Content]\nThe annual risk management results are directly linked to the annual performance of each relevant business executive and are used as a deduction in the annual performance.",
+      "bm25_rank": 82,
+      "dense_rank": 11,
+      "bm25_score": 4.84895133972168,
+      "dense_score": 0.4809708595275879,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0596346693156157,
+      "normalized_dense": 0.6193958089070744,
+      "normalized_bm25_rank": 0.4563758389261745,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4609302320812703,
+      "rank": 16,
+      "rrf_score": 0.4609302320812703,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L20_001",
+      "alias_source_ids": [
+        "L20_001"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT (CONTINUED)",
+      "pages": [
+        20
+      ],
+      "text": "The Group regularly reviews the risk management performance of the relevant businesses, and grants performance bonuses related to risk management (including ESG risks).",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT (CONTINUED)\n\n[Content]\nThe Group regularly reviews the risk management performance of the relevant businesses, and grants performance bonuses related to risk management (including ESG risks).",
+      "bm25_rank": 72,
+      "dense_rank": 13,
+      "bm25_score": 5.542760372161865,
+      "dense_score": 0.47145476937294006,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0736784631519948,
+      "normalized_dense": 0.5786408750899512,
+      "normalized_bm25_rank": 0.5234899328859061,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.4535016096501369,
+      "rank": 17,
+      "rrf_score": 0.4535016096501369,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_001",
+      "alias_source_ids": [
+        "P10_001"
+      ],
+      "section": "SUSTAINABLE DEVELOPMENT STRATEGY / Board Statement",
+      "pages": [
+        10
+      ],
+      "text": "The Board has overall responsibility for the Group's environmental, social and governance strategy and reporting. The Board is responsible for evaluating and identifying the significant ESG issues of the Group, reviewing the objectives and future plan of the Group's sustainable development, as well as assessing, ranking and managing significant ESG issues, to ensure that the ESG concepts are integrated into the Group's business operations. It will also continuously monitor the progress of implementation of ESG objectives and regularly review the effectiveness of risk management and internal control systems, including ESG risks.",
+      "retrieval_text": "[Section]\nSUSTAINABLE DEVELOPMENT STRATEGY / Board Statement\n\n[Content]\nThe Board has overall responsibility for the Group's environmental, social and governance strategy and reporting. The Board is responsible for evaluating and identifying the significant ESG issues of the Group, reviewing the objectives and future plan of the Group's sustainable development, as well as assessing, ranking and managing significant ESG issues, to ensure that the ESG concepts are integrated into the Group's business operations. It will also continuously monitor the progress of implementation of ESG objectives and regularly review the effectiveness of risk management and internal control systems, including ESG risks.",
+      "bm25_rank": 50,
+      "dense_rank": 19,
+      "bm25_score": 7.8676557540893555,
+      "dense_score": 0.45841479301452637,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12073802840456219,
+      "normalized_dense": 0.522794055143165,
+      "normalized_bm25_rank": 0.6711409395973154,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.45007854511524836,
+      "rank": 18,
+      "rrf_score": 0.45007854511524836,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P37_001",
+      "alias_source_ids": [
+        "P37_001"
+      ],
+      "section": "Environmental Protection Group",
+      "pages": [
+        37
+      ],
+      "text": "The Environmental Protection Group EHS Centre publishes and publicises the Group's EHS management system every year, and provides real-time updates to the Group's EHS regulations database, enabling the sharing of the Group's EHS resources. In addition, the Group's internal management systems, such as the EHS Responsibility System of Environmental Protection Group, Management System for Sudden Safety and Environmental Accidents and Safety Management Manual, were revised and newly established during the Year to further improve the regulation of safety management and to effectively implement safety management requirements by actively promoting management system certification. The Environmental Protection Group also carried out risk and hazardous factor identification, risk assessment and safety measures and recommendations through initiatives such as safety pre-evaluation reports to ensure project safety. During the Reporting Period, a number of projects in the Environmental Protection Group have obtained ISO 14001 Environmental Management System Certification, ISO 45001 Occupational Health and Safety Management System Certification and ISO 9001 Quality Management Certification.",
+      "retrieval_text": "[Section]\nEnvironmental Protection Group\n\n[Content]\nThe Environmental Protection Group EHS Centre publishes and publicises the Group's EHS management system every year, and provides real-time updates to the Group's EHS regulations database, enabling the sharing of the Group's EHS resources. In addition, the Group's internal management systems, such as the EHS Responsibility System of Environmental Protection Group, Management System for Sudden Safety and Environmental Accidents and Safety Management Manual, were revised and newly established during the Year to further improve the regulation of safety management and to effectively implement safety management requirements by actively promoting management system certification. The Environmental Protection Group also carried out risk and hazardous factor identification, risk assessment and safety measures and recommendations through initiatives such as safety pre-evaluation reports to ensure project safety. During the Reporting Period, a number of projects in the Environmental Protection Group have obtained ISO 14001 Environmental Management System Certification, ISO 45001 Occupational Health and Safety Management System Certification and ISO 9001 Quality Management Certification.",
+      "bm25_rank": 12,
+      "dense_rank": 36,
+      "bm25_score": 24.391427993774414,
+      "dense_score": 0.4101213216781616,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.455205352816957,
+      "normalized_dense": 0.3159657048304706,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.4472666511466736,
+      "rank": 19,
+      "rrf_score": 0.4472666511466736,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P78_002",
+      "alias_source_ids": [
+        "P78_002"
+      ],
+      "section": "Risk Management: How to Identify and Manage Climate-related Risks",
+      "pages": [
+        78
+      ],
+      "text": "For the first time, the Group reported climate-related financial disclosures with reference to TCFD recommendations in order to enhance the transparency of ESG reporting. Meanwhile during the Year, the Group formulated a medium and long-term plan for green development, energy use efficiency objectives, waste reduction objectives, emission objectives and water use efficiency objectives, and defined specific measures to achieve the plans and objectives. In addition, the Group continued to disclose Scope 1 and Scope 2 GHG emissions data, while focusing on the statistics and management of Scope 3 GHG emissions. The Group also promoted the use of public transport as a priority in the Travel Management System and continued to promote the use of teleconferencing systems to reduce indirect GHG emissions associated with travel.",
+      "retrieval_text": "[Section]\nRisk Management: How to Identify and Manage Climate-related Risks\n\n[Content]\nFor the first time, the Group reported climate-related financial disclosures with reference to TCFD recommendations in order to enhance the transparency of ESG reporting. Meanwhile during the Year, the Group formulated a medium and long-term plan for green development, energy use efficiency objectives, waste reduction objectives, emission objectives and water use efficiency objectives, and defined specific measures to achieve the plans and objectives. In addition, the Group continued to disclose Scope 1 and Scope 2 GHG emissions data, while focusing on the statistics and management of Scope 3 GHG emissions. The Group also promoted the use of public transport as a priority in the Travel Management System and continued to promote the use of teleconferencing systems to reduce indirect GHG emissions associated with travel.",
+      "bm25_rank": 14,
+      "dense_rank": 38,
+      "bm25_score": 23.579683303833008,
+      "dense_score": 0.40941646695137024,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4387743544582042,
+      "normalized_dense": 0.31294699575203266,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.43889705765988585,
+      "rank": 20,
+      "rrf_score": 0.43889705765988585,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_006",
+      "alias_source_ids": [
+        "P20_006"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT (CONTINUED)",
+      "pages": [
+        20
+      ],
+      "text": "The Group is committed to integrating sustainable development strategies into the Corporate Risk Management System of Agile Group Holdings Limited and has established an appraisal mechanism linking ESG performance to executive remuneration in the Risk Management System of Agile Group Holdings Limited, with appraisal indicators covering performance targets for health and safety and energy management.",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT (CONTINUED)\n\n[Content]\nThe Group is committed to integrating sustainable development strategies into the Corporate Risk Management System of Agile Group Holdings Limited and has established an appraisal mechanism linking ESG performance to executive remuneration in the Risk Management System of Agile Group Holdings Limited, with appraisal indicators covering performance targets for health and safety and energy management.",
+      "bm25_rank": 79,
+      "dense_rank": 15,
+      "bm25_score": 4.972286701202393,
+      "dense_score": 0.4680176377296448,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06213117239987002,
+      "normalized_dense": 0.5639205361306968,
+      "normalized_bm25_rank": 0.47651006711409394,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.43865748252840253,
+      "rank": 21,
+      "rrf_score": 0.43865748252840253,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P77_003",
+      "alias_source_ids": [
+        "P77_003"
+      ],
+      "section": "Governance: Monitor Climate-related Risks and Opportunities",
+      "pages": [
+        77
+      ],
+      "text": "In October 2021, Hainan issued a level IV emergency response for flood and wind control. The Group's Environmental Protection Group, Yaqing Water Project, held a urge meeting in response to Typhoon Kompasu and actively carried out flood control work. By checking and reinforcing doors and windows, strengthening the patrol of water intake sources and pipelines, taking measures to protect equipment and materials against wind and rain, and observing the water inflow of sewage in real time, the Group did its best to ensure the safety of production and water supply, minimising the possible damage caused by the typhoon and rainstorm, and safeguarding the safety of people and property.",
+      "retrieval_text": "[Section]\nGovernance: Monitor Climate-related Risks and Opportunities\n\n[Content]\nIn October 2021, Hainan issued a level IV emergency response for flood and wind control. The Group's Environmental Protection Group, Yaqing Water Project, held a urge meeting in response to Typhoon Kompasu and actively carried out flood control work. By checking and reinforcing doors and windows, strengthening the patrol of water intake sources and pipelines, taking measures to protect equipment and materials against wind and rain, and observing the water inflow of sewage in real time, the Group did its best to ensure the safety of production and water supply, minimising the possible damage caused by the typhoon and rainstorm, and safeguarding the safety of people and property.",
+      "bm25_rank": 117,
+      "dense_rank": 10,
+      "bm25_score": 3.60089111328125,
+      "dense_score": 0.4841839671134949,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.034371953357784604,
+      "normalized_dense": 0.6331567112191419,
+      "normalized_bm25_rank": 0.2214765100671141,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.4385463536922163,
+      "rank": 22,
+      "rrf_score": 0.4385463536922163,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P38_001",
+      "alias_source_ids": [
+        "P38_001"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)",
+      "pages": [
+        38
+      ],
+      "text": "At the same time, the Group improved its engineering control system through comprehensive control methods such as the Underground Engineering Safety Supervision Plan and the Full-cycle Supervision Plan, and carried out periodic and regular control over the safety of engineering projects; through the Control and Management of Major Risk Sources, the key points of control and management of major safety and quality risks and the key points of control and management of concealed projects are clarified, and the potential safety risks are classified and controlled. For example, to ensure the safe use of machinery and equipment, risk source management is refined for safety issues during the operation of equipment and the person responsible will be identified to reduce safety risks.",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)\n\n[Content]\nAt the same time, the Group improved its engineering control system through comprehensive control methods such as the Underground Engineering Safety Supervision Plan and the Full-cycle Supervision Plan, and carried out periodic and regular control over the safety of engineering projects; through the Control and Management of Major Risk Sources, the key points of control and management of major safety and quality risks and the key points of control and management of concealed projects are clarified, and the potential safety risks are classified and controlled. For example, to ensure the safe use of machinery and equipment, risk source management is refined for safety issues during the operation of equipment and the person responsible will be identified to reduce safety risks.",
+      "bm25_rank": 38,
+      "dense_rank": 24,
+      "bm25_score": 11.037969589233398,
+      "dense_score": 0.43701794743537903,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.184910202325088,
+      "normalized_dense": 0.43115694249481096,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.4321822723516242,
+      "rank": 23,
+      "rrf_score": 0.4321822723516242,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P78_001",
+      "alias_source_ids": [
+        "P78_001"
+      ],
+      "section": "Risk Management: How to Identify and Manage Climate-related Risks",
+      "pages": [
+        78
+      ],
+      "text": "With reference to TCFD's recommendations, the Group subdivides climate change risks into physical risks and transformation risks for climate change risk assessment, and incorporates them into the ERM assessment system to assess the potential impact of climate risks on business through interviews and questionnaires, together with the opinions of executives. At the same time, measures are actively taken to address the climate change-related risks identified, and the Sustainable Development Steering Group is responsible for following up and integrating climate risks into the ESG management process.",
+      "retrieval_text": "[Section]\nRisk Management: How to Identify and Manage Climate-related Risks\n\n[Content]\nWith reference to TCFD's recommendations, the Group subdivides climate change risks into physical risks and transformation risks for climate change risk assessment, and incorporates them into the ERM assessment system to assess the potential impact of climate risks on business through interviews and questionnaires, together with the opinions of executives. At the same time, measures are actively taken to address the climate change-related risks identified, and the Sustainable Development Steering Group is responsible for following up and integrating climate risks into the ESG management process.",
+      "bm25_rank": 119,
+      "dense_rank": 12,
+      "bm25_score": 3.543673038482666,
+      "dense_score": 0.4787147641181946,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.033213768888263294,
+      "normalized_dense": 0.6097335403071882,
+      "normalized_bm25_rank": 0.20805369127516782,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.42608976134154436,
+      "rank": 24,
+      "rrf_score": 0.42608976134154436,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_005",
+      "alias_source_ids": [
+        "P20_005"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT (CONTINUED)",
+      "pages": [
+        20
+      ],
+      "text": "The Group's Audit Committee oversees the internal audit and monitoring, reviews and evaluates the effectiveness of the Group's internal control procedures, and improves the internal control procedures in a timely manner, taking into account the external auditor's assessment of internal controls and management recommendations. A dedicated department responsible for risk management and audit continuously monitors the compliance of the Group's procedures in each department and supervises the implementation of the Group's financial management and the effective use of funds to avoid embezzlement risks. The scope of the Group's audit monitoring has covered Agile and all its subsidiaries.",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT (CONTINUED)\n\n[Content]\nThe Group's Audit Committee oversees the internal audit and monitoring, reviews and evaluates the effectiveness of the Group's internal control procedures, and improves the internal control procedures in a timely manner, taking into account the external auditor's assessment of internal controls and management recommendations. A dedicated department responsible for risk management and audit continuously monitors the compliance of the Group's procedures in each department and supervises the implementation of the Group's financial management and the effective use of funds to avoid embezzlement risks. The scope of the Group's audit monitoring has covered Agile and all its subsidiaries.",
+      "bm25_rank": 57,
+      "dense_rank": 21,
+      "bm25_score": 7.276832580566406,
+      "dense_score": 0.44623762369155884,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1087788314861697,
+      "normalized_dense": 0.47064241284340674,
+      "normalized_bm25_rank": 0.6241610738255033,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.422051080591084,
+      "rank": 25,
+      "rrf_score": 0.422051080591084,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_002",
+      "alias_source_ids": [
+        "P13_002"
+      ],
+      "section": "SUSTAINABLE DEVELOPMENT CONCEPT AND MANAGEMENT STRUCTURE / Sustainable Development Concept",
+      "pages": [
+        13
+      ],
+      "text": "The Group attaches great importance to the management of corporate sustainability and actively follows domestic and international initiatives and standards on ESG. The Group has established an ESG governance structure with the Board as the core of leadership to ensure that the Group has adequate and effective management capability on ESG issues. Under the leadership of the Board, the Risk Management Committee is responsible for the overall management of the Group's sustainable development work, and a Sustainable Development Steering Group is set up to follow up on the implementation of the Group's sustainable development work. During the Reporting Period, the Group held one Board meeting and two Risk Management Committee meetings, which focused on reporting and discussing ESG-related issues and ESG risk management, as well as the progress of ESG reporting of the Reporting Period.",
+      "retrieval_text": "[Section]\nSUSTAINABLE DEVELOPMENT CONCEPT AND MANAGEMENT STRUCTURE / Sustainable Development Concept\n\n[Content]\nThe Group attaches great importance to the management of corporate sustainability and actively follows domestic and international initiatives and standards on ESG. The Group has established an ESG governance structure with the Board as the core of leadership to ensure that the Group has adequate and effective management capability on ESG issues. Under the leadership of the Board, the Risk Management Committee is responsible for the overall management of the Group's sustainable development work, and a Sustainable Development Steering Group is set up to follow up on the implementation of the Group's sustainable development work. During the Reporting Period, the Group held one Board meeting and two Risk Management Committee meetings, which focused on reporting and discussing ESG-related issues and ESG risk management, as well as the progress of ESG reporting of the Reporting Period.",
+      "bm25_rank": 106,
+      "dense_rank": 14,
+      "bm25_score": 4.068273544311523,
+      "dense_score": 0.4698824882507324,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04383251411331314,
+      "normalized_dense": 0.5719072048497436,
+      "normalized_bm25_rank": 0.2953020134228188,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.42101456143282456,
+      "rank": 26,
+      "rrf_score": 0.42101456143282456,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L13_005",
+      "alias_source_ids": [
+        "L13_005"
+      ],
+      "section": "SUSTAINABLE DEVELOPMENT CONCEPT AND MANAGEMENT STRUCTURE / Sustainable Development Concept",
+      "pages": [
+        13
+      ],
+      "text": "Regularly identify, analyse and review management process through the Enterprise Risk Management (ERM) system, and identify and manage core ESG risks in ERM and integrate sustainable development issues;",
+      "retrieval_text": "[Section]\nSUSTAINABLE DEVELOPMENT CONCEPT AND MANAGEMENT STRUCTURE / Sustainable Development Concept\n\n[Content]\nRegularly identify, analyse and review management process through the Enterprise Risk Management (ERM) system, and identify and manage core ESG risks in ERM and integrate sustainable development issues;",
+      "bm25_rank": 108,
+      "dense_rank": 17,
+      "bm25_score": 4.047313690185547,
+      "dense_score": 0.46299323439598083,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04340825346460045,
+      "normalized_dense": 0.5424023262350083,
+      "normalized_bm25_rank": 0.2818791946308725,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.40523387427114615,
+      "rank": 27,
+      "rrf_score": 0.40523387427114615,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T17_001",
+      "alias_source_ids": [
+        "T17_001"
+      ],
+      "section": "Results of the Comprehensive Assessment of Material Issues for 2021",
+      "pages": [
+        17
+      ],
+      "text": "Materiality | Rank | ESG Issues Highly Important Issues | 1 | Provide quality products and services 2 | Guarantee the health and safety of employees 3 | Compliance with business ethical standards 4 | Promotion of green office and environmental protection 5 | Integrity culture construction 6 | Protect customer privacy and information safety 7 | Compliant employment and protect the rights and interests of employees Moderately | 8 | Safeguard interests in intellectual property rights and trademarks 9 | Provide competitive salary and motivate mechanism 10 | Enhance training and development system 11 | Diversified and equal opportunities 12 | Develop green buildings and green communities 13 | Improvement of energy consumption efficiency 14 | Reduce greenhouse gas emissions 15 | Carry out responsible marketing 16 | Respond to policies and participate in industry exchanges 17 | Supply chain environmental and social risk management 18 | Enhance quality management system of supply chain 19 | Compliant disposal of waste Generally Important Issues | 20 | Pollutant emissions 21 | Participate in charity and voluntary activities 22 | Water resource management 23 | Identify and respond to climate change risks",
+      "retrieval_text": "[Section]\nResults of the Comprehensive Assessment of Material Issues for 2021\n\n[Content]\nMateriality | Rank | ESG Issues Highly Important Issues | 1 | Provide quality products and services 2 | Guarantee the health and safety of employees 3 | Compliance with business ethical standards 4 | Promotion of green office and environmental protection 5 | Integrity culture construction 6 | Protect customer privacy and information safety 7 | Compliant employment and protect the rights and interests of employees Moderately | 8 | Safeguard interests in intellectual property rights and trademarks 9 | Provide competitive salary and motivate mechanism 10 | Enhance training and development system 11 | Diversified and equal opportunities 12 | Develop green buildings and green communities 13 | Improvement of energy consumption efficiency 14 | Reduce greenhouse gas emissions 15 | Carry out responsible marketing 16 | Respond to policies and participate in industry exchanges 17 | Supply chain environmental and social risk management 18 | Enhance quality management system of supply chain 19 | Compliant disposal of waste Generally Important Issues | 20 | Pollutant emissions 21 | Participate in charity and voluntary activities 22 | Water resource management 23 | Identify and respond to climate change risks",
+      "bm25_rank": 19,
+      "dense_rank": 40,
+      "bm25_score": 17.43462371826172,
+      "dense_score": 0.40549030900001526,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.314388614439075,
+      "normalized_dense": 0.296132284577308,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.40209449228853056,
+      "rank": 28,
+      "rrf_score": 0.40209449228853056,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L13_008",
+      "alias_source_ids": [
+        "L13_008"
+      ],
+      "section": "SUSTAINABLE DEVELOPMENT CONCEPT AND MANAGEMENT STRUCTURE / Sustainable Development Concept",
+      "pages": [
+        13
+      ],
+      "text": "Daily liaison, preparation of Risk Management Committee meetings and implementation of relevant resolutions of the Risk Management Committee;",
+      "retrieval_text": "[Section]\nSUSTAINABLE DEVELOPMENT CONCEPT AND MANAGEMENT STRUCTURE / Sustainable Development Concept\n\n[Content]\nDaily liaison, preparation of Risk Management Committee meetings and implementation of relevant resolutions of the Risk Management Committee;",
+      "bm25_rank": 77,
+      "dense_rank": 22,
+      "bm25_score": 5.1695356369018555,
+      "dense_score": 0.4401926100254059,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06612380330821334,
+      "normalized_dense": 0.4447531949099952,
+      "normalized_bm25_rank": 0.4899328859060402,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.38969374800765777,
+      "rank": 29,
+      "rrf_score": 0.38969374800765777,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P27_002",
+      "alias_source_ids": [
+        "P27_002"
+      ],
+      "section": "Construction of Full-cycle Quality Management System",
+      "pages": [
+        27
+      ],
+      "text": "'Four Types of Security System + Three Core Tasks'",
+      "retrieval_text": "[Section]\nConstruction of Full-cycle Quality Management System\n\n[Content]\n'Four Types of Security System + Three Core Tasks'",
+      "bm25_rank": 61,
+      "dense_rank": 26,
+      "bm25_score": 6.510952949523926,
+      "dense_score": 0.432455837726593,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09327621457152183,
+      "normalized_dense": 0.4116186157002484,
+      "normalized_bm25_rank": 0.5973154362416108,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.38889625505368663,
+      "rank": 30,
+      "rrf_score": 0.38889625505368663,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P36_006",
+      "alias_source_ids": [
+        "P36_006"
+      ],
+      "section": "Project Safety Management",
+      "pages": [
+        36
+      ],
+      "text": "A-City Technology has formulated management systems such as the Engineering Bottom Line Management Approach, set up general engineering, technical quality, safety and civilised standards and codes of conduct and management bottom lines, and regularly conducts engineering training and strict approval of the content of safety management and protection in construction plans to strengthen the process management of engineering projects in each professional company and promote standardised quality and safety management. In addition, A-City Technology is actively promoting system certification for projects under construction. Several of its projects have obtained the Environmental Management System Certification ISO 45001, Occupational Health and Safety Management System Certification ISO 45001 and the Quality Management System Certification ISO 9001, and will continue to promote the systemization of safety management in its partner companies.",
+      "retrieval_text": "[Section]\nProject Safety Management\n\n[Content]\nA-City Technology has formulated management systems such as the Engineering Bottom Line Management Approach, set up general engineering, technical quality, safety and civilised standards and codes of conduct and management bottom lines, and regularly conducts engineering training and strict approval of the content of safety management and protection in construction plans to strengthen the process management of engineering projects in each professional company and promote standardised quality and safety management. In addition, A-City Technology is actively promoting system certification for projects under construction. Several of its projects have obtained the Environmental Management System Certification ISO 45001, Occupational Health and Safety Management System Certification ISO 45001 and the Quality Management System Certification ISO 9001, and will continue to promote the systemization of safety management in its partner companies.",
+      "bm25_rank": 11,
+      "dense_rank": 64,
+      "bm25_score": 24.579299926757812,
+      "dense_score": 0.3789842128753662,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4590081783367997,
+      "normalized_dense": 0.18261358353991153,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.5771812080536913,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.3644412221210941,
+      "rank": 31,
+      "rrf_score": 0.3644412221210941,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P62_004",
+      "alias_source_ids": [
+        "P62_004"
+      ],
+      "section": "SINCERE COLLABORATION, GROWTH TOGETHER (CONTINUED) / COVID-19 Prevention and Protection",
+      "pages": [
+        62
+      ],
+      "text": "Emergency Response Planning: establishment of an emergency response leadership team In order to respond to possible future outbreaks in a timely manner, the Group has set up an emergency leadership team for epidemic prevention and control",
+      "retrieval_text": "[Section]\nSINCERE COLLABORATION, GROWTH TOGETHER (CONTINUED) / COVID-19 Prevention and Protection\n\n[Content]\nEmergency Response Planning: establishment of an emergency response leadership team In order to respond to possible future outbreaks in a timely manner, the Group has set up an emergency leadership team for epidemic prevention and control",
+      "bm25_rank": 32,
+      "dense_rank": 43,
+      "bm25_score": 11.683019638061523,
+      "dense_score": 0.3998880982398987,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19796703709708194,
+      "normalized_dense": 0.27213947607636996,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.3576610159924546,
+      "rank": 32,
+      "rrf_score": 0.3576610159924546,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_001",
+      "alias_source_ids": [
+        "P61_001"
+      ],
+      "section": "Health and Safety / Occupational Health Protection",
+      "pages": [
+        61
+      ],
+      "text": "The Group attaches great importance to the occupational health and safety of its employees and strictly complies with the Occupational Disease Prevention and Control Law of the PRC, the Measures for the Categorised Administration of Occupational Disease Hazards in Construction Projects, the Measures for the Administration of Occupational Health Monitoring and the laws and regulations of the regions where it operates. With reference to the standard requirements of the Occupational Health and Safety Management System OHSAS 18000/ ISO 45001, the Group has formulated and implemented internal management systems such as the Occupational Health Management System, the Occupational Disease Hazard Warning Message System and the Occupational Health Medical Examination System to fully protect the occupational health of employees. Under the leadership of the Group's Board of Directors, the senior management, including the Group's president, is responsible for the Group's employee health and safety strategy and performance, and is committed to ensuring safe working conditions and creating and fostering a positive and healthy safe work culture.",
+      "retrieval_text": "[Section]\nHealth and Safety / Occupational Health Protection\n\n[Content]\nThe Group attaches great importance to the occupational health and safety of its employees and strictly complies with the Occupational Disease Prevention and Control Law of the PRC, the Measures for the Categorised Administration of Occupational Disease Hazards in Construction Projects, the Measures for the Administration of Occupational Health Monitoring and the laws and regulations of the regions where it operates. With reference to the standard requirements of the Occupational Health and Safety Management System OHSAS 18000/ ISO 45001, the Group has formulated and implemented internal management systems such as the Occupational Health Management System, the Occupational Disease Hazard Warning Message System and the Occupational Health Medical Examination System to fully protect the occupational health of employees. Under the leadership of the Group's Board of Directors, the senior management, including the Group's president, is responsible for the Group's employee health and safety strategy and performance, and is committed to ensuring safe working conditions and creating and fostering a positive and healthy safe work culture.",
+      "bm25_rank": 30,
+      "dense_rank": 48,
+      "bm25_score": 12.67509937286377,
+      "dense_score": 0.3927507698535919,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21804830242136056,
+      "normalized_dense": 0.24157215890221148,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.34560958052957635,
+      "rank": 33,
+      "rrf_score": 0.34560958052957635,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P77_002",
+      "alias_source_ids": [
+        "P77_002"
+      ],
+      "section": "Governance: Monitor Climate-related Risks and Opportunities",
+      "pages": [
+        77
+      ],
+      "text": "The Group strictly complies with national laws and regulations such as the Law of the PRC on Combating Climate Change. Each of its industrial companies formulates and implements internal management systems in accordance with its own business, such as the Meteorological Disaster Prevention Ordinance of A-Living, which specify safety emergency plans for meteorological disasters, and the Environmental Protection Group regularly organises safety emergency drills and training to strengthen the emergency management capabilities of its employees. At the same time, it actively applies the concept of sponge city design to enhance the project site's ability to accumulate, infiltrate and purify rainwater, and strengthen its environmental resilience to extreme weather such as droughts, high temperatures and heavy rainfall, in order to effectively respond to physical risks such as water shortages. In addition, to mitigate transformation risks such as supply chain supply and carbon emissions, the Group promotes green buildings through the introduction of new technologies to turn risks into opportunities for itself.",
+      "retrieval_text": "[Section]\nGovernance: Monitor Climate-related Risks and Opportunities\n\n[Content]\nThe Group strictly complies with national laws and regulations such as the Law of the PRC on Combating Climate Change. Each of its industrial companies formulates and implements internal management systems in accordance with its own business, such as the Meteorological Disaster Prevention Ordinance of A-Living, which specify safety emergency plans for meteorological disasters, and the Environmental Protection Group regularly organises safety emergency drills and training to strengthen the emergency management capabilities of its employees. At the same time, it actively applies the concept of sponge city design to enhance the project site's ability to accumulate, infiltrate and purify rainwater, and strengthen its environmental resilience to extreme weather such as droughts, high temperatures and heavy rainfall, in order to effectively respond to physical risks such as water shortages. In addition, to mitigate transformation risks such as supply chain supply and carbon emissions, the Group promotes green buildings through the introduction of new technologies to turn risks into opportunities for itself.",
+      "bm25_rank": 132,
+      "dense_rank": 25,
+      "bm25_score": 3.063769817352295,
+      "dense_score": 0.43514248728752136,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.023499767507702964,
+      "normalized_dense": 0.4231248355096476,
+      "normalized_bm25_rank": 0.12080536912751683,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.3326594177419978,
+      "rank": 34,
+      "rrf_score": 0.3326594177419978,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P78_005",
+      "alias_source_ids": [
+        "P78_005"
+      ],
+      "section": "Risk Management: How to Identify and Manage Climate-related Risks",
+      "pages": [
+        78
+      ],
+      "text": "In the future, the Group will continue its efforts to explore sustainable financial opportunities, provide financial support for environmentally and socially friendly projects, actively reduce its own carbon emissions and contribute to the sustainable development of society.",
+      "retrieval_text": "[Section]\nRisk Management: How to Identify and Manage Climate-related Risks\n\n[Content]\nIn the future, the Group will continue its efforts to explore sustainable financial opportunities, provide financial support for environmentally and socially friendly projects, actively reduce its own carbon emissions and contribute to the sustainable development of society.",
+      "bm25_rank": 124,
+      "dense_rank": 28,
+      "bm25_score": 3.244874954223633,
+      "dense_score": 0.43070894479751587,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.027165622355376142,
+      "normalized_dense": 0.4041371286028014,
+      "normalized_bm25_rank": 0.17449664429530198,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.32808917317333086,
+      "rank": 35,
+      "rrf_score": 0.32808917317333086,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P76_003",
+      "alias_source_ids": [
+        "P76_003"
+      ],
+      "section": "PROTECT THE ENVIRONMENT FOR A GREEN FUTURE (CONTINUED) / Noise Management",
+      "pages": [
+        76
+      ],
+      "text": "With the environmental crisis and political and economic issues arising from climate change becoming increasingly prominent, climate change has become one of the most serious challenges facing all of humanity in the 21st century. The Group has made effective management and response to climate change risks one of its daily priorities. The Group takes into account the recommendations of the Task Force on Climate-Related Financial Disclosures (TCFD) to promote climate-related financial disclosure and to clarify climate-related financial impacts and the Group's response measures. At the same time, the Group adopts a systematic and proactive approach to identifying, assessing and managing climate-related risks in its business operations and capitalising on the opportunities of a green, low-carbon economy.",
+      "retrieval_text": "[Section]\nPROTECT THE ENVIRONMENT FOR A GREEN FUTURE (CONTINUED) / Noise Management\n\n[Content]\nWith the environmental crisis and political and economic issues arising from climate change becoming increasingly prominent, climate change has become one of the most serious challenges facing all of humanity in the 21st century. The Group has made effective management and response to climate change risks one of its daily priorities. The Group takes into account the recommendations of the Task Force on Climate-Related Financial Disclosures (TCFD) to promote climate-related financial disclosure and to clarify climate-related financial impacts and the Group's response measures. At the same time, the Group adopts a systematic and proactive approach to identifying, assessing and managing climate-related risks in its business operations and capitalising on the opportunities of a green, low-carbon economy.",
+      "bm25_rank": 96,
+      "dense_rank": 33,
+      "bm25_score": 4.358238220214844,
+      "dense_score": 0.41749948263168335,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0497018584686272,
+      "normalized_dense": 0.3475644451183603,
+      "normalized_bm25_rank": 0.36241610738255037,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.3248765180891784,
+      "rank": 36,
+      "rrf_score": 0.3248765180891784,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P22_003",
+      "alias_source_ids": [
+        "P22_003"
+      ],
+      "section": "COMPLIANCE AND RISK MANAGEMENT (CONTINUED) / Integrity Culture Promotion",
+      "pages": [
+        22
+      ],
+      "text": "At the Agile 2021 Annual Work Conference, Mr. Chen Zhuo Lin, Chairman and President of the Board, presented the Anti-corruption Management Responsibility Certificate to the heads of various business segments to clarify their responsibilities for integrity management. More than 400 executives from the management of the holding company, functional units and business segments took an oath of integrity to reinforce the awareness of integrity among executives and to establish a firm line of defence against corruption.",
+      "retrieval_text": "[Section]\nCOMPLIANCE AND RISK MANAGEMENT (CONTINUED) / Integrity Culture Promotion\n\n[Content]\nAt the Agile 2021 Annual Work Conference, Mr. Chen Zhuo Lin, Chairman and President of the Board, presented the Anti-corruption Management Responsibility Certificate to the heads of various business segments to clarify their responsibilities for integrity management. More than 400 executives from the management of the holding company, functional units and business segments took an oath of integrity to reinforce the awareness of integrity among executives and to establish a firm line of defence against corruption.",
+      "bm25_rank": 126,
+      "dense_rank": 29,
+      "bm25_score": 3.2171101570129395,
+      "dense_score": 0.43024346232414246,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.02660361887934116,
+      "normalized_dense": 0.4021435884947247,
+      "normalized_bm25_rank": 0.1610738255033557,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.3245944696819078,
+      "rank": 37,
+      "rrf_score": 0.3245944696819078,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P50_002",
+      "alias_source_ids": [
+        "P50_002"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Supplier Chain Environmental and Social Risk Management",
+      "pages": [
+        50
+      ],
+      "text": "The current status of the Group's suppliers in the material and equipment category which have obtained third party system certification is as follows:",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Supplier Chain Environmental and Social Risk Management\n\n[Content]\nThe current status of the Group's suppliers in the material and equipment category which have obtained third party system certification is as follows:",
+      "bm25_rank": 115,
+      "dense_rank": 34,
+      "bm25_score": 3.618954658508301,
+      "dense_score": 0.4151081144809723,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03473758812652002,
+      "normalized_dense": 0.33732283862548734,
+      "normalized_bm25_rank": 0.2348993288590604,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.3042051420167078,
+      "rank": 38,
+      "rrf_score": 0.3042051420167078,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P36_002",
+      "alias_source_ids": [
+        "P36_002"
+      ],
+      "section": "Project Safety Management",
+      "pages": [
+        36
+      ],
+      "text": "The Group actively promotes the development of safety management system and complies with the relevant laws and regulations in the regions where it operates. For example, the operations in Mainland China comply with Production Safety Law of the PRC, Fire Protection Law of the PRC, Emergency Response Law of the PRC, etc. In addition, the Group has formulated internal management systems such as Safety and Quality Red Line Management and Red Light Early Warning Management of Engineering Quality and Safety Risks with reference to the requirements of the Occupational Health and Safety Management System (OHSAS) 18000/ ISO 45001 standards, and also formulated and strictly implemented control measures such as engineering technology, safety management, education and training, individual protection, emergency response, internal and external safety inspection and safety assessment through the identification and assessment of hazardous and harmful factors, so as to minimise the health and safety risks to employees, suppliers and partners.",
+      "retrieval_text": "[Section]\nProject Safety Management\n\n[Content]\nThe Group actively promotes the development of safety management system and complies with the relevant laws and regulations in the regions where it operates. For example, the operations in Mainland China comply with Production Safety Law of the PRC, Fire Protection Law of the PRC, Emergency Response Law of the PRC, etc. In addition, the Group has formulated internal management systems such as Safety and Quality Red Line Management and Red Light Early Warning Management of Engineering Quality and Safety Risks with reference to the requirements of the Occupational Health and Safety Management System (OHSAS) 18000/ ISO 45001 standards, and also formulated and strictly implemented control measures such as engineering technology, safety management, education and training, individual protection, emergency response, internal and external safety inspection and safety assessment through the identification and assessment of hazardous and harmful factors, so as to minimise the health and safety risks to employees, suppliers and partners.",
+      "bm25_rank": 17,
+      "dense_rank": 79,
+      "bm25_score": 19.11817169189453,
+      "dense_score": 0.3668983578681946,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3484662922291683,
+      "normalized_dense": 0.13085301665414562,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.47651006711409394,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.30005557266404637,
+      "rank": 39,
+      "rrf_score": 0.30005557266404637,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T30_001",
+      "alias_source_ids": [
+        "T30_001"
+      ],
+      "section": "Green Healthy Buildings",
+      "pages": [
+        30
+      ],
+      "text": "2021 | 1) Typical Project Green Building 2 Star/ WELL Certification 2022 | 1) 100% of Agile property development projects in 2022 will be designed according to Agile's Green Building Standards/ Healthy Building Standards 2) Full application of new materials and technologies 2025 | 1) More than 30% of the green floor area is designed in accordance with Agile's 2-star green building standard 2) Application of sponge city design concept and technology accounts for more than 80% 3) Use of prefabricated techniques accounts for more than 80% 2030 | 1) More than 80% of the green floor area will be designed in accordance with Agile's 2-star green building standard 2) Application of sponge city design concept and technology accounts for more than 90% 3) Use of prefabricated techniques accounts for more than 90%",
+      "retrieval_text": "[Section]\nGreen Healthy Buildings\n\n[Content]\n2021 | 1) Typical Project Green Building 2 Star/ WELL Certification 2022 | 1) 100% of Agile property development projects in 2022 will be designed according to Agile's Green Building Standards/ Healthy Building Standards 2) Full application of new materials and technologies 2025 | 1) More than 30% of the green floor area is designed in accordance with Agile's 2-star green building standard 2) Application of sponge city design concept and technology accounts for more than 80% 3) Use of prefabricated techniques accounts for more than 80% 2030 | 1) More than 80% of the green floor area will be designed in accordance with Agile's 2-star green building standard 2) Application of sponge city design concept and technology accounts for more than 90% 3) Use of prefabricated techniques accounts for more than 90%",
+      "bm25_rank": 1,
+      "dense_rank": null,
+      "bm25_score": 51.306053161621094,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.30000000000000004,
+      "rank": 40,
+      "rrf_score": 0.30000000000000004,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P44_004",
+      "alias_source_ids": [
+        "P44_004"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)",
+      "pages": [
+        44
+      ],
+      "text": "In August of the same year, the Group organised the 2021 Information Security Awareness and Information Privacy Related Content Study and Examination of the Group, covering basic knowledge of information security, mobile smart terminal security protection and security awareness, in order to test and urge employees to continuously enhance their information security level and awareness.",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)\n\n[Content]\nIn August of the same year, the Group organised the 2021 Information Security Awareness and Information Privacy Related Content Study and Examination of the Group, covering basic knowledge of information security, mobile smart terminal security protection and security awareness, in order to test and urge employees to continuously enhance their information security level and awareness.",
+      "bm25_rank": 23,
+      "dense_rank": 88,
+      "bm25_score": 16.526195526123047,
+      "dense_score": 0.36370721459388733,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.29600058884551955,
+      "normalized_dense": 0.11718618176378585,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.4161073825503355,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 23,
+      "composite_score": 0.29867165722535516,
+      "rank": 41,
+      "rrf_score": 0.29867165722535516,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P78_004",
+      "alias_source_ids": [
+        "P78_004"
+      ],
+      "section": "Risk Management: How to Identify and Manage Climate-related Risks",
+      "pages": [
+        78
+      ],
+      "text": "To ensure professionalism in the assessment and selection of eligible projects, the Group established the Sustainable Finance Working Group, which manages the Sustainable Finance Framework and is responsible for the green bonds issued thereunder. This group meets at least once a year and is responsible for approving green and social projects, checking the scope and type of projects and issuing regular reports.",
+      "retrieval_text": "[Section]\nRisk Management: How to Identify and Manage Climate-related Risks\n\n[Content]\nTo ensure professionalism in the assessment and selection of eligible projects, the Group established the Sustainable Finance Working Group, which manages the Sustainable Finance Framework and is responsible for the green bonds issued thereunder. This group meets at least once a year and is responsible for approving green and social projects, checking the scope and type of projects and issuing regular reports.",
+      "bm25_rank": 141,
+      "dense_rank": 31,
+      "bm25_score": 2.7068090438842773,
+      "dense_score": 0.42203590273857117,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.016274316013322986,
+      "normalized_dense": 0.3669927500438428,
+      "normalized_bm25_rank": 0.06040268456375841,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.2974741377985465,
+      "rank": 42,
+      "rrf_score": 0.2974741377985465,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P44_002",
+      "alias_source_ids": [
+        "P44_002"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)",
+      "pages": [
+        44
+      ],
+      "text": "Case: Improve Employees' Information Security Level and Awareness through Information Security Training and Examinations",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)\n\n[Content]\nCase: Improve Employees' Information Security Level and Awareness through Information Security Training and Examinations",
+      "bm25_rank": 39,
+      "dense_rank": 75,
+      "bm25_score": 10.932062149047852,
+      "dense_score": 0.3708752393722534,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18276646797433538,
+      "normalized_dense": 0.14788496358429296,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.5033557046979866,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 39,
+      "composite_score": 0.293480816084269,
+      "rank": 43,
+      "rrf_score": 0.293480816084269,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P78_003",
+      "alias_source_ids": [
+        "P78_003"
+      ],
+      "section": "Risk Management: How to Identify and Manage Climate-related Risks",
+      "pages": [
+        78
+      ],
+      "text": "During the Year, the Group took a key step in sustainable finance by developing the Sustainable Finance Framework and issuing its first sustainability bond in July 2021.",
+      "retrieval_text": "[Section]\nRisk Management: How to Identify and Manage Climate-related Risks\n\n[Content]\nDuring the Year, the Group took a key step in sustainable finance by developing the Sustainable Finance Framework and issuing its first sustainability bond in July 2021.",
+      "bm25_rank": 121,
+      "dense_rank": 35,
+      "bm25_score": 3.5251715183258057,
+      "dense_score": 0.4113204777240753,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.032839268813179646,
+      "normalized_dense": 0.32110137762185814,
+      "normalized_bm25_rank": 0.19463087248322153,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.29277883928599097,
+      "rank": 44,
+      "rrf_score": 0.29277883928599097,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L13_002",
+      "alias_source_ids": [
+        "L13_002"
+      ],
+      "section": "SUSTAINABLE DEVELOPMENT CONCEPT AND MANAGEMENT STRUCTURE / Sustainable Development Concept",
+      "pages": [
+        13
+      ],
+      "text": "Identify and analyse ESG-related risks;",
+      "retrieval_text": "[Section]\nSUSTAINABLE DEVELOPMENT CONCEPT AND MANAGEMENT STRUCTURE / Sustainable Development Concept\n\n[Content]\nIdentify and analyse ESG-related risks;",
+      "bm25_rank": null,
+      "dense_rank": 30,
+      "bm25_score": null,
+      "dense_score": 0.4222211539745331,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3677861328027778,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.2897989719843279,
+      "rank": 45,
+      "rrf_score": 0.2897989719843279,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T95_001",
+      "alias_source_ids": [
+        "T95_001"
+      ],
+      "section": "Social Key Performance Table",
+      "pages": [
+        95
+      ],
+      "text": "The Group's Social Data ESG Indicator | Unit | 2019 | 2020 | 2021 B3. | Development and Training B3.1 Trained | Percentage of Employees Trained: Breakdown employees as a percentage | by % | Gender and - | Position 78.00 | 50.47 of total employees Gender | Male | % | - | 58.73 | 54.27 Female | % | - | 41.27 | 45.73 Position | Top management | % | - | 0.04 | 0.02 Senior management | % | - | 0.66 | 0.76 Middle management | % | - | 3.24 | 4.83 General staff | % | - | 96.06 | 94.39 B3.2 | Average Number of Training Hours Received by Employees: Breakdown by Gender and Position Average training hours of employees | hour | 56.87 | 19.75 | 51.20 Gender | Male | hour | - | 21.53 | 50.10 Female | hour | - | 17.36 | 52.60 Position | Top management | hour | 55.59 | 18.37 | 11.92 Senior management | hour | 59.77 | 22.83 | 33.43 Middle management | hour | 64.54 | 16.51 | 113.05 General staff | hour | 56.66 | 19.83 | 48.81 B5. | Supply Chain Management B5.1 | Number of Suppliers by Region Region | Mainland China | / | 16,852 | 20,482 | 37,606 Hong Kong, Macau, Taiwan and overseas | / | 157 | 187 | 422 B6. | Product Responsibilities B6.2 | Number of Complaints Received about Number of complaints received | Products and / | Services - | - | 6,969 B7. | Anti-corruption B7.1 | Number of Legal Cases regarding Corruption Number of filed or concluded legal | case | 0 | 0 | 1 B7.3 | Anti-corruption Training Provided to Directors and Employees Directors attending anti-corruption training | person | - | - | 9 Employees attending anti-corruption Training | person | - | - | 39,000 Anti-corruption training hours | hour | - | - | 45,018 B8. | Community Investment B8.2 | Resources Contributed to the Focus Area Employees involved | person | - | - | 539 Time invested | hour | - | - | 1,400 Money invested | RMB yuan | 106,450,720 | 155,401,820 | 71,365,121",
+      "retrieval_text": "[Section]\nSocial Key Performance Table\n\n[Content]\nThe Group's Social Data ESG Indicator | Unit | 2019 | 2020 | 2021 B3. | Development and Training B3.1 Trained | Percentage of Employees Trained: Breakdown employees as a percentage | by % | Gender and - | Position 78.00 | 50.47 of total employees Gender | Male | % | - | 58.73 | 54.27 Female | % | - | 41.27 | 45.73 Position | Top management | % | - | 0.04 | 0.02 Senior management | % | - | 0.66 | 0.76 Middle management | % | - | 3.24 | 4.83 General staff | % | - | 96.06 | 94.39 B3.2 | Average Number of Training Hours Received by Employees: Breakdown by Gender and Position Average training hours of employees | hour | 56.87 | 19.75 | 51.20 Gender | Male | hour | - | 21.53 | 50.10 Female | hour | - | 17.36 | 52.60 Position | Top management | hour | 55.59 | 18.37 | 11.92 Senior management | hour | 59.77 | 22.83 | 33.43 Middle management | hour | 64.54 | 16.51 | 113.05 General staff | hour | 56.66 | 19.83 | 48.81 B5. | Supply Chain Management B5.1 | Number of Suppliers by Region Region | Mainland China | / | 16,852 | 20,482 | 37,606 Hong Kong, Macau, Taiwan and overseas | / | 157 | 187 | 422 B6. | Product Responsibilities B6.2 | Number of Complaints Received about Number of complaints received | Products and / | Services - | - | 6,969 B7. | Anti-corruption B7.1 | Number of Legal Cases regarding Corruption Number of filed or concluded legal | case | 0 | 0 | 1 B7.3 | Anti-corruption Training Provided to Directors and Employees Directors attending anti-corruption training | person | - | - | 9 Employees attending anti-corruption Training | person | - | - | 39,000 Anti-corruption training hours | hour | - | - | 45,018 B8. | Community Investment B8.2 | Resources Contributed to the Focus Area Employees involved | person | - | - | 539 Time invested | hour | - | - | 1,400 Money invested | RMB yuan | 106,450,720 | 155,401,820 | 71,365,121",
+      "bm25_rank": 8,
+      "dense_rank": 127,
+      "bm25_score": 26.91651153564453,
+      "dense_score": 0.345417320728302,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5063170435323919,
+      "normalized_dense": 0.03885533349517525,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.15436241610738255,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.24103727207408504,
+      "rank": 46,
+      "rrf_score": 0.24103727207408504,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P82_004",
+      "alias_source_ids": [
+        "P82_004"
+      ],
+      "section": "PUBLIC WELFARE AND CHARITY FOR THE COMMUNITY (CONTINUED) / Assisting Urban Development",
+      "pages": [
+        82
+      ],
+      "text": "I n A p r i l 2 0 2 1 , t h e G r o u p f o r m a l l y b e c a m e t h e implementation body of the upgrading and transformation project of Shiban Industrial Zone in Lunjiao Street, Shunde District, Foshan City, and joined hands with Lunjiao Shiban Village to build the first industrial transformation project in Shunde District, Foshan City, to jointly explore a new path of diversified development of urban renewal and integrate high-quality resources through the redevelopment of urban brownfields to contribute to the urban renewal construction of Foshan City and the improvement of the living environment and quality of life of villagers in Lunjiao Shiban Village.",
+      "retrieval_text": "[Section]\nPUBLIC WELFARE AND CHARITY FOR THE COMMUNITY (CONTINUED) / Assisting Urban Development\n\n[Content]\nI n A p r i l 2 0 2 1 , t h e G r o u p f o r m a l l y b e c a m e t h e implementation body of the upgrading and transformation project of Shiban Industrial Zone in Lunjiao Street, Shunde District, Foshan City, and joined hands with Lunjiao Shiban Village to build the first industrial transformation project in Shunde District, Foshan City, to jointly explore a new path of diversified development of urban renewal and integrate high-quality resources through the redevelopment of urban brownfields to contribute to the urban renewal construction of Foshan City and the improvement of the living environment and quality of life of villagers in Lunjiao Shiban Village.",
+      "bm25_rank": 4,
+      "dense_rank": null,
+      "bm25_score": 36.14250946044922,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.6930658558606442,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.23659974835333691,
+      "rank": 47,
+      "rrf_score": 0.23659974835333691,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T94_001",
+      "alias_source_ids": [
+        "T94_001"
+      ],
+      "section": "Social Key Performance Table",
+      "pages": [
+        94
+      ],
+      "text": "The Group's Social Data ESG Indicator | Unit | 2019 | 2020 | 2021 B1. | Employment B1.1 | Number of Employees: Breakdown by Gender, Age, Position and | Region Total number of employees | person | 38,313 | 63,275 | 98,466 Gender | Male | person | 22,615 | 36,251 | 54,629 Female | person | 15,698 | 27,024 | 43,837 Age | 30 or below | person | - | 16,309 | 18,323 31-49 | person | - | 33,288 | 43,128 50 or above | person | - | 13,678 | 37,015 Position | Top management | person | 17 | 24 | 15 Senior management | person | 305 | 486 | 276 Middle management | person | 890 | 1,962 | 2,051 General staff | person | 37,101 | 60,803 | 96,124 Region | Mainland China | person | 38,160 | 63,119 | 98,362 Hong Kong, Macau, Taiwan and Overseas | person | 153 | 156 | 104 B1.2 | Employee Turnover Rate: Breakdown by Gender, Age and Region Total employee turnover rate | % | - | - | 42.42 Gender | Male | % | 44.83 | 37.24 | 23.39 Female | % | 43.00 | 33.56 | 19.03 Age | 30 or below | % | 54.70 | 43.06 | 11.32 31-49 | % | 35.58 | 31.83 | 14.66 50 or above | % | 53.57 | 36.20 | 16.44 Region | Mainland China | % | 44.15 | 35.74 | 42.41 Hong Kong, Macau and Taiwan | % | 21.43 | 14.29 | 0.01 Overseas | % | 28.83 | 1.08 | 0.00 B2. | Health and Safety B2.1 | Number of Work-related Fatalities Number of work-related fatalities | person | 2 | 1 | 1 Work-related fatality rate | ‰ | 0.52 | 0.16 | 0.01 B2.2 | Number of Lost Days due to Work Injury Total number of lost days due to work injury | day | 3,342.0 | 11,104.0 | 5,739.5",
+      "retrieval_text": "[Section]\nSocial Key Performance Table\n\n[Content]\nThe Group's Social Data ESG Indicator | Unit | 2019 | 2020 | 2021 B1. | Employment B1.1 | Number of Employees: Breakdown by Gender, Age, Position and | Region Total number of employees | person | 38,313 | 63,275 | 98,466 Gender | Male | person | 22,615 | 36,251 | 54,629 Female | person | 15,698 | 27,024 | 43,837 Age | 30 or below | person | - | 16,309 | 18,323 31-49 | person | - | 33,288 | 43,128 50 or above | person | - | 13,678 | 37,015 Position | Top management | person | 17 | 24 | 15 Senior management | person | 305 | 486 | 276 Middle management | person | 890 | 1,962 | 2,051 General staff | person | 37,101 | 60,803 | 96,124 Region | Mainland China | person | 38,160 | 63,119 | 98,362 Hong Kong, Macau, Taiwan and Overseas | person | 153 | 156 | 104 B1.2 | Employee Turnover Rate: Breakdown by Gender, Age and Region Total employee turnover rate | % | - | - | 42.42 Gender | Male | % | 44.83 | 37.24 | 23.39 Female | % | 43.00 | 33.56 | 19.03 Age | 30 or below | % | 54.70 | 43.06 | 11.32 31-49 | % | 35.58 | 31.83 | 14.66 50 or above | % | 53.57 | 36.20 | 16.44 Region | Mainland China | % | 44.15 | 35.74 | 42.41 Hong Kong, Macau and Taiwan | % | 21.43 | 14.29 | 0.01 Overseas | % | 28.83 | 1.08 | 0.00 B2. | Health and Safety B2.1 | Number of Work-related Fatalities Number of work-related fatalities | person | 2 | 1 | 1 Work-related fatality rate | ‰ | 0.52 | 0.16 | 0.01 B2.2 | Number of Lost Days due to Work Injury Total number of lost days due to work injury | day | 3,342.0 | 11,104.0 | 5,739.5",
+      "bm25_rank": 5,
+      "dense_rank": null,
+      "bm25_score": 34.9369010925293,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.6686624327646202,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.2310479227945348,
+      "rank": 48,
+      "rrf_score": 0.2310479227945348,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T91_001",
+      "alias_source_ids": [
+        "T91_001"
+      ],
+      "section": "APPENDIX II - LIST OF DATA / Environmental Key Performance Table",
+      "pages": [
+        91
+      ],
+      "text": "ESG Indicator | Unit | Consumption/ Emissions in 2021 A1.1 | Category and Relevant Data of Emissions Nitrogen Oxides (NO x ) emissions | KG | 5,180.56 Sulphur dioxide (SO 2 ) emissions | KG | 2.67 Particulate Matter (PM) emissions | KG | 126.46 A1.2 | Greenhouse Gas Emissions Total GHG emissions 1 | tonne of carbon dioxide equivalent | 82,300.73 Direct GHG emissions (Scope 1) 2 | tonne of carbon dioxide equivalent | 11,707.05 Indirect GHG emissions (Scope 2) 3 | tonne of carbon dioxide equivalent | 70,593.69 A1.3 | Hazardous Waste Generated Total waste batteries | KG | 128.71 Total waste light tubes | piece | 1,559.00 Total toner cartridges | unit | 806.00 Total hazardous waste generated 4 | tonne | 66,927.00 A1.4 | Non-hazardous Waste Generated Total non-hazardous waste generated 5 | tonne | 617.92",
+      "retrieval_text": "[Section]\nAPPENDIX II - LIST OF DATA / Environmental Key Performance Table\n\n[Content]\nESG Indicator | Unit | Consumption/ Emissions in 2021 A1.1 | Category and Relevant Data of Emissions Nitrogen Oxides (NO x ) emissions | KG | 5,180.56 Sulphur dioxide (SO 2 ) emissions | KG | 2.67 Particulate Matter (PM) emissions | KG | 126.46 A1.2 | Greenhouse Gas Emissions Total GHG emissions 1 | tonne of carbon dioxide equivalent | 82,300.73 Direct GHG emissions (Scope 1) 2 | tonne of carbon dioxide equivalent | 11,707.05 Indirect GHG emissions (Scope 2) 3 | tonne of carbon dioxide equivalent | 70,593.69 A1.3 | Hazardous Waste Generated Total waste batteries | KG | 128.71 Total waste light tubes | piece | 1,559.00 Total toner cartridges | unit | 806.00 Total hazardous waste generated 4 | tonne | 66,927.00 A1.4 | Non-hazardous Waste Generated Total non-hazardous waste generated 5 | tonne | 617.92",
+      "bm25_rank": 7,
+      "dense_rank": null,
+      "bm25_score": 32.7705078125,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.624811201127806,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.2209353945879773,
+      "rank": 49,
+      "rrf_score": 0.2209353945879773,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L7_003",
+      "alias_source_ids": [
+        "L7_003"
+      ],
+      "section": "ABOUT THE GROUP / Business Overview",
+      "pages": [
+        7
+      ],
+      "text": "Following the development strategy of '1 Core, 4 Drivers and N Wings', the environmental protection group of Group ('Environmental Protection Group') focused on hazardous waste treatment while engaging in selective projects of energy and power generation, ecological industrial parks, environmental protection water treatment and ecological restoration. During the Reporting Period, the Group had 37 projects in total. Among them, 29 are hazardous waste treatment projects, 2 are domestic waste-to-energy projects, 2 are integrated industrial park projects and 4 are water treatment projects.",
+      "retrieval_text": "[Section]\nABOUT THE GROUP / Business Overview\n\n[Content]\nFollowing the development strategy of '1 Core, 4 Drivers and N Wings', the environmental protection group of Group ('Environmental Protection Group') focused on hazardous waste treatment while engaging in selective projects of energy and power generation, ecological industrial parks, environmental protection water treatment and ecological restoration. During the Reporting Period, the Group had 37 projects in total. Among them, 29 are hazardous waste treatment projects, 2 are domestic waste-to-energy projects, 2 are integrated industrial park projects and 4 are water treatment projects.",
+      "bm25_rank": 10,
+      "dense_rank": null,
+      "bm25_score": 26.153751373291016,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.4908775696053652,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.1921352454646972,
+      "rank": 50,
+      "rrf_score": 0.1921352454646972,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

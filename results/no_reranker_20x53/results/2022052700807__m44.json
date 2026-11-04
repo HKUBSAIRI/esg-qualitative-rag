@@ -1,0 +1,1530 @@
+{
+  "document_id": "2022052700807",
+  "metric_id": 44,
+  "metric_name": "投票权差异",
+  "query": "投票权差异 投票权差异 衡量企业表决权配置与经济所有权的一致性程度。重点考察差异化投票权架构（如双重股权）的复杂程度、是否存在对中小股东的实质性不公平以及抵消性保护机制。 一、架构公平性评分 (权重 70%，取值：0, 1, 2) • 2分（卓越/高分）：严格执行一股一票制；公司章程明确所有股份具有同等法律地位；无任何差异化投票安排。 • 1分（合格/中分）：存在适度的差异化架构（如 1:10 及以内的投票权倍数）；通常用于保护初创团队的控制权，且该架构已在主流证券交易所合规备案。 • 0分（不合格/低分）：存在极高杠杆的投票差异（如超过 1:20 的表决权比例）或金字塔持股结构；控制权与所有权严重背离；存在“黄金股”等赋予特定人无限否决权的安排。 二、抵消性保护机制 (权重 30%，取值：0, 1, 2) • 2分（完善）：具备强制性的“日落条款”（如创始人离职或特定年限后自动失效）；在涉及并购、章程修改等重大事项时强制执行一股一票；由普通股东独立选派特定比例的独董。 • 1分（基础）：具备基础的保护机制（如相关关联交易需经无利害关系股东批准），但缺乏自动退出（日落）机制或重大事项的穿透表决权。 • 0分（缺失）：没有任何抵消性安排，控股股东或创始人拥有不受限的永久特权。 一股一票 同股同权 股份法律地位平等 投票权差异 差异化表决权 投票权倍数 日落条款 重大事项一股一票 控制权与所有权偏离 同股不同权保护机制 WVR one share one vote equal voting rights equal legal status of shares voting rights disparity dual-class structure voting multiple sunset clause one-share-one-vote on reserved matters ownership-control divergence weighted voting rights WVR minority shareholder protection 企业是否严格执行一股一票，章程是否明确所有股份具有同等法律地位？ 若存在差异化投票权，其股份类别、投票倍数和控制安排是什么？ 是否有日落条款或失效条件？ 重大事项是否强制恢复一股一票？ 普通股东或中小股东有哪些抵消性保护？ 是否存在黄金股或过高杠杆表决安排？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '投票权差异'. Prefer explicit, auditable disclosure that answers: 企业是否严格执行一股一票，章程是否明确所有股份具有同等法律地位？ 若存在差异化投票权，其股份类别、投票倍数和控制安排是什么？ 是否有日落条款或失效条件？ 重大事项是否强制恢复一股一票？ 普通股东或中小股东有哪些抵消性保护？ 是否存在黄金股或过高杠杆表决安排？ Exclude or down-rank: 排除：仅声明重视股东权益而无股份类别或表决权依据；仅有独董人数、分红政策或未说明投票权的股权激励；未经章程、股本结构或上市文件支持的一股一票口号。区分：本指标接受严格一股一票作为2分证据，也评估差异架构的投票倍数、日落条款和保护机制；第43项侧重是否同股同权，本项侧重差异程度与抵消保护。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 261,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P84_003",
+      "alias_source_ids": [
+        "P84_003"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        84
+      ],
+      "text": "本年度,為加強管理層績效考核的過程管理, 集團明確年度、季度績效考核指標及評價標 準,增加年度、季度績效評分規則說明。同 時,為提升管理層績效考核的科學性,本年 度集團調整績效評分、等級與系數的對應關 係,並針對員工業績突出等特殊情況,新增 績效系數確認規則。為保障績效考核的公平 性,對考核結果持有異議的被考核人可以在 規定時間內向集團分管領導或人力資源中心 進行申訴。",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\n本年度,為加強管理層績效考核的過程管理, 集團明確年度、季度績效考核指標及評價標 準,增加年度、季度績效評分規則說明。同 時,為提升管理層績效考核的科學性,本年 度集團調整績效評分、等級與系數的對應關 係,並針對員工業績突出等特殊情況,新增 績效系數確認規則。為保障績效考核的公平 性,對考核結果持有異議的被考核人可以在 規定時間內向集團分管領導或人力資源中心 進行申訴。",
+      "bm25_rank": null,
+      "dense_rank": 1,
+      "bm25_score": null,
+      "dense_score": 0.3100847601890564,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.55,
+      "rank": 1,
+      "rrf_score": 0.55,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P60_001",
+      "alias_source_ids": [
+        "P60_001"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        60
+      ],
+      "text": "本集團嚴格遵守相關法律法規,並根據 ISO 體 系要求建立 《 EHS 風險和機遇控制程序》 及 《危 險源辨識、風險評價控制程序》 ,持續、主動 識別危險源,制定並完善風險控制措施,以便 在緊急情況發生時及時做出響應。二零二一 年,本集團 EHS 部門積極參與新改擴建項目等 有重大變更項目的前期 EHS 風險評估,提出專 業意見,避免出現後期大規模整改等情況。 當子公司的生產組織方式有重大調整時, EHS 部門亦輔助子公司進行 EHS 管理的變更。",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\n本集團嚴格遵守相關法律法規,並根據 ISO 體 系要求建立 《 EHS 風險和機遇控制程序》 及 《危 險源辨識、風險評價控制程序》 ,持續、主動 識別危險源,制定並完善風險控制措施,以便 在緊急情況發生時及時做出響應。二零二一 年,本集團 EHS 部門積極參與新改擴建項目等 有重大變更項目的前期 EHS 風險評估,提出專 業意見,避免出現後期大規模整改等情況。 當子公司的生產組織方式有重大調整時, EHS 部門亦輔助子公司進行 EHS 管理的變更。",
+      "bm25_rank": 5,
+      "dense_rank": 48,
+      "bm25_score": 49.919918060302734,
+      "dense_score": 0.20322085916996002,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9056536489317073,
+      "normalized_dense": 0.24110671309364637,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.49974626728858085,
+      "rank": 2,
+      "rrf_score": 0.49974626728858085,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P96_001",
+      "alias_source_ids": [
+        "P96_001"
+      ],
+      "section": "合規經營，誠信為先 / Enhancing Compliance Governance and Upholding Integrity",
+      "pages": [
+        96
+      ],
+      "text": "本年度集團繼續完善反貪腐投訴舉報機制, 為保證投訴舉報途徑暢通,合規部在集團總 部、 28 家子公司及各營銷中心顯著位置增加 或更新廉政投訴牌,接收電話、郵件、信件 等多渠道的違規舉報。接到舉報後,集團合 規部將按照舉報受理程序,評估舉報內容的 真實性,確認是否存在違規行為,並根據評 估結果初步回覆舉報人。同時,部門將圍繞 舉報內容開展調查,通過談話等方式了解情 況、收集證據,並以報告的形式匯總調查結 果呈交集團管理層。若違規行為屬實,本集 團將依據員工手冊規定予以相應的處罰,情 節特別嚴重涉嫌犯罪者移送公安機關處理。 為保障舉報人的合法權益,防止打擊報復舉 報人的惡劣行為,本集團在 《投訴舉報制度》 詳細列示了舉報人保護條例,對舉報人資料 進行嚴格保密。二零二一年,本集團未發生 任何貪污訴訟案件。",
+      "retrieval_text": "[Section]\n合規經營，誠信為先 / Enhancing Compliance Governance and Upholding Integrity\n\n[Content]\n本年度集團繼續完善反貪腐投訴舉報機制, 為保證投訴舉報途徑暢通,合規部在集團總 部、 28 家子公司及各營銷中心顯著位置增加 或更新廉政投訴牌,接收電話、郵件、信件 等多渠道的違規舉報。接到舉報後,集團合 規部將按照舉報受理程序,評估舉報內容的 真實性,確認是否存在違規行為,並根據評 估結果初步回覆舉報人。同時,部門將圍繞 舉報內容開展調查,通過談話等方式了解情 況、收集證據,並以報告的形式匯總調查結 果呈交集團管理層。若違規行為屬實,本集 團將依據員工手冊規定予以相應的處罰,情 節特別嚴重涉嫌犯罪者移送公安機關處理。 為保障舉報人的合法權益,防止打擊報復舉 報人的惡劣行為,本集團在 《投訴舉報制度》 詳細列示了舉報人保護條例,對舉報人資料 進行嚴格保密。二零二一年,本集團未發生 任何貪污訴訟案件。",
+      "bm25_rank": 4,
+      "dense_rank": 54,
+      "bm25_score": 51.06684494018555,
+      "dense_score": 0.19971615076065063,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9323296074370436,
+      "normalized_dense": 0.21621804948483936,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.6442953020134228,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.48898787639099517,
+      "rank": 3,
+      "rrf_score": 0.48898787639099517,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_007",
+      "alias_source_ids": [
+        "P35_007"
+      ],
+      "section": "創新科技，健康未來 Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        35
+      ],
+      "text": "Innovation is the primary driving force for the development of the enterprise, and intellectual property is the lifeblood of enterprise innovation and development. In order to standardize the intellectual property of the Group, we strictly abided by the 'Patent Law of the People's Republic of China', 'Trademark Law of the People's Republic of China', 'Copyright Law of the People's Republic of China' and 'Contract Law of the People's Republic of China' and set up the Intellectual Property Decision-Making Committee. We formulated the 'Provisions on Intellectual Property Rights Administration of Sihuan Pharmaceutical Holdings Group Ltd.' and other internal systems to specify the responsibilities of the Intellectual Property Department and all functional departments in the process of management, implementation, supervision and coordination of corresponding intellectual property management, encouraged and mobilized the enthusiasm of employees in invention and creation, thus ensuring the smooth progress of technological innovation, production and operation of the Group.",
+      "retrieval_text": "[Section]\n創新科技，健康未來 Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nInnovation is the primary driving force for the development of the enterprise, and intellectual property is the lifeblood of enterprise innovation and development. In order to standardize the intellectual property of the Group, we strictly abided by the 'Patent Law of the People's Republic of China', 'Trademark Law of the People's Republic of China', 'Copyright Law of the People's Republic of China' and 'Contract Law of the People's Republic of China' and set up the Intellectual Property Decision-Making Committee. We formulated the 'Provisions on Intellectual Property Rights Administration of Sihuan Pharmaceutical Holdings Group Ltd.' and other internal systems to specify the responsibilities of the Intellectual Property Department and all functional departments in the process of management, implementation, supervision and coordination of corresponding intellectual property management, encouraged and mobilized the enthusiasm of employees in invention and creation, thus ensuring the smooth progress of technological innovation, production and operation of the Group.",
+      "bm25_rank": 115,
+      "dense_rank": 2,
+      "bm25_score": 13.967826843261719,
+      "dense_score": 0.2666025459766388,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06945693028488094,
+      "normalized_dense": 0.6912113431107946,
+      "normalized_bm25_rank": 0.2348993288590604,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.47796300715246576,
+      "rank": 4,
+      "rrf_score": 0.47796300715246576,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P14_002",
+      "alias_source_ids": [
+        "P14_002"
+      ],
+      "section": "責任治理，可持續運營 / Responsible Governance, Sustainable Operation",
+      "pages": [
+        14
+      ],
+      "text": "The Group has established a top-down three-tier ESG governance structure in accordance with the 'ESG Management Measures of Sihuan Pharmaceutical' as our sustainable development governance support. The Board supervises ESG-related management matters with the assistance of the Risk Management Committee, and the ESG Working Team composed of functional departments is responsible for implementing specific ESG work and regularly reporting and feeding back to the Risk Management Committee.",
+      "retrieval_text": "[Section]\n責任治理，可持續運營 / Responsible Governance, Sustainable Operation\n\n[Content]\nThe Group has established a top-down three-tier ESG governance structure in accordance with the 'ESG Management Measures of Sihuan Pharmaceutical' as our sustainable development governance support. The Board supervises ESG-related management matters with the assistance of the Risk Management Committee, and the ESG Working Team composed of functional departments is responsible for implementing specific ESG work and regularly reporting and feeding back to the Risk Management Committee.",
+      "bm25_rank": 126,
+      "dense_rank": 4,
+      "bm25_score": 12.69923210144043,
+      "dense_score": 0.25847479701042175,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.039951142874640626,
+      "normalized_dense": 0.6334921875372025,
+      "normalized_bm25_rank": 0.1610738255033557,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.4417930311257007,
+      "rank": 5,
+      "rrf_score": 0.4417930311257007,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T116_001",
+      "alias_source_ids": [
+        "T116_001"
+      ],
+      "section": "附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide",
+      "pages": [
+        116
+      ],
+      "text": "ESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter B6 一般披露 | 有關所提供產品和服務的健康與安全、廣告、 標簽及私隱事宜以及補救方法的政策及遵守對 | 已披露 | 創新科技,健康未來 B6 General disclosure | 發行人有重大影響的相關法律及規例的資料。 Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Disclosed | Fostering Innovation in Science and Technology for a Healthy Future B6.1 | 已售或已運送產品總數中因安全健康理由而須 回收的百分比。 Percentage of total products sold or shipped subject to recalls for safety and health reasons. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.2 | 接獲關於產品及服務的投訴數目以及應對方法。 Number of product and service related complaints received and how they are dealt with. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.3 | 描述與維護及保障知識產權有關的慣例。 Description of practices relating to observing and protecting intellectual property rights. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.4 | 描述質量檢定過程及產品回收程序。 Description of quality assurance process and recall procedures. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.5 | 描述消費者數據保障及私隱政策,以及相關執 行及監察方法。 | 已披露 | 創新科技,健康未來 Description of consumer data protection and privacy policies, how they are implemented and monitored. | Disclosed | Fostering Innovation in Science and Technology for a Healthy Future",
+      "retrieval_text": "[Section]\n附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide\n\n[Content]\nESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter B6 一般披露 | 有關所提供產品和服務的健康與安全、廣告、 標簽及私隱事宜以及補救方法的政策及遵守對 | 已披露 | 創新科技,健康未來 B6 General disclosure | 發行人有重大影響的相關法律及規例的資料。 Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Disclosed | Fostering Innovation in Science and Technology for a Healthy Future B6.1 | 已售或已運送產品總數中因安全健康理由而須 回收的百分比。 Percentage of total products sold or shipped subject to recalls for safety and health reasons. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.2 | 接獲關於產品及服務的投訴數目以及應對方法。 Number of product and service related complaints received and how they are dealt with. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.3 | 描述與維護及保障知識產權有關的慣例。 Description of practices relating to observing and protecting intellectual property rights. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.4 | 描述質量檢定過程及產品回收程序。 Description of quality assurance process and recall procedures. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.5 | 描述消費者數據保障及私隱政策,以及相關執 行及監察方法。 | 已披露 | 創新科技,健康未來 Description of consumer data protection and privacy policies, how they are implemented and monitored. | Disclosed | Fostering Innovation in Science and Technology for a Healthy Future",
+      "bm25_rank": 43,
+      "dense_rank": 27,
+      "bm25_score": 28.742172241210938,
+      "dense_score": 0.2160969227552414,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.41308809953559067,
+      "normalized_dense": 0.33254599355658987,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.43592146932977693,
+      "rank": 6,
+      "rrf_score": 0.43592146932977693,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P85_001",
+      "alias_source_ids": [
+        "P85_001"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        85
+      ],
+      "text": "本集團嚴格遵守 《中華人民共和國勞動法》 、 《中華人民共和國社會保險法》 、 《中華人民共 和國勞動和社會保障部最低工資規定》 等法律 法規,制定並落實 《薪酬管理制度》 、 《四環醫 藥控股集團員工晉職晉級管理制度》 等內部管 理制度,持續優化薪酬及晉升管理,激勵挽 留優秀員工,實現集團的長期企業目標。",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\n本集團嚴格遵守 《中華人民共和國勞動法》 、 《中華人民共和國社會保險法》 、 《中華人民共 和國勞動和社會保障部最低工資規定》 等法律 法規,制定並落實 《薪酬管理制度》 、 《四環醫 藥控股集團員工晉職晉級管理制度》 等內部管 理制度,持續優化薪酬及晉升管理,激勵挽 留優秀員工,實現集團的長期企業目標。",
+      "bm25_rank": 49,
+      "dense_rank": 26,
+      "bm25_score": 26.322349548339844,
+      "dense_score": 0.21809953451156616,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.35680631655750245,
+      "normalized_dense": 0.3467675277104201,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.4269580859296106,
+      "rank": 7,
+      "rrf_score": 0.4269580859296106,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P84_005",
+      "alias_source_ids": [
+        "P84_005"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        84
+      ],
+      "text": "The Group is committed to establishing a fair and reasonable performance appraisal mechanism, continuously optimizing the performance management system and strengthening the performance process control. During the Year, we revised the 'Performance Management System for Middle and Senior Management of Sihuan Pharmaceutical Holdings Group' and 'Performance Management System for Employees of Sihuan Pharmaceutical Holdings Group Headquarters', and added the 'Performance Management System for Probationary Employees of Sihuan Pharmaceutical Holdings Group Headquarters' to carry out targeted performance appraisal management for employees at different levels. In addition, we specified the responsibilities of the performance management body, the content of performance indicators at each stage and the scoring rules, and adjusted the process of performance appraisal according to the operational requirements of online performance management to improve the efficiency of performance management. In addition, the Group formulated the 'Attendance Management Policies', which incorporated employees' attendance into the performance appraisal process.",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\nThe Group is committed to establishing a fair and reasonable performance appraisal mechanism, continuously optimizing the performance management system and strengthening the performance process control. During the Year, we revised the 'Performance Management System for Middle and Senior Management of Sihuan Pharmaceutical Holdings Group' and 'Performance Management System for Employees of Sihuan Pharmaceutical Holdings Group Headquarters', and added the 'Performance Management System for Probationary Employees of Sihuan Pharmaceutical Holdings Group Headquarters' to carry out targeted performance appraisal management for employees at different levels. In addition, we specified the responsibilities of the performance management body, the content of performance indicators at each stage and the scoring rules, and adjusted the process of performance appraisal according to the operational requirements of online performance management to improve the efficiency of performance management. In addition, the Group formulated the 'Attendance Management Policies', which incorporated employees' attendance into the performance appraisal process.",
+      "bm25_rank": null,
+      "dense_rank": 3,
+      "bm25_score": null,
+      "dense_score": 0.26145005226135254,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6546209430405298,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.42643276630579613,
+      "rank": 8,
+      "rrf_score": 0.42643276630579613,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P36_004",
+      "alias_source_ids": [
+        "P36_004"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        36
+      ],
+      "text": "二零二一年,本集團知識產權部對所部數據 資產和人員在文檔資產安全系統 ( 「 DASS 」 ) , 中進行分類和密級劃分,將專利和商標涉及 的法律法規文件、專利和商標審查過程中涉 及文件、相關項目申報資料等上傳至文檔資 產安全系統。文檔資產安全系統通過加密機 制與權限控制相結合的方式,保護文檔全生 命週期安全,實現重要信息安全流轉、防止 重要信息泄露和擴散的綜合解決方案,滿足 了集團對涉密管理規範化、系統化、數字化 的要求。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n二零二一年,本集團知識產權部對所部數據 資產和人員在文檔資產安全系統 ( 「 DASS 」 ) , 中進行分類和密級劃分,將專利和商標涉及 的法律法規文件、專利和商標審查過程中涉 及文件、相關項目申報資料等上傳至文檔資 產安全系統。文檔資產安全系統通過加密機 制與權限控制相結合的方式,保護文檔全生 命週期安全,實現重要信息安全流轉、防止 重要信息泄露和擴散的綜合解決方案,滿足 了集團對涉密管理規範化、系統化、數字化 的要求。",
+      "bm25_rank": 83,
+      "dense_rank": 13,
+      "bm25_score": 18.71649169921875,
+      "dense_score": 0.2313656210899353,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17990441292318257,
+      "normalized_dense": 0.4409765538814165,
+      "normalized_bm25_rank": 0.44966442953020136,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.4191817368458169,
+      "rank": 9,
+      "rrf_score": 0.4191817368458169,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P85_003",
+      "alias_source_ids": [
+        "P85_003"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        85
+      ],
+      "text": "為完善員工職業發展規劃,打造公平競爭平 台,本集團以 「能者上、平者讓、庸者下」 的 用人理念,不斷優化內部競聘與人才晉升機 制,持續推動人才梯隊建設,建立企業人才長 效運營機制。我們制定了規範的晉職晉級機 制,以員工日常工作表現、能力素質、績效考 核等多方面作為評審標準,判斷員工是否擁 有晉職晉級資格。獲得晉升資格後,人力資 源部和相關部門負責還對獲推薦員工進行任 職資格、能力素質、工作表現等方面的考核。",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\n為完善員工職業發展規劃,打造公平競爭平 台,本集團以 「能者上、平者讓、庸者下」 的 用人理念,不斷優化內部競聘與人才晉升機 制,持續推動人才梯隊建設,建立企業人才長 效運營機制。我們制定了規範的晉職晉級機 制,以員工日常工作表現、能力素質、績效考 核等多方面作為評審標準,判斷員工是否擁 有晉職晉級資格。獲得晉升資格後,人力資 源部和相關部門負責還對獲推薦員工進行任 職資格、能力素質、工作表現等方面的考核。",
+      "bm25_rank": 39,
+      "dense_rank": 41,
+      "bm25_score": 29.84488296508789,
+      "dense_score": 0.20819149911403656,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4387356504209065,
+      "normalized_dense": 0.2764056798093961,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.4052944871449867,
+      "rank": 10,
+      "rrf_score": 0.4052944871449867,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P84_006",
+      "alias_source_ids": [
+        "P84_006"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        84
+      ],
+      "text": "During the Year, in order to strengthen the process management of the management personnel performance appraisal, the Group clarified the annual and quarterly performance appraisal indicators and evaluation criteria, and added the explanations of annual and quarterly performance scoring rules. Meanwhile, in order to make the management personnel performance appraisal more scientific, the Group adjusted the corresponding relations between the performance score, grade and coefficient during the Year, and added performance coefficient validation rules for special situations such as outstanding performance of employees. To ensure the fairness of performance appraisal, the appraised person who has any objection to the appraisal result can appeal to the responsible leader or Human Resources Center of the Group within the specified time.",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\nDuring the Year, in order to strengthen the process management of the management personnel performance appraisal, the Group clarified the annual and quarterly performance appraisal indicators and evaluation criteria, and added the explanations of annual and quarterly performance scoring rules. Meanwhile, in order to make the management personnel performance appraisal more scientific, the Group adjusted the corresponding relations between the performance score, grade and coefficient during the Year, and added performance coefficient validation rules for special situations such as outstanding performance of employees. To ensure the fairness of performance appraisal, the appraised person who has any objection to the appraisal result can appeal to the responsible leader or Human Resources Center of the Group within the specified time.",
+      "bm25_rank": null,
+      "dense_rank": 5,
+      "bm25_score": null,
+      "dense_score": 0.25401443243026733,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6018169379463311,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.40526680076443733,
+      "rank": 11,
+      "rrf_score": 0.40526680076443733,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_002",
+      "alias_source_ids": [
+        "P35_002"
+      ],
+      "section": "創新科技，健康未來 Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        35
+      ],
+      "text": "創新是引領企業發展的第一動力,保護知識產 權就是保護創新發展的命脈。為規範本集團的 知識產權相關工作,我們嚴格遵守 《中華人民 共和國專利法》 、 《中華人民共和國商標法》 、 《中華人民共和國著作權法》 、 《中華人民共和 國合同法》 ,成立知識產權決策委員會,並制 定了 《四環醫藥控股集團知識產權管理規定》 等內部制度,明確知識產權部及各職能部門 在管理、執行、監督和協調相應知識產權管 理工作過程中需履行的職責,鼓勵和調動公 司員工發明創造的積極性,保證本集團技術 創新以及生產、經營全過程的順利進行。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n創新是引領企業發展的第一動力,保護知識產 權就是保護創新發展的命脈。為規範本集團的 知識產權相關工作,我們嚴格遵守 《中華人民 共和國專利法》 、 《中華人民共和國商標法》 、 《中華人民共和國著作權法》 、 《中華人民共和 國合同法》 ,成立知識產權決策委員會,並制 定了 《四環醫藥控股集團知識產權管理規定》 等內部制度,明確知識產權部及各職能部門 在管理、執行、監督和協調相應知識產權管 理工作過程中需履行的職責,鼓勵和調動公 司員工發明創造的積極性,保證本集團技術 創新以及生產、經營全過程的順利進行。",
+      "bm25_rank": null,
+      "dense_rank": 6,
+      "bm25_score": null,
+      "dense_score": 0.25376731157302856,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6000620108116802,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.40331029438811494,
+      "rank": 12,
+      "rrf_score": 0.40331029438811494,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P84_002",
+      "alias_source_ids": [
+        "P84_002"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        84
+      ],
+      "text": "集團致力於建立公平合理的績效評價機制, 持續優化績效管理制度,不斷加強績效過程 管控。本年度,我們修訂 《四環醫藥控股集團 中高層績效管理制度》 、 《四環醫藥控股集團 本部員工績效管理制度》,新增 《四環醫藥控 股集團本部試用期員工績效管理制度》 ,對不 同級別員工開展針對性績效考核管理,同時 明確各績效管理機構的職責分工、各階段績 效指標內容及評分規則,並結合線上績效管 理操作要求,調整績效考核工作流程,提升 績效管理效率。此外,本集團制定 《考勤管理 制度》 ,將員工考勤納入績效考核過程。",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\n集團致力於建立公平合理的績效評價機制, 持續優化績效管理制度,不斷加強績效過程 管控。本年度,我們修訂 《四環醫藥控股集團 中高層績效管理制度》 、 《四環醫藥控股集團 本部員工績效管理制度》,新增 《四環醫藥控 股集團本部試用期員工績效管理制度》 ,對不 同級別員工開展針對性績效考核管理,同時 明確各績效管理機構的職責分工、各階段績 效指標內容及評分規則,並結合線上績效管 理操作要求,調整績效考核工作流程,提升 績效管理效率。此外,本集團制定 《考勤管理 制度》 ,將員工考勤納入績效考核過程。",
+      "bm25_rank": null,
+      "dense_rank": 7,
+      "bm25_score": null,
+      "dense_score": 0.24926868081092834,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5681150141825922,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.39078656368873954,
+      "rank": 13,
+      "rrf_score": 0.39078656368873954,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P85_002",
+      "alias_source_ids": [
+        "P85_002"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        85
+      ],
+      "text": "本集團根據 《薪酬管理制度》 ,遵循 「總量控 制、戰略導向、崗位價值導向、績效導向」 的 薪酬原則,持續完善薪酬管理體系,給予員工 公平、合理的薪酬待遇。為優化薪酬管理,本 集團設立薪酬專業委員會負責對薪酬管理政 策及策略做出決策,人力資源部門負責落實 薪酬發放、調整、調研等日常工作。我們力求 為員工提供具有市場競爭性的薪酬組合,根 據年度績效考核結果為員工提供績效獎金, 並參照薪酬政策、薪酬調查結果、通貨膨脹 等內外因素,對員工薪酬進行動態調整。同 時,我們針對管理類、生產類、研發類、市場 銷售類、專業技術類員工,提供具有針對性 的薪酬策略定位和薪酬結構類型。",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\n本集團根據 《薪酬管理制度》 ,遵循 「總量控 制、戰略導向、崗位價值導向、績效導向」 的 薪酬原則,持續完善薪酬管理體系,給予員工 公平、合理的薪酬待遇。為優化薪酬管理,本 集團設立薪酬專業委員會負責對薪酬管理政 策及策略做出決策,人力資源部門負責落實 薪酬發放、調整、調研等日常工作。我們力求 為員工提供具有市場競爭性的薪酬組合,根 據年度績效考核結果為員工提供績效獎金, 並參照薪酬政策、薪酬調查結果、通貨膨脹 等內外因素,對員工薪酬進行動態調整。同 時,我們針對管理類、生產類、研發類、市場 銷售類、專業技術類員工,提供具有針對性 的薪酬策略定位和薪酬結構類型。",
+      "bm25_rank": 95,
+      "dense_rank": 19,
+      "bm25_score": 16.783838272094727,
+      "dense_score": 0.22563812136650085,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13495352413380823,
+      "normalized_dense": 0.40030275244405666,
+      "normalized_bm25_rank": 0.3691275167785235,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.3798483460345305,
+      "rank": 14,
+      "rrf_score": 0.3798483460345305,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_008",
+      "alias_source_ids": [
+        "P35_008"
+      ],
+      "section": "創新科技，健康未來 Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        35
+      ],
+      "text": "Focusing on the product life cycle, Sihuan Pharmaceutical conducted centralized management and strict examination and approval for the application, change, abandonment and transfer of patents, trademarks and domain names within the Group, as well as the publication of scientific and technological papers and registration of copyrights according to the characteristics of innovative drugs, generic drugs and medicines. We are also responsible for the management and review of relevant contracts, and the investment, merger and acquisitions related to intellectual properties. When we sign the personnel contract with new employees, we stipulate the relevant provisions of intellectual property according to the nature of their work and rank, and sign the separation agreement with the departing employees to ensure that they abide by the non-competition regulations in the labor contract and confidentiality agreement.",
+      "retrieval_text": "[Section]\n創新科技，健康未來 Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nFocusing on the product life cycle, Sihuan Pharmaceutical conducted centralized management and strict examination and approval for the application, change, abandonment and transfer of patents, trademarks and domain names within the Group, as well as the publication of scientific and technological papers and registration of copyrights according to the characteristics of innovative drugs, generic drugs and medicines. We are also responsible for the management and review of relevant contracts, and the investment, merger and acquisitions related to intellectual properties. When we sign the personnel contract with new employees, we stipulate the relevant provisions of intellectual property according to the nature of their work and rank, and sign the separation agreement with the departing employees to ensure that they abide by the non-competition regulations in the labor contract and confidentiality agreement.",
+      "bm25_rank": null,
+      "dense_rank": 8,
+      "bm25_score": null,
+      "dense_score": 0.24091202020645142,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5087702441225973,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.36867361228854667,
+      "rank": 15,
+      "rrf_score": 0.36867361228854667,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P84_004",
+      "alias_source_ids": [
+        "P84_004"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        84
+      ],
+      "text": "Under the appraisal principles of strategic orientation, objectivity and fairness, feedback for improvement, sense of responsibility and self-discipline, the Group reasonably decomposes its strategy into performance indicators for employees at all levels and positions through a three-level 'Group level, department level and positional level' performance indicator system, in an effort to achieve the unity of staff growth and enterprise development, and propel the achievement of strategic goals.",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\nUnder the appraisal principles of strategic orientation, objectivity and fairness, feedback for improvement, sense of responsibility and self-discipline, the Group reasonably decomposes its strategy into performance indicators for employees at all levels and positions through a three-level 'Group level, department level and positional level' performance indicator system, in an effort to achieve the unity of staff growth and enterprise development, and propel the achievement of strategic goals.",
+      "bm25_rank": null,
+      "dense_rank": 9,
+      "bm25_score": null,
+      "dense_score": 0.23612196743488312,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.47475371601905403,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.3554255455731119,
+      "rank": 16,
+      "rrf_score": 0.3554255455731119,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P68_003",
+      "alias_source_ids": [
+        "P68_003"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        68
+      ],
+      "text": "本集團高度重視排放物管理,制定 《廢水、廢 氣、噪聲管理規程》 等內部制度,規範排放流 程,嚴格監督並定期檢測相關指標,確保三 廢排放合規。同時,我們積極申領及更新排 放許可證,持續優化升級設備和工藝以提升 減排能力,定期進行環境影響評價以審視自 身管理成效,努力防治環境污染。",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\n本集團高度重視排放物管理,制定 《廢水、廢 氣、噪聲管理規程》 等內部制度,規範排放流 程,嚴格監督並定期檢測相關指標,確保三 廢排放合規。同時,我們積極申領及更新排 放許可證,持續優化升級設備和工藝以提升 減排能力,定期進行環境影響評價以審視自 身管理成效,努力防治環境污染。",
+      "bm25_rank": null,
+      "dense_rank": 10,
+      "bm25_score": null,
+      "dense_score": 0.2352292537689209,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.46841411581947656,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.3518644036240651,
+      "rank": 17,
+      "rrf_score": 0.3518644036240651,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P56_002",
+      "alias_source_ids": [
+        "P56_002"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        56
+      ],
+      "text": "Based on the EHS management policy, we have established the EHS Committee of the Group, built a four-level management structure from the Group to subsidiaries to clarify the management responsibilities of each department, and provide strong management support for the Group's EHS management.",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\nBased on the EHS management policy, we have established the EHS Committee of the Group, built a four-level management structure from the Group to subsidiaries to clarify the management responsibilities of each department, and provide strong management support for the Group's EHS management.",
+      "bm25_rank": null,
+      "dense_rank": 11,
+      "bm25_score": null,
+      "dense_score": 0.23281490802764893,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4512686554923748,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.3445212106303849,
+      "rank": 18,
+      "rrf_score": 0.3445212106303849,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P93_006",
+      "alias_source_ids": [
+        "P93_006"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        93
+      ],
+      "text": "In strict compliance with the 'Labor Law of the People's Republic of China', 'Labor Contract Law of the People's Republic of China' and other laws and regulations related to labor standards, the Group strictly prohibits child labor or forced labor. Job applicants must hold their legal ID cards to go through relevant procedures. At the same time, recruiters will verify the original ID cards, and if any employee is found to be under the legal working age, we will disqualify him/her from employment. During the Year, the Group did not find any illegal events related to child labor or forced labor. Meanwhile, we are also committed to creating a diversified and inclusive working environment, providing equal employment opportunities for employees, and will not discriminate or set different recruitment standards due to religion, gender, age, marital status, disability and other factors.",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\nIn strict compliance with the 'Labor Law of the People's Republic of China', 'Labor Contract Law of the People's Republic of China' and other laws and regulations related to labor standards, the Group strictly prohibits child labor or forced labor. Job applicants must hold their legal ID cards to go through relevant procedures. At the same time, recruiters will verify the original ID cards, and if any employee is found to be under the legal working age, we will disqualify him/her from employment. During the Year, the Group did not find any illegal events related to child labor or forced labor. Meanwhile, we are also committed to creating a diversified and inclusive working environment, providing equal employment opportunities for employees, and will not discriminate or set different recruitment standards due to religion, gender, age, marital status, disability and other factors.",
+      "bm25_rank": 66,
+      "dense_rank": 43,
+      "bm25_score": 21.3725643157959,
+      "dense_score": 0.20750334858894348,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24168104764135342,
+      "normalized_dense": 0.2715187834029015,
+      "normalized_bm25_rank": 0.563758389261745,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 43,
+      "composite_score": 0.3433677837192862,
+      "rank": 19,
+      "rrf_score": 0.3433677837192862,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_002",
+      "alias_source_ids": [
+        "P58_002"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        58
+      ],
+      "text": "In 2021, the Group signed the 'Letters of Responsibility for EHS Management Goals in 2021' with its subsidiaries, which divided the management goals into four categories including safety, environmental protection, occupational health and EHS management, and specify the EHS goals to be achieved by each subsidiary and the specific assessment rules. To promote the EHS management improvement of each subsidiary, the Group issued and implemented the 'EHS Reward and Punishment Management Protocol of the Group' by combining with the content of the annual Letter of Responsibility for EHS Management Goals to link the EHS performance with the general manager's salary to provide rewards and impose punishments based on the completion of annual EHS work of subsidiaries with clearly defined rewards and punishments rules, to motivate each subsidiary and achieve a virtuous cycle.",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\nIn 2021, the Group signed the 'Letters of Responsibility for EHS Management Goals in 2021' with its subsidiaries, which divided the management goals into four categories including safety, environmental protection, occupational health and EHS management, and specify the EHS goals to be achieved by each subsidiary and the specific assessment rules. To promote the EHS management improvement of each subsidiary, the Group issued and implemented the 'EHS Reward and Punishment Management Protocol of the Group' by combining with the content of the annual Letter of Responsibility for EHS Management Goals to link the EHS performance with the general manager's salary to provide rewards and impose punishments based on the completion of annual EHS work of subsidiaries with clearly defined rewards and punishments rules, to motivate each subsidiary and achieve a virtuous cycle.",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.23187407851219177,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4445873609055695,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.3408404756458084,
+      "rank": 20,
+      "rrf_score": 0.3408404756458084,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_001",
+      "alias_source_ids": [
+        "P61_001"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        61
+      ],
+      "text": "本年度,本集團依據 《 EHS 審計管理規程》 對九 家子公司實施了年度 EHS 審計工作,括北京 澳合、長春翔通、吉林四環澳康、弘和製藥、 吉林四環、吉林振澳、吉林匯康、康通集團、 本溪恒康。我們從安全、環保、職業健康三個 維度出發,對括機構設置、人員配置、體系 建設、設備設施、教育培訓、勞動防護、環境 保護、健康監護等方面進行現場檢查,幫助 子公司發現實際管理中存在的缺陷和不足, 並提出針對性的改善建議,為子公司的 EHS 工 作提供指導。",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\n本年度,本集團依據 《 EHS 審計管理規程》 對九 家子公司實施了年度 EHS 審計工作,括北京 澳合、長春翔通、吉林四環澳康、弘和製藥、 吉林四環、吉林振澳、吉林匯康、康通集團、 本溪恒康。我們從安全、環保、職業健康三個 維度出發,對括機構設置、人員配置、體系 建設、設備設施、教育培訓、勞動防護、環境 保護、健康監護等方面進行現場檢查,幫助 子公司發現實際管理中存在的缺陷和不足, 並提出針對性的改善建議,為子公司的 EHS 工 作提供指導。",
+      "bm25_rank": 26,
+      "dense_rank": 76,
+      "bm25_score": 32.319454193115234,
+      "dense_score": 0.19157925248146057,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4962908098257512,
+      "normalized_dense": 0.1584339201256301,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.49664429530201337,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.33726036957959055,
+      "rank": 21,
+      "rrf_score": 0.33726036957959055,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L15_007",
+      "alias_source_ids": [
+        "L15_007"
+      ],
+      "section": "責任治理，可持續運營 / Responsible Governance, Sustainable Operation",
+      "pages": [
+        15
+      ],
+      "text": "董事會負責評估及釐定 ESG 相關風險與機遇,並 確保設有適當和有效的 ESG 風險管理及內部監控 系統;制定集團 ESG 管理方針、策略、優次及目 標,通過制定指標等方式就 ESG 相關目標檢討本 集團表現;審閱並正式審批年度 ESG 報告。",
+      "retrieval_text": "[Section]\n責任治理，可持續運營 / Responsible Governance, Sustainable Operation\n\n[Content]\n董事會負責評估及釐定 ESG 相關風險與機遇,並 確保設有適當和有效的 ESG 風險管理及內部監控 系統;制定集團 ESG 管理方針、策略、優次及目 標,通過制定指標等方式就 ESG 相關目標檢討本 集團表現;審閱並正式審批年度 ESG 報告。",
+      "bm25_rank": null,
+      "dense_rank": 14,
+      "bm25_score": null,
+      "dense_score": 0.22944721579551697,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4273530113603595,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.33212388954659566,
+      "rank": 22,
+      "rrf_score": 0.33212388954659566,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_002",
+      "alias_source_ids": [
+        "P17_002"
+      ],
+      "section": "責任治理，可持續運營 Responsible Governance, Sustainable Operation / ESG Performance Appraisal",
+      "pages": [
+        17
+      ],
+      "text": "In order to better implement various ESG-related policies of the Group and ensure the effective and orderly implementation of the ESG work, we conduct ESG performance appraisal for our subsidiaries, and incorporate ESG management into the annual performance appraisal targets of subsidiaries according to the Group's operation. We set up an appraisal mechanism to assess the completeness, accuracy and timeliness of data and information collected and reported, and include the performance appraisal results in the appraisal results of relevant departments and responsible persons who provide data. By promoting the ESG performance appraisal mechanism, we continue to promote the regular collection of data and improve the Group's ESG management mechanism, so as to provide strong support for the daily management of ESG.",
+      "retrieval_text": "[Section]\n責任治理，可持續運營 Responsible Governance, Sustainable Operation / ESG Performance Appraisal\n\n[Content]\nIn order to better implement various ESG-related policies of the Group and ensure the effective and orderly implementation of the ESG work, we conduct ESG performance appraisal for our subsidiaries, and incorporate ESG management into the annual performance appraisal targets of subsidiaries according to the Group's operation. We set up an appraisal mechanism to assess the completeness, accuracy and timeliness of data and information collected and reported, and include the performance appraisal results in the appraisal results of relevant departments and responsible persons who provide data. By promoting the ESG performance appraisal mechanism, we continue to promote the regular collection of data and improve the Group's ESG management mechanism, so as to provide strong support for the daily management of ESG.",
+      "bm25_rank": null,
+      "dense_rank": 15,
+      "bm25_score": null,
+      "dense_score": 0.22919069230556488,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.42553131149162987,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.3301440127133456,
+      "rank": 23,
+      "rrf_score": 0.3301440127133456,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_001",
+      "alias_source_ids": [
+        "P16_001"
+      ],
+      "section": "責任治理，可持續運營 / Responsible Governance, Sustainable Operation",
+      "pages": [
+        16
+      ],
+      "text": "The specific roles and responsibilities of the ESG governance structure of the Group are as follows:",
+      "retrieval_text": "[Section]\n責任治理，可持續運營 / Responsible Governance, Sustainable Operation\n\n[Content]\nThe specific roles and responsibilities of the ESG governance structure of the Group are as follows:",
+      "bm25_rank": null,
+      "dense_rank": 16,
+      "bm25_score": null,
+      "dense_score": 0.22881782054901123,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4228833651764848,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.3278749496238502,
+      "rank": 24,
+      "rrf_score": 0.3278749496238502,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_001",
+      "alias_source_ids": [
+        "P17_001"
+      ],
+      "section": "責任治理，可持續運營 Responsible Governance, Sustainable Operation / ESG Performance Appraisal",
+      "pages": [
+        17
+      ],
+      "text": "為更好落實本集團的各項 ESG 相關政策,保 障 ESG 工作的有效、有序開展,我們針對各子 公司開展 ESG 績效考核,根據集團運營情況將 ESG 管理工作納入子公司的年度績效考核目 標,設置考核機制,對收集提報的數據及資 料的完整性、準確性、及時性進行評估,將績 效考核情況一併納入相關數據提供部門及負 責人的考核結果。我們通過推廣 ESG 績效考核 機制持續推進數據常態化收集,不斷完善本 集團的 ESG 管理機制,為 ESG 日常管理工作提 供有力支撐。",
+      "retrieval_text": "[Section]\n責任治理，可持續運營 Responsible Governance, Sustainable Operation / ESG Performance Appraisal\n\n[Content]\n為更好落實本集團的各項 ESG 相關政策,保 障 ESG 工作的有效、有序開展,我們針對各子 公司開展 ESG 績效考核,根據集團運營情況將 ESG 管理工作納入子公司的年度績效考核目 標,設置考核機制,對收集提報的數據及資 料的完整性、準確性、及時性進行評估,將績 效考核情況一併納入相關數據提供部門及負 責人的考核結果。我們通過推廣 ESG 績效考核 機制持續推進數據常態化收集,不斷完善本 集團的 ESG 管理機制,為 ESG 日常管理工作提 供有力支撐。",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.226263165473938,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.40474149904258905,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.3201830145977921,
+      "rank": 25,
+      "rrf_score": 0.3201830145977921,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L56_005",
+      "alias_source_ids": [
+        "L56_005"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        56
+      ],
+      "text": "負責批準發佈子公司的 EHS 方針和目標、 EHS 機構設置、職能分配、績效評審及改進、資源配 置、人員任命 Responsible for the subsidiaries' release of EHS policies and objectives, EHS organization structure, functional distribution, performance review and improvement, as well as resource allocation and personnel appointment",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\n負責批準發佈子公司的 EHS 方針和目標、 EHS 機構設置、職能分配、績效評審及改進、資源配 置、人員任命 Responsible for the subsidiaries' release of EHS policies and objectives, EHS organization structure, functional distribution, performance review and improvement, as well as resource allocation and personnel appointment",
+      "bm25_rank": null,
+      "dense_rank": 18,
+      "bm25_score": null,
+      "dense_score": 0.22611267864704132,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.40367281783583325,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.318466694296233,
+      "rank": 26,
+      "rrf_score": 0.318466694296233,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P55_001",
+      "alias_source_ids": [
+        "P55_001"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        55
+      ],
+      "text": "本集團嚴格遵守 《中華人民共和國安全生產 法》 、 《中華人民共和國消防法》 、 《中華人民 共和國職業病防治法》 、 《工作場所職業衛生 管理規定》 等法律法規,制定並持續完善 《環 境職業健康安全管理手冊》 等內部制度,不斷 強化 EHS 風險管控能力。",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\n本集團嚴格遵守 《中華人民共和國安全生產 法》 、 《中華人民共和國消防法》 、 《中華人民 共和國職業病防治法》 、 《工作場所職業衛生 管理規定》 等法律法規,制定並持續完善 《環 境職業健康安全管理手冊》 等內部制度,不斷 強化 EHS 風險管控能力。",
+      "bm25_rank": 41,
+      "dense_rank": 73,
+      "bm25_score": 29.116741180419922,
+      "dense_score": 0.19224628806114197,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4218000633538488,
+      "normalized_dense": 0.16317086888681598,
+      "normalized_bm25_rank": 0.7315436241610738,
+      "normalized_dense_rank": 0.5167785234899329,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.31797988389524934,
+      "rank": 27,
+      "rrf_score": 0.31797988389524934,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L16_003",
+      "alias_source_ids": [
+        "L16_003"
+      ],
+      "section": "責任治理，可持續運營 / Responsible Governance, Sustainable Operation",
+      "pages": [
+        16
+      ],
+      "text": "The Board assesses and determines ESG-related risks and opportunities and ensures that appropriate and effective ESG risk management and internal monitoring systems have been set; develops the Group's ESG management policies, strategies, priorities and objectives, examines the Group's performance with respect to ESG-related objectives by setting indicators; reviews and formally approves the annual ESG report.",
+      "retrieval_text": "[Section]\n責任治理，可持續運營 / Responsible Governance, Sustainable Operation\n\n[Content]\nThe Board assesses and determines ESG-related risks and opportunities and ensures that appropriate and effective ESG risk management and internal monitoring systems have been set; develops the Group's ESG management policies, strategies, priorities and objectives, examines the Group's performance with respect to ESG-related objectives by setting indicators; reviews and formally approves the annual ESG report.",
+      "bm25_rank": null,
+      "dense_rank": 20,
+      "bm25_score": null,
+      "dense_score": 0.2245071679353714,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3922712941264862,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.31179159723957217,
+      "rank": 28,
+      "rrf_score": 0.31179159723957217,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P90_006",
+      "alias_source_ids": [
+        "P90_006"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        90
+      ],
+      "text": "In addition, the Group continues to optimize the employee welfare and care system and continuously improved the employees' sense of belonging. We advocate the balance between work and life, and specify the working hours in the 'Attendance Management System', which clarifies the provisions of overtime compensation and calculation of overtime hours for employees who really need to extend their working hours for work reasons to protect the legitimate rights and interests of employees. We have formulated the 'Attendance Management System' to clarify the leave application process, properly manage the leave arrangement of employees, and provide employees with statutory holidays, annual leave, marriage, maternity leave, paternity leave, breast-feeding leave and other leave benefits. In addition to the statutory 'five social insurance and one housing fund' and paid holidays, we also provide employees with diversified welfare guarantees, including food subsidies, communication subsidies, special post subsidies, commercial insurance and other items. At the same time, we actively carry out festival activities, sports activities, knowledge competitions and other activities, continuously optimize the operation of the canteen, constantly upgrade the dishes, encourage employees to balance work and life, improve employees' happiness and maintain a better attitude towards work and life.",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\nIn addition, the Group continues to optimize the employee welfare and care system and continuously improved the employees' sense of belonging. We advocate the balance between work and life, and specify the working hours in the 'Attendance Management System', which clarifies the provisions of overtime compensation and calculation of overtime hours for employees who really need to extend their working hours for work reasons to protect the legitimate rights and interests of employees. We have formulated the 'Attendance Management System' to clarify the leave application process, properly manage the leave arrangement of employees, and provide employees with statutory holidays, annual leave, marriage, maternity leave, paternity leave, breast-feeding leave and other leave benefits. In addition to the statutory 'five social insurance and one housing fund' and paid holidays, we also provide employees with diversified welfare guarantees, including food subsidies, communication subsidies, special post subsidies, commercial insurance and other items. At the same time, we actively carry out festival activities, sports activities, knowledge competitions and other activities, continuously optimize the operation of the canteen, constantly upgrade the dishes, encourage employees to balance work and life, improve employees' happiness and maintain a better attitude towards work and life.",
+      "bm25_rank": 89,
+      "dense_rank": 42,
+      "bm25_score": 17.39657211303711,
+      "dense_score": 0.20766672492027283,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14920487947519182,
+      "normalized_dense": 0.27267899934020917,
+      "normalized_bm25_rank": 0.4093959731543624,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 42,
+      "composite_score": 0.31118466593256794,
+      "rank": 29,
+      "rrf_score": 0.31118466593256794,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P14_001",
+      "alias_source_ids": [
+        "P14_001"
+      ],
+      "section": "責任治理，可持續運營 / Responsible Governance, Sustainable Operation",
+      "pages": [
+        14
+      ],
+      "text": "本集團依照 《四環醫藥集團 ESG 管理辦法》 建立 了自上而下的三級 ESG 管治架構,作為我們的 可持續發展管治支撐。董事會在風險管理委 員會的協助下監督 ESG 相關管理事宜,各職能 部門組成的本集團 ESG 工作小組負責執行 ESG 具體工作,並定期向風險管理委員會進行匯 報與反饋。",
+      "retrieval_text": "[Section]\n責任治理，可持續運營 / Responsible Governance, Sustainable Operation\n\n[Content]\n本集團依照 《四環醫藥集團 ESG 管理辦法》 建立 了自上而下的三級 ESG 管治架構,作為我們的 可持續發展管治支撐。董事會在風險管理委 員會的協助下監督 ESG 相關管理事宜,各職能 部門組成的本集團 ESG 工作小組負責執行 ESG 具體工作,並定期向風險管理委員會進行匯 報與反饋。",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.2242710292339325,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3905943566986756,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.30986238726064386,
+      "rank": 30,
+      "rrf_score": 0.30986238726064386,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_001",
+      "alias_source_ids": [
+        "P15_001"
+      ],
+      "section": "責任治理，可持續運營 / Responsible Governance, Sustainable Operation",
+      "pages": [
+        15
+      ],
+      "text": "本集團 ESG 管治架構的具體角色和責任如下所示:",
+      "retrieval_text": "[Section]\n責任治理，可持續運營 / Responsible Governance, Sustainable Operation\n\n[Content]\n本集團 ESG 管治架構的具體角色和責任如下所示:",
+      "bm25_rank": null,
+      "dense_rank": 22,
+      "bm25_score": null,
+      "dense_score": 0.2223818600177765,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3771784339942,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.3038245324348827,
+      "rank": 31,
+      "rrf_score": 0.3038245324348827,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P43_006",
+      "alias_source_ids": [
+        "P43_006"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        43
+      ],
+      "text": "四環醫藥設立藥品安全委員會,成員括集 團高層,商務、市場、生產、質量等相關部門 負責人,負責涉及本集團產品安全性風險的 評估和溝通,或針對產品風險制定或實施風 險控制措施。如 PV 部門監測到疑似產品安全 性風險,會及時組織召開藥品安全委員會會 議,根據會議評估結果採取風險控制措施, 括但不限於涉事產品召回等。本年度,本 集團並未監測到產品重大安全性風險信號, 亦未發生大規模藥品召回事件。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n四環醫藥設立藥品安全委員會,成員括集 團高層,商務、市場、生產、質量等相關部門 負責人,負責涉及本集團產品安全性風險的 評估和溝通,或針對產品風險制定或實施風 險控制措施。如 PV 部門監測到疑似產品安全 性風險,會及時組織召開藥品安全委員會會 議,根據會議評估結果採取風險控制措施, 括但不限於涉事產品召回等。本年度,本 集團並未監測到產品重大安全性風險信號, 亦未發生大規模藥品召回事件。",
+      "bm25_rank": 24,
+      "dense_rank": 94,
+      "bm25_score": 32.521209716796875,
+      "dense_score": 0.18575020134449005,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5009833687607234,
+      "normalized_dense": 0.11703895199611851,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.37583892617449666,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.3008918505749473,
+      "rank": 32,
+      "rrf_score": 0.3008918505749473,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_001",
+      "alias_source_ids": [
+        "P4_001"
+      ],
+      "section": "關於本報告 / About the Report",
+      "pages": [
+        4
+      ],
+      "text": "本報告嚴格遵循香港聯合交易所有限公司 ( 「 聯交所 」 ) 證券主板上市規則附錄二十七闡 述的 《環境、社會及管治報告指引》 (下稱 「 ESG 指引 」 ) 的規定編製。",
+      "retrieval_text": "[Section]\n關於本報告 / About the Report\n\n[Content]\n本報告嚴格遵循香港聯合交易所有限公司 ( 「 聯交所 」 ) 證券主板上市規則附錄二十七闡 述的 《環境、社會及管治報告指引》 (下稱 「 ESG 指引 」 ) 的規定編製。",
+      "bm25_rank": 1,
+      "dense_rank": null,
+      "bm25_score": 53.976318359375,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.30000000000000004,
+      "rank": 33,
+      "rrf_score": 0.30000000000000004,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P56_001",
+      "alias_source_ids": [
+        "P56_001"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        56
+      ],
+      "text": "圍繞 EHS 管理方針,我們組建了集團 EHS 委員 會,搭建了從集團至子公司的四級管理架構, 明確各部門的管理職責,為集團的 EHS 管理提 供有力的管理支撐。",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\n圍繞 EHS 管理方針,我們組建了集團 EHS 委員 會,搭建了從集團至子公司的四級管理架構, 明確各部門的管理職責,為集團的 EHS 管理提 供有力的管理支撐。",
+      "bm25_rank": null,
+      "dense_rank": 23,
+      "bm25_score": null,
+      "dense_score": 0.2209157794713974,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.36676707268227976,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.29883827409651603,
+      "rank": 34,
+      "rrf_score": 0.29883827409651603,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_003",
+      "alias_source_ids": [
+        "P3_003"
+      ],
+      "section": "關於本報告 / About the Report",
+      "pages": [
+        3
+      ],
+      "text": "本報告涵蓋本集團於二零二一年一月一日 至二零二一年十二月三十一日期間( 「 本 年度 」 ) 在 履 行 環 境 與 社 會 責 任 方 面 的 表 現。環境數據範圍覆蓋四環醫藥集團總 部及附屬 12 家生產企業、 2 家研究及開 發 ( 「 研發 」 )機 構 以 及 5 個營銷中心 1 。本 報告覆蓋我們擁有營運控制權或對我們的環 境、社會及管治方面有顯著影響的所有業務 單位。本報告的內容亦聚焦於我們在經濟、 環境及社會方面影響最顯著的重大可持續發 展領域,以及我們的利益相關方最關注的領 域。",
+      "retrieval_text": "[Section]\n關於本報告 / About the Report\n\n[Content]\n本報告涵蓋本集團於二零二一年一月一日 至二零二一年十二月三十一日期間( 「 本 年度 」 ) 在 履 行 環 境 與 社 會 責 任 方 面 的 表 現。環境數據範圍覆蓋四環醫藥集團總 部及附屬 12 家生產企業、 2 家研究及開 發 ( 「 研發 」 )機 構 以 及 5 個營銷中心 1 。本 報告覆蓋我們擁有營運控制權或對我們的環 境、社會及管治方面有顯著影響的所有業務 單位。本報告的內容亦聚焦於我們在經濟、 環境及社會方面影響最顯著的重大可持續發 展領域,以及我們的利益相關方最關注的領 域。",
+      "bm25_rank": 2,
+      "dense_rank": null,
+      "bm25_score": 53.45268249511719,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.9878209423531215,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.29689304753102697,
+      "rank": 35,
+      "rrf_score": 0.29689304753102697,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_014",
+      "alias_source_ids": [
+        "P5_014"
+      ],
+      "section": "關於本報告 / About the Report",
+      "pages": [
+        5
+      ],
+      "text": "報告應使用一致方式披露信息,以便利益相關方可分 析及評估機構於不同時間的績效。機構應就任何方法 的變化作出解釋。",
+      "retrieval_text": "[Section]\n關於本報告 / About the Report\n\n[Content]\n報告應使用一致方式披露信息,以便利益相關方可分 析及評估機構於不同時間的績效。機構應就任何方法 的變化作出解釋。",
+      "bm25_rank": 71,
+      "dense_rank": 55,
+      "bm25_score": 19.93224334716797,
+      "dense_score": 0.1992233693599701,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2081811418780408,
+      "normalized_dense": 0.21271856562431712,
+      "normalized_bm25_rank": 0.5302013422818792,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 55,
+      "composite_score": 0.296624639095797,
+      "rank": 36,
+      "rrf_score": 0.296624639095797,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P55_004",
+      "alias_source_ids": [
+        "P55_004"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        55
+      ],
+      "text": "In 2021, in order to achieve the subsidiaries' annual goals of occupational health, safety, fire protection and environmental management, the Group signed the 'Letter of Responsibility for EHS Management Goals in 2021' with its subsidiaries to conduct performance assessment at the end of the Year on the completion of goals, and strengthen the management of and control over each subsidiary. In addition, we also regularly conducted hidden danger investigation, EHS audits, and risk assessment of the projects with renovation and expansion and major changes, actively promoted the EHS system construction and certification for each subsidiary, and continuously standardized and systematized the basic EHS management of the Group.",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\nIn 2021, in order to achieve the subsidiaries' annual goals of occupational health, safety, fire protection and environmental management, the Group signed the 'Letter of Responsibility for EHS Management Goals in 2021' with its subsidiaries to conduct performance assessment at the end of the Year on the completion of goals, and strengthen the management of and control over each subsidiary. In addition, we also regularly conducted hidden danger investigation, EHS audits, and risk assessment of the projects with renovation and expansion and major changes, actively promoted the EHS system construction and certification for each subsidiary, and continuously standardized and systematized the basic EHS management of the Group.",
+      "bm25_rank": null,
+      "dense_rank": 24,
+      "bm25_score": null,
+      "dense_score": 0.220147043466568,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.36130789902396465,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.2955852814369111,
+      "rank": 37,
+      "rrf_score": 0.2955852814369111,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P84_001",
+      "alias_source_ids": [
+        "P84_001"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        84
+      ],
+      "text": "本集團以戰略導向、客觀公正、反饋提升、 責任自律為績效考核原則,通過建立 「集團 - 部門 - 崗位」 三級績效指標體系,合理分解 績效指標,將集團戰略轉化為各層級、各崗 位員工的績效指標,實現員工成長與企業發 展的統一,推動戰略目標的達成。",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\n本集團以戰略導向、客觀公正、反饋提升、 責任自律為績效考核原則,通過建立 「集團 - 部門 - 崗位」 三級績效指標體系,合理分解 績效指標,將集團戰略轉化為各層級、各崗 位員工的績效指標,實現員工成長與企業發 展的統一,推動戰略目標的達成。",
+      "bm25_rank": null,
+      "dense_rank": 25,
+      "bm25_score": null,
+      "dense_score": 0.2196650505065918,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3578850292038119,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.293044995120663,
+      "rank": 38,
+      "rrf_score": 0.293044995120663,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T113_001",
+      "alias_source_ids": [
+        "T113_001"
+      ],
+      "section": "附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide",
+      "pages": [
+        113
+      ],
+      "text": "ESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter A3 一般披露 | 減低發行人對環境及天然資源造成重大影響的 政策。 | 已披露 | 安全守護,綠色發展 A3 General disclosure | Policies on minimizing the issuer's significant impact on the environment and natural resources. | Disclosed | Ensuring Safety and Pursuing Green Development A3.1 | 描述業務活動對環境及天然資源的重大資源的 重大影響及已採取管理有關影響的行動。 Description of the significant impacts of activities on the major environment and natural resources and the actions taken to manage them. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development A4 一般披露 | 識別及應對已經及可能會對發行人產生影響的 重大氣候相關事宜的政策。 | 已披露 | 安全守護,綠色發展 A4 General disclosure | Policies on identifying and responding to significant climate-related issues that have and may have an impact on issuers. | Disclosed | Ensuring Safety and Pursuing Green Development A4.1 | 描述已影響及可能對發行人產生影響的重大氣 候相關事宜,及應對行動。 Description of the significant climate-related issues that have and may have an impact on the issuer and the response actions to be taken. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development B1 一般披露 | 有關薪酬及解僱、招聘及晉升、工作時數、假 期、平等機會、多元化、反歧視以及其他待遇 及福利的政策及遵守對發行人有重大影響的相 關法律及規例的資料。 | 已披露 | 聚焦人才,攜手並進 B1 General disclosure | Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | Disclosed | Empowering Talents and Shaping a Brighter Future B1.1 | 按性別、僱傭類型 (如全職或兼職) 、年齡組別 及地區劃分的僱員總數。 Total workforce by gender, employment type (full-time or part-time), age group and geographical region. | 已披露 Disclosed | 聚焦人才,攜手並進 Empowering Talents and Shaping a Brighter Future B1.2 | 按性別、年齡組別及地區劃分的僱員流失比率。 Employee turnover rate by gender, age group and geographical region. | 已披露 Disclosed | 附錄一 Appendix I",
+      "retrieval_text": "[Section]\n附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide\n\n[Content]\nESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter A3 一般披露 | 減低發行人對環境及天然資源造成重大影響的 政策。 | 已披露 | 安全守護,綠色發展 A3 General disclosure | Policies on minimizing the issuer's significant impact on the environment and natural resources. | Disclosed | Ensuring Safety and Pursuing Green Development A3.1 | 描述業務活動對環境及天然資源的重大資源的 重大影響及已採取管理有關影響的行動。 Description of the significant impacts of activities on the major environment and natural resources and the actions taken to manage them. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development A4 一般披露 | 識別及應對已經及可能會對發行人產生影響的 重大氣候相關事宜的政策。 | 已披露 | 安全守護,綠色發展 A4 General disclosure | Policies on identifying and responding to significant climate-related issues that have and may have an impact on issuers. | Disclosed | Ensuring Safety and Pursuing Green Development A4.1 | 描述已影響及可能對發行人產生影響的重大氣 候相關事宜,及應對行動。 Description of the significant climate-related issues that have and may have an impact on the issuer and the response actions to be taken. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development B1 一般披露 | 有關薪酬及解僱、招聘及晉升、工作時數、假 期、平等機會、多元化、反歧視以及其他待遇 及福利的政策及遵守對發行人有重大影響的相 關法律及規例的資料。 | 已披露 | 聚焦人才,攜手並進 B1 General disclosure | Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | Disclosed | Empowering Talents and Shaping a Brighter Future B1.1 | 按性別、僱傭類型 (如全職或兼職) 、年齡組別 及地區劃分的僱員總數。 Total workforce by gender, employment type (full-time or part-time), age group and geographical region. | 已披露 Disclosed | 聚焦人才,攜手並進 Empowering Talents and Shaping a Brighter Future B1.2 | 按性別、年齡組別及地區劃分的僱員流失比率。 Employee turnover rate by gender, age group and geographical region. | 已披露 Disclosed | 附錄一 Appendix I",
+      "bm25_rank": 12,
+      "dense_rank": 118,
+      "bm25_score": 41.506587982177734,
+      "dense_score": 0.17545711994171143,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7099710400467437,
+      "normalized_dense": 0.04394270243328943,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.21476510067114096,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.2929446236596578,
+      "rank": 39,
+      "rrf_score": 0.2929446236596578,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P95_004",
+      "alias_source_ids": [
+        "P95_004"
+      ],
+      "section": "合規經營，誠信為先 Enhancing Compliance Governance and Upholding Integrity / 1. Strengthening Construction of Clean Administration",
+      "pages": [
+        95
+      ],
+      "text": "The Group strictly complies with laws and regulations on anti-corruption such as the 'Anti-unfair Competition Law of the PRC' and 'Interim Provisions on Banning Commercial Bribery', and 'Anti-monopoly Law of the People's Republic of China', and conducts review and supervision of the Group's key operation links in accordance with the 'Compliance Management Regulation'. It has signed the 'Compliance Undertaking Letter' with employees of major departments, such as engineering, finance, procurement, clinical development center and marketing and business, requiring employees to strictly abide by laws and regulations, clarifying violations related to bribery, corruption and unfair competition, and prohibiting employees from harming the interests of the Group in any form. Once they violate the commitment, they will face serious punishment.",
+      "retrieval_text": "[Section]\n合規經營，誠信為先 Enhancing Compliance Governance and Upholding Integrity / 1. Strengthening Construction of Clean Administration\n\n[Content]\nThe Group strictly complies with laws and regulations on anti-corruption such as the 'Anti-unfair Competition Law of the PRC' and 'Interim Provisions on Banning Commercial Bribery', and 'Anti-monopoly Law of the People's Republic of China', and conducts review and supervision of the Group's key operation links in accordance with the 'Compliance Management Regulation'. It has signed the 'Compliance Undertaking Letter' with employees of major departments, such as engineering, finance, procurement, clinical development center and marketing and business, requiring employees to strictly abide by laws and regulations, clarifying violations related to bribery, corruption and unfair competition, and prohibiting employees from harming the interests of the Group in any form. Once they violate the commitment, they will face serious punishment.",
+      "bm25_rank": 64,
+      "dense_rank": 65,
+      "bm25_score": 21.868017196655273,
+      "dense_score": 0.1960219144821167,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2532046074453615,
+      "normalized_dense": 0.18998345496517713,
+      "normalized_bm25_rank": 0.5771812080536913,
+      "normalized_dense_rank": 0.5704697986577181,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 64,
+      "composite_score": 0.2889472112637971,
+      "rank": 40,
+      "rrf_score": 0.2889472112637971,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T59_001",
+      "alias_source_ids": [
+        "T59_001"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        59
+      ],
+      "text": "CCCI cCcI | 职业健康安全管理体系认证证书 环境管理体系认证证书 | 比后号:021215409250SM 出址号:01hE1104-190M | 站证明 吉林四长制药有限公司 | 吉林四长制药有限公司 徐群济环生产地址,中区·古村省·梅河口市强江称温 | 此:会加期0:902305816809125990 | 北湖办公业产场址:中国·合林皆·梅河口本珠江路北段 | 一会信用次码:210581686012559G 环境管理体系符会标幸 | 职业健康安全管湿体系符合标准: GBIT 24001-2016N5O 14001:2015 | GB/T 45001-2020/15O 45001:2018 认证内滑始下 | 认证意用知下: 大容慧注射剂和小容量注射剂的生产及相关管现活动 | 大容量注射剂和小容量注射剂的生产及相关管理活动 820月日2弄2日 | 本证1有效201年30月0日至28年10月38日 本书各习国认证立营管费2官方网话()三音 | 认证区图:准总律注规要点的行减呢,查洲件可,理性表证的,证书号费很不同使和有效。 | 有工来提世车度审社的信况下。海年度监带备沿造付一弄保用有。 有限公司 | 夏认中有限公司 | 总经理: | 王诗 开中谱211号大极大厦 | 2021年18年2日1 | 记书 | 环丰海211号太租太厦 | .COTM.CR | 新证日载 IAF | CNAS | HAMASEMENT SYSTEM | 管理体系 | 圆际互认 | 国认可 CNAS C021-8 | IAF | CNAS",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\nCCCI cCcI | 职业健康安全管理体系认证证书 环境管理体系认证证书 | 比后号:021215409250SM 出址号:01hE1104-190M | 站证明 吉林四长制药有限公司 | 吉林四长制药有限公司 徐群济环生产地址,中区·古村省·梅河口市强江称温 | 此:会加期0:902305816809125990 | 北湖办公业产场址:中国·合林皆·梅河口本珠江路北段 | 一会信用次码:210581686012559G 环境管理体系符会标幸 | 职业健康安全管湿体系符合标准: GBIT 24001-2016N5O 14001:2015 | GB/T 45001-2020/15O 45001:2018 认证内滑始下 | 认证意用知下: 大容慧注射剂和小容量注射剂的生产及相关管现活动 | 大容量注射剂和小容量注射剂的生产及相关管理活动 820月日2弄2日 | 本证1有效201年30月0日至28年10月38日 本书各习国认证立营管费2官方网话()三音 | 认证区图:准总律注规要点的行减呢,查洲件可,理性表证的,证书号费很不同使和有效。 | 有工来提世车度审社的信况下。海年度监带备沿造付一弄保用有。 有限公司 | 夏认中有限公司 | 总经理: | 王诗 开中谱211号大极大厦 | 2021年18年2日1 | 记书 | 环丰海211号太租太厦 | .COTM.CR | 新证日载 IAF | CNAS | HAMASEMENT SYSTEM | 管理体系 | 圆际互认 | 国认可 CNAS C021-8 | IAF | CNAS",
+      "bm25_rank": 3,
+      "dense_rank": null,
+      "bm25_score": 51.232391357421875,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.9361799918289018,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.28589371648658574,
+      "rank": 41,
+      "rrf_score": 0.28589371648658574,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P82_003",
+      "alias_source_ids": [
+        "P82_003"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        82
+      ],
+      "text": "Viewing talents as a valuable asset for development, Sihuan Pharmaceutical is committed to constructing a high-quality talent team. Through a sound talent management system, we select, cultivate and motivate talents to bolster their development. Moreover, we pay attention to the care for employees by providing them with diversified welfare, creating an inclusive, equal and diverse working environment to ensure them a healthy life, and creating and sharing the fruits of the Group's development with them.",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\nViewing talents as a valuable asset for development, Sihuan Pharmaceutical is committed to constructing a high-quality talent team. Through a sound talent management system, we select, cultivate and motivate talents to bolster their development. Moreover, we pay attention to the care for employees by providing them with diversified welfare, creating an inclusive, equal and diverse working environment to ensure them a healthy life, and creating and sharing the fruits of the Group's development with them.",
+      "bm25_rank": 127,
+      "dense_rank": 34,
+      "bm25_score": 12.655238151550293,
+      "dense_score": 0.2115330696105957,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03892790346649715,
+      "normalized_dense": 0.3001358206088594,
+      "normalized_bm25_rank": 0.15436241610738255,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.2839740575037157,
+      "rank": 42,
+      "rrf_score": 0.2839740575037157,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P46_005",
+      "alias_source_ids": [
+        "P46_005"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        46
+      ],
+      "text": "Sihuan Pharmaceutical strictly complies with the 'Cybersecurity Law of the People's Republic of China' and other relevant laws and regulations, formulates the 'Information Management System of Sihuan Pharmaceutical Holdings Group', standardizes the relevant standards, technical specifications and management system of information technology, and enhances the specialization and standardization of the Group's information technology management. The Group has set up a clear information security governance structure, with the chief executive officer as the leader of the information security decision-making group to make decisions on macro issues of information security. The head of the digital operation center of the Group serves as the leader of the information security management team to be responsible for the daily information security of the Group.",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nSihuan Pharmaceutical strictly complies with the 'Cybersecurity Law of the People's Republic of China' and other relevant laws and regulations, formulates the 'Information Management System of Sihuan Pharmaceutical Holdings Group', standardizes the relevant standards, technical specifications and management system of information technology, and enhances the specialization and standardization of the Group's information technology management. The Group has set up a clear information security governance structure, with the chief executive officer as the leader of the information security decision-making group to make decisions on macro issues of information security. The head of the digital operation center of the Group serves as the leader of the information security management team to be responsible for the daily information security of the Group.",
+      "bm25_rank": null,
+      "dense_rank": 28,
+      "bm25_score": null,
+      "dense_score": 0.215605229139328,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.32905423459240324,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.27892737136908613,
+      "rank": 43,
+      "rrf_score": 0.27892737136908613,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P90_002",
+      "alias_source_ids": [
+        "P90_002"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        90
+      ],
+      "text": "此外,本集團持續優化員工福利關愛體系, 不斷提升員工的歸屬感。我們提倡工作與休 息之平衡,於 《考勤管理制度》 中明確工作時 數,針對確因工作原因需要延長工作時間的 員工,集團在制度中明確了加班補償、加班時 間計算等規定,保障員工的合法權益。我們 制定 《考勤管理制度》 ,明確休假申請流程, 妥善管理員工的假期安排,為員工提供法定 節假日、年假、婚嫁、產假、陪護假、哺乳假 等假期福利。除了法定 「五險一金」 和帶薪假 期外,我們還為員工提供多樣化福利保障, 括夥食補貼,通訊補貼,特殊崗位津貼、 商業保險等項目。同時,我們積極開展節日 活動、體育活動、知識競賽等活動,持續優化 食堂運營,不斷升級菜品,鼓勵員工平衡工 作和生活,提升員工的幸福感,保持更好的 工作及生活心態。",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\n此外,本集團持續優化員工福利關愛體系, 不斷提升員工的歸屬感。我們提倡工作與休 息之平衡,於 《考勤管理制度》 中明確工作時 數,針對確因工作原因需要延長工作時間的 員工,集團在制度中明確了加班補償、加班時 間計算等規定,保障員工的合法權益。我們 制定 《考勤管理制度》 ,明確休假申請流程, 妥善管理員工的假期安排,為員工提供法定 節假日、年假、婚嫁、產假、陪護假、哺乳假 等假期福利。除了法定 「五險一金」 和帶薪假 期外,我們還為員工提供多樣化福利保障, 括夥食補貼,通訊補貼,特殊崗位津貼、 商業保險等項目。同時,我們積極開展節日 活動、體育活動、知識競賽等活動,持續優化 食堂運營,不斷升級菜品,鼓勵員工平衡工 作和生活,提升員工的幸福感,保持更好的 工作及生活心態。",
+      "bm25_rank": 130,
+      "dense_rank": 35,
+      "bm25_score": 12.045616149902344,
+      "dense_score": 0.21134242415428162,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.024748925272558297,
+      "normalized_dense": 0.2987819531606731,
+      "normalized_bm25_rank": 0.13422818791946312,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.2773087035600761,
+      "rank": 44,
+      "rrf_score": 0.2773087035600761,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P68_006",
+      "alias_source_ids": [
+        "P68_006"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        68
+      ],
+      "text": "With great importance attached to emissions management, the Group formulated the 'Wastewater, Exhaust Gas and Noise Management Protocol' to standardize the discharge process, strictly supervise and regularly verify relevant indicators to ensure the discharge of three wastes is compliant. In the meantime, we actively apply for and renew emission permits, continuously optimize and upgrade our equipment and processes to improve our emission reduction capacity, and regularly conduct environmental impact assessments to review our management effectiveness, striving to prevent and control environmental pollution.",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\nWith great importance attached to emissions management, the Group formulated the 'Wastewater, Exhaust Gas and Noise Management Protocol' to standardize the discharge process, strictly supervise and regularly verify relevant indicators to ensure the discharge of three wastes is compliant. In the meantime, we actively apply for and renew emission permits, continuously optimize and upgrade our equipment and processes to improve our emission reduction capacity, and regularly conduct environmental impact assessments to review our management effectiveness, striving to prevent and control environmental pollution.",
+      "bm25_rank": null,
+      "dense_rank": 29,
+      "bm25_score": null,
+      "dense_score": 0.2140459418296814,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3179809660670701,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.2737094455060249,
+      "rank": 45,
+      "rrf_score": 0.2737094455060249,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T109_002",
+      "alias_source_ids": [
+        "T109_002"
+      ],
+      "section": "附錄 I 二零二一年 ESG 關鍵績效數據表 Appendix I Table of 2021 ESG Key Performance Data / B1.2 按性別、年齡組別及地區劃分 的僱員流失比率",
+      "pages": [
+        109
+      ],
+      "text": "二零二一年 2021 | 二零二零年 2020 因工死亡的人數 | Work-related fatalities | - | - 因工傷損失的工作日數 | Lost days due to work injury | - | - 安全生產事故數 | Production safety accidents | - | - 年度普通健康體檢人數 | Annual regular medical checkups | 2,261 | 2,344 年度職業健康體檢人數 | Annual occupational health checkups | 1,196 | 1,298",
+      "retrieval_text": "[Section]\n附錄 I 二零二一年 ESG 關鍵績效數據表 Appendix I Table of 2021 ESG Key Performance Data / B1.2 按性別、年齡組別及地區劃分 的僱員流失比率\n\n[Content]\n二零二一年 2021 | 二零二零年 2020 因工死亡的人數 | Work-related fatalities | - | - 因工傷損失的工作日數 | Lost days due to work injury | - | - 安全生產事故數 | Production safety accidents | - | - 年度普通健康體檢人數 | Annual regular medical checkups | 2,261 | 2,344 年度職業健康體檢人數 | Annual occupational health checkups | 1,196 | 1,298",
+      "bm25_rank": 6,
+      "dense_rank": null,
+      "bm25_score": 48.155029296875,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.8646047379282936,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.26956524288767214,
+      "rank": 46,
+      "rrf_score": 0.26956524288767214,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L29_004",
+      "alias_source_ids": [
+        "L29_004"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        29
+      ],
+      "text": "The Pantoprazole Sodium Injection (40mg/unit) and Octreotide Acetate Injection (1ml: 0.05mg, 1ml: 0.1mg, 1ml: 0.3mg) developed by the Group have obtained the notice of approval of supplemental applications on the products that passed the consistency evaluation issued by the NMPA. In addition, eight drugs developed by the Group such as Rivaroxaban Tablet (10mg and 15mg), Ambroxol Hydrochloride Injection (2ml: 15mg), Lacosamide Tablets (50mg and 100mg), Moxifloxacin Hydrochloride and Sodium Chloride Injection, Caspofungin Acetate for Injection (50mg), Clopidogrel Bisulfate Tablets (75mg), Fondaparinux Sodium Injection (0.5ml: 2.5mg) and Ticagrelor Tablet (60mg and 90mg) have obtained the Drug Registration Certificate issued by the NMPA, approving the manufacture of the drugs;",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nThe Pantoprazole Sodium Injection (40mg/unit) and Octreotide Acetate Injection (1ml: 0.05mg, 1ml: 0.1mg, 1ml: 0.3mg) developed by the Group have obtained the notice of approval of supplemental applications on the products that passed the consistency evaluation issued by the NMPA. In addition, eight drugs developed by the Group such as Rivaroxaban Tablet (10mg and 15mg), Ambroxol Hydrochloride Injection (2ml: 15mg), Lacosamide Tablets (50mg and 100mg), Moxifloxacin Hydrochloride and Sodium Chloride Injection, Caspofungin Acetate for Injection (50mg), Clopidogrel Bisulfate Tablets (75mg), Fondaparinux Sodium Injection (0.5ml: 2.5mg) and Ticagrelor Tablet (60mg and 90mg) have obtained the Drug Registration Certificate issued by the NMPA, approving the manufacture of the drugs;",
+      "bm25_rank": 7,
+      "dense_rank": null,
+      "bm25_score": 47.956764221191406,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.8599933620640072,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.2679718267752176,
+      "rank": 47,
+      "rrf_score": 0.2679718267752176,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T22_002",
+      "alias_source_ids": [
+        "T22_002"
+      ],
+      "section": "利益相關方參與 / Stakeholders Engagement",
+      "pages": [
+        22
+      ],
+      "text": "產品安全與質量 1 | Product safety and quality 2 | Anti-corruption and internal control management 3 | Customer information security and privacy protection 4 | Responsible marketing 營運 | 6 | Quality of customer service Operation | 供應鏈環境及社會風險管控 7 | Environmental and social risk control of the supply chain 10 | Supplier management",
+      "retrieval_text": "[Section]\n利益相關方參與 / Stakeholders Engagement\n\n[Content]\n產品安全與質量 1 | Product safety and quality 2 | Anti-corruption and internal control management 3 | Customer information security and privacy protection 4 | Responsible marketing 營運 | 6 | Quality of customer service Operation | 供應鏈環境及社會風險管控 7 | Environmental and social risk control of the supply chain 10 | Supplier management",
+      "bm25_rank": 8,
+      "dense_rank": null,
+      "bm25_score": 45.52700424194336,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.8034804513273,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.2559981036882788,
+      "rank": 48,
+      "rrf_score": 0.2559981036882788,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P101_002",
+      "alias_source_ids": [
+        "P101_002"
+      ],
+      "section": "熱心公益，共繪美好 / Devoting to Social Public Welfare for a Happy Life",
+      "pages": [
+        101
+      ],
+      "text": "In addition, Sihuan Pharmaceutical cooperated with the Jiulongpo District Government of Chongqing to build Chongqing West Hospital, covering an area of about 61 mu, with a total construction area of about 160,000 m 2 and 1,200 beds, and a total investment of RMB1 billion. The completion and operation of the hospital have improved the overall level of medical technology in Chongqing, and provided better medical and health services to satisfy the medical needs of the people.",
+      "retrieval_text": "[Section]\n熱心公益，共繪美好 / Devoting to Social Public Welfare for a Happy Life\n\n[Content]\nIn addition, Sihuan Pharmaceutical cooperated with the Jiulongpo District Government of Chongqing to build Chongqing West Hospital, covering an area of about 61 mu, with a total construction area of about 160,000 m 2 and 1,200 beds, and a total investment of RMB1 billion. The completion and operation of the hospital have improved the overall level of medical technology in Chongqing, and provided better medical and health services to satisfy the medical needs of the people.",
+      "bm25_rank": 9,
+      "dense_rank": null,
+      "bm25_score": 44.05351257324219,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.7692090402184703,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.24847268052691557,
+      "rank": 49,
+      "rrf_score": 0.24847268052691557,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_009",
+      "alias_source_ids": [
+        "P3_009"
+      ],
+      "section": "關於本報告 / About the Report",
+      "pages": [
+        3
+      ],
+      "text": "The Report covers the achievements of the Group in the performance of environmental and social responsibilities during the period from 1 January 2021 to 31 December 2021 (the ' Year '). The Report covers the headquarters of Sihuan Pharmaceutical and its 12 affiliated production enterprises, 2 research and development (' R&D ') institutions and 5 marketing centers 1 . The Report covers all business units where we had operational control or which have significant impact on environmental, social and governance aspects. The content of the Report also focuses on the major sustainable development areas which have the most significant economic, environmental and social impacts, and the areas where our stakeholders are most concerned about.",
+      "retrieval_text": "[Section]\n關於本報告 / About the Report\n\n[Content]\nThe Report covers the achievements of the Group in the performance of environmental and social responsibilities during the period from 1 January 2021 to 31 December 2021 (the ' Year '). The Report covers the headquarters of Sihuan Pharmaceutical and its 12 affiliated production enterprises, 2 research and development (' R&D ') institutions and 5 marketing centers 1 . The Report covers all business units where we had operational control or which have significant impact on environmental, social and governance aspects. The content of the Report also focuses on the major sustainable development areas which have the most significant economic, environmental and social impacts, and the areas where our stakeholders are most concerned about.",
+      "bm25_rank": 10,
+      "dense_rank": null,
+      "bm25_score": 43.886356353759766,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.7653212140169625,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.24702397434701667,
+      "rank": 50,
+      "rrf_score": 0.24702397434701667,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esg-qualitative-rag"
+version = "1.0.0"
+description = "Reproducible ESG qualitative evidence retrieval with BM25 and Qwen3.7 embeddings, without a reranker"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.23,<3",
+  "openpyxl>=3.0,<4",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7,<9"]
+
+[project.scripts]
+esg-qualitative-rag = "esg_qualitative_rag.cli:main"
+
+[project.urls]
+Repository = "https://github.com/HKUBSAIRI/esg-qualitative-rag"
+PDFParser = "https://github.com/HKUBSAIRI/esg-qualitative-pdf-parser"
+
+[tool.setuptools.packages.find]
+include = ["esg_qualitative_rag*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

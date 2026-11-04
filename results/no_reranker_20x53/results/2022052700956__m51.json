@@ -1,0 +1,1544 @@
+{
+  "document_id": "2022052700956",
+  "metric_id": 51,
+  "metric_name": "独立第三方审计（鉴证）",
+  "query": "独立第三方审计（鉴证） 独立第三方审计（鉴证） 衡量ESG关键数据是否经过独立鉴证 2分：由独立第三方按国际准则（ISAE 3000/AA1000AS）出具鉴证报告。 1分：虽无报告，但披露了具体的内部审计路径（提及了内审委员会或具体复核频率）。 0分：仅董事会背书。 独立鉴证 有限保证 合理保证 独立核查 鉴证范围 ESG鉴证 鉴证报告 核查声明 ISAE 3000 AA1000AS independent assurance limited assurance reasonable assurance ISAE 3000 AA1000AS verification statement ESG assurance assurance scope 是否有独立第三方ESG鉴证/核查报告？ 鉴证机构与准则（ISAE 3000/AA1000AS等）是什么？ 保证等级是有限保证还是合理保证？ 鉴证范围覆盖哪些指标与报告期？ 若无外部鉴证，是否披露内审路径与复核频率？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '独立第三方审计（鉴证）'. Prefer explicit, auditable disclosure that answers: 是否有独立第三方ESG鉴证/核查报告？ 鉴证机构与准则（ISAE 3000/AA1000AS等）是什么？ 保证等级是有限保证还是合理保证？ 鉴证范围覆盖哪些指标与报告期？ 若无外部鉴证，是否披露内审路径与复核频率？ Exclude or down-rank: 排除：仅有董事会对ESG报告真实性声明；仅有ISO 45001/14001管理体系认证；仅有财务审计意见；仅有“数据已经核对”无机构无准则；区分：本指标是ESG数据独立鉴证；ISO体系认证不是ESG报告鉴证；温室气体核算关注方法学，鉴证关注外部保证结论。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 161,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "L10_003",
+      "alias_source_ids": [
+        "L10_003"
+      ],
+      "section": "Sustainable Development Strategy",
+      "pages": [
+        10
+      ],
+      "text": "Participate in Global ESG Benchmark for Real Assets ratings and initiatives, and actively respond to stakeholders' expectations for our environmental protection works;",
+      "retrieval_text": "[Section]\nSustainable Development Strategy\n\n[Content]\nParticipate in Global ESG Benchmark for Real Assets ratings and initiatives, and actively respond to stakeholders' expectations for our environmental protection works;",
+      "bm25_rank": 2,
+      "dense_rank": 6,
+      "bm25_score": 26.576339721679688,
+      "dense_score": 0.5136327743530273,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7938368360392575,
+      "normalized_dense": 0.9313917508973606,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.7773719296863573,
+      "rank": 1,
+      "rrf_score": 0.7773719296863573,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L10_001",
+      "alias_source_ids": [
+        "L10_001"
+      ],
+      "section": "Sustainable Development Strategy",
+      "pages": [
+        10
+      ],
+      "text": "Prepare annual environmental, social and governance report in accordance with global sustainability reporting standards such as the Global Reporting Initiative standards;",
+      "retrieval_text": "[Section]\nSustainable Development Strategy\n\n[Content]\nPrepare annual environmental, social and governance report in accordance with global sustainability reporting standards such as the Global Reporting Initiative standards;",
+      "bm25_rank": 16,
+      "dense_rank": 2,
+      "bm25_score": 7.059383869171143,
+      "dense_score": 0.5297768712043762,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16486897287523447,
+      "normalized_dense": 0.9896585850878354,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.667944903382635,
+      "rank": 2,
+      "rrf_score": 0.667944903382635,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_001",
+      "alias_source_ids": [
+        "P3_001"
+      ],
+      "section": "About this Report / Reporting Standards",
+      "pages": [
+        3
+      ],
+      "text": "COGO reports on its sustainability performance for the period from 1 January to 31 December 2021 (the 'Reporting Year') in accordance with the requirements set out in Appendix 27 - 'Environmental, Social and Governance Reporting Guide' ('Guide') to the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited (the 'SEHK').",
+      "retrieval_text": "[Section]\nAbout this Report / Reporting Standards\n\n[Content]\nCOGO reports on its sustainability performance for the period from 1 January to 31 December 2021 (the 'Reporting Year') in accordance with the requirements set out in Appendix 27 - 'Environmental, Social and Governance Reporting Guide' ('Guide') to the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited (the 'SEHK').",
+      "bm25_rank": 19,
+      "dense_rank": 4,
+      "bm25_score": 6.821110725402832,
+      "dense_score": 0.5198884010314941,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15719020620599153,
+      "normalized_dense": 0.9539693881469341,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6492199445422896,
+      "rank": 3,
+      "rrf_score": 0.6492199445422896,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_005",
+      "alias_source_ids": [
+        "P3_005"
+      ],
+      "section": "About this Report / Reporting Standards",
+      "pages": [
+        3
+      ],
+      "text": "To ensure that the stakeholders can rationally and objectively evaluate the Group's overall sustainability performance, the Group adheres to the principle of impartiality reporting so as to cover both positive performance and performance which requires improvement in a comprehensive manner.",
+      "retrieval_text": "[Section]\nAbout this Report / Reporting Standards\n\n[Content]\nTo ensure that the stakeholders can rationally and objectively evaluate the Group's overall sustainability performance, the Group adheres to the principle of impartiality reporting so as to cover both positive performance and performance which requires improvement in a comprehensive manner.",
+      "bm25_rank": 31,
+      "dense_rank": 3,
+      "bm25_score": 5.929695129394531,
+      "dense_score": 0.5236582159996033,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12846278750148282,
+      "normalized_dense": 0.9675753015466193,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6415251210953046,
+      "rank": 4,
+      "rrf_score": 0.6415251210953046,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T42_001",
+      "alias_source_ids": [
+        "T42_001"
+      ],
+      "section": "Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        42
+      ],
+      "text": "Material Aspect | Content | Page Index/Remarks A. Environmental A1 Emissions General Disclosure | Information on (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | 23-24, 41 A1.1 | The types of emissions and respective emissions data. | 24, 37 A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions and intensity. | 23, 37 A1.3 | Total hazardous waste produced and intensity. | 37 A1.4 | Total non-hazardous waste produced and intensity. | 24, 37 A1.5 | Description of emissions target(s) set and steps taken to achieve them. | 10-11 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | 11, 24 A2 Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 23-24 A2.1 | Direct and/or indirect energy consumption by type in total and intensity. | 24, 37 A2.2 | Water consumption in total and intensity. | 24, 38 A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 12, 24 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | The Group has no issue in sourcing water. A2.5 | Total packaging material used for finished products with reference to per unit produced. | The Group does not use a huge amount of packaging materials. A3 The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | 23-24 A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 23-24",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMaterial Aspect | Content | Page Index/Remarks A. Environmental A1 Emissions General Disclosure | Information on (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | 23-24, 41 A1.1 | The types of emissions and respective emissions data. | 24, 37 A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions and intensity. | 23, 37 A1.3 | Total hazardous waste produced and intensity. | 37 A1.4 | Total non-hazardous waste produced and intensity. | 24, 37 A1.5 | Description of emissions target(s) set and steps taken to achieve them. | 10-11 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | 11, 24 A2 Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 23-24 A2.1 | Direct and/or indirect energy consumption by type in total and intensity. | 24, 37 A2.2 | Water consumption in total and intensity. | 24, 38 A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 12, 24 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | The Group has no issue in sourcing water. A2.5 | Total packaging material used for finished products with reference to per unit produced. | The Group does not use a huge amount of packaging materials. A3 The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | 23-24 A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 23-24",
+      "bm25_rank": 34,
+      "dense_rank": 5,
+      "bm25_score": 5.722733974456787,
+      "dense_score": 0.5187500715255737,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12179310415727317,
+      "normalized_dense": 0.9498609603304813,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.6292931784236332,
+      "rank": 5,
+      "rrf_score": 0.6292931784236332,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T37_001",
+      "alias_source_ids": [
+        "T37_001"
+      ],
+      "section": "Key Performance Indicator Summary / Environmental Performance",
+      "pages": [
+        37
+      ],
+      "text": "Environmental Key Performance Indicators 7 | 2021 | Unit Air Emissions | Mainland China | Hong Kong Nitrogen Oxides | 240.10 | 0 | kg Sulphur Oxides | 18.96 | 0 | kg Respiratory Suspended Particulates | 10.44 | 0 | kg GHG Emissions | Mainland China | Hong Kong Scope 1 Direct GHG Emissions 8 | 1,483.69 | 0 | tonnes of carbon dioxide equivalent Scope 2 Energy Indirect GHG Emissions 9 | 2,972.81 | 16.58 | tonnes of carbon dioxide equivalent Scope 3 Other Indirect GHG Emissions 10 | 705.08 | 2.72 | tonnes of carbon dioxide equivalent Total GHG Emissions | 5,161.57 | 19.30 | tonnes of carbon dioxide equivalent GHG Intensity (by Area) | 0.13 | 0.04 | tonnes of carbon dioxide equivalent /square meter Generation of Waste | Mainland China | Hong Kong Total Generation of Hazardous Waste | 1.28 | 0.002 | tonnes Hazardous Waste Intensity (by Area) | 0.03 | 0.004 | tonnes/1000 m 2 Total Generation of Non-hazardous Waste | 168.29 | 0.56 | tonnes Non-hazardous Waste Intensity (by Area) | 4.38 | 1.30 | tonnes/1000 m 2 Consumption of energy | Mainland China | Hong Kong Gasoline | 2,159.60 | 0 | MWh Diesel | 11.97 | 0 | MWh Liquefied Petroleum Gas | 152.51 | 0 | MWh Natural Gas | 745.30 | 0 | MWh Biodiesel | 94.62 | 0 | MWh Purchased Electricity | 5,091.30 | 23.35 | MWh Total Energy Consumption 11 | 8,255.30 | 23.35 | MWh-equivalent Energy Intensity (by Area) | 0.21 | 0.05 | MWh-equivalent/ square meter",
+      "retrieval_text": "[Section]\nKey Performance Indicator Summary / Environmental Performance\n\n[Content]\nEnvironmental Key Performance Indicators 7 | 2021 | Unit Air Emissions | Mainland China | Hong Kong Nitrogen Oxides | 240.10 | 0 | kg Sulphur Oxides | 18.96 | 0 | kg Respiratory Suspended Particulates | 10.44 | 0 | kg GHG Emissions | Mainland China | Hong Kong Scope 1 Direct GHG Emissions 8 | 1,483.69 | 0 | tonnes of carbon dioxide equivalent Scope 2 Energy Indirect GHG Emissions 9 | 2,972.81 | 16.58 | tonnes of carbon dioxide equivalent Scope 3 Other Indirect GHG Emissions 10 | 705.08 | 2.72 | tonnes of carbon dioxide equivalent Total GHG Emissions | 5,161.57 | 19.30 | tonnes of carbon dioxide equivalent GHG Intensity (by Area) | 0.13 | 0.04 | tonnes of carbon dioxide equivalent /square meter Generation of Waste | Mainland China | Hong Kong Total Generation of Hazardous Waste | 1.28 | 0.002 | tonnes Hazardous Waste Intensity (by Area) | 0.03 | 0.004 | tonnes/1000 m 2 Total Generation of Non-hazardous Waste | 168.29 | 0.56 | tonnes Non-hazardous Waste Intensity (by Area) | 4.38 | 1.30 | tonnes/1000 m 2 Consumption of energy | Mainland China | Hong Kong Gasoline | 2,159.60 | 0 | MWh Diesel | 11.97 | 0 | MWh Liquefied Petroleum Gas | 152.51 | 0 | MWh Natural Gas | 745.30 | 0 | MWh Biodiesel | 94.62 | 0 | MWh Purchased Electricity | 5,091.30 | 23.35 | MWh Total Energy Consumption 11 | 8,255.30 | 23.35 | MWh-equivalent Energy Intensity (by Area) | 0.21 | 0.05 | MWh-equivalent/ square meter",
+      "bm25_rank": 1,
+      "dense_rank": 41,
+      "bm25_score": 32.973609924316406,
+      "dense_score": 0.3953239619731903,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.5043948109210006,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.6228469086545649,
+      "rank": 6,
+      "rrf_score": 0.6228469086545649,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T44_001",
+      "alias_source_ids": [
+        "T44_001"
+      ],
+      "section": "Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        44
+      ],
+      "text": "Material Aspect | Content | Page Index/Remarks B4 Labour Standards General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | 28, 41 B4.1 | Description of measures to review employment practices to avoid child and forced labour. | 28 B4.2 | Description of steps taken to eliminate such practices when discovered. | 28 B5 Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | 22 B5.1 | Number of suppliers by geographical region. | 40 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | 20, 22 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 22 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | 22 B6 Product Responsibility General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | 31, 41 B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | The Group's operation does not involve product recalls. B6.2 | Number of products and service-related complaints received and how they are dealt with. | 31 B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 31 B6.4 | Description of quality assurance process and recall procedures. | The Group's operation does not involve product recalls. B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 31",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMaterial Aspect | Content | Page Index/Remarks B4 Labour Standards General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour. | 28, 41 B4.1 | Description of measures to review employment practices to avoid child and forced labour. | 28 B4.2 | Description of steps taken to eliminate such practices when discovered. | 28 B5 Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | 22 B5.1 | Number of suppliers by geographical region. | 40 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | 20, 22 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 22 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | 22 B6 Product Responsibility General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | 31, 41 B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | The Group's operation does not involve product recalls. B6.2 | Number of products and service-related complaints received and how they are dealt with. | 31 B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 31 B6.4 | Description of quality assurance process and recall procedures. | The Group's operation does not involve product recalls. B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 31",
+      "bm25_rank": 9,
+      "dense_rank": 10,
+      "bm25_score": 9.095990180969238,
+      "dense_score": 0.483665406703949,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2305021551050014,
+      "normalized_dense": 0.8232343446322986,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.6167827872127745,
+      "rank": 7,
+      "rrf_score": 0.6167827872127745,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_003",
+      "alias_source_ids": [
+        "P6_003"
+      ],
+      "section": "Governance / Sustainability Governance Structure",
+      "pages": [
+        6
+      ],
+      "text": "In addition, the Board oversees the corporate risk management and internal control systems. The Intendance and Audit Department is responsible for conducting significant risk identification, analysis and audit management procedures, as well as reporting to the Audit Committee and the Board on audit results and improvement suggestions to determine the effectiveness of the monitoring system. In 2021, the Group engaged external sustainability consultants to identify sustainability risks and review the existing management procedures, and submit risk assessment reports and recommendations. For details, please refer to the section 'Sustainability Risk Management System' in this Report.",
+      "retrieval_text": "[Section]\nGovernance / Sustainability Governance Structure\n\n[Content]\nIn addition, the Board oversees the corporate risk management and internal control systems. The Intendance and Audit Department is responsible for conducting significant risk identification, analysis and audit management procedures, as well as reporting to the Audit Committee and the Board on audit results and improvement suggestions to determine the effectiveness of the monitoring system. In 2021, the Group engaged external sustainability consultants to identify sustainability risks and review the existing management procedures, and submit risk assessment reports and recommendations. For details, please refer to the section 'Sustainability Risk Management System' in this Report.",
+      "bm25_rank": 27,
+      "dense_rank": 8,
+      "bm25_score": 6.339637756347656,
+      "dense_score": 0.5006371140480042,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14167390198281277,
+      "normalized_dense": 0.8844881680484226,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.6110600016296179,
+      "rank": 8,
+      "rrf_score": 0.6110600016296179,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T23_001",
+      "alias_source_ids": [
+        "T23_001"
+      ],
+      "section": "Material Issues / Environmental Management",
+      "pages": [
+        23
+      ],
+      "text": "GHG Emissions (tonnes of carbon dioxide equivalent) | Mainland China | Hong Kong | Total Scope 1 Direct GHG Emissions 4 | 1,483.69 | 0 | 1,483.69 Scope 2 Energy Indirect GHG Emissions 5 | 2,972.81 | 16.58 | 2,989.39 Scope 3 Other Indirect GHG Emissions 6 | 705.08 | 2.72 | 707.80 Total GHG Emissions | 5,161.57 | 19.3 | 5,180.87 GHG Intensity (by Area) | 0.13 per square meter | 0.04 per square meter | 0.13 per square meter",
+      "retrieval_text": "[Section]\nMaterial Issues / Environmental Management\n\n[Content]\nGHG Emissions (tonnes of carbon dioxide equivalent) | Mainland China | Hong Kong | Total Scope 1 Direct GHG Emissions 4 | 1,483.69 | 0 | 1,483.69 Scope 2 Energy Indirect GHG Emissions 5 | 2,972.81 | 16.58 | 2,989.39 Scope 3 Other Indirect GHG Emissions 6 | 705.08 | 2.72 | 707.80 Total GHG Emissions | 5,161.57 | 19.3 | 5,180.87 GHG Intensity (by Area) | 0.13 per square meter | 0.04 per square meter | 0.13 per square meter",
+      "bm25_rank": 3,
+      "dense_rank": 22,
+      "bm25_score": 18.000505447387695,
+      "dense_score": 0.43875253200531006,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5174656540212925,
+      "normalized_dense": 0.6611360218100768,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6053605370955035,
+      "rank": 9,
+      "rrf_score": 0.6053605370955035,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_002",
+      "alias_source_ids": [
+        "P23_002"
+      ],
+      "section": "Material Issues / Environmental Management",
+      "pages": [
+        23
+      ],
+      "text": "The Group has established a data collection system and commissioned a professional consultant to quantify its greenhouse gas emissions annually in accordance with the guidelines compiled by the Hong Kong Environmental Protection Department and the Electrical and Mechanical Services Department of Hong Kong 1 , and with reference to the guidelines issued by the National Development and Reform Commission of the People's Republic of China 2 and relevant international standards 3 . This helps the Group to continuously review the effectiveness of the existing measures and develop more targeted energy saving and carbon reduction plans.",
+      "retrieval_text": "[Section]\nMaterial Issues / Environmental Management\n\n[Content]\nThe Group has established a data collection system and commissioned a professional consultant to quantify its greenhouse gas emissions annually in accordance with the guidelines compiled by the Hong Kong Environmental Protection Department and the Electrical and Mechanical Services Department of Hong Kong 1 , and with reference to the guidelines issued by the National Development and Reform Commission of the People's Republic of China 2 and relevant international standards 3 . This helps the Group to continuously review the effectiveness of the existing measures and develop more targeted energy saving and carbon reduction plans.",
+      "bm25_rank": 58,
+      "dense_rank": 7,
+      "bm25_score": 4.162734508514404,
+      "dense_score": 0.5050448179244995,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07151940686320034,
+      "normalized_dense": 0.9003963327043482,
+      "normalized_bm25_rank": 0.6174496644295302,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.5831338729869472,
+      "rank": 10,
+      "rrf_score": 0.5831338729869472,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P22_003",
+      "alias_source_ids": [
+        "P22_003"
+      ],
+      "section": "Material Issues / Green Buildings",
+      "pages": [
+        22
+      ],
+      "text": "As a leading and influential property developer in China, the Group understands the importance of developing sustainable buildings to create maximum value for stakeholders. Therefore, the Group adopts a comprehensive approach to integrate sustainable development throughout the life cycle of its properties. The Group has an explicit green procurement policy in its 'Environmental Policy', which gives priority to products and services that promote environmental sustainability, and uses international standards such as ISO14001 environmental management system certification as the standard for assessing suppliers' environmental performance. To manage social and environmental risks in the supply chain, the Group conducts regular performance assessments and two-way assessments to ensure that issues are summarized and addressed in a timely manner.",
+      "retrieval_text": "[Section]\nMaterial Issues / Green Buildings\n\n[Content]\nAs a leading and influential property developer in China, the Group understands the importance of developing sustainable buildings to create maximum value for stakeholders. Therefore, the Group adopts a comprehensive approach to integrate sustainable development throughout the life cycle of its properties. The Group has an explicit green procurement policy in its 'Environmental Policy', which gives priority to products and services that promote environmental sustainability, and uses international standards such as ISO14001 environmental management system certification as the standard for assessing suppliers' environmental performance. To manage social and environmental risks in the supply chain, the Group conducts regular performance assessments and two-way assessments to ensure that issues are summarized and addressed in a timely manner.",
+      "bm25_rank": 15,
+      "dense_rank": 16,
+      "bm25_score": 7.101100921630859,
+      "dense_score": 0.46404993534088135,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16621337748122822,
+      "normalized_dense": 0.7524387202004262,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.567066026224113,
+      "rank": 11,
+      "rrf_score": 0.567066026224113,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L10_010",
+      "alias_source_ids": [
+        "L10_010"
+      ],
+      "section": "Sustainable Development Strategy",
+      "pages": [
+        10
+      ],
+      "text": "Increase participation in more green building assessment programs and obtain relevant certifications, such as China Green Building Label and the Leadership in Energy and Environmental Design (LEED) system;",
+      "retrieval_text": "[Section]\nSustainable Development Strategy\n\n[Content]\nIncrease participation in more green building assessment programs and obtain relevant certifications, such as China Green Building Label and the Leadership in Energy and Environmental Design (LEED) system;",
+      "bm25_rank": 23,
+      "dense_rank": 15,
+      "bm25_score": 6.637850284576416,
+      "dense_score": 0.4666266441345215,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15128431961485736,
+      "normalized_dense": 0.7617385073250076,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.5633082945068583,
+      "rank": 12,
+      "rrf_score": 0.5633082945068583,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "About this Report / Reporting Standards",
+      "pages": [
+        3
+      ],
+      "text": "The Group has followed the reporting principles set out in the Guide in defining the contents of this Report and ensuring the accuracy and reliability of the information presented in this Report. All information has been subject to internal control and review procedures and has been validated and approved by the board of directors (the 'Board') and the executive committee (the 'Executive Committee') of the Company, which comprises all Executive Directors of the Company.",
+      "retrieval_text": "[Section]\nAbout this Report / Reporting Standards\n\n[Content]\nThe Group has followed the reporting principles set out in the Guide in defining the contents of this Report and ensuring the accuracy and reliability of the information presented in this Report. All information has been subject to internal control and review procedures and has been validated and approved by the board of directors (the 'Board') and the executive committee (the 'Executive Committee') of the Company, which comprises all Executive Directors of the Company.",
+      "bm25_rank": null,
+      "dense_rank": 1,
+      "bm25_score": null,
+      "dense_score": 0.5326421856880188,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.55,
+      "rank": 13,
+      "rrf_score": 0.55,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_002",
+      "alias_source_ids": [
+        "P16_002"
+      ],
+      "section": "Feature Stories",
+      "pages": [
+        16
+      ],
+      "text": "The project is designed in accordance with the ultra-low energy consumption, green building three-star, and healthy building three-star certification standards. At present, it was awarded the 'Ultra-low Energy Building' certificate (' 超低 能耗建築 ' 認證證書 ) by the China Association of Building Energy Efficiency. It has obtained the ultra-low energy consumption and healthy building two-star certification. It is planned to obtain green building and healthy building three-star certification after delivery and operation commences. The project will create an indoor 'five balances systems', namely balanced temperature, balanced oxygen level, balanced humidity, balanced cleanliness and balanced tranquility. The project can effectively reduce the consumption of non-renewable resources such as coal, natural gas, electricity and water, ease the pressure of energy shortage, reduce the emission of pollutants such as carbon dioxide, and realize the friendly symbiosis of people, buildings and the environment. According to the preliminary calculations, the annual emission of carbon dioxide in the operation of the ultra-low energy consumption building of the project is 0.07 tonnes of carbon dioxide equivalent per square meter. Compared with the conventional residential buildings in the 1980s, the project can achieve an annual emission reduction of carbon dioxide per square meter of 0.058 tonnes.",
+      "retrieval_text": "[Section]\nFeature Stories\n\n[Content]\nThe project is designed in accordance with the ultra-low energy consumption, green building three-star, and healthy building three-star certification standards. At present, it was awarded the 'Ultra-low Energy Building' certificate (' 超低 能耗建築 ' 認證證書 ) by the China Association of Building Energy Efficiency. It has obtained the ultra-low energy consumption and healthy building two-star certification. It is planned to obtain green building and healthy building three-star certification after delivery and operation commences. The project will create an indoor 'five balances systems', namely balanced temperature, balanced oxygen level, balanced humidity, balanced cleanliness and balanced tranquility. The project can effectively reduce the consumption of non-renewable resources such as coal, natural gas, electricity and water, ease the pressure of energy shortage, reduce the emission of pollutants such as carbon dioxide, and realize the friendly symbiosis of people, buildings and the environment. According to the preliminary calculations, the annual emission of carbon dioxide in the operation of the ultra-low energy consumption building of the project is 0.07 tonnes of carbon dioxide equivalent per square meter. Compared with the conventional residential buildings in the 1980s, the project can achieve an annual emission reduction of carbon dioxide per square meter of 0.058 tonnes.",
+      "bm25_rank": 54,
+      "dense_rank": 12,
+      "bm25_score": 4.402693748474121,
+      "dense_score": 0.4770013093948364,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07925251091613221,
+      "normalized_dense": 0.7991824663194645,
+      "normalized_bm25_rank": 0.6442953020134228,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.5452287949252403,
+      "rank": 14,
+      "rrf_score": 0.5452287949252403,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T43_001",
+      "alias_source_ids": [
+        "T43_001"
+      ],
+      "section": "Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        43
+      ],
+      "text": "Material Aspect | Content | Page Index/Remarks A4 Climate Change General Disclosure | Policies on identification and mitigation of significant climate- related issues which have impacted, and those which may impact, the issuer. | 7 A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 7-8 B. Social B1 Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | 20, 26-28, 41 B1.1 | Total workforce by gender, employment type, age group and geographical region. | 38 B1.2 | Employee turnover rate by gender, age group and geographical region. | 38 B2 Health and Safety General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | 25, 41 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | 25, 39 B2.2 | Lost days due to work injury. | 39 B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | 25 B3 Development and Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | 29-30 B3.1 | The percentage of employees trained by gender and employee category. | 39 B3.2 | The average training hours completed per employee by gender and employee category. | 40",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMaterial Aspect | Content | Page Index/Remarks A4 Climate Change General Disclosure | Policies on identification and mitigation of significant climate- related issues which have impacted, and those which may impact, the issuer. | 7 A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 7-8 B. Social B1 Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | 20, 26-28, 41 B1.1 | Total workforce by gender, employment type, age group and geographical region. | 38 B1.2 | Employee turnover rate by gender, age group and geographical region. | 38 B2 Health and Safety General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | 25, 41 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | 25, 39 B2.2 | Lost days due to work injury. | 39 B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | 25 B3 Development and Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | 29-30 B3.1 | The percentage of employees trained by gender and employee category. | 39 B3.2 | The average training hours completed per employee by gender and employee category. | 40",
+      "bm25_rank": 77,
+      "dense_rank": 9,
+      "bm25_score": 2.016587495803833,
+      "dense_score": 0.48380759358406067,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0023560849383357134,
+      "normalized_dense": 0.8237475216433023,
+      "normalized_bm25_rank": 0.4899328859060402,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.52703788311987,
+      "rank": 15,
+      "rrf_score": 0.52703788311987,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L26_002",
+      "alias_source_ids": [
+        "L26_002"
+      ],
+      "section": "Material Issues / Diversity and Inclusion",
+      "pages": [
+        26
+      ],
+      "text": "For candidates at or above the deputy manager l evel and candidates for special positions, introduce third-party background investigation agencies to conduct risk verification of candidates in terms of personal identity information, credit and financial risks, and litigation risks;",
+      "retrieval_text": "[Section]\nMaterial Issues / Diversity and Inclusion\n\n[Content]\nFor candidates at or above the deputy manager l evel and candidates for special positions, introduce third-party background investigation agencies to conduct risk verification of candidates in terms of personal identity information, credit and financial risks, and litigation risks;",
+      "bm25_rank": 35,
+      "dense_rank": 19,
+      "bm25_score": 5.674727916717529,
+      "dense_score": 0.4441182017326355,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12024602541285366,
+      "normalized_dense": 0.6805016506960804,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.5152449170543867,
+      "rank": 16,
+      "rrf_score": 0.5152449170543867,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_003",
+      "alias_source_ids": [
+        "P13_003"
+      ],
+      "section": "Feature Stories / Feature Story 1",
+      "pages": [
+        13
+      ],
+      "text": "The green building concept of the Group encompasses all steps of the entire building life cycle, from site planning and design, construction, post-completion operation management and maintenance to renovation and demolition, so as to minimize the impact of buildings on the ecological environment. As of the end of 2021, the Group had 139 green building certified projects with a floor area of 26.84 million square meters. In 2022, the Group's projects under construction and newly started will be all in green building design. Meanwhile, the Group is committed to promoting the adoption of green buildings with ultra-low energy consumption buildings as a breakthrough point.",
+      "retrieval_text": "[Section]\nFeature Stories / Feature Story 1\n\n[Content]\nThe green building concept of the Group encompasses all steps of the entire building life cycle, from site planning and design, construction, post-completion operation management and maintenance to renovation and demolition, so as to minimize the impact of buildings on the ecological environment. As of the end of 2021, the Group had 139 green building certified projects with a floor area of 26.84 million square meters. In 2022, the Group's projects under construction and newly started will be all in green building design. Meanwhile, the Group is committed to promoting the adoption of green buildings with ultra-low energy consumption buildings as a breakthrough point.",
+      "bm25_rank": 8,
+      "dense_rank": 30,
+      "bm25_score": 9.300369262695312,
+      "dense_score": 0.4165743589401245,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2370886266469838,
+      "normalized_dense": 0.5810911642664446,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.5071754717488268,
+      "rank": 17,
+      "rrf_score": 0.5071754717488268,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_007",
+      "alias_source_ids": [
+        "P5_007"
+      ],
+      "section": "Chairman's Statement",
+      "pages": [
+        5
+      ],
+      "text": "I would like to express my sincere gratitude to all fellow directors, management team and colleagues for their support and dedication in driving the Group's environmental, social and governance development, as well as to all the stakeholders, customers, partners and the community for their feedback and comments, the Group will continue to work towards the Dual Carbon Goals.",
+      "retrieval_text": "[Section]\nChairman's Statement\n\n[Content]\nI would like to express my sincere gratitude to all fellow directors, management team and colleagues for their support and dedication in driving the Group's environmental, social and governance development, as well as to all the stakeholders, customers, partners and the community for their feedback and comments, the Group will continue to work towards the Dual Carbon Goals.",
+      "bm25_rank": 6,
+      "dense_rank": 33,
+      "bm25_score": 10.621423721313477,
+      "dense_score": 0.40902596712112427,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27966190529963675,
+      "normalized_dense": 0.5538477143186282,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5034703562392325,
+      "rank": 18,
+      "rrf_score": 0.5034703562392325,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_002",
+      "alias_source_ids": [
+        "P19_002"
+      ],
+      "section": "Feature Stories",
+      "pages": [
+        19
+      ],
+      "text": "Looking forward, the Group will continue to adopt innovative thinking, and all new projects will be based on green building standards. The Group has established Zhonghong Low Carbon Building Technology Limited in Qianhai, Shenzhen, setting up a research and development center as the research and innovation platform of COGO to integrate industry resources and promote the applications of ultra-low energy consumption buildings. Meanwhile, employees will be provided regular internal training to have a more comprehensive understanding of environmental, social and governance issues and 'Green Sustainable Development Strategy'. The Group will promote relevant information to external stakeholders to increase the social recognition of green buildings. In addition, the Group also actively recruits talents in the innovative environmental protection technology and other fields to contribute professional strength to the sustainable development of the Group.",
+      "retrieval_text": "[Section]\nFeature Stories\n\n[Content]\nLooking forward, the Group will continue to adopt innovative thinking, and all new projects will be based on green building standards. The Group has established Zhonghong Low Carbon Building Technology Limited in Qianhai, Shenzhen, setting up a research and development center as the research and innovation platform of COGO to integrate industry resources and promote the applications of ultra-low energy consumption buildings. Meanwhile, employees will be provided regular internal training to have a more comprehensive understanding of environmental, social and governance issues and 'Green Sustainable Development Strategy'. The Group will promote relevant information to external stakeholders to increase the social recognition of green buildings. In addition, the Group also actively recruits talents in the innovative environmental protection technology and other fields to contribute professional strength to the sustainable development of the Group.",
+      "bm25_rank": 29,
+      "dense_rank": 26,
+      "bm25_score": 6.299809455871582,
+      "dense_score": 0.4279926121234894,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1403903656960475,
+      "normalized_dense": 0.6223016123395676,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.4935346441694676,
+      "rank": 19,
+      "rrf_score": 0.4935346441694676,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_004",
+      "alias_source_ids": [
+        "P24_004"
+      ],
+      "section": "Material Issues / Air Emissions",
+      "pages": [
+        24
+      ],
+      "text": "The Group has established the 'Self-Checking Standards of Office Environment Management', which is supported by regular inspections and various reward and punishment measures to reduce waste of various resources such as energy, water resources and paper. During the Reporting Year, a total of 8,278.65 MWh of energy was consumed at the Group's headquarters and offices, with the use of gasoline, natural gas and purchased electricity accounting for 26.09%, 9.00% and 61.78% of total energy consumption respectively. In addition, the water consumption was 86,536.31 cubic meters, with a water consumption intensity (by area) of 2.23 cubic meters per square meter.",
+      "retrieval_text": "[Section]\nMaterial Issues / Air Emissions\n\n[Content]\nThe Group has established the 'Self-Checking Standards of Office Environment Management', which is supported by regular inspections and various reward and punishment measures to reduce waste of various resources such as energy, water resources and paper. During the Reporting Year, a total of 8,278.65 MWh of energy was consumed at the Group's headquarters and offices, with the use of gasoline, natural gas and purchased electricity accounting for 26.09%, 9.00% and 61.78% of total energy consumption respectively. In addition, the water consumption was 86,536.31 cubic meters, with a water consumption intensity (by area) of 2.23 cubic meters per square meter.",
+      "bm25_rank": 61,
+      "dense_rank": 20,
+      "bm25_score": 4.069186687469482,
+      "dense_score": 0.4437006115913391,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0685046655505221,
+      "normalized_dense": 0.678994495743621,
+      "normalized_bm25_rank": 0.5973154362416108,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.48557719453983483,
+      "rank": 20,
+      "rrf_score": 0.48557719453983483,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_003",
+      "alias_source_ids": [
+        "P3_003"
+      ],
+      "section": "About this Report / Reporting Standards",
+      "pages": [
+        3
+      ],
+      "text": "The Group communicates with the stakeholders sincerely and conducts materiality assessment through questionnaires annually to identify material issues related to sustainable development. This also ensures that the Group's sustainability strategies could respond to the issues that the stakeholders consider most important.",
+      "retrieval_text": "[Section]\nAbout this Report / Reporting Standards\n\n[Content]\nThe Group communicates with the stakeholders sincerely and conducts materiality assessment through questionnaires annually to identify material issues related to sustainable development. This also ensures that the Group's sustainability strategies could respond to the issues that the stakeholders consider most important.",
+      "bm25_rank": null,
+      "dense_rank": 11,
+      "bm25_score": null,
+      "dense_score": 0.478069931268692,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.803039307250833,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4676409387458452,
+      "rank": 21,
+      "rrf_score": 0.4676409387458452,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_004",
+      "alias_source_ids": [
+        "P5_004"
+      ],
+      "section": "Chairman's Statement",
+      "pages": [
+        5
+      ],
+      "text": "In addition to developing high quality, green, healthy, smart and economical property projects, the Group actively practices low-carbon management of energy saving and waste reduction by incorporating green concepts into different property projects, practicing green principles in planning, designing, construction and operation to reduce the intensity of pollution emissions and enhance the efficiency of resources utilization. The Group also promotes green office and formulated the 'Self-Checking Standards of Office Environment Management' during the Reporting Year, together with regular inspections and different reward and punishment measures to reduce waste of various resources such as energy, water, and paper.",
+      "retrieval_text": "[Section]\nChairman's Statement\n\n[Content]\nIn addition to developing high quality, green, healthy, smart and economical property projects, the Group actively practices low-carbon management of energy saving and waste reduction by incorporating green concepts into different property projects, practicing green principles in planning, designing, construction and operation to reduce the intensity of pollution emissions and enhance the efficiency of resources utilization. The Group also promotes green office and formulated the 'Self-Checking Standards of Office Environment Management' during the Reporting Year, together with regular inspections and different reward and punishment measures to reduce waste of various resources such as energy, water, and paper.",
+      "bm25_rank": 22,
+      "dense_rank": 34,
+      "bm25_score": 6.664638042449951,
+      "dense_score": 0.4090043604373932,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1521476017248339,
+      "normalized_dense": 0.5537697320648076,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.46585966482268304,
+      "rank": 22,
+      "rrf_score": 0.46585966482268304,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "About this Report / Reporting Boundary",
+      "pages": [
+        4
+      ],
+      "text": "The Group welcomes any comments or suggestions from the stakeholders on the environmental, social and governance performance of the Group. Please contact the Group through the following channels:",
+      "retrieval_text": "[Section]\nAbout this Report / Reporting Boundary\n\n[Content]\nThe Group welcomes any comments or suggestions from the stakeholders on the environmental, social and governance performance of the Group. Please contact the Group through the following channels:",
+      "bm25_rank": null,
+      "dense_rank": 13,
+      "bm25_score": null,
+      "dense_score": 0.4718359410762787,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7805397598168095,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.45708153338554774,
+      "rank": 23,
+      "rrf_score": 0.45708153338554774,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_004",
+      "alias_source_ids": [
+        "P3_004"
+      ],
+      "section": "About this Report / Reporting Standards",
+      "pages": [
+        3
+      ],
+      "text": "The Group strives to establish clear, quantifiable, achievable, relevant and time-sensitive key performance indicators (KPIs) and sets out the standards and methodologies used for calculation in the 'Key Performance Indicator Summary' of this Report.",
+      "retrieval_text": "[Section]\nAbout this Report / Reporting Standards\n\n[Content]\nThe Group strives to establish clear, quantifiable, achievable, relevant and time-sensitive key performance indicators (KPIs) and sets out the standards and methodologies used for calculation in the 'Key Performance Indicator Summary' of this Report.",
+      "bm25_rank": null,
+      "dense_rank": 14,
+      "bm25_score": null,
+      "dense_score": 0.46769481897354126,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7655937348304348,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.45050814276112194,
+      "rank": 24,
+      "rrf_score": 0.45050814276112194,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P22_001",
+      "alias_source_ids": [
+        "P22_001"
+      ],
+      "section": "Material Issues / Green Buildings",
+      "pages": [
+        22
+      ],
+      "text": "The Group actively promotes green buildings and considers the potential environmental impact of projects during their life cycle from various aspects such as supply chain, building design, construction and operation. During the Reporting Year, the Group developed a number of new green building projects. Among them, Hohhot Glorioushire Project, the ultra-low energy building project in Hohhot, Inner Mongolia is the most representative. The project is the first largescale demonstration project of ultra-low energy consumption commercial housing in a severe cold region in Mainland China, with a 92% energy saving rate in heating, and has been awarded the certificate of 'Ultra-low Energy Consumption Building' and 'Healthy Building Two Stars' by the China Association of Building Energy Efficiency.",
+      "retrieval_text": "[Section]\nMaterial Issues / Green Buildings\n\n[Content]\nThe Group actively promotes green buildings and considers the potential environmental impact of projects during their life cycle from various aspects such as supply chain, building design, construction and operation. During the Reporting Year, the Group developed a number of new green building projects. Among them, Hohhot Glorioushire Project, the ultra-low energy building project in Hohhot, Inner Mongolia is the most representative. The project is the first largescale demonstration project of ultra-low energy consumption commercial housing in a severe cold region in Mainland China, with a 92% energy saving rate in heating, and has been awarded the certificate of 'Ultra-low Energy Consumption Building' and 'Healthy Building Two Stars' by the China Association of Building Energy Efficiency.",
+      "bm25_rank": 62,
+      "dense_rank": 28,
+      "bm25_score": 3.773214340209961,
+      "dense_score": 0.4188573658466339,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0589664416482769,
+      "normalized_dense": 0.589330930547714,
+      "normalized_bm25_rank": 0.5906040268456376,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.440877905967664,
+      "rank": 25,
+      "rrf_score": 0.440877905967664,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P23_003",
+      "alias_source_ids": [
+        "P23_003"
+      ],
+      "section": "Material Issues / Environmental Management",
+      "pages": [
+        23
+      ],
+      "text": "The assessment showed that the total GHG emissions of the headquarters and offices was 5,180.87 tonnes of carbon dioxide equivalent and GHG intensity (by area) was 0.13 tonnes of carbon dioxide equivalent per square meter during the Reporting Year.",
+      "retrieval_text": "[Section]\nMaterial Issues / Environmental Management\n\n[Content]\nThe assessment showed that the total GHG emissions of the headquarters and offices was 5,180.87 tonnes of carbon dioxide equivalent and GHG intensity (by area) was 0.13 tonnes of carbon dioxide equivalent per square meter during the Reporting Year.",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.4619882106781006,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7449975997600082,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.4392726498488888,
+      "rank": 26,
+      "rrf_score": 0.4392726498488888,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_002",
+      "alias_source_ids": [
+        "P5_002"
+      ],
+      "section": "Chairman's Statement",
+      "pages": [
+        5
+      ],
+      "text": "In 2021, COGO made a breakthrough in environmental, social and governance development by formulating corporate sustainability strategies to provide clear guidance to the Group and all employees, and is committed to integrating the concept of sustainable development into its business and management practices. The sustainability strategies will establish KPIs, long-term and short-term targets, and roadmaps for the implementation of each initiative in a phased manner in various areas, including green positioning, green design, green construction, green supply chain, green operations and green office.",
+      "retrieval_text": "[Section]\nChairman's Statement\n\n[Content]\nIn 2021, COGO made a breakthrough in environmental, social and governance development by formulating corporate sustainability strategies to provide clear guidance to the Group and all employees, and is committed to integrating the concept of sustainable development into its business and management practices. The sustainability strategies will establish KPIs, long-term and short-term targets, and roadmaps for the implementation of each initiative in a phased manner in various areas, including green positioning, green design, green construction, green supply chain, green operations and green office.",
+      "bm25_rank": 71,
+      "dense_rank": 27,
+      "bm25_score": 2.6650729179382324,
+      "dense_score": 0.4209442734718323,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.023254656074902978,
+      "normalized_dense": 0.5968629406494814,
+      "normalized_bm25_rank": 0.5302013422818792,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.43167376581142664,
+      "rank": 27,
+      "rrf_score": 0.43167376581142664,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_003",
+      "alias_source_ids": [
+        "P7_003"
+      ],
+      "section": "Governance / Climate-related Financial Disclosure Recommendations",
+      "pages": [
+        7
+      ],
+      "text": "The Group strictly complies with all applicable regulations. During the Reporting Year, the Group did not have any violations or lawsuits related to environmental protection, employment management, product liability and corruption. No new laws and regulations that might have a significant impact on the business had been identified. For more details, please refer to the section 'Compliance Performance' in the 'Key Performance Indicator Summary' of this Report. In addition, the Group carried out sustainability risk assessment during the Reporting Year, covering both physical and transitional risks. The Group will continue to review and enhance the effectiveness of relevant management procedures based on the reports and recommendations.",
+      "retrieval_text": "[Section]\nGovernance / Climate-related Financial Disclosure Recommendations\n\n[Content]\nThe Group strictly complies with all applicable regulations. During the Reporting Year, the Group did not have any violations or lawsuits related to environmental protection, employment management, product liability and corruption. No new laws and regulations that might have a significant impact on the business had been identified. For more details, please refer to the section 'Compliance Performance' in the 'Key Performance Indicator Summary' of this Report. In addition, the Group carried out sustainability risk assessment during the Reporting Year, covering both physical and transitional risks. The Group will continue to review and enhance the effectiveness of relevant management procedures based on the reports and recommendations.",
+      "bm25_rank": null,
+      "dense_rank": 18,
+      "bm25_score": null,
+      "dense_score": 0.4531313180923462,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7130315445208216,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.42674224863597887,
+      "rank": 28,
+      "rrf_score": 0.42674224863597887,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T45_001",
+      "alias_source_ids": [
+        "T45_001"
+      ],
+      "section": "Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        45
+      ],
+      "text": "Material Aspect | Content | Page Index/Remarks B7 Anti-corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | 32, 41 B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | 41 B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | 32 B7.3 | Description of anti-corruption training provided to directors and staff. | 32-33 B8 Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | 20, 34-36 B8.1 | Focus areas of contribution. | 34-36 B8.2 | Resources contributed to the focus area. | 34-36",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMaterial Aspect | Content | Page Index/Remarks B7 Anti-corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | 32, 41 B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | 41 B7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. | 32 B7.3 | Description of anti-corruption training provided to directors and staff. | 32-33 B8 Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | 20, 34-36 B8.1 | Focus areas of contribution. | 34-36 B8.2 | Resources contributed to the focus area. | 34-36",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.4401913285255432,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.666328886982417,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.4063694728599533,
+      "rank": 29,
+      "rrf_score": 0.4063694728599533,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L10_002",
+      "alias_source_ids": [
+        "L10_002"
+      ],
+      "section": "Sustainable Development Strategy",
+      "pages": [
+        10
+      ],
+      "text": "Respond to the United Nations Sustainable Development Goals and regularly report on specific progress made in relation to the Group's business-related goals;",
+      "retrieval_text": "[Section]\nSustainable Development Strategy\n\n[Content]\nRespond to the United Nations Sustainable Development Goals and regularly report on specific progress made in relation to the Group's business-related goals;",
+      "bm25_rank": null,
+      "dense_rank": 23,
+      "bm25_score": null,
+      "dense_score": 0.4379872679710388,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6583740517223483,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.40090071676054007,
+      "rank": 30,
+      "rrf_score": 0.40090071676054007,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_002",
+      "alias_source_ids": [
+        "P6_002"
+      ],
+      "section": "Governance / Sustainability Governance Structure",
+      "pages": [
+        6
+      ],
+      "text": "In face of various environmental, social and governance issues, the Board has played an active role in formulating corporate sustainable development strategy and is primarily responsible for its effectiveness. The Board authorises the Executive Committee to coordinate matters related to sustainable development. The committee discusses on a regular basis the implementation of strategies and reviews KPIs. Continuous communication is conducted with departments with the provision of guidance to ensure that all business units are fully aware of environmental, social and governance concerns during daily operations.",
+      "retrieval_text": "[Section]\nGovernance / Sustainability Governance Structure\n\n[Content]\nIn face of various environmental, social and governance issues, the Board has played an active role in formulating corporate sustainable development strategy and is primarily responsible for its effectiveness. The Board authorises the Executive Committee to coordinate matters related to sustainable development. The committee discusses on a regular basis the implementation of strategies and reviews KPIs. Continuous communication is conducted with departments with the provision of guidance to ensure that all business units are fully aware of environmental, social and governance concerns during daily operations.",
+      "bm25_rank": null,
+      "dense_rank": 24,
+      "bm25_score": null,
+      "dense_score": 0.4363659918308258,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6525225860808453,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.39751042190681934,
+      "rank": 31,
+      "rrf_score": 0.39751042190681934,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T41_001",
+      "alias_source_ids": [
+        "T41_001"
+      ],
+      "section": "Key Performance Indicator Summary / Compliance Performance",
+      "pages": [
+        41
+      ],
+      "text": "Aspects | Relevant Laws and Regulations | Compliance Status A1 Emission | • Environmental Protection Law of the People's Republic of China • Environmental Impact Assessment Law of the People's Republic of China • Water Pollution Prevention and Control Law of the People's Republic of China • Prevention and Control of Noise Pollution Law of the People's Republic of China • Law of the People's Republic of China on the Prevention and Control of Environmental Pollution by Solid Waste • Administrative Regulations on Environmental Protection for Construction Projects • Interim Methods for Endorsement of Environmental Protection for Completed Construction Projects • Technical Guidelines of Environmental Protection Inspections for Completed Construction Projects - Pollution Impacts Category | The Group has not identified any cases of non-compliance in relation to emissions during the Reporting Year. B1 Employment | • The Labour Law of the People's Republic of China • The Labour Contract Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B2 Health and Safety | • The Production Safety Law of the People's Republic of China • The Law of the People's Republic of China on the Prevention and Treatment of Occupational Diseases • Fire Control Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B4 Labour Standards | • The Labour Law of the People's Republic of China • The Law of the People's Republic of China on the Protection of Minors | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B6 Product Responsibility | • Product Quality Law of the People's Republic of China • Patent Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B7 Anti-corruption | • Anti-Unfair Competition Law of the People's Republic of China • Anti-Money Laundering Law of the People's Republic of China | The Group did not receive any cases of corruption proceedings against the Group or its employees during the Reporting Year, and did not breach any relevant laws and regulations that have a significant impact on the Group.",
+      "retrieval_text": "[Section]\nKey Performance Indicator Summary / Compliance Performance\n\n[Content]\nAspects | Relevant Laws and Regulations | Compliance Status A1 Emission | • Environmental Protection Law of the People's Republic of China • Environmental Impact Assessment Law of the People's Republic of China • Water Pollution Prevention and Control Law of the People's Republic of China • Prevention and Control of Noise Pollution Law of the People's Republic of China • Law of the People's Republic of China on the Prevention and Control of Environmental Pollution by Solid Waste • Administrative Regulations on Environmental Protection for Construction Projects • Interim Methods for Endorsement of Environmental Protection for Completed Construction Projects • Technical Guidelines of Environmental Protection Inspections for Completed Construction Projects - Pollution Impacts Category | The Group has not identified any cases of non-compliance in relation to emissions during the Reporting Year. B1 Employment | • The Labour Law of the People's Republic of China • The Labour Contract Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B2 Health and Safety | • The Production Safety Law of the People's Republic of China • The Law of the People's Republic of China on the Prevention and Treatment of Occupational Diseases • Fire Control Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B4 Labour Standards | • The Labour Law of the People's Republic of China • The Law of the People's Republic of China on the Protection of Minors | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B6 Product Responsibility | • Product Quality Law of the People's Republic of China • Patent Law of the People's Republic of China | The Group has not identified any cases of non-compliance in relation to employment during the Reporting Year. B7 Anti-corruption | • Anti-Unfair Competition Law of the People's Republic of China • Anti-Money Laundering Law of the People's Republic of China | The Group did not receive any cases of corruption proceedings against the Group or its employees during the Reporting Year, and did not breach any relevant laws and regulations that have a significant impact on the Group.",
+      "bm25_rank": 75,
+      "dense_rank": 36,
+      "bm25_score": 2.3478891849517822,
+      "dense_score": 0.40488603711128235,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.013032858358368522,
+      "normalized_dense": 0.5389059918014298,
+      "normalized_bm25_rank": 0.5033557046979866,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.3945793735001607,
+      "rank": 32,
+      "rrf_score": 0.3945793735001607,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_006",
+      "alias_source_ids": [
+        "P3_006"
+      ],
+      "section": "About this Report / Reporting Standards",
+      "pages": [
+        3
+      ],
+      "text": "The reporting standards and methodologies for calculating KPIs remain consistent, and any changes will be specified to facilitate stakeholders' evaluation of the Group's performance over the years.",
+      "retrieval_text": "[Section]\nAbout this Report / Reporting Standards\n\n[Content]\nThe reporting standards and methodologies for calculating KPIs remain consistent, and any changes will be specified to facilitate stakeholders' evaluation of the Group's performance over the years.",
+      "bm25_rank": null,
+      "dense_rank": 25,
+      "bm25_score": null,
+      "dense_score": 0.4322015941143036,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6374925553838033,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.39090762928366,
+      "rank": 33,
+      "rrf_score": 0.39090762928366,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_002",
+      "alias_source_ids": [
+        "P10_002"
+      ],
+      "section": "Sustainable Development Strategy",
+      "pages": [
+        10
+      ],
+      "text": "During the Reporting Year, following a series of planning work including meeting and discussion with stakeholders, industry benchmarking and strategic review, the Group took a bold step to establish a visionary sustainable development strategy, serving as a guide for the Group and all employees to promote sustainable development works, ensuring that sustainable development elements are integrated into all aspects of operations and business decisions. The 'Green Sustainable Development Strategy' will set up clear KPIs, long- and short-term goals and implementation roadmaps for each strategic area in stages. The first phase starts in 2022.",
+      "retrieval_text": "[Section]\nSustainable Development Strategy\n\n[Content]\nDuring the Reporting Year, following a series of planning work including meeting and discussion with stakeholders, industry benchmarking and strategic review, the Group took a bold step to establish a visionary sustainable development strategy, serving as a guide for the Group and all employees to promote sustainable development works, ensuring that sustainable development elements are integrated into all aspects of operations and business decisions. The 'Green Sustainable Development Strategy' will set up clear KPIs, long- and short-term goals and implementation roadmaps for each strategic area in stages. The first phase starts in 2022.",
+      "bm25_rank": 56,
+      "dense_rank": 45,
+      "bm25_score": 4.270158290863037,
+      "dense_score": 0.38996621966362,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07498132517399737,
+      "normalized_dense": 0.48505779345501937,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 45,
+      "composite_score": 0.3887933383816401,
+      "rank": 34,
+      "rrf_score": 0.3887933383816401,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_001",
+      "alias_source_ids": [
+        "P5_001"
+      ],
+      "section": "Chairman's Statement",
+      "pages": [
+        5
+      ],
+      "text": "The Central Government has pledged to reach carbon dioxide emissions peaking by 2030 and achieve carbon neutrality by 2060 (the 'Dual Carbon Goals'), and implement a number of institutional policies and measures to achieve the Dual Carbon Goals during the year. As one of the leading property developers in Mainland China, the Group is accelerating the pace of sustainable development to contribute to the country's achievement of the Dual Carbon Goals.",
+      "retrieval_text": "[Section]\nChairman's Statement\n\n[Content]\nThe Central Government has pledged to reach carbon dioxide emissions peaking by 2030 and achieve carbon neutrality by 2060 (the 'Dual Carbon Goals'), and implement a number of institutional policies and measures to achieve the Dual Carbon Goals during the year. As one of the leading property developers in Mainland China, the Group is accelerating the pace of sustainable development to contribute to the country's achievement of the Dual Carbon Goals.",
+      "bm25_rank": 11,
+      "dense_rank": 59,
+      "bm25_score": 7.752890586853027,
+      "dense_score": 0.3586735129356384,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18721843360090423,
+      "normalized_dense": 0.37211700952147186,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.610738255033557,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.3831208816634343,
+      "rank": 35,
+      "rrf_score": 0.3831208816634343,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L11_006",
+      "alias_source_ids": [
+        "L11_006"
+      ],
+      "section": "Sustainable Development Strategy / Green Construction",
+      "pages": [
+        11
+      ],
+      "text": "Provide funding to green suppliers to help companies improve sustainable operations, such as providing training and financial support;",
+      "retrieval_text": "[Section]\nSustainable Development Strategy / Green Construction\n\n[Content]\nProvide funding to green suppliers to help companies improve sustainable operations, such as providing training and financial support;",
+      "bm25_rank": 14,
+      "dense_rank": 63,
+      "bm25_score": 7.124013900756836,
+      "dense_score": 0.3543291687965393,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16695178810368885,
+      "normalized_dense": 0.3564375211022668,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.5838926174496644,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.3661971812816989,
+      "rank": 36,
+      "rrf_score": 0.3661971812816989,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_004",
+      "alias_source_ids": [
+        "P6_004"
+      ],
+      "section": "Governance / Sustainability Governance Structure",
+      "pages": [
+        6
+      ],
+      "text": "The Group established an environmental, social and governance task force and a working group in April 2022 to implement the Group's environmental, social and governance initiatives and to ensure comprehensive coverage of the environmental, social and governance initiatives of the Group. The task force will be responsible for the formulation of the Group's sustainable development strategy and objectives, and will be required to report to the Executive Committee on a regular basis, members of the task force are mainly executive directors and senior management of the Group. The working group will be responsible for the pragmatic implementation of sustainability initiatives in its daily operations, and members of the working group are the heads of the Group's various business units.",
+      "retrieval_text": "[Section]\nGovernance / Sustainability Governance Structure\n\n[Content]\nThe Group established an environmental, social and governance task force and a working group in April 2022 to implement the Group's environmental, social and governance initiatives and to ensure comprehensive coverage of the environmental, social and governance initiatives of the Group. The task force will be responsible for the formulation of the Group's sustainable development strategy and objectives, and will be required to report to the Executive Committee on a regular basis, members of the task force are mainly executive directors and senior management of the Group. The working group will be responsible for the pragmatic implementation of sustainability initiatives in its daily operations, and members of the working group are the heads of the Group's various business units.",
+      "bm25_rank": null,
+      "dense_rank": 29,
+      "bm25_score": null,
+      "dense_score": 0.41660386323928833,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5811976503785581,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.3658352850150457,
+      "rank": 37,
+      "rrf_score": 0.3658352850150457,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_008",
+      "alias_source_ids": [
+        "L12_008"
+      ],
+      "section": "Sustainable Development Strategy / Green Operation",
+      "pages": [
+        12
+      ],
+      "text": "Establish a comprehensive low-carbon office operation program, comprehensively monitor office's carbon emissions, and regularly review the effectiveness of carbon reduction measures;",
+      "retrieval_text": "[Section]\nSustainable Development Strategy / Green Operation\n\n[Content]\nEstablish a comprehensive low-carbon office operation program, comprehensively monitor office's carbon emissions, and regularly review the effectiveness of carbon reduction measures;",
+      "bm25_rank": null,
+      "dense_rank": 31,
+      "bm25_score": null,
+      "dense_score": 0.4138273298740387,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5711766618582989,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.3596433752745657,
+      "rank": 38,
+      "rrf_score": 0.3596433752745657,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P22_004",
+      "alias_source_ids": [
+        "P22_004"
+      ],
+      "section": "Material Issues / Green Buildings",
+      "pages": [
+        22
+      ],
+      "text": "With the development of a sustainable development strategy, the Group is progressively adopting a data management system to track the use of raw materials and the associated carbon emissions.",
+      "retrieval_text": "[Section]\nMaterial Issues / Green Buildings\n\n[Content]\nWith the development of a sustainable development strategy, the Group is progressively adopting a data management system to track the use of raw materials and the associated carbon emissions.",
+      "bm25_rank": null,
+      "dense_rank": 32,
+      "bm25_score": null,
+      "dense_score": 0.4115283489227295,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5628792424900669,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.3553969966164899,
+      "rank": 39,
+      "rrf_score": 0.3553969966164899,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_001",
+      "alias_source_ids": [
+        "P20_001"
+      ],
+      "section": "Material Issues / Stakeholder Engagement and Material Issues",
+      "pages": [
+        20
+      ],
+      "text": "COGO attaches great importance to stakeholder engagement and regards it as the basis for realising its sustainable development plan and fulfilling social responsibilities. Through regular communication, the Group understands stakeholders' concerns and expectations for the Group's sustainable development, and in response, formulating operational strategies aligning with the Group's businesses.",
+      "retrieval_text": "[Section]\nMaterial Issues / Stakeholder Engagement and Material Issues\n\n[Content]\nCOGO attaches great importance to stakeholder engagement and regards it as the basis for realising its sustainable development plan and fulfilling social responsibilities. Through regular communication, the Group understands stakeholders' concerns and expectations for the Group's sustainable development, and in response, formulating operational strategies aligning with the Group's businesses.",
+      "bm25_rank": 38,
+      "dense_rank": 61,
+      "bm25_score": 5.4710893630981445,
+      "dense_score": 0.3573196828365326,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1136834186776781,
+      "normalized_dense": 0.3672308028396727,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.5973154362416108,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.3458983372126425,
+      "rank": 40,
+      "rrf_score": 0.3458983372126425,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_007",
+      "alias_source_ids": [
+        "L12_007"
+      ],
+      "section": "Sustainable Development Strategy / Green Operation",
+      "pages": [
+        12
+      ],
+      "text": "Set science-based carbon reduction targets to achieve carbon neutrality by 2060;",
+      "retrieval_text": "[Section]\nSustainable Development Strategy / Green Operation\n\n[Content]\nSet science-based carbon reduction targets to achieve carbon neutrality by 2060;",
+      "bm25_rank": null,
+      "dense_rank": 35,
+      "bm25_score": null,
+      "dense_score": 0.4070766866207123,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5468124242832652,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.3457467646065253,
+      "rank": 41,
+      "rrf_score": 0.3457467646065253,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L11_007",
+      "alias_source_ids": [
+        "L11_007"
+      ],
+      "section": "Sustainable Development Strategy / Green Construction",
+      "pages": [
+        11
+      ],
+      "text": "Strengthen communication with the industry to promote green supply chain, such as participating in environmental supply chain actions in the real estate industry.",
+      "retrieval_text": "[Section]\nSustainable Development Strategy / Green Construction\n\n[Content]\nStrengthen communication with the industry to promote green supply chain, such as participating in environmental supply chain actions in the real estate industry.",
+      "bm25_rank": 20,
+      "dense_rank": 70,
+      "bm25_score": 6.81218147277832,
+      "dense_score": 0.34694069623947144,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15690244550266602,
+      "normalized_dense": 0.32977124739445157,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.5369127516778524,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.3414312981718127,
+      "rank": 42,
+      "rrf_score": 0.3414312981718127,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_005",
+      "alias_source_ids": [
+        "L12_005"
+      ],
+      "section": "Sustainable Development Strategy / Green Operation",
+      "pages": [
+        12
+      ],
+      "text": "Develop a smart property management system to deepen the operational management of green building projects, such as the use of automated monitoring to track and analyze resources consumption and emissions;",
+      "retrieval_text": "[Section]\nSustainable Development Strategy / Green Operation\n\n[Content]\nDevelop a smart property management system to deepen the operational management of green building projects, such as the use of automated monitoring to track and analyze resources consumption and emissions;",
+      "bm25_rank": 26,
+      "dense_rank": 68,
+      "bm25_score": 6.418830394744873,
+      "dense_score": 0.34938979148864746,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14422602255568462,
+      "normalized_dense": 0.3386104551937095,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.5503355704697986,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.3406474544329621,
+      "rank": 43,
+      "rrf_score": 0.3406474544329621,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L11_004",
+      "alias_source_ids": [
+        "L11_004"
+      ],
+      "section": "Sustainable Development Strategy / Green Construction",
+      "pages": [
+        11
+      ],
+      "text": "Establish a green supply chain database and promote smart monitoring to regularly assess suppliers' green performance;",
+      "retrieval_text": "[Section]\nSustainable Development Strategy / Green Construction\n\n[Content]\nEstablish a green supply chain database and promote smart monitoring to regularly assess suppliers' green performance;",
+      "bm25_rank": null,
+      "dense_rank": 37,
+      "bm25_score": null,
+      "dense_score": 0.40485331416130066,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5387878890225403,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.3402536135068824,
+      "rank": 44,
+      "rrf_score": 0.3402536135068824,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_002",
+      "alias_source_ids": [
+        "P18_002"
+      ],
+      "section": "Feature Stories / Feature Story 2",
+      "pages": [
+        18
+      ],
+      "text": "China Overseas International Center is located in Xicheng District, Beijing, with a project operation period of about 15 years. The Group adopts a low-carbon management model, and improves energy utilization efficiency by enhancing the quality of air-conditioning direct-fired units, power supply equipment, lighting facilities, and basement renewal, ensuring operational quality and project sustainability, in order to build market reputation. In 2021, the Group has accumulatively invested over RMB12 million in China Overseas International Center, with the following quality enhancement works:",
+      "retrieval_text": "[Section]\nFeature Stories / Feature Story 2\n\n[Content]\nChina Overseas International Center is located in Xicheng District, Beijing, with a project operation period of about 15 years. The Group adopts a low-carbon management model, and improves energy utilization efficiency by enhancing the quality of air-conditioning direct-fired units, power supply equipment, lighting facilities, and basement renewal, ensuring operational quality and project sustainability, in order to build market reputation. In 2021, the Group has accumulatively invested over RMB12 million in China Overseas International Center, with the following quality enhancement works:",
+      "bm25_rank": 76,
+      "dense_rank": 51,
+      "bm25_score": 2.214301347732544,
+      "dense_score": 0.37599363923072815,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.008727757852149562,
+      "normalized_dense": 0.4346283371161001,
+      "normalized_bm25_rank": 0.49664429530201337,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 51,
+      "composite_score": 0.3364158051315348,
+      "rank": 45,
+      "rrf_score": 0.3364158051315348,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_001",
+      "alias_source_ids": [
+        "P7_001"
+      ],
+      "section": "Governance / Climate-related Financial Disclosure Recommendations",
+      "pages": [
+        7
+      ],
+      "text": "Regulators in Hong Kong are actively driving climate-related disclosure and strengthening relevant requirements. The Green and Sustainable Finance Cross-Agency Steering Group requires institutions of the financial services sector to make financial disclosures recommended by the Task Force on Climate-Related Financial Disclosures ('TCFD') by 2025. The SEHK has formulated the Guidance on Climate Disclosure for listed companies based on the recommendations of the TCFD to help the companies take action to tackle climate change, effectively manage both opportunities and risks related to climate change, and facilitate a smooth transition to a more sustainable, lower-carbon economy.",
+      "retrieval_text": "[Section]\nGovernance / Climate-related Financial Disclosure Recommendations\n\n[Content]\nRegulators in Hong Kong are actively driving climate-related disclosure and strengthening relevant requirements. The Green and Sustainable Finance Cross-Agency Steering Group requires institutions of the financial services sector to make financial disclosures recommended by the Task Force on Climate-Related Financial Disclosures ('TCFD') by 2025. The SEHK has formulated the Guidance on Climate Disclosure for listed companies based on the recommendations of the TCFD to help the companies take action to tackle climate change, effectively manage both opportunities and risks related to climate change, and facilitate a smooth transition to a more sustainable, lower-carbon economy.",
+      "bm25_rank": null,
+      "dense_rank": 38,
+      "bm25_score": null,
+      "dense_score": 0.3980731964111328,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5143172728971225,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.33034661598379156,
+      "rank": 46,
+      "rrf_score": 0.33034661598379156,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_002",
+      "alias_source_ids": [
+        "P28_002"
+      ],
+      "section": "Material Issues / Labour Standards",
+      "pages": [
+        28
+      ],
+      "text": "As of the end of 2021, the Group employed 3,505 employees, including 11 employees in Hong Kong and 3,494 employees in Mainland China. The ratio of male to female employees was 1.5:1 and the total number of new hires during the Reporting Year was 1,029. Please refer to the 'Key Performance Indicator Summary' for details.",
+      "retrieval_text": "[Section]\nMaterial Issues / Labour Standards\n\n[Content]\nAs of the end of 2021, the Group employed 3,505 employees, including 11 employees in Hong Kong and 3,494 employees in Mainland China. The ratio of male to female employees was 1.5:1 and the total number of new hires during the Reporting Year was 1,029. Please refer to the 'Key Performance Indicator Summary' for details.",
+      "bm25_rank": 10,
+      "dense_rank": 93,
+      "bm25_score": 8.838130950927734,
+      "dense_score": 0.3170163929462433,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2221921927244963,
+      "normalized_dense": 0.22176926782838355,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.3825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.29252748094255165,
+      "rank": 47,
+      "rrf_score": 0.29252748094255165,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P2_001",
+      "alias_source_ids": [
+        "P2_001"
+      ],
+      "section": "About the Group",
+      "pages": [
+        2
+      ],
+      "text": "China Overseas Grand Oceans Group Limited (the 'Company') and its subsidiaries (collectively referred to as 'COGO' or the 'Group') are principally engaged in property investment and development in the People's Republic of China (the 'PRC' or 'China').",
+      "retrieval_text": "[Section]\nAbout the Group\n\n[Content]\nChina Overseas Grand Oceans Group Limited (the 'Company') and its subsidiaries (collectively referred to as 'COGO' or the 'Group') are principally engaged in property investment and development in the People's Republic of China (the 'PRC' or 'China').",
+      "bm25_rank": 5,
+      "dense_rank": 115,
+      "bm25_score": 10.991170883178711,
+      "dense_score": 0.29808053374290466,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2915776509756945,
+      "normalized_dense": 0.15342648107392212,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.2348993288590604,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.2563101005844345,
+      "rank": 48,
+      "rrf_score": 0.2563101005844345,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T38_002",
+      "alias_source_ids": [
+        "T38_002"
+      ],
+      "section": "Key Performance Indicator Summary",
+      "pages": [
+        38
+      ],
+      "text": "Number of Employees Distribution of Employees 12 | 2021 | 2020 Region | Mainland China | 3,494 | 2,974 Hong Kong | 11 | 10 Gender | Male | 2,120 | 1,844 Female | 1,385 | 1,140 Position | Senior Management | 31 | 30 Middle Management | 109 | 87 General Staff | 3,365 | 2,867 Age | Under 30 | 1,315 | 1,228 30-50 | 2,151 | 1,716 50 Above | 39 | 40 3,505 | 2,984 Male to Female Employee Ratio | 1.5:1 | 1.62:1",
+      "retrieval_text": "[Section]\nKey Performance Indicator Summary\n\n[Content]\nNumber of Employees Distribution of Employees 12 | 2021 | 2020 Region | Mainland China | 3,494 | 2,974 Hong Kong | 11 | 10 Gender | Male | 2,120 | 1,844 Female | 1,385 | 1,140 Position | Senior Management | 31 | 30 Middle Management | 109 | 87 General Staff | 3,365 | 2,867 Age | Under 30 | 1,315 | 1,228 30-50 | 2,151 | 1,716 50 Above | 39 | 40 3,505 | 2,984 Male to Female Employee Ratio | 1.5:1 | 1.62:1",
+      "bm25_rank": 7,
+      "dense_rank": 134,
+      "bm25_score": 9.76396656036377,
+      "dense_score": 0.2776376008987427,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.25202885625485405,
+      "normalized_dense": 0.07964440522504765,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.10738255033557043,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.19573097750926768,
+      "rank": 49,
+      "rrf_score": 0.19573097750926768,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T39_001",
+      "alias_source_ids": [
+        "T39_001"
+      ],
+      "section": "Key Performance Indicator Summary",
+      "pages": [
+        39
+      ],
+      "text": "Number of New Hires (Percentage) Distribution of New Hires | 2021 | 2020 Region | Mainland China | 1,025 (29.34%) | 879 (29.56%) Hong Kong | 4 (36.36%) | 0 Gender | Male | 612 (28.87%) | 523 (28.36%) Female | 417 (30.11%) | 356 (31.23%) Age | Under 30 | 517 (39.32%) | 511 (41.61%) 30-50 | 509 (23.66%) | 366 (21.33%) 50 Above | 3 (7.69%) | 2 (5%) Total | 1,029 (29.36%) | 879 (29.46%) Occupational Safety and Health Performance | 2021 | 2020 Work-related Injury | 0 | 0 Work-related Fatalities | 0 | 0 Lost Days Due to Work-related Injury | 0 | 0 Number of Employees Received Training (Percentage) 15,16 Distribution of Employees Received Training | 2021 | 2020 Gender | Male | 1,719 (81.08%) | 1,839 (99.73%) Female | 972 (70.18%) | 1,135 (99.56%) Position | Senior Management | 31 (100.00%) | 29 (96.67%) Middle Management | 109 (100.00%) | 84 (96.55%) General Staff | 2,551 (75.81%) | 2,861 (99.79%) Total | 2,691 (76.78%) | 2,974 (99.66%)",
+      "retrieval_text": "[Section]\nKey Performance Indicator Summary\n\n[Content]\nNumber of New Hires (Percentage) Distribution of New Hires | 2021 | 2020 Region | Mainland China | 1,025 (29.34%) | 879 (29.56%) Hong Kong | 4 (36.36%) | 0 Gender | Male | 612 (28.87%) | 523 (28.36%) Female | 417 (30.11%) | 356 (31.23%) Age | Under 30 | 517 (39.32%) | 511 (41.61%) 30-50 | 509 (23.66%) | 366 (21.33%) 50 Above | 3 (7.69%) | 2 (5%) Total | 1,029 (29.36%) | 879 (29.46%) Occupational Safety and Health Performance | 2021 | 2020 Work-related Injury | 0 | 0 Work-related Fatalities | 0 | 0 Lost Days Due to Work-related Injury | 0 | 0 Number of Employees Received Training (Percentage) 15,16 Distribution of Employees Received Training | 2021 | 2020 Gender | Male | 1,719 (81.08%) | 1,839 (99.73%) Female | 972 (70.18%) | 1,135 (99.56%) Position | Senior Management | 31 (100.00%) | 29 (96.67%) Middle Management | 109 (100.00%) | 84 (96.55%) General Staff | 2,551 (75.81%) | 2,861 (99.79%) Total | 2,691 (76.78%) | 2,974 (99.66%)",
+      "bm25_rank": 4,
+      "dense_rank": null,
+      "bm25_score": 14.348333358764648,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.3997680534401407,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.1779401878692362,
+      "rank": 50,
+      "rrf_score": 0.1779401878692362,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

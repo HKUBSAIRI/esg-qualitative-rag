@@ -1,0 +1,1553 @@
+{
+  "document_id": "2022052701685",
+  "metric_id": 12,
+  "metric_name": "水风险评估",
+  "query": "水风险评估 水风险评估 衡量企业识别、评估和管理水风险的体系成熟度。 内容质量得分 (取值：0, 1, 2) • 2分（卓越）：使用了专业风险识别工具（如 WRI Aqueduct），具备水压力情景分析，有针对高风险站点的应对措施，且建立了水资源治理机制（如首席水官或专项考核）。 • 1分（合格）：有基础的水风险识别和定性描述，具备通用性应对措施（如节水计划），但缺乏针对性工具应用或深度的情景评估。 • 0分（不合格）：无水风险评估披露，或仅笼统提及“重视水资源保护”。 水风险评估 水压力 基准水压力 水资源短缺 干旱风险 洪涝风险 流域风险 高水压力地区 高风险站点 水压力情景分析 WRI Aqueduct WWF水风险过滤器 water risk assessment water stress baseline water stress water scarcity drought risk flood risk basin risk high water stress areas high-risk sites water stress scenario WRI Aqueduct WWF Water Risk Filter 企业是否使用专业水风险工具（如WRI Aqueduct）识别水风险？ 是否按流域、运营点或高水压力区域开展评估？ 是否包含水压力情景分析？ 对高风险站点采取了哪些针对性应对措施？ 是否建立水资源治理机制（如专项职责或考核）？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '水风险评估'. Prefer explicit, auditable disclosure that answers: 企业是否使用专业水风险工具（如WRI Aqueduct）识别水风险？ 是否按流域、运营点或高水压力区域开展评估？ 是否包含水压力情景分析？ 对高风险站点采取了哪些针对性应对措施？ 是否建立水资源治理机制（如专项职责或考核）？ Exclude or down-rank: 排除：仅有笼统“重视节水”；仅有用水效益目标而无风险评估；仅有排污合规数据；仅有社区饮水公益项目；区分：水风险评估关注风险识别工具、情景与高风险站点应对；用水效益目标与行动方案关注节水量化目标及工程/管理措施，二者不可互相替代。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 177,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P15_001",
+      "alias_source_ids": [
+        "P15_001"
+      ],
+      "section": "應對氣候風險 ADDRESSING CLIMATE RISKS",
+      "pages": [
+        15
+      ],
+      "text": "面對世界各地極端天氣頻仍,各國政府均制 定目標以減少氣候變化對環境帶來的影響。 為維持企業的長遠發展,集團於回顧年內展 開應對氣候風險的工作,包括聘請外部顧問 為集團管理層及同事舉行氣候變化培訓,並 參考氣候相關財務披露工作小組( TCFD )的 建議,進行初步的情景分析,藉此幫助我們 識別及管理氣候變化相關機遇及風險。",
+      "retrieval_text": "[Section]\n應對氣候風險 ADDRESSING CLIMATE RISKS\n\n[Content]\n面對世界各地極端天氣頻仍,各國政府均制 定目標以減少氣候變化對環境帶來的影響。 為維持企業的長遠發展,集團於回顧年內展 開應對氣候風險的工作,包括聘請外部顧問 為集團管理層及同事舉行氣候變化培訓,並 參考氣候相關財務披露工作小組( TCFD )的 建議,進行初步的情景分析,藉此幫助我們 識別及管理氣候變化相關機遇及風險。",
+      "bm25_rank": 1,
+      "dense_rank": 5,
+      "bm25_score": 67.19778442382812,
+      "dense_score": 0.5100644826889038,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.8697843720582399,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.7990554027036055,
+      "rank": 1,
+      "rrf_score": 0.7990554027036055,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_006",
+      "alias_source_ids": [
+        "P19_006"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "Data include tap water and water drawn from the rivers. The Group has no issue in sourcing water that is fit for purpose during the year under review.",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\nData include tap water and water drawn from the rivers. The Group has no issue in sourcing water that is fit for purpose during the year under review.",
+      "bm25_rank": 3,
+      "dense_rank": 3,
+      "bm25_score": 56.02935028076172,
+      "dense_score": 0.5291786193847656,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8311545358389285,
+      "normalized_dense": 0.9574377535858724,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.7973072752852571,
+      "rank": 2,
+      "rrf_score": 0.7973072752852571,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L9_011",
+      "alias_source_ids": [
+        "L9_011"
+      ],
+      "section": "· 環境的長遠價值 Long-term Values in the Environment",
+      "pages": [
+        9
+      ],
+      "text": "Establishing a risk assessment mechanism to evaluate risk levels",
+      "retrieval_text": "[Section]\n· 環境的長遠價值 Long-term Values in the Environment\n\n[Content]\nEstablishing a risk assessment mechanism to evaluate risk levels",
+      "bm25_rank": 7,
+      "dense_rank": 2,
+      "bm25_score": 37.77877426147461,
+      "dense_score": 0.536246120929718,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5552405679801014,
+      "normalized_dense": 0.9898478184098287,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.7521257225226818,
+      "rank": 3,
+      "rrf_score": 0.7521257225226818,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_004",
+      "alias_source_ids": [
+        "P13_004"
+      ],
+      "section": "資源使用管理 RESOURCES CONSUMPTION MANAGEMENT / 電力與其他能源 Electricity and Other Energy Sources",
+      "pages": [
+        13
+      ],
+      "text": "We actively implement water conservation measures to improve efficiency in water usage. For instance, part of the steam condensed in Taixing plant was cooled by heat exchangers and then entered the water circulation system to reduce water usage. We have also installed water-saving devices in the living areas of our plants, and have assigned personnel to regularly inspect and monitor the use of related facilities. During the year under review, the Group's total water consumption decreased by 2% year-on-year.",
+      "retrieval_text": "[Section]\n資源使用管理 RESOURCES CONSUMPTION MANAGEMENT / 電力與其他能源 Electricity and Other Energy Sources\n\n[Content]\nWe actively implement water conservation measures to improve efficiency in water usage. For instance, part of the steam condensed in Taixing plant was cooled by heat exchangers and then entered the water circulation system to reduce water usage. We have also installed water-saving devices in the living areas of our plants, and have assigned personnel to regularly inspect and monitor the use of related facilities. During the year under review, the Group's total water consumption decreased by 2% year-on-year.",
+      "bm25_rank": 2,
+      "dense_rank": 14,
+      "bm25_score": 64.36566925048828,
+      "dense_score": 0.4680393934249878,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9571838097557257,
+      "normalized_dense": 0.6770662157744489,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.7102891321030748,
+      "rank": 4,
+      "rrf_score": 0.7102891321030748,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T38_001",
+      "alias_source_ids": [
+        "T38_001"
+      ],
+      "section": "《環境、社會及管治報告指引》 - 內容索引 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE - CONTENT INDEX",
+      "pages": [
+        38
+      ],
+      "text": "層面 A2 :資源使用 一般披露 | 有效使用資源 (包括能源、水及 其他原材料) 的政策 Policies on the efficient use of resources, including energy, water and other raw materials | 11 General Disclosure 關鍵績效指標 KPI A2.1 | A2: Use of Resources 按類型劃分的直接及 / 或間接能 源 (如電、氣或油) 總耗量 (以千 個千瓦時計算) 及密度 (如以每產 量單位、每項設施計算) Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A2.2 | 總耗水量及密度(如以每產量單 位、每項設施計算) Water consumption in total and intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A2.3 | 描述所訂立的能源使用效益目標 及為達到這些目標所採取的步驟 Description of energy use efficiency target(s) set and steps taken to achieve them | 12 關鍵績效指標 KPI A2.4 | 描述求取適用水源上可有任何問 題,以及所訂立的用水效益目標 及為達到這些目標所採取的步驟 Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them | 12, 17 關鍵績效指標 KPI A2.5 | 製成品所用包裝材料的總量(以 噸計算) 及 (如適用) 每生產單位 佔量 Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced | 17",
+      "retrieval_text": "[Section]\n《環境、社會及管治報告指引》 - 內容索引 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE - CONTENT INDEX\n\n[Content]\n層面 A2 :資源使用 一般披露 | 有效使用資源 (包括能源、水及 其他原材料) 的政策 Policies on the efficient use of resources, including energy, water and other raw materials | 11 General Disclosure 關鍵績效指標 KPI A2.1 | A2: Use of Resources 按類型劃分的直接及 / 或間接能 源 (如電、氣或油) 總耗量 (以千 個千瓦時計算) 及密度 (如以每產 量單位、每項設施計算) Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A2.2 | 總耗水量及密度(如以每產量單 位、每項設施計算) Water consumption in total and intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A2.3 | 描述所訂立的能源使用效益目標 及為達到這些目標所採取的步驟 Description of energy use efficiency target(s) set and steps taken to achieve them | 12 關鍵績效指標 KPI A2.4 | 描述求取適用水源上可有任何問 題,以及所訂立的用水效益目標 及為達到這些目標所採取的步驟 Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them | 12, 17 關鍵績效指標 KPI A2.5 | 製成品所用包裝材料的總量(以 噸計算) 及 (如適用) 每生產單位 佔量 Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced | 17",
+      "bm25_rank": 6,
+      "dense_rank": 6,
+      "bm25_score": 39.48966979980469,
+      "dense_score": 0.500454306602478,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5811060516817524,
+      "normalized_dense": 0.8257141404566432,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.6951540454022158,
+      "rank": 5,
+      "rrf_score": 0.6951540454022158,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_002",
+      "alias_source_ids": [
+        "P15_002"
+      ],
+      "section": "應對氣候風險 ADDRESSING CLIMATE RISKS",
+      "pages": [
+        15
+      ],
+      "text": "In the face of frequent extreme weather around the globe, governments worldwide have set targets to reduce the environmental impact of climate change. In order to sustain the long-term development of our business, the Group has embarked on a climate risk management exercise during the year under review, including engaging external consultants to conduct climate change training for the Group's management and other employees, and conducting preliminary scenario analysis with reference to the recommendations of the Task Force on Climate-Related Financial Disclosures (TCFD) to help us identify and manage climate change-related opportunities and risks.",
+      "retrieval_text": "[Section]\n應對氣候風險 ADDRESSING CLIMATE RISKS\n\n[Content]\nIn the face of frequent extreme weather around the globe, governments worldwide have set targets to reduce the environmental impact of climate change. In order to sustain the long-term development of our business, the Group has embarked on a climate risk management exercise during the year under review, including engaging external consultants to conduct climate change training for the Group's management and other employees, and conducting preliminary scenario analysis with reference to the recommendations of the Task Force on Climate-Related Financial Disclosures (TCFD) to help us identify and manage climate change-related opportunities and risks.",
+      "bm25_rank": 15,
+      "dense_rank": 7,
+      "bm25_score": 24.254350662231445,
+      "dense_score": 0.49644166231155396,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.35077702807170436,
+      "normalized_dense": 0.8073130038233998,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.6352652925230006,
+      "rank": 6,
+      "rrf_score": 0.6352652925230006,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L9_010",
+      "alias_source_ids": [
+        "L9_010"
+      ],
+      "section": "· 環境的長遠價值 Long-term Values in the Environment",
+      "pages": [
+        9
+      ],
+      "text": "設有風險評估機制衡量風險級別",
+      "retrieval_text": "[Section]\n· 環境的長遠價值 Long-term Values in the Environment\n\n[Content]\n設有風險評估機制衡量風險級別",
+      "bm25_rank": 59,
+      "dense_rank": 1,
+      "bm25_score": 7.452197074890137,
+      "dense_score": 0.5384599566459656,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0967604501862983,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.610738255033557,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.6304259155406154,
+      "rank": 7,
+      "rrf_score": 0.6304259155406154,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_007",
+      "alias_source_ids": [
+        "L19_007"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "7 數據包括自來水及從江河抽取的用水。回顧年內集團於求取適用水源上沒有任何問題。",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n7 數據包括自來水及從江河抽取的用水。回顧年內集團於求取適用水源上沒有任何問題。",
+      "bm25_rank": 55,
+      "dense_rank": 4,
+      "bm25_score": 8.045927047729492,
+      "dense_score": 0.5249832272529602,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10573651715918166,
+      "normalized_dense": 0.9381985740697615,
+      "normalized_bm25_rank": 0.6375838926174497,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6092483479804139,
+      "rank": 8,
+      "rrf_score": 0.6092483479804139,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_006",
+      "alias_source_ids": [
+        "P6_006"
+      ],
+      "section": "可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE",
+      "pages": [
+        6
+      ],
+      "text": "The Board has established the Policy on Risk Management and Internal Control, and the audit committee of the Company reviews the Group's risks in various aspects every year. The Board effectively identifies, evaluates and manages the ESG risks that are critical to our business through materiality assessments. Under the Board, the Senior Leadership Team ('SLT'), which comprises the Chief Executive Officer, the Deputy Chief Executive Officer, the Chief Financial Officer and other senior management, is responsible for overseeing and managing sustainability issues in day-to-day operations, and regularly reports to the Board.",
+      "retrieval_text": "[Section]\n可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE\n\n[Content]\nThe Board has established the Policy on Risk Management and Internal Control, and the audit committee of the Company reviews the Group's risks in various aspects every year. The Board effectively identifies, evaluates and manages the ESG risks that are critical to our business through materiality assessments. Under the Board, the Senior Leadership Team ('SLT'), which comprises the Chief Executive Officer, the Deputy Chief Executive Officer, the Chief Financial Officer and other senior management, is responsible for overseeing and managing sustainability issues in day-to-day operations, and regularly reports to the Board.",
+      "bm25_rank": 21,
+      "dense_rank": 8,
+      "bm25_score": 18.763160705566406,
+      "dense_score": 0.49105069041252136,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.26776068888280163,
+      "normalized_dense": 0.7825911487802185,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.604640247903328,
+      "rank": 9,
+      "rrf_score": 0.604640247903328,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_009",
+      "alias_source_ids": [
+        "P3_009"
+      ],
+      "section": "管理層的話 MANAGEMENT STATEMENT",
+      "pages": [
+        3
+      ],
+      "text": "In 2021, the Intergovernmental Panel on Climate Change (IPCC) released its latest report, stating that climate change is bringing irreversible and unprecedented changes worldwide. As a responsible corporate citizen, we adhere to the international and national sustainable development agenda. During the year under review, we actively commenced the climate risk management and training exercise to effectively manage and disclose climate change-related issues.",
+      "retrieval_text": "[Section]\n管理層的話 MANAGEMENT STATEMENT\n\n[Content]\nIn 2021, the Intergovernmental Panel on Climate Change (IPCC) released its latest report, stating that climate change is bringing irreversible and unprecedented changes worldwide. As a responsible corporate citizen, we adhere to the international and national sustainable development agenda. During the year under review, we actively commenced the climate risk management and training exercise to effectively manage and disclose climate change-related issues.",
+      "bm25_rank": 17,
+      "dense_rank": 15,
+      "bm25_score": 23.705280303955078,
+      "dense_score": 0.46336302161216736,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.34247612945756745,
+      "normalized_dense": 0.6556213653374967,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.5684325024173554,
+      "rank": 10,
+      "rrf_score": 0.5684325024173554,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_003",
+      "alias_source_ids": [
+        "P13_003"
+      ],
+      "section": "資源使用管理 RESOURCES CONSUMPTION MANAGEMENT / 電力與其他能源 Electricity and Other Energy Sources",
+      "pages": [
+        13
+      ],
+      "text": "我們積極落實節水措施,提升用水效率。以 泰興廠為例,廠房部分蒸氣冷凝水經過換熱 冷卻後,進入循環水系統,以減少用水量。 我們亦於廠房生活區安裝節水型裝置,並委 派人員定期巡查及監督各項用水設施。於回 顧年內,集團總用水量按年下降 2% 。",
+      "retrieval_text": "[Section]\n資源使用管理 RESOURCES CONSUMPTION MANAGEMENT / 電力與其他能源 Electricity and Other Energy Sources\n\n[Content]\n我們積極落實節水措施,提升用水效率。以 泰興廠為例,廠房部分蒸氣冷凝水經過換熱 冷卻後,進入循環水系統,以減少用水量。 我們亦於廠房生活區安裝節水型裝置,並委 派人員定期巡查及監督各項用水設施。於回 顧年內,集團總用水量按年下降 2% 。",
+      "bm25_rank": 22,
+      "dense_rank": 10,
+      "bm25_score": 18.439056396484375,
+      "dense_score": 0.4691445529460907,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.26286084869011606,
+      "normalized_dense": 0.6821342432084633,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.5651446582166901,
+      "rank": 11,
+      "rrf_score": 0.5651446582166901,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_002",
+      "alias_source_ids": [
+        "P6_002"
+      ],
+      "section": "可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE",
+      "pages": [
+        6
+      ],
+      "text": "董事會設有「風險管理及內部監控政策」 ,並 由本公司的審核委員會每年審視集團不同層 面的風險議題。董事會透過重要議題評估, 以有效識別、評估及管理對我們業務至關重 要的環社管風險。董事會下設高層領導團隊, 成員包括行政總裁、副行政總裁、財務總裁 及其他高層管理人員,專責監察和管理日常 營運中的可持續發展事宜,並定期向董事會 匯報。",
+      "retrieval_text": "[Section]\n可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE\n\n[Content]\n董事會設有「風險管理及內部監控政策」 ,並 由本公司的審核委員會每年審視集團不同層 面的風險議題。董事會透過重要議題評估, 以有效識別、評估及管理對我們業務至關重 要的環社管風險。董事會下設高層領導團隊, 成員包括行政總裁、副行政總裁、財務總裁 及其他高層管理人員,專責監察和管理日常 營運中的可持續發展事宜,並定期向董事會 匯報。",
+      "bm25_rank": 51,
+      "dense_rank": 9,
+      "bm25_score": 8.962099075317383,
+      "dense_score": 0.4850150942802429,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11958729420347332,
+      "normalized_dense": 0.7549131835680182,
+      "normalized_bm25_rank": 0.6644295302013423,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.5438417710760782,
+      "rank": 12,
+      "rrf_score": 0.5438417710760782,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T18_001",
+      "alias_source_ids": [
+        "T18_001"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        18
+      ],
+      "text": "單位 Units | 2020 | 2021 排放物 Emissions 危險廢棄物 5 Hazardous waste 5 | 噸 Tonnes | 2,249 | 2,219 無害廢棄物 Non-hazardous waste | 噸 Tonnes | 459 | 439 危險廢棄物密度 3 Hazardous waste intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 0.003 | 0.002 無害廢棄物密度 3 Non-hazardous waste intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 5.46 x 10 -4 | 4.73 x 10 -4 資源使用 Resources consumption 電力 Electricity | 千瓦時 Kilowatt hour | 38,849,576 | 42,683,321 蒸氣 Steam | 噸 Tonnes | 805,738 | 918,880 電油 Petrol | 公升 Litres | 61,078 | 113,308 柴油 Diesel | 公升 Litres | 99,808 | 103,913 天然氣 Natural gas | 立方米 m 3 | 656,979 | 808,174 總能量消耗 Total energy consumption | 千兆焦耳 Gigajoules | 2,544,728 | 2,976,500 總能量消耗 6 Total energy consumption 6 | 千個千瓦時 Megawatt hours | 706,869 | 826,806 總能量消耗密度 3 Total energy consumption intensity 3 | 千兆焦耳 / 產品噸數 Gigajoules/tonne of products | 3.0 2 | 3.2 總能量消耗密度 3 Total energy consumption intensity 3 | 千個千瓦時 / 產品噸數 Megawatt hours/tonne of products | 0.8 | 0.9 水 7 Water 7 | 噸 Tonnes | 1,409,453 2 | 1,381,091 用水密度 3 Water consumption intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 1.68 2 | 1.49",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n單位 Units | 2020 | 2021 排放物 Emissions 危險廢棄物 5 Hazardous waste 5 | 噸 Tonnes | 2,249 | 2,219 無害廢棄物 Non-hazardous waste | 噸 Tonnes | 459 | 439 危險廢棄物密度 3 Hazardous waste intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 0.003 | 0.002 無害廢棄物密度 3 Non-hazardous waste intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 5.46 x 10 -4 | 4.73 x 10 -4 資源使用 Resources consumption 電力 Electricity | 千瓦時 Kilowatt hour | 38,849,576 | 42,683,321 蒸氣 Steam | 噸 Tonnes | 805,738 | 918,880 電油 Petrol | 公升 Litres | 61,078 | 113,308 柴油 Diesel | 公升 Litres | 99,808 | 103,913 天然氣 Natural gas | 立方米 m 3 | 656,979 | 808,174 總能量消耗 Total energy consumption | 千兆焦耳 Gigajoules | 2,544,728 | 2,976,500 總能量消耗 6 Total energy consumption 6 | 千個千瓦時 Megawatt hours | 706,869 | 826,806 總能量消耗密度 3 Total energy consumption intensity 3 | 千兆焦耳 / 產品噸數 Gigajoules/tonne of products | 3.0 2 | 3.2 總能量消耗密度 3 Total energy consumption intensity 3 | 千個千瓦時 / 產品噸數 Megawatt hours/tonne of products | 0.8 | 0.9 水 7 Water 7 | 噸 Tonnes | 1,409,453 2 | 1,381,091 用水密度 3 Water consumption intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 1.68 2 | 1.49",
+      "bm25_rank": 5,
+      "dense_rank": 36,
+      "bm25_score": 41.804744720458984,
+      "dense_score": 0.4121994972229004,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6161055775363418,
+      "normalized_dense": 0.4209962815605419,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.5209053845232567,
+      "rank": 13,
+      "rrf_score": 0.5209053845232567,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T43_001",
+      "alias_source_ids": [
+        "T43_001"
+      ],
+      "section": "層面 B2 ：健康與安全 Aspect B2: Health and Safety",
+      "pages": [
+        43
+      ],
+      "text": "關鍵績效指標 KPI B4.1 | 描述檢討招聘慣例的措施以避免 童工及強制勞工 Description of measures to review employment practices to avoid child and forced labour | 25 關鍵績效指標 KPI B4.2 | 描述在發現違規情況時消除有關 情況所採取的步驟 Description of steps taken to eliminate such practices when discovered | 25 層面 B5 :供應鏈管理 Aspect B5: Supply Chain Management 一般披露 General Disclosure | 管理供應鏈的環境及社會風險政 策 Policies on managing environmental and social risks of the supply chain | 27 關鍵績效指標 KPI B5.1 | 按地區劃分的供應商數目 Number of suppliers by geographical region | 27 關鍵績效指標 KPI B5.2 | 描述有關聘用供應商的慣例,向 其執行有關慣例的供應商數目, 以及有關慣例的執行及監察方法 Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored | 27 關鍵績效指標 KPI B5.3 | 描述有關識別供應鏈每個環節的 環境及社會風險的慣例,以及相 關執行及監察方法 Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored | 28 關鍵績效指標 KPI B5.4 | 描述在揀選供應商時促使多用環 保產品及服務的慣例,以及相關 執行及監察方法 Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored | 27-28",
+      "retrieval_text": "[Section]\n層面 B2 ：健康與安全 Aspect B2: Health and Safety\n\n[Content]\n關鍵績效指標 KPI B4.1 | 描述檢討招聘慣例的措施以避免 童工及強制勞工 Description of measures to review employment practices to avoid child and forced labour | 25 關鍵績效指標 KPI B4.2 | 描述在發現違規情況時消除有關 情況所採取的步驟 Description of steps taken to eliminate such practices when discovered | 25 層面 B5 :供應鏈管理 Aspect B5: Supply Chain Management 一般披露 General Disclosure | 管理供應鏈的環境及社會風險政 策 Policies on managing environmental and social risks of the supply chain | 27 關鍵績效指標 KPI B5.1 | 按地區劃分的供應商數目 Number of suppliers by geographical region | 27 關鍵績效指標 KPI B5.2 | 描述有關聘用供應商的慣例,向 其執行有關慣例的供應商數目, 以及有關慣例的執行及監察方法 Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored | 27 關鍵績效指標 KPI B5.3 | 描述有關識別供應鏈每個環節的 環境及社會風險的慣例,以及相 關執行及監察方法 Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored | 28 關鍵績效指標 KPI B5.4 | 描述在揀選供應商時促使多用環 保產品及服務的慣例,以及相關 執行及監察方法 Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored | 27-28",
+      "bm25_rank": 29,
+      "dense_rank": 18,
+      "bm25_score": 14.006949424743652,
+      "dense_score": 0.45255714654922485,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19585582817704178,
+      "normalized_dense": 0.6060679115402824,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.5096841964194737,
+      "rank": 14,
+      "rrf_score": 0.5096841964194737,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T14_001",
+      "alias_source_ids": [
+        "T14_001"
+      ],
+      "section": "節能減排的目標與行動 TARGETS AND ACTIONS TO SAVE ENERGY AND REDUCE EMISSIONS",
+      "pages": [
+        14
+      ],
+      "text": "業務 Business | 環境範疇 Environmental Aspect | 二零二三年目標 2023 Target (基準年:二零一九年) (Baseline year: 2019) | 措施 Initiatives 泰興溶劑廠 Taixing solvents plant | 生產醋酸酯所需蒸氣用量密度 Steam consumption per intensity to produce acetate | 下降 9.6% 二零二一年進展: 達成比基準下降 4% 的目標 Decrease of 9.6% 2021 Progress: achieved 4% reduction from baseline | • 優化生產工藝 • 優化換熱器及製冷機組 • Optimised the production process • Optimised heat exchangers and refrigerating units 生產醋酸酯所需用電量密度 Electricity consumption per intensity to produce acetate | 下降 5.1% 二零二一年進展: 達成比基準下降 3% 的目標 Decrease of 5.1% 2021 Progress: achieved 3% reduction from baseline | • 更換更高能源效益的電器 • Changed to electrical appliances with higher energy efficiency 用水量密度 Water consumption per intensity | 下降 13.2% 二零二一年進展: 達成比基準下降 6% 的目標 Decrease of 13.2% 2021 Progress: achieved 6% reduction from baseline | • 利用化學除垢,提高循環再用 水的潔淨度,增加循環再用水 的比例 • Used chemical descaling to improve the purity of recycled water and increased the proportion of recycled water",
+      "retrieval_text": "[Section]\n節能減排的目標與行動 TARGETS AND ACTIONS TO SAVE ENERGY AND REDUCE EMISSIONS\n\n[Content]\n業務 Business | 環境範疇 Environmental Aspect | 二零二三年目標 2023 Target (基準年:二零一九年) (Baseline year: 2019) | 措施 Initiatives 泰興溶劑廠 Taixing solvents plant | 生產醋酸酯所需蒸氣用量密度 Steam consumption per intensity to produce acetate | 下降 9.6% 二零二一年進展: 達成比基準下降 4% 的目標 Decrease of 9.6% 2021 Progress: achieved 4% reduction from baseline | • 優化生產工藝 • 優化換熱器及製冷機組 • Optimised the production process • Optimised heat exchangers and refrigerating units 生產醋酸酯所需用電量密度 Electricity consumption per intensity to produce acetate | 下降 5.1% 二零二一年進展: 達成比基準下降 3% 的目標 Decrease of 5.1% 2021 Progress: achieved 3% reduction from baseline | • 更換更高能源效益的電器 • Changed to electrical appliances with higher energy efficiency 用水量密度 Water consumption per intensity | 下降 13.2% 二零二一年進展: 達成比基準下降 6% 的目標 Decrease of 13.2% 2021 Progress: achieved 6% reduction from baseline | • 利用化學除垢,提高循環再用 水的潔淨度,增加循環再用水 的比例 • Used chemical descaling to improve the purity of recycled water and increased the proportion of recycled water",
+      "bm25_rank": 8,
+      "dense_rank": 37,
+      "bm25_score": 37.02080154418945,
+      "dense_score": 0.4119565188884735,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5437814633614925,
+      "normalized_dense": 0.4198820343941983,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.50269487048208,
+      "rank": 15,
+      "rrf_score": 0.50269487048208,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_003",
+      "alias_source_ids": [
+        "P7_003"
+      ],
+      "section": "持份者參與 STAKEHOLDER ENGAGEMENT",
+      "pages": [
+        7
+      ],
+      "text": "二零一九年度的重要性評估乃按照《全球報 告倡議組織 (GRI) 標準》 設計。當中被評為 「關 鍵」的七個議題包括:廢棄物管理、環保合 規、廢氣管理、綠色產品研發、職業健康與 安全、產品安全以及產品質量管理。董事會 將持續檢視及加強管理這些可持續發展議題, 同時定期審視這些議題對集團業務重要性的 潛在變化。有關關鍵議題的管理方針及措施 成效,請參閱本報告 「環境的長遠價值」 、 「員 工的長遠價值」 及 「顧客的長遠價值」 章節。",
+      "retrieval_text": "[Section]\n持份者參與 STAKEHOLDER ENGAGEMENT\n\n[Content]\n二零一九年度的重要性評估乃按照《全球報 告倡議組織 (GRI) 標準》 設計。當中被評為 「關 鍵」的七個議題包括:廢棄物管理、環保合 規、廢氣管理、綠色產品研發、職業健康與 安全、產品安全以及產品質量管理。董事會 將持續檢視及加強管理這些可持續發展議題, 同時定期審視這些議題對集團業務重要性的 潛在變化。有關關鍵議題的管理方針及措施 成效,請參閱本報告 「環境的長遠價值」 、 「員 工的長遠價值」 及 「顧客的長遠價值」 章節。",
+      "bm25_rank": 36,
+      "dense_rank": 19,
+      "bm25_score": 11.696407318115234,
+      "dense_score": 0.45113998651504517,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16092482984191953,
+      "normalized_dense": 0.5995691158510918,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.4943831498048567,
+      "rank": 16,
+      "rrf_score": 0.4943831498048567,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_004",
+      "alias_source_ids": [
+        "P15_004"
+      ],
+      "section": "應對氣候風險 ADDRESSING CLIMATE RISKS",
+      "pages": [
+        15
+      ],
+      "text": "In terms of physical risk, extreme weather conditions such as high temperatures and heavy rainfall could pose a threat to our plant facilities, potentially leading to extended production periods and cost increases. Yet, our plants have solid experience and plans to deal with such extreme weather conditions and therefore this risk is not a significant one for the Group. In terms of transition risk, in light of potential increase in crude oil prices and carbon prices, this could pose impacts on our suppliers and raw material supply. We believe this will have a negative impact on our profit as the cost increases might not be fully passed on to downstream customers. Currently, we have identified multiple suppliers for each raw material, and further strengthened our market position to address the possible challenges.",
+      "retrieval_text": "[Section]\n應對氣候風險 ADDRESSING CLIMATE RISKS\n\n[Content]\nIn terms of physical risk, extreme weather conditions such as high temperatures and heavy rainfall could pose a threat to our plant facilities, potentially leading to extended production periods and cost increases. Yet, our plants have solid experience and plans to deal with such extreme weather conditions and therefore this risk is not a significant one for the Group. In terms of transition risk, in light of potential increase in crude oil prices and carbon prices, this could pose impacts on our suppliers and raw material supply. We believe this will have a negative impact on our profit as the cost increases might not be fully passed on to downstream customers. Currently, we have identified multiple suppliers for each raw material, and further strengthened our market position to address the possible challenges.",
+      "bm25_rank": 12,
+      "dense_rank": 34,
+      "bm25_score": 32.54835891723633,
+      "dense_score": 0.41404852271080017,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4761666445240213,
+      "normalized_dense": 0.42947552072912465,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.4938719088110046,
+      "rank": 17,
+      "rrf_score": 0.4938719088110046,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_005",
+      "alias_source_ids": [
+        "P30_005"
+      ],
+      "section": "供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT",
+      "pages": [
+        30
+      ],
+      "text": "不合格產品管理 Non-conforming product management",
+      "retrieval_text": "[Section]\n供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT\n\n[Content]\n不合格產品管理 Non-conforming product management",
+      "bm25_rank": 11,
+      "dense_rank": 39,
+      "bm25_score": 32.730194091796875,
+      "dense_score": 0.40760767459869385,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4789156462243667,
+      "normalized_dense": 0.39993915579069594,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.47804371296624776,
+      "rank": 18,
+      "rrf_score": 0.47804371296624776,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_006",
+      "alias_source_ids": [
+        "P7_006"
+      ],
+      "section": "持份者參與 STAKEHOLDER ENGAGEMENT",
+      "pages": [
+        7
+      ],
+      "text": "The materiality assessment from 2019 was designed in accordance with the Global Reporting Initiative (GRI) Standards . The seven topics rated as 'critical' include: waste management, environmental compliance, air emission management, green products R&D, occupational health and safety, product safety, and product quality management. The Board will continue to review and strengthen the management of these sustainability issues and will regularly review potential changes in their materiality to the Group's business. Please refer to the 'Long-term Values in the Environment', 'Long-term Values in Employees' and 'Long-term Values in Customers' sections of this report for information on the management approach and effectiveness of measures on these material issues.",
+      "retrieval_text": "[Section]\n持份者參與 STAKEHOLDER ENGAGEMENT\n\n[Content]\nThe materiality assessment from 2019 was designed in accordance with the Global Reporting Initiative (GRI) Standards . The seven topics rated as 'critical' include: waste management, environmental compliance, air emission management, green products R&D, occupational health and safety, product safety, and product quality management. The Board will continue to review and strengthen the management of these sustainability issues and will regularly review potential changes in their materiality to the Group's business. Please refer to the 'Long-term Values in the Environment', 'Long-term Values in Employees' and 'Long-term Values in Customers' sections of this report for information on the management approach and effectiveness of measures on these material issues.",
+      "bm25_rank": 95,
+      "dense_rank": 11,
+      "bm25_score": 2.6113150119781494,
+      "dense_score": 0.4689107835292816,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.023575528433519333,
+      "normalized_dense": 0.6810622261873914,
+      "normalized_bm25_rank": 0.3691275167785235,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4665768177381969,
+      "rank": 19,
+      "rrf_score": 0.4665768177381969,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_014",
+      "alias_source_ids": [
+        "P35_014"
+      ],
+      "section": "關於此報告 ABOUT THE REPORT",
+      "pages": [
+        35
+      ],
+      "text": "Materiality: Making reference to the results of the materiality assessment involving both internal and external stakeholders to identify material ESG factors",
+      "retrieval_text": "[Section]\n關於此報告 ABOUT THE REPORT\n\n[Content]\nMateriality: Making reference to the results of the materiality assessment involving both internal and external stakeholders to identify material ESG factors",
+      "bm25_rank": 85,
+      "dense_rank": 16,
+      "bm25_score": 3.8337008953094482,
+      "dense_score": 0.46168220043182373,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04205567607204468,
+      "normalized_dense": 0.6479134754890223,
+      "normalized_bm25_rank": 0.43624161073825507,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.4586707845214728,
+      "rank": 20,
+      "rrf_score": 0.4586707845214728,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T39_001",
+      "alias_source_ids": [
+        "T39_001"
+      ],
+      "section": "層面 A3 ：環境及天然資源 Aspect A3: The Environment and Natural Resources",
+      "pages": [
+        39
+      ],
+      "text": "一般披露 General | 減低發行人對環境及天然資源造 成重大影響的政策 Policies on minimising the issuer's significant impact on the environment and natural resources | 9 | Disclosure 關鍵績效指標 KPI A3.1 | 描述業務活動對環境及天然資源 的重大影響及已採取管理有關影 響的行動 Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them | 9-14 層面 A4 :氣候變化 Aspect A4: Climate Change 一般披露 General Disclosure | 識別及應對已經及可能會對發行 人產生影響的重大氣候相關事宜 的政策 Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer | 13 關鍵績效指標 KPI | 描述已經及可能會對發行人產生 影響的重大氣候相關事宜,及應 對行動。 Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them | 13 | A4.1",
+      "retrieval_text": "[Section]\n層面 A3 ：環境及天然資源 Aspect A3: The Environment and Natural Resources\n\n[Content]\n一般披露 General | 減低發行人對環境及天然資源造 成重大影響的政策 Policies on minimising the issuer's significant impact on the environment and natural resources | 9 | Disclosure 關鍵績效指標 KPI A3.1 | 描述業務活動對環境及天然資源 的重大影響及已採取管理有關影 響的行動 Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them | 9-14 層面 A4 :氣候變化 Aspect A4: Climate Change 一般披露 General Disclosure | 識別及應對已經及可能會對發行 人產生影響的重大氣候相關事宜 的政策 Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer | 13 關鍵績效指標 KPI | 描述已經及可能會對發行人產生 影響的重大氣候相關事宜,及應 對行動。 Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them | 13 | A4.1",
+      "bm25_rank": 67,
+      "dense_rank": 21,
+      "bm25_score": 6.562220573425293,
+      "dense_score": 0.4447547197341919,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08330569963153338,
+      "normalized_dense": 0.5702876351227981,
+      "normalized_bm25_rank": 0.5570469798657718,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.4451208726219706,
+      "rank": 21,
+      "rrf_score": 0.4451208726219706,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_004",
+      "alias_source_ids": [
+        "P3_004"
+      ],
+      "section": "管理層的話 MANAGEMENT STATEMENT",
+      "pages": [
+        3
+      ],
+      "text": "二零二一年,政府間氣候變化專門委員會 (IPCC) 發表最新報告,表示氣候變化正在為 全球帶來不可逆轉而且前所未有的變化。作 為負責任的企業公民,我們與國際及國家可 持續發展日程保持一致,在回顧年內積極開 展氣候風險管理及培訓工作,以有效管理及 披露氣候變化相關事宜。",
+      "retrieval_text": "[Section]\n管理層的話 MANAGEMENT STATEMENT\n\n[Content]\n二零二一年,政府間氣候變化專門委員會 (IPCC) 發表最新報告,表示氣候變化正在為 全球帶來不可逆轉而且前所未有的變化。作 為負責任的企業公民,我們與國際及國家可 持續發展日程保持一致,在回顧年內積極開 展氣候風險管理及培訓工作,以有效管理及 披露氣候變化相關事宜。",
+      "bm25_rank": 80,
+      "dense_rank": 20,
+      "bm25_score": 4.634016036987305,
+      "dense_score": 0.44861045479774475,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05415491754499751,
+      "normalized_dense": 0.5879692192807809,
+      "normalized_bm25_rank": 0.4697986577181208,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.4380967203243869,
+      "rank": 22,
+      "rrf_score": 0.4380967203243869,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_003",
+      "alias_source_ids": [
+        "P30_003"
+      ],
+      "section": "供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT",
+      "pages": [
+        30
+      ],
+      "text": "設備及儀器管理 Equipment and instrument management",
+      "retrieval_text": "[Section]\n供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT\n\n[Content]\n設備及儀器管理 Equipment and instrument management",
+      "bm25_rank": 71,
+      "dense_rank": 23,
+      "bm25_score": 5.988436698913574,
+      "dense_score": 0.4400884509086609,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07463117969623746,
+      "normalized_dense": 0.5488891148452217,
+      "normalized_bm25_rank": 0.5302013422818792,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.4305273590209811,
+      "rank": 23,
+      "rrf_score": 0.4305273590209811,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_001",
+      "alias_source_ids": [
+        "P6_001"
+      ],
+      "section": "可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE",
+      "pages": [
+        6
+      ],
+      "text": "集團相信優良的企業管治是推進可持續發展 的先決條件。因此,公司一直致力採取高水 平的可持續發展管治模式,其架構分明,職 能清晰。作為集團的領導層,公司董事會負 責對集團的環社管事宜進行監管,包括識別 可持續發展路線圖中潛在的風險與機遇、加 強重要性評估和匯報過程、追蹤目標的進度, 以及整合有利於維持公司發展的管理方針與 政策,以確保將環社管因素納入公司的業務 決策流程。",
+      "retrieval_text": "[Section]\n可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE\n\n[Content]\n集團相信優良的企業管治是推進可持續發展 的先決條件。因此,公司一直致力採取高水 平的可持續發展管治模式,其架構分明,職 能清晰。作為集團的領導層,公司董事會負 責對集團的環社管事宜進行監管,包括識別 可持續發展路線圖中潛在的風險與機遇、加 強重要性評估和匯報過程、追蹤目標的進度, 以及整合有利於維持公司發展的管理方針與 政策,以確保將環社管因素納入公司的業務 決策流程。",
+      "bm25_rank": 38,
+      "dense_rank": 30,
+      "bm25_score": 10.493452072143555,
+      "dense_score": 0.4219653010368347,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14273843645236983,
+      "normalized_dense": 0.46578018895051665,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.4278123641614098,
+      "rank": 24,
+      "rrf_score": 0.4278123641614098,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T36_001",
+      "alias_source_ids": [
+        "T36_001"
+      ],
+      "section": "《環境、社會及管治報告指引》 - 內容索引 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE - CONTENT INDEX",
+      "pages": [
+        36
+      ],
+      "text": "層面、一般披露及 關鍵績效指標 Aspects, General Disclosures and KPIs | 描述 Description | 《 2021 環社管報告》 頁數 Page number of ESG Report 2021 | 補充 Remarks 層面 A1 :排放物 Aspect A1:Emissions 一般披露 General Disclosure | 有關廢氣及溫室氣體排放、向水 及土地的排污、有害及無害廢棄 物的產生等的: (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste | 10 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律、法規、規章及規例,並對集團業 務產生顯著影響的通知。相關法律、法 規、規章及規例包括但不限於 《中華人民 共和國環境保護法》 、 《中華人民共和國 大氣污染防治法》 、 《中華人民共和國節 約能源法》 、 《中華人民共和國水污染防 治法》 、 《工礦用地土壤環境管理辦法(試 行) 》 、 《污染地塊土壤環境管理辦法(試 行) 》 、 《中華人民共和國固體廢物污染環 境防治法》 以及《中華人民共和國環境保 護稅法》 。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to Environmental Protection Law of the People's Republic of China, Law of the People's Republic of China on the Prevention and Control of Atmospheric Pollution, Law of the People's Republic of China on Conserving Energy, Law of the People's Republic of China on the Prevention and Control of Water Pollution, Measures for Soil Environmental Management in Industrial and Mining Land (Trial), Measures for the Management of Soil Environment in Contaminated land (Trial), Law of the People's Republic of China on the Prevention and Control of Environment Pollution caused by Solid Wastes and Environmental Protection Tax Law of the People's Republic of China.",
+      "retrieval_text": "[Section]\n《環境、社會及管治報告指引》 - 內容索引 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE - CONTENT INDEX\n\n[Content]\n層面、一般披露及 關鍵績效指標 Aspects, General Disclosures and KPIs | 描述 Description | 《 2021 環社管報告》 頁數 Page number of ESG Report 2021 | 補充 Remarks 層面 A1 :排放物 Aspect A1:Emissions 一般披露 General Disclosure | 有關廢氣及溫室氣體排放、向水 及土地的排污、有害及無害廢棄 物的產生等的: (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste | 10 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律、法規、規章及規例,並對集團業 務產生顯著影響的通知。相關法律、法 規、規章及規例包括但不限於 《中華人民 共和國環境保護法》 、 《中華人民共和國 大氣污染防治法》 、 《中華人民共和國節 約能源法》 、 《中華人民共和國水污染防 治法》 、 《工礦用地土壤環境管理辦法(試 行) 》 、 《污染地塊土壤環境管理辦法(試 行) 》 、 《中華人民共和國固體廢物污染環 境防治法》 以及《中華人民共和國環境保 護稅法》 。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to Environmental Protection Law of the People's Republic of China, Law of the People's Republic of China on the Prevention and Control of Atmospheric Pollution, Law of the People's Republic of China on Conserving Energy, Law of the People's Republic of China on the Prevention and Control of Water Pollution, Measures for Soil Environmental Management in Industrial and Mining Land (Trial), Measures for the Management of Soil Environment in Contaminated land (Trial), Law of the People's Republic of China on the Prevention and Control of Environment Pollution caused by Solid Wastes and Environmental Protection Tax Law of the People's Republic of China.",
+      "bm25_rank": 18,
+      "dense_rank": 44,
+      "bm25_score": 21.029510498046875,
+      "dense_score": 0.4038270115852356,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.30202358355190595,
+      "normalized_dense": 0.38260183615031634,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.42518784258446846,
+      "rank": 25,
+      "rrf_score": 0.42518784258446846,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_006",
+      "alias_source_ids": [
+        "P15_006"
+      ],
+      "section": "應對氣候風險 ADDRESSING CLIMATE RISKS",
+      "pages": [
+        15
+      ],
+      "text": "The Board is aware of the climate risks that the Group is potentially exposed to and regular updates will be provided to the Directors on operational feedback and industry best practices, in order to adjust and advance the Group's climate change response strategy in a timely manner.",
+      "retrieval_text": "[Section]\n應對氣候風險 ADDRESSING CLIMATE RISKS\n\n[Content]\nThe Board is aware of the climate risks that the Group is potentially exposed to and regular updates will be provided to the Directors on operational feedback and industry best practices, in order to adjust and advance the Group's climate change response strategy in a timely manner.",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.4685426950454712,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6793742503807546,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.42301588696212317,
+      "rank": 26,
+      "rrf_score": 0.42301588696212317,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_005",
+      "alias_source_ids": [
+        "P15_005"
+      ],
+      "section": "應對氣候風險 ADDRESSING CLIMATE RISKS",
+      "pages": [
+        15
+      ],
+      "text": "董事會知悉集團可能面臨的氣候風險,並定 期為董事提供最新的營運反饋及行業最佳實 踐,以適時調整及推進集團的氣候變化應對 策略。",
+      "retrieval_text": "[Section]\n應對氣候風險 ADDRESSING CLIMATE RISKS\n\n[Content]\n董事會知悉集團可能面臨的氣候風險,並定 期為董事提供最新的營運反饋及行業最佳實 踐,以適時調整及推進集團的氣候變化應對 策略。",
+      "bm25_rank": null,
+      "dense_rank": 13,
+      "bm25_score": null,
+      "dense_score": 0.46845367550849915,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6789660256431282,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.4215307264247593,
+      "rank": 27,
+      "rrf_score": 0.4215307264247593,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_011",
+      "alias_source_ids": [
+        "P35_011"
+      ],
+      "section": "關於此報告 ABOUT THE REPORT",
+      "pages": [
+        35
+      ],
+      "text": "量化:更新目標和關鍵績效指標並披露相關 計算方式",
+      "retrieval_text": "[Section]\n關於此報告 ABOUT THE REPORT\n\n[Content]\n量化:更新目標和關鍵績效指標並披露相關 計算方式",
+      "bm25_rank": 84,
+      "dense_rank": 22,
+      "bm25_score": 3.9876811504364014,
+      "dense_score": 0.44149357080459595,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04438356441480679,
+      "normalized_dense": 0.5553326970111444,
+      "normalized_bm25_rank": 0.4429530201342282,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.41935053938719746,
+      "rank": 28,
+      "rrf_score": 0.41935053938719746,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T17_001",
+      "alias_source_ids": [
+        "T17_001"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        17
+      ],
+      "text": "單位 Units | 2020 | 2021 排放物 Emissions 揮發性有機化合物 Volatile organic compounds (VOC) | 噸 Tonnes | 29.37 | 22.66 顆粒物 Particulates | 噸 Tonnes | 34.85 | 33.56 生活油煙 Domestic exhaust gas | 噸 Tonnes | 0.003 | 0.011 排水量-生產廢水 Water discharge - from production | 噸 Tonnes | 250,665 2 | 290,010 排水量-生活廢水 Water discharge - from living zone | 噸 Tonnes | 56,417 2 | 56,320 總排水量 Total water discharge | 噸 Tonnes | 307,082 | 346,330 總排水量密度 3 Total water discharge intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 0.37 | 0.37 化學需氧量 Chemical oxygen demand (COD) | 噸 Tonnes | 13.50 | 16.07 硫氧化物 SO X | 噸 Tonnes | 4.35 | 8.65 氮氧化物 NO X | 噸 Tonnes | 4.87 | 11.13 溫室氣體-範圍一 4 Greenhouse gases - Scope 1 4 | 噸二氧化碳當量 Tonnes of carbon dioxide equivalent | 2,281 | 2,705 溫室氣體-範圍二 4 Greenhouse gases - Scope 2 4 | 噸二氧化碳當量 Tonnes of carbon dioxide equivalent | 286,559 | 323,819 溫室氣體-範圍一密度 3 Greenhouse gases - Scope 1 intensity 3 | 噸二氧化碳當量 / 產品噸數 Tonnes of carbon dioxide equivalent/tonne of products | 0.003 | 0.003 溫室氣體-範圍二密度 3 Greenhouse gases - Scope 2 intensity 3 | 噸二氧化碳當量 / 產品噸數 Tonnes of carbon dioxide equivalent/tonne of products | 0.341 | 0.349",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n單位 Units | 2020 | 2021 排放物 Emissions 揮發性有機化合物 Volatile organic compounds (VOC) | 噸 Tonnes | 29.37 | 22.66 顆粒物 Particulates | 噸 Tonnes | 34.85 | 33.56 生活油煙 Domestic exhaust gas | 噸 Tonnes | 0.003 | 0.011 排水量-生產廢水 Water discharge - from production | 噸 Tonnes | 250,665 2 | 290,010 排水量-生活廢水 Water discharge - from living zone | 噸 Tonnes | 56,417 2 | 56,320 總排水量 Total water discharge | 噸 Tonnes | 307,082 | 346,330 總排水量密度 3 Total water discharge intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 0.37 | 0.37 化學需氧量 Chemical oxygen demand (COD) | 噸 Tonnes | 13.50 | 16.07 硫氧化物 SO X | 噸 Tonnes | 4.35 | 8.65 氮氧化物 NO X | 噸 Tonnes | 4.87 | 11.13 溫室氣體-範圍一 4 Greenhouse gases - Scope 1 4 | 噸二氧化碳當量 Tonnes of carbon dioxide equivalent | 2,281 | 2,705 溫室氣體-範圍二 4 Greenhouse gases - Scope 2 4 | 噸二氧化碳當量 Tonnes of carbon dioxide equivalent | 286,559 | 323,819 溫室氣體-範圍一密度 3 Greenhouse gases - Scope 1 intensity 3 | 噸二氧化碳當量 / 產品噸數 Tonnes of carbon dioxide equivalent/tonne of products | 0.003 | 0.003 溫室氣體-範圍二密度 3 Greenhouse gases - Scope 2 intensity 3 | 噸二氧化碳當量 / 產品噸數 Tonnes of carbon dioxide equivalent/tonne of products | 0.341 | 0.349",
+      "bm25_rank": 4,
+      "dense_rank": 85,
+      "bm25_score": 46.71244812011719,
+      "dense_score": 0.3748185634613037,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6903007107005191,
+      "normalized_dense": 0.24957523853882058,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.43624161073825507,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.41064637495755013,
+      "rank": 29,
+      "rrf_score": 0.41064637495755013,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T47_001",
+      "alias_source_ids": [
+        "T47_001"
+      ],
+      "section": "層面 B2 ：健康與安全 Aspect B2: Health and Safety",
+      "pages": [
+        47
+      ],
+      "text": "關鍵績效指標 KPI | 於匯報期內對發行人或其僱員提 出並已審結的貪污訴訟案件的數 目及訴訟結果 Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases | 25, 28 | B7.1 關鍵績效指標 B7.2 | 描述防範措施及舉報程序,以及 相關執行及監察方法 Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored | 25, 28 | KPI 關鍵績效指標 KPI B7.3 | 描述向董事及員工提供的反貪污 培訓 Description of anti-corruption training provided to directors and staff | 25 層面 B8 :社區投資 Aspect B8: Community Investment 一般披露 General | 有關以社區參與來了解營運所在 社區需要和確保其業務活動會考 慮社區利益的政策 Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests | 18 | Disclosure 關鍵績效指標 B8.1 | 專注貢獻範疇 (如教育、環境事 宜、勞工需求、健康、文化、體 育) Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport) | 18-20 | KPI 關鍵績效指標 | 在專注範疇所動用資源(如金錢 或時間) Resources contributed (e.g. money or time) to the focus area | 18-20 | KPI B8.2",
+      "retrieval_text": "[Section]\n層面 B2 ：健康與安全 Aspect B2: Health and Safety\n\n[Content]\n關鍵績效指標 KPI | 於匯報期內對發行人或其僱員提 出並已審結的貪污訴訟案件的數 目及訴訟結果 Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases | 25, 28 | B7.1 關鍵績效指標 B7.2 | 描述防範措施及舉報程序,以及 相關執行及監察方法 Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored | 25, 28 | KPI 關鍵績效指標 KPI B7.3 | 描述向董事及員工提供的反貪污 培訓 Description of anti-corruption training provided to directors and staff | 25 層面 B8 :社區投資 Aspect B8: Community Investment 一般披露 General | 有關以社區參與來了解營運所在 社區需要和確保其業務活動會考 慮社區利益的政策 Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests | 18 | Disclosure 關鍵績效指標 B8.1 | 專注貢獻範疇 (如教育、環境事 宜、勞工需求、健康、文化、體 育) Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport) | 18-20 | KPI 關鍵績效指標 | 在專注範疇所動用資源(如金錢 或時間) Resources contributed (e.g. money or time) to the focus area | 18-20 | KPI B8.2",
+      "bm25_rank": 28,
+      "dense_rank": 45,
+      "bm25_score": 14.342231750488281,
+      "dense_score": 0.40262269973754883,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2009246587033426,
+      "normalized_dense": 0.377079117152163,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.39498141469023434,
+      "rank": 30,
+      "rrf_score": 0.39498141469023434,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_008",
+      "alias_source_ids": [
+        "P6_008"
+      ],
+      "section": "可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE",
+      "pages": [
+        6
+      ],
+      "text": "The Group has formulated business-related ESG targets while the Board regularly tracks and monitors the progress. Those targets include integrating climate risks into the Group's business decision-making, and reducing the environmental footprint during operations. During the year under review, the Group has initiated work in response to climate change and has set solid environmental targets as described in the 'Long-term Values in the Environment' section.",
+      "retrieval_text": "[Section]\n可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE\n\n[Content]\nThe Group has formulated business-related ESG targets while the Board regularly tracks and monitors the progress. Those targets include integrating climate risks into the Group's business decision-making, and reducing the environmental footprint during operations. During the year under review, the Group has initiated work in response to climate change and has set solid environmental targets as described in the 'Long-term Values in the Environment' section.",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.45494377613067627,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6170124891896295,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.3944778611492562,
+      "rank": 31,
+      "rrf_score": 0.3944778611492562,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_004",
+      "alias_source_ids": [
+        "P32_004"
+      ],
+      "section": "安全及品質監控 SAFETY AND QUALITY MONITORING",
+      "pages": [
+        32
+      ],
+      "text": "塗料和油墨廠房先後建立三間中國合格評定 國家認可委員會( 「 CNAS 」 ) 認可的檢測實驗 室,主要提供受多個國家和地區認可的產品 安全和品質檢測的專業服務。塗料業務位於 惠陽的實驗室同時獲國際實驗室認證聯盟 (ILAC-MRA) 認證。",
+      "retrieval_text": "[Section]\n安全及品質監控 SAFETY AND QUALITY MONITORING\n\n[Content]\n塗料和油墨廠房先後建立三間中國合格評定 國家認可委員會( 「 CNAS 」 ) 認可的檢測實驗 室,主要提供受多個國家和地區認可的產品 安全和品質檢測的專業服務。塗料業務位於 惠陽的實驗室同時獲國際實驗室認證聯盟 (ILAC-MRA) 認證。",
+      "bm25_rank": 27,
+      "dense_rank": 48,
+      "bm25_score": 14.534333229064941,
+      "dense_score": 0.4011504054069519,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2038288673776124,
+      "normalized_dense": 0.3703274872598895,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.389843481264806,
+      "rank": 32,
+      "rrf_score": 0.389843481264806,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_001",
+      "alias_source_ids": [
+        "P32_001"
+      ],
+      "section": "安全及品質監控 SAFETY AND QUALITY MONITORING",
+      "pages": [
+        32
+      ],
+      "text": "集團設有「產品品質安全風險管理政策」 ,評 定產品質量主要基於兩大範疇,包括品質和 性能,以及安全和環保考量。同時,我們除 了迎合顧客的要求外,亦確保產品能滿足地 區、國家及國際法律、法規及標準的要求。",
+      "retrieval_text": "[Section]\n安全及品質監控 SAFETY AND QUALITY MONITORING\n\n[Content]\n集團設有「產品品質安全風險管理政策」 ,評 定產品質量主要基於兩大範疇,包括品質和 性能,以及安全和環保考量。同時,我們除 了迎合顧客的要求外,亦確保產品能滿足地 區、國家及國際法律、法規及標準的要求。",
+      "bm25_rank": 111,
+      "dense_rank": 24,
+      "bm25_score": 1.5361589193344116,
+      "dense_score": 0.4395623207092285,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.007321214965526444,
+      "normalized_dense": 0.5464763932121259,
+      "normalized_bm25_rank": 0.261744966442953,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.3880329940401681,
+      "rank": 33,
+      "rrf_score": 0.3880329940401681,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_005",
+      "alias_source_ids": [
+        "P6_005"
+      ],
+      "section": "可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE",
+      "pages": [
+        6
+      ],
+      "text": "The Group believes that sound corporate governance is a prerequisite for advancing sustainable development. Therefore, the Company has long been committed to adopting a high standard of sustainable development governance with a well-defined structure. As the leaders of the Group, the board of directors (the 'Directors') of the Company (the 'Board') is responsible for overseeing the Group's ESG issues, including identifying potential risks and opportunities in the sustainability roadmap, enhancing the materiality assessment and reporting process, tracking progress against targets, and integrating management approaches and policies that are conducive to maintaining the Company's growth to ensure that ESG considerations are incorporated into the Company's business decision-making process.",
+      "retrieval_text": "[Section]\n可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE\n\n[Content]\nThe Group believes that sound corporate governance is a prerequisite for advancing sustainable development. Therefore, the Company has long been committed to adopting a high standard of sustainable development governance with a well-defined structure. As the leaders of the Group, the board of directors (the 'Directors') of the Company (the 'Board') is responsible for overseeing the Group's ESG issues, including identifying potential risks and opportunities in the sustainability roadmap, enhancing the materiality assessment and reporting process, tracking progress against targets, and integrating management approaches and policies that are conducive to maintaining the Company's growth to ensure that ESG considerations are incorporated into the Company's business decision-making process.",
+      "bm25_rank": 60,
+      "dense_rank": 33,
+      "bm25_score": 7.312101364135742,
+      "dense_score": 0.41417959332466125,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.094642469724016,
+      "normalized_dense": 0.43007658279677813,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.38690496235320576,
+      "rank": 34,
+      "rrf_score": 0.38690496235320576,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_006",
+      "alias_source_ids": [
+        "L19_006"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "6 集團所消耗資源的能量轉換基於香港聯交所發布的《如何準備環社管報告 - 附錄二:環境關鍵績效指標匯報指引》 。 The Group's energy conversion of resources consumption is based on How to prepare an ESG report - Appendix 2: Reporting Guidance on Environmental KPIs issued by the Stock Exchange of Hong Kong.",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n6 集團所消耗資源的能量轉換基於香港聯交所發布的《如何準備環社管報告 - 附錄二:環境關鍵績效指標匯報指引》 。 The Group's energy conversion of resources consumption is based on How to prepare an ESG report - Appendix 2: Reporting Guidance on Environmental KPIs issued by the Stock Exchange of Hong Kong.",
+      "bm25_rank": 32,
+      "dense_rank": 47,
+      "bm25_score": 12.608114242553711,
+      "dense_score": 0.40140777826309204,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1747081030263028,
+      "normalized_dense": 0.37150774465330827,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.3824189956634487,
+      "rank": 35,
+      "rrf_score": 0.3824189956634487,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_006",
+      "alias_source_ids": [
+        "P35_006"
+      ],
+      "section": "關於此報告 ABOUT THE REPORT",
+      "pages": [
+        35
+      ],
+      "text": "由於溶劑、塗料及油墨三個業務板塊共佔集 團年度收入的百分之九十五或以上,而各板 塊中也有維持較高產量的廠房。根據重要性 原則, 《 2021 環社管報告》 在環境數據披露方 面只包含集團的溶劑、塗料及油墨業務分別 位於江蘇泰興、上海金山及廣東中山的廠房。",
+      "retrieval_text": "[Section]\n關於此報告 ABOUT THE REPORT\n\n[Content]\n由於溶劑、塗料及油墨三個業務板塊共佔集 團年度收入的百分之九十五或以上,而各板 塊中也有維持較高產量的廠房。根據重要性 原則, 《 2021 環社管報告》 在環境數據披露方 面只包含集團的溶劑、塗料及油墨業務分別 位於江蘇泰興、上海金山及廣東中山的廠房。",
+      "bm25_rank": 66,
+      "dense_rank": 32,
+      "bm25_score": 6.637820243835449,
+      "dense_score": 0.4142743945121765,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0844486227376119,
+      "normalized_dense": 0.4305113209589441,
+      "normalized_bm25_rank": 0.563758389261745,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.3823337875542938,
+      "rank": 36,
+      "rrf_score": 0.3823337875542938,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_002",
+      "alias_source_ids": [
+        "P30_002"
+      ],
+      "section": "供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT",
+      "pages": [
+        30
+      ],
+      "text": "To promote green purchasing and the use of environmentally friendly products and services, our subsidiaries pay attention to the environmental performance and production process management of suppliers during on-site supplier assessment. Other areas of inspection include:",
+      "retrieval_text": "[Section]\n供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT\n\n[Content]\nTo promote green purchasing and the use of environmentally friendly products and services, our subsidiaries pay attention to the environmental performance and production process management of suppliers during on-site supplier assessment. Other areas of inspection include:",
+      "bm25_rank": 48,
+      "dense_rank": 41,
+      "bm25_score": 9.158500671386719,
+      "dense_score": 0.4046870470046997,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12255651246858613,
+      "normalized_dense": 0.38654577638413745,
+      "normalized_bm25_rank": 0.6845637583892618,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.3745674248993063,
+      "rank": 37,
+      "rrf_score": 0.3745674248993063,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_008",
+      "alias_source_ids": [
+        "P12_008"
+      ],
+      "section": "排放物管理 EMISSION MANAGEMENT",
+      "pages": [
+        12
+      ],
+      "text": "Wastewater collection or treatment facilities are installed at each of the Group's plants to ensure that all wastewater discharge meets regulatory standards. During the year under review, the Group's total wastewater discharge increased by 13% year-on-year mainly because the production volumes of Taixing plant increased, leading to the increase in wastewater. As water is a by-product of the esterification process, the solvent production process at Taixing plant discharges a relatively large amount of wastewater. When measured by per tonne of products, the total water discharge maintained at a similar level as the last reporting year.",
+      "retrieval_text": "[Section]\n排放物管理 EMISSION MANAGEMENT\n\n[Content]\nWastewater collection or treatment facilities are installed at each of the Group's plants to ensure that all wastewater discharge meets regulatory standards. During the year under review, the Group's total wastewater discharge increased by 13% year-on-year mainly because the production volumes of Taixing plant increased, leading to the increase in wastewater. As water is a by-product of the esterification process, the solvent production process at Taixing plant discharges a relatively large amount of wastewater. When measured by per tonne of products, the total water discharge maintained at a similar level as the last reporting year.",
+      "bm25_rank": 9,
+      "dense_rank": 90,
+      "bm25_score": 36.61870574951172,
+      "dense_score": 0.371462345123291,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5377025403701503,
+      "normalized_dense": 0.23418433226076965,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.40268456375838924,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.36467280960019877,
+      "rank": 38,
+      "rrf_score": 0.36467280960019877,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_010",
+      "alias_source_ids": [
+        "P29_010"
+      ],
+      "section": "供應鏈的長遠價值 LONG-TERM VALUES IN SUPPLY CHAINS",
+      "pages": [
+        29
+      ],
+      "text": "子公司只會選用合格名單上的供應商,並就 他們的往績評估決定採用的優先次序。供應 商合格名單每年更新一次,基於採購部為所 有供應商進行的年度評審、定期評審及個別 項目評審結果,不達標而屢次警告不改的供 應商會被剔出採購名單,我們也會終止與其 合作。塗料及油墨業務於回顧年內總共進行 了 52 次相關評估,數字比去年大幅增加,主 要由於塗料業務需求增長,新增輔材及代工 類供應商。子公司亦會就公司最新政策或國 家法規與供應商保持緊密聯繫,保證運作合 法合規。",
+      "retrieval_text": "[Section]\n供應鏈的長遠價值 LONG-TERM VALUES IN SUPPLY CHAINS\n\n[Content]\n子公司只會選用合格名單上的供應商,並就 他們的往績評估決定採用的優先次序。供應 商合格名單每年更新一次,基於採購部為所 有供應商進行的年度評審、定期評審及個別 項目評審結果,不達標而屢次警告不改的供 應商會被剔出採購名單,我們也會終止與其 合作。塗料及油墨業務於回顧年內總共進行 了 52 次相關評估,數字比去年大幅增加,主 要由於塗料業務需求增長,新增輔材及代工 類供應商。子公司亦會就公司最新政策或國 家法規與供應商保持緊密聯繫,保證運作合 法合規。",
+      "bm25_rank": 58,
+      "dense_rank": 43,
+      "bm25_score": 7.481555461883545,
+      "dense_score": 0.4041788876056671,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09720429311140519,
+      "normalized_dense": 0.3842154650345331,
+      "normalized_bm25_rank": 0.6174496644295302,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 43,
+      "composite_score": 0.35928539890114614,
+      "rank": 39,
+      "rrf_score": 0.35928539890114614,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_001",
+      "alias_source_ids": [
+        "P30_001"
+      ],
+      "section": "供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT",
+      "pages": [
+        30
+      ],
+      "text": "為推廣綠色採購及促進環保產品及服務的使 用,子公司在進行供應商實地評估時會留意 供應商的環境表現及生產過程管理。其餘考 察範疇包括:",
+      "retrieval_text": "[Section]\n供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT\n\n[Content]\n為推廣綠色採購及促進環保產品及服務的使 用,子公司在進行供應商實地評估時會留意 供應商的環境表現及生產過程管理。其餘考 察範疇包括:",
+      "bm25_rank": 83,
+      "dense_rank": 35,
+      "bm25_score": 4.09565544128418,
+      "dense_score": 0.4137764573097229,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04601593015400702,
+      "normalized_dense": 0.4282278864372627,
+      "normalized_bm25_rank": 0.44966442953020136,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.35841180534424605,
+      "rank": 40,
+      "rrf_score": 0.35841180534424605,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_001",
+      "alias_source_ids": [
+        "L19_001"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "2 數據經過調整以反映實際情況。",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n2 數據經過調整以反映實際情況。",
+      "bm25_rank": 23,
+      "dense_rank": 67,
+      "bm25_score": 17.39219856262207,
+      "dense_score": 0.38917267322540283,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2470343510267109,
+      "normalized_dense": 0.3154001449764987,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.5570469798657718,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.35644121624913017,
+      "rank": 41,
+      "rrf_score": 0.35644121624913017,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_008",
+      "alias_source_ids": [
+        "P9_008"
+      ],
+      "section": "· 環境的長遠價值 Long-term Values in the Environment",
+      "pages": [
+        9
+      ],
+      "text": "Integrating disaster risk management into business models and practices to enhance business resilience",
+      "retrieval_text": "[Section]\n· 環境的長遠價值 Long-term Values in the Environment\n\n[Content]\nIntegrating disaster risk management into business models and practices to enhance business resilience",
+      "bm25_rank": 13,
+      "dense_rank": 82,
+      "bm25_score": 26.70387840270996,
+      "dense_score": 0.37622496485710144,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.38780922461944345,
+      "normalized_dense": 0.2560246973916257,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.4563758389261745,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.3503919655210248,
+      "rank": 42,
+      "rrf_score": 0.3503919655210248,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_003",
+      "alias_source_ids": [
+        "P15_003"
+      ],
+      "section": "應對氣候風險 ADDRESSING CLIMATE RISKS",
+      "pages": [
+        15
+      ],
+      "text": "就實體風險而言,高溫及強暴雨等極端天氣 可能會對我們的廠房設施構成威脅,有機會 導致生產期延長,令成本上漲。然而,廠房 已有經驗及計劃應對此類極端天氣情況,因 此,該風險於集團而言並不算重大風險事件。 就轉型風險而言,因應原油價格及碳價格的 潛在升福,這或會影響我們的供應商及原材 料供應。由於成本的上漲未必可完全轉嫁下 游客戶,因此我們相信這會對我們的盈利造 成負面影響。現時,我們已就各種原材料物 色多家供應商,並進一步鞏固我們的市場地 位,以應對可能出現的挑戰。",
+      "retrieval_text": "[Section]\n應對氣候風險 ADDRESSING CLIMATE RISKS\n\n[Content]\n就實體風險而言,高溫及強暴雨等極端天氣 可能會對我們的廠房設施構成威脅,有機會 導致生產期延長,令成本上漲。然而,廠房 已有經驗及計劃應對此類極端天氣情況,因 此,該風險於集團而言並不算重大風險事件。 就轉型風險而言,因應原油價格及碳價格的 潛在升福,這或會影響我們的供應商及原材 料供應。由於成本的上漲未必可完全轉嫁下 游客戶,因此我們相信這會對我們的盈利造 成負面影響。現時,我們已就各種原材料物 色多家供應商,並進一步鞏固我們的市場地 位,以應對可能出現的挑戰。",
+      "bm25_rank": null,
+      "dense_rank": 25,
+      "bm25_score": null,
+      "dense_score": 0.433050274848938,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5166135304838781,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.3485999705686862,
+      "rank": 43,
+      "rrf_score": 0.3485999705686862,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_004",
+      "alias_source_ids": [
+        "P6_004"
+      ],
+      "section": "可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE",
+      "pages": [
+        6
+      ],
+      "text": "集團已制定與業務相關的環社管目標,由董 事會定期追蹤及監察進度,當中包括整合氣 候變化風險,納入集團業務決策考量,以及 減低營運的環境足跡。於回顧年內,集團已 啓動應對氣候變化的工作,以及訂立具體的 環境目標,詳情請參閱「環境的長遠價值」章 節。",
+      "retrieval_text": "[Section]\n可持續發展管治 SUSTAINABLE DEVELOPMENT GOVERNANCE\n\n[Content]\n集團已制定與業務相關的環社管目標,由董 事會定期追蹤及監察進度,當中包括整合氣 候變化風險,納入集團業務決策考量,以及 減低營運的環境足跡。於回顧年內,集團已 啓動應對氣候變化的工作,以及訂立具體的 環境目標,詳情請參閱「環境的長遠價值」章 節。",
+      "bm25_rank": null,
+      "dense_rank": 26,
+      "bm25_score": null,
+      "dense_score": 0.43165695667266846,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5102240685041289,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.3450213769965793,
+      "rank": 44,
+      "rrf_score": 0.3450213769965793,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_008",
+      "alias_source_ids": [
+        "P31_008"
+      ],
+      "section": "顧客的長遠價值 LONG-TERM VALUES IN CUSTOMERS",
+      "pages": [
+        31
+      ],
+      "text": "As one of the first companies in the China inks industry to introduce a hazardous substance management system, Bauhinia Ink, the Group's subsidiary, has established a hazardous substance database and a regulations database to control over 40 substances such as heavy metals and organic compounds in its products, and to ensure compliance with relevant product standards and environmental standards in countries and regions including the European Union, the United States, and Japan. We continuously improve our ability to assess product safety, and manage and control risks in inks plants by adopting fully pipelined manufacturing in benzene-free production conditions, while control systems are automatic and linked to an ERP system for comprehensive production process monitoring.",
+      "retrieval_text": "[Section]\n顧客的長遠價值 LONG-TERM VALUES IN CUSTOMERS\n\n[Content]\nAs one of the first companies in the China inks industry to introduce a hazardous substance management system, Bauhinia Ink, the Group's subsidiary, has established a hazardous substance database and a regulations database to control over 40 substances such as heavy metals and organic compounds in its products, and to ensure compliance with relevant product standards and environmental standards in countries and regions including the European Union, the United States, and Japan. We continuously improve our ability to assess product safety, and manage and control risks in inks plants by adopting fully pipelined manufacturing in benzene-free production conditions, while control systems are automatic and linked to an ERP system for comprehensive production process monitoring.",
+      "bm25_rank": null,
+      "dense_rank": 27,
+      "bm25_score": null,
+      "dense_score": 0.4290767312049866,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.49839170113411857,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.33953776653788115,
+      "rank": 45,
+      "rrf_score": 0.33953776653788115,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_004",
+      "alias_source_ids": [
+        "P19_004"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "Greenhouse gases calculation on carbon emission factors are referenced from How to prepare an ESG report - Appendix 2: Reporting Guidance on Environmental KPIs issued by the Stock Exchange of Hong Kong, and Guidelines for Calculation Methods and Reporting of Greenhouse Gas Emissions from Industrial and other Industries Enterprises (Trial) of the National Centre for Climate Change Strategy and International Cooperation; for global warming potential values, reference is made to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change.",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\nGreenhouse gases calculation on carbon emission factors are referenced from How to prepare an ESG report - Appendix 2: Reporting Guidance on Environmental KPIs issued by the Stock Exchange of Hong Kong, and Guidelines for Calculation Methods and Reporting of Greenhouse Gas Emissions from Industrial and other Industries Enterprises (Trial) of the National Centre for Climate Change Strategy and International Cooperation; for global warming potential values, reference is made to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change.",
+      "bm25_rank": 24,
+      "dense_rank": 74,
+      "bm25_score": 16.903289794921875,
+      "dense_score": 0.3850895166397095,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.23964298113928528,
+      "normalized_dense": 0.2966756538975827,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.5100671140939597,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.33834225630006465,
+      "rank": 46,
+      "rrf_score": 0.33834225630006465,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_011",
+      "alias_source_ids": [
+        "P30_011"
+      ],
+      "section": "供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT",
+      "pages": [
+        30
+      ],
+      "text": "The Group does not tolerate corruption or bribery by its business partners. When entering into agreements, suppliers are required to sign a probity declaration, undertaking not to provide any advantage or engage in other illegal practices. The Procurement Department of each subsidiary also has an internal control team to conduct random checks on suppliers' quotations and immediately report any irregularities to the procurement director. During the year under review, no coatings and inks suppliers were issued warnings or had the partnerships terminated due to violation of such declarations or undertakings. There was also no litigation cases involving bribery or fraud.",
+      "retrieval_text": "[Section]\n供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT\n\n[Content]\nThe Group does not tolerate corruption or bribery by its business partners. When entering into agreements, suppliers are required to sign a probity declaration, undertaking not to provide any advantage or engage in other illegal practices. The Procurement Department of each subsidiary also has an internal control team to conduct random checks on suppliers' quotations and immediately report any irregularities to the procurement director. During the year under review, no coatings and inks suppliers were issued warnings or had the partnerships terminated due to violation of such declarations or undertakings. There was also no litigation cases involving bribery or fraud.",
+      "bm25_rank": 97,
+      "dense_rank": 38,
+      "bm25_score": 2.507833480834961,
+      "dense_score": 0.41073206067085266,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.022011084668695124,
+      "normalized_dense": 0.4142669284115671,
+      "normalized_bm25_rank": 0.3557046979865772,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.3353016821462439,
+      "rank": 47,
+      "rrf_score": 0.3353016821462439,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_015",
+      "alias_source_ids": [
+        "P35_015"
+      ],
+      "section": "關於此報告 ABOUT THE REPORT",
+      "pages": [
+        35
+      ],
+      "text": "Quantitative: Giving updates on targets and key performance indicators, and disclosing the relevant methodologies",
+      "retrieval_text": "[Section]\n關於此報告 ABOUT THE REPORT\n\n[Content]\nQuantitative: Giving updates on targets and key performance indicators, and disclosing the relevant methodologies",
+      "bm25_rank": null,
+      "dense_rank": 28,
+      "bm25_score": null,
+      "dense_score": 0.42673975229263306,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.48767481093468296,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.334444573088884,
+      "rank": 48,
+      "rrf_score": 0.334444573088884,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_003",
+      "alias_source_ids": [
+        "P19_003"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "2020 and 2021 respectively.",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n2020 and 2021 respectively.",
+      "bm25_rank": 41,
+      "dense_rank": 62,
+      "bm25_score": 9.911977767944336,
+      "dense_score": 0.3922795057296753,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13394765185959814,
+      "normalized_dense": 0.3296474206537937,
+      "normalized_bm25_rank": 0.7315436241610738,
+      "normalized_dense_rank": 0.5906040268456376,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.33344129538598233,
+      "rank": 49,
+      "rrf_score": 0.33344129538598233,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L9_004",
+      "alias_source_ids": [
+        "L9_004"
+      ],
+      "section": "· 環境的長遠價值 Long-term Values in the Environment",
+      "pages": [
+        9
+      ],
+      "text": "Promoting waste heat and cooling water recycling to improve overall energy efficiency",
+      "retrieval_text": "[Section]\n· 環境的長遠價值 Long-term Values in the Environment\n\n[Content]\nPromoting waste heat and cooling water recycling to improve overall energy efficiency",
+      "bm25_rank": 10,
+      "dense_rank": null,
+      "bm25_score": 35.357181549072266,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.5186306958801274,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.19768587071964966,
+      "rank": 50,
+      "rrf_score": 0.19768587071964966,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

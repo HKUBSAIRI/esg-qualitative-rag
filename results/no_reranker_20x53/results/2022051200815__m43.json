@@ -1,0 +1,1545 @@
+{
+  "document_id": "2022051200815",
+  "metric_id": 43,
+  "metric_name": "一股一票制",
+  "query": "一股一票制 一股一票制 衡量企业资本结构中每份普通股是否拥有平等的投票权。重点考察是否存在同股不同权、多重投票权架构（Dual-class Structure）或限制特定股东表决权的协议。 一致性评估 (权重 100%，取值：0, 1, 2) • 2分（高分/卓越）：企业严格执行“一股一票”原则；公司章程明确规定所有普通股具有同等的表决权、收益权和剩余财产分配权；不存在任何差异化投票权安排。 • 1分（中分/合格）：基本遵循一股一票，但存在少量、特定情形下的例外（如：因库存股、员工持股计划暂无投票权，或政府在特定行业持有的“黄金股”且仅限重大安全事项行权）。 • 0分（低分/不合格）：多重投票权架构普遍存在（如 A/B 股，B 股拥有 10 倍于 A 股的投票权）；或通过金字塔结构、交叉持股实质性导致控制权与所有权严重偏离。 一股一票 同股同权 同等表决权 同等收益权 同等剩余财产分配权 双重股权 不同投票权架构 加权投票权 黄金股 金字塔持股 同股不同权 WVR one share one vote equal voting rights equal profit distribution rights equal rights to residual assets pari passu dual-class shares multiple voting rights weighted voting rights WVR golden share pyramid structure 公司章程是否明确所有普通股每股一票，并具有同等收益权和剩余财产分配权？ 是否存在双重股权、多重投票权或差异化表决安排？ 是否存在黄金股、库存股或ESOP等例外？ 控制权与所有权是否通过金字塔或交叉持股发生偏离？ 结论依据哪些章程、股本结构或上市文件？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '一股一票制'. Prefer explicit, auditable disclosure that answers: 公司章程是否明确所有普通股每股一票，并具有同等收益权和剩余财产分配权？ 是否存在双重股权、多重投票权或差异化表决安排？ 是否存在黄金股、库存股或ESOP等例外？ 控制权与所有权是否通过金字塔或交叉持股发生偏离？ 结论依据哪些章程、股本结构或上市文件？ Exclude or down-rank: 排除：仅有独立董事比例；仅有股东大会议事规则；仅有股息政策；仅讨论员工股权激励而无投票权结构；区分：一股一票制判断是否存在平等投票权；投票权差异进一步评估差异化架构的复杂程度、不公平性与日落条款等抵消保护。无差异时可在两指标都体现，但侧重点不同。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 198,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "L10_005",
+      "alias_source_ids": [
+        "L10_005"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "‧ Employees' Rights",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\n‧ Employees' Rights",
+      "bm25_rank": 1,
+      "dense_rank": 9,
+      "bm25_score": 29.57818031311035,
+      "dense_score": 0.3782638907432556,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.6206681502660027,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.7064955975595439,
+      "rank": 1,
+      "rrf_score": 0.7064955975595439,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T31_002",
+      "alias_source_ids": [
+        "T31_002"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        31
+      ],
+      "text": "Mandatary Disclosure Requirements | Descriptions | Relevant Sections and Remarks Governance Structure | Statement from the board containing the following elements: (i) a disclosure of the board's oversight of ESG issues; (ii) the board's ESG management approach and strategy, including the process used to evaluate, prioritise and manage material ESG-related issues (including risks to the issuer's businesses); and (iii) how the board reviews progress made against ESG-related goals and targets with an explanation of how they relate to the | About This Report",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMandatary Disclosure Requirements | Descriptions | Relevant Sections and Remarks Governance Structure | Statement from the board containing the following elements: (i) a disclosure of the board's oversight of ESG issues; (ii) the board's ESG management approach and strategy, including the process used to evaluate, prioritise and manage material ESG-related issues (including risks to the issuer's businesses); and (iii) how the board reviews progress made against ESG-related goals and targets with an explanation of how they relate to the | About This Report",
+      "bm25_rank": 19,
+      "dense_rank": 2,
+      "bm25_score": 11.794233322143555,
+      "dense_score": 0.4083714485168457,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.33275937371341574,
+      "normalized_dense": 0.8517021180739859,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6512247972766319,
+      "rank": 2,
+      "rrf_score": 0.6512247972766319,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_022",
+      "alias_source_ids": [
+        "L30_022"
+      ],
+      "section": "Appendix 1 Applicable Laws and Regulations / Law and Regulations 14",
+      "pages": [
+        30
+      ],
+      "text": "‧ Law No. 4/98/M Framework Law on Employment Policy and Worker's Rights",
+      "retrieval_text": "[Section]\nAppendix 1 Applicable Laws and Regulations / Law and Regulations 14\n\n[Content]\n‧ Law No. 4/98/M Framework Law on Employment Policy and Worker's Rights",
+      "bm25_rank": 3,
+      "dense_rank": 13,
+      "bm25_score": 23.949655532836914,
+      "dense_score": 0.3748866021633148,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7888218851885455,
+      "normalized_dense": 0.5947521199149541,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6484779545784128,
+      "rank": 3,
+      "rrf_score": 0.6484779545784128,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T33_002",
+      "alias_source_ids": [
+        "T33_002"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        33
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Social Aspect B1: Employment General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti- | 5.2, Appendix 1 KPI B1.1 | Total workforce by gender, employment type, age group and geographical region. | 5.1, 9 KPI B1.2 | Employee turnover rate by gender, age group and geographical region. | 9 Aspect B2: Health and Safety General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | 4.1, 4.2, Appendix 1 KPI B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | 4.1 KPI B2.2 | Lost days due to work injury. | 4.1 KPI B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | 4.1, 4.2 Aspect B3: Development and | Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities | 5.2 KPI B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | 9 KPI B3.2 | The average training hours completed per employee by gender and employee category. | 9",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Social Aspect B1: Employment General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti- | 5.2, Appendix 1 KPI B1.1 | Total workforce by gender, employment type, age group and geographical region. | 5.1, 9 KPI B1.2 | Employee turnover rate by gender, age group and geographical region. | 9 Aspect B2: Health and Safety General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | 4.1, 4.2, Appendix 1 KPI B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | 4.1 KPI B2.2 | Lost days due to work injury. | 4.1 KPI B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | 4.1, 4.2 Aspect B3: Development and | Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities | 5.2 KPI B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | 9 KPI B3.2 | The average training hours completed per employee by gender and employee category. | 9",
+      "bm25_rank": 2,
+      "dense_rank": 20,
+      "bm25_score": 25.890195846557617,
+      "dense_score": 0.3718525469303131,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8616295321591,
+      "normalized_dense": 0.5714699319573563,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6461658859725994,
+      "rank": 4,
+      "rrf_score": 0.6461658859725994,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_008",
+      "alias_source_ids": [
+        "P5_008"
+      ],
+      "section": "About the Group / Approach to Sustainability",
+      "pages": [
+        5
+      ],
+      "text": "As to demonstrate our continuous commitment to sustainability, the Group has established a governance structure with the Board's oversight on ESG issues covering all business segments.",
+      "retrieval_text": "[Section]\nAbout the Group / Approach to Sustainability\n\n[Content]\nAs to demonstrate our continuous commitment to sustainability, the Group has established a governance structure with the Board's oversight on ESG issues covering all business segments.",
+      "bm25_rank": 16,
+      "dense_rank": 4,
+      "bm25_score": 14.00528335571289,
+      "dense_score": 0.3994636535644531,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.415716346645192,
+      "normalized_dense": 0.783347081516473,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6432207881282604,
+      "rank": 5,
+      "rrf_score": 0.6432207881282604,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_005",
+      "alias_source_ids": [
+        "P10_005"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "To analyse the relative materiality of each ESG issue, the Group consolidated stakeholders' views and mapped the ESG issues on a matrix in two perspectives, which are the 'Importance to the Stakeholders' and the 'Importance to the Group'. The Governance Group for the ESG Report decided that the issues that are of high importance to both our stakeholders and the Company (mapped on the upper right corner of the matrix) are the high-materiality issues of the Group.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nTo analyse the relative materiality of each ESG issue, the Group consolidated stakeholders' views and mapped the ESG issues on a matrix in two perspectives, which are the 'Importance to the Stakeholders' and the 'Importance to the Group'. The Governance Group for the ESG Report decided that the issues that are of high importance to both our stakeholders and the Company (mapped on the upper right corner of the matrix) are the high-materiality issues of the Group.",
+      "bm25_rank": 47,
+      "dense_rank": 1,
+      "bm25_score": 5.3294806480407715,
+      "dense_score": 0.4276971220970154,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.090206602652681,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.6912751677852349,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.6371688373090596,
+      "rank": 6,
+      "rrf_score": 0.6371688373090596,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T34_002",
+      "alias_source_ids": [
+        "T34_002"
+      ],
+      "section": "Appendix 2 Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        34
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks KPI B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 6.3 KPI B6.4 | Description of quality assurance process and recall procedures. | 6.1 * Due to the Group's business nature, recall procedure is not applicable to the Group. KPI B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 6.3 Aspect B7: Anti-Corruption General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | 3.1, Appendix 1 KPI B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | 3.1 KPI B7.2 | Description of preventive measures and whistle- blowing procedures, how they are implemented and monitored. | 3.1 KPI B7.3 | Description of anti-corruption training provided to directors and staff. | 3.1 Aspect B8: Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | 8 KPI B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | 8 KPI B8.2 | Resources contributed (e.g. money or time) to the focus area. | 8",
+      "retrieval_text": "[Section]\nAppendix 2 Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks KPI B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 6.3 KPI B6.4 | Description of quality assurance process and recall procedures. | 6.1 * Due to the Group's business nature, recall procedure is not applicable to the Group. KPI B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 6.3 Aspect B7: Anti-Corruption General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | 3.1, Appendix 1 KPI B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | 3.1 KPI B7.2 | Description of preventive measures and whistle- blowing procedures, how they are implemented and monitored. | 3.1 KPI B7.3 | Description of anti-corruption training provided to directors and staff. | 3.1 Aspect B8: Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | 8 KPI B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | 8 KPI B8.2 | Resources contributed (e.g. money or time) to the focus area. | 8",
+      "bm25_rank": 4,
+      "dense_rank": 34,
+      "bm25_score": 23.632369995117188,
+      "dense_score": 0.3575544059276581,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7769175649042284,
+      "normalized_dense": 0.46175142629300575,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.570687787351183,
+      "rank": 7,
+      "rrf_score": 0.570687787351183,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_005",
+      "alias_source_ids": [
+        "P15_005"
+      ],
+      "section": "People-oriented Workplace / Merit-based Remuneration and Promotion",
+      "pages": [
+        15
+      ],
+      "text": "The Group strictly prohibits unfair or unreasonable dismissal, and the termination of labour contracts and dismissal of employees are carried out in strict compliance with the relevant laws and regulations to protect the rights and obligations of both employees and the Group. Relevant dismissal conditions and rules are stipulated clearly in the Employee Handbook.",
+      "retrieval_text": "[Section]\nPeople-oriented Workplace / Merit-based Remuneration and Promotion\n\n[Content]\nThe Group strictly prohibits unfair or unreasonable dismissal, and the termination of labour contracts and dismissal of employees are carried out in strict compliance with the relevant laws and regulations to protect the rights and obligations of both employees and the Group. Relevant dismissal conditions and rules are stipulated clearly in the Employee Handbook.",
+      "bm25_rank": 14,
+      "dense_rank": 22,
+      "bm25_score": 15.4794282913208,
+      "dense_score": 0.371049165725708,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4710251816620662,
+      "normalized_dense": 0.5653050896025544,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.555149066015455,
+      "rank": 8,
+      "rrf_score": 0.555149066015455,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T32_002",
+      "alias_source_ids": [
+        "T32_002"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        32
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Environmental Aspect A1: Emissions General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation | 6.1, 6.2, Appendix 1 KPI A1.1 | The types of emissions and respective emissions data. | 9 KPI A1.2 | Greenhouse gas emissions in total (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.5 | Description of emission target(s) set and steps taken to achieve them. | 7.1 KPI A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | 7.1",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Environmental Aspect A1: Emissions General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation | 6.1, 6.2, Appendix 1 KPI A1.1 | The types of emissions and respective emissions data. | 9 KPI A1.2 | Greenhouse gas emissions in total (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.5 | Description of emission target(s) set and steps taken to achieve them. | 7.1 KPI A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | 7.1",
+      "bm25_rank": 21,
+      "dense_rank": 18,
+      "bm25_score": 11.620487213134766,
+      "dense_score": 0.3721633553504944,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3262405473444006,
+      "normalized_dense": 0.5738549577732197,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.529855733951252,
+      "rank": 9,
+      "rrf_score": 0.529855733951252,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_001",
+      "alias_source_ids": [
+        "P4_001"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "This Report was prepared in accordance with the Environmental, Social and Governance Reporting Guide (' ESG Guide ') set out in Appendix 27 of the Main Board Listing Rules of The Stock Exchange of Hong Kong Limited (' SEHK '). For detailed information about the provisions of the ESG Guide , please refer to Appendix 2 of this Report.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nThis Report was prepared in accordance with the Environmental, Social and Governance Reporting Guide (' ESG Guide ') set out in Appendix 27 of the Main Board Listing Rules of The Stock Exchange of Hong Kong Limited (' SEHK '). For detailed information about the provisions of the ESG Guide , please refer to Appendix 2 of this Report.",
+      "bm25_rank": 73,
+      "dense_rank": 6,
+      "bm25_score": 3.6778080463409424,
+      "dense_score": 0.3950901925563812,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0282370600231191,
+      "normalized_dense": 0.7497868021558309,
+      "normalized_bm25_rank": 0.5167785234899329,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5130392357121848,
+      "rank": 10,
+      "rrf_score": 0.5130392357121848,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_003",
+      "alias_source_ids": [
+        "P4_003"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "A materiality assessment was conducted to inform the structure and focus areas of our ESG reporting. For the process to identify and the criteria for the selection of material ESG issues, please refer to the section '3.2 Stakeholder Engagement and Materiality' of this Report.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nA materiality assessment was conducted to inform the structure and focus areas of our ESG reporting. For the process to identify and the criteria for the selection of material ESG issues, please refer to the section '3.2 Stakeholder Engagement and Materiality' of this Report.",
+      "bm25_rank": 18,
+      "dense_rank": 26,
+      "bm25_score": 11.976024627685547,
+      "dense_score": 0.3669687509536743,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.33958004994602636,
+      "normalized_dense": 0.5339935358002003,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.5098473045662553,
+      "rank": 11,
+      "rrf_score": 0.5098473045662553,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_003",
+      "alias_source_ids": [
+        "P15_003"
+      ],
+      "section": "People-oriented Workplace / Merit-based Remuneration and Promotion",
+      "pages": [
+        15
+      ],
+      "text": "During the Reporting Period, the Group did not violate any laws and regulations that have a significant impact on the Group in relation to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, other benefits and welfare, and preventing child and forced labour.",
+      "retrieval_text": "[Section]\nPeople-oriented Workplace / Merit-based Remuneration and Promotion\n\n[Content]\nDuring the Reporting Period, the Group did not violate any laws and regulations that have a significant impact on the Group in relation to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, other benefits and welfare, and preventing child and forced labour.",
+      "bm25_rank": 12,
+      "dense_rank": 36,
+      "bm25_score": 16.583587646484375,
+      "dense_score": 0.35525912046432495,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5124524295072017,
+      "normalized_dense": 0.44413827706869374,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.5035764667681006,
+      "rank": 12,
+      "rrf_score": 0.5035764667681006,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_001",
+      "alias_source_ids": [
+        "P5_001"
+      ],
+      "section": "About the Group / Approach to Sustainability",
+      "pages": [
+        5
+      ],
+      "text": "CKSG (Stock Code: 00560) is a listed company incorporated in Hong Kong held by Chu Kong Shipping Enterprises (Holdings) Company Limited and indirectly owned by Guangdong Provincial Port & Shipping Group Company Limited.",
+      "retrieval_text": "[Section]\nAbout the Group / Approach to Sustainability\n\n[Content]\nCKSG (Stock Code: 00560) is a listed company incorporated in Hong Kong held by Chu Kong Shipping Enterprises (Holdings) Company Limited and indirectly owned by Guangdong Provincial Port & Shipping Group Company Limited.",
+      "bm25_rank": 104,
+      "dense_rank": 7,
+      "bm25_score": 3.2035880088806152,
+      "dense_score": 0.3942755460739136,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.010444672599033865,
+      "normalized_dense": 0.743535514335654,
+      "normalized_bm25_rank": 0.3087248322147651,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.48514515648359446,
+      "rank": 13,
+      "rrf_score": 0.48514515648359446,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "This Report has complied with the 'comply or explain' provisions as well as mandatory disclosure requirements of the ESG Guide and was prepared in adherence to the four reporting principles: Materiality, Quantitative, Balance and Consistency.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nThis Report has complied with the 'comply or explain' provisions as well as mandatory disclosure requirements of the ESG Guide and was prepared in adherence to the four reporting principles: Materiality, Quantitative, Balance and Consistency.",
+      "bm25_rank": null,
+      "dense_rank": 3,
+      "bm25_score": null,
+      "dense_score": 0.4038906395435333,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.8173180911835002,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.4833767681558358,
+      "rank": 14,
+      "rrf_score": 0.4833767681558358,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_006",
+      "alias_source_ids": [
+        "P10_006"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "The Governance Group for the ESG Report validated the six highmateriality issues of the Group in 2021, confirming the focus of this Report.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nThe Governance Group for the ESG Report validated the six highmateriality issues of the Group in 2021, confirming the focus of this Report.",
+      "bm25_rank": 52,
+      "dense_rank": 10,
+      "bm25_score": 4.632875919342041,
+      "dense_score": 0.37801387906074524,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06407050498621643,
+      "normalized_dense": 0.6187496555331158,
+      "normalized_bm25_rank": 0.6577181208053691,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.483067755601619,
+      "rank": 15,
+      "rrf_score": 0.483067755601619,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_005",
+      "alias_source_ids": [
+        "L6_005"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "‧ to comply with the obligations under the ESG Guide set out in Appendix 27 of the Main Board Listing Rules of SEHK;",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\n‧ to comply with the obligations under the ESG Guide set out in Appendix 27 of the Main Board Listing Rules of SEHK;",
+      "bm25_rank": null,
+      "dense_rank": 5,
+      "bm25_score": null,
+      "dense_score": 0.39794737100601196,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7717117048303577,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.4647299691738467,
+      "rank": 16,
+      "rrf_score": 0.4647299691738467,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_001",
+      "alias_source_ids": [
+        "P8_001"
+      ],
+      "section": "Approach to Sustainability / 3.1.3. Ensuring Operations in Compliance",
+      "pages": [
+        8
+      ],
+      "text": "The subsidiaries of the Group operate in multiple regions in Mainland China, Hong Kong and Macao. Our daily operations strictly with all applicable laws and regulations at all times in the regions where we operate. Please refer to the section 'Appendix 2' of this Report.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.1.3. Ensuring Operations in Compliance\n\n[Content]\nThe subsidiaries of the Group operate in multiple regions in Mainland China, Hong Kong and Macao. Our daily operations strictly with all applicable laws and regulations at all times in the regions where we operate. Please refer to the section 'Appendix 2' of this Report.",
+      "bm25_rank": 29,
+      "dense_rank": 31,
+      "bm25_score": 8.638731002807617,
+      "dense_score": 0.3621721863746643,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21436724485293607,
+      "normalized_dense": 0.49718652027043253,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.4578283283806749,
+      "rank": 17,
+      "rrf_score": 0.4578283283806749,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T31_001",
+      "alias_source_ids": [
+        "T31_001"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        31
+      ],
+      "text": "Law and Regulations 14 PRODUCT RESPONSIBILITY Mainland China ‧ Product Quality Law of the People's Republic of China ‧ Law of the People's Republic of China on Import and Export Commodity Inspection ‧ Law of the People's Republic of China on the Protection of Consumer Rights and Interests | Kong Cap. 486 Personal Data (Privacy) Ordinance Cap. 456 Consumer Goods Safety Ordinance Hong ‧ ‧ ‧ Cap. | 362 Trade Descriptions Ordinance Macao ‧ Act | Law No. 8/2005 Personal Data Protection ANTI-CORRUPTION Mainland ‧ Criminal ‧ Anti-Unfair ‧ The ‧ Supervision ‧ Interim | China Law of the People's Republic of China Competition Law of the People's Republic of China Bidding Law of the People's Republic of China Law of the People's Republic of China Provisions on Banning Commercial Bribery Hong Kong ‧ | Cap. 201 Prevention of Bribery Ordinance",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nLaw and Regulations 14 PRODUCT RESPONSIBILITY Mainland China ‧ Product Quality Law of the People's Republic of China ‧ Law of the People's Republic of China on Import and Export Commodity Inspection ‧ Law of the People's Republic of China on the Protection of Consumer Rights and Interests | Kong Cap. 486 Personal Data (Privacy) Ordinance Cap. 456 Consumer Goods Safety Ordinance Hong ‧ ‧ ‧ Cap. | 362 Trade Descriptions Ordinance Macao ‧ Act | Law No. 8/2005 Personal Data Protection ANTI-CORRUPTION Mainland ‧ Criminal ‧ Anti-Unfair ‧ The ‧ Supervision ‧ Interim | China Law of the People's Republic of China Competition Law of the People's Republic of China Bidding Law of the People's Republic of China Law of the People's Republic of China Provisions on Banning Commercial Bribery Hong Kong ‧ | Cap. 201 Prevention of Bribery Ordinance",
+      "bm25_rank": 20,
+      "dense_rank": 38,
+      "bm25_score": 11.70538330078125,
+      "dense_score": 0.35478639602661133,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.32942578618476004,
+      "normalized_dense": 0.44051076920684457,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.4576478190767973,
+      "rank": 18,
+      "rrf_score": 0.4576478190767973,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T32_001",
+      "alias_source_ids": [
+        "T32_001"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        32
+      ],
+      "text": "Mandatary Disclosure Requirements | Descriptions | Relevant Sections and Remarks Reporting Principles | A description of, or an explanation on, the application of the following Reporting Principles in the preparation of the ESG report: Materiality: The ESG report should disclose: (i) the process to identify and the criteria for the selection of material ESG factors; (ii) if a stakeholder engagement is conducted, a description of significant stakeholders identified, and the process and results of the issuer's stakeholder engagement. Quantitative: Information on the standards, methodologies, assumptions and/or calculation tools used, and source of conversion factors used, for the reporting of emissions/energy consumption (where applicable) should be disclosed. Balance: The ESG report should provide an unbiased picture of the issuer's performance. The report should avoid selections, omissions, or presentation formats that may inappropriately influence a decision or judgment by the report reader. Consistency: The issuer should disclose in the ESG report any changes to the methods or KPIs used, or any other relevant factors affecting a | About This Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About This Report",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMandatary Disclosure Requirements | Descriptions | Relevant Sections and Remarks Reporting Principles | A description of, or an explanation on, the application of the following Reporting Principles in the preparation of the ESG report: Materiality: The ESG report should disclose: (i) the process to identify and the criteria for the selection of material ESG factors; (ii) if a stakeholder engagement is conducted, a description of significant stakeholders identified, and the process and results of the issuer's stakeholder engagement. Quantitative: Information on the standards, methodologies, assumptions and/or calculation tools used, and source of conversion factors used, for the reporting of emissions/energy consumption (where applicable) should be disclosed. Balance: The ESG report should provide an unbiased picture of the issuer's performance. The report should avoid selections, omissions, or presentation formats that may inappropriately influence a decision or judgment by the report reader. Consistency: The issuer should disclose in the ESG report any changes to the methods or KPIs used, or any other relevant factors affecting a | About This Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About This Report",
+      "bm25_rank": 48,
+      "dense_rank": 24,
+      "bm25_score": 5.284292697906494,
+      "dense_score": 0.37040483951568604,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08851118396055843,
+      "normalized_dense": 0.5603607748898335,
+      "normalized_bm25_rank": 0.6845637583892618,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.4514124006210031,
+      "rank": 19,
+      "rrf_score": 0.4514124006210031,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T7_001",
+      "alias_source_ids": [
+        "T7_001"
+      ],
+      "section": "Approach to Sustainability / 3.1.2. ESG Risk Management",
+      "pages": [
+        7
+      ],
+      "text": "Significant ESG risks | Potential Impacts | Response Approaches Policy Changes And Compliance Risks | Changes in the external legal and policy environment and inconsistent regulatory requirements across the region may lead to increased compliance risks for the Group. Failure to comply with legal and regulatory requirements may cause legal sanctions or regulatory penalties, significant financial losses and other impacts on the Group, as well as significant damage to the Group's reputation and image. | The Opreation Management Department collects the risks and corresponding control measures of each segment company according to the Risk Management Guidelines of Chu Kong Shipping , then categorises the major risks into important risk points based on the major categories of risks, and annually summarises the risk assessment results and incorporates these major risks/ business processes/audit units into the audit focus of the annual Internal Audit Plan. The Group's Legal Department provides legal advisory services to support the Group's decision- making process, manage the Group's legal and regulatory risks and enable the Group to conduct its business legally. Other subsidiaries scrutinize laws and regulations that have a significant impact on the Group and develop and amend various policies, guidelines, management practices and systems to govern the Group's operations.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.1.2. ESG Risk Management\n\n[Content]\nSignificant ESG risks | Potential Impacts | Response Approaches Policy Changes And Compliance Risks | Changes in the external legal and policy environment and inconsistent regulatory requirements across the region may lead to increased compliance risks for the Group. Failure to comply with legal and regulatory requirements may cause legal sanctions or regulatory penalties, significant financial losses and other impacts on the Group, as well as significant damage to the Group's reputation and image. | The Opreation Management Department collects the risks and corresponding control measures of each segment company according to the Risk Management Guidelines of Chu Kong Shipping , then categorises the major risks into important risk points based on the major categories of risks, and annually summarises the risk assessment results and incorporates these major risks/ business processes/audit units into the audit focus of the annual Internal Audit Plan. The Group's Legal Department provides legal advisory services to support the Group's decision- making process, manage the Group's legal and regulatory risks and enable the Group to conduct its business legally. Other subsidiaries scrutinize laws and regulations that have a significant impact on the Group and develop and amend various policies, guidelines, management practices and systems to govern the Group's operations.",
+      "bm25_rank": 87,
+      "dense_rank": 11,
+      "bm25_score": 3.2918701171875,
+      "dense_score": 0.3771379292011261,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.013756952447062333,
+      "normalized_dense": 0.6120279488709376,
+      "normalized_bm25_rank": 0.42281879194630867,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4458202329969252,
+      "rank": 20,
+      "rrf_score": 0.4458202329969252,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_005",
+      "alias_source_ids": [
+        "P7_005"
+      ],
+      "section": "Approach to Sustainability / 3.1.2. ESG Risk Management",
+      "pages": [
+        7
+      ],
+      "text": "The Group has established a c o m p r e h e n s i v e t e n d e r evaluation system and set out a supplier selection process in the Tender Management Measures and Procurement Management Process , which regulates the management of different types of suppliers to the Group and realises the principles of 'transparency, fairness, impartiality and honesty'. The Group's technical support department works closely with relevant departments to identify suitable suppliers and assess their qualifications and performance. At least three potential suppliers will be invited to tender for the Group to select a suitable supplier.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.1.2. ESG Risk Management\n\n[Content]\nThe Group has established a c o m p r e h e n s i v e t e n d e r evaluation system and set out a supplier selection process in the Tender Management Measures and Procurement Management Process , which regulates the management of different types of suppliers to the Group and realises the principles of 'transparency, fairness, impartiality and honesty'. The Group's technical support department works closely with relevant departments to identify suitable suppliers and assess their qualifications and performance. At least three potential suppliers will be invited to tender for the Group to select a suitable supplier.",
+      "bm25_rank": 35,
+      "dense_rank": 32,
+      "bm25_score": 6.215292930603027,
+      "dense_score": 0.35990962386131287,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12344162874050094,
+      "normalized_dense": 0.4798244745407813,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.42819736163603134,
+      "rank": 21,
+      "rrf_score": 0.42819736163603134,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_009",
+      "alias_source_ids": [
+        "P5_009"
+      ],
+      "section": "About the Group / Approach to Sustainability",
+      "pages": [
+        5
+      ],
+      "text": "Governance Group for the ESG Report",
+      "retrieval_text": "[Section]\nAbout the Group / Approach to Sustainability\n\n[Content]\nGovernance Group for the ESG Report",
+      "bm25_rank": null,
+      "dense_rank": 8,
+      "bm25_score": null,
+      "dense_score": 0.3821110129356384,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6501895053832885,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4181703537297885,
+      "rank": 22,
+      "rrf_score": 0.4181703537297885,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_004",
+      "alias_source_ids": [
+        "P10_004"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "The Group defined our major stakeholders as groups or individuals who have impacts on or are affected by the Group, and invited them to fill in an online survey to participate in the materiality assessment process. Major stakeholders were asked to prioritise each ESG issue based on the level of importance.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nThe Group defined our major stakeholders as groups or individuals who have impacts on or are affected by the Group, and invited them to fill in an online survey to participate in the materiality assessment process. Major stakeholders were asked to prioritise each ESG issue based on the level of importance.",
+      "bm25_rank": 63,
+      "dense_rank": 27,
+      "bm25_score": 4.011371612548828,
+      "dense_score": 0.3661210536956787,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.040752119977806735,
+      "normalized_dense": 0.5274886288765818,
+      "normalized_bm25_rank": 0.5838926174496644,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.41626137698827104,
+      "rank": 23,
+      "rrf_score": 0.41626137698827104,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L3_001",
+      "alias_source_ids": [
+        "L3_001"
+      ],
+      "section": "About this Report / 1. ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "‧ Chu Kong Shipping Enterprises (Group) Company Limited (' CKSG ' or the ' Company ')",
+      "retrieval_text": "[Section]\nAbout this Report / 1. ABOUT THIS REPORT\n\n[Content]\n‧ Chu Kong Shipping Enterprises (Group) Company Limited (' CKSG ' or the ' Company ')",
+      "bm25_rank": 118,
+      "dense_rank": 14,
+      "bm25_score": 3.1259660720825195,
+      "dense_score": 0.3747293949127197,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.007532354554617368,
+      "normalized_dense": 0.5935457711587283,
+      "normalized_bm25_rank": 0.21476510067114096,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4132743364540623,
+      "rank": 24,
+      "rrf_score": 0.4132743364540623,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_001",
+      "alias_source_ids": [
+        "P6_001"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "Spearheaded by one of the executive directors of the Company, the Governance Group for the ESG Report is comprised of the general managers from different business segments. It is accountable to the Board, and has the following main duties:",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\nSpearheaded by one of the executive directors of the Company, the Governance Group for the ESG Report is comprised of the general managers from different business segments. It is accountable to the Board, and has the following main duties:",
+      "bm25_rank": 23,
+      "dense_rank": 50,
+      "bm25_score": 10.306200981140137,
+      "dense_score": 0.346981942653656,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2769294934483578,
+      "normalized_dense": 0.3806223570385247,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.6711409395973154,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.40806681090147734,
+      "rank": 25,
+      "rrf_score": 0.40806681090147734,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L3_017",
+      "alias_source_ids": [
+        "L3_017"
+      ],
+      "section": "About this Report / 1. ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "‧ Sun Kong Petroleum Company Limited (' Sun Kong Petroleum ') ‧",
+      "retrieval_text": "[Section]\nAbout this Report / 1. ABOUT THIS REPORT\n\n[Content]\n‧ Sun Kong Petroleum Company Limited (' Sun Kong Petroleum ') ‧",
+      "bm25_rank": 98,
+      "dense_rank": 25,
+      "bm25_score": 3.235046148300171,
+      "dense_score": 0.3697456419467926,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.011624958879620326,
+      "normalized_dense": 0.5553023430151492,
+      "normalized_bm25_rank": 0.3489932885906041,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.39936537558961555,
+      "rank": 26,
+      "rrf_score": 0.39936537558961555,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_001",
+      "alias_source_ids": [
+        "P20_001"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "The Group emphasises safeguarding the privacy and confidentiality of customers' information by strictly aligning with the Management Measures for Brand Building to regulate the information dissemination of the Group. Our businesses in Hong Kong and Guangzhou have obtained certification from ISO27001 Information Security Management System. Customers' information is kept strictly confidential within the Group since we have installed a solid system to secure information entrusted to us. The Group strictly follows the designated internal departments that are assigned for the approval and dissemination of the Group's information to ensure they are authentic and accurate.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nThe Group emphasises safeguarding the privacy and confidentiality of customers' information by strictly aligning with the Management Measures for Brand Building to regulate the information dissemination of the Group. Our businesses in Hong Kong and Guangzhou have obtained certification from ISO27001 Information Security Management System. Customers' information is kept strictly confidential within the Group since we have installed a solid system to secure information entrusted to us. The Group strictly follows the designated internal departments that are assigned for the approval and dissemination of the Group's information to ensure they are authentic and accurate.",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.37501347064971924,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5957256605131064,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.3937388805084463,
+      "rank": 27,
+      "rrf_score": 0.3937388805084463,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_004",
+      "alias_source_ids": [
+        "P9_004"
+      ],
+      "section": "Approach to Sustainability / Preventing Illegal Acts",
+      "pages": [
+        9
+      ],
+      "text": "The Group established the Whistle-blowing Policy to support the identification and report of any suspicious cases of unethical business conduct or misbehaviour have developed a whistle-blowing system along with the policy to provide a channel for employees and business partners to report or submit a grievance on any misconduct malpractices. All relevant information will be treated in a confidential manner to protect whistle-blowers. Personal details of the whistle-blowers are anonymous to safeguard their rights and personal safety. All complaints and reports will undergo a thorough and fair investigation. During the Reporting Period, there was no legal case regarding corrupt practices were brought against the Group or our employees.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Preventing Illegal Acts\n\n[Content]\nThe Group established the Whistle-blowing Policy to support the identification and report of any suspicious cases of unethical business conduct or misbehaviour have developed a whistle-blowing system along with the policy to provide a channel for employees and business partners to report or submit a grievance on any misconduct malpractices. All relevant information will be treated in a confidential manner to protect whistle-blowers. Personal details of the whistle-blowers are anonymous to safeguard their rights and personal safety. All complaints and reports will undergo a thorough and fair investigation. During the Reporting Period, there was no legal case regarding corrupt practices were brought against the Group or our employees.",
+      "bm25_rank": 15,
+      "dense_rank": 72,
+      "bm25_score": 15.234221458435059,
+      "dense_score": 0.33486467599868774,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.46182520143115696,
+      "normalized_dense": 0.28763905313400256,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.5234899328859061,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.38834072230595107,
+      "rank": 28,
+      "rrf_score": 0.38834072230595107,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_006",
+      "alias_source_ids": [
+        "P15_006"
+      ],
+      "section": "People-oriented Workplace / Merit-based Remuneration and Promotion",
+      "pages": [
+        15
+      ],
+      "text": "The Group offers a comprehensive remuneration package to employees with reasonable terms. The Group conducts performance review according to the Regulations on Employee Performance Review, and promotes employees based on their working performance. The review also enables management to assess what employees have accomplished and provides recommendations on how to achieve career goals. The Group has formulated the Employee Promotion Management System to govern the promotion criteria and procedures, and to encourage employees to enhance their capabilities.",
+      "retrieval_text": "[Section]\nPeople-oriented Workplace / Merit-based Remuneration and Promotion\n\n[Content]\nThe Group offers a comprehensive remuneration package to employees with reasonable terms. The Group conducts performance review according to the Regulations on Employee Performance Review, and promotes employees based on their working performance. The review also enables management to assess what employees have accomplished and provides recommendations on how to achieve career goals. The Group has formulated the Employee Promotion Management System to govern the promotion criteria and procedures, and to encourage employees to enhance their capabilities.",
+      "bm25_rank": null,
+      "dense_rank": 15,
+      "bm25_score": null,
+      "dense_score": 0.37391799688339233,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5873194107346515,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.3867698474484032,
+      "rank": 29,
+      "rrf_score": 0.3867698474484032,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_003",
+      "alias_source_ids": [
+        "L6_003"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "‧ to determine ESG priorities, formulate corresponding objectives and policies, and monitor progress;",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\n‧ to determine ESG priorities, formulate corresponding objectives and policies, and monitor progress;",
+      "bm25_rank": null,
+      "dense_rank": 16,
+      "bm25_score": null,
+      "dense_score": 0.3736351430416107,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5851488977402743,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.3846678860211765,
+      "rank": 30,
+      "rrf_score": 0.3846678860211765,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_006",
+      "alias_source_ids": [
+        "P6_006"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "We are committed to adopting sustainable practices and operating our business in a transparent and ethical manner. We embed accountability in the workplace and take responsibility for our decisions and actions.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\nWe are committed to adopting sustainable practices and operating our business in a transparent and ethical manner. We embed accountability in the workplace and take responsibility for our decisions and actions.",
+      "bm25_rank": 82,
+      "dense_rank": 30,
+      "bm25_score": 3.3325366973876953,
+      "dense_score": 0.3624066114425659,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.015282732660841345,
+      "normalized_dense": 0.49898540924037993,
+      "normalized_bm25_rank": 0.4563758389261745,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.3844128491622744,
+      "rank": 31,
+      "rrf_score": 0.3844128491622744,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T28_002",
+      "alias_source_ids": [
+        "T28_002"
+      ],
+      "section": "Our Performance / Employees 9",
+      "pages": [
+        28
+      ],
+      "text": "No. of employees (as of the end of the Reporting Period of each year) Unit | 2021 | 2020 | 2019 Total no. of employees | No. | 2,212 | 2,243 | 1,878 By gender Male | No. | 1,772 | 1,809 | 1,438 Female | No. | 440 | 434 | 440 By employment type Full-time | No. | 2,212 | 2,243 | 1,878 Part-time | No. | 0 | 0 | 0 By employee category Directors and senior management | No. | 53 | 72 | 64 Middle management | No. | 425 | 440 | 541 General employee | No. | 1,734 | 1,731 | 1,273 By age group ≤ 30 | No. | 324 | 370 | 339 31 - 40 | No. | 603 | 603 | 605 41 - 50 | No. | 634 | 644 | 564 > 50 | No. | 651 | 626 | 370 By operating location Mainland China | No. | 1,406 | 1,453 | 1,413 Hong Kong | No. | 797 | 786 | 460 Macao | No. | 9 | 4 | 5",
+      "retrieval_text": "[Section]\nOur Performance / Employees 9\n\n[Content]\nNo. of employees (as of the end of the Reporting Period of each year) Unit | 2021 | 2020 | 2019 Total no. of employees | No. | 2,212 | 2,243 | 1,878 By gender Male | No. | 1,772 | 1,809 | 1,438 Female | No. | 440 | 434 | 440 By employment type Full-time | No. | 2,212 | 2,243 | 1,878 Part-time | No. | 0 | 0 | 0 By employee category Directors and senior management | No. | 53 | 72 | 64 Middle management | No. | 425 | 440 | 541 General employee | No. | 1,734 | 1,731 | 1,273 By age group ≤ 30 | No. | 324 | 370 | 339 31 - 40 | No. | 603 | 603 | 605 41 - 50 | No. | 634 | 644 | 564 > 50 | No. | 651 | 626 | 370 By operating location Mainland China | No. | 1,406 | 1,453 | 1,413 Hong Kong | No. | 797 | 786 | 460 Macao | No. | 9 | 4 | 5",
+      "bm25_rank": 8,
+      "dense_rank": 86,
+      "bm25_score": 19.380138397216797,
+      "dense_score": 0.3266351521015167,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6173769592141741,
+      "normalized_dense": 0.22448881114387248,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.4295302013422819,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.38325452943446536,
+      "rank": 32,
+      "rrf_score": 0.38325452943446536,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_001",
+      "alias_source_ids": [
+        "P3_001"
+      ],
+      "section": "About this Report / 1. ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "This environmental, social and governance (' ESG ') report (this ' Report ') details the sustainability strategy, progress, and achievement of Chu Kong Shipping Enterprises (Group) Company Limited and its subsidiaries (collectively referred to as the ' Group ' or ' we ') in 2021.",
+      "retrieval_text": "[Section]\nAbout this Report / 1. ABOUT THIS REPORT\n\n[Content]\nThis environmental, social and governance (' ESG ') report (this ' Report ') details the sustainability strategy, progress, and achievement of Chu Kong Shipping Enterprises (Group) Company Limited and its subsidiaries (collectively referred to as the ' Group ' or ' we ') in 2021.",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.3729282319545746,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5797243304421366,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.3814270055876337,
+      "rank": 33,
+      "rrf_score": 0.3814270055876337,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_002",
+      "alias_source_ids": [
+        "P6_002"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "The Working Group for the ESG Report is comprised of ESG representatives from all subsidiaries across the Group, and is responsible for implementing the Group's ESG policies, compiling necessary information for ESG reporting, and reporting to the Governance Group for the ESG Report. In order to improve the Group's ESG performance, members of the Working Group for the ESG Report are encouraged to exchange experiences and best practices.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\nThe Working Group for the ESG Report is comprised of ESG representatives from all subsidiaries across the Group, and is responsible for implementing the Group's ESG policies, compiling necessary information for ESG reporting, and reporting to the Governance Group for the ESG Report. In order to improve the Group's ESG performance, members of the Working Group for the ESG Report are encouraged to exchange experiences and best practices.",
+      "bm25_rank": null,
+      "dense_rank": 19,
+      "bm25_score": null,
+      "dense_score": 0.3719619810581207,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5723096879067139,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.3761473169418465,
+      "rank": 34,
+      "rrf_score": 0.3761473169418465,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_007",
+      "alias_source_ids": [
+        "P15_007"
+      ],
+      "section": "People-oriented Workplace / Merit-based Remuneration and Promotion",
+      "pages": [
+        15
+      ],
+      "text": "Based on the Group's business nature, both standard and flexible work hour systems are adopted to suit the operational needs. To ensure appropriate work and rest schedules are arranged for employees, the Group stipulated the working days, normal working hours, and rest periods of employees in the Attendance Management Standard and it includes the appropriate arrangement of providing monetary compensation or granting of time off to compensate overtime work. The Group guarantees that all employees enjoy statutory holidays such as marriage leave, maternity leave, funeral leave, and paid annual leave.",
+      "retrieval_text": "[Section]\nPeople-oriented Workplace / Merit-based Remuneration and Promotion\n\n[Content]\nBased on the Group's business nature, both standard and flexible work hour systems are adopted to suit the operational needs. To ensure appropriate work and rest schedules are arranged for employees, the Group stipulated the working days, normal working hours, and rest periods of employees in the Attendance Management Standard and it includes the appropriate arrangement of providing monetary compensation or granting of time off to compensate overtime work. The Group guarantees that all employees enjoy statutory holidays such as marriage leave, maternity leave, funeral leave, and paid annual leave.",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.37162068486213684,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5696907104742402,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.37254611108209146,
+      "rank": 35,
+      "rrf_score": 0.37254611108209146,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L8_002",
+      "alias_source_ids": [
+        "L8_002"
+      ],
+      "section": "Approach to Sustainability / 3.1.3. Ensuring Operations in Compliance",
+      "pages": [
+        8
+      ],
+      "text": "‧ The Company Secretary of CKSG is responsible for ensuring compliance with the Listing Rules of SEHK and serves as the principal channel of communication with the SEHK on behalf of the Group.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.1.3. Ensuring Operations in Compliance\n\n[Content]\n‧ The Company Secretary of CKSG is responsible for ensuring compliance with the Listing Rules of SEHK and serves as the principal channel of communication with the SEHK on behalf of the Group.",
+      "bm25_rank": null,
+      "dense_rank": 23,
+      "bm25_score": null,
+      "dense_score": 0.3706636428833008,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5623467336763861,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.36729115544445323,
+      "rank": 36,
+      "rrf_score": 0.36729115544445323,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_001",
+      "alias_source_ids": [
+        "P30_001"
+      ],
+      "section": "Appendix 1 Applicable Laws and Regulations / Law and Regulations 14",
+      "pages": [
+        30
+      ],
+      "text": "The laws and regulations that have a significant impact on the Group's operation in Mainland China, Hong Kong and Macao and our performance during the Reporting Period are as follows:",
+      "retrieval_text": "[Section]\nAppendix 1 Applicable Laws and Regulations / Law and Regulations 14\n\n[Content]\nThe laws and regulations that have a significant impact on the Group's operation in Mainland China, Hong Kong and Macao and our performance during the Reporting Period are as follows:",
+      "bm25_rank": 49,
+      "dense_rank": 45,
+      "bm25_score": 5.157432556152344,
+      "dense_score": 0.3487222194671631,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08375148463858904,
+      "normalized_dense": 0.393976580597018,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 45,
+      "composite_score": 0.36336693235143924,
+      "rank": 37,
+      "rrf_score": 0.36336693235143924,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_003",
+      "alias_source_ids": [
+        "P10_003"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "To investigate the ESG issues that are relevant to our business, the Group took reference from the local and international sustainability guidelines and standards, industry best practices, and the results of our communication with stakeholders throughout the year. A total of 18 ESG issues relevant to the Group were identified.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nTo investigate the ESG issues that are relevant to our business, the Group took reference from the local and international sustainability guidelines and standards, industry best practices, and the results of our communication with stakeholders throughout the year. A total of 18 ESG issues relevant to the Group were identified.",
+      "bm25_rank": 34,
+      "dense_rank": 53,
+      "bm25_score": 6.285161018371582,
+      "dense_score": 0.34505170583724976,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12606302806562353,
+      "normalized_dense": 0.3658104525374374,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.3612999552763956,
+      "rank": 38,
+      "rrf_score": 0.3612999552763956,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L3_015",
+      "alias_source_ids": [
+        "L3_015"
+      ],
+      "section": "About this Report / 1. ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "‧ Chu Kong Passenger Transport Company Limited (' CKPT ')",
+      "retrieval_text": "[Section]\nAbout this Report / 1. ABOUT THIS REPORT\n\n[Content]\n‧ Chu Kong Passenger Transport Company Limited (' CKPT ')",
+      "bm25_rank": 90,
+      "dense_rank": 37,
+      "bm25_score": 3.273118019104004,
+      "dense_score": 0.3551981449127197,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.013053387503027421,
+      "normalized_dense": 0.44367037383547325,
+      "normalized_bm25_rank": 0.40268456375838924,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.3498416170678533,
+      "rank": 39,
+      "rrf_score": 0.3498416170678533,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_004",
+      "alias_source_ids": [
+        "P15_004"
+      ],
+      "section": "People-oriented Workplace / Merit-based Remuneration and Promotion",
+      "pages": [
+        15
+      ],
+      "text": "The Group seeks and hires the right employees, regardless of gender, nationality, race, sexual orientation, marital status and any other protected status under applicable laws and regulations. All candidates are treated fairly by adopting a rigorous recruitment process focusing on candidates' qualifications capacity and work experience.",
+      "retrieval_text": "[Section]\nPeople-oriented Workplace / Merit-based Remuneration and Promotion\n\n[Content]\nThe Group seeks and hires the right employees, regardless of gender, nationality, race, sexual orientation, marital status and any other protected status under applicable laws and regulations. All candidates are treated fairly by adopting a rigorous recruitment process focusing on candidates' qualifications capacity and work experience.",
+      "bm25_rank": null,
+      "dense_rank": 28,
+      "bm25_score": null,
+      "dense_score": 0.36556607484817505,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5232299319024704,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.3468888654276096,
+      "rank": 40,
+      "rrf_score": 0.3468888654276096,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_019",
+      "alias_source_ids": [
+        "L30_019"
+      ],
+      "section": "Appendix 1 Applicable Laws and Regulations / Law and Regulations 14",
+      "pages": [
+        30
+      ],
+      "text": "‧ Cap. 57 Employment Ordinance",
+      "retrieval_text": "[Section]\nAppendix 1 Applicable Laws and Regulations / Law and Regulations 14\n\n[Content]\n‧ Cap. 57 Employment Ordinance",
+      "bm25_rank": 94,
+      "dense_rank": 39,
+      "bm25_score": 3.273118019104004,
+      "dense_score": 0.3540329039096832,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.013053387503027421,
+      "normalized_dense": 0.4347287567701321,
+      "normalized_bm25_rank": 0.37583892617449666,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.3413429235782054,
+      "rank": 41,
+      "rrf_score": 0.3413429235782054,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_002",
+      "alias_source_ids": [
+        "P10_002"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "In preparation of this Report, the Group completed a materiality assessment with the participation of the Group's major stakeholders, in collaboration with an external consulting firm. For the materiality assessment, the Group reached out to the members of the Governance Group for the ESG Report and five other stakeholder groups (employees, major shareholders and investors, customers, suppliers, and the public) via a materiality survey. The Group followed the four-stage process described below when conducting the materiality assessment.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nIn preparation of this Report, the Group completed a materiality assessment with the participation of the Group's major stakeholders, in collaboration with an external consulting firm. For the materiality assessment, the Group reached out to the members of the Governance Group for the ESG Report and five other stakeholder groups (employees, major shareholders and investors, customers, suppliers, and the public) via a materiality survey. The Group followed the four-stage process described below when conducting the materiality assessment.",
+      "bm25_rank": 38,
+      "dense_rank": 60,
+      "bm25_score": 6.056309700012207,
+      "dense_score": 0.34237074851989746,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11747669472431399,
+      "normalized_dense": 0.3452378039284204,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.6040268456375839,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.3403017246822261,
+      "rank": 42,
+      "rrf_score": 0.3403017246822261,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T9_001",
+      "alias_source_ids": [
+        "T9_001"
+      ],
+      "section": "Approach to Sustainability / Preventing Illegal Acts",
+      "pages": [
+        9
+      ],
+      "text": "Stakeholder Groups | Communication Channels | Communication Frequency Regulatory Authorities | ‧ On-site inspection ‧ Meeting | ‧ Regularly/as needed ‧ Regularly/as needed Shareholders and Investors | ‧ Annual general meeting and other shareholder meetings ‧ Annual report ‧ Announcement | ‧ Annually ‧ Annually ‧ As needed Employees | ‧ Meeting ‧ Group interview ‧ Performance appraisal ‧ Training, seminar and briefing session ‧ Cultural and sports activity ‧ Newsletter | ‧ Regularly ‧ Regularly ‧ Annually ‧ Regularly ‧ Regularly/as needed ‧ Regularly Customers | ‧ Website ‧ Email ‧ Customer service hotline ‧ Satisfaction survey | ‧ Daily/as needed ‧ As needed ‧ As needed ‧ Annually Suppliers | ‧ Open tendering ‧ Supplier evaluation and appraisal | ‧ As needed ‧ Annually Potential Investors and Financial Institutions | ‧ Potential investor briefing ‧ Roadshow ‧ Analyst briefing | ‧ As needed ‧ As needed ‧ As needed Communities | ‧ Information disclosure ‧ Website ‧ Email | ‧ Regularly/as needed ‧ As needed ‧ Daily/as needed",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Preventing Illegal Acts\n\n[Content]\nStakeholder Groups | Communication Channels | Communication Frequency Regulatory Authorities | ‧ On-site inspection ‧ Meeting | ‧ Regularly/as needed ‧ Regularly/as needed Shareholders and Investors | ‧ Annual general meeting and other shareholder meetings ‧ Annual report ‧ Announcement | ‧ Annually ‧ Annually ‧ As needed Employees | ‧ Meeting ‧ Group interview ‧ Performance appraisal ‧ Training, seminar and briefing session ‧ Cultural and sports activity ‧ Newsletter | ‧ Regularly ‧ Regularly ‧ Annually ‧ Regularly ‧ Regularly/as needed ‧ Regularly Customers | ‧ Website ‧ Email ‧ Customer service hotline ‧ Satisfaction survey | ‧ Daily/as needed ‧ As needed ‧ As needed ‧ Annually Suppliers | ‧ Open tendering ‧ Supplier evaluation and appraisal | ‧ As needed ‧ Annually Potential Investors and Financial Institutions | ‧ Potential investor briefing ‧ Roadshow ‧ Analyst briefing | ‧ As needed ‧ As needed ‧ As needed Communities | ‧ Information disclosure ‧ Website ‧ Email | ‧ Regularly/as needed ‧ As needed ‧ Daily/as needed",
+      "bm25_rank": null,
+      "dense_rank": 29,
+      "bm25_score": null,
+      "dense_score": 0.3629463016986847,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5031267873686252,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.33851048296156916,
+      "rank": 43,
+      "rrf_score": 0.33851048296156916,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T33_001",
+      "alias_source_ids": [
+        "T33_001"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        33
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Aspect A2: Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 7.1 KPI A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | The Group does not produce any products, and thus the total packaging material used for finished products is not applicable to the Group. Aspect A3: The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources | 7.1 KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 7.1 Aspect A4: Climate change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | 7.2 KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 7.2",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Aspect A2: Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 7.1 KPI A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | The Group does not produce any products, and thus the total packaging material used for finished products is not applicable to the Group. Aspect A3: The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources | 7.1 KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 7.1 Aspect A4: Climate change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | 7.2 KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 7.2",
+      "bm25_rank": 36,
+      "dense_rank": 65,
+      "bm25_score": 6.204919338226318,
+      "dense_score": 0.34024500846862793,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12305241917539186,
+      "normalized_dense": 0.3289256818271736,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.5704697986577181,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.3303384993202267,
+      "rank": 44,
+      "rrf_score": 0.3303384993202267,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_001",
+      "alias_source_ids": [
+        "P9_001"
+      ],
+      "section": "Approach to Sustainability / Preventing Illegal Acts",
+      "pages": [
+        9
+      ],
+      "text": "All employees are required to follow the Code of Conduct for Employee specified in the Employee Handbook, which stated employees' responsibilities in following anti-corruption practices and preventing illegal acts such as soliciting and accepting bribes, and misappropriation of funds. They strictly prohibited employees to accept gratuities and gifts exceeding a certain amount. To avoid conflict of interest, all employees are required to uphold the highest ethical and professional standards by signing the Undertaking Letter of Integrity for Employee , and are prohibited from outside employment which constitutes a conflict of interest.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Preventing Illegal Acts\n\n[Content]\nAll employees are required to follow the Code of Conduct for Employee specified in the Employee Handbook, which stated employees' responsibilities in following anti-corruption practices and preventing illegal acts such as soliciting and accepting bribes, and misappropriation of funds. They strictly prohibited employees to accept gratuities and gifts exceeding a certain amount. To avoid conflict of interest, all employees are required to uphold the highest ethical and professional standards by signing the Undertaking Letter of Integrity for Employee , and are prohibited from outside employment which constitutes a conflict of interest.",
+      "bm25_rank": 76,
+      "dense_rank": 47,
+      "bm25_score": 3.4565446376800537,
+      "dense_score": 0.3471837043762207,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.01993541947930809,
+      "normalized_dense": 0.38217059989722596,
+      "normalized_bm25_rank": 0.49664429530201337,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.325666256947139,
+      "rank": 45,
+      "rrf_score": 0.325666256947139,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_004",
+      "alias_source_ids": [
+        "P20_004"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "During the Reporting Period, the Group did not encounter any cases of infringement of laws and regulations related to data privacy and security as well as intellectual property rights.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nDuring the Reporting Period, the Group did not encounter any cases of infringement of laws and regulations related to data privacy and security as well as intellectual property rights.",
+      "bm25_rank": 10,
+      "dense_rank": 106,
+      "bm25_score": 18.10604476928711,
+      "dense_score": 0.31590086221694946,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.569573902295518,
+      "normalized_dense": 0.14211794591852767,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.2953020134228188,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.31667619575877615,
+      "rank": 46,
+      "rrf_score": 0.31667619575877615,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_003",
+      "alias_source_ids": [
+        "P20_003"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "As for intellectual property rights, we have developed the Computer User Handbook to ensure the use of authentic software. We also ensure our advertisements would not against intellectual property rights by requesting the advertising company to follow the practices.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nAs for intellectual property rights, we have developed the Computer User Handbook to ensure the use of authentic software. We also ensure our advertisements would not against intellectual property rights by requesting the advertising company to follow the practices.",
+      "bm25_rank": 5,
+      "dense_rank": null,
+      "bm25_score": 23.5557804107666,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.7740439799652341,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.2521242322346576,
+      "rank": 47,
+      "rrf_score": 0.2521242322346576,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T11_001",
+      "alias_source_ids": [
+        "T11_001"
+      ],
+      "section": "Safety and Health / 4. SAFETY AND HEALTH",
+      "pages": [
+        11
+      ],
+      "text": "Safety performance | Unit | 2021 | 2020 | 2019 Number of work-related fatalities | No. | 0 | 0 | 0 Work-related fatalities rate | % | 0% | 0% | 0% Lost days due to work injury 1 | Days | 880 1 | 408 | 333",
+      "retrieval_text": "[Section]\nSafety and Health / 4. SAFETY AND HEALTH\n\n[Content]\nSafety performance | Unit | 2021 | 2020 | 2019 Number of work-related fatalities | No. | 0 | 0 | 0 Work-related fatalities rate | % | 0% | 0% | 0% Lost days due to work injury 1 | Days | 880 1 | 408 | 333",
+      "bm25_rank": 6,
+      "dense_rank": null,
+      "bm25_score": 21.676639556884766,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.7035399956212806,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.23735229442626954,
+      "rank": 48,
+      "rrf_score": 0.23735229442626954,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_005",
+      "alias_source_ids": [
+        "P19_005"
+      ],
+      "section": "Quality and Reliable Service / Passenger Transportation",
+      "pages": [
+        19
+      ],
+      "text": "The Group is dedicated to exceeding client expectations while creating long-term relationships with them. Customers' opinions are important to the Group, therefore we listen to and respond to their needs in a friendly timely manner, and work hard to defend customers' rights.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Passenger Transportation\n\n[Content]\nThe Group is dedicated to exceeding client expectations while creating long-term relationships with them. Customers' opinions are important to the Group, therefore we listen to and respond to their needs in a friendly timely manner, and work hard to defend customers' rights.",
+      "bm25_rank": 7,
+      "dense_rank": null,
+      "bm25_score": 19.910991668701172,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.6372941839737527,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.22343199115716667,
+      "rank": 49,
+      "rrf_score": 0.22343199115716667,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T29_005",
+      "alias_source_ids": [
+        "T29_005"
+      ],
+      "section": "Our Performance / Employee Turnover",
+      "pages": [
+        29
+      ],
+      "text": "Safety performance | Unit | 2021 | 2020 | 2019 Number of work-related fatalities | No. | 0 | 0 | 0 Work-related fatalities rate | % | 0% | 0% | 0% Lost days due to work injury | Days | 880 | 408 | 333",
+      "retrieval_text": "[Section]\nOur Performance / Employee Turnover\n\n[Content]\nSafety performance | Unit | 2021 | 2020 | 2019 Number of work-related fatalities | No. | 0 | 0 | 0 Work-related fatalities rate | % | 0% | 0% | 0% Lost days due to work injury | Days | 880 | 408 | 333",
+      "bm25_rank": 9,
+      "dense_rank": null,
+      "bm25_score": 18.475570678710938,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.5834382429482602,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.21131852107287352,
+      "rank": 50,
+      "rrf_score": 0.21131852107287352,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

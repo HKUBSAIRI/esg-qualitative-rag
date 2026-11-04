@@ -1,0 +1,1559 @@
+{
+  "document_id": "2022051200815",
+  "metric_id": 51,
+  "metric_name": "独立第三方审计（鉴证）",
+  "query": "独立第三方审计（鉴证） 独立第三方审计（鉴证） 衡量ESG关键数据是否经过独立鉴证 2分：由独立第三方按国际准则（ISAE 3000/AA1000AS）出具鉴证报告。 1分：虽无报告，但披露了具体的内部审计路径（提及了内审委员会或具体复核频率）。 0分：仅董事会背书。 独立鉴证 有限保证 合理保证 独立核查 鉴证范围 ESG鉴证 鉴证报告 核查声明 ISAE 3000 AA1000AS independent assurance limited assurance reasonable assurance ISAE 3000 AA1000AS verification statement ESG assurance assurance scope 是否有独立第三方ESG鉴证/核查报告？ 鉴证机构与准则（ISAE 3000/AA1000AS等）是什么？ 保证等级是有限保证还是合理保证？ 鉴证范围覆盖哪些指标与报告期？ 若无外部鉴证，是否披露内审路径与复核频率？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '独立第三方审计（鉴证）'. Prefer explicit, auditable disclosure that answers: 是否有独立第三方ESG鉴证/核查报告？ 鉴证机构与准则（ISAE 3000/AA1000AS等）是什么？ 保证等级是有限保证还是合理保证？ 鉴证范围覆盖哪些指标与报告期？ 若无外部鉴证，是否披露内审路径与复核频率？ Exclude or down-rank: 排除：仅有董事会对ESG报告真实性声明；仅有ISO 45001/14001管理体系认证；仅有财务审计意见；仅有“数据已经核对”无机构无准则；区分：本指标是ESG数据独立鉴证；ISO体系认证不是ESG报告鉴证；温室气体核算关注方法学，鉴证关注外部保证结论。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 193,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "This Report has complied with the 'comply or explain' provisions as well as mandatory disclosure requirements of the ESG Guide and was prepared in adherence to the four reporting principles: Materiality, Quantitative, Balance and Consistency.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nThis Report has complied with the 'comply or explain' provisions as well as mandatory disclosure requirements of the ESG Guide and was prepared in adherence to the four reporting principles: Materiality, Quantitative, Balance and Consistency.",
+      "bm25_rank": 4,
+      "dense_rank": 6,
+      "bm25_score": 18.63594627380371,
+      "dense_score": 0.5268181562423706,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7992304652134009,
+      "normalized_dense": 0.8146464568210166,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.736247520715271,
+      "rank": 1,
+      "rrf_score": 0.736247520715271,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_001",
+      "alias_source_ids": [
+        "P4_001"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "This Report was prepared in accordance with the Environmental, Social and Governance Reporting Guide (' ESG Guide ') set out in Appendix 27 of the Main Board Listing Rules of The Stock Exchange of Hong Kong Limited (' SEHK '). For detailed information about the provisions of the ESG Guide , please refer to Appendix 2 of this Report.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nThis Report was prepared in accordance with the Environmental, Social and Governance Reporting Guide (' ESG Guide ') set out in Appendix 27 of the Main Board Listing Rules of The Stock Exchange of Hong Kong Limited (' SEHK '). For detailed information about the provisions of the ESG Guide , please refer to Appendix 2 of this Report.",
+      "bm25_rank": 12,
+      "dense_rank": 3,
+      "bm25_score": 13.400972366333008,
+      "dense_score": 0.5496200919151306,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5551289583409521,
+      "normalized_dense": 0.888739260452901,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.712017418732746,
+      "rank": 2,
+      "rrf_score": 0.712017418732746,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_006",
+      "alias_source_ids": [
+        "P4_006"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "We adopted consistent methodologies and reported the changes to the scope and methods to allow for meaningful comparisons of ESG data over time.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nWe adopted consistent methodologies and reported the changes to the scope and methods to allow for meaningful comparisons of ESG data over time.",
+      "bm25_rank": 15,
+      "dense_rank": 4,
+      "bm25_score": 12.974401473999023,
+      "dense_score": 0.543779194355011,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5352383916548309,
+      "normalized_dense": 0.8697597982630793,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6980407889310977,
+      "rank": 3,
+      "rrf_score": 0.6980407889310977,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_007",
+      "alias_source_ids": [
+        "P4_007"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "All information disclosed in this Report was sourced from the Group's documents and statistics. The board of directors of the Company (the ' Board ') has overall responsibility for the Group's ESG strategy and reporting. This Report was reviewed and approved by the Board on 12 May 2022.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nAll information disclosed in this Report was sourced from the Group's documents and statistics. The board of directors of the Company (the ' Board ') has overall responsibility for the Group's ESG strategy and reporting. This Report was reviewed and approved by the Board on 12 May 2022.",
+      "bm25_rank": 66,
+      "dense_rank": 1,
+      "bm25_score": 6.850686073303223,
+      "dense_score": 0.5838603973388672,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2496957732217834,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.563758389261745,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.6563149935705311,
+      "rank": 4,
+      "rrf_score": 0.6563149935705311,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_006",
+      "alias_source_ids": [
+        "L6_006"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "‧ to regularly report ESG matters to the Board.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\n‧ to regularly report ESG matters to the Board.",
+      "bm25_rank": 21,
+      "dense_rank": 8,
+      "bm25_score": 12.197486877441406,
+      "dense_score": 0.5194828510284424,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4990116545052386,
+      "normalized_dense": 0.7908110536957987,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.6537674077482686,
+      "rank": 5,
+      "rrf_score": 0.6537674077482686,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_001",
+      "alias_source_ids": [
+        "P3_001"
+      ],
+      "section": "About this Report / 1. ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "This environmental, social and governance (' ESG ') report (this ' Report ') details the sustainability strategy, progress, and achievement of Chu Kong Shipping Enterprises (Group) Company Limited and its subsidiaries (collectively referred to as the ' Group ' or ' we ') in 2021.",
+      "retrieval_text": "[Section]\nAbout this Report / 1. ABOUT THIS REPORT\n\n[Content]\nThis environmental, social and governance (' ESG ') report (this ' Report ') details the sustainability strategy, progress, and achievement of Chu Kong Shipping Enterprises (Group) Company Limited and its subsidiaries (collectively referred to as the ' Group ' or ' we ') in 2021.",
+      "bm25_rank": 3,
+      "dense_rank": 28,
+      "bm25_score": 19.185598373413086,
+      "dense_score": 0.4739602506160736,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8248601833632434,
+      "normalized_dense": 0.6428895288931584,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6523994791678045,
+      "rank": 6,
+      "rrf_score": 0.6523994791678045,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T32_001",
+      "alias_source_ids": [
+        "T32_001"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        32
+      ],
+      "text": "Mandatary Disclosure Requirements | Descriptions | Relevant Sections and Remarks Reporting Principles | A description of, or an explanation on, the application of the following Reporting Principles in the preparation of the ESG report: Materiality: The ESG report should disclose: (i) the process to identify and the criteria for the selection of material ESG factors; (ii) if a stakeholder engagement is conducted, a description of significant stakeholders identified, and the process and results of the issuer's stakeholder engagement. Quantitative: Information on the standards, methodologies, assumptions and/or calculation tools used, and source of conversion factors used, for the reporting of emissions/energy consumption (where applicable) should be disclosed. Balance: The ESG report should provide an unbiased picture of the issuer's performance. The report should avoid selections, omissions, or presentation formats that may inappropriately influence a decision or judgment by the report reader. Consistency: The issuer should disclose in the ESG report any changes to the methods or KPIs used, or any other relevant factors affecting a | About This Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About This Report",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMandatary Disclosure Requirements | Descriptions | Relevant Sections and Remarks Reporting Principles | A description of, or an explanation on, the application of the following Reporting Principles in the preparation of the ESG report: Materiality: The ESG report should disclose: (i) the process to identify and the criteria for the selection of material ESG factors; (ii) if a stakeholder engagement is conducted, a description of significant stakeholders identified, and the process and results of the issuer's stakeholder engagement. Quantitative: Information on the standards, methodologies, assumptions and/or calculation tools used, and source of conversion factors used, for the reporting of emissions/energy consumption (where applicable) should be disclosed. Balance: The ESG report should provide an unbiased picture of the issuer's performance. The report should avoid selections, omissions, or presentation formats that may inappropriately influence a decision or judgment by the report reader. Consistency: The issuer should disclose in the ESG report any changes to the methods or KPIs used, or any other relevant factors affecting a | About This Report Reporting Boundary | A narrative explaining the reporting boundaries of the ESG report and describing the process used to identify which entities or operations are included in the ESG report. If there is a change in the scope, the issuer should explain the difference and reason for the change. | About This Report",
+      "bm25_rank": 22,
+      "dense_rank": 9,
+      "bm25_score": 12.087813377380371,
+      "dense_score": 0.5184983611106873,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.49389769078697265,
+      "normalized_dense": 0.7876120437871381,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.6496115387177922,
+      "rank": 7,
+      "rrf_score": 0.6496115387177922,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_001",
+      "alias_source_ids": [
+        "L6_001"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "‧ to assist the Board in fulfilling its oversight responsibility for the Group's ESG strategies and programmes;",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\n‧ to assist the Board in fulfilling its oversight responsibility for the Group's ESG strategies and programmes;",
+      "bm25_rank": 26,
+      "dense_rank": 7,
+      "bm25_score": 11.529746055603027,
+      "dense_score": 0.5229305028915405,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.46787557938968033,
+      "normalized_dense": 0.8020138829708938,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.6494477601526483,
+      "rank": 8,
+      "rrf_score": 0.6494477601526483,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_008",
+      "alias_source_ids": [
+        "P5_008"
+      ],
+      "section": "About the Group / Approach to Sustainability",
+      "pages": [
+        5
+      ],
+      "text": "As to demonstrate our continuous commitment to sustainability, the Group has established a governance structure with the Board's oversight on ESG issues covering all business segments.",
+      "retrieval_text": "[Section]\nAbout the Group / Approach to Sustainability\n\n[Content]\nAs to demonstrate our continuous commitment to sustainability, the Group has established a governance structure with the Board's oversight on ESG issues covering all business segments.",
+      "bm25_rank": 5,
+      "dense_rank": 24,
+      "bm25_score": 16.92961883544922,
+      "dense_score": 0.48450201749801636,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7196661529012162,
+      "normalized_dense": 0.6771440358230231,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.6473765961384356,
+      "rank": 9,
+      "rrf_score": 0.6473765961384356,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T31_002",
+      "alias_source_ids": [
+        "T31_002"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        31
+      ],
+      "text": "Mandatary Disclosure Requirements | Descriptions | Relevant Sections and Remarks Governance Structure | Statement from the board containing the following elements: (i) a disclosure of the board's oversight of ESG issues; (ii) the board's ESG management approach and strategy, including the process used to evaluate, prioritise and manage material ESG-related issues (including risks to the issuer's businesses); and (iii) how the board reviews progress made against ESG-related goals and targets with an explanation of how they relate to the | About This Report",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nMandatary Disclosure Requirements | Descriptions | Relevant Sections and Remarks Governance Structure | Statement from the board containing the following elements: (i) a disclosure of the board's oversight of ESG issues; (ii) the board's ESG management approach and strategy, including the process used to evaluate, prioritise and manage material ESG-related issues (including risks to the issuer's businesses); and (iii) how the board reviews progress made against ESG-related goals and targets with an explanation of how they relate to the | About This Report",
+      "bm25_rank": 13,
+      "dense_rank": 13,
+      "bm25_score": 13.34359073638916,
+      "dense_score": 0.50307297706604,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5524533113208014,
+      "normalized_dense": 0.7374886697293905,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.6444506228439436,
+      "rank": 10,
+      "rrf_score": 0.6444506228439436,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_005",
+      "alias_source_ids": [
+        "P4_005"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "We reported our quantitative performance for stakeholders to evaluate the effectiveness of our ESG policies and management systems. Moreover, we disclosed the standards, methodologies, assumptions, and source of conversion factors used for the reporting of key performance indicators where applicable.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nWe reported our quantitative performance for stakeholders to evaluate the effectiveness of our ESG policies and management systems. Moreover, we disclosed the standards, methodologies, assumptions, and source of conversion factors used for the reporting of key performance indicators where applicable.",
+      "bm25_rank": 62,
+      "dense_rank": 2,
+      "bm25_score": 7.202085494995117,
+      "dense_score": 0.5655373334884644,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2660811707166378,
+      "normalized_dense": 0.9404608805460222,
+      "normalized_bm25_rank": 0.5906040268456376,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6400956631398045,
+      "rank": 11,
+      "rrf_score": 0.6400956631398045,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_011",
+      "alias_source_ids": [
+        "P5_011"
+      ],
+      "section": "About the Group / Approach to Sustainability",
+      "pages": [
+        5
+      ],
+      "text": "As the highest decision-making body for the overall ESG management of the Group, the Board provides oversight of the Group's ESG management and gives final approval for the Group's ESG strategies, targets, and approaches.",
+      "retrieval_text": "[Section]\nAbout the Group / Approach to Sustainability\n\n[Content]\nAs the highest decision-making body for the overall ESG management of the Group, the Board provides oversight of the Group's ESG management and gives final approval for the Group's ESG strategies, targets, and approaches.",
+      "bm25_rank": 2,
+      "dense_rank": 35,
+      "bm25_score": 20.07879638671875,
+      "dense_score": 0.4567497968673706,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.86650909792082,
+      "normalized_dense": 0.5869657341627995,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.632431101708929,
+      "rank": 12,
+      "rrf_score": 0.632431101708929,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_009",
+      "alias_source_ids": [
+        "P4_009"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "We welcome your feedback on our ESG performance and this Report. Please contact us with the information below:",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nWe welcome your feedback on our ESG performance and this Report. Please contact us with the information below:",
+      "bm25_rank": 49,
+      "dense_rank": 5,
+      "bm25_score": 8.8704195022583,
+      "dense_score": 0.5387608408927917,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.34387388799424023,
+      "normalized_dense": 0.8534531178580559,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.6298994762317179,
+      "rank": 13,
+      "rrf_score": 0.6298994762317179,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T8_001",
+      "alias_source_ids": [
+        "T8_001"
+      ],
+      "section": "Approach to Sustainability / 3.1.3. Ensuring Operations in Compliance",
+      "pages": [
+        8
+      ],
+      "text": "Significant ESG risks | Potential Impacts | Response Approaches The Group will also assess the supplier's performance in a number of ESG areas, such as product and service quality, ethical conduct and environmental protection. Sun Ferry has set out its ESG requirements for suppliers in the Supplier Code and favours suppliers who demonstrate a commitment to the principles outlined in the Code in the supplier selection process. To verify that our suppliers meet our requirements and drive improvements, we assess the performance of our existing key suppliers annually against the criteria and procedures specified in the Comprehensive Supplier Evaluation Management Scheme. If suppliers fail to meet our requirements, they are required to develop corrective action plans and take corrective action.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.1.3. Ensuring Operations in Compliance\n\n[Content]\nSignificant ESG risks | Potential Impacts | Response Approaches The Group will also assess the supplier's performance in a number of ESG areas, such as product and service quality, ethical conduct and environmental protection. Sun Ferry has set out its ESG requirements for suppliers in the Supplier Code and favours suppliers who demonstrate a commitment to the principles outlined in the Code in the supplier selection process. To verify that our suppliers meet our requirements and drive improvements, we assess the performance of our existing key suppliers annually against the criteria and procedures specified in the Comprehensive Supplier Evaluation Management Scheme. If suppliers fail to meet our requirements, they are required to develop corrective action plans and take corrective action.",
+      "bm25_rank": 14,
+      "dense_rank": 19,
+      "bm25_score": 13.022908210754395,
+      "dense_score": 0.4988016188144684,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5375002114355473,
+      "normalized_dense": 0.7236092819126272,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.6278773849162606,
+      "rank": 14,
+      "rrf_score": 0.6278773849162606,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_009",
+      "alias_source_ids": [
+        "P5_009"
+      ],
+      "section": "About the Group / Approach to Sustainability",
+      "pages": [
+        5
+      ],
+      "text": "Governance Group for the ESG Report",
+      "retrieval_text": "[Section]\nAbout the Group / Approach to Sustainability\n\n[Content]\nGovernance Group for the ESG Report",
+      "bm25_rank": 40,
+      "dense_rank": 10,
+      "bm25_score": 10.153312683105469,
+      "dense_score": 0.5154303908348083,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.40369389171083664,
+      "normalized_dense": 0.7776429550895189,
+      "normalized_bm25_rank": 0.738255033557047,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.6146587790664519,
+      "rank": 15,
+      "rrf_score": 0.6146587790664519,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_003",
+      "alias_source_ids": [
+        "P4_003"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "A materiality assessment was conducted to inform the structure and focus areas of our ESG reporting. For the process to identify and the criteria for the selection of material ESG issues, please refer to the section '3.2 Stakeholder Engagement and Materiality' of this Report.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nA materiality assessment was conducted to inform the structure and focus areas of our ESG reporting. For the process to identify and the criteria for the selection of material ESG issues, please refer to the section '3.2 Stakeholder Engagement and Materiality' of this Report.",
+      "bm25_rank": 45,
+      "dense_rank": 11,
+      "bm25_score": 9.84543514251709,
+      "dense_score": 0.5148574709892273,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.38933787524959745,
+      "normalized_dense": 0.7757813044724549,
+      "normalized_bm25_rank": 0.7046979865771812,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.6064380114810505,
+      "rank": 16,
+      "rrf_score": 0.6064380114810505,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_005",
+      "alias_source_ids": [
+        "L6_005"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "‧ to comply with the obligations under the ESG Guide set out in Appendix 27 of the Main Board Listing Rules of SEHK;",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\n‧ to comply with the obligations under the ESG Guide set out in Appendix 27 of the Main Board Listing Rules of SEHK;",
+      "bm25_rank": 33,
+      "dense_rank": 17,
+      "bm25_score": 11.075026512145996,
+      "dense_score": 0.4993150234222412,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.446672469742121,
+      "normalized_dense": 0.7252775432099722,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.6002286139376862,
+      "rank": 17,
+      "rrf_score": 0.6002286139376862,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_010",
+      "alias_source_ids": [
+        "P5_010"
+      ],
+      "section": "About the Group / Approach to Sustainability",
+      "pages": [
+        5
+      ],
+      "text": "Working Group for the ESG Report",
+      "retrieval_text": "[Section]\nAbout the Group / Approach to Sustainability\n\n[Content]\nWorking Group for the ESG Report",
+      "bm25_rank": 41,
+      "dense_rank": 12,
+      "bm25_score": 10.153312683105469,
+      "dense_score": 0.5052865147590637,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.40369389171083664,
+      "normalized_dense": 0.7446813579280905,
+      "normalized_bm25_rank": 0.7315436241610738,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.5997665153619655,
+      "rank": 18,
+      "rrf_score": 0.5997665153619655,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_002",
+      "alias_source_ids": [
+        "P7_002"
+      ],
+      "section": "Approach to Sustainability / 3.1.2. ESG Risk Management",
+      "pages": [
+        7
+      ],
+      "text": "The Group has identified significant ESG risks in 2021 and the approaches to address them are as follow:",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.1.2. ESG Risk Management\n\n[Content]\nThe Group has identified significant ESG risks in 2021 and the approaches to address them are as follow:",
+      "bm25_rank": 1,
+      "dense_rank": 50,
+      "bm25_score": 22.941627502441406,
+      "dense_score": 0.4146357774734497,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.45012008150047644,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.6711409395973154,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.5917702164446298,
+      "rank": 19,
+      "rrf_score": 0.5917702164446298,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_001",
+      "alias_source_ids": [
+        "P6_001"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "Spearheaded by one of the executive directors of the Company, the Governance Group for the ESG Report is comprised of the general managers from different business segments. It is accountable to the Board, and has the following main duties:",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\nSpearheaded by one of the executive directors of the Company, the Governance Group for the ESG Report is comprised of the general managers from different business segments. It is accountable to the Board, and has the following main duties:",
+      "bm25_rank": 43,
+      "dense_rank": 16,
+      "bm25_score": 9.9618558883667,
+      "dense_score": 0.5018647909164429,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.39476645617385936,
+      "normalized_dense": 0.7335627793831685,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.5873781163678742,
+      "rank": 20,
+      "rrf_score": 0.5873781163678742,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_001",
+      "alias_source_ids": [
+        "P7_001"
+      ],
+      "section": "Approach to Sustainability / 3.1.2. ESG Risk Management",
+      "pages": [
+        7
+      ],
+      "text": "The Board has overall responsibility for the assessment and determination of the Group's significant ESG risks and for ensuring that the Group establishes and maintains appropriate and effective risk management.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.1.2. ESG Risk Management\n\n[Content]\nThe Board has overall responsibility for the assessment and determination of the Group's significant ESG risks and for ensuring that the Group establishes and maintains appropriate and effective risk management.",
+      "bm25_rank": 19,
+      "dense_rank": 27,
+      "bm25_score": 12.546134948730469,
+      "dense_score": 0.47554105520248413,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5152687593302275,
+      "normalized_dense": 0.6480262087558781,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.5828830591587908,
+      "rank": 21,
+      "rrf_score": 0.5828830591587908,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_002",
+      "alias_source_ids": [
+        "L6_002"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "‧ to engage with stakeholders and solicit their feedback on the Group's ESG risks and opportunities;",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\n‧ to engage with stakeholders and solicit their feedback on the Group's ESG risks and opportunities;",
+      "bm25_rank": 25,
+      "dense_rank": 25,
+      "bm25_score": 11.609188079833984,
+      "dense_score": 0.48434168100357056,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4715798801496326,
+      "normalized_dense": 0.6766230370548268,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.5828118913481093,
+      "rank": 22,
+      "rrf_score": 0.5828118913481093,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_004",
+      "alias_source_ids": [
+        "L6_004"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "‧ to assess and manage ESG risks arising from the operation and to progressively integrate ESG considerations into the Group's business strategy;",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\n‧ to assess and manage ESG risks arising from the operation and to progressively integrate ESG considerations into the Group's business strategy;",
+      "bm25_rank": 18,
+      "dense_rank": 29,
+      "bm25_score": 12.555319786071777,
+      "dense_score": 0.4725005626678467,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5156970389501493,
+      "normalized_dense": 0.6381464064642584,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.5774973614619163,
+      "rank": 23,
+      "rrf_score": 0.5774973614619163,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_002",
+      "alias_source_ids": [
+        "P6_002"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "The Working Group for the ESG Report is comprised of ESG representatives from all subsidiaries across the Group, and is responsible for implementing the Group's ESG policies, compiling necessary information for ESG reporting, and reporting to the Governance Group for the ESG Report. In order to improve the Group's ESG performance, members of the Working Group for the ESG Report are encouraged to exchange experiences and best practices.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\nThe Working Group for the ESG Report is comprised of ESG representatives from all subsidiaries across the Group, and is responsible for implementing the Group's ESG policies, compiling necessary information for ESG reporting, and reporting to the Governance Group for the ESG Report. In order to improve the Group's ESG performance, members of the Working Group for the ESG Report are encouraged to exchange experiences and best practices.",
+      "bm25_rank": 11,
+      "dense_rank": 34,
+      "bm25_score": 13.503296852111816,
+      "dense_score": 0.4640547037124634,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5599002450006451,
+      "normalized_dense": 0.6107023605698836,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.5747191637901923,
+      "rank": 24,
+      "rrf_score": 0.5747191637901923,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_006",
+      "alias_source_ids": [
+        "P10_006"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "The Governance Group for the ESG Report validated the six highmateriality issues of the Group in 2021, confirming the focus of this Report.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nThe Governance Group for the ESG Report validated the six highmateriality issues of the Group in 2021, confirming the focus of this Report.",
+      "bm25_rank": 39,
+      "dense_rank": 22,
+      "bm25_score": 10.155035018920898,
+      "dense_score": 0.4917196035385132,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.40377420247748375,
+      "normalized_dense": 0.7005969212652716,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.5722724877705566,
+      "rank": 25,
+      "rrf_score": 0.5722724877705566,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_003",
+      "alias_source_ids": [
+        "P10_003"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "To investigate the ESG issues that are relevant to our business, the Group took reference from the local and international sustainability guidelines and standards, industry best practices, and the results of our communication with stakeholders throughout the year. A total of 18 ESG issues relevant to the Group were identified.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nTo investigate the ESG issues that are relevant to our business, the Group took reference from the local and international sustainability guidelines and standards, industry best practices, and the results of our communication with stakeholders throughout the year. A total of 18 ESG issues relevant to the Group were identified.",
+      "bm25_rank": 36,
+      "dense_rank": 26,
+      "bm25_score": 10.931229591369629,
+      "dense_score": 0.4793946146965027,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4399673656354821,
+      "normalized_dense": 0.6605479977378195,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.5621382924695615,
+      "rank": 26,
+      "rrf_score": 0.5621382924695615,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_005",
+      "alias_source_ids": [
+        "P6_005"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "We strive for excellence in providing safe and reliable services to our customers with dedication, professionalism, and efficiency.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\nWe strive for excellence in providing safe and reliable services to our customers with dedication, professionalism, and efficiency.",
+      "bm25_rank": 50,
+      "dense_rank": 20,
+      "bm25_score": 8.598799705505371,
+      "dense_score": 0.49754390120506287,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3312085332368537,
+      "normalized_dense": 0.7195224436197988,
+      "normalized_bm25_rank": 0.6711409395973154,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.5596853001693338,
+      "rank": 27,
+      "rrf_score": 0.5596853001693338,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_003",
+      "alias_source_ids": [
+        "L6_003"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "‧ to determine ESG priorities, formulate corresponding objectives and policies, and monitor progress;",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\n‧ to determine ESG priorities, formulate corresponding objectives and policies, and monitor progress;",
+      "bm25_rank": 23,
+      "dense_rank": 32,
+      "bm25_score": 11.854220390319824,
+      "dense_score": 0.4664458632469177,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4830054874743748,
+      "normalized_dense": 0.6184722146902285,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.5566905337102804,
+      "rank": 28,
+      "rrf_score": 0.5566905337102804,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_006",
+      "alias_source_ids": [
+        "P6_006"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "We are committed to adopting sustainable practices and operating our business in a transparent and ethical manner. We embed accountability in the workplace and take responsibility for our decisions and actions.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\nWe are committed to adopting sustainable practices and operating our business in a transparent and ethical manner. We embed accountability in the workplace and take responsibility for our decisions and actions.",
+      "bm25_rank": 60,
+      "dense_rank": 21,
+      "bm25_score": 7.591484069824219,
+      "dense_score": 0.49217647314071655,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2842384300592527,
+      "normalized_dense": 0.7020814772348717,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.5361332500239214,
+      "rank": 29,
+      "rrf_score": 0.5361332500239214,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T34_002",
+      "alias_source_ids": [
+        "T34_002"
+      ],
+      "section": "Appendix 2 Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        34
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks KPI B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 6.3 KPI B6.4 | Description of quality assurance process and recall procedures. | 6.1 * Due to the Group's business nature, recall procedure is not applicable to the Group. KPI B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 6.3 Aspect B7: Anti-Corruption General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | 3.1, Appendix 1 KPI B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | 3.1 KPI B7.2 | Description of preventive measures and whistle- blowing procedures, how they are implemented and monitored. | 3.1 KPI B7.3 | Description of anti-corruption training provided to directors and staff. | 3.1 Aspect B8: Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | 8 KPI B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | 8 KPI B8.2 | Resources contributed (e.g. money or time) to the focus area. | 8",
+      "retrieval_text": "[Section]\nAppendix 2 Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks KPI B6.3 | Description of practices relating to observing and protecting intellectual property rights. | 6.3 KPI B6.4 | Description of quality assurance process and recall procedures. | 6.1 * Due to the Group's business nature, recall procedure is not applicable to the Group. KPI B6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. | 6.3 Aspect B7: Anti-Corruption General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering. | 3.1, Appendix 1 KPI B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. | 3.1 KPI B7.2 | Description of preventive measures and whistle- blowing procedures, how they are implemented and monitored. | 3.1 KPI B7.3 | Description of anti-corruption training provided to directors and staff. | 3.1 Aspect B8: Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | 8 KPI B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | 8 KPI B8.2 | Resources contributed (e.g. money or time) to the focus area. | 8",
+      "bm25_rank": 29,
+      "dense_rank": 39,
+      "bm25_score": 11.29104232788086,
+      "dense_score": 0.4439016878604889,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4567450674400602,
+      "normalized_dense": 0.5452169795241674,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.5123762986033498,
+      "rank": 30,
+      "rrf_score": 0.5123762986033498,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_005",
+      "alias_source_ids": [
+        "P7_005"
+      ],
+      "section": "Approach to Sustainability / 3.1.2. ESG Risk Management",
+      "pages": [
+        7
+      ],
+      "text": "The Group has established a c o m p r e h e n s i v e t e n d e r evaluation system and set out a supplier selection process in the Tender Management Measures and Procurement Management Process , which regulates the management of different types of suppliers to the Group and realises the principles of 'transparency, fairness, impartiality and honesty'. The Group's technical support department works closely with relevant departments to identify suitable suppliers and assess their qualifications and performance. At least three potential suppliers will be invited to tender for the Group to select a suitable supplier.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.1.2. ESG Risk Management\n\n[Content]\nThe Group has established a c o m p r e h e n s i v e t e n d e r evaluation system and set out a supplier selection process in the Tender Management Measures and Procurement Management Process , which regulates the management of different types of suppliers to the Group and realises the principles of 'transparency, fairness, impartiality and honesty'. The Group's technical support department works closely with relevant departments to identify suitable suppliers and assess their qualifications and performance. At least three potential suppliers will be invited to tender for the Group to select a suitable supplier.",
+      "bm25_rank": 76,
+      "dense_rank": 23,
+      "bm25_score": 5.8342814445495605,
+      "dense_score": 0.48769503831863403,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20230185954499605,
+      "normalized_dense": 0.6875194648238675,
+      "normalized_bm25_rank": 0.49664429530201337,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.5012264127852722,
+      "rank": 31,
+      "rrf_score": 0.5012264127852722,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_001",
+      "alias_source_ids": [
+        "P10_001"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "Materiality assessment is fundamentally significant for the Group's sustainable development. It helps us to prioritise and highlight the material ESG issues from both internal and external stakeholders. The results of the materiality assessment guide us in constructing our ESG reporting framework and provide insights into our strategic decision-making process.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nMateriality assessment is fundamentally significant for the Group's sustainable development. It helps us to prioritise and highlight the material ESG issues from both internal and external stakeholders. The results of the materiality assessment guide us in constructing our ESG reporting framework and provide insights into our strategic decision-making process.",
+      "bm25_rank": 35,
+      "dense_rank": 40,
+      "bm25_score": 10.995404243469238,
+      "dense_score": 0.4395485520362854,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4429597643670545,
+      "normalized_dense": 0.53107186296764,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.49929931967718555,
+      "rank": 32,
+      "rrf_score": 0.49929931967718555,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_007",
+      "alias_source_ids": [
+        "P20_007"
+      ],
+      "section": "Quality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy",
+      "pages": [
+        20
+      ],
+      "text": "The Group has been trying to incorporate the sustainable practice into its supply chain management. We seek to work with suppliers who share the same value with us. Apart from evaluating the cost, reputation and delivery of potential suppliers' products and services, the Group also considers their social and environmental performances, such as product and service quality, ethical conduct and environmental conservation. Taking Sun Ferry as an example, Sun Ferry has stipulated its ESG requirements for suppliers in a Supplier Code of Conduct , and favours suppliers who could demonstrate commitments to uphold sustainability principles listed in the code during suppliers' selection process.",
+      "retrieval_text": "[Section]\nQuality and Reliable Service / Valuing Customer Privacy and Persistence in Information Accuracy\n\n[Content]\nThe Group has been trying to incorporate the sustainable practice into its supply chain management. We seek to work with suppliers who share the same value with us. Apart from evaluating the cost, reputation and delivery of potential suppliers' products and services, the Group also considers their social and environmental performances, such as product and service quality, ethical conduct and environmental conservation. Taking Sun Ferry as an example, Sun Ferry has stipulated its ESG requirements for suppliers in a Supplier Code of Conduct , and favours suppliers who could demonstrate commitments to uphold sustainability principles listed in the code during suppliers' selection process.",
+      "bm25_rank": 20,
+      "dense_rank": 48,
+      "bm25_score": 12.216779708862305,
+      "dense_score": 0.4244499206542969,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.49991125960450317,
+      "normalized_dense": 0.4820102417899116,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.492846910372873,
+      "rank": 33,
+      "rrf_score": 0.492846910372873,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_003",
+      "alias_source_ids": [
+        "P6_003"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "The Group is committed to operating in an environmentally responsible manner and to creating value for the communities in which we operate. To that end, the Group has formulated the Environment, Social and Governance Policy (' ESG Policy ') to strengthen our ESG governance and to provide guidance for the development and implementation of ESG initiatives. It outlines our sustainability vision, mission, commitment, and responsibility.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\nThe Group is committed to operating in an environmentally responsible manner and to creating value for the communities in which we operate. To that end, the Group has formulated the Environment, Social and Governance Policy (' ESG Policy ') to strengthen our ESG governance and to provide guidance for the development and implementation of ESG initiatives. It outlines our sustainability vision, mission, commitment, and responsibility.",
+      "bm25_rank": 27,
+      "dense_rank": 44,
+      "bm25_score": 11.48301887512207,
+      "dense_score": 0.4290323257446289,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4656967385073934,
+      "normalized_dense": 0.49690034784899173,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.49188668421372644,
+      "rank": 34,
+      "rrf_score": 0.49188668421372644,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_004",
+      "alias_source_ids": [
+        "P10_004"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "The Group defined our major stakeholders as groups or individuals who have impacts on or are affected by the Group, and invited them to fill in an online survey to participate in the materiality assessment process. Major stakeholders were asked to prioritise each ESG issue based on the level of importance.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nThe Group defined our major stakeholders as groups or individuals who have impacts on or are affected by the Group, and invited them to fill in an online survey to participate in the materiality assessment process. Major stakeholders were asked to prioritise each ESG issue based on the level of importance.",
+      "bm25_rank": 7,
+      "dense_rank": 58,
+      "bm25_score": 14.826451301574707,
+      "dense_score": 0.39893925189971924,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6215975907081288,
+      "normalized_dense": 0.3991156578529428,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.6174496644295302,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.48347308563847785,
+      "rank": 35,
+      "rrf_score": 0.48347308563847785,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_005",
+      "alias_source_ids": [
+        "P10_005"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "To analyse the relative materiality of each ESG issue, the Group consolidated stakeholders' views and mapped the ESG issues on a matrix in two perspectives, which are the 'Importance to the Stakeholders' and the 'Importance to the Group'. The Governance Group for the ESG Report decided that the issues that are of high importance to both our stakeholders and the Company (mapped on the upper right corner of the matrix) are the high-materiality issues of the Group.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nTo analyse the relative materiality of each ESG issue, the Group consolidated stakeholders' views and mapped the ESG issues on a matrix in two perspectives, which are the 'Importance to the Stakeholders' and the 'Importance to the Group'. The Governance Group for the ESG Report decided that the issues that are of high importance to both our stakeholders and the Company (mapped on the upper right corner of the matrix) are the high-materiality issues of the Group.",
+      "bm25_rank": 31,
+      "dense_rank": 47,
+      "bm25_score": 11.135509490966797,
+      "dense_score": 0.4252762496471405,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4494927295048722,
+      "normalized_dense": 0.48469532224451695,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.4776627140556829,
+      "rank": 36,
+      "rrf_score": 0.4776627140556829,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_003",
+      "alias_source_ids": [
+        "P7_003"
+      ],
+      "section": "Approach to Sustainability / 3.1.2. ESG Risk Management",
+      "pages": [
+        7
+      ],
+      "text": "Supply Chain Management Risk",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.1.2. ESG Risk Management\n\n[Content]\nSupply Chain Management Risk",
+      "bm25_rank": 17,
+      "dense_rank": 52,
+      "bm25_score": 12.725229263305664,
+      "dense_score": 0.4090365767478943,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5236197449956396,
+      "normalized_dense": 0.4319259910597386,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.6577181208053691,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.47670341499755314,
+      "rank": 37,
+      "rrf_score": 0.47670341499755314,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_002",
+      "alias_source_ids": [
+        "P10_002"
+      ],
+      "section": "Approach to Sustainability / 3.2.2. Focusing on What Matters Most",
+      "pages": [
+        10
+      ],
+      "text": "In preparation of this Report, the Group completed a materiality assessment with the participation of the Group's major stakeholders, in collaboration with an external consulting firm. For the materiality assessment, the Group reached out to the members of the Governance Group for the ESG Report and five other stakeholder groups (employees, major shareholders and investors, customers, suppliers, and the public) via a materiality survey. The Group followed the four-stage process described below when conducting the materiality assessment.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.2.2. Focusing on What Matters Most\n\n[Content]\nIn preparation of this Report, the Group completed a materiality assessment with the participation of the Group's major stakeholders, in collaboration with an external consulting firm. For the materiality assessment, the Group reached out to the members of the Governance Group for the ESG Report and five other stakeholder groups (employees, major shareholders and investors, customers, suppliers, and the public) via a materiality survey. The Group followed the four-stage process described below when conducting the materiality assessment.",
+      "bm25_rank": 68,
+      "dense_rank": 33,
+      "bm25_score": 6.683722972869873,
+      "dense_score": 0.46602046489715576,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24191045372864997,
+      "normalized_dense": 0.617089921675873,
+      "normalized_bm25_rank": 0.5503355704697986,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.4764441002450372,
+      "rank": 38,
+      "rrf_score": 0.4764441002450372,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_004",
+      "alias_source_ids": [
+        "P6_004"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "We are devoted to becoming the most competitive navigation company and leading service provider in Guangdong, Hong Kong and Macao through adopting innovation and sustaining our commitment to environmental protection.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\nWe are devoted to becoming the most competitive navigation company and leading service provider in Guangdong, Hong Kong and Macao through adopting innovation and sustaining our commitment to environmental protection.",
+      "bm25_rank": 59,
+      "dense_rank": 38,
+      "bm25_score": 7.6605143547058105,
+      "dense_score": 0.4540833830833435,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2874572420069845,
+      "normalized_dense": 0.5783014665437445,
+      "normalized_bm25_rank": 0.610738255033557,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.47130635766486184,
+      "rank": 39,
+      "rrf_score": 0.47130635766486184,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T32_002",
+      "alias_source_ids": [
+        "T32_002"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        32
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Environmental Aspect A1: Emissions General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation | 6.1, 6.2, Appendix 1 KPI A1.1 | The types of emissions and respective emissions data. | 9 KPI A1.2 | Greenhouse gas emissions in total (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.5 | Description of emission target(s) set and steps taken to achieve them. | 7.1 KPI A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | 7.1",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Environmental Aspect A1: Emissions General Disclosure | (a) Policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation | 6.1, 6.2, Appendix 1 KPI A1.1 | The types of emissions and respective emissions data. | 9 KPI A1.2 | Greenhouse gas emissions in total (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | 9 KPI A1.5 | Description of emission target(s) set and steps taken to achieve them. | 7.1 KPI A1.6 | Description of how hazardous and non- hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | 7.1",
+      "bm25_rank": 115,
+      "dense_rank": 14,
+      "bm25_score": 1.705626368522644,
+      "dense_score": 0.5028282403945923,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.009786874135702483,
+      "normalized_dense": 0.7366934203084933,
+      "normalized_bm25_rank": 0.2348993288590604,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.465840340391489,
+      "rank": 40,
+      "rrf_score": 0.465840340391489,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T7_001",
+      "alias_source_ids": [
+        "T7_001"
+      ],
+      "section": "Approach to Sustainability / 3.1.2. ESG Risk Management",
+      "pages": [
+        7
+      ],
+      "text": "Significant ESG risks | Potential Impacts | Response Approaches Policy Changes And Compliance Risks | Changes in the external legal and policy environment and inconsistent regulatory requirements across the region may lead to increased compliance risks for the Group. Failure to comply with legal and regulatory requirements may cause legal sanctions or regulatory penalties, significant financial losses and other impacts on the Group, as well as significant damage to the Group's reputation and image. | The Opreation Management Department collects the risks and corresponding control measures of each segment company according to the Risk Management Guidelines of Chu Kong Shipping , then categorises the major risks into important risk points based on the major categories of risks, and annually summarises the risk assessment results and incorporates these major risks/ business processes/audit units into the audit focus of the annual Internal Audit Plan. The Group's Legal Department provides legal advisory services to support the Group's decision- making process, manage the Group's legal and regulatory risks and enable the Group to conduct its business legally. Other subsidiaries scrutinize laws and regulations that have a significant impact on the Group and develop and amend various policies, guidelines, management practices and systems to govern the Group's operations.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / 3.1.2. ESG Risk Management\n\n[Content]\nSignificant ESG risks | Potential Impacts | Response Approaches Policy Changes And Compliance Risks | Changes in the external legal and policy environment and inconsistent regulatory requirements across the region may lead to increased compliance risks for the Group. Failure to comply with legal and regulatory requirements may cause legal sanctions or regulatory penalties, significant financial losses and other impacts on the Group, as well as significant damage to the Group's reputation and image. | The Opreation Management Department collects the risks and corresponding control measures of each segment company according to the Risk Management Guidelines of Chu Kong Shipping , then categorises the major risks into important risk points based on the major categories of risks, and annually summarises the risk assessment results and incorporates these major risks/ business processes/audit units into the audit focus of the annual Internal Audit Plan. The Group's Legal Department provides legal advisory services to support the Group's decision- making process, manage the Group's legal and regulatory risks and enable the Group to conduct its business legally. Other subsidiaries scrutinize laws and regulations that have a significant impact on the Group and develop and amend various policies, guidelines, management practices and systems to govern the Group's operations.",
+      "bm25_rank": 28,
+      "dense_rank": 53,
+      "bm25_score": 11.393136978149414,
+      "dense_score": 0.40642526745796204,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.46150563710376097,
+      "normalized_dense": 0.4234407804522812,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.4525859374918023,
+      "rank": 41,
+      "rrf_score": 0.4525859374918023,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T33_001",
+      "alias_source_ids": [
+        "T33_001"
+      ],
+      "section": "Appendix 2 / Environmental, Social and Governance Reporting Guide Content Index",
+      "pages": [
+        33
+      ],
+      "text": "General Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Aspect A2: Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 7.1 KPI A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | The Group does not produce any products, and thus the total packaging material used for finished products is not applicable to the Group. Aspect A3: The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources | 7.1 KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 7.1 Aspect A4: Climate change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | 7.2 KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 7.2",
+      "retrieval_text": "[Section]\nAppendix 2 / Environmental, Social and Governance Reporting Guide Content Index\n\n[Content]\nGeneral Disclosures and Key Performance Indicators (KPIs) | Descriptions | Relevant Sections and Remarks Aspect A2: Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | 7.1 KPI A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | 9 KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | 7.1 KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | The Group does not produce any products, and thus the total packaging material used for finished products is not applicable to the Group. Aspect A3: The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources | 7.1 KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | 7.1 Aspect A4: Climate change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | 7.2 KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | 7.2",
+      "bm25_rank": null,
+      "dense_rank": 15,
+      "bm25_score": null,
+      "dense_score": 0.5027031898498535,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7362870800052681,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.438908531693119,
+      "rank": 42,
+      "rrf_score": 0.438908531693119,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L3_020",
+      "alias_source_ids": [
+        "L3_020"
+      ],
+      "section": "About this Report / 1. ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "‧ Chu Ou Engineering And Technologies Company Limited ‧",
+      "retrieval_text": "[Section]\nAbout this Report / 1. ABOUT THIS REPORT\n\n[Content]\n‧ Chu Ou Engineering And Technologies Company Limited ‧",
+      "bm25_rank": 86,
+      "dense_rank": 36,
+      "bm25_score": 5.443299293518066,
+      "dense_score": 0.45616400241851807,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18407075965530606,
+      "normalized_dense": 0.5850622487004082,
+      "normalized_bm25_rank": 0.4295302013422819,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.4375590933386202,
+      "rank": 43,
+      "rrf_score": 0.4375590933386202,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T9_001",
+      "alias_source_ids": [
+        "T9_001"
+      ],
+      "section": "Approach to Sustainability / Preventing Illegal Acts",
+      "pages": [
+        9
+      ],
+      "text": "Stakeholder Groups | Communication Channels | Communication Frequency Regulatory Authorities | ‧ On-site inspection ‧ Meeting | ‧ Regularly/as needed ‧ Regularly/as needed Shareholders and Investors | ‧ Annual general meeting and other shareholder meetings ‧ Annual report ‧ Announcement | ‧ Annually ‧ Annually ‧ As needed Employees | ‧ Meeting ‧ Group interview ‧ Performance appraisal ‧ Training, seminar and briefing session ‧ Cultural and sports activity ‧ Newsletter | ‧ Regularly ‧ Regularly ‧ Annually ‧ Regularly ‧ Regularly/as needed ‧ Regularly Customers | ‧ Website ‧ Email ‧ Customer service hotline ‧ Satisfaction survey | ‧ Daily/as needed ‧ As needed ‧ As needed ‧ Annually Suppliers | ‧ Open tendering ‧ Supplier evaluation and appraisal | ‧ As needed ‧ Annually Potential Investors and Financial Institutions | ‧ Potential investor briefing ‧ Roadshow ‧ Analyst briefing | ‧ As needed ‧ As needed ‧ As needed Communities | ‧ Information disclosure ‧ Website ‧ Email | ‧ Regularly/as needed ‧ As needed ‧ Daily/as needed",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Preventing Illegal Acts\n\n[Content]\nStakeholder Groups | Communication Channels | Communication Frequency Regulatory Authorities | ‧ On-site inspection ‧ Meeting | ‧ Regularly/as needed ‧ Regularly/as needed Shareholders and Investors | ‧ Annual general meeting and other shareholder meetings ‧ Annual report ‧ Announcement | ‧ Annually ‧ Annually ‧ As needed Employees | ‧ Meeting ‧ Group interview ‧ Performance appraisal ‧ Training, seminar and briefing session ‧ Cultural and sports activity ‧ Newsletter | ‧ Regularly ‧ Regularly ‧ Annually ‧ Regularly ‧ Regularly/as needed ‧ Regularly Customers | ‧ Website ‧ Email ‧ Customer service hotline ‧ Satisfaction survey | ‧ Daily/as needed ‧ As needed ‧ As needed ‧ Annually Suppliers | ‧ Open tendering ‧ Supplier evaluation and appraisal | ‧ As needed ‧ Annually Potential Investors and Financial Institutions | ‧ Potential investor briefing ‧ Roadshow ‧ Analyst briefing | ‧ As needed ‧ As needed ‧ As needed Communities | ‧ Information disclosure ‧ Website ‧ Email | ‧ Regularly/as needed ‧ As needed ‧ Daily/as needed",
+      "bm25_rank": 6,
+      "dense_rank": 76,
+      "bm25_score": 14.959206581115723,
+      "dense_score": 0.37725985050201416,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6277878343185104,
+      "normalized_dense": 0.3286704266379504,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.49664429530201337,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.4365653705494008,
+      "rank": 44,
+      "rrf_score": 0.4365653705494008,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_007",
+      "alias_source_ids": [
+        "P6_007"
+      ],
+      "section": "Approach to Sustainability / Governance Group for the ESG Report",
+      "pages": [
+        6
+      ],
+      "text": "We recognise that our employees make a significant contribution to the Group's success. We therefore place great emphasis on providing a safe and healthy workplace and improving employee engagement.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Governance Group for the ESG Report\n\n[Content]\nWe recognise that our employees make a significant contribution to the Group's success. We therefore place great emphasis on providing a safe and healthy workplace and improving employee engagement.",
+      "bm25_rank": 57,
+      "dense_rank": 46,
+      "bm25_score": 7.730812072753906,
+      "dense_score": 0.42671290040016174,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2907351530736942,
+      "normalized_dense": 0.48936358741545877,
+      "normalized_bm25_rank": 0.6241610738255033,
+      "normalized_dense_rank": 0.697986577181208,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 46,
+      "composite_score": 0.43143770902894135,
+      "rank": 45,
+      "rrf_score": 0.43143770902894135,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_004",
+      "alias_source_ids": [
+        "P4_004"
+      ],
+      "section": "Basis of Report Preparation / Report Disclaimer",
+      "pages": [
+        4
+      ],
+      "text": "This Report is prepared in a transparent manner of which the information disclosed covers both sustainability achievements and challenges of the Group.",
+      "retrieval_text": "[Section]\nBasis of Report Preparation / Report Disclaimer\n\n[Content]\nThis Report is prepared in a transparent manner of which the information disclosed covers both sustainability achievements and challenges of the Group.",
+      "bm25_rank": null,
+      "dense_rank": 18,
+      "bm25_score": null,
+      "dense_score": 0.49909788370132446,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7245719675547533,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.4307813966978549,
+      "rank": 46,
+      "rrf_score": 0.4307813966978549,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_002",
+      "alias_source_ids": [
+        "P21_002"
+      ],
+      "section": "Environmental Protection / 7. ENVIRONMENTAL PROTECTION",
+      "pages": [
+        21
+      ],
+      "text": "The Group implemented the ESG Policy which outlines our vision and commitment in relation to environmental protection. We incorporate green management in every business segment by continuously evaluating how our operations affect the environment and carrying out appropriate measures to minimise the impacts.",
+      "retrieval_text": "[Section]\nEnvironmental Protection / 7. ENVIRONMENTAL PROTECTION\n\n[Content]\nThe Group implemented the ESG Policy which outlines our vision and commitment in relation to environmental protection. We incorporate green management in every business segment by continuously evaluating how our operations affect the environment and carrying out appropriate measures to minimise the impacts.",
+      "bm25_rank": 63,
+      "dense_rank": 43,
+      "bm25_score": 7.081014156341553,
+      "dense_score": 0.4302576780319214,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2604357373817697,
+      "normalized_dense": 0.5008820179889835,
+      "normalized_bm25_rank": 0.5838926174496644,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 43,
+      "composite_score": 0.4294092765912901,
+      "rank": 47,
+      "rrf_score": 0.4294092765912901,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L3_027",
+      "alias_source_ids": [
+        "L3_027"
+      ],
+      "section": "About this Report / 1. ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "Guangdong Digital Port & Shipping Technology Co., Ltd (formerly known as Guangzhou Pintu Internet Company Limited)",
+      "retrieval_text": "[Section]\nAbout this Report / 1. ABOUT THIS REPORT\n\n[Content]\nGuangdong Digital Port & Shipping Technology Co., Ltd (formerly known as Guangzhou Pintu Internet Company Limited)",
+      "bm25_rank": 8,
+      "dense_rank": 81,
+      "bm25_score": 14.664230346679688,
+      "dense_score": 0.3710394501686096,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6140333926364532,
+      "normalized_dense": 0.3084578049101713,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.46308724832214765,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.41868637333309894,
+      "rank": 48,
+      "rrf_score": 0.41868637333309894,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_005",
+      "alias_source_ids": [
+        "P9_005"
+      ],
+      "section": "Approach to Sustainability / Preventing Illegal Acts",
+      "pages": [
+        9
+      ],
+      "text": "The Group values stakeholder engagement as a channel to promote our sustainability development. It allows us to refine our sustainability strategy and improve our ESG performance. The Group maintains a regular dialogue with our stakeholders to understand their expectations towards the Group and to identify areas where we could make positive changes.",
+      "retrieval_text": "[Section]\nApproach to Sustainability / Preventing Illegal Acts\n\n[Content]\nThe Group values stakeholder engagement as a channel to promote our sustainability development. It allows us to refine our sustainability strategy and improve our ESG performance. The Group maintains a regular dialogue with our stakeholders to understand their expectations towards the Group and to identify areas where we could make positive changes.",
+      "bm25_rank": 10,
+      "dense_rank": 100,
+      "bm25_score": 13.516721725463867,
+      "dense_score": 0.34994155168533325,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.560526233185635,
+      "normalized_dense": 0.23990211420912774,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.3355704697986577,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.35714481211367743,
+      "rank": 49,
+      "rrf_score": 0.35714481211367743,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T28_002",
+      "alias_source_ids": [
+        "T28_002"
+      ],
+      "section": "Our Performance / Employees 9",
+      "pages": [
+        28
+      ],
+      "text": "No. of employees (as of the end of the Reporting Period of each year) Unit | 2021 | 2020 | 2019 Total no. of employees | No. | 2,212 | 2,243 | 1,878 By gender Male | No. | 1,772 | 1,809 | 1,438 Female | No. | 440 | 434 | 440 By employment type Full-time | No. | 2,212 | 2,243 | 1,878 Part-time | No. | 0 | 0 | 0 By employee category Directors and senior management | No. | 53 | 72 | 64 Middle management | No. | 425 | 440 | 541 General employee | No. | 1,734 | 1,731 | 1,273 By age group ≤ 30 | No. | 324 | 370 | 339 31 - 40 | No. | 603 | 603 | 605 41 - 50 | No. | 634 | 644 | 564 > 50 | No. | 651 | 626 | 370 By operating location Mainland China | No. | 1,406 | 1,453 | 1,413 Hong Kong | No. | 797 | 786 | 460 Macao | No. | 9 | 4 | 5",
+      "retrieval_text": "[Section]\nOur Performance / Employees 9\n\n[Content]\nNo. of employees (as of the end of the Reporting Period of each year) Unit | 2021 | 2020 | 2019 Total no. of employees | No. | 2,212 | 2,243 | 1,878 By gender Male | No. | 1,772 | 1,809 | 1,438 Female | No. | 440 | 434 | 440 By employment type Full-time | No. | 2,212 | 2,243 | 1,878 Part-time | No. | 0 | 0 | 0 By employee category Directors and senior management | No. | 53 | 72 | 64 Middle management | No. | 425 | 440 | 541 General employee | No. | 1,734 | 1,731 | 1,273 By age group ≤ 30 | No. | 324 | 370 | 339 31 - 40 | No. | 603 | 603 | 605 41 - 50 | No. | 634 | 644 | 564 > 50 | No. | 651 | 626 | 370 By operating location Mainland China | No. | 1,406 | 1,453 | 1,413 Hong Kong | No. | 797 | 786 | 460 Macao | No. | 9 | 4 | 5",
+      "bm25_rank": 9,
+      "dense_rank": 144,
+      "bm25_score": 14.000875473022461,
+      "dense_score": 0.28580352663993835,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.583101829822008,
+      "normalized_dense": 0.03149147033986938,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.04026845637583898,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.23032694434174517,
+      "rank": 50,
+      "rrf_score": 0.23032694434174517,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

@@ -1,0 +1,1561 @@
+{
+  "document_id": "2022052701685",
+  "metric_id": 32,
+  "metric_name": "产品回收率",
+  "query": "产品回收率 产品回收率 衡量企业在报告期内，因安全、健康等潜在风险而必须执行回收的受影响产品数量，占同期已售或已运送产品总数的百分比。 A. 数据透明度得分 (权重 50%) 2分：清晰披露了回收百分比，或明确声明本期“回收率为 0%”。 1分：仅定性描述有/无回收，未给出具体的百分比或产品基数。 0分：未披露任何回收相关数据。 B. 统计口径得分 (权重 50%) 2分：说明了计算口径（如涵盖的所有产品线）及回收原因（如技术缺陷、标签错误）。 1分：仅给出一个孤立的数字，无背景说明。 0分：无说明。 最终得分 = 0.5×A+0.5×B 产品召回率 召回百分比 产品召回数量 已售产品数量 已运送产品数量 零召回 未发生产品召回 安全原因召回 健康风险召回 缺陷产品召回 标签错误召回 product recall rate percentage of products recalled recalled units units sold units shipped zero recalls no product recalls safety-related recall health-related recall defective product recall mislabeling recall 报告期内是否定性说明发生或未发生产品召回？ 是否披露因安全、健康、技术缺陷或标签错误召回的产品占已售或已运送产品的百分比，或明确声明召回率为0%？ 召回数量、已售/已运送数量及计算公式是什么？ 召回原因和产品范围是什么？ 报告期与统计边界是什么？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '产品回收率'. Prefer explicit, auditable disclosure that answers: 报告期内是否定性说明发生或未发生产品召回？ 是否披露因安全、健康、技术缺陷或标签错误召回的产品占已售或已运送产品的百分比，或明确声明召回率为0%？ 召回数量、已售/已运送数量及计算公式是什么？ 召回原因和产品范围是什么？ 报告期与统计边界是什么？ Exclude or down-rank: 排除：仅有“本期无重大召回”无比例；仅有召回制度而无数量占比；循环经济产品回收再利用率；仅有客户退货率；区分：尽管指标名含“回收率”，定义实为安全/健康原因召回数量占比，不是循环经济回收利用率；召回程序看制度完备性；本指标看量化比率或0%声明。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 202,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "T45_001",
+      "alias_source_ids": [
+        "T45_001"
+      ],
+      "section": "層面 B2 ：健康與安全 Aspect B2: Health and Safety",
+      "pages": [
+        45
+      ],
+      "text": "關鍵績效指標 KPI B6.1 | 已售或已運送產品總數中因安全 與健康理由而須回收的百分比 Percentage of total products sold or shipped subject to recalls for safety and health reasons | 30 關鍵績效指標 KPI B6.2 | 接獲關於產品及服務的投訴數目 以及應對方法 Number of products and service related complaints received and how they are dealt with | 31 關鍵績效指標 KPI B6.3 | 描述與維護及保障知識產權有關 的慣例 Description of practices relating to observing and protecting intellectual property rights | 32 關鍵績效指標 KPI B6.4 | 描述質量檢定過程及產品回收程 序 Description of quality assurance process and recall procedures | 30 關鍵績效指標 KPI B6.5 | 描述消費者資料保障及私隱政 策,以及相關執行及監察方法 Description of consumer data protection and privacy policies, and how they are implemented and monitored | 31",
+      "retrieval_text": "[Section]\n層面 B2 ：健康與安全 Aspect B2: Health and Safety\n\n[Content]\n關鍵績效指標 KPI B6.1 | 已售或已運送產品總數中因安全 與健康理由而須回收的百分比 Percentage of total products sold or shipped subject to recalls for safety and health reasons | 30 關鍵績效指標 KPI B6.2 | 接獲關於產品及服務的投訴數目 以及應對方法 Number of products and service related complaints received and how they are dealt with | 31 關鍵績效指標 KPI B6.3 | 描述與維護及保障知識產權有關 的慣例 Description of practices relating to observing and protecting intellectual property rights | 32 關鍵績效指標 KPI B6.4 | 描述質量檢定過程及產品回收程 序 Description of quality assurance process and recall procedures | 30 關鍵績效指標 KPI B6.5 | 描述消費者資料保障及私隱政 策,以及相關執行及監察方法 Description of consumer data protection and privacy policies, and how they are implemented and monitored | 31",
+      "bm25_rank": 1,
+      "dense_rank": 1,
+      "bm25_score": 216.62403869628906,
+      "dense_score": 0.7264512181282043,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.85,
+      "rank": 1,
+      "rrf_score": 0.85,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_003",
+      "alias_source_ids": [
+        "P32_003"
+      ],
+      "section": "安全及品質監控 SAFETY AND QUALITY MONITORING",
+      "pages": [
+        32
+      ],
+      "text": "我們設有技術系統以就不同產品提出相應的 「品控指標」作成品檢測。若果產品質量出現 重大問題而需要回收,質檢部主管須按照既 定的產品回收指引,啟動產品回收程序,確 保管理層知悉,並採取必要的糾正和預防措 施,防止同類事件再次發生。回顧年內,塗 料及油墨業務並無因產品安全問題導致產品 召回的個案。",
+      "retrieval_text": "[Section]\n安全及品質監控 SAFETY AND QUALITY MONITORING\n\n[Content]\n我們設有技術系統以就不同產品提出相應的 「品控指標」作成品檢測。若果產品質量出現 重大問題而需要回收,質檢部主管須按照既 定的產品回收指引,啟動產品回收程序,確 保管理層知悉,並採取必要的糾正和預防措 施,防止同類事件再次發生。回顧年內,塗 料及油墨業務並無因產品安全問題導致產品 召回的個案。",
+      "bm25_rank": 2,
+      "dense_rank": 2,
+      "bm25_score": 141.0507049560547,
+      "dense_score": 0.6241852045059204,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.645473654497665,
+      "normalized_dense": 0.7430778830530045,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6871585671492926,
+      "rank": 2,
+      "rrf_score": 0.6871585671492926,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_008",
+      "alias_source_ids": [
+        "P32_008"
+      ],
+      "section": "安全及品質監控 SAFETY AND QUALITY MONITORING",
+      "pages": [
+        32
+      ],
+      "text": "We have a technical system in place to provide the appropriate 'quality control indicators' for each product to undergo finished product testing. In the event that there is a significant problem with product quality that requires a recall, the director of the Quality Assurance Department shall follow the established product recall guidelines to initiate the procedures while informing the management of the product recall. Necessary corrective and preventive measures should be taken to prevent the recurrence of similar events. During the year under review, the coatings and inks businesses had no product recalls due to problems associated with product safety.",
+      "retrieval_text": "[Section]\n安全及品質監控 SAFETY AND QUALITY MONITORING\n\n[Content]\nWe have a technical system in place to provide the appropriate 'quality control indicators' for each product to undergo finished product testing. In the event that there is a significant problem with product quality that requires a recall, the director of the Quality Assurance Department shall follow the established product recall guidelines to initiate the procedures while informing the management of the product recall. Necessary corrective and preventive measures should be taken to prevent the recurrence of similar events. During the year under review, the coatings and inks businesses had no product recalls due to problems associated with product safety.",
+      "bm25_rank": 4,
+      "dense_rank": 3,
+      "bm25_score": 84.23492431640625,
+      "dense_score": 0.6001785397529602,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.37894192855485215,
+      "normalized_dense": 0.6827661244276212,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [
+        "anchor_2"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 3,
+      "composite_score": 0.6400585426834566,
+      "rank": 3,
+      "rrf_score": 0.6400585426834566,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T43_001",
+      "alias_source_ids": [
+        "T43_001"
+      ],
+      "section": "層面 B2 ：健康與安全 Aspect B2: Health and Safety",
+      "pages": [
+        43
+      ],
+      "text": "關鍵績效指標 KPI B4.1 | 描述檢討招聘慣例的措施以避免 童工及強制勞工 Description of measures to review employment practices to avoid child and forced labour | 25 關鍵績效指標 KPI B4.2 | 描述在發現違規情況時消除有關 情況所採取的步驟 Description of steps taken to eliminate such practices when discovered | 25 層面 B5 :供應鏈管理 Aspect B5: Supply Chain Management 一般披露 General Disclosure | 管理供應鏈的環境及社會風險政 策 Policies on managing environmental and social risks of the supply chain | 27 關鍵績效指標 KPI B5.1 | 按地區劃分的供應商數目 Number of suppliers by geographical region | 27 關鍵績效指標 KPI B5.2 | 描述有關聘用供應商的慣例,向 其執行有關慣例的供應商數目, 以及有關慣例的執行及監察方法 Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored | 27 關鍵績效指標 KPI B5.3 | 描述有關識別供應鏈每個環節的 環境及社會風險的慣例,以及相 關執行及監察方法 Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored | 28 關鍵績效指標 KPI B5.4 | 描述在揀選供應商時促使多用環 保產品及服務的慣例,以及相關 執行及監察方法 Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored | 27-28",
+      "retrieval_text": "[Section]\n層面 B2 ：健康與安全 Aspect B2: Health and Safety\n\n[Content]\n關鍵績效指標 KPI B4.1 | 描述檢討招聘慣例的措施以避免 童工及強制勞工 Description of measures to review employment practices to avoid child and forced labour | 25 關鍵績效指標 KPI B4.2 | 描述在發現違規情況時消除有關 情況所採取的步驟 Description of steps taken to eliminate such practices when discovered | 25 層面 B5 :供應鏈管理 Aspect B5: Supply Chain Management 一般披露 General Disclosure | 管理供應鏈的環境及社會風險政 策 Policies on managing environmental and social risks of the supply chain | 27 關鍵績效指標 KPI B5.1 | 按地區劃分的供應商數目 Number of suppliers by geographical region | 27 關鍵績效指標 KPI B5.2 | 描述有關聘用供應商的慣例,向 其執行有關慣例的供應商數目, 以及有關慣例的執行及監察方法 Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored | 27 關鍵績效指標 KPI B5.3 | 描述有關識別供應鏈每個環節的 環境及社會風險的慣例,以及相 關執行及監察方法 Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored | 28 關鍵績效指標 KPI B5.4 | 描述在揀選供應商時促使多用環 保產品及服務的慣例,以及相關 執行及監察方法 Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored | 27-28",
+      "bm25_rank": 8,
+      "dense_rank": 4,
+      "bm25_score": 37.09717559814453,
+      "dense_score": 0.5172789096832275,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15781136620947747,
+      "normalized_dense": 0.47449802345025516,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.48891174923471975,
+      "rank": 4,
+      "rrf_score": 0.48891174923471975,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T44_001",
+      "alias_source_ids": [
+        "T44_001"
+      ],
+      "section": "層面 B2 ：健康與安全 Aspect B2: Health and Safety",
+      "pages": [
+        44
+      ],
+      "text": "層面 B6 :產品責任 | B6: Product Responsibility 一般披露 General Disclosure | 有關所提供產品和服務的健康與 安全、廣告、標籤及私隱事宜以 及補救方法的: (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress | 29-30 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律、法規、規章及規例,並對集團業 務產生顯著影響的通知。相關法律、法 規、規章及規例包括但不限於 GB 9685- 2016 食品安全國家標準:食品接觸材料 及製品用添加劑使用標準、 GB/T 10004- 2008 包裝用塑膠複合膜、袋幹法複合、 擠出複合本標準、 GB/T 26572-2011 《電 子電氣產品中限用物質的限量要求》、 GB 18581 《室內裝飾裝修材料木器塗料 中有害物質限量》 、 《中華人民共和國廣 告法》 、 《中華人民共和國商標法》 、 《中 華人民共和國著作權法》、 《中華人民共 和國專利法》 、 《中華人民共和國反不正 當競爭法》 、 《中華人民共和國民法典》 、 《中華人民共和國網路安全法》 、 《中華人 民共和國資料安全法》 以及 《中華人民共 和國個人資訊保護法》 。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to GB 9685-2016 National Food Safety Standard: Standard for the Use of Additives in Food Contact Materials and Articles, GB/T 10004- 2008 Plastic Laminated Films & Pouches for Packaging - Dry Lamination and Extrusion Lamination, GB/T 26572-2011 Requirements on Concentration Limits for Certain Restricted Substances in Electrical and Electronic Products, GB 18581 Indoor Decorating, Refurbishing Materials - Limit of Harmful Substances of Coatings for Woodenware, Advertising Law of the People's Republic of China, Trademark Law of the People's Republic of China, Copyright Law of the People's Republic of China, Patent Law of the People's Republic of China, Anti-Unfair Competition Law of the People's Republic of China, Civil Code of the People's Republic of China, Cybersecurity Law of the People's Republic of China, Data Security Law of the People's Republic of China and Personal Information Protection Law of the People's Republic of China.",
+      "retrieval_text": "[Section]\n層面 B2 ：健康與安全 Aspect B2: Health and Safety\n\n[Content]\n層面 B6 :產品責任 | B6: Product Responsibility 一般披露 General Disclosure | 有關所提供產品和服務的健康與 安全、廣告、標籤及私隱事宜以 及補救方法的: (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress | 29-30 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律、法規、規章及規例,並對集團業 務產生顯著影響的通知。相關法律、法 規、規章及規例包括但不限於 GB 9685- 2016 食品安全國家標準:食品接觸材料 及製品用添加劑使用標準、 GB/T 10004- 2008 包裝用塑膠複合膜、袋幹法複合、 擠出複合本標準、 GB/T 26572-2011 《電 子電氣產品中限用物質的限量要求》、 GB 18581 《室內裝飾裝修材料木器塗料 中有害物質限量》 、 《中華人民共和國廣 告法》 、 《中華人民共和國商標法》 、 《中 華人民共和國著作權法》、 《中華人民共 和國專利法》 、 《中華人民共和國反不正 當競爭法》 、 《中華人民共和國民法典》 、 《中華人民共和國網路安全法》 、 《中華人 民共和國資料安全法》 以及 《中華人民共 和國個人資訊保護法》 。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to GB 9685-2016 National Food Safety Standard: Standard for the Use of Additives in Food Contact Materials and Articles, GB/T 10004- 2008 Plastic Laminated Films & Pouches for Packaging - Dry Lamination and Extrusion Lamination, GB/T 26572-2011 Requirements on Concentration Limits for Certain Restricted Substances in Electrical and Electronic Products, GB 18581 Indoor Decorating, Refurbishing Materials - Limit of Harmful Substances of Coatings for Woodenware, Advertising Law of the People's Republic of China, Trademark Law of the People's Republic of China, Copyright Law of the People's Republic of China, Patent Law of the People's Republic of China, Anti-Unfair Competition Law of the People's Republic of China, Civil Code of the People's Republic of China, Cybersecurity Law of the People's Republic of China, Data Security Law of the People's Republic of China and Personal Information Protection Law of the People's Republic of China.",
+      "bm25_rank": 9,
+      "dense_rank": 5,
+      "bm25_score": 31.799541473388672,
+      "dense_score": 0.5132604837417603,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13295933477053287,
+      "normalized_dense": 0.46440256296335564,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.478394508957724,
+      "rank": 5,
+      "rrf_score": 0.478394508957724,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L24_001",
+      "alias_source_ids": [
+        "L24_001"
+      ],
+      "section": "詳細培訓數據 8 Detailed Training Data 8",
+      "pages": [
+        24
+      ],
+      "text": "數據包括整個集團。受訓員工比例以相關類別劃分的受訓員工人數佔總受訓員工人數的百分比計算。",
+      "retrieval_text": "[Section]\n詳細培訓數據 8 Detailed Training Data 8\n\n[Content]\n數據包括整個集團。受訓員工比例以相關類別劃分的受訓員工人數佔總受訓員工人數的百分比計算。",
+      "bm25_rank": 3,
+      "dense_rank": 27,
+      "bm25_score": 107.69649505615234,
+      "dense_score": 0.4403388500213623,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4890038316422162,
+      "normalized_dense": 0.2812021052250125,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.4599798924189426,
+      "rank": 6,
+      "rrf_score": 0.4599798924189426,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_013",
+      "alias_source_ids": [
+        "P30_013"
+      ],
+      "section": "供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT",
+      "pages": [
+        30
+      ],
+      "text": "產品的追溯性 Product traceability",
+      "retrieval_text": "[Section]\n供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT\n\n[Content]\n產品的追溯性 Product traceability",
+      "bm25_rank": 23,
+      "dense_rank": 10,
+      "bm25_score": 20.80970573425293,
+      "dense_score": 0.49956607818603516,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08140429399836085,
+      "normalized_dense": 0.4299982135506303,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.43993459595850015,
+      "rank": 7,
+      "rrf_score": 0.43993459595850015,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T47_001",
+      "alias_source_ids": [
+        "T47_001"
+      ],
+      "section": "層面 B2 ：健康與安全 Aspect B2: Health and Safety",
+      "pages": [
+        47
+      ],
+      "text": "關鍵績效指標 KPI | 於匯報期內對發行人或其僱員提 出並已審結的貪污訴訟案件的數 目及訴訟結果 Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases | 25, 28 | B7.1 關鍵績效指標 B7.2 | 描述防範措施及舉報程序,以及 相關執行及監察方法 Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored | 25, 28 | KPI 關鍵績效指標 KPI B7.3 | 描述向董事及員工提供的反貪污 培訓 Description of anti-corruption training provided to directors and staff | 25 層面 B8 :社區投資 Aspect B8: Community Investment 一般披露 General | 有關以社區參與來了解營運所在 社區需要和確保其業務活動會考 慮社區利益的政策 Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests | 18 | Disclosure 關鍵績效指標 B8.1 | 專注貢獻範疇 (如教育、環境事 宜、勞工需求、健康、文化、體 育) Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport) | 18-20 | KPI 關鍵績效指標 | 在專注範疇所動用資源(如金錢 或時間) Resources contributed (e.g. money or time) to the focus area | 18-20 | KPI B8.2",
+      "retrieval_text": "[Section]\n層面 B2 ：健康與安全 Aspect B2: Health and Safety\n\n[Content]\n關鍵績效指標 KPI | 於匯報期內對發行人或其僱員提 出並已審結的貪污訴訟案件的數 目及訴訟結果 Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases | 25, 28 | B7.1 關鍵績效指標 B7.2 | 描述防範措施及舉報程序,以及 相關執行及監察方法 Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored | 25, 28 | KPI 關鍵績效指標 KPI B7.3 | 描述向董事及員工提供的反貪污 培訓 Description of anti-corruption training provided to directors and staff | 25 層面 B8 :社區投資 Aspect B8: Community Investment 一般披露 General | 有關以社區參與來了解營運所在 社區需要和確保其業務活動會考 慮社區利益的政策 Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests | 18 | Disclosure 關鍵績效指標 B8.1 | 專注貢獻範疇 (如教育、環境事 宜、勞工需求、健康、文化、體 育) Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport) | 18-20 | KPI 關鍵績效指標 | 在專注範疇所動用資源(如金錢 或時間) Resources contributed (e.g. money or time) to the focus area | 18-20 | KPI B8.2",
+      "bm25_rank": 10,
+      "dense_rank": 13,
+      "bm25_score": 31.29006576538086,
+      "dense_score": 0.48101839423179626,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1305693044259265,
+      "normalized_dense": 0.38340101026482126,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.4381565634711614,
+      "rank": 8,
+      "rrf_score": 0.4381565634711614,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_010",
+      "alias_source_ids": [
+        "P32_010"
+      ],
+      "section": "安全及品質監控 SAFETY AND QUALITY MONITORING",
+      "pages": [
+        32
+      ],
+      "text": "In addition, our Quality Assurance Department strictly ensures product labelling in accordance with the law. Our Marketing Department and Legal Department ensure that the content of advertisements for products and services offered is accurate and is in compliance with the laws and regulations. During the year under review, we complied strictly with the laws and regulations relating to health and safety, advertising, labelling and privacy of the products and services we provide; please refer to 'ESG Reporting Guide - Content Index' section for details.",
+      "retrieval_text": "[Section]\n安全及品質監控 SAFETY AND QUALITY MONITORING\n\n[Content]\nIn addition, our Quality Assurance Department strictly ensures product labelling in accordance with the law. Our Marketing Department and Legal Department ensure that the content of advertisements for products and services offered is accurate and is in compliance with the laws and regulations. During the year under review, we complied strictly with the laws and regulations relating to health and safety, advertising, labelling and privacy of the products and services we provide; please refer to 'ESG Reporting Guide - Content Index' section for details.",
+      "bm25_rank": 21,
+      "dense_rank": 11,
+      "bm25_score": 21.399227142333984,
+      "dense_score": 0.4944647550582886,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08416983125943707,
+      "normalized_dense": 0.41718219881818813,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.43600209825436065,
+      "rank": 9,
+      "rrf_score": 0.43600209825436065,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T41_001",
+      "alias_source_ids": [
+        "T41_001"
+      ],
+      "section": "層面 B2 ：健康與安全 Aspect B2: Health and Safety",
+      "pages": [
+        41
+      ],
+      "text": "一般披露 General Disclosure | 有關提供安全工作環境及保障僱 員避免職業性危害的 (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards | 23-24 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律及規例,並對業務產生顯著影響 的通知。相關法律及規例包括但不限於 香港 《職業安全及健康條例》 、 《中華人民 共和國安全生產法》 以及 《中華人民共和 國職業病防治》 。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to Hong Kong Occupational Safety and Health Ordinance, Work Safety Law of the People's Republic of China and Law of the People's Republic of China on the Prevention and Control of Occupational Diseases. 關鍵績效指標 KPI B2.1 | 過去三年 (包括匯報年度) 每年因 工亡故的人數及比率 Number and rate of work-related fatalities occurred in each of the past three years including the reporting year | 24 關鍵績效指標 KPI B2.2 | 因工傷損失工作日數 Lost days due to work injury | 24 關鍵績效指標 KPI B2.3 | 描述所採納的職業健康與安全措 施,以及相關執行及監察方法 Description of occupational health and safety measures adopted, and how they are implemented and monitored | 23-24",
+      "retrieval_text": "[Section]\n層面 B2 ：健康與安全 Aspect B2: Health and Safety\n\n[Content]\n一般披露 General Disclosure | 有關提供安全工作環境及保障僱 員避免職業性危害的 (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards | 23-24 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律及規例,並對業務產生顯著影響 的通知。相關法律及規例包括但不限於 香港 《職業安全及健康條例》 、 《中華人民 共和國安全生產法》 以及 《中華人民共和 國職業病防治》 。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to Hong Kong Occupational Safety and Health Ordinance, Work Safety Law of the People's Republic of China and Law of the People's Republic of China on the Prevention and Control of Occupational Diseases. 關鍵績效指標 KPI B2.1 | 過去三年 (包括匯報年度) 每年因 工亡故的人數及比率 Number and rate of work-related fatalities occurred in each of the past three years including the reporting year | 24 關鍵績效指標 KPI B2.2 | 因工傷損失工作日數 Lost days due to work injury | 24 關鍵績效指標 KPI B2.3 | 描述所採納的職業健康與安全措 施,以及相關執行及監察方法 Description of occupational health and safety measures adopted, and how they are implemented and monitored | 23-24",
+      "bm25_rank": 7,
+      "dense_rank": 16,
+      "bm25_score": 39.20914840698242,
+      "dense_score": 0.4683679938316345,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16771896145056148,
+      "normalized_dense": 0.3516195069489586,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.43244954589674445,
+      "rank": 10,
+      "rrf_score": 0.43244954589674445,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T42_001",
+      "alias_source_ids": [
+        "T42_001"
+      ],
+      "section": "層面 B2 ：健康與安全 Aspect B2: Health and Safety",
+      "pages": [
+        42
+      ],
+      "text": "層面 B3 :發展及培訓 Aspect B3: Development and Training 一般披露 General Disclosure | 有關提升僱員履行工作職責的知 識及技能的政策。描述培訓活動 Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities | 21 關鍵績效指標 KPI B3.1 | 按性別及僱員類別(如高級管理 層、中級管理層) 劃分的受訓僱 員百分比 The percentage of employees trained by gender and employee category (e.g. senior management, middle management) | 22 關鍵績效指標 KPI B3.2 | 按性別及僱員類別劃分,每名僱 員完成受訓的平均時數 The average training hours completed per employee by gender and employee category | 22 層面 B4 :勞工準則 Aspect B4: Labour Standards 一般披露 General Disclosure | 有關防止童工或強制勞工的: (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour | 25 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律、法規、規章及規例,並對集團 業務產生顯著影響的通知。相關法律、 法規、規章及規例包括但不限於附屬於 香港 《僱傭條例》 的 《僱用兒童規例》 及 《僱 用青年 (工業) 規例》 、中國國務院頒布的 《禁止使用童工規定》 、 《中華人民共和國 勞動法》 以及《中華人民共和國勞動合同 法》 。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to the Employment of Children Regulations and Employment of Young Persons (Industry) Regulations under Hong Kong Employment Ordinance, Provisions on the Prohibition of Using Child Labor issued by State Council of the People's Republic of China, Labour Law of the People's Republic of China and Labour Contract Law of the People's Republic of China.",
+      "retrieval_text": "[Section]\n層面 B2 ：健康與安全 Aspect B2: Health and Safety\n\n[Content]\n層面 B3 :發展及培訓 Aspect B3: Development and Training 一般披露 General Disclosure | 有關提升僱員履行工作職責的知 識及技能的政策。描述培訓活動 Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities | 21 關鍵績效指標 KPI B3.1 | 按性別及僱員類別(如高級管理 層、中級管理層) 劃分的受訓僱 員百分比 The percentage of employees trained by gender and employee category (e.g. senior management, middle management) | 22 關鍵績效指標 KPI B3.2 | 按性別及僱員類別劃分,每名僱 員完成受訓的平均時數 The average training hours completed per employee by gender and employee category | 22 層面 B4 :勞工準則 Aspect B4: Labour Standards 一般披露 General Disclosure | 有關防止童工或強制勞工的: (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labour | 25 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律、法規、規章及規例,並對集團 業務產生顯著影響的通知。相關法律、 法規、規章及規例包括但不限於附屬於 香港 《僱傭條例》 的 《僱用兒童規例》 及 《僱 用青年 (工業) 規例》 、中國國務院頒布的 《禁止使用童工規定》 、 《中華人民共和國 勞動法》 以及《中華人民共和國勞動合同 法》 。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to the Employment of Children Regulations and Employment of Young Persons (Industry) Regulations under Hong Kong Employment Ordinance, Provisions on the Prohibition of Using Child Labor issued by State Council of the People's Republic of China, Labour Law of the People's Republic of China and Labour Contract Law of the People's Republic of China.",
+      "bm25_rank": 5,
+      "dense_rank": 20,
+      "bm25_score": 54.462074279785156,
+      "dense_score": 0.4540344774723053,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2392728257605574,
+      "normalized_dense": 0.31560952439566575,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.4301299792275073,
+      "rank": 11,
+      "rrf_score": 0.4301299792275073,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P33_002",
+      "alias_source_ids": [
+        "P33_002"
+      ],
+      "section": "致力提升顧客體驗 ENDEAVORING TO IMPROVE CUSTOMER EXPERIENCE",
+      "pages": [
+        33
+      ],
+      "text": "回顧年內,塗料及油墨業務有關質量投訴率 分別為 0.29% 及 1.16% ,兩個業務均沒有錄得 違反有關健康與安全、廣告及標籤條例而對 業務有重大影響的案例。",
+      "retrieval_text": "[Section]\n致力提升顧客體驗 ENDEAVORING TO IMPROVE CUSTOMER EXPERIENCE\n\n[Content]\n回顧年內,塗料及油墨業務有關質量投訴率 分別為 0.29% 及 1.16% ,兩個業務均沒有錄得 違反有關健康與安全、廣告及標籤條例而對 業務有重大影響的案例。",
+      "bm25_rank": 58,
+      "dense_rank": 6,
+      "bm25_score": 12.934028625488281,
+      "dense_score": 0.5130016803741455,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04445825912680104,
+      "normalized_dense": 0.4637523732598029,
+      "normalized_bm25_rank": 0.6174496644295302,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.42623853951327106,
+      "rank": 12,
+      "rrf_score": 0.42623853951327106,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_005",
+      "alias_source_ids": [
+        "P32_005"
+      ],
+      "section": "安全及品質監控 SAFETY AND QUALITY MONITORING",
+      "pages": [
+        32
+      ],
+      "text": "此外,我們的質檢部門依法嚴格確保產品標 籤標注。我們的市場部門及法律部門依法確 保所提供的產品及服務的廣告內容合法真實。 於回顧年內,我們嚴格遵守有關所提供產品 和服務的健康與安全、廣告、標籤及私隱事 宜的法律及規例,有關條例請參閱「 《環社管 報告指引》 - 內容索引」 章節。",
+      "retrieval_text": "[Section]\n安全及品質監控 SAFETY AND QUALITY MONITORING\n\n[Content]\n此外,我們的質檢部門依法嚴格確保產品標 籤標注。我們的市場部門及法律部門依法確 保所提供的產品及服務的廣告內容合法真實。 於回顧年內,我們嚴格遵守有關所提供產品 和服務的健康與安全、廣告、標籤及私隱事 宜的法律及規例,有關條例請參閱「 《環社管 報告指引》 - 內容索引」 章節。",
+      "bm25_rank": 60,
+      "dense_rank": 7,
+      "bm25_score": 12.543163299560547,
+      "dense_score": 0.5123023986816406,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04262464866228127,
+      "normalized_dense": 0.4619955732593237,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.4225723736618102,
+      "rank": 13,
+      "rrf_score": 0.4225723736618102,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_011",
+      "alias_source_ids": [
+        "P35_011"
+      ],
+      "section": "關於此報告 ABOUT THE REPORT",
+      "pages": [
+        35
+      ],
+      "text": "量化:更新目標和關鍵績效指標並披露相關 計算方式",
+      "retrieval_text": "[Section]\n關於此報告 ABOUT THE REPORT\n\n[Content]\n量化:更新目標和關鍵績效指標並披露相關 計算方式",
+      "bm25_rank": 65,
+      "dense_rank": 8,
+      "bm25_score": 11.963043212890625,
+      "dense_score": 0.5111555457115173,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.039903214472458176,
+      "normalized_dense": 0.4591143433915075,
+      "normalized_bm25_rank": 0.5704697986577181,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4163216697929286,
+      "rank": 14,
+      "rrf_score": 0.4163216697929286,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_006",
+      "alias_source_ids": [
+        "P32_006"
+      ],
+      "section": "安全及品質監控 SAFETY AND QUALITY MONITORING",
+      "pages": [
+        32
+      ],
+      "text": "The Group has a Policy on Management of Product Quality and Safety Risks which assesses product quality on two main aspects, including quality and performance, as well as safety and environmental considerations. In addition to meeting customer requirements, we also ensure that our products meet the requirements of regional, national, and international laws, regulations, and standards.",
+      "retrieval_text": "[Section]\n安全及品質監控 SAFETY AND QUALITY MONITORING\n\n[Content]\nThe Group has a Policy on Management of Product Quality and Safety Risks which assesses product quality on two main aspects, including quality and performance, as well as safety and environmental considerations. In addition to meeting customer requirements, we also ensure that our products meet the requirements of regional, national, and international laws, regulations, and standards.",
+      "bm25_rank": 12,
+      "dense_rank": 18,
+      "bm25_score": 29.81719207763672,
+      "dense_score": 0.4564272463321686,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1236598232629369,
+      "normalized_dense": 0.32162085913988975,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.40709792306966963,
+      "rank": 15,
+      "rrf_score": 0.40709792306966963,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T18_001",
+      "alias_source_ids": [
+        "T18_001"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        18
+      ],
+      "text": "單位 Units | 2020 | 2021 排放物 Emissions 危險廢棄物 5 Hazardous waste 5 | 噸 Tonnes | 2,249 | 2,219 無害廢棄物 Non-hazardous waste | 噸 Tonnes | 459 | 439 危險廢棄物密度 3 Hazardous waste intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 0.003 | 0.002 無害廢棄物密度 3 Non-hazardous waste intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 5.46 x 10 -4 | 4.73 x 10 -4 資源使用 Resources consumption 電力 Electricity | 千瓦時 Kilowatt hour | 38,849,576 | 42,683,321 蒸氣 Steam | 噸 Tonnes | 805,738 | 918,880 電油 Petrol | 公升 Litres | 61,078 | 113,308 柴油 Diesel | 公升 Litres | 99,808 | 103,913 天然氣 Natural gas | 立方米 m 3 | 656,979 | 808,174 總能量消耗 Total energy consumption | 千兆焦耳 Gigajoules | 2,544,728 | 2,976,500 總能量消耗 6 Total energy consumption 6 | 千個千瓦時 Megawatt hours | 706,869 | 826,806 總能量消耗密度 3 Total energy consumption intensity 3 | 千兆焦耳 / 產品噸數 Gigajoules/tonne of products | 3.0 2 | 3.2 總能量消耗密度 3 Total energy consumption intensity 3 | 千個千瓦時 / 產品噸數 Megawatt hours/tonne of products | 0.8 | 0.9 水 7 Water 7 | 噸 Tonnes | 1,409,453 2 | 1,381,091 用水密度 3 Water consumption intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 1.68 2 | 1.49",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n單位 Units | 2020 | 2021 排放物 Emissions 危險廢棄物 5 Hazardous waste 5 | 噸 Tonnes | 2,249 | 2,219 無害廢棄物 Non-hazardous waste | 噸 Tonnes | 459 | 439 危險廢棄物密度 3 Hazardous waste intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 0.003 | 0.002 無害廢棄物密度 3 Non-hazardous waste intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 5.46 x 10 -4 | 4.73 x 10 -4 資源使用 Resources consumption 電力 Electricity | 千瓦時 Kilowatt hour | 38,849,576 | 42,683,321 蒸氣 Steam | 噸 Tonnes | 805,738 | 918,880 電油 Petrol | 公升 Litres | 61,078 | 113,308 柴油 Diesel | 公升 Litres | 99,808 | 103,913 天然氣 Natural gas | 立方米 m 3 | 656,979 | 808,174 總能量消耗 Total energy consumption | 千兆焦耳 Gigajoules | 2,544,728 | 2,976,500 總能量消耗 6 Total energy consumption 6 | 千個千瓦時 Megawatt hours | 706,869 | 826,806 總能量消耗密度 3 Total energy consumption intensity 3 | 千兆焦耳 / 產品噸數 Gigajoules/tonne of products | 3.0 2 | 3.2 總能量消耗密度 3 Total energy consumption intensity 3 | 千個千瓦時 / 產品噸數 Megawatt hours/tonne of products | 0.8 | 0.9 水 7 Water 7 | 噸 Tonnes | 1,409,453 2 | 1,381,091 用水密度 3 Water consumption intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 1.68 2 | 1.49",
+      "bm25_rank": 14,
+      "dense_rank": 19,
+      "bm25_score": 28.349599838256836,
+      "dense_score": 0.4548291563987732,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11677511820144856,
+      "normalized_dense": 0.31760599013095286,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4016312141458548,
+      "rank": 16,
+      "rrf_score": 0.4016312141458548,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_001",
+      "alias_source_ids": [
+        "P32_001"
+      ],
+      "section": "安全及品質監控 SAFETY AND QUALITY MONITORING",
+      "pages": [
+        32
+      ],
+      "text": "集團設有「產品品質安全風險管理政策」 ,評 定產品質量主要基於兩大範疇,包括品質和 性能,以及安全和環保考量。同時,我們除 了迎合顧客的要求外,亦確保產品能滿足地 區、國家及國際法律、法規及標準的要求。",
+      "retrieval_text": "[Section]\n安全及品質監控 SAFETY AND QUALITY MONITORING\n\n[Content]\n集團設有「產品品質安全風險管理政策」 ,評 定產品質量主要基於兩大範疇,包括品質和 性能,以及安全和環保考量。同時,我們除 了迎合顧客的要求外,亦確保產品能滿足地 區、國家及國際法律、法規及標準的要求。",
+      "bm25_rank": 73,
+      "dense_rank": 12,
+      "bm25_score": 10.60362720489502,
+      "dense_score": 0.4842302203178406,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0335259810558586,
+      "normalized_dense": 0.39147005615860075,
+      "normalized_bm25_rank": 0.5167785234899329,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.38063246754453434,
+      "rank": 17,
+      "rrf_score": 0.38063246754453434,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_006",
+      "alias_source_ids": [
+        "P35_006"
+      ],
+      "section": "關於此報告 ABOUT THE REPORT",
+      "pages": [
+        35
+      ],
+      "text": "由於溶劑、塗料及油墨三個業務板塊共佔集 團年度收入的百分之九十五或以上,而各板 塊中也有維持較高產量的廠房。根據重要性 原則, 《 2021 環社管報告》 在環境數據披露方 面只包含集團的溶劑、塗料及油墨業務分別 位於江蘇泰興、上海金山及廣東中山的廠房。",
+      "retrieval_text": "[Section]\n關於此報告 ABOUT THE REPORT\n\n[Content]\n由於溶劑、塗料及油墨三個業務板塊共佔集 團年度收入的百分之九十五或以上,而各板 塊中也有維持較高產量的廠房。根據重要性 原則, 《 2021 環社管報告》 在環境數據披露方 面只包含集團的溶劑、塗料及油墨業務分別 位於江蘇泰興、上海金山及廣東中山的廠房。",
+      "bm25_rank": 6,
+      "dense_rank": 37,
+      "bm25_score": 45.66443634033203,
+      "dense_score": 0.42648157477378845,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19800172822703027,
+      "normalized_dense": 0.24638857954214485,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.3741584961361635,
+      "rank": 18,
+      "rrf_score": 0.3741584961361635,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P33_004",
+      "alias_source_ids": [
+        "P33_004"
+      ],
+      "section": "致力提升顧客體驗 ENDEAVORING TO IMPROVE CUSTOMER EXPERIENCE",
+      "pages": [
+        33
+      ],
+      "text": "During the year under review, the quality-related complaint rate for the coatings and inks businesses was 0.29% and 1.16% respectively. Both segments had not recorded any violation of health and safety, advertising, or labelling regulations that significantly impacted our businesses.",
+      "retrieval_text": "[Section]\n致力提升顧客體驗 ENDEAVORING TO IMPROVE CUSTOMER EXPERIENCE\n\n[Content]\nDuring the year under review, the quality-related complaint rate for the coatings and inks businesses was 0.29% and 1.16% respectively. Both segments had not recorded any violation of health and safety, advertising, or labelling regulations that significantly impacted our businesses.",
+      "bm25_rank": 115,
+      "dense_rank": 9,
+      "bm25_score": 5.956960678100586,
+      "dense_score": 0.5051788687705994,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.01172774057893466,
+      "normalized_dense": 0.44409918402839393,
+      "normalized_bm25_rank": 0.2348993288590604,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.3705319403780738,
+      "rank": 19,
+      "rrf_score": 0.3705319403780738,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L8_004",
+      "alias_source_ids": [
+        "L8_004"
+      ],
+      "section": "為全球發展目標作出貢獻 Contributing To Global Development Goals",
+      "pages": [
+        8
+      ],
+      "text": "推出可靠的塗料及油墨產品以保障消費 者的安全和健康",
+      "retrieval_text": "[Section]\n為全球發展目標作出貢獻 Contributing To Global Development Goals\n\n[Content]\n推出可靠的塗料及油墨產品以保障消費 者的安全和健康",
+      "bm25_rank": 40,
+      "dense_rank": 23,
+      "bm25_score": 15.919988632202148,
+      "dense_score": 0.4481508433818817,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.058465865204297765,
+      "normalized_dense": 0.3008281158679381,
+      "normalized_bm25_rank": 0.738255033557047,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.36127831560806073,
+      "rank": 20,
+      "rrf_score": 0.36127831560806073,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_007",
+      "alias_source_ids": [
+        "P30_007"
+      ],
+      "section": "供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT",
+      "pages": [
+        30
+      ],
+      "text": "產品品質和安全 Product quality and safety",
+      "retrieval_text": "[Section]\n供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT\n\n[Content]\n產品品質和安全 Product quality and safety",
+      "bm25_rank": 19,
+      "dense_rank": 30,
+      "bm25_score": 22.392168045043945,
+      "dense_score": 0.435519278049469,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08882787255674905,
+      "normalized_dense": 0.26909393174745144,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.3609417392135619,
+      "rank": 21,
+      "rrf_score": 0.3609417392135619,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T17_001",
+      "alias_source_ids": [
+        "T17_001"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        17
+      ],
+      "text": "單位 Units | 2020 | 2021 排放物 Emissions 揮發性有機化合物 Volatile organic compounds (VOC) | 噸 Tonnes | 29.37 | 22.66 顆粒物 Particulates | 噸 Tonnes | 34.85 | 33.56 生活油煙 Domestic exhaust gas | 噸 Tonnes | 0.003 | 0.011 排水量-生產廢水 Water discharge - from production | 噸 Tonnes | 250,665 2 | 290,010 排水量-生活廢水 Water discharge - from living zone | 噸 Tonnes | 56,417 2 | 56,320 總排水量 Total water discharge | 噸 Tonnes | 307,082 | 346,330 總排水量密度 3 Total water discharge intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 0.37 | 0.37 化學需氧量 Chemical oxygen demand (COD) | 噸 Tonnes | 13.50 | 16.07 硫氧化物 SO X | 噸 Tonnes | 4.35 | 8.65 氮氧化物 NO X | 噸 Tonnes | 4.87 | 11.13 溫室氣體-範圍一 4 Greenhouse gases - Scope 1 4 | 噸二氧化碳當量 Tonnes of carbon dioxide equivalent | 2,281 | 2,705 溫室氣體-範圍二 4 Greenhouse gases - Scope 2 4 | 噸二氧化碳當量 Tonnes of carbon dioxide equivalent | 286,559 | 323,819 溫室氣體-範圍一密度 3 Greenhouse gases - Scope 1 intensity 3 | 噸二氧化碳當量 / 產品噸數 Tonnes of carbon dioxide equivalent/tonne of products | 0.003 | 0.003 溫室氣體-範圍二密度 3 Greenhouse gases - Scope 2 intensity 3 | 噸二氧化碳當量 / 產品噸數 Tonnes of carbon dioxide equivalent/tonne of products | 0.341 | 0.349",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n單位 Units | 2020 | 2021 排放物 Emissions 揮發性有機化合物 Volatile organic compounds (VOC) | 噸 Tonnes | 29.37 | 22.66 顆粒物 Particulates | 噸 Tonnes | 34.85 | 33.56 生活油煙 Domestic exhaust gas | 噸 Tonnes | 0.003 | 0.011 排水量-生產廢水 Water discharge - from production | 噸 Tonnes | 250,665 2 | 290,010 排水量-生活廢水 Water discharge - from living zone | 噸 Tonnes | 56,417 2 | 56,320 總排水量 Total water discharge | 噸 Tonnes | 307,082 | 346,330 總排水量密度 3 Total water discharge intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 0.37 | 0.37 化學需氧量 Chemical oxygen demand (COD) | 噸 Tonnes | 13.50 | 16.07 硫氧化物 SO X | 噸 Tonnes | 4.35 | 8.65 氮氧化物 NO X | 噸 Tonnes | 4.87 | 11.13 溫室氣體-範圍一 4 Greenhouse gases - Scope 1 4 | 噸二氧化碳當量 Tonnes of carbon dioxide equivalent | 2,281 | 2,705 溫室氣體-範圍二 4 Greenhouse gases - Scope 2 4 | 噸二氧化碳當量 Tonnes of carbon dioxide equivalent | 286,559 | 323,819 溫室氣體-範圍一密度 3 Greenhouse gases - Scope 1 intensity 3 | 噸二氧化碳當量 / 產品噸數 Tonnes of carbon dioxide equivalent/tonne of products | 0.003 | 0.003 溫室氣體-範圍二密度 3 Greenhouse gases - Scope 2 intensity 3 | 噸二氧化碳當量 / 產品噸數 Tonnes of carbon dioxide equivalent/tonne of products | 0.341 | 0.349",
+      "bm25_rank": 13,
+      "dense_rank": 39,
+      "bm25_score": 28.932790756225586,
+      "dense_score": 0.4257468581199646,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11951095814187372,
+      "normalized_dense": 0.2445427565617573,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.350431753740426,
+      "rank": 22,
+      "rrf_score": 0.350431753740426,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T40_001",
+      "alias_source_ids": [
+        "T40_001"
+      ],
+      "section": "層面 B1 ：僱傭 Aspect B1: Employment",
+      "pages": [
+        40
+      ],
+      "text": "一般披露 General Disclosure | 有關薪酬及解僱、招聘及晉升、 工作時數、假期、平等機會、多 元化、反歧視以及其他待遇及福 利的: (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare | 21-22, 25 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律、法規、規章及規例,並對集團 業務產生顯著影響的通知。相關法律、 法規、規章及規例包括但不限於香港《僱 傭條例》 、 《中華人民共和國勞動法》 、 《中 華人民共和國勞動合同法》、香港 《性別 歧視條例》 、 《殘疾歧視條例》 、 《家庭崗 位歧視條例》 以及 《種族歧視條例及中華 人民共和國殘疾人保障法》。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to Hong Kong Employment Ordinance, Labour Law of the People's Republic of China and Labour Contract Law of the People's Republic of China, Hong Kong Sex Discrimination Ordinance, Disability Discrimination Ordinance, Family Status Discrimination Ordinance and Race Discrimination Ordinance and Law of the People's Republic of China on the Protection of the Disables. 關鍵績效指標 KPI B1.1 | 按性別、僱傭類型 (如全職或兼 職)、年齡組別及地區劃分的僱 員總數 Total workforce by gender, employment type (for example, full- or part-time), age group and geographical region | 26 關鍵績效指標 KPI B1.2 | 按性別、年齡組別及地區劃分的 僱員流失比率 Employee turnover rate by gender, age group and geographical region | 26",
+      "retrieval_text": "[Section]\n層面 B1 ：僱傭 Aspect B1: Employment\n\n[Content]\n一般披露 General Disclosure | 有關薪酬及解僱、招聘及晉升、 工作時數、假期、平等機會、多 元化、反歧視以及其他待遇及福 利的: (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare | 21-22, 25 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律、法規、規章及規例,並對集團 業務產生顯著影響的通知。相關法律、 法規、規章及規例包括但不限於香港《僱 傭條例》 、 《中華人民共和國勞動法》 、 《中 華人民共和國勞動合同法》、香港 《性別 歧視條例》 、 《殘疾歧視條例》 、 《家庭崗 位歧視條例》 以及 《種族歧視條例及中華 人民共和國殘疾人保障法》。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to Hong Kong Employment Ordinance, Labour Law of the People's Republic of China and Labour Contract Law of the People's Republic of China, Hong Kong Sex Discrimination Ordinance, Disability Discrimination Ordinance, Family Status Discrimination Ordinance and Race Discrimination Ordinance and Law of the People's Republic of China on the Protection of the Disables. 關鍵績效指標 KPI B1.1 | 按性別、僱傭類型 (如全職或兼 職)、年齡組別及地區劃分的僱 員總數 Total workforce by gender, employment type (for example, full- or part-time), age group and geographical region | 26 關鍵績效指標 KPI B1.2 | 按性別、年齡組別及地區劃分的 僱員流失比率 Employee turnover rate by gender, age group and geographical region | 26",
+      "bm25_rank": 20,
+      "dense_rank": 38,
+      "bm25_score": 22.11342430114746,
+      "dense_score": 0.4260460138320923,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08752024199495675,
+      "normalized_dense": 0.24529432314907448,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.3409409541186171,
+      "rank": 23,
+      "rrf_score": 0.3409409541186171,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T37_001",
+      "alias_source_ids": [
+        "T37_001"
+      ],
+      "section": "《環境、社會及管治報告指引》 - 內容索引 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE - CONTENT INDEX",
+      "pages": [
+        37
+      ],
+      "text": "關鍵績效指標 KPI A1.1 | 排放物種類及相關排放數據 The types of emissions and respective emissions data | 15-16 關鍵績效指標 KPI A1.2 | 直接 (範圍 1 ) 及能源間接 (範圍 2 ) 溫室氣體排放量(以噸計算) 及 (如適用) 密度 (如以每產量單位、 每項設施計算) Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | 15 關鍵績效指標 KPI A1.3 | 所產生有害廢棄物總量(以噸計 算) 及 (如適用) 密度 (如以每產量 單位、每項設施計算) Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A1.4 | 所產生無害廢棄物總量(以噸計 算) 及 (如適用) 密度 (如以每產量 單位、每項設施計算) Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A1.5 | 描述所訂立的排放量目標及為達 到這些目標所採取的步驟 Description of emission target(s) set and steps taken to achieve them | 12 關鍵績效指標 KPI A1.6 | 描述處理有害及無害廢棄物的方 法,及描述所訂立的減廢目標及 為達到這些目標所採取的步驟 Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them | 10, 12",
+      "retrieval_text": "[Section]\n《環境、社會及管治報告指引》 - 內容索引 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE - CONTENT INDEX\n\n[Content]\n關鍵績效指標 KPI A1.1 | 排放物種類及相關排放數據 The types of emissions and respective emissions data | 15-16 關鍵績效指標 KPI A1.2 | 直接 (範圍 1 ) 及能源間接 (範圍 2 ) 溫室氣體排放量(以噸計算) 及 (如適用) 密度 (如以每產量單位、 每項設施計算) Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | 15 關鍵績效指標 KPI A1.3 | 所產生有害廢棄物總量(以噸計 算) 及 (如適用) 密度 (如以每產量 單位、每項設施計算) Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A1.4 | 所產生無害廢棄物總量(以噸計 算) 及 (如適用) 密度 (如以每產量 單位、每項設施計算) Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A1.5 | 描述所訂立的排放量目標及為達 到這些目標所採取的步驟 Description of emission target(s) set and steps taken to achieve them | 12 關鍵績效指標 KPI A1.6 | 描述處理有害及無害廢棄物的方 法,及描述所訂立的減廢目標及 為達到這些目標所採取的步驟 Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them | 10, 12",
+      "bm25_rank": 25,
+      "dense_rank": 36,
+      "bm25_score": 19.661792755126953,
+      "dense_score": 0.4275977909564972,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07601925441756005,
+      "normalized_dense": 0.24919284084533047,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.33933409685723004,
+      "rank": 24,
+      "rrf_score": 0.33933409685723004,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_003",
+      "alias_source_ids": [
+        "L19_003"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "841,279 927,590 The Group's emission and consumption intensity in 2020 and 2021 are calculated by dividing each emission and resources consumption by the total production volumes, which are 841,279 tonnes and 927,590 tonnes of the three plants under the environmental data disclosure in",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n841,279 927,590 The Group's emission and consumption intensity in 2020 and 2021 are calculated by dividing each emission and resources consumption by the total production volumes, which are 841,279 tonnes and 927,590 tonnes of the three plants under the environmental data disclosure in",
+      "bm25_rank": 78,
+      "dense_rank": 21,
+      "bm25_score": 9.765581130981445,
+      "dense_score": 0.45245909690856934,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.029594575661352603,
+      "normalized_dense": 0.3116517079609006,
+      "normalized_bm25_rank": 0.4832214765100671,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3364735229856998,
+      "rank": 25,
+      "rrf_score": 0.3364735229856998,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_001",
+      "alias_source_ids": [
+        "L19_001"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "2 數據經過調整以反映實際情況。",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n2 數據經過調整以反映實際情況。",
+      "bm25_rank": 35,
+      "dense_rank": 34,
+      "bm25_score": 17.39219856262207,
+      "dense_score": 0.430733859539032,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06537223257771625,
+      "normalized_dense": 0.2570715617475817,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.3359353991674653,
+      "rank": 26,
+      "rrf_score": 0.3359353991674653,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_005",
+      "alias_source_ids": [
+        "P30_005"
+      ],
+      "section": "供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT",
+      "pages": [
+        30
+      ],
+      "text": "不合格產品管理 Non-conforming product management",
+      "retrieval_text": "[Section]\n供應商實地評估的主要範疇 MAIN ASPECTS OF ON-SITE SUPPLIER ASSESSMENT\n\n[Content]\n不合格產品管理 Non-conforming product management",
+      "bm25_rank": 57,
+      "dense_rank": 28,
+      "bm25_score": 13.031646728515625,
+      "dense_score": 0.43826743960380554,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04491620093786514,
+      "normalized_dense": 0.2759981168158195,
+      "normalized_bm25_rank": 0.6241610738255033,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.33175707771740515,
+      "rank": 27,
+      "rrf_score": 0.33175707771740515,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L28_002",
+      "alias_source_ids": [
+        "L28_002"
+      ],
+      "section": "員工分佈 WORKFORCE DISTRIBUTION",
+      "pages": [
+        28
+      ],
+      "text": "12 僱員流失率為截至二零二一年十二月三十一日止年度內自辭員工 人數與於二零二一年十二月三十一日員工總數的比率。 Employee turnover rate is the ratio of the number of employees leaving of their own accord during the year under review to the total number of employees as at 31 December 2021.",
+      "retrieval_text": "[Section]\n員工分佈 WORKFORCE DISTRIBUTION\n\n[Content]\n12 僱員流失率為截至二零二一年十二月三十一日止年度內自辭員工 人數與於二零二一年十二月三十一日員工總數的比率。 Employee turnover rate is the ratio of the number of employees leaving of their own accord during the year under review to the total number of employees as at 31 December 2021.",
+      "bm25_rank": 129,
+      "dense_rank": 14,
+      "bm25_score": 5.099344253540039,
+      "dense_score": 0.47954830527305603,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.007704527604271902,
+      "normalized_dense": 0.3797077171168654,
+      "normalized_bm25_rank": 0.14093959731543626,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.3310829018137707,
+      "rank": 28,
+      "rrf_score": 0.3310829018137707,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_005",
+      "alias_source_ids": [
+        "P19_005"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "Hazardous waste (the data include scrapped finished products) was handled by government-recognised hazardous waste handling companies.",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\nHazardous waste (the data include scrapped finished products) was handled by government-recognised hazardous waste handling companies.",
+      "bm25_rank": 56,
+      "dense_rank": 29,
+      "bm25_score": 13.205578804016113,
+      "dense_score": 0.43554240465164185,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04573214354673268,
+      "normalized_dense": 0.2691520325316473,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.32885299580012106,
+      "rank": 29,
+      "rrf_score": 0.32885299580012106,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T19_001",
+      "alias_source_ids": [
+        "T19_001"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "單位 Units | 2020 | 2021 包裝材料 Packaging materials 鐵桶 Iron drums | 噸 Tonnes | 8,011 2 | 7,959 塑膠桶 Plastic buckets | 噸 Tonnes | 303 | 324 紙箱 Cartons | 噸 Tonnes | 281 | 269 塑膠膜 Plastic films | 噸 Tonnes | 17 | 22 包裝材料總量 Total packaging materials | 噸 Tonnes | 8,612 | 8,574 包裝材料總量密度 3 Total packaging materials intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 0.010 | 0.009",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n單位 Units | 2020 | 2021 包裝材料 Packaging materials 鐵桶 Iron drums | 噸 Tonnes | 8,011 2 | 7,959 塑膠桶 Plastic buckets | 噸 Tonnes | 303 | 324 紙箱 Cartons | 噸 Tonnes | 281 | 269 塑膠膜 Plastic films | 噸 Tonnes | 17 | 22 包裝材料總量 Total packaging materials | 噸 Tonnes | 8,612 | 8,574 包裝材料總量密度 3 Total packaging materials intensity 3 | 噸 / 產品噸數 Tonnes/tonne of products | 0.010 | 0.009",
+      "bm25_rank": 11,
+      "dense_rank": 49,
+      "bm25_score": 30.28710174560547,
+      "dense_score": 0.41106128692626953,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12586424311655628,
+      "normalized_dense": 0.2076483093645137,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.3267088173035756,
+      "rank": 30,
+      "rrf_score": 0.3267088173035756,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_001",
+      "alias_source_ids": [
+        "P24_001"
+      ],
+      "section": "詳細培訓數據 8 Detailed Training Data 8",
+      "pages": [
+        24
+      ],
+      "text": "The data cover the whole Group. Percentage of employees trained is calculated by the number of employees trained in the specified category as a percentage of total number of employees trained.",
+      "retrieval_text": "[Section]\n詳細培訓數據 8 Detailed Training Data 8\n\n[Content]\nThe data cover the whole Group. Percentage of employees trained is calculated by the number of employees trained in the specified category as a percentage of total number of employees trained.",
+      "bm25_rank": 50,
+      "dense_rank": 33,
+      "bm25_score": 13.820045471191406,
+      "dense_score": 0.4325822591781616,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04861470292535486,
+      "normalized_dense": 0.2617152818988654,
+      "normalized_bm25_rank": 0.6711409395973154,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.32548436307517725,
+      "rank": 31,
+      "rrf_score": 0.32548436307517725,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T38_001",
+      "alias_source_ids": [
+        "T38_001"
+      ],
+      "section": "《環境、社會及管治報告指引》 - 內容索引 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE - CONTENT INDEX",
+      "pages": [
+        38
+      ],
+      "text": "層面 A2 :資源使用 一般披露 | 有效使用資源 (包括能源、水及 其他原材料) 的政策 Policies on the efficient use of resources, including energy, water and other raw materials | 11 General Disclosure 關鍵績效指標 KPI A2.1 | A2: Use of Resources 按類型劃分的直接及 / 或間接能 源 (如電、氣或油) 總耗量 (以千 個千瓦時計算) 及密度 (如以每產 量單位、每項設施計算) Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A2.2 | 總耗水量及密度(如以每產量單 位、每項設施計算) Water consumption in total and intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A2.3 | 描述所訂立的能源使用效益目標 及為達到這些目標所採取的步驟 Description of energy use efficiency target(s) set and steps taken to achieve them | 12 關鍵績效指標 KPI A2.4 | 描述求取適用水源上可有任何問 題,以及所訂立的用水效益目標 及為達到這些目標所採取的步驟 Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them | 12, 17 關鍵績效指標 KPI A2.5 | 製成品所用包裝材料的總量(以 噸計算) 及 (如適用) 每生產單位 佔量 Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced | 17",
+      "retrieval_text": "[Section]\n《環境、社會及管治報告指引》 - 內容索引 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE - CONTENT INDEX\n\n[Content]\n層面 A2 :資源使用 一般披露 | 有效使用資源 (包括能源、水及 其他原材料) 的政策 Policies on the efficient use of resources, including energy, water and other raw materials | 11 General Disclosure 關鍵績效指標 KPI A2.1 | A2: Use of Resources 按類型劃分的直接及 / 或間接能 源 (如電、氣或油) 總耗量 (以千 個千瓦時計算) 及密度 (如以每產 量單位、每項設施計算) Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A2.2 | 總耗水量及密度(如以每產量單 位、每項設施計算) Water consumption in total and intensity (e.g. per unit of production volume, per facility) | 16 關鍵績效指標 KPI A2.3 | 描述所訂立的能源使用效益目標 及為達到這些目標所採取的步驟 Description of energy use efficiency target(s) set and steps taken to achieve them | 12 關鍵績效指標 KPI A2.4 | 描述求取適用水源上可有任何問 題,以及所訂立的用水效益目標 及為達到這些目標所採取的步驟 Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them | 12, 17 關鍵績效指標 KPI A2.5 | 製成品所用包裝材料的總量(以 噸計算) 及 (如適用) 每生產單位 佔量 Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced | 17",
+      "bm25_rank": 18,
+      "dense_rank": 47,
+      "bm25_score": 23.026615142822266,
+      "dense_score": 0.41348326206207275,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09180416326483198,
+      "normalized_dense": 0.21373301881042836,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.320013026820509,
+      "rank": 32,
+      "rrf_score": 0.320013026820509,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_002",
+      "alias_source_ids": [
+        "L19_002"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "3 集團 2020 年及 2021 年的排放量及消耗量密度是通過將各排放物及資源消耗量,除以環境數據披露範圍內三間廠房於 2020 年及 2021 年的總產量 - 分別是 噸及 噸而得出。",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n3 集團 2020 年及 2021 年的排放量及消耗量密度是通過將各排放物及資源消耗量,除以環境數據披露範圍內三間廠房於 2020 年及 2021 年的總產量 - 分別是 噸及 噸而得出。",
+      "bm25_rank": 22,
+      "dense_rank": 46,
+      "bm25_score": 21.30564308166504,
+      "dense_score": 0.4154355525970459,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08373081377292163,
+      "normalized_dense": 0.21863774325772595,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.697986577181208,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.3187727285994864,
+      "rank": 33,
+      "rrf_score": 0.3187727285994864,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_005",
+      "alias_source_ids": [
+        "L19_005"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "5 危險廢棄物 ( 數據包括報廢製成品 ) 由政府認可的危廢處理公司處理。",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n5 危險廢棄物 ( 數據包括報廢製成品 ) 由政府認可的危廢處理公司處理。",
+      "bm25_rank": 90,
+      "dense_rank": 24,
+      "bm25_score": 8.530252456665039,
+      "dense_score": 0.4450109004974365,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.023799455362637018,
+      "normalized_dense": 0.29293966158689116,
+      "normalized_bm25_rank": 0.40268456375838924,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.3166847457823017,
+      "rank": 34,
+      "rrf_score": 0.3166847457823017,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_005",
+      "alias_source_ids": [
+        "P26_005"
+      ],
+      "section": "締造健康工作文化 CREATING A HEALTHY WORK CULTURE",
+      "pages": [
+        26
+      ],
+      "text": "過去三年 (包括回顧年度) ,每年因工亡故的人數及比率均為",
+      "retrieval_text": "[Section]\n締造健康工作文化 CREATING A HEALTHY WORK CULTURE\n\n[Content]\n過去三年 (包括回顧年度) ,每年因工亡故的人數及比率均為",
+      "bm25_rank": 68,
+      "dense_rank": 31,
+      "bm25_score": 11.634883880615234,
+      "dense_score": 0.43533146381378174,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03836376764569814,
+      "normalized_dense": 0.26862208749229377,
+      "normalized_bm25_rank": 0.5503355704697986,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.3164555848225834,
+      "rank": 35,
+      "rrf_score": 0.3164555848225834,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T46_001",
+      "alias_source_ids": [
+        "T46_001"
+      ],
+      "section": "層面 B2 ：健康與安全 Aspect B2: Health and Safety",
+      "pages": [
+        46
+      ],
+      "text": "層面 B7 :反貪污 Aspect | B7: Anti-corruption 一般披露 General Disclosure | 有關防止賄賂、勒索、欺詐及洗 黑錢的: (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering | 25, 28 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律、法規、規章及規例,並對集團業 務產生顯著影響的通知。相關法律、法 規、規章及規例包括但不限於香港《防止 賄賂條例》 、 《有組織及嚴重罪行條例》 、 《刑事罪行條例》 、 《盜竊罪條例》 、 《打擊 洗錢及恐怖分子資金籌集條例》、 《中華 人民共和國刑法》 、 《中華人民共和國反 不正當競爭法》 、 《最高人民法院關於審 理不正當競爭民事案件應用法律若干問 題的解釋》、最高人民法院及最高人民檢 察院關於印發《關於辦理商業賄賂刑事案 件適用法律若干問題的意見》的通知以及 《關於禁止商業賄賂行為的暫行規定》。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to Prevention of Bribery Ordinance, Organized and Serious Crimes Ordinance, Crimes Ordinance, Theft Ordinance, Anti-Money Laundering and Counter-Terrorist Financing Ordinance in Hong Kong, Criminal Law of the People's Republic of China, Anti-unfair Competition Law of the People's Republic of China, Interpretation of the Supreme People's Court on Some Issues Concerning the Application of Law in the Trial of Civil Cases Involving Unfair Competition, Notice of the Supreme People's Court and the Supreme People's Procuratorate on issuing the Opinions on Issues concerning the Application of Law in the Handling of Criminal Cases of Commercial Briberies, and Interim Provisions on Banning Commercial Bribery.",
+      "retrieval_text": "[Section]\n層面 B2 ：健康與安全 Aspect B2: Health and Safety\n\n[Content]\n層面 B7 :反貪污 Aspect | B7: Anti-corruption 一般披露 General Disclosure | 有關防止賄賂、勒索、欺詐及洗 黑錢的: (a) 政策;及 (b) 遵守對發行人有重大影響的相 關法律及規例的資料 Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud and money laundering | 25, 28 | 就此報告部份的披露範圍,董事會於回 顧年內沒有從政府相關機構收到違反相 關法律、法規、規章及規例,並對集團業 務產生顯著影響的通知。相關法律、法 規、規章及規例包括但不限於香港《防止 賄賂條例》 、 《有組織及嚴重罪行條例》 、 《刑事罪行條例》 、 《盜竊罪條例》 、 《打擊 洗錢及恐怖分子資金籌集條例》、 《中華 人民共和國刑法》 、 《中華人民共和國反 不正當競爭法》 、 《最高人民法院關於審 理不正當競爭民事案件應用法律若干問 題的解釋》、最高人民法院及最高人民檢 察院關於印發《關於辦理商業賄賂刑事案 件適用法律若干問題的意見》的通知以及 《關於禁止商業賄賂行為的暫行規定》。 With regard to the disclosure in this report section, during the year under review, the Board had not received from related government authorities any notice related to major violation of related laws and regulations that had significant impacts on its businesses. Related laws and regulations include but not limited to Prevention of Bribery Ordinance, Organized and Serious Crimes Ordinance, Crimes Ordinance, Theft Ordinance, Anti-Money Laundering and Counter-Terrorist Financing Ordinance in Hong Kong, Criminal Law of the People's Republic of China, Anti-unfair Competition Law of the People's Republic of China, Interpretation of the Supreme People's Court on Some Issues Concerning the Application of Law in the Trial of Civil Cases Involving Unfair Competition, Notice of the Supreme People's Court and the Supreme People's Procuratorate on issuing the Opinions on Issues concerning the Application of Law in the Handling of Criminal Cases of Commercial Briberies, and Interim Provisions on Banning Commercial Bribery.",
+      "bm25_rank": 17,
+      "dense_rank": 51,
+      "bm25_score": 24.731321334838867,
+      "dense_score": 0.40601885318756104,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09980120701690735,
+      "normalized_dense": 0.19498024198976618,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.31035097710651105,
+      "rank": 36,
+      "rrf_score": 0.31035097710651105,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_015",
+      "alias_source_ids": [
+        "P35_015"
+      ],
+      "section": "關於此報告 ABOUT THE REPORT",
+      "pages": [
+        35
+      ],
+      "text": "Quantitative: Giving updates on targets and key performance indicators, and disclosing the relevant methodologies",
+      "retrieval_text": "[Section]\n關於此報告 ABOUT THE REPORT\n\n[Content]\nQuantitative: Giving updates on targets and key performance indicators, and disclosing the relevant methodologies",
+      "bm25_rank": null,
+      "dense_rank": 15,
+      "bm25_score": null,
+      "dense_score": 0.47332391142845154,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3640702204879837,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.3086326308620695,
+      "rank": 37,
+      "rrf_score": 0.3086326308620695,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_002",
+      "alias_source_ids": [
+        "P28_002"
+      ],
+      "section": "員工分佈 WORKFORCE DISTRIBUTION",
+      "pages": [
+        28
+      ],
+      "text": "僱員流失比率為 15% 12 ,詳細分佈如下:",
+      "retrieval_text": "[Section]\n員工分佈 WORKFORCE DISTRIBUTION\n\n[Content]\n僱員流失比率為 15% 12 ,詳細分佈如下:",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.4635630249977112,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3395480208222429,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.2973652972206709,
+      "rank": 38,
+      "rrf_score": 0.2973652972206709,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_006",
+      "alias_source_ids": [
+        "P31_006"
+      ],
+      "section": "顧客的長遠價值 LONG-TERM VALUES IN CUSTOMERS",
+      "pages": [
+        31
+      ],
+      "text": "Most of the Group's subsidiaries have implemented ISO 9001 Certified Quality Management System and monitored the entire process from product R&D, production, and quality inspection to product delivery through an Enterprise Resource Planning ('ERP') system. Our products have also received a number of certifications for quality assurance, including China Environmental Labelling Product Certification, China Compulsory Product Certification, China Classification Society Certification, American UL Product Safety Certification, French VOC A+ Certification, and American GREENGUARD Gold Certification.",
+      "retrieval_text": "[Section]\n顧客的長遠價值 LONG-TERM VALUES IN CUSTOMERS\n\n[Content]\nMost of the Group's subsidiaries have implemented ISO 9001 Certified Quality Management System and monitored the entire process from product R&D, production, and quality inspection to product delivery through an Enterprise Resource Planning ('ERP') system. Our products have also received a number of certifications for quality assurance, including China Environmental Labelling Product Certification, China Compulsory Product Certification, China Classification Society Certification, American UL Product Safety Certification, French VOC A+ Certification, and American GREENGUARD Gold Certification.",
+      "bm25_rank": 16,
+      "dense_rank": 57,
+      "bm25_score": 25.278472900390625,
+      "dense_score": 0.3982391953468323,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10236798071035993,
+      "normalized_dense": 0.17543546762371237,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.29664111048151226,
+      "rank": 39,
+      "rrf_score": 0.29664111048151226,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_003",
+      "alias_source_ids": [
+        "P10_003"
+      ],
+      "section": "· 環境的長遠價值 / 目標 12 負責任消費和生產",
+      "pages": [
+        10
+      ],
+      "text": "Promoting greener and more responsible product choices to consumers",
+      "retrieval_text": "[Section]\n· 環境的長遠價值 / 目標 12 負責任消費和生產\n\n[Content]\nPromoting greener and more responsible product choices to consumers",
+      "bm25_rank": 63,
+      "dense_rank": 41,
+      "bm25_score": 12.108034133911133,
+      "dense_score": 0.42053472995758057,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04058338959265473,
+      "normalized_dense": 0.23144836719575818,
+      "normalized_bm25_rank": 0.5838926174496644,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.2938215930142275,
+      "rank": 40,
+      "rrf_score": 0.2938215930142275,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_008",
+      "alias_source_ids": [
+        "P31_008"
+      ],
+      "section": "顧客的長遠價值 LONG-TERM VALUES IN CUSTOMERS",
+      "pages": [
+        31
+      ],
+      "text": "As one of the first companies in the China inks industry to introduce a hazardous substance management system, Bauhinia Ink, the Group's subsidiary, has established a hazardous substance database and a regulations database to control over 40 substances such as heavy metals and organic compounds in its products, and to ensure compliance with relevant product standards and environmental standards in countries and regions including the European Union, the United States, and Japan. We continuously improve our ability to assess product safety, and manage and control risks in inks plants by adopting fully pipelined manufacturing in benzene-free production conditions, while control systems are automatic and linked to an ERP system for comprehensive production process monitoring.",
+      "retrieval_text": "[Section]\n顧客的長遠價值 LONG-TERM VALUES IN CUSTOMERS\n\n[Content]\nAs one of the first companies in the China inks industry to introduce a hazardous substance management system, Bauhinia Ink, the Group's subsidiary, has established a hazardous substance database and a regulations database to control over 40 substances such as heavy metals and organic compounds in its products, and to ensure compliance with relevant product standards and environmental standards in countries and regions including the European Union, the United States, and Japan. We continuously improve our ability to assess product safety, and manage and control risks in inks plants by adopting fully pipelined manufacturing in benzene-free production conditions, while control systems are automatic and linked to an ERP system for comprehensive production process monitoring.",
+      "bm25_rank": 27,
+      "dense_rank": 55,
+      "bm25_score": 19.556055068969727,
+      "dense_score": 0.40223556756973267,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07552322237027673,
+      "normalized_dense": 0.185475522723621,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.29008819152128246,
+      "rank": 41,
+      "rrf_score": 0.29008819152128246,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_007",
+      "alias_source_ids": [
+        "L19_007"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "7 數據包括自來水及從江河抽取的用水。回顧年內集團於求取適用水源上沒有任何問題。",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n7 數據包括自來水及從江河抽取的用水。回顧年內集團於求取適用水源上沒有任何問題。",
+      "bm25_rank": 59,
+      "dense_rank": 44,
+      "bm25_score": 12.598702430725098,
+      "dense_score": 0.41718560457229614,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.042885191425576896,
+      "normalized_dense": 0.223034385331888,
+      "normalized_bm25_rank": 0.610738255033557,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 44,
+      "composite_score": 0.28999477784926275,
+      "rank": 42,
+      "rrf_score": 0.28999477784926275,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L10_004",
+      "alias_source_ids": [
+        "L10_004"
+      ],
+      "section": "· 環境的長遠價值 / 目標 12 負責任消費和生產",
+      "pages": [
+        10
+      ],
+      "text": "Some of the coatings products were rated as green products",
+      "retrieval_text": "[Section]\n· 環境的長遠價值 / 目標 12 負責任消費和生產\n\n[Content]\nSome of the coatings products were rated as green products",
+      "bm25_rank": 120,
+      "dense_rank": 25,
+      "bm25_score": 5.762948989868164,
+      "dense_score": 0.44102194905281067,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.010817601361704917,
+      "normalized_dense": 0.2829182496509835,
+      "normalized_bm25_rank": 0.20134228187919467,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.28910437073743356,
+      "rank": 43,
+      "rrf_score": 0.28910437073743356,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_002",
+      "alias_source_ids": [
+        "P32_002"
+      ],
+      "section": "安全及品質監控 SAFETY AND QUALITY MONITORING",
+      "pages": [
+        32
+      ],
+      "text": "集團的專業質檢員負責監控原材料的來貨資 料並核對品質檢驗報告,且需根據 ERP 系統 的技術指標進行抽樣檢測,亦可與供應商共 同制訂檢測指標以實施同步檢驗,雙方就原 料進行獨立檢測並對比檢測報告。",
+      "retrieval_text": "[Section]\n安全及品質監控 SAFETY AND QUALITY MONITORING\n\n[Content]\n集團的專業質檢員負責監控原材料的來貨資 料並核對品質檢驗報告,且需根據 ERP 系統 的技術指標進行抽樣檢測,亦可與供應商共 同制訂檢測指標以實施同步檢驗,雙方就原 料進行獨立檢測並對比檢測報告。",
+      "bm25_rank": 118,
+      "dense_rank": 26,
+      "bm25_score": 5.864991188049316,
+      "dense_score": 0.44052189588546753,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.011296297296074278,
+      "normalized_dense": 0.281661969937037,
+      "normalized_bm25_rank": 0.21476510067114096,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.28876041202442615,
+      "rank": 44,
+      "rrf_score": 0.28876041202442615,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_006",
+      "alias_source_ids": [
+        "P7_006"
+      ],
+      "section": "持份者參與 STAKEHOLDER ENGAGEMENT",
+      "pages": [
+        7
+      ],
+      "text": "The materiality assessment from 2019 was designed in accordance with the Global Reporting Initiative (GRI) Standards . The seven topics rated as 'critical' include: waste management, environmental compliance, air emission management, green products R&D, occupational health and safety, product safety, and product quality management. The Board will continue to review and strengthen the management of these sustainability issues and will regularly review potential changes in their materiality to the Group's business. Please refer to the 'Long-term Values in the Environment', 'Long-term Values in Employees' and 'Long-term Values in Customers' sections of this report for information on the management approach and effectiveness of measures on these material issues.",
+      "retrieval_text": "[Section]\n持份者參與 STAKEHOLDER ENGAGEMENT\n\n[Content]\nThe materiality assessment from 2019 was designed in accordance with the Global Reporting Initiative (GRI) Standards . The seven topics rated as 'critical' include: waste management, environmental compliance, air emission management, green products R&D, occupational health and safety, product safety, and product quality management. The Board will continue to review and strengthen the management of these sustainability issues and will regularly review potential changes in their materiality to the Group's business. Please refer to the 'Long-term Values in the Environment', 'Long-term Values in Employees' and 'Long-term Values in Customers' sections of this report for information on the management approach and effectiveness of measures on these material issues.",
+      "bm25_rank": 39,
+      "dense_rank": 52,
+      "bm25_score": 15.99237060546875,
+      "dense_score": 0.4041132926940918,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05880542037796075,
+      "normalized_dense": 0.19019291706517366,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.6577181208053691,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.28436887350477874,
+      "rank": 45,
+      "rrf_score": 0.28436887350477874,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L8_006",
+      "alias_source_ids": [
+        "L8_006"
+      ],
+      "section": "為全球發展目標作出貢獻 Contributing To Global Development Goals",
+      "pages": [
+        8
+      ],
+      "text": "Introducing reliable coatings and inks products that protect consumers' safety and health",
+      "retrieval_text": "[Section]\n為全球發展目標作出貢獻 Contributing To Global Development Goals\n\n[Content]\nIntroducing reliable coatings and inks products that protect consumers' safety and health",
+      "bm25_rank": 149,
+      "dense_rank": 22,
+      "bm25_score": 3.494049310684204,
+      "dense_score": 0.4505772590637207,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0001738375926300529,
+      "normalized_dense": 0.30692398126339554,
+      "normalized_bm25_rank": 0.006711409395973145,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.2799413824372245,
+      "rank": 46,
+      "rrf_score": 0.2799413824372245,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_003",
+      "alias_source_ids": [
+        "P12_003"
+      ],
+      "section": "排放物管理 EMISSION MANAGEMENT",
+      "pages": [
+        12
+      ],
+      "text": "回顧年內,集團的有害廢物及無害廢物分別 按年輕微下降 1% 及 4% ,主要由於各廠房加 強危廢和無害廢物的分類和收集,同時鼓勵 重用無害廢物。在包裝物料方面,除鐵桶及 紙箱用量分別較二零二零年輕微下降 1% 及 4% 外,其餘包裝物料使用量均有所上升,主要 由於泰興及金山廠的產量增加。",
+      "retrieval_text": "[Section]\n排放物管理 EMISSION MANAGEMENT\n\n[Content]\n回顧年內,集團的有害廢物及無害廢物分別 按年輕微下降 1% 及 4% ,主要由於各廠房加 強危廢和無害廢物的分類和收集,同時鼓勵 重用無害廢物。在包裝物料方面,除鐵桶及 紙箱用量分別較二零二零年輕微下降 1% 及 4% 外,其餘包裝物料使用量均有所上升,主要 由於泰興及金山廠的產量增加。",
+      "bm25_rank": 119,
+      "dense_rank": 32,
+      "bm25_score": 5.857818603515625,
+      "dense_score": 0.4328601062297821,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.01126264957859662,
+      "normalized_dense": 0.2624133149028062,
+      "normalized_bm25_rank": 0.20805369127516782,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.27329182100418475,
+      "rank": 47,
+      "rrf_score": 0.27329182100418475,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_004",
+      "alias_source_ids": [
+        "P31_004"
+      ],
+      "section": "顧客的長遠價值 LONG-TERM VALUES IN CUSTOMERS",
+      "pages": [
+        31
+      ],
+      "text": "集團的塗料品牌紫荊花推出的「貝倍安」 兒童 漆系列,部份產品通過嚴格的美國 Children's Product Certificate 標準。為善用集團在產業 安全及健康標準的領先優勢,紫荊花於回顧 年內參與《中國育兒環境白皮書 (2020) 》的撰 寫及聯合發佈,與不同領域的專家探討兒童 友善空間標準。",
+      "retrieval_text": "[Section]\n顧客的長遠價值 LONG-TERM VALUES IN CUSTOMERS\n\n[Content]\n集團的塗料品牌紫荊花推出的「貝倍安」 兒童 漆系列,部份產品通過嚴格的美國 Children's Product Certificate 標準。為善用集團在產業 安全及健康標準的領先優勢,紫荊花於回顧 年內參與《中國育兒環境白皮書 (2020) 》的撰 寫及聯合發佈,與不同領域的專家探討兒童 友善空間標準。",
+      "bm25_rank": 33,
+      "dense_rank": 63,
+      "bm25_score": 17.654438018798828,
+      "dense_score": 0.3917892575263977,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06660243894077589,
+      "normalized_dense": 0.1592313386046318,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.5838926174496644,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.2643534697225951,
+      "rank": 48,
+      "rrf_score": 0.2643534697225951,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L19_004",
+      "alias_source_ids": [
+        "L19_004"
+      ],
+      "section": "環保績效 1 ENVIRONMENTAL PERFORMANCE / 1",
+      "pages": [
+        19
+      ],
+      "text": "4 溫室氣體計算的二氧化碳排放因子數值參考自香港聯交所《如何準備環社管報告 - 附錄二:環境關鍵績效指標匯報指引》 ,及國家應對氣候 變化戰略研究和國際合作中心《工業其他行業企業溫室氣體排放核算方法及報告指南(試行) 》 ;全球變暖潛能值參考自政府間氣候變化專門委 員會 《第五次評估報告》 。",
+      "retrieval_text": "[Section]\n環保績效 1 ENVIRONMENTAL PERFORMANCE / 1\n\n[Content]\n4 溫室氣體計算的二氧化碳排放因子數值參考自香港聯交所《如何準備環社管報告 - 附錄二:環境關鍵績效指標匯報指引》 ,及國家應對氣候 變化戰略研究和國際合作中心《工業其他行業企業溫室氣體排放核算方法及報告指南(試行) 》 ;全球變暖潛能值參考自政府間氣候變化專門委 員會 《第五次評估報告》 。",
+      "bm25_rank": 122,
+      "dense_rank": 35,
+      "bm25_score": 5.590249538421631,
+      "dense_score": 0.4296848475933075,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.010007441185338355,
+      "normalized_dense": 0.25443613713042923,
+      "normalized_bm25_rank": 0.18791946308724827,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.2642084986488253,
+      "rank": 49,
+      "rrf_score": 0.2642084986488253,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_003",
+      "alias_source_ids": [
+        "P7_003"
+      ],
+      "section": "持份者參與 STAKEHOLDER ENGAGEMENT",
+      "pages": [
+        7
+      ],
+      "text": "二零一九年度的重要性評估乃按照《全球報 告倡議組織 (GRI) 標準》 設計。當中被評為 「關 鍵」的七個議題包括:廢棄物管理、環保合 規、廢氣管理、綠色產品研發、職業健康與 安全、產品安全以及產品質量管理。董事會 將持續檢視及加強管理這些可持續發展議題, 同時定期審視這些議題對集團業務重要性的 潛在變化。有關關鍵議題的管理方針及措施 成效,請參閱本報告 「環境的長遠價值」 、 「員 工的長遠價值」 及 「顧客的長遠價值」 章節。",
+      "retrieval_text": "[Section]\n持份者參與 STAKEHOLDER ENGAGEMENT\n\n[Content]\n二零一九年度的重要性評估乃按照《全球報 告倡議組織 (GRI) 標準》 設計。當中被評為 「關 鍵」的七個議題包括:廢棄物管理、環保合 規、廢氣管理、綠色產品研發、職業健康與 安全、產品安全以及產品質量管理。董事會 將持續檢視及加強管理這些可持續發展議題, 同時定期審視這些議題對集團業務重要性的 潛在變化。有關關鍵議題的管理方針及措施 成效,請參閱本報告 「環境的長遠價值」 、 「員 工的長遠價值」 及 「顧客的長遠價值」 章節。",
+      "bm25_rank": 72,
+      "dense_rank": 50,
+      "bm25_score": 10.750290870666504,
+      "dense_score": 0.4087895154953003,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03421400328368124,
+      "normalized_dense": 0.20194095552729383,
+      "normalized_bm25_rank": 0.5234899328859061,
+      "normalized_dense_rank": 0.6711409395973154,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 50,
+      "composite_score": 0.2640993162993428,
+      "rank": 50,
+      "rrf_score": 0.2640993162993428,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

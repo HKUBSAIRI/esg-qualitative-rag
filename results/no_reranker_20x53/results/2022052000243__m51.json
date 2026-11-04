@@ -1,0 +1,1543 @@
+{
+  "document_id": "2022052000243",
+  "metric_id": 51,
+  "metric_name": "独立第三方审计（鉴证）",
+  "query": "独立第三方审计（鉴证） 独立第三方审计（鉴证） 衡量ESG关键数据是否经过独立鉴证 2分：由独立第三方按国际准则（ISAE 3000/AA1000AS）出具鉴证报告。 1分：虽无报告，但披露了具体的内部审计路径（提及了内审委员会或具体复核频率）。 0分：仅董事会背书。 独立鉴证 有限保证 合理保证 独立核查 鉴证范围 ESG鉴证 鉴证报告 核查声明 ISAE 3000 AA1000AS independent assurance limited assurance reasonable assurance ISAE 3000 AA1000AS verification statement ESG assurance assurance scope 是否有独立第三方ESG鉴证/核查报告？ 鉴证机构与准则（ISAE 3000/AA1000AS等）是什么？ 保证等级是有限保证还是合理保证？ 鉴证范围覆盖哪些指标与报告期？ 若无外部鉴证，是否披露内审路径与复核频率？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '独立第三方审计（鉴证）'. Prefer explicit, auditable disclosure that answers: 是否有独立第三方ESG鉴证/核查报告？ 鉴证机构与准则（ISAE 3000/AA1000AS等）是什么？ 保证等级是有限保证还是合理保证？ 鉴证范围覆盖哪些指标与报告期？ 若无外部鉴证，是否披露内审路径与复核频率？ Exclude or down-rank: 排除：仅有董事会对ESG报告真实性声明；仅有ISO 45001/14001管理体系认证；仅有财务审计意见；仅有“数据已经核对”无机构无准则；区分：本指标是ESG数据独立鉴证；ISO体系认证不是ESG报告鉴证；温室气体核算关注方法学，鉴证关注外部保证结论。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 88,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P3_003",
+      "alias_source_ids": [
+        "P3_003"
+      ],
+      "section": "REPORTING SCOPE / REPORTING PRINCIPLES",
+      "pages": [
+        3
+      ],
+      "text": "The Board is responsible for the ESG as a whole, and is committed to achieving key performance indicators. The Board believes that ESG risks are crucial to the efficient operation of the Group, and aims to integrate environmental and social aspects into its daily operations. The Group's corporate governance is fundamental to ensure that the ESG topics of the Group are well considered and incorporated into the business agenda, and is of paramount importance to us to create value for our stakeholders continuously. The Board carefully assesses ESG risks to consider and reflect on their relative progress toward ESG objectives. The Board confirms that it has reviewed and approved this report.",
+      "retrieval_text": "[Section]\nREPORTING SCOPE / REPORTING PRINCIPLES\n\n[Content]\nThe Board is responsible for the ESG as a whole, and is committed to achieving key performance indicators. The Board believes that ESG risks are crucial to the efficient operation of the Group, and aims to integrate environmental and social aspects into its daily operations. The Group's corporate governance is fundamental to ensure that the ESG topics of the Group are well considered and incorporated into the business agenda, and is of paramount importance to us to create value for our stakeholders continuously. The Board carefully assesses ESG risks to consider and reflect on their relative progress toward ESG objectives. The Board confirms that it has reviewed and approved this report.",
+      "bm25_rank": 2,
+      "dense_rank": 1,
+      "bm25_score": 22.489606857299805,
+      "dense_score": 0.5458176136016846,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9396194338770455,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.8372527458358117,
+      "rank": 1,
+      "rrf_score": 0.8372527458358117,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_007",
+      "alias_source_ids": [
+        "P3_007"
+      ],
+      "section": "REPORTING SCOPE / REPORTING PRINCIPLES",
+      "pages": [
+        3
+      ],
+      "text": "This ESG Report aims to disclose data objectively, which aims to provide stakeholders with a balanced overview of the Group's overall ESG performances.",
+      "retrieval_text": "[Section]\nREPORTING SCOPE / REPORTING PRINCIPLES\n\n[Content]\nThis ESG Report aims to disclose data objectively, which aims to provide stakeholders with a balanced overview of the Group's overall ESG performances.",
+      "bm25_rank": 3,
+      "dense_rank": 2,
+      "bm25_score": 19.70223045349121,
+      "dense_score": 0.5428867936134338,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8165793385492356,
+      "normalized_dense": 0.9907830922574582,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.8074053862415682,
+      "rank": 2,
+      "rrf_score": 0.8074053862415682,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "REPORTING SCOPE / REPORTING PRINCIPLES",
+      "pages": [
+        3
+      ],
+      "text": "This report is prepared in accordance with the 'Environmental, Social and Governance Reporting Guide' as specified in Appendix 27 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited. This report identifies and discloses material environmental and social impacts as well as environmental, social and governance ('ESG') matters in relation to the Group's business for the year ended 31 December 2021 ('the Reporting Period').",
+      "retrieval_text": "[Section]\nREPORTING SCOPE / REPORTING PRINCIPLES\n\n[Content]\nThis report is prepared in accordance with the 'Environmental, Social and Governance Reporting Guide' as specified in Appendix 27 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited. This report identifies and discloses material environmental and social impacts as well as environmental, social and governance ('ESG') matters in relation to the Group's business for the year ended 31 December 2021 ('the Reporting Period').",
+      "bm25_rank": 1,
+      "dense_rank": 5,
+      "bm25_score": 23.857481002807617,
+      "dense_score": 0.4950598478317261,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.8403758517429527,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.788762420593255,
+      "rank": 3,
+      "rrf_score": 0.788762420593255,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_008",
+      "alias_source_ids": [
+        "P3_008"
+      ],
+      "section": "REPORTING SCOPE / REPORTING PRINCIPLES",
+      "pages": [
+        3
+      ],
+      "text": "The Group accounts for and discloses key performance indicators ('KPIs') in quantitative terms for proper evaluation of the effectiveness of ESG policies and actions.",
+      "retrieval_text": "[Section]\nREPORTING SCOPE / REPORTING PRINCIPLES\n\n[Content]\nThe Group accounts for and discloses key performance indicators ('KPIs') in quantitative terms for proper evaluation of the effectiveness of ESG policies and actions.",
+      "bm25_rank": 7,
+      "dense_rank": 3,
+      "bm25_score": 15.487627029418945,
+      "dense_score": 0.5183916091918945,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6305387283330435,
+      "normalized_dense": 0.9137500926686211,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.739208868704653,
+      "rank": 4,
+      "rrf_score": 0.739208868704653,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_009",
+      "alias_source_ids": [
+        "P3_009"
+      ],
+      "section": "REPORTING SCOPE / REPORTING PRINCIPLES",
+      "pages": [
+        3
+      ],
+      "text": "The statistical methods applied in the ESG report are substantially consistent with those adopted last year. Elaborations are provided when the data has changes in disclosure and calculation methodologies. If any change may affect the comparison with previous reports, the Group will comment on the corresponding content of the ESG report.",
+      "retrieval_text": "[Section]\nREPORTING SCOPE / REPORTING PRINCIPLES\n\n[Content]\nThe statistical methods applied in the ESG report are substantially consistent with those adopted last year. Elaborations are provided when the data has changes in disclosure and calculation methodologies. If any change may affect the comparison with previous reports, the Group will comment on the corresponding content of the ESG report.",
+      "bm25_rank": 6,
+      "dense_rank": 4,
+      "bm25_score": 16.50758934020996,
+      "dense_score": 0.5041135549545288,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6755618044339337,
+      "normalized_dense": 0.8688481508310559,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.7318266633420859,
+      "rank": 5,
+      "rrf_score": 0.7318266633420859,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_004",
+      "alias_source_ids": [
+        "P3_004"
+      ],
+      "section": "REPORTING SCOPE / REPORTING PRINCIPLES",
+      "pages": [
+        3
+      ],
+      "text": "In preparing this report, the relevant staffs of the Group have collected all relevant information on various ESG aspects, and checked and evaluated the performance of the Group, including environmental, health and safety, labour practices, and other ESG aspects. The Group has maintained talks with certain stakeholders under various circumstances to collect comments on a regular basis, including but not limited to meetings, interviews, surveys, feedback plans, letters, and other methods.",
+      "retrieval_text": "[Section]\nREPORTING SCOPE / REPORTING PRINCIPLES\n\n[Content]\nIn preparing this report, the relevant staffs of the Group have collected all relevant information on various ESG aspects, and checked and evaluated the performance of the Group, including environmental, health and safety, labour practices, and other ESG aspects. The Group has maintained talks with certain stakeholders under various circumstances to collect comments on a regular basis, including but not limited to meetings, interviews, surveys, feedback plans, letters, and other methods.",
+      "bm25_rank": 4,
+      "dense_rank": 6,
+      "bm25_score": 17.43785858154297,
+      "dense_score": 0.49380314350128174,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7166256578760979,
+      "normalized_dense": 0.8364237400746166,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.7273486083865703,
+      "rank": 6,
+      "rrf_score": 0.7273486083865703,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_010",
+      "alias_source_ids": [
+        "P3_010"
+      ],
+      "section": "REPORTING SCOPE / REPORTING PRINCIPLES",
+      "pages": [
+        3
+      ],
+      "text": "The aspects presented below are an elaboration of the operating practices in the main ESG subject areas.",
+      "retrieval_text": "[Section]\nREPORTING SCOPE / REPORTING PRINCIPLES\n\n[Content]\nThe aspects presented below are an elaboration of the operating practices in the main ESG subject areas.",
+      "bm25_rank": 5,
+      "dense_rank": 7,
+      "bm25_score": 16.620210647583008,
+      "dense_score": 0.4821659326553345,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6805331231177643,
+      "normalized_dense": 0.7998267811424441,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.7053077429898512,
+      "rank": 7,
+      "rrf_score": 0.7053077429898512,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_006",
+      "alias_source_ids": [
+        "P3_006"
+      ],
+      "section": "REPORTING SCOPE / REPORTING PRINCIPLES",
+      "pages": [
+        3
+      ],
+      "text": "In order to identify material issues, the Group has conducted a materiality assessment in 2021, thereby adopting the identified material issues as the focus of this report.",
+      "retrieval_text": "[Section]\nREPORTING SCOPE / REPORTING PRINCIPLES\n\n[Content]\nIn order to identify material issues, the Group has conducted a materiality assessment in 2021, thereby adopting the identified material issues as the focus of this report.",
+      "bm25_rank": 10,
+      "dense_rank": 9,
+      "bm25_score": 11.103788375854492,
+      "dense_score": 0.4495429992675781,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4370277532457522,
+      "normalized_dense": 0.6972334562260614,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.614658736838339,
+      "rank": 8,
+      "rrf_score": 0.614658736838339,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_004",
+      "alias_source_ids": [
+        "P5_004"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "During the Reporting Period, no material instances of non-compliance concerning the use of resources were identified within the Group.",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nDuring the Reporting Period, no material instances of non-compliance concerning the use of resources were identified within the Group.",
+      "bm25_rank": 29,
+      "dense_rank": 8,
+      "bm25_score": 2.0341126918792725,
+      "dense_score": 0.4529338479042053,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03667502039494309,
+      "normalized_dense": 0.7078970722714023,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.5269110599108922,
+      "rank": 9,
+      "rrf_score": 0.5269110599108922,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_001",
+      "alias_source_ids": [
+        "P3_001"
+      ],
+      "section": "REPORTING SCOPE / REPORTING PRINCIPLES",
+      "pages": [
+        3
+      ],
+      "text": "Rare Earth Magnesium Technology Group Holdings Limited and together with its subsidiaries ('REMT' or 'the Group'), is principally engaged in the business of producing and selling magnesium products. Magnesium alloy products produced and sold by the Group have been known as the 'most developed and widely used lightweight eco-friendly strategic new materials of the 21st century', which contributes to the green and low-carbon highquality development. Since there is no actual business in its Hong Kong and overseas subsidiaries, the scope of the environmental aspect of this report only covers the main business operations of the Group in Mainland China.",
+      "retrieval_text": "[Section]\nREPORTING SCOPE / REPORTING PRINCIPLES\n\n[Content]\nRare Earth Magnesium Technology Group Holdings Limited and together with its subsidiaries ('REMT' or 'the Group'), is principally engaged in the business of producing and selling magnesium products. Magnesium alloy products produced and sold by the Group have been known as the 'most developed and widely used lightweight eco-friendly strategic new materials of the 21st century', which contributes to the green and low-carbon highquality development. Since there is no actual business in its Hong Kong and overseas subsidiaries, the scope of the environmental aspect of this report only covers the main business operations of the Group in Mainland China.",
+      "bm25_rank": 13,
+      "dense_rank": 20,
+      "bm25_score": 9.635478019714355,
+      "dense_score": 0.3959425985813141,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3722137417819819,
+      "normalized_dense": 0.5286697265978109,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.5259201056857644,
+      "rank": 10,
+      "rrf_score": 0.5259201056857644,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_005",
+      "alias_source_ids": [
+        "P3_005"
+      ],
+      "section": "REPORTING SCOPE / REPORTING PRINCIPLES",
+      "pages": [
+        3
+      ],
+      "text": "The Group attaches great importance to the reporting principles of materiality, balance, quantitative, and consistency when preparing this report:",
+      "retrieval_text": "[Section]\nREPORTING SCOPE / REPORTING PRINCIPLES\n\n[Content]\nThe Group attaches great importance to the reporting principles of materiality, balance, quantitative, and consistency when preparing this report:",
+      "bm25_rank": 25,
+      "dense_rank": 13,
+      "bm25_score": 2.891803026199341,
+      "dense_score": 0.4309181869029999,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07453510285538464,
+      "normalized_dense": 0.6386617329627275,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.5062238620073605,
+      "rank": 11,
+      "rrf_score": 0.5062238620073605,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T2_001",
+      "alias_source_ids": [
+        "T2_001"
+      ],
+      "section": "Front matter",
+      "pages": [
+        2
+      ],
+      "text": "Aspect B1 | Employment | 9 Aspect B2 | Health and Safety | 10 Aspect B3 | Development and Training | 11 Aspect B4 | Labour Standards | 13 Aspect B5 | Supply Chain Management | 13 Aspect B6 | Product Responsibility | 13 Aspect B7 | Anti-Corruption | 14 Aspect B8 | Community Investment | 15",
+      "retrieval_text": "[Section]\nFront matter\n\n[Content]\nAspect B1 | Employment | 9 Aspect B2 | Health and Safety | 10 Aspect B3 | Development and Training | 11 Aspect B4 | Labour Standards | 13 Aspect B5 | Supply Chain Management | 13 Aspect B6 | Product Responsibility | 13 Aspect B7 | Anti-Corruption | 14 Aspect B8 | Community Investment | 15",
+      "bm25_rank": 18,
+      "dense_rank": 19,
+      "bm25_score": 6.004800319671631,
+      "dense_score": 0.39730021357536316,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21194872349904523,
+      "normalized_dense": 0.5329391843605547,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.4933479894273455,
+      "rank": 12,
+      "rrf_score": 0.4933479894273455,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L5_005",
+      "alias_source_ids": [
+        "L5_005"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "Regarding resources such as solid waste, the waste is recycled and reprocessed as resources or products to reduce the emission.",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nRegarding resources such as solid waste, the waste is recycled and reprocessed as resources or products to reduce the emission.",
+      "bm25_rank": 9,
+      "dense_rank": 32,
+      "bm25_score": 13.183746337890625,
+      "dense_score": 0.350061297416687,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5288410532281599,
+      "normalized_dense": 0.3843811924546608,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.49332176223295116,
+      "rank": 13,
+      "rrf_score": 0.49332176223295116,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_002",
+      "alias_source_ids": [
+        "P5_002"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "The energy and the packaging materials consumed by the Group in 2021 were as follows:",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nThe energy and the packaging materials consumed by the Group in 2021 were as follows:",
+      "bm25_rank": 11,
+      "dense_rank": 35,
+      "bm25_score": 10.87643051147461,
+      "dense_score": 0.3433626890182495,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.42699174473660184,
+      "normalized_dense": 0.3633152601014889,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4602096966942508,
+      "rank": 14,
+      "rrf_score": 0.4602096966942508,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "Types of pollutants / A. ENVIRONMENTAL",
+      "pages": [
+        4
+      ],
+      "text": "During the Reporting Period, the Group has complied with all the related local environmental laws in the country we operate. The emission of particulates and sulfur dioxide (SO2) are lower than the national standard of 150 mg/m 3 and 400 mg/m 3 respectively. During the Reporting Period, no material instances of non-compliance concerning the environment were identified within the Group.",
+      "retrieval_text": "[Section]\nTypes of pollutants / A. ENVIRONMENTAL\n\n[Content]\nDuring the Reporting Period, the Group has complied with all the related local environmental laws in the country we operate. The emission of particulates and sulfur dioxide (SO2) are lower than the national standard of 150 mg/m 3 and 400 mg/m 3 respectively. During the Reporting Period, no material instances of non-compliance concerning the environment were identified within the Group.",
+      "bm25_rank": 37,
+      "dense_rank": 15,
+      "bm25_score": 1.506779432296753,
+      "dense_score": 0.407070130109787,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.01339752746650205,
+      "normalized_dense": 0.5636638347011113,
+      "normalized_bm25_rank": 0.7583892617449665,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.4570088275044612,
+      "rank": 15,
+      "rrf_score": 0.4570088275044612,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T5_002",
+      "alias_source_ids": [
+        "T5_002"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "Packaging materials used on finished products | Unit | Emission Wrap | tonne | 3",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nPackaging materials used on finished products | Unit | Emission Wrap | tonne | 3",
+      "bm25_rank": 28,
+      "dense_rank": 21,
+      "bm25_score": 2.200634717941284,
+      "dense_score": 0.3926652669906616,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04402561930682831,
+      "normalized_dense": 0.5183631014779274,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.44526576642562016,
+      "rank": 16,
+      "rrf_score": 0.44526576642562016,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_006",
+      "alias_source_ids": [
+        "L6_006"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "‧ Performs ongoing and periodic monitoring of the risk and ensures that appropriate internal control processes are in place;",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\n‧ Performs ongoing and periodic monitoring of the risk and ensures that appropriate internal control processes are in place;",
+      "bm25_rank": null,
+      "dense_rank": 10,
+      "bm25_score": null,
+      "dense_score": 0.44793903827667236,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6921892841052626,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.4301857125240902,
+      "rank": 17,
+      "rrf_score": 0.4301857125240902,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_006",
+      "alias_source_ids": [
+        "P5_006"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "Actions taken concerning the environment and natural resources:",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nActions taken concerning the environment and natural resources:",
+      "bm25_rank": 27,
+      "dense_rank": 25,
+      "bm25_score": 2.270332098007202,
+      "dense_score": 0.37478554248809814,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0471021942091959,
+      "normalized_dense": 0.46213454705874246,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.4215031007821977,
+      "rank": 18,
+      "rrf_score": 0.4215031007821977,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_004",
+      "alias_source_ids": [
+        "P4_004"
+      ],
+      "section": "Types of pollutants / A. ENVIRONMENTAL",
+      "pages": [
+        4
+      ],
+      "text": "The energy consumption of fuels, and the emission of waste gases and greenhouse gases are reduced, while staffs' energy-saving awareness is enhanced as a result of the adoption of energy-saving and emission reduction measures as mentioned above.",
+      "retrieval_text": "[Section]\nTypes of pollutants / A. ENVIRONMENTAL\n\n[Content]\nThe energy consumption of fuels, and the emission of waste gases and greenhouse gases are reduced, while staffs' energy-saving awareness is enhanced as a result of the adoption of energy-saving and emission reduction measures as mentioned above.",
+      "bm25_rank": 12,
+      "dense_rank": 44,
+      "bm25_score": 10.510205268859863,
+      "dense_score": 0.3223656117916107,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4108258660625916,
+      "normalized_dense": 0.29728318565243256,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.4211136170499301,
+      "rank": 19,
+      "rrf_score": 0.4211136170499301,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_008",
+      "alias_source_ids": [
+        "L6_008"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "‧ Report the risk monitoring results to the management and the Board regularly.",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\n‧ Report the risk monitoring results to the management and the Board regularly.",
+      "bm25_rank": null,
+      "dense_rank": 11,
+      "bm25_score": null,
+      "dense_score": 0.439780592918396,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.666532424082726,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.4198635296370078,
+      "rank": 20,
+      "rrf_score": 0.4198635296370078,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_009",
+      "alias_source_ids": [
+        "P4_009"
+      ],
+      "section": "Types of pollutants / A. ENVIRONMENTAL",
+      "pages": [
+        4
+      ],
+      "text": "During the Reporting Period, no material instances of non-compliance concerning the treatment of emissions were identified within the Group.",
+      "retrieval_text": "[Section]\nTypes of pollutants / A. ENVIRONMENTAL\n\n[Content]\nDuring the Reporting Period, no material instances of non-compliance concerning the treatment of emissions were identified within the Group.",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.43724286556243896,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6585517227740997,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.4157280022997939,
+      "rank": 21,
+      "rrf_score": 0.4157280022997939,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_003",
+      "alias_source_ids": [
+        "P9_003"
+      ],
+      "section": "Commercial morality / B8: Community Investment",
+      "pages": [
+        9
+      ],
+      "text": "The Group has developed internal anti-corruption ordinances and attaches importance to employees' personal integrity, preventing employees' misconducts in terms of corruption. The Group strictly abides by the 'Interim Provisions on Prohibiting Commercial Bribery' 《關於禁止商業賄賂行為的暫行規定》 , and advocates the code of honesty and integrity whereas employees are obligated to follow relevant guidance when performing all job duties within the Group and with external collaborative business partners. Meanwhile, the 'Code of Professional Conduct with Honesty and Integrity for Xinjiang Tengxiang Magnesium Products Co. Ltd.' 《新疆騰翔鎂製品有限公司廉潔 從業行為準則》 was formulated to educate management personnel and employees holding important positions on professional practices with honesty and integrity. An 'Honesty, Integrity and Self-discipline Assurance Statement' 《廉潔自律承諾書》 was also signed by them. Moreover, any employee (including contract, part-time and temporary employees) is obliged to report any perceived misconduct or malpractice within the Group to the Chief Executive Officer, the Executive Director or the Managing Director. The Group has organised training and developed various policies, procedures, codes and guidelines to enhance its' employees' ethics and integrity standards.",
+      "retrieval_text": "[Section]\nCommercial morality / B8: Community Investment\n\n[Content]\nThe Group has developed internal anti-corruption ordinances and attaches importance to employees' personal integrity, preventing employees' misconducts in terms of corruption. The Group strictly abides by the 'Interim Provisions on Prohibiting Commercial Bribery' 《關於禁止商業賄賂行為的暫行規定》 , and advocates the code of honesty and integrity whereas employees are obligated to follow relevant guidance when performing all job duties within the Group and with external collaborative business partners. Meanwhile, the 'Code of Professional Conduct with Honesty and Integrity for Xinjiang Tengxiang Magnesium Products Co. Ltd.' 《新疆騰翔鎂製品有限公司廉潔 從業行為準則》 was formulated to educate management personnel and employees holding important positions on professional practices with honesty and integrity. An 'Honesty, Integrity and Self-discipline Assurance Statement' 《廉潔自律承諾書》 was also signed by them. Moreover, any employee (including contract, part-time and temporary employees) is obliged to report any perceived misconduct or malpractice within the Group to the Chief Executive Officer, the Executive Director or the Managing Director. The Group has organised training and developed various policies, procedures, codes and guidelines to enhance its' employees' ethics and integrity standards.",
+      "bm25_rank": 8,
+      "dense_rank": 55,
+      "bm25_score": 13.723492622375488,
+      "dense_score": 0.30148422718048096,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5526664806821296,
+      "normalized_dense": 0.23161494390818743,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4144173184506003,
+      "rank": 22,
+      "rrf_score": 0.4144173184506003,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T5_001",
+      "alias_source_ids": [
+        "T5_001"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "Resources | Unit | Emission | Density (calculated based on the production of 14,291 tonnes magnesium products in 2021) Electricity | kWh | 39,749,499 | 2,781 kWh/tonne Diesel oil | liter | 203 | 0.014 liter/tonne Coal | tonne | 24,580 | 1.7 tonnes/tonne Water | m 3 | 98,638 | 6.9 m 3 /tonne",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nResources | Unit | Emission | Density (calculated based on the production of 14,291 tonnes magnesium products in 2021) Electricity | kWh | 39,749,499 | 2,781 kWh/tonne Diesel oil | liter | 203 | 0.014 liter/tonne Coal | tonne | 24,580 | 1.7 tonnes/tonne Water | m 3 | 98,638 | 6.9 m 3 /tonne",
+      "bm25_rank": 26,
+      "dense_rank": 29,
+      "bm25_score": 2.280363082885742,
+      "dense_score": 0.3663161098957062,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04754498095805443,
+      "normalized_dense": 0.43549968748064033,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.4075714707024525,
+      "rank": 23,
+      "rrf_score": 0.4075714707024525,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_007",
+      "alias_source_ids": [
+        "P5_007"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "The Group has strictly complied with the PRC's laws and regulations about energy consumption, and implemented its internal policies. During the Reporting Period, the Group had no material instances of non-compliances in this regard.",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nThe Group has strictly complied with the PRC's laws and regulations about energy consumption, and implemented its internal policies. During the Reporting Period, the Group had no material instances of non-compliances in this regard.",
+      "bm25_rank": 31,
+      "dense_rank": 27,
+      "bm25_score": 1.7813695669174194,
+      "dense_score": 0.3680022358894348,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.025518458207552764,
+      "normalized_dense": 0.4408022539257989,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.40435092346856033,
+      "rank": 24,
+      "rrf_score": 0.40435092346856033,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_005",
+      "alias_source_ids": [
+        "P5_005"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "The Group places great emphasis on the impact of our business on the environment and natural resources. In addition to the appropriate initiatives taken in protecting the natural environment in conformity with the environment related regulations and standards, the Group also integrates the environmental protection into the internal management and execution.",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nThe Group places great emphasis on the impact of our business on the environment and natural resources. In addition to the appropriate initiatives taken in protecting the natural environment in conformity with the environment related regulations and standards, the Group also integrates the environmental protection into the internal management and execution.",
+      "bm25_rank": 36,
+      "dense_rank": 26,
+      "bm25_score": 1.5614830255508423,
+      "dense_score": 0.3711461126804352,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.01581224810471948,
+      "normalized_dense": 0.45068918742998304,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.40385668535566616,
+      "rank": 25,
+      "rrf_score": 0.40385668535566616,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_003",
+      "alias_source_ids": [
+        "P8_003"
+      ],
+      "section": "The number of employees receiving training and the training hours: / B4: Labour Standards",
+      "pages": [
+        8
+      ],
+      "text": "In addition, the Group imposes stringent labour audit requirements on its major suppliers. It guarantees that no child labours or forced labours are employed by suppliers. It also ensures that our suppliers' occupational health and safety performances comply with the relevant regulations.",
+      "retrieval_text": "[Section]\nThe number of employees receiving training and the training hours: / B4: Labour Standards\n\n[Content]\nIn addition, the Group imposes stringent labour audit requirements on its major suppliers. It guarantees that no child labours or forced labours are employed by suppliers. It also ensures that our suppliers' occupational health and safety performances comply with the relevant regulations.",
+      "bm25_rank": null,
+      "dense_rank": 14,
+      "bm25_score": null,
+      "dense_score": 0.4244495630264282,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6183190610379504,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.39896200693375244,
+      "rank": 26,
+      "rrf_score": 0.39896200693375244,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_003",
+      "alias_source_ids": [
+        "P6_003"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "The Group believes that climate change has no significant direct impact on its main business of the Group. As mentioned above, the Group is committed to promoting environmental protection and rational use of resources in its business operations in order to respond to the global climate change. In the future, we will continue to identify business operations that may have an impact on the environment, and formulate corresponding improvement measures to prevent the further possible negative impact of our operations on climate change.",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\nThe Group believes that climate change has no significant direct impact on its main business of the Group. As mentioned above, the Group is committed to promoting environmental protection and rational use of resources in its business operations in order to respond to the global climate change. In the future, we will continue to identify business operations that may have an impact on the environment, and formulate corresponding improvement measures to prevent the further possible negative impact of our operations on climate change.",
+      "bm25_rank": 20,
+      "dense_rank": 40,
+      "bm25_score": 5.444122314453125,
+      "dense_score": 0.337517648935318,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18719933008521317,
+      "normalized_dense": 0.3449336483301044,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.3930659717916396,
+      "rank": 27,
+      "rrf_score": 0.3930659717916396,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_002",
+      "alias_source_ids": [
+        "L6_002"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "‧ Assesses the risks identified by using the assessment criteria developed by the management; and",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\n‧ Assesses the risks identified by using the assessment criteria developed by the management; and",
+      "bm25_rank": null,
+      "dense_rank": 16,
+      "bm25_score": null,
+      "dense_score": 0.40510740876197815,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5574914250479791,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.3749877705788732,
+      "rank": 28,
+      "rrf_score": 0.3749877705788732,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_003",
+      "alias_source_ids": [
+        "P5_003"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "The Group is committed to enhancing energy use efficiency and recycling of resources. The Group aims to maintain stable energy efficiency or even better, to improve it, given the similar operational level across years. In addition, the Group maintains stable or lower water consumption of the main business given the similar operational level across years by implementing various water conservation measures and regular inspection on the water supply system.",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nThe Group is committed to enhancing energy use efficiency and recycling of resources. The Group aims to maintain stable energy efficiency or even better, to improve it, given the similar operational level across years. In addition, the Group maintains stable or lower water consumption of the main business given the similar operational level across years by implementing various water conservation measures and regular inspection on the water supply system.",
+      "bm25_rank": 38,
+      "dense_rank": 31,
+      "bm25_score": 1.3809905052185059,
+      "dense_score": 0.35358455777168274,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.007844965007501896,
+      "normalized_dense": 0.39546121981053145,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.3748797487942468,
+      "rank": 29,
+      "rrf_score": 0.3748797487942468,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_002",
+      "alias_source_ids": [
+        "P6_002"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "The Group's procedures for identifying, assessing and managing significant risks, including significant climaterelated matters, are summarised below:",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\nThe Group's procedures for identifying, assessing and managing significant risks, including significant climaterelated matters, are summarised below:",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.4004528820514679,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5428537661511683,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.3685223080857948,
+      "rank": 30,
+      "rrf_score": 0.3685223080857948,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_005",
+      "alias_source_ids": [
+        "P8_005"
+      ],
+      "section": "The number of employees receiving training and the training hours: / B4: Labour Standards",
+      "pages": [
+        8
+      ],
+      "text": "The Group procures raw materials from the market for producing magnesium metal and magnesium alloys. The Group has developed corresponding inspection, assessment and selection procedures for raw materials suppliers. Upon receipt of bids from raw materials suppliers, the Group assesses comprehensively from the aspects of brand, quality, payment, schedule of delivery, reputation, and after-sales service, and seriously considering their energy and environmental policy to maximise environmental protection and minimise pollution. The most appropriate product supplier is determined based on a comprehensive score and ranking assessment by comparing individual suppliers. It ensures that premium-quality raw materials can be sourced at competitive prices, and the values of the selected supplier on environment, community and ethics are embraceable. All of the Group's suppliers are located in mainland China. There are about 10 major suppliers. During the Reporting Period, there were no material instances of non-compliance concerning the supply chain management.",
+      "retrieval_text": "[Section]\nThe number of employees receiving training and the training hours: / B4: Labour Standards\n\n[Content]\nThe Group procures raw materials from the market for producing magnesium metal and magnesium alloys. The Group has developed corresponding inspection, assessment and selection procedures for raw materials suppliers. Upon receipt of bids from raw materials suppliers, the Group assesses comprehensively from the aspects of brand, quality, payment, schedule of delivery, reputation, and after-sales service, and seriously considering their energy and environmental policy to maximise environmental protection and minimise pollution. The most appropriate product supplier is determined based on a comprehensive score and ranking assessment by comparing individual suppliers. It ensures that premium-quality raw materials can be sourced at competitive prices, and the values of the selected supplier on environment, community and ethics are embraceable. All of the Group's suppliers are located in mainland China. There are about 10 major suppliers. During the Reporting Period, there were no material instances of non-compliance concerning the supply chain management.",
+      "bm25_rank": null,
+      "dense_rank": 18,
+      "bm25_score": null,
+      "dense_score": 0.40037018060684204,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5425936848127213,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.36708899773814374,
+      "rank": 31,
+      "rrf_score": 0.36708899773814374,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L5_004",
+      "alias_source_ids": [
+        "L5_004"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "With respect to resources, measures for emission reduction and utilisation improvement are rolled out to avoid a waste of resources.",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nWith respect to resources, measures for emission reduction and utilisation improvement are rolled out to avoid a waste of resources.",
+      "bm25_rank": 30,
+      "dense_rank": 37,
+      "bm25_score": 2.0150527954101562,
+      "dense_score": 0.33848199248313904,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03583368031783907,
+      "normalized_dense": 0.34796633732090354,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.36116971922655516,
+      "rank": 32,
+      "rrf_score": 0.36116971922655516,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_001",
+      "alias_source_ids": [
+        "P5_001"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "The operation and production of the Group mainly consume resources such as electricity, diesel oil, coal and water. During the production process, the Group endeavors to enhance the energy use efficiency and achieve comprehensive utilisation, while gradually reducing energy consumption.",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nThe operation and production of the Group mainly consume resources such as electricity, diesel oil, coal and water. During the production process, the Group endeavors to enhance the energy use efficiency and achieve comprehensive utilisation, while gradually reducing energy consumption.",
+      "bm25_rank": 14,
+      "dense_rank": 57,
+      "bm25_score": 8.730707168579102,
+      "dense_score": 0.2976844310760498,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3322754357744414,
+      "normalized_dense": 0.21966526079035298,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.3594453109818474,
+      "rank": 33,
+      "rrf_score": 0.3594453109818474,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_003",
+      "alias_source_ids": [
+        "P4_003"
+      ],
+      "section": "Types of pollutants / A. ENVIRONMENTAL",
+      "pages": [
+        4
+      ],
+      "text": "The Group has implemented a series of measures to reduce the gas emission:",
+      "retrieval_text": "[Section]\nTypes of pollutants / A. ENVIRONMENTAL\n\n[Content]\nThe Group has implemented a series of measures to reduce the gas emission:",
+      "bm25_rank": null,
+      "dense_rank": 22,
+      "bm25_score": null,
+      "dense_score": 0.39131972193717957,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5141316015321462,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.35175814107316394,
+      "rank": 34,
+      "rrf_score": 0.35175814107316394,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_006",
+      "alias_source_ids": [
+        "P8_006"
+      ],
+      "section": "The number of employees receiving training and the training hours: / B4: Labour Standards",
+      "pages": [
+        8
+      ],
+      "text": "Confronted with the competition in the magnesium market, the Group believes that in an effort to sustain a certain level of competitiveness, and the product quality and after-sales services quality play important roles in fortifying client relationships. The Certificate of ISO9001:2008 Quality Management System was awarded to the Group's production bases. The Group's customer service team provides premium products and after-sales services by maintaining close communication with customers and regular follow-ups by various means, including telephone, WeChat, video conferencing and on-site visits. The sales staff will immediately deal with a customer complaint or an incident that requires the recall of products. However, the specific or complex situation will be transferred to the person in charge of the relevant department for concrete handling. During the Reporting Period, the Group had neither material non-compliance of relevant regulations concerning product responsibility or product description, nor experience with the recall of products for safety and health reasons, nor customer complaints regarding products and services.",
+      "retrieval_text": "[Section]\nThe number of employees receiving training and the training hours: / B4: Labour Standards\n\n[Content]\nConfronted with the competition in the magnesium market, the Group believes that in an effort to sustain a certain level of competitiveness, and the product quality and after-sales services quality play important roles in fortifying client relationships. The Certificate of ISO9001:2008 Quality Management System was awarded to the Group's production bases. The Group's customer service team provides premium products and after-sales services by maintaining close communication with customers and regular follow-ups by various means, including telephone, WeChat, video conferencing and on-site visits. The sales staff will immediately deal with a customer complaint or an incident that requires the recall of products. However, the specific or complex situation will be transferred to the person in charge of the relevant department for concrete handling. During the Reporting Period, the Group had neither material non-compliance of relevant regulations concerning product responsibility or product description, nor experience with the recall of products for safety and health reasons, nor customer complaints regarding products and services.",
+      "bm25_rank": null,
+      "dense_rank": 23,
+      "bm25_score": null,
+      "dense_score": 0.38557174801826477,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4960552455875444,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.34408913461335866,
+      "rank": 35,
+      "rrf_score": 0.34408913461335866,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_004",
+      "alias_source_ids": [
+        "P8_004"
+      ],
+      "section": "The number of employees receiving training and the training hours: / B4: Labour Standards",
+      "pages": [
+        8
+      ],
+      "text": "During the Reporting Period, no material instances of non-compliance concerning the labour standards stipulated by relevant laws and regulations were identified within the Group.",
+      "retrieval_text": "[Section]\nThe number of employees receiving training and the training hours: / B4: Labour Standards\n\n[Content]\nDuring the Reporting Period, no material instances of non-compliance concerning the labour standards stipulated by relevant laws and regulations were identified within the Group.",
+      "bm25_rank": null,
+      "dense_rank": 24,
+      "bm25_score": null,
+      "dense_score": 0.38016653060913086,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4790567979216736,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.33679739605110925,
+      "rank": 36,
+      "rrf_score": 0.33679739605110925,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_001",
+      "alias_source_ids": [
+        "P6_001"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "Climate change has become one of the top concerns for people, and a global challenge affecting communities and businesses as a whole. The acute physical risk can arise from extreme weather conditions such as hurricanes, floods and storms. The chronic physical risk can arise from sustained high temperature. While the transition risk may result from changes in environment-related regulations or customer preferences. The Group assesses the abovementioned potential risks that may cause main business interruption, and formulates corresponding prevention measures.",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\nClimate change has become one of the top concerns for people, and a global challenge affecting communities and businesses as a whole. The acute physical risk can arise from extreme weather conditions such as hurricanes, floods and storms. The chronic physical risk can arise from sustained high temperature. While the transition risk may result from changes in environment-related regulations or customer preferences. The Group assesses the abovementioned potential risks that may cause main business interruption, and formulates corresponding prevention measures.",
+      "bm25_rank": 15,
+      "dense_rank": 62,
+      "bm25_score": 8.345293998718262,
+      "dense_score": 0.28629910945892334,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3152625655013502,
+      "normalized_dense": 0.1838604486951368,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.5906040268456376,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.336128502358333,
+      "rank": 37,
+      "rrf_score": 0.336128502358333,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_002",
+      "alias_source_ids": [
+        "P9_002"
+      ],
+      "section": "Commercial morality / B8: Community Investment",
+      "pages": [
+        9
+      ],
+      "text": "The trust from our customers is the cornerstone of our business development. Protecting customer information and trade secrets is the foundation for us to establish credibility and trust. Except in certain circumstances stipulated in the Personal Information Protection Law of the People's Republic of China( 《中華人民共和國個人信息保護法》 ) (required to disclose by statutory obligations), the Group will not disclose customer information and trade secrets to third parties without the consent of the customer. During the Reporting Period, the Group did not observe any case involving the disclosure of customer privacy information or violation of relevant privacy protection laws and regulations, such as the Personal Information Protection Law of the People's Republic of China( 《中華人民共和國個 人信息保護法》 ).",
+      "retrieval_text": "[Section]\nCommercial morality / B8: Community Investment\n\n[Content]\nThe trust from our customers is the cornerstone of our business development. Protecting customer information and trade secrets is the foundation for us to establish credibility and trust. Except in certain circumstances stipulated in the Personal Information Protection Law of the People's Republic of China( 《中華人民共和國個人信息保護法》 ) (required to disclose by statutory obligations), the Group will not disclose customer information and trade secrets to third parties without the consent of the customer. During the Reporting Period, the Group did not observe any case involving the disclosure of customer privacy information or violation of relevant privacy protection laws and regulations, such as the Personal Information Protection Law of the People's Republic of China( 《中華人民共和國個 人信息保護法》 ).",
+      "bm25_rank": 23,
+      "dense_rank": 52,
+      "bm25_score": 3.749434232711792,
+      "dense_score": 0.3046421408653259,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11239257530195229,
+      "normalized_dense": 0.24154602094765393,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.6577181208053691,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.32379814588200223,
+      "rank": 38,
+      "rrf_score": 0.32379814588200223,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_005",
+      "alias_source_ids": [
+        "L6_005"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "‧ Determines the risk management strategies and internal control processes to prevent, avoid or mitigate the risk.",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\n‧ Determines the risk management strategies and internal control processes to prevent, avoid or mitigate the risk.",
+      "bm25_rank": null,
+      "dense_rank": 28,
+      "bm25_score": null,
+      "dense_score": 0.3678295314311981,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.44025912911271775,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.3178490844511962,
+      "rank": 39,
+      "rrf_score": 0.3178490844511962,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_002",
+      "alias_source_ids": [
+        "P7_002"
+      ],
+      "section": "Employee turnover / B3: Development and Training",
+      "pages": [
+        7
+      ],
+      "text": "The Group abides by relevant laws and regulations, such as the 'Labour Law', the 'Labour Contract Law', the 'Social Insurance Law of the People's Republic of China', and the 'Law of the People's Republic of China on the Prevention and Treatment of Occupational Diseases'. The Group is committed to formulating and implementing corporate's internal health and safety policies, continuously enhancing and improving employees' working conditions and living environment, and safeguarding employees' life and physical health. The Group has installed the wireless Internet and cable television at employees' workplaces and dormitory rooms, and made contributions to the social insurance (including primary medical, work-related injury and maternity insurance, etc.) for each employee. It ensures that employees' work and living conditions comply with the regulations concerning environmental safety, and the prevention and control of occupational disorders.",
+      "retrieval_text": "[Section]\nEmployee turnover / B3: Development and Training\n\n[Content]\nThe Group abides by relevant laws and regulations, such as the 'Labour Law', the 'Labour Contract Law', the 'Social Insurance Law of the People's Republic of China', and the 'Law of the People's Republic of China on the Prevention and Treatment of Occupational Diseases'. The Group is committed to formulating and implementing corporate's internal health and safety policies, continuously enhancing and improving employees' working conditions and living environment, and safeguarding employees' life and physical health. The Group has installed the wireless Internet and cable television at employees' workplaces and dormitory rooms, and made contributions to the social insurance (including primary medical, work-related injury and maternity insurance, etc.) for each employee. It ensures that employees' work and living conditions comply with the regulations concerning environmental safety, and the prevention and control of occupational disorders.",
+      "bm25_rank": 22,
+      "dense_rank": 59,
+      "bm25_score": 4.151054859161377,
+      "dense_score": 0.29640382528305054,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13012087353123047,
+      "normalized_dense": 0.21563798327213066,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.610738255033557,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.3095511601266596,
+      "rank": 40,
+      "rrf_score": 0.3095511601266596,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_001",
+      "alias_source_ids": [
+        "L6_001"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "‧ Identifies risks that may potentially affect the key processes of the Group's business and operations.",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\n‧ Identifies risks that may potentially affect the key processes of the Group's business and operations.",
+      "bm25_rank": null,
+      "dense_rank": 30,
+      "bm25_score": null,
+      "dense_score": 0.3598128855228424,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4150482031472372,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.3063406966048887,
+      "rank": 41,
+      "rrf_score": 0.3063406966048887,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L5_002",
+      "alias_source_ids": [
+        "L5_002"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "The water consumption within the plants is mainly due to the water replenishment of the recirculating cooling system for the equipment and the domestic water consumption by our staffs. Recirculating cooling water, mainly the equipment cooling water, is pumped into the production water supply pipeline for reuse after cooling in a cooling tower. The domestic water consumption (mainly washing water, flushing water for offices, and recirculating cooling water within the plants) is recycled and not discharged. The environmental hygiene department regularly collects the domestic wastewater for centralised treatment at sewage treatment plants.",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nThe water consumption within the plants is mainly due to the water replenishment of the recirculating cooling system for the equipment and the domestic water consumption by our staffs. Recirculating cooling water, mainly the equipment cooling water, is pumped into the production water supply pipeline for reuse after cooling in a cooling tower. The domestic water consumption (mainly washing water, flushing water for offices, and recirculating cooling water within the plants) is recycled and not discharged. The environmental hygiene department regularly collects the domestic wastewater for centralised treatment at sewage treatment plants.",
+      "bm25_rank": 39,
+      "dense_rank": 48,
+      "bm25_score": 1.2032690048217773,
+      "dense_score": 0.31173962354660034,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.2638663419976815,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.30376261567234286,
+      "rank": 42,
+      "rrf_score": 0.30376261567234286,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_006",
+      "alias_source_ids": [
+        "P9_006"
+      ],
+      "section": "Commercial morality / B8: Community Investment",
+      "pages": [
+        9
+      ],
+      "text": "As a medium and large-scale enterprise amid the circular economy chain in Hami High-Tech Industrial Development Zone, Xinjiang Tengxiang Magnesium Products Co. Ltd has been the focus of the local government since its establishment. The enterprise has increased household incomes of local staffs by employing local surplus labours. Meanwhile, workers can handle domestic farming when they are off-duty, thus achieving a win-win situation. In addition, under the active support of the local government, the labour resource is guaranteed.",
+      "retrieval_text": "[Section]\nCommercial morality / B8: Community Investment\n\n[Content]\nAs a medium and large-scale enterprise amid the circular economy chain in Hami High-Tech Industrial Development Zone, Xinjiang Tengxiang Magnesium Products Co. Ltd has been the focus of the local government since its establishment. The enterprise has increased household incomes of local staffs by employing local surplus labours. Meanwhile, workers can handle domestic farming when they are off-duty, thus achieving a win-win situation. In addition, under the active support of the local government, the labour resource is guaranteed.",
+      "bm25_rank": 19,
+      "dense_rank": 65,
+      "bm25_score": 5.6156206130981445,
+      "dense_score": 0.2823426425457001,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1947695911324863,
+      "normalized_dense": 0.17141806374082816,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.5704697986577181,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.300963663354579,
+      "rank": 43,
+      "rrf_score": 0.300963663354579,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L5_001",
+      "alias_source_ids": [
+        "L5_001"
+      ],
+      "section": "Energy use/water efficiency targets and management / A2: Use of Resources",
+      "pages": [
+        5
+      ],
+      "text": "The coal gasification is used by the Group to eliminate outdated equipment, in a bid to generate clean energy for production. With the application of regenerative high-temperature combustion technologies, the exhaust gas temperature is significantly reduced and the overall thermal efficiency is increased by over 50%, thereby mitigating air pollution.",
+      "retrieval_text": "[Section]\nEnergy use/water efficiency targets and management / A2: Use of Resources\n\n[Content]\nThe coal gasification is used by the Group to eliminate outdated equipment, in a bid to generate clean energy for production. With the application of regenerative high-temperature combustion technologies, the exhaust gas temperature is significantly reduced and the overall thermal efficiency is increased by over 50%, thereby mitigating air pollution.",
+      "bm25_rank": 35,
+      "dense_rank": 54,
+      "bm25_score": 1.5729038715362549,
+      "dense_score": 0.30243808031082153,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.016316385965989076,
+      "normalized_dense": 0.23461464240128085,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.6442953020134228,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.2914186704900219,
+      "rank": 44,
+      "rrf_score": 0.2914186704900219,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_007",
+      "alias_source_ids": [
+        "L6_007"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "‧ Revises the risk management strategies and internal control processes in case of any significant change of situation; and",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\n‧ Revises the risk management strategies and internal control processes in case of any significant change of situation; and",
+      "bm25_rank": null,
+      "dense_rank": 33,
+      "bm25_score": null,
+      "dense_score": 0.34955084323883057,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3827759048276626,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.2910185465554537,
+      "rank": 45,
+      "rrf_score": 0.2910185465554537,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L6_003",
+      "alias_source_ids": [
+        "L6_003"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "‧ Considers the impact on the business and the likelihood of their occurrence.",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\n‧ Considers the impact on the business and the likelihood of their occurrence.",
+      "bm25_rank": null,
+      "dense_rank": 34,
+      "bm25_score": null,
+      "dense_score": 0.3465730845928192,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.37341138335248875,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.28639868215994824,
+      "rank": 46,
+      "rrf_score": 0.28639868215994824,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_007",
+      "alias_source_ids": [
+        "P6_007"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "Trade Union: according to the regulations of Federations of Trade Unions for both All-China and the Xinjiang Region levels, the Group is required to set up trade unions, and to maintain the independence of trade unions.",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\nTrade Union: according to the regulations of Federations of Trade Unions for both All-China and the Xinjiang Region levels, the Group is required to set up trade unions, and to maintain the independence of trade unions.",
+      "bm25_rank": null,
+      "dense_rank": 36,
+      "bm25_score": null,
+      "dense_score": 0.34170204401016235,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.35809282682547344,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.27835262361710367,
+      "rank": 47,
+      "rrf_score": 0.27835262361710367,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_004",
+      "alias_source_ids": [
+        "P7_004"
+      ],
+      "section": "Employee turnover / B3: Development and Training",
+      "pages": [
+        7
+      ],
+      "text": "The Group had no work-related fatalities in the past three financial years. During the Reporting Period, there were no lost working days due to work-related injuries. No material instances of non-compliance concerning health and safety laws and regulations were identified.",
+      "retrieval_text": "[Section]\nEmployee turnover / B3: Development and Training\n\n[Content]\nThe Group had no work-related fatalities in the past three financial years. During the Reporting Period, there were no lost working days due to work-related injuries. No material instances of non-compliance concerning health and safety laws and regulations were identified.",
+      "bm25_rank": null,
+      "dense_rank": 38,
+      "bm25_score": null,
+      "dense_score": 0.338203102350235,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.34708927744155693,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.2718168175743436,
+      "rank": 48,
+      "rrf_score": 0.2718168175743436,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_001",
+      "alias_source_ids": [
+        "P4_001"
+      ],
+      "section": "Types of pollutants / A. ENVIRONMENTAL",
+      "pages": [
+        4
+      ],
+      "text": "The Group's production bases are located at the Hami Industrial Park in Xinjiang Region and the Baishan Industrial Park in Jilin Province. The Group has a series of environmental management policies in place in an endeavor to minimise its impact on the surrounding communities' environment of production bases. The Group aims to maintain or reduce emissions from the production process given the similar operational level across years by implementing energy-saving measures and improving energy efficiency.",
+      "retrieval_text": "[Section]\nTypes of pollutants / A. ENVIRONMENTAL\n\n[Content]\nThe Group's production bases are located at the Hami Industrial Park in Xinjiang Region and the Baishan Industrial Park in Jilin Province. The Group has a series of environmental management policies in place in an endeavor to minimise its impact on the surrounding communities' environment of production bases. The Group aims to maintain or reduce emissions from the production process given the similar operational level across years by implementing energy-saving measures and improving energy efficiency.",
+      "bm25_rank": null,
+      "dense_rank": 39,
+      "bm25_score": null,
+      "dense_score": 0.3377223610877991,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.34557743165038995,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.2699453896682405,
+      "rank": 49,
+      "rrf_score": 0.2699453896682405,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T6_001",
+      "alias_source_ids": [
+        "T6_001"
+      ],
+      "section": "A4: Climate Change / B. SOCIAL",
+      "pages": [
+        6
+      ],
+      "text": "By gender | Female | Male 57 | 308 During the Reporting | under 30 years old Period, the Group had | By age group | 30-50 years old | above 50 years old 41 | 225 | 99 365 | Mainland China employees | Hong Kong Special Administrative By region | Region of the PRC",
+      "retrieval_text": "[Section]\nA4: Climate Change / B. SOCIAL\n\n[Content]\nBy gender | Female | Male 57 | 308 During the Reporting | under 30 years old Period, the Group had | By age group | 30-50 years old | above 50 years old 41 | 225 | 99 365 | Mainland China employees | Hong Kong Special Administrative By region | Region of the PRC",
+      "bm25_rank": null,
+      "dense_rank": 41,
+      "bm25_score": null,
+      "dense_score": 0.33336466550827026,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.33187325388184286,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.2624643636908598,
+      "rank": 50,
+      "rrf_score": 0.2624643636908598,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

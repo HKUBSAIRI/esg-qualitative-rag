@@ -1,0 +1,1561 @@
+{
+  "document_id": "2022052701981",
+  "metric_id": 5,
+  "metric_name": "物理风险 (极端天气/海平面)",
+  "query": "物理风险 (极端天气/海平面) 物理风险 (极端天气/海平面) 衡量企业识别、评估与管理极端天气、海平面上升等气候物理风险的能力。 重点考察：风险识别完整性、资产暴露评估深度、适应措施与业务连续性安排。 内容质量得分 • 2分：系统识别急性和慢性风险，覆盖关键资产/供应链，有量化暴露评估、适应措施及应急恢复机制。 • 1分：有风险识别与原则性措施，但缺少系统化评估或具体实施路径。 • 0分：无相关披露。 气候物理风险 急性物理风险 慢性物理风险 极端天气 暴雨 洪水 沿海洪水 台风 风暴潮 热浪 长期高温 干旱 野火 海平面上升 降水模式变化 资产暴露 气候适应 业务连续性 韧性措施 physical climate risk acute physical risk chronic physical risk extreme weather heavy precipitation flood coastal flooding typhoon storm surge heatwave chronic heat drought wildfire sea level rise changing precipitation patterns asset exposure climate adaptation business continuity resilience measures 企业识别了哪些急性物理风险（如台风、洪水、热浪）？ 是否识别海平面上升、长期高温等慢性风险？ 是否评估关键资产、运营点或供应链暴露？ 是否披露适应措施、加固改造或应急恢复安排？ 是否有量化暴露或损失评估？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '物理风险 (极端天气/海平面)'. Prefer explicit, auditable disclosure that answers: 企业识别了哪些急性物理风险（如台风、洪水、热浪）？ 是否识别海平面上升、长期高温等慢性风险？ 是否评估关键资产、运营点或供应链暴露？ 是否披露适应措施、加固改造或应急恢复安排？ 是否有量化暴露或损失评估？ Exclude or down-rank: 排除：仅有转型风险（政策、诉讼、融资）；仅有减排目标；仅有泛化气候风险管理而无物理风险内容；仅有社区防灾公益项目而无企业资产风险；区分：物理风险聚焦极端天气与海平面等物理影响及适应措施；转型风险聚焦政策法律资金变化；场景分析是评估方法，可服务物理与转型风险，但不能替代具体物理风险识别与适应披露；TCFD披露是框架完整性，不等于本指标内容充分。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 220,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P54_001",
+      "alias_source_ids": [
+        "P54_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        54
+      ],
+      "text": "In terms of risks, the emergence of extreme weather can have a significant impact on the property development industry, including threats to the structure and safety of buildings from super typhoons, flooding or other extreme weather, as well as the transition risk of the overall economic transformation to a lower carbon economy, which may result in asset impairment and increased maintenance costs. The Group will consider assessing the risk level of each property in the future to enhance resilience and ability to cope with climate change. In terms of opportunities, led by increasing market demand, the Group also hopes to further enhance its sustainability performance by investing in green buildings and green financing, incorporating more climate-resilient elements in future projects and exploring more i nnovative green construction techniques to seize business opportunities while saving costs and promoting technological innovation.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nIn terms of risks, the emergence of extreme weather can have a significant impact on the property development industry, including threats to the structure and safety of buildings from super typhoons, flooding or other extreme weather, as well as the transition risk of the overall economic transformation to a lower carbon economy, which may result in asset impairment and increased maintenance costs. The Group will consider assessing the risk level of each property in the future to enhance resilience and ability to cope with climate change. In terms of opportunities, led by increasing market demand, the Group also hopes to further enhance its sustainability performance by investing in green buildings and green financing, incorporating more climate-resilient elements in future projects and exploring more i nnovative green construction techniques to seize business opportunities while saving costs and promoting technological innovation.",
+      "bm25_rank": 1,
+      "dense_rank": 1,
+      "bm25_score": 55.222862243652344,
+      "dense_score": 0.6439389586448669,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 1.0,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 1,
+      "composite_score": 0.88,
+      "rank": 1,
+      "rrf_score": 0.88,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P54_003",
+      "alias_source_ids": [
+        "P54_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        54
+      ],
+      "text": "風險方面,極端天氣的出現對物業發展行業的 影響重大,括超級颱風、水災或其他極端天 氣對建築物結構及安全的威脅、以及整體經濟 轉型至更低碳經濟的過渡風險,有可能會導致 資產減值及增加維修成本。本集團未來考慮評 估各物業風險等級,以提升適應力及抵禦氣候 變化的能力。而在機遇方面,在不斷增加的市 場需求引領下,本集團亦希望透過投資綠色建 築和綠色金融,於未來的項目加入更多具氣候 抗禦力的元素以及探索更多創新的綠色施工技 術,在節省成本及促進科技創新的同時把握商 機,進一步提高集團的可持續發展表現。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n風險方面,極端天氣的出現對物業發展行業的 影響重大,括超級颱風、水災或其他極端天 氣對建築物結構及安全的威脅、以及整體經濟 轉型至更低碳經濟的過渡風險,有可能會導致 資產減值及增加維修成本。本集團未來考慮評 估各物業風險等級,以提升適應力及抵禦氣候 變化的能力。而在機遇方面,在不斷增加的市 場需求引領下,本集團亦希望透過投資綠色建 築和綠色金融,於未來的項目加入更多具氣候 抗禦力的元素以及探索更多創新的綠色施工技 術,在節省成本及促進科技創新的同時把握商 機,進一步提高集團的可持續發展表現。",
+      "bm25_rank": 4,
+      "dense_rank": 2,
+      "bm25_score": 25.73457908630371,
+      "dense_score": 0.6373850703239441,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4563584896328342,
+      "normalized_dense": 0.9762206808018481,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.7295932315092272,
+      "rank": 2,
+      "rrf_score": 0.7295932315092272,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P69_005",
+      "alias_source_ids": [
+        "P69_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        69
+      ],
+      "text": "Policies on identification and mitigation of significant climate- related issues which have impacted, and those which may impact, the issuer. 52",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nPolicies on identification and mitigation of significant climate- related issues which have impacted, and those which may impact, the issuer. 52",
+      "bm25_rank": 31,
+      "dense_rank": 3,
+      "bm25_score": 12.673833847045898,
+      "dense_score": 0.5697011947631836,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21557257373181168,
+      "normalized_dense": 0.7306448634066736,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.5760214249923894,
+      "rank": 3,
+      "rrf_score": 0.5760214249923894,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P53_003",
+      "alias_source_ids": [
+        "P53_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        53
+      ],
+      "text": "As there are increasing global calls for action to address climate change, the Group is aware of its responsibility as a responsible business and has made progress in reducing its overall greenhouse gas footprint and enhancing its resource conservation efforts. At the same time, the Group understands that climate change will bring about changes in society and daily operations and is developing policies to enhance the management of climate risks and opportunities accordingly.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nAs there are increasing global calls for action to address climate change, the Group is aware of its responsibility as a responsible business and has made progress in reducing its overall greenhouse gas footprint and enhancing its resource conservation efforts. At the same time, the Group understands that climate change will bring about changes in society and daily operations and is developing policies to enhance the management of climate risks and opportunities accordingly.",
+      "bm25_rank": 10,
+      "dense_rank": 9,
+      "bm25_score": 18.534852981567383,
+      "dense_score": 0.48271822929382324,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3236254324750674,
+      "normalized_dense": 0.41504661097772544,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.49321287684728454,
+      "rank": 4,
+      "rrf_score": 0.49321287684728454,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_002",
+      "alias_source_ids": [
+        "P11_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management",
+      "pages": [
+        11
+      ],
+      "text": "The Group identifies, monitors, evaluates and manages risks that have a significant impact on the Group on an annual basis. Environmental and social risks are also included in the daily risk review. For example, the Group continuously identifies 'Occupational Health and Safety' as a key risk factor and ensures that the working environment meets the Group's health and safety standards through regular monitoring and investigation of working hours, temperature of working environment, toxic and hazardous substances, noise and dust at each project.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management\n\n[Content]\nThe Group identifies, monitors, evaluates and manages risks that have a significant impact on the Group on an annual basis. Environmental and social risks are also included in the daily risk review. For example, the Group continuously identifies 'Occupational Health and Safety' as a key risk factor and ensures that the working environment meets the Group's health and safety standards through regular monitoring and investigation of working hours, temperature of working environment, toxic and hazardous substances, noise and dust at each project.",
+      "bm25_rank": 15,
+      "dense_rank": 7,
+      "bm25_score": 16.388042449951172,
+      "dense_score": 0.4888409972190857,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.28404715951653714,
+      "normalized_dense": 0.43726170616117843,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.4924013646301897,
+      "rank": 5,
+      "rrf_score": 0.4924013646301897,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T10_001",
+      "alias_source_ids": [
+        "T10_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Environmental, Social and Governance Approach",
+      "pages": [
+        10
+      ],
+      "text": "Supervision 監督 | Identify and manage the matters significantly affecting the Group 識別並管理對本集團有重大影響的事宜 Manage significant ESG risks 管理重大環境、社會及管治風險 Plan 計劃 | Develop ESG policies, initiatives and performance targets 制定環境、社會及管治政策、措施及績效目標 Review 檢討 | Review ESG policies, initiatives and performance targets on a regular basis 定期檢視環境、社會及管治政策、措施及績效目標 Responsible for preparing and approving the annual ESG report 負責籌備審批每年環境、社會及管治報告的工作",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Environmental, Social and Governance Approach\n\n[Content]\nSupervision 監督 | Identify and manage the matters significantly affecting the Group 識別並管理對本集團有重大影響的事宜 Manage significant ESG risks 管理重大環境、社會及管治風險 Plan 計劃 | Develop ESG policies, initiatives and performance targets 制定環境、社會及管治政策、措施及績效目標 Review 檢討 | Review ESG policies, initiatives and performance targets on a regular basis 定期檢視環境、社會及管治政策、措施及績效目標 Responsible for preparing and approving the annual ESG report 負責籌備審批每年環境、社會及管治報告的工作",
+      "bm25_rank": 3,
+      "dense_rank": 15,
+      "bm25_score": 31.191123962402344,
+      "dense_score": 0.4435177147388458,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5569545223689495,
+      "normalized_dense": 0.27281630391577194,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.48674238265639064,
+      "rank": 6,
+      "rrf_score": 0.48674238265639064,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P69_007",
+      "alias_source_ids": [
+        "P69_007"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        69
+      ],
+      "text": "Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. 53",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nDescription of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. 53",
+      "bm25_rank": null,
+      "dense_rank": 4,
+      "bm25_score": null,
+      "dense_score": 0.5690428614616394,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7282562481374424,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.45086284121052095,
+      "rank": 7,
+      "rrf_score": 0.45086284121052095,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_001",
+      "alias_source_ids": [
+        "P11_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management",
+      "pages": [
+        11
+      ],
+      "text": "Risk management is an ongoing process and is an indispensable part of the daily business operations of China SCE. The Group strictly complies with the laws and regulations such as the 'Company Law of the People's Republic of China (the 'PRC')' and the 'Listing Rules' of the Stock Exchange, and has established a risk management and internal control system, of which the Board is fully in charge, with its finalization and execution made by responsible departments and specific positions. The comprehensive and multi-faceted risk management will enhance the future business development of the Company and create long-term value for stakeholders.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management\n\n[Content]\nRisk management is an ongoing process and is an indispensable part of the daily business operations of China SCE. The Group strictly complies with the laws and regulations such as the 'Company Law of the People's Republic of China (the 'PRC')' and the 'Listing Rules' of the Stock Exchange, and has established a risk management and internal control system, of which the Board is fully in charge, with its finalization and execution made by responsible departments and specific positions. The comprehensive and multi-faceted risk management will enhance the future business development of the Company and create long-term value for stakeholders.",
+      "bm25_rank": 7,
+      "dense_rank": 16,
+      "bm25_score": 20.721853256225586,
+      "dense_score": 0.4421038329601288,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3639446374333357,
+      "normalized_dense": 0.26768634983687345,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.44231807610406954,
+      "rank": 8,
+      "rrf_score": 0.44231807610406954,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_005",
+      "alias_source_ids": [
+        "P11_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management",
+      "pages": [
+        11
+      ],
+      "text": "本集團每年均會識別、監察、評核及管理對本 集團有重大影響的風險,日常風險盤查中亦 括環境及社會風險。例如,本集團持續識別 「職業健康與安全」為重要風險因素,並通過 定期對各項目工作時數、工作環境溫度、有毒 有害物質、噪音及粉塵等的監管與調查,確保 工作環境合乎本集團健康與安全標準。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management\n\n[Content]\n本集團每年均會識別、監察、評核及管理對本 集團有重大影響的風險,日常風險盤查中亦 括環境及社會風險。例如,本集團持續識別 「職業健康與安全」為重要風險因素,並通過 定期對各項目工作時數、工作環境溫度、有毒 有害物質、噪音及粉塵等的監管與調查,確保 工作環境合乎本集團健康與安全標準。",
+      "bm25_rank": 51,
+      "dense_rank": 8,
+      "bm25_score": 8.71334171295166,
+      "dense_score": 0.48725441098213196,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14255754216529232,
+      "normalized_dense": 0.4315051325492245,
+      "normalized_bm25_rank": 0.6644295302013423,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4365852846910589,
+      "rank": 9,
+      "rrf_score": 0.4365852846910589,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_006",
+      "alias_source_ids": [
+        "P16_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues",
+      "pages": [
+        16
+      ],
+      "text": "本集團視職業健康與安全為工作的重點範疇,括識別工作場所的安 全和健康風險,制定保護工人 (括分判商) 免受危害的措施,以保障 員工及工人健康與安全。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues\n\n[Content]\n本集團視職業健康與安全為工作的重點範疇,括識別工作場所的安 全和健康風險,制定保護工人 (括分判商) 免受危害的措施,以保障 員工及工人健康與安全。",
+      "bm25_rank": 18,
+      "dense_rank": 14,
+      "bm25_score": 15.532526969909668,
+      "dense_score": 0.4563441276550293,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2682750060401707,
+      "normalized_dense": 0.3193540769088702,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.43656986772345413,
+      "rank": 10,
+      "rrf_score": 0.43656986772345413,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P69_008",
+      "alias_source_ids": [
+        "P69_008"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        69
+      ],
+      "text": "描述已經及可能會對發行人產生影響的重大氣候相關事宜, 及應對行動。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n描述已經及可能會對發行人產生影響的重大氣候相關事宜, 及應對行動。",
+      "bm25_rank": null,
+      "dense_rank": 5,
+      "bm25_score": null,
+      "dense_score": 0.5559163689613342,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6806297034310853,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.43285126868410134,
+      "rank": 11,
+      "rrf_score": 0.43285126868410134,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P69_006",
+      "alias_source_ids": [
+        "P69_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        69
+      ],
+      "text": "識別及應對已經及可能會對發行人產生影響的重大氣候相關 事宜的政策。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n識別及應對已經及可能會對發行人產生影響的重大氣候相關 事宜的政策。",
+      "bm25_rank": null,
+      "dense_rank": 6,
+      "bm25_score": null,
+      "dense_score": 0.5411199927330017,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6269443587806103,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.41271911617724044,
+      "rank": 12,
+      "rrf_score": 0.41271911617724044,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T73_002",
+      "alias_source_ids": [
+        "T73_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        73
+      ],
+      "text": "General Disclosure | Policies on managing environmental and social risks of the supply chain. | 29-30 一般披露 | 管理供應鏈的環境及社會風險政策。 B5.1 | Number of suppliers by geographical region. | 28, 65 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | 29-30 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 29-30 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. 描述在揀選供應商時促使多用環保產品及服務的慣例,以及 相關執行及監察方法。 | 30",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nGeneral Disclosure | Policies on managing environmental and social risks of the supply chain. | 29-30 一般披露 | 管理供應鏈的環境及社會風險政策。 B5.1 | Number of suppliers by geographical region. | 28, 65 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | 29-30 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 29-30 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. 描述在揀選供應商時促使多用環保產品及服務的慣例,以及 相關執行及監察方法。 | 30",
+      "bm25_rank": 65,
+      "dense_rank": 11,
+      "bm25_score": 6.750890254974365,
+      "dense_score": 0.46845412254333496,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10637808509265656,
+      "normalized_dense": 0.36329248718322465,
+      "normalized_bm25_rank": 0.5704697986577181,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.3920521486064854,
+      "rank": 13,
+      "rrf_score": 0.3920521486064854,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T71_001",
+      "alias_source_ids": [
+        "T71_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        71
+      ],
+      "text": "Aspect 層面 | Content 內容 | Page Index/Remarks 頁碼索引╱備註 B2. Health and Safety B2. 健康與安全 General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a | 10-11, 39 一般披露 | 有關提供安全工作環境及保障僱員避免職業性危害的: (a) 政策;及 (b) 遵守對發行人有重大影響的相關法律及規例的資料。 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. 62 B2.2 | Lost days due to work injury. 因工傷損失工作日數。 | 62 B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. 描述所採納的職業健康與安全措施,以及相關執行及監察方 法。 | 39",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nAspect 層面 | Content 內容 | Page Index/Remarks 頁碼索引╱備註 B2. Health and Safety B2. 健康與安全 General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a | 10-11, 39 一般披露 | 有關提供安全工作環境及保障僱員避免職業性危害的: (a) 政策;及 (b) 遵守對發行人有重大影響的相關法律及規例的資料。 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. 62 B2.2 | Lost days due to work injury. 因工傷損失工作日數。 | 62 B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. 描述所採納的職業健康與安全措施,以及相關執行及監察方 法。 | 39",
+      "bm25_rank": 8,
+      "dense_rank": 37,
+      "bm25_score": 19.874378204345703,
+      "dense_score": 0.41473108530044556,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3483207160695836,
+      "normalized_dense": 0.1683704518451269,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.37557366713152324,
+      "rank": 14,
+      "rrf_score": 0.37557366713152324,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T14_001",
+      "alias_source_ids": [
+        "T14_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Materiality Assessment",
+      "pages": [
+        14
+      ],
+      "text": "Steps 步驟 | Action 行動 Step 1: Identify - Set out Relevant Issues 步驟 1 :識別 - 訂定相關議題 | Adhere to industry sustainability trends and local reporting standards, identify 20 issues most relevant to the Group's operations for materiality assessment. 緊貼行業可持續發展趨勢及本地報告標準,識別 20 項與本集團 運營最為相關的議題作重要性評估。 Step 2: Sequencing - Questionnaire Survey and Analysis 步驟 2 :排列次序 - 問卷調查及分析 | By inviting internal and external stakeholders to participate in the questionnaire, the importance of each issue to the stakeholders and the Group's operations and development was assessed, and the materiality sequence of different issues is generated through matrix analysis. 透過邀請內部和外部持份者參與問卷調查,評定每項議題對持份 者和本集團運營及發展的重要性,並通過矩陣分析產生不同議題 重要性序列。 Step 3: Validation - Identify Material Issues 步驟 3 :驗證 - 釐定重要議題 | The Board and senior management reviewed and confirmed the six significant material issues assessed in the above steps for prioritisation and focused reporting. 董事會及高級管理層審視並確認上述步驟所評估出的六項高度重 要議題,以作優先處理和重點匯報。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Materiality Assessment\n\n[Content]\nSteps 步驟 | Action 行動 Step 1: Identify - Set out Relevant Issues 步驟 1 :識別 - 訂定相關議題 | Adhere to industry sustainability trends and local reporting standards, identify 20 issues most relevant to the Group's operations for materiality assessment. 緊貼行業可持續發展趨勢及本地報告標準,識別 20 項與本集團 運營最為相關的議題作重要性評估。 Step 2: Sequencing - Questionnaire Survey and Analysis 步驟 2 :排列次序 - 問卷調查及分析 | By inviting internal and external stakeholders to participate in the questionnaire, the importance of each issue to the stakeholders and the Group's operations and development was assessed, and the materiality sequence of different issues is generated through matrix analysis. 透過邀請內部和外部持份者參與問卷調查,評定每項議題對持份 者和本集團運營及發展的重要性,並通過矩陣分析產生不同議題 重要性序列。 Step 3: Validation - Identify Material Issues 步驟 3 :驗證 - 釐定重要議題 | The Board and senior management reviewed and confirmed the six significant material issues assessed in the above steps for prioritisation and focused reporting. 董事會及高級管理層審視並確認上述步驟所評估出的六項高度重 要議題,以作優先處理和重點匯報。",
+      "bm25_rank": 73,
+      "dense_rank": 13,
+      "bm25_score": 5.754112720489502,
+      "dense_score": 0.4569242298603058,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0880016458318185,
+      "normalized_dense": 0.3214588481273213,
+      "normalized_bm25_rank": 0.5167785234899329,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.36568139580958386,
+      "rank": 15,
+      "rrf_score": 0.36568139580958386,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P52_002",
+      "alias_source_ids": [
+        "P52_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Emissions 排放物",
+      "pages": [
+        52
+      ],
+      "text": "本集團把減少排放物作為企業履行環境保護責 任的重要工作之一,並聘請專業顧問公司進行 進行碳評估,以量化其營運產生的排放。本年 度,本集團共產生溫室氣體排放 2,214.2 公噸 二氧化碳當量,溫室氣體密度為 0.07 公噸二氧 化碳當量╱平方米。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Emissions 排放物\n\n[Content]\n本集團把減少排放物作為企業履行環境保護責 任的重要工作之一,並聘請專業顧問公司進行 進行碳評估,以量化其營運產生的排放。本年 度,本集團共產生溫室氣體排放 2,214.2 公噸 二氧化碳當量,溫室氣體密度為 0.07 公噸二氧 化碳當量╱平方米。",
+      "bm25_rank": 38,
+      "dense_rank": 21,
+      "bm25_score": 11.62201976776123,
+      "dense_score": 0.42628833651542664,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19618148908857877,
+      "normalized_dense": 0.21030335522050303,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.36116461979589853,
+      "rank": 16,
+      "rrf_score": 0.36116461979589853,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_004",
+      "alias_source_ids": [
+        "P11_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management",
+      "pages": [
+        11
+      ],
+      "text": "風險管理是持續的過程,是中駿日常業務運作 中不可或缺的一環。本集團嚴格遵守 《中華人 民共和國公司法》 及聯交所 《上市規則》 等法律 及規例,建立由董事會全面負責,責任部門及 具體崗位落實執行的風險管理和內部監控系 統。全方位及多角度的風險管理加強公司未來 業務發展,並為持份者締造長遠價值。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management\n\n[Content]\n風險管理是持續的過程,是中駿日常業務運作 中不可或缺的一環。本集團嚴格遵守 《中華人 民共和國公司法》 及聯交所 《上市規則》 等法律 及規例,建立由董事會全面負責,責任部門及 具體崗位落實執行的風險管理和內部監控系 統。全方位及多角度的風險管理加強公司未來 業務發展,並為持份者締造長遠價值。",
+      "bm25_rank": 42,
+      "dense_rank": 26,
+      "bm25_score": 9.766698837280273,
+      "dense_score": 0.42152997851371765,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16197707415263743,
+      "normalized_dense": 0.19303871654478855,
+      "normalized_bm25_rank": 0.7248322147651007,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.33888514011784776,
+      "rank": 17,
+      "rrf_score": 0.33888514011784776,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_006",
+      "alias_source_ids": [
+        "P6_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reporting Principles 報告原則",
+      "pages": [
+        6
+      ],
+      "text": "本集團以不偏不倚作為編寫本報告的原則,闡述本集團在可持續發展的機遇和所面對的 潛在風險以及相關應對措施,讓持份者可客觀地評估本集團的整體績效。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reporting Principles 報告原則\n\n[Content]\n本集團以不偏不倚作為編寫本報告的原則,闡述本集團在可持續發展的機遇和所面對的 潛在風險以及相關應對措施,讓持份者可客觀地評估本集團的整體績效。",
+      "bm25_rank": 23,
+      "dense_rank": 41,
+      "bm25_score": 14.399004936218262,
+      "dense_score": 0.41285982728004456,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24737756595719693,
+      "normalized_dense": 0.16158101028153438,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.33757249095105024,
+      "rank": 18,
+      "rrf_score": 0.33757249095105024,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_005",
+      "alias_source_ids": [
+        "P30_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "根據類別重點評判品質管控 體系、項目履約能力、現場 配合、安全文明、技術研 發、生產能力、財務狀況、 售後服務、價格水準等。公 司考察時著重看其經營狀 況、辦公運營情況和資質原 件;項目考察時,要求供應 商提供相關合同原件,確認 其真實性。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n根據類別重點評判品質管控 體系、項目履約能力、現場 配合、安全文明、技術研 發、生產能力、財務狀況、 售後服務、價格水準等。公 司考察時著重看其經營狀 況、辦公運營情況和資質原 件;項目考察時,要求供應 商提供相關合同原件,確認 其真實性。",
+      "bm25_rank": 25,
+      "dense_rank": 42,
+      "bm25_score": 13.490449905395508,
+      "dense_score": 0.41236039996147156,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.23062758337690964,
+      "normalized_dense": 0.15976894986135434,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.3309037095295405,
+      "rank": 19,
+      "rrf_score": 0.3309037095295405,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T35_001",
+      "alias_source_ids": [
+        "T35_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Attracting the Talents",
+      "pages": [
+        35
+      ],
+      "text": "Recruiting Plan | Recruiting talent for succession and business continuity through dedicated job fairs focusing on external recruitment of core executives and professionals 攬駿計劃 | 通過舉行以外招核心高管及專業人才為主的專場招聘會,吸納人才以繼任 及維持業務的持續性 Revitalising Water Plan | Support internal talent development through internal promotion of core executives and professionals 活水計劃 | 通過內推核心高管及專業人才為主,支持內部人才發展 Wind Catcher Plan | Through the collection of industry information, core executives and professional talents shall be given priority to enhance the talent density in order to promote diversified staff teams and strengthen the talent base 捕風計劃 | 通過行業信息收集,核心高管及專業人才為主,提高人才密度,以促進多 元的員工團隊及夯實人才基礎 Brilliant Student System | Through campus recruitment, induction training, mentorship, job rotation, regular debates and regular training sessions etc, to help China SCE operational business to develop future cadres 駿耀生體系 | 通過校園招聘、入職集訓、導師帶教、輪崗歷練、定期答辯以及定期集訓 等環節,助力中駿經營性業務培養未來幹部",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Attracting the Talents\n\n[Content]\nRecruiting Plan | Recruiting talent for succession and business continuity through dedicated job fairs focusing on external recruitment of core executives and professionals 攬駿計劃 | 通過舉行以外招核心高管及專業人才為主的專場招聘會,吸納人才以繼任 及維持業務的持續性 Revitalising Water Plan | Support internal talent development through internal promotion of core executives and professionals 活水計劃 | 通過內推核心高管及專業人才為主,支持內部人才發展 Wind Catcher Plan | Through the collection of industry information, core executives and professional talents shall be given priority to enhance the talent density in order to promote diversified staff teams and strengthen the talent base 捕風計劃 | 通過行業信息收集,核心高管及專業人才為主,提高人才密度,以促進多 元的員工團隊及夯實人才基礎 Brilliant Student System | Through campus recruitment, induction training, mentorship, job rotation, regular debates and regular training sessions etc, to help China SCE operational business to develop future cadres 駿耀生體系 | 通過校園招聘、入職集訓、導師帶教、輪崗歷練、定期答辯以及定期集訓 等環節,助力中駿經營性業務培養未來幹部",
+      "bm25_rank": 83,
+      "dense_rank": 23,
+      "bm25_score": 4.830951690673828,
+      "dense_score": 0.4233446717262268,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07098238927208106,
+      "normalized_dense": 0.19962292534328369,
+      "normalized_bm25_rank": 0.44966442953020136,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [
+        "anchor_3"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 23,
+      "composite_score": 0.32950074333530377,
+      "rank": 20,
+      "rrf_score": 0.32950074333530377,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_002",
+      "alias_source_ids": [
+        "P16_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues",
+      "pages": [
+        16
+      ],
+      "text": "本集團非常重視客戶滿意度,已採取不同措施及通過多元化渠道收集 客戶意見。年內,本集團進行了住宅客戶滿意度調研,更深入瞭解客 戶的意見及期望。本集團於未來會持續提升項目與服務質素,增加客 戶滿意度及忠誠度。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues\n\n[Content]\n本集團非常重視客戶滿意度,已採取不同措施及通過多元化渠道收集 客戶意見。年內,本集團進行了住宅客戶滿意度調研,更深入瞭解客 戶的意見及期望。本集團於未來會持續提升項目與服務質素,增加客 戶滿意度及忠誠度。",
+      "bm25_rank": 6,
+      "dense_rank": 65,
+      "bm25_score": 20.8275203704834,
+      "dense_score": 0.4010279178619385,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.36589270030579024,
+      "normalized_dense": 0.11865157099301948,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.5704697986577181,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.3254448449422719,
+      "rank": 21,
+      "rrf_score": 0.3254448449422719,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_003",
+      "alias_source_ids": [
+        "P58_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reduction of Environmental Footprint",
+      "pages": [
+        58
+      ],
+      "text": "In July 2021, Henan Province was hit by heavy rainfall and multiple areas were flooded. China SCE Central China Region company donated RMB1 million for the procurement of disaster relief supplies to contribute to the flood prevention and rescue and post-disaster reconstruction work.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reduction of Environmental Footprint\n\n[Content]\nIn July 2021, Henan Province was hit by heavy rainfall and multiple areas were flooded. China SCE Central China Region company donated RMB1 million for the procurement of disaster relief supplies to contribute to the flood prevention and rescue and post-disaster reconstruction work.",
+      "bm25_rank": 12,
+      "dense_rank": 73,
+      "bm25_score": 17.59549331665039,
+      "dense_score": 0.3965514302253723,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.30630754033843394,
+      "normalized_dense": 0.10240963594864899,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.5167785234899329,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 12,
+      "composite_score": 0.32307803501213006,
+      "rank": 22,
+      "rrf_score": 0.32307803501213006,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P53_004",
+      "alias_source_ids": [
+        "P53_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        53
+      ],
+      "text": "由於全球要求採取行動解決氣候變化問題的呼 聲越來越高,本集團深諳自己作為負責任企業 所肩負的責任,已在減少整體溫室氣體足跡及 加強資源節約工作方面取得進展。與此同時, 本集團了解氣候變化會為社會及日常營運帶來 轉變,正制定相應政策以加強氣候風險及機遇 管理。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n由於全球要求採取行動解決氣候變化問題的呼 聲越來越高,本集團深諳自己作為負責任企業 所肩負的責任,已在減少整體溫室氣體足跡及 加強資源節約工作方面取得進展。與此同時, 本集團了解氣候變化會為社會及日常營運帶來 轉變,正制定相應政策以加強氣候風險及機遇 管理。",
+      "bm25_rank": 146,
+      "dense_rank": 10,
+      "bm25_score": 1.529548168182373,
+      "dense_score": 0.4706537425518036,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.010118215263650606,
+      "normalized_dense": 0.37127331684262477,
+      "normalized_bm25_rank": 0.02684563758389258,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.3225733307932864,
+      "rank": 23,
+      "rrf_score": 0.3225733307932864,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P58_006",
+      "alias_source_ids": [
+        "P58_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reduction of Environmental Footprint",
+      "pages": [
+        58
+      ],
+      "text": "於二零二一年七月,河南省遭遇強暴雨,多地 受洪水侵襲。中駿華中區域公司捐贈人民幣 100 萬元人民幣,用於賑災物資採購,為防汛 搶險及災後重建工作貢獻力量。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Reduction of Environmental Footprint\n\n[Content]\n於二零二一年七月,河南省遭遇強暴雨,多地 受洪水侵襲。中駿華中區域公司捐贈人民幣 100 萬元人民幣,用於賑災物資採購,為防汛 搶險及災後重建工作貢獻力量。",
+      "bm25_rank": 5,
+      "dense_rank": 102,
+      "bm25_score": 21.799726486206055,
+      "dense_score": 0.38416218757629395,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.38381614462160313,
+      "normalized_dense": 0.05745803757684334,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.3221476510067114,
+      "facets": [
+        "anchor_3",
+        "anchor_4"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 5,
+      "composite_score": 0.31861850851916884,
+      "rank": 24,
+      "rrf_score": 0.31861850851916884,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_004",
+      "alias_source_ids": [
+        "P7_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        7
+      ],
+      "text": "本集團正開展可持續發展策略的規劃工作,計 劃將由總部向各區域運營層層遞進。為配合該 工作,本報告聚焦物業開發業務,環境和社會 績效涵蓋本集團位於上海之總部辦公室,以及 六大區域公司 2 。該範圍已括對本集團保持 業務穩定及增長有重要影響,且屬本集團直接 管理的運營點。相關數據統計及披露有助於本 集團梳理現狀,以設定具體管理目標。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n本集團正開展可持續發展策略的規劃工作,計 劃將由總部向各區域運營層層遞進。為配合該 工作,本報告聚焦物業開發業務,環境和社會 績效涵蓋本集團位於上海之總部辦公室,以及 六大區域公司 2 。該範圍已括對本集團保持 業務穩定及增長有重要影響,且屬本集團直接 管理的運營點。相關數據統計及披露有助於本 集團梳理現狀,以設定具體管理目標。",
+      "bm25_rank": 50,
+      "dense_rank": 34,
+      "bm25_score": 8.714456558227539,
+      "dense_score": 0.41502925753593445,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1425780952835044,
+      "normalized_dense": 0.16945230317010013,
+      "normalized_bm25_rank": 0.6711409395973154,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.31064271711254465,
+      "rank": 25,
+      "rrf_score": 0.31064271711254465,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_001",
+      "alias_source_ids": [
+        "P61_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        61
+      ],
+      "text": "17 As the water consumption of the Southeast China Region, Southern China Region and Tianjin company in Northern China Region are managed by the office properties, the relevant data is not available.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n17 As the water consumption of the Southeast China Region, Southern China Region and Tianjin company in Northern China Region are managed by the office properties, the relevant data is not available.",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.4596988558769226,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3315259585927217,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.30126898483631165,
+      "rank": 26,
+      "rrf_score": 0.30126898483631165,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P51_002",
+      "alias_source_ids": [
+        "P51_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        51
+      ],
+      "text": "未來,我們將繼續完善管控,檢視現有的數據 收集及統計的過程,探討並根據實際消耗情況 逐步設定可行的目標,為將來我們進一步制定 更長遠的行動措施奠定穩健基礎。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n未來,我們將繼續完善管控,檢視現有的數據 收集及統計的過程,探討並根據實際消耗情況 逐步設定可行的目標,為將來我們進一步制定 更長遠的行動措施奠定穩健基礎。",
+      "bm25_rank": 21,
+      "dense_rank": 64,
+      "bm25_score": 15.047916412353516,
+      "dense_score": 0.402589350938797,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.25934079939124793,
+      "normalized_dense": 0.12431688198445594,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.5771812080536913,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.2973924913916011,
+      "rank": 27,
+      "rrf_score": 0.2973924913916011,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_001",
+      "alias_source_ids": [
+        "P40_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety",
+      "pages": [
+        40
+      ],
+      "text": "As stated in the section headed 'Risk Management' of this Report, the Group considers occupational health and safety as one of the risks that have a significant impact on its business. In order to ensure a healthy and safe working environment for our staff and other employees, the Group has established policies and systems such as the 'Guidance Notes on Safety Management in Workplace' in an effort to minimise the associated risks and impacts.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety\n\n[Content]\nAs stated in the section headed 'Risk Management' of this Report, the Group considers occupational health and safety as one of the risks that have a significant impact on its business. In order to ensure a healthy and safe working environment for our staff and other employees, the Group has established policies and systems such as the 'Guidance Notes on Safety Management in Workplace' in an effort to minimise the associated risks and impacts.",
+      "bm25_rank": 28,
+      "dense_rank": 58,
+      "bm25_score": 13.034072875976562,
+      "dense_score": 0.40573832392692566,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.22221388576534262,
+      "normalized_dense": 0.13574222678198916,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.6174496644295302,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.29732168404354326,
+      "rank": 28,
+      "rrf_score": 0.29732168404354326,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_005",
+      "alias_source_ids": [
+        "P16_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues",
+      "pages": [
+        16
+      ],
+      "text": "The Group regards occupational health and safety as a key area of work, including the identification of safety and health risks in the workplace and the development of measures to protect workers (including sub-contractors) from hazards in order to safeguard the health and safety of employees and workers.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues\n\n[Content]\nThe Group regards occupational health and safety as a key area of work, including the identification of safety and health risks in the workplace and the development of measures to protect workers (including sub-contractors) from hazards in order to safeguard the health and safety of employees and workers.",
+      "bm25_rank": 92,
+      "dense_rank": 22,
+      "bm25_score": 3.9620442390441895,
+      "dense_score": 0.4247393310070038,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.054963343441143835,
+      "normalized_dense": 0.2046831348839905,
+      "normalized_bm25_rank": 0.38926174496644295,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.29337002093118253,
+      "rank": 29,
+      "rrf_score": 0.29337002093118253,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_003",
+      "alias_source_ids": [
+        "P30_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "重點審核供應商的資 質、企業性質、主營 業務、發展歷史、資 源、信譽、業績、能 力、經營管理模式、 業務覆蓋區域等。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n重點審核供應商的資 質、企業性質、主營 業務、發展歷史、資 源、信譽、業績、能 力、經營管理模式、 業務覆蓋區域等。",
+      "bm25_rank": 56,
+      "dense_rank": 44,
+      "bm25_score": 7.935903549194336,
+      "dense_score": 0.4119289219379425,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12822481023556714,
+      "normalized_dense": 0.15820342827385186,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 44,
+      "composite_score": 0.28638528945974007,
+      "rank": 30,
+      "rrf_score": 0.28638528945974007,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_006",
+      "alias_source_ids": [
+        "P40_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety",
+      "pages": [
+        40
+      ],
+      "text": "《辦公場所管理作業指導書》 規範了維持安全辦 公環境的措施,括每日檢查辦公室公共區域 電源及設施、定期辦公室空氣質量檢測,及季 度整體安全檢查,以及時識別和消除安全隱 患。行政部門對辦公場所進行括整理、整 頓、清掃、清潔和素養在內的 5S 管理及監督, 確保員工遵守安全要求。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety\n\n[Content]\n《辦公場所管理作業指導書》 規範了維持安全辦 公環境的措施,括每日檢查辦公室公共區域 電源及設施、定期辦公室空氣質量檢測,及季 度整體安全檢查,以及時識別和消除安全隱 患。行政部門對辦公場所進行括整理、整 頓、清掃、清潔和素養在內的 5S 管理及監督, 確保員工遵守安全要求。",
+      "bm25_rank": 22,
+      "dense_rank": 71,
+      "bm25_score": 14.43131160736084,
+      "dense_score": 0.3983086049556732,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24797316684047552,
+      "normalized_dense": 0.10878515178790393,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.5302013422818792,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.2796157452186937,
+      "rank": 31,
+      "rrf_score": 0.2796157452186937,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P69_004",
+      "alias_source_ids": [
+        "P69_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        69
+      ],
+      "text": "描述業務活動對環境及天然資源的重大影響及已採取管理有 關影響的行動。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n描述業務活動對環境及天然資源的重大影響及已採取管理有 關影響的行動。",
+      "bm25_rank": 128,
+      "dense_rank": 19,
+      "bm25_score": 2.4786155223846436,
+      "dense_score": 0.4289935231208801,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.027615076885793375,
+      "normalized_dense": 0.22011852029987772,
+      "normalized_bm25_rank": 0.1476510067114094,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.27316852432775346,
+      "rank": 32,
+      "rrf_score": 0.27316852432775346,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_005",
+      "alias_source_ids": [
+        "P40_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety",
+      "pages": [
+        40
+      ],
+      "text": "正如本報告「風險管理」一節所述,本集團把 職業健康與安全視為對業務有重大影響的風險 之一。為保障員工及其他工作者均有健康及安 全的工作環境,本集團已制定如 《辦公場所安 全管理作業指導書》 等政策制度,致力降低相 關風險及影響。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety\n\n[Content]\n正如本報告「風險管理」一節所述,本集團把 職業健康與安全視為對業務有重大影響的風險 之一。為保障員工及其他工作者均有健康及安 全的工作環境,本集團已制定如 《辦公場所安 全管理作業指導書》 等政策制度,致力降低相 關風險及影響。",
+      "bm25_rank": 126,
+      "dense_rank": 20,
+      "bm25_score": 2.586984157562256,
+      "dense_score": 0.42737752199172974,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.029612944587687845,
+      "normalized_dense": 0.2142552213248305,
+      "normalized_bm25_rank": 0.1610738255033557,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.2715159432268658,
+      "rank": 33,
+      "rrf_score": 0.2715159432268658,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_003",
+      "alias_source_ids": [
+        "P11_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management",
+      "pages": [
+        11
+      ],
+      "text": "The Group understands that breaches of laws and regulations could have a material impact on the Group's business operations, results of operations, financial position and reputation. Different laws and regulations have significant impact on the Group's business, including but not limited to: 'Urban Real Estate Administration Law of the PRC', 'Regulation on the Administration of Development and Operation of Urban Real Estate', 'Advertising Law of the PRC', 'Company Law of the PRC', 'Anti-Money Laundering Law of the PRC', 'Anti-Unfair Competition Law of the PRC', 'Environmental Protection Law of the PRC', 'Atmospheric Pollution Prevention and Control Law of the PRC', 'Law of the PRC on the Prevention and Control of Environment Pollution Caused by Solid Wastes', 'Water Pollution Prevention and Control Law of the PRC', 'Energy Conservation Law of the PRC', 'Law of the PRC on the Prevention and Control of Occupational Diseases', 'Patent Law of the PRC', 'Copyright Law of the PRC', 'Trademark Law of the PRC', 'Labour Law of the PRC', 'Social Insurance Law of the PRC', 'Labour Contract Law of the PRC', 'Provisions on the Prohibition of Using Child Labour', 'Special Rules on the Labour Protection of Female Employees', and other laws and regulations relating to air pollution, water pollution and waste management.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management\n\n[Content]\nThe Group understands that breaches of laws and regulations could have a material impact on the Group's business operations, results of operations, financial position and reputation. Different laws and regulations have significant impact on the Group's business, including but not limited to: 'Urban Real Estate Administration Law of the PRC', 'Regulation on the Administration of Development and Operation of Urban Real Estate', 'Advertising Law of the PRC', 'Company Law of the PRC', 'Anti-Money Laundering Law of the PRC', 'Anti-Unfair Competition Law of the PRC', 'Environmental Protection Law of the PRC', 'Atmospheric Pollution Prevention and Control Law of the PRC', 'Law of the PRC on the Prevention and Control of Environment Pollution Caused by Solid Wastes', 'Water Pollution Prevention and Control Law of the PRC', 'Energy Conservation Law of the PRC', 'Law of the PRC on the Prevention and Control of Occupational Diseases', 'Patent Law of the PRC', 'Copyright Law of the PRC', 'Trademark Law of the PRC', 'Labour Law of the PRC', 'Social Insurance Law of the PRC', 'Labour Contract Law of the PRC', 'Provisions on the Prohibition of Using Child Labour', 'Special Rules on the Labour Protection of Female Employees', and other laws and regulations relating to air pollution, water pollution and waste management.",
+      "bm25_rank": 43,
+      "dense_rank": 62,
+      "bm25_score": 9.613149642944336,
+      "dense_score": 0.4036766290664673,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1591462645229609,
+      "normalized_dense": 0.1282618277004977,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.5906040268456376,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 43,
+      "composite_score": 0.2666537785058066,
+      "rank": 34,
+      "rrf_score": 0.2666537785058066,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_001",
+      "alias_source_ids": [
+        "P8_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Message from the Chairman",
+      "pages": [
+        8
+      ],
+      "text": "In 2021, even though the threat of COVID-19 has not yet been fully lifted, the economy has recovered under the efforts of all parties involved to fight against epidemic. It was also the start of China's '14 th Five-Year Plan'. As the reform of the land supply side continues to deepen and the overall policies in the real estate market become tighter, the traditional business model has encountered more challenges. In the face of the changing environment and industry trends, China SCE continues to analyse its strengths and resources and continue to drive its development and transformation through differentiated strategies to meet the future with both opportunities and challenges.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Message from the Chairman\n\n[Content]\nIn 2021, even though the threat of COVID-19 has not yet been fully lifted, the economy has recovered under the efforts of all parties involved to fight against epidemic. It was also the start of China's '14 th Five-Year Plan'. As the reform of the land supply side continues to deepen and the overall policies in the real estate market become tighter, the traditional business model has encountered more challenges. In the face of the changing environment and industry trends, China SCE continues to analyse its strengths and resources and continue to drive its development and transformation through differentiated strategies to meet the future with both opportunities and challenges.",
+      "bm25_rank": 60,
+      "dense_rank": 54,
+      "bm25_score": 7.685572624206543,
+      "dense_score": 0.4085264801979065,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12360974731631208,
+      "normalized_dense": 0.1458584287517912,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.6442953020134228,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 54,
+      "composite_score": 0.2650341444928323,
+      "rank": 35,
+      "rrf_score": 0.2650341444928323,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P69_003",
+      "alias_source_ids": [
+        "P69_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        69
+      ],
+      "text": "Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. 44-47",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nDescription of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. 44-47",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.4356645941734314,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.24432301085333144,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.26403654373155194,
+      "rank": 36,
+      "rrf_score": 0.26403654373155194,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L4_001",
+      "alias_source_ids": [
+        "L4_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        4
+      ],
+      "text": "Fortune China 500 in 2021 2021 年 《財富》 中國 500 強",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nFortune China 500 in 2021 2021 年 《財富》 中國 500 強",
+      "bm25_rank": null,
+      "dense_rank": 18,
+      "bm25_score": null,
+      "dense_score": 0.43150097131729126,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.22921623574994734,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.2574068905661729,
+      "rank": 37,
+      "rrf_score": 0.2574068905661729,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_002",
+      "alias_source_ids": [
+        "P61_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        61
+      ],
+      "text": "17 因東南區域、華南區域,以及華北區域之天津公 司用水由寫字樓物業統一管理,未能獲取相關數 據。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n17 因東南區域、華南區域,以及華北區域之天津公 司用水由寫字樓物業統一管理,未能獲取相關數 據。",
+      "bm25_rank": 130,
+      "dense_rank": 27,
+      "bm25_score": 2.405550241470337,
+      "dense_score": 0.4213571548461914,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.026268056462132115,
+      "normalized_dense": 0.19241166448746522,
+      "normalized_bm25_rank": 0.13422818791946312,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.2511211837959252,
+      "rank": 38,
+      "rrf_score": 0.2511211837959252,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T13_001",
+      "alias_source_ids": [
+        "T13_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        13
+      ],
+      "text": "Stakeholder Group 持份者類別 | Stakeholder Expectations 持份者期望 | Principal Communication Channel 主要溝通渠道 Employees | • Rights protection • Good working environment • Career development opportunities | • Satisfaction surveys • Employees complaining channels • Internal emails • 'Grass-roots Gunshot Plan' 員工 | • 權益保障 • 良好工作環境 • 事業發展機會 | • 滿意度調查 • 員工申訴渠道 • 內部郵件 • 「基層炮聲計劃」 Investors/shareholders | • Risk management • Investment returns • Information transparency | • General meeting • The Group's website • The Group's information released on the Stock Exchange 投資者╱股東 | • 風險管控 • 投資回報 • 資訊透明度 | • 股東大會 • 本集團網頁 • 聯交所發佈本集團消息 Owners/customers 業主╱客戶 | • Quality products and services • Ethics and integrity • Information transparency • 優質產品及服務 • 道德與誠信 | • 'SCE Club' platform • Customers satisfaction surveys • Customers complaint hotline • 「中駿會」平台 • 客戶滿意調查 Contractors/suppliers | • Stable partnership • Fair and open • Resources support | • Sharing seminars and training courses for contractors/suppliers 承商╱供應商 | • 穩定夥伴關係 • 公平公開 | • 承商╱供應商分享會及培訓課程 Community 社區 | • Environmental and social • 環境及社會責任 | • Volunteer activities 義工活動 responsibility | •",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nStakeholder Group 持份者類別 | Stakeholder Expectations 持份者期望 | Principal Communication Channel 主要溝通渠道 Employees | • Rights protection • Good working environment • Career development opportunities | • Satisfaction surveys • Employees complaining channels • Internal emails • 'Grass-roots Gunshot Plan' 員工 | • 權益保障 • 良好工作環境 • 事業發展機會 | • 滿意度調查 • 員工申訴渠道 • 內部郵件 • 「基層炮聲計劃」 Investors/shareholders | • Risk management • Investment returns • Information transparency | • General meeting • The Group's website • The Group's information released on the Stock Exchange 投資者╱股東 | • 風險管控 • 投資回報 • 資訊透明度 | • 股東大會 • 本集團網頁 • 聯交所發佈本集團消息 Owners/customers 業主╱客戶 | • Quality products and services • Ethics and integrity • Information transparency • 優質產品及服務 • 道德與誠信 | • 'SCE Club' platform • Customers satisfaction surveys • Customers complaint hotline • 「中駿會」平台 • 客戶滿意調查 Contractors/suppliers | • Stable partnership • Fair and open • Resources support | • Sharing seminars and training courses for contractors/suppliers 承商╱供應商 | • 穩定夥伴關係 • 公平公開 | • 承商╱供應商分享會及培訓課程 Community 社區 | • Environmental and social • 環境及社會責任 | • Volunteer activities 義工活動 responsibility | •",
+      "bm25_rank": 78,
+      "dense_rank": 51,
+      "bm25_score": 5.420733451843262,
+      "dense_score": 0.4095522165298462,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08185551626012191,
+      "normalized_dense": 0.14958008381455262,
+      "normalized_bm25_rank": 0.4832214765100671,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 51,
+      "composite_score": 0.24993218627839298,
+      "rank": 39,
+      "rrf_score": 0.24993218627839298,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_001",
+      "alias_source_ids": [
+        "P7_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        7
+      ],
+      "text": "Planning for the Group's sustainability strategy is underway and will progress from the headquarters to the regional operating levels. To act in concert of this purpose, this Report focuses on property development business, the environmental and social performance covers the Group's headquarters in Shanghai, as well as the six regional companies 2 . This scope has included those operations that are important to the Group in maintaining the stability and growth of its business and are under the direct management of the Group. The relevant statistics and disclosures help the Group to sort out the status quo in order to set specific management objectives.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nPlanning for the Group's sustainability strategy is underway and will progress from the headquarters to the regional operating levels. To act in concert of this purpose, this Report focuses on property development business, the environmental and social performance covers the Group's headquarters in Shanghai, as well as the six regional companies 2 . This scope has included those operations that are important to the Group in maintaining the stability and growth of its business and are under the direct management of the Group. The relevant statistics and disclosures help the Group to sort out the status quo in order to set specific management objectives.",
+      "bm25_rank": 69,
+      "dense_rank": 56,
+      "bm25_score": 6.3781585693359375,
+      "dense_score": 0.4061551094055176,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09950646033712454,
+      "normalized_dense": 0.13725443975347848,
+      "normalized_bm25_rank": 0.5436241610738255,
+      "normalized_dense_rank": 0.6308724832214765,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 56,
+      "composite_score": 0.24847725873282023,
+      "rank": 40,
+      "rrf_score": 0.24847725873282023,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_001",
+      "alias_source_ids": [
+        "P24_001"
+      ],
+      "section": "'Fun Heart' Service 「 FUN 心」服務",
+      "pages": [
+        24
+      ],
+      "text": "professional teams from multiple fields will be jointed to carry out full- cycle risk management and control, and verify the quality of delivery, hoping to live up to the trust. In the future, the Group will continue to actively improve our systems to enhance the customer experience.",
+      "retrieval_text": "[Section]\n'Fun Heart' Service 「 FUN 心」服務\n\n[Content]\nprofessional teams from multiple fields will be jointed to carry out full- cycle risk management and control, and verify the quality of delivery, hoping to live up to the trust. In the future, the Group will continue to actively improve our systems to enhance the customer experience.",
+      "bm25_rank": 32,
+      "dense_rank": 82,
+      "bm25_score": 12.614649772644043,
+      "dense_score": 0.3903578817844391,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21448146512349348,
+      "normalized_dense": 0.07993772948115686,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.4563758389261745,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.24134429700082172,
+      "rank": 41,
+      "rrf_score": 0.24134429700082172,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_002",
+      "alias_source_ids": [
+        "L30_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "We focus on auditing the suppliers' qualifications, business nature, main business, development history, resources, reputation, performance, capabilities, business management model, business coverage areas and other aspects",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nWe focus on auditing the suppliers' qualifications, business nature, main business, development history, resources, reputation, performance, capabilities, business management model, business coverage areas and other aspects",
+      "bm25_rank": 80,
+      "dense_rank": 55,
+      "bm25_score": 5.090503215789795,
+      "dense_score": 0.4083094596862793,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07576744177511163,
+      "normalized_dense": 0.14507101832216052,
+      "normalized_bm25_rank": 0.4697986577181208,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 55,
+      "composite_score": 0.24042498906308052,
+      "rank": 42,
+      "rrf_score": 0.24042498906308052,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_004",
+      "alias_source_ids": [
+        "P21_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        21
+      ],
+      "text": "與此同時,本集團明白客戶滿意度能夠反映企 業未來的發展潛力及市場競爭力。本年度,本 集團聘用顧問機構開展住宅客戶滿意度調研, 檢視更實際、更需要管理層重視的地方以及預 早識別相關風險問題。該調研以電話會談訪問",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n與此同時,本集團明白客戶滿意度能夠反映企 業未來的發展潛力及市場競爭力。本年度,本 集團聘用顧問機構開展住宅客戶滿意度調研, 檢視更實際、更需要管理層重視的地方以及預 早識別相關風險問題。該調研以電話會談訪問",
+      "bm25_rank": 142,
+      "dense_rank": 28,
+      "bm25_score": 1.7181748151779175,
+      "dense_score": 0.42112067341804504,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.013595707483898675,
+      "normalized_dense": 0.19155364447110718,
+      "normalized_bm25_rank": 0.05369127516778527,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.23889043384019076,
+      "rank": 43,
+      "rrf_score": 0.23889043384019076,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L4_005",
+      "alias_source_ids": [
+        "L4_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        4
+      ],
+      "text": "2021 TOP 50 of China Real Estate Developers No. 41 2021 中國房地產開發企業綜合實力 TOP 50 第 41 位",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n2021 TOP 50 of China Real Estate Developers No. 41 2021 中國房地產開發企業綜合實力 TOP 50 第 41 位",
+      "bm25_rank": null,
+      "dense_rank": 24,
+      "bm25_score": null,
+      "dense_score": 0.42284634709358215,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.19781486577258134,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.23836271979892698,
+      "rank": 44,
+      "rrf_score": 0.23836271979892698,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T53_001",
+      "alias_source_ids": [
+        "T53_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        53
+      ],
+      "text": "Respirable suspended particulates 10 | 可吸入懸浮粒子 0.4 | 1.2 | 0.6 | 1.7 Headquarters | Regional companies 總部 | 區域公司",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nRespirable suspended particulates 10 | 可吸入懸浮粒子 0.4 | 1.2 | 0.6 | 1.7 Headquarters | Regional companies 總部 | 區域公司",
+      "bm25_rank": null,
+      "dense_rank": 25,
+      "bm25_score": null,
+      "dense_score": 0.42226845026016235,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.19571809625308553,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.2362865685879088,
+      "rank": 45,
+      "rrf_score": 0.2362865685879088,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_006",
+      "alias_source_ids": [
+        "P11_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management",
+      "pages": [
+        11
+      ],
+      "text": "本集團明白,違反法律及規例會對本集團業務 營運、經營業績、財政狀況及聲譽構成重大影 響。不同法律法規對本集團的業務有重要影 響,括但不限於: 《中華人民共和國城市房 地產管理法》 、 《城市房地產開發經營管理條 例》 、 《中華人民共和國廣告法》 、 《中華人民共 和國公司法》 、 《中華人民共和國反洗錢法》 、 《中華人民共和國反不正當競爭法》 、 《中華人 民共和國環境保護法》 、 《中華人民共和國大氣 污染防治法》 、 《中華人民共和國固體廢物污染 環境防治法》 、 《中華人民共和國水污染防治 法》 、 《中華人民共和國節約能源法》 、 《中華人 民共和國職業病防治法》 、 《中華人民共和國專 利法》 、 《中華人民共和國著作權法》 、 《中華人 民共和國商標法》 、 《中華人民共和國勞動 法》 、 《中華人民共和國社會保險法》 、 《中華人 民共和國勞動合同法》 、 《禁止使用童工規 定》 、 《女職工勞動保護特別規定》 及其他與空 氣污染、水污染及廢物管理相關的法律與條例 等。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management\n\n[Content]\n本集團明白,違反法律及規例會對本集團業務 營運、經營業績、財政狀況及聲譽構成重大影 響。不同法律法規對本集團的業務有重要影 響,括但不限於: 《中華人民共和國城市房 地產管理法》 、 《城市房地產開發經營管理條 例》 、 《中華人民共和國廣告法》 、 《中華人民共 和國公司法》 、 《中華人民共和國反洗錢法》 、 《中華人民共和國反不正當競爭法》 、 《中華人 民共和國環境保護法》 、 《中華人民共和國大氣 污染防治法》 、 《中華人民共和國固體廢物污染 環境防治法》 、 《中華人民共和國水污染防治 法》 、 《中華人民共和國節約能源法》 、 《中華人 民共和國職業病防治法》 、 《中華人民共和國專 利法》 、 《中華人民共和國著作權法》 、 《中華人 民共和國商標法》 、 《中華人民共和國勞動 法》 、 《中華人民共和國社會保險法》 、 《中華人 民共和國勞動合同法》 、 《禁止使用童工規 定》 、 《女職工勞動保護特別規定》 及其他與空 氣污染、水污染及廢物管理相關的法律與條例 等。",
+      "bm25_rank": 75,
+      "dense_rank": 61,
+      "bm25_score": 5.579343795776367,
+      "dense_score": 0.4050791263580322,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08477963247521464,
+      "normalized_dense": 0.133350475711816,
+      "normalized_bm25_rank": 0.5033557046979866,
+      "normalized_dense_rank": 0.5973154362416108,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 61,
+      "composite_score": 0.23342725071229936,
+      "rank": 46,
+      "rrf_score": 0.23342725071229936,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / About the Group",
+      "pages": [
+        3
+      ],
+      "text": "After surpassing 100-billion in scale, the Group continued to consolidate its 'One Body' and expand its 'Two Wings'. In July 2021, the Group successfully listed its property management business 1 , which is a refined and intelligent service positioning for its commercial and residential property management business. It marks the beginning of a new journey for the Group's commercial and residential property management business. As at December 2021, the Group's business covered 63 cities, with 25 new projects and a land bank of 38.23 million square metres ('sq.m.'). Looking ahead, the Group will continue to consolidate its regional leadership position and become a leading creator of a better lifestyle with a more proactive and stable development strategy.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / About the Group\n\n[Content]\nAfter surpassing 100-billion in scale, the Group continued to consolidate its 'One Body' and expand its 'Two Wings'. In July 2021, the Group successfully listed its property management business 1 , which is a refined and intelligent service positioning for its commercial and residential property management business. It marks the beginning of a new journey for the Group's commercial and residential property management business. As at December 2021, the Group's business covered 63 cities, with 25 new projects and a land bank of 38.23 million square metres ('sq.m.'). Looking ahead, the Group will continue to consolidate its regional leadership position and become a leading creator of a better lifestyle with a more proactive and stable development strategy.",
+      "bm25_rank": 63,
+      "dense_rank": 67,
+      "bm25_score": 7.116960525512695,
+      "dense_score": 0.3997759222984314,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11312690101096749,
+      "normalized_dense": 0.11410898486986859,
+      "normalized_bm25_rank": 0.5838926174496644,
+      "normalized_dense_rank": 0.5570469798657718,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 63,
+      "composite_score": 0.23236218262476832,
+      "rank": 47,
+      "rrf_score": 0.23236218262476832,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L4_004",
+      "alias_source_ids": [
+        "L4_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        4
+      ],
+      "text": "2021 Best 5 of China Real Estate Listed Companies with Best Business Performances - No. 2 2021 中國房地產上市公司經營績效 5 強 -第 2 位",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n2021 Best 5 of China Real Estate Listed Companies with Best Business Performances - No. 2 2021 中國房地產上市公司經營績效 5 強 -第 2 位",
+      "bm25_rank": 55,
+      "dense_rank": 72,
+      "bm25_score": 7.979328632354736,
+      "dense_score": 0.397858202457428,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.129025388474428,
+      "normalized_dense": 0.10715096697287943,
+      "normalized_bm25_rank": 0.6375838926174497,
+      "normalized_dense_rank": 0.5234899328859061,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 55,
+      "composite_score": 0.23176429197431958,
+      "rank": 48,
+      "rrf_score": 0.23176429197431958,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_006",
+      "alias_source_ids": [
+        "P21_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        21
+      ],
+      "text": "當從本集團的反饋渠道,括微信、致電、致函及到訪,接收到客戶投 訴後,處理人需按投訴內容判斷投訴是否有效,並向其解釋溝通,取得 客戶諒解。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n當從本集團的反饋渠道,括微信、致電、致函及到訪,接收到客戶投 訴後,處理人需按投訴內容判斷投訴是否有效,並向其解釋溝通,取得 客戶諒解。",
+      "bm25_rank": 2,
+      "dense_rank": null,
+      "bm25_score": 35.48292922973633,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.6360775925485628,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.22654437757011525,
+      "rank": 49,
+      "rrf_score": 0.22654437757011525,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_004",
+      "alias_source_ids": [
+        "P18_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Quality Operations",
+      "pages": [
+        18
+      ],
+      "text": "開展年度住宅客戶滿意度調研,業主對 購房至入住全過程服務的集團滿意度達 80 分",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Quality Operations\n\n[Content]\n開展年度住宅客戶滿意度調研,業主對 購房至入住全過程服務的集團滿意度達 80 分",
+      "bm25_rank": 9,
+      "dense_rank": 133,
+      "bm25_score": 19.392086029052734,
+      "dense_score": 0.3737638294696808,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.33942925076400865,
+      "normalized_dense": 0.01972991887142308,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.11409395973154357,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.19224098618733,
+      "rank": 50,
+      "rrf_score": 0.19224098618733,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

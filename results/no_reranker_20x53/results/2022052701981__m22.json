@@ -1,0 +1,1552 @@
+{
+  "document_id": "2022052701981",
+  "metric_id": 22,
+  "metric_name": "承包商安全管理",
+  "query": "承包商安全管理 承包商安全管理 衡量企业对外包服务商、承包商及临时工的安全管理深度。重点考察承包商的安全准入资质审核、专项安全培训、作业现场监督及违章问责机制。 一、内容质量得分 (权重 50%，取值：0, 1, 2) • 2分（卓越）：建立了完善的承包商安全评价与准入制度；强制执行开工前专项安全培训及技术交底；具备常态化的现场安全巡检记录，并有明确的承包商安全问责与黑名单制度。 • 1分（合格）：要求承包商具备基础安全资质并签署安全协议，提供了一次性的入场安全教育，但缺乏过程中的动态监督或系统的违章问责机制。 • 0分（不合格）：无承包商安全管理披露，或仅笼统提及“要求承包商注意安全”。 二、覆盖应用得分 (权重 50%，取值：0, 1, 2) • 2分（高覆盖）：管理机制覆盖 >80% 的外包作业、承包商单位或特种作业项目。 • 1分（部分覆盖）：占比 >0% - 80%，或仅针对“高危作业”进行管理而忽略了常规外包项目，或未说明具体覆盖比例。 • 0分（无覆盖）：无相关覆盖范围信息。 承包商安全管理 承包商准入 作业许可 安全交底 入场安全教育 现场安全巡检 承包商黑名单 外包作业安全 PTW contractor safety management contractor prequalification permit to work safety induction toolbox talk site safety inspection contractor blacklist subcontractor safety PTW 是否建立承包商安全评价与准入制度？ 开工前是否强制专项安全培训或技术交底？ 是否有作业票、现场巡检等过程监督？ 违章问责或黑名单机制是什么？ 机制覆盖多少外包作业或承包商单位？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '承包商安全管理'. Prefer explicit, auditable disclosure that answers: 是否建立承包商安全评价与准入制度？ 开工前是否强制专项安全培训或技术交底？ 是否有作业票、现场巡检等过程监督？ 违章问责或黑名单机制是什么？ 机制覆盖多少外包作业或承包商单位？ Exclude or down-rank: 排除：仅有企业自身ISO 45001认证；仅有“要求承包商注意安全”；仅有供应商环境标准；仅有一般采购合同模板；区分：承包商安全管理聚焦外包方安全准入、培训、监督与问责；ISO 45001是企业自身体系认证；供应商行为准则/道德采购更广，需单独抽出安全条款才可作为本指标证据。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 207,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P30_005",
+      "alias_source_ids": [
+        "P30_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "根據類別重點評判品質管控 體系、項目履約能力、現場 配合、安全文明、技術研 發、生產能力、財務狀況、 售後服務、價格水準等。公 司考察時著重看其經營狀 況、辦公運營情況和資質原 件;項目考察時,要求供應 商提供相關合同原件,確認 其真實性。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n根據類別重點評判品質管控 體系、項目履約能力、現場 配合、安全文明、技術研 發、生產能力、財務狀況、 售後服務、價格水準等。公 司考察時著重看其經營狀 況、辦公運營情況和資質原 件;項目考察時,要求供應 商提供相關合同原件,確認 其真實性。",
+      "bm25_rank": 10,
+      "dense_rank": 1,
+      "bm25_score": 77.7632064819336,
+      "dense_score": 0.5375084280967712,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5343428770156042,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.750828306946745,
+      "rank": 1,
+      "rrf_score": 0.750828306946745,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_007",
+      "alias_source_ids": [
+        "P40_007"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety",
+      "pages": [
+        40
+      ],
+      "text": "對於項目員工及工人,本集團為他們提供安全 培訓,以提高其安全意識及技能。本年度,相 關培訓括現場臨邊洞口防護、大型機械檢 測、高風險施工工藝防護要點等知識技能。培 訓除分析錯誤或疏忽使用機械的後果,亦詳細 解釋使用機械過程的潛在安全風險及機械的日 常管理流程。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety\n\n[Content]\n對於項目員工及工人,本集團為他們提供安全 培訓,以提高其安全意識及技能。本年度,相 關培訓括現場臨邊洞口防護、大型機械檢 測、高風險施工工藝防護要點等知識技能。培 訓除分析錯誤或疏忽使用機械的後果,亦詳細 解釋使用機械過程的潛在安全風險及機械的日 常管理流程。",
+      "bm25_rank": 3,
+      "dense_rank": 6,
+      "bm25_score": 123.20183563232422,
+      "dense_score": 0.4772105813026428,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8667256454974354,
+      "normalized_dense": 0.748427532193532,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.7272410740920555,
+      "rank": 2,
+      "rrf_score": 0.7272410740920555,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_006",
+      "alias_source_ids": [
+        "P16_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues",
+      "pages": [
+        16
+      ],
+      "text": "本集團視職業健康與安全為工作的重點範疇,括識別工作場所的安 全和健康風險,制定保護工人 (括分判商) 免受危害的措施,以保障 員工及工人健康與安全。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues\n\n[Content]\n本集團視職業健康與安全為工作的重點範疇,括識別工作場所的安 全和健康風險,制定保護工人 (括分判商) 免受危害的措施,以保障 員工及工人健康與安全。",
+      "bm25_rank": 5,
+      "dense_rank": 8,
+      "bm25_score": 107.35299682617188,
+      "dense_score": 0.4727684259414673,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7507916699768312,
+      "normalized_dense": 0.7298941343027887,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.6935407440885907,
+      "rank": 3,
+      "rrf_score": 0.6935407440885907,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_006",
+      "alias_source_ids": [
+        "P40_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety",
+      "pages": [
+        40
+      ],
+      "text": "《辦公場所管理作業指導書》 規範了維持安全辦 公環境的措施,括每日檢查辦公室公共區域 電源及設施、定期辦公室空氣質量檢測,及季 度整體安全檢查,以及時識別和消除安全隱 患。行政部門對辦公場所進行括整理、整 頓、清掃、清潔和素養在內的 5S 管理及監督, 確保員工遵守安全要求。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety\n\n[Content]\n《辦公場所管理作業指導書》 規範了維持安全辦 公環境的措施,括每日檢查辦公室公共區域 電源及設施、定期辦公室空氣質量檢測,及季 度整體安全檢查,以及時識別和消除安全隱 患。行政部門對辦公場所進行括整理、整 頓、清掃、清潔和素養在內的 5S 管理及監督, 確保員工遵守安全要求。",
+      "bm25_rank": 1,
+      "dense_rank": 24,
+      "bm25_score": 141.42120361328125,
+      "dense_score": 0.42129838466644287,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.515152713338491,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.6494309664469954,
+      "rank": 4,
+      "rrf_score": 0.6494309664469954,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_003",
+      "alias_source_ids": [
+        "P19_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs",
+      "pages": [
+        19
+      ],
+      "text": "In addition, as the construction unit is the primary responsible party for the quality of works, the Group has entered into a contract with the construction contractor to obtain a indemnity agreement and the contractor's commitment to quality assurance and compliance with regulatory requirements, to ensure that it clearly and effectively implements its responsibilities and to avoid any defects or noncompliance. The Group also conducts spot checks during each construction stage to evaluate property projects in three ways namely 'Actual Measurement', 'Entity Quality' and 'Safety and Civilised'. As for the results of the spot checks, the Group made recommendations on improving the quality of the projects for the contractors to make timely rectification to reduce the quality risks.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs\n\n[Content]\nIn addition, as the construction unit is the primary responsible party for the quality of works, the Group has entered into a contract with the construction contractor to obtain a indemnity agreement and the contractor's commitment to quality assurance and compliance with regulatory requirements, to ensure that it clearly and effectively implements its responsibilities and to avoid any defects or noncompliance. The Group also conducts spot checks during each construction stage to evaluate property projects in three ways namely 'Actual Measurement', 'Entity Quality' and 'Safety and Civilised'. As for the results of the spot checks, the Group made recommendations on improving the quality of the projects for the contractors to make timely rectification to reduce the quality risks.",
+      "bm25_rank": 37,
+      "dense_rank": 3,
+      "bm25_score": 27.49332618713379,
+      "dense_score": 0.5233375430107117,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16661959187129063,
+      "normalized_dense": 0.9408767522947598,
+      "normalized_bm25_rank": 0.7583892617449665,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6357851440935314,
+      "rank": 5,
+      "rrf_score": 0.6357851440935314,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T71_001",
+      "alias_source_ids": [
+        "T71_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        71
+      ],
+      "text": "Aspect 層面 | Content 內容 | Page Index/Remarks 頁碼索引╱備註 B2. Health and Safety B2. 健康與安全 General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a | 10-11, 39 一般披露 | 有關提供安全工作環境及保障僱員避免職業性危害的: (a) 政策;及 (b) 遵守對發行人有重大影響的相關法律及規例的資料。 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. 62 B2.2 | Lost days due to work injury. 因工傷損失工作日數。 | 62 B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. 描述所採納的職業健康與安全措施,以及相關執行及監察方 法。 | 39",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nAspect 層面 | Content 內容 | Page Index/Remarks 頁碼索引╱備註 B2. Health and Safety B2. 健康與安全 General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a | 10-11, 39 一般披露 | 有關提供安全工作環境及保障僱員避免職業性危害的: (a) 政策;及 (b) 遵守對發行人有重大影響的相關法律及規例的資料。 B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. 62 B2.2 | Lost days due to work injury. 因工傷損失工作日數。 | 62 B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. 描述所採納的職業健康與安全措施,以及相關執行及監察方 法。 | 39",
+      "bm25_rank": 4,
+      "dense_rank": 27,
+      "bm25_score": 120.26778411865234,
+      "dense_score": 0.41069576144218445,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8452631105746761,
+      "normalized_dense": 0.47091683707485305,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5969607634132814,
+      "rank": 6,
+      "rrf_score": 0.5969607634132814,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_003",
+      "alias_source_ids": [
+        "L30_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "According to the categories, we focus on quality control system, project performance capability, on-site cooperation, safety and civilisation, technology research and development, production capability, financial status, after-sales service, price level and other aspects. During inspections, the Company focuses on the operation, office operation and the qualification original documents; during project inspections, the Company requests the suppliers to provide the original documents of relevant contracts to confirm their authenticity.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nAccording to the categories, we focus on quality control system, project performance capability, on-site cooperation, safety and civilisation, technology research and development, production capability, financial status, after-sales service, price level and other aspects. During inspections, the Company focuses on the operation, office operation and the qualification original documents; during project inspections, the Company requests the suppliers to provide the original documents of relevant contracts to confirm their authenticity.",
+      "bm25_rank": 77,
+      "dense_rank": 4,
+      "bm25_score": 15.642125129699707,
+      "dense_score": 0.5192183256149292,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07992826576928211,
+      "normalized_dense": 0.9236907043546658,
+      "normalized_bm25_rank": 0.4899328859060402,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5842438426310096,
+      "rank": 7,
+      "rrf_score": 0.5842438426310096,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_006",
+      "alias_source_ids": [
+        "P19_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs",
+      "pages": [
+        19
+      ],
+      "text": "此外,因建設單位是工程質量的第一責任人, 本集團已與建築承商訂立合約,以取得彌償 協議及承商對品質保證及遵守監管規定的承 諾,確保其明確及落實自身責任,避免工程缺 陷或不合規事件。本集團亦於各施工階段進行 突擊巡查,從「實測實量」 、 「實體質量」及「安 全文明」三方面對項目進行評估。就突擊巡查 結果,本集團提出改善項目質量的建議,以供 承商及時進行整改,降低質量風險。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs\n\n[Content]\n此外,因建設單位是工程質量的第一責任人, 本集團已與建築承商訂立合約,以取得彌償 協議及承商對品質保證及遵守監管規定的承 諾,確保其明確及落實自身責任,避免工程缺 陷或不合規事件。本集團亦於各施工階段進行 突擊巡查,從「實測實量」 、 「實體質量」及「安 全文明」三方面對項目進行評估。就突擊巡查 結果,本集團提出改善項目質量的建議,以供 承商及時進行整改,降低質量風險。",
+      "bm25_rank": 92,
+      "dense_rank": 2,
+      "bm25_score": 13.241854667663574,
+      "dense_score": 0.5242806673049927,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06237032979731022,
+      "normalized_dense": 0.9448116209306264,
+      "normalized_bm25_rank": 0.38926174496644295,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.5807420259026309,
+      "rank": 8,
+      "rrf_score": 0.5807420259026309,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_005",
+      "alias_source_ids": [
+        "P40_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety",
+      "pages": [
+        40
+      ],
+      "text": "正如本報告「風險管理」一節所述,本集團把 職業健康與安全視為對業務有重大影響的風險 之一。為保障員工及其他工作者均有健康及安 全的工作環境,本集團已制定如 《辦公場所安 全管理作業指導書》 等政策制度,致力降低相 關風險及影響。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety\n\n[Content]\n正如本報告「風險管理」一節所述,本集團把 職業健康與安全視為對業務有重大影響的風險 之一。為保障員工及其他工作者均有健康及安 全的工作環境,本集團已制定如 《辦公場所安 全管理作業指導書》 等政策制度,致力降低相 關風險及影響。",
+      "bm25_rank": 2,
+      "dense_rank": 38,
+      "bm25_score": 140.1253204345703,
+      "dense_score": 0.38723698258399963,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9905206374703037,
+      "normalized_dense": 0.37304297917028806,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.578333599733863,
+      "rank": 9,
+      "rrf_score": 0.578333599733863,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_005",
+      "alias_source_ids": [
+        "P16_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues",
+      "pages": [
+        16
+      ],
+      "text": "The Group regards occupational health and safety as a key area of work, including the identification of safety and health risks in the workplace and the development of measures to protect workers (including sub-contractors) from hazards in order to safeguard the health and safety of employees and workers.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues\n\n[Content]\nThe Group regards occupational health and safety as a key area of work, including the identification of safety and health risks in the workplace and the development of measures to protect workers (including sub-contractors) from hazards in order to safeguard the health and safety of employees and workers.",
+      "bm25_rank": 34,
+      "dense_rank": 11,
+      "bm25_score": 28.541706085205078,
+      "dense_score": 0.4639167785644531,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17428847228113548,
+      "normalized_dense": 0.6929636153343246,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.541824490024583,
+      "rank": 10,
+      "rrf_score": 0.541824490024583,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_003",
+      "alias_source_ids": [
+        "P30_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "重點審核供應商的資 質、企業性質、主營 業務、發展歷史、資 源、信譽、業績、能 力、經營管理模式、 業務覆蓋區域等。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n重點審核供應商的資 質、企業性質、主營 業務、發展歷史、資 源、信譽、業績、能 力、經營管理模式、 業務覆蓋區域等。",
+      "bm25_rank": 50,
+      "dense_rank": 9,
+      "bm25_score": 23.37588119506836,
+      "dense_score": 0.47061118483543396,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1365005545868528,
+      "normalized_dense": 0.7208937719755687,
+      "normalized_bm25_rank": 0.6711409395973154,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.5359887700349941,
+      "rank": 11,
+      "rrf_score": 0.5359887700349941,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_003",
+      "alias_source_ids": [
+        "P40_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety",
+      "pages": [
+        40
+      ],
+      "text": "For project staff and employees, the Group provides them with safety training to enhance their safety awareness and skills. During the Year, the relevant training included the knowledge and skills of on-site edge cave protection, large machinery inspection and the key points of high-risk construction techniques protection. In addition to analysing the consequences of incorrect or negligent use of machinery, the training also explains in detail the potential safety risks in the use of machinery and the daily management process of machinery.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety\n\n[Content]\nFor project staff and employees, the Group provides them with safety training to enhance their safety awareness and skills. During the Year, the relevant training included the knowledge and skills of on-site edge cave protection, large machinery inspection and the key points of high-risk construction techniques protection. In addition to analysing the consequences of incorrect or negligent use of machinery, the training also explains in detail the potential safety risks in the use of machinery and the daily management process of machinery.",
+      "bm25_rank": 30,
+      "dense_rank": 12,
+      "bm25_score": 30.883256912231445,
+      "dense_score": 0.4522504210472107,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19141687516168882,
+      "normalized_dense": 0.6442896658159313,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.5295565701484506,
+      "rank": 12,
+      "rrf_score": 0.5295565701484506,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_004",
+      "alias_source_ids": [
+        "P30_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "本集團以統一標準篩選及評估各供應商及承 商,並制定 《工程類供應商管理作業指導書》 , 規範供應商合作準則,旨在以客觀、公平、公 正及高透明度的原則選取供應商。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n本集團以統一標準篩選及評估各供應商及承 商,並制定 《工程類供應商管理作業指導書》 , 規範供應商合作準則,旨在以客觀、公平、公 正及高透明度的原則選取供應商。",
+      "bm25_rank": 64,
+      "dense_rank": 7,
+      "bm25_score": 18.236255645751953,
+      "dense_score": 0.474403977394104,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09890428460723673,
+      "normalized_dense": 0.7367179221665427,
+      "normalized_bm25_rank": 0.5771812080536913,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.5272965592099386,
+      "rank": 13,
+      "rrf_score": 0.5272965592099386,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_005",
+      "alias_source_ids": [
+        "P11_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management",
+      "pages": [
+        11
+      ],
+      "text": "本集團每年均會識別、監察、評核及管理對本 集團有重大影響的風險,日常風險盤查中亦 括環境及社會風險。例如,本集團持續識別 「職業健康與安全」為重要風險因素,並通過 定期對各項目工作時數、工作環境溫度、有毒 有害物質、噪音及粉塵等的監管與調查,確保 工作環境合乎本集團健康與安全標準。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management\n\n[Content]\n本集團每年均會識別、監察、評核及管理對本 集團有重大影響的風險,日常風險盤查中亦 括環境及社會風險。例如,本集團持續識別 「職業健康與安全」為重要風險因素,並通過 定期對各項目工作時數、工作環境溫度、有毒 有害物質、噪音及粉塵等的監管與調查,確保 工作環境合乎本集團健康與安全標準。",
+      "bm25_rank": 7,
+      "dense_rank": 33,
+      "bm25_score": 92.54403686523438,
+      "dense_score": 0.396651953458786,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6424643898148001,
+      "normalized_dense": 0.4123237758027587,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.5258263337221135,
+      "rank": 14,
+      "rrf_score": 0.5258263337221135,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P42_001",
+      "alias_source_ids": [
+        "P42_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系",
+      "pages": [
+        42
+      ],
+      "text": "Training implementation consists of ten parts, including (1) plan decomposition, (2) training approval, (3) training contract, (4) training notice, (5) training project creation, (6) training attendance, (7) training discipline, (8) training evaluation, (9) training report and (10) training file. Each training must be strictly implemented in accordance with the training implementation steps.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系\n\n[Content]\nTraining implementation consists of ten parts, including (1) plan decomposition, (2) training approval, (3) training contract, (4) training notice, (5) training project creation, (6) training attendance, (7) training discipline, (8) training evaluation, (9) training report and (10) training file. Each training must be strictly implemented in accordance with the training implementation steps.",
+      "bm25_rank": 19,
+      "dense_rank": 21,
+      "bm25_score": 45.5783576965332,
+      "dense_score": 0.4288162887096405,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2989112774606577,
+      "normalized_dense": 0.5465186372219225,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.5121376040231601,
+      "rank": 15,
+      "rrf_score": 0.5121376040231601,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_004",
+      "alias_source_ids": [
+        "P19_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs",
+      "pages": [
+        19
+      ],
+      "text": "本集團已制定質量監控程式,透過內部團隊和 獨立監察公司進行定期監控,確保項目的每一 個階段均符合相關規例和本集團標準,為大眾 提供優質安全的建築。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs\n\n[Content]\n本集團已制定質量監控程式,透過內部團隊和 獨立監察公司進行定期監控,確保項目的每一 個階段均符合相關規例和本集團標準,為大眾 提供優質安全的建築。",
+      "bm25_rank": 11,
+      "dense_rank": 31,
+      "bm25_score": 69.62342834472656,
+      "dense_score": 0.4061722755432129,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4748005439245651,
+      "normalized_dense": 0.45204411489329005,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.5061956832257525,
+      "rank": 16,
+      "rrf_score": 0.5061956832257525,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_001",
+      "alias_source_ids": [
+        "P26_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        26
+      ],
+      "text": "In order to maintain a good business discipline, the Group signs the 'Employee Integrity Commitment' with employees to ensure that they are aware of and comply with the Group's anti-corruption requirements when performing their duties. Prior to cooperation with each supplier and contractor, the Group conducts integrity conduct investigations and requires external parties to sign the 'Integrity Management Agreement' with the Group to ensure that both parties are honest and trustworthy in the business exchange process. The Internal Audit and Compliance Department also monitors suppliers and contractors on an ongoing basis and will cease cooperation and blacklist them if any violations are found, including bribery.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nIn order to maintain a good business discipline, the Group signs the 'Employee Integrity Commitment' with employees to ensure that they are aware of and comply with the Group's anti-corruption requirements when performing their duties. Prior to cooperation with each supplier and contractor, the Group conducts integrity conduct investigations and requires external parties to sign the 'Integrity Management Agreement' with the Group to ensure that both parties are honest and trustworthy in the business exchange process. The Internal Audit and Compliance Department also monitors suppliers and contractors on an ongoing basis and will cease cooperation and blacklist them if any violations are found, including bribery.",
+      "bm25_rank": 47,
+      "dense_rank": 13,
+      "bm25_score": 23.95263671875,
+      "dense_score": 0.4500095844268799,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14071951104049055,
+      "normalized_dense": 0.6349405293458937,
+      "normalized_bm25_rank": 0.6912751677852349,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.5033932217073488,
+      "rank": 17,
+      "rrf_score": 0.5033932217073488,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P42_002",
+      "alias_source_ids": [
+        "P42_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系",
+      "pages": [
+        42
+      ],
+      "text": "培訓實施共十部份構成,含 (1) 計劃分解、 (2) 培訓審批、 (3) 培訓合同、 (4) 培訓通知、 (5) 培訓項目創建、 (6) 培訓考勤、 (7) 培訓紀律、 (8) 培訓評 估、 (9) 培訓報告及 (10) 培訓檔案組成。每次培訓需按照培訓實施步驟嚴 格執行。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系\n\n[Content]\n培訓實施共十部份構成,含 (1) 計劃分解、 (2) 培訓審批、 (3) 培訓合同、 (4) 培訓通知、 (5) 培訓項目創建、 (6) 培訓考勤、 (7) 培訓紀律、 (8) 培訓評 估、 (9) 培訓報告及 (10) 培訓檔案組成。每次培訓需按照培訓實施步驟嚴 格執行。",
+      "bm25_rank": 24,
+      "dense_rank": 25,
+      "bm25_score": 36.17809295654297,
+      "dense_score": 0.41324862837791443,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.23014850716671206,
+      "normalized_dense": 0.48156781499776063,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.4669274299711492,
+      "rank": 18,
+      "rrf_score": 0.4669274299711492,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_001",
+      "alias_source_ids": [
+        "P30_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "The Group selects all suppliers and contractors under unified standards and formulates 'Supplier in Construction Category Management Operation Guide' to standardise the cooperation guidelines with suppliers, aiming to select suppliers in an objective, fair, just and high transparent manner.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nThe Group selects all suppliers and contractors under unified standards and formulates 'Supplier in Construction Category Management Operation Guide' to standardise the cooperation guidelines with suppliers, aiming to select suppliers in an objective, fair, just and high transparent manner.",
+      "bm25_rank": null,
+      "dense_rank": 5,
+      "bm25_score": null,
+      "dense_score": 0.4839209318161011,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7764242108192351,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.4663793462699538,
+      "rank": 19,
+      "rrf_score": 0.4663793462699538,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_003",
+      "alias_source_ids": [
+        "P26_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        26
+      ],
+      "text": "為維持良好的商業紀律,本集團與員工簽署 《員工廉潔從業承諾書》 ,確保員工在履行職責 時瞭解並遵守本集團的反貪污工作規定。與各 供應商及承商合作之前,本集團會進行廉潔 行為調查,並要求外部方與本集團簽署 《廉政 管理協議書》 ,確保雙方人員在業務交流過程 中能保持誠信。審計監察部也會對供應商及承 商進行持續監察,如發現任何括行賄受賄 在內的違法違規行為,便會停止與他們的合 作,並將其納入黑名單。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n為維持良好的商業紀律,本集團與員工簽署 《員工廉潔從業承諾書》 ,確保員工在履行職責 時瞭解並遵守本集團的反貪污工作規定。與各 供應商及承商合作之前,本集團會進行廉潔 行為調查,並要求外部方與本集團簽署 《廉政 管理協議書》 ,確保雙方人員在業務交流過程 中能保持誠信。審計監察部也會對供應商及承 商進行持續監察,如發現任何括行賄受賄 在內的違法違規行為,便會停止與他們的合 作,並將其納入黑名單。",
+      "bm25_rank": 38,
+      "dense_rank": 23,
+      "bm25_score": 26.760520935058594,
+      "dense_score": 0.42172253131866455,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16125913441478118,
+      "normalized_dense": 0.5169223224652575,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.4588122236384138,
+      "rank": 20,
+      "rrf_score": 0.4588122236384138,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_005",
+      "alias_source_ids": [
+        "P19_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs",
+      "pages": [
+        19
+      ],
+      "text": "於施工開始前,本集團依照 《中駿集團工程項 目管理手冊》 的指引,由工程部透過檢視項目 設計,識別潛在質量通病,並制定相關工程質 量目標,以避免意外發生。於施工期間,工程 師負責監督承商整個工序過程,並於各階段 檢查工程採用平行檢驗方式進行質量檢查,以 便及時糾正質量問題,並將質量巡視結果紀錄 於 《施工日記》 中,以便日後查閱。向買家交付 物業前,客戶服務管理部門會連同質量監督公 司作最後檢查,以確保物業質量達到指定標 準。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs\n\n[Content]\n於施工開始前,本集團依照 《中駿集團工程項 目管理手冊》 的指引,由工程部透過檢視項目 設計,識別潛在質量通病,並制定相關工程質 量目標,以避免意外發生。於施工期間,工程 師負責監督承商整個工序過程,並於各階段 檢查工程採用平行檢驗方式進行質量檢查,以 便及時糾正質量問題,並將質量巡視結果紀錄 於 《施工日記》 中,以便日後查閱。向買家交付 物業前,客戶服務管理部門會連同質量監督公 司作最後檢查,以確保物業質量達到指定標 準。",
+      "bm25_rank": 83,
+      "dense_rank": 16,
+      "bm25_score": 14.642156600952148,
+      "dense_score": 0.4438464045524597,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07261351366970298,
+      "normalized_dense": 0.6092267360186331,
+      "normalized_bm25_rank": 0.44966442953020136,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.45258427510556287,
+      "rank": 21,
+      "rrf_score": 0.45258427510556287,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P42_003",
+      "alias_source_ids": [
+        "P42_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系",
+      "pages": [
+        42
+      ],
+      "text": "Every December, each project company is required to review and submit an annual training summary report, which mainly includes training cost analysis, training effect analysis, internal instructor analysis, external training institution analysis, course setting analysis, and employee personal training analysis etc.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系\n\n[Content]\nEvery December, each project company is required to review and submit an annual training summary report, which mainly includes training cost analysis, training effect analysis, internal instructor analysis, external training institution analysis, course setting analysis, and employee personal training analysis etc.",
+      "bm25_rank": 53,
+      "dense_rank": 22,
+      "bm25_score": 20.93792724609375,
+      "dense_score": 0.42526909708976746,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11866696457450035,
+      "normalized_dense": 0.5317191742719324,
+      "normalized_bm25_rank": 0.651006711409396,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.4467478555879288,
+      "rank": 22,
+      "rrf_score": 0.4467478555879288,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_002",
+      "alias_source_ids": [
+        "P19_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs",
+      "pages": [
+        19
+      ],
+      "text": "Before construction, the Group's construction department identifies potential quality deficiencies in the project design in accordance with the guidelines of the 'China SCE Handbook of Construction Project Management' and sets relevant project quality objectives to avoid accidents. During the construction period, the engineers supervise the process of the contractors and adopt the parallel inspection method to conduct quality inspection at each stage of the inspection works to rectify the quality problems in a timely manner and quality inspection results are recorded in 'Construction Daily Log Book' for future reference. Before the property is delivered to the buyer, the customer service management department will conduct a final inspection together with the quality supervision company to ensure that the quality of the property meets the specified standards.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs\n\n[Content]\nBefore construction, the Group's construction department identifies potential quality deficiencies in the project design in accordance with the guidelines of the 'China SCE Handbook of Construction Project Management' and sets relevant project quality objectives to avoid accidents. During the construction period, the engineers supervise the process of the contractors and adopt the parallel inspection method to conduct quality inspection at each stage of the inspection works to rectify the quality problems in a timely manner and quality inspection results are recorded in 'Construction Daily Log Book' for future reference. Before the property is delivered to the buyer, the customer service management department will conduct a final inspection together with the quality supervision company to ensure that the quality of the property meets the specified standards.",
+      "bm25_rank": 100,
+      "dense_rank": 14,
+      "bm25_score": 12.584942817687988,
+      "dense_score": 0.4475080668926239,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05756503123469877,
+      "normalized_dense": 0.6245037895149913,
+      "normalized_bm25_rank": 0.3355704697986577,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4461967151275223,
+      "rank": 23,
+      "rrf_score": 0.4461967151275223,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_003",
+      "alias_source_ids": [
+        "P28_003"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Intellectual Property Rights Protection",
+      "pages": [
+        28
+      ],
+      "text": "Contractors are inspected at different stages of the construction project to ensure that the construction process is in compliance with contractual requirements and does not infringe on any aspect of architectural design, equipment technology and construction techniques etc.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Intellectual Property Rights Protection\n\n[Content]\nContractors are inspected at different stages of the construction project to ensure that the construction process is in compliance with contractual requirements and does not infringe on any aspect of architectural design, equipment technology and construction techniques etc.",
+      "bm25_rank": null,
+      "dense_rank": 10,
+      "bm25_score": null,
+      "dense_score": 0.4705915153026581,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7208117074713762,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.44020356070223,
+      "rank": 24,
+      "rrf_score": 0.44020356070223,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_002",
+      "alias_source_ids": [
+        "P40_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety",
+      "pages": [
+        40
+      ],
+      "text": "The 'Guidance Notes on Management in Workplace' sets out measures to maintain a safe office environment, including daily inspection of office power and facilities in common areas, regular office air quality checks, and quarterly overall inspection to identify and eliminate safety hazards in a timely manner. The Administration Department manages and supervises the 5S process of organising, tidying, cleaning, sanitising and discipline in the workplace to ensure that staff comply with safety requirements.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety\n\n[Content]\nThe 'Guidance Notes on Management in Workplace' sets out measures to maintain a safe office environment, including daily inspection of office power and facilities in common areas, regular office air quality checks, and quarterly overall inspection to identify and eliminate safety hazards in a timely manner. The Administration Department manages and supervises the 5S process of organising, tidying, cleaning, sanitising and discipline in the workplace to ensure that staff comply with safety requirements.",
+      "bm25_rank": 27,
+      "dense_rank": 32,
+      "bm25_score": 31.75806427001953,
+      "dense_score": 0.4058842062950134,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19781607550964606,
+      "normalized_dense": 0.4508422429273453,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.43829759744193636,
+      "rank": 25,
+      "rrf_score": 0.43829759744193636,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_006",
+      "alias_source_ids": [
+        "P17_006"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues",
+      "pages": [
+        17
+      ],
+      "text": "作為物業項目發展商,中駿高度重視項目質量及安全。本集團與供應 商維持緊密溝通,確保物業質量。此外,本集團亦會妥善應對客戶投 訴,尊重知識產權,並有責任保護客戶資料和隱私。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues\n\n[Content]\n作為物業項目發展商,中駿高度重視項目質量及安全。本集團與供應 商維持緊密溝通,確保物業質量。此外,本集團亦會妥善應對客戶投 訴,尊重知識產權,並有責任保護客戶資料和隱私。",
+      "bm25_rank": 14,
+      "dense_rank": 46,
+      "bm25_score": 63.801116943359375,
+      "dense_score": 0.3804164230823517,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4322104390130678,
+      "normalized_dense": 0.344586490640792,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.697986577181208,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4379198427483673,
+      "rank": 26,
+      "rrf_score": 0.4379198427483673,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_002",
+      "alias_source_ids": [
+        "P11_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management",
+      "pages": [
+        11
+      ],
+      "text": "The Group identifies, monitors, evaluates and manages risks that have a significant impact on the Group on an annual basis. Environmental and social risks are also included in the daily risk review. For example, the Group continuously identifies 'Occupational Health and Safety' as a key risk factor and ensures that the working environment meets the Group's health and safety standards through regular monitoring and investigation of working hours, temperature of working environment, toxic and hazardous substances, noise and dust at each project.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management\n\n[Content]\nThe Group identifies, monitors, evaluates and manages risks that have a significant impact on the Group on an annual basis. Environmental and social risks are also included in the daily risk review. For example, the Group continuously identifies 'Occupational Health and Safety' as a key risk factor and ensures that the working environment meets the Group's health and safety standards through regular monitoring and investigation of working hours, temperature of working environment, toxic and hazardous substances, noise and dust at each project.",
+      "bm25_rank": 57,
+      "dense_rank": 29,
+      "bm25_score": 20.529067993164062,
+      "dense_score": 0.4082490801811218,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11567616637153533,
+      "normalized_dense": 0.4607088831344264,
+      "normalized_bm25_rank": 0.6241610738255033,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.40921555713645696,
+      "rank": 27,
+      "rrf_score": 0.40921555713645696,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_004",
+      "alias_source_ids": [
+        "P28_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Intellectual Property Rights Protection",
+      "pages": [
+        28
+      ],
+      "text": "於建築工程不同階段均會檢查承商施工情況,確保施工過程合乎合約要求,不會侵犯任何建築設計、設備技術及施 工工藝等範疇。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Intellectual Property Rights Protection\n\n[Content]\n於建築工程不同階段均會檢查承商施工情況,確保施工過程合乎合約要求,不會侵犯任何建築設計、設備技術及施 工工藝等範疇。",
+      "bm25_rank": 127,
+      "dense_rank": 18,
+      "bm25_score": 7.506716251373291,
+      "dense_score": 0.43615612387657166,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.02041789372966795,
+      "normalized_dense": 0.5771416286620974,
+      "normalized_bm25_rank": 0.15436241610738255,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.3987005984420972,
+      "rank": 28,
+      "rrf_score": 0.3987005984420972,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_002",
+      "alias_source_ids": [
+        "L30_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "We focus on auditing the suppliers' qualifications, business nature, main business, development history, resources, reputation, performance, capabilities, business management model, business coverage areas and other aspects",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nWe focus on auditing the suppliers' qualifications, business nature, main business, development history, resources, reputation, performance, capabilities, business management model, business coverage areas and other aspects",
+      "bm25_rank": null,
+      "dense_rank": 15,
+      "bm25_score": null,
+      "dense_score": 0.4452315866947174,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6150059422161445,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.39646013346692577,
+      "rank": 29,
+      "rrf_score": 0.39646013346692577,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_001",
+      "alias_source_ids": [
+        "P40_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety",
+      "pages": [
+        40
+      ],
+      "text": "As stated in the section headed 'Risk Management' of this Report, the Group considers occupational health and safety as one of the risks that have a significant impact on its business. In order to ensure a healthy and safe working environment for our staff and other employees, the Group has established policies and systems such as the 'Guidance Notes on Safety Management in Workplace' in an effort to minimise the associated risks and impacts.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety\n\n[Content]\nAs stated in the section headed 'Risk Management' of this Report, the Group considers occupational health and safety as one of the risks that have a significant impact on its business. In order to ensure a healthy and safe working environment for our staff and other employees, the Group has established policies and systems such as the 'Guidance Notes on Safety Management in Workplace' in an effort to minimise the associated risks and impacts.",
+      "bm25_rank": 41,
+      "dense_rank": 36,
+      "bm25_score": 25.96955108642578,
+      "dense_score": 0.3900558650493622,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15547320396331268,
+      "normalized_dense": 0.38480381734231867,
+      "normalized_bm25_rank": 0.7315436241610738,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.3919504735067694,
+      "rank": 30,
+      "rrf_score": 0.3919504735067694,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L30_001",
+      "alias_source_ids": [
+        "L30_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "Supplier sourcing methods are not limited, including internal recommendations and recommendations from collaborators, recommendation information should be in written form, while the suppliers listed on the blacklist of the governmental or renowned developers are strictly prohibited",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nSupplier sourcing methods are not limited, including internal recommendations and recommendations from collaborators, recommendation information should be in written form, while the suppliers listed on the blacklist of the governmental or renowned developers are strictly prohibited",
+      "bm25_rank": 133,
+      "dense_rank": 19,
+      "bm25_score": 6.6574320793151855,
+      "dense_score": 0.4336566925048828,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.014205395033851856,
+      "normalized_dense": 0.5667135926422457,
+      "normalized_bm25_rank": 0.11409395973154357,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.3884391585792074,
+      "rank": 31,
+      "rrf_score": 0.3884391585792074,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_002",
+      "alias_source_ids": [
+        "P28_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Intellectual Property Rights Protection",
+      "pages": [
+        28
+      ],
+      "text": "在運營過程中,本集團致力保護及妥善管理項 目設計及營銷階段時會涉及知識產權事宜。本 集團要求員工遵守 《員工手冊》 ,承商遵守 《施工合同》 相關條款,以及要求供應商遵守營 銷合同的相關條款。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Intellectual Property Rights Protection\n\n[Content]\n在運營過程中,本集團致力保護及妥善管理項 目設計及營銷階段時會涉及知識產權事宜。本 集團要求員工遵守 《員工手冊》 ,承商遵守 《施工合同》 相關條款,以及要求供應商遵守營 銷合同的相關條款。",
+      "bm25_rank": 40,
+      "dense_rank": 39,
+      "bm25_score": 25.969831466674805,
+      "dense_score": 0.3857152462005615,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1554752549398747,
+      "normalized_dense": 0.36669404636942904,
+      "normalized_bm25_rank": 0.738255033557047,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.3822567591635838,
+      "rank": 32,
+      "rrf_score": 0.3822567591635838,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_001",
+      "alias_source_ids": [
+        "P29_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Standards of Cooperation",
+      "pages": [
+        29
+      ],
+      "text": "In the process of continuous development of China SCE, the supplier base continues to expand and the performance of many suppliers and contractors is also closely related to the operation of the Group. During the Year, the Group had 3,717 suppliers, with a geographical distribution as follows:",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Standards of Cooperation\n\n[Content]\nIn the process of continuous development of China SCE, the supplier base continues to expand and the performance of many suppliers and contractors is also closely related to the operation of the Group. During the Year, the Group had 3,717 suppliers, with a geographical distribution as follows:",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.43668919801712036,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5793657010658687,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.38130148530594,
+      "rank": 33,
+      "rrf_score": 0.38130148530594,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_002",
+      "alias_source_ids": [
+        "P31_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        31
+      ],
+      "text": "為適應市場形勢的需要及企業當前發展的要 求,本集團清晰認識到,與供應商的合作應從 單純利益需要向長期的夥伴、甚至戰略聯盟轉 型,才能高質高效地支持業務規模化發展。共 同的發展理念是形成具備信任與共贏的夥伴及 聯盟關係的必備條件,括對可持續發展的追 求。目前,本集團已將供應商環境保護風險及 社會及管治風險作為供應商合作評審標準之 一,進行標準化管理,以更有效地減少供應鏈 對本集團運營的負面影響。此外,本集團鼓勵 承商和分商使用更環保的設備及設施,以 及採用更環保的新技術,希望在施工階段,與 施工單位一起防止污染及減少資源使用,減低 對環境的影響。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n為適應市場形勢的需要及企業當前發展的要 求,本集團清晰認識到,與供應商的合作應從 單純利益需要向長期的夥伴、甚至戰略聯盟轉 型,才能高質高效地支持業務規模化發展。共 同的發展理念是形成具備信任與共贏的夥伴及 聯盟關係的必備條件,括對可持續發展的追 求。目前,本集團已將供應商環境保護風險及 社會及管治風險作為供應商合作評審標準之 一,進行標準化管理,以更有效地減少供應鏈 對本集團運營的負面影響。此外,本集團鼓勵 承商和分商使用更環保的設備及設施,以 及採用更環保的新技術,希望在施工階段,與 施工單位一起防止污染及減少資源使用,減低 對環境的影響。",
+      "bm25_rank": 106,
+      "dense_rank": 26,
+      "bm25_score": 11.471302032470703,
+      "dense_score": 0.4125291109085083,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04941876858976554,
+      "normalized_dense": 0.4785658705663719,
+      "normalized_bm25_rank": 0.2953020134228188,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.37335496277859936,
+      "rank": 34,
+      "rrf_score": 0.37335496277859936,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_001",
+      "alias_source_ids": [
+        "P31_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        31
+      ],
+      "text": "In order to meet the market needs and the current requirements of corporate development, the Group clearly recognises that the cooperation with suppliers should be transformed from a purely beneficial need to a long-term partnership or even a strategic alliance in order to support the large-scale development of the business in a high quality and efficient manner. A shared vision of development is a prerequisite for the formation of trusting and win-win partnerships and alliances, including the pursuit of sustainable development. Currently, the Group has regarded environmental protection risk and social and governance risk of suppliers as one of the criteria for the review of supplier cooperation, and standardised management is carried out to more effectively reduce the negative impact of the supply chain on the Group's operation. In addition, the Group encourages contractors and subcontractors to use more eco-friendly equipment and facilities, as well as adopt new eco-friendly technologies, hoping to prevent pollution and reduce resource utilisation together with the construction unit during the construction stage, so as to reduce the impact on the environment.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nIn order to meet the market needs and the current requirements of corporate development, the Group clearly recognises that the cooperation with suppliers should be transformed from a purely beneficial need to a long-term partnership or even a strategic alliance in order to support the large-scale development of the business in a high quality and efficient manner. A shared vision of development is a prerequisite for the formation of trusting and win-win partnerships and alliances, including the pursuit of sustainable development. Currently, the Group has regarded environmental protection risk and social and governance risk of suppliers as one of the criteria for the review of supplier cooperation, and standardised management is carried out to more effectively reduce the negative impact of the supply chain on the Group's operation. In addition, the Group encourages contractors and subcontractors to use more eco-friendly equipment and facilities, as well as adopt new eco-friendly technologies, hoping to prevent pollution and reduce resource utilisation together with the construction unit during the construction stage, so as to reduce the impact on the environment.",
+      "bm25_rank": null,
+      "dense_rank": 20,
+      "bm25_score": null,
+      "dense_score": 0.4299229383468628,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5511357603040067,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.36739416040170436,
+      "rank": 35,
+      "rrf_score": 0.36739416040170436,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_002",
+      "alias_source_ids": [
+        "P30_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        30
+      ],
+      "text": "供應商資源收集方式 不限,括內部推薦 及協力廠商推薦,推 薦資料應為書面形 式,嚴禁收集政府╱ 知名開發商黑名單上 的資源。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n供應商資源收集方式 不限,括內部推薦 及協力廠商推薦,推 薦資料應為書面形 式,嚴禁收集政府╱ 知名開發商黑名單上 的資源。",
+      "bm25_rank": 33,
+      "dense_rank": 51,
+      "bm25_score": 29.060640335083008,
+      "dense_score": 0.37539148330688477,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17808446713968604,
+      "normalized_dense": 0.3236216209629548,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.36029385673812575,
+      "rank": 36,
+      "rrf_score": 0.36029385673812575,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_005",
+      "alias_source_ids": [
+        "P17_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues",
+      "pages": [
+        17
+      ],
+      "text": "As a property project developer, China SCE attaches great importance to project quality and safety. The Group maintains close communication with the suppliers to ensure the quality of the properties. The Group also responds appropriately to customer complaints, respects intellectual property rights and has the responsibility to protect customer data and privacy.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Significant Material Issues\n\n[Content]\nAs a property project developer, China SCE attaches great importance to project quality and safety. The Group maintains close communication with the suppliers to ensure the quality of the properties. The Group also responds appropriately to customer complaints, respects intellectual property rights and has the responsibility to protect customer data and privacy.",
+      "bm25_rank": 68,
+      "dense_rank": 37,
+      "bm25_score": 16.612001419067383,
+      "dense_score": 0.3891785740852356,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08702289367009196,
+      "normalized_dense": 0.38114361611518077,
+      "normalized_bm25_rank": 0.5503355704697986,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.3575162537703048,
+      "rank": 37,
+      "rrf_score": 0.3575162537703048,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_008",
+      "alias_source_ids": [
+        "P40_008"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety",
+      "pages": [
+        40
+      ],
+      "text": "於本年度,本集團有 12 4 例工傷個案,其中 3 例為通勤過程中的交通意外,其他則為不慎摔 傷。本集團已向受傷員工提供支援,並確保他 們得到了及時治療。此外,相關培訓也有所調 整與加強,以避免同類事件的再次發生。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protection of Health and Safety\n\n[Content]\n於本年度,本集團有 12 4 例工傷個案,其中 3 例為通勤過程中的交通意外,其他則為不慎摔 傷。本集團已向受傷員工提供支援,並確保他 們得到了及時治療。此外,相關培訓也有所調 整與加強,以避免同類事件的再次發生。",
+      "bm25_rank": 43,
+      "dense_rank": 48,
+      "bm25_score": 24.94046974182129,
+      "dense_score": 0.37735623121261597,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14794549213070987,
+      "normalized_dense": 0.3318188702105104,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 43,
+      "composite_score": 0.3544505352145857,
+      "rank": 38,
+      "rrf_score": 0.3544505352145857,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_002",
+      "alias_source_ids": [
+        "P20_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Enhance Customer Experience",
+      "pages": [
+        20
+      ],
+      "text": "本集團用心保障項目質量,亦重視完善的客服 管理,持續關注客戶對項目的意見。 《營銷巡 檢管理業務手冊》 制訂了不同巡檢體系,務求 提升業主認購體驗。巡檢體系括神秘客戶巡 檢、專項巡檢、開售前巡檢及城市月度自檢 等,此等體系致力於維持本集團不同營銷階段 的質量保證。而為優化從簽約到交房之間「等 待期」的客服工作,本集團二零二零年起組建 「友鄰會」 。這一舉措將客戶服務主動前置,增 加了交房前客服與業主的溝通,保證他們獲取 及時且真實的信息,有助順利交付。本年度, 「友鄰會」已累計在 36 個項目中組建。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Enhance Customer Experience\n\n[Content]\n本集團用心保障項目質量,亦重視完善的客服 管理,持續關注客戶對項目的意見。 《營銷巡 檢管理業務手冊》 制訂了不同巡檢體系,務求 提升業主認購體驗。巡檢體系括神秘客戶巡 檢、專項巡檢、開售前巡檢及城市月度自檢 等,此等體系致力於維持本集團不同營銷階段 的質量保證。而為優化從簽約到交房之間「等 待期」的客服工作,本集團二零二零年起組建 「友鄰會」 。這一舉措將客戶服務主動前置,增 加了交房前客服與業主的溝通,保證他們獲取 及時且真實的信息,有助順利交付。本年度, 「友鄰會」已累計在 36 個項目中組建。",
+      "bm25_rank": 49,
+      "dense_rank": 49,
+      "bm25_score": 23.439359664916992,
+      "dense_score": 0.3757016956806183,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13696489847093976,
+      "normalized_dense": 0.3249158776661949,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 49,
+      "composite_score": 0.34446924157534276,
+      "rank": 39,
+      "rrf_score": 0.34446924157534276,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P29_002",
+      "alias_source_ids": [
+        "P29_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Standards of Cooperation",
+      "pages": [
+        29
+      ],
+      "text": "中駿在持續發展的過程中,供應商庫不斷擴 張,而眾多供應商及承商的表現也與本集團 的經營息息相關。本年度,本集團共有 3,717 名供應商,地區分佈如下:",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Maintenance of High Standards of Cooperation\n\n[Content]\n中駿在持續發展的過程中,供應商庫不斷擴 張,而眾多供應商及承商的表現也與本集團 的經營息息相關。本年度,本集團共有 3,717 名供應商,地區分佈如下:",
+      "bm25_rank": 98,
+      "dense_rank": 35,
+      "bm25_score": 12.600934982299805,
+      "dense_score": 0.3913484215736389,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05768201363595255,
+      "normalized_dense": 0.39019657432917865,
+      "normalized_bm25_rank": 0.3489932885906041,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.3373669487088459,
+      "rank": 40,
+      "rrf_score": 0.3373669487088459,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P42_004",
+      "alias_source_ids": [
+        "P42_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系",
+      "pages": [
+        42
+      ],
+      "text": "每年十二月,各項目公司需進行複盤並提報年度培訓總結報告,內容主 要括培訓費用分析、培訓效果分析、內部講師分析、外部培訓機構分 析、課程設置分析、員工個人培訓情況分析等。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / China SCE's Training Management System 中駿培訓管理體系\n\n[Content]\n每年十二月,各項目公司需進行複盤並提報年度培訓總結報告,內容主 要括培訓費用分析、培訓效果分析、內部講師分析、外部培訓機構分 析、課程設置分析、員工個人培訓情況分析等。",
+      "bm25_rank": 82,
+      "dense_rank": 40,
+      "bm25_score": 14.804459571838379,
+      "dense_score": 0.38562241196632385,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07380075703079648,
+      "normalized_dense": 0.36630672677767256,
+      "normalized_bm25_rank": 0.4563758389261745,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 40,
+      "composite_score": 0.3362560963823716,
+      "rank": 41,
+      "rrf_score": 0.3362560963823716,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T72_002",
+      "alias_source_ids": [
+        "T72_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        72
+      ],
+      "text": "General Disclosure | Information on: | 10-11, 33 一般披露 | 有關防止童工或強制勞工的: (a) 政策;及 B4.1 | Description of measures to review employment practices to avoid child and forced labour. | 33 B4.2 | Description of steps taken to eliminate such practices when discovered. | 33",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nGeneral Disclosure | Information on: | 10-11, 33 一般披露 | 有關防止童工或強制勞工的: (a) 政策;及 B4.1 | Description of measures to review employment practices to avoid child and forced labour. | 33 B4.2 | Description of steps taken to eliminate such practices when discovered. | 33",
+      "bm25_rank": 111,
+      "dense_rank": 34,
+      "bm25_score": 10.644121170043945,
+      "dense_score": 0.3943307399749756,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04336795521292248,
+      "normalized_dense": 0.40263929392695313,
+      "normalized_bm25_rank": 0.261744966442953,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.33147653854789055,
+      "rank": 42,
+      "rrf_score": 0.33147653854789055,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_004",
+      "alias_source_ids": [
+        "P31_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        31
+      ],
+      "text": "中駿深明維護員工的權益及發展不僅是業務需 要,而是一個必須實現的基本目標。為了履行 企業責任,本集團以人為本,形成了一套獨特 的選人用人機制,創造尊重平等參與及多元化 的工作環境,並保障工作者的健康與安全。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n中駿深明維護員工的權益及發展不僅是業務需 要,而是一個必須實現的基本目標。為了履行 企業責任,本集團以人為本,形成了一套獨特 的選人用人機制,創造尊重平等參與及多元化 的工作環境,並保障工作者的健康與安全。",
+      "bm25_rank": 13,
+      "dense_rank": 76,
+      "bm25_score": 66.60565185546875,
+      "dense_score": 0.33017587661743164,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4527255622863863,
+      "normalized_dense": 0.13497472288930717,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.49664429530201337,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.3290614332537697,
+      "rank": 43,
+      "rrf_score": 0.3290614332537697,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_001",
+      "alias_source_ids": [
+        "P19_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs",
+      "pages": [
+        19
+      ],
+      "text": "The Group has established a quality monitoring program, which is regularly monitored by an internal team and an independent monitoring company, to ensure that each stage of the project complies with relevant regulations and the Group's standards, so as to provide the public with high-quality and safe buildings.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Dedication to Customer Needs\n\n[Content]\nThe Group has established a quality monitoring program, which is regularly monitored by an internal team and an independent monitoring company, to ensure that each stage of the project complies with relevant regulations and the Group's standards, so as to provide the public with high-quality and safe buildings.",
+      "bm25_rank": null,
+      "dense_rank": 28,
+      "bm25_score": null,
+      "dense_score": 0.40965166687965393,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4665607039841322,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.32705463565619125,
+      "rank": 44,
+      "rrf_score": 0.32705463565619125,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_004",
+      "alias_source_ids": [
+        "P11_004"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management",
+      "pages": [
+        11
+      ],
+      "text": "風險管理是持續的過程,是中駿日常業務運作 中不可或缺的一環。本集團嚴格遵守 《中華人 民共和國公司法》 及聯交所 《上市規則》 等法律 及規例,建立由董事會全面負責,責任部門及 具體崗位落實執行的風險管理和內部監控系 統。全方位及多角度的風險管理加強公司未來 業務發展,並為持份者締造長遠價值。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Risk Management\n\n[Content]\n風險管理是持續的過程,是中駿日常業務運作 中不可或缺的一環。本集團嚴格遵守 《中華人 民共和國公司法》 及聯交所 《上市規則》 等法律 及規例,建立由董事會全面負責,責任部門及 具體崗位落實執行的風險管理和內部監控系 統。全方位及多角度的風險管理加強公司未來 業務發展,並為持份者締造長遠價值。",
+      "bm25_rank": 36,
+      "dense_rank": 57,
+      "bm25_score": 27.814558029174805,
+      "dense_score": 0.35691726207733154,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1689693971136258,
+      "normalized_dense": 0.24654415182231693,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.32142661443973075,
+      "rank": 45,
+      "rrf_score": 0.32142661443973075,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_005",
+      "alias_source_ids": [
+        "P28_005"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Intellectual Property Rights Protection",
+      "pages": [
+        28
+      ],
+      "text": "It is stated that both China SCE and its contractors shall be responsible for the protection of intellectual property rights and shall not infringe on the patents of the construction works.",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Intellectual Property Rights Protection\n\n[Content]\nIt is stated that both China SCE and its contractors shall be responsible for the protection of intellectual property rights and shall not infringe on the patents of the construction works.",
+      "bm25_rank": null,
+      "dense_rank": 30,
+      "bm25_score": null,
+      "dense_score": 0.4075433611869812,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4577645081961302,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.32129140337200124,
+      "rank": 46,
+      "rrf_score": 0.32129140337200124,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T73_002",
+      "alias_source_ids": [
+        "T73_002"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        73
+      ],
+      "text": "General Disclosure | Policies on managing environmental and social risks of the supply chain. | 29-30 一般披露 | 管理供應鏈的環境及社會風險政策。 B5.1 | Number of suppliers by geographical region. | 28, 65 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | 29-30 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 29-30 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. 描述在揀選供應商時促使多用環保產品及服務的慣例,以及 相關執行及監察方法。 | 30",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nGeneral Disclosure | Policies on managing environmental and social risks of the supply chain. | 29-30 一般披露 | 管理供應鏈的環境及社會風險政策。 B5.1 | Number of suppliers by geographical region. | 28, 65 B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | 29-30 B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | 29-30 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. 描述在揀選供應商時促使多用環保產品及服務的慣例,以及 相關執行及監察方法。 | 30",
+      "bm25_rank": 81,
+      "dense_rank": 47,
+      "bm25_score": 14.922134399414062,
+      "dense_score": 0.3794938921928406,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07466154631299013,
+      "normalized_dense": 0.3407375410540116,
+      "normalized_bm25_rank": 0.46308724832214765,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.31875420702076385,
+      "rank": 47,
+      "rrf_score": 0.31875420702076385,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T63_001",
+      "alias_source_ids": [
+        "T63_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        63
+      ],
+      "text": "2021 二零二一年 | 2020 二零二零年 Regional Headquarters | companies | Headquarters 總部 區域公司 | 總部 Employee turnover rate 19 流失員工比率 19 Gender | Male | 43% | 72% | 34% 性別 | 男性 Female | 39% | 75% | 34% Age 年齡 | Under 30 30 歲以下 | 50% | 83% | 49% 30-50 | 39% | 67% | 29% Over 50 | 15% | 118% | - Total 總數 | 41% | 73% | 34% Health and Safety of Employees 僱員健康與安全 Number of work-related injuries 工傷人數 | - | 12 | 2 Lost days due to work-related injuries | - | 752 | 54 因工傷損失工作日數 Number of work-related fatalities 20 | - | - | -",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\n2021 二零二一年 | 2020 二零二零年 Regional Headquarters | companies | Headquarters 總部 區域公司 | 總部 Employee turnover rate 19 流失員工比率 19 Gender | Male | 43% | 72% | 34% 性別 | 男性 Female | 39% | 75% | 34% Age 年齡 | Under 30 30 歲以下 | 50% | 83% | 49% 30-50 | 39% | 67% | 29% Over 50 | 15% | 118% | - Total 總數 | 41% | 73% | 34% Health and Safety of Employees 僱員健康與安全 Number of work-related injuries 工傷人數 | - | 12 | 2 Lost days due to work-related injuries | - | 752 | 54 因工傷損失工作日數 Number of work-related fatalities 20 | - | - | -",
+      "bm25_rank": 6,
+      "dense_rank": 124,
+      "bm25_score": 96.3084945678711,
+      "dense_score": 0.30759942531585693,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6700013313209765,
+      "normalized_dense": 0.04078207969855967,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.17449664429530198,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.27981761831976504,
+      "rank": 48,
+      "rrf_score": 0.27981761831976504,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P27_008",
+      "alias_source_ids": [
+        "P27_008"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protect Customer Privacy",
+      "pages": [
+        27
+      ],
+      "text": "本集團亦不定期組織員工開展有關保護個人隱私的培訓,提高員工保護客戶隱私的意識及職業道德,以更有效地確保 客戶資訊的安全。",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021 / Protect Customer Privacy\n\n[Content]\n本集團亦不定期組織員工開展有關保護個人隱私的培訓,提高員工保護客戶隱私的意識及職業道德,以更有效地確保 客戶資訊的安全。",
+      "bm25_rank": 8,
+      "dense_rank": null,
+      "bm25_score": 90.07066345214844,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.6243717070489999,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.22017635483261877,
+      "rank": 49,
+      "rrf_score": 0.22017635483261877,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T36_001",
+      "alias_source_ids": [
+        "T36_001"
+      ],
+      "section": "Environmental, Social and Governance Report 2021 環境、社會及管治報告 2021",
+      "pages": [
+        36
+      ],
+      "text": "Employee Composition 僱員組成 | Number of Employees 人數 | Ratio 比例 By gender 按性別劃分 | • Male • 男性 | 2,627 | 58% • Female • 女性 | 1,871 | 42% By age group 按年齡組別劃分 | • Under 30 • 30 歲以下 | 1,764 | 39% • 30-50 • 30-50 歲 | 2,710 | 60% • Over 50 • 50 歲以上 | 24 | 1% By grade 按職級劃分 | • Senior management • 高級管理人員 | 66 | 1% • Middle management • 中級管理人員 | 359 | 8% • General staff | 4,073 | 91%",
+      "retrieval_text": "[Section]\nEnvironmental, Social and Governance Report 2021 環境、社會及管治報告 2021\n\n[Content]\nEmployee Composition 僱員組成 | Number of Employees 人數 | Ratio 比例 By gender 按性別劃分 | • Male • 男性 | 2,627 | 58% • Female • 女性 | 1,871 | 42% By age group 按年齡組別劃分 | • Under 30 • 30 歲以下 | 1,764 | 39% • 30-50 • 30-50 歲 | 2,710 | 60% • Over 50 • 50 歲以上 | 24 | 1% By grade 按職級劃分 | • Senior management • 高級管理人員 | 66 | 1% • Middle management • 中級管理人員 | 359 | 8% • General staff | 4,073 | 91%",
+      "bm25_rank": 9,
+      "dense_rank": null,
+      "bm25_score": 79.55435943603516,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.5474451291915717,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.20411989832153582,
+      "rank": 50,
+      "rrf_score": 0.20411989832153582,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

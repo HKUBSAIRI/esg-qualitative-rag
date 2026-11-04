@@ -1,0 +1,1575 @@
+{
+  "document_id": "2022052702219",
+  "metric_id": 47,
+  "metric_name": "企业风险管理（ERM）框架",
+  "query": "企业风险管理（ERM）框架 企业风险管理（ERM）框架 衡量企业识别、评估、应对与监控综合风险（含战略、运营、财务、合规及ESG风险）的体系成熟度与披露完备性。 2分 全面披露且体系闭环：同时满足以下四项中的至少三项（其中第1项为必要条件）： （1）董事会或下设专门委员会（如风险管理委员会）明确承担风险管理监督职责，并披露年度检讨频率； （2）披露系统化的风险识别与评估流程（如风险清单、风险热力图、量化评估标准）； （3）披露风险应对策略（如风险规避、转移、缓释、接受）及责任归属； （4）披露风险监控与报告机制（如定期向董事会/委员会汇报、内审验证、整改追踪）。 企业管治报告/ESG报告/年报中有明确描述，且内容具体、可验证 1分 部分披露或制度不完整：满足上述四项标准中的1-2项（若仅满足第1项但缺乏后续流程描述，仍为1分），或虽提及风险管理但缺乏具体机制描述（如仅声明“本公司高度重视风险管理”而无具体架构/流程）。 有相关披露但内容不够完整，缺乏可验证的具体信息 0分 未披露或仅形式披露：未披露风险管理相关信息，或仅以“本公司建立了风险管理制度”等笼统表述一笔带过，无任何实质性内容。 无法从公开披露中获取有效信息 企业风险管理 全面风险管理 风险管理委员会 风险偏好 风险热力图 重大风险 三道防线 风险清单 风险应对 ERM 3LOD enterprise risk management ERM risk committee risk appetite risk heat map principal risks three lines of defence risk register risk response 3LOD 董事会或风险管理委员会如何监督并披露检讨频率？ 风险识别与评估流程（清单、热力图、量化标准）是什么？ 风险应对策略与责任归属如何规定？ 监控报告、内审验证与整改追踪如何运作？ 是否覆盖战略运营财务合规及ESG综合风险？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '企业风险管理（ERM）框架'. Prefer explicit, auditable disclosure that answers: 董事会或风险管理委员会如何监督并披露检讨频率？ 风险识别与评估流程（清单、热力图、量化标准）是什么？ 风险应对策略与责任归属如何规定？ 监控报告、内审验证与整改追踪如何运作？ 是否覆盖战略运营财务合规及ESG综合风险？ Exclude or down-rank: 排除：仅有单一气候风险段落；仅有网络安全专题；仅有“重视风险管理”口号；仅有内控自我评价无ERM框架；区分：ERM是综合企业风险管理框架；气候物理/转型风险与网络安全治理是专题风险，可作ERM组成部分，但不能单独替代ERM闭环披露。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 72,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "The Board is responsible for evaluating and determining the Group's ESG-related risks and ensuring that appropriate and effective ESG risk management and internal control systems are in place.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / ABOUT THIS REPORT\n\n[Content]\nThe Board is responsible for evaluating and determining the Group's ESG-related risks and ensuring that appropriate and effective ESG risk management and internal control systems are in place.",
+      "bm25_rank": 4,
+      "dense_rank": 1,
+      "bm25_score": 28.49016571044922,
+      "dense_score": 0.6890380382537842,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9442998377526578,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 1.0,
+      "facets": [
+        "anchor_1",
+        "anchor_4"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 1,
+      "composite_score": 0.8968465447317397,
+      "rank": 1,
+      "rrf_score": 0.8968465447317397,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_003",
+      "alias_source_ids": [
+        "P13_003"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources",
+      "pages": [
+        13
+      ],
+      "text": "The Audit Committee and senior management monitor the implementation of the risk management policies across the Group on an ongoing basis to ensure that the internal control system is effective in identifying, managing and mitigating risks (including significant climate-related issues) involved in the operations.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources\n\n[Content]\nThe Audit Committee and senior management monitor the implementation of the risk management policies across the Group on an ongoing basis to ensure that the internal control system is effective in identifying, managing and mitigating risks (including significant climate-related issues) involved in the operations.",
+      "bm25_rank": 1,
+      "dense_rank": 3,
+      "bm25_score": 30.161298751831055,
+      "dense_score": 0.6330580711364746,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.8620506610438471,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.7990331676069572,
+      "rank": 2,
+      "rrf_score": 0.7990331676069572,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_001",
+      "alias_source_ids": [
+        "P5_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / SUSTAINABILITY GOVERNANCE",
+      "pages": [
+        5
+      ],
+      "text": "The Group has established an ESG framework to promote and implement the Group's sustainability strategy. To ensure effective ESG management, our ESG governance structure, composed of the Board, ESG working group, respective functional departments and subordinate companies, was established to promote ESG management and disclosure. The Board, the ultimate decision-making body of the Group, is responsible for the Group's ESG governance. The Board steers the Group's sustainable development forward and bears the overall responsibility of its ESG efforts. In the future, the Board will continue to strengthen ESG risk management and improve ESG working mechanism and regulatory processes to enhance its ESG governance standard. The ESG working group, serving on the supervision and coordination level, is responsible for implementing ESG governance strategy, coordinating ESG matters, compiling ESG reports, and reporting relevant work progress to the Board on a regular basis. Each functional department and subordinate company, serving on the execution level, is responsible for rolling out initiatives set up by the ESG working group and reporting relevant work progress and data.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / SUSTAINABILITY GOVERNANCE\n\n[Content]\nThe Group has established an ESG framework to promote and implement the Group's sustainability strategy. To ensure effective ESG management, our ESG governance structure, composed of the Board, ESG working group, respective functional departments and subordinate companies, was established to promote ESG management and disclosure. The Board, the ultimate decision-making body of the Group, is responsible for the Group's ESG governance. The Board steers the Group's sustainable development forward and bears the overall responsibility of its ESG efforts. In the future, the Board will continue to strengthen ESG risk management and improve ESG working mechanism and regulatory processes to enhance its ESG governance standard. The ESG working group, serving on the supervision and coordination level, is responsible for implementing ESG governance strategy, coordinating ESG matters, compiling ESG reports, and reporting relevant work progress to the Board on a regular basis. Each functional department and subordinate company, serving on the execution level, is responsible for rolling out initiatives set up by the ESG working group and reporting relevant work progress and data.",
+      "bm25_rank": 10,
+      "dense_rank": 2,
+      "bm25_score": 20.643020629882812,
+      "dense_score": 0.6413958668708801,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6827483972972883,
+      "normalized_dense": 0.8825971791849238,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.7380761418386105,
+      "rank": 3,
+      "rrf_score": 0.7380761418386105,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_004",
+      "alias_source_ids": [
+        "P13_004"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources",
+      "pages": [
+        13
+      ],
+      "text": "As a result of risk management process, physical risk and transitions risks arising from climate change may not bring significant impacts to the Group's business. As a supporter of the recommendations of the Taskforce on ClimateRelated Financial Disclosure (TCFD), the Group has assessed the potential climate related risks and identified the rising mean temperature and increasing severity and likelihood of extreme weather events such as rainstorms as major physical risks impacting our daily operation.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources\n\n[Content]\nAs a result of risk management process, physical risk and transitions risks arising from climate change may not bring significant impacts to the Group's business. As a supporter of the recommendations of the Taskforce on ClimateRelated Financial Disclosure (TCFD), the Group has assessed the potential climate related risks and identified the rising mean temperature and increasing severity and likelihood of extreme weather events such as rainstorms as major physical risks impacting our daily operation.",
+      "bm25_rank": 5,
+      "dense_rank": 6,
+      "bm25_score": 28.365108489990234,
+      "dense_score": 0.5762906074523926,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9401315834621393,
+      "normalized_dense": 0.7221607237556364,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.7313865968525383,
+      "rank": 4,
+      "rrf_score": 0.7313865968525383,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_005",
+      "alias_source_ids": [
+        "P13_005"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources",
+      "pages": [
+        13
+      ],
+      "text": "The ESG working group is responsible for identifying and assessing any climate-related risks to which the Group's operations are exposed, and updating the Board with the latest news and developments on climate regulations and industry benchmark. In order to cope with climate-related risk, the Group implemented various emergency response mechanism and purchased adequate social security benefits against natural disasters for our employee during working hour in order to cope with extreme weather.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources\n\n[Content]\nThe ESG working group is responsible for identifying and assessing any climate-related risks to which the Group's operations are exposed, and updating the Board with the latest news and developments on climate regulations and industry benchmark. In order to cope with climate-related risk, the Group implemented various emergency response mechanism and purchased adequate social security benefits against natural disasters for our employee during working hour in order to cope with extreme weather.",
+      "bm25_rank": 7,
+      "dense_rank": 5,
+      "bm25_score": 27.00160026550293,
+      "dense_score": 0.5772057175636292,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8946847952957535,
+      "normalized_dense": 0.7244157953717494,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.7230865142849007,
+      "rank": 5,
+      "rrf_score": 0.7230865142849007,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T10_001",
+      "alias_source_ids": [
+        "T10_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "Social Aspects | Environmental Aspects 1. Equal opportunity 2. Employment and employee benefits 3. | 5. Prevention of child labor and forced labor 6. Selection and of | 9. Complaint handling 10. Protection of intellectual property rights 11. Customer | 13. Community investment | 14. Exhaust emissions 15. Greenhouse gas emissions 16. Waste | 18. Water consumption 19. Paper consumption 20. evaluation Occupational health and safety | suppliers 7. Control and management on | data privacy and data security | management Energy consumption | Management of risks associated with Environmental and Natural 4. Employee development | environmental and social risks along the | 12. Anti-corruption and money | 17. | Resources and training | supply chain | laundering | 21. Climate change",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT\n\n[Content]\nSocial Aspects | Environmental Aspects 1. Equal opportunity 2. Employment and employee benefits 3. | 5. Prevention of child labor and forced labor 6. Selection and of | 9. Complaint handling 10. Protection of intellectual property rights 11. Customer | 13. Community investment | 14. Exhaust emissions 15. Greenhouse gas emissions 16. Waste | 18. Water consumption 19. Paper consumption 20. evaluation Occupational health and safety | suppliers 7. Control and management on | data privacy and data security | management Energy consumption | Management of risks associated with Environmental and Natural 4. Employee development | environmental and social risks along the | 12. Anti-corruption and money | 17. | Resources and training | supply chain | laundering | 21. Climate change",
+      "bm25_rank": 2,
+      "dense_rank": 14,
+      "bm25_score": 30.061710357666016,
+      "dense_score": 0.5000718832015991,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.996680641471634,
+      "normalized_dense": 0.534337772655204,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6682335433545207,
+      "rank": 6,
+      "rrf_score": 0.6682335433545207,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L10_001",
+      "alias_source_ids": [
+        "L10_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "Step 1 The Group identified the following 21 issues in accordance with the disclosure requirements set out in the ESG Reporting Guide and based on the business characteristics and daily operation of the Group. These issues are considered to have impacts on the environment and the society during our operation.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT\n\n[Content]\nStep 1 The Group identified the following 21 issues in accordance with the disclosure requirements set out in the ESG Reporting Guide and based on the business characteristics and daily operation of the Group. These issues are considered to have impacts on the environment and the society during our operation.",
+      "bm25_rank": 8,
+      "dense_rank": 12,
+      "bm25_score": 24.661924362182617,
+      "dense_score": 0.5267861485481262,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8167015801991396,
+      "normalized_dense": 0.6001687374632053,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.6539362869036276,
+      "rank": 7,
+      "rrf_score": 0.6539362869036276,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_003",
+      "alias_source_ids": [
+        "P3_003"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "The ESG Report illustrates the Group's initiative and performance regarding the environmental and social aspects during the reporting period from 1 January 2021 to 31 December 2021 (the ' Reporting Period ').",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / ABOUT THIS REPORT\n\n[Content]\nThe ESG Report illustrates the Group's initiative and performance regarding the environmental and social aspects during the reporting period from 1 January 2021 to 31 December 2021 (the ' Reporting Period ').",
+      "bm25_rank": 6,
+      "dense_rank": 24,
+      "bm25_score": 27.71506118774414,
+      "dense_score": 0.4664655923843384,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9184650019830162,
+      "normalized_dense": 0.4515230472857805,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.6074978790271635,
+      "rank": 8,
+      "rrf_score": 0.6074978790271635,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L10_003",
+      "alias_source_ids": [
+        "L10_003"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "Step 3 Based on the result of the materiality assessment, the Group discussed and determined the key disclosure of the Report for the year and the key points for improvement in the future ESG work of the Group.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT\n\n[Content]\nStep 3 Based on the result of the materiality assessment, the Group discussed and determined the key disclosure of the Report for the year and the key points for improvement in the future ESG work of the Group.",
+      "bm25_rank": 13,
+      "dense_rank": 13,
+      "bm25_score": 11.81704330444336,
+      "dense_score": 0.5015566349029541,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.38857171785599326,
+      "normalized_dense": 0.5379965907335842,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [
+        "anchor_1",
+        "anchor_4"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 13,
+      "composite_score": 0.6018520765024498,
+      "rank": 9,
+      "rrf_score": 0.6018520765024498,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_005",
+      "alias_source_ids": [
+        "P3_005"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "The ESG Report is prepared in accordance with the ESG Reporting Guide set out in Appendix 27 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited (the ' Stock Exchange '). The Group has complied with the disclosure requirements of the'comply or explain'provisions set out in the ESG Reporting Guide. During the process of preparation of this ESG Report, we summarised the Group's performance in corporate and social responsibilities based on the principles of 'Materiality, Quantitative, Balance and Consistency'. Please refer to the table below for our understanding and response to such reporting principles.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / ABOUT THIS REPORT\n\n[Content]\nThe ESG Report is prepared in accordance with the ESG Reporting Guide set out in Appendix 27 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited (the ' Stock Exchange '). The Group has complied with the disclosure requirements of the'comply or explain'provisions set out in the ESG Reporting Guide. During the process of preparation of this ESG Report, we summarised the Group's performance in corporate and social responsibilities based on the principles of 'Materiality, Quantitative, Balance and Consistency'. Please refer to the table below for our understanding and response to such reporting principles.",
+      "bm25_rank": 15,
+      "dense_rank": 7,
+      "bm25_score": 10.934004783630371,
+      "dense_score": 0.5644324421882629,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3591393580964939,
+      "normalized_dense": 0.6929390906669367,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.5969068889231964,
+      "rank": 10,
+      "rrf_score": 0.5969068889231964,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L10_002",
+      "alias_source_ids": [
+        "L10_002"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "Step 2 Based on the understanding of the demands and expectations of stakeholder during the daily operation, the Group determined the materiality of ESG issues by benchmarking the key points and the trend of ESG works of industry peers.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT\n\n[Content]\nStep 2 Based on the understanding of the demands and expectations of stakeholder during the daily operation, the Group determined the materiality of ESG issues by benchmarking the key points and the trend of ESG works of industry peers.",
+      "bm25_rank": 11,
+      "dense_rank": 19,
+      "bm25_score": 12.693644523620605,
+      "dense_score": 0.4830525517463684,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.41778951735208625,
+      "normalized_dense": 0.49239767078260444,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [
+        "anchor_1",
+        "anchor_4"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 11,
+      "composite_score": 0.5850246050228523,
+      "rank": 11,
+      "rrf_score": 0.5850246050228523,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_001",
+      "alias_source_ids": [
+        "P4_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT",
+      "pages": [
+        4
+      ],
+      "text": "The information disclosed in this ESG Report is derived from the Group's formal documents, statistics or public information. The Board is responsible for the truthfulness, accuracy and completeness of its contents.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT\n\n[Content]\nThe information disclosed in this ESG Report is derived from the Group's formal documents, statistics or public information. The Board is responsible for the truthfulness, accuracy and completeness of its contents.",
+      "bm25_rank": 26,
+      "dense_rank": 4,
+      "bm25_score": 6.340975761413574,
+      "dense_score": 0.5886479020118713,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20605013335548655,
+      "normalized_dense": 0.7526123424962172,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5838189774172566,
+      "rank": 12,
+      "rrf_score": 0.5838189774172566,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_006",
+      "alias_source_ids": [
+        "P15_006"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect B3: Development and Training",
+      "pages": [
+        15
+      ],
+      "text": "Thus, we believe there are no significant environmental and social risks for our management decision on supply chain management during the Reporting Period.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect B3: Development and Training\n\n[Content]\nThus, we believe there are no significant environmental and social risks for our management decision on supply chain management during the Reporting Period.",
+      "bm25_rank": 12,
+      "dense_rank": 10,
+      "bm25_score": 12.367664337158203,
+      "dense_score": 0.5326679944992065,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4069243445467177,
+      "normalized_dense": 0.6146631504215609,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.5770538843085677,
+      "rank": 13,
+      "rrf_score": 0.5770538843085677,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_001",
+      "alias_source_ids": [
+        "P10_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "The Group attaches importance to the materiality assessment of ESG issues for the purpose of timely and comprehensive understanding of the materiality of each ESG issue to the business development of the Group and the expectation of stakeholders, in order to facilitate the Group's effective disclosure of ESG information and continuous improvement in the management level of relevant issues. The materiality assessment on ESG issues of the Group during the year covers the following steps:",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT\n\n[Content]\nThe Group attaches importance to the materiality assessment of ESG issues for the purpose of timely and comprehensive understanding of the materiality of each ESG issue to the business development of the Group and the expectation of stakeholders, in order to facilitate the Group's effective disclosure of ESG information and continuous improvement in the management level of relevant issues. The materiality assessment on ESG issues of the Group during the year covers the following steps:",
+      "bm25_rank": 17,
+      "dense_rank": 8,
+      "bm25_score": 10.462388038635254,
+      "dense_score": 0.5429611802101135,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3434200056785261,
+      "normalized_dense": 0.6400282629375609,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.5725596649759321,
+      "rank": 14,
+      "rrf_score": 0.5725596649759321,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T4_001",
+      "alias_source_ids": [
+        "T4_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT",
+      "pages": [
+        4
+      ],
+      "text": "Reporting Principles | Definitions | Our Response Materiality | The issues covered in this ESG Report should reflect the significant impacts of the Group on the economy, environment and society, or the scope of assessments and decisions of stakeholders being affected. | Through continuous communication with stakeholders, combined with the Group's strategic development and business operations, we can identify current material sustainable development issues. Quantitative | The ESG Report should disclose key performance indicators (' KPIs ') in a measurable manner. | The Group quantitatively discloses its environmental and social KPIs, and provides textual explanations on quantitative resources. Balance | The ESG Report should reflect fairly the overall sustainability performance of the Group. | The Group has explained in detail the sustainable development issues that have a significant impact in the business, including the results achieved and the challenges it faces. Consistency | The Group should use consistent disclosure principles for the preparation of the ESG Report. | The Group will ensure that the disclosure scope and reporting methods of the ESG Report are generally consistent every year.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT\n\n[Content]\nReporting Principles | Definitions | Our Response Materiality | The issues covered in this ESG Report should reflect the significant impacts of the Group on the economy, environment and society, or the scope of assessments and decisions of stakeholders being affected. | Through continuous communication with stakeholders, combined with the Group's strategic development and business operations, we can identify current material sustainable development issues. Quantitative | The ESG Report should disclose key performance indicators (' KPIs ') in a measurable manner. | The Group quantitatively discloses its environmental and social KPIs, and provides textual explanations on quantitative resources. Balance | The ESG Report should reflect fairly the overall sustainability performance of the Group. | The Group has explained in detail the sustainable development issues that have a significant impact in the business, including the results achieved and the challenges it faces. Consistency | The Group should use consistent disclosure principles for the preparation of the ESG Report. | The Group will ensure that the disclosure scope and reporting methods of the ESG Report are generally consistent every year.",
+      "bm25_rank": 18,
+      "dense_rank": 9,
+      "bm25_score": 9.864709854125977,
+      "dense_score": 0.5398547649383545,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.32349892756894844,
+      "normalized_dense": 0.6323732399832879,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.5638827685012291,
+      "rank": 15,
+      "rrf_score": 0.5638827685012291,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_001",
+      "alias_source_ids": [
+        "P3_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "Bright Future Technology Holdings Limited (the ' Company ' together with its subsidiaries, hereinafter referred to as the ' Group ') is pleased to present this annual Environmental, Social and Governance Report for the year ended 31 December 2021 (the ' ESG Report ') to provide an overview of the Group's management of significant issues affecting the operation, including environmental, social and governance (' ESG ') matters. The board of directors of the Company (the ' Board ') has overall responsibility for the Group's ESG strategy and reporting.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / ABOUT THIS REPORT\n\n[Content]\nBright Future Technology Holdings Limited (the ' Company ' together with its subsidiaries, hereinafter referred to as the ' Group ') is pleased to present this annual Environmental, Social and Governance Report for the year ended 31 December 2021 (the ' ESG Report ') to provide an overview of the Group's management of significant issues affecting the operation, including environmental, social and governance (' ESG ') matters. The board of directors of the Company (the ' Board ') has overall responsibility for the Group's ESG strategy and reporting.",
+      "bm25_rank": 19,
+      "dense_rank": 11,
+      "bm25_score": 9.569292068481445,
+      "dense_score": 0.5304798483848572,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3136524233208218,
+      "normalized_dense": 0.6092709838027164,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.5504719732904171,
+      "rank": 16,
+      "rrf_score": 0.5504719732904171,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T8_001",
+      "alias_source_ids": [
+        "T8_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT",
+      "pages": [
+        8
+      ],
+      "text": "Stakeholder | Engagement channel | Measures Customers | - | Expectation Quality holistic client-oriented services Marketing budgets/costs Campaign visibility Quantifiable results Low cost, self-service option Stable and reliable services Information transparency Latest marketing technology, trend awareness and content capabilities Sales generation | - - - - - - - - | Customer feedback forms Site visits Reports Email Regular meetings | - - - - - - | One-stop tailored intelligent marketing solutions Customised marketing campaigns by seasoned advertising optimisers Flexible and adaptable ad placement strategies Rich channel network and media resources Post-publication real-time marketing effects monitoring Marketing and technological trend monitoring and awareness Promotion by various online and offline marketing activities Organised meetings and site visits according to clients' needs Flexible subscription SaaS model with nominal upfront costs Established content capabilities with the Group having its own in-house short-video production crew in Wuhan Content effectiveness attained through enhanced trending predictions generated through - | Long-term partnership Honest cooperation | Business meetings, supplier conferences, phone calls, - - - - | By phone - | Cloud-based SaaS product Wuhan short-video base - | - | Cloud repository AI management system ( 雲素材庫 AI 管理系統 ) - | relationship | - | E-commerce livestreaming sessions - - | - - - | Integrity Business ethics | - - | data feedback - | Traffic generation for e-commerce livestreaming sessions ( 直播引流 ) Suppliers/Partners | - | - | interviews | - | Maintained stable cooperation and solid partnerships with media - | publishers/platforms Performed contracts according to - | Fair and open attitude | - - | Reviews and assessment Training programs offered by media publishers | - - | agreements Enhanced daily communication, and established long-term - | Information resources sharing | - | cooperation with quality suppliers Received awards and recognition from the Group's business partners - | Broadened access to media resources as strategic partner or core service provider of media publishers/platforms - | Actively participated in training programs offered by media publishers/platforms",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT\n\n[Content]\nStakeholder | Engagement channel | Measures Customers | - | Expectation Quality holistic client-oriented services Marketing budgets/costs Campaign visibility Quantifiable results Low cost, self-service option Stable and reliable services Information transparency Latest marketing technology, trend awareness and content capabilities Sales generation | - - - - - - - - | Customer feedback forms Site visits Reports Email Regular meetings | - - - - - - | One-stop tailored intelligent marketing solutions Customised marketing campaigns by seasoned advertising optimisers Flexible and adaptable ad placement strategies Rich channel network and media resources Post-publication real-time marketing effects monitoring Marketing and technological trend monitoring and awareness Promotion by various online and offline marketing activities Organised meetings and site visits according to clients' needs Flexible subscription SaaS model with nominal upfront costs Established content capabilities with the Group having its own in-house short-video production crew in Wuhan Content effectiveness attained through enhanced trending predictions generated through - | Long-term partnership Honest cooperation | Business meetings, supplier conferences, phone calls, - - - - | By phone - | Cloud-based SaaS product Wuhan short-video base - | - | Cloud repository AI management system ( 雲素材庫 AI 管理系統 ) - | relationship | - | E-commerce livestreaming sessions - - | - - - | Integrity Business ethics | - - | data feedback - | Traffic generation for e-commerce livestreaming sessions ( 直播引流 ) Suppliers/Partners | - | - | interviews | - | Maintained stable cooperation and solid partnerships with media - | publishers/platforms Performed contracts according to - | Fair and open attitude | - - | Reviews and assessment Training programs offered by media publishers | - - | agreements Enhanced daily communication, and established long-term - | Information resources sharing | - | cooperation with quality suppliers Received awards and recognition from the Group's business partners - | Broadened access to media resources as strategic partner or core service provider of media publishers/platforms - | Actively participated in training programs offered by media publishers/platforms",
+      "bm25_rank": 9,
+      "dense_rank": 51,
+      "bm25_score": 24.048755645751953,
+      "dense_score": 0.37756019830703735,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7962641906290421,
+      "normalized_dense": 0.23243681029498284,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [
+        "anchor_1",
+        "anchor_4"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 9,
+      "composite_score": 0.5281225002525424,
+      "rank": 17,
+      "rrf_score": 0.5281225002525424,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T6_001",
+      "alias_source_ids": [
+        "T6_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / STAKEHOLDERS ENGAGEMENT",
+      "pages": [
+        6
+      ],
+      "text": "Stakeholder | Expectation | Engagement channel | Measures Government | - To comply with the laws - Proper tax payment - Promote regional economic development and employment | - On-site inspections and checks by different government departments - Discussion through work conferences - Work reports preparation and submission for approval | - Strengthened safety management - Cooperated with the government's supervision, inspection and evaluation - Operated, managed and paid taxes according to laws and regulations - Actively undertook social responsibilities Shareholders and Investors | - Risk control and assessment - Return on the investment - Information disclosure and transparency - Protection of interests and fair treatment of shareholders - Adequate investor relations and shareholders communication | - Annual General Meeting (' AGM ') - Online results conferences - Online brokerage seminars - Investor conference calls - Interim Reports and Annual Reports - Website - WeChat official account - Email - Announcements - Investor relations personnel - Maintained direct line of communication with media reporters, securities analysts, fund managers and investors | - Issued notices of general meeting and proposed resolutions according to regulations - Disclosed the Company's information by holding AGM, and publishing Interim Reports and Annual Reports - Disclosed the Company's contact details on website and in reports to ensure all communication channels are available and effective - Founded investor relations position to actively and timely communicate with investors - Established shareholders communication policy, with regular reviews to ensure effectiveness - Media coverage, multi-channel information disclosure and dissemination",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / STAKEHOLDERS ENGAGEMENT\n\n[Content]\nStakeholder | Expectation | Engagement channel | Measures Government | - To comply with the laws - Proper tax payment - Promote regional economic development and employment | - On-site inspections and checks by different government departments - Discussion through work conferences - Work reports preparation and submission for approval | - Strengthened safety management - Cooperated with the government's supervision, inspection and evaluation - Operated, managed and paid taxes according to laws and regulations - Actively undertook social responsibilities Shareholders and Investors | - Risk control and assessment - Return on the investment - Information disclosure and transparency - Protection of interests and fair treatment of shareholders - Adequate investor relations and shareholders communication | - Annual General Meeting (' AGM ') - Online results conferences - Online brokerage seminars - Investor conference calls - Interim Reports and Annual Reports - Website - WeChat official account - Email - Announcements - Investor relations personnel - Maintained direct line of communication with media reporters, securities analysts, fund managers and investors | - Issued notices of general meeting and proposed resolutions according to regulations - Disclosed the Company's information by holding AGM, and publishing Interim Reports and Annual Reports - Disclosed the Company's contact details on website and in reports to ensure all communication channels are available and effective - Founded investor relations position to actively and timely communicate with investors - Established shareholders communication policy, with regular reviews to ensure effectiveness - Media coverage, multi-channel information disclosure and dissemination",
+      "bm25_rank": 20,
+      "dense_rank": 15,
+      "bm25_score": 8.747273445129395,
+      "dense_score": 0.49899524450302124,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2862539041381804,
+      "normalized_dense": 0.5316846521835146,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.5117967849307924,
+      "rank": 18,
+      "rrf_score": 0.5117967849307924,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_002",
+      "alias_source_ids": [
+        "P13_002"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources",
+      "pages": [
+        13
+      ],
+      "text": "The Group is committed to mitigating the climate change and enhancing its resilience to adapt to the increasing threat of climate-related consequences.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources\n\n[Content]\nThe Group is committed to mitigating the climate change and enhancing its resilience to adapt to the increasing threat of climate-related consequences.",
+      "bm25_rank": 25,
+      "dense_rank": 18,
+      "bm25_score": 6.3862504959106445,
+      "dense_score": 0.48701363801956177,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20755917542140542,
+      "normalized_dense": 0.5021588275155163,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.4783412502180675,
+      "rank": 19,
+      "rrf_score": 0.4783412502180675,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_003",
+      "alias_source_ids": [
+        "P4_003"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT",
+      "pages": [
+        4
+      ],
+      "text": "The Group welcomes your feedback on the ESG Report for our sustainability initiatives. Please contact us through the Company's website at www.btomorrow.cn.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT\n\n[Content]\nThe Group welcomes your feedback on the ESG Report for our sustainability initiatives. Please contact us through the Company's website at www.btomorrow.cn.",
+      "bm25_rank": 24,
+      "dense_rank": 21,
+      "bm25_score": 6.434805393218994,
+      "dense_score": 0.4808923006057739,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2091775478615445,
+      "normalized_dense": 0.4870742447041326,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.4700296160241244,
+      "rank": 20,
+      "rrf_score": 0.4700296160241244,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T19_001",
+      "alias_source_ids": [
+        "T19_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / APPENDIX I OVERVIEW OF KEY PERFORMANCE INDICATORS",
+      "pages": [
+        19
+      ],
+      "text": "No. of KPIs | KPIs | Unit | 2021 | 2020 A1.1 Emissions | Sulphur Dioxide (So x ) | kg | 0.19 | 0.05 Nitrogen Oxides (No x ) | kg | 0.37 | 0.10 Particulate Matter (PM) | kg | 0.13 | 0.03 A1.2 Greenhouse gas emissions | Scope 1 Direct emissions | kg of equivalent CO 2 emission | 5,595.86 | 1,536.12 Scope 2 Indirect emissions | kg of equivalent CO 2 emission | 62,436.60 | 44,216.93 Total | kg of equivalent CO 2 emission | 68,032.46 | 45,753.05 Intensity | kg of equivalent CO 2 emission/Revenue RMB'000 | 0.14 | 0.12 A1.4 Non-hazardous waste | Total non-hazardous waste | tons | 3.5 | 3 Intensity | tons/Revenue RMB'000 | 0.0000072 | 0.0000078 A2.1 Energy consumption | Unleaded petrol | kWh | 22,804.67 | 6,260.10 Purchased electricity | kWh | 92,837.01 | 65,746.17 Total | kWh | 115,641.68 | 72,006.27 Intensity | kWh/Revenue RMB'000 | 0.24 | 0.19",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / APPENDIX I OVERVIEW OF KEY PERFORMANCE INDICATORS\n\n[Content]\nNo. of KPIs | KPIs | Unit | 2021 | 2020 A1.1 Emissions | Sulphur Dioxide (So x ) | kg | 0.19 | 0.05 Nitrogen Oxides (No x ) | kg | 0.37 | 0.10 Particulate Matter (PM) | kg | 0.13 | 0.03 A1.2 Greenhouse gas emissions | Scope 1 Direct emissions | kg of equivalent CO 2 emission | 5,595.86 | 1,536.12 Scope 2 Indirect emissions | kg of equivalent CO 2 emission | 62,436.60 | 44,216.93 Total | kg of equivalent CO 2 emission | 68,032.46 | 45,753.05 Intensity | kg of equivalent CO 2 emission/Revenue RMB'000 | 0.14 | 0.12 A1.4 Non-hazardous waste | Total non-hazardous waste | tons | 3.5 | 3 Intensity | tons/Revenue RMB'000 | 0.0000072 | 0.0000078 A2.1 Energy consumption | Unleaded petrol | kWh | 22,804.67 | 6,260.10 Purchased electricity | kWh | 92,837.01 | 65,746.17 Total | kWh | 115,641.68 | 72,006.27 Intensity | kWh/Revenue RMB'000 | 0.24 | 0.19",
+      "bm25_rank": 3,
+      "dense_rank": 64,
+      "bm25_score": 29.267972946166992,
+      "dense_score": 0.3512279987335205,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9702247570462245,
+      "normalized_dense": 0.16754735587969202,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.5771812080536913,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.4667804856986808,
+      "rank": 21,
+      "rrf_score": 0.4667804856986808,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_006",
+      "alias_source_ids": [
+        "P13_006"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources",
+      "pages": [
+        13
+      ],
+      "text": "In the future, we will continue to identify potential business activities impacting the environment and develop corresponding improvement measures, so as to further prevent the possible negative impacts of our operation on climate change.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources\n\n[Content]\nIn the future, we will continue to identify potential business activities impacting the environment and develop corresponding improvement measures, so as to further prevent the possible negative impacts of our operation on climate change.",
+      "bm25_rank": 33,
+      "dense_rank": 20,
+      "bm25_score": 5.882256984710693,
+      "dense_score": 0.4821857511997223,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19076068023862083,
+      "normalized_dense": 0.49026164661942323,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.4627638465927102,
+      "rank": 22,
+      "rrf_score": 0.4627638465927102,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_001",
+      "alias_source_ids": [
+        "P11_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / A. ENVIRONMENTAL ASPECTS",
+      "pages": [
+        11
+      ],
+      "text": "Given the nature of the operations, the Group poses less negative impact on the environment than most traditional industries, the Group is not aware of any material environmental liability risk or compliance costs. However, in order to demonstrate the Group's commitment to sustainable development and compliance with laws and regulations relating to environmental protection, the Group endeavours to minimise the environmental impact of the business activities and maintain green operations and green office practices. In striving to do the right thing as a company, the Group recognises that it has a responsibility to reduce the negative impact of the operations and take account of the resources and materials it uses each day.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / A. ENVIRONMENTAL ASPECTS\n\n[Content]\nGiven the nature of the operations, the Group poses less negative impact on the environment than most traditional industries, the Group is not aware of any material environmental liability risk or compliance costs. However, in order to demonstrate the Group's commitment to sustainable development and compliance with laws and regulations relating to environmental protection, the Group endeavours to minimise the environmental impact of the business activities and maintain green operations and green office practices. In striving to do the right thing as a company, the Group recognises that it has a responsibility to reduce the negative impact of the operations and take account of the resources and materials it uses each day.",
+      "bm25_rank": 14,
+      "dense_rank": 30,
+      "bm25_score": 10.942547798156738,
+      "dense_score": 0.43699708580970764,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3594241034060634,
+      "normalized_dense": 0.3789049088457105,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.45685053206580195,
+      "rank": 23,
+      "rrf_score": 0.45685053206580195,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT",
+      "pages": [
+        4
+      ],
+      "text": "The ESG Report is available in Chinese and English versions. In case of any discrepancy between the Chinese and English versions of the ESG Report, the English version shall prevail. You may access the Group's official website at www.btomorrow.cn or the website of the Stock Exchange at www.hkex.com.hk for an electronic copy of the ESG Report.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT\n\n[Content]\nThe ESG Report is available in Chinese and English versions. In case of any discrepancy between the Chinese and English versions of the ESG Report, the English version shall prevail. You may access the Group's official website at www.btomorrow.cn or the website of the Stock Exchange at www.hkex.com.hk for an electronic copy of the ESG Report.",
+      "bm25_rank": 21,
+      "dense_rank": 29,
+      "bm25_score": 8.422886848449707,
+      "dense_score": 0.4471380114555359,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.27544184691801965,
+      "normalized_dense": 0.40389481257884324,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.4454448423768031,
+      "rank": 24,
+      "rrf_score": 0.4454448423768031,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_004",
+      "alias_source_ids": [
+        "P3_004"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / ABOUT THIS REPORT",
+      "pages": [
+        3
+      ],
+      "text": "The ESG Report covers all major subsidiaries of the Group in the People's Republic of China (the ' PRC ') with core business either being complementary to or supportive of the Group's provision of intelligent marketing solutions services, comprising of 4 key components, namely, 'influential placement', 'precision marketing', 'intelligent content' and 'intelligent livestreaming', in the PRC. The Group will continue to assess the impacts of its business on the major ESG aspects and include the same in the ESG Report.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / ABOUT THIS REPORT\n\n[Content]\nThe ESG Report covers all major subsidiaries of the Group in the People's Republic of China (the ' PRC ') with core business either being complementary to or supportive of the Group's provision of intelligent marketing solutions services, comprising of 4 key components, namely, 'influential placement', 'precision marketing', 'intelligent content' and 'intelligent livestreaming', in the PRC. The Group will continue to assess the impacts of its business on the major ESG aspects and include the same in the ESG Report.",
+      "bm25_rank": 16,
+      "dense_rank": 36,
+      "bm25_score": 10.912314414978027,
+      "dense_score": 0.42232799530029297,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.35841640126228447,
+      "normalized_dense": 0.34275641782174887,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.43460104662429716,
+      "rank": 25,
+      "rrf_score": 0.43460104662429716,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_003",
+      "alias_source_ids": [
+        "P15_003"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect B3: Development and Training",
+      "pages": [
+        15
+      ],
+      "text": "The Group works closely with its customers and suppliers who are committed to high quality, environmental, health and safety standards.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect B3: Development and Training\n\n[Content]\nThe Group works closely with its customers and suppliers who are committed to high quality, environmental, health and safety standards.",
+      "bm25_rank": 27,
+      "dense_rank": 28,
+      "bm25_score": 6.340214729309082,
+      "dense_score": 0.44721031188964844,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20602476756434607,
+      "normalized_dense": 0.40407297983412527,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.4289392212870278,
+      "rank": 26,
+      "rrf_score": 0.4289392212870278,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_001",
+      "alias_source_ids": [
+        "P13_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources",
+      "pages": [
+        13
+      ],
+      "text": "The Group raises staff's awareness on environmental issues through education and training; enlists employees' support in improving the Group's performance; promotes environmental awareness amongst the customers, business partners and shareholders; supports community activities in relation to environmental protection and sustainability; and evaluates regularly and monitor past and present business activities impacting upon health, safety and environmental matters. With the integration of policies mentioned in the sections 'Emissions' and 'Use of Resources', the Group strives to minimise the impacts to the environment and natural resources.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A3: The Environment and Natural Resources\n\n[Content]\nThe Group raises staff's awareness on environmental issues through education and training; enlists employees' support in improving the Group's performance; promotes environmental awareness amongst the customers, business partners and shareholders; supports community activities in relation to environmental protection and sustainability; and evaluates regularly and monitor past and present business activities impacting upon health, safety and environmental matters. With the integration of policies mentioned in the sections 'Emissions' and 'Use of Resources', the Group strives to minimise the impacts to the environment and natural resources.",
+      "bm25_rank": 45,
+      "dense_rank": 27,
+      "bm25_score": 4.49949312210083,
+      "dense_score": 0.45015421509742737,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14467208669765172,
+      "normalized_dense": 0.4113275303881292,
+      "normalized_bm25_rank": 0.7046979865771812,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.4084695227740333,
+      "rank": 27,
+      "rrf_score": 0.4084695227740333,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T9_001",
+      "alias_source_ids": [
+        "T9_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT",
+      "pages": [
+        9
+      ],
+      "text": "Stakeholder | Expectation | Engagement channel | Measures Peer/Industry associations | - Experience sharing - Corporations - Fair competition | - Seminars and courses - Site visits | - Stuck to fair play, cooperated with peers to realise win-win Financial Institution | - Compliance with laws and regulations - Disclosure information | - Consulting - Information disclosure - Reports | - Complied with regulatory requirements in a strict manner - Disclosed and reported true information in a timely and accurate manner according to laws and regulations Banks | - Timely repayment of loan - Honest cooperation | - Meeting - Site visit - Routine communication | - Settled repayment of loan and interest according to contracts terms - Comply with debt covenants Public and communities | - Community involvement - Social responsibilities | - Charity - Visits | - Gave priority to local people seeking jobs from the Company so as to promote community building and development - Supported local brands and local industries through co-hosting of brand awareness campaigns and consumer engagement events - Supported traditional industries in their digitisation efforts",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT\n\n[Content]\nStakeholder | Expectation | Engagement channel | Measures Peer/Industry associations | - Experience sharing - Corporations - Fair competition | - Seminars and courses - Site visits | - Stuck to fair play, cooperated with peers to realise win-win Financial Institution | - Compliance with laws and regulations - Disclosure information | - Consulting - Information disclosure - Reports | - Complied with regulatory requirements in a strict manner - Disclosed and reported true information in a timely and accurate manner according to laws and regulations Banks | - Timely repayment of loan - Honest cooperation | - Meeting - Site visit - Routine communication | - Settled repayment of loan and interest according to contracts terms - Comply with debt covenants Public and communities | - Community involvement - Social responsibilities | - Charity - Visits | - Gave priority to local people seeking jobs from the Company so as to promote community building and development - Supported local brands and local industries through co-hosting of brand awareness campaigns and consumer engagement events - Supported traditional industries in their digitisation efforts",
+      "bm25_rank": 62,
+      "dense_rank": 32,
+      "bm25_score": 0.23886121809482574,
+      "dense_score": 0.43072599172592163,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0026619160812523567,
+      "normalized_dense": 0.3634512862743134,
+      "normalized_bm25_rank": 0.5906040268456376,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [
+        "anchor_1",
+        "anchor_4"
+      ],
+      "facet_score": 0.4,
+      "best_channel_rank": 32,
+      "composite_score": 0.40518999784179033,
+      "rank": 28,
+      "rrf_score": 0.40518999784179033,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_001",
+      "alias_source_ids": [
+        "P21_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT",
+      "pages": [
+        21
+      ],
+      "text": "Note: In light of our result of materiality assessment, such KPIs are considered as not material and thus not disclosed.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT\n\n[Content]\nNote: In light of our result of materiality assessment, such KPIs are considered as not material and thus not disclosed.",
+      "bm25_rank": 54,
+      "dense_rank": 23,
+      "bm25_score": 0.31142255663871765,
+      "dense_score": 0.4783588647842407,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.005080441853704978,
+      "normalized_dense": 0.4808311935759321,
+      "normalized_bm25_rank": 0.6442953020134228,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.40420633498137765,
+      "rank": 29,
+      "rrf_score": 0.40420633498137765,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T7_001",
+      "alias_source_ids": [
+        "T7_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT",
+      "pages": [
+        7
+      ],
+      "text": "Stakeholder | Expectation | Engagement channel | Measures Employees | - Safeguard the rights and interests of employees - Healthy and safe working environment - Career development opportunities - Self-actualisation - Health and safety | - Conferences - Training, seminars, briefing sessions - Cultural and sport activities - Emails - Face to face meeting/ discussion/communication when needed - Special email account for whistleblowing/complaint reporting - Special internal training programs - External training programs | - Provided information, instruction, training and supervision to safeguard employee's interests and safety - Fostered safe working environment by its whistleblowing policy which encourages reporting of violations such as discrimination and sexual harassment at the workplace in a secure and confidential manner - Cultivated a healthy working environment that bolsters physical and mental wellness",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT\n\n[Content]\nStakeholder | Expectation | Engagement channel | Measures Employees | - Safeguard the rights and interests of employees - Healthy and safe working environment - Career development opportunities - Self-actualisation - Health and safety | - Conferences - Training, seminars, briefing sessions - Cultural and sport activities - Emails - Face to face meeting/ discussion/communication when needed - Special email account for whistleblowing/complaint reporting - Special internal training programs - External training programs | - Provided information, instruction, training and supervision to safeguard employee's interests and safety - Fostered safe working environment by its whistleblowing policy which encourages reporting of violations such as discrimination and sexual harassment at the workplace in a secure and confidential manner - Cultivated a healthy working environment that bolsters physical and mental wellness",
+      "bm25_rank": 64,
+      "dense_rank": 22,
+      "bm25_score": 0.2176583707332611,
+      "dense_score": 0.47910839319229126,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.001955208710325008,
+      "normalized_dense": 0.482678228394705,
+      "normalized_bm25_rank": 0.5771812080536913,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.39885862302249364,
+      "rank": 30,
+      "rrf_score": 0.39885862302249364,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_002",
+      "alias_source_ids": [
+        "P12_002"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources",
+      "pages": [
+        12
+      ],
+      "text": "In view of our continuous effort, we target to maintain zero substantial non-compliance case in relation to the emission of exhaust gases, GHG and energy consumption in coming five years.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources\n\n[Content]\nIn view of our continuous effort, we target to maintain zero substantial non-compliance case in relation to the emission of exhaust gases, GHG and energy consumption in coming five years.",
+      "bm25_rank": 43,
+      "dense_rank": 33,
+      "bm25_score": 5.164551734924316,
+      "dense_score": 0.4298010468482971,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16683900681768565,
+      "normalized_dense": 0.36117197921127425,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.38863705449016767,
+      "rank": 31,
+      "rrf_score": 0.38863705449016767,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_003",
+      "alias_source_ids": [
+        "P17_003"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Data privacy and security",
+      "pages": [
+        17
+      ],
+      "text": "To ensure operation efficiency and employees' development in a fair and honest working environment, the Group has formulated whistleblowing policy to promote business ethics and integrity so as to avoid suspected corruption, extortion and money laundering. Anonymous channels of reporting such as by letter, meeting or phone call for employees to report suspected corruption are provided. If there are any suspected case of corruption or related practices, employees are encouraged to report the related cases through the mentioned channels. All these practical actions not only enabled us to win over the trust of our customers, but also enhance the sense of belonging and fair play among our employees.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Data privacy and security\n\n[Content]\nTo ensure operation efficiency and employees' development in a fair and honest working environment, the Group has formulated whistleblowing policy to promote business ethics and integrity so as to avoid suspected corruption, extortion and money laundering. Anonymous channels of reporting such as by letter, meeting or phone call for employees to report suspected corruption are provided. If there are any suspected case of corruption or related practices, employees are encouraged to report the related cases through the mentioned channels. All these practical actions not only enabled us to win over the trust of our customers, but also enhance the sense of belonging and fair play among our employees.",
+      "bm25_rank": 59,
+      "dense_rank": 25,
+      "bm25_score": 0.28609636425971985,
+      "dense_score": 0.4591793119907379,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.004236300190722171,
+      "normalized_dense": 0.43356773906560897,
+      "normalized_bm25_rank": 0.610738255033557,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.38145502911379214,
+      "rank": 32,
+      "rrf_score": 0.38145502911379214,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_002",
+      "alias_source_ids": [
+        "P16_002"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect B6: Product Responsibility",
+      "pages": [
+        16
+      ],
+      "text": "We have an experienced management team with complementary backgrounds. Members of our senior management team have led our Group to continually drive innovation and achieve market leadership in China. We are confident that our senior management will further lead to the growth of our Company and pave the way for us to achieve our mission.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect B6: Product Responsibility\n\n[Content]\nWe have an experienced management team with complementary backgrounds. Members of our senior management team have led our Group to continually drive innovation and achieve market leadership in China. We are confident that our senior management will further lead to the growth of our Company and pave the way for us to achieve our mission.",
+      "bm25_rank": 49,
+      "dense_rank": 31,
+      "bm25_score": 3.210271120071411,
+      "dense_score": 0.4328034520149231,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10170131602429863,
+      "normalized_dense": 0.36857069395411524,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.37685678461229,
+      "rank": 33,
+      "rrf_score": 0.37685678461229,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_010",
+      "alias_source_ids": [
+        "L12_010"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources",
+      "pages": [
+        12
+      ],
+      "text": "-using air-conditioning system only for temperature over 25 ̊C;",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources\n\n[Content]\n-using air-conditioning system only for temperature over 25 ̊C;",
+      "bm25_rank": 32,
+      "dense_rank": 38,
+      "bm25_score": 5.907728672027588,
+      "dense_score": 0.40936267375946045,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19160967136089044,
+      "normalized_dense": 0.31080646093514014,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.37663439694175904,
+      "rank": 34,
+      "rrf_score": 0.37663439694175904,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_002",
+      "alias_source_ids": [
+        "P10_002"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "According to the results of materiality assessment, 9 material topics (note) are regarded as the most concerned issues of stakeholder and the Group. While taking into account environmental and social responsibilities, the Group will pay more attention to the above areas, and strive to achieve continuous improvement and sustainable business development.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT\n\n[Content]\nAccording to the results of materiality assessment, 9 material topics (note) are regarded as the most concerned issues of stakeholder and the Group. While taking into account environmental and social responsibilities, the Group will pay more attention to the above areas, and strive to achieve continuous improvement and sustainable business development.",
+      "bm25_rank": 61,
+      "dense_rank": 26,
+      "bm25_score": 0.2681106925010681,
+      "dense_score": 0.4559590220451355,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0036368237814376272,
+      "normalized_dense": 0.42563209901222926,
+      "normalized_bm25_rank": 0.5973154362416108,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.3758730960548631,
+      "rank": 35,
+      "rrf_score": 0.3758730960548631,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_003",
+      "alias_source_ids": [
+        "P10_003",
+        "P19_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "Note:",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT\n\n[Content]\nNote:",
+      "bm25_rank": null,
+      "dense_rank": 16,
+      "bm25_score": null,
+      "dense_score": 0.4987225830554962,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5310127427776715,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.3657202317842656,
+      "rank": 36,
+      "rrf_score": 0.3657202317842656,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_005",
+      "alias_source_ids": [
+        "L12_005"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources",
+      "pages": [
+        12
+      ],
+      "text": "-encouraging the employee to use suitable font size/shrinkage mode to minimise pages, if possible;",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources\n\n[Content]\n-encouraging the employee to use suitable font size/shrinkage mode to minimise pages, if possible;",
+      "bm25_rank": 40,
+      "dense_rank": 40,
+      "bm25_score": 5.637260437011719,
+      "dense_score": 0.40565603971481323,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1825947550136683,
+      "normalized_dense": 0.30167234131088355,
+      "normalized_bm25_rank": 0.738255033557047,
+      "normalized_dense_rank": 0.738255033557047,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 40,
+      "composite_score": 0.363580780528657,
+      "rank": 37,
+      "rrf_score": 0.363580780528657,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_006",
+      "alias_source_ids": [
+        "L12_006"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources",
+      "pages": [
+        12
+      ],
+      "text": "-using online office system to minimise the use of paper;",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources\n\n[Content]\n-using online office system to minimise the use of paper;",
+      "bm25_rank": 30,
+      "dense_rank": 41,
+      "bm25_score": 5.926168441772461,
+      "dense_score": 0.3971388041973114,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19222428320875612,
+      "normalized_dense": 0.28068363642452543,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.36352976697422773,
+      "rank": 38,
+      "rrf_score": 0.36352976697422773,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_004",
+      "alias_source_ids": [
+        "P10_004"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "Presented in bold.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / MATERIALITY ASSESSMENT\n\n[Content]\nPresented in bold.",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.497394859790802,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5277408840018804,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.363232799333544,
+      "rank": 39,
+      "rrf_score": 0.363232799333544,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_012",
+      "alias_source_ids": [
+        "L12_012"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources",
+      "pages": [
+        12
+      ],
+      "text": "-strictly following the procurement plan in order to avoid duplication of purchase and idle resources; and",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources\n\n[Content]\n-strictly following the procurement plan in order to avoid duplication of purchase and idle resources; and",
+      "bm25_rank": 38,
+      "dense_rank": 42,
+      "bm25_score": 5.662103652954102,
+      "dense_score": 0.3964269459247589,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1834227986968883,
+      "normalized_dense": 0.2789294307115549,
+      "normalized_bm25_rank": 0.7516778523489933,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.35444408867634136,
+      "rank": 40,
+      "rrf_score": 0.35444408867634136,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_002",
+      "alias_source_ids": [
+        "L12_002"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources",
+      "pages": [
+        12
+      ],
+      "text": "-adopting LED lighting in offices;",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources\n\n[Content]\n-adopting LED lighting in offices;",
+      "bm25_rank": 28,
+      "dense_rank": 46,
+      "bm25_score": 6.102935314178467,
+      "dense_score": 0.38799363374710083,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1981160603618356,
+      "normalized_dense": 0.2581475349723007,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.697986577181208,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.3514513593797865,
+      "rank": 41,
+      "rrf_score": 0.3514513593797865,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_001",
+      "alias_source_ids": [
+        "L12_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources",
+      "pages": [
+        12
+      ],
+      "text": "-switching off lights and turning off unnecessary energy-consuming devices such as air-conditioning system when staff leaves the office;",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources\n\n[Content]\n-switching off lights and turning off unnecessary energy-consuming devices such as air-conditioning system when staff leaves the office;",
+      "bm25_rank": 42,
+      "dense_rank": 43,
+      "bm25_score": 5.511105060577393,
+      "dense_score": 0.3960014879703522,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17838989833154795,
+      "normalized_dense": 0.27788099058937593,
+      "normalized_bm25_rank": 0.7248322147651007,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 42,
+      "composite_score": 0.3490437089229268,
+      "rank": 42,
+      "rrf_score": 0.3490437089229268,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_011",
+      "alias_source_ids": [
+        "L12_011"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources",
+      "pages": [
+        12
+      ],
+      "text": "-regular maintenance of office equipment and vehicle with good condition for operational efficiency;",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources\n\n[Content]\n-regular maintenance of office equipment and vehicle with good condition for operational efficiency;",
+      "bm25_rank": 34,
+      "dense_rank": 45,
+      "bm25_score": 5.791106224060059,
+      "dense_score": 0.38900500535964966,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18772255458884562,
+      "normalized_dense": 0.26063982020529775,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.3475603942983481,
+      "rank": 43,
+      "rrf_score": 0.3475603942983481,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_001",
+      "alias_source_ids": [
+        "P6_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / STAKEHOLDERS ENGAGEMENT",
+      "pages": [
+        6
+      ],
+      "text": "We identified the key stakeholders of our business operations and interacted with our stakeholders regularly through various communication channels. The following table illustrates the issues of concern of our major stakeholders and the ways we communicate with them:",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / STAKEHOLDERS ENGAGEMENT\n\n[Content]\nWe identified the key stakeholders of our business operations and interacted with our stakeholders regularly through various communication channels. The following table illustrates the issues of concern of our major stakeholders and the ways we communicate with them:",
+      "bm25_rank": 52,
+      "dense_rank": 34,
+      "bm25_score": 0.31968194246292114,
+      "dense_score": 0.4279210567474365,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0053557335983353905,
+      "normalized_dense": 0.3565391899294521,
+      "normalized_bm25_rank": 0.6577181208053691,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.3473363732620894,
+      "rank": 44,
+      "rrf_score": 0.3473363732620894,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_009",
+      "alias_source_ids": [
+        "L12_009"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources",
+      "pages": [
+        12
+      ],
+      "text": "-collection of paper box for recycling purpose;",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources\n\n[Content]\n-collection of paper box for recycling purpose;",
+      "bm25_rank": 29,
+      "dense_rank": 47,
+      "bm25_score": 6.067729949951172,
+      "dense_score": 0.3850046992301941,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19694263822794278,
+      "normalized_dense": 0.25078201544767387,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.6912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.34662532030059656,
+      "rank": 45,
+      "rrf_score": 0.34662532030059656,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_003",
+      "alias_source_ids": [
+        "L12_003"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources",
+      "pages": [
+        12
+      ],
+      "text": "-promoting environmental protection such as saving water and electricity by slogan or poster in offices;",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources\n\n[Content]\n-promoting environmental protection such as saving water and electricity by slogan or poster in offices;",
+      "bm25_rank": 39,
+      "dense_rank": 44,
+      "bm25_score": 5.637260437011719,
+      "dense_score": 0.39042583107948303,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1825947550136683,
+      "normalized_dense": 0.26414110787865736,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.3457468622501966,
+      "rank": 46,
+      "rrf_score": 0.3457468622501966,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_003",
+      "alias_source_ids": [
+        "P11_003"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / A. ENVIRONMENTAL ASPECTS",
+      "pages": [
+        11
+      ],
+      "text": "During the Reporting Period, the Group has no significant discharge into water and land, or generation of hazardous waste and packaging materials due to its business nature. In line with the aim to minimise emissions, the Group has implemented energy saving practices which are mentioned in the section headed 'Use of Resources' to reduce the GHG emissions. During the Reporting Period, there was no material breach of or non-compliance with the applicable laws and regulations related to environmental protection.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / A. ENVIRONMENTAL ASPECTS\n\n[Content]\nDuring the Reporting Period, the Group has no significant discharge into water and land, or generation of hazardous waste and packaging materials due to its business nature. In line with the aim to minimise emissions, the Group has implemented energy saving practices which are mentioned in the section headed 'Use of Resources' to reduce the GHG emissions. During the Reporting Period, there was no material breach of or non-compliance with the applicable laws and regulations related to environmental protection.",
+      "bm25_rank": 60,
+      "dense_rank": 35,
+      "bm25_score": 0.28024980425834656,
+      "dense_score": 0.42712369561195374,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.004041429804821576,
+      "normalized_dense": 0.3545742827097198,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.3396743855805072,
+      "rank": 47,
+      "rrf_score": 0.3396743855805072,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P15_001",
+      "alias_source_ids": [
+        "P15_001"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect B3: Development and Training",
+      "pages": [
+        15
+      ],
+      "text": "The Group recognises the importance of training for the development of our employees as well as the Group. We have adopted a training protocol, pursuant to which we provide pre-employment and regular continuing management and technical training to our employees. Through skill-based training programs offered by us or externally by our business partners, we also strive to encourage personal and professional development among our employees. We believe thorough consideration of business goals and how the needs of employees could dovetail to produce a mutually beneficial training experience makes us a win-win approach for achieving both employee and corporate goals as a whole.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect B3: Development and Training\n\n[Content]\nThe Group recognises the importance of training for the development of our employees as well as the Group. We have adopted a training protocol, pursuant to which we provide pre-employment and regular continuing management and technical training to our employees. Through skill-based training programs offered by us or externally by our business partners, we also strive to encourage personal and professional development among our employees. We believe thorough consideration of business goals and how the needs of employees could dovetail to produce a mutually beneficial training experience makes us a win-win approach for achieving both employee and corporate goals as a whole.",
+      "bm25_rank": 37,
+      "dense_rank": 50,
+      "bm25_score": 5.680880546569824,
+      "dense_score": 0.3789052367210388,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18404864714521532,
+      "normalized_dense": 0.23575133814551388,
+      "normalized_bm25_rank": 0.7583892617449665,
+      "normalized_dense_rank": 0.6711409395973154,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.3293898118739327,
+      "rank": 48,
+      "rrf_score": 0.3293898118739327,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_002",
+      "alias_source_ids": [
+        "P17_002"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Data privacy and security",
+      "pages": [
+        17
+      ],
+      "text": "During the Reporting Period, there were no disputes between the Group and our customers in respect of the quality of services provided by us and there were no cases of non-compliance against laws and regulations related to products responsibilities.",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Data privacy and security\n\n[Content]\nDuring the Reporting Period, there were no disputes between the Group and our customers in respect of the quality of services provided by us and there were no cases of non-compliance against laws and regulations related to products responsibilities.",
+      "bm25_rank": 53,
+      "dense_rank": 39,
+      "bm25_score": 0.31650102138519287,
+      "dense_score": 0.40729814767837524,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.005249711028176075,
+      "normalized_dense": 0.3057189265400837,
+      "normalized_bm25_rank": 0.651006711409396,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.3221455262262081,
+      "rank": 49,
+      "rrf_score": 0.3221455262262081,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L12_007",
+      "alias_source_ids": [
+        "L12_007"
+      ],
+      "section": "2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources",
+      "pages": [
+        12
+      ],
+      "text": "-utilising materials that facilitate clean production environment to effectively reduce the consumption of detergents and running water;",
+      "retrieval_text": "[Section]\n2021 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT / Aspect A2: Use of Resources\n\n[Content]\n-utilising materials that facilitate clean production environment to effectively reduce the consumption of detergents and running water;",
+      "bm25_rank": 41,
+      "dense_rank": 52,
+      "bm25_score": 5.620379447937012,
+      "dense_score": 0.37455353140830994,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18203209853625266,
+      "normalized_dense": 0.22502759352514048,
+      "normalized_bm25_rank": 0.7315436241610738,
+      "normalized_dense_rank": 0.6577181208053691,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.3198640640182309,
+      "rank": 50,
+      "rrf_score": 0.3198640640182309,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

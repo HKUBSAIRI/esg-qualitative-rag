@@ -1,0 +1,1547 @@
+{
+  "document_id": "2022052500349",
+  "metric_id": 32,
+  "metric_name": "产品回收率",
+  "query": "产品回收率 产品回收率 衡量企业在报告期内，因安全、健康等潜在风险而必须执行回收的受影响产品数量，占同期已售或已运送产品总数的百分比。 A. 数据透明度得分 (权重 50%) 2分：清晰披露了回收百分比，或明确声明本期“回收率为 0%”。 1分：仅定性描述有/无回收，未给出具体的百分比或产品基数。 0分：未披露任何回收相关数据。 B. 统计口径得分 (权重 50%) 2分：说明了计算口径（如涵盖的所有产品线）及回收原因（如技术缺陷、标签错误）。 1分：仅给出一个孤立的数字，无背景说明。 0分：无说明。 最终得分 = 0.5×A+0.5×B 产品召回率 召回百分比 产品召回数量 已售产品数量 已运送产品数量 零召回 未发生产品召回 安全原因召回 健康风险召回 缺陷产品召回 标签错误召回 product recall rate percentage of products recalled recalled units units sold units shipped zero recalls no product recalls safety-related recall health-related recall defective product recall mislabeling recall 报告期内是否定性说明发生或未发生产品召回？ 是否披露因安全、健康、技术缺陷或标签错误召回的产品占已售或已运送产品的百分比，或明确声明召回率为0%？ 召回数量、已售/已运送数量及计算公式是什么？ 召回原因和产品范围是什么？ 报告期与统计边界是什么？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '产品回收率'. Prefer explicit, auditable disclosure that answers: 报告期内是否定性说明发生或未发生产品召回？ 是否披露因安全、健康、技术缺陷或标签错误召回的产品占已售或已运送产品的百分比，或明确声明召回率为0%？ 召回数量、已售/已运送数量及计算公式是什么？ 召回原因和产品范围是什么？ 报告期与统计边界是什么？ Exclude or down-rank: 排除：仅有“本期无重大召回”无比例；仅有召回制度而无数量占比；循环经济产品回收再利用率；仅有客户退货率；区分：尽管指标名含“回收率”，定义实为安全/健康原因召回数量占比，不是循环经济回收利用率；召回程序看制度完备性；本指标看量化比率或0%声明。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 233,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "T100_001",
+      "alias_source_ids": [
+        "T100_001"
+      ],
+      "section": "APPENDIX III - INDEX OF THE ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE HONG KONG STOCK EXCHANGE (CONTINUED)",
+      "pages": [
+        100
+      ],
+      "text": "ESG Indicator | Description | Section B4: Labour Standards General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer | Sincere Collaboration, Common Growth KPI B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Sincere Collaboration, Common Growth KPI B4.2 | Description of steps taken to eliminate such practices when discovered. | Sincere Collaboration, Common Growth B5: Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | Quality-Based, Technology- Assisted KPI B5.1 | Number of suppliers by geographical region. | Quality-Based, Technology- Assisted Appendix II - List of Data KPI B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | Quality-Based, Technology- Assisted KPI B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Quality-Based, Technology- Assisted KPI B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Quality-Based, Technology- Assisted B6: Product Responsibility General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy | Quality-Based, Technology- Assisted KPI B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | N/A KPI B6.2 | Number of products and service related complaints received and how they are dealt with. | Quality-Based, Technology- Assisted Appendix II - List of Data KPI B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Quality-Based, Technology- Assisted KPI B6.4 | Description of quality assurance process and recall procedures. | Quality-Based, Technology- Assisted KPI B6.5 | Description of consumer data protection and privacy policies, and how they are implemented and monitored. | Quality-Based, Technology- Assisted",
+      "retrieval_text": "[Section]\nAPPENDIX III - INDEX OF THE ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE HONG KONG STOCK EXCHANGE (CONTINUED)\n\n[Content]\nESG Indicator | Description | Section B4: Labour Standards General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer | Sincere Collaboration, Common Growth KPI B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Sincere Collaboration, Common Growth KPI B4.2 | Description of steps taken to eliminate such practices when discovered. | Sincere Collaboration, Common Growth B5: Supply Chain Management General Disclosure | Policies on managing environmental and social risks of the supply chain. | Quality-Based, Technology- Assisted KPI B5.1 | Number of suppliers by geographical region. | Quality-Based, Technology- Assisted Appendix II - List of Data KPI B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. | Quality-Based, Technology- Assisted KPI B5.3 | Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and monitored. | Quality-Based, Technology- Assisted KPI B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Quality-Based, Technology- Assisted B6: Product Responsibility General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to health and safety, advertising, labelling and privacy | Quality-Based, Technology- Assisted KPI B6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. | N/A KPI B6.2 | Number of products and service related complaints received and how they are dealt with. | Quality-Based, Technology- Assisted Appendix II - List of Data KPI B6.3 | Description of practices relating to observing and protecting intellectual property rights. | Quality-Based, Technology- Assisted KPI B6.4 | Description of quality assurance process and recall procedures. | Quality-Based, Technology- Assisted KPI B6.5 | Description of consumer data protection and privacy policies, and how they are implemented and monitored. | Quality-Based, Technology- Assisted",
+      "bm25_rank": 2,
+      "dense_rank": 1,
+      "bm25_score": 38.54233169555664,
+      "dense_score": 0.5339007377624512,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.9777806069653712,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.8448849804534768,
+      "rank": 1,
+      "rrf_score": 0.8448849804534768,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L96_001",
+      "alias_source_ids": [
+        "L96_001"
+      ],
+      "section": "Reference standards for data calculation:",
+      "pages": [
+        96
+      ],
+      "text": "Employee turnover rate = number of employees leaving in a particular category/total number of employees at the end of the Reporting Period x 100",
+      "retrieval_text": "[Section]\nReference standards for data calculation:\n\n[Content]\nEmployee turnover rate = number of employees leaving in a particular category/total number of employees at the end of the Reporting Period x 100",
+      "bm25_rank": 49,
+      "dense_rank": 2,
+      "bm25_score": 7.678059101104736,
+      "dense_score": 0.5254414677619934,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14577230969469973,
+      "normalized_dense": 0.9610382408500687,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6319607992565982,
+      "rank": 2,
+      "rrf_score": 0.6319607992565982,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T99_001",
+      "alias_source_ids": [
+        "T99_001"
+      ],
+      "section": "APPENDIX III - INDEX OF THE ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE HONG KONG STOCK EXCHANGE (CONTINUED)",
+      "pages": [
+        99
+      ],
+      "text": "ESG Indicator | Description | Section B1: Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | Sincere Collaboration, Common Growth KPI B1.1 | Total workforce by gender, employment type, age group and geographical region. | Sincere Collaboration, Common Growth Appendix II - List of Data KPI B1.2 | Employee turnover rate by gender, age group and geographical region. | Appendix II - List of Data B2: Health and Safety General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Sincere Collaboration, Common Growth KPI B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Appendix II - List of Data KPI B2.2 | Lost days due to work injury. | Appendix II - List of Data KPI B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | Sincere Collaboration, Common Growth B3: Development and Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Sincere Collaboration, Common Growth KPI B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Sincere Collaboration, Common Growth Appendix II - List of Data KPI B3.2 | The average training hours completed per employee by gender and employee category. | Sincere Collaboration, Common Growth Appendix II - List of Data",
+      "retrieval_text": "[Section]\nAPPENDIX III - INDEX OF THE ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE HONG KONG STOCK EXCHANGE (CONTINUED)\n\n[Content]\nESG Indicator | Description | Section B1: Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | Sincere Collaboration, Common Growth KPI B1.1 | Total workforce by gender, employment type, age group and geographical region. | Sincere Collaboration, Common Growth Appendix II - List of Data KPI B1.2 | Employee turnover rate by gender, age group and geographical region. | Appendix II - List of Data B2: Health and Safety General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Sincere Collaboration, Common Growth KPI B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Appendix II - List of Data KPI B2.2 | Lost days due to work injury. | Appendix II - List of Data KPI B2.3 | Description of occupational health and safety measures adopted, how they are implemented and monitored. | Sincere Collaboration, Common Growth B3: Development and Training General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Sincere Collaboration, Common Growth KPI B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Sincere Collaboration, Common Growth Appendix II - List of Data KPI B3.2 | The average training hours completed per employee by gender and employee category. | Sincere Collaboration, Common Growth Appendix II - List of Data",
+      "bm25_rank": 6,
+      "dense_rank": 4,
+      "bm25_score": 22.58116912841797,
+      "dense_score": 0.45093363523483276,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5475154954418106,
+      "normalized_dense": 0.6178695956183223,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6183749072192045,
+      "rank": 3,
+      "rrf_score": 0.6183749072192045,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T95_001",
+      "alias_source_ids": [
+        "T95_001"
+      ],
+      "section": "Social Key Performance Table",
+      "pages": [
+        95
+      ],
+      "text": "The Group's Social Data ESG Indicator | Unit | 2019 | 2020 | 2021 B3. | Development and Training B3.1 Trained | Percentage of Employees Trained: Breakdown employees as a percentage | by % | Gender and - | Position 78.00 | 50.47 of total employees Gender | Male | % | - | 58.73 | 54.27 Female | % | - | 41.27 | 45.73 Position | Top management | % | - | 0.04 | 0.02 Senior management | % | - | 0.66 | 0.76 Middle management | % | - | 3.24 | 4.83 General staff | % | - | 96.06 | 94.39 B3.2 | Average Number of Training Hours Received by Employees: Breakdown by Gender and Position Average training hours of employees | hour | 56.87 | 19.75 | 51.20 Gender | Male | hour | - | 21.53 | 50.10 Female | hour | - | 17.36 | 52.60 Position | Top management | hour | 55.59 | 18.37 | 11.92 Senior management | hour | 59.77 | 22.83 | 33.43 Middle management | hour | 64.54 | 16.51 | 113.05 General staff | hour | 56.66 | 19.83 | 48.81 B5. | Supply Chain Management B5.1 | Number of Suppliers by Region Region | Mainland China | / | 16,852 | 20,482 | 37,606 Hong Kong, Macau, Taiwan and overseas | / | 157 | 187 | 422 B6. | Product Responsibilities B6.2 | Number of Complaints Received about Number of complaints received | Products and / | Services - | - | 6,969 B7. | Anti-corruption B7.1 | Number of Legal Cases regarding Corruption Number of filed or concluded legal | case | 0 | 0 | 1 B7.3 | Anti-corruption Training Provided to Directors and Employees Directors attending anti-corruption training | person | - | - | 9 Employees attending anti-corruption Training | person | - | - | 39,000 Anti-corruption training hours | hour | - | - | 45,018 B8. | Community Investment B8.2 | Resources Contributed to the Focus Area Employees involved | person | - | - | 539 Time invested | hour | - | - | 1,400 Money invested | RMB yuan | 106,450,720 | 155,401,820 | 71,365,121",
+      "retrieval_text": "[Section]\nSocial Key Performance Table\n\n[Content]\nThe Group's Social Data ESG Indicator | Unit | 2019 | 2020 | 2021 B3. | Development and Training B3.1 Trained | Percentage of Employees Trained: Breakdown employees as a percentage | by % | Gender and - | Position 78.00 | 50.47 of total employees Gender | Male | % | - | 58.73 | 54.27 Female | % | - | 41.27 | 45.73 Position | Top management | % | - | 0.04 | 0.02 Senior management | % | - | 0.66 | 0.76 Middle management | % | - | 3.24 | 4.83 General staff | % | - | 96.06 | 94.39 B3.2 | Average Number of Training Hours Received by Employees: Breakdown by Gender and Position Average training hours of employees | hour | 56.87 | 19.75 | 51.20 Gender | Male | hour | - | 21.53 | 50.10 Female | hour | - | 17.36 | 52.60 Position | Top management | hour | 55.59 | 18.37 | 11.92 Senior management | hour | 59.77 | 22.83 | 33.43 Middle management | hour | 64.54 | 16.51 | 113.05 General staff | hour | 56.66 | 19.83 | 48.81 B5. | Supply Chain Management B5.1 | Number of Suppliers by Region Region | Mainland China | / | 16,852 | 20,482 | 37,606 Hong Kong, Macau, Taiwan and overseas | / | 157 | 187 | 422 B6. | Product Responsibilities B6.2 | Number of Complaints Received about Number of complaints received | Products and / | Services - | - | 6,969 B7. | Anti-corruption B7.1 | Number of Legal Cases regarding Corruption Number of filed or concluded legal | case | 0 | 0 | 1 B7.3 | Anti-corruption Training Provided to Directors and Employees Directors attending anti-corruption training | person | - | - | 9 Employees attending anti-corruption Training | person | - | - | 39,000 Anti-corruption training hours | hour | - | - | 45,018 B8. | Community Investment B8.2 | Resources Contributed to the Focus Area Employees involved | person | - | - | 539 Time invested | hour | - | - | 1,400 Money invested | RMB yuan | 106,450,720 | 155,401,820 | 71,365,121",
+      "bm25_rank": 1,
+      "dense_rank": 24,
+      "bm25_score": 39.36658477783203,
+      "dense_score": 0.39285480976104736,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.35036977474748277,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.5917569379401425,
+      "rank": 4,
+      "rrf_score": 0.5917569379401425,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T37_001",
+      "alias_source_ids": [
+        "T37_001"
+      ],
+      "section": "Environmental Protection Group",
+      "pages": [
+        37
+      ],
+      "text": "Property Group | No more than 2 serious accidents Eliminate fire, traffic, explosion, equipment and other major accidents Environmental Protection Group | The incidence of serious injuries and above is 0 No more than 2 major accidents A-City Technology | Score over 100 points (out of 120 points) in quality management No more than 2 serious accidents A-Living | Score over 100 points (out of 120 points) in safety and quality management from a third-party evaluation",
+      "retrieval_text": "[Section]\nEnvironmental Protection Group\n\n[Content]\nProperty Group | No more than 2 serious accidents Eliminate fire, traffic, explosion, equipment and other major accidents Environmental Protection Group | The incidence of serious injuries and above is 0 No more than 2 major accidents A-City Technology | Score over 100 points (out of 120 points) in quality management No more than 2 serious accidents A-Living | Score over 100 points (out of 120 points) in safety and quality management from a third-party evaluation",
+      "bm25_rank": 4,
+      "dense_rank": 17,
+      "bm25_score": 34.04674530029297,
+      "dense_score": 0.4010743200778961,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8565930698053708,
+      "normalized_dense": 0.38822724723365554,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5837082176069476,
+      "rank": 5,
+      "rrf_score": 0.5837082176069476,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T94_001",
+      "alias_source_ids": [
+        "T94_001"
+      ],
+      "section": "Social Key Performance Table",
+      "pages": [
+        94
+      ],
+      "text": "The Group's Social Data ESG Indicator | Unit | 2019 | 2020 | 2021 B1. | Employment B1.1 | Number of Employees: Breakdown by Gender, Age, Position and | Region Total number of employees | person | 38,313 | 63,275 | 98,466 Gender | Male | person | 22,615 | 36,251 | 54,629 Female | person | 15,698 | 27,024 | 43,837 Age | 30 or below | person | - | 16,309 | 18,323 31-49 | person | - | 33,288 | 43,128 50 or above | person | - | 13,678 | 37,015 Position | Top management | person | 17 | 24 | 15 Senior management | person | 305 | 486 | 276 Middle management | person | 890 | 1,962 | 2,051 General staff | person | 37,101 | 60,803 | 96,124 Region | Mainland China | person | 38,160 | 63,119 | 98,362 Hong Kong, Macau, Taiwan and Overseas | person | 153 | 156 | 104 B1.2 | Employee Turnover Rate: Breakdown by Gender, Age and Region Total employee turnover rate | % | - | - | 42.42 Gender | Male | % | 44.83 | 37.24 | 23.39 Female | % | 43.00 | 33.56 | 19.03 Age | 30 or below | % | 54.70 | 43.06 | 11.32 31-49 | % | 35.58 | 31.83 | 14.66 50 or above | % | 53.57 | 36.20 | 16.44 Region | Mainland China | % | 44.15 | 35.74 | 42.41 Hong Kong, Macau and Taiwan | % | 21.43 | 14.29 | 0.01 Overseas | % | 28.83 | 1.08 | 0.00 B2. | Health and Safety B2.1 | Number of Work-related Fatalities Number of work-related fatalities | person | 2 | 1 | 1 Work-related fatality rate | ‰ | 0.52 | 0.16 | 0.01 B2.2 | Number of Lost Days due to Work Injury Total number of lost days due to work injury | day | 3,342.0 | 11,104.0 | 5,739.5",
+      "retrieval_text": "[Section]\nSocial Key Performance Table\n\n[Content]\nThe Group's Social Data ESG Indicator | Unit | 2019 | 2020 | 2021 B1. | Employment B1.1 | Number of Employees: Breakdown by Gender, Age, Position and | Region Total number of employees | person | 38,313 | 63,275 | 98,466 Gender | Male | person | 22,615 | 36,251 | 54,629 Female | person | 15,698 | 27,024 | 43,837 Age | 30 or below | person | - | 16,309 | 18,323 31-49 | person | - | 33,288 | 43,128 50 or above | person | - | 13,678 | 37,015 Position | Top management | person | 17 | 24 | 15 Senior management | person | 305 | 486 | 276 Middle management | person | 890 | 1,962 | 2,051 General staff | person | 37,101 | 60,803 | 96,124 Region | Mainland China | person | 38,160 | 63,119 | 98,362 Hong Kong, Macau, Taiwan and Overseas | person | 153 | 156 | 104 B1.2 | Employee Turnover Rate: Breakdown by Gender, Age and Region Total employee turnover rate | % | - | - | 42.42 Gender | Male | % | 44.83 | 37.24 | 23.39 Female | % | 43.00 | 33.56 | 19.03 Age | 30 or below | % | 54.70 | 43.06 | 11.32 31-49 | % | 35.58 | 31.83 | 14.66 50 or above | % | 53.57 | 36.20 | 16.44 Region | Mainland China | % | 44.15 | 35.74 | 42.41 Hong Kong, Macau and Taiwan | % | 21.43 | 14.29 | 0.01 Overseas | % | 28.83 | 1.08 | 0.00 B2. | Health and Safety B2.1 | Number of Work-related Fatalities Number of work-related fatalities | person | 2 | 1 | 1 Work-related fatality rate | ‰ | 0.52 | 0.16 | 0.01 B2.2 | Number of Lost Days due to Work Injury Total number of lost days due to work injury | day | 3,342.0 | 11,104.0 | 5,739.5",
+      "bm25_rank": 3,
+      "dense_rank": 20,
+      "bm25_score": 34.375343322753906,
+      "dense_score": 0.40001624822616577,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8654510877715346,
+      "normalized_dense": 0.38335397322204356,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.5804184705981296,
+      "rank": 6,
+      "rrf_score": 0.5804184705981296,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L96_002",
+      "alias_source_ids": [
+        "L96_002"
+      ],
+      "section": "Reference standards for data calculation:",
+      "pages": [
+        96
+      ],
+      "text": "Percentage of employees trained = number of employees trained in a particular position/total number of employees trained x 100",
+      "retrieval_text": "[Section]\nReference standards for data calculation:\n\n[Content]\nPercentage of employees trained = number of employees trained in a particular position/total number of employees trained x 100",
+      "bm25_rank": 46,
+      "dense_rank": 3,
+      "bm25_score": 8.553156852722168,
+      "dense_score": 0.48283150792121887,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16936232264707018,
+      "normalized_dense": 0.764785018927295,
+      "normalized_bm25_rank": 0.697986577181208,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.5686613151136989,
+      "rank": 7,
+      "rrf_score": 0.5686613151136989,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_002",
+      "alias_source_ids": [
+        "P48_002"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Customer Satisfaction Survey",
+      "pages": [
+        48
+      ],
+      "text": "Based on the results of the satisfaction survey, the Group formed a research and analysis report and conducted industry comparisons and historical data comparisons to identify key directions for product and service improvement. During the Year, the Group's overall satisfaction rate for the Property Group was 86% (8% higher than the industry average); the Group's satisfaction rate for the sales services of the Property Group was 97%; the overall satisfaction rate for A-Living was 91.7%; the satisfaction rate for the hazardous waste project of the Environmental Protection Group was 98%; and the overall satisfaction rate for A-City Technology was 93.72%.",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Customer Satisfaction Survey\n\n[Content]\nBased on the results of the satisfaction survey, the Group formed a research and analysis report and conducted industry comparisons and historical data comparisons to identify key directions for product and service improvement. During the Year, the Group's overall satisfaction rate for the Property Group was 86% (8% higher than the industry average); the Group's satisfaction rate for the sales services of the Property Group was 97%; the overall satisfaction rate for A-Living was 91.7%; the satisfaction rate for the hazardous waste project of the Environmental Protection Group was 98%; and the overall satisfaction rate for A-City Technology was 93.72%.",
+      "bm25_rank": 15,
+      "dense_rank": 9,
+      "bm25_score": 15.348552703857422,
+      "dense_score": 0.41627734899520874,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.35254583083055957,
+      "normalized_dense": 0.4582494537590083,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.5107622467938454,
+      "rank": 8,
+      "rrf_score": 0.5107622467938454,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L93_002",
+      "alias_source_ids": [
+        "L93_002"
+      ],
+      "section": "Scope of Statistics:",
+      "pages": [
+        93
+      ],
+      "text": "Indirect emission of carbon dioxide generated from purchased power is calculated with reference to Guidelines for Accounting and Reporting Greenhouse Gas Emissions - Public Building Operation Units (Enterprises) (Trial) issued by the General Office of the National Development and Reform Commission, among which the emission factors of electricity in Mainland China are referenced to the criteria from Emission Factors for China's Regional Power Grids under 2019 Emission Reduction Projects;",
+      "retrieval_text": "[Section]\nScope of Statistics:\n\n[Content]\nIndirect emission of carbon dioxide generated from purchased power is calculated with reference to Guidelines for Accounting and Reporting Greenhouse Gas Emissions - Public Building Operation Units (Enterprises) (Trial) issued by the General Office of the National Development and Reform Commission, among which the emission factors of electricity in Mainland China are referenced to the criteria from Emission Factors for China's Regional Power Grids under 2019 Emission Reduction Projects;",
+      "bm25_rank": 29,
+      "dense_rank": 8,
+      "bm25_score": 11.791629791259766,
+      "dense_score": 0.4179822504520416,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.25666184824269883,
+      "normalized_dense": 0.46610189964758914,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.48628011506210866,
+      "rank": 9,
+      "rrf_score": 0.48628011506210866,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T101_001",
+      "alias_source_ids": [
+        "T101_001"
+      ],
+      "section": "APPENDIX III - INDEX OF THE ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE HONG KONG STOCK EXCHANGE (CONTINUED)",
+      "pages": [
+        101
+      ],
+      "text": "ESG Indicator | Description | Section B7: Anti-corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud, and money laundering. | Compliance and Risk Management KPI B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the Reporting Period and the outcomes of the cases. | Compliance and Risk Management Appendix II - List of Data KPI B7.2 | Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored. | Compliance and Risk Management KPI B7.3 | Description of anti-corruption training provided to directors and staff. | Compliance and Risk Management Appendix II - List of Data B8: Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities takes into consideration communities' interests. | Public Welfare and Charity for the Community KPI B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Public Welfare and Charity for the Community KPI B8.2 | Resources contributed (e.g. money or time) to the focus area. | Public Welfare and Charity for the Community Appendix II - List of Data",
+      "retrieval_text": "[Section]\nAPPENDIX III - INDEX OF THE ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE HONG KONG STOCK EXCHANGE (CONTINUED)\n\n[Content]\nESG Indicator | Description | Section B7: Anti-corruption General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to bribery, extortion, fraud, and money laundering. | Compliance and Risk Management KPI B7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the Reporting Period and the outcomes of the cases. | Compliance and Risk Management Appendix II - List of Data KPI B7.2 | Description of preventive measures and whistle-blowing procedures, and how they are implemented and monitored. | Compliance and Risk Management KPI B7.3 | Description of anti-corruption training provided to directors and staff. | Compliance and Risk Management Appendix II - List of Data B8: Community Investment General Disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities takes into consideration communities' interests. | Public Welfare and Charity for the Community KPI B8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). | Public Welfare and Charity for the Community KPI B8.2 | Resources contributed (e.g. money or time) to the focus area. | Public Welfare and Charity for the Community Appendix II - List of Data",
+      "bm25_rank": 25,
+      "dense_rank": 21,
+      "bm25_score": 12.667585372924805,
+      "dense_score": 0.3974062502384186,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2802749857224682,
+      "normalized_dense": 0.3713328280198088,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.4430684668171985,
+      "rank": 10,
+      "rrf_score": 0.4430684668171985,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T91_001",
+      "alias_source_ids": [
+        "T91_001"
+      ],
+      "section": "APPENDIX II - LIST OF DATA / Environmental Key Performance Table",
+      "pages": [
+        91
+      ],
+      "text": "ESG Indicator | Unit | Consumption/ Emissions in 2021 A1.1 | Category and Relevant Data of Emissions Nitrogen Oxides (NO x ) emissions | KG | 5,180.56 Sulphur dioxide (SO 2 ) emissions | KG | 2.67 Particulate Matter (PM) emissions | KG | 126.46 A1.2 | Greenhouse Gas Emissions Total GHG emissions 1 | tonne of carbon dioxide equivalent | 82,300.73 Direct GHG emissions (Scope 1) 2 | tonne of carbon dioxide equivalent | 11,707.05 Indirect GHG emissions (Scope 2) 3 | tonne of carbon dioxide equivalent | 70,593.69 A1.3 | Hazardous Waste Generated Total waste batteries | KG | 128.71 Total waste light tubes | piece | 1,559.00 Total toner cartridges | unit | 806.00 Total hazardous waste generated 4 | tonne | 66,927.00 A1.4 | Non-hazardous Waste Generated Total non-hazardous waste generated 5 | tonne | 617.92",
+      "retrieval_text": "[Section]\nAPPENDIX II - LIST OF DATA / Environmental Key Performance Table\n\n[Content]\nESG Indicator | Unit | Consumption/ Emissions in 2021 A1.1 | Category and Relevant Data of Emissions Nitrogen Oxides (NO x ) emissions | KG | 5,180.56 Sulphur dioxide (SO 2 ) emissions | KG | 2.67 Particulate Matter (PM) emissions | KG | 126.46 A1.2 | Greenhouse Gas Emissions Total GHG emissions 1 | tonne of carbon dioxide equivalent | 82,300.73 Direct GHG emissions (Scope 1) 2 | tonne of carbon dioxide equivalent | 11,707.05 Indirect GHG emissions (Scope 2) 3 | tonne of carbon dioxide equivalent | 70,593.69 A1.3 | Hazardous Waste Generated Total waste batteries | KG | 128.71 Total waste light tubes | piece | 1,559.00 Total toner cartridges | unit | 806.00 Total hazardous waste generated 4 | tonne | 66,927.00 A1.4 | Non-hazardous Waste Generated Total non-hazardous waste generated 5 | tonne | 617.92",
+      "bm25_rank": 8,
+      "dense_rank": 41,
+      "bm25_score": 21.897642135620117,
+      "dense_score": 0.3723166584968567,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5290896560614743,
+      "normalized_dense": 0.2557750280498421,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.43694992928477316,
+      "rank": 11,
+      "rrf_score": 0.43694992928477316,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T17_001",
+      "alias_source_ids": [
+        "T17_001"
+      ],
+      "section": "Results of the Comprehensive Assessment of Material Issues for 2021",
+      "pages": [
+        17
+      ],
+      "text": "Materiality | Rank | ESG Issues Highly Important Issues | 1 | Provide quality products and services 2 | Guarantee the health and safety of employees 3 | Compliance with business ethical standards 4 | Promotion of green office and environmental protection 5 | Integrity culture construction 6 | Protect customer privacy and information safety 7 | Compliant employment and protect the rights and interests of employees Moderately | 8 | Safeguard interests in intellectual property rights and trademarks 9 | Provide competitive salary and motivate mechanism 10 | Enhance training and development system 11 | Diversified and equal opportunities 12 | Develop green buildings and green communities 13 | Improvement of energy consumption efficiency 14 | Reduce greenhouse gas emissions 15 | Carry out responsible marketing 16 | Respond to policies and participate in industry exchanges 17 | Supply chain environmental and social risk management 18 | Enhance quality management system of supply chain 19 | Compliant disposal of waste Generally Important Issues | 20 | Pollutant emissions 21 | Participate in charity and voluntary activities 22 | Water resource management 23 | Identify and respond to climate change risks",
+      "retrieval_text": "[Section]\nResults of the Comprehensive Assessment of Material Issues for 2021\n\n[Content]\nMateriality | Rank | ESG Issues Highly Important Issues | 1 | Provide quality products and services 2 | Guarantee the health and safety of employees 3 | Compliance with business ethical standards 4 | Promotion of green office and environmental protection 5 | Integrity culture construction 6 | Protect customer privacy and information safety 7 | Compliant employment and protect the rights and interests of employees Moderately | 8 | Safeguard interests in intellectual property rights and trademarks 9 | Provide competitive salary and motivate mechanism 10 | Enhance training and development system 11 | Diversified and equal opportunities 12 | Develop green buildings and green communities 13 | Improvement of energy consumption efficiency 14 | Reduce greenhouse gas emissions 15 | Carry out responsible marketing 16 | Respond to policies and participate in industry exchanges 17 | Supply chain environmental and social risk management 18 | Enhance quality management system of supply chain 19 | Compliant disposal of waste Generally Important Issues | 20 | Pollutant emissions 21 | Participate in charity and voluntary activities 22 | Water resource management 23 | Identify and respond to climate change risks",
+      "bm25_rank": 39,
+      "dense_rank": 14,
+      "bm25_score": 9.407485961914062,
+      "dense_score": 0.4033231735229492,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19239247523765127,
+      "normalized_dense": 0.3985850306221643,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4350302356310596,
+      "rank": 12,
+      "rrf_score": 0.4350302356310596,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T97_001",
+      "alias_source_ids": [
+        "T97_001"
+      ],
+      "section": "APPENDIX III - INDEX OF THE ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE HONG KONG STOCK EXCHANGE",
+      "pages": [
+        97
+      ],
+      "text": "ESG Indicator | Description | Section A1: Emissions General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and | Protect the Environment for a Green Future KPI A1.1 | The types of emissions and respective emissions data. | Appendix II - List of Data KPI A1.3 | (e.g. per unit of production volume, per facility). Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per | Appendix II - List of Data KPI A1.4 | facility). Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Appendix II - List of Data KPI A1.5 | Description of emission target(s) set and steps taken to achieve them. | Protect the Environment for a Green Future KPI A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and | Protect the Environment for a Green Future",
+      "retrieval_text": "[Section]\nAPPENDIX III - INDEX OF THE ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE HONG KONG STOCK EXCHANGE\n\n[Content]\nESG Indicator | Description | Section A1: Emissions General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and | Protect the Environment for a Green Future KPI A1.1 | The types of emissions and respective emissions data. | Appendix II - List of Data KPI A1.3 | (e.g. per unit of production volume, per facility). Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per | Appendix II - List of Data KPI A1.4 | facility). Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Appendix II - List of Data KPI A1.5 | Description of emission target(s) set and steps taken to achieve them. | Protect the Environment for a Green Future KPI A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and | Protect the Environment for a Green Future",
+      "bm25_rank": 34,
+      "dense_rank": 19,
+      "bm25_score": 10.387994766235352,
+      "dense_score": 0.4005682170391083,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2188240542825079,
+      "normalized_dense": 0.38589623466386724,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.43251976815664034,
+      "rank": 13,
+      "rrf_score": 0.43251976815664034,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L21_004",
+      "alias_source_ids": [
+        "L21_004"
+      ],
+      "section": "Integrity Culture Construction",
+      "pages": [
+        21
+      ],
+      "text": "If integrity and discipline violations reported and exposed by whistleblowers are proven to be true and result in the Group successfully recovering economic losses of less than RMB100,000, each case will be rewarded RMB2,000; if the Group successfully recovers economic losses of RMB100,000 or more due to whistleblowing, each case will be rewarded at 2% of the recovered loss.",
+      "retrieval_text": "[Section]\nIntegrity Culture Construction\n\n[Content]\nIf integrity and discipline violations reported and exposed by whistleblowers are proven to be true and result in the Group successfully recovering economic losses of less than RMB100,000, each case will be rewarded RMB2,000; if the Group successfully recovers economic losses of RMB100,000 or more due to whistleblowing, each case will be rewarded at 2% of the recovered loss.",
+      "bm25_rank": 43,
+      "dense_rank": 18,
+      "bm25_score": 8.790249824523926,
+      "dense_score": 0.4006221890449524,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.175753638663346,
+      "normalized_dense": 0.3861448192689718,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.4192947030674134,
+      "rank": 14,
+      "rrf_score": 0.4192947030674134,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L93_001",
+      "alias_source_ids": [
+        "L93_001"
+      ],
+      "section": "Scope of Statistics:",
+      "pages": [
+        93
+      ],
+      "text": "Direct emission of carbon dioxide generated from gasoline, diesel, piped natural gas, LPG and others is calculated with reference to Guidelines for Accounting and Reporting Greenhouse Gas Emissions - Public Building Operation Units (Enterprises) (Trial) issued by the General Office of the National Development and Reform Commission;",
+      "retrieval_text": "[Section]\nScope of Statistics:\n\n[Content]\nDirect emission of carbon dioxide generated from gasoline, diesel, piped natural gas, LPG and others is calculated with reference to Guidelines for Accounting and Reporting Greenhouse Gas Emissions - Public Building Operation Units (Enterprises) (Trial) issued by the General Office of the National Development and Reform Commission;",
+      "bm25_rank": 19,
+      "dense_rank": 32,
+      "bm25_score": 13.728317260742188,
+      "dense_score": 0.379767507314682,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.30886913869149973,
+      "normalized_dense": 0.29009219455321067,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.40961482066413846,
+      "rank": 15,
+      "rrf_score": 0.40961482066413846,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T89_001",
+      "alias_source_ids": [
+        "T89_001"
+      ],
+      "section": "APPENDIX I - LIST OF POLICIES AND REGULATIONS",
+      "pages": [
+        89
+      ],
+      "text": "Aspects of ESG | Compliance with Laws and Regulations | The Group's Internal Policies and Systems B6. Product Responsibility | Product Quality Law of the PRC Urban Real Estate Administration Law of the PRC Advertising Law of the PRC Consumer Rights and Interests Protection Law of the PRC Cybersecurity Law of the PRC Patent Law of the PRC Copyright Law of the PRC Trademark Law of the PRC Law of the PRC on the Protection of Personal Information Measures for the Administration of the Sale of Commercial Properties | Unified Promotion Practices for Construction Engineering Project Process Evaluation System Unified Standard Atlas of Civilised Construction Manual for Prevention and Control of General Quality Problems Project Delivery Guidelines Technical Guidelines on Construction of Lightweight Slatwall Management of Geotechnical Monitoring and Testing Guidelines on Acceptance of Showering (Storage) Water for Agile Properties Management Measures for Joint Acceptance of Residential Project Delivery Residential Construction Drawing Design Guide Management Process on Structural Limit Design Standardised Actions for Dealing with Customer Complaints Management System for Safety and Operation of Information System Standards on Handling of Information System Problems and Accidents Management System for Changes of Information System Management System for Safety of Sensitive Privacy Data within Information System Marketing System Control Measures",
+      "retrieval_text": "[Section]\nAPPENDIX I - LIST OF POLICIES AND REGULATIONS\n\n[Content]\nAspects of ESG | Compliance with Laws and Regulations | The Group's Internal Policies and Systems B6. Product Responsibility | Product Quality Law of the PRC Urban Real Estate Administration Law of the PRC Advertising Law of the PRC Consumer Rights and Interests Protection Law of the PRC Cybersecurity Law of the PRC Patent Law of the PRC Copyright Law of the PRC Trademark Law of the PRC Law of the PRC on the Protection of Personal Information Measures for the Administration of the Sale of Commercial Properties | Unified Promotion Practices for Construction Engineering Project Process Evaluation System Unified Standard Atlas of Civilised Construction Manual for Prevention and Control of General Quality Problems Project Delivery Guidelines Technical Guidelines on Construction of Lightweight Slatwall Management of Geotechnical Monitoring and Testing Guidelines on Acceptance of Showering (Storage) Water for Agile Properties Management Measures for Joint Acceptance of Residential Project Delivery Residential Construction Drawing Design Guide Management Process on Structural Limit Design Standardised Actions for Dealing with Customer Complaints Management System for Safety and Operation of Information System Standards on Handling of Information System Problems and Accidents Management System for Changes of Information System Management System for Safety of Sensitive Privacy Data within Information System Marketing System Control Measures",
+      "bm25_rank": 30,
+      "dense_rank": 28,
+      "bm25_score": 11.464071273803711,
+      "dense_score": 0.3869444727897644,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24783185221635132,
+      "normalized_dense": 0.32314790742824606,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.40696344005657925,
+      "rank": 16,
+      "rrf_score": 0.40696344005657925,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T4_001",
+      "alias_source_ids": [
+        "T4_001"
+      ],
+      "section": "ABOUT THIS REPORT / Reporting Profile",
+      "pages": [
+        4
+      ],
+      "text": "Reporting Principles | Definition | The Group's Response Materiality | The topics covered in the Report should reflect the Group's material impact on the economy, environment and society, or the areas that influence stakeholders' assessment and decision. | The Group will report when the board of directors of the Company (the 'Board') determines that ESG- related matters will have a material impact on investors and other stakeholders. Quantitative | The Report should disclose key performance indicators in a measurable manner. | The Group insists that key performance indicators related to historical data must be measurable and the criteria and methods of calculation are described in the notes. Balance | The Report should reflect unbiased the overall sustainability performance of the Group. | The Group has explained in detail the sustainability issues that have significant impact on the Group's business, including the results achieved and the challenges faced by Group. Consistency | The Group should ensure that consistent disclosure principles are used for reporting. | The Group will ensure that the scope of disclosure and reporting methods in the Report are generally consistent from year to year. Where there is a change in the statistical approach and assumptions, the Group will explain the reasons in the Report.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Reporting Profile\n\n[Content]\nReporting Principles | Definition | The Group's Response Materiality | The topics covered in the Report should reflect the Group's material impact on the economy, environment and society, or the areas that influence stakeholders' assessment and decision. | The Group will report when the board of directors of the Company (the 'Board') determines that ESG- related matters will have a material impact on investors and other stakeholders. Quantitative | The Report should disclose key performance indicators in a measurable manner. | The Group insists that key performance indicators related to historical data must be measurable and the criteria and methods of calculation are described in the notes. Balance | The Report should reflect unbiased the overall sustainability performance of the Group. | The Group has explained in detail the sustainability issues that have significant impact on the Group's business, including the results achieved and the challenges faced by Group. Consistency | The Group should ensure that consistent disclosure principles are used for reporting. | The Group will ensure that the scope of disclosure and reporting methods in the Report are generally consistent from year to year. Where there is a change in the statistical approach and assumptions, the Group will explain the reasons in the Report.",
+      "bm25_rank": null,
+      "dense_rank": 5,
+      "bm25_score": null,
+      "dense_score": 0.44357800483703613,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5839909867147931,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.3990277178333991,
+      "rank": 17,
+      "rrf_score": 0.3990277178333991,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T98_001",
+      "alias_source_ids": [
+        "T98_001"
+      ],
+      "section": "APPENDIX III - INDEX OF THE ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE HONG KONG STOCK EXCHANGE (CONTINUED)",
+      "pages": [
+        98
+      ],
+      "text": "ESG Indicator | Description | Section A2: Use of Resources General Disclosure | Policies on efficient use of resources including energy, water, and other raw materials. | Protect the Environment for a Green Future KPI A2.1 | Direct and/ or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Appendix II - List of Data KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Appendix II - List of Data KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Protect the Environment for a Green Future KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Protect the Environment for a Green Future KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | N/A A3: The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impacts on the environment and natural resources. | Protect the Environment for a Green Future KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and actions taken to manage them. | Protect the Environment for a Green Future A4: Climate Change General Disclosure | Policies on identification and mitigation of significant climate- related issues which have impacted, and those which may impact, the issuer. | Protect the Environment for a Green Future KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Protect the Environment for a Green Future",
+      "retrieval_text": "[Section]\nAPPENDIX III - INDEX OF THE ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE OF THE HONG KONG STOCK EXCHANGE (CONTINUED)\n\n[Content]\nESG Indicator | Description | Section A2: Use of Resources General Disclosure | Policies on efficient use of resources including energy, water, and other raw materials. | Protect the Environment for a Green Future KPI A2.1 | Direct and/ or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | Appendix II - List of Data KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Appendix II - List of Data KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Protect the Environment for a Green Future KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Protect the Environment for a Green Future KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | N/A A3: The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impacts on the environment and natural resources. | Protect the Environment for a Green Future KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and actions taken to manage them. | Protect the Environment for a Green Future A4: Climate Change General Disclosure | Policies on identification and mitigation of significant climate- related issues which have impacted, and those which may impact, the issuer. | Protect the Environment for a Green Future KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Protect the Environment for a Green Future",
+      "bm25_rank": 53,
+      "dense_rank": 22,
+      "bm25_score": 7.132061958312988,
+      "dense_score": 0.3947470486164093,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13105386293077137,
+      "normalized_dense": 0.3590850604083925,
+      "normalized_bm25_rank": 0.651006711409396,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.388803295406944,
+      "rank": 18,
+      "rrf_score": 0.388803295406944,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_005",
+      "alias_source_ids": [
+        "P31_005"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)",
+      "pages": [
+        31
+      ],
+      "text": "Percentage of Green Building Designed Area",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)\n\n[Content]\nPercentage of Green Building Designed Area",
+      "bm25_rank": 56,
+      "dense_rank": 23,
+      "bm25_score": 7.0517258644104,
+      "dense_score": 0.3941633105278015,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.128888242584699,
+      "normalized_dense": 0.3563964758362312,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.38407346203948645,
+      "rank": 19,
+      "rrf_score": 0.38407346203948645,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_001",
+      "alias_source_ids": [
+        "P25_001"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED / Important Issues Responded to in this Section",
+      "pages": [
+        25
+      ],
+      "text": "Provide quality products and services Protect customer privacy and information safety Safeguard interests in intellectual property rights and trademarks Carry out responsible marketing Enhance quality management system of supply chain Supply chain environmental and social risk management Respond to policies and participate in industry exchanges",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED / Important Issues Responded to in this Section\n\n[Content]\nProvide quality products and services Protect customer privacy and information safety Safeguard interests in intellectual property rights and trademarks Carry out responsible marketing Enhance quality management system of supply chain Supply chain environmental and social risk management Respond to policies and participate in industry exchanges",
+      "bm25_rank": 74,
+      "dense_rank": 15,
+      "bm25_score": 4.076387405395508,
+      "dense_score": 0.40193670988082886,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.048682034014148855,
+      "normalized_dense": 0.3921992476300732,
+      "normalized_bm25_rank": 0.5100671140939597,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.37922090857402657,
+      "rank": 20,
+      "rrf_score": 0.37922090857402657,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L93_004",
+      "alias_source_ids": [
+        "L93_004"
+      ],
+      "section": "Scope of Statistics:",
+      "pages": [
+        93
+      ],
+      "text": "Energy consumption intensity and water consumption intensity are emission intensities based on the operating revenue of 2021.",
+      "retrieval_text": "[Section]\nScope of Statistics:\n\n[Content]\nEnergy consumption intensity and water consumption intensity are emission intensities based on the operating revenue of 2021.",
+      "bm25_rank": null,
+      "dense_rank": 6,
+      "bm25_score": null,
+      "dense_score": 0.431083619594574,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5264442683198344,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.3775440845159689,
+      "rank": 21,
+      "rrf_score": 0.3775440845159689,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L71_002",
+      "alias_source_ids": [
+        "L71_002"
+      ],
+      "section": "Save Energy Resources by Using Alternative Materials",
+      "pages": [
+        71
+      ],
+      "text": "Material conservation: the temporary construction facilities are made of demountable and recyclable materials, and the isolation guardrails are all made of tooled metal products with 100% turnover rate; scientific material transportation methods are adopted to reduce the transportation loss rate.",
+      "retrieval_text": "[Section]\nSave Energy Resources by Using Alternative Materials\n\n[Content]\nMaterial conservation: the temporary construction facilities are made of demountable and recyclable materials, and the isolation guardrails are all made of tooled metal products with 100% turnover rate; scientific material transportation methods are adopted to reduce the transportation loss rate.",
+      "bm25_rank": 35,
+      "dense_rank": 35,
+      "bm25_score": 10.267193794250488,
+      "dense_score": 0.3777393698692322,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.21556762208563068,
+      "normalized_dense": 0.28075098630849254,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.37291999378617235,
+      "rank": 22,
+      "rrf_score": 0.37291999378617235,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L96_003",
+      "alias_source_ids": [
+        "L96_003"
+      ],
+      "section": "Reference standards for data calculation:",
+      "pages": [
+        96
+      ],
+      "text": "Average training hours = total training hours of employees in a particular position/total number of employees in that particular position",
+      "retrieval_text": "[Section]\nReference standards for data calculation:\n\n[Content]\nAverage training hours = total training hours of employees in a particular position/total number of employees in that particular position",
+      "bm25_rank": 98,
+      "dense_rank": 13,
+      "bm25_score": 2.78706693649292,
+      "dense_score": 0.40509259700775146,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.013925817917201325,
+      "normalized_dense": 0.4067346524743296,
+      "normalized_bm25_rank": 0.3489932885906041,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.36393423825818044,
+      "rank": 23,
+      "rrf_score": 0.36393423825818044,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P61_002",
+      "alias_source_ids": [
+        "P61_002"
+      ],
+      "section": "Health and Safety / Occupational Health Protection",
+      "pages": [
+        61
+      ],
+      "text": "At the same time, the Group regularly engages a third party to conduct a comprehensive assessment of occupational health hazards in projects under construction and operation, and to inform employees of job-specific risks, so as to prevent, control and eliminate occupational hazards. During the Reporting Period, the Group's labour protection gears were equipped at 100% and no cases of occupational diseases were contracted.",
+      "retrieval_text": "[Section]\nHealth and Safety / Occupational Health Protection\n\n[Content]\nAt the same time, the Group regularly engages a third party to conduct a comprehensive assessment of occupational health hazards in projects under construction and operation, and to inform employees of job-specific risks, so as to prevent, control and eliminate occupational hazards. During the Reporting Period, the Group's labour protection gears were equipped at 100% and no cases of occupational diseases were contracted.",
+      "bm25_rank": 60,
+      "dense_rank": 27,
+      "bm25_score": 6.317119598388672,
+      "dense_score": 0.3881392478942871,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10908545906901128,
+      "normalized_dense": 0.3286508101442285,
+      "normalized_bm25_rank": 0.6040268456375839,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.3623482310689803,
+      "rank": 24,
+      "rrf_score": 0.3623482310689803,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L16_011",
+      "alias_source_ids": [
+        "L16_011"
+      ],
+      "section": "Materiality Assessment",
+      "pages": [
+        16
+      ],
+      "text": "Disclose in this Report the issues of key concerns to stakeholders",
+      "retrieval_text": "[Section]\nMateriality Assessment\n\n[Content]\nDisclose in this Report the issues of key concerns to stakeholders",
+      "bm25_rank": null,
+      "dense_rank": 7,
+      "bm25_score": null,
+      "dense_score": 0.4198000431060791,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4744743005246494,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.3580123139084595,
+      "rank": 25,
+      "rrf_score": 0.3580123139084595,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P51_005",
+      "alias_source_ids": [
+        "P51_005"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Supplier Chain Environmental and Social Risk Management",
+      "pages": [
+        51
+      ],
+      "text": "The Group has established a supplier reverse evaluation mechanism, in which the Purchasing Department will randomly distribute questionnaires to suppliers through the supply chain middle platform system every six months, anonymously collect suppliers' evaluation and satisfaction of the Company's relevant business departments in the process of contract performance, and improve the internal management of the Company according to the results.",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Supplier Chain Environmental and Social Risk Management\n\n[Content]\nThe Group has established a supplier reverse evaluation mechanism, in which the Purchasing Department will randomly distribute questionnaires to suppliers through the supply chain middle platform system every six months, anonymously collect suppliers' evaluation and satisfaction of the Company's relevant business departments in the process of contract performance, and improve the internal management of the Company according to the results.",
+      "bm25_rank": null,
+      "dense_rank": 10,
+      "bm25_score": null,
+      "dense_score": 0.4147305488586426,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4511251919290028,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.3458132802623993,
+      "rank": 26,
+      "rrf_score": 0.3458132802623993,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P46_002",
+      "alias_source_ids": [
+        "P46_002"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Customer Rights and Interests Protection Responsible Marketing",
+      "pages": [
+        46
+      ],
+      "text": "The Group conducts training at least once a month for each project marketing site to unify sales terms and specifications, and arranges special personnel to conduct compliance inspections on the project marketing site at a later stage, and inspect and supervise the on-site marketing services. The Group has clearly established the production standards for external publicity content, and comprehensively reviewed the project's external publicity data, brand promotion data, sales pitch, etc. At the same time, the Group regularly conducts responsible marketing supervision and inspection, makes transparent announcements in the project marketing site, and publicises information such as the Group's tip-offs hotline. If any non-compliance incident is found, the group will immediately start the corresponding accountability mechanism to effectively safeguard and protect the customer's right to be informed and to appeal.",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Customer Rights and Interests Protection Responsible Marketing\n\n[Content]\nThe Group conducts training at least once a month for each project marketing site to unify sales terms and specifications, and arranges special personnel to conduct compliance inspections on the project marketing site at a later stage, and inspect and supervise the on-site marketing services. The Group has clearly established the production standards for external publicity content, and comprehensively reviewed the project's external publicity data, brand promotion data, sales pitch, etc. At the same time, the Group regularly conducts responsible marketing supervision and inspection, makes transparent announcements in the project marketing site, and publicises information such as the Group's tip-offs hotline. If any non-compliance incident is found, the group will immediately start the corresponding accountability mechanism to effectively safeguard and protect the customer's right to be informed and to appeal.",
+      "bm25_rank": null,
+      "dense_rank": 11,
+      "bm25_score": null,
+      "dense_score": 0.40880122780799866,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.42381588761724726,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.33491274187409026,
+      "rank": 27,
+      "rrf_score": 0.33491274187409026,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L93_003",
+      "alias_source_ids": [
+        "L93_003"
+      ],
+      "section": "Scope of Statistics:",
+      "pages": [
+        93
+      ],
+      "text": "The power equivalent value as in total energy consumption is converted by reference to the Chinese standard of GB/T 2589-2008 General Principles for Calculation of Comprehensive Energy Consumption;",
+      "retrieval_text": "[Section]\nScope of Statistics:\n\n[Content]\nThe power equivalent value as in total energy consumption is converted by reference to the Chinese standard of GB/T 2589-2008 General Principles for Calculation of Comprehensive Energy Consumption;",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.40801963210105896,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.42021600917800167,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.3323105025411596,
+      "rank": 28,
+      "rrf_score": 0.3323105025411596,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P54_001",
+      "alias_source_ids": [
+        "P54_001"
+      ],
+      "section": "Equal Employment and Diversification",
+      "pages": [
+        54
+      ],
+      "text": "The Group strictly complies with the Provisions on the Prohibition of Using Child Labour and the requirements of international labour standards, and strictly prohibits the use of child labour or forced labour by any business units or supply chain partners, and avoids the occurrence of child labour and forced labour of employees by conducting work certification and relevant background checks on employees to be recruited. In case of non-compliance, the relevant departments and units will be held responsible. During the Reporting Period, the Group did not have any cases of child labour and forced labour.",
+      "retrieval_text": "[Section]\nEqual Employment and Diversification\n\n[Content]\nThe Group strictly complies with the Provisions on the Prohibition of Using Child Labour and the requirements of international labour standards, and strictly prohibits the use of child labour or forced labour by any business units or supply chain partners, and avoids the occurrence of child labour and forced labour of employees by conducting work certification and relevant background checks on employees to be recruited. In case of non-compliance, the relevant departments and units will be held responsible. During the Reporting Period, the Group did not have any cases of child labour and forced labour.",
+      "bm25_rank": 17,
+      "dense_rank": 70,
+      "bm25_score": 15.021733283996582,
+      "dense_score": 0.3552837669849396,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.34373575866050343,
+      "normalized_dense": 0.17732482883899872,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.5369127516778524,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.3274551371277637,
+      "rank": 29,
+      "rrf_score": 0.3274551371277637,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P91_001",
+      "alias_source_ids": [
+        "P91_001"
+      ],
+      "section": "APPENDIX II - LIST OF DATA / Environmental Key Performance Table",
+      "pages": [
+        91
+      ],
+      "text": "1 Total GHG emissions include the sum of direct GHG emissions and indirect GHG emissions.",
+      "retrieval_text": "[Section]\nAPPENDIX II - LIST OF DATA / Environmental Key Performance Table\n\n[Content]\n1 Total GHG emissions include the sum of direct GHG emissions and indirect GHG emissions.",
+      "bm25_rank": 41,
+      "dense_rank": 51,
+      "bm25_score": 9.12614917755127,
+      "dense_score": 0.3646010160446167,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18480847862146763,
+      "normalized_dense": 0.22023827335411872,
+      "normalized_bm25_rank": 0.7315436241610738,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.32008535985461095,
+      "rank": 30,
+      "rrf_score": 0.32008535985461095,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P92_003",
+      "alias_source_ids": [
+        "P92_003"
+      ],
+      "section": "APPENDIX II - LIST OF DATA / Environmental Key Performance Table",
+      "pages": [
+        92
+      ],
+      "text": "8 Indirect energy consumption includes the indirect consumption of purchased electricity.",
+      "retrieval_text": "[Section]\nAPPENDIX II - LIST OF DATA / Environmental Key Performance Table\n\n[Content]\n8 Indirect energy consumption includes the indirect consumption of purchased electricity.",
+      "bm25_rank": null,
+      "dense_rank": 16,
+      "bm25_score": null,
+      "dense_score": 0.4016343951225281,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.39080684440854846,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.3166481673550725,
+      "rank": 31,
+      "rrf_score": 0.3166481673550725,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "ABOUT THIS REPORT / Reporting Profile",
+      "pages": [
+        4
+      ],
+      "text": "The reporting period for this Report is from 1 January 2021 to 31 December 2021 ('Reporting Period' or 'Year'). In order to enhance the comparability and completeness of the Report, it reproduced what have been reported in the past, where appropriate. This Report covers the operations of the Group.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / Reporting Profile\n\n[Content]\nThe reporting period for this Report is from 1 January 2021 to 31 December 2021 ('Reporting Period' or 'Year'). In order to enhance the comparability and completeness of the Report, it reproduced what have been reported in the past, where appropriate. This Report covers the operations of the Group.",
+      "bm25_rank": 54,
+      "dense_rank": 48,
+      "bm25_score": 7.1086883544921875,
+      "dense_score": 0.36723583936691284,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13042378061613036,
+      "normalized_dense": 0.23237375923887812,
+      "normalized_bm25_rank": 0.6442953020134228,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 48,
+      "composite_score": 0.30875785373602804,
+      "rank": 32,
+      "rrf_score": 0.30875785373602804,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T68_001",
+      "alias_source_ids": [
+        "T68_001"
+      ],
+      "section": "Information-based Means to Monitor Energy Consumption and Improve Energy Use Efficiency",
+      "pages": [
+        68
+      ],
+      "text": "System Name | Major Functions | Implementation Status | Achievements Centralised Monitoring Platform | Integrating project company's central control screens, monitoring videos, digital emission data; sending real- time alarms of emission data exceeding the standard through WeCom | 28 monitoring screens, 2,894 monitoring videos, and 570 emission indicators for each project have been integrated. 30,000 alarm alerts have been sent in 2021 | Real-time environmental emission data monitoring and exceedance alerts helped c o n t r o l environmental emissions on site Safety Management Platform | Integrating the monitoring platform data and exceedance r e c o r d s , moni t o r i n g equipment s t a t u s a n d operating conditions, reporting the cause and tracking the closed loop for excessive data | Promote al l projects of hazardous waste, and mark the data of waste gas and waste water exceeding s t a n d a r d s : 3 t y p e s o f Continuous Emissions Monitoring Systems (CEMS) status, 13 types of waste gas status, 5 types of waste water status | Statistics of excessive data, actual working conditions, monitoring equipment status registration, exceedance tracking, facilitate abnormal emission problem tracking, identify and solve problems Laboratory Management System | Online commissioning, sampling, assignment and testing, integrating laboratory workstations, reporting and data transmission production system, realising all-round management of laboratory in terms of people, machines, materials, methods and environment | Transformation and upgrading of intelligent laboratories of 20 hazardous waste projects, with 40,000 online samples, 440,000 testing items, and 28,000 output reports | Reduce testing errors, optimise compatibility recommendations, effectively reduce energy consumption in production and disposal, and promote stable emissions Hazardous Waste Production Management System | F u l l b u s i n e s s p r o c e s s management of hazardous waste including market pre- a c c e p t a n c e , incoming inspection, warehouse inventory management, compatibility management, production disposal and secondary hazardous waste disposal | 20 hazardous waste projects have realised information management of hazardous waste, with 12,800 pre- acceptance consignment o r d e r s , 2 0 0 d i s p o s a l compatibility orders and 2,000 secondary hazardous waste | Strictly control the collection a n d t r a n s p o r t a t i o n o f hazardous waste from the market side, connect the market and laboratories to ensure the compliance of incoming hazardous waste, avoid the entry of abnormal hazardous waste at source, r e d u c e t h e e n e r g y consumption of abnormal hazardous waste disposal and the risk of environmental emissions derived therefrom",
+      "retrieval_text": "[Section]\nInformation-based Means to Monitor Energy Consumption and Improve Energy Use Efficiency\n\n[Content]\nSystem Name | Major Functions | Implementation Status | Achievements Centralised Monitoring Platform | Integrating project company's central control screens, monitoring videos, digital emission data; sending real- time alarms of emission data exceeding the standard through WeCom | 28 monitoring screens, 2,894 monitoring videos, and 570 emission indicators for each project have been integrated. 30,000 alarm alerts have been sent in 2021 | Real-time environmental emission data monitoring and exceedance alerts helped c o n t r o l environmental emissions on site Safety Management Platform | Integrating the monitoring platform data and exceedance r e c o r d s , moni t o r i n g equipment s t a t u s a n d operating conditions, reporting the cause and tracking the closed loop for excessive data | Promote al l projects of hazardous waste, and mark the data of waste gas and waste water exceeding s t a n d a r d s : 3 t y p e s o f Continuous Emissions Monitoring Systems (CEMS) status, 13 types of waste gas status, 5 types of waste water status | Statistics of excessive data, actual working conditions, monitoring equipment status registration, exceedance tracking, facilitate abnormal emission problem tracking, identify and solve problems Laboratory Management System | Online commissioning, sampling, assignment and testing, integrating laboratory workstations, reporting and data transmission production system, realising all-round management of laboratory in terms of people, machines, materials, methods and environment | Transformation and upgrading of intelligent laboratories of 20 hazardous waste projects, with 40,000 online samples, 440,000 testing items, and 28,000 output reports | Reduce testing errors, optimise compatibility recommendations, effectively reduce energy consumption in production and disposal, and promote stable emissions Hazardous Waste Production Management System | F u l l b u s i n e s s p r o c e s s management of hazardous waste including market pre- a c c e p t a n c e , incoming inspection, warehouse inventory management, compatibility management, production disposal and secondary hazardous waste disposal | 20 hazardous waste projects have realised information management of hazardous waste, with 12,800 pre- acceptance consignment o r d e r s , 2 0 0 d i s p o s a l compatibility orders and 2,000 secondary hazardous waste | Strictly control the collection a n d t r a n s p o r t a t i o n o f hazardous waste from the market side, connect the market and laboratories to ensure the compliance of incoming hazardous waste, avoid the entry of abnormal hazardous waste at source, r e d u c e t h e e n e r g y consumption of abnormal hazardous waste disposal and the risk of environmental emissions derived therefrom",
+      "bm25_rank": 13,
+      "dense_rank": 85,
+      "bm25_score": 16.97657012939453,
+      "dense_score": 0.34299081563949585,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.396432301895217,
+      "normalized_dense": 0.12070587595806648,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.43624161073825507,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.3007281478368499,
+      "rank": 33,
+      "rrf_score": 0.3007281478368499,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L72_002",
+      "alias_source_ids": [
+        "L72_002"
+      ],
+      "section": "Emissions and Water Management",
+      "pages": [
+        72
+      ],
+      "text": "Implement the medium and long-term plans for green development, including the adoption of more than 80% of prefabricated techniques by 2025 and more than 90% by 2030, etc., in order to actively reduce waste generation and increase the waste recycling rate.",
+      "retrieval_text": "[Section]\nEmissions and Water Management\n\n[Content]\nImplement the medium and long-term plans for green development, including the adoption of more than 80% of prefabricated techniques by 2025 and more than 90% by 2030, etc., in order to actively reduce waste generation and increase the waste recycling rate.",
+      "bm25_rank": 71,
+      "dense_rank": 43,
+      "bm25_score": 4.69315767288208,
+      "dense_score": 0.37170296907424927,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06530831213194009,
+      "normalized_dense": 0.2529484934345388,
+      "normalized_bm25_rank": 0.5302013422818792,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 43,
+      "composite_score": 0.29823793043049,
+      "rank": 34,
+      "rrf_score": 0.29823793043049,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L21_005",
+      "alias_source_ids": [
+        "L21_005"
+      ],
+      "section": "Integrity Culture Construction",
+      "pages": [
+        21
+      ],
+      "text": "Regardless of whether the problem reflected in the complaint report is verified or not, the personal information of the whistleblower is protected by the Group's Confidentiality System. Employees who leak information about the whistle blower, leak integrity investigation process and material, threaten or retaliate against the whistleblower, will be demoted and given a major demerit, or dismissed in serious cases, or, if suspect that a crime has been committed, will lodge a complaint with report to public security bureaus for investigation.",
+      "retrieval_text": "[Section]\nIntegrity Culture Construction\n\n[Content]\nRegardless of whether the problem reflected in the complaint report is verified or not, the personal information of the whistleblower is protected by the Group's Confidentiality System. Employees who leak information about the whistle blower, leak integrity investigation process and material, threaten or retaliate against the whistleblower, will be demoted and given a major demerit, or dismissed in serious cases, or, if suspect that a crime has been committed, will lodge a complaint with report to public security bureaus for investigation.",
+      "bm25_rank": 83,
+      "dense_rank": 37,
+      "bm25_score": 2.9877543449401855,
+      "dense_score": 0.37567541003227234,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.019335749043065217,
+      "normalized_dense": 0.2712447870669021,
+      "normalized_bm25_rank": 0.44966442953020136,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.2954471205840422,
+      "rank": 35,
+      "rrf_score": 0.2954471205840422,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_001",
+      "alias_source_ids": [
+        "P9_001"
+      ],
+      "section": "Awards Received during the Year",
+      "pages": [
+        9
+      ],
+      "text": "During the Year, the Group was granted a number of industry awards for its outstanding performance in product responsibility, employment management, technological innovation and environmental protection, such as 2021 China Real Estate Productivity Brand (TOP 6), 2021 Greater China Employer of Excellence, Kerry China Top 30 Real Estate Enterprises Digital Power 2020-2021, Green Innovation 2021 and 2021 ESG Award.",
+      "retrieval_text": "[Section]\nAwards Received during the Year\n\n[Content]\nDuring the Year, the Group was granted a number of industry awards for its outstanding performance in product responsibility, employment management, technological innovation and environmental protection, such as 2021 China Real Estate Productivity Brand (TOP 6), 2021 Greater China Employer of Excellence, Kerry China Top 30 Real Estate Enterprises Digital Power 2020-2021, Green Innovation 2021 and 2021 ESG Award.",
+      "bm25_rank": 32,
+      "dense_rank": 74,
+      "bm25_score": 11.227806091308594,
+      "dense_score": 0.3528926968574524,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.24146285091912187,
+      "normalized_dense": 0.1663120229570834,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.5100671140939597,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.28770983191007876,
+      "rank": 36,
+      "rrf_score": 0.28770983191007876,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P16_003",
+      "alias_source_ids": [
+        "P16_003"
+      ],
+      "section": "Materiality Assessment",
+      "pages": [
+        16
+      ],
+      "text": "Agile invited over 7,000 stakeholders to participate in the survey, which covered:",
+      "retrieval_text": "[Section]\nMateriality Assessment\n\n[Content]\nAgile invited over 7,000 stakeholders to participate in the survey, which covered:",
+      "bm25_rank": null,
+      "dense_rank": 25,
+      "bm25_score": null,
+      "dense_score": 0.3910874128341675,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3422294868285848,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.28756555528933353,
+      "rank": 37,
+      "rrf_score": 0.28756555528933353,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P78_002",
+      "alias_source_ids": [
+        "P78_002"
+      ],
+      "section": "Risk Management: How to Identify and Manage Climate-related Risks",
+      "pages": [
+        78
+      ],
+      "text": "For the first time, the Group reported climate-related financial disclosures with reference to TCFD recommendations in order to enhance the transparency of ESG reporting. Meanwhile during the Year, the Group formulated a medium and long-term plan for green development, energy use efficiency objectives, waste reduction objectives, emission objectives and water use efficiency objectives, and defined specific measures to achieve the plans and objectives. In addition, the Group continued to disclose Scope 1 and Scope 2 GHG emissions data, while focusing on the statistics and management of Scope 3 GHG emissions. The Group also promoted the use of public transport as a priority in the Travel Management System and continued to promote the use of teleconferencing systems to reduce indirect GHG emissions associated with travel.",
+      "retrieval_text": "[Section]\nRisk Management: How to Identify and Manage Climate-related Risks\n\n[Content]\nFor the first time, the Group reported climate-related financial disclosures with reference to TCFD recommendations in order to enhance the transparency of ESG reporting. Meanwhile during the Year, the Group formulated a medium and long-term plan for green development, energy use efficiency objectives, waste reduction objectives, emission objectives and water use efficiency objectives, and defined specific measures to achieve the plans and objectives. In addition, the Group continued to disclose Scope 1 and Scope 2 GHG emissions data, while focusing on the statistics and management of Scope 3 GHG emissions. The Group also promoted the use of public transport as a priority in the Travel Management System and continued to promote the use of teleconferencing systems to reduce indirect GHG emissions associated with travel.",
+      "bm25_rank": 33,
+      "dense_rank": 73,
+      "bm25_score": 10.459725379943848,
+      "dense_score": 0.35411882400512695,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2207576966708438,
+      "normalized_dense": 0.17195932711126022,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.5167785234899329,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.28621649845398234,
+      "rank": 38,
+      "rrf_score": 0.28621649845398234,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P91_003",
+      "alias_source_ids": [
+        "P91_003"
+      ],
+      "section": "APPENDIX II - LIST OF DATA / Environmental Key Performance Table",
+      "pages": [
+        91
+      ],
+      "text": "3 Indirect GHG emissions include indirect emissions from purchased electricity.",
+      "retrieval_text": "[Section]\nAPPENDIX II - LIST OF DATA / Environmental Key Performance Table\n\n[Content]\n3 Indirect GHG emissions include indirect emissions from purchased electricity.",
+      "bm25_rank": null,
+      "dense_rank": 26,
+      "bm25_score": null,
+      "dense_score": 0.3904641568660736,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.33935889055771074,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.28521856471533297,
+      "rank": 39,
+      "rrf_score": 0.28521856471533297,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P49_003",
+      "alias_source_ids": [
+        "P49_003"
+      ],
+      "section": "Supply Chain Management Supply Chain Regulations and Policies",
+      "pages": [
+        49
+      ],
+      "text": "The Group conducts regular evaluations of its suppliers to continuously improve the quality of their services. The Group classifies its suppliers into five levels, namely A+ (excellent), A (outstanding), B (good), C (qualified) and D (unqualified), based on the supplier evaluation. Suppliers with an annual evaluation result of A+ (excellent) level are eligible for direct entrustment for new bidding projects within the target cost or benchmark price; A-level (excellent) suppliers are allowed to increase their supply area or expand the scope of cooperation appropriately under the same conditions; B-level (good) suppliers are allowed to renew their supply contracts directly without price increase; C-level (qualified) suppliers are regularly interviewed by business leaders to gradually improve and optimise the cooperation relationship; D-level (unqualified) suppliers will be required to stop cooperation and will not be qualified to renew supply contracts. When a supplier has problems with supply and quality, the Group will issue a yellow or red warning card, depending on the situation; suppliers with major quality/ safety accidents and other serious damage to the Group's interests will be directly blacklisted and will never be engaged again.",
+      "retrieval_text": "[Section]\nSupply Chain Management Supply Chain Regulations and Policies\n\n[Content]\nThe Group conducts regular evaluations of its suppliers to continuously improve the quality of their services. The Group classifies its suppliers into five levels, namely A+ (excellent), A (outstanding), B (good), C (qualified) and D (unqualified), based on the supplier evaluation. Suppliers with an annual evaluation result of A+ (excellent) level are eligible for direct entrustment for new bidding projects within the target cost or benchmark price; A-level (excellent) suppliers are allowed to increase their supply area or expand the scope of cooperation appropriately under the same conditions; B-level (good) suppliers are allowed to renew their supply contracts directly without price increase; C-level (qualified) suppliers are regularly interviewed by business leaders to gradually improve and optimise the cooperation relationship; D-level (unqualified) suppliers will be required to stop cooperation and will not be qualified to renew supply contracts. When a supplier has problems with supply and quality, the Group will issue a yellow or red warning card, depending on the situation; suppliers with major quality/ safety accidents and other serious damage to the Group's interests will be directly blacklisted and will never be engaged again.",
+      "bm25_rank": 61,
+      "dense_rank": 54,
+      "bm25_score": 6.303932189941406,
+      "dense_score": 0.36209753155708313,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10872996605636874,
+      "normalized_dense": 0.20870770870331626,
+      "normalized_bm25_rank": 0.5973154362416108,
+      "normalized_dense_rank": 0.6442953020134228,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 54,
+      "composite_score": 0.2833842952842801,
+      "rank": 40,
+      "rrf_score": 0.2833842952842801,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P36_003",
+      "alias_source_ids": [
+        "P36_003"
+      ],
+      "section": "Project Safety Management",
+      "pages": [
+        36
+      ],
+      "text": "At the same time, the Group has formulated a Health and Safety Management Policy with reference to the basic principles and initiatives of the United Nations Global Compact to clarify the Group's overall management commitment, principles and methods for health and safety, and to incorporate health and safety management performance into the evaluation of the Group's senior management remuneration to ensure that health and safety-related prevention, control and management measures are effectively implemented.",
+      "retrieval_text": "[Section]\nProject Safety Management\n\n[Content]\nAt the same time, the Group has formulated a Health and Safety Management Policy with reference to the basic principles and initiatives of the United Nations Global Compact to clarify the Group's overall management commitment, principles and methods for health and safety, and to incorporate health and safety management performance into the evaluation of the Group's senior management remuneration to ensure that health and safety-related prevention, control and management measures are effectively implemented.",
+      "bm25_rank": 59,
+      "dense_rank": 57,
+      "bm25_score": 6.5723724365234375,
+      "dense_score": 0.36127206683158875,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1159663106614181,
+      "normalized_dense": 0.20490577806157814,
+      "normalized_bm25_rank": 0.610738255033557,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 57,
+      "composite_score": 0.28081632472229234,
+      "rank": 41,
+      "rrf_score": 0.28081632472229234,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P6_004",
+      "alias_source_ids": [
+        "P6_004"
+      ],
+      "section": "MESSAGE FROM THE CHAIRMAN",
+      "pages": [
+        6
+      ],
+      "text": "Products come first, harmony living between people and nature. We value the quality of our products and are concerned about the impact of our business development on the natural ecology. In the design and construction of our projects, we explore green building opportunities in the development of projects in various regions according to local conditions. With reference to the Assessment Standard for Green Building (GB/T 50378-2019), the Group has 125 projects that have met the Green Building Star Design Standard and 70 projects that have been awarded the Green Building Certification Mark. The Group has also obtained WELL Gold/ Platinum Precertification for 3 projects and applied the sponge city design concept for 82 projects.",
+      "retrieval_text": "[Section]\nMESSAGE FROM THE CHAIRMAN\n\n[Content]\nProducts come first, harmony living between people and nature. We value the quality of our products and are concerned about the impact of our business development on the natural ecology. In the design and construction of our projects, we explore green building opportunities in the development of projects in various regions according to local conditions. With reference to the Assessment Standard for Green Building (GB/T 50378-2019), the Group has 125 projects that have met the Green Building Star Design Standard and 70 projects that have been awarded the Green Building Certification Mark. The Group has also obtained WELL Gold/ Platinum Precertification for 3 projects and applied the sponge city design concept for 82 projects.",
+      "bm25_rank": 72,
+      "dense_rank": 50,
+      "bm25_score": 4.361186981201172,
+      "dense_score": 0.3650202453136444,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0563593771105831,
+      "normalized_dense": 0.222169162166933,
+      "normalized_bm25_rank": 0.5234899328859061,
+      "normalized_dense_rank": 0.6711409395973154,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 50,
+      "composite_score": 0.27560826338859684,
+      "rank": 42,
+      "rrf_score": 0.27560826338859684,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P53_003",
+      "alias_source_ids": [
+        "P53_003"
+      ],
+      "section": "SINCERE COLLABORATION, GROWTH TOGETHER / Important Issues Responded to in this Section",
+      "pages": [
+        53
+      ],
+      "text": "The Group prepares recruitment plans each year according to its business needs. Recruitment methods include campus recruitment, social recruitment and internal recommendation. The Group continues to bring in diversified and quality talents to inject new vitality into the rapid development of the Group. During the Reporting Period, the Group had a total of 98,466 employees, with a breakdown by position, age, gender and region as follows:",
+      "retrieval_text": "[Section]\nSINCERE COLLABORATION, GROWTH TOGETHER / Important Issues Responded to in this Section\n\n[Content]\nThe Group prepares recruitment plans each year according to its business needs. Recruitment methods include campus recruitment, social recruitment and internal recommendation. The Group continues to bring in diversified and quality talents to inject new vitality into the rapid development of the Group. During the Reporting Period, the Group had a total of 98,466 employees, with a breakdown by position, age, gender and region as follows:",
+      "bm25_rank": 108,
+      "dense_rank": 38,
+      "bm25_score": 2.626533269882202,
+      "dense_score": 0.3753962218761444,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.009598311341348623,
+      "normalized_dense": 0.2699589004956044,
+      "normalized_bm25_rank": 0.2818791946308725,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.2749287673746172,
+      "rank": 43,
+      "rrf_score": 0.2749287673746172,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P93_001",
+      "alias_source_ids": [
+        "P93_001"
+      ],
+      "section": "Scope of Statistics:",
+      "pages": [
+        93
+      ],
+      "text": "The Group's 2021 environmental data statistics include the Company, the Property Group, the Environmental Protection Group and its projects under management, and A-City Technology. Among which, the Environmental Protection Group includes operating projects under the management of the divisions of the Environmental Protection Group; A-City Technology includes A-City Technology headquarters and professional companies under management. The environmental statistics of A-Living is disclosed in its ESG Report.",
+      "retrieval_text": "[Section]\nScope of Statistics:\n\n[Content]\nThe Group's 2021 environmental data statistics include the Company, the Property Group, the Environmental Protection Group and its projects under management, and A-City Technology. Among which, the Environmental Protection Group includes operating projects under the management of the divisions of the Environmental Protection Group; A-City Technology includes A-City Technology headquarters and professional companies under management. The environmental statistics of A-Living is disclosed in its ESG Report.",
+      "bm25_rank": null,
+      "dense_rank": 29,
+      "bm25_score": null,
+      "dense_score": 0.38402077555656433,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3096819242617202,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.27080478087415244,
+      "rank": 44,
+      "rrf_score": 0.27080478087415244,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T23_001",
+      "alias_source_ids": [
+        "T23_001"
+      ],
+      "section": "Anti-corruption Training",
+      "pages": [
+        23
+      ],
+      "text": "Anti-corruption Training Provided for Directors and Employees Total number of employees | Number of trained employees | Percentage of trained employees | Training hours | Average training hours Directors | 12 | 9 | 75% | 18 | 1.5 Employees | 39,325 | 39,000 | 99% | 45,000 | 1.14",
+      "retrieval_text": "[Section]\nAnti-corruption Training\n\n[Content]\nAnti-corruption Training Provided for Directors and Employees Total number of employees | Number of trained employees | Percentage of trained employees | Training hours | Average training hours Directors | 12 | 9 | 75% | 18 | 1.5 Employees | 39,325 | 39,000 | 99% | 45,000 | 1.14",
+      "bm25_rank": 70,
+      "dense_rank": 55,
+      "bm25_score": 5.343340873718262,
+      "dense_score": 0.3617519438266754,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08283530280331422,
+      "normalized_dense": 0.2071159985537894,
+      "normalized_bm25_rank": 0.5369127516778524,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 55,
+      "composite_score": 0.27026571374576436,
+      "rank": 45,
+      "rrf_score": 0.27026571374576436,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L50_003",
+      "alias_source_ids": [
+        "L50_003"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Supplier Chain Environmental and Social Risk Management",
+      "pages": [
+        50
+      ],
+      "text": "Advocate for suppliers to improve the efficiency of resource use through technical transformation and material reuse;",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED) / Supplier Chain Environmental and Social Risk Management\n\n[Content]\nAdvocate for suppliers to improve the efficiency of resource use through technical transformation and material reuse;",
+      "bm25_rank": null,
+      "dense_rank": 30,
+      "bm25_score": null,
+      "dense_score": 0.3839576840400696,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3093913369569126,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.2693607934382751,
+      "rank": 46,
+      "rrf_score": 0.2693607934382751,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P82_004",
+      "alias_source_ids": [
+        "P82_004"
+      ],
+      "section": "PUBLIC WELFARE AND CHARITY FOR THE COMMUNITY (CONTINUED) / Assisting Urban Development",
+      "pages": [
+        82
+      ],
+      "text": "I n A p r i l 2 0 2 1 , t h e G r o u p f o r m a l l y b e c a m e t h e implementation body of the upgrading and transformation project of Shiban Industrial Zone in Lunjiao Street, Shunde District, Foshan City, and joined hands with Lunjiao Shiban Village to build the first industrial transformation project in Shunde District, Foshan City, to jointly explore a new path of diversified development of urban renewal and integrate high-quality resources through the redevelopment of urban brownfields to contribute to the urban renewal construction of Foshan City and the improvement of the living environment and quality of life of villagers in Lunjiao Shiban Village.",
+      "retrieval_text": "[Section]\nPUBLIC WELFARE AND CHARITY FOR THE COMMUNITY (CONTINUED) / Assisting Urban Development\n\n[Content]\nI n A p r i l 2 0 2 1 , t h e G r o u p f o r m a l l y b e c a m e t h e implementation body of the upgrading and transformation project of Shiban Industrial Zone in Lunjiao Street, Shunde District, Foshan City, and joined hands with Lunjiao Shiban Village to build the first industrial transformation project in Shunde District, Foshan City, to jointly explore a new path of diversified development of urban renewal and integrate high-quality resources through the redevelopment of urban brownfields to contribute to the urban renewal construction of Foshan City and the improvement of the living environment and quality of life of villagers in Lunjiao Shiban Village.",
+      "bm25_rank": 5,
+      "dense_rank": null,
+      "bm25_score": 30.0913028717041,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.7499661953215714,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.24730867530592504,
+      "rank": 47,
+      "rrf_score": 0.24730867530592504,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T27_001",
+      "alias_source_ids": [
+        "T27_001"
+      ],
+      "section": "Construction of Full-cycle Quality Management System",
+      "pages": [
+        27
+      ],
+      "text": "1. Risk pre-control system | 1. Comprehensive supplier | 1. T echnology | 1. High-precision technique 2. Regular management | onboarding assessment | standardisation | system inspections and coaching | 2. Full-cycle quantitative | 2. Management | 2. Informatised 3. Targeted follow-up | assessment of suppliers | standardisation | management technology services and technical | 3. Comprehensive | 3. Assessment standards | 3. Prefabricated support | assessment of project | 4. On-site standards | construction system management | 5. Other standardisation | 4. New technologies for systems | electrical and mechanical",
+      "retrieval_text": "[Section]\nConstruction of Full-cycle Quality Management System\n\n[Content]\n1. Risk pre-control system | 1. Comprehensive supplier | 1. T echnology | 1. High-precision technique 2. Regular management | onboarding assessment | standardisation | system inspections and coaching | 2. Full-cycle quantitative | 2. Management | 2. Informatised 3. Targeted follow-up | assessment of suppliers | standardisation | management technology services and technical | 3. Comprehensive | 3. Assessment standards | 3. Prefabricated support | assessment of project | 4. On-site standards | construction system management | 5. Other standardisation | 4. New technologies for systems | electrical and mechanical",
+      "bm25_rank": 7,
+      "dense_rank": 147,
+      "bm25_score": 22.00124168395996,
+      "dense_score": 0.31768500804901123,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5318823894248953,
+      "normalized_dense": 0.004152227666711598,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.020134228187919434,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.2078297575683281,
+      "rank": 48,
+      "rrf_score": 0.2078297575683281,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T30_001",
+      "alias_source_ids": [
+        "T30_001"
+      ],
+      "section": "Green Healthy Buildings",
+      "pages": [
+        30
+      ],
+      "text": "2021 | 1) Typical Project Green Building 2 Star/ WELL Certification 2022 | 1) 100% of Agile property development projects in 2022 will be designed according to Agile's Green Building Standards/ Healthy Building Standards 2) Full application of new materials and technologies 2025 | 1) More than 30% of the green floor area is designed in accordance with Agile's 2-star green building standard 2) Application of sponge city design concept and technology accounts for more than 80% 3) Use of prefabricated techniques accounts for more than 80% 2030 | 1) More than 80% of the green floor area will be designed in accordance with Agile's 2-star green building standard 2) Application of sponge city design concept and technology accounts for more than 90% 3) Use of prefabricated techniques accounts for more than 90%",
+      "retrieval_text": "[Section]\nGreen Healthy Buildings\n\n[Content]\n2021 | 1) Typical Project Green Building 2 Star/ WELL Certification 2022 | 1) 100% of Agile property development projects in 2022 will be designed according to Agile's Green Building Standards/ Healthy Building Standards 2) Full application of new materials and technologies 2025 | 1) More than 30% of the green floor area is designed in accordance with Agile's 2-star green building standard 2) Application of sponge city design concept and technology accounts for more than 80% 3) Use of prefabricated techniques accounts for more than 80% 2030 | 1) More than 80% of the green floor area will be designed in accordance with Agile's 2-star green building standard 2) Application of sponge city design concept and technology accounts for more than 90% 3) Use of prefabricated techniques accounts for more than 90%",
+      "bm25_rank": 9,
+      "dense_rank": null,
+      "bm25_score": 20.216554641723633,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.4837725749904868,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.19138538748131884,
+      "rank": 49,
+      "rrf_score": 0.19138538748131884,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L38_012",
+      "alias_source_ids": [
+        "L38_012"
+      ],
+      "section": "QUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)",
+      "pages": [
+        38
+      ],
+      "text": "Management of maintenance units",
+      "retrieval_text": "[Section]\nQUALITY-BASED, TECHNOLOGY-ASSISTED (CONTINUED)\n\n[Content]\nManagement of maintenance units",
+      "bm25_rank": 10,
+      "dense_rank": null,
+      "bm25_score": 20.131284713745117,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.4814739532630935,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.19025452219624286,
+      "rank": 50,
+      "rrf_score": 0.19025452219624286,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

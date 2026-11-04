@@ -1,0 +1,1551 @@
+{
+  "document_id": "2022052702223",
+  "metric_id": 44,
+  "metric_name": "投票权差异",
+  "query": "投票权差异 投票权差异 衡量企业表决权配置与经济所有权的一致性程度。重点考察差异化投票权架构（如双重股权）的复杂程度、是否存在对中小股东的实质性不公平以及抵消性保护机制。 一、架构公平性评分 (权重 70%，取值：0, 1, 2) • 2分（卓越/高分）：严格执行一股一票制；公司章程明确所有股份具有同等法律地位；无任何差异化投票安排。 • 1分（合格/中分）：存在适度的差异化架构（如 1:10 及以内的投票权倍数）；通常用于保护初创团队的控制权，且该架构已在主流证券交易所合规备案。 • 0分（不合格/低分）：存在极高杠杆的投票差异（如超过 1:20 的表决权比例）或金字塔持股结构；控制权与所有权严重背离；存在“黄金股”等赋予特定人无限否决权的安排。 二、抵消性保护机制 (权重 30%，取值：0, 1, 2) • 2分（完善）：具备强制性的“日落条款”（如创始人离职或特定年限后自动失效）；在涉及并购、章程修改等重大事项时强制执行一股一票；由普通股东独立选派特定比例的独董。 • 1分（基础）：具备基础的保护机制（如相关关联交易需经无利害关系股东批准），但缺乏自动退出（日落）机制或重大事项的穿透表决权。 • 0分（缺失）：没有任何抵消性安排，控股股东或创始人拥有不受限的永久特权。 一股一票 同股同权 股份法律地位平等 投票权差异 差异化表决权 投票权倍数 日落条款 重大事项一股一票 控制权与所有权偏离 同股不同权保护机制 WVR one share one vote equal voting rights equal legal status of shares voting rights disparity dual-class structure voting multiple sunset clause one-share-one-vote on reserved matters ownership-control divergence weighted voting rights WVR minority shareholder protection 企业是否严格执行一股一票，章程是否明确所有股份具有同等法律地位？ 若存在差异化投票权，其股份类别、投票倍数和控制安排是什么？ 是否有日落条款或失效条件？ 重大事项是否强制恢复一股一票？ 普通股东或中小股东有哪些抵消性保护？ 是否存在黄金股或过高杠杆表决安排？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '投票权差异'. Prefer explicit, auditable disclosure that answers: 企业是否严格执行一股一票，章程是否明确所有股份具有同等法律地位？ 若存在差异化投票权，其股份类别、投票倍数和控制安排是什么？ 是否有日落条款或失效条件？ 重大事项是否强制恢复一股一票？ 普通股东或中小股东有哪些抵消性保护？ 是否存在黄金股或过高杠杆表决安排？ Exclude or down-rank: 排除：仅声明重视股东权益而无股份类别或表决权依据；仅有独董人数、分红政策或未说明投票权的股权激励；未经章程、股本结构或上市文件支持的一股一票口号。区分：本指标接受严格一股一票作为2分证据，也评估差异架构的投票倍数、日落条款和保护机制；第43项侧重是否同股同权，本项侧重差异程度与抵消保护。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 184,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "T48_001",
+      "alias_source_ids": [
+        "T48_001"
+      ],
+      "section": "Social KPIs",
+      "pages": [
+        48
+      ],
+      "text": "KPIs | Unit | 2021 | 2020 Total employees 1 | Person | 6,163 | 6,025 Classifed by gender Female | Person | 558 | 557 Male | Person | 5,132 | 5,077 Classified by age ≤ 30 | Person | 1,291 | 1,315 31-40 | Person | 3,151 | 3,067 41-50 | Person | 859 | 854 ≥51 | Person | 389 | 398 Classified by employment type Full-time | Person | 5,690 | 5,634 Part-time | Person | 0 | 0 Classified by employee category Senior management | Person | 25 | 16 Middle management | Person | 229 | 243 General and skilled employees | Person | 5,436 | 5,375 Classified by geographical region Mainland China | Person | 5,690 | 5,634 Hong Kong, China | Person | 0 | 0 Other countries or regions | Person | 0 | 0 Employee turnover rate Employee turnover rate by gender -female | % | 6.81% | 2.51% Employee turnover rate by gender -male | % | 6.35% | 5.52% Employee turnover rate by age -≤30 years old | % | 9.99% | 11.71% Employee turnover rate by age -31-50 years old | % | 4.71% | 3.34% Employee turnover rate by age -≥51 years old | % | 11.83% | 2.26% Employee turnover rate by region -Mainland China | % | 6.40% | 5.22% Employee turnover rate by region -Hong Kong, China | % | N/A | N/A Employee turnover rate by region -others | % | N/A | N/A",
+      "retrieval_text": "[Section]\nSocial KPIs\n\n[Content]\nKPIs | Unit | 2021 | 2020 Total employees 1 | Person | 6,163 | 6,025 Classifed by gender Female | Person | 558 | 557 Male | Person | 5,132 | 5,077 Classified by age ≤ 30 | Person | 1,291 | 1,315 31-40 | Person | 3,151 | 3,067 41-50 | Person | 859 | 854 ≥51 | Person | 389 | 398 Classified by employment type Full-time | Person | 5,690 | 5,634 Part-time | Person | 0 | 0 Classified by employee category Senior management | Person | 25 | 16 Middle management | Person | 229 | 243 General and skilled employees | Person | 5,436 | 5,375 Classified by geographical region Mainland China | Person | 5,690 | 5,634 Hong Kong, China | Person | 0 | 0 Other countries or regions | Person | 0 | 0 Employee turnover rate Employee turnover rate by gender -female | % | 6.81% | 2.51% Employee turnover rate by gender -male | % | 6.35% | 5.52% Employee turnover rate by age -≤30 years old | % | 9.99% | 11.71% Employee turnover rate by age -31-50 years old | % | 4.71% | 3.34% Employee turnover rate by age -≥51 years old | % | 11.83% | 2.26% Employee turnover rate by region -Mainland China | % | 6.40% | 5.22% Employee turnover rate by region -Hong Kong, China | % | N/A | N/A Employee turnover rate by region -others | % | N/A | N/A",
+      "bm25_rank": 2,
+      "dense_rank": 18,
+      "bm25_score": 50.677677154541016,
+      "dense_score": 0.20473997294902802,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7912308120017091,
+      "normalized_dense": 0.692011345458861,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.6769602004250371,
+      "rank": 1,
+      "rrf_score": 0.6769602004250371,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P37_005",
+      "alias_source_ids": [
+        "P37_005"
+      ],
+      "section": "Employment Management",
+      "pages": [
+        37
+      ],
+      "text": "The employees of the Group are one of our important stakeholders. We provide good working environment for our employees, including a working space free from discrimination and harassment. We also provide fair opportunities and competitive remuneration for all employees. We strive to implement salary management with the four principles of \"Legality, Rationality, Marketization and Business consistency\". In order to standardize salary management and provide employees with fair and reasonable labour remuneration, we have specially formulated the Salary Management System , which sets salary scales according to employees' ranks, and specific salary amounts according to their personal capability, quality and performance, determines their performance bonuses and year-end bonuses according to their performance evaluation results, and reflects salary differences fairly and reasonably. Furthermore, we determine salary standards with reference to the local labour market and the industry salary levels.",
+      "retrieval_text": "[Section]\nEmployment Management\n\n[Content]\nThe employees of the Group are one of our important stakeholders. We provide good working environment for our employees, including a working space free from discrimination and harassment. We also provide fair opportunities and competitive remuneration for all employees. We strive to implement salary management with the four principles of \"Legality, Rationality, Marketization and Business consistency\". In order to standardize salary management and provide employees with fair and reasonable labour remuneration, we have specially formulated the Salary Management System , which sets salary scales according to employees' ranks, and specific salary amounts according to their personal capability, quality and performance, determines their performance bonuses and year-end bonuses according to their performance evaluation results, and reflects salary differences fairly and reasonably. Furthermore, we determine salary standards with reference to the local labour market and the industry salary levels.",
+      "bm25_rank": 29,
+      "dense_rank": 1,
+      "bm25_score": 7.465116024017334,
+      "dense_score": 0.26444774866104126,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11194498858986997,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.6535970514092491,
+      "rank": 2,
+      "rrf_score": 0.6535970514092491,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P37_004",
+      "alias_source_ids": [
+        "P37_004"
+      ],
+      "section": "Employment Management",
+      "pages": [
+        37
+      ],
+      "text": "We respect the rights and freedom of all employees. In accordance with the relevant provisions of the Labour Law of the People's Republic of China and the Law of the People's Republic of China on the Protection of Women's Rights and Interests , we issued a statement in the Employee Handbook on protecting employees from discrimination, harassment and freedom of association, stating that all employees must not be discriminated against due to their nationality, gender, religious belief, etc., and never do we tolerate any form of discrimination. The Group also does not allow any harassment of customers, suppliers and employees. The freedom of belief of all employees is also respected. If the legitimate rights and interests of employees are infringed, they can report and complain through the complaint procedures.",
+      "retrieval_text": "[Section]\nEmployment Management\n\n[Content]\nWe respect the rights and freedom of all employees. In accordance with the relevant provisions of the Labour Law of the People's Republic of China and the Law of the People's Republic of China on the Protection of Women's Rights and Interests , we issued a statement in the Employee Handbook on protecting employees from discrimination, harassment and freedom of association, stating that all employees must not be discriminated against due to their nationality, gender, religious belief, etc., and never do we tolerate any form of discrimination. The Group also does not allow any harassment of customers, suppliers and employees. The freedom of belief of all employees is also respected. If the legitimate rights and interests of employees are infringed, they can report and complain through the complaint procedures.",
+      "bm25_rank": 17,
+      "dense_rank": 8,
+      "bm25_score": 17.98868751525879,
+      "dense_score": 0.2257498949766159,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2773717242112371,
+      "normalized_dense": 0.8003861348414288,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.6154752638488281,
+      "rank": 3,
+      "rrf_score": 0.6154752638488281,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_001",
+      "alias_source_ids": [
+        "P30_001"
+      ],
+      "section": "Intellectual Property Rights Protection",
+      "pages": [
+        30
+      ],
+      "text": "The Group has always tried its best to protect the rights and interests of customers and intellectual property rights. By entering into confidentiality agreements with customers, both parties are not allowed to disclose any information to any third-party manufacturers without the authorization of the information provider. The Group attaches great importance to strengthening its own patent protection and application, regularly conducts training in patent application, writing and excavating to improve the patent writing quality of R&D personnel, and invests resources in protecting intellectual property rights. At present, we have set up our own patent database to strengthen R&D management and innovation management. In addition, to protect third-party patents and avoid any legal risks that may infringe patent rights. R&D personnel must check the protection scope of relevant existing invention patents before production and sales process, and determine whether the technical contents to be implemented are included in the said protection scope. Also, they must estimate whether there is any infringement against related technologies based on the results, and avoid such infringement in design process. As of 31 December 2021, the Group has obtained 668 patents authorized by the State, while 386 patents have been submitted for examination and approval.",
+      "retrieval_text": "[Section]\nIntellectual Property Rights Protection\n\n[Content]\nThe Group has always tried its best to protect the rights and interests of customers and intellectual property rights. By entering into confidentiality agreements with customers, both parties are not allowed to disclose any information to any third-party manufacturers without the authorization of the information provider. The Group attaches great importance to strengthening its own patent protection and application, regularly conducts training in patent application, writing and excavating to improve the patent writing quality of R&D personnel, and invests resources in protecting intellectual property rights. At present, we have set up our own patent database to strengthen R&D management and innovation management. In addition, to protect third-party patents and avoid any legal risks that may infringe patent rights. R&D personnel must check the protection scope of relevant existing invention patents before production and sales process, and determine whether the technical contents to be implemented are included in the said protection scope. Also, they must estimate whether there is any infringement against related technologies based on the results, and avoid such infringement in design process. As of 31 December 2021, the Group has obtained 668 patents authorized by the State, while 386 patents have been submitted for examination and approval.",
+      "bm25_rank": 14,
+      "dense_rank": 15,
+      "bm25_score": 21.53017807006836,
+      "dense_score": 0.21131187677383423,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.33304267415476607,
+      "normalized_dense": 0.7259109806845723,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.5931605995470636,
+      "rank": 4,
+      "rrf_score": 0.5931605995470636,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_003",
+      "alias_source_ids": [
+        "P4_003"
+      ],
+      "section": "Board Statement",
+      "pages": [
+        4
+      ],
+      "text": "In 2022, the Board will strive to improve the Environmental, Social and Governance framework and system, strengthen the compliance management in, among others, environmental protection, supply chain codes, employees' rights in health and safety, and data security. Also, we will continue to join hands with all stakeholders to tap and secure the multi-dimensional benefits in high-end manufacturing industries, create and share an efficient and sustainable future.",
+      "retrieval_text": "[Section]\nBoard Statement\n\n[Content]\nIn 2022, the Board will strive to improve the Environmental, Social and Governance framework and system, strengthen the compliance management in, among others, environmental protection, supply chain codes, employees' rights in health and safety, and data security. Also, we will continue to join hands with all stakeholders to tap and secure the multi-dimensional benefits in high-end manufacturing industries, create and share an efficient and sustainable future.",
+      "bm25_rank": 22,
+      "dense_rank": 16,
+      "bm25_score": 16.858388900756836,
+      "dense_score": 0.21027012169361115,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2596038390184551,
+      "normalized_dense": 0.7205373297372175,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.5698806452922541,
+      "rank": 5,
+      "rrf_score": 0.5698806452922541,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P43_003",
+      "alias_source_ids": [
+        "P43_003"
+      ],
+      "section": "Caring for Employees",
+      "pages": [
+        43
+      ],
+      "text": "The trade union of the Group held a symposium for the women workers' committee on 8 March 2021, the Women's Day, by which the participants learned that \"the enterprises guarantee that women workers enjoy equal rights as men to receive education and training in accordance with laws and that female employees are entitled to special labour protection, their rights to health protection are safeguarded, and the enterprises shall give special protection to female employees during menstruation, pregnancy, childbirth and lactation.\"",
+      "retrieval_text": "[Section]\nCaring for Employees\n\n[Content]\nThe trade union of the Group held a symposium for the women workers' committee on 8 March 2021, the Women's Day, by which the participants learned that \"the enterprises guarantee that women workers enjoy equal rights as men to receive education and training in accordance with laws and that female employees are entitled to special labour protection, their rights to health protection are safeguarded, and the enterprises shall give special protection to female employees during menstruation, pregnancy, childbirth and lactation.\"",
+      "bm25_rank": 9,
+      "dense_rank": 25,
+      "bm25_score": 26.61350440979004,
+      "dense_score": 0.19462686777114868,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4129507246847738,
+      "normalized_dense": 0.6398452478304512,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.5689520890601629,
+      "rank": 6,
+      "rrf_score": 0.5689520890601629,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T30_001",
+      "alias_source_ids": [
+        "T30_001"
+      ],
+      "section": "Intellectual Property Rights Protection",
+      "pages": [
+        30
+      ],
+      "text": "Professional database guarantee | • We cooperated with domestic database companies to use commercial patent database to facilitate global patent data retrieval and patent analysis of related product technologies, providing data guarantee for technological innovation and patent risk avoidance in product research and development. Intellectual property rights management system | • We established a patent team, organized monthly patent meetings, and established and improved the management system of intellectual property rights organizations. • In order to ensure that employees at all levels are included in the Group's intellectual property rights management system, we have formulated comprehensive intellectual property rights management systems such as the General Principles of Intellectual Property Rights Management , Patent Management System , Copyright Management System , Intellectual Property Rights Confidentiality System , Technology Contract Management System and Infringement Retrieval Process Management Regulations . Development and construction of intellectual property rights | • We strive to boost the development and construction of intellectual property rights. We cooperated with Nanjing Ruihong Patent and Trademark Office to build a high-value patent cultivation demonstration center, targeting to become a patent creation highland with important influence in the field of high-reliability wind power gearbox technology research, a R&D base for key technologies and a leader for regional innovation and development, furthermore, cultivating a number of high-value patents for wind power gearbox technology and products. Patent application layout | • We strengthened the forward-looking layout of patent technology, and the patent management in the process of research and development. By establishing a pre-examination mechanism of patent application, we identify patent risk items, cultivate patent layout awareness, improve the post-tracking of patent application and expande the scope of patent protection as per the process of compilation-retrieval and sci-tech novelty retrieval-review. • Up to now, we have applied for seven PCT international patents, and completed the patent application arrangement in Europe, the United States, India, Brazil and other countries and regions through PCT and the Paris Convention.",
+      "retrieval_text": "[Section]\nIntellectual Property Rights Protection\n\n[Content]\nProfessional database guarantee | • We cooperated with domestic database companies to use commercial patent database to facilitate global patent data retrieval and patent analysis of related product technologies, providing data guarantee for technological innovation and patent risk avoidance in product research and development. Intellectual property rights management system | • We established a patent team, organized monthly patent meetings, and established and improved the management system of intellectual property rights organizations. • In order to ensure that employees at all levels are included in the Group's intellectual property rights management system, we have formulated comprehensive intellectual property rights management systems such as the General Principles of Intellectual Property Rights Management , Patent Management System , Copyright Management System , Intellectual Property Rights Confidentiality System , Technology Contract Management System and Infringement Retrieval Process Management Regulations . Development and construction of intellectual property rights | • We strive to boost the development and construction of intellectual property rights. We cooperated with Nanjing Ruihong Patent and Trademark Office to build a high-value patent cultivation demonstration center, targeting to become a patent creation highland with important influence in the field of high-reliability wind power gearbox technology research, a R&D base for key technologies and a leader for regional innovation and development, furthermore, cultivating a number of high-value patents for wind power gearbox technology and products. Patent application layout | • We strengthened the forward-looking layout of patent technology, and the patent management in the process of research and development. By establishing a pre-examination mechanism of patent application, we identify patent risk items, cultivate patent layout awareness, improve the post-tracking of patent application and expande the scope of patent protection as per the process of compilation-retrieval and sci-tech novelty retrieval-review. • Up to now, we have applied for seven PCT international patents, and completed the patent application arrangement in Europe, the United States, India, Brazil and other countries and regions through PCT and the Paris Convention.",
+      "bm25_rank": 16,
+      "dense_rank": 20,
+      "bm25_score": 18.177209854125977,
+      "dense_score": 0.20462553203105927,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.28033522715664494,
+      "normalized_dense": 0.6914210286378216,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.5624939356559089,
+      "rank": 7,
+      "rrf_score": 0.5624939356559089,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P36_003",
+      "alias_source_ids": [
+        "P36_003"
+      ],
+      "section": "Employment Management",
+      "pages": [
+        36
+      ],
+      "text": "The Group has always adhered to the principle of fairness and merit-based recruitment policy. All candidates will be given the equal opportunity to be recruited and paid regardless of gender, belief or race. At the same time, we also employ disabled people to let their talents to be fully played by assigning to them suitable jobs. All applicants must go through the interview and selection process. During the recruitment, applicants' personal data, identity certificates and ages must be strictly checked to ensure that the minimum legal working age requirement is met. The candidates who are confirmed before employment shall undergo corresponding physical check, and shall sign a labour contract with the Group voluntarily before commencing work. Relevant clauses such as work content, place, time and probation period shall be clearly stipulated in the labour contract. We use a variety of recruitment channels, including recruitment websites, social media and official websites to advertise jobs. We also cooperate with more than 40 institutions of higher learning to organize campus job fairs, internship programs and visits, so as to lay the foundation for future talent competition and recruit diversified talents.",
+      "retrieval_text": "[Section]\nEmployment Management\n\n[Content]\nThe Group has always adhered to the principle of fairness and merit-based recruitment policy. All candidates will be given the equal opportunity to be recruited and paid regardless of gender, belief or race. At the same time, we also employ disabled people to let their talents to be fully played by assigning to them suitable jobs. All applicants must go through the interview and selection process. During the recruitment, applicants' personal data, identity certificates and ages must be strictly checked to ensure that the minimum legal working age requirement is met. The candidates who are confirmed before employment shall undergo corresponding physical check, and shall sign a labour contract with the Group voluntarily before commencing work. Relevant clauses such as work content, place, time and probation period shall be clearly stipulated in the labour contract. We use a variety of recruitment channels, including recruitment websites, social media and official websites to advertise jobs. We also cooperate with more than 40 institutions of higher learning to organize campus job fairs, internship programs and visits, so as to lay the foundation for future talent competition and recruit diversified talents.",
+      "bm25_rank": 28,
+      "dense_rank": 14,
+      "bm25_score": 8.220804214477539,
+      "dense_score": 0.21282647550106049,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12382413347898805,
+      "normalized_dense": 0.7337236854555236,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.5459976468065731,
+      "rank": 8,
+      "rrf_score": 0.5459976468065731,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P36_006",
+      "alias_source_ids": [
+        "P36_006"
+      ],
+      "section": "Employment Management",
+      "pages": [
+        36,
+        37
+      ],
+      "text": "2. The difference in gender ratio is mainly due to the industry factor, and does not deviate from the Group's principle of equal employment (including recruitment, promotion and training). We are well aware that employees are important assets of an enterprise, so that we strive to attract and retain all kinds of talents to promote our sustainable development. According to the Guide to Salary Trends of Key Industries in 2022 issued by CIIC, the average voluntary turnover rate of manufacturing employees in 2021 was 18.5%. During the Reporting Period, the voluntary turnover rate of the Group's employees registered 6.4%, far lower than the average rate of the manufacturing industry and indirectly reflecting the high sense of belonging of the employees to the Group.",
+      "retrieval_text": "[Section]\nEmployment Management\n\n[Content]\n2. The difference in gender ratio is mainly due to the industry factor, and does not deviate from the Group's principle of equal employment (including recruitment, promotion and training). We are well aware that employees are important assets of an enterprise, so that we strive to attract and retain all kinds of talents to promote our sustainable development. According to the Guide to Salary Trends of Key Industries in 2022 issued by CIIC, the average voluntary turnover rate of manufacturing employees in 2021 was 18.5%. During the Reporting Period, the voluntary turnover rate of the Group's employees registered 6.4%, far lower than the average rate of the manufacturing industry and indirectly reflecting the high sense of belonging of the employees to the Group.",
+      "bm25_rank": 20,
+      "dense_rank": 23,
+      "bm25_score": 17.489622116088867,
+      "dense_score": 0.19785663485527039,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.269526596735744,
+      "normalized_dense": 0.6565052490925608,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.5414002773349142,
+      "rank": 9,
+      "rrf_score": 0.5414002773349142,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P37_001",
+      "alias_source_ids": [
+        "P37_001"
+      ],
+      "section": "Employment Management",
+      "pages": [
+        37
+      ],
+      "text": "In Hong Kong, we comply with all applicable rules and regulations, such as the Sex Discrimination Ordinance , Race Discrimination Ordinance , Disability Discrimination Ordinance and Family Status Discrimination Ordinance , while in Mainland China, we are subject to applicable employment regulations, such as the Labour Law of the People's Republic of China and the Labour Contract Law of the People's Republic of China . During the year ended 31 December 2021, the Board did not find any breach of relevant standards, rules and regulations by the Group and its employees, which had material impact on the Group.",
+      "retrieval_text": "[Section]\nEmployment Management\n\n[Content]\nIn Hong Kong, we comply with all applicable rules and regulations, such as the Sex Discrimination Ordinance , Race Discrimination Ordinance , Disability Discrimination Ordinance and Family Status Discrimination Ordinance , while in Mainland China, we are subject to applicable employment regulations, such as the Labour Law of the People's Republic of China and the Labour Contract Law of the People's Republic of China . During the year ended 31 December 2021, the Board did not find any breach of relevant standards, rules and regulations by the Group and its employees, which had material impact on the Group.",
+      "bm25_rank": 33,
+      "dense_rank": 12,
+      "bm25_score": 5.926190376281738,
+      "dense_score": 0.21352878212928772,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08775363430669922,
+      "normalized_dense": 0.7373463706238058,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.5393803458414168,
+      "rank": 10,
+      "rrf_score": 0.5393803458414168,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_003",
+      "alias_source_ids": [
+        "P10_003"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        10
+      ],
+      "text": "We set each operation and management department as the \"First Defence Line\" for risk management, which is assigned with the direct responsibility for risks and risk management; we set the management departments (including financial control, security control, risk management and compliance inspection) as the \"Second Defence Line\" for risk management, which shall be responsible for overall examination and supervision on risks; we take the internal audit function as the \"Third Defence Line\" risk management, which provides comprehensive confirmation services to the corporate governance institutions and the senior management. Among them, the Board and the senior management of the Group are the \"stakeholders\" of all three defence lines. By setting the corporate strategy, formulating the goal of realizing the strategy, and establishing the governance framework and processes to manage the risks which affect the Group's realization of its business objective, we continually support the three defence lines to operate effectively.",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nWe set each operation and management department as the \"First Defence Line\" for risk management, which is assigned with the direct responsibility for risks and risk management; we set the management departments (including financial control, security control, risk management and compliance inspection) as the \"Second Defence Line\" for risk management, which shall be responsible for overall examination and supervision on risks; we take the internal audit function as the \"Third Defence Line\" risk management, which provides comprehensive confirmation services to the corporate governance institutions and the senior management. Among them, the Board and the senior management of the Group are the \"stakeholders\" of all three defence lines. By setting the corporate strategy, formulating the goal of realizing the strategy, and establishing the governance framework and processes to manage the risks which affect the Group's realization of its business objective, we continually support the three defence lines to operate effectively.",
+      "bm25_rank": 95,
+      "dense_rank": 6,
+      "bm25_score": 1.3074545860290527,
+      "dense_score": 0.2309599220752716,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.015148779090483866,
+      "normalized_dense": 0.8272608461684327,
+      "normalized_bm25_rank": 0.3691275167785235,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.5227723942589274,
+      "rank": 11,
+      "rrf_score": 0.5227723942589274,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T10_001",
+      "alias_source_ids": [
+        "T10_001"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        10
+      ],
+      "text": "Senior governance institution/ the Board/audit committee Senior execution and management First | defence line | Second defence line line | Third defence | External Business operation management and control | Internal control measures for business | Financial control Security control Risk management Inspection | Internal audit | audit",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nSenior governance institution/ the Board/audit committee Senior execution and management First | defence line | Second defence line line | Third defence | External Business operation management and control | Internal control measures for business | Financial control Security control Risk management Inspection | Internal audit | audit",
+      "bm25_rank": null,
+      "dense_rank": 2,
+      "bm25_score": null,
+      "dense_score": 0.24908199906349182,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.9207393595200847,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.520916493952835,
+      "rank": 12,
+      "rrf_score": 0.520916493952835,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_003",
+      "alias_source_ids": [
+        "P12_003"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        12
+      ],
+      "text": "Complaints mailbox exclusive for employees (including email and physical mailbox)",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nComplaints mailbox exclusive for employees (including email and physical mailbox)",
+      "bm25_rank": null,
+      "dense_rank": 3,
+      "bm25_score": null,
+      "dense_score": 0.24796046316623688,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.9149541778097293,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.5175493984750159,
+      "rank": 13,
+      "rrf_score": 0.5175493984750159,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P30_002",
+      "alias_source_ids": [
+        "P30_002"
+      ],
+      "section": "Intellectual Property Rights Protection",
+      "pages": [
+        30
+      ],
+      "text": "The Group has completed the construction of the central organizational framework, formulated various business management systems for the whole process of high-value patents, and finished the construction of intellectual property rights information platform. With regard to R&D work, we have prepared the industry development trend and technical feasibility study report to determined and improve the R&D plan of product technology. For the patent work, we have built the functional framework of product intellectual property rights information platform, the patent analysis and layout of the product production process and manufacturing technology. We have promoted and conducted the application for a number of core product patents and peripheral defence patents. In 2021, we were authorized as the Nanjing High-value Patent Cultivation Center.",
+      "retrieval_text": "[Section]\nIntellectual Property Rights Protection\n\n[Content]\nThe Group has completed the construction of the central organizational framework, formulated various business management systems for the whole process of high-value patents, and finished the construction of intellectual property rights information platform. With regard to R&D work, we have prepared the industry development trend and technical feasibility study report to determined and improve the R&D plan of product technology. For the patent work, we have built the functional framework of product intellectual property rights information platform, the patent analysis and layout of the product production process and manufacturing technology. We have promoted and conducted the application for a number of core product patents and peripheral defence patents. In 2021, we were authorized as the Nanjing High-value Patent Cultivation Center.",
+      "bm25_rank": 23,
+      "dense_rank": 28,
+      "bm25_score": 16.528703689575195,
+      "dense_score": 0.1897272765636444,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2544213068036256,
+      "normalized_dense": 0.6145718477446861,
+      "normalized_bm25_rank": 0.8523489932885906,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.5149776966619694,
+      "rank": 14,
+      "rrf_score": 0.5149776966619694,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_004",
+      "alias_source_ids": [
+        "P10_004"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        10
+      ],
+      "text": "We have developed and continue to optimize a comprehensive risk management organizational framework, which is composed of the Board, audit committee and senior management. The Board is responsible for assessing the nature and extent of risks so as to achieve the Group's strategic objectives; the audit committee is responsible for reviewing and supervising the Group's financial reporting procedures, risk management and internal control system, and providing opinions and suggestions to the Board; and the senior management is responsible for the design, implementation and monitoring of risk management and internal control systems. The senior management identifies, at least annually, the risks that adversely affect the achievement of the Group's objectives; also they shall assess and arrange the priorities of the risks to be identified according to the relevant standards and criterion.",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nWe have developed and continue to optimize a comprehensive risk management organizational framework, which is composed of the Board, audit committee and senior management. The Board is responsible for assessing the nature and extent of risks so as to achieve the Group's strategic objectives; the audit committee is responsible for reviewing and supervising the Group's financial reporting procedures, risk management and internal control system, and providing opinions and suggestions to the Board; and the senior management is responsible for the design, implementation and monitoring of risk management and internal control systems. The senior management identifies, at least annually, the risks that adversely affect the achievement of the Group's objectives; also they shall assess and arrange the priorities of the risks to be identified according to the relevant standards and criterion.",
+      "bm25_rank": 127,
+      "dense_rank": 5,
+      "bm25_score": 0.3858111798763275,
+      "dense_score": 0.2337314486503601,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0006608782657784797,
+      "normalized_dense": 0.8415571204929637,
+      "normalized_bm25_rank": 0.15436241610738255,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.5047442819196528,
+      "rank": 15,
+      "rrf_score": 0.5047442819196528,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P36_005",
+      "alias_source_ids": [
+        "P36_005"
+      ],
+      "section": "Employment Management",
+      "pages": [
+        36
+      ],
+      "text": "1. The employee-related data of 2021 cover more than 95% of the Group's employees in the Mainland China, i.e. 5,690 employees. The calculation method refers to the calculation instructions of social key performance indicators as specified in How to Prepare An ESG Report.",
+      "retrieval_text": "[Section]\nEmployment Management\n\n[Content]\n1. The employee-related data of 2021 cover more than 95% of the Group's employees in the Mainland China, i.e. 5,690 employees. The calculation method refers to the calculation instructions of social key performance indicators as specified in How to Prepare An ESG Report.",
+      "bm25_rank": 15,
+      "dense_rank": 36,
+      "bm25_score": 20.596818923950195,
+      "dense_score": 0.17764189839363098,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.31837060613744134,
+      "normalized_dense": 0.5522322392461839,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.5005795660374781,
+      "rank": 16,
+      "rrf_score": 0.5005795660374781,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_001",
+      "alias_source_ids": [
+        "P13_001"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        13
+      ],
+      "text": "Green and LowCarbon Development",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nGreen and LowCarbon Development",
+      "bm25_rank": null,
+      "dense_rank": 4,
+      "bm25_score": null,
+      "dense_score": 0.23825603723526,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.8648961568914532,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.4986868092744247,
+      "rank": 17,
+      "rrf_score": 0.4986868092744247,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_002",
+      "alias_source_ids": [
+        "P10_002"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        10
+      ],
+      "text": "By adhering to legality and compliance, the Group has built a culture of integrity and honesty, and set up a flexible and efficient compliance system. In accordance with the Corporate Governance Code as set out in Appendix 14 to the Listing Rules, the COSO Enterprise Risk Management Framework and the ISO 31000 Standard, and by basing on our own characteristics, the Group has formulated the Comprehensive Risk Management System for all employees and set up \"Three Defence Lines\" for risk management, in a bid to establish a standardized and effective enterprise risk management system within the Group, making it convenient for efficiently achieving the Group's strategic and operational objectives. The specific sample graphs are as follows:",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nBy adhering to legality and compliance, the Group has built a culture of integrity and honesty, and set up a flexible and efficient compliance system. In accordance with the Corporate Governance Code as set out in Appendix 14 to the Listing Rules, the COSO Enterprise Risk Management Framework and the ISO 31000 Standard, and by basing on our own characteristics, the Group has formulated the Comprehensive Risk Management System for all employees and set up \"Three Defence Lines\" for risk management, in a bid to establish a standardized and effective enterprise risk management system within the Group, making it convenient for efficiently achieving the Group's strategic and operational objectives. The specific sample graphs are as follows:",
+      "bm25_rank": 96,
+      "dense_rank": 10,
+      "bm25_score": 1.284837245941162,
+      "dense_score": 0.21689607203006744,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.014793242688959726,
+      "normalized_dense": 0.754715751305365,
+      "normalized_bm25_rank": 0.36241610738255037,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.491270235320173,
+      "rank": 18,
+      "rrf_score": 0.491270235320173,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_001",
+      "alias_source_ids": [
+        "P10_001"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        10
+      ],
+      "text": "The Group actively promotes responsible business practices, and has formulated a comprehensive risk organization framework, continuously strengthened compliance, and strictly met regulatory and compliance requirements. We identify and evaluate ESG risks in the process of the Group's operation and development, clarify the strategies of dealing with such risks, and always manage the risks in a perfect and orderly manner. The contents of this section can be referred to in conjunction with the \"Corporate Governance Report\" section of the Group's 2021 Annual Report .",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nThe Group actively promotes responsible business practices, and has formulated a comprehensive risk organization framework, continuously strengthened compliance, and strictly met regulatory and compliance requirements. We identify and evaluate ESG risks in the process of the Group's operation and development, clarify the strategies of dealing with such risks, and always manage the risks in a perfect and orderly manner. The contents of this section can be referred to in conjunction with the \"Corporate Governance Report\" section of the Group's 2021 Annual Report .",
+      "bm25_rank": 121,
+      "dense_rank": 9,
+      "bm25_score": 0.39833852648735046,
+      "dense_score": 0.22267720103263855,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0008578036211660212,
+      "normalized_dense": 0.7845363587890296,
+      "normalized_bm25_rank": 0.19463087248322153,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.4834841185151586,
+      "rank": 19,
+      "rrf_score": 0.4834841185151586,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_004",
+      "alias_source_ids": [
+        "P3_004"
+      ],
+      "section": "About the Report",
+      "pages": [
+        3
+      ],
+      "text": "The Report is available in both Traditional Chinese and English, which can be found on the HKEX's website at www.hkexnews.hk and the website of the Group at www.chste.com. In case of discrepancies between the Traditional Chinese version and the English version, the Traditional Chinese version shall prevail.",
+      "retrieval_text": "[Section]\nAbout the Report\n\n[Content]\nThe Report is available in both Traditional Chinese and English, which can be found on the HKEX's website at www.hkexnews.hk and the website of the Group at www.chste.com. In case of discrepancies between the Traditional Chinese version and the English version, the Traditional Chinese version shall prevail.",
+      "bm25_rank": 70,
+      "dense_rank": 17,
+      "bm25_score": 1.8882116079330444,
+      "dense_score": 0.2067176252603531,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.024278069313173327,
+      "normalized_dense": 0.702212604294109,
+      "normalized_bm25_rank": 0.5369127516778524,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.48284479046624396,
+      "rank": 20,
+      "rrf_score": 0.48284479046624396,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_002",
+      "alias_source_ids": [
+        "P12_002"
+      ],
+      "section": "Corporate Governance / Corporate governance framework",
+      "pages": [
+        12
+      ],
+      "text": "Direct report to the line manager or the HR commissioner of the corresponding department or the",
+      "retrieval_text": "[Section]\nCorporate Governance / Corporate governance framework\n\n[Content]\nDirect report to the line manager or the HR commissioner of the corresponding department or the",
+      "bm25_rank": null,
+      "dense_rank": 7,
+      "bm25_score": null,
+      "dense_score": 0.22907155752182007,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.8175201574362664,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.47807836382752544,
+      "rank": 21,
+      "rrf_score": 0.47807836382752544,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T52_001",
+      "alias_source_ids": [
+        "T52_001"
+      ],
+      "section": "Social",
+      "pages": [
+        52
+      ],
+      "text": "Aspect | Indicator number | Indicator contents | Chapter | Page General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, | Employment management | p34-41 B1: Employment and Labour Practices | B1.1 | Total workforce by gender, employment type (for example, full- or part- time), age group and geographical region. anti-discrimination, and other benefits and welfare. | Employment management KPIs of the HKEX ESG Reporting Guide | p34, p46 B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment management KPIs of the HKEX ESG Reporting Guide | p35, p46 General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees | Employment management | p38-40 B2: Health and Safety | B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Employment management KPIs of the HKEX ESG Reporting Guide | p38, p47 B2.2 | Lost days due to work injury. | KPIs of the HKEX ESG Reporting Guide | p47 B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. | Employment management | p38-40 General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Employment management | p36-37 B3: Development | B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Employment management KPIs of the HKEX ESG Reporting Guide | p37, p47 and Training | B3.2 | The average training hours completed per employee by gender and employee category. | Employment management KPIs of the HKEX ESG Reporting Guide | p37, p47 B4: Labor | General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced Labor. | Employment management | p34-35 Standards | B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Employment management | p34-35 B4.2 | Description of steps taken to eliminate such practices when discovered. | Employment management | p35 General Disclosure | Policies on managing environmental and social risks of the supply chain. | Sustainable supply chain | p32 B5.1 | Number of suppliers by geographical region. | KPIs of the HKEX ESG Reporting Guide | p47 B5: Supply Chain | B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | Sustainable supply chain | p32 Management | B5.3 | Description of practices used to identify the environmental and social risks along the supply chain, and how they are implemented and monitored. | Sustainable supply chain | p32 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Sustainable supply chain | p32",
+      "retrieval_text": "[Section]\nSocial\n\n[Content]\nAspect | Indicator number | Indicator contents | Chapter | Page General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, | Employment management | p34-41 B1: Employment and Labour Practices | B1.1 | Total workforce by gender, employment type (for example, full- or part- time), age group and geographical region. anti-discrimination, and other benefits and welfare. | Employment management KPIs of the HKEX ESG Reporting Guide | p34, p46 B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment management KPIs of the HKEX ESG Reporting Guide | p35, p46 General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees | Employment management | p38-40 B2: Health and Safety | B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Employment management KPIs of the HKEX ESG Reporting Guide | p38, p47 B2.2 | Lost days due to work injury. | KPIs of the HKEX ESG Reporting Guide | p47 B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. | Employment management | p38-40 General Disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | Employment management | p36-37 B3: Development | B3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). | Employment management KPIs of the HKEX ESG Reporting Guide | p37, p47 and Training | B3.2 | The average training hours completed per employee by gender and employee category. | Employment management KPIs of the HKEX ESG Reporting Guide | p37, p47 B4: Labor | General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced Labor. | Employment management | p34-35 Standards | B4.1 | Description of measures to review employment practices to avoid child and forced labour. | Employment management | p34-35 B4.2 | Description of steps taken to eliminate such practices when discovered. | Employment management | p35 General Disclosure | Policies on managing environmental and social risks of the supply chain. | Sustainable supply chain | p32 B5.1 | Number of suppliers by geographical region. | KPIs of the HKEX ESG Reporting Guide | p47 B5: Supply Chain | B5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, and how they are implemented and monitored. | Sustainable supply chain | p32 Management | B5.3 | Description of practices used to identify the environmental and social risks along the supply chain, and how they are implemented and monitored. | Sustainable supply chain | p32 B5.4 | Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Sustainable supply chain | p32",
+      "bm25_rank": 24,
+      "dense_rank": 39,
+      "bm25_score": 13.61618423461914,
+      "dense_score": 0.17461749911308289,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20863755494066705,
+      "normalized_dense": 0.5366315799668301,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.4631056109563897,
+      "rank": 22,
+      "rrf_score": 0.4631056109563897,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P7_002",
+      "alias_source_ids": [
+        "P7_002"
+      ],
+      "section": "Stakeholder Communication and Materiality Assessment",
+      "pages": [
+        7
+      ],
+      "text": "Continuous and consistent communication with different types of stakeholders is very important for creating a clear and positive mutual understanding and establishing an effective and long-term relationship. Stakeholders' perspectives, priorities and expectations are helpful for us to identify risks and opportunities, balance interests and make informed decisions. We have conducted two-way dialogues with internal and external stakeholders on the potential environmental and social impacts of the Group. We try to connect with stakeholders through various channels, communicate closely with them through daily business exchanges, forums, meetings, shareholders' meetings, trainings, sharing meetings and seminars, etc., and positively understand the ideas, concerns and needs of all parties, so as to protect the interests of stakeholders and uphold the high standards of management and compliance.",
+      "retrieval_text": "[Section]\nStakeholder Communication and Materiality Assessment\n\n[Content]\nContinuous and consistent communication with different types of stakeholders is very important for creating a clear and positive mutual understanding and establishing an effective and long-term relationship. Stakeholders' perspectives, priorities and expectations are helpful for us to identify risks and opportunities, balance interests and make informed decisions. We have conducted two-way dialogues with internal and external stakeholders on the potential environmental and social impacts of the Group. We try to connect with stakeholders through various channels, communicate closely with them through daily business exchanges, forums, meetings, shareholders' meetings, trainings, sharing meetings and seminars, etc., and positively understand the ideas, concerns and needs of all parties, so as to protect the interests of stakeholders and uphold the high standards of management and compliance.",
+      "bm25_rank": 91,
+      "dense_rank": 19,
+      "bm25_score": 1.4599891901016235,
+      "dense_score": 0.20468109846115112,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.01754656786799388,
+      "normalized_dense": 0.6917076551255372,
+      "normalized_bm25_rank": 0.3959731543624161,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.46104323447827505,
+      "rank": 23,
+      "rrf_score": 0.46104323447827505,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_003",
+      "alias_source_ids": [
+        "P18_003"
+      ],
+      "section": "Water-saving Project",
+      "pages": [
+        18
+      ],
+      "text": "The Group complies with the environmental protection requirements of the State such as the Environmental Protection Law of the People's Republic of China , the Law of the People's Republic on the Prevention and Control of Atmosphere Pollution , the Comprehensive Emission Standards for Air Pollutants , the Law on Prevention and Control of Environmental Pollution by Solid Waste and the Regulations on Safe Management of Hazardous Chemicals ; and based on its own characteristics, the Group has formulated rules and regulations such as the EHS Responsibility System , the Hazardous Chemicals Management System and the Hazardous Chemicals Control Procedure to ensure that waste discharge and management shall comply with such laws and regulations. At the same time, by combining with the environmental protectionrelated laws, regulations, standards and technologies of the State and the Group, and to deal with the identified environmental impact factors, we have kept optimizing environmental protection-related solutions.",
+      "retrieval_text": "[Section]\nWater-saving Project\n\n[Content]\nThe Group complies with the environmental protection requirements of the State such as the Environmental Protection Law of the People's Republic of China , the Law of the People's Republic on the Prevention and Control of Atmosphere Pollution , the Comprehensive Emission Standards for Air Pollutants , the Law on Prevention and Control of Environmental Pollution by Solid Waste and the Regulations on Safe Management of Hazardous Chemicals ; and based on its own characteristics, the Group has formulated rules and regulations such as the EHS Responsibility System , the Hazardous Chemicals Management System and the Hazardous Chemicals Control Procedure to ensure that waste discharge and management shall comply with such laws and regulations. At the same time, by combining with the environmental protectionrelated laws, regulations, standards and technologies of the State and the Group, and to deal with the identified environmental impact factors, we have kept optimizing environmental protection-related solutions.",
+      "bm25_rank": 35,
+      "dense_rank": 32,
+      "bm25_score": 4.657288074493408,
+      "dense_score": 0.18555015325546265,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06780694930703098,
+      "normalized_dense": 0.5930251300484098,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.45669065517700735,
+      "rank": 24,
+      "rrf_score": 0.45669065517700735,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P51_001",
+      "alias_source_ids": [
+        "P51_001"
+      ],
+      "section": "HKEX ESG Reporting Guide Content Index",
+      "pages": [
+        51
+      ],
+      "text": "This Report complies with the \"Comply or explain\" provisions set out in the Environmental, Social and Governance Reporting Guide .",
+      "retrieval_text": "[Section]\nHKEX ESG Reporting Guide Content Index\n\n[Content]\nThis Report complies with the \"Comply or explain\" provisions set out in the Environmental, Social and Governance Reporting Guide .",
+      "bm25_rank": null,
+      "dense_rank": 11,
+      "bm25_score": null,
+      "dense_score": 0.21535274386405945,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7467548524157985,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.44794137955358315,
+      "rank": 25,
+      "rrf_score": 0.44794137955358315,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T51_001",
+      "alias_source_ids": [
+        "T51_001"
+      ],
+      "section": "HKEX ESG Reporting Guide Content Index",
+      "pages": [
+        51
+      ],
+      "text": "Aspect | Indicator number | Indicator contents | Chapter | Page General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous wastes. | Green and low-carbon development | p12­ -20 A1.1 | The types of emissions and respective emissions data. | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p16-20 P44-45 A1: Emissions | A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p16, p44 A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p19, p44 A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p20, p45 A1.5 | Description of emission target(s) set and steps taken to achieve them. | Green and low-carbon development | p13-20 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Green and low-carbon development | P19-20 General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Green and low-carbon development | P12-20 A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | KPIs of the HKEX ESG Reporting Guide | P45 A2: Use of | A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | KPIs of the HKEX ESG Reporting Guide | P45 Resources | A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Green and low-carbon development | p13-15 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Green and low-carbon development | p15-16 A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | KPIs of the HKEX ESG Reporting Guide | p45 A3: The | General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | Green and low-carbon development | p12-20 Environment and Natural Resources | A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Sustainable development management Green and low-carbon development | p3, p12-13 A4: Climate | General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Board Statement Sustainable development management Green and low-carbon development | p2, p3, p13 Change | A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Sustainable development management Green and low-carbon development | p3, p13",
+      "retrieval_text": "[Section]\nHKEX ESG Reporting Guide Content Index\n\n[Content]\nAspect | Indicator number | Indicator contents | Chapter | Page General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non- hazardous wastes. | Green and low-carbon development | p12­ -20 A1.1 | The types of emissions and respective emissions data. | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p16-20 P44-45 A1: Emissions | A1.2 | Direct (Scope 1) and energy indirect (Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p16, p44 A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p19, p44 A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Green and low-carbon development KPIs of the HKEX ESG Reporting Guide | p20, p45 A1.5 | Description of emission target(s) set and steps taken to achieve them. | Green and low-carbon development | p13-20 A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Green and low-carbon development | P19-20 General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Green and low-carbon development | P12-20 A2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). | KPIs of the HKEX ESG Reporting Guide | P45 A2: Use of | A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | KPIs of the HKEX ESG Reporting Guide | P45 Resources | A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Green and low-carbon development | p13-15 A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Green and low-carbon development | p15-16 A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | KPIs of the HKEX ESG Reporting Guide | p45 A3: The | General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | Green and low-carbon development | p12-20 Environment and Natural Resources | A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | Sustainable development management Green and low-carbon development | p3, p12-13 A4: Climate | General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Board Statement Sustainable development management Green and low-carbon development | p2, p3, p13 Change | A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Sustainable development management Green and low-carbon development | p3, p13",
+      "bm25_rank": 11,
+      "dense_rank": 57,
+      "bm25_score": 24.98969268798828,
+      "dense_score": 0.15176132321357727,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3874249920354593,
+      "normalized_dense": 0.4187333199948378,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.44216246577441265,
+      "rank": 26,
+      "rrf_score": 0.44216246577441265,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_002",
+      "alias_source_ids": [
+        "P8_002"
+      ],
+      "section": "Stakeholder Communication and Materiality Assessment",
+      "pages": [
+        8
+      ],
+      "text": "The internal opinions collected have been grouped into material issues showing the priority for each material issue given by different stakeholders. Issues in the \"high-high\" area of the materiality matrix diagram are marked as material issues, while other listed issues will also be discussed. This comprehensive process enables us to identify and address the issues and priorities of common concerns by the Group and stakeholders.",
+      "retrieval_text": "[Section]\nStakeholder Communication and Materiality Assessment\n\n[Content]\nThe internal opinions collected have been grouped into material issues showing the priority for each material issue given by different stakeholders. Issues in the \"high-high\" area of the materiality matrix diagram are marked as material issues, while other listed issues will also be discussed. This comprehensive process enables us to identify and address the issues and priorities of common concerns by the Group and stakeholders.",
+      "bm25_rank": null,
+      "dense_rank": 13,
+      "bm25_score": null,
+      "dense_score": 0.21343033015727997,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7368385290565392,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.44178610261945317,
+      "rank": 27,
+      "rrf_score": 0.44178610261945317,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P37_006",
+      "alias_source_ids": [
+        "P37_006"
+      ],
+      "section": "Employment Management",
+      "pages": [
+        37
+      ],
+      "text": "The Group pays close attention to the physical and mental health of its employees and listens carefully to the opinions or complaints of each employee. We actively conduct employee satisfaction surveys every year, and take the collected opinions into account in future improvement measures. We have implemented a new OA system internally. Employees can submit comments and complete employee satisfaction surveys at any time through mobile phones or computers. The employee's immediate manager or HR specialist of each department is responsible for handling feedback or complaints. If they can't be solved, the employees can report them to their superior supervisors, and then to the management of the Group layer by layer, or complain to the chairman of the trade union. In addition to the OA system, we also provide a general manager's physical mailbox and email mailbox, via which the employees can send suggestions or opinions directly to the management, and the general manager will answer and handle them. Meanwhile, we have established the enterprise WeChat NGC Home to share the latest trends and important information of the Group with employees. Through the enterprise WeChat, the employees can freely express their opinions and suggestions and thus realizing interaction with the Group.",
+      "retrieval_text": "[Section]\nEmployment Management\n\n[Content]\nThe Group pays close attention to the physical and mental health of its employees and listens carefully to the opinions or complaints of each employee. We actively conduct employee satisfaction surveys every year, and take the collected opinions into account in future improvement measures. We have implemented a new OA system internally. Employees can submit comments and complete employee satisfaction surveys at any time through mobile phones or computers. The employee's immediate manager or HR specialist of each department is responsible for handling feedback or complaints. If they can't be solved, the employees can report them to their superior supervisors, and then to the management of the Group layer by layer, or complain to the chairman of the trade union. In addition to the OA system, we also provide a general manager's physical mailbox and email mailbox, via which the employees can send suggestions or opinions directly to the management, and the general manager will answer and handle them. Meanwhile, we have established the enterprise WeChat NGC Home to share the latest trends and important information of the Group with employees. Through the enterprise WeChat, the employees can freely express their opinions and suggestions and thus realizing interaction with the Group.",
+      "bm25_rank": 52,
+      "dense_rank": 33,
+      "bm25_score": 2.7005698680877686,
+      "dense_score": 0.18468470871448517,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03704804719038885,
+      "normalized_dense": 0.5885609359534689,
+      "normalized_bm25_rank": 0.6577181208053691,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.4362247289681006,
+      "rank": 28,
+      "rrf_score": 0.4362247289681006,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_002",
+      "alias_source_ids": [
+        "P5_002"
+      ],
+      "section": "Sustainable Development Management",
+      "pages": [
+        5
+      ],
+      "text": "We integrate the concept of sustainable development into the daily operation and management of the Group by combining the expectations of stakeholders such as regulators, stakeholders, employees, customers and suppliers. At the level of the Group, we have formulated and improved relevant risk management policies in accordance with the laws and regulations of the State, local governments and the industry in a bid to effectively examine and monitor the environmental, social and governance risks during the Group's development. The management identifies, evaluates, controls, supervises and manages relevant risks, improves the organization and operation mechanism for risk management, and reports to the Board at least once a year.",
+      "retrieval_text": "[Section]\nSustainable Development Management\n\n[Content]\nWe integrate the concept of sustainable development into the daily operation and management of the Group by combining the expectations of stakeholders such as regulators, stakeholders, employees, customers and suppliers. At the level of the Group, we have formulated and improved relevant risk management policies in accordance with the laws and regulations of the State, local governments and the industry in a bid to effectively examine and monitor the environmental, social and governance risks during the Group's development. The management identifies, evaluates, controls, supervises and manages relevant risks, improves the organization and operation mechanism for risk management, and reports to the Board at least once a year.",
+      "bm25_rank": 120,
+      "dense_rank": 21,
+      "bm25_score": 0.4033302664756775,
+      "dense_score": 0.2042304128408432,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0009362719673949463,
+      "normalized_dense": 0.6893828983218476,
+      "normalized_bm25_rank": 0.20134228187919467,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.43475985941015255,
+      "rank": 29,
+      "rrf_score": 0.43475985941015255,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "About the Report",
+      "pages": [
+        3
+      ],
+      "text": "Unless otherwise stated, this Report covers the sustainable development philosophy, strategy and performance of our major manufacturing business segments in Mainland China (design, manufacturing and distribution of wind gear transmission equipment and industrial gear transmission equipment) during the period from 1 January 2021 to 31 December 2021 (\"The Reporting Period\"). Compared with the 2020 Environmental, Social and Governance Report of the Group, the Report has no major change of the reporting scope.",
+      "retrieval_text": "[Section]\nAbout the Report\n\n[Content]\nUnless otherwise stated, this Report covers the sustainable development philosophy, strategy and performance of our major manufacturing business segments in Mainland China (design, manufacturing and distribution of wind gear transmission equipment and industrial gear transmission equipment) during the period from 1 January 2021 to 31 December 2021 (\"The Reporting Period\"). Compared with the 2020 Environmental, Social and Governance Report of the Group, the Report has no major change of the reporting scope.",
+      "bm25_rank": 19,
+      "dense_rank": 53,
+      "bm25_score": 17.607892990112305,
+      "dense_score": 0.15469372272491455,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2713857720760804,
+      "normalized_dense": 0.43385941989227794,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.42424875674664086,
+      "rank": 30,
+      "rrf_score": 0.42424875674664086,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_003",
+      "alias_source_ids": [
+        "P25_003"
+      ],
+      "section": "Product Responsibility / Product Quality and Safety",
+      "pages": [
+        25
+      ],
+      "text": "A good management system should be matched with a complete quality inspection and verification system. We carry out full-scale inspection and process capability evaluation, etc., and conduct multi-step quality evaluation on raw materials, semi-finished products and finished products, including no-load test, load test, highly accelerated life service test and anti-corrosion performance inspection.",
+      "retrieval_text": "[Section]\nProduct Responsibility / Product Quality and Safety\n\n[Content]\nA good management system should be matched with a complete quality inspection and verification system. We carry out full-scale inspection and process capability evaluation, etc., and conduct multi-step quality evaluation on raw materials, semi-finished products and finished products, including no-load test, load test, highly accelerated life service test and anti-corrosion performance inspection.",
+      "bm25_rank": 88,
+      "dense_rank": 29,
+      "bm25_score": 1.497007131576538,
+      "dense_score": 0.18947339057922363,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.018128476512099603,
+      "normalized_dense": 0.6132622360263438,
+      "normalized_bm25_rank": 0.4161073825503355,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.42229432354922414,
+      "rank": 31,
+      "rrf_score": 0.42229432354922414,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_001",
+      "alias_source_ids": [
+        "P21_001"
+      ],
+      "section": "Waste Management / Hazardous wastes",
+      "pages": [
+        21
+      ],
+      "text": "The Group strictly complies with the relevant requirements of the Law on the Prevention and Control of Environmental Pollution by Solid Wastes of the State, continuously improves, optimizes and supervises the management measures of solid wastes, and ensures that the discharge and management of such wastes meet the laws and regulations of the State and the Group. During the Reporting Period, the discharge and disposal of various wastes of the Group met the requirements of local environmental protection departments.",
+      "retrieval_text": "[Section]\nWaste Management / Hazardous wastes\n\n[Content]\nThe Group strictly complies with the relevant requirements of the Law on the Prevention and Control of Environmental Pollution by Solid Wastes of the State, continuously improves, optimizes and supervises the management measures of solid wastes, and ensures that the discharge and management of such wastes meet the laws and regulations of the State and the Group. During the Reporting Period, the discharge and disposal of various wastes of the Group met the requirements of local environmental protection departments.",
+      "bm25_rank": 44,
+      "dense_rank": 38,
+      "bm25_score": 3.6927363872528076,
+      "dense_score": 0.17557623982429504,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05264454583107273,
+      "normalized_dense": 0.541577020626423,
+      "normalized_bm25_rank": 0.7114093959731543,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.4215573764525767,
+      "rank": 32,
+      "rrf_score": 0.4215573764525767,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_001",
+      "alias_source_ids": [
+        "P3_001"
+      ],
+      "section": "About the Report",
+      "pages": [
+        3
+      ],
+      "text": "China High Speed Transmission Equipment Group Co., Ltd. (hereinafter referred to as \"China High Speed Transmission\", \"China Transmission\" or \"the Company\") and its subsidiaries (collectively referred to as \"the Group\" or \"We\") hereby present the sixth Environmental, Social and Governance (\"ESG\") Report (\"the Report\"). For detailed information on corporate governance, it is recommended to read in conjunction with the section \"Corporate Governance Report\" in the Group's 2021 Annual Report.",
+      "retrieval_text": "[Section]\nAbout the Report\n\n[Content]\nChina High Speed Transmission Equipment Group Co., Ltd. (hereinafter referred to as \"China High Speed Transmission\", \"China Transmission\" or \"the Company\") and its subsidiaries (collectively referred to as \"the Group\" or \"We\") hereby present the sixth Environmental, Social and Governance (\"ESG\") Report (\"the Report\"). For detailed information on corporate governance, it is recommended to read in conjunction with the section \"Corporate Governance Report\" in the Group's 2021 Annual Report.",
+      "bm25_rank": 94,
+      "dense_rank": 31,
+      "bm25_score": 1.384443759918213,
+      "dense_score": 0.18740899860858917,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.01635902104353845,
+      "normalized_dense": 0.6026135508609824,
+      "normalized_bm25_rank": 0.37583892617449666,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.41150198325166226,
+      "rank": 33,
+      "rrf_score": 0.41150198325166226,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_001",
+      "alias_source_ids": [
+        "P4_001"
+      ],
+      "section": "Board Statement",
+      "pages": [
+        4
+      ],
+      "text": "The board of directors of the Company (\"the Board\") has continuously examined Environmental, Social and Governance issues, formulated and improved corresponding management policies and strategies. We commit to promote the Group to better integrate Environmental, Social and Governance into our longterm strategic development and business operations.",
+      "retrieval_text": "[Section]\nBoard Statement\n\n[Content]\nThe board of directors of the Company (\"the Board\") has continuously examined Environmental, Social and Governance issues, formulated and improved corresponding management policies and strategies. We commit to promote the Group to better integrate Environmental, Social and Governance into our longterm strategic development and business operations.",
+      "bm25_rank": 138,
+      "dense_rank": 22,
+      "bm25_score": 0.3643537759780884,
+      "dense_score": 0.19853821396827698,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0003235756414033634,
+      "normalized_dense": 0.660021016201199,
+      "normalized_bm25_rank": 0.08053691275167785,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.41093784261078087,
+      "rank": 34,
+      "rrf_score": 0.41093784261078087,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L47_003",
+      "alias_source_ids": [
+        "L47_003"
+      ],
+      "section": "Environmental KPIs",
+      "pages": [
+        47
+      ],
+      "text": "GHG Scope 1 (Direct emissions) includes GHG emissions from operations directly controlled or managed by the Group, while Scope 2 (indirect emissions) includes indirect emissions from purchased electricity outside of the Group.",
+      "retrieval_text": "[Section]\nEnvironmental KPIs\n\n[Content]\nGHG Scope 1 (Direct emissions) includes GHG emissions from operations directly controlled or managed by the Group, while Scope 2 (indirect emissions) includes indirect emissions from purchased electricity outside of the Group.",
+      "bm25_rank": 6,
+      "dense_rank": 90,
+      "bm25_score": 39.222774505615234,
+      "dense_score": 0.1308574229478836,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6111638876073181,
+      "normalized_dense": 0.3109054191775949,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.40268456375838924,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.4082308822873131,
+      "rank": 35,
+      "rrf_score": 0.4082308822873131,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P37_003",
+      "alias_source_ids": [
+        "P37_003"
+      ],
+      "section": "Employment Management",
+      "pages": [
+        37
+      ],
+      "text": "In consideration of the nature of work and posts, we divide working hours into regular and flexible working hours. The regular working system is applicable to production-related personnel and office staff, while the flexible working system covers middle-level and above management positions and salesmen, etc. We do not advocate overtime work, but employees can be arranged to work overtime voluntarily subject to the confirmation of the person in charge in case of the actual production and business needs. The overtime pay shall be reissued in compliance with the laws and regulations of the State.",
+      "retrieval_text": "[Section]\nEmployment Management\n\n[Content]\nIn consideration of the nature of work and posts, we divide working hours into regular and flexible working hours. The regular working system is applicable to production-related personnel and office staff, while the flexible working system covers middle-level and above management positions and salesmen, etc. We do not advocate overtime work, but employees can be arranged to work overtime voluntarily subject to the confirmation of the person in charge in case of the actual production and business needs. The overtime pay shall be reissued in compliance with the laws and regulations of the State.",
+      "bm25_rank": 110,
+      "dense_rank": 27,
+      "bm25_score": 0.41385406255722046,
+      "dense_score": 0.1897915005683899,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0011017022334945796,
+      "normalized_dense": 0.6149031323148267,
+      "normalized_bm25_rank": 0.2684563758389261,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.40738274548172054,
+      "rank": 36,
+      "rrf_score": 0.40738274548172054,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_001",
+      "alias_source_ids": [
+        "P5_001"
+      ],
+      "section": "Sustainable Development Management",
+      "pages": [
+        5
+      ],
+      "text": "Taking sustainable development as our long-standing concept, the Group actively responds to the United Nation's Sustainable Development Goals (SDGs), incorporates environmental, social and governance into its corporate governance, and strives to create common value for stakeholders and promote the sustainable development of the Group and society. We believe that sustainable development is reflected not only in good environmental protection or contribution to the wider community, but also in the raising of employees' and business partners' awareness of environmental protection, so as to deepen the sustainable development concept at all levels of our business.",
+      "retrieval_text": "[Section]\nSustainable Development Management\n\n[Content]\nTaking sustainable development as our long-standing concept, the Group actively responds to the United Nation's Sustainable Development Goals (SDGs), incorporates environmental, social and governance into its corporate governance, and strives to create common value for stakeholders and promote the sustainable development of the Group and society. We believe that sustainable development is reflected not only in good environmental protection or contribution to the wider community, but also in the raising of employees' and business partners' awareness of environmental protection, so as to deepen the sustainable development concept at all levels of our business.",
+      "bm25_rank": 49,
+      "dense_rank": 41,
+      "bm25_score": 2.979146957397461,
+      "dense_score": 0.17106510698795319,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.04142717822415997,
+      "normalized_dense": 0.5183073925729074,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.4037869827768932,
+      "rank": 37,
+      "rrf_score": 0.4037869827768932,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P40_003",
+      "alias_source_ids": [
+        "P40_003"
+      ],
+      "section": "Health and Safety / \"Life is a top priority in the safe development.\"",
+      "pages": [
+        40
+      ],
+      "text": "During the Reporting Period, the Group did not find any material violation of laws and regulations related to occupational health and safety, including but not limited to, the Law of the People's Republic of China on Prevention and Control of Occupational Diseases , Fire Protection Law of the People's Republic of China , Regulations on Safety Production License (Revised), Hygienic Standards for Industrial Enterprises , Specifications for Personal Protective Equipment Selection , and Warning Signs for Occupational Hazards in Workplaces . Over the past three years, the Group registered no death due to work-related injuries.",
+      "retrieval_text": "[Section]\nHealth and Safety / \"Life is a top priority in the safe development.\"\n\n[Content]\nDuring the Reporting Period, the Group did not find any material violation of laws and regulations related to occupational health and safety, including but not limited to, the Law of the People's Republic of China on Prevention and Control of Occupational Diseases , Fire Protection Law of the People's Republic of China , Regulations on Safety Production License (Revised), Hygienic Standards for Industrial Enterprises , Specifications for Personal Protective Equipment Selection , and Warning Signs for Occupational Hazards in Workplaces . Over the past three years, the Group registered no death due to work-related injuries.",
+      "bm25_rank": 42,
+      "dense_rank": 43,
+      "bm25_score": 3.9051105976104736,
+      "dense_score": 0.16672475636005402,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05598299156490693,
+      "normalized_dense": 0.4959187047649559,
+      "normalized_bm25_rank": 0.7248322147651007,
+      "normalized_dense_rank": 0.7181208053691275,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 42,
+      "composite_score": 0.40087552753105155,
+      "rank": 38,
+      "rrf_score": 0.40087552753105155,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P24_004",
+      "alias_source_ids": [
+        "P24_004"
+      ],
+      "section": "Product Responsibility / Product Quality and Safety",
+      "pages": [
+        24
+      ],
+      "text": "The Group has always adhered to the overall sustainable business development strategy, and established a medium and long-term strategic plan based on management improvement and technological progress to improve product and service quality, enhance customer satisfaction, and establish and maintain longterm and stable partnership with customers. During the Reporting Period, the Group did not find any material breach of laws and regulations related to product responsibility; also we complied with all applicable rules and regulations, including but not limited to, the Product Quality Law of the People's Republic of China .",
+      "retrieval_text": "[Section]\nProduct Responsibility / Product Quality and Safety\n\n[Content]\nThe Group has always adhered to the overall sustainable business development strategy, and established a medium and long-term strategic plan based on management improvement and technological progress to improve product and service quality, enhance customer satisfaction, and establish and maintain longterm and stable partnership with customers. During the Reporting Period, the Group did not find any material breach of laws and regulations related to product responsibility; also we complied with all applicable rules and regulations, including but not limited to, the Product Quality Law of the People's Republic of China .",
+      "bm25_rank": 85,
+      "dense_rank": 34,
+      "bm25_score": 1.5832024812698364,
+      "dense_score": 0.17995582520961761,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.01948343621730729,
+      "normalized_dense": 0.5641680917924209,
+      "normalized_bm25_rank": 0.43624161073825507,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.4006843784312114,
+      "rank": 39,
+      "rrf_score": 0.4006843784312114,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_001",
+      "alias_source_ids": [
+        "P8_001"
+      ],
+      "section": "Stakeholder Communication and Materiality Assessment",
+      "pages": [
+        8
+      ],
+      "text": "As the society attaches more importance to sustainable development and concerns more about climate change risks, and stakeholders raise their expectations of the Group, we invite relevant stakeholders to evaluate our performance in the environmental, social and economic fields, provide views on the Group's business and share their challenges encountered during sustainable development.",
+      "retrieval_text": "[Section]\nStakeholder Communication and Materiality Assessment\n\n[Content]\nAs the society attaches more importance to sustainable development and concerns more about climate change risks, and stakeholders raise their expectations of the Group, we invite relevant stakeholders to evaluate our performance in the environmental, social and economic fields, provide views on the Group's business and share their challenges encountered during sustainable development.",
+      "bm25_rank": 32,
+      "dense_rank": 49,
+      "bm25_score": 6.052731513977051,
+      "dense_score": 0.16096395254135132,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08974281519915306,
+      "normalized_dense": 0.46620294000836127,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.6778523489932886,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.39588469271389803,
+      "rank": 40,
+      "rrf_score": 0.39588469271389803,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P37_002",
+      "alias_source_ids": [
+        "P37_002"
+      ],
+      "section": "Employment Management",
+      "pages": [
+        37
+      ],
+      "text": "The Group has zero tolerance for child labour and forced labour. If any violations are found, we will deal with them as soon as possible according to the relevant emergency plans formulated by the Group to protect the child labours or forced workers, and notify the trade unions or local labour welfare departments. During the Reporting Period, we did not find that the Group was involved in any major violations of laws or regulations related to child labour and forced labour, including but not limited to, the Labour Law of the People's Republic of China and the Provisions of Child Labour and the Law on the Protection of Minors .",
+      "retrieval_text": "[Section]\nEmployment Management\n\n[Content]\nThe Group has zero tolerance for child labour and forced labour. If any violations are found, we will deal with them as soon as possible according to the relevant emergency plans formulated by the Group to protect the child labours or forced workers, and notify the trade unions or local labour welfare departments. During the Reporting Period, we did not find that the Group was involved in any major violations of laws or regulations related to child labour and forced labour, including but not limited to, the Labour Law of the People's Republic of China and the Provisions of Child Labour and the Law on the Protection of Minors .",
+      "bm25_rank": 46,
+      "dense_rank": 44,
+      "bm25_score": 3.224377155303955,
+      "dense_score": 0.16639934480190277,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.045282108192490275,
+      "normalized_dense": 0.494240145033464,
+      "normalized_bm25_rank": 0.697986577181208,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 44,
+      "composite_score": 0.3941210093129621,
+      "rank": 41,
+      "rrf_score": 0.3941210093129621,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_003",
+      "alias_source_ids": [
+        "P8_003"
+      ],
+      "section": "Stakeholder Communication and Materiality Assessment",
+      "pages": [
+        8
+      ],
+      "text": "The material issues marked in the \"High-High\" area of this materiality matrix will be detailed in different sections below.",
+      "retrieval_text": "[Section]\nStakeholder Communication and Materiality Assessment\n\n[Content]\nThe material issues marked in the \"High-High\" area of this materiality matrix will be detailed in different sections below.",
+      "bm25_rank": null,
+      "dense_rank": 24,
+      "bm25_score": null,
+      "dense_score": 0.1949843019247055,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.641688988661997,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.3937186628102224,
+      "rank": 42,
+      "rrf_score": 0.3937186628102224,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T7_001",
+      "alias_source_ids": [
+        "T7_001"
+      ],
+      "section": "Stakeholder Communication and Materiality Assessment",
+      "pages": [
+        7
+      ],
+      "text": "Key stakeholders | Main concerns/Material issues | Ways of communication Customers | • Responses to climate change/carbon emission reduction • Product responsibility • Circular economy | • Exchange visit with customers and Customers' Day • Official website and official account of social media platforms • Communication via customer's hotline, and meetings with customers • Customer satisfaction survey • Communication of routine business activities Suppliers | • Fair competition • Training and empowerment • Cooperative supply • Social responsibilities • Energy saving and emission reduction | • Visit to a supplier or a supplier's visit and the meetings of suppliers • Exchange meeting • Official website and official account of a social media platform • Communication of routine business activities Shareholders | • Open and transparency • Contribution to the economy, society and environment | • General meeting of shareholders • Regular report and company announcement • Exchange meeting • Official website and official account of a social media platform Employees and trade union | • Occupational health and safety • Salary, welfare and incentives • Employees' training and development • Employee relations and work experience | • Meetings of employee representatives and internal meetings • Email and mailbox for general manager • Internal publications • Official account of a social media platform The government and supervisory authority | • Compliance management • Employment and value creation | • Policies and guidelines • Meetings of government • Notice of regulation • Site investigation General public and nearby communities | • Local employment and purchase • Environmental protection • Contribution for communities | • Site visit • Charitable activities • Official website and official account of a social media platform",
+      "retrieval_text": "[Section]\nStakeholder Communication and Materiality Assessment\n\n[Content]\nKey stakeholders | Main concerns/Material issues | Ways of communication Customers | • Responses to climate change/carbon emission reduction • Product responsibility • Circular economy | • Exchange visit with customers and Customers' Day • Official website and official account of social media platforms • Communication via customer's hotline, and meetings with customers • Customer satisfaction survey • Communication of routine business activities Suppliers | • Fair competition • Training and empowerment • Cooperative supply • Social responsibilities • Energy saving and emission reduction | • Visit to a supplier or a supplier's visit and the meetings of suppliers • Exchange meeting • Official website and official account of a social media platform • Communication of routine business activities Shareholders | • Open and transparency • Contribution to the economy, society and environment | • General meeting of shareholders • Regular report and company announcement • Exchange meeting • Official website and official account of a social media platform Employees and trade union | • Occupational health and safety • Salary, welfare and incentives • Employees' training and development • Employee relations and work experience | • Meetings of employee representatives and internal meetings • Email and mailbox for general manager • Internal publications • Official account of a social media platform The government and supervisory authority | • Compliance management • Employment and value creation | • Policies and guidelines • Meetings of government • Notice of regulation • Site investigation General public and nearby communities | • Local employment and purchase • Environmental protection • Contribution for communities | • Site visit • Charitable activities • Official website and official account of a social media platform",
+      "bm25_rank": 86,
+      "dense_rank": 37,
+      "bm25_score": 1.5406303405761719,
+      "dense_score": 0.17751920223236084,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.018814217571410517,
+      "normalized_dense": 0.5515993396752935,
+      "normalized_bm25_rank": 0.4295302013422819,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.39145348488385634,
+      "rank": 43,
+      "rrf_score": 0.39145348488385634,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T46_001",
+      "alias_source_ids": [
+        "T46_001"
+      ],
+      "section": "KPIs of The HKEX ESG Reporting Guide / Environmental KPIs",
+      "pages": [
+        46
+      ],
+      "text": "KPIs | Unit | 2021 | 2020 Emission of nitrous oxides (NOX) | Kg | 1,269.21 | 5,077.30 Emission of sulphur oxides (SOX) | Kg | 12.24 | 13.16 Emission of particulate matter | Kg | 23.57 | 166.31 Emission intensity of GHG | Kg CO 2 e/thousand RMB | 16.00 | 19.34 Total emission of GHG 3,4 | tCO 2 e | 223,689.74 | 254,906.62 Direct emissions (Scope 1) | tCO 2 e | 1,484.36 | 13,617.64 Indirect emissions (Scope 2) | tCO 2 e | 222,230.73 | 241,318.01 GHG removal (Scope 1) Tree plantation | tCO 2 e | 25.35 | 29.03 Intensity of hazardous wastes | Kg/thousand RMB | 0.12 | 0.10 Total hazardous wastes | Ton | 1,613.48 | 1,301.85 Waste of paint residue | Ton | 203.21 | 175.40 Waste of lead acid battery | Ton | 64.47 | 9.16 Waste oil | Ton | 142.31 | 127.51 Contaminants | Ton | 359.30 | 83.02 Washable waste containers | Ton | 132.40 | 257.57 Waste chemical containers (including waste paint buckets) | Ton | 105.79 | 39.60 Waste cleaner | Ton | 20.63 | - Waste activated carbon | Ton | 117.92 | 30.48 Waste quenching oil | Ton | 82.42 | 24.08 Dross (including sludge) | Ton | 170.43 | 29.25 Waste salt | Ton | 2.88 | - Waste rust preventive oil | Ton | 8.16 | 13.15 Waste quenching fluid 5 | Ton | - | 179.04",
+      "retrieval_text": "[Section]\nKPIs of The HKEX ESG Reporting Guide / Environmental KPIs\n\n[Content]\nKPIs | Unit | 2021 | 2020 Emission of nitrous oxides (NOX) | Kg | 1,269.21 | 5,077.30 Emission of sulphur oxides (SOX) | Kg | 12.24 | 13.16 Emission of particulate matter | Kg | 23.57 | 166.31 Emission intensity of GHG | Kg CO 2 e/thousand RMB | 16.00 | 19.34 Total emission of GHG 3,4 | tCO 2 e | 223,689.74 | 254,906.62 Direct emissions (Scope 1) | tCO 2 e | 1,484.36 | 13,617.64 Indirect emissions (Scope 2) | tCO 2 e | 222,230.73 | 241,318.01 GHG removal (Scope 1) Tree plantation | tCO 2 e | 25.35 | 29.03 Intensity of hazardous wastes | Kg/thousand RMB | 0.12 | 0.10 Total hazardous wastes | Ton | 1,613.48 | 1,301.85 Waste of paint residue | Ton | 203.21 | 175.40 Waste of lead acid battery | Ton | 64.47 | 9.16 Waste oil | Ton | 142.31 | 127.51 Contaminants | Ton | 359.30 | 83.02 Washable waste containers | Ton | 132.40 | 257.57 Waste chemical containers (including waste paint buckets) | Ton | 105.79 | 39.60 Waste cleaner | Ton | 20.63 | - Waste activated carbon | Ton | 117.92 | 30.48 Waste quenching oil | Ton | 82.42 | 24.08 Dross (including sludge) | Ton | 170.43 | 29.25 Waste salt | Ton | 2.88 | - Waste rust preventive oil | Ton | 8.16 | 13.15 Waste quenching fluid 5 | Ton | - | 179.04",
+      "bm25_rank": 3,
+      "dense_rank": 108,
+      "bm25_score": 48.87706756591797,
+      "dense_score": 0.11238973587751389,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7629258808647511,
+      "normalized_dense": 0.21564415671282078,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.2818791946308725,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.3830941880694174,
+      "rank": 44,
+      "rrf_score": 0.3830941880694174,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_005",
+      "alias_source_ids": [
+        "P18_005"
+      ],
+      "section": "Water-saving Project",
+      "pages": [
+        18
+      ],
+      "text": "2. GHG Scope 1 (Direct emissions) includes GHG emissions from operations directly controlled or managed by the Group, while Scope 2 (indirect emissions) includes indirect emissions from purchased electricity outside of the Group.",
+      "retrieval_text": "[Section]\nWater-saving Project\n\n[Content]\n2. GHG Scope 1 (Direct emissions) includes GHG emissions from operations directly controlled or managed by the Group, while Scope 2 (indirect emissions) includes indirect emissions from purchased electricity outside of the Group.",
+      "bm25_rank": 5,
+      "dense_rank": 109,
+      "bm25_score": 43.896034240722656,
+      "dense_score": 0.11009633541107178,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6846258395057792,
+      "normalized_dense": 0.20381418455994071,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.2751677852348994,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.3606091257857257,
+      "rank": 45,
+      "rrf_score": 0.3606091257857257,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T49_001",
+      "alias_source_ids": [
+        "T49_001"
+      ],
+      "section": "Social KPIs",
+      "pages": [
+        49
+      ],
+      "text": "KPIs | Unit | 2021 | 2020 Number of deaths related to work -total number | Person | 0 | 0 Number of deaths related to work­ -female employees | Person | 0 | 0 Number of deaths related to work -male employees | Person | 0 | 0 Working days lost due to injury related to work -total number | Person | 1,291 | 703 Working days lost due to injury related to work -female employees | Person | 0 | 0 Working days lost due to injury related to work -male employees | Person | 1,291 | 703 Number of injuries due to work -total number | Person | 30 | 18 Number of injuries due to work -female employees | Person | 0 | 0 Number of injuries due to work -male employees | Person | 30 | 18 Total trainees 2 | Person | 5,669 | 5,490 Number of trainees -female employees | Person | 482 | 494 Number of trainees -male employees | Person | 5,187 | 4,996 Number of trainees -senior management | Person | 25 | 16 Number of trainees -middle management | Person | 229 | 243 Number of trainees -General and skilled employees | Person | 5,415 | 5,231 Total training hours | Hour | 97,742 | 89,064 Total training hours-female employees | Hour | 8,070 | 8,607 Total training hours-male employees | Hour | 89,672 | 80,457 Total training hours-senior management | Hour | 511 | 80 Total training hours-middle management | Hour | 6,447 | 7,776 Total training hours-General and skilled employees | Hour | 90,784 | 81,208 Average training hours | Hour/person | 17 | 15 Total nubmer of courses | Course | 2,252 | 2,022 Total number of suppliers | Number | 631 | 496 Total number of suppliers -Mainland China | Number | 614 | 496 Total number of suppliers -Hong Kong, China | Number | 1 | 0 Total number of suppliers -other countries or regions | Number | 16 | 0",
+      "retrieval_text": "[Section]\nSocial KPIs\n\n[Content]\nKPIs | Unit | 2021 | 2020 Number of deaths related to work -total number | Person | 0 | 0 Number of deaths related to work­ -female employees | Person | 0 | 0 Number of deaths related to work -male employees | Person | 0 | 0 Working days lost due to injury related to work -total number | Person | 1,291 | 703 Working days lost due to injury related to work -female employees | Person | 0 | 0 Working days lost due to injury related to work -male employees | Person | 1,291 | 703 Number of injuries due to work -total number | Person | 30 | 18 Number of injuries due to work -female employees | Person | 0 | 0 Number of injuries due to work -male employees | Person | 30 | 18 Total trainees 2 | Person | 5,669 | 5,490 Number of trainees -female employees | Person | 482 | 494 Number of trainees -male employees | Person | 5,187 | 4,996 Number of trainees -senior management | Person | 25 | 16 Number of trainees -middle management | Person | 229 | 243 Number of trainees -General and skilled employees | Person | 5,415 | 5,231 Total training hours | Hour | 97,742 | 89,064 Total training hours-female employees | Hour | 8,070 | 8,607 Total training hours-male employees | Hour | 89,672 | 80,457 Total training hours-senior management | Hour | 511 | 80 Total training hours-middle management | Hour | 6,447 | 7,776 Total training hours-General and skilled employees | Hour | 90,784 | 81,208 Average training hours | Hour/person | 17 | 15 Total nubmer of courses | Course | 2,252 | 2,022 Total number of suppliers | Number | 631 | 496 Total number of suppliers -Mainland China | Number | 614 | 496 Total number of suppliers -Hong Kong, China | Number | 1 | 0 Total number of suppliers -other countries or regions | Number | 16 | 0",
+      "bm25_rank": 1,
+      "dense_rank": null,
+      "bm25_score": 63.958465576171875,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.30000000000000004,
+      "rank": 46,
+      "rrf_score": 0.30000000000000004,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T18_001",
+      "alias_source_ids": [
+        "T18_001"
+      ],
+      "section": "Water-saving Project",
+      "pages": [
+        18
+      ],
+      "text": "Unit | 2021 | 2020 Total GHG emissions | tCO 2 e | 223,689.74 | 254,906.62 Direct emission (Scope I) | tCO 2 e | 1,484.36 | 13,617.64 Indirect emission (Scope II) | tCO 2 e | 222,230.73 | 241,318.01 GHG removal (Scope I) tree plantation | tCO 2 e | 25.35 | 29.03 GHG emissions intensity | Kg CO 2 e/thousand RMB | 16.00 | 19.34",
+      "retrieval_text": "[Section]\nWater-saving Project\n\n[Content]\nUnit | 2021 | 2020 Total GHG emissions | tCO 2 e | 223,689.74 | 254,906.62 Direct emission (Scope I) | tCO 2 e | 1,484.36 | 13,617.64 Indirect emission (Scope II) | tCO 2 e | 222,230.73 | 241,318.01 GHG removal (Scope I) tree plantation | tCO 2 e | 25.35 | 29.03 GHG emissions intensity | Kg CO 2 e/thousand RMB | 16.00 | 19.34",
+      "bm25_rank": 4,
+      "dense_rank": null,
+      "bm25_score": 43.95170211791992,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.6855009183904885,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.23508676085930577,
+      "rank": 47,
+      "rrf_score": 0.23508676085930577,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T40_001",
+      "alias_source_ids": [
+        "T40_001"
+      ],
+      "section": "Health and Safety / \"Life is a top priority in the safe development.\"",
+      "pages": [
+        40
+      ],
+      "text": "Deaths due to work-related injuries | Unit | 2021 | 2020 | 2019 Male | Person | 0 | 0 | 0 Female | Person | 0 | 0 | 0 Total | Person | 0 | 0 | 0",
+      "retrieval_text": "[Section]\nHealth and Safety / \"Life is a top priority in the safe development.\"\n\n[Content]\nDeaths due to work-related injuries | Unit | 2021 | 2020 | 2019 Male | Person | 0 | 0 | 0 Female | Person | 0 | 0 | 0 Total | Person | 0 | 0 | 0",
+      "bm25_rank": 7,
+      "dense_rank": null,
+      "bm25_score": 35.01546096801758,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.5450264413192747,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.20497844262627107,
+      "rank": 48,
+      "rrf_score": 0.20497844262627107,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T50_001",
+      "alias_source_ids": [
+        "T50_001"
+      ],
+      "section": "Social KPIs",
+      "pages": [
+        50
+      ],
+      "text": "KPIs | Unit | 2021 | 2020 The number of products receiving complaints | Number | 0 | 0 The number of products which must be recalled due to safety and health reasons among the total sold or delivered products | Piece | 0 | 0 The number of products receiving complaints -Related to the health and safety of products | Number | 0 | 0 The number of products receiving complaints -Related to customer privacy | Number | 0 | 0 Number of lawsuits concluded in association with the Group or the bribery of its employees | Number | 0 | 0 Person-time of participating in the volunteer activities | Person | 82 | 230 Person-time of participating in the volunteer activities -the employees of the Group | Person | 22 | 30 Person-time of participating in the volunteer activities -employees outside the Group | Person | 60 | 200 Total hours of participating in the volunteer activities | Hour | 84 | 116 Expenditure in donations | RMB | 80,000 | 14,287,800",
+      "retrieval_text": "[Section]\nSocial KPIs\n\n[Content]\nKPIs | Unit | 2021 | 2020 The number of products receiving complaints | Number | 0 | 0 The number of products which must be recalled due to safety and health reasons among the total sold or delivered products | Piece | 0 | 0 The number of products receiving complaints -Related to the health and safety of products | Number | 0 | 0 The number of products receiving complaints -Related to customer privacy | Number | 0 | 0 Number of lawsuits concluded in association with the Group or the bribery of its employees | Number | 0 | 0 Person-time of participating in the volunteer activities | Person | 82 | 230 Person-time of participating in the volunteer activities -the employees of the Group | Person | 22 | 30 Person-time of participating in the volunteer activities -employees outside the Group | Person | 60 | 200 Total hours of participating in the volunteer activities | Hour | 84 | 116 Expenditure in donations | RMB | 80,000 | 14,287,800",
+      "bm25_rank": 8,
+      "dense_rank": null,
+      "bm25_score": 34.715450286865234,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.5403103819780253,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.20336408981842385,
+      "rank": 49,
+      "rrf_score": 0.20336408981842385,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P50_001",
+      "alias_source_ids": [
+        "P50_001"
+      ],
+      "section": "Social KPIs",
+      "pages": [
+        50
+      ],
+      "text": "2. Very few employees were unable to attend this year's training due to other matters.",
+      "retrieval_text": "[Section]\nSocial KPIs\n\n[Content]\n2. Very few employees were unable to attend this year's training due to other matters.",
+      "bm25_rank": 10,
+      "dense_rank": 149,
+      "bm25_score": 25.508455276489258,
+      "dense_score": 0.07210775464773178,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3955797521993097,
+      "normalized_dense": 0.00785893856884912,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.006711409395973145,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.17716859236177793,
+      "rank": 50,
+      "rrf_score": 0.17716859236177793,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

@@ -1,0 +1,1555 @@
+{
+  "document_id": "2022052700950",
+  "metric_id": 5,
+  "metric_name": "物理风险 (极端天气/海平面)",
+  "query": "物理风险 (极端天气/海平面) 物理风险 (极端天气/海平面) 衡量企业识别、评估与管理极端天气、海平面上升等气候物理风险的能力。 重点考察：风险识别完整性、资产暴露评估深度、适应措施与业务连续性安排。 内容质量得分 • 2分：系统识别急性和慢性风险，覆盖关键资产/供应链，有量化暴露评估、适应措施及应急恢复机制。 • 1分：有风险识别与原则性措施，但缺少系统化评估或具体实施路径。 • 0分：无相关披露。 气候物理风险 急性物理风险 慢性物理风险 极端天气 暴雨 洪水 沿海洪水 台风 风暴潮 热浪 长期高温 干旱 野火 海平面上升 降水模式变化 资产暴露 气候适应 业务连续性 韧性措施 physical climate risk acute physical risk chronic physical risk extreme weather heavy precipitation flood coastal flooding typhoon storm surge heatwave chronic heat drought wildfire sea level rise changing precipitation patterns asset exposure climate adaptation business continuity resilience measures 企业识别了哪些急性物理风险（如台风、洪水、热浪）？ 是否识别海平面上升、长期高温等慢性风险？ 是否评估关键资产、运营点或供应链暴露？ 是否披露适应措施、加固改造或应急恢复安排？ 是否有量化暴露或损失评估？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '物理风险 (极端天气/海平面)'. Prefer explicit, auditable disclosure that answers: 企业识别了哪些急性物理风险（如台风、洪水、热浪）？ 是否识别海平面上升、长期高温等慢性风险？ 是否评估关键资产、运营点或供应链暴露？ 是否披露适应措施、加固改造或应急恢复安排？ 是否有量化暴露或损失评估？ Exclude or down-rank: 排除：仅有转型风险（政策、诉讼、融资）；仅有减排目标；仅有泛化气候风险管理而无物理风险内容；仅有社区防灾公益项目而无企业资产风险；区分：物理风险聚焦极端天气与海平面等物理影响及适应措施；转型风险聚焦政策法律资金变化；场景分析是评估方法，可服务物理与转型风险，但不能替代具体物理风险识别与适应披露；TCFD披露是框架完整性，不等于本指标内容充分。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 181,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P21_002",
+      "alias_source_ids": [
+        "P21_002"
+      ],
+      "section": "Physical Risk",
+      "pages": [
+        21
+      ],
+      "text": "Physical chronic risk is caused by changes in weather patterns, such as the decrease in the annual precipitation, increase in average temperature and rise in sea level. Due to the service nature of our core business activity, the impact of weather pattern fluctuations is fairly low.",
+      "retrieval_text": "[Section]\nPhysical Risk\n\n[Content]\nPhysical chronic risk is caused by changes in weather patterns, such as the decrease in the annual precipitation, increase in average temperature and rise in sea level. Due to the service nature of our core business activity, the impact of weather pattern fluctuations is fairly low.",
+      "bm25_rank": 1,
+      "dense_rank": 2,
+      "bm25_score": 72.44636535644531,
+      "dense_score": 0.708906352519989,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.8595974847409841,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.7995168377801497,
+      "rank": 1,
+      "rrf_score": 0.7995168377801497,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_001",
+      "alias_source_ids": [
+        "P21_001"
+      ],
+      "section": "Physical Risk",
+      "pages": [
+        21
+      ],
+      "text": "Physical acute risk is caused by weather related events, such as thunderstorm, typhoons and hurricanes. This type of risk is relatively low, as the impact of this risk is limited to affecting on our outlets' daily business operation. For example, if our outlets are flooded due to a typhoon, the Group may not be able to provide service to our clients. It may temporary disrupt our business operations which gives rise to resilient risk. The Group has devised a set of contingency measures for multiple severe weather related events, and will further consider implementing other measures in the future.",
+      "retrieval_text": "[Section]\nPhysical Risk\n\n[Content]\nPhysical acute risk is caused by weather related events, such as thunderstorm, typhoons and hurricanes. This type of risk is relatively low, as the impact of this risk is limited to affecting on our outlets' daily business operation. For example, if our outlets are flooded due to a typhoon, the Group may not be able to provide service to our clients. It may temporary disrupt our business operations which gives rise to resilient risk. The Group has devised a set of contingency measures for multiple severe weather related events, and will further consider implementing other measures in the future.",
+      "bm25_rank": 2,
+      "dense_rank": 1,
+      "bm25_score": 41.72124481201172,
+      "dense_score": 0.7764754295349121,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.5719900169106552,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 1.0,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 1,
+      "composite_score": 0.7937268624425338,
+      "rank": 2,
+      "rrf_score": 0.7937268624425338,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_007",
+      "alias_source_ids": [
+        "P21_007"
+      ],
+      "section": "Physical Risk",
+      "pages": [
+        21
+      ],
+      "text": "The Group has reviewed the risk appetite across the business lines and have prepared countermeasures to manage these risk. As of 31 December 2021, our climate risk assessment did not identify any significant climate related risk, nor has the Group been significantly affected by climate change.",
+      "retrieval_text": "[Section]\nPhysical Risk\n\n[Content]\nThe Group has reviewed the risk appetite across the business lines and have prepared countermeasures to manage these risk. As of 31 December 2021, our climate risk assessment did not identify any significant climate related risk, nor has the Group been significantly affected by climate change.",
+      "bm25_rank": 3,
+      "dense_rank": 3,
+      "bm25_score": 34.74189376831055,
+      "dense_score": 0.672724723815918,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.4747656002360612,
+      "normalized_dense": 0.7844152874897558,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6654716250310428,
+      "rank": 3,
+      "rrf_score": 0.6654716250310428,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L20_001",
+      "alias_source_ids": [
+        "L20_001"
+      ],
+      "section": "THE ENVIRONMENT AND NATURAL RESOURCES",
+      "pages": [
+        20
+      ],
+      "text": "To conduct a climate risk assessment;",
+      "retrieval_text": "[Section]\nTHE ENVIRONMENT AND NATURAL RESOURCES\n\n[Content]\nTo conduct a climate risk assessment;",
+      "bm25_rank": 8,
+      "dense_rank": 4,
+      "bm25_score": 20.418781280517578,
+      "dense_score": 0.6199933290481567,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2752404226270285,
+      "normalized_dense": 0.6748441525033382,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.582518705686809,
+      "rank": 4,
+      "rrf_score": 0.582518705686809,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_006",
+      "alias_source_ids": [
+        "P20_006"
+      ],
+      "section": "THE ENVIRONMENT AND NATURAL RESOURCES",
+      "pages": [
+        20
+      ],
+      "text": "ln s t t s s ss s t o r s t ate change and the new policies introduced into our operating environment, which will assist our transition into a low carbon economy. Our Group tackles climate risk in two dimensions, namely, physical risk and transition risk.",
+      "retrieval_text": "[Section]\nTHE ENVIRONMENT AND NATURAL RESOURCES\n\n[Content]\nln s t t s s ss s t o r s t ate change and the new policies introduced into our operating environment, which will assist our transition into a low carbon economy. Our Group tackles climate risk in two dimensions, namely, physical risk and transition risk.",
+      "bm25_rank": 4,
+      "dense_rank": 5,
+      "bm25_score": 26.49172592163086,
+      "dense_score": 0.5640914440155029,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3598383310188421,
+      "normalized_dense": 0.5586850215362025,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.5601248734058688,
+      "rank": 5,
+      "rrf_score": 0.5601248734058688,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_006",
+      "alias_source_ids": [
+        "P21_006"
+      ],
+      "section": "Physical Risk",
+      "pages": [
+        21
+      ],
+      "text": "Reputational risk: With the shift in the business landscape towards electric vehicle and the potential new introduction of policies into our operating environment, it is essential that the Group responds to these changes in an effective and timely manner. The Group had laid out the building blocks towards a low carbon economy which aims to lower the reputational risk.",
+      "retrieval_text": "[Section]\nPhysical Risk\n\n[Content]\nReputational risk: With the shift in the business landscape towards electric vehicle and the potential new introduction of policies into our operating environment, it is essential that the Group responds to these changes in an effective and timely manner. The Group had laid out the building blocks towards a low carbon economy which aims to lower the reputational risk.",
+      "bm25_rank": 7,
+      "dense_rank": 9,
+      "bm25_score": 20.67701530456543,
+      "dense_score": 0.4943586587905884,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2788376986769621,
+      "normalized_dense": 0.4137865136073105,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.48582771882681014,
+      "rank": 6,
+      "rrf_score": 0.48582771882681014,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P11_001",
+      "alias_source_ids": [
+        "P11_001"
+      ],
+      "section": "ENVIRONMENT / EMISSIONS",
+      "pages": [
+        11
+      ],
+      "text": "Our climate is changing rapidly. In the past decade, there has been a surge in natural disasters and extreme weather events which were caused by climate change. This has caused an ecological cascading effect that may threaten biodiversity and potentially result in the extinction of certain species. Along with novel coronavirus pneumonia pandemic ss ss s t (-m system, this translates to a higher than expected economic losses.",
+      "retrieval_text": "[Section]\nENVIRONMENT / EMISSIONS\n\n[Content]\nOur climate is changing rapidly. In the past decade, there has been a surge in natural disasters and extreme weather events which were caused by climate change. This has caused an ecological cascading effect that may threaten biodiversity and potentially result in the extinction of certain species. Along with novel coronavirus pneumonia pandemic ss ss s t (-m system, this translates to a higher than expected economic losses.",
+      "bm25_rank": 5,
+      "dense_rank": 21,
+      "bm25_score": 26.077350616455078,
+      "dense_score": 0.44719088077545166,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3540659609119635,
+      "normalized_dense": 0.315776077989824,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [
+        "anchor_1"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 5,
+      "composite_score": 0.4818046181365493,
+      "rank": 7,
+      "rrf_score": 0.4818046181365493,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_004",
+      "alias_source_ids": [
+        "P21_004"
+      ],
+      "section": "Physical Risk",
+      "pages": [
+        21
+      ],
+      "text": "Technology risk: Since the Group's operations is primarily service orientated, technology risk is considered to be low. T s s - or ee eta comprehensive array of integrated auto services for the creation of \"a one-stop integrated auto service ecosystem.\"",
+      "retrieval_text": "[Section]\nPhysical Risk\n\n[Content]\nTechnology risk: Since the Group's operations is primarily service orientated, technology risk is considered to be low. T s s - or ee eta comprehensive array of integrated auto services for the creation of \"a one-stop integrated auto service ecosystem.\"",
+      "bm25_rank": 6,
+      "dense_rank": 11,
+      "bm25_score": 21.47618293762207,
+      "dense_score": 0.4798562526702881,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2899703392996559,
+      "normalized_dense": 0.38365180722160386,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.4754936768975597,
+      "rank": 8,
+      "rrf_score": 0.4754936768975597,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_004",
+      "alias_source_ids": [
+        "P5_004"
+      ],
+      "section": "ESGGOVERNANCE / OUR SUSTAINABILITY MISSION",
+      "pages": [
+        5
+      ],
+      "text": "An Enterprise Risk Assessment is conducted at least once every year to identify the current and potential risks in our co tng ih Enterprise Risk Assessment Report, the Board will assess and evaluate the identified risks and review the Group's existing strategy, target and internal control to address the risks in a timely manner. In order to counteract environmental-related risks and social sustainability risks, the Board adopts a series of measures against the risks identified during the Enterprise Risk Assessment to reduce the impact of the potential risks on stakeholders and the environment.",
+      "retrieval_text": "[Section]\nESGGOVERNANCE / OUR SUSTAINABILITY MISSION\n\n[Content]\nAn Enterprise Risk Assessment is conducted at least once every year to identify the current and potential risks in our co tng ih Enterprise Risk Assessment Report, the Board will assess and evaluate the identified risks and review the Group's existing strategy, target and internal control to address the risks in a timely manner. In order to counteract environmental-related risks and social sustainability risks, the Board adopts a series of measures against the risks identified during the Enterprise Risk Assessment to reduce the impact of the potential risks on stakeholders and the environment.",
+      "bm25_rank": 19,
+      "dense_rank": 6,
+      "bm25_score": 11.784290313720703,
+      "dense_score": 0.5195327997207642,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1549594190964056,
+      "normalized_dense": 0.46609613306979036,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.47533358408498294,
+      "rank": 9,
+      "rrf_score": 0.47533358408498294,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_005",
+      "alias_source_ids": [
+        "P21_005"
+      ],
+      "section": "Physical Risk",
+      "pages": [
+        21
+      ],
+      "text": "Market risk: As there has been an increasing proportion of customers selecting electric vehicles, the Group has been focusing on expanding the business in the new energy vehicle sector as part of our long term strategy. The Group is currently striving to seize the opportunities arising from the 'new four modernisations' of automobiles, nam o s s o n ew energy vehicles. The Group has planned to further build approximately 60 green charging stations in 2022, and expects to reach 720 charging points at the end of 2022 as one of our ambitious goals to promote the all-round development of the sales of new energy vehicles and the green online ride-hailing business. Going forward, the Group will continue to work closely with new energy vehicle companies to support our clients in the transition to a carbon neutral economy.",
+      "retrieval_text": "[Section]\nPhysical Risk\n\n[Content]\nMarket risk: As there has been an increasing proportion of customers selecting electric vehicles, the Group has been focusing on expanding the business in the new energy vehicle sector as part of our long term strategy. The Group is currently striving to seize the opportunities arising from the 'new four modernisations' of automobiles, nam o s s o n ew energy vehicles. The Group has planned to further build approximately 60 green charging stations in 2022, and expects to reach 720 charging points at the end of 2022 as one of our ambitious goals to promote the all-round development of the sales of new energy vehicles and the green online ride-hailing business. Going forward, the Group will continue to work closely with new energy vehicle companies to support our clients in the transition to a carbon neutral economy.",
+      "bm25_rank": 16,
+      "dense_rank": 8,
+      "bm25_score": 13.371766090393066,
+      "dense_score": 0.5014390349388123,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.177073424453868,
+      "normalized_dense": 0.4284989037139716,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4659262139423415,
+      "rank": 10,
+      "rrf_score": 0.4659262139423415,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P21_003",
+      "alias_source_ids": [
+        "P21_003"
+      ],
+      "section": "Physical Risk",
+      "pages": [
+        21
+      ],
+      "text": "Legal and policy risk: With China's carbon neutral goal in 2060 and peak emissions target by 2030, it is inevitable that there will be new low-carbon policies introduced to upstream and downstream enterprises of the auto-mobile industry. Although our business activities directly generate a minimal level of GHG emissions and waste, the sale of fossil fuel-based vehicles do emit GHG, which may be subject to a relatively higher policy risk over the next few decades. The Group will keep abreast of these new policies and work closely with business associates to respond to any regulatory changes.",
+      "retrieval_text": "[Section]\nPhysical Risk\n\n[Content]\nLegal and policy risk: With China's carbon neutral goal in 2060 and peak emissions target by 2030, it is inevitable that there will be new low-carbon policies introduced to upstream and downstream enterprises of the auto-mobile industry. Although our business activities directly generate a minimal level of GHG emissions and waste, the sale of fossil fuel-based vehicles do emit GHG, which may be subject to a relatively higher policy risk over the next few decades. The Group will keep abreast of these new policies and work closely with business associates to respond to any regulatory changes.",
+      "bm25_rank": 9,
+      "dense_rank": 12,
+      "bm25_score": 20.336973190307617,
+      "dense_score": 0.47127842903137207,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2741008118236567,
+      "normalized_dense": 0.36582785479309776,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.46272568335439607,
+      "rank": 11,
+      "rrf_score": 0.46272568335439607,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L20_002",
+      "alias_source_ids": [
+        "L20_002"
+      ],
+      "section": "THE ENVIRONMENT AND NATURAL RESOURCES",
+      "pages": [
+        20
+      ],
+      "text": "To develop risk mitigating measures;",
+      "retrieval_text": "[Section]\nTHE ENVIRONMENT AND NATURAL RESOURCES\n\n[Content]\nTo develop risk mitigating measures;",
+      "bm25_rank": 15,
+      "dense_rank": 10,
+      "bm25_score": 14.337164878845215,
+      "dense_score": 0.493014931678772,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.19052171405528137,
+      "normalized_dense": 0.41099436852178434,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.46047586172656674,
+      "rank": 12,
+      "rrf_score": 0.46047586172656674,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_004",
+      "alias_source_ids": [
+        "P20_004"
+      ],
+      "section": "THE ENVIRONMENT AND NATURAL RESOURCES",
+      "pages": [
+        20
+      ],
+      "text": "In the recent 2021 United Nations Climate Change Conference of the Parties (COP26), leaders around the globe Wwo c sl e so cs s ry cou o o s n n s ris Agreement goal, and have begun to devise a suite of interventions to address the impact and risk of climate change across and within various industries. Likewise, the Group has also developed a set of procedures to build up climate resilience.",
+      "retrieval_text": "[Section]\nTHE ENVIRONMENT AND NATURAL RESOURCES\n\n[Content]\nIn the recent 2021 United Nations Climate Change Conference of the Parties (COP26), leaders around the globe Wwo c sl e so cs s ry cou o o s n n s ris Agreement goal, and have begun to devise a suite of interventions to address the impact and risk of climate change across and within various industries. Likewise, the Group has also developed a set of procedures to build up climate resilience.",
+      "bm25_rank": 10,
+      "dense_rank": 14,
+      "bm25_score": 19.366195678710938,
+      "dense_score": 0.4598373770713806,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.26057759502386824,
+      "normalized_dense": 0.342054369297105,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.4483446153728543,
+      "rank": 13,
+      "rrf_score": 0.4483446153728543,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_007",
+      "alias_source_ids": [
+        "P25_007"
+      ],
+      "section": "Physical Wellbeing",
+      "pages": [
+        25
+      ],
+      "text": "uo l l l o s t d sts l s et onr wor mes m d on initiatives in maintaining the employee's mental resilience.",
+      "retrieval_text": "[Section]\nPhysical Wellbeing\n\n[Content]\nuo l l l o s t d sts l s et onr wor mes m d on initiatives in maintaining the employee's mental resilience.",
+      "bm25_rank": 13,
+      "dense_rank": 18,
+      "bm25_score": 15.673430442810059,
+      "dense_score": 0.4509717524051666,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.20913628712451812,
+      "normalized_dense": 0.3236323920040911,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.42422611140485905,
+      "rank": 14,
+      "rrf_score": 0.42422611140485905,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_003",
+      "alias_source_ids": [
+        "P25_003"
+      ],
+      "section": "Physical Wellbeing",
+      "pages": [
+        25
+      ],
+      "text": "onm t ts s t t os tss t t r t tos employees on a regular basis. Staffs that are involved in potential occupational hazards have been provided with additional training to further reduce the risk of occupational hazards and to prevent work accidents. Regular physical inspections have also been arranged for these staffs.",
+      "retrieval_text": "[Section]\nPhysical Wellbeing\n\n[Content]\nonm t ts s t t os tss t t r t tos employees on a regular basis. Staffs that are involved in potential occupational hazards have been provided with additional training to further reduce the risk of occupational hazards and to prevent work accidents. Regular physical inspections have also been arranged for these staffs.",
+      "bm25_rank": 11,
+      "dense_rank": 22,
+      "bm25_score": 18.21796226501465,
+      "dense_score": 0.44609344005584717,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2445823652161269,
+      "normalized_dense": 0.31349569405996647,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.42374063710515325,
+      "rank": 15,
+      "rrf_score": 0.42374063710515325,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T39_001",
+      "alias_source_ids": [
+        "T39_001"
+      ],
+      "section": "HKEX ESG REPORTING GUIDE CONTENT INDEX",
+      "pages": [
+        39
+      ],
+      "text": "Aspects,General Disclosures and KPIs | Description | Relevant Chapter/ Explanation Aspect A3 The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | The Environment and Natural Resources KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | The Environment and Natural Resources Aspect A4: Climate Change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Climate Change KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Climate Change B. Social Employment and Labour Practices Aspect B1: Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | Employment KPI B1.1 | Total workforce by gender, employment type (for example, full- or part-time), age group and geographical region. | Employment KPI B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment Aspect B2: Health and Safety General Disclosure | Information on (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Health and Safety KPI B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Health and Safety KPI B2.2 | Lost days due to work injury. | Health and Safety KPI B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. | Health and Safety",
+      "retrieval_text": "[Section]\nHKEX ESG REPORTING GUIDE CONTENT INDEX\n\n[Content]\nAspects,General Disclosures and KPIs | Description | Relevant Chapter/ Explanation Aspect A3 The Environment and Natural Resources General Disclosure | Policies on minimising the issuer's significant impact on the environment and natural resources. | The Environment and Natural Resources KPI A3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. | The Environment and Natural Resources Aspect A4: Climate Change General Disclosure | Policies on identification and mitigation of significant climate-related issues which have impacted, and those which may impact, the issuer. | Climate Change KPI A4.1 | Description of the significant climate-related issues which have impacted, and those which may impact, the issuer, and the actions taken to manage them. | Climate Change B. Social Employment and Labour Practices Aspect B1: Employment General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | Employment KPI B1.1 | Total workforce by gender, employment type (for example, full- or part-time), age group and geographical region. | Employment KPI B1.2 | Employee turnover rate by gender, age group and geographical region. | Employment Aspect B2: Health and Safety General Disclosure | Information on (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Health and Safety KPI B2.1 | Number and rate of work-related fatalities occurred in each of the past three years including the reporting year. | Health and Safety KPI B2.2 | Lost days due to work injury. | Health and Safety KPI B2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. | Health and Safety",
+      "bm25_rank": 30,
+      "dense_rank": 13,
+      "bm25_score": 7.693758487701416,
+      "dense_score": 0.46506011486053467,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09797710538508873,
+      "normalized_dense": 0.3529067525844124,
+      "normalized_bm25_rank": 0.8053691275167785,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.40754231468290436,
+      "rank": 16,
+      "rrf_score": 0.40754231468290436,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_005",
+      "alias_source_ids": [
+        "P25_005"
+      ],
+      "section": "Physical Wellbeing",
+      "pages": [
+        25
+      ],
+      "text": "When accidents or injuries occur within our premises, our management team will be immediately notified and an e s e on implemented to minimise the recurrence of similar incidents.",
+      "retrieval_text": "[Section]\nPhysical Wellbeing\n\n[Content]\nWhen accidents or injuries occur within our premises, our management team will be immediately notified and an e s e on implemented to minimise the recurrence of similar incidents.",
+      "bm25_rank": 24,
+      "dense_rank": 16,
+      "bm25_score": 9.694066047668457,
+      "dense_score": 0.4563193917274475,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1258419791347896,
+      "normalized_dense": 0.33474430953672857,
+      "normalized_bm25_rank": 0.8456375838926175,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.4067584343661552,
+      "rank": 17,
+      "rrf_score": 0.4067584343661552,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_001",
+      "alias_source_ids": [
+        "P25_001"
+      ],
+      "section": "Physical Wellbeing",
+      "pages": [
+        25
+      ],
+      "text": "In order to protect the physical wellbeing of our employees, the Group's operation revolves around the principal of \"safety foremost, prevention-dominated\" and is governed by a set of policy and procedures, including but not limited to Employee Protection Policy(員工保障政策),Emergency Procedures (應急救援),Hazard Identification and Risk Control (危險源辨識與風險控制)and Safety Standardised Policy(安全標準化制度).",
+      "retrieval_text": "[Section]\nPhysical Wellbeing\n\n[Content]\nIn order to protect the physical wellbeing of our employees, the Group's operation revolves around the principal of \"safety foremost, prevention-dominated\" and is governed by a set of policy and procedures, including but not limited to Employee Protection Policy(員工保障政策),Emergency Procedures (應急救援),Hazard Identification and Risk Control (危險源辨識與風險控制)and Safety Standardised Policy(安全標準化制度).",
+      "bm25_rank": 14,
+      "dense_rank": 25,
+      "bm25_score": 14.848957061767578,
+      "dense_score": 0.4363023042678833,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1976511299754264,
+      "normalized_dense": 0.2931505872062931,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.40119333420185166,
+      "rank": 18,
+      "rrf_score": 0.40119333420185166,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_003",
+      "alias_source_ids": [
+        "P4_003"
+      ],
+      "section": "MESSAGE FROM THE BOARD",
+      "pages": [
+        4
+      ],
+      "text": "Sustainability is deeply anchored in our business strategy. Our commitment to applying industry leading approaches to manage risks and opportunities of ESG topics, ranging from environmental protection to diversity and inclusion, is one of thn s n ns n nnal control system, risk management system, and policies and procedures, we are generating new momentum in our sustainable operations as we respond to the current pressing ESG topics, namely, climate change, as well as inclusivity and diversity.",
+      "retrieval_text": "[Section]\nMESSAGE FROM THE BOARD\n\n[Content]\nSustainability is deeply anchored in our business strategy. Our commitment to applying industry leading approaches to manage risks and opportunities of ESG topics, ranging from environmental protection to diversity and inclusion, is one of thn s n ns n nnal control system, risk management system, and policies and procedures, we are generating new momentum in our sustainable operations as we respond to the current pressing ESG topics, namely, climate change, as well as inclusivity and diversity.",
+      "bm25_rank": 18,
+      "dense_rank": 24,
+      "bm25_score": 12.754539489746094,
+      "dense_score": 0.4367760121822357,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1684752760259991,
+      "normalized_dense": 0.2941349100002613,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.39436039451066046,
+      "rank": 19,
+      "rrf_score": 0.39436039451066046,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P20_001",
+      "alias_source_ids": [
+        "P20_001"
+      ],
+      "section": "THE ENVIRONMENT AND NATURAL RESOURCES",
+      "pages": [
+        20
+      ],
+      "text": "As a non-manufacturing enterprise, the Group's impact on the environment and the level of resource consumption is minimal. The Group still operates at the highest level of environmental standard, in which our business operations is gon vsss ns o or o o to reduce our carbon footprint as well as prevent any damage to environment. Our management is responsible for periodically reviewing these systems and to align our practices to an international standard. The Group also closely monitors the environmental risks arising from our business activities and assess the effectiveness of environmental-related measures. Based on the Group's risk appetite, the management will further devise and adopt effective preventive measures to mitigate the risk to an acceptable level.",
+      "retrieval_text": "[Section]\nTHE ENVIRONMENT AND NATURAL RESOURCES\n\n[Content]\nAs a non-manufacturing enterprise, the Group's impact on the environment and the level of resource consumption is minimal. The Group still operates at the highest level of environmental standard, in which our business operations is gon vsss ns o or o o to reduce our carbon footprint as well as prevent any damage to environment. Our management is responsible for periodically reviewing these systems and to align our practices to an international standard. The Group also closely monitors the environmental risks arising from our business activities and assess the effectiveness of environmental-related measures. Based on the Group's risk appetite, the management will further devise and adopt effective preventive measures to mitigate the risk to an acceptable level.",
+      "bm25_rank": 12,
+      "dense_rank": 29,
+      "bm25_score": 15.687154769897461,
+      "dense_score": 0.4220937490463257,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.209327471045053,
+      "normalized_dense": 0.26362647677834217,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.38916831812841024,
+      "rank": 20,
+      "rrf_score": 0.38916831812841024,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T10_001",
+      "alias_source_ids": [
+        "T10_001"
+      ],
+      "section": "MATERIALITYASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "Item | ESG Topic | Item | ESG Topic 1 | Customer satisfaction | 15 | Selection and monitoring of suppliers 2 | Customer information and privacy | 16 | Cultivation of local employment 3 | Occupational health and safety | 17 | Hazardous waste production 4 | Product health and safety | 18 | Energy use (e.g. electricity, gas, fuel) 5 | Employee development and training | 19 | Anti-corruption training provided to directors and staff 6 | Observing and protecting intellectual property rights | 20 | Environmental risks (e.g. pollution) and social risks (e.g. monopoly) of the suppliers 7 | Preventing child and forced labour | 21 | Air emissions 8 | Employee remuneration, benefits and rights (e.g. working hours, rest periods, working conditions) | 22 | Greenhouse gas emissions 9 | Environmentally preferable products and services | 23 | Community support (e.g. donation, volunteering) 10 | Diversity and equal opportunity of employees | 24 | Mitigation measures to protect environment and natural resources 11 | Product and service labelling | 25 | Use of materials (e.g. paper, packaging, raw materials) 12 | Number of concluded legal cases regarding corrupt practices, e.g. bribery, extortion, fraud and money laundering | 26 | Water use 13 | Marketing communications (e.g. advertisement) | 27 | Climate change 14 | Anti-corruption policies and whistle-blowing procedure | 28 | Non-hazardous waste production",
+      "retrieval_text": "[Section]\nMATERIALITYASSESSMENT\n\n[Content]\nItem | ESG Topic | Item | ESG Topic 1 | Customer satisfaction | 15 | Selection and monitoring of suppliers 2 | Customer information and privacy | 16 | Cultivation of local employment 3 | Occupational health and safety | 17 | Hazardous waste production 4 | Product health and safety | 18 | Energy use (e.g. electricity, gas, fuel) 5 | Employee development and training | 19 | Anti-corruption training provided to directors and staff 6 | Observing and protecting intellectual property rights | 20 | Environmental risks (e.g. pollution) and social risks (e.g. monopoly) of the suppliers 7 | Preventing child and forced labour | 21 | Air emissions 8 | Employee remuneration, benefits and rights (e.g. working hours, rest periods, working conditions) | 22 | Greenhouse gas emissions 9 | Environmentally preferable products and services | 23 | Community support (e.g. donation, volunteering) 10 | Diversity and equal opportunity of employees | 24 | Mitigation measures to protect environment and natural resources 11 | Product and service labelling | 25 | Use of materials (e.g. paper, packaging, raw materials) 12 | Number of concluded legal cases regarding corrupt practices, e.g. bribery, extortion, fraud and money laundering | 26 | Water use 13 | Marketing communications (e.g. advertisement) | 27 | Climate change 14 | Anti-corruption policies and whistle-blowing procedure | 28 | Non-hazardous waste production",
+      "bm25_rank": 32,
+      "dense_rank": 19,
+      "bm25_score": 7.051357746124268,
+      "dense_score": 0.4501531720161438,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08902827375588848,
+      "normalized_dense": 0.32193145496842424,
+      "normalized_bm25_rank": 0.7919463087248322,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.38551522103710606,
+      "rank": 21,
+      "rrf_score": 0.38551522103710606,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_004",
+      "alias_source_ids": [
+        "P25_004"
+      ],
+      "section": "Physical Wellbeing",
+      "pages": [
+        25
+      ],
+      "text": "Furthermore, the Group also conducts fire drills and other rehearsals of emergency procedures. Hence, employees will bmmitr it as m r r is a i ent department to determine whether the existing emergency procedures are effective and relevant to our developing business.",
+      "retrieval_text": "[Section]\nPhysical Wellbeing\n\n[Content]\nFurthermore, the Group also conducts fire drills and other rehearsals of emergency procedures. Hence, employees will bmmitr it as m r r is a i ent department to determine whether the existing emergency procedures are effective and relevant to our developing business.",
+      "bm25_rank": 22,
+      "dense_rank": 30,
+      "bm25_score": 10.376445770263672,
+      "dense_score": 0.41577112674713135,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.13534772975035234,
+      "normalized_dense": 0.25048863158262386,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.3617204327758009,
+      "rank": 22,
+      "rrf_score": 0.3617204327758009,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_001",
+      "alias_source_ids": [
+        "P26_001"
+      ],
+      "section": "Novel Coronavirus Pneumonia Pandemic (\"COVID-19\")",
+      "pages": [
+        26
+      ],
+      "text": "COVID-19 has posed unprecedented challenges on our employees, business operations and communities. The Group has developed a strong crisis management framework that consist of four supporting pillars to manage the risk and impacts of the pandemic:",
+      "retrieval_text": "[Section]\nNovel Coronavirus Pneumonia Pandemic (\"COVID-19\")\n\n[Content]\nCOVID-19 has posed unprecedented challenges on our employees, business operations and communities. The Group has developed a strong crisis management framework that consist of four supporting pillars to manage the risk and impacts of the pandemic:",
+      "bm25_rank": 25,
+      "dense_rank": 32,
+      "bm25_score": 9.686412811279297,
+      "dense_score": 0.4121044874191284,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.125735367296676,
+      "normalized_dense": 0.24286968210244164,
+      "normalized_bm25_rank": 0.8389261744966443,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.35243334138982063,
+      "rank": 23,
+      "rrf_score": 0.35243334138982063,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_001",
+      "alias_source_ids": [
+        "P18_001"
+      ],
+      "section": "Water Stewardship",
+      "pages": [
+        18
+      ],
+      "text": "Acs t nd o t ing water, are considered to be one of the top ten global risks by impact.",
+      "retrieval_text": "[Section]\nWater Stewardship\n\n[Content]\nAcs t nd o t ing water, are considered to be one of the top ten global risks by impact.",
+      "bm25_rank": null,
+      "dense_rank": 7,
+      "bm25_score": null,
+      "dense_score": 0.5088862180709839,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.443973486016176,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.3473370288304938,
+      "rank": 24,
+      "rrf_score": 0.3473370288304938,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_003",
+      "alias_source_ids": [
+        "P18_003"
+      ],
+      "section": "Water Stewardship",
+      "pages": [
+        18
+      ],
+      "text": "As water stewardship is a core value shared amongst our stakeholders, data collection on the water consumption in dealership outlets have been part of our normal business operation. This enables the Group to manage the water performance in each outlet, by identifying and managing potential water-related risk. The nature of our business operation do not rely heavily on water. in 2021, water was primarily used for sanitation of the dealership outlets and offices, maintenance of hygiene in bathrooms, and rehydration for employees.",
+      "retrieval_text": "[Section]\nWater Stewardship\n\n[Content]\nAs water stewardship is a core value shared amongst our stakeholders, data collection on the water consumption in dealership outlets have been part of our normal business operation. This enables the Group to manage the water performance in each outlet, by identifying and managing potential water-related risk. The nature of our business operation do not rely heavily on water. in 2021, water was primarily used for sanitation of the dealership outlets and offices, maintenance of hygiene in bathrooms, and rehydration for employees.",
+      "bm25_rank": 28,
+      "dense_rank": 37,
+      "bm25_score": 7.856000900268555,
+      "dense_score": 0.40463918447494507,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10023719000082887,
+      "normalized_dense": 0.22735744844706127,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.33317959193650304,
+      "rank": 25,
+      "rrf_score": 0.33317959193650304,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_002",
+      "alias_source_ids": [
+        "P5_002"
+      ],
+      "section": "ESGGOVERNANCE / OUR SUSTAINABILITY MISSION",
+      "pages": [
+        5
+      ],
+      "text": "The cornerstone of our sustainable business is built upon two main supporting pillars which are sound risk management and effective corporate governance.",
+      "retrieval_text": "[Section]\nESGGOVERNANCE / OUR SUSTAINABILITY MISSION\n\n[Content]\nThe cornerstone of our sustainable business is built upon two main supporting pillars which are sound risk management and effective corporate governance.",
+      "bm25_rank": 20,
+      "dense_rank": 44,
+      "bm25_score": 11.290703773498535,
+      "dense_score": 0.3914765417575836,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.14808361314381052,
+      "normalized_dense": 0.20000665091337352,
+      "normalized_bm25_rank": 0.87248322147651,
+      "normalized_dense_rank": 0.7114093959731543,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.3291492517907247,
+      "rank": 26,
+      "rrf_score": 0.3291492517907247,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_005",
+      "alias_source_ids": [
+        "P4_005"
+      ],
+      "section": "MESSAGE FROM THE BOARD",
+      "pages": [
+        4
+      ],
+      "text": "Going forward into 2022, we are ready; sustainability is firmly embedded into the heart of our business and is alive in our purpose. As we embark on a journey to expand the business blueprint of the Greater Bay Area, we continue to position our r ds r r- r r , sen and healthy mobility experience for customers. More importantly, we will maintain our momentum in the execution and development of our ESG initiatives to create a resilient and sustainable future for our shareholders.",
+      "retrieval_text": "[Section]\nMESSAGE FROM THE BOARD\n\n[Content]\nGoing forward into 2022, we are ready; sustainability is firmly embedded into the heart of our business and is alive in our purpose. As we embark on a journey to expand the business blueprint of the Greater Bay Area, we continue to position our r ds r r- r r , sen and healthy mobility experience for customers. More importantly, we will maintain our momentum in the execution and development of our ESG initiatives to create a resilient and sustainable future for our shareholders.",
+      "bm25_rank": 93,
+      "dense_rank": 20,
+      "bm25_score": 1.912067174911499,
+      "dense_score": 0.44883644580841064,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.017436441681709183,
+      "normalized_dense": 0.3191954153532558,
+      "normalized_bm25_rank": 0.3825503355704698,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.32795736156233035,
+      "rank": 27,
+      "rrf_score": 0.32795736156233035,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P32_001",
+      "alias_source_ids": [
+        "P32_001"
+      ],
+      "section": "PRODUCT RESPONSIBILITY",
+      "pages": [
+        32
+      ],
+      "text": "The Group believes that high product quality directly correlates to a positive reputation and a sustainable business development. The Group has established a Quality Management Assessment System of Centenary United Holdings Company Limited (世紀聯合控股有限公司質量管理考核制度) to reduce the risk of product responsibility. The policy sets out the maintenance quality inspection standards, which aims to ensure our operation complies with the regulations in our operating region, and also to align the quality of our services to an international level.",
+      "retrieval_text": "[Section]\nPRODUCT RESPONSIBILITY\n\n[Content]\nThe Group believes that high product quality directly correlates to a positive reputation and a sustainable business development. The Group has established a Quality Management Assessment System of Centenary United Holdings Company Limited (世紀聯合控股有限公司質量管理考核制度) to reduce the risk of product responsibility. The policy sets out the maintenance quality inspection standards, which aims to ensure our operation complies with the regulations in our operating region, and also to align the quality of our services to an international level.",
+      "bm25_rank": 21,
+      "dense_rank": 50,
+      "bm25_score": 11.02234172821045,
+      "dense_score": 0.38279440999031067,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1443452507735322,
+      "normalized_dense": 0.18196595549783448,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.6711409395973154,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3133625037064653,
+      "rank": 28,
+      "rrf_score": 0.3133625037064653,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L26_004",
+      "alias_source_ids": [
+        "L26_004"
+      ],
+      "section": "Novel Coronavirus Pneumonia Pandemic (\"COVID-19\")",
+      "pages": [
+        26
+      ],
+      "text": "Business contingency.",
+      "retrieval_text": "[Section]\nNovel Coronavirus Pneumonia Pandemic (\"COVID-19\")\n\n[Content]\nBusiness contingency.",
+      "bm25_rank": 82,
+      "dense_rank": 27,
+      "bm25_score": 2.46148419380188,
+      "dense_score": 0.42802634835243225,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.02508998265396333,
+      "normalized_dense": 0.27595388898226036,
+      "normalized_bm25_rank": 0.4563758389261745,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.3123401127081409,
+      "rank": 29,
+      "rrf_score": 0.3123401127081409,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_002",
+      "alias_source_ids": [
+        "P25_002"
+      ],
+      "section": "Physical Wellbeing",
+      "pages": [
+        25
+      ],
+      "text": "Ase se t io o t for the implementation of all types of safety inspection, safety education, safety risk, safety review, legislation compliance and emergency procedures. On a day to day basis, the safety production leading team closely monitors the operations in the production sites to ensure the staffs and processes are in compliance with the safety measures, which includes warehouse safety, fire safety, electricity safety, emergency and evacuation procedures, and work-related injuries prevention procedures. Production equipment and fire safety equipment are regularly inspected to ensure it is functional and safe to use.",
+      "retrieval_text": "[Section]\nPhysical Wellbeing\n\n[Content]\nAse se t io o t for the implementation of all types of safety inspection, safety education, safety risk, safety review, legislation compliance and emergency procedures. On a day to day basis, the safety production leading team closely monitors the operations in the production sites to ensure the staffs and processes are in compliance with the safety measures, which includes warehouse safety, fire safety, electricity safety, emergency and evacuation procedures, and work-related injuries prevention procedures. Production equipment and fire safety equipment are regularly inspected to ensure it is functional and safe to use.",
+      "bm25_rank": 17,
+      "dense_rank": 55,
+      "bm25_score": 13.316661834716797,
+      "dense_score": 0.37196066975593567,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17630580593448603,
+      "normalized_dense": 0.15945440959891524,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.6375838926174497,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.30784872803645047,
+      "rank": 30,
+      "rrf_score": 0.30784872803645047,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P33_005",
+      "alias_source_ids": [
+        "P33_005"
+      ],
+      "section": "Intellectual Property Rights",
+      "pages": [
+        33
+      ],
+      "text": "With an evolving cyber security threat landscape, the Group will also continue to enhance the privacy action plan and improve the cyber security resilience to prevent any leakage of confidential data. We have further developed our informational technology internal control system and continued to invest in our cyber security initiatives.",
+      "retrieval_text": "[Section]\nIntellectual Property Rights\n\n[Content]\nWith an evolving cyber security threat landscape, the Group will also continue to enhance the privacy action plan and improve the cyber security resilience to prevent any leakage of confidential data. We have further developed our informational technology internal control system and continued to invest in our cyber security initiatives.",
+      "bm25_rank": 55,
+      "dense_rank": 38,
+      "bm25_score": 4.4810967445373535,
+      "dense_score": 0.4000319838523865,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05322378061375434,
+      "normalized_dense": 0.2177840964895191,
+      "normalized_bm25_rank": 0.6375838926174497,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.3009631496256262,
+      "rank": 31,
+      "rrf_score": 0.3009631496256262,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P19_005",
+      "alias_source_ids": [
+        "P19_005"
+      ],
+      "section": "Water Stewardship",
+      "pages": [
+        19
+      ],
+      "text": "In the Reporting Period, there were no notable water-related risks, and the Group did not encounter any issues in obtaining suitable water sources as our water is directly supplied by the government rather than from natural water sources.",
+      "retrieval_text": "[Section]\nWater Stewardship\n\n[Content]\nIn the Reporting Period, there were no notable water-related risks, and the Group did not encounter any issues in obtaining suitable water sources as our water is directly supplied by the government rather than from natural water sources.",
+      "bm25_rank": null,
+      "dense_rank": 15,
+      "bm25_score": null,
+      "dense_score": 0.45753204822540283,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.33726410157740594,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.2992504892433673,
+      "rank": 32,
+      "rrf_score": 0.2992504892433673,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P26_005",
+      "alias_source_ids": [
+        "P26_005"
+      ],
+      "section": "Novel Coronavirus Pneumonia Pandemic (\"COVID-19\")",
+      "pages": [
+        26
+      ],
+      "text": "The following measures have been implemented where feasible:",
+      "retrieval_text": "[Section]\nNovel Coronavirus Pneumonia Pandemic (\"COVID-19\")\n\n[Content]\nThe following measures have been implemented where feasible:",
+      "bm25_rank": 68,
+      "dense_rank": 36,
+      "bm25_score": 3.21757173538208,
+      "dense_score": 0.408549040555954,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03562250490779169,
+      "normalized_dense": 0.23548178064643657,
+      "normalized_bm25_rank": 0.5503355704697986,
+      "normalized_dense_rank": 0.7651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.29759681548297895,
+      "rank": 33,
+      "rrf_score": 0.29759681548297895,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_005",
+      "alias_source_ids": [
+        "P10_005"
+      ],
+      "section": "MATERIALITYASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "40 Rainbow Road, Western District, Zhongshan",
+      "retrieval_text": "[Section]\nMATERIALITYASSESSMENT\n\n[Content]\n40 Rainbow Road, Western District, Zhongshan",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.4510265588760376,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.323746274962135,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.29183468616963315,
+      "rank": 34,
+      "rrf_score": 0.29183468616963315,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L8_003",
+      "alias_source_ids": [
+        "L8_003"
+      ],
+      "section": "MATERIALITYASSESSMENT",
+      "pages": [
+        8
+      ],
+      "text": "Validation and engagement with stakeholders: During consultations with internal and external stakeholders, stakeholders were asked to rank ESG topics on a scale from 0 (No significance) to 6 (High significant). They were also given an opportunity to share additional ESG topics that were not covered in the materiality assessment and are encouraged to provide feedback on our stakeholder engagement approach.",
+      "retrieval_text": "[Section]\nMATERIALITYASSESSMENT\n\n[Content]\nValidation and engagement with stakeholders: During consultations with internal and external stakeholders, stakeholders were asked to rank ESG topics on a scale from 0 (No significance) to 6 (High significant). They were also given an opportunity to share additional ESG topics that were not covered in the materiality assessment and are encouraged to provide feedback on our stakeholder engagement approach.",
+      "bm25_rank": 49,
+      "dense_rank": 46,
+      "bm25_score": 5.056075096130371,
+      "dense_score": 0.38944464921951294,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0612333984828257,
+      "normalized_dense": 0.19578455945253942,
+      "normalized_bm25_rank": 0.6778523489932886,
+      "normalized_dense_rank": 0.697986577181208,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 46,
+      "composite_score": 0.2881538258405244,
+      "rank": 35,
+      "rrf_score": 0.2881538258405244,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T38_001",
+      "alias_source_ids": [
+        "T38_001"
+      ],
+      "section": "HKEX ESG REPORTING GUIDE CONTENT INDEX",
+      "pages": [
+        38
+      ],
+      "text": "Aspects,General Disclosures and KPIs | Description | Relevant Chapter/ Explanation A. Environmental Aspect A1: Emissions General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | Emissions KPI A1.1 | The types of emissions and respective emissions data. | Emissions—Air Emissions KPI A1.2 | Direct (Scope 1) and energy indirect Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | Emissions—GHG Emissions KPI A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | Emissions—Waste Management KPI A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions—Waste Management KPI A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions KPI A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions—Waste Management Aspect A2: Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Use of Resources KPI A2.1 | Direct and/or indirect energy consumption by type gas or oil) in total (kWh in ’000s) and intensity (e.g. per unit of production volume, per facility). | Use of Resources—Energy Management KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Use of Resources—Water Stewardship KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Use of Resources—Energy Management KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Use of Resources—Water Stewardship KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Use of Resources—Use of Packaging Materials",
+      "retrieval_text": "[Section]\nHKEX ESG REPORTING GUIDE CONTENT INDEX\n\n[Content]\nAspects,General Disclosures and KPIs | Description | Relevant Chapter/ Explanation A. Environmental Aspect A1: Emissions General Disclosure | Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | Emissions KPI A1.1 | The types of emissions and respective emissions data. | Emissions—Air Emissions KPI A1.2 | Direct (Scope 1) and energy indirect Scope 2) greenhouse gas emissions (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | Emissions—GHG Emissions KPI A1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility) | Emissions—Waste Management KPI A1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Emissions—Waste Management KPI A1.5 | Description of emissions target(s) set and steps taken to achieve them. | Emissions KPI A1.6 | Description of how hazardous and non-hazardous wastes are handled, and a description of reduction target(s) set and steps taken to achieve them. | Emissions—Waste Management Aspect A2: Use of Resources General Disclosure | Policies on the efficient use of resources, including energy, water and other raw materials. | Use of Resources KPI A2.1 | Direct and/or indirect energy consumption by type gas or oil) in total (kWh in ’000s) and intensity (e.g. per unit of production volume, per facility). | Use of Resources—Energy Management KPI A2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). | Use of Resources—Water Stewardship KPI A2.3 | Description of energy use efficiency target(s) set and steps taken to achieve them. | Use of Resources—Energy Management KPI A2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, water efficiency target(s) set and steps taken to achieve them. | Use of Resources—Water Stewardship KPI A2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. | Use of Resources—Use of Packaging Materials",
+      "bm25_rank": 70,
+      "dense_rank": 41,
+      "bm25_score": 3.0587706565856934,
+      "dense_score": 0.3952886462211609,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03341035908555098,
+      "normalized_dense": 0.2079278639706151,
+      "normalized_bm25_rank": 0.5369127516778524,
+      "normalized_dense_rank": 0.7315436241610738,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.2794568242068255,
+      "rank": 36,
+      "rrf_score": 0.2794568242068255,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_009",
+      "alias_source_ids": [
+        "P25_009"
+      ],
+      "section": "Physical Wellbeing",
+      "pages": [
+        25
+      ],
+      "text": "In addition, staffs that are in managerial positions have been provided with basic training to identify signs of mental health issues with employees. Managerial-level staffs are encouraged to proactively reach out to team members frons e o t t ort with mental health, they can attend counselling sessions which covers different aspects, such as conflict management and stress relief.",
+      "retrieval_text": "[Section]\nPhysical Wellbeing\n\n[Content]\nIn addition, staffs that are in managerial positions have been provided with basic training to identify signs of mental health issues with employees. Managerial-level staffs are encouraged to proactively reach out to team members frons e o t t ort with mental health, they can attend counselling sessions which covers different aspects, such as conflict management and stress relief.",
+      "bm25_rank": 31,
+      "dense_rank": 57,
+      "bm25_score": 7.581192493438721,
+      "dense_score": 0.37004125118255615,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09640902791469652,
+      "normalized_dense": 0.15546602900467038,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.6241610738255033,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.2783929023117552,
+      "rank": 37,
+      "rrf_score": 0.2783929023117552,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T6_001",
+      "alias_source_ids": [
+        "T6_001"
+      ],
+      "section": "STAKEHOLDERENGAGEMENT",
+      "pages": [
+        6
+      ],
+      "text": "Major Stakeholders Groups | Communication and Response Channels | Sustainability Topics of Interest Internal | Employees | Training events and seminars Meetings and briefings Performance appraisal meetings and interview | ● Training opportunities and career development Protection of employee data and privacy Health and safety of working environment Employee rights, benefits and compensation Shareholders and investors | Management information circular and annual reports Annual general meetings and shareholder meetings Telephone and e-mail correspondence | Sound risk management and effective corporate governance Diversity and inclusion Financial stability and responsible investment Information transparency Ethical business operation External | Suppliers | Tender conferences Site visits Supplier performance review Industry seminars | Fair and transparent supplier selection process Win-win cooperation Governments | Site visits and conferences Industry updates and seminars Mandatory local and regional reporting requirements | Adherence to laws and regulations Community engagement and social welfare Corporate governance Environmental impact and carbon footprint",
+      "retrieval_text": "[Section]\nSTAKEHOLDERENGAGEMENT\n\n[Content]\nMajor Stakeholders Groups | Communication and Response Channels | Sustainability Topics of Interest Internal | Employees | Training events and seminars Meetings and briefings Performance appraisal meetings and interview | ● Training opportunities and career development Protection of employee data and privacy Health and safety of working environment Employee rights, benefits and compensation Shareholders and investors | Management information circular and annual reports Annual general meetings and shareholder meetings Telephone and e-mail correspondence | Sound risk management and effective corporate governance Diversity and inclusion Financial stability and responsible investment Information transparency Ethical business operation External | Suppliers | Tender conferences Site visits Supplier performance review Industry seminars | Fair and transparent supplier selection process Win-win cooperation Governments | Site visits and conferences Industry updates and seminars Mandatory local and regional reporting requirements | Adherence to laws and regulations Community engagement and social welfare Corporate governance Environmental impact and carbon footprint",
+      "bm25_rank": 47,
+      "dense_rank": 51,
+      "bm25_score": 5.3992486000061035,
+      "dense_score": 0.3818586468696594,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.06601390651624897,
+      "normalized_dense": 0.18002152319787804,
+      "normalized_bm25_rank": 0.6912751677852349,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 47,
+      "composite_score": 0.2782237372412991,
+      "rank": 38,
+      "rrf_score": 0.2782237372412991,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P8_003",
+      "alias_source_ids": [
+        "P8_003"
+      ],
+      "section": "MATERIALITYASSESSMENT",
+      "pages": [
+        8
+      ],
+      "text": "A detailed approach of our Materiality Assessment methodology is presented below.",
+      "retrieval_text": "[Section]\nMATERIALITYASSESSMENT\n\n[Content]\nA detailed approach of our Materiality Assessment methodology is presented below.",
+      "bm25_rank": null,
+      "dense_rank": 23,
+      "bm25_score": null,
+      "dense_score": 0.43962591886520386,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.30005676189197555,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.2754896653199096,
+      "rank": 39,
+      "rrf_score": 0.2754896653199096,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P12_001",
+      "alias_source_ids": [
+        "P12_001"
+      ],
+      "section": "ENVIRONMENT / EMISSIONS",
+      "pages": [
+        12
+      ],
+      "text": "One of the critical aspects of climate change is global warming. It disrupts the balance of nature and ultimately affects the livelihoods of our employees, clients and communities. In the past decade, global warming has been accelerated by human activities such as the burning of fossil fuels and deforestation.",
+      "retrieval_text": "[Section]\nENVIRONMENT / EMISSIONS\n\n[Content]\nOne of the critical aspects of climate change is global warming. It disrupts the balance of nature and ultimately affects the livelihoods of our employees, clients and communities. In the past decade, global warming has been accelerated by human activities such as the burning of fossil fuels and deforestation.",
+      "bm25_rank": 36,
+      "dense_rank": 58,
+      "bm25_score": 6.5730061531066895,
+      "dense_score": 0.36961936950683594,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08236469510720172,
+      "normalized_dense": 0.15458939651197368,
+      "normalized_bm25_rank": 0.7651006711409396,
+      "normalized_dense_rank": 0.6174496644295302,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 36,
+      "composite_score": 0.27057922780063115,
+      "rank": 40,
+      "rrf_score": 0.27057922780063115,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T9_001",
+      "alias_source_ids": [
+        "T9_001"
+      ],
+      "section": "MATERIALITYASSESSMENT",
+      "pages": [
+        9
+      ],
+      "text": "ESG事項對本集團之重要性 | 10 Importance of ESG Topics to the Group | 20 | 18 | 16 | 11 19 | 17 | 13 | 12",
+      "retrieval_text": "[Section]\nMATERIALITYASSESSMENT\n\n[Content]\nESG事項對本集團之重要性 | 10 Importance of ESG Topics to the Group | 20 | 18 | 16 | 11 19 | 17 | 13 | 12",
+      "bm25_rank": null,
+      "dense_rank": 26,
+      "bm25_score": null,
+      "dense_score": 0.43123576045036316,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.2826227610604256,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.2653609193912832,
+      "rank": 41,
+      "rrf_score": 0.2653609193912832,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_001",
+      "alias_source_ids": [
+        "P10_001"
+      ],
+      "section": "MATERIALITYASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "ACcec t i o se a ss t vely more important to our stakeholders. With \"customer satisfaction\", \"customer information and privacy\" and \"occupational health and safety\" as the top three areas to focus in this year, the Group has taken steps to address issues in these key parts, which will be further elaborated in the sections below.",
+      "retrieval_text": "[Section]\nMATERIALITYASSESSMENT\n\n[Content]\nACcec t i o se a ss t vely more important to our stakeholders. With \"customer satisfaction\", \"customer information and privacy\" and \"occupational health and safety\" as the top three areas to focus in this year, the Group has taken steps to address issues in these key parts, which will be further elaborated in the sections below.",
+      "bm25_rank": null,
+      "dense_rank": 28,
+      "bm25_score": null,
+      "dense_score": 0.4257843494415283,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.2712952152189742,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.25871171458838593,
+      "rank": 42,
+      "rrf_score": 0.25871171458838593,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_003",
+      "alias_source_ids": [
+        "P5_003"
+      ],
+      "section": "ESGGOVERNANCE / OUR SUSTAINABILITY MISSION",
+      "pages": [
+        5
+      ],
+      "text": "Through adopting a top-down approach, the Board of Directors (the \"Board\") are responsible for developing the Group's sustainable business strategy as well as spearheading our Green Strategy to contribute our nation's carbon neutrality goal. In compliance with the Listing Rules, targets are established by the Board at the beginning of every financial year for each ma o i s o l l i i the effectiveness of the Group's ESG policies as well as overseeing a team of ESG professionals (the \"Team\"). The Team periodically reports to the Board to assist in identifying the ESG-related risk, assessing the internal control system, and the development of the ESG strategy. On a day-to-day basis, the Team is responsible for identifying material ESG topics and monitoring the Group's performance against ESG initiatives and key metrics across each business line.",
+      "retrieval_text": "[Section]\nESGGOVERNANCE / OUR SUSTAINABILITY MISSION\n\n[Content]\nThrough adopting a top-down approach, the Board of Directors (the \"Board\") are responsible for developing the Group's sustainable business strategy as well as spearheading our Green Strategy to contribute our nation's carbon neutrality goal. In compliance with the Listing Rules, targets are established by the Board at the beginning of every financial year for each ma o i s o l l i i the effectiveness of the Group's ESG policies as well as overseeing a team of ESG professionals (the \"Team\"). The Team periodically reports to the Board to assist in identifying the ESG-related risk, assessing the internal control system, and the development of the ESG strategy. On a day-to-day basis, the Team is responsible for identifying material ESG topics and monitoring the Group's performance against ESG initiatives and key metrics across each business line.",
+      "bm25_rank": 41,
+      "dense_rank": 62,
+      "bm25_score": 5.925718307495117,
+      "dense_score": 0.3648487329483032,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07334778467869767,
+      "normalized_dense": 0.14467643925703477,
+      "normalized_bm25_rank": 0.7315436241610738,
+      "normalized_dense_rank": 0.5906040268456376,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 41,
+      "composite_score": 0.2565814784609366,
+      "rank": 43,
+      "rrf_score": 0.2565814784609366,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_003",
+      "alias_source_ids": [
+        "P3_003"
+      ],
+      "section": "ABOUT THIS REPORT / INTRODUCTION",
+      "pages": [
+        3
+      ],
+      "text": "The scope of the ESG Report mainly focuses on the Group's principle activities during 1 January 2021 to 31 December or os , ces including, but not limited to, repair services, the sales of accessories, insurance agency services and other value-added services in the People's Republic of China (the \"PRC\"). Unless otherwise stated, the information compiled in this ESG Re o on a t n n o o n t so oan Guangdong Province, the PRC. With exception to the data section, the disclosure of systems, policies, and compliance with laws and regulations is made on a Group-wide basis. The Group has compiled KPl, as shown in this ESG Report and supplemented by notes for benchmarking purposes. The Group will continue to assess the key ESG aspects of the different businesses to determine whether they are required to be included in the ESG Report.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT / INTRODUCTION\n\n[Content]\nThe scope of the ESG Report mainly focuses on the Group's principle activities during 1 January 2021 to 31 December or os , ces including, but not limited to, repair services, the sales of accessories, insurance agency services and other value-added services in the People's Republic of China (the \"PRC\"). Unless otherwise stated, the information compiled in this ESG Re o on a t n n o o n t so oan Guangdong Province, the PRC. With exception to the data section, the disclosure of systems, policies, and compliance with laws and regulations is made on a Group-wide basis. The Group has compiled KPl, as shown in this ESG Report and supplemented by notes for benchmarking purposes. The Group will continue to assess the key ESG aspects of the different businesses to determine whether they are required to be included in the ESG Report.",
+      "bm25_rank": 102,
+      "dense_rank": 42,
+      "bm25_score": 1.6209704875946045,
+      "dense_score": 0.39494505524635315,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.013381379048653365,
+      "normalized_dense": 0.20721391257132857,
+      "normalized_bm25_rank": 0.3221476510067114,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 42,
+      "composite_score": 0.252382353263387,
+      "rank": 44,
+      "rrf_score": 0.252382353263387,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_006",
+      "alias_source_ids": [
+        "P25_006"
+      ],
+      "section": "Physical Wellbeing",
+      "pages": [
+        25
+      ],
+      "text": "The Group adhered with the relevant laws and regulations including but not limited to the Law of the People's Republic of China on the Prevention and Treatment of Occupational Diseases(《中華人民共和國職業病防治法》), Occupational Safety and Health Act(《職業安全衛生法》), the Provisions on the Administration of Motor Vehicle Maintenance(《機 動車維修管理規定》), and the Occupational Safety and Health Ordinance (Cap. 509 of the Laws of Hong Kong). Furthermore, the Group was not aware of any incompliance of laws and regulations related to employees' health and safety. In 2021, nine working days were lost due to minor work-related injuries. There were no fatalities or serious accidents in this Reporting Period and the past three years.",
+      "retrieval_text": "[Section]\nPhysical Wellbeing\n\n[Content]\nThe Group adhered with the relevant laws and regulations including but not limited to the Law of the People's Republic of China on the Prevention and Treatment of Occupational Diseases(《中華人民共和國職業病防治法》), Occupational Safety and Health Act(《職業安全衛生法》), the Provisions on the Administration of Motor Vehicle Maintenance(《機 動車維修管理規定》), and the Occupational Safety and Health Ordinance (Cap. 509 of the Laws of Hong Kong). Furthermore, the Group was not aware of any incompliance of laws and regulations related to employees' health and safety. In 2021, nine working days were lost due to minor work-related injuries. There were no fatalities or serious accidents in this Reporting Period and the past three years.",
+      "bm25_rank": 37,
+      "dense_rank": 66,
+      "bm25_score": 6.5379438400268555,
+      "dense_score": 0.35768139362335205,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.0818762667540348,
+      "normalized_dense": 0.12978334742575592,
+      "normalized_bm25_rank": 0.7583892617449665,
+      "normalized_dense_rank": 0.563758389261745,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 37,
+      "composite_score": 0.25039002897666723,
+      "rank": 45,
+      "rrf_score": 0.25039002897666723,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L8_001",
+      "alias_source_ids": [
+        "L8_001"
+      ],
+      "section": "MATERIALITYASSESSMENT",
+      "pages": [
+        8
+      ],
+      "text": "Design of the methodology: Our materiality analysis is designed to support the implementation of ESG initiatives and s t ii e ti i i his methodology is consistent with the Listing Rules.",
+      "retrieval_text": "[Section]\nMATERIALITYASSESSMENT\n\n[Content]\nDesign of the methodology: Our materiality analysis is designed to support the implementation of ESG initiatives and s t ii e ti i i his methodology is consistent with the Listing Rules.",
+      "bm25_rank": null,
+      "dense_rank": 31,
+      "bm25_score": null,
+      "dense_score": 0.4156627058982849,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.25026334272924505,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.24732371357939686,
+      "rank": 46,
+      "rrf_score": 0.24732371357939686,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_002",
+      "alias_source_ids": [
+        "P31_002"
+      ],
+      "section": "Delivery of Materials",
+      "pages": [
+        31
+      ],
+      "text": "Towards the end of the year, the Purchasing Department is responsible for reviewing all qualified suppliers during the year, by obtaining feedbacks from departments that have used the supplier's materials and services. The Purchasing Department may also request additional documents and information from the supplier to assist with the n ns t t ies ss sd s e dro o s es l rs u te ses o orm bel (fk ih ih f t his process helps to mitigate any procurement risk.",
+      "retrieval_text": "[Section]\nDelivery of Materials\n\n[Content]\nTowards the end of the year, the Purchasing Department is responsible for reviewing all qualified suppliers during the year, by obtaining feedbacks from departments that have used the supplier's materials and services. The Purchasing Department may also request additional documents and information from the supplier to assist with the n ns t t ies ss sd s e dro o s es l rs u te ses o orm bel (fk ih ih f t his process helps to mitigate any procurement risk.",
+      "bm25_rank": 42,
+      "dense_rank": 67,
+      "bm25_score": 5.844480991363525,
+      "dense_score": 0.355924129486084,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.07221612492643005,
+      "normalized_dense": 0.1261319092864957,
+      "normalized_bm25_rank": 0.7248322147651007,
+      "normalized_dense_rank": 0.5570469798657718,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 42,
+      "composite_score": 0.24248201068522396,
+      "rank": 47,
+      "rrf_score": 0.24248201068522396,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_003",
+      "alias_source_ids": [
+        "P31_003"
+      ],
+      "section": "Delivery of Materials",
+      "pages": [
+        31
+      ],
+      "text": "During the Reporting Period, the Group partnered with 111 suppliers, in which 104 suppliers were from our local community of the Guangdong Province PRC; the other suppliers were located in other provinces across the PRC. Due to our diverse network of suppliers, the Group encountered no difficulties in sourcing product and services. There were also no companies identified as critical suppliers. The Group aims to maintain long-term strategic partnerships with suppliers with high-quality services, high-profile, and a strong sense of social responsibility.",
+      "retrieval_text": "[Section]\nDelivery of Materials\n\n[Content]\nDuring the Reporting Period, the Group partnered with 111 suppliers, in which 104 suppliers were from our local community of the Guangdong Province PRC; the other suppliers were located in other provinces across the PRC. Due to our diverse network of suppliers, the Group encountered no difficulties in sourcing product and services. There were also no companies identified as critical suppliers. The Group aims to maintain long-term strategic partnerships with suppliers with high-quality services, high-profile, and a strong sense of social responsibility.",
+      "bm25_rank": null,
+      "dense_rank": 33,
+      "bm25_score": null,
+      "dense_score": 0.4118005335330963,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.24223809303822763,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.24183031242915148,
+      "rank": 48,
+      "rrf_score": 0.24183031242915148,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P9_001",
+      "alias_source_ids": [
+        "P9_001"
+      ],
+      "section": "MATERIALITYASSESSMENT",
+      "pages": [
+        9
+      ],
+      "text": "The following table provides an overview of the ranking of materiality of the ESG topics of the Group:",
+      "retrieval_text": "[Section]\nMATERIALITYASSESSMENT\n\n[Content]\nThe following table provides an overview of the ranking of materiality of the ESG topics of the Group:",
+      "bm25_rank": null,
+      "dense_rank": 34,
+      "bm25_score": null,
+      "dense_score": 0.41100695729255676,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.24058911239288097,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.23991088732408553,
+      "rank": 49,
+      "rrf_score": 0.23991088732408553,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P10_004",
+      "alias_source_ids": [
+        "P10_004"
+      ],
+      "section": "MATERIALITYASSESSMENT",
+      "pages": [
+        10
+      ],
+      "text": "centenary-united@car2000.com.cn",
+      "retrieval_text": "[Section]\nMATERIALITYASSESSMENT\n\n[Content]\ncentenary-united@car2000.com.cn",
+      "bm25_rank": null,
+      "dense_rank": 35,
+      "bm25_score": null,
+      "dense_score": 0.4086710810661316,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.23573536994126512,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.23686979558682533,
+      "rank": 50,
+      "rrf_score": 0.23686979558682533,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

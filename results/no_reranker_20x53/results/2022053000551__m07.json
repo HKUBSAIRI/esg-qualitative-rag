@@ -1,0 +1,1541 @@
+{
+  "document_id": "2022053000551",
+  "metric_id": 7,
+  "metric_name": "TCFD 披露",
+  "query": "TCFD 披露 TCFD 披露 衡量企业气候信息披露与TCFD四大支柱（治理、战略、风险管理、指标与目标）的契合程度。 重点考察：披露完整性、可比性、可核验性。 一、内容质量得分 (权重 50%，0-4分) • 2分：四大支柱完整披露，指标/目标清晰，边界、方法、假设透明，信息可追溯。 • 1分：仅覆盖部分支柱，披露深度有限。 • 0分：无 TCFD 相关披露。 二、覆盖应用得分 (权重 50%，0-4分) • 2分：披露覆盖 >80% 业务实体/合并范围。 • 1分：覆盖 20% - 50%。 • 0分：无有效覆盖信息。 最终得分 = 0.5×内容质量+0.5×覆盖应用 TCFD 气候相关财务披露 治理支柱 战略支柱 风险管理支柱 指标与目标 TCFD索引 气候信息披露对照 ISSB IFRS S2 TCFD Task Force on Climate-related Financial Disclosures climate-related financial disclosures governance pillar strategy pillar risk management pillar metrics and targets TCFD index climate disclosure alignment ISSB IFRS S2 报告是否明确按TCFD或等价气候披露框架组织信息？ 治理、战略、风险管理、指标与目标四大支柱是否均有披露？ 指标、目标、边界、方法或假设是否可追溯？ 披露覆盖了哪些业务实体或合并范围？ 是否提供TCFD索引表或支柱对照？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator 'TCFD 披露'. Prefer explicit, auditable disclosure that answers: 报告是否明确按TCFD或等价气候披露框架组织信息？ 治理、战略、风险管理、指标与目标四大支柱是否均有披露？ 指标、目标、边界、方法或假设是否可追溯？ 披露覆盖了哪些业务实体或合并范围？ 是否提供TCFD索引表或支柱对照？ Exclude or down-rank: 排除：仅单点披露物理风险或转型风险而无框架映射；仅有减排目标而无治理/战略/风险管理支柱；仅提及“参考TCFD”而无实质内容；仅有场景分析而无整体支柱覆盖；区分：TCFD披露评估四大支柱整体契合与可核验性；物理/转型风险与场景分析分别是支柱下的专题内容，单独专题充分不等于TCFD整体披露充分。注意：原关键词曾误用转型风险词表，已按TCFD框架重写。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 240,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P3_004",
+      "alias_source_ids": [
+        "P3_004"
+      ],
+      "section": "ABOUT THIS REPORT 關於本報告",
+      "pages": [
+        3
+      ],
+      "text": "本報告按照香港聯合交易所有限公司 ( 「聯交 所」 ) 發布的 《環境、社會及管治報告指引》 ( 「指 引」 ) 制定。本報告已遵守指引的所有 「不遵守 就解釋」 條文,並滙報了指引的所有建議披露 內容。",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT 關於本報告\n\n[Content]\n本報告按照香港聯合交易所有限公司 ( 「聯交 所」 ) 發布的 《環境、社會及管治報告指引》 ( 「指 引」 ) 制定。本報告已遵守指引的所有 「不遵守 就解釋」 條文,並滙報了指引的所有建議披露 內容。",
+      "bm25_rank": 3,
+      "dense_rank": 3,
+      "bm25_score": 66.36978149414062,
+      "dense_score": 0.5166537761688232,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.8205662121689252,
+      "normalized_dense": 0.9917996523465116,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.8072162751174802,
+      "rank": 1,
+      "rrf_score": 0.8072162751174802,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_002",
+      "alias_source_ids": [
+        "P13_002"
+      ],
+      "section": "THE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / ESG DEVELOPMENT STRATEGIES",
+      "pages": [
+        13
+      ],
+      "text": "集團以負責任和可持續的方式營運業務,並 保持透明度和對持份者負責任。為確保公司 能有效地貫徹執行 ESG 發展策略,我們把可 持續發展方針劃分為五大支柱,為集團的整 體 ESG 發展方向提供指引。",
+      "retrieval_text": "[Section]\nTHE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / ESG DEVELOPMENT STRATEGIES\n\n[Content]\n集團以負責任和可持續的方式營運業務,並 保持透明度和對持份者負責任。為確保公司 能有效地貫徹執行 ESG 發展策略,我們把可 持續發展方針劃分為五大支柱,為集團的整 體 ESG 發展方向提供指引。",
+      "bm25_rank": 2,
+      "dense_rank": 15,
+      "bm25_score": 77.2647705078125,
+      "dense_score": 0.4833396077156067,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.966698546998638,
+      "normalized_dense": 0.7829538439923653,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.7479104675487334,
+      "rank": 2,
+      "rrf_score": 0.7479104675487334,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_007",
+      "alias_source_ids": [
+        "P4_007"
+      ],
+      "section": "REPORTING PRINCIPLES / 匯報原則",
+      "pages": [
+        4
+      ],
+      "text": "本報告的資料主要來自於二零二一年度的內部的統計報告、文檔及溝通文件。我們承諾會提供無偏頗 的表現概況,並就集團表現最關鍵方面的進度及持續挑戰作出公平披露。",
+      "retrieval_text": "[Section]\nREPORTING PRINCIPLES / 匯報原則\n\n[Content]\n本報告的資料主要來自於二零二一年度的內部的統計報告、文檔及溝通文件。我們承諾會提供無偏頗 的表現概況,並就集團表現最關鍵方面的進度及持續挑戰作出公平披露。",
+      "bm25_rank": 4,
+      "dense_rank": 10,
+      "bm25_score": 59.296173095703125,
+      "dense_score": 0.4928211569786072,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.725689300440277,
+      "normalized_dense": 0.8423934732018348,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.725881615977154,
+      "rank": 3,
+      "rrf_score": 0.725881615977154,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P3_002",
+      "alias_source_ids": [
+        "P3_002"
+      ],
+      "section": "ABOUT THIS REPORT 關於本報告",
+      "pages": [
+        3
+      ],
+      "text": "This Report is prepared in accordance with the Environmental, Social and Governance Reporting Guide (the 'Guide') issued by The Stock Exchange of Hong Kong Limited (the 'Stock Exchange'). This Report complies with all 'comply or explain' provisions and reports all recommended disclosures of the Guide.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT 關於本報告\n\n[Content]\nThis Report is prepared in accordance with the Environmental, Social and Governance Reporting Guide (the 'Guide') issued by The Stock Exchange of Hong Kong Limited (the 'Stock Exchange'). This Report complies with all 'comply or explain' provisions and reports all recommended disclosures of the Guide.",
+      "bm25_rank": 34,
+      "dense_rank": 4,
+      "bm25_score": 16.8245906829834,
+      "dense_score": 0.5138822197914124,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15602635777049179,
+      "normalized_dense": 0.9744248247907129,
+      "normalized_bm25_rank": 0.7785234899328859,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.6460794635865527,
+      "rank": 4,
+      "rrf_score": 0.6460794635865527,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T81_001",
+      "alias_source_ids": [
+        "T81_001"
+      ],
+      "section": "HKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引",
+      "pages": [
+        81
+      ],
+      "text": "A | Environmental 環境 | Chapter 章節 ASPECT A.3 方面 A.3 | Environment and Natural Resources 環境及天然資源 | Green Operations 綠色營運 Indicator A.3.1 指標 A.3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. 描述業務活動對環境及天然資源的重大影響及已採取 管理有關影響的行動。 | There were no accidents that had a significant impact on the environment and natural resources during the period 期內未有對環境及天然資源的 重大影響的事故 ASPECT A.4 方面 A.4 | Climate Change 氣候變化 | Tackling Climate Change 應對氣候變化 Indicator A.4.1 指標 A.4.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. 描述已經及可能會對發行人產生影響的重大氣候相關 事宜,及應對行動。 | Tackling Climate Change 應對氣候變化",
+      "retrieval_text": "[Section]\nHKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引\n\n[Content]\nA | Environmental 環境 | Chapter 章節 ASPECT A.3 方面 A.3 | Environment and Natural Resources 環境及天然資源 | Green Operations 綠色營運 Indicator A.3.1 指標 A.3.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. 描述業務活動對環境及天然資源的重大影響及已採取 管理有關影響的行動。 | There were no accidents that had a significant impact on the environment and natural resources during the period 期內未有對環境及天然資源的 重大影響的事故 ASPECT A.4 方面 A.4 | Climate Change 氣候變化 | Tackling Climate Change 應對氣候變化 Indicator A.4.1 指標 A.4.1 | Description of the significant impacts of activities on the environment and natural resources and the actions taken to manage them. 描述已經及可能會對發行人產生影響的重大氣候相關 事宜,及應對行動。 | Tackling Climate Change 應對氣候變化",
+      "bm25_rank": 12,
+      "dense_rank": 11,
+      "bm25_score": 28.89188575744629,
+      "dense_score": 0.49042099714279175,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.31788260215013064,
+      "normalized_dense": 0.8273469226089855,
+      "normalized_bm25_rank": 0.9261744966442953,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.6323425742156543,
+      "rank": 5,
+      "rrf_score": 0.6323425742156543,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T79_001",
+      "alias_source_ids": [
+        "T79_001"
+      ],
+      "section": "HKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引",
+      "pages": [
+        79
+      ],
+      "text": "A | Environmental 環境 | Chapter 章節 ASPECT A.1 方面 A.1 | Emissions 排放物 | Emission Control 排放管理 Indicator A.1.1 指標 A.1.1 | The types of emissions and respective emissions data. 排放物種類及相關排放數據。 | Emission Control 排放管理 Indicator A.1.2 指標 A.1.2 | Direct (Scope 1) and Indirect (Scope 2) greenhouse gas emissions in total (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). 直接 (範圍 1 ) 及能源間接 (範圍 2 ) 溫室氣體排放量 (以噸 計算) 及 (如適用) 密度 (如以每產量單位、每項設施計 算) 。 | Emission Control 排放管理 Indicator A.1.3 指標 A.1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). 所產生有害廢棄物總量 (以噸計算) 及 (如適用) 密度 (如 以每產量單位、每項設施計算) 。 | Emission Control 排放管理 Indicator A.1.4 指標 A.1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). 所產生無害廢棄物總量 (以噸計算) 及 (如適用) 密度 (如 以每產量單位、每項設施計算) 。 | Emission Control 排放管理 Indicator A.1.5 指標 A.1.5 | Description of the emission targets set and the steps taken to reach these targets. 描述所訂立的排放量目標及為達到這些目標所採取的 步驟。 | Emission Control 排放管理 Indicator A.1.6 指標 A.1.6 | Description of the methods to handle hazardous and non-hazardous waste, and the description of the waste reduction targets set and the steps taken to achieve these targets. 描述處理有害及無害廢棄物的方法,及描述所訂立的 減廢目標及為達到這些目標所採取的步驟。 | Emission Control 排放管理",
+      "retrieval_text": "[Section]\nHKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引\n\n[Content]\nA | Environmental 環境 | Chapter 章節 ASPECT A.1 方面 A.1 | Emissions 排放物 | Emission Control 排放管理 Indicator A.1.1 指標 A.1.1 | The types of emissions and respective emissions data. 排放物種類及相關排放數據。 | Emission Control 排放管理 Indicator A.1.2 指標 A.1.2 | Direct (Scope 1) and Indirect (Scope 2) greenhouse gas emissions in total (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). 直接 (範圍 1 ) 及能源間接 (範圍 2 ) 溫室氣體排放量 (以噸 計算) 及 (如適用) 密度 (如以每產量單位、每項設施計 算) 。 | Emission Control 排放管理 Indicator A.1.3 指標 A.1.3 | Total hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). 所產生有害廢棄物總量 (以噸計算) 及 (如適用) 密度 (如 以每產量單位、每項設施計算) 。 | Emission Control 排放管理 Indicator A.1.4 指標 A.1.4 | Total non-hazardous waste produced (in tonnes) and, where appropriate, intensity (e.g. per unit of production volume, per facility). 所產生無害廢棄物總量 (以噸計算) 及 (如適用) 密度 (如 以每產量單位、每項設施計算) 。 | Emission Control 排放管理 Indicator A.1.5 指標 A.1.5 | Description of the emission targets set and the steps taken to reach these targets. 描述所訂立的排放量目標及為達到這些目標所採取的 步驟。 | Emission Control 排放管理 Indicator A.1.6 指標 A.1.6 | Description of the methods to handle hazardous and non-hazardous waste, and the description of the waste reduction targets set and the steps taken to achieve these targets. 描述處理有害及無害廢棄物的方法,及描述所訂立的 減廢目標及為達到這些目標所採取的步驟。 | Emission Control 排放管理",
+      "bm25_rank": 6,
+      "dense_rank": 16,
+      "bm25_score": 37.7022819519043,
+      "dense_score": 0.48031747341156006,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.43605470540377606,
+      "normalized_dense": 0.7640081487825402,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.6311238602687382,
+      "rank": 6,
+      "rrf_score": 0.6311238602687382,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_006",
+      "alias_source_ids": [
+        "P4_006"
+      ],
+      "section": "REPORTING PRINCIPLES / 匯報原則",
+      "pages": [
+        4
+      ],
+      "text": "The information in this Report mainly comes from internal statistical reports, documents and communication documents in 2021. We are committed to providing an unbiased overview of performance and fair disclosures on critical aspects of our performance, both in terms of progress and continuing challenges that we are dealing with.",
+      "retrieval_text": "[Section]\nREPORTING PRINCIPLES / 匯報原則\n\n[Content]\nThe information in this Report mainly comes from internal statistical reports, documents and communication documents in 2021. We are committed to providing an unbiased overview of performance and fair disclosures on critical aspects of our performance, both in terms of progress and continuing challenges that we are dealing with.",
+      "bm25_rank": 33,
+      "dense_rank": 9,
+      "bm25_score": 16.859905242919922,
+      "dense_score": 0.4956600069999695,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15650002498489027,
+      "normalized_dense": 0.8601901631699541,
+      "normalized_bm25_rank": 0.785234899328859,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.6001517970057909,
+      "rank": 7,
+      "rrf_score": 0.6001517970057909,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L14_002",
+      "alias_source_ids": [
+        "L14_002"
+      ],
+      "section": "ESG DEVELOPMENT FOCUSES OF SINGAMAS 勝獅貨櫃 ESG 發展⽀柱",
+      "pages": [
+        14
+      ],
+      "text": "Climate Change Strategy - Review the Group's approach to climate change and formulate a sustainable development plan to identify and respond to relevant entities and transformational risks and opportunities",
+      "retrieval_text": "[Section]\nESG DEVELOPMENT FOCUSES OF SINGAMAS 勝獅貨櫃 ESG 發展⽀柱\n\n[Content]\nClimate Change Strategy - Review the Group's approach to climate change and formulate a sustainable development plan to identify and respond to relevant entities and transformational risks and opportunities",
+      "bm25_rank": 42,
+      "dense_rank": 7,
+      "bm25_score": 14.023293495178223,
+      "dense_score": 0.49771302938461304,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11845311211671626,
+      "normalized_dense": 0.8730605165180246,
+      "normalized_bm25_rank": 0.7248322147651007,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.5936913334059942,
+      "rank": 8,
+      "rrf_score": 0.5936913334059942,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T80_001",
+      "alias_source_ids": [
+        "T80_001"
+      ],
+      "section": "HKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引",
+      "pages": [
+        80
+      ],
+      "text": "A | Environmental 環境 | Chapter 章節 ASPECT A.2 方面 A.2 | Use of Resources 資源使用 | Green Factory 綠色工廠 Indicator A.2.1 指標 A.2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). 按類型劃分的直接及╱或間接能源 (如電、氣或油) 總 耗量 (以千個千瓦時計算) 及密度 (如以每產量單位、每 項設施計算) 。 | Green Factory 綠色工廠 Indicator A.2.2 指標 A.2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). 總耗水量及密度 (如以每產量單位、每項設施計算) 。 | Green Factory 綠色工廠 Indicator A.2.3 指標 A.2.3 | Description of the energy efficiency targets set and the steps taken to achieve these targets. 描述所訂立的能源使用效益目標及為達到這些目標所 採取的步驟。 | Green Factory 綠色工廠 Indicator A.2.4 指標 A.2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, and the water efficiency targets set and the steps taken to achieve these targets. 描述求取適用水源上可有任何問題,以及所訂立的用 水效益目標及為達到這些目標所採取的步驟。 | Green Factory 綠色工廠 Indicator A.2.5 指標 A.2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. 製成品所用裝材料的總量 (以噸計算) 及 (如適用) 每生 產單位佔量。 | Green Factory 綠色工廠",
+      "retrieval_text": "[Section]\nHKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引\n\n[Content]\nA | Environmental 環境 | Chapter 章節 ASPECT A.2 方面 A.2 | Use of Resources 資源使用 | Green Factory 綠色工廠 Indicator A.2.1 指標 A.2.1 | Direct and/or indirect energy consumption by type (e.g. electricity, gas or oil) in total (kWh in '000s) and intensity (e.g. per unit of production volume, per facility). 按類型劃分的直接及╱或間接能源 (如電、氣或油) 總 耗量 (以千個千瓦時計算) 及密度 (如以每產量單位、每 項設施計算) 。 | Green Factory 綠色工廠 Indicator A.2.2 指標 A.2.2 | Water consumption in total and intensity (e.g. per unit of production volume, per facility). 總耗水量及密度 (如以每產量單位、每項設施計算) 。 | Green Factory 綠色工廠 Indicator A.2.3 指標 A.2.3 | Description of the energy efficiency targets set and the steps taken to achieve these targets. 描述所訂立的能源使用效益目標及為達到這些目標所 採取的步驟。 | Green Factory 綠色工廠 Indicator A.2.4 指標 A.2.4 | Description of whether there is any issue in sourcing water that is fit for purpose, and the water efficiency targets set and the steps taken to achieve these targets. 描述求取適用水源上可有任何問題,以及所訂立的用 水效益目標及為達到這些目標所採取的步驟。 | Green Factory 綠色工廠 Indicator A.2.5 指標 A.2.5 | Total packaging material used for finished products (in tonnes) and, if applicable, with reference to per unit produced. 製成品所用裝材料的總量 (以噸計算) 及 (如適用) 每生 產單位佔量。 | Green Factory 綠色工廠",
+      "bm25_rank": 15,
+      "dense_rank": 22,
+      "bm25_score": 26.032398223876953,
+      "dense_score": 0.4658634662628174,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2795288608868236,
+      "normalized_dense": 0.6733962876107715,
+      "normalized_bm25_rank": 0.9060402684563759,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.5540105802236851,
+      "rank": 9,
+      "rrf_score": 0.5540105802236851,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_001",
+      "alias_source_ids": [
+        "P4_001"
+      ],
+      "section": "REPORTING PRINCIPLES / 匯報原則",
+      "pages": [
+        4
+      ],
+      "text": "We considered the following reporting principles when formulating this report:",
+      "retrieval_text": "[Section]\nREPORTING PRINCIPLES / 匯報原則\n\n[Content]\nWe considered the following reporting principles when formulating this report:",
+      "bm25_rank": null,
+      "dense_rank": 1,
+      "bm25_score": null,
+      "dense_score": 0.517961859703064,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.55,
+      "rank": 10,
+      "rrf_score": 0.55,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_004",
+      "alias_source_ids": [
+        "P4_004"
+      ],
+      "section": "REPORTING PRINCIPLES / 匯報原則",
+      "pages": [
+        4
+      ],
+      "text": "This Report would perform annual performance comparison with suitable quantitative data recorded and estimated by relevant departments of the Group when applicable, and state the information of the standards, methodologies, assumptions and/or calculation references wherever appropriate.",
+      "retrieval_text": "[Section]\nREPORTING PRINCIPLES / 匯報原則\n\n[Content]\nThis Report would perform annual performance comparison with suitable quantitative data recorded and estimated by relevant departments of the Group when applicable, and state the information of the standards, methodologies, assumptions and/or calculation references wherever appropriate.",
+      "bm25_rank": null,
+      "dense_rank": 2,
+      "bm25_score": null,
+      "dense_score": 0.5170053243637085,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.9940035004491397,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.5465589432780043,
+      "rank": 11,
+      "rrf_score": 0.5465589432780043,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_005",
+      "alias_source_ids": [
+        "P4_005"
+      ],
+      "section": "REPORTING PRINCIPLES / 匯報原則",
+      "pages": [
+        4
+      ],
+      "text": "集團的相關部門對量化資料作出紀錄及估算,在可行情況下,本報告會對適當的量化資料進行年度績 效比較,並在適當之處列出有關標準、方法、假設和 / 或計算方式的資料。",
+      "retrieval_text": "[Section]\nREPORTING PRINCIPLES / 匯報原則\n\n[Content]\n集團的相關部門對量化資料作出紀錄及估算,在可行情況下,本報告會對適當的量化資料進行年度績 效比較,並在適當之處列出有關標準、方法、假設和 / 或計算方式的資料。",
+      "bm25_rank": 118,
+      "dense_rank": 6,
+      "bm25_score": 7.089934825897217,
+      "dense_score": 0.49923521280288696,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.025457342292401833,
+      "normalized_dense": 0.882603051757922,
+      "normalized_bm25_rank": 0.21476510067114096,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.528767637244894,
+      "rank": 12,
+      "rrf_score": 0.528767637244894,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_016",
+      "alias_source_ids": [
+        "P18_016"
+      ],
+      "section": "MATERIALITY MATRIX 重要性矩陣",
+      "pages": [
+        18
+      ],
+      "text": "Corporate Governance and Risk Management 企業管治及風險管理",
+      "retrieval_text": "[Section]\nMATERIALITY MATRIX 重要性矩陣\n\n[Content]\nCorporate Governance and Risk Management 企業管治及風險管理",
+      "bm25_rank": 35,
+      "dense_rank": 20,
+      "bm25_score": 16.731565475463867,
+      "dense_score": 0.47025012969970703,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.15477862904347894,
+      "normalized_dense": 0.7008961867225064,
+      "normalized_bm25_rank": 0.7718120805369127,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.5279472435105663,
+      "rank": 13,
+      "rrf_score": 0.5279472435105663,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_010",
+      "alias_source_ids": [
+        "P4_010"
+      ],
+      "section": "REPORTING PRINCIPLES / 匯報原則",
+      "pages": [
+        4
+      ],
+      "text": "我們在制定本報告時,考慮了下列報告原則:",
+      "retrieval_text": "[Section]\nREPORTING PRINCIPLES / 匯報原則\n\n[Content]\n我們在制定本報告時,考慮了下列報告原則:",
+      "bm25_rank": null,
+      "dense_rank": 5,
+      "bm25_score": null,
+      "dense_score": 0.509225070476532,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.945229255504389,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.5254611119097576,
+      "rank": 14,
+      "rrf_score": 0.5254611119097576,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T83_001",
+      "alias_source_ids": [
+        "T83_001"
+      ],
+      "section": "HKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引",
+      "pages": [
+        83
+      ],
+      "text": "B | Social 社會 ASPECT B.4 方面 B.4 | Labour Standards 勞工準則 | Talents Management 人才管理 Indicator B.4.1 指標 B.4.1 | Description of measures to review employment practices to avoid child and forced labour. 描述檢討招聘慣例的措施以避免童工及強制勞工。 | Talents Management 人才管理 Indicator B.4.2 指標 B.4.2 | Description of steps taken to eliminate such practices when discovered. 描述在發現違規情況時消除有關情況所採取的步驟。 | No violations during the period 期內未有違規情況 ASPECT B.5 方面 B.5 | Supply Chain Management 供應鏈管理 | Supply Chain Management 供應鏈管理 Indicator B.5.1 指標 B.5.1 | Number of suppliers by geographical region. 按地區劃分的供應商數目。 | Supply Chain Management 供應鏈管理 Indicator B.5.2 指標 B.5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. 描述有關聘用供應商的慣例,向其執行有關慣例的供應 商數目,以及相關執行及監察方法。 | Supply Chain Management 供應鏈管理 Indicator B.5.3 指標 B.5.3 | Description of the practices related to the identification of environmental and social risks in each section of the supply chain, as well as related implementation and monitoring methods. 描述有關識別供應鏈每個環節的環境及社會風險的慣 例,以及相關執行及監察方法。 | Supply Chain Management 供應鏈管理 Indicator B.5.4 指標 B.5.4 | Description of the practices that promote the use of environmentally friendly products and services when selecting suppliers, as well as related implementation and monitoring methods. 描述在揀選供應商時促使多用環保產品及服務的慣例, 以及相關執行及監察方法。 | Supply Chain Management 供應鏈管理",
+      "retrieval_text": "[Section]\nHKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引\n\n[Content]\nB | Social 社會 ASPECT B.4 方面 B.4 | Labour Standards 勞工準則 | Talents Management 人才管理 Indicator B.4.1 指標 B.4.1 | Description of measures to review employment practices to avoid child and forced labour. 描述檢討招聘慣例的措施以避免童工及強制勞工。 | Talents Management 人才管理 Indicator B.4.2 指標 B.4.2 | Description of steps taken to eliminate such practices when discovered. 描述在發現違規情況時消除有關情況所採取的步驟。 | No violations during the period 期內未有違規情況 ASPECT B.5 方面 B.5 | Supply Chain Management 供應鏈管理 | Supply Chain Management 供應鏈管理 Indicator B.5.1 指標 B.5.1 | Number of suppliers by geographical region. 按地區劃分的供應商數目。 | Supply Chain Management 供應鏈管理 Indicator B.5.2 指標 B.5.2 | Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored. 描述有關聘用供應商的慣例,向其執行有關慣例的供應 商數目,以及相關執行及監察方法。 | Supply Chain Management 供應鏈管理 Indicator B.5.3 指標 B.5.3 | Description of the practices related to the identification of environmental and social risks in each section of the supply chain, as well as related implementation and monitoring methods. 描述有關識別供應鏈每個環節的環境及社會風險的慣 例,以及相關執行及監察方法。 | Supply Chain Management 供應鏈管理 Indicator B.5.4 指標 B.5.4 | Description of the practices that promote the use of environmentally friendly products and services when selecting suppliers, as well as related implementation and monitoring methods. 描述在揀選供應商時促使多用環保產品及服務的慣例, 以及相關執行及監察方法。 | Supply Chain Management 供應鏈管理",
+      "bm25_rank": 17,
+      "dense_rank": 31,
+      "bm25_score": 25.547090530395508,
+      "dense_score": 0.4494783878326416,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2730195246892128,
+      "normalized_dense": 0.5706785819444382,
+      "normalized_bm25_rank": 0.8926174496644296,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.503334697209,
+      "rank": 15,
+      "rrf_score": 0.503334697209,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_008",
+      "alias_source_ids": [
+        "P48_008"
+      ],
+      "section": "GREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境",
+      "pages": [
+        48
+      ],
+      "text": "計算乃基於聯交所發布的環境關鍵績 效指標報告指引、二零零六年 IPCC 國 家溫室氣體清單指南、 IPCC 第五次評 估報告、最新電網排放因子;",
+      "retrieval_text": "[Section]\nGREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境\n\n[Content]\n計算乃基於聯交所發布的環境關鍵績 效指標報告指引、二零零六年 IPCC 國 家溫室氣體清單指南、 IPCC 第五次評 估報告、最新電網排放因子;",
+      "bm25_rank": null,
+      "dense_rank": 8,
+      "bm25_score": null,
+      "dense_score": 0.4976126551628113,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.8724312726718352,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4959549722807799,
+      "rank": 16,
+      "rrf_score": 0.4959549722807799,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_004",
+      "alias_source_ids": [
+        "P17_004"
+      ],
+      "section": "THE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序",
+      "pages": [
+        17
+      ],
+      "text": "CONFIRMATION 確認 04",
+      "retrieval_text": "[Section]\nTHE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序\n\n[Content]\nCONFIRMATION 確認 04",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.4897690415382385,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.8232598268906834,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.47337583874059824,
+      "rank": 17,
+      "rrf_score": 0.47337583874059824,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_004",
+      "alias_source_ids": [
+        "P5_004"
+      ],
+      "section": "ABOUT THIS REPORT 關於本報告 / REPORTING PERIOD AND SCOPE",
+      "pages": [
+        5
+      ],
+      "text": "The Group's board of directors is fully responsible for the company's environmental, social and governance strategies and reports, as well as monitoring and managing risks related to environmental, social and governance. This Report was confirmed and approved by the board of directors on 27 May 2022.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT 關於本報告 / REPORTING PERIOD AND SCOPE\n\n[Content]\nThe Group's board of directors is fully responsible for the company's environmental, social and governance strategies and reports, as well as monitoring and managing risks related to environmental, social and governance. This Report was confirmed and approved by the board of directors on 27 May 2022.",
+      "bm25_rank": 119,
+      "dense_rank": 17,
+      "bm25_score": 7.062309265136719,
+      "dense_score": 0.47922539710998535,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.02508680610463278,
+      "normalized_dense": 0.7571619458431793,
+      "normalized_bm25_rank": 0.20805369127516782,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.469352901326442,
+      "rank": 18,
+      "rrf_score": 0.469352901326442,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L14_014",
+      "alias_source_ids": [
+        "L14_014"
+      ],
+      "section": "ESG DEVELOPMENT FOCUSES OF SINGAMAS 勝獅貨櫃 ESG 發展⽀柱",
+      "pages": [
+        14
+      ],
+      "text": "氣候變化策略 -檢討集團應對氣 候變化的方針,並制定可持續發 展計劃,以識別和應對相關的實 體和轉型風險與機遇",
+      "retrieval_text": "[Section]\nESG DEVELOPMENT FOCUSES OF SINGAMAS 勝獅貨櫃 ESG 發展⽀柱\n\n[Content]\n氣候變化策略 -檢討集團應對氣 候變化的方針,並制定可持續發 展計劃,以識別和應對相關的實 體和轉型風險與機遇",
+      "bm25_rank": null,
+      "dense_rank": 13,
+      "bm25_score": null,
+      "dense_score": 0.4863995313644409,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.8021364397951146,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.46464037137795455,
+      "rank": 19,
+      "rrf_score": 0.46464037137795455,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_005",
+      "alias_source_ids": [
+        "P17_005"
+      ],
+      "section": "THE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序",
+      "pages": [
+        17
+      ],
+      "text": "參考香港聯交所ESG 指引、公司政策及管理策略、行業特點及業務的風 險與機遇等,以識別對集團業務和持份者最為相關和重要的ESG議題。",
+      "retrieval_text": "[Section]\nTHE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序\n\n[Content]\n參考香港聯交所ESG 指引、公司政策及管理策略、行業特點及業務的風 險與機遇等,以識別對集團業務和持份者最為相關和重要的ESG議題。",
+      "bm25_rank": null,
+      "dense_rank": 14,
+      "bm25_score": null,
+      "dense_score": 0.48446282744407654,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.789995284407756,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.4590486851131844,
+      "rank": 20,
+      "rrf_score": 0.4590486851131844,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_003",
+      "alias_source_ids": [
+        "P5_003"
+      ],
+      "section": "ABOUT THIS REPORT 關於本報告 / REPORTING PERIOD AND SCOPE",
+      "pages": [
+        5
+      ],
+      "text": "The Reporting Period: From 1 January to 31 December 2021 ('Financial Year 2021'), which is the same as the financial period covered in our annual report.",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT 關於本報告 / REPORTING PERIOD AND SCOPE\n\n[Content]\nThe Reporting Period: From 1 January to 31 December 2021 ('Financial Year 2021'), which is the same as the financial period covered in our annual report.",
+      "bm25_rank": 14,
+      "dense_rank": 52,
+      "bm25_score": 27.28116226196289,
+      "dense_score": 0.4305438995361328,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2962782861783849,
+      "normalized_dense": 0.4519786804412778,
+      "normalized_bm25_rank": 0.912751677852349,
+      "normalized_dense_rank": 0.6577181208053691,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.440266987336433,
+      "rank": 21,
+      "rrf_score": 0.440266987336433,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_008",
+      "alias_source_ids": [
+        "P5_008"
+      ],
+      "section": "ABOUT THIS REPORT 關於本報告 / REPORTING PERIOD AND SCOPE",
+      "pages": [
+        5
+      ],
+      "text": "集團的董事會全面負責本公司的環境、社會及 管治策略和報告,以及監察和管理環境、社 會及管治相關風險。本報告已於二零二二年 五月二十七日獲董事會確認及批准。",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT 關於本報告 / REPORTING PERIOD AND SCOPE\n\n[Content]\n集團的董事會全面負責本公司的環境、社會及 管治策略和報告,以及監察和管理環境、社 會及管治相關風險。本報告已於二零二二年 五月二十七日獲董事會確認及批准。",
+      "bm25_rank": null,
+      "dense_rank": 18,
+      "bm25_score": null,
+      "dense_score": 0.4754781723022461,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7336706737990933,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.43396594388337395,
+      "rank": 22,
+      "rrf_score": 0.43396594388337395,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T85_001",
+      "alias_source_ids": [
+        "T85_001"
+      ],
+      "section": "HKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引",
+      "pages": [
+        85
+      ],
+      "text": "B | Social 社會 ASPECT B.7 方面 B.7 | Anti-corruption 反貪污 | Corporate Governance 企業治理 Indicator B.7.1 指標 B.7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. 於匯報期內對發行人或其僱員提出並已審結的貪污訴 訟案件的數目及訴訟結果。 | There were no corruption lawsuits during the period 期內未有貪污訴訟案件 Indicator B.7.2 指標 B.7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. 描述防範措施及舉報程序,以及相關執行及監察方法。 | Compliance and Business Ethics 合規與商業道德 Indicator B.7.3 指標 B.7.3 | Description of the anti-corruption training provided to directors and employees. 描述向董事及員工提供的反貪污培訓。 | Compliance and Business Ethics 合規與商業道德 ASPECT B.8 方面 B.8 | Community Investment 社區投資 | Give-Back To The Society 回饋社區 Indicator B.8.1 指標 B.8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). 專注貢獻範疇 (如教育、環境事宜、勞工需求、健康、 文化、體育) 。 | Give-Back To The Society 回饋社區 Indicator B.8.2 指標 B.8.2 | Resources contributed (e.g. money or time) to the focus area. 在專注範疇所動用資源 (如金錢或時間) 。 | Give-Back To The Society 回饋社區",
+      "retrieval_text": "[Section]\nHKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引\n\n[Content]\nB | Social 社會 ASPECT B.7 方面 B.7 | Anti-corruption 反貪污 | Corporate Governance 企業治理 Indicator B.7.1 指標 B.7.1 | Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the reporting period and the outcomes of the cases. 於匯報期內對發行人或其僱員提出並已審結的貪污訴 訟案件的數目及訴訟結果。 | There were no corruption lawsuits during the period 期內未有貪污訴訟案件 Indicator B.7.2 指標 B.7.2 | Description of preventive measures and whistle-blowing procedures, how they are implemented and monitored. 描述防範措施及舉報程序,以及相關執行及監察方法。 | Compliance and Business Ethics 合規與商業道德 Indicator B.7.3 指標 B.7.3 | Description of the anti-corruption training provided to directors and employees. 描述向董事及員工提供的反貪污培訓。 | Compliance and Business Ethics 合規與商業道德 ASPECT B.8 方面 B.8 | Community Investment 社區投資 | Give-Back To The Society 回饋社區 Indicator B.8.1 指標 B.8.1 | Focus areas of contribution (e.g. education, environmental concerns, labour needs, health, culture, sport). 專注貢獻範疇 (如教育、環境事宜、勞工需求、健康、 文化、體育) 。 | Give-Back To The Society 回饋社區 Indicator B.8.2 指標 B.8.2 | Resources contributed (e.g. money or time) to the focus area. 在專注範疇所動用資源 (如金錢或時間) 。 | Give-Back To The Society 回饋社區",
+      "bm25_rank": 31,
+      "dense_rank": 42,
+      "bm25_score": 17.734464645385742,
+      "dense_score": 0.4373329281806946,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16823031744036993,
+      "normalized_dense": 0.4945389555747866,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.7248322147651007,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 31,
+      "composite_score": 0.43156691270435,
+      "rank": 23,
+      "rrf_score": 0.43156691270435,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P69_004",
+      "alias_source_ids": [
+        "P69_004"
+      ],
+      "section": "QUALITY FIRST, SAFETY ASSURANCE 品質至上 安全保證 / 產品資訊",
+      "pages": [
+        69
+      ],
+      "text": "我們致力於始終保持高度的透明度和準確性, 以確保客戶可以在足夠的信息下做出購買決 定。本集團將在公司網站上披露和更新現有 產品和新產品的信息,所有需要發布的內容 將由高級管理層,市場部門和工程部門進行 審查,以避免產生誤導。",
+      "retrieval_text": "[Section]\nQUALITY FIRST, SAFETY ASSURANCE 品質至上 安全保證 / 產品資訊\n\n[Content]\n我們致力於始終保持高度的透明度和準確性, 以確保客戶可以在足夠的信息下做出購買決 定。本集團將在公司網站上披露和更新現有 產品和新產品的信息,所有需要發布的內容 將由高級管理層,市場部門和工程部門進行 審查,以避免產生誤導。",
+      "bm25_rank": 1,
+      "dense_rank": 97,
+      "bm25_score": 79.7475814819336,
+      "dense_score": 0.3849067986011505,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.1658806723492916,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.3557046979865772,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.4291991749195675,
+      "rank": 24,
+      "rrf_score": 0.4291991749195675,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L51_002",
+      "alias_source_ids": [
+        "L51_002",
+        "P52_005",
+        "P53_004"
+      ],
+      "section": "PEOPLE-ORIENTED AND GROW TOGETHER 以人為本 共同成長",
+      "pages": [
+        51
+      ],
+      "text": "計算基於聯交所公佈的社會關鍵績效 指標報告指引",
+      "retrieval_text": "[Section]\nPEOPLE-ORIENTED AND GROW TOGETHER 以人為本 共同成長\n\n[Content]\n計算基於聯交所公佈的社會關鍵績效 指標報告指引",
+      "bm25_rank": null,
+      "dense_rank": 19,
+      "bm25_score": null,
+      "dense_score": 0.47276532649993896,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7166639015808818,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.42667129172780527,
+      "rank": 25,
+      "rrf_score": 0.42667129172780527,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_004",
+      "alias_source_ids": [
+        "P48_004"
+      ],
+      "section": "GREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境",
+      "pages": [
+        48
+      ],
+      "text": "The calculation is based on the Reporting guidance on Environmental KPIs issued by HKEX, the 2006 IPCC Guidelines for National Greenhouse Gas Inventories, Fifth Assessment Report of IPCC, and the latest emission factors for grid electricity;",
+      "retrieval_text": "[Section]\nGREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境\n\n[Content]\nThe calculation is based on the Reporting guidance on Environmental KPIs issued by HKEX, the 2006 IPCC Guidelines for National Greenhouse Gas Inventories, Fifth Assessment Report of IPCC, and the latest emission factors for grid electricity;",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.46999216079711914,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6992789851985706,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.41790200723560705,
+      "rank": 26,
+      "rrf_score": 0.41790200723560705,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P18_009",
+      "alias_source_ids": [
+        "P18_009"
+      ],
+      "section": "MATERIALITY MATRIX 重要性矩陣",
+      "pages": [
+        18
+      ],
+      "text": "Information Security and Protection of Personal Data 信息安全及個人資料保護",
+      "retrieval_text": "[Section]\nMATERIALITY MATRIX 重要性矩陣\n\n[Content]\nInformation Security and Protection of Personal Data 信息安全及個人資料保護",
+      "bm25_rank": 10,
+      "dense_rank": 63,
+      "bm25_score": 33.779296875,
+      "dense_score": 0.414482057094574,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3834364817350091,
+      "normalized_dense": 0.351287334263,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.5838926174496644,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.4103761183726089,
+      "rank": 27,
+      "rrf_score": 0.4103761183726089,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_001",
+      "alias_source_ids": [
+        "P17_001"
+      ],
+      "section": "THE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序",
+      "pages": [
+        17
+      ],
+      "text": "IDENTIFICATION 識別 01",
+      "retrieval_text": "[Section]\nTHE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序\n\n[Content]\nIDENTIFICATION 識別 01",
+      "bm25_rank": null,
+      "dense_rank": 23,
+      "bm25_score": null,
+      "dense_score": 0.4647490382194519,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6664099620809587,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.40371328538605367,
+      "rank": 28,
+      "rrf_score": 0.40371328538605367,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P31_007",
+      "alias_source_ids": [
+        "P31_007"
+      ],
+      "section": "GREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境 \"NATIONAL GREEN FACTORY\" IN THE REGISTER OF NATIONAL-LEVEL GREEN MANUFACTURING 2021 BY THE MINISTRY OF INDUSTRY AND INFORMATION TECHNOLOGY OF CHINA 2021 年度國家級綠色製造名單 - 成為「國家級綠色工廠」 / ENVIRONMENTAL PERFORMANCE INDICATORS",
+      "pages": [
+        31
+      ],
+      "text": "Besides the physical risks of climate change, climaterelated transition risks could have a material adverse effect on the Group's business, financial condition and results of operations, and could adversely impact the Group's reputation. Understanding the location, nature and scale of these potential risks is crucial for effectively mitigating their impact. Therefore, we regularly assess and review the risks of climate change, and plan ahead for the financial risks that may arise in the future.",
+      "retrieval_text": "[Section]\nGREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境 \"NATIONAL GREEN FACTORY\" IN THE REGISTER OF NATIONAL-LEVEL GREEN MANUFACTURING 2021 BY THE MINISTRY OF INDUSTRY AND INFORMATION TECHNOLOGY OF CHINA 2021 年度國家級綠色製造名單 - 成為「國家級綠色工廠」 / ENVIRONMENTAL PERFORMANCE INDICATORS\n\n[Content]\nBesides the physical risks of climate change, climaterelated transition risks could have a material adverse effect on the Group's business, financial condition and results of operations, and could adversely impact the Group's reputation. Understanding the location, nature and scale of these potential risks is crucial for effectively mitigating their impact. Therefore, we regularly assess and review the risks of climate change, and plan ahead for the financial risks that may arise in the future.",
+      "bm25_rank": 28,
+      "dense_rank": 53,
+      "bm25_score": 19.970706939697266,
+      "dense_score": 0.4276359975337982,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.198224593460531,
+      "normalized_dense": 0.43374910508372233,
+      "normalized_bm25_rank": 0.8187919463087249,
+      "normalized_dense_rank": 0.651006711409396,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.40353764238416073,
+      "rank": 29,
+      "rrf_score": 0.40353764238416073,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_005",
+      "alias_source_ids": [
+        "P5_005"
+      ],
+      "section": "ABOUT THIS REPORT 關於本報告 / REPORTING PERIOD AND SCOPE",
+      "pages": [
+        5
+      ],
+      "text": "本報告內容涵蓋對集團有財務重要性及營運 影響力的業務,括香港總辦公室、上海管理 中心,以及中國工廠的資訊及營運活動。鑑 於集裝箱堆場及物流業務佔集團業務貢獻, 即總收入比重較輕,故此部分不納入在本報 告中。",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT 關於本報告 / REPORTING PERIOD AND SCOPE\n\n[Content]\n本報告內容涵蓋對集團有財務重要性及營運 影響力的業務,括香港總辦公室、上海管理 中心,以及中國工廠的資訊及營運活動。鑑 於集裝箱堆場及物流業務佔集團業務貢獻, 即總收入比重較輕,故此部分不納入在本報 告中。",
+      "bm25_rank": 98,
+      "dense_rank": 32,
+      "bm25_score": 7.895011901855469,
+      "dense_score": 0.4468234181404114,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03625568203189344,
+      "normalized_dense": 0.5540346338204368,
+      "normalized_bm25_rank": 0.3489932885906041,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.3944518488475584,
+      "rank": 30,
+      "rrf_score": 0.3944518488475584,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "REPORTING PRINCIPLES / 匯報原則",
+      "pages": [
+        4
+      ],
+      "text": "The Group identifies the material social issues through interviews with management and questionnaire surveys targeted at internal and external stakeholders, as well as evaluating the impact of various environmental, social and governance issues on the operations of the Group. For more information about this, see the section headed 'Materiality Assessment'.",
+      "retrieval_text": "[Section]\nREPORTING PRINCIPLES / 匯報原則\n\n[Content]\nThe Group identifies the material social issues through interviews with management and questionnaire surveys targeted at internal and external stakeholders, as well as evaluating the impact of various environmental, social and governance issues on the operations of the Group. For more information about this, see the section headed 'Materiality Assessment'.",
+      "bm25_rank": 97,
+      "dense_rank": 33,
+      "bm25_score": 7.899470329284668,
+      "dense_score": 0.44629886746406555,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.036315482038032046,
+      "normalized_dense": 0.5507462368677108,
+      "normalized_bm25_rank": 0.3557046979865772,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.3926417289757348,
+      "rank": 31,
+      "rrf_score": 0.3926417289757348,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P51_005",
+      "alias_source_ids": [
+        "P51_005"
+      ],
+      "section": "PEOPLE-ORIENTED AND GROW TOGETHER 以人為本 共同成長",
+      "pages": [
+        51
+      ],
+      "text": "The calculation is based on the Reporting Guidance on Social KPIs published by the Stock Exchange Full-time including all contracted employees Others include main contractor (dispatched labours), temporary staffs/other contract employees",
+      "retrieval_text": "[Section]\nPEOPLE-ORIENTED AND GROW TOGETHER 以人為本 共同成長\n\n[Content]\nThe calculation is based on the Reporting Guidance on Social KPIs published by the Stock Exchange Full-time including all contracted employees Others include main contractor (dispatched labours), temporary staffs/other contract employees",
+      "bm25_rank": null,
+      "dense_rank": 24,
+      "bm25_score": null,
+      "dense_score": 0.4591486155986786,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6313010326474426,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.39008287820512844,
+      "rank": 32,
+      "rrf_score": 0.39008287820512844,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L17_001",
+      "alias_source_ids": [
+        "L17_001"
+      ],
+      "section": "THE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序",
+      "pages": [
+        17
+      ],
+      "text": "To identify major ESG issues that are considered relevant and important to our businesses and stakeholders based on the ESG guidelines issued by Hong Kong Stock Exchange, company policies and management strategies, characteristics of the industry, and business risks and opportunities.",
+      "retrieval_text": "[Section]\nTHE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序\n\n[Content]\nTo identify major ESG issues that are considered relevant and important to our businesses and stakeholders based on the ESG guidelines issued by Hong Kong Stock Exchange, company policies and management strategies, characteristics of the industry, and business risks and opportunities.",
+      "bm25_rank": null,
+      "dense_rank": 25,
+      "bm25_score": null,
+      "dense_score": 0.45911353826522827,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6310811335954933,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.38866363165775153,
+      "rank": 33,
+      "rrf_score": 0.38866363165775153,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P5_006",
+      "alias_source_ids": [
+        "P5_006"
+      ],
+      "section": "ABOUT THIS REPORT 關於本報告 / REPORTING PERIOD AND SCOPE",
+      "pages": [
+        5
+      ],
+      "text": "本報告所涵蓋的營運地點括香港總辦公 室、上海管理中心、上海寶山太平貨櫃有限 公司 ( 「上海寶山」 ) 、上海太平國際貨櫃有限公 司 ( 「上海太平」 ) 、惠州勝獅能源裝備有限公司 ( 「惠州勝獅」 ) 、及廈門太平貨櫃製造有限公司 ( 「廈門太平」 ) ,以上地點的營運佔本集團總營 業額九成以上。",
+      "retrieval_text": "[Section]\nABOUT THIS REPORT 關於本報告 / REPORTING PERIOD AND SCOPE\n\n[Content]\n本報告所涵蓋的營運地點括香港總辦公 室、上海管理中心、上海寶山太平貨櫃有限 公司 ( 「上海寶山」 ) 、上海太平國際貨櫃有限公 司 ( 「上海太平」 ) 、惠州勝獅能源裝備有限公司 ( 「惠州勝獅」 ) 、及廈門太平貨櫃製造有限公司 ( 「廈門太平」 ) ,以上地點的營運佔本集團總營 業額九成以上。",
+      "bm25_rank": 56,
+      "dense_rank": 46,
+      "bm25_score": 11.220229148864746,
+      "dense_score": 0.43498170375823975,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.08085616391505306,
+      "normalized_dense": 0.4797991800399667,
+      "normalized_bm25_rank": 0.6308724832214765,
+      "normalized_dense_rank": 0.697986577181208,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 46,
+      "composite_score": 0.38678550955538815,
+      "rank": 34,
+      "rrf_score": 0.38678550955538815,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T48_001",
+      "alias_source_ids": [
+        "T48_001"
+      ],
+      "section": "GREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境",
+      "pages": [
+        48
+      ],
+      "text": "Greenhouse Gas Emission Category 溫室氣體排放類別 | Unit 單位 | Greenhouse Gas Emission 溫室氣體排放量 Total greenhouse gases emissions 總溫室氣體排放量 | tonnes of CO 2 e 公噸二氧化碳當量 | 176,616.42 Direct emissions (Scope 1) 直接排放 (範圍一) | tonnes of CO 2 e 公噸二氧化碳當量 | 114,918.02 Energy indirect emissions (Scope 2) 能源間接排放 (範圍二) | tonnes of CO 2 e 公噸二氧化碳當量 | 61,684.34 Other indirect emissions (Scope 3) 其他間接排放 (範圍三) | tonnes of CO 2 e 公噸二氧化碳當量 | 14.06",
+      "retrieval_text": "[Section]\nGREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境\n\n[Content]\nGreenhouse Gas Emission Category 溫室氣體排放類別 | Unit 單位 | Greenhouse Gas Emission 溫室氣體排放量 Total greenhouse gases emissions 總溫室氣體排放量 | tonnes of CO 2 e 公噸二氧化碳當量 | 176,616.42 Direct emissions (Scope 1) 直接排放 (範圍一) | tonnes of CO 2 e 公噸二氧化碳當量 | 114,918.02 Energy indirect emissions (Scope 2) 能源間接排放 (範圍二) | tonnes of CO 2 e 公噸二氧化碳當量 | 61,684.34 Other indirect emissions (Scope 3) 其他間接排放 (範圍三) | tonnes of CO 2 e 公噸二氧化碳當量 | 14.06",
+      "bm25_rank": 11,
+      "dense_rank": 67,
+      "bm25_score": 31.70067024230957,
+      "dense_score": 0.4090171456336975,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.35555627343988355,
+      "normalized_dense": 0.3170279213878638,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.5570469798657718,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.3867690137509102,
+      "rank": 35,
+      "rrf_score": 0.3867690137509102,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_003",
+      "alias_source_ids": [
+        "P4_003"
+      ],
+      "section": "REPORTING PRINCIPLES / 匯報原則",
+      "pages": [
+        4
+      ],
+      "text": "集團透過管理層訪談及內、外部持份者問卷調查的結果,以及評估各項環境、社會及管治事宜對本集團 營運的影響,以識別重大環境社會議題。如需更多資料,請參照「重要性評估」的章節。",
+      "retrieval_text": "[Section]\nREPORTING PRINCIPLES / 匯報原則\n\n[Content]\n集團透過管理層訪談及內、外部持份者問卷調查的結果,以及評估各項環境、社會及管治事宜對本集團 營運的影響,以識別重大環境社會議題。如需更多資料,請參照「重要性評估」的章節。",
+      "bm25_rank": null,
+      "dense_rank": 26,
+      "bm25_score": null,
+      "dense_score": 0.45713335275650024,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6186673930621756,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.3829765405918957,
+      "rank": 36,
+      "rrf_score": 0.3829765405918957,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_006",
+      "alias_source_ids": [
+        "P48_006"
+      ],
+      "section": "GREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境",
+      "pages": [
+        48
+      ],
+      "text": "Scope 2 includes indirect energy emissions from purchased electricity; and Scope 3 includes other indirect emission from paper disposal.",
+      "retrieval_text": "[Section]\nGREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境\n\n[Content]\nScope 2 includes indirect energy emissions from purchased electricity; and Scope 3 includes other indirect emission from paper disposal.",
+      "bm25_rank": 21,
+      "dense_rank": 60,
+      "bm25_score": 22.94194793701172,
+      "dense_score": 0.41618454456329346,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.23807726185096856,
+      "normalized_dense": 0.36196019173254296,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.6040268456375839,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3816840698121542,
+      "rank": 37,
+      "rrf_score": 0.3816840698121542,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T82_001",
+      "alias_source_ids": [
+        "T82_001"
+      ],
+      "section": "HKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引",
+      "pages": [
+        82
+      ],
+      "text": "B | Social 社會 ASPECT B.1 方面 B.1 | Employment 僱傭 | Talent Management 人才管理 Indicator B.1.1 指標 B.1.1 | Total workforce by gender, employment Type (e.g. full- time or part-time), age group and geographical region. 按性別、僱傭類型 (如全職或兼職) 、年齡組別及地區 劃分的僱員總數。 | Our Team 我們的團隊 Indicator B.1.2 指標 B.1.2 | Employee turnover rate by gender, age group and geographical region. 按性別、年齡組別及地區劃分的僱員流失比率。 | Our Team 我們的團隊 ASPECT B.2 方面 B.2 | Health and Safety 健康與安全 | Occupational Safety and Health Management 職安健管理 Indicator B.2.1 指標 B.2.1 | Number and rate of work-related fatalities in the past three years (include reporting year). 過去三年 (括匯報年度)每年因工亡故的人數及比率。 | There were no work-related fatalities in the past three years including the reporting period 括報告期內的過去三年未有 因工亡故事件 Indicator B.2.2 指標 B.2.2 | Lost Working Man-Day. 因工傷損失工作日數。 | During the reporting period, there were 375 man-days lost due to work-related injuries 報告期內共有 375 個人天因工 傷損失工作日數 Indicator B.2.3 指標 B.2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. 描述所採納的職業健康與安全措施,以及相關執行及 監察方法。 | Occupational Safety and Health Management 職安健管理 ASPECT B.3 方面 B.3 | Development and Training 發展及培訓 | Cultivate Talents 培育人才 Indicator B.3.1 指標 B.3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). 按性別及僱員類別 (如高級管理層、中級管理層) 劃分的 受訓僱員百分比。 | Cultivate Talents 培育人才 Indicator B.3.2 指標 B.3.2 | The average training hours completed per employee by gender and employee category. 按性別及僱員類別劃分,每名僱員完成受訓的平均時 數。 | Cultivate Talents 培育人才",
+      "retrieval_text": "[Section]\nHKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引\n\n[Content]\nB | Social 社會 ASPECT B.1 方面 B.1 | Employment 僱傭 | Talent Management 人才管理 Indicator B.1.1 指標 B.1.1 | Total workforce by gender, employment Type (e.g. full- time or part-time), age group and geographical region. 按性別、僱傭類型 (如全職或兼職) 、年齡組別及地區 劃分的僱員總數。 | Our Team 我們的團隊 Indicator B.1.2 指標 B.1.2 | Employee turnover rate by gender, age group and geographical region. 按性別、年齡組別及地區劃分的僱員流失比率。 | Our Team 我們的團隊 ASPECT B.2 方面 B.2 | Health and Safety 健康與安全 | Occupational Safety and Health Management 職安健管理 Indicator B.2.1 指標 B.2.1 | Number and rate of work-related fatalities in the past three years (include reporting year). 過去三年 (括匯報年度)每年因工亡故的人數及比率。 | There were no work-related fatalities in the past three years including the reporting period 括報告期內的過去三年未有 因工亡故事件 Indicator B.2.2 指標 B.2.2 | Lost Working Man-Day. 因工傷損失工作日數。 | During the reporting period, there were 375 man-days lost due to work-related injuries 報告期內共有 375 個人天因工 傷損失工作日數 Indicator B.2.3 指標 B.2.3 | Description of occupational health and safety measures adopted, and how they are implemented and monitored. 描述所採納的職業健康與安全措施,以及相關執行及 監察方法。 | Occupational Safety and Health Management 職安健管理 ASPECT B.3 方面 B.3 | Development and Training 發展及培訓 | Cultivate Talents 培育人才 Indicator B.3.1 指標 B.3.1 | The percentage of employees trained by gender and employee category (e.g. senior management, middle management). 按性別及僱員類別 (如高級管理層、中級管理層) 劃分的 受訓僱員百分比。 | Cultivate Talents 培育人才 Indicator B.3.2 指標 B.3.2 | The average training hours completed per employee by gender and employee category. 按性別及僱員類別劃分,每名僱員完成受訓的平均時 數。 | Cultivate Talents 培育人才",
+      "bm25_rank": 13,
+      "dense_rank": 65,
+      "bm25_score": 27.862680435180664,
+      "dense_score": 0.4107207655906677,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.30407807452985414,
+      "normalized_dense": 0.32770787840198967,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.5704697986577181,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.38155364080304305,
+      "rank": 38,
+      "rrf_score": 0.38155364080304305,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L13_007",
+      "alias_source_ids": [
+        "L13_007"
+      ],
+      "section": "THE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / ESG DEVELOPMENT STRATEGIES",
+      "pages": [
+        13
+      ],
+      "text": "合法合規 -確保集團的企業管治 架構符合適用的法律法規",
+      "retrieval_text": "[Section]\nTHE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / ESG DEVELOPMENT STRATEGIES\n\n[Content]\n合法合規 -確保集團的企業管治 架構符合適用的法律法規",
+      "bm25_rank": null,
+      "dense_rank": 27,
+      "bm25_score": null,
+      "dense_score": 0.45649999380111694,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6146968793391295,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.3802445789096349,
+      "rank": 39,
+      "rrf_score": 0.3802445789096349,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_007",
+      "alias_source_ids": [
+        "P17_007"
+      ],
+      "section": "THE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序",
+      "pages": [
+        17
+      ],
+      "text": "篩選出重要議題,並繪製重要性評估矩陣,得出初步評估結果,從而確 定可持續發展戰略重點,完善可持續發展管治。",
+      "retrieval_text": "[Section]\nTHE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序\n\n[Content]\n篩選出重要議題,並繪製重要性評估矩陣,得出初步評估結果,從而確 定可持續發展戰略重點,完善可持續發展管治。",
+      "bm25_rank": null,
+      "dense_rank": 28,
+      "bm25_score": null,
+      "dense_score": 0.45641377568244934,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6141563798002263,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.3787131221918242,
+      "rank": 40,
+      "rrf_score": 0.3787131221918242,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P48_010",
+      "alias_source_ids": [
+        "P48_010"
+      ],
+      "section": "GREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境",
+      "pages": [
+        48
+      ],
+      "text": "範圍 2 括購買電力的能源間接排放; 以及",
+      "retrieval_text": "[Section]\nGREEN INNOVATION TO PROTECT THE ENVIRONMENT 綠色創新 守護環境\n\n[Content]\n範圍 2 括購買電力的能源間接排放; 以及",
+      "bm25_rank": 22,
+      "dense_rank": 61,
+      "bm25_score": 21.469676971435547,
+      "dense_score": 0.415227472782135,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2183299823051462,
+      "normalized_dense": 0.3559603292395117,
+      "normalized_bm25_rank": 0.8590604026845637,
+      "normalized_dense_rank": 0.5973154362416108,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.37362123921163687,
+      "rank": 41,
+      "rrf_score": 0.37362123921163687,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P13_001",
+      "alias_source_ids": [
+        "P13_001"
+      ],
+      "section": "THE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / ESG DEVELOPMENT STRATEGIES",
+      "pages": [
+        13
+      ],
+      "text": "We operate our businesses in a responsible and sustainable way whilst remaining transparent and accountable to our stakeholders. In order to ensure that the company can effectively implement the ESG strategies, we have divided the sustainable development approaches into five backbones to provide guidance on overall direction for ESG development.",
+      "retrieval_text": "[Section]\nTHE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / ESG DEVELOPMENT STRATEGIES\n\n[Content]\nWe operate our businesses in a responsible and sustainable way whilst remaining transparent and accountable to our stakeholders. In order to ensure that the company can effectively implement the ESG strategies, we have divided the sustainable development approaches into five backbones to provide guidance on overall direction for ESG development.",
+      "bm25_rank": null,
+      "dense_rank": 29,
+      "bm25_score": null,
+      "dense_score": 0.4533981680870056,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5952516003868131,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.37075416751793494,
+      "rank": 42,
+      "rrf_score": 0.37075416751793494,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P17_008",
+      "alias_source_ids": [
+        "P17_008"
+      ],
+      "section": "THE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序",
+      "pages": [
+        17
+      ],
+      "text": "由ESG工作小組對評估結果進行討論和確認,並將最終確定重要性評估 結果,彙報給董事會。",
+      "retrieval_text": "[Section]\nTHE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序\n\n[Content]\n由ESG工作小組對評估結果進行討論和確認,並將最終確定重要性評估 結果,彙報給董事會。",
+      "bm25_rank": null,
+      "dense_rank": 30,
+      "bm25_score": null,
+      "dense_score": 0.4509768784046173,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5800725872384566,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.3640992310368155,
+      "rank": 43,
+      "rrf_score": 0.3640992310368155,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T84_001",
+      "alias_source_ids": [
+        "T84_001"
+      ],
+      "section": "HKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引",
+      "pages": [
+        84
+      ],
+      "text": "B | Social 社會 ASPECT B.6 方面 B.6 | Product Responsibility 產品責任 | Quality Assurance 品質保證 Indicator B.6.1 指標 B.6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. 已售或已運送產品總數中因安全與健康理由而須回收的 百分比。 | During the period, no products were required to be recalled due to safety and health reasons 期內未有產品因安全與健康理 由而須回收 Indicator B.6.2 指標 B.6.2 | Number of products and service related complaints received and how they are dealt with. 接獲關於產品及服務的投訴數目以及應對方法。 | There were a total of 6 complaints during the period, and all of them have been dealt with. Among these complaints, no product has to be recycled due to quality problems 期內共有 6 宗投訴,並已悉數 處理,當中未有因品質問題而 須回收產品的情況 Indicator B.6.3 指標 B.6.3 | Description of practices relating to observing and protecting intellectual property rights. 描述與維護及保障知識產權有關的慣例。 | Quality Assurance 品質保證 Indicator B.6.4 指標 B.6.4 | Description of quality assurance process and recall procedures. 描述質量檢定過程及產品回收程序。 | Quality Assurance 品質保證 Indicator B.6.5 指標 B.6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. 描述消費者資料保障及私隱政策,以及相關執行及監 察方法。 | Quality Assurance 品質保證",
+      "retrieval_text": "[Section]\nHKEX ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORTING GUIDE INDEX 聯交所 《環境、社會及管治報告指引》 索引\n\n[Content]\nB | Social 社會 ASPECT B.6 方面 B.6 | Product Responsibility 產品責任 | Quality Assurance 品質保證 Indicator B.6.1 指標 B.6.1 | Percentage of total products sold or shipped subject to recalls for safety and health reasons. 已售或已運送產品總數中因安全與健康理由而須回收的 百分比。 | During the period, no products were required to be recalled due to safety and health reasons 期內未有產品因安全與健康理 由而須回收 Indicator B.6.2 指標 B.6.2 | Number of products and service related complaints received and how they are dealt with. 接獲關於產品及服務的投訴數目以及應對方法。 | There were a total of 6 complaints during the period, and all of them have been dealt with. Among these complaints, no product has to be recycled due to quality problems 期內共有 6 宗投訴,並已悉數 處理,當中未有因品質問題而 須回收產品的情況 Indicator B.6.3 指標 B.6.3 | Description of practices relating to observing and protecting intellectual property rights. 描述與維護及保障知識產權有關的慣例。 | Quality Assurance 品質保證 Indicator B.6.4 指標 B.6.4 | Description of quality assurance process and recall procedures. 描述質量檢定過程及產品回收程序。 | Quality Assurance 品質保證 Indicator B.6.5 指標 B.6.5 | Description of consumer data protection and privacy policies, how they are implemented and monitored. 描述消費者資料保障及私隱政策,以及相關執行及監 察方法。 | Quality Assurance 品質保證",
+      "bm25_rank": 52,
+      "dense_rank": 54,
+      "bm25_score": 11.912324905395508,
+      "dense_score": 0.4256182909011841,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.09013910754176635,
+      "normalized_dense": 0.4211001454285659,
+      "normalized_bm25_rank": 0.6577181208053691,
+      "normalized_dense_rank": 0.6442953020134228,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 52,
+      "composite_score": 0.36004374489157276,
+      "rank": 44,
+      "rrf_score": 0.36004374489157276,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_009",
+      "alias_source_ids": [
+        "P4_009"
+      ],
+      "section": "REPORTING PRINCIPLES / 匯報原則",
+      "pages": [
+        4
+      ],
+      "text": "我們自二零一五年起遵循指引進行匯報。在可行情況下,本集團使用一致的統計方法。若有任何可能 影響與過往報告作比較的變更,本集團已於本報告相應內容加入註解。",
+      "retrieval_text": "[Section]\nREPORTING PRINCIPLES / 匯報原則\n\n[Content]\n我們自二零一五年起遵循指引進行匯報。在可行情況下,本集團使用一致的統計方法。若有任何可能 影響與過往報告作比較的變更,本集團已於本報告相應內容加入註解。",
+      "bm25_rank": 123,
+      "dense_rank": 39,
+      "bm25_score": 6.928615570068359,
+      "dense_score": 0.4436746835708618,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.023293598990074472,
+      "normalized_dense": 0.5342952842582919,
+      "normalized_bm25_rank": 0.18120805369127513,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 39,
+      "composite_score": 0.35877616324814854,
+      "rank": 45,
+      "rrf_score": 0.35877616324814854,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L17_003",
+      "alias_source_ids": [
+        "L17_003"
+      ],
+      "section": "THE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序",
+      "pages": [
+        17
+      ],
+      "text": "To select the important issues, draw the materiality assessment matrix, and obtain the preliminary evaluation results, so as to determine the strategic focus of sustainable development and improve the governance of sustainable development.",
+      "retrieval_text": "[Section]\nTHE CORNERSTONE OF SUSTAINABLE DEVELOPMENT 可持續發展基石 / MATERIALITY ASSESSMENT PROCESS 重要性評估程序\n\n[Content]\nTo select the important issues, draw the materiality assessment matrix, and obtain the preliminary evaluation results, so as to determine the strategic focus of sustainable development and improve the governance of sustainable development.",
+      "bm25_rank": null,
+      "dense_rank": 34,
+      "bm25_score": null,
+      "dense_score": 0.4454874098300934,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5456592263439438,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.7785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 34,
+      "composite_score": 0.3466854272069575,
+      "rank": 46,
+      "rrf_score": 0.3466854272069575,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T51_001",
+      "alias_source_ids": [
+        "T51_001"
+      ],
+      "section": "PEOPLE-ORIENTED AND GROW TOGETHER 以人為本 共同成長",
+      "pages": [
+        51
+      ],
+      "text": "167 | 284 * | 215 | 12 | 25 By Employment | By Age By Gender | Type | 826 | Group 按性別劃分 | 按僱傭 | 按年齡 類型劃分 | 組別劃分 2,970 | 1450 | 1,687 | 3112 Male | Female | Full-time | Others | Below 20 | 21 | - | 30 | 31 | - | 40 | Mainland China 男性 | 女性 | 全職 | 其他 | 20 | 歲以下 | 21 | 至 | 30 | 歲 | 31 | 至 | 40 | 歲 | 中國大陸 Outsourced Employees | 41 | - | 50 | 51 | - | 60 | 60 or Above | Hong Kong SAR 外包工人數 | 41 | 至 | 50 | 51 | 至 | 60 | 歲 | 60 | 歲或以上 | 香港特別行政區",
+      "retrieval_text": "[Section]\nPEOPLE-ORIENTED AND GROW TOGETHER 以人為本 共同成長\n\n[Content]\n167 | 284 * | 215 | 12 | 25 By Employment | By Age By Gender | Type | 826 | Group 按性別劃分 | 按僱傭 | 按年齡 類型劃分 | 組別劃分 2,970 | 1450 | 1,687 | 3112 Male | Female | Full-time | Others | Below 20 | 21 | - | 30 | 31 | - | 40 | Mainland China 男性 | 女性 | 全職 | 其他 | 20 | 歲以下 | 21 | 至 | 30 | 歲 | 31 | 至 | 40 | 歲 | 中國大陸 Outsourced Employees | 41 | - | 50 | 51 | - | 60 | 60 or Above | Hong Kong SAR 外包工人數 | 41 | 至 | 50 | 51 | 至 | 60 | 歲 | 60 | 歲或以上 | 香港特別行政區",
+      "bm25_rank": 5,
+      "dense_rank": null,
+      "bm25_score": 51.43294906616211,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.620221430276848,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.22135972229698037,
+      "rank": 47,
+      "rrf_score": 0.22135972229698037,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P28_004",
+      "alias_source_ids": [
+        "P28_004"
+      ],
+      "section": "舉報機制 / Whistle-blowing Mechanism",
+      "pages": [
+        28
+      ],
+      "text": "合規文化是勝獅集團企業文化的重要組成部 分。每一位董事及僱員 (無論全職或兼職、合 約或臨時員工) 均有責任熟悉並遵守守則。年 內,集團為執行董事及所有僱員舉辦有關反 貪污的培訓,幫助彼等了解當前的趨勢及集 團面臨的事宜。本集團亦要求所有業務單位 每年至少開展一次全員合規培訓,以提高員 工意識。年內,本集團共開展合規 (括反貪 腐) 培訓 11 場次,參與培訓 5,022 人次,累計授 課時長 4,185 課時。",
+      "retrieval_text": "[Section]\n舉報機制 / Whistle-blowing Mechanism\n\n[Content]\n合規文化是勝獅集團企業文化的重要組成部 分。每一位董事及僱員 (無論全職或兼職、合 約或臨時員工) 均有責任熟悉並遵守守則。年 內,集團為執行董事及所有僱員舉辦有關反 貪污的培訓,幫助彼等了解當前的趨勢及集 團面臨的事宜。本集團亦要求所有業務單位 每年至少開展一次全員合規培訓,以提高員 工意識。年內,本集團共開展合規 (括反貪 腐) 培訓 11 場次,參與培訓 5,022 人次,累計授 課時長 4,185 課時。",
+      "bm25_rank": 7,
+      "dense_rank": 146,
+      "bm25_score": 36.95552062988281,
+      "dense_score": 0.3620641529560089,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.42603854334885494,
+      "normalized_dense": 0.02268061615079134,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.02684563758389258,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.1944882062017426,
+      "rank": 48,
+      "rrf_score": 0.1944882062017426,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P25_001",
+      "alias_source_ids": [
+        "P25_001"
+      ],
+      "section": "SOUND GOVERNANCE AND LAWFUL OPERATIONS / 健全管治 合規經營",
+      "pages": [
+        25
+      ],
+      "text": "Information security and personal data protection 信息安全及 個人資料保護",
+      "retrieval_text": "[Section]\nSOUND GOVERNANCE AND LAWFUL OPERATIONS / 健全管治 合規經營\n\n[Content]\nInformation security and personal data protection 信息安全及 個人資料保護",
+      "bm25_rank": 8,
+      "dense_rank": null,
+      "bm25_score": 36.43247604370117,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.4190230496661308,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.17910662335604496,
+      "rank": 49,
+      "rrf_score": 0.17910662335604496,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L59_002",
+      "alias_source_ids": [
+        "L59_002"
+      ],
+      "section": "PEOPLE-ORIENTED AND GROW TOGETHER 以人為本 共同成長 / CULTIVATE TALENTS",
+      "pages": [
+        59
+      ],
+      "text": "Introduction of the corporate information, management policies, systems and standards, as well as employee benefits of the Group 介紹集團的企業信息, 管理政策,系統和標準 以及員工福利",
+      "retrieval_text": "[Section]\nPEOPLE-ORIENTED AND GROW TOGETHER 以人為本 共同成長 / CULTIVATE TALENTS\n\n[Content]\nIntroduction of the corporate information, management policies, systems and standards, as well as employee benefits of the Group 介紹集團的企業信息, 管理政策,系統和標準 以及員工福利",
+      "bm25_rank": 9,
+      "dense_rank": null,
+      "bm25_score": 35.29161071777344,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.4037208484803498,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.17537504217929145,
+      "rank": 50,
+      "rrf_score": 0.17537504217929145,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}

@@ -1,0 +1,1542 @@
+{
+  "document_id": "2022052700807",
+  "metric_id": 33,
+  "metric_name": "召回程序及披露",
+  "query": "召回程序及披露 召回程序及披露 衡量企业对潜在缺陷或安全风险产品执行召回的制度完备性与信息公开透明度。重点考察召回触发阈值、风险分级管理、消费者通知渠道及回收实物的闭环追踪能力。 一、内容质量得分 (权重 50%，取值：0, 1, 2) • 2分（卓越）：具备量化的召回触发指标；实行风险分级制度（如：严重、一般、轻微）；建立了多渠道主动通知机制（官网、短信、媒体）；并披露了详细的召回物资处置与效果评估流程。 • 1分（合格）：有正式的召回管理制度，具备基础的召回审批和执行流程，符合监管要求的被动披露程序，但缺乏主动监控触发机制或详细的风险分级说明。 • 0分（不合格）：无正式召回制度披露，或仅笼统提及“依法执行召回”。 二、覆盖应用得分 (权重 50%，取值：0, 1, 2) • 2分（高覆盖）：召回管理制度覆盖 >80% 的产品品类及所有销售区域（含海外市场），且定期进行模拟召回演练。 • 1分（部分覆盖）：占比 >0% - 80%，或仅针对强监管产品（如汽车、药品）执行，或未披露制度的适用范围比例。 • 0分（无覆盖）：无相关覆盖范围信息。 产品召回程序 召回制度 召回触发 风险分级 消费者通知 追溯 模拟召回 召回演练 召回效果评估 product recall procedure recall policy recall trigger risk classification consumer notification traceability mock recall simulated recall recall effectiveness 是否有正式召回管理制度及量化触发阈值？ 是否实行严重/一般/轻微等风险分级？ 消费者通知渠道有哪些？ 召回物资如何追踪与处置并评估效果？ 制度覆盖哪些品类与销售区域，是否有模拟召回演练？",
+  "instruction": "Assess whether the passage provides concrete evidence for the ESG indicator '召回程序及披露'. Prefer explicit, auditable disclosure that answers: 是否有正式召回管理制度及量化触发阈值？ 是否实行严重/一般/轻微等风险分级？ 消费者通知渠道有哪些？ 召回物资如何追踪与处置并评估效果？ 制度覆盖哪些品类与销售区域，是否有模拟召回演练？ Exclude or down-rank: 排除：仅有“依法召回”表述；仅有召回率数字；仅有产品安全政策总述而无召回细则；仅有监管处罚新闻无企业程序；区分：召回程序及披露关注制度触发分级通知与闭环追踪；产品安全政策是更广的全生命周期机制；产品回收率是结果统计指标。 Preserve relevant tables, notes, units, limitations, policies, targets, methods and coverage details.",
+  "candidate_pool_size": 248,
+  "reranker_usage": null,
+  "results": [
+    {
+      "paragraph_id": "P43_006",
+      "alias_source_ids": [
+        "P43_006"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        43
+      ],
+      "text": "四環醫藥設立藥品安全委員會,成員括集 團高層,商務、市場、生產、質量等相關部門 負責人,負責涉及本集團產品安全性風險的 評估和溝通,或針對產品風險制定或實施風 險控制措施。如 PV 部門監測到疑似產品安全 性風險,會及時組織召開藥品安全委員會會 議,根據會議評估結果採取風險控制措施, 括但不限於涉事產品召回等。本年度,本 集團並未監測到產品重大安全性風險信號, 亦未發生大規模藥品召回事件。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n四環醫藥設立藥品安全委員會,成員括集 團高層,商務、市場、生產、質量等相關部門 負責人,負責涉及本集團產品安全性風險的 評估和溝通,或針對產品風險制定或實施風 險控制措施。如 PV 部門監測到疑似產品安全 性風險,會及時組織召開藥品安全委員會會 議,根據會議評估結果採取風險控制措施, 括但不限於涉事產品召回等。本年度,本 集團並未監測到產品重大安全性風險信號, 亦未發生大規模藥品召回事件。",
+      "bm25_rank": 1,
+      "dense_rank": 2,
+      "bm25_score": 151.00047302246094,
+      "dense_score": 0.5343695282936096,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 1.0,
+      "normalized_dense": 0.8630784668588775,
+      "normalized_bm25_rank": 1.0,
+      "normalized_dense_rank": 0.9932885906040269,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.8007351815214124,
+      "rank": 1,
+      "rrf_score": 0.8007351815214124,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P43_007",
+      "alias_source_ids": [
+        "P43_007"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        43
+      ],
+      "text": "Sihuan Pharmaceutical has established the Drug Safety Committee which comprises senior management of the Group and heads of commercial, marketing, production and quality departments. The Committee is responsible for the assessment and communication of product safety risks related to the Group, or the formulation or implementation of risk control measures for product risks. If the PV Department detects a suspected product safety risk, it will convene the meeting in time and take risk control measures, including but not limited to the recall of the involved product, according to the assessment results of the meeting. During the Year, no major safety risk signals of products were recorded and no large-scale drug recalls occurred.",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nSihuan Pharmaceutical has established the Drug Safety Committee which comprises senior management of the Group and heads of commercial, marketing, production and quality departments. The Committee is responsible for the assessment and communication of product safety risks related to the Group, or the formulation or implementation of risk control measures for product risks. If the PV Department detects a suspected product safety risk, it will convene the meeting in time and take risk control measures, including but not limited to the recall of the involved product, according to the assessment results of the meeting. During the Year, no major safety risk signals of products were recorded and no large-scale drug recalls occurred.",
+      "bm25_rank": 27,
+      "dense_rank": 1,
+      "bm25_score": 43.79575729370117,
+      "dense_score": 0.5590044856071472,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.22609251378635306,
+      "normalized_dense": 1.0,
+      "normalized_bm25_rank": 0.825503355704698,
+      "normalized_dense_rank": 1.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 1,
+      "composite_score": 0.6777688383277405,
+      "rank": 2,
+      "rrf_score": 0.6777688383277405,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T116_001",
+      "alias_source_ids": [
+        "T116_001"
+      ],
+      "section": "附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide",
+      "pages": [
+        116
+      ],
+      "text": "ESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter B6 一般披露 | 有關所提供產品和服務的健康與安全、廣告、 標簽及私隱事宜以及補救方法的政策及遵守對 | 已披露 | 創新科技,健康未來 B6 General disclosure | 發行人有重大影響的相關法律及規例的資料。 Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Disclosed | Fostering Innovation in Science and Technology for a Healthy Future B6.1 | 已售或已運送產品總數中因安全健康理由而須 回收的百分比。 Percentage of total products sold or shipped subject to recalls for safety and health reasons. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.2 | 接獲關於產品及服務的投訴數目以及應對方法。 Number of product and service related complaints received and how they are dealt with. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.3 | 描述與維護及保障知識產權有關的慣例。 Description of practices relating to observing and protecting intellectual property rights. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.4 | 描述質量檢定過程及產品回收程序。 Description of quality assurance process and recall procedures. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.5 | 描述消費者數據保障及私隱政策,以及相關執 行及監察方法。 | 已披露 | 創新科技,健康未來 Description of consumer data protection and privacy policies, how they are implemented and monitored. | Disclosed | Fostering Innovation in Science and Technology for a Healthy Future",
+      "retrieval_text": "[Section]\n附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide\n\n[Content]\nESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter B6 一般披露 | 有關所提供產品和服務的健康與安全、廣告、 標簽及私隱事宜以及補救方法的政策及遵守對 | 已披露 | 創新科技,健康未來 B6 General disclosure | 發行人有重大影響的相關法律及規例的資料。 Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to health and safety, advertising, labelling and privacy matters relating to products and services provided and methods of redress. | Disclosed | Fostering Innovation in Science and Technology for a Healthy Future B6.1 | 已售或已運送產品總數中因安全健康理由而須 回收的百分比。 Percentage of total products sold or shipped subject to recalls for safety and health reasons. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.2 | 接獲關於產品及服務的投訴數目以及應對方法。 Number of product and service related complaints received and how they are dealt with. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.3 | 描述與維護及保障知識產權有關的慣例。 Description of practices relating to observing and protecting intellectual property rights. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.4 | 描述質量檢定過程及產品回收程序。 Description of quality assurance process and recall procedures. | 已披露 Disclosed | 創新科技,健康未來 Fostering Innovation in Science and Technology for a Healthy Future B6.5 | 描述消費者數據保障及私隱政策,以及相關執 行及監察方法。 | 已披露 | 創新科技,健康未來 Description of consumer data protection and privacy policies, how they are implemented and monitored. | Disclosed | Fostering Innovation in Science and Technology for a Healthy Future",
+      "bm25_rank": 9,
+      "dense_rank": 3,
+      "bm25_score": 64.0496826171875,
+      "dense_score": 0.5315182209014893,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.37230496653625755,
+      "normalized_dense": 0.8472308494014201,
+      "normalized_bm25_rank": 0.9463087248322147,
+      "normalized_dense_rank": 0.9865771812080537,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.6629380993225807,
+      "rank": 3,
+      "rrf_score": 0.6629380993225807,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P44_002",
+      "alias_source_ids": [
+        "P44_002"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        44
+      ],
+      "text": "四環醫藥建立了 《用戶投訴管理規程》 等內部 制度,規範來自所有渠道投訴的處理流程與要 求,括書面及口頭信息、電話、電傳等。本 集團商務部相關人員負責投訴信息的接收、 登記,並反饋給相關部門進行後續處理;質 量部負責用戶投訴處理過程的管理工作,並 配合負責組織對產品本身缺陷引起的用戶投 訴進行生產、質量方面的調查。我們認真管 理用戶投訴檔案,並定期對投訴處理流程進 行評價及改善提升。為縮短投訴處理時間, 集團制定了 「三七原則」 ,即三天內處理用戶 一般訴求,七天內解決用戶疑難業務;持續 優化用戶溝通與反饋機制,確保用戶的反饋 能夠及時上報,明確對接負任人,刪減冗雜 的中間環節,提升投訴處理效率。同時,集團 重視內部客服管理,規定工作範圍與職責分 工,並積極開展業務培訓、產品知識培訓, 深化員工對於服務的理解,提升用戶服務質 量。本年度,本集團未接獲客戶重大投訴。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n四環醫藥建立了 《用戶投訴管理規程》 等內部 制度,規範來自所有渠道投訴的處理流程與要 求,括書面及口頭信息、電話、電傳等。本 集團商務部相關人員負責投訴信息的接收、 登記,並反饋給相關部門進行後續處理;質 量部負責用戶投訴處理過程的管理工作,並 配合負責組織對產品本身缺陷引起的用戶投 訴進行生產、質量方面的調查。我們認真管 理用戶投訴檔案,並定期對投訴處理流程進 行評價及改善提升。為縮短投訴處理時間, 集團制定了 「三七原則」 ,即三天內處理用戶 一般訴求,七天內解決用戶疑難業務;持續 優化用戶溝通與反饋機制,確保用戶的反饋 能夠及時上報,明確對接負任人,刪減冗雜 的中間環節,提升投訴處理效率。同時,集團 重視內部客服管理,規定工作範圍與職責分 工,並積極開展業務培訓、產品知識培訓, 深化員工對於服務的理解,提升用戶服務質 量。本年度,本集團未接獲客戶重大投訴。",
+      "bm25_rank": 19,
+      "dense_rank": 5,
+      "bm25_score": 47.1158332824707,
+      "dense_score": 0.5146212577819824,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2500600383960715,
+      "normalized_dense": 0.7533172263207535,
+      "normalized_bm25_rank": 0.8791946308724832,
+      "normalized_dense_rank": 0.9731543624161074,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.5962233724619478,
+      "rank": 4,
+      "rrf_score": 0.5962233724619478,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T115_001",
+      "alias_source_ids": [
+        "T115_001"
+      ],
+      "section": "附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide",
+      "pages": [
+        115
+      ],
+      "text": "ESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter B4 一般披露 | 有關防止童工或強制勞工的政策及遵守對發行 人有重大影響的相關法律及規例的資料。 | 已披露 | 聚焦人才,攜手並進 B4 General disclosure | Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labor. | Disclosed | Empowering Talents and Shaping a Brighter Future B4.1 | 描述檢討招聘慣例的措施以避免童工及強制勞 工。 Description of measures to review employment practices to avoid child labour and forced labour. | 已披露 Disclosed | 聚焦人才,攜手並進 Empowering Talents and Shaping a Brighter Future B4.2 | 描述在發現違規情況時消除有關情況所採取的 步驟。 Description of steps taken to eliminate such | 已披露 Disclosed | 聚焦人才,攜手並進 Empowering Talents and Shaping practices when violations are discovered. 管理供應鏈的環境及社會風險政策。 | 已披露 Disclosed | a Brighter Future 責任並進,互利共贏 Making Progress Together with B5 一般披露 B5 General disclosure | Policies on managing environmental and social risks of the supply chain. | Responsibility to Promote Win- win Cooperation B5.1 | 按地區劃分的供應商數目。 Number of suppliers by geographical regions. | 已披露 Disclosed | 附錄一 Appendix I B5.2 | 描述有關聘用供應商的慣例,向其執行有關慣 例的供應商數目、以及有關慣例的執行及監察 方法。 | 已披露 | 責任並進,互利共贏 Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored | Disclosed | Making Progress Together with Responsibility to Promote Win- win Cooperation B5.3 | 描述有關識別供應鏈每個環節的環境及社會風 險的慣例,以及相關執行及監察方法。 Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and | 已披露 Disclosed | 責任並進,互利共贏 Making Progress Together B5.4 | monitored. 描述在揀選供應商時促使多用環保產品及服務 的慣例,以及相關執行及監察的方法。 | with Responsibility to Promote Win- win Cooperation 已披露 | 責任並進,互利共贏 Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Disclosed | Making Progress Together with Responsibility to Promote Win- win Cooperation",
+      "retrieval_text": "[Section]\n附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide\n\n[Content]\nESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter B4 一般披露 | 有關防止童工或強制勞工的政策及遵守對發行 人有重大影響的相關法律及規例的資料。 | 已披露 | 聚焦人才,攜手並進 B4 General disclosure | Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to preventing child and forced labor. | Disclosed | Empowering Talents and Shaping a Brighter Future B4.1 | 描述檢討招聘慣例的措施以避免童工及強制勞 工。 Description of measures to review employment practices to avoid child labour and forced labour. | 已披露 Disclosed | 聚焦人才,攜手並進 Empowering Talents and Shaping a Brighter Future B4.2 | 描述在發現違規情況時消除有關情況所採取的 步驟。 Description of steps taken to eliminate such | 已披露 Disclosed | 聚焦人才,攜手並進 Empowering Talents and Shaping practices when violations are discovered. 管理供應鏈的環境及社會風險政策。 | 已披露 Disclosed | a Brighter Future 責任並進,互利共贏 Making Progress Together with B5 一般披露 B5 General disclosure | Policies on managing environmental and social risks of the supply chain. | Responsibility to Promote Win- win Cooperation B5.1 | 按地區劃分的供應商數目。 Number of suppliers by geographical regions. | 已披露 Disclosed | 附錄一 Appendix I B5.2 | 描述有關聘用供應商的慣例,向其執行有關慣 例的供應商數目、以及有關慣例的執行及監察 方法。 | 已披露 | 責任並進,互利共贏 Description of practices relating to engaging suppliers, number of suppliers where the practices are being implemented, how they are implemented and monitored | Disclosed | Making Progress Together with Responsibility to Promote Win- win Cooperation B5.3 | 描述有關識別供應鏈每個環節的環境及社會風 險的慣例,以及相關執行及監察方法。 Description of practices used to identify environmental and social risks along the supply chain, and how they are implemented and | 已披露 Disclosed | 責任並進,互利共贏 Making Progress Together B5.4 | monitored. 描述在揀選供應商時促使多用環保產品及服務 的慣例,以及相關執行及監察的方法。 | with Responsibility to Promote Win- win Cooperation 已披露 | 責任並進,互利共贏 Description of practices used to promote environmentally preferable products and services when selecting suppliers, and how they are implemented and monitored. | Disclosed | Making Progress Together with Responsibility to Promote Win- win Cooperation",
+      "bm25_rank": 29,
+      "dense_rank": 9,
+      "bm25_score": 42.50910568237305,
+      "dense_score": 0.48883092403411865,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2168042160898688,
+      "normalized_dense": 0.6099740903032935,
+      "normalized_bm25_rank": 0.8120805369127517,
+      "normalized_dense_rank": 0.9463087248322147,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 9,
+      "composite_score": 0.5273215734818446,
+      "rank": 5,
+      "rrf_score": 0.5273215734818446,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P45_002",
+      "alias_source_ids": [
+        "P45_002"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        45
+      ],
+      "text": "針對客戶提出的退換貨要求,本集團將首先 識別退換貨類型,根據不同類型採取對應的 處理方案,以便相關責任部門能夠協調客戶 溝通、退換申請、補貨退款等一系列工作, 確保高效處理客戶需求。為幫助後續進一步 提升產品及服務質量,本集團企業價值管理 中心根據各部門反饋的產品退換信息進行分 析,追溯發生原因,優化產品服務流程。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n針對客戶提出的退換貨要求,本集團將首先 識別退換貨類型,根據不同類型採取對應的 處理方案,以便相關責任部門能夠協調客戶 溝通、退換申請、補貨退款等一系列工作, 確保高效處理客戶需求。為幫助後續進一步 提升產品及服務質量,本集團企業價值管理 中心根據各部門反饋的產品退換信息進行分 析,追溯發生原因,優化產品服務流程。",
+      "bm25_rank": 88,
+      "dense_rank": 7,
+      "bm25_score": 20.303550720214844,
+      "dense_score": 0.5009070634841919,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.05650301008487398,
+      "normalized_dense": 0.6770934892486851,
+      "normalized_bm25_rank": 0.4161073825503355,
+      "normalized_dense_rank": 0.9597315436241611,
+      "facets": [
+        "anchor_4"
+      ],
+      "facet_score": 0.2,
+      "best_channel_rank": 7,
+      "composite_score": 0.5118403702338804,
+      "rank": 6,
+      "rrf_score": 0.5118403702338804,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P84_002",
+      "alias_source_ids": [
+        "P84_002"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        84
+      ],
+      "text": "集團致力於建立公平合理的績效評價機制, 持續優化績效管理制度,不斷加強績效過程 管控。本年度,我們修訂 《四環醫藥控股集團 中高層績效管理制度》 、 《四環醫藥控股集團 本部員工績效管理制度》,新增 《四環醫藥控 股集團本部試用期員工績效管理制度》 ,對不 同級別員工開展針對性績效考核管理,同時 明確各績效管理機構的職責分工、各階段績 效指標內容及評分規則,並結合線上績效管 理操作要求,調整績效考核工作流程,提升 績效管理效率。此外,本集團制定 《考勤管理 制度》 ,將員工考勤納入績效考核過程。",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\n集團致力於建立公平合理的績效評價機制, 持續優化績效管理制度,不斷加強績效過程 管控。本年度,我們修訂 《四環醫藥控股集團 中高層績效管理制度》 、 《四環醫藥控股集團 本部員工績效管理制度》,新增 《四環醫藥控 股集團本部試用期員工績效管理制度》 ,對不 同級別員工開展針對性績效考核管理,同時 明確各績效管理機構的職責分工、各階段績 效指標內容及評分規則,並結合線上績效管 理操作要求,調整績效考核工作流程,提升 績效管理效率。此外,本集團制定 《考勤管理 制度》 ,將員工考勤納入績效考核過程。",
+      "bm25_rank": 2,
+      "dense_rank": 39,
+      "bm25_score": 112.87804412841797,
+      "dense_score": 0.4332992434501648,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.7247953794458645,
+      "normalized_dense": 0.30132801689281746,
+      "normalized_bm25_rank": 0.9932885906040269,
+      "normalized_dense_rank": 0.7449664429530201,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 2,
+      "composite_score": 0.49874602945266566,
+      "rank": 7,
+      "rrf_score": 0.49874602945266566,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P83_001",
+      "alias_source_ids": [
+        "P83_001"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        83
+      ],
+      "text": "本集團秉承 「人才強企」的招聘理念,制定 並實施 《四環醫藥控股集團勞動關係管理制 度》 、 《四環醫藥控股集團招聘管理制度及流 程規範》 等內部管理制度,承諾依據招聘崗位 任職資格,以員工的個人學識、專業技能、 工作經歷及發展潛力作為甄選人才的標準。 同時,我們根據公司的發展戰略,基於人力 資源存量及需求分析,制定年度招聘計劃, 滿足公司的用人需求。",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\n本集團秉承 「人才強企」的招聘理念,制定 並實施 《四環醫藥控股集團勞動關係管理制 度》 、 《四環醫藥控股集團招聘管理制度及流 程規範》 等內部管理制度,承諾依據招聘崗位 任職資格,以員工的個人學識、專業技能、 工作經歷及發展潛力作為甄選人才的標準。 同時,我們根據公司的發展戰略,基於人力 資源存量及需求分析,制定年度招聘計劃, 滿足公司的用人需求。",
+      "bm25_rank": 4,
+      "dense_rank": 31,
+      "bm25_score": 97.28627014160156,
+      "dense_score": 0.4385487139225006,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.6122388512211334,
+      "normalized_dense": 0.3305046676214262,
+      "normalized_bm25_rank": 0.9798657718120806,
+      "normalized_dense_rank": 0.7986577181208054,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.495842524717095,
+      "rank": 8,
+      "rrf_score": 0.495842524717095,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P45_006",
+      "alias_source_ids": [
+        "P45_006"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        45
+      ],
+      "text": "In view of customers' requirements for return and exchange of products, the Group will first identify the types of return and exchange and adopt corresponding processing plans, so that relevant responsible departments can coordinate customer communication, return and exchange applications, replenishment-refund and other work to ensure efficient handling of customers' demands. In order to help further improve the quality of products and services, the Enterprise Value Management Center of the Group analyzes the product return and exchange information feedbacks from various departments, and traces the causes, and optimizes the product service process.",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nIn view of customers' requirements for return and exchange of products, the Group will first identify the types of return and exchange and adopt corresponding processing plans, so that relevant responsible departments can coordinate customer communication, return and exchange applications, replenishment-refund and other work to ensure efficient handling of customers' demands. In order to help further improve the quality of products and services, the Enterprise Value Management Center of the Group analyzes the product return and exchange information feedbacks from various departments, and traces the causes, and optimizes the product service process.",
+      "bm25_rank": null,
+      "dense_rank": 4,
+      "bm25_score": null,
+      "dense_score": 0.5205782651901245,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7864263799870203,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9798657718120806,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 4,
+      "composite_score": 0.4712223873578732,
+      "rank": 9,
+      "rrf_score": 0.4712223873578732,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L42_002",
+      "alias_source_ids": [
+        "L42_002"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        42
+      ],
+      "text": "系統覆蓋藥物警戒工作全流程,建立了完整的子公司產品安全性信息數據庫,能夠進行信息採集、存儲、分析運用; The system covers the whole process of pharmacovigilance and a complete product safety information database of subsidiaries was established to collect, store, analyze and apply information;",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n系統覆蓋藥物警戒工作全流程,建立了完整的子公司產品安全性信息數據庫,能夠進行信息採集、存儲、分析運用; The system covers the whole process of pharmacovigilance and a complete product safety information database of subsidiaries was established to collect, store, analyze and apply information;",
+      "bm25_rank": 52,
+      "dense_rank": 15,
+      "bm25_score": 34.02277374267578,
+      "dense_score": 0.4626673460006714,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.1555416515284127,
+      "normalized_dense": 0.46455645587417316,
+      "normalized_bm25_rank": 0.6577181208053691,
+      "normalized_dense_rank": 0.9060402684563759,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 15,
+      "composite_score": 0.4406829556334552,
+      "rank": 10,
+      "rrf_score": 0.4406829556334552,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P39_002",
+      "alias_source_ids": [
+        "P39_002"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        39
+      ],
+      "text": "積極搜索、跟進國家最新法規情況,每月匯總與集團相關的法律法規知識;集團安排專人進行產品質量 反饋跟蹤,括藥品在市場上的抽送檢情況、藥品質量反饋情況以及藥品上市後不良反應情況。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n積極搜索、跟進國家最新法規情況,每月匯總與集團相關的法律法規知識;集團安排專人進行產品質量 反饋跟蹤,括藥品在市場上的抽送檢情況、藥品質量反饋情況以及藥品上市後不良反應情況。",
+      "bm25_rank": null,
+      "dense_rank": 6,
+      "bm25_score": null,
+      "dense_score": 0.5054646730422974,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.7024247646477908,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9664429530201343,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.43913725823075367,
+      "rank": 11,
+      "rrf_score": 0.43913725823075367,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T22_002",
+      "alias_source_ids": [
+        "T22_002"
+      ],
+      "section": "利益相關方參與 / Stakeholders Engagement",
+      "pages": [
+        22
+      ],
+      "text": "產品安全與質量 1 | Product safety and quality 2 | Anti-corruption and internal control management 3 | Customer information security and privacy protection 4 | Responsible marketing 營運 | 6 | Quality of customer service Operation | 供應鏈環境及社會風險管控 7 | Environmental and social risk control of the supply chain 10 | Supplier management",
+      "retrieval_text": "[Section]\n利益相關方參與 / Stakeholders Engagement\n\n[Content]\n產品安全與質量 1 | Product safety and quality 2 | Anti-corruption and internal control management 3 | Customer information security and privacy protection 4 | Responsible marketing 營運 | 6 | Quality of customer service Operation | 供應鏈環境及社會風險管控 7 | Environmental and social risk control of the supply chain 10 | Supplier management",
+      "bm25_rank": 39,
+      "dense_rank": 20,
+      "bm25_score": 38.01544189453125,
+      "dense_score": 0.45387399196624756,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18436459790425774,
+      "normalized_dense": 0.4156828369544296,
+      "normalized_bm25_rank": 0.7449664429530201,
+      "normalized_dense_rank": 0.87248322147651,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 20,
+      "composite_score": 0.43135520110550596,
+      "rank": 12,
+      "rrf_score": 0.43135520110550596,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P44_006",
+      "alias_source_ids": [
+        "P44_006"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        44
+      ],
+      "text": "Sihuan Pharmaceutical has established internal systems, such as the 'Management Regulations of User Complaints' to regulate the handling process and requirements of complaints from all channels, including written and oral messages, telephone, telex, etc. Relevant personnel of the Group's Commerce Department are responsible for receiving and registering complaint information, and giving feedback to relevant departments for follow-up treatment. The Quality Department is responsible for the management of the customer complaint handling process and cooperates to organize investigations on production and quality according to customer complaints caused by product defects. We carefully managed the customer complaint files, and regularly evaluated and improved the complaint handling process. To shorten the complaint processing time, the Group formulated the 'Principles for Three and Seven Days' to control the processing time of general customer complaints within three days and the processing time of complicated customer complaints within seven days. Also, we continuously optimized the user communication and feedback mechanism to ensure that the feedback can be reported in time, clarified the responsible person, cut redundant links, and improved the efficiency of complaint handling. Meanwhile, the Group attaches great importance to internal customer service management, stipulates the scope of work and division of responsibilities, and actively carries out business training and product knowledge training to deepen staff's understanding of service and improve customer service quality. During the Year, the Group received no material complaints from customers.",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nSihuan Pharmaceutical has established internal systems, such as the 'Management Regulations of User Complaints' to regulate the handling process and requirements of complaints from all channels, including written and oral messages, telephone, telex, etc. Relevant personnel of the Group's Commerce Department are responsible for receiving and registering complaint information, and giving feedback to relevant departments for follow-up treatment. The Quality Department is responsible for the management of the customer complaint handling process and cooperates to organize investigations on production and quality according to customer complaints caused by product defects. We carefully managed the customer complaint files, and regularly evaluated and improved the complaint handling process. To shorten the complaint processing time, the Group formulated the 'Principles for Three and Seven Days' to control the processing time of general customer complaints within three days and the processing time of complicated customer complaints within seven days. Also, we continuously optimized the user communication and feedback mechanism to ensure that the feedback can be reported in time, clarified the responsible person, cut redundant links, and improved the efficiency of complaint handling. Meanwhile, the Group attaches great importance to internal customer service management, stipulates the scope of work and division of responsibilities, and actively carries out business training and product knowledge training to deepen staff's understanding of service and improve customer service quality. During the Year, the Group received no material complaints from customers.",
+      "bm25_rank": null,
+      "dense_rank": 8,
+      "bm25_score": null,
+      "dense_score": 0.5000342726707458,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.6722425023049062,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9530201342281879,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.4258889026523548,
+      "rank": 13,
+      "rrf_score": 0.4258889026523548,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P43_004",
+      "alias_source_ids": [
+        "P43_004"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        43
+      ],
+      "text": "本次培訓內容涵蓋了藥物警戒內審員培訓、集團藥械警戒 SOP 更新情況兩大方面, 考核採用線上答題方式來考核子公司藥物警戒人員的專業水平,考核範圍括指 導審核制度、培訓管理、安全性信息收集三大版塊。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n本次培訓內容涵蓋了藥物警戒內審員培訓、集團藥械警戒 SOP 更新情況兩大方面, 考核採用線上答題方式來考核子公司藥物警戒人員的專業水平,考核範圍括指 導審核制度、培訓管理、安全性信息收集三大版塊。",
+      "bm25_rank": 43,
+      "dense_rank": 23,
+      "bm25_score": 37.21849822998047,
+      "dense_score": 0.4491608738899231,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.17861148654256295,
+      "normalized_dense": 0.3894872424310789,
+      "normalized_bm25_rank": 0.7181208053691275,
+      "normalized_dense_rank": 0.8523489932885906,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 23,
+      "composite_score": 0.4143247113540211,
+      "rank": 14,
+      "rrf_score": 0.4143247113540211,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L41_007",
+      "alias_source_ids": [
+        "L41_007"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        41
+      ],
+      "text": "本集團結合外部監管要求及內部管理規範,持續開展產品安全性監測和風險管理,持續推進產品說明書修訂及安全性評 價工作;",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n本集團結合外部監管要求及內部管理規範,持續開展產品安全性監測和風險管理,持續推進產品說明書修訂及安全性評 價工作;",
+      "bm25_rank": 73,
+      "dense_rank": 16,
+      "bm25_score": 27.410531997680664,
+      "dense_score": 0.45982977747917175,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.10780808540382755,
+      "normalized_dense": 0.44878519930523186,
+      "normalized_bm25_rank": 0.5167785234899329,
+      "normalized_dense_rank": 0.8993288590604027,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.4101800609986705,
+      "rank": 15,
+      "rrf_score": 0.4101800609986705,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P96_001",
+      "alias_source_ids": [
+        "P96_001"
+      ],
+      "section": "合規經營，誠信為先 / Enhancing Compliance Governance and Upholding Integrity",
+      "pages": [
+        96
+      ],
+      "text": "本年度集團繼續完善反貪腐投訴舉報機制, 為保證投訴舉報途徑暢通,合規部在集團總 部、 28 家子公司及各營銷中心顯著位置增加 或更新廉政投訴牌,接收電話、郵件、信件 等多渠道的違規舉報。接到舉報後,集團合 規部將按照舉報受理程序,評估舉報內容的 真實性,確認是否存在違規行為,並根據評 估結果初步回覆舉報人。同時,部門將圍繞 舉報內容開展調查,通過談話等方式了解情 況、收集證據,並以報告的形式匯總調查結 果呈交集團管理層。若違規行為屬實,本集 團將依據員工手冊規定予以相應的處罰,情 節特別嚴重涉嫌犯罪者移送公安機關處理。 為保障舉報人的合法權益,防止打擊報復舉 報人的惡劣行為,本集團在 《投訴舉報制度》 詳細列示了舉報人保護條例,對舉報人資料 進行嚴格保密。二零二一年,本集團未發生 任何貪污訴訟案件。",
+      "retrieval_text": "[Section]\n合規經營，誠信為先 / Enhancing Compliance Governance and Upholding Integrity\n\n[Content]\n本年度集團繼續完善反貪腐投訴舉報機制, 為保證投訴舉報途徑暢通,合規部在集團總 部、 28 家子公司及各營銷中心顯著位置增加 或更新廉政投訴牌,接收電話、郵件、信件 等多渠道的違規舉報。接到舉報後,集團合 規部將按照舉報受理程序,評估舉報內容的 真實性,確認是否存在違規行為,並根據評 估結果初步回覆舉報人。同時,部門將圍繞 舉報內容開展調查,通過談話等方式了解情 況、收集證據,並以報告的形式匯總調查結 果呈交集團管理層。若違規行為屬實,本集 團將依據員工手冊規定予以相應的處罰,情 節特別嚴重涉嫌犯罪者移送公安機關處理。 為保障舉報人的合法權益,防止打擊報復舉 報人的惡劣行為,本集團在 《投訴舉報制度》 詳細列示了舉報人保護條例,對舉報人資料 進行嚴格保密。二零二一年,本集團未發生 任何貪污訴訟案件。",
+      "bm25_rank": 31,
+      "dense_rank": 30,
+      "bm25_score": 41.94831848144531,
+      "dense_score": 0.4392501711845398,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.212755910844894,
+      "normalized_dense": 0.3344033796236021,
+      "normalized_bm25_rank": 0.7986577181208054,
+      "normalized_dense_rank": 0.8053691275167785,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 30,
+      "composite_score": 0.40053196235267574,
+      "rank": 16,
+      "rrf_score": 0.40053196235267574,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P50_003",
+      "alias_source_ids": [
+        "P50_003"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        50
+      ],
+      "text": "四環醫藥堅持攜手供應商夥伴實現合作共贏,嚴格遵循 《中華人民共和國招 投標法》 及 《中華人民共和國政府採購法》 等法律法規,制定並落實 《供應商 管理規程》 及 《集中採購管理規程》 等管理制度和規定,通過全面及穩健的供 應商管理機制,嚴格管控供應鏈潛在風險,同時持續監督供應商的社會及 環境風險,助力供應商提升自身管理水平,共同打造可持續的綠色供應鏈。 Sihuan Pharmaceutical is committed to working with its supplier partners to achieve win-win cooperation. We strictly comply with laws and regulations such as the 'Bidding Law of the People's Republic of China' and the 'Government Procurement Law of the People's Republic of China', formulate and implement management system and requirements such as the 'Supplier Management Protocol' and the 'Centralized Procurement Management Protocol'. We strictly control potential risks in the supply chain through a comprehensive and robust supplier management mechanism, and continuously monitor suppliers' social and environmental risks to help suppliers improve their management and build a sustainable green supply chain.",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n四環醫藥堅持攜手供應商夥伴實現合作共贏,嚴格遵循 《中華人民共和國招 投標法》 及 《中華人民共和國政府採購法》 等法律法規,制定並落實 《供應商 管理規程》 及 《集中採購管理規程》 等管理制度和規定,通過全面及穩健的供 應商管理機制,嚴格管控供應鏈潛在風險,同時持續監督供應商的社會及 環境風險,助力供應商提升自身管理水平,共同打造可持續的綠色供應鏈。 Sihuan Pharmaceutical is committed to working with its supplier partners to achieve win-win cooperation. We strictly comply with laws and regulations such as the 'Bidding Law of the People's Republic of China' and the 'Government Procurement Law of the People's Republic of China', formulate and implement management system and requirements such as the 'Supplier Management Protocol' and the 'Centralized Procurement Management Protocol'. We strictly control potential risks in the supply chain through a comprehensive and robust supplier management mechanism, and continuously monitor suppliers' social and environmental risks to help suppliers improve their management and build a sustainable green supply chain.",
+      "bm25_rank": 21,
+      "dense_rank": 37,
+      "bm25_score": 46.575592041015625,
+      "dense_score": 0.434100866317749,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2461600537892257,
+      "normalized_dense": 0.30578345112124616,
+      "normalized_bm25_rank": 0.8657718120805369,
+      "normalized_dense_rank": 0.7583892617449665,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3945112522073283,
+      "rank": 17,
+      "rrf_score": 0.3945112522073283,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T19_001",
+      "alias_source_ids": [
+        "T19_001"
+      ],
+      "section": "利益相關方參與 Stakeholders Engagement",
+      "pages": [
+        19
+      ],
+      "text": "利益相關方 Stakeholders | 關注議題 Issues of concern | 溝通回應方式 Ways of communication and response 客戶╱分銷商 Customers/distributors | 產品質量 Product quality 商業誠信 Business integrity | 保障產品質量與安全 Ensuring product quality and safety 客戶服務中心和熱線 Customer service center and hotline 內部員工 | 職業健康與安全 Occupational health and | agreement 落實安全管理體系 Implementing the safety management Protection of rights and | 設置投訴渠道 Establishment of complaint channels 員工培訓教育 | 設置人才培養渠道 服務質量 Service quality 客戶信息與隱私保護 Customer information and privacy protection Staff training and education | 處理詢問和投訴 Treatment of inquiries and complaints mechanism 履行客戶保密協議 Performing the customer confidentiality 合規營銷 Compliance marketing | 完善信息交流機制 Improvement of information exchange safety | system 權利權益保障 employees interests Internal 員工薪酬與福利 | Setting up talent training channels 多樣化員工福利 Employee compensation and benefits | Diversified employee benefits",
+      "retrieval_text": "[Section]\n利益相關方參與 Stakeholders Engagement\n\n[Content]\n利益相關方 Stakeholders | 關注議題 Issues of concern | 溝通回應方式 Ways of communication and response 客戶╱分銷商 Customers/distributors | 產品質量 Product quality 商業誠信 Business integrity | 保障產品質量與安全 Ensuring product quality and safety 客戶服務中心和熱線 Customer service center and hotline 內部員工 | 職業健康與安全 Occupational health and | agreement 落實安全管理體系 Implementing the safety management Protection of rights and | 設置投訴渠道 Establishment of complaint channels 員工培訓教育 | 設置人才培養渠道 服務質量 Service quality 客戶信息與隱私保護 Customer information and privacy protection Staff training and education | 處理詢問和投訴 Treatment of inquiries and complaints mechanism 履行客戶保密協議 Performing the customer confidentiality 合規營銷 Compliance marketing | 完善信息交流機制 Improvement of information exchange safety | system 權利權益保障 employees interests Internal 員工薪酬與福利 | Setting up talent training channels 多樣化員工福利 Employee compensation and benefits | Diversified employee benefits",
+      "bm25_rank": 67,
+      "dense_rank": 22,
+      "bm25_score": 29.584449768066406,
+      "dense_score": 0.45020824670791626,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.12350152972180979,
+      "normalized_dense": 0.395308559277086,
+      "normalized_bm25_rank": 0.5570469798657718,
+      "normalized_dense_rank": 0.8590604026845637,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 22,
+      "composite_score": 0.390575080214832,
+      "rank": 18,
+      "rrf_score": 0.390575080214832,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L25_005",
+      "alias_source_ids": [
+        "L25_005"
+      ],
+      "section": "利益相關方參與 / Stakeholders Engagement",
+      "pages": [
+        25
+      ],
+      "text": "藥物警戒體系更新 3 個集團層面、 20 個 子公司層面流程",
+      "retrieval_text": "[Section]\n利益相關方參與 / Stakeholders Engagement\n\n[Content]\n藥物警戒體系更新 3 個集團層面、 20 個 子公司層面流程",
+      "bm25_rank": null,
+      "dense_rank": 10,
+      "bm25_score": null,
+      "dense_score": 0.48296189308166504,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5773539113504746,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9395973154362416,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.38999333205991443,
+      "rank": 19,
+      "rrf_score": 0.38999333205991443,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P41_001",
+      "alias_source_ids": [
+        "P41_001"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        41
+      ],
+      "text": "四環醫藥集團藥物警戒體系由集團藥械警戒 部和集團旗下各子公司藥物警戒部 ( 「 PV 」 ) 共 同構成,集團與各子公司持續監測與評價產品 安全性,藥物警戒工作隨時隨地在線高效推 進,控制風險,保障患者用藥安全。二零二一 年,隨著藥物警戒質量管理規範 ( 「 GVP 」 ) 及相 關指導原則的落地實施,四環醫藥集團進一 步完善了藥物警戒體系,具體括如下:",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n四環醫藥集團藥物警戒體系由集團藥械警戒 部和集團旗下各子公司藥物警戒部 ( 「 PV 」 ) 共 同構成,集團與各子公司持續監測與評價產品 安全性,藥物警戒工作隨時隨地在線高效推 進,控制風險,保障患者用藥安全。二零二一 年,隨著藥物警戒質量管理規範 ( 「 GVP 」 ) 及相 關指導原則的落地實施,四環醫藥集團進一 步完善了藥物警戒體系,具體括如下:",
+      "bm25_rank": null,
+      "dense_rank": 11,
+      "bm25_score": null,
+      "dense_score": 0.4785073399543762,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5525954254361598,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9328859060402684,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.3799855801107096,
+      "rank": 20,
+      "rrf_score": 0.3799855801107096,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P41_003",
+      "alias_source_ids": [
+        "P41_003"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        41
+      ],
+      "text": "In combination with external regulatory requirements and internal management standards, the Group has continuously carried out the product safety monitoring and risk management and promoted product specification revision and safety evaluation;",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nIn combination with external regulatory requirements and internal management standards, the Group has continuously carried out the product safety monitoring and risk management and promoted product specification revision and safety evaluation;",
+      "bm25_rank": null,
+      "dense_rank": 12,
+      "bm25_score": null,
+      "dense_score": 0.4781142473220825,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5504106095586606,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9261744966442953,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 12,
+      "composite_score": 0.37787861267439027,
+      "rank": 21,
+      "rrf_score": 0.37787861267439027,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P44_003",
+      "alias_source_ids": [
+        "P44_003"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        44
+      ],
+      "text": "面對新冠疫情的考驗,本集團全力保障發貨、 物流運輸、退換貨等產品供應階段,嚴格執 行集團發貨管理規程、退貨管理規程等制度 文件,堅持以專業、優質的客戶服務應對激 增的醫藥產品需求。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n面對新冠疫情的考驗,本集團全力保障發貨、 物流運輸、退換貨等產品供應階段,嚴格執 行集團發貨管理規程、退貨管理規程等制度 文件,堅持以專業、優質的客戶服務應對激 增的醫藥產品需求。",
+      "bm25_rank": 47,
+      "dense_rank": 32,
+      "bm25_score": 35.717185974121094,
+      "dense_score": 0.43853798508644104,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.16777356037433777,
+      "normalized_dense": 0.33044503655881063,
+      "normalized_bm25_rank": 0.6912751677852349,
+      "normalized_dense_rank": 0.7919463087248322,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 32,
+      "composite_score": 0.3767272533939412,
+      "rank": 22,
+      "rrf_score": 0.3767272533939412,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P51_001",
+      "alias_source_ids": [
+        "P51_001"
+      ],
+      "section": "責任並進，互利共贏 / Making Progress Together with Responsibility to Promote Win-win Cooperation",
+      "pages": [
+        51
+      ],
+      "text": "本集團秉持公平競價、質量優先的原則,建 立了嚴格的供應商尋源、准入、考核與評估 機制,對供應商採取統一歸口、分類分級管 理,以嚴格的監察制度保障採購質量,提升 供應商管理效率。",
+      "retrieval_text": "[Section]\n責任並進，互利共贏 / Making Progress Together with Responsibility to Promote Win-win Cooperation\n\n[Content]\n本集團秉持公平競價、質量優先的原則,建 立了嚴格的供應商尋源、准入、考核與評估 機制,對供應商採取統一歸口、分類分級管 理,以嚴格的監察制度保障採購質量,提升 供應商管理效率。",
+      "bm25_rank": 40,
+      "dense_rank": 35,
+      "bm25_score": 38.01118087768555,
+      "dense_score": 0.43636220693588257,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.18433383775706313,
+      "normalized_dense": 0.3183520227022081,
+      "normalized_bm25_rank": 0.738255033557047,
+      "normalized_dense_rank": 0.7718120805369127,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 35,
+      "composite_score": 0.37647789496027273,
+      "rank": 23,
+      "rrf_score": 0.37647789496027273,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T113_001",
+      "alias_source_ids": [
+        "T113_001"
+      ],
+      "section": "附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide",
+      "pages": [
+        113
+      ],
+      "text": "ESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter A3 一般披露 | 減低發行人對環境及天然資源造成重大影響的 政策。 | 已披露 | 安全守護,綠色發展 A3 General disclosure | Policies on minimizing the issuer's significant impact on the environment and natural resources. | Disclosed | Ensuring Safety and Pursuing Green Development A3.1 | 描述業務活動對環境及天然資源的重大資源的 重大影響及已採取管理有關影響的行動。 Description of the significant impacts of activities on the major environment and natural resources and the actions taken to manage them. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development A4 一般披露 | 識別及應對已經及可能會對發行人產生影響的 重大氣候相關事宜的政策。 | 已披露 | 安全守護,綠色發展 A4 General disclosure | Policies on identifying and responding to significant climate-related issues that have and may have an impact on issuers. | Disclosed | Ensuring Safety and Pursuing Green Development A4.1 | 描述已影響及可能對發行人產生影響的重大氣 候相關事宜,及應對行動。 Description of the significant climate-related issues that have and may have an impact on the issuer and the response actions to be taken. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development B1 一般披露 | 有關薪酬及解僱、招聘及晉升、工作時數、假 期、平等機會、多元化、反歧視以及其他待遇 及福利的政策及遵守對發行人有重大影響的相 關法律及規例的資料。 | 已披露 | 聚焦人才,攜手並進 B1 General disclosure | Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | Disclosed | Empowering Talents and Shaping a Brighter Future B1.1 | 按性別、僱傭類型 (如全職或兼職) 、年齡組別 及地區劃分的僱員總數。 Total workforce by gender, employment type (full-time or part-time), age group and geographical region. | 已披露 Disclosed | 聚焦人才,攜手並進 Empowering Talents and Shaping a Brighter Future B1.2 | 按性別、年齡組別及地區劃分的僱員流失比率。 Employee turnover rate by gender, age group and geographical region. | 已披露 Disclosed | 附錄一 Appendix I",
+      "retrieval_text": "[Section]\n附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide\n\n[Content]\nESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter A3 一般披露 | 減低發行人對環境及天然資源造成重大影響的 政策。 | 已披露 | 安全守護,綠色發展 A3 General disclosure | Policies on minimizing the issuer's significant impact on the environment and natural resources. | Disclosed | Ensuring Safety and Pursuing Green Development A3.1 | 描述業務活動對環境及天然資源的重大資源的 重大影響及已採取管理有關影響的行動。 Description of the significant impacts of activities on the major environment and natural resources and the actions taken to manage them. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development A4 一般披露 | 識別及應對已經及可能會對發行人產生影響的 重大氣候相關事宜的政策。 | 已披露 | 安全守護,綠色發展 A4 General disclosure | Policies on identifying and responding to significant climate-related issues that have and may have an impact on issuers. | Disclosed | Ensuring Safety and Pursuing Green Development A4.1 | 描述已影響及可能對發行人產生影響的重大氣 候相關事宜,及應對行動。 Description of the significant climate-related issues that have and may have an impact on the issuer and the response actions to be taken. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development B1 一般披露 | 有關薪酬及解僱、招聘及晉升、工作時數、假 期、平等機會、多元化、反歧視以及其他待遇 及福利的政策及遵守對發行人有重大影響的相 關法律及規例的資料。 | 已披露 | 聚焦人才,攜手並進 B1 General disclosure | Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to compensation and dismissal, recruitment and promotion, working hours, rest periods, equal opportunity, diversity, anti-discrimination, and other benefits and welfare. | Disclosed | Empowering Talents and Shaping a Brighter Future B1.1 | 按性別、僱傭類型 (如全職或兼職) 、年齡組別 及地區劃分的僱員總數。 Total workforce by gender, employment type (full-time or part-time), age group and geographical region. | 已披露 Disclosed | 聚焦人才,攜手並進 Empowering Talents and Shaping a Brighter Future B1.2 | 按性別、年齡組別及地區劃分的僱員流失比率。 Employee turnover rate by gender, age group and geographical region. | 已披露 Disclosed | 附錄一 Appendix I",
+      "bm25_rank": 16,
+      "dense_rank": 48,
+      "bm25_score": 52.432861328125,
+      "dense_score": 0.4232873320579529,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2884434973788919,
+      "normalized_dense": 0.24568163439466686,
+      "normalized_bm25_rank": 0.8993288590604027,
+      "normalized_dense_rank": 0.6845637583892618,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 16,
+      "composite_score": 0.37052290909780444,
+      "rank": 24,
+      "rrf_score": 0.37052290909780444,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T114_001",
+      "alias_source_ids": [
+        "T114_001"
+      ],
+      "section": "附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide",
+      "pages": [
+        114
+      ],
+      "text": "ESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter B2 一般披露 | 有關提供安全工作環境以及保障僱員避免職業 性危害的政策及遵守對發行人有重大影響的相 關法律及規例的資料。 | 已披露 | 安全守護,綠色發展 B2 General disclosure | Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Disclosed | Ensuring Safety and Pursuing Green Development B2.1 | 過去三年 (括匯報年度) 因工亡故的人數及比 率。 Number and rate of work-related fatalities in the past three years (including the reporting year). | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development B2.2 | 因工傷損失工作日數。 Lost days due to work injury. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development B2.3 | 描述所採納的職業健康與安全措施,以及相關 執行及監察方法。 Description of occupational health and safety measures adopted, how they are implemented | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development B3 一般披露 | and monitored. 有關提升僱員履行工作職責的知識及技能的政 策。描述培訓活動。 | 聚焦人才,攜手並進 B3 General disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | 已披露 Disclosed | Empowering Talents and Shaping a Brighter Future B3.1 | 按性別及僱員類別 (如高級管理層、中級管理層 等) 劃分的受訓僱員百分比。 The percentage of employees trained by gender and employee category (e.g. senior management, | 已披露 | 聚焦人才,攜手並進 Empowering Talents and Shaping middle management). 按性別及僱員類別劃分,每名僱員完成受訓的 平均時數。 | Disclosed | a Brighter Future B3.2 | The average training hours completed per employee by gender and employee category. | 已披露 Disclosed | 聚焦人才,攜手並進 Empowering Talents and Shaping a Brighter Future",
+      "retrieval_text": "[Section]\n附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide\n\n[Content]\nESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter B2 一般披露 | 有關提供安全工作環境以及保障僱員避免職業 性危害的政策及遵守對發行人有重大影響的相 關法律及規例的資料。 | 已披露 | 安全守護,綠色發展 B2 General disclosure | Information on the policies and compliance with relevant laws and regulations that have a significant impact on the issuer relating to providing a safe working environment and protecting employees from occupational hazards. | Disclosed | Ensuring Safety and Pursuing Green Development B2.1 | 過去三年 (括匯報年度) 因工亡故的人數及比 率。 Number and rate of work-related fatalities in the past three years (including the reporting year). | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development B2.2 | 因工傷損失工作日數。 Lost days due to work injury. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development B2.3 | 描述所採納的職業健康與安全措施,以及相關 執行及監察方法。 Description of occupational health and safety measures adopted, how they are implemented | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Pursuing Green Development B3 一般披露 | and monitored. 有關提升僱員履行工作職責的知識及技能的政 策。描述培訓活動。 | 聚焦人才,攜手並進 B3 General disclosure | Policies on improving employees' knowledge and skills for discharging duties at work. Description of training activities. | 已披露 Disclosed | Empowering Talents and Shaping a Brighter Future B3.1 | 按性別及僱員類別 (如高級管理層、中級管理層 等) 劃分的受訓僱員百分比。 The percentage of employees trained by gender and employee category (e.g. senior management, | 已披露 | 聚焦人才,攜手並進 Empowering Talents and Shaping middle management). 按性別及僱員類別劃分,每名僱員完成受訓的 平均時數。 | Disclosed | a Brighter Future B3.2 | The average training hours completed per employee by gender and employee category. | 已披露 Disclosed | 聚焦人才,攜手並進 Empowering Talents and Shaping a Brighter Future",
+      "bm25_rank": 13,
+      "dense_rank": 51,
+      "bm25_score": 55.43473815917969,
+      "dense_score": 0.4214763343334198,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3101139522320387,
+      "normalized_dense": 0.23561607666699463,
+      "normalized_bm25_rank": 0.9194630872483222,
+      "normalized_dense_rank": 0.6644295302013423,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.3693206320449566,
+      "rank": 25,
+      "rrf_score": 0.3693206320449566,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L41_001",
+      "alias_source_ids": [
+        "L41_001"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        41
+      ],
+      "text": "根據 GVP 和相關指導原則要求及集團內 部架構調整,更新了集團層面三個流程 制度,指導各子公司藥物警戒人員更新 其內部 20 多項藥物警戒流程,確保四環 藥物警戒體系符合 GVP 要求;",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n根據 GVP 和相關指導原則要求及集團內 部架構調整,更新了集團層面三個流程 制度,指導各子公司藥物警戒人員更新 其內部 20 多項藥物警戒流程,確保四環 藥物警戒體系符合 GVP 要求;",
+      "bm25_rank": 26,
+      "dense_rank": 45,
+      "bm25_score": 44.37190246582031,
+      "dense_score": 0.42750778794288635,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.230251687744493,
+      "normalized_dense": 0.26913900365107746,
+      "normalized_bm25_rank": 0.8322147651006712,
+      "normalized_dense_rank": 0.7046979865771812,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.3644100626522791,
+      "rank": 26,
+      "rrf_score": 0.3644100626522791,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P51_005",
+      "alias_source_ids": [
+        "P51_005"
+      ],
+      "section": "責任並進，互利共贏 / Making Progress Together with Responsibility to Promote Win-win Cooperation",
+      "pages": [
+        51
+      ],
+      "text": "We actively conduct supplier sourcing and review the qualifications such as business licenses of comparable suppliers and evaluate their production capabilities, technological levels, service quality and other aspects to ensure that their qualifications and quality meet the Group's engagement requirements. In the supplier admission process, we detect samples provided by comparable suppliers, and for material suppliers who have a significant impact on drug quality, sample detection, supplier audit and small batch tests are required. Suppliers who passed the admission reviews will be included in the Group's qualified supplier list. For qualified suppliers, the Group conducts continuous evaluation through daily supervision and management and annual assessment based on indicators such as quality status, cooperativeness and performance of suppliers, and urges them to improve the quality of their products and services. We conduct the hierarchical management of suppliers. Based on the assessment and examination results, we classify the suppliers into different grades and implement distinct reward and punishment policies. Suppliers who breach the contracts, violate the bidding requirements, provide products or services with quality problems, or are rated as poor in assessment will be required to suspend the transactions, take rectification action within a definite period or will be blacklisted directly, according to the severity or the degree of harm.",
+      "retrieval_text": "[Section]\n責任並進，互利共贏 / Making Progress Together with Responsibility to Promote Win-win Cooperation\n\n[Content]\nWe actively conduct supplier sourcing and review the qualifications such as business licenses of comparable suppliers and evaluate their production capabilities, technological levels, service quality and other aspects to ensure that their qualifications and quality meet the Group's engagement requirements. In the supplier admission process, we detect samples provided by comparable suppliers, and for material suppliers who have a significant impact on drug quality, sample detection, supplier audit and small batch tests are required. Suppliers who passed the admission reviews will be included in the Group's qualified supplier list. For qualified suppliers, the Group conducts continuous evaluation through daily supervision and management and annual assessment based on indicators such as quality status, cooperativeness and performance of suppliers, and urges them to improve the quality of their products and services. We conduct the hierarchical management of suppliers. Based on the assessment and examination results, we classify the suppliers into different grades and implement distinct reward and punishment policies. Suppliers who breach the contracts, violate the bidding requirements, provide products or services with quality problems, or are rated as poor in assessment will be required to suspend the transactions, take rectification action within a definite period or will be blacklisted directly, according to the severity or the degree of harm.",
+      "bm25_rank": null,
+      "dense_rank": 13,
+      "bm25_score": null,
+      "dense_score": 0.4707798361778259,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.5096458213035947,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.9194630872483222,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 13,
+      "composite_score": 0.3622686549059226,
+      "rank": 27,
+      "rrf_score": 0.3622686549059226,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P51_002",
+      "alias_source_ids": [
+        "P51_002"
+      ],
+      "section": "責任並進，互利共贏 / Making Progress Together with Responsibility to Promote Win-win Cooperation",
+      "pages": [
+        51
+      ],
+      "text": "我們積極開展供應商尋源,對備選供應商的 營業執照等資質信息進行審核,同時對其生 產能力、技術水平、服務質量等多方面進行 評估,確保其資質、質量等符合集團聘用要 求。在供應商准入環節,我們對備選供應商提 供的樣品進行檢測,其中對藥品質量有重大 影響的物料供應商需要進行樣品檢測、供應 商審計以及小批量試驗審核,通過准入審核 的供應商將納入集團合格供應商庫。對於合 格供應商,本集團根據供應商的質量狀況、 配合程度、履約情況等指標,通過日常監督 管理和年度考核進行持續評估,督促其提升 產品與服務的質量。我們實施供應商的分級 管理,依據供應商的評估與考核結果,將供 應商分成不同等級並實行不同的獎懲政策。 對於出現違反合同約定、違反招投標紀律、 產品或服務出現質量問題、考核結果較差等 情況的供應商,根據情節輕重或危害程度, 給予中止交易、限期整改、直接進入黑名單 等處理。",
+      "retrieval_text": "[Section]\n責任並進，互利共贏 / Making Progress Together with Responsibility to Promote Win-win Cooperation\n\n[Content]\n我們積極開展供應商尋源,對備選供應商的 營業執照等資質信息進行審核,同時對其生 產能力、技術水平、服務質量等多方面進行 評估,確保其資質、質量等符合集團聘用要 求。在供應商准入環節,我們對備選供應商提 供的樣品進行檢測,其中對藥品質量有重大 影響的物料供應商需要進行樣品檢測、供應 商審計以及小批量試驗審核,通過准入審核 的供應商將納入集團合格供應商庫。對於合 格供應商,本集團根據供應商的質量狀況、 配合程度、履約情況等指標,通過日常監督 管理和年度考核進行持續評估,督促其提升 產品與服務的質量。我們實施供應商的分級 管理,依據供應商的評估與考核結果,將供 應商分成不同等級並實行不同的獎懲政策。 對於出現違反合同約定、違反招投標紀律、 產品或服務出現質量問題、考核結果較差等 情況的供應商,根據情節輕重或危害程度, 給予中止交易、限期整改、直接進入黑名單 等處理。",
+      "bm25_rank": 126,
+      "dense_rank": 19,
+      "bm25_score": 14.62403392791748,
+      "dense_score": 0.4578501582145691,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.015502756189737813,
+      "normalized_dense": 0.4377824400434512,
+      "normalized_bm25_rank": 0.1610738255033557,
+      "normalized_dense_rank": 0.8791946308724832,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 19,
+      "composite_score": 0.34827071397798764,
+      "rank": 28,
+      "rrf_score": 0.34827071397798764,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P41_002",
+      "alias_source_ids": [
+        "P41_002"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        41
+      ],
+      "text": "The pharmacovigilance system of Sihuan Pharmaceutical is composed of the pharmacovigilance departments (' PV ') of the Group and its subsidiaries. The Group and its subsidiaries continuously monitor and evaluate product safety. Pharmacovigilance is effectively promoted online anytime and anywhere to control risks and ensure the drug safety of patients. In 2021, with the implementation of the Good Pharmacovigilance Practices (' GVP ') and related guiding principles, Sihuan Pharmaceutical has further improved the pharmacovigilance system, including the following work:",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nThe pharmacovigilance system of Sihuan Pharmaceutical is composed of the pharmacovigilance departments (' PV ') of the Group and its subsidiaries. The Group and its subsidiaries continuously monitor and evaluate product safety. Pharmacovigilance is effectively promoted online anytime and anywhere to control risks and ensure the drug safety of patients. In 2021, with the implementation of the Good Pharmacovigilance Practices (' GVP ') and related guiding principles, Sihuan Pharmaceutical has further improved the pharmacovigilance system, including the following work:",
+      "bm25_rank": null,
+      "dense_rank": 14,
+      "bm25_score": null,
+      "dense_score": 0.46273142099380493,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4649125858314608,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.912751677852349,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 14,
+      "composite_score": 0.3452697406114811,
+      "rank": 29,
+      "rrf_score": 0.3452697406114811,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P39_003",
+      "alias_source_ids": [
+        "P39_003"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        39
+      ],
+      "text": "We actively searched and followed up on the latest national laws and regulations, and summarized the knowledge of laws and regulations related to the Group on a month basis. The Group also arranged staff to collect product quality feedback, including the situation of drug sampling and inspection in the market, drug quality feedback, and adverse reactions after the drugs are put on the market.",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nWe actively searched and followed up on the latest national laws and regulations, and summarized the knowledge of laws and regulations related to the Group on a month basis. The Group also arranged staff to collect product quality feedback, including the situation of drug sampling and inspection in the market, drug quality feedback, and adverse reactions after the drugs are put on the market.",
+      "bm25_rank": null,
+      "dense_rank": 17,
+      "bm25_score": null,
+      "dense_score": 0.4582046866416931,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.43975291537921546,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8926174496644296,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 17,
+      "composite_score": 0.33243701031561135,
+      "rank": 30,
+      "rrf_score": 0.33243701031561135,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L42_003",
+      "alias_source_ids": [
+        "L42_003"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        42
+      ],
+      "text": "內嵌藥物警戒工作邏輯,嚴格遵循業務法規時效限定,系統設計符合國際標準和中國國情,稽查痕跡保留,滿足核查要 求。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n內嵌藥物警戒工作邏輯,嚴格遵循業務法規時效限定,系統設計符合國際標準和中國國情,稽查痕跡保留,滿足核查要 求。",
+      "bm25_rank": null,
+      "dense_rank": 18,
+      "bm25_score": null,
+      "dense_score": 0.458046555519104,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.4388740197729978,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8859060402684564,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.3307871149742405,
+      "rank": 31,
+      "rrf_score": 0.3307871149742405,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P96_002",
+      "alias_source_ids": [
+        "P96_002"
+      ],
+      "section": "合規經營，誠信為先 / Enhancing Compliance Governance and Upholding Integrity",
+      "pages": [
+        96
+      ],
+      "text": "During the Year, the Group continued to improve the anti-corruption complaint and reporting mechanism. In order to ensure the smooth channels of complaint and reporting, the Compliance Department added or updated the anti-corruption complaint board in the prominent positions of the Group's headquarters, 28 subsidiaries and marketing centers, and received violation reporting through telephone, e-mail, letters and other channels. After receiving a reporting, the Compliance Department of the Group will evaluate the authenticity of the reporting content according to the reporting acceptance procedures, confirm whether there are violations, and will give an initial reply to the whistleblower according to the evaluation results. Meanwhile, the Department will investigate the contents of the reporting, understand the situation and collect evidence through conversation, and summarize the investigation results through reports and submit them to the management of the Group. If the violation is true, the Group will impose corresponding punishment according to the provisions of the employee manual. If the circumstances are particularly serious, the suspected offender will be transferred to the public security agencies for handling. In order to protect the legitimate rights and interests of the whistleblower and prevent retaliation against the whistleblower, the Group has listed in detail the regulations on the protection of the whistleblower in the 'Complaint and Reporting System', and will strictly keep the whistleblower's information confidential. In 2021, no litigation in regard to corruption was filed against the Group.",
+      "retrieval_text": "[Section]\n合規經營，誠信為先 / Enhancing Compliance Governance and Upholding Integrity\n\n[Content]\nDuring the Year, the Group continued to improve the anti-corruption complaint and reporting mechanism. In order to ensure the smooth channels of complaint and reporting, the Compliance Department added or updated the anti-corruption complaint board in the prominent positions of the Group's headquarters, 28 subsidiaries and marketing centers, and received violation reporting through telephone, e-mail, letters and other channels. After receiving a reporting, the Compliance Department of the Group will evaluate the authenticity of the reporting content according to the reporting acceptance procedures, confirm whether there are violations, and will give an initial reply to the whistleblower according to the evaluation results. Meanwhile, the Department will investigate the contents of the reporting, understand the situation and collect evidence through conversation, and summarize the investigation results through reports and submit them to the management of the Group. If the violation is true, the Group will impose corresponding punishment according to the provisions of the employee manual. If the circumstances are particularly serious, the suspected offender will be transferred to the public security agencies for handling. In order to protect the legitimate rights and interests of the whistleblower and prevent retaliation against the whistleblower, the Group has listed in detail the regulations on the protection of the whistleblower in the 'Complaint and Reporting System', and will strictly keep the whistleblower's information confidential. In 2021, no litigation in regard to corruption was filed against the Group.",
+      "bm25_rank": null,
+      "dense_rank": 21,
+      "bm25_score": null,
+      "dense_score": 0.45360109210014343,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.41416605462006567,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8657718120805369,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 21,
+      "composite_score": 0.3181124815331303,
+      "rank": 32,
+      "rrf_score": 0.3181124815331303,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T117_001",
+      "alias_source_ids": [
+        "T117_001"
+      ],
+      "section": "附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide",
+      "pages": [
+        117
+      ],
+      "text": "ESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter B7 一般披露 | 有關防止賄賂、勒索、欺詐及洗黑錢的政策及 遵守對發行人有重大影響的相關法律及規例的 資料。 | 已披露 | 合規經營,誠信為先 B7 General disclosure | Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to the prevention of bribery, extortion, fraud and money laundering. | Disclosed | Enhancing Compliance Governance and Upholding Integrity B7.1 | 於匯報期內對發行人或其僱員提出並已審結的 貪污訴訟案件的數目及訴訟結果。 Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the Reporting Period and the outcomes of the cases. | 已披露 Disclosed | 合規經營,誠信為先 Enhancing Compliance Governance and Upholding Integrity B7.2 | 描述防範措施及舉報程序,以及相關執行及監 察方法。 Description of preventive measures and reporting procedures and whistle-blowing procedures, and how they are implemented and monitored. | 已披露 Disclosed | 合規經營,誠信為先 Enhancing Compliance Governance and Upholding Integrity B7.3 | 描述向董事及員工提供的反貪污培訓。 Description of anti-corruption training provided to directors and employees. | 已披露 Disclosed | 合規經營,誠信為先 Enhancing Compliance Governance and Upholding Integrity B8 一般披露 | 有關以社區參與來了解營運所在社區需要和確 保其業務活動考慮社區利益的政策。 | 已披露 | 熱心公益,共繪美好 B8 General disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Disclosed | Devoting to Social Public Welfare for a Happy Life B8.1 | 專注貢獻範疇 (如教育、環境事宜、勞工需求、 健康、文化、體育) 。 Focus areas of contribution (e.g. education, environmental concerns, labor needs, health, culture, sport). | 已披露 Disclosed | 熱心公益,共繪美好 Devoting to Social Public Welfare for a Happy Life B8.2 | 在專注範疇所動用資源 (如金錢或時間) 。 Resources contributed (e.g. money or time) to the focus areas. | 已披露 Disclosed | 熱心公益,共繪美好 Devoting to Social Public Welfare for a Happy Life",
+      "retrieval_text": "[Section]\n附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide\n\n[Content]\nESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter B7 一般披露 | 有關防止賄賂、勒索、欺詐及洗黑錢的政策及 遵守對發行人有重大影響的相關法律及規例的 資料。 | 已披露 | 合規經營,誠信為先 B7 General disclosure | Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to the prevention of bribery, extortion, fraud and money laundering. | Disclosed | Enhancing Compliance Governance and Upholding Integrity B7.1 | 於匯報期內對發行人或其僱員提出並已審結的 貪污訴訟案件的數目及訴訟結果。 Number of concluded legal cases regarding corrupt practices brought against the issuer or its employees during the Reporting Period and the outcomes of the cases. | 已披露 Disclosed | 合規經營,誠信為先 Enhancing Compliance Governance and Upholding Integrity B7.2 | 描述防範措施及舉報程序,以及相關執行及監 察方法。 Description of preventive measures and reporting procedures and whistle-blowing procedures, and how they are implemented and monitored. | 已披露 Disclosed | 合規經營,誠信為先 Enhancing Compliance Governance and Upholding Integrity B7.3 | 描述向董事及員工提供的反貪污培訓。 Description of anti-corruption training provided to directors and employees. | 已披露 Disclosed | 合規經營,誠信為先 Enhancing Compliance Governance and Upholding Integrity B8 一般披露 | 有關以社區參與來了解營運所在社區需要和確 保其業務活動考慮社區利益的政策。 | 已披露 | 熱心公益,共繪美好 B8 General disclosure | Policies on community engagement to understand the needs of the communities where the issuer operates and to ensure its activities take into consideration the communities' interests. | Disclosed | Devoting to Social Public Welfare for a Happy Life B8.1 | 專注貢獻範疇 (如教育、環境事宜、勞工需求、 健康、文化、體育) 。 Focus areas of contribution (e.g. education, environmental concerns, labor needs, health, culture, sport). | 已披露 Disclosed | 熱心公益,共繪美好 Devoting to Social Public Welfare for a Happy Life B8.2 | 在專注範疇所動用資源 (如金錢或時間) 。 Resources contributed (e.g. money or time) to the focus areas. | 已披露 Disclosed | 熱心公益,共繪美好 Devoting to Social Public Welfare for a Happy Life",
+      "bm25_rank": 18,
+      "dense_rank": 68,
+      "bm25_score": 47.47475814819336,
+      "dense_score": 0.4097849130630493,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.2526511057636096,
+      "normalized_dense": 0.17063494824189407,
+      "normalized_bm25_rank": 0.8859060402684564,
+      "normalized_dense_rank": 0.5503355704697986,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 18,
+      "composite_score": 0.30891017115819025,
+      "rank": 33,
+      "rrf_score": 0.30891017115819025,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L41_008",
+      "alias_source_ids": [
+        "L41_008"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        41
+      ],
+      "text": "積極開展和支持上市後重點監測,支持藥物不良反應 ( 「 ADR 」 ) 預警信號的調查處理工作,監督各子公司進行定期安全性 信號檢測和藥品不良事件聚集性信號處理,及時為集團各營銷部門提供藥品安全性問題支持。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n積極開展和支持上市後重點監測,支持藥物不良反應 ( 「 ADR 」 ) 預警信號的調查處理工作,監督各子公司進行定期安全性 信號檢測和藥品不良事件聚集性信號處理,及時為集團各營銷部門提供藥品安全性問題支持。",
+      "bm25_rank": null,
+      "dense_rank": 24,
+      "bm25_score": null,
+      "dense_score": 0.447501003742218,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3802616544770836,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8456375838926175,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 24,
+      "composite_score": 0.30221909584550277,
+      "rank": 34,
+      "rrf_score": 0.30221909584550277,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P42_002",
+      "alias_source_ids": [
+        "P42_002"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        42
+      ],
+      "text": "It is embedded with pharmacovigilance logic and strictly follows the time limit of business laws and regulations. The system design conforms to international standards and China's national conditions, and the inspection traces are retained to meet the verification requirements.",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nIt is embedded with pharmacovigilance logic and strictly follows the time limit of business laws and regulations. The system design conforms to international standards and China's national conditions, and the inspection traces are retained to meet the verification requirements.",
+      "bm25_rank": null,
+      "dense_rank": 25,
+      "bm25_score": null,
+      "dense_score": 0.44750022888183594,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.38025734778922804,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8389261744966443,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 25,
+      "composite_score": 0.30087530662555867,
+      "rank": 35,
+      "rrf_score": 0.30087530662555867,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P41_004",
+      "alias_source_ids": [
+        "P41_004"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        41
+      ],
+      "text": "It actively carried out and supported the key post-marketing monitoring, supported the investigation and processing of adverse drug reaction (' ADR ') warning signals, supervised all subsidiaries to conduct regular safety signal detection and aggregation signal processing of ADR events, and provided support for all marketing departments of the Group on drug safety issues in time.",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nIt actively carried out and supported the key post-marketing monitoring, supported the investigation and processing of adverse drug reaction (' ADR ') warning signals, supervised all subsidiaries to conduct regular safety signal detection and aggregation signal processing of ADR events, and provided support for all marketing departments of the Group on drug safety issues in time.",
+      "bm25_rank": null,
+      "dense_rank": 26,
+      "bm25_score": null,
+      "dense_score": 0.4470379054546356,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3776877459160176,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8322147651006712,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 26,
+      "composite_score": 0.2986336640907404,
+      "rank": 36,
+      "rrf_score": 0.2986336640907404,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P4_002",
+      "alias_source_ids": [
+        "P4_002"
+      ],
+      "section": "關於本報告 / About the Report",
+      "pages": [
+        4
+      ],
+      "text": "本集團按照同行對標、利益相關方問卷調研、 重要性議題分析、信息收集、信息覆核、報告 編寫、風險管理委員會審定、董事會批准、 報告發佈等步驟進行。",
+      "retrieval_text": "[Section]\n關於本報告 / About the Report\n\n[Content]\n本集團按照同行對標、利益相關方問卷調研、 重要性議題分析、信息收集、信息覆核、報告 編寫、風險管理委員會審定、董事會批准、 報告發佈等步驟進行。",
+      "bm25_rank": 101,
+      "dense_rank": 38,
+      "bm25_score": 18.007362365722656,
+      "dense_score": 0.43356558680534363,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.03992689824857932,
+      "normalized_dense": 0.3028083580222497,
+      "normalized_bm25_rank": 0.32885906040268453,
+      "normalized_dense_rank": 0.7516778523489933,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 38,
+      "composite_score": 0.2971897814675704,
+      "rank": 37,
+      "rrf_score": 0.2971897814675704,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L40_002",
+      "alias_source_ids": [
+        "L40_002"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        40
+      ],
+      "text": "建立新的機制,邀請醫院、檢測機構、數統單位等相關專業人員對產品進行全方面分析 Establish a new mechanism, invite hospitals, testing institutions, mathematical statistics centers and other related professionals to carry out a comprehensive analysis of products",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n建立新的機制,邀請醫院、檢測機構、數統單位等相關專業人員對產品進行全方面分析 Establish a new mechanism, invite hospitals, testing institutions, mathematical statistics centers and other related professionals to carry out a comprehensive analysis of products",
+      "bm25_rank": null,
+      "dense_rank": 27,
+      "bm25_score": null,
+      "dense_score": 0.4416844844818115,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.34793333644739993,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.825503355704698,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 27,
+      "composite_score": 0.2868773388975296,
+      "rank": 38,
+      "rrf_score": 0.2868773388975296,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "T111_001",
+      "alias_source_ids": [
+        "T111_001"
+      ],
+      "section": "附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide",
+      "pages": [
+        111
+      ],
+      "text": "ESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter A1 一般披露 | 有關廢氣及溫室氣體排放、向水及土地的排 污、有害及無害廢棄物的產生等的政策及遵守 對發行人有重大影響的相關法律及規例的資料。 | 已披露 | 安全守護,綠色發展 A1 General disclosure | Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to hazardous air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | Disclosed | Ensuring Safety and Green Development | Pursuing A1.1 | 排放物種類及相關排放數據。 The types of emissions and respective emissions data. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Green Development | Pursuing A1.2 | 直接 (範圍 1 ) 及能源間接 (範圍 2 ) 溫室氣體排放 量 (以噸計算)及 (如適用)密度 (如以每產量單 位、每項設施計算) 。 Direct (Scope 1) and energy indirect (Scope 2) | 已披露 | 附錄一 greenhouse gas emissions (in tons) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Disclosed | Appendix I A1.3 | 所產生有害廢棄物總量 (以噸計算) 及 (如適用) 密度 (如以每產量單位、每項設施計算) 。 Total hazardous waste produced in tons | 已披露 | 安全守護,綠色發展 and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Disclosed | Ensuring Safety and Green Development | Pursuing A1.4 | 所產生無害廢棄物總量 (以噸計算) 及 (如適用) 密度 (如以每產量單位、每項設施計算) 。 | 已披露 | 安全守護,綠色發展 Total non-hazardous waste produced in tons and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Disclosed | Ensuring Safety and Green Development | Pursuing A1.5 | 描述所訂立的排放量目標及為達到這些目標所 採取的步驟。 | 已披露 | 安全守護,綠色發展 Description of emission targets set and the steps taken to achieve them. | Disclosed | Ensuring Safety and Green Development | Pursuing A1.6 | 描述處理有害及無害廢棄物的方法,及描述所 訂立的減廢目標及為達到這些目標所採取的步 驟。 | 已披露 | 安全守護,綠色發展 Description of how hazardous and non-hazardous wastes are handled, the waste reduction targets set and the steps taken to achieve these targets. | Disclosed | Ensuring Safety and Green Development | Pursuing",
+      "retrieval_text": "[Section]\n附錄 II 《環境、社會及管治報告指引》 內容索引 / Appendix II Content Index of Environmental, Social and Governance Reporting Guide\n\n[Content]\nESG 指標 ESG KPIs | 披露情況 Disclosure | 對應章節 Corresponding Chapter A1 一般披露 | 有關廢氣及溫室氣體排放、向水及土地的排 污、有害及無害廢棄物的產生等的政策及遵守 對發行人有重大影響的相關法律及規例的資料。 | 已披露 | 安全守護,綠色發展 A1 General disclosure | Information on policies and compliance with relevant laws and regulations that have a significant impact on the issuer, relating to hazardous air and greenhouse gas emissions, discharges into water and land, and generation of hazardous and non-hazardous waste. | Disclosed | Ensuring Safety and Green Development | Pursuing A1.1 | 排放物種類及相關排放數據。 The types of emissions and respective emissions data. | 已披露 Disclosed | 安全守護,綠色發展 Ensuring Safety and Green Development | Pursuing A1.2 | 直接 (範圍 1 ) 及能源間接 (範圍 2 ) 溫室氣體排放 量 (以噸計算)及 (如適用)密度 (如以每產量單 位、每項設施計算) 。 Direct (Scope 1) and energy indirect (Scope 2) | 已披露 | 附錄一 greenhouse gas emissions (in tons) and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Disclosed | Appendix I A1.3 | 所產生有害廢棄物總量 (以噸計算) 及 (如適用) 密度 (如以每產量單位、每項設施計算) 。 Total hazardous waste produced in tons | 已披露 | 安全守護,綠色發展 and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Disclosed | Ensuring Safety and Green Development | Pursuing A1.4 | 所產生無害廢棄物總量 (以噸計算) 及 (如適用) 密度 (如以每產量單位、每項設施計算) 。 | 已披露 | 安全守護,綠色發展 Total non-hazardous waste produced in tons and, where appropriate, intensity (e.g. per unit of production volume, per facility). | Disclosed | Ensuring Safety and Green Development | Pursuing A1.5 | 描述所訂立的排放量目標及為達到這些目標所 採取的步驟。 | 已披露 | 安全守護,綠色發展 Description of emission targets set and the steps taken to achieve them. | Disclosed | Ensuring Safety and Green Development | Pursuing A1.6 | 描述處理有害及無害廢棄物的方法,及描述所 訂立的減廢目標及為達到這些目標所採取的步 驟。 | 已披露 | 安全守護,綠色發展 Description of how hazardous and non-hazardous wastes are handled, the waste reduction targets set and the steps taken to achieve these targets. | Disclosed | Ensuring Safety and Green Development | Pursuing",
+      "bm25_rank": 11,
+      "dense_rank": 88,
+      "bm25_score": 58.81340026855469,
+      "dense_score": 0.4007079005241394,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3345044082120478,
+      "normalized_dense": 0.12018475028333037,
+      "normalized_bm25_rank": 0.9328859060402684,
+      "normalized_dense_rank": 0.4161073825503355,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 11,
+      "composite_score": 0.2854756113556691,
+      "rank": 39,
+      "rrf_score": 0.2854756113556691,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P35_001",
+      "alias_source_ids": [
+        "P35_001"
+      ],
+      "section": "創新科技，健康未來 Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        35
+      ],
+      "text": "本集團子公司已制定相應實驗動物管理制度 與操作規程,對日常研發項目進行倫理監督 檢查,及時識別問題並提出整改意見,並對 結束項目提出倫理終結審查,保障動物應有 權益。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n本集團子公司已制定相應實驗動物管理制度 與操作規程,對日常研發項目進行倫理監督 檢查,及時識別問題並提出整改意見,並對 結束項目提出倫理終結審查,保障動物應有 權益。",
+      "bm25_rank": 8,
+      "dense_rank": 98,
+      "bm25_score": 69.64730834960938,
+      "dense_score": 0.39835458993911743,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.41271405143420187,
+      "normalized_dense": 0.1071050079822803,
+      "normalized_bm25_rank": 0.9530201342281879,
+      "normalized_dense_rank": 0.3489932885906041,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 8,
+      "composite_score": 0.28513023422157807,
+      "rank": 40,
+      "rrf_score": 0.28513023422157807,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P38_008",
+      "alias_source_ids": [
+        "P38_008"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        38
+      ],
+      "text": "對現有文件體系進行升級改善;對各部門提出的變更、偏差、糾正和預防措施 ( 「 CAPA 」 ) ,及時記錄、評 估及處理,保證產品質量在可控範圍內;開展年度質量回顧,完成驗證工作等。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n對現有文件體系進行升級改善;對各部門提出的變更、偏差、糾正和預防措施 ( 「 CAPA 」 ) ,及時記錄、評 估及處理,保證產品質量在可控範圍內;開展年度質量回顧,完成驗證工作等。",
+      "bm25_rank": null,
+      "dense_rank": 28,
+      "bm25_score": null,
+      "dense_score": 0.44120508432388306,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.34526882179952634,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8187919463087249,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 28,
+      "composite_score": 0.2846024768915792,
+      "rank": 41,
+      "rrf_score": 0.2846024768915792,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L41_006",
+      "alias_source_ids": [
+        "L41_006"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        41
+      ],
+      "text": "In accordance with the policies and regulations of national regulators, we asked the Group's subsidiaries to submit the safety reports of individual cases through the Gateway based upon E2B standards, and guided the Group's subsidiaries to handle the adverse reaction reports of individual cases based upon E2B standards. Now, all subsidiaries basically submitted the safety reports of individual cases in this way;",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nIn accordance with the policies and regulations of national regulators, we asked the Group's subsidiaries to submit the safety reports of individual cases through the Gateway based upon E2B standards, and guided the Group's subsidiaries to handle the adverse reaction reports of individual cases based upon E2B standards. Now, all subsidiaries basically submitted the safety reports of individual cases in this way;",
+      "bm25_rank": 89,
+      "dense_rank": 46,
+      "bm25_score": 19.955808639526367,
+      "dense_score": 0.426846981048584,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.053992670892359096,
+      "normalized_dense": 0.2654662271194784,
+      "normalized_bm25_rank": 0.4093959731543624,
+      "normalized_dense_rank": 0.697986577181208,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 46,
+      "composite_score": 0.28424862642196713,
+      "rank": 42,
+      "rrf_score": 0.28424862642196713,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P38_006",
+      "alias_source_ids": [
+        "P38_006"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        38
+      ],
+      "text": "Quality audit The Group is well aware of the importance of product quality to the survival and development of pharmaceutical enterprises, constantly strengthens the quality awareness, improves the quality management system, carries out quality management performance assessment with high standards, continuously improves the pharmacovigilance system, and enhances the core competitiveness of the enterprise through high-quality products and services.",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\nQuality audit The Group is well aware of the importance of product quality to the survival and development of pharmaceutical enterprises, constantly strengthens the quality awareness, improves the quality management system, carries out quality management performance assessment with high standards, continuously improves the pharmacovigilance system, and enhances the core competitiveness of the enterprise through high-quality products and services.",
+      "bm25_rank": null,
+      "dense_rank": 29,
+      "bm25_score": null,
+      "dense_score": 0.441062331199646,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3444753973830577,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.8120805369127517,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 29,
+      "composite_score": 0.28298249646662055,
+      "rank": 43,
+      "rrf_score": 0.28298249646662055,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P38_003",
+      "alias_source_ids": [
+        "P38_003"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        38
+      ],
+      "text": "本集團深知產品質量對於醫藥企業生存發展 的重要性,不斷強化質量意識、健全質量管 理體系,以高標準開展質量管理績效考核, 並持續完善藥物警戒體系,通過高質量的產 品和服務,不斷增強企業核心競爭力。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n本集團深知產品質量對於醫藥企業生存發展 的重要性,不斷強化質量意識、健全質量管 理體系,以高標準開展質量管理績效考核, 並持續完善藥物警戒體系,通過高質量的產 品和服務,不斷增強企業核心競爭力。",
+      "bm25_rank": null,
+      "dense_rank": 33,
+      "bm25_score": null,
+      "dense_score": 0.438422292470932,
+      "source_channels": [
+        "dense"
+      ],
+      "normalized_bm25": 0.0,
+      "normalized_dense": 0.3298020149336058,
+      "normalized_bm25_rank": 0.0,
+      "normalized_dense_rank": 0.785234899328859,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 33,
+      "composite_score": 0.27247768509253384,
+      "rank": 44,
+      "rrf_score": 0.27247768509253384,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P60_001",
+      "alias_source_ids": [
+        "P60_001"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        60
+      ],
+      "text": "本集團嚴格遵守相關法律法規,並根據 ISO 體 系要求建立 《 EHS 風險和機遇控制程序》 及 《危 險源辨識、風險評價控制程序》 ,持續、主動 識別危險源,制定並完善風險控制措施,以便 在緊急情況發生時及時做出響應。二零二一 年,本集團 EHS 部門積極參與新改擴建項目等 有重大變更項目的前期 EHS 風險評估,提出專 業意見,避免出現後期大規模整改等情況。 當子公司的生產組織方式有重大調整時, EHS 部門亦輔助子公司進行 EHS 管理的變更。",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\n本集團嚴格遵守相關法律法規,並根據 ISO 體 系要求建立 《 EHS 風險和機遇控制程序》 及 《危 險源辨識、風險評價控制程序》 ,持續、主動 識別危險源,制定並完善風險控制措施,以便 在緊急情況發生時及時做出響應。二零二一 年,本集團 EHS 部門積極參與新改擴建項目等 有重大變更項目的前期 EHS 風險評估,提出專 業意見,避免出現後期大規模整改等情況。 當子公司的生產組織方式有重大調整時, EHS 部門亦輔助子公司進行 EHS 管理的變更。",
+      "bm25_rank": 71,
+      "dense_rank": 59,
+      "bm25_score": 28.48964500427246,
+      "dense_score": 0.4159289598464966,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.11559816841085582,
+      "normalized_dense": 0.20478367009975945,
+      "normalized_bm25_rank": 0.5302013422818792,
+      "normalized_dense_rank": 0.610738255033557,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 59,
+      "composite_score": 0.2699617034519863,
+      "rank": 45,
+      "rrf_score": 0.2699617034519863,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "L78_001",
+      "alias_source_ids": [
+        "L78_001"
+      ],
+      "section": "安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development",
+      "pages": [
+        78
+      ],
+      "text": "制定 《垃圾分類管理制度》 ,確保辦公室垃圾的分類收集、定時轉送、妥善處理;",
+      "retrieval_text": "[Section]\n安全守護，綠色發展 / Ensuring Safety and Pursuing Green Development\n\n[Content]\n制定 《垃圾分類管理制度》 ,確保辦公室垃圾的分類收集、定時轉送、妥善處理;",
+      "bm25_rank": 5,
+      "dense_rank": 128,
+      "bm25_score": 96.36964416503906,
+      "dense_score": 0.3856857120990753,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.605621756996338,
+      "normalized_dense": 0.03669115846921762,
+      "normalized_bm25_rank": 0.9731543624161074,
+      "normalized_dense_rank": 0.1476510067114094,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 5,
+      "composite_score": 0.2608118944473864,
+      "rank": 46,
+      "rrf_score": 0.2608118944473864,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P49_001",
+      "alias_source_ids": [
+        "P49_001"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        49
+      ],
+      "text": "二零二一年十月,北京澳合開展保密管理規定培訓,副院長張樹祥博士向研究院 全體員工強調了保密制度的重要性,並詳細介紹了保密制度的實施,保密信息的 範疇、保密等級劃分、涉密人員、儀器、辦公區域的要求以及違反保密制度的懲 罰原則等事項。此次培訓增強了員工的保密意識,讓大家意識到集團的每一名員 工均有義務保守商業秘密。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n二零二一年十月,北京澳合開展保密管理規定培訓,副院長張樹祥博士向研究院 全體員工強調了保密制度的重要性,並詳細介紹了保密制度的實施,保密信息的 範疇、保密等級劃分、涉密人員、儀器、辦公區域的要求以及違反保密制度的懲 罰原則等事項。此次培訓增強了員工的保密意識,讓大家意識到集團的每一名員 工均有義務保守商業秘密。",
+      "bm25_rank": 10,
+      "dense_rank": 109,
+      "bm25_score": 60.593238830566406,
+      "dense_score": 0.39275047183036804,
+      "source_channels": [
+        "bm25",
+        "dense"
+      ],
+      "normalized_bm25": 0.3473530070635914,
+      "normalized_dense": 0.07595721935054485,
+      "normalized_bm25_rank": 0.9395973154362416,
+      "normalized_dense_rank": 0.2751677852348994,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 10,
+      "composite_score": 0.245048916776013,
+      "rank": 47,
+      "rrf_score": 0.245048916776013,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P85_001",
+      "alias_source_ids": [
+        "P85_001"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        85
+      ],
+      "text": "本集團嚴格遵守 《中華人民共和國勞動法》 、 《中華人民共和國社會保險法》 、 《中華人民共 和國勞動和社會保障部最低工資規定》 等法律 法規,制定並落實 《薪酬管理制度》 、 《四環醫 藥控股集團員工晉職晉級管理制度》 等內部管 理制度,持續優化薪酬及晉升管理,激勵挽 留優秀員工,實現集團的長期企業目標。",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\n本集團嚴格遵守 《中華人民共和國勞動法》 、 《中華人民共和國社會保險法》 、 《中華人民共 和國勞動和社會保障部最低工資規定》 等法律 法規,制定並落實 《薪酬管理制度》 、 《四環醫 藥控股集團員工晉職晉級管理制度》 等內部管 理制度,持續優化薪酬及晉升管理,激勵挽 留優秀員工,實現集團的長期企業目標。",
+      "bm25_rank": 3,
+      "dense_rank": null,
+      "bm25_score": 102.03535461425781,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.646522343333073,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9865771812080537,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 3,
+      "composite_score": 0.22796218678741997,
+      "rank": 48,
+      "rrf_score": 0.22796218678741997,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P46_002",
+      "alias_source_ids": [
+        "P46_002"
+      ],
+      "section": "創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future",
+      "pages": [
+        46
+      ],
+      "text": "四環醫藥嚴格遵守 《中華人民共和國網絡安全 法》 等相關法律規例,制定 《四環醫藥控股集 團信息管理制度》 ,規範信息技術相關標準、 技術規範和管理制度,提升本集團信息技術 管理的專業化、規範化程度。本集團搭建了 清晰的信息安全管治架構,由行政總裁擔任 信息安全決策小組組長,對信息安全宏觀事 項進行決策;由集團數字化運營中心負責人 擔任組長,帶領信息安全管理小組負責本集 團日常的信息安全工作開展。",
+      "retrieval_text": "[Section]\n創新科技，健康未來 / Fostering Innovation in Science and Technology for a Healthy Future\n\n[Content]\n四環醫藥嚴格遵守 《中華人民共和國網絡安全 法》 等相關法律規例,制定 《四環醫藥控股集 團信息管理制度》 ,規範信息技術相關標準、 技術規範和管理制度,提升本集團信息技術 管理的專業化、規範化程度。本集團搭建了 清晰的信息安全管治架構,由行政總裁擔任 信息安全決策小組組長,對信息安全宏觀事 項進行決策;由集團數字化運營中心負責人 擔任組長,帶領信息安全管理小組負責本集 團日常的信息安全工作開展。",
+      "bm25_rank": 6,
+      "dense_rank": null,
+      "bm25_score": 89.66629791259766,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.5572305102850249,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9664429530201343,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 6,
+      "composite_score": 0.2080903973590184,
+      "rank": 49,
+      "rrf_score": 0.2080903973590184,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    },
+    {
+      "paragraph_id": "P90_002",
+      "alias_source_ids": [
+        "P90_002"
+      ],
+      "section": "聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future",
+      "pages": [
+        90
+      ],
+      "text": "此外,本集團持續優化員工福利關愛體系, 不斷提升員工的歸屬感。我們提倡工作與休 息之平衡,於 《考勤管理制度》 中明確工作時 數,針對確因工作原因需要延長工作時間的 員工,集團在制度中明確了加班補償、加班時 間計算等規定,保障員工的合法權益。我們 制定 《考勤管理制度》 ,明確休假申請流程, 妥善管理員工的假期安排,為員工提供法定 節假日、年假、婚嫁、產假、陪護假、哺乳假 等假期福利。除了法定 「五險一金」 和帶薪假 期外,我們還為員工提供多樣化福利保障, 括夥食補貼,通訊補貼,特殊崗位津貼、 商業保險等項目。同時,我們積極開展節日 活動、體育活動、知識競賽等活動,持續優化 食堂運營,不斷升級菜品,鼓勵員工平衡工 作和生活,提升員工的幸福感,保持更好的 工作及生活心態。",
+      "retrieval_text": "[Section]\n聚焦人才，攜手並進 / Empowering Talents and Shaping a Brighter Future\n\n[Content]\n此外,本集團持續優化員工福利關愛體系, 不斷提升員工的歸屬感。我們提倡工作與休 息之平衡,於 《考勤管理制度》 中明確工作時 數,針對確因工作原因需要延長工作時間的 員工,集團在制度中明確了加班補償、加班時 間計算等規定,保障員工的合法權益。我們 制定 《考勤管理制度》 ,明確休假申請流程, 妥善管理員工的假期安排,為員工提供法定 節假日、年假、婚嫁、產假、陪護假、哺乳假 等假期福利。除了法定 「五險一金」 和帶薪假 期外,我們還為員工提供多樣化福利保障, 括夥食補貼,通訊補貼,特殊崗位津貼、 商業保險等項目。同時,我們積極開展節日 活動、體育活動、知識競賽等活動,持續優化 食堂運營,不斷升級菜品,鼓勵員工平衡工 作和生活,提升員工的幸福感,保持更好的 工作及生活心態。",
+      "bm25_rank": 7,
+      "dense_rank": null,
+      "bm25_score": 71.23597717285156,
+      "dense_score": null,
+      "source_channels": [
+        "bm25"
+      ],
+      "normalized_bm25": 0.42418260192718654,
+      "normalized_dense": 0.0,
+      "normalized_bm25_rank": 0.9597315436241611,
+      "normalized_dense_rank": 0.0,
+      "facets": [],
+      "facet_score": 0.0,
+      "best_channel_rank": 7,
+      "composite_score": 0.18080967474785342,
+      "rank": 50,
+      "rrf_score": 0.18080967474785342,
+      "retrieval_stage": "qwen37_protected_composite_no_reranker"
+    }
+  ]
+}
