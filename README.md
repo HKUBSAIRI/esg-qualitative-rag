@@ -1,4 +1,4 @@
-# ESG 定性 RAG 方法（无 Reranker）
+# ESG 定性 RAG 方法
 
 面向 ESG 定性指标证据召回的可复现流水线。当前冻结版本使用：
 
@@ -14,7 +14,7 @@ BM25 / Dense / facet 通道保护
 Top50 证据候选
 ```
 
-本版本**不使用 reranker 模型，也不进行 LLM 评分**。仓库同时提供完整实验数据、人工 Ground Truth、embedding 缓存、1,060 个检索任务的逐任务结果和汇总指标。
+仓库提供完整的检索实现、实验数据、人工 Ground Truth、embedding 缓存，以及 1,060 个检索任务的逐任务结果和汇总指标。
 
 ## 已验证结果
 
@@ -48,7 +48,7 @@ data/
     retrieval_chunks.jsonl          20 份冻结检索语料
   ground_truth/                     20 份人工 GT 与对齐审计文件
   metrics/metrics_53.json           53 指标定义、关键词和证据问题
-results/no_reranker_20x53/
+results/
   results/                           1,060 个 PDF×指标 Top50 结果
   embedding_cache/                   冻结 Qwen3.7 embedding 缓存
   summary.json                       总体配置与汇总指标
@@ -71,7 +71,7 @@ esg-qualitative-rag verify-results
 
 ## 重新运行完整流水线
 
-仓库附带完整 embedding 缓存。对冻结的 20×53 数据重新运行时，缓存完整命中，不需要 reranker；如果输入或查询发生变化导致 cache miss，则需要 DashScope API Key：
+仓库附带完整 embedding 缓存。对冻结的 20×53 数据重新运行时可完整命中缓存；如果输入或查询发生变化导致 cache miss，则需要 DashScope API Key：
 
 ```bash
 cp .env.example .env
@@ -101,7 +101,7 @@ esg-qualitative-rag run \
 + 0.15 × facet_score
 ```
 
-最终选择时保护 BM25 前 10、Dense 前 10，并为每个指标 facet 保护至少一个高分候选，再按综合分补齐 Top50。这样避免二次模型重排对长尾证据造成召回损失。
+最终选择时保护 BM25 前 10、Dense 前 10，并为每个指标 facet 保护至少一个高分候选，再按综合分补齐 Top50，以兼顾核心候选和长尾证据的召回。
 
 ## 评测口径
 
@@ -110,7 +110,7 @@ esg-qualitative-rag run \
 - **任务命中率**：有 GT 的 PDF×指标任务中，至少召回一个 GT 组件的比例。
 - GT 只参与最终评测，不参与查询生成后的候选排序，也不会写回检索结果。
 
-更完整的实验解释见 [`results/no_reranker_20x53/EXPERIMENT_REPORT.md`](results/no_reranker_20x53/EXPERIMENT_REPORT.md)。
+更完整的实验解释见[实验报告](results/no_reranker_20x53/EXPERIMENT_REPORT.md)。
 
 ## 数据说明
 
