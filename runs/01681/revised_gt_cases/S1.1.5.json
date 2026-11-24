@@ -1,0 +1,101 @@
+{
+  "groups": [
+    {
+      "group_id": "D1",
+      "score": 100,
+      "reason": "主体：康臣药业集团；适用范围：所有员工；年度：2025年；事项：明确披露反歧视政策，严禁基于种族、民族、国籍、宗教信仰、性别等因素的任何形式歧视。符合D1判100条件。",
+      "evidence": [
+        {
+          "chunk_id": "01681_fd0c65a3dd4166_p43_b0",
+          "quote": "本集團倡導多元共融的企業文化，為所有員工提供平等的就業與發展機會，嚴禁基於種族、民族、國籍、宗教信仰、性別等因素的任何形式歧視。",
+          "reason": "直接披露禁止员工相关歧视的政策要求，覆盖所有员工，支持D1",
+          "pages": [
+            43
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01681_primary_L43_018",
+          "quote": "The Group advocates a corporate culture of diversity and inclusion, providing all employees with equal employment and development opportunities, and strictly prohibiting any form of discrimination based on race, ethnicity, nationality, religious belief, gender, or other factors.",
+          "reason": "英文版同一政策表述，交叉印证反歧视政策适用于所有员工",
+          "pages": [
+            43
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "D2",
+      "score": 0,
+      "reason": "主体：康臣药业集团；年度：2025年；事项：原文未识别到明确禁止职场骚扰或反性骚扰的政策、制度或措施。仅有反腐及一般商业道德表述，不满足D2判100条件。",
+      "evidence": []
+    },
+    {
+      "group_id": "D3",
+      "score": 100,
+      "reason": "主体：康臣药业集团；适用范围：员工；年度：2025年；事项：设立专门举报和申诉渠道，鼓励员工举报包括歧视和不公平待遇在内的职场不当行为。该机制适用于歧视投诉受理，符合D3判100条件。",
+      "evidence": [
+        {
+          "chunk_id": "01681_primary_P45_003",
+          "quote": "Furthermore, the Group has established dedicated reporting and grievance channels, encouraging employees to report workplace misconduct including bullying, abuse of power, discrimination, and unfair treatment, safeguarding a fair and respectful workplace environment.",
+          "reason": "明确披露适用于歧视投诉的受理渠道，鼓励员工举报歧视行为，支持D3",
+          "pages": [
+            45
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "D4",
+      "score": 100,
+      "reason": "主体：康臣药业集团；适用范围：员工及相关方；年度：2025年；事项：员工投诉举报管理办法允许匿名举报，承诺对举报信息全面保密，对报复行为零容忍。这些保护措施适用于歧视骚扰议题，符合D4判100条件。",
+      "evidence": [
+        {
+          "chunk_id": "01681_fd0c65a3dd4166_p14_b0",
+          "quote": "本集團制定員工投訴舉報管理辦法，並設置了多種渠道，包括電話、電子郵件、信函、面談、傳真、通過辦公自動化系統（OA）發起等，鼓勵員工和相關方積極參與監督，允許以匿名的形式舉報任何違反合規制度的行為。我們承諾對舉報信息全面保密，對報復行為零容忍，從而營造公平、公正、透明的企業文化環境。",
+          "reason": "披露匿名举报、保密承诺及不报复（零容忍）措施，适用于员工投诉举报，支持D4",
+          "pages": [
+            14
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01681_primary_L14_005",
+          "quote": "Employees and stakeholders are encouraged to actively participate in supervision and are permitted to report any violations of compliance policies anonymously. We are committed to maintaining full confidentiality of all reported information and adopting a zero-tolerance approach towards retaliation, thereby fostering a fair, just, and transparent corporate culture.",
+          "reason": "英文版同一内容，交叉印证匿名、保密及不报复保护措施",
+          "pages": [
+            14
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "D5",
+      "score": 100,
+      "reason": "主体：康臣药业集团；适用范围：员工；年度：2025年；事项：明确规定一经发现违反劳动法规或内部制度（含前文所述反歧视规定）的行为，将视情节采取停职调查或解除劳动合同等措施。属于对查实违规行为的处分与问责规则，符合D5判100条件。",
+      "evidence": [
+        {
+          "chunk_id": "01681_fd0c65a3dd4166_p43_b0",
+          "quote": "一經發現違反勞動法規或內部制度的行為，集團將視情節採取相應措施，包括停職調查或解除勞動合同。",
+          "reason": "披露对违反内部制度（包含同页反歧视政策）行为的处分规则，支持D5",
+          "pages": [
+            43
+          ],
+          "exact_match": false
+        }
+      ]
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "未发现经核实的严重歧视、骚扰或系统性机会不公平且未有效纠正的事项"
+  },
+  "company_id": "01681",
+  "indicator": "S1.1.5",
+  "base_score": 80.0,
+  "final_score": 80.0,
+  "method": "revised_gt_cases"
+}

@@ -1,0 +1,92 @@
+{
+  "groups": [
+    {
+      "group_id": "T1",
+      "score": 100,
+      "reason": "主体：和黃醫藥（中國）有限公司；年度：2025；适用范围：部分员工（some employees）；具体事项：披露了弹性工作时间安排，包括可调整的工作时间。满足T1关于具体工时或排班政策的条件。",
+      "evidence": [
+        {
+          "chunk_id": "00013_primary_P66_002",
+          "quote": "We have implemented flexible working arrangements for some employees, including adaptable working hours and locations, as well as compensation leave, allowing employees to tailor their work schedules to better align with their individual habits and lifestyles.",
+          "reason": "直接披露已实施的可调整工作时间（adaptable working hours）及调休（compensation leave）安排，属于具体工时与排班政策事实",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "00013_primary_P61_001",
+          "quote": "They are designed to ensure equal opportunities, prevent discrimination and harassment and uphold fair standards for working hours, rest periods, and employee benefits across all the countries and regions where we operate.",
+          "reason": "补充说明工时与休息标准政策覆盖所有运营国家和地区",
+          "pages": [
+            61
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T2",
+      "score": 0,
+      "reason": "主体：和黃醫藥（中國）有限公司；年度：2025；适用范围：未说明；具体事项：原文未披露加班申请、审批、自愿性、时长控制或异常处置的具体政策、程序或事实。仅提及compensation leave（调休），但未说明其与加班管理的关联。不满足T2条件。",
+      "evidence": []
+    },
+    {
+      "group_id": "T3",
+      "score": 100,
+      "reason": "主体：和黃醫藥（中國）有限公司；年度：2025；适用范围：全体员工（Employees）；具体事项：明确列出员工享有的各类假期权利，包括法定年假、事假、带薪病假、育儿假等。满足T3关于明确员工休息休假权利的条件。",
+      "evidence": [
+        {
+          "chunk_id": "00013_primary_P61_004",
+          "quote": "Employees enjoy a wide array of holidays, including national holidays, statutory annual leave, casual leave, paid sick leave, parental leave including maternity leave (see details under Performance Data Summary-Social-Parental leave), and compassionate leave.",
+          "reason": "直接列明员工享有的国家假日、法定年休假、事假、带薪病假、育儿假及恩恤假等具体休假权利",
+          "pages": [
+            61
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T4",
+      "score": 100,
+      "reason": "主体：和黃醫藥（中國）有限公司；年度：2025；适用范围：部分员工（some employees）；具体事项：披露了调休（compensation leave）管理机制，允许员工调整工作时间表。满足T4关于调休管理机制的条件。",
+      "evidence": [
+        {
+          "chunk_id": "00013_primary_P66_002",
+          "quote": "We have implemented flexible working arrangements for some employees, including adaptable working hours and locations, as well as compensation leave, allowing employees to tailor their work schedules to better align with their individual habits and lifestyles.",
+          "reason": "披露已实施的调休（compensation leave）机制，属于具体的休假管理安排",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T5",
+      "score": 100,
+      "reason": "主体：和黃醫藥（中國）有限公司；年度：2025；适用范围：享有育儿假的员工；具体事项：披露了2025年度育儿假实际使用数据（Taken）及返岗率结果。满足T5关于当期休假使用实际执行结果的条件。",
+      "evidence": [
+        {
+          "chunk_id": "00013_primary_T74_002",
+          "quote": "2025 | 2024 | 2023\nNumber of parental leave | Female | Male | Female | Male | Female | Male\nEntitled | 86 | 33 | 82 | 27 | 31 | 12\nTaken | 77 | 30 | 79 | 25 | 30 | 12\nReturned to work after parental leave | 60 | 30 | 64 | 25 | 30 | 12\nReturned to work rate Note 1 | 77.9% | 100% | 81.0% | 100% | 100% | 100%",
+          "reason": "提供2025年度育儿假实际休假人数（Taken）及返岗率的量化执行结果，属于当期休假使用的实际结果证据",
+          "pages": [
+            74
+          ],
+          "exact_match": true
+        }
+      ]
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "候选原文中未发现经核实的严重超时工作或违法剥夺休息休假权利且未有效纠正的披露"
+  },
+  "company_id": "00013",
+  "indicator": "S1.1.3",
+  "base_score": 80.0,
+  "final_score": 80.0,
+  "method": "revised_gt_cases"
+}

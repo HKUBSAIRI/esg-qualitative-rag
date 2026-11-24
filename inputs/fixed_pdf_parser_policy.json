@@ -1,0 +1,31 @@
+{
+  "pipeline": "original_local_docling_natural_paragraph",
+  "docling_python": "/Users/liusuyao/code/python_code/IS/ESG-pipeline1.0/esg_groundtruth_bruteforce/.venv-docling/bin/python",
+  "natural_parser": "/Users/liusuyao/code/python_code/IS/ESG-agent/components/pdf_parser/natural_pdf_parser",
+  "ocr": false,
+  "docling_args": [
+    "--from",
+    "pdf",
+    "--to",
+    "json",
+    "--image-export-mode",
+    "placeholder",
+    "--no-ocr",
+    "--abort-on-error"
+  ],
+  "fallback_pdf_parser": null,
+  "post_parser_length_split": false,
+  "source_sha256": {
+    "paragraphs.py": "0963f292c38061fc44b3b79935a7b8666de354385fb8115b463854dcc241a758",
+    "__init__.py": "c10f9998b5a15dc8021fd24c9d2cc0f1cfe8dc16c6b2f2b1548eb2635c9dc4cc",
+    "visualize.py": "0dec593418b5140dabcc70420f4c52570f1be70f6b18604f6e97bf357abfead8",
+    "docling_normalizer.py": "3f2b5c8c0d2b645980f4aa0d3ac2562a021853fe3026e5284432d16891ff4865",
+    "common.py": "4ca64298d68472a6141be2defd32d0752981da21b16290da8698a60c20641515",
+    "pipeline.py": "14ebf703a96dcb9fcc4fe27cf2208955adf6db8c16cdc2e8a503d67b6714b468",
+    "text.py": "7ccd6c65cb9ec3b151100b87fa46903304689417b3fc9bc7c9f77d7bf0db55ad",
+    "hybrid_paragraphs.py": "877d6df7df6ff87cee8635d879948d551d3dd09be583f80c8066ce8e46e4ea1c",
+    "__main__.py": "5f4cb1d6893bb0b59ffde845c37c0f3615f6c62c1fe153563826ae512407b498"
+  },
+  "new_entrypoint": "src/docling_fixed_group.py",
+  "historical_results_preserved": true
+}

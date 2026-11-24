@@ -1,0 +1,110 @@
+{
+  "groups": [
+    {
+      "group_id": "T1",
+      "score": 100,
+      "reason": "主体：石藥集團；适用范围：全体员工；年度：2025；事项：披露考勤假别管理制度。原文直接列出《考勤假別管理制度》，属于具体工时及休假管理政策，满足T1对排班或合理工时控制政策的条件。",
+      "evidence": [
+        {
+          "chunk_id": "01093_ba69d1cf54556a_p59_b0",
+          "quote": "制定《勞動關係管理制度》《考勤假別管理制度》《員工離職管理制度》",
+          "reason": "明确列出考勤假别管理制度名称，属于具体工时与休假管理政策，支持T1",
+          "pages": [
+            59
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01093_primary_P59_002",
+          "quote": "We have established systems including the Labor Relations Management System, Attendance and Leave Management System",
+          "reason": "英文版同样确认已建立考勤与休假管理制度，支持T1",
+          "pages": [
+            59
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T2",
+      "score": 0,
+      "reason": "主体：石藥集團；适用范围：未说明；年度：2025；事项：加班管理。候选原文中未找到关于加班申请、审批、自愿性、时长控制或异常处置的具体政策、程序或事实披露。",
+      "evidence": []
+    },
+    {
+      "group_id": "T3",
+      "score": 100,
+      "reason": "主体：石藥集團（本集團）；适用范围：全体员工；年度：2025；事项：休息休假保障。原文明确员工享有年休假、婚假、产假、育儿假、哺乳假等法定假期权利，满足T3对休息休假权利披露的条件。",
+      "evidence": [
+        {
+          "chunk_id": "01093_ba69d1cf54556a_p62_b0",
+          "quote": "確保全體員工享有完備的法定假期福利，包括年休假、婚假、產假、育兒假、哺乳假等",
+          "reason": "中文原文明确列出全体员工享有的各类法定假期权利，直接支持T3",
+          "pages": [
+            62
+          ],
+          "exact_match": false
+        },
+        {
+          "chunk_id": "01093_primary_P62_003",
+          "quote": "ensure that all employees enjoy comprehensive statutory leave benefits, including annual leave, marriage leave, maternity leave, childcare leave, and breastfeeding leave",
+          "reason": "英文原文同样确认全体员工享有全面法定休假福利，支持T3",
+          "pages": [
+            62
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T4",
+      "score": 100,
+      "reason": "主体：石藥集團；适用范围：全体员工；年度：2025；事项：工时及休假管理机制。原文披露利用人力资源信息化管理系统实现全流程管控，并依托数字化工具在EHR系统中上线相关模块，属于具体考勤及休假管理机制。",
+      "evidence": [
+        {
+          "chunk_id": "01093_ba69d1cf54556a_p59_b0",
+          "quote": "搭建全週期的僱傭管理體系，利用人力資源信息化管理系統實現全流程管控",
+          "reason": "披露使用人力资源信息化管理系统进行全流程管控，涵盖考勤休假管理，支持T4",
+          "pages": [
+            59
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01093_primary_P59_002",
+          "quote": "supported by a digital human resources information system, safeguarding employees' lawful rights and interests at every stage from onboarding to departure",
+          "reason": "英文版确认数字化人力资源信息系统支撑全生命周期雇佣管理，支持T4",
+          "pages": [
+            59
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T5",
+      "score": 100,
+      "reason": "主体：石藥集團；适用范围：集团及子公司；年度：2025；事项：实际执行或纠正结果。原文披露顺利通过PSCI社会责任审计，对工作时间及工作环境等方面进行了全面审查且无严重不符合项。依据特别规则，报告原文披露内部人力资源审计（含外部社会责任审计中对工时等事项的审查），即可作为T5成立的依据。",
+      "evidence": [
+        {
+          "chunk_id": "01093_ba69d1cf54556a_p59_b0",
+          "quote": "我們已順利通過PSCI 社會責任審計，對人權與勞工實踐進行了全面審查，涵蓋勞工保護、職業健康安全、擇業自由、非歧視、薪酬福利、工作時間及工作環境等方面，最終審計結果良好，無嚴重不符合項",
+          "reason": "披露通过PSCI社会责任审计，明确覆盖工作时间等事项的全面审查且结果良好无严重不符合项，构成当期实际工时监测与执行覆盖的证据，依据特别规则支持T5",
+          "pages": [
+            59
+          ],
+          "exact_match": false
+        }
+      ]
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "候选原文未发现经核实的严重超时工作或违法剥夺休息休假权利且未有效纠正的事项。"
+  },
+  "company_id": "01093",
+  "indicator": "S1.1.3",
+  "base_score": 80.0,
+  "final_score": 80.0,
+  "method": "revised_gt_cases"
+}

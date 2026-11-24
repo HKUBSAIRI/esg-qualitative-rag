@@ -1,0 +1,61 @@
+{
+  "company": {
+    "code": "00013",
+    "company": "和黃醫藥（中國）有限公司",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040900609.pdf",
+    "pdf": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/pdfs/00013_2025.pdf",
+    "parsed": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/parsed/00013/retrieval_chunks.jsonl"
+  },
+  "documents": [
+    {
+      "id": "00013_primary",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040900609.pdf",
+      "path": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/pdfs/00013_2025.pdf",
+      "title": "2025 ESG report",
+      "kind": "esg2025",
+      "sha256": "3f4dda499996283aada23b8b8a4c46068e8a230ec822f0da2d9e0102a50d190d",
+      "parsed_cache": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/parsed/00013/retrieval_chunks.jsonl",
+      "official": true
+    }
+  ],
+  "coverage": {
+    "esg2025": true,
+    "annual2025": false,
+    "esg2024": false,
+    "annual2024": false,
+    "policy_or_other": false,
+    "regulatory_checked": false,
+    "judicial_checked": false,
+    "complete": false,
+    "regulatory_discovery_search_done": true,
+    "judicial_discovery_search_done": true
+  },
+  "search_log": [
+    {
+      "url": "https://www.hutch-med.com/sc/sustainability/",
+      "status": "failed",
+      "error": "ConnectError"
+    },
+    {
+      "url": "https://www.hutch-med.com/sc/investors/",
+      "status": "failed",
+      "error": "ConnectError"
+    },
+    {
+      "stage": "regulatory_judicial_discovery",
+      "status": "searched",
+      "date": "2026-11-17",
+      "record_directory": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG-2.0/inputs/search_logs",
+      "completeness": "Search undertaken; no blanket absence conclusion. Original-source verification and missing documents remain pending."
+    },
+    {
+      "url": "https://www.hutch-med.com/wp-content/uploads/2026/04/2025AR-Form20F.pdf",
+      "status": "supplement_failed",
+      "error": "ConnectError"
+    }
+  ],
+  "crawl_exhausted": true,
+  "remaining_links": 0,
+  "cutoff": "2026-11-17",
+  "note": "Crawl is discovery only; source completeness requires explicit review."
+}

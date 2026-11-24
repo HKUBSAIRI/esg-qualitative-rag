@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0">
+    <title>信达生物</title>
+    <meta name="description" content="公司致力于开发出老百姓用得起的高质量生物药，让中国患者真正享受到科技进步带来的健康成果。已建立起一条包括37个新药品种的产品链，覆盖肿瘤、代谢疾病等多个疾病领域，公司已有18个产品获得批准上市，8个品种获批国家“重大新药创制”科技重大专项。">
+    <meta name="keywords" content="信达生物,玛仕度肽,高质量生物药">
+    
+    <!-- 规范链接 -->
+    <link rel="canonical" href="https://www.innoventbio.com/seo-page">
+    
+    <!-- Open Graph标签 -->
+    <meta property="og:title" content="信达生物">
+    <meta property="og:description" content="公司致力于开发出老百姓用得起的高质量生物药，让中国患者真正享受到科技进步带来的健康成果。已建立起一条包括37个新药品种的产品链，覆盖肿瘤、代谢疾病等多个疾病领域，公司已有18个产品获得批准上市，8个品种获批国家“重大新药创制”科技重大专项。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.innoventbio.com/seo-page">
+    
+    <script src="//g.alicdn.com/frontend-lib/frontend-lib/2.3.74/antidom.js"></script><script src="//o.alicdn.com/frontend-lib/common-lib/jquery.min.js"></script><script>
+        // 如果被Vue拦截，强制重定向
+        if (window.location.hash) {
+            window.location.href = window.location.origin + window.location.pathname;
+        }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            background-color: #fff;
+            color: #1a1a1a;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        
+        /* ========== Banner 全屏撑满 ========== */
+        .hero-fullwidth {
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            background-color: #f0f7ff;
+        }
+        .hero-banner {
+            margin: 0 auto;
+            text-align: center;
+            overflow: hidden;
+        }
+        .hero-banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+        
+        /* 粉色分隔线 - 全屏撑满 */
+        .pink-divider-full {
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            background-color: #d21258;
+            line-height: 55px;
+            height: 55px;
+            font-size: 0;
+        }
+        
+        /* 主内容容器 - 居中且有最大宽度 */
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        
+        .page-header {
+            padding-top: 1.5rem;
+            padding-bottom: 0.5rem;
+        }
+        h1 {
+            color: #003366;
+            font-size: 2rem;
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+            border-left: 5px solid #0099cc;
+            padding-left: 20px;
+        }
+        h2 {
+            color: #003366;
+            margin: 1.5rem 0 0.8rem 0;
+            padding-bottom: 0.3rem;
+            border-bottom: 2px solid #e6f0fa;
+        }
+        h3 {
+            color: #1a5d8f;
+            margin: 1.2rem 0 0.5rem 0;
+        }
+        p {
+            margin: 15px 0;
+            line-height: 1.7;
+            color: #2c3e4e;
+        }
+        
+        /* ========== 公司高管块状卡片样式 - 方形图片 ========== */
+        .leadership-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 30px 0 20px;
+            justify-content: flex-start;
+        }
+        .list-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            width: calc(25% - 23px);
+            min-width: 200px;
+            padding: 24px 16px 20px;
+            border: 1px solid #eef2f7;
+        }
+        .list-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+        }
+        /* 方形图片样式，无圆角边框 */
+        .list-item img {
+            width: 160px;
+            height: 180px;
+            object-fit: cover;
+            background-color: #f5f9fe;
+            margin-bottom: 20px;
+            border-radius: 0;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        .list-item__ft h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #003366;
+            margin: 0 0 8px 0;
+            letter-spacing: 1px;
+        }
+        .list-item__ft div {
+            font-size: 0.9rem;
+            color: #2c6280;
+            line-height: 1.4;
+            font-weight: 500;
+        }
+        /* 响应式调整 */
+        @media (max-width: 992px) {
+            .list-item {
+                width: calc(33.33% - 20px);
+            }
+            .list-item img {
+                width: 140px;
+                height: 160px;
+            }
+        }
+        @media (max-width: 768px) {
+            .leadership-grid {
+                gap: 20px;
+            }
+            .list-item {
+                width: calc(50% - 10px);
+                padding: 18px 12px;
+            }
+            .list-item img {
+                width: 120px;
+                height: 140px;
+            }
+            .list-item__ft h3 {
+                font-size: 1.2rem;
+            }
+            .content-container {
+                padding: 0 16px;
+            }
+        }
+        @media (max-width: 480px) {
+            .list-item {
+                width: 100%;
+            }
+        }
+        
+        /* ========== 页脚样式 - 背景撑满全宽 ========== */
+        .footer-fullwidth {
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            background: #1a355e;
+            margin-top: 3rem;
+        }
+        .inno-footer {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 88px 24px 100px;
+        }
+        @media screen and (min-width: 768px) {
+            .inno-footer {
+                padding: 100px 24px 172px;
+            }
+        }
+        .share-box {
+            padding: 20px 0 40px;
+            text-align: center;
+        }
+        .share {
+            display: inline-block;
+            width: 35px;
+            margin: 0 8px;
+            transition: opacity 0.2s;
+        }
+        .share:hover {
+            opacity: 0.8;
+        }
+        .inno-footer-menus {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -8px;
+        }
+        .inno-footer-menu {
+            width: 33%;
+            margin-bottom: 45px;
+            padding: 0 8px;
+        }
+        @media screen and (max-width: 768px) {
+            .inno-footer-menu:nth-child(1),
+            .inno-footer-menu:nth-child(4) {
+                width: 42%;
+            }
+            .inno-footer-menu:nth-child(2),
+            .inno-footer-menu:nth-child(5) {
+                width: 33%;
+            }
+            .inno-footer-menu:nth-child(3),
+            .inno-footer-menu:nth-child(6) {
+                width: 25%;
+            }
+        }
+        @media screen and (min-width: 768px) {
+            .inno-footer-menu {
+                width: 14%;
+            }
+            .inno-footer-menu:nth-child(1) {
+                width: 184px;
+                flex: none;
+            }
+            .inno-footer-menu:nth-child(2) {
+                width: 251px;
+                flex: none;
+            }
+            .inno-footer-menu:nth-child(3) {
+                width: 267px;
+                flex: none;
+            }
+            .inno-footer-menu:nth-child(4) {
+                width: 175px;
+                flex: none;
+            }
+            .inno-footer-menu:nth-child(5) {
+                width: 127px;
+                flex: none;
+            }
+            .inno-footer-menu:nth-child(6),
+            .inno-footer-menu:nth-child(7) {
+                width: auto;
+                flex: 1;
+            }
+        }
+        .inno-footer-menu-heading {
+            font-size: 13px;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 600;
+            border-bottom: none;
+            text-decoration: none;
+            background: transparent;
+        }
+        html:lang(zh) .inno-footer-menu-heading {
+            font-size: 15px;
+        }
+        @media screen and (min-width: 768px) {
+            .inno-footer-menu-heading {
+                font-size: 16px;
+                margin-bottom: 34px;
+            }
+        }
+        .inno-footer-menu-item {
+            display: block;
+            font-size: 10px;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 8px;
+            transition: opacity 0.2s;
+        }
+        .inno-footer-menu-item:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+        html:lang(zh) .inno-footer-menu-item {
+            font-size: 13px;
+        }
+        @media screen and (min-width: 768px) {
+            .inno-footer-menu-item {
+                font-size: 14px;
+                margin-bottom: 14px;
+            }
+        }
+        .inno-footer-info {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        @media screen and (min-width: 768px) {
+            .inno-footer-info {
+                align-items: center;
+            }
+        }
+        .inno-footer-publicity {
+            order: 1;
+            width: 100%;
+            font-size: 13px;
+            color: #fff;
+            margin-right: 8px;
+            line-height: 1.6;
+        }
+        .inno-footer-publicity a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .inno-footer-publicity a:hover {
+            text-decoration: underline;
+        }
+        @media screen and (min-width: 768px) {
+            .inno-footer-publicity {
+                flex: 1;
+                width: auto;
+            }
+        }
+        .inno-footer-publicity-item {
+            padding: 1px 0;
+        }
+        .inno-footer-publicity-item.is-only-zh {
+            display: block;
+        }
+        @media screen and (min-width: 768px) {
+            .inno-footer-publicity-item {
+                display: inline-block;
+            }
+            .inno-footer-publicity-item.is-only-zh {
+                display: inline-block;
+            }
+        }
+        .inno-footer-publicity-devide {
+            display: inline-block;
+            margin: 0 4px;
+        }
+        .inno-footer-brand {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+        .inno-footer-brand img {
+            display: block;
+            width: 150px;
+            max-width: 100%;
+        }
+        @media screen and (min-width: 768px) {
+            .inno-footer-brand {
+                width: auto;
+                margin-bottom: 0;
+                margin-right: 40px;
+            }
+        }
+        @media screen and (max-width: 767px) {
+            .inno-footer-menu {
+                margin-bottom: 30px;
+            }
+            .share-box {
+                padding: 10px 0 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Banner 区域：全屏撑满 -->
+<div class="hero-fullwidth">
+    <div class="hero-banner">
+        <img 
+            src="https://img.innoventbio.com/5bbb52020506a" 
+            alt="信达生物 - 开发出老百姓用得起的高质量生物药 | Innovent" 
+            title="信达生物 - 创新药领军企业"
+            loading="eager"
+        >
+    </div>
+</div>
+
+<!-- 粉色分隔线：全屏撑满，色号 #d21258，line-height:55px -->
+<div class="pink-divider-full"></div>
+
+<!-- 主要内容容器 -->
+<div class="content-container">
+    <div class="page-header">
+        <h1>公司简介</h1>
+    </div>
+
+    <main>
+        <article>
+            <h2>产品研发</h2>
+            <p>自创立开始，公司就致力于开发出老百姓用得起的高质量生物药，让中国患者真正享受到科技进步带来的健康成果。截至2026年3月，信达生物已建立一支拥有2000多名员工的产品研发团队，具备了从靶点寻找新分子、细胞株开发、工艺放大、方法学、产品生产、质量控制到临床研究等产品开发必需的一切研发能力，通过自主研发或与国际顶尖生物制药公司、研究机构合作，针对中国高发且尚无有效治疗手段的疾病研发创新药物，并已建立起一条包括37个新药品种的产品链，覆盖肿瘤、代谢疾病等多个疾病领域，公司已有18个产品获得批准上市，8个品种获批国家“重大新药创制”科技重大专项。同时，5个新药分子进入III期或关键性临床研究，另外还有14个新药品种已进入临床研究。</p>
+            
+            <h2>主要产品</h2>
+            <h3>玛仕度肽</h3>
+            <p>玛仕度肽是全球首个GCG/GLP-1双受体激动减重、降糖药物，作为一种哺乳动物胃泌酸调节素（OXM）类似物，玛仕度肽除了通过激动GLP-1R促进胰岛素分泌、降低血糖和减轻体重外，还可通过激动GCGR增加能量消耗增强减重疗效，同时改善肝脏脂肪代谢。</p>
+            <p>玛仕度肽已在多项临床研究中展现出优秀的减重和降糖疗效，临床研究表明：使用玛仕度肽体重降幅≥20%，降低肝脏脂肪含量超 80%，腰围减少达14cm，颈围减少达3cm，兼顾改善血糖、血压、血脂、血尿酸和转氨酶水平等心血管及代谢指标。同时，玛仕度肽还能有效降低糖化血红蛋白达2.15%，且耐受性良好，在血糖控制和减重方面均优效于安慰剂或度拉糖肽1.5 mg。最新III期临床研究（DREAMS-3）证明：在兼顾降糖和减重双重效果方面，玛仕度肽疗效均优于司美格鲁肽。全面改善心血管、代谢、肝脏、肾脏相关指标和胰岛素敏感性，为患者带来多重获益。</p>
+            <p>2025年6月，玛仕度肽获得国家药品监督管理局（NMPA）批准，用于成人肥胖或超重患者的长期体重控制。同年9月，其第二项适应症也已获批，用于成人2型糖尿病患者的血糖控制。玛仕度肽是信达生物代谢领域的基石产品，也是信达生物成立14年来的第十六款产品。</p>
+            
+            <!-- 公司高管区域 - 块状卡片样式，方形图片 -->
+            <h2>公司高管</h2>
+            <div class="leadership-grid">
+                <!-- 俞德超 -->
+                <div class="list-item list-item-wrap">
+                    <img src="https://img.innoventbio.com/leader/yudechao.png" alt="俞德超">
+                    <div class="list-item__ft">
+                        <h3>俞德超</h3>
+                        <div>创始人、董事会主席、首席执行官</div>
+                    </div>
+                </div>
+                <!-- 奚浩 -->
+                <div class="list-item list-item-wrap">
+                    <img src="https://img.innoventbio.com/5bd90bb89f42d" alt="奚浩">
+                    <div class="list-item__ft">
+                        <h3>奚浩</h3>
+                        <div>执行董事、基金管理合伙人</div>
+                    </div>
+                </div>
+                <!-- 张倩 -->
+                <div class="list-item list-item-wrap">
+                    <img src="http://img.innoventbio.com/641ad7244f60c" alt="张倩">
+                    <div class="list-item__ft">
+                        <h3>张倩</h3>
+                        <div>执行董事、首席商业官、总经理</div>
+                    </div>
+                </div>
+                <!-- 由飞 -->
+                <div class="list-item list-item-wrap">
+                    <img src="http://img.innoventbio.com/65c0fbba083ac" alt="由飞">
+                    <div class="list-item__ft">
+                        <h3>由飞</h3>
+                        <div>首席财务官</div>
+                    </div>
+                </div>
+            </div>
+            
+            <h2>荣誉与大事记</h2>
+            <p>2021年6月，信达生物PD-1抗体专利荣获中国专利金奖</p>
+            <p>2022年3月21日，入选江苏省2022年全国五一劳动奖状(备选)推荐对象公示名单</p>
+            <p>2022年3月15日，信达生物获2021年度苏州市市长质量奖</p>
+            <p>2022年8月，入选福布斯中国发布的2022中国创新力企业50强榜单</p>
+            <p>2022年，荣登2022年度自然指数排行榜（Nature Index 2022 Tables）中国生命科学领域科研实力最强公司榜单</p>
+            <p>2022年荣登全球专利数据库incoPat创新指数研究中心发布的全球生物医药发明专利TOP100榜单</p>
+            <p>2024年度MSCI-ESG最高评级AAA级</p>
+            <p>2025年度MSCI-ESG最高评级AAA级</p>
+            <p>2025年度国家卫健委创新药物研发国家科技重大专项</p>
+            <p>2025年苏州市重大科技成果转化项目</p>
+        </article>
+    </main>
+</div>
+
+<!-- 页脚部分：背景撑满全宽 -->
+<div class="footer-fullwidth">
+    <footer class="inno-footer">
+        <!-- 页脚菜单区域 -->
+        <div class="inno-footer-menus">
+            <!-- 关于我们 -->
+            <div class="inno-footer-menu">
+                <h2 class="inno-footer-menu-heading">关于我们</h2>
+                <a href="https://www.innoventbio.com/#/intro" class="inno-footer-menu-item">公司介绍</a>
+                <a href="https://www.innoventbio.com/#/intro" class="inno-footer-menu-item">荣誉与大事记</a>
+                <a href="https://www.innoventbio.com/#/leader" class="inno-footer-menu-item">领导团队</a>
+                <a href="https://www.innoventbio.com/#/director" class="inno-footer-menu-item">董事会</a>
+                <a href="https://www.innoventbio.com/#/contact" class="inno-footer-menu-item">联系我们</a>
+            </div>
+            <!-- 科学技术 -->
+            <div class="inno-footer-menu">
+                <h2 class="inno-footer-menu-heading">科学技术</h2>
+                <a href="https://www.innoventbio.com/#/research" class="inno-footer-menu-item">研究领域</a>
+                <a href="https://www.innoventbio.com/#/tech" class="inno-footer-menu-item">技术平台</a>
+                <a href="https://www.innoventbio.com/#/pline" class="inno-footer-menu-item">产品管线</a>
+                <a href="https://www.innoventbio.com/#/build" class="inno-footer-menu-item">生产运营</a>
+                <a href="https://www.innoventbio.com/#/cooperate" class="inno-footer-menu-item">对外合作</a>
+            </div>
+            <!-- 产品与研发 -->
+            <div class="inno-footer-menu">
+                <h2 class="inno-footer-menu-heading">产品与研发</h2>
+                <a href="https://www.innoventbio.com/#/product/research" class="inno-footer-menu-item">研发中心</a>
+                <a href="https://www.innoventbio.com/#/product/products" class="inno-footer-menu-item">产品中心</a>
+                <a href="https://www.innoventbio.com/#/product/pd1" class="inno-footer-menu-item">科学进展</a>
+            </div>
+            <!-- ESG -->
+            <div class="inno-footer-menu">
+                <h2 class="inno-footer-menu-heading">ESG</h2>
+                <a href="https://www.innoventbio.com/#/esgManage" class="inno-footer-menu-item">卓越治理</a>
+                <a href="https://www.innoventbio.com/#/esgHealth" class="inno-footer-menu-item">惠享健康</a>
+                <a href="https://www.innoventbio.com/#/esgQuality" class="inno-footer-menu-item">品质为先</a>
+                <a href="https://www.innoventbio.com/#/esgPeople" class="inno-footer-menu-item">以人为本</a>
+                <a href="https://www.innoventbio.com/#/esgGreen" class="inno-footer-menu-item">绿色生态</a>
+                <a href="https://www.innoventbio.com/#/esgReport" class="inno-footer-menu-item">ESG 报告</a>
+            </div>
+            <!-- 投资者关系 -->
+            <div class="inno-footer-menu">
+                <h2 class="inno-footer-menu-heading">投资者关系</h2>
+                <a href="http://investor.innoventbio.com/cn/investors/information-disclosure/listing-documents/" class="inno-footer-menu-item">信息披露</a>
+                <a href="http://investor.innoventbio.com/cn/investors/corporate-governance/" class="inno-footer-menu-item">公司治理</a>
+                <a href="http://investor.innoventbio.com/cn/investors/stock-information/" class="inno-footer-menu-item">股票信息</a>
+                <a href="http://investor.innoventbio.com/cn/investors/ir-calendar/" class="inno-footer-menu-item">投资者关系日历</a>
+                <a href="https://investor.innoventbio.com/cn/investors/webcasts-and-presentations/" class="inno-footer-menu-item">网络直播与演示文稿</a>
+                <a href="http://innoventbio.com/#/news" class="inno-footer-menu-item">新闻发布</a>
+                <a href="http://investor.innoventbio.com/cn/investors/ir-contacts/" class="inno-footer-menu-item">联系方式</a>
+            </div>
+            <!-- 新闻中心 -->
+            <div class="inno-footer-menu">
+                <h2 class="inno-footer-menu-heading">新闻中心</h2>
+                <a href="https://www.innoventbio.com/#/news" class="inno-footer-menu-item">新闻发布</a>
+                <a href="https://www.innoventbio.com/#/mediaNews" class="inno-footer-menu-item">媒体报道</a>
+            </div>
+            <!-- 职业发展 -->
+            <div class="inno-footer-menu">
+                <h2 class="inno-footer-menu-heading">职业发展</h2>
+                <a href="https://www.innoventbio.com/#/culture" class="inno-footer-menu-item">企业文化</a>
+                <a href="http://innoventbio.zhiye.com/home" class="inno-footer-menu-item">职位机会</a>
+            </div>
+        </div>
+        
+        <!-- 社交分享 -->
+        <div class="share-box">
+            <a href="https://www.linkedin.com/company/innovent-biologics/" target="_blank" rel="noopener noreferrer">
+                <img class="share" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABRUlEQVR4nO3aMW7CQBBA0VmJ4g7cgStwBK7AEShS0tJQUtJGUHIFSlfJFUgBdXaG7Njxej2zJc0vHwnLX/9uxt4Zu3UURVEURVEURVEURVEURVEURXm1GQ/mVjfms3kzF+beXJvnvz/wCjvRfDJf5tGcmVvz3N4+xDM82zMP5tc8msPcGNV+fh3NqXk0F+bOXJtrc2M+Rl3NvvbGzMPXHc2T2Wp31NdwZ/ZzR3Fjbs21ebhxY55HXZ34PPubO/DjP+/NW+fN+6irE1/Gyf2cB7/9f+a+Np+urE58GSf3H/z+T/rT8J3f/h/u5tFV5eqGkftZZ/ZzHn1nyB+ZJ/Nunptfe+P+/7jjl51DURRFURRFURRFURRFURRFUZT/wA8mM08bfs6ZgQAAAABJRU5ErkJggg==" alt="LinkedIn">
+            </a>
+            <a href="https://www.facebook.com/innovent2011" target="_blank" rel="noopener noreferrer">
+                <img class="share" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABpklEQVR4nO3aPU7DMBiG4bYqCxJjV8bCwMbCwMDIwMBQpkrM3YF7MAIDGxMDEgMSCEgl3yevcZK6aZ2v85Okf5B65NUnxw6OoyiKoiiKoiiKoiiKoiiK8l9NOvN+70VXGsuFsljZPJpPc22mzT0/wH0M0Xwyl+bNPJpLc2MezUuM7uKw3swnc2lezbm5bP/+OBfNpXk3j+bGXJsb87nL2N3Pw23M2m6rb81L+zntc+qj3XVnbtvbxq35aq+5M0/tZ/2jS9f8+vSXOf/5cX/6o6Nrfv37H3Xhx+f/yF5/+qOja376o6NrLjzHn37uv1+s/md+89a8tT9TFEVRFEVRFEVRFEVRlP/LD01LpYdC7leGAAAAAElFTkSuQmCC" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/Innovent_2011" target="_blank" rel="noopener noreferrer">
+                <img class="share" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABRUlEQVR4nO3aMW7CQBBA0VmJ4g7cgStwBK7AEShS0tJQUtJGUHIFSlfJFUgBdXaG7Njxej2zJc0vHwnLX/9uxt4Zu3UURVEURVEURVEURVEURVEURXm1GQ/mVjfms3kzF+beXJvnvz/wCjvRfDJf5tGcmVvz3N4+xDM82zMP5tc8msPcGNV+fh3NqXk0F+bOXJtrc2M+Rl3NvvbGzMPXHc2T2Wp31NdwZ/ZzR3Fjbs21ebhxY55HXZ34PPubO/DjP+/NW+fN+6irE1/Gyf2cB7/9f+a+Np+urE58GSf3H/z+T/rT8J3f/h/u5tFV5eqGkftZZ/ZzHn1nyB+ZJ/Nunptfe+P+/7jjl51DURRFURRFURRFURRFURRFUZT/wA8mM08bfs6ZgQAAAABJRU5ErkJggg==" alt="Twitter">
+            </a>
+        </div>
+        
+        <!-- 底部信息区域 -->
+        <div class="inno-footer-info">
+            <div class="inno-footer-publicity">
+                <div class="inno-footer-publicity-item">
+                    <a href="https://www.innoventbio.com/#/legal">版权说明</a>
+                    |
+                    <a href="https://www.innoventbio.com/#/privacy">隐私政策</a>
+                    <span class="inno-footer-publicity-devide">|</span>
+                </div>
+                <div class="inno-footer-publicity-item">
+                    版权所有 © 2011-<span id="currentYear"></span> 信达生物制药（苏州）有限公司
+                </div>
+                <div class="inno-footer-publicity-item is-only-zh">
+                    <span class="inno-footer-publicity-devide">|</span>
+                    <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" rel="noopener noreferrer">苏ICP备11072540号</a>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADxSURBVDhPrZRNDoIwEIXfEo/gFbgB3WhYGa/AjcbOyLg1Jq78hDO08zINtB10YdKXNKHzeuYHpZRSW3XvB3L4bYfS0XOQ3BBfFdnDMMgwqTbQ/ADJBUEK6cbWtTleBAvRGUQxUAK9CeqJz/Pr4XzLIOfdHEMFaVJz5F2lAWwQHmQSH7qgJkOseWpyRCQYj6gN1AB85zHqO7iHh6zMVyhr3ggxVW9pzYjVQx3iVX6hrHkhxGwLgFqDJG3k7VpZ80IIscUdwH0MqQ1h3g9jASZALQYvA3K/JYQQfFWSZEgUjz4Rk2B+AK0Vt/uLp3xZAAAAAElFTkSuQmCC" style="display:inline;width:20px;height:20px;vertical-align:middle;" alt="公安备案">
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32059002003196" rel="noopener noreferrer">苏公网安备 32059002003196号</a>
+                </div>
+                <div class="inno-footer-publicity-item is-only-zh">
+                    <span class="inno-footer-publicity-devide">
+                        药品、医疗器械互联网信息服务资格备案编号：苏网药信备字〔2025〕00205号
+                    </span>
+                    <br />
+                    <span class="inno-footer-publicity-devide">
+                        医药代表备案查询：<a href="https://pharmareps.cpa.org.cn/reception/index " target="_blank">https://pharmareps.cpa.org.cn/reception/index </a>
+                    </span>
+                    <span class="inno-footer-publicity-devide">
+                        本网站承诺不发布麻醉药品、精神药品、医疗用毒性药品、放射性药品、戒毒药品和医疗机构制剂的产品信息。
+                    </span>
+                </div>
+            </div>
+            <div class="inno-footer-brand">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 60'%3E%3Crect width='200' height='60' fill='%231a355e'/%3E%3Ctext x='10' y='38' fill='white' font-size='20' font-weight='bold'%3EInnovent%3C/text%3E%3C/svg%3E" alt="信达生物制药（苏州）有限公司">
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script>
+    // 动态显示当前年份
+    document.getElementById('currentYear') && (document.getElementById('currentYear').innerText = new Date().getFullYear());
+    // 处理hash链接与外部链接行为
+    (function() {
+        var allLinks = document.querySelectorAll('.inno-footer-menu-item, .inno-footer-publicity-item a');
+        allLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                var href = this.getAttribute('href');
+                if (href && href.startsWith('#')) {
+                    e.preventDefault();
+                    window.location.hash = href.substring(1);
+                } else if (href && (href.startsWith('http') || href.startsWith('//'))) {
+                    return;
+                } else if (href && href !== '#') {
+                    e.preventDefault();
+                    window.location.href = href;
+                }
+            });
+        });
+    })();
+</script>
+
+<!-- 结构化数据（JSON-LD）-->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "信达生物",
+    "description": "公司致力于开发出老百姓用得起的高质量生物药，让中国患者真正享受到科技进步带来的健康成果。",
+    "url": "https://www.innoventbio.com/seo-page",
+    "datePublished": "2026-03-31",
+    "dateModified": "2026-03-31",
+    "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://img.innoventbio.com/5bbb52020506a",
+        "caption": "信达生物创新药领导者 - 老百姓用得起的高质量生物药"
+    },
+    "mainEntity": {
+        "@type": "Article",
+        "headline": "信达生物",
+        "author": {
+            "@type": "Organization",
+            "name": "www.innoventbio.com"
+        }
+    }
+}
+</script>
+</body>
+</html>

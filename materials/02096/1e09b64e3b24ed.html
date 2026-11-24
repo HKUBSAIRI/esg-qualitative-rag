@@ -1,0 +1,797 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0" /><meta name="format-detection" content="telephone=no" /><title>
+	先声药业官网
+</title>
+    <meta name="keywords" content="先声药业官网" />
+    <meta name="description" content="先声药业以巨大未满足的临床需求为导向，重点研发创新药，已拥有10款创新药。14个产品录入共计100多个政府机构或权威专业学会发布的指南和路径，超过45个产品被纳入国家医保药品目录。" />
+    <link href="images/favicon.ico" rel="SHORTCUT ICON" /><link type="text/css" rel="stylesheet" href="css/base.css" /><link type="text/css" rel="stylesheet" href="css/css.css" /><link type="text/css" rel="stylesheet" href="css/animate.css" />
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/jquery.cssforms.js"></script>
+
+    <script type="text/javascript">
+        function topnewssearch() {
+            if (document.getElementById("newsintro").value == "" || document.getElementById("newsintro").value == "请输入要搜索的关键字") {
+                window.alert("请输入要查询的内容");
+                document.getElementById("newsintro").focus();
+            }
+            else {
+                var posturl = "news/news.aspx?so=" + document.getElementById("newsintro").value;
+                location.href = posturl;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="from1" method="post" action="./index.aspx" id="from1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+
+        <div id="search-bar">
+            <div class="se-xi">
+                <input class=" " id="newsintro" name="newsintro" type="text" value="" size="60" maxlength="128" placeholder="请输入关键词！" autocomplete="off">
+                <div class=" " type="submit" value="search" onclick="topnewssearch()"></div>
+            </div>
+        </div>
+        <header>
+            <div class="wrap clearfixed">
+                <a href="index.aspx" class="logo fl">
+                    <img src="images/logo.png"></a>
+                <div class="t-ri fr">
+                    <div class="yy fl"><a href="http://www.simcere.com" style="color: #00b140">中</a> | <a href="https://en.simcere.com">EN</a></div>
+                    <div class="sou fr">
+                        <img src="images/search.png">
+                    </div>
+                </div>
+                <div class="mobile-inner-header" id="xl01">
+                    <div class="mobile-inner-header-icon mobile-inner-header-icon-out"><span></span><span></span><span></span></div>
+                </div>
+            </div>
+        </header>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".sou").click(function () {
+                    $("#search-bar").slideToggle();
+					  const LL = document.getElementById('xl01');
+                        var sds = hasClass(LL, 't-pa');
+                        if (sds == true)
+                            $("#xl01").removeClass("t-pa");
+                        else
+                            $("#xl01").addClass("t-pa");
+                });
+            });
+        </script>
+        <nav class=" ">
+            <ul class="wrap clearfixed">
+                <li><a href="about/about.aspx" class="subnav">关于我们</a>
+                    <ul class="tttt">
+                        <li><a href="about/about.aspx#ab01">企业概况</a></li>
+                        <li><a href="about/about.aspx#ab02">里程碑</a></li>
+                        <li><a href="about/about.aspx#ab03">管理团队</a></li>
+                        <li><a href="about/about.aspx#ab04">企业文化</a></li>
+                    </ul>
+                </li>
+                <li><a href="pro/pro.aspx" class="subnav">患者第一</a>
+         <ul class="tttt">
+                        <li><a href="pro/disease.aspx">疾病</a></li>
+                        <li><a href="pro/pro.aspx">产品</a></li>
+                        
+                    </ul>
+                <li><a href="kxcx/kxcx.aspx" class="subnav">协同创新</a>
+                    <ul class="tttt">
+                        <li><a href="kxcx/kxcx.aspx#cx01">全球布局</a></li>
+                      
+                        <li><a href="kxcx/yggx.aspx">研发管线</a></li>
+                    </ul>
+                </li>
+                <li><a href="zyyw/zyyw.aspx" class="subnav">制药业务</a>
+                    <ul class="tttt">
+                        <li><a href="zyyw/zyyw.aspx#zy01">生产基地</a></li>
+                        <li><a href="zyyw/zyyw.aspx#zy02">管理体系</a></li>
+                        <li><a href="zyyw/zyyw.aspx#zy03">管理方针</a></li>
+                    </ul>
+                </li>
+                <li><a href="kfhz/kfhz.aspx" class="subnav">开放合作</a></li>
+                <li><a href="news/news.aspx" class="subnav">先声资讯</a>
+                    <ul class="tttt">
+
+                        
+                                <li><a href="news/news.aspx?mtt=1">新闻速递</a></li>
+                            
+
+                    </ul>
+                </li>
+              <li><a href="tzz/gjts.aspx" class="subnav">投资者关系</a>
+                    <ul class="tttt">
+                        <li><a href="tzz/gjts.aspx">股价图示</a></li>
+                        <li><a href="tzz/gg.aspx">信息披露</a></li>
+                        <li><a href="tzz/tzz1.aspx">公司治理</a></li>
+<li><a href="tzz/tzz4.aspx">投资者活动关系日历</a></li>
+                        <li><a href="tzz/tzz2.aspx">投资者活动</a></li>
+                        <li><a href="tzz/tzz3.aspx">投资者关系联络</a></li>
+<li><a href="tzz/tzz5.aspx">邮件订阅</a></li>
+                    </ul>
+                </li>
+                <li><a href="shzr/shzr.aspx" class="subnav">社会责任</a></li>
+                <li><a href="jrwm/jrwm.aspx" class="subnav">加入我们</a></li>
+            </ul>
+        </nav>
+
+
+
+
+        <!--手机导航-->
+        <div class="xs-top">
+            <div class="mobile">
+                <div class="mobile-inner">
+
+                    <div class="mobile-inner-nav">
+                        <div class="subNavBox1">
+                            <div class="subNav1" style="background: url(images/link_ico.png) no-repeat 96% center;"><a href="index.aspx" style="color: #fff;">首页</a></div>
+                            <div class="subNav1">关于我们</div>
+                            <ul class="navContent1 clearfixed">
+                                <li><a href="about/about.aspx#ab01">企业概况</a></li>
+                                <li><a href="about/about.aspx#ab02">里程碑</a></li>
+                                <li><a href="about/about.aspx#ab03">管理团队</a></li>
+                                <li><a href="about/about.aspx#ab04">企业文化</a></li>
+                            </ul>
+
+                            <div class="subNav1">患者第一</div>
+                            <ul class="navContent1">
+<li><a href="pro/disease.aspx">疾病</a></li>
+<li><a href="pro/pro.aspx">产品</a></li>
+
+
+                                
+
+                            </ul>
+                            <div class="subNav1">科学创新</div>
+                            <ul class="navContent1">
+                                <li><a href="kxcx/kxcx.aspx#cx01">全球布局</a></li>
+                               
+                                <li><a href="kxcx/yggx.aspx">研发管线</a></li>
+                            </ul>
+                            <div class="subNav1">制药业务</div>
+                            <ul class="navContent1">
+                                <li><a href="zyyw/zyyw.aspx#zy01">生产基地</a></li>
+                                <li><a href="zyyw/zyyw.aspx#zy02">管理体系</a></li>
+                                <li><a href="zyyw/zyyw.aspx#zy03">管理方针</a></li>
+                            </ul>
+                            <div class="subNav1" style="background: url(images/link_ico.png) no-repeat 96% center;"><a href="kfhz/kfhz.aspx" style="color: #fff;">开放合作</a></div>
+                            <div class="subNav1">先声资讯</div>
+                            <ul class="navContent1">
+
+                                
+                                        <li><a href="news/news.aspx?mtt=1">新闻速递</a></li>
+                                    
+
+                            </ul>
+<div class="subNav1">投资者关系</div>
+                            <ul class="navContent1">
+                              <li><a href="tzz/gjts.aspx">股价图示</a></li>
+                        <li><a href="tzz/gg.aspx">信息披露</a></li>
+                        <li><a href="tzz/tzz1.aspx">公司治理</a></li>
+<li><a href="tzz/tzz4.aspx">投资者活动关系日历</a></li>
+                        <li><a href="tzz/tzz2.aspx">投资者活动</a></li>
+                        <li><a href="tzz/tzz3.aspx">投资者关系联络</a></li>
+<li><a href="tzz/tzz5.aspx">邮件订阅</a></li>
+                            </ul>
+                            <div class="subNav1" style="background: url(images/link_ico.png) no-repeat 96% center;"><a href="shzr/shzr.aspx" style="color: #fff;">社会责任</a></div>
+                            <div class="subNav1" style="background: url(images/link_ico.png) no-repeat 96% center;"><a href="jrwm/jrwm.aspx" style="color: #fff;">加入我们</a></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $(window).load(function () {
+                    $(".mobile-inner-header-icon").click(function () {
+                        $(this).toggleClass("mobile-inner-header-icon-click mobile-inner-header-icon-out");
+                        $(".mobile-inner-nav").slideToggle(250);
+                    });
+                });
+                var show = 0;
+                $('.mobile-inner-header-icon').click(function () {
+                    if (show == 0) {
+                        $(this).addClass('active_mobile');
+                        show = 1;
+                    } else {
+                        $(this).removeClass('active_mobile');
+                        show = 0;
+                    }
+
+                })
+                $(".subNav1").click(function () {
+                    $(this).toggleClass("currentDd1").siblings(".subNav1").removeClass("currentDd1")
+                    $(this).toggleClass("currentDt1").siblings(".subNav1").removeClass("currentDt1")
+
+                    // 修改数字控制速度， slideUp(500)控制卷起速度
+                    $(this).next(".navContent1").slideToggle(500).siblings(".navContent1").slideUp(500);
+                })
+            })
+        </script>
+        <!--手机导航-->
+
+        <div class="home-banner" id="home-banner">
+            <div id="slideBox" class="slideBox">
+                <div class="hd">
+                    <ul class="wrap">
+
+                        
+                                <li></li>
+                            
+                                <li></li>
+                            
+                                <li></li>
+                            
+                                <li></li>
+                            
+
+                    </ul>
+                </div>
+                <div class="bd">
+                    <ul>
+
+                        
+                                <li>
+<a href="https://www.simcere.com">
+                                    <img src="UploadFile/20250331110024.jpg" class="img01" />
+                                    <img src="UploadFile/202503311100241.jpg" class="img02" />
+                                    <div class="banner-txt">
+                                        <div class="wrap clearfixed">
+                                            <div class="bann-le fl">
+                                                <h1 class="wow fadeInDown" data-wow-duration="1.5s"> </h1>
+                                                <p class="wow fadeInUp" data-wow-duration="2s"> </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+ </a>
+                                </li>
+                            
+                                <li>
+<a href="https://www.simcere.com">
+                                    <img src="UploadFile/20250331110100.jpg" class="img01" />
+                                    <img src="UploadFile/202503311101001.jpg" class="img02" />
+                                    <div class="banner-txt">
+                                        <div class="wrap clearfixed">
+                                            <div class="bann-le fl">
+                                                <h1 class="wow fadeInDown" data-wow-duration="1.5s"> </h1>
+                                                <p class="wow fadeInUp" data-wow-duration="2s"> </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+ </a>
+                                </li>
+                            
+                                <li>
+<a href="https://www.simcere.com">
+                                    <img src="UploadFile/20250331110118.jpg" class="img01" />
+                                    <img src="UploadFile/202503311101181.jpg" class="img02" />
+                                    <div class="banner-txt">
+                                        <div class="wrap clearfixed">
+                                            <div class="bann-le fl">
+                                                <h1 class="wow fadeInDown" data-wow-duration="1.5s"> </h1>
+                                                <p class="wow fadeInUp" data-wow-duration="2s"> </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+ </a>
+                                </li>
+                            
+                                <li>
+<a href="javascript:void(0);">
+                                    <img src="UploadFile/20260327021812.jpg" class="img01" />
+                                    <img src="UploadFile/202603270218121.jpg" class="img02" />
+                                    <div class="banner-txt">
+                                        <div class="wrap clearfixed">
+                                            <div class="bann-le fl">
+                                                <h1 class="wow fadeInDown" data-wow-duration="1.5s">药业31周年</h1>
+                                                <p class="wow fadeInUp" data-wow-duration="2s">simcere 31</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+ </a>
+                                </li>
+                            
+
+                    </ul>
+                </div>
+                <!--<a class="prev wow fadeInLeft" data-wow-duration="2.5s" href="javascript:void(0)"></a>
+	<a class="next wow fadeInRight" data-wow-duration="2.5s" href="javascript:void(0)"></a>-->
+            </div>
+            <script type="text/javascript">jQuery(".slideBox").slide({ mainCell: ".bd ul", autoPlay: true, interTime: 6000, mouseOverStop: false, });</script>
+        </div>
+        <div class="in-new">
+            <div class="in-ti wow fadeInDown" data-wow-duration="2s">先声资讯</div>
+            <div class="in-new-list wrap clearfixed">
+
+                
+                        <dl  class="wow fadeInDown" data-wow-duration="2.2s">
+                            <a href="news/detail.aspx?mtt=1628">
+                                <dt>
+                                    <img src="UploadFile/20261116100332.png" class="new-img">
+                                </dt>
+                                <dd>
+                                    <h1>先声药业自研STAT6降解剂SIM0712获得临床药物临床试验批准通知书</h1>
+                                    <span>2026-11-16</span>
+                                    <p>
+                                        2026年11月16日，先声药业集团宣布...
+                                    </p>
+                                    <b>
+                                      <img src="images/jt.png"></b>
+                                </dd>
+                            </a>
+                        </dl>
+                    
+                        <dl  class="wow fadeInDown" data-wow-duration="2.4s">
+                            <a href="news/detail.aspx?mtt=1627">
+                                <dt>
+                                    <img src="UploadFile/20261116095800.jpg" class="new-img">
+                                </dt>
+                                <dd>
+                                    <h1>先必新®舌下片首次纳入国家医保 双剂型实现卒中14天足疗程医保覆盖</h1>
+                                    <span>2026-11-16</span>
+                                    <p>
+                                        2026年11月14日，先声药业集团（0...
+                                    </p>
+                                    <b>
+                                      <img src="images/jt.png"></b>
+                                </dd>
+                            </a>
+                        </dl>
+                    
+                        <dl  class="wow fadeInDown" data-wow-duration="2.6s">
+                            <a href="news/detail.aspx?mtt=1625">
+                                <dt>
+                                    <img src="UploadFile/20261110053638.png" class="new-img">
+                                </dt>
+                                <dd>
+                                    <h1>先声药业自研CD122长效单抗SIM0725在中国获批进入临床试验</h1>
+                                    <span>2026-11-10</span>
+                                    <p>
+                                        2026年11月10日——先声药业集团（...
+                                    </p>
+                                    <b>
+                                      <img src="images/jt.png"></b>
+                                </dd>
+                            </a>
+                        </dl>
+                    
+                        <dl style="margin-right: 0;" class="wow fadeInDown" data-wow-duration="2.8s">
+                            <a href="news/detail.aspx?mtt=1624">
+                                <dt>
+                                    <img src="UploadFile/20261109043742.png" class="new-img">
+                                </dt>
+                                <dd>
+                                    <h1>SIM0709获准在欧洲启动临床研究，炎症性肠病全球开发迈出关键一步</h1>
+                                    <span>2026-11-09</span>
+                                    <p>
+                                        2026年11月9日——先声药业（020...
+                                    </p>
+                                    <b>
+                                      <img src="images/jt.png"></b>
+                                </dd>
+                            </a>
+                        </dl>
+                    
+
+            </div>
+<div class="nn-more"><a href="news/news.aspx">查看更多</a></div>
+
+        </div>
+        <div class="in-hz">
+            <div class="in-ti wow fadeInDown" data-wow-duration="2s">产品中心</div>
+            <div class="list default_pos transition clearfixed wrap">
+
+                <ul class="clearfix">
+                    <li>
+                        <div class="txt">
+                            <div>
+                                <dl><a href="pro/pro.aspx#pro01" style="color:#fff;">
+                                    <dt>抗肿瘤</dt></a>
+                                    <dd>
+                                        <a>
+                                            <img src="images/sb08.png"></a>
+ <a>
+                                            <img src="images/ewd.png"></a>
+                                        <a>
+                                            <img src="images/sb09.png"></a>
+                                        <a>
+                                            <img src="images/sb10.png"></a>
+                                    </dd>
+                                </dl>
+                                <a href="pro/pro.aspx#pro01" class="more">更多</a>
+                            </div>
+                            <span class="tri"></span>
+                        </div>
+                        <div class="img"><a href="pro/pro.aspx#pro01">
+                            <div class="bg transition"></div>
+                        </a></div>
+                    </li>
+                    <li>
+                        <div class="txt">
+                            <div>
+                                <dl><a href="pro/pro.aspx#pro02" style="color:#fff;">
+                                    <dt>神经系统</dt></a>
+                                    <dd>
+                                          <a>
+                                            <img src="images/xbx.png"></a>
+                                           
+                                        <a style="height:40px; text-align:center; padding-top:7px;">
+                                            <img src="images/sb07.png"></a>
+                                            <a>
+                                            <img src="images/sb12.png"></a>
+                                    </dd>
+                                </dl>
+                                <a href="pro/pro.aspx#pro02" class="more">更多</a>
+                            </div>
+                            <span class="tri"></span>
+                        </div>
+                        <div class="img"><a href="pro/pro.aspx#pro02">
+                            <div class="bg transition"></div>
+                        </a></div>
+                    </li>
+                    <li>
+                        <div class="txt">
+                            <div>
+                                <dl><a href="pro/pro.aspx#pro03" style="color:#fff;">
+                                    <dt>自身免疫</dt></a>
+                                    <dd>
+                                        <a>
+                                            <img src="images/sb05.png"></a>
+                                            <a>
+                                            <img src="images/sb11.png"></a>
+                                        <a>
+                                            <img src="images/sb06.png"></a>
+
+
+                                    </dd>
+                                </dl>
+                                <a href="pro/pro.aspx#pro03" class="more">更多</a>
+                            </div>
+                            <span class="tri"></span>
+                        </div>
+                        <div class="img"><a href="pro/pro.aspx#pro03">
+                            <div class="bg transition"></div>
+                        </a></div>
+                    </li>
+                    <li>
+                        <div class="txt">
+                            <div>
+                                <dl><a href="pro/pro.aspx#pro04" style="color:#fff;">
+                                    <dt style="line-height:1.2;">心血管<br />抗感染</dt></a>
+                                    <dd>
+                                        <a>
+                                            <img src="images/sb02.png"></a>
+                                        <a>
+                                            <img src="images/sb03.png"></a>
+                                        <a>
+                                            <img src="images/sb04.png"></a>
+                                    </dd>
+                                </dl>
+                                <a href="pro/pro.aspx#pro04" class="more">更多</a>
+                            </div>
+                            <span class="tri"></span>
+                        </div>
+                        <div class="img"><a href="pro/pro.aspx#pro04">
+                            <div class="bg transition"></div>
+                        </a></div>
+                    </li>
+                    <li>
+                        <div class="txt">
+                            <div>
+                                <dl><a href="pro/pro.aspx#pro05" style="color:#fff;">
+                                    <dt>其他领域</dt></a>
+                                    <dd>
+                                        <a>
+                                            <img src="images/sb01.png"></a>
+                                    </dd>
+                                </dl>
+                                <a href="pro/pro.aspx#pro05" class="more">更多</a>
+                            </div>
+                            <span class="tri"></span>
+                        </div>
+                        <div class="img"><a href="pro/pro.aspx#pro05">
+                            <div class="bg transition"></div>
+                        </a></div>
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+
+            <!-- 患者至上移动端-->
+            <script src="js/push.js"></script>
+            <script src="js/solutioncategoryV4.js"></script>
+            <div class="mobile-solution wrap">
+                <div class="industry swiper-3d anchorpoint" data-index="3">
+                    <div class="cistern">
+                        <div class="con">
+                            <div class="box">
+                                <div class="swiper-container bod swiper-container-horizontal swiper-container-3d swiper-container-coverflow swiper-container-android">
+                                    <ul class="swiper-wrapper activefather">
+                                        <li class="swiper-slide ">
+                                            <div class="pic lazyload over" style="height: auto; background: none;">
+                                                <img class="J-ebg-replace-img-lazyload" src="images/mobile-yy01.jpg" style="">
+                                            </div>
+                                            <div class="text">
+                                                <h4>抗肿瘤</h4>
+                                                <div class="btn hw-btn-warp"><a class="link2" href="pro/pro.aspx#pro01"><span class="iconfont icon-arrowhead-top"></span>查看详情 +</a></div>
+                                            </div>
+                                            <div class="swiper-slide-shadow-left" style="opacity: 10; transition-duration: 0ms;"></div>
+                                            <div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div>
+                                        </li>
+                                        <li class="swiper-slide">
+                                            <div class="pic lazyload over" style="height: auto; background: none;">
+                                                <img class="J-ebg-replace-img-lazyload" src="images/mobile-yy02.jpg" style="">
+                                            </div>
+                                            <div class="text">
+                                                <h4>神经系统</h4>
+                                                <div class="btn hw-btn-warp"><a class="link2" href="pro/pro.aspx#pro02"><span class="iconfont icon-arrowhead-top"></span>查看详情 +</a></div>
+                                            </div>
+                                            <div class="swiper-slide-shadow-left" style="opacity: 8; transition-duration: 0ms;"></div>
+                                            <div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div>
+                                        </li>
+                                        <li class="swiper-slide">
+                                            <div class="pic lazyload over" style="height: auto; background: none;">
+                                                <img class="J-ebg-replace-img-lazyload" src="images/mobile-yy03.jpg" style="">
+                                            </div>
+                                            <div class="text">
+                                                <h4>自身免疫</h4>
+                                                <div class="btn hw-btn-warp"><a class="link2" href="pro/pro.aspx#pro03"><span class="iconfont icon-arrowhead-top"></span>查看详情 +</a></div>
+                                            </div>
+                                            <div class="swiper-slide-shadow-left" style="opacity: 6; transition-duration: 0ms;"></div>
+                                            <div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div>
+                                        </li>
+                                        <li class="swiper-slide">
+                                            <div class="pic lazyload over" style="height: auto; background: none;">
+                                                <img class="J-ebg-replace-img-lazyload" src="images/mobile-yy04.jpg" style="">
+                                            </div>
+                                            <div class="text">
+                                                <h4>心血管&nbsp;抗感染</h4>
+                                                <div class="btn hw-btn-warp"><a class="link2" href="pro/pro.aspx#pro04"><span class="iconfont icon-arrowhead-top"></span>查看详情 +</a></div>
+                                            </div>
+
+                                        </li>
+                                        <li class="swiper-slide">
+                                            <div class="pic lazyload over" style="height: auto; background: none;">
+                                                <img class="J-ebg-replace-img-lazyload" src="images/mobile-yy05.jpg" style="">
+                                            </div>
+                                            <div class="text">
+                                                <h4>其他领域</h4>
+                                                <div class="btn hw-btn-warp"><a class="link2" href="pro/pro.aspx#pro05"><span class="iconfont icon-arrowhead-top"></span>查看详情 +</a></div>
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="homeXg wrap clearfixed">
+  <dl>
+                <a href="kxcx/kxcx.aspx">
+                   
+                    <dd><img src="images/xZ01.png"></dd>
+                     <dt>
+                        <h1>创新</h1>
+                       
+                            <img src="images/jT11.png"> 
+                    </dt>
+                </a>
+            </dl>
+              <dl>
+                <a href="kfhz/kfhz.aspx">
+                    <dd><img src="images/xZ02.png"></dd>
+                     <dt>
+                        <h1>合作</h1>
+                       
+                            <img src="images/jT11.png"> 
+                    </dt>
+                </a>
+            </dl>
+            <dl>
+                <a href="jrwm/jrwm.aspx">
+                    <dd><img src="images/xZ03.png"></dd>
+                     <dt>
+                        <h1>招聘</h1>
+                       
+                            <img src="images/jT11.png"> 
+                    </dt>
+                </a>
+            </dl>
+             <dl>
+                <a href="ztb/ztb.aspx">
+                    <dd><img src="images/xZ04.png"></dd>
+                     <dt>
+                        <h1>招标</h1>
+                       
+                            <img src="images/jT11.png"> 
+                    </dt>
+                </a>
+            </dl>
+</div>
+        <div class="footer">
+            <div class="wrap" style="position: relative; z-index: 10;">
+                <div class="f-left">
+                    <p class="bit">先声药业</p>
+                    <div class="list">
+                        <ul>
+                            <li>地址：南京市玄武大道699－18号</li>
+                            <li>电 话：+86(25)8556 6666   </li>
+             
+                            <li>公司邮箱：simcere@simcere.com<br /> 投资者关系：ir@simcere.com </li>
+                           
+                        </ul>
+                    </div>
+ <div class="xzLink"><a
+                            href="https://dev.izaiming.com:3080/hospital-rd/xdap-app/formShareSkip/skip/shareUrl?shareId=NjE2Mjc5MjI5ODkzNDQzNTg0&tenantId=522732154963099649&appId=542995991612096512"
+                            target="_blank" style="color:#fff; text-decoration:underline;">药品不良反应信息报告</a><a href="jrwm/sytk.aspx"
+                            style="color:#fff; text-decoration:underline;">使用条款</a><a href="jrwm/yszc.aspx"
+                            style="color:#fff; text-decoration:underline;">隐私政策</a></div>
+                </div>
+                <div class="f-right">
+                    <dl>
+                        <dt><a href="about/about.aspx">关于我们</a></dt>
+                        <dd><a href="about/about.aspx#ab01">企业概况</a></dd>
+                        <dd><a href="about/about.aspx#ab02">里程碑</a></dd>
+                        <dd><a href="about/about.aspx#ab03">管理团队</a></dd>
+                        <dd><a href="about/about.aspx#ab04">企业文化</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="pro/pro.aspx">患者第一</a></dt>
+
+                        <dd><a href="pro/disease.aspx">疾病</a></dd>
+                      <dd><a href="pro/pro.aspx">产品</a></dd>
+
+                    </dl>
+                    <dl>
+                        <dt><a href="kxcx/kxcx.aspx">协同创新</a></dt>
+                        <dd><a href="kxcx/kxcx.aspx#cx01">全球布局</a></dd>
+                        
+                        <dd><a href="kxcx/yggx.aspx">研发管线</a></dd>
+      
+                    </dl>
+                    <dl>
+                        <dt>先声传讯</dt>
+                        <dd class="ic01"><p></p><span><img src="images/ewm.png"></span></dd>
+<dd class="ic02"><a href="https://weibo.com/xianshengyaoye" target="_blank"><p> </p></a></dd>
+<dd class="ic03"><a href="https://www.linkedin.com/company/simcere-pharmaceutical-group" target="_blank"><p> </p></a></dd>
+<dd class="ic04"><a href="https://www.facebook.com/Simcere" target="_blank"><p> </p></a></dd>
+<dd class="ic05"><a href="https://twitter.com/SimcerePharm" target="_blank"><p> </p></a></dd>
+                    </dl>
+                </div>
+                <div class="clear"></div>
+                <div class="m_link">
+                    <div class="tab" id="table">
+                        快速通道
+                    </div>
+                    <div class="tab_con" style="display: none;">
+                        <ul>
+                            <li><a href="about/about.aspx">关于我们</a> </li>
+                            <li><a href="pro/pro.aspx">患者第一</a></li>
+                            <li><a href="kxcx/kxcx.aspx">科学创新</a></li>
+                            <li><a href="zyyw/zyyw.aspx">制药业务</a></li>
+                            <li><a href="kfhz/kfhz.aspx">开放合作</a></li>
+                            <li><a href="news/news.aspx">先声资讯</a></li>
+                            <li><a href="shzr/shzr.aspx">社会责任</a></li>
+                            <li><a href="jrwm/jrwm.aspx">加入我们</a></li>
+<li><a href="ztb/ztb.aspx" target="_blank">招投标信息</a></li>
+                            <li><a href="https://www.isimcere.com/YZSoft/login/?ReturnUrl=%2f" target="_blank">OA系统</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    $(".tab").click(function () {
+                        $(".tab_con").slideToggle();
+
+                        const LL = document.getElementById('table');
+                        var sds = hasClass(LL, 'xz-jia');
+                        if (sds == true)
+                            $(this).removeClass("xz-jia");
+                        else
+                            $(this).addClass("xz-jia");
+                    });
+
+                    function hasClass(element, className) {
+                        const regExp = new RegExp("\\b" + className + "\\b", "gi");
+                        return regExp.test(element.className);
+                    }
+
+                </script>
+                <div class="f-center">
+服务热线：400-887-7552<br />
+                    <span>投诉邮箱：ceo@simcere.com<br />
+
+<a href="images/zheng.jpg" target="_blank" style="color:#fff;">(苏)-非经营性-2023-0142(互联网药品信息服务资格证书)</a> <b class="sx">|</b> <b><a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" style="color:#fff;">苏ICP备10205883-5号</a></b> <b class="sx">|</b> <b><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32010202010345" target="_blank" style="color:#fff;"><img src="images/footer.png" style="position:relative; top:2px">苏公网安备 32010202010345号</a></b>
+<b class="qu">
+© Copyright 2026 江苏先声药业有限公司 版权所有 All Rights Reserved.</b>
+                    </span>
+                   
+                    <div class="select fr">
+                        <select name="phpddt" name="jQuery1" class="beautify_input"  onchange="window.open(this.options[this.selectedIndex].value,'_blank')" >
+
+                            
+                                   
+                                    <option value='http://www.nmpa.gov.cn/WS04/CL2042/'>国家药品监督管理局</option>
+                                
+                                   
+                                    <option value='http://www.nhsa.gov.cn/'>国家医疗保障局</option>
+                                
+                                   
+                                    <option value='http://www.phirda.com/'>中国医药创新促进会</option>
+                                
+                                   
+                                    <option value='http://www.cha.org.cn/'>中国医院协会</option>
+                                
+                                   
+                                    <option value='https://www.sklsim.com/'>神经与肿瘤药物研发全国重点实验室</option>
+                                
+                                   
+                                    <option value='http://www.simcerebic.com/'>波士顿创新中心</option>
+                                
+                                   
+                                    <option value='http://www.simceredx.com/'>江苏先声医学诊断有限公司</option>
+                                
+                        </select>
+                        <script type="text/javascript">
+
+		$(function(){	
+
+			$('.beautify_input').cssSelect();
+
+		});
+
+	</script>
+<div class="placeholder">友情链接</div>
+                    </div>
+                     <p class="oa fr" style="line-height:40px; padding-right:10px;"><a href="https://www.isimcere.com/YZSoft/login/?ReturnUrl=%2f" target="_blank" style="color:#fff;">OA系统</a></p>
+                      
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/wow.min.js"></script>
+        <script>
+            if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+                new WOW().init();
+            };
+
+            $(".subnav").hover(function () {
+                $(this).next(".tttt").show()
+            }, function () {
+                $(this).next(".tttt").hide()
+            })
+            $(".tttt").hover(function () {
+                $(this).show()
+                $(".subnav").addClass("ts")
+            }, function () {
+                $(this).hide()
+                $(".subnav").removeClass("ts")
+            })
+        </script>
+    </form>
+</body>
+</html>

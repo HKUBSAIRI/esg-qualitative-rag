@@ -1,0 +1,175 @@
+{
+  "method": "baseline_refined_v2",
+  "source": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG其他",
+  "rules_sha256": "ac0aa1b1ea30350d67e80b632d4dfb74510f0f8466d974994877ed377d7115f3",
+  "source_sha256": {
+    "retrieval.py": "dd19be4898e25b186b4b69b500d02753ab44d987dd44341eadda3bb31dadefc6",
+    "qualitative.py": "95e5e7306c6aeb875aaa43b3c0cc521f44a9da6fade00c8c3e1b2639691c6445",
+    "rubric.py": "283e4f318b18527dda3dbd6c0d59d17dfd27a5347ce409de14cf3a2e2fec4343",
+    "keywords.csv": "d6ec0a4595befd7aee2e1f000046719dc1807204daf9c6dc8774f14bc81e12f8"
+  },
+  "config": {
+    "top_k": 24,
+    "group_quota": 2,
+    "keyword_reserve": 16,
+    "lexical_weight": 0.7,
+    "semantic_weight": 0.3,
+    "semantic_floor": 0.42,
+    "noise_penalty": 0.2,
+    "fact_bonus": 0.02
+  },
+  "group_mapping": {
+    "E0": [
+      "E4"
+    ],
+    "E1": [
+      "E1"
+    ],
+    "E2": [
+      "E2"
+    ],
+    "E3": [
+      "E3"
+    ],
+    "E4": [
+      "E2",
+      "E3",
+      "E4"
+    ],
+    "P1": [
+      "P1"
+    ],
+    "P2": [
+      "P2"
+    ],
+    "P3": [
+      "P3",
+      "P4"
+    ],
+    "P4": [
+      "P1",
+      "P2"
+    ],
+    "P5": [
+      "P6"
+    ],
+    "T1": [
+      "T1"
+    ],
+    "T2": [
+      "T2"
+    ],
+    "T3": [
+      "T3"
+    ],
+    "T4": [
+      "T4"
+    ],
+    "T5": [
+      "T5",
+      "T6"
+    ],
+    "W1": [
+      "W1"
+    ],
+    "W2": [
+      "W2"
+    ],
+    "W3": [
+      "W3"
+    ],
+    "W4": [
+      "W1",
+      "W2",
+      "W3"
+    ],
+    "W5": [
+      "W5"
+    ],
+    "D1": [
+      "D1"
+    ],
+    "D2": [
+      "D2"
+    ],
+    "D3": [
+      "D7–D10"
+    ],
+    "D4": [
+      "D7–D10"
+    ],
+    "D5": [
+      "D7–D10"
+    ]
+  },
+  "extra_keywords": {
+    "E0": [
+      "turnover rate",
+      "employee turnover",
+      "离职率",
+      "離職率"
+    ],
+    "P2": [
+      "pay slip",
+      "payslip",
+      "payroll",
+      "salary inquiry",
+      "工资单",
+      "工資單",
+      "工资核算",
+      "薪酬申诉"
+    ],
+    "P4": [
+      "all employees",
+      "full-time employees",
+      "coverage",
+      "全体员工",
+      "全體員工",
+      "覆盖范围"
+    ],
+    "W4": [
+      "eligibility",
+      "reimbursement",
+      "application",
+      "entitlement",
+      "申请",
+      "申請",
+      "报销",
+      "報銷",
+      "领取"
+    ],
+    "D3": [
+      "investigation",
+      "complaint",
+      "举报",
+      "舉報",
+      "调查",
+      "調查"
+    ],
+    "D4": [
+      "non-retaliation",
+      "retaliation",
+      "confidential",
+      "anonymous",
+      "保密",
+      "匿名",
+      "不报复",
+      "不報復"
+    ],
+    "D5": [
+      "disciplinary",
+      "remediation",
+      "corrective",
+      "sanction",
+      "问责",
+      "問責",
+      "处分",
+      "處分",
+      "纠正",
+      "補救"
+    ]
+  },
+  "parser": "exact existing RAG-2.0 paragraphs via Doc/sentences protocol; external s11_text absent",
+  "scoring": "RAG-2.0 groups and score prompt; legacy three-tier, gates, path100 and floors unused",
+  "embedding_reuse": "existing 1024-dimension model-specific vectors reused; additional calls logged separately"
+}

@@ -1,0 +1,129 @@
+{
+  "groups": [
+    {
+      "group_id": "E1",
+      "score": 100,
+      "reason": "主体：石藥集團（CSPC）；员工适用范围：全体员工；年度：2025年；具体事项：披露总离职率8.56%及按工种、性别、年龄、地区分类的离职率。原文直接提供明确口径和期间的离职率数值，满足E1条件。",
+      "evidence": [
+        {
+          "chunk_id": "01093_primary_T87_002",
+          "quote": "Employee Turnover Rate | % | 8.56",
+          "reason": "该段直接披露2025年度总离职率具体数值8.56%，支持E1",
+          "pages": [
+            87
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01093_primary_P59_002",
+          "quote": "In 2025, the labor-contract signing rate, social-insurance coverage rate, and additional group accidental-insurance coverage rate for employees all reached 100%",
+          "reason": "确认报告期间为2025年",
+          "pages": [
+            59
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E2",
+      "score": 100,
+      "reason": "主体：石藥集團（CSPC）；员工适用范围：全体员工；年度：2025年；具体事项：披露劳动合同签订率达100%，并建立劳动关系管理制度。属于合同签订的具体事实与安排，满足E2条件。",
+      "evidence": [
+        {
+          "chunk_id": "01093_primary_P59_002",
+          "quote": "In 2025, the labor-contract signing rate, social-insurance coverage rate, and additional group accidental-insurance coverage rate for employees all reached 100%",
+          "reason": "该段直接披露2025年劳动合同签订率达到100%的事实，支持E2",
+          "pages": [
+            59
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01093_primary_P59_002",
+          "quote": "We have established systems including the Labor Relations Management System",
+          "reason": "该段说明已建立劳动关系管理制度，补充支持合同签订管理安排",
+          "pages": [
+            59
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E3",
+      "score": 100,
+      "reason": "主体：石藥集團（CSPC）；员工适用范围：全体员工；年度：2025年；具体事项：建立员工离职管理制度，工会设立劳动争议调解委员会提供正式协商与调解渠道。属于解雇/解除程序中的协商与申诉制度，满足E3条件。",
+      "evidence": [
+        {
+          "chunk_id": "01093_primary_P59_002",
+          "quote": "We have established systems including the Labor Relations Management System, Attendance and Leave Management System, Employee Separation Management System",
+          "reason": "该段披露已建立员工离职管理制度（Employee Separation Management System），属于解除程序的具体制度",
+          "pages": [
+            59
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01093_primary_P63_005",
+          "quote": "the labor union has established a labor dispute mediation committee to provide employees with a formal consultation and mediation channel",
+          "reason": "该段披露工会设立劳动争议调解委员会，提供正式协商与调解渠道，支持E3中协商/申诉程序要求",
+          "pages": [
+            63
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E4",
+      "score": 100,
+      "reason": "主体：石藥集團（CSPC）；员工适用范围：内部员工；年度：2025年；具体事项：制定《员工借调管理办法》以促进内部知识经验流动与转移，属于转岗类安置支持政策。满足E4条件。",
+      "evidence": [
+        {
+          "chunk_id": "01093_primary_L66_003",
+          "quote": "To support business expansion and regional development while promoting the flow and transfer of internal knowledge and experience, we formulated the Employee Secondment Management Measures.",
+          "reason": "该段披露制定员工借调管理办法以促进内部人员流动与转岗，属于转岗类安置支持的具体政策，支持E4",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E5",
+      "score": 0,
+      "reason": "主体：石藥集團（CSPC）；员工适用范围：未说明；年度：2025年；具体事项：候选原文仅披露离职人数、离职率、离职管理制度及借调办法等政策与数据，未披露当期已经发生的终止补偿支付、安置或离职保障受益的实际案例或结果。E5明确要求实际结果证据，当前候选未找到，记0。",
+      "evidence": [
+        {
+          "chunk_id": "01093_primary_T87_001",
+          "quote": "Number of Employee Turnovers | persons | 1,686",
+          "reason": "该段仅披露离职人数统计，不包含终止补偿支付或安置的实际结果，不能支持E5",
+          "pages": [
+            87
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01093_primary_P59_002",
+          "quote": "We have established systems including the Labor Relations Management System, Attendance and Leave Management System, Employee Separation Management System",
+          "reason": "该段为制度层面的披露，非实际离职保障结果，不满足E5对实际结果的要求",
+          "pages": [
+            59
+          ],
+          "exact_match": true
+        }
+      ]
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "候选原文未直接证实存在符合严重问题条款且未有效纠正的事项"
+  },
+  "company_id": "01093",
+  "indicator": "S1.1.1-C",
+  "base_score": 80.0,
+  "final_score": 80.0,
+  "method": "revised_gt_cases"
+}

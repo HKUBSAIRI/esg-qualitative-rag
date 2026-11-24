@@ -1,0 +1,48 @@
+{
+  "year": 2025,
+  "model": "qwen3.8-max",
+  "temperature": 0,
+  "thinking": false,
+  "material_scope": "official_full_materials",
+  "indicators": [
+    "S1.1.1-C",
+    "S1.1.2-C",
+    "S1.1.3",
+    "S1.1.4",
+    "S1.1.5"
+  ],
+  "rules_sha256": "ac0aa1b1ea30350d67e80b632d4dfb74510f0f8466d974994877ed377d7115f3",
+  "max_rounds": 3,
+  "candidates_per_query": 20,
+  "gt_available": false,
+  "accuracy": null,
+  "extraction": "reuse matching completed four-call triples; remaining chunks use one call with entities/relations/pairs/facts arrays",
+  "search_completion": "An incomplete crawl or failed document is never proof of absence",
+  "pilot_codes": [
+    "01513",
+    "03692"
+  ],
+  "comparison": "same corpus and rubric; raw hybrid vs holistic",
+  "parser_additional_pdf": "PyMuPDF layout blocks merged on same page; low-text pages pending OCR",
+  "indexing": "employee-related text and neighbors for dense/fact memory; full available text BM25",
+  "baseline": "same materials/rules/seed questions, raw hybrid retrieval",
+  "paper_reference": "https://github.com/Drew19980118/HolisticRAG",
+  "reference_only_embedding_cny_per_million": 0.144,
+  "llm_price_checked": "2026-11-17",
+  "llm_input_cny_per_million": 12,
+  "llm_output_cny_per_million": 36,
+  "llm_implicit_cache_cny_per_million": 1.5,
+  "fx_assumption_cny_per_usd": 7.2,
+  "active_codes": [
+    "01513",
+    "03692",
+    "00867",
+    "02269",
+    "01801"
+  ],
+  "active_company_count": 5,
+  "scope_changed_at": "2026-11-17",
+  "deadline_utc": "2026-11-17T07:42:31Z",
+  "variant": "ESG_HolisticRAG_combined_four_stage_first_round",
+  "comparison_note": "same scoring rubric and raw evidence validation; model call granularity adapted for 1-hour delivery"
+}

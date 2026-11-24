@@ -1,0 +1,188 @@
+{
+  "company": {
+    "code": "01530",
+    "company": "三生製藥集團有限公司",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042904542.pdf",
+    "pdf": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/pdfs/01530_2025.pdf",
+    "parsed": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/parsed/01530/retrieval_chunks.jsonl"
+  },
+  "documents": [
+    {
+      "id": "01530_primary",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042904542.pdf",
+      "path": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/pdfs/01530_2025.pdf",
+      "title": "2025 ESG report",
+      "kind": "esg2025",
+      "sha256": "cfd337c10bc976c4885dd1e8800c8d20105454161b5d01643ab62f9bcc5b2a67",
+      "parsed_cache": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/parsed/01530/retrieval_chunks.jsonl",
+      "official": true
+    },
+    {
+      "id": "01530_d21587ceabbb12",
+      "url": "https://www.3sbio.com/ImgUpload/files/202604/2026042908445464687.pdf",
+      "resolved_url": "https://www.3sbio.com/ImgUpload/files/202604/2026042908445464687.pdf",
+      "entry_url": "https://www.3sbio.com/investor_relations/financial_reports.aspx",
+      "title": "2025年度报告 Pdf 中文| 3.6M",
+      "path": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG-2.0/materials/01530/d21587ceabbb12.pdf",
+      "sha256": "a3e284c7e96fa52e2304f9dbe037685c23cca64c24cf8d98f3db3f501ea3be32",
+      "retrieved_at": "2026-11-17T13:43:41+0800",
+      "official": true,
+      "pages": 238,
+      "kind": "esg2025"
+    }
+  ],
+  "coverage": {
+    "esg2025": true,
+    "annual2025": false,
+    "esg2024": false,
+    "annual2024": false,
+    "policy_or_other": false,
+    "regulatory_checked": false,
+    "judicial_checked": false,
+    "complete": false,
+    "regulatory_discovery_search_done": true,
+    "judicial_discovery_search_done": true
+  },
+  "search_log": [
+    {
+      "url": "https://www.3sbio.com/investor_relations/financial_reports.aspx",
+      "status": "entry_read",
+      "links_found": 65
+    },
+    {
+      "url": "https://www.3sbio.com/respon/green.aspx",
+      "status": "entry_read",
+      "links_found": 26
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202604/2026042908445464687.pdf",
+      "status": "downloaded",
+      "kind": "esg2025"
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202509/2025093005381014574.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202504/2025043009482379579.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202409/202409300447489183.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202404/2024043004415572020.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202605/2026052605462598672.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202509/2025090110012925873.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202503/2025032505474246754.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202501/2025012104430567755.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202408/2024082206294824405.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202403/2024032009392097082.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202604/2026042908395175295.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202504/2025043003310096371.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202404/2024043004421118925.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/investor_relations/index.aspx",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/respon/excellent.aspx",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/respon/social.aspx",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/respon/report.aspx",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/investor_relations/notice.aspx",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/investor_relations/corporate_governance.aspx",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/investor_relations/shares.aspx",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/investor_relations/investor_visit.aspx",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.3sbio.com/ImgUpload/files/202304/2023042803085868082.pdf",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "stage": "regulatory_judicial_discovery",
+      "status": "searched",
+      "date": "2026-11-17",
+      "record_directory": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG-2.0/inputs/search_logs",
+      "completeness": "Search undertaken; no blanket absence conclusion. Original-source verification and missing documents remain pending."
+    },
+    {
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042904533_c.pdf",
+      "status": "original_downloaded"
+    }
+  ],
+  "crawl_exhausted": false,
+  "remaining_links": 57,
+  "cutoff": "2026-11-17",
+  "note": "Crawl is discovery only; source completeness requires explicit review."
+}

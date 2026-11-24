@@ -1,0 +1,101 @@
+{
+  "groups": [
+    {
+      "group_id": "P1",
+      "score": 100,
+      "reason": "主体：金斯瑞生物科技股份有限公司；年度：2025；适用范围：employees across key operating locations；事项：薪酬支付保障政策。原文披露公司开展生活工资差距分析并据此调整薪酬，属于具体支付保障政策。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_003",
+          "quote": "To ensure employees receive sufficient wages to meet their basic living needs, we conduct an annual living wage gap analysis covering employees across key operating locations, and findings are used to inform salary review priorities. Based on annual salary reviews, we adjust employee compensation to align with market trends, ensuring internal equity and market competitiveness.",
+          "reason": "该段明确披露了确保员工获得满足基本生活需求工资的年度生活工资差距分析及薪酬调整机制，构成具体薪酬支付保障政策事实。",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P2",
+      "score": 100,
+      "reason": "主体：金斯瑞生物科技股份有限公司；年度：2025；适用范围：managers and employees；事项：工资处理及员工查询机制。原文披露年度薪酬审查并向管理者和员工提供薪酬政策指引，属于工资核算/复核相关机制。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_L8_011",
+          "quote": "We conduct annual pay reviews and provide clear guidelines to managers and employees on pay policies to reduce unconscious bias.",
+          "reason": "该段披露了年度薪酬审查（pay reviews）及向管理者和员工提供薪酬政策指引的具体机制，满足工资核算或复核机制的要求。",
+          "pages": [
+            8
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P3",
+      "score": 100,
+      "reason": "主体：金斯瑞生物科技股份有限公司；年度：2025；适用范围：employees across key operating locations；事项：工资支付监测或内部审查。原文披露年度生活工资差距分析用于指导薪酬审查优先级，属于对工资支付的监测。同时特别规则下，原文披露annual internal audit亦可作为成立依据。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_003",
+          "quote": "we conduct an annual living wage gap analysis covering employees across key operating locations, and findings are used to inform salary review priorities",
+          "reason": "该段披露了对关键运营地点员工的年度生活工资差距分析，其结果用于指导薪酬审查优先级，构成对工资支付的监测事实。",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01548_primary_P49_008",
+          "quote": "we conduct an annual internal audit on recruitment",
+          "reason": "根据特别规则，报告原文披露内部人力资源审计（internal audit）即可作为P3成立的依据。该段虽为招聘审计，但包含'annual internal audit'表述，依特别规则优先适用。",
+          "pages": [
+            49
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P4",
+      "score": 100,
+      "reason": "主体：金斯瑞生物科技股份有限公司；年度：2025；适用范围：full-time employees / employees across key operating locations；事项：保障对象及覆盖范围。原文明确披露生活工资分析覆盖关键运营地点员工，且2025年95%全职员工达到标准。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_003",
+          "quote": "we conduct an annual living wage gap analysis covering employees across key operating locations",
+          "reason": "该段明确了薪酬保障政策的适用对象为关键运营地点的员工。",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01548_primary_P50_003",
+          "quote": "In 2025, 95% of our full-time employees were paid at or above the applicable standards.",
+          "reason": "该段披露了2025年实际覆盖人数比例（95%全职员工），满足覆盖范围证据要求。",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P5",
+      "score": 0,
+      "reason": "主体：金斯瑞生物科技股份有限公司；年度：2025；适用范围：未说明；事项：支付问题补救机制或纠正。候选原文中未识别到关于工资差错、欠薪、扣款、加班费问题的补发、退还、复核等具体补救机制或已完成纠正事实的披露。",
+      "evidence": []
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "候选原文中未发现经核实的重大欠薪、违法克扣工资等严重问题。"
+  },
+  "company_id": "01548",
+  "indicator": "S1.1.2-C",
+  "base_score": 80.0,
+  "final_score": 80.0,
+  "method": "revised_gt_cases"
+}

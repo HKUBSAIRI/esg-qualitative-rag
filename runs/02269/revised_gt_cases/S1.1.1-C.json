@@ -1,0 +1,110 @@
+{
+  "groups": [
+    {
+      "group_id": "E1",
+      "score": 100,
+      "reason": "主体：药明生物；适用范围：全体员工（按性别、年龄、地区细分）；年度：2025年；事项：披露员工流失率具体数值。原文直接给出2025年度总流失率及分类数据，满足E1条件。",
+      "evidence": [
+        {
+          "chunk_id": "02269_primary_T131_001",
+          "quote": "員工流失率 42 | % | 10 | 11 | 11 | 10",
+          "reason": "该段为2025年度ESG报告绩效指标表，明确列出2025年员工流失率为10%，直接支持E1当期离职率披露。",
+          "pages": [
+            131
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E2",
+      "score": 100,
+      "reason": "主体：药明生物；适用范围：所有员工；年度：2025年；事项：劳动合同签订安排。原文明确要求所有员工签署协议，属于合同签订的具体安排，满足E2条件。",
+      "evidence": [
+        {
+          "chunk_id": "02269_primary_P43_002",
+          "quote": "我們要求所有員工簽署《僱員保密信息和發 明轉讓協議》",
+          "reason": "该段为2025年度ESG报告正文，披露公司要求所有员工签署协议的事实，属于合同签订的具体安排，直接支持E2。",
+          "pages": [
+            43
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E3",
+      "score": 100,
+      "reason": "主体：药明生物；适用范围：员工；年度：未说明（制度文件）；事项：解除劳动合同的处分程序。原文多处列明在利益冲突、反腐败、举报等违规情形下可给予直至解除劳动合同的纪律处分，属于解雇程序中的具体制度事实，满足E3条件。",
+      "evidence": [
+        {
+          "chunk_id": "02269_edc15276961ba2_p14_b0",
+          "quote": "if the violation is serious and has caused losses, the disciplinary action will be taken up to terminate the employment contract(s) with such employee(s);",
+          "reason": "该段为利益冲突管理制度，明确严重违规可导致解除劳动合同，属于解雇程序的具体制度披露。",
+          "pages": [
+            14
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "02269_d86a4ab03101c4_p17_b0",
+          "quote": "disciplinary actions (up to dismissal) shall be given depending on the severity of the violation;",
+          "reason": "该段为反腐败制度，明确视情节严重程度可给予直至开除的纪律处分，属于解雇程序的具体制度披露。",
+          "pages": [
+            17
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "02269_1c251f085a5018_p7_b0",
+          "quote": "最高直至解除劳动合同或退回劳务派遣机构",
+          "reason": "该段为举报与调查制度，明确阻挠调查或举报坐实等情形最高可解除劳动合同，属于解雇程序的具体制度披露。",
+          "pages": [
+            7
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E4",
+      "score": 100,
+      "reason": "主体：药明生物；适用范围：员工（含外派员工）；年度：2025年；事项：员工内部调动及安置津贴。原文绩效表披露2025年员工内部调动人数，且正文提及为外派员工提供安置津贴，属于转岗和就业安置的具体事实与政策，满足E4条件。",
+      "evidence": [
+        {
+          "chunk_id": "02269_primary_T129_001",
+          "quote": "員工內部調動 | 人 | 1,176 | 953 | 948 | 610",
+          "reason": "该段为2025年度ESG报告绩效指标表，明确列出2025年员工内部调动610人，属于转岗的具体事实证据。",
+          "pages": [
+            129
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "02269_primary_P84_005",
+          "quote": "為外派員工提供具有市場競爭力的派遣福利,包括長期激勵計劃、全球醫療保險、生活成本津 貼、安置津貼、臨時居住安排和探親福利等",
+          "reason": "该段为2025年度ESG报告正文，披露为外派员工提供安置津贴等福利，属于就业安置的具体政策安排。",
+          "pages": [
+            84
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E5",
+      "score": 0,
+      "reason": "主体：药明生物；适用范围：未说明；年度：2025年；事项：实际离职保障结果。候选原文中未找到2025年度已发生的终止补偿支付、安置受益案例或有效纠正结果的具体事实披露。员工内部调动数据（E4）不等同于离职保障结果；解雇处分条款（E3）仅为制度，非实际结果。E5明确要求实际结果，故记0。",
+      "evidence": []
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "候选原文未直接证实存在符合严重问题特殊条款且未有效纠正的事项。"
+  },
+  "company_id": "02269",
+  "indicator": "S1.1.1-C",
+  "base_score": 80.0,
+  "final_score": 80.0,
+  "method": "revised_gt_cases"
+}

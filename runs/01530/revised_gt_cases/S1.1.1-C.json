@@ -1,0 +1,120 @@
+{
+  "groups": [
+    {
+      "group_id": "E1",
+      "score": 100,
+      "reason": "主体：三生制药集团；适用范围：全体员工（含分类）；年度：2025年；事项：披露总离职率20.39%及分类离职率，满足当期离职率具体数值要求。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_T120_001",
+          "quote": "Employee turnover rate 3 | % | 16.11 | 22.62 | 20.39",
+          "reason": "KPI表明确披露2025年度员工总离职率为20.39%，满足E1对具体数值的要求",
+          "pages": [
+            120
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01530_primary_P4_007",
+          "quote": "Employee turnover rate was 20.39%, down 9.83% year-on-year",
+          "reason": "正文再次确认2025年离职率20.39%并给出同比变化",
+          "pages": [
+            4
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E2",
+      "score": 100,
+      "reason": "主体：三生制药集团；适用范围：all employees；年度：2025年；事项：披露依法与所有员工签订劳动合同的具体安排，满足合同签订保障要求。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_P66_001",
+          "quote": "The Group always adheres to legal employment and signs the labor contract with all employees in accordance with laws and regulations.",
+          "reason": "明确披露集团依法与所有员工签订劳动合同的政策安排，直接支持E2",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01530_primary_T120_001",
+          "quote": "Number of employees under labor contracts | Person | 5,365 | 5,485 | 6,027",
+          "reason": "以数据佐证2025年有6,027名员工在劳动合同下，印证合同签订事实",
+          "pages": [
+            120
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E3",
+      "score": 100,
+      "reason": "主体：三生制药集团；适用范围：员工；年度：2025年；事项：披露《员工辞退指引》规范解雇管理，属于解雇程序中的具体制度。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_T66_001",
+          "quote": "Dismissal: The Group introduced the Guidelines for Employee Dismissal to regulate and improve management on employee dismissal",
+          "reason": "明确披露集团引入《员工辞退指引》以规范和改善员工解雇管理，属于解雇程序的具体制度，满足E3",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E4",
+      "score": 0,
+      "reason": "主体：三生制药集团；适用范围：未说明；年度：2025年；事项：原文仅披露招聘推荐奖励、人才保留奖金、长期服务奖、股权激励及离职员工分析等留才措施，未识别到转岗、再就业、安置性再培训或其他就业安置的具体政策或事实。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_T74_001",
+          "quote": "Talent Retention Award | • To retain core employees, the Group has introduced a talent retention program.",
+          "reason": "该段为人才保留激励计划，非安置支持，不能支持E4",
+          "pages": [
+            74
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01530_primary_P74_001",
+          "quote": "The Group conducts in-depth analysis and study on departing employees so as to continuously optimize its talent management system",
+          "reason": "离职员工深度分析属于留才优化，非转岗或再就业安置，不满足E4",
+          "pages": [
+            74
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E5",
+      "score": 0,
+      "reason": "主体：三生制药集团；适用范围：未说明；年度：2025年；事项：原文未披露当期已发生的终止补偿支付、安置或离职保障受益案例。E5明确要求实际结果证据，现有内容仅为留才政策和离职分析，不满足。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_T74_001",
+          "quote": "In-depth analysis of departing employees | • Every year, the Group selects departing employees from different sectors, analyzes the reasons for their departure, and implements improvement measures.",
+          "reason": "离职原因分析及改进措施不属于终止补偿支付或安置的实际结果，不能支持E5",
+          "pages": [
+            74
+          ],
+          "exact_match": true
+        }
+      ]
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "候选原文中未发现经核实的薪酬支付、工时休假、福利、反歧视与反骚扰严重问题。"
+  },
+  "company_id": "01530",
+  "indicator": "S1.1.1-C",
+  "base_score": 60.0,
+  "final_score": 60.0,
+  "method": "revised_gt_cases"
+}

@@ -1,0 +1,111 @@
+{
+  "groups": [
+    {
+      "group_id": "P1",
+      "score": 100,
+      "reason": "主体：和黃醫藥；年度：2025；适用范围：全体员工（结合P61_007）；事项：薪酬支付保障政策。原文披露了包含基本工资、绩效奖金、津贴及长期激励的薪酬结构，并明确遵守适用法律，构成具体保障政策。",
+      "evidence": [
+        {
+          "chunk_id": "00013_primary_P61_005",
+          "quote": "The remuneration structure includes multiple components: base salary, performancebased bonuses, allowances, and long-term incentive plans.",
+          "reason": "披露具体薪酬结构组成，属于薪酬支付保障的具体政策内容",
+          "pages": [
+            61
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "00013_primary_P61_001",
+          "quote": "These policies strictly comply with all applicable laws and regulations governing recruitment, termination, compensation, and promotion.",
+          "reason": "说明薪酬政策严格遵守法律法规，构成支付合规保障",
+          "pages": [
+            61
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P2",
+      "score": 100,
+      "reason": "主体：和黃醫藥；年度：2025；适用范围：员工；事项：工资处理及员工查询机制。原文明确披露通过月度工资单和年度调薪信确保透明度，并定期召开会议解答员工关于薪酬的问题，满足工资单与差错查询机制要求。",
+      "evidence": [
+        {
+          "chunk_id": "00013_primary_P61_005",
+          "quote": "Transparency is ensured through monthly pay slips and annual salary adjustment letters, which clearly communicate any changes in compensation. We also hold regular meetings to address employee questions and gather feedback and suggestions regarding compensation.",
+          "reason": "直接披露月度工资单及定期会议解答薪酬疑问的具体机制",
+          "pages": [
+            61
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P3",
+      "score": 0,
+      "reason": "主体：和黃醫藥；年度：2025；适用范围：未说明；事项：工资支付监测或内部审查。原文仅披露内部审计团队进行道德合规检查以及薪酬委员会监督薪酬方案，未披露针对工资支付的专项检查、监测或内部人力资源审计（internal human resources audit），不满足本组条件。",
+      "evidence": [
+        {
+          "chunk_id": "00013_primary_L64_018",
+          "quote": "The internal audit team conducts regular compliance checks and audits to ensure that the company is adhering to its ethical standards.",
+          "reason": "仅涉及道德标准合规审计，未明示覆盖工资支付监测",
+          "pages": [
+            64
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "00013_primary_P61_005",
+          "quote": "A Board-level Remuneration Committee oversees our compensation packages.",
+          "reason": "董事会薪酬委员会监督薪酬方案属治理层面，非工资支付检查或内部审查程序",
+          "pages": [
+            61
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P4",
+      "score": 100,
+      "reason": "主体：和黃醫藥；年度：2025；适用范围：全体员工；事项：保障对象及覆盖范围。原文明确指出可变绩效激励薪酬结构覆盖所有员工，满足覆盖范围的披露要求。",
+      "evidence": [
+        {
+          "chunk_id": "00013_primary_P61_007",
+          "quote": "Variable performance-based incentive pay structure covers all employees.",
+          "reason": "明确薪酬结构适用于所有员工，满足覆盖范围要求",
+          "pages": [
+            61
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P5",
+      "score": 0,
+      "reason": "主体：和黃醫藥；年度：2025；适用范围：未说明；事项：支付问题补救机制或纠正。原文仅泛述申诉渠道和举报政策，未披露针对工资差错、欠薪、扣款或加班费问题的具体补发、退还、复核等补救机制或已完成的纠正事实。",
+      "evidence": [
+        {
+          "chunk_id": "00013_primary_P64_001",
+          "quote": "employees can voice their complaints and concerns through our ethics whistleblowing channel and HR escalation procedures, which are part of our comprehensive grievance mechanism.",
+          "reason": "为泛申诉渠道，未明示覆盖特定工资差错补救，依据规则不能自动视为工资补救机制",
+          "pages": [
+            64
+          ],
+          "exact_match": true
+        }
+      ]
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "未发现经核实的重大欠薪或违法克扣工资且未有效纠正的证据"
+  },
+  "company_id": "00013",
+  "indicator": "S1.1.2-C",
+  "base_score": 60.0,
+  "final_score": 60.0,
+  "method": "revised_gt_cases"
+}

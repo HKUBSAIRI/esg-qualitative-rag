@@ -1,0 +1,81 @@
+{
+  "groups": [
+    {
+      "group_id": "T1",
+      "score": 100,
+      "reason": "主体：先声药业集团；适用范围：部分员工；年度：2025；事项：弹性工作安排及居家办公制度。原文披露具体工时/排班控制政策，满足T1条件。",
+      "evidence": [
+        {
+          "chunk_id": "02096_primary_L34_008",
+          "quote": "Implement flexible working arrangements, including work-fromhome arrangements for some employees",
+          "reason": "英文ESG报告披露对部分员工实施弹性工作及居家办公安排，属于具体工时控制政策",
+          "pages": [
+            34
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "02096_8cd4605ea5efda_p34_b0",
+          "quote": "實行彈性工作制度，部分員工居家辦公制度",
+          "reason": "中文ESG报告福利体系中明确列出弹性工作制度及部分员工居家办公，直接支持T1",
+          "pages": [
+            34
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T2",
+      "score": 0,
+      "reason": "主体：先声药业集团；适用范围：未说明；年度：2025；事项：加班管理。候选原文未披露加班申请、审批、自愿性、时长控制或异常处置的具体政策、程序或事实，不满足T2条件。",
+      "evidence": []
+    },
+    {
+      "group_id": "T3",
+      "score": 100,
+      "reason": "主体：先声药业集团；适用范围：所有员工；年度：2025；事项：休息休假权利。原文明确列出带薪年假、婚假、产假、哺乳假、计划生育假、男性员工陪护假、育儿假等法定假期权利，满足T3条件。",
+      "evidence": [
+        {
+          "chunk_id": "02096_primary_L34_002",
+          "quote": "Paid annual leave",
+          "reason": "英文ESG报告指标表列明带薪年休假权利",
+          "pages": [
+            34
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "02096_8cd4605ea5efda_p34_b0",
+          "quote": "帶薪年假\n\u0007婚假\n\u0007產假\n\u0007哺乳假\n\u0007計劃生育假\n\u0007男性員工陪護假\n\u0007育兒假",
+          "reason": "中文ESG报告员工福利体系明确列出各类法定假期权利，直接支持T3",
+          "pages": [
+            34
+          ],
+          "exact_match": false
+        }
+      ]
+    },
+    {
+      "group_id": "T4",
+      "score": 0,
+      "reason": "主体：先声药业集团；适用范围：未说明；年度：2025；事项：工时及休假管理机制。候选原文未披露具体考勤、工时记录、排班检查、休假申请或调休管理机制或运行事实，仅有泛泛福利表述，不满足T4条件。",
+      "evidence": []
+    },
+    {
+      "group_id": "T5",
+      "score": 0,
+      "reason": "主体：先声药业集团；适用范围：未说明；年度：2025；事项：实际执行或纠正结果。候选原文未披露当期实际工时监测、休假使用率、执行覆盖或工时休假侵害纠正结果，仅有制度和福利名称，不满足T5要求实际结果的条件。原文亦未披露内部人力资源审计（internal human resources audit），不适用特别规则。",
+      "evidence": []
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "候选原文未披露经核实的严重超时工作或违法剥夺休息休假权利且未有效纠正的事项"
+  },
+  "company_id": "02096",
+  "indicator": "S1.1.3",
+  "base_score": 40.0,
+  "final_score": 40.0,
+  "method": "revised_gt_cases"
+}

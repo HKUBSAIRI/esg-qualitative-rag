@@ -1,0 +1,92 @@
+{
+  "groups": [
+    {
+      "group_id": "P1",
+      "score": 100,
+      "reason": "主体：三生制药集团；适用范围：全体员工（all employees）；年度：2025；事项：薪酬支付保障政策。原文明确披露薪酬支付符合法律法规，并实施结合岗位、绩效和能力的支付制度，属于具体保障政策。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_T66_001",
+          "quote": "The payments are in line with laws and regulations; implementing a payment system combining employees' position, performance and competence",
+          "reason": "直接披露薪酬支付合规及具体支付制度，满足P1对具体保障政策的要求",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P2",
+      "score": 0,
+      "reason": "主体：三生制药集团；适用范围：未说明；年度：2025；事项：工资处理及员工查询机制。原文仅披露泛申诉渠道和举报途径，未识别工资核算、复核、工资单、差错查询或薪酬申诉中的任何一项具体机制。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_P72_003",
+          "quote": "The Group has systematically introduced the grievance mechanism and feedback channels to new employees during onboarding training. In case of compliance problems, the employees can report to their superiors, labor unions, the Human Resources Department or the Risk Compliance Department.",
+          "reason": "泛申诉渠道，未明确覆盖工资差错或薪酬申诉，依据规则不能自动支持P2",
+          "pages": [
+            72
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P3",
+      "score": 100,
+      "reason": "主体：子公司（Shenyang Sunshine等）；适用范围：子公司关键业务循环；年度：2025；事项：工资支付监测或内部审查。原文明确披露对子公司开展内部控制审计，覆盖payroll and benefits，且相关问题已全部整改达标。依据特别规则，报告原文披露内部人力资源审计（含payroll审计）即可作为P3成立依据。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_T23_001",
+          "quote": "We conducted internal control audits on key business cycles of subsidiaries such as Shenyang Sunshine, Guangdong Sunshine, Sunshine Mandi, and Sciprogen, covering areas including sales and receivables, procurement and payables, payroll and benefits, costs and inventory, expenses, fund management, long-term assets, R&D, and ITAC. By the end of the reporting period, the related issues had all been rectified and met the required standards.",
+          "reason": "明确披露对子公司开展涵盖payroll and benefits的内部控制审计，且问题已整改，满足P3对工资支付相关内部审查的要求",
+          "pages": [
+            23
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P4",
+      "score": 100,
+      "reason": "主体：三生制药集团；适用范围：all employees；年度：2025；事项：保障对象及覆盖范围。原文明确薪酬管理要求适用于all employees，满足P4对覆盖范围的明示要求。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_P66_001",
+          "quote": "Following the Employee Manual and other policy documents, the Group regulates management requirements related to recruitment, working hours, promotion, remuneration and welfare of employees.",
+          "reason": "结合T66_001中'all employees'表述，确认薪酬管理要求适用于全体员工",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01530_primary_T66_001",
+          "quote": "Recruitment: The Group follows the principle of employment equality and prohibits the use of child labor and forced labor • Dismissal: The Group introduced the Guidelines for Employee Dismissal to regulate and improve management on employee dismissal • Promotion: Employees will receive their year-end bonus or get promoted or demoted based on the result of their performance evaluation; the Group offers a clear career growth path to employees in terms of professional development and management development based on their personal willingness | • Working hours: The Group introduced the Guidelines for Employee Attendance and Leave . Employees of standard working hours work 40 hours a week; employees of comprehensive working hours work and rest according to the actual situation of their departments • Overtime: Employees can apply for compensatory leave for overtime hours worked • Leave: The Group provides paid annual leave, marriage leave, bereavement leave, maternity leave, sick leave, etc., in accordance with national regulations | • Remuneration: The payments are in line with laws and regulations; implementing a payment system combining employees' position, performance and competence; researching remuneration and welfare provided by peer pharmaceutical companies and those in other industries to provide a reference for employees' payment adjustment; offering personalized remuneration adjustment to outstanding employees",
+          "reason": "该段与P66_001共同构成薪酬政策适用于全体员工的证据链",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P5",
+      "score": 0,
+      "reason": "主体：三生制药集团；适用范围：未说明；年度：2025；事项：支付问题补救机制或纠正。原文未识别工资差错、欠薪、扣款、加班费问题的补发、退还、复核等具体补救机制或已完成纠正事实。",
+      "evidence": []
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "未发现经核实重大欠薪、违法克扣工资等且未有效纠正的情形"
+  },
+  "company_id": "01530",
+  "indicator": "S1.1.2-C",
+  "base_score": 60.0,
+  "final_score": 60.0,
+  "method": "revised_gt_cases"
+}

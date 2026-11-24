@@ -1,0 +1,89 @@
+{
+  "company": {
+    "code": "01801",
+    "company": "Innovent Biologics, Inc.（信达生物制药）",
+    "url": "https://img.innoventbio.com/ESG/2025ESG.pdf",
+    "pdf": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/pdfs/01801_2025.pdf",
+    "parsed": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/parsed/01801/retrieval_chunks.jsonl"
+  },
+  "documents": [
+    {
+      "id": "01801_primary",
+      "url": "https://img.innoventbio.com/ESG/2025ESG.pdf",
+      "path": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/pdfs/01801_2025.pdf",
+      "title": "2025 ESG report",
+      "kind": "esg2025",
+      "sha256": "7e221c485e6d9c3f85326af18be0046ef0fc1a4fef8ec0a4d5f58f5721b19a31",
+      "parsed_cache": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG1.0/experiments/s11_compare20/parsed/01801/retrieval_chunks.jsonl",
+      "official": true,
+      "classification": {
+        "id": "01801_primary",
+        "kind": "esg",
+        "report_year": 2025,
+        "period": "2025年1月1日至2025年12月31日",
+        "effective_from": "未说明",
+        "basis": "标题为「2025 ESG report」，正文载明「本報告是信達生物製藥…發佈的第8份環境、社會及管治（以下簡稱「ESG」）報告…時間跨度為2025年1月1日至2025年12月31日（即「報告期」）」（段落：關於本報告 概覽）。"
+      }
+    },
+    {
+      "id": "01801_b1c02643d7d5b8",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042805172_c.pdf",
+      "title": "2025年度报告",
+      "kind": "annual2025",
+      "path": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG-2.0/materials/01801/b1c02643d7d5b8.pdf",
+      "pages": 234,
+      "sha256": "d4e51eedfde634f01598a05aa5a551ff5c0e6059b2b9ffbb3b1fd61053cfce4b",
+      "official": true,
+      "retrieved_at": "2026-11-17T13:54:30+0800",
+      "entry_url": "manual official-source search",
+      "classification": {
+        "id": "01801_b1c02643d7d5b8",
+        "kind": "annual",
+        "report_year": 2025,
+        "period": "2025年度",
+        "effective_from": "未说明",
+        "basis": "标题为「2025年度报告」，正文载明「年報 ANNUAL REPORT 2025」（段落：目录前页眉），且包含「綜合損益及其他全面收入表」「綜合財務狀況表」等全年年报典型财务报表内容。"
+      }
+    }
+  ],
+  "coverage": {
+    "esg2025": true,
+    "annual2025": true,
+    "esg2024": false,
+    "annual2024": false,
+    "policy_or_other": false,
+    "regulatory_checked": false,
+    "judicial_checked": false,
+    "complete": false,
+    "regulatory_discovery_search_done": true,
+    "judicial_discovery_search_done": true
+  },
+  "search_log": [
+    {
+      "url": "https://www.innoventbio.com/",
+      "status": "entry_read",
+      "links_found": 0
+    },
+    {
+      "url": "https://www.innoventbio.com/about",
+      "status": "entry_read",
+      "links_found": 2
+    },
+    {
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042805172_c.pdf",
+      "status": "supplement_downloaded",
+      "kind": "annual2025"
+    },
+    {
+      "stage": "regulatory_judicial_discovery",
+      "status": "searched",
+      "date": "2026-11-17",
+      "record_directory": "/Users/liusuyao/code/python_code/IS/ESG-agent/RAG-2.0/inputs/search_logs",
+      "completeness": "Search undertaken; no blanket absence conclusion. Original-source verification and missing documents remain pending."
+    }
+  ],
+  "crawl_exhausted": true,
+  "remaining_links": 0,
+  "cutoff": "2026-11-17",
+  "note": "Crawl is discovery only; source completeness requires explicit review."
+}

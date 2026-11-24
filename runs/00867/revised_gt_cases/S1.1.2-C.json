@@ -1,0 +1,92 @@
+{
+  "groups": [
+    {
+      "group_id": "P1",
+      "score": 100,
+      "reason": "主体：本集团；适用范围：员工（全体）；年度：2025；事项：薪酬支付保障政策。原文明确承诺按时足额支付工资、不低于最低工资标准并在工资单列示扣除项，属于具体支付保障政策。",
+      "evidence": [
+        {
+          "chunk_id": "00867_13f9b8082ae73e_p82_b0",
+          "quote": "本集團為員工提供公平合理的薪酬和福利待遇，確保員工薪酬不低於國家及當地的最低工資標準，承諾按時足額支付員工工資，並在工資單中明確列示合法扣除項，確保薪酬支付的透明性和公平性。",
+          "reason": "直接披露了不低于最低工资、按时足额支付、工资单列示扣除项等具体薪酬支付保障政策，满足P1条件。",
+          "pages": [
+            82
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P2",
+      "score": 100,
+      "reason": "主体：本集团；适用范围：员工；年度：2025；事项：工资处理机制（工资单）。原文披露在工资单中明确列示合法扣除项，属于工资核算/工资单的具体机制。",
+      "evidence": [
+        {
+          "chunk_id": "00867_13f9b8082ae73e_p82_b0",
+          "quote": "並在工資單中明確列示合法扣除項，確保薪酬支付的透明性和公平性。",
+          "reason": "披露了工资单列示合法扣除项的具体处理机制，满足P2对工资单或核算机制的要求。",
+          "pages": [
+            82
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P3",
+      "score": 100,
+      "reason": "主体：The Group's Audit Department / external professional auditing organizations；适用范围：all subsidiaries of the Group；年度：2024（特别规则允许内部人力资源审计作为P3成立依据）；事项：人力资源内部审计覆盖薪酬与福利分配。原文披露审计部门对人力资源管理执行内部审计，评估薪酬与福利政策的执行情况，且外部审计亦覆盖薪酬福利发放。依据特别规则，报告原文披露内部人力资源审计即可作为P3成立依据。",
+      "evidence": [
+        {
+          "chunk_id": "00867_c80b4671ea1ddb_p68_b6",
+          "quote": "The Group' s Audit Department performs internal audits on the Group' s human resource management to assess the execution and implementation of human resource planning, recruitment, staff training, remuneration and benefits policies,etc.",
+          "reason": "明确披露内部审计部门对人力资源管理（含remuneration and benefits policies）执行内部审计，符合特别规则中'internal human resources audit'的定义，可作为P3成立依据。",
+          "pages": [
+            68
+          ],
+          "exact_match": false
+        },
+        {
+          "chunk_id": "00867_c80b4671ea1ddb_p68_b6",
+          "quote": "the Group receives an annual audit of internal control over human resources by external professional auditing organizations, during which all subsidiaries of the Group are covered in the form of sample surveys on human resource management, covering aspects of employee recruitment, contract signing, probation/transfer, employee attendance, holiday implementation, and remuneration and benefits distribution.",
+          "reason": "补充说明外部专业审计机构每年对人力资源内部控制进行审计，覆盖所有子公司的薪酬福利发放，进一步支持工资支付监测。",
+          "pages": [
+            68
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P4",
+      "score": 100,
+      "reason": "主体：本集团；适用范围：全体员工；年度：2025；事项：支付保障政策覆盖范围。原文披露薪酬回顾及调整面向全体员工开展，明确了支付保障政策的适用对象。",
+      "evidence": [
+        {
+          "chunk_id": "00867_13f9b8082ae73e_p82_b0",
+          "quote": "並面向全體員工，開展年度薪酬回顧及調整",
+          "reason": "明确薪酬政策适用于'全體員工'，满足P4对保障对象及覆盖范围的要求。",
+          "pages": [
+            82
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "P5",
+      "score": 0,
+      "reason": "主体：未说明；适用范围：未说明；年度：未说明；事项：支付问题补救机制或纠正。候选原文中未识别到针对工资差错、欠薪、扣款、加班费问题的补发、退还、复核等具体补救机制或已完成纠正事实的披露。绩效申诉流程不属于工资支付差错补救。",
+      "evidence": []
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "候选原文未披露经核实的重大欠薪、违法克扣工资等严重问题。"
+  },
+  "company_id": "00867",
+  "indicator": "S1.1.2-C",
+  "base_score": 80.0,
+  "final_score": 80.0,
+  "method": "revised_gt_cases"
+}

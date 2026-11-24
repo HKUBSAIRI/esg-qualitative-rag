@@ -1,0 +1,147 @@
+{
+  "groups": [
+    {
+      "group_id": "T1",
+      "score": 100,
+      "reason": "主体：金斯瑞（We）；适用范围：employees；年度：2025；事项：披露具体工时控制政策与事实。原文直接说明设定工时上限并遵守工时法律，满足T1条件。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_002",
+          "quote": "We comply with all applicable labor laws and standards on working hours, rest and leave entitlements, and compensation.",
+          "reason": "明确声明遵守工时相关法律标准，支持工时制度披露",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01548_primary_P50_002",
+          "quote": "We set maximum limits on working hours and monitor potential excessive overtime risks.",
+          "reason": "披露设定工时上限的具体规则，直接满足T1对合理工时控制政策的要求",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T2",
+      "score": 100,
+      "reason": "主体：金斯瑞（We）；适用范围：employees；年度：2025；事项：加班管理。原文明确披露监控过度加班风险及提供加班费或调休，属于异常处置和时长控制的具体政策与事实。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_002",
+          "quote": "We set maximum limits on working hours and monitor potential excessive overtime risks.",
+          "reason": "披露监控过度加班风险，属于加班时长控制与异常监测",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01548_primary_P50_002",
+          "quote": "Employees are offered overtime pay or paid time in lieu.",
+          "reason": "披露加班补偿方式，结合前句构成完整的加班管理措施",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T3",
+      "score": 100,
+      "reason": "主体：金斯瑞（We）；适用范围：employees / All employees, including full-time employees, contractors, and interns；年度：2025；事项：休息休假保障。原文列明法定假期、带薪年假及各类带薪假权利，满足T3条件。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_002",
+          "quote": "We comply with all applicable labor laws and standards on working hours, rest and leave entitlements, and compensation.",
+          "reason": "声明遵守休息和休假权利的法律规定",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01548_primary_T55_001",
+          "quote": "Paid annual leave Bonus leave Paid maternity leave Paid paternity leave Paid prenatal check-up leave Paid parental leave Paid breast-feeding leave Paid nursing leave for only-child family Paid bereavement leave",
+          "reason": "具体列出员工享有的各类带薪休假权利，直接满足T3",
+          "pages": [
+            55
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01548_primary_P55_003",
+          "quote": "All employees, including full-time employees, contractors, and interns, are eligible for paid family care leave",
+          "reason": "明确所有员工（含全职、承包商、实习生）享有带薪家庭护理假的权利",
+          "pages": [
+            55
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T4",
+      "score": 100,
+      "reason": "主体：金斯瑞（We）；适用范围：employees；年度：2025；事项：工时及休假管理机制。原文披露数字化工时管理系统及自助休假查询平台，属于具体的考勤、工时记录和休假申请管理机制。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_002",
+          "quote": "Our digital working hour management system helps ensure reasonable working hours and statutory leave for employees.",
+          "reason": "披露数字化工时管理系统，满足工时记录与管理机制要求",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01548_primary_P50_002",
+          "quote": "we provide a self-service platform where employees can check their leave balance, and we also send a reminder to encourage employees to use up their leave.",
+          "reason": "披露休假余额自助查询平台及提醒机制，满足休假管理机制要求",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T5",
+      "score": 100,
+      "reason": "主体：金斯瑞（We）；适用范围：employees；年度：2025；事项：实际执行或纠正结果。原文披露当期监控过度加班风险的实际行为，且特别规则规定报告原文披露内部人力资源审计即可作为T5成立依据，原文披露了年度招聘审计和职场骚扰审计。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_002",
+          "quote": "We set maximum limits on working hours and monitor potential excessive overtime risks.",
+          "reason": "monitor为当期正在执行的监测动作，属于实际工时监测的执行证据",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01548_primary_P49_008",
+          "quote": "we conduct an annual internal audit on recruitment, covering job postings, interviews, and hiring decisions. We also conduct an annual audit on workplace harassment to monitor the effectiveness of policies and measures to prevent sexual harassment and power-based harassment.",
+          "reason": "披露annual internal audit，依据特别规则，报告原文披露内部人力资源审计即可作为T5成立的依据，记100",
+          "pages": [
+            49
+          ],
+          "exact_match": true
+        }
+      ]
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "候选原文未披露经核实的严重超时工作或违法剥夺休息休假权利且未有效纠正的事项"
+  },
+  "company_id": "01548",
+  "indicator": "S1.1.3",
+  "base_score": 100.0,
+  "final_score": 100.0,
+  "method": "revised_gt_cases"
+}

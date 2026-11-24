@@ -1,0 +1,102 @@
+{
+  "groups": [
+    {
+      "group_id": "E1",
+      "score": 100,
+      "reason": "主体：金斯瑞生物科技股份有限公司；员工适用范围：全球员工（含按性别、年龄、地区、职级细分）；年度：2025年；具体事项：自愿离职率8.91%。原文直接披露了2025年度明确口径的离职率数值，满足E1条件。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_T47_002",
+          "quote": "Voluntary turnover | 8.91% | 549",
+          "reason": "该段以表格形式披露2025年度自愿离职率为8.91%，人数549人，并细分性别、年龄、地区和职级，直接支持E1。",
+          "pages": [
+            47
+          ],
+          "exact_match": true
+        },
+        {
+          "chunk_id": "01548_primary_P47_002",
+          "quote": "As of the end of 2025, we had a total of 6,165 team members globally, with a voluntary turnover rate of 8.91%",
+          "reason": "该段正文确认截至2025年底全球员工总数及自愿离职率8.91%，与表格数据交叉印证，支持E1。",
+          "pages": [
+            47
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E2",
+      "score": 100,
+      "reason": "主体：金斯瑞生物科技股份有限公司；员工适用范围：未说明（依据特别规则，披露内部人力资源审计即可作为成立依据）；年度：2025年；具体事项：对招聘、入职、工时和工资实践开展内部审计。根据特别规则，报告原文披露内部人力资源审计（internal audits on recruitment, onboarding, working hours, and wage practices），可作为S1.1.1 C各组成立的依据，E2记100。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_001",
+          "quote": "In 2025, we conducted internal audits on recruitment, onboarding, working hours, and wage practices, and no forced labor or child labor incidents were identified.",
+          "reason": "该段直接披露2025年开展了涵盖招聘、入职、工时和工资实践的内部审计，符合特别规则中'内部人力资源审计'的定义，据此E2记100。",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E3",
+      "score": 100,
+      "reason": "主体：金斯瑞生物科技股份有限公司；员工适用范围：未说明（依据特别规则，披露内部人力资源审计即可作为成立依据）；年度：2025年；具体事项：内部审计覆盖招聘、入职、工时和工资实践。根据特别规则，披露内部人力资源审计即可作为本组成立依据，E3记100。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_001",
+          "quote": "In 2025, we conducted internal audits on recruitment, onboarding, working hours, and wage practices, and no forced labor or child labor incidents were identified.",
+          "reason": "该段披露2025年开展内部人力资源审计，依据特别规则优先于对专项解雇程序的要求，E3记100。",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E4",
+      "score": 100,
+      "reason": "主体：金斯瑞生物科技股份有限公司；员工适用范围：未说明（依据特别规则，披露内部人力资源审计即可作为成立依据）；年度：2025年；具体事项：内部审计覆盖招聘、入职、工时和工资实践。根据特别规则，披露内部人力资源审计即可作为本组成立依据，E4记100。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_001",
+          "quote": "In 2025, we conducted internal audits on recruitment, onboarding, working hours, and wage practices, and no forced labor or child labor incidents were identified.",
+          "reason": "该段披露2025年开展内部人力资源审计，依据特别规则优先于对安置性再培训等额外要求，E4记100。",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "E5",
+      "score": 100,
+      "reason": "主体：金斯瑞生物科技股份有限公司；员工适用范围：未说明（依据特别规则，披露内部人力资源审计即可作为成立依据）；年度：2025年；具体事项：内部审计覆盖招聘、入职、工时和工资实践。E5为要求实际结果的组，但特别规则明确'报告原文披露内部人力资源审计，即可作为P3和T5各组成立的依据，各组记100'且'此条优先于对专项工资审计或具体工时执行结果的额外要求'，故E5记100。",
+      "evidence": [
+        {
+          "chunk_id": "01548_primary_P50_001",
+          "quote": "In 2025, we conducted internal audits on recruitment, onboarding, working hours, and wage practices, and no forced labor or child labor incidents were identified.",
+          "reason": "该段披露2025年开展内部人力资源审计，依据特别规则优先条款，即使E5通常要求实际结果，仍可直接记100。",
+          "pages": [
+            50
+          ],
+          "exact_match": true
+        }
+      ]
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "候选原文未发现经核实的薪酬支付、工时休假、福利、反歧视与反骚扰严重问题。"
+  },
+  "company_id": "01548",
+  "indicator": "S1.1.1-C",
+  "base_score": 100.0,
+  "final_score": 100.0,
+  "method": "revised_gt_cases"
+}

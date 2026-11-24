@@ -1,0 +1,83 @@
+{
+  "groups": [
+    {
+      "group_id": "T1",
+      "score": 100,
+      "reason": "主体：三生制药集团；适用范围：员工（区分标准工时与综合工时）；年度：2025；事项：披露具体工时制度。原文直接说明标准工时员工每周工作40小时，综合工时员工按部门实际情况工作与休息，满足T1对具体工时政策的条件。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_T66_001",
+          "quote": "Employees of standard working hours work 40 hours a week; employees of comprehensive working hours work and rest according to the actual situation of their departments",
+          "reason": "明确披露两类员工的具体工时安排，直接支持T1",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T2",
+      "score": 100,
+      "reason": "主体：三生制药集团；适用范围：员工；年度：2025；事项：加班管理。原文披露员工可就加班时间申请调休，属于加班异常处置的具体政策，满足T2条件。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_T66_001",
+          "quote": "Employees can apply for compensatory leave for overtime hours worked",
+          "reason": "披露加班后可申请调休的具体安排，直接支持T2",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T3",
+      "score": 100,
+      "reason": "主体：三生制药集团；适用范围：员工；年度：2025；事项：休息休假保障。原文明确列出带薪年休假、婚假、丧假、产假、病假等权利，满足T3条件。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_T66_001",
+          "quote": "The Group provides paid annual leave, marriage leave, bereavement leave, maternity leave, sick leave, etc., in accordance with national regulations",
+          "reason": "明确披露员工享有的各类法定假期权利，直接支持T3",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T4",
+      "score": 100,
+      "reason": "主体：三生制药集团；适用范围：员工；年度：2025；事项：工时及休假管理机制。原文披露集团出台了《员工考勤与休假指引》，属于具体考勤与休假管理机制，满足T4条件。",
+      "evidence": [
+        {
+          "chunk_id": "01530_primary_T66_001",
+          "quote": "The Group introduced the Guidelines for Employee Attendance and Leave",
+          "reason": "披露具体的考勤与休假管理制度，直接支持T4",
+          "pages": [
+            66
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "group_id": "T5",
+      "score": 0,
+      "reason": "主体：三生制药集团；适用范围：未说明；年度：2025；事项：实际执行或纠正结果。候选原文仅披露工时休假制度和政策，未披露当期实际工时监测数据、休假使用率、执行覆盖情况或工时休假侵害的纠正结果。未发现内部人力资源审计（internal human resources audit）相关表述，无法适用特别规则。不满足T5要求实际结果的条件。",
+      "evidence": []
+    }
+  ],
+  "serious": {
+    "state": "none",
+    "reason": "候选原文未披露经核实的严重超时工作或违法剥夺休息休假权利且未有效纠正的事项"
+  },
+  "company_id": "01530",
+  "indicator": "S1.1.3",
+  "base_score": 80.0,
+  "final_score": 80.0,
+  "method": "revised_gt_cases"
+}

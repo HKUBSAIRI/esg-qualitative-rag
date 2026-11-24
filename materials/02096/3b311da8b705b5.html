@@ -1,0 +1,544 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0" /><meta name="format-detection" content="telephone=no" /><title>
+	先声药业官网
+</title><link type="text/css" rel="stylesheet" href="../css/base.css" /><link type="text/css" rel="stylesheet" href="../css/ne.css" /><link type="text/css" rel="stylesheet" href="../css/animate.css" />
+    <script src="../js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <form name="form1" method="post" action="./yszc.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+
+       
+<script type="text/javascript">
+    function topnewssearch() {
+        if (document.getElementById("newsintro").value == "" || document.getElementById("newsintro").value == "请输入要搜索的关键字") {
+            window.alert("请输入要查询的内容");
+            document.getElementById("newsintro").focus();
+        }
+        else {
+            var posturl = "/news/news.aspx?so=" + document.getElementById("newsintro").value;
+            location.href = posturl;
+        }
+    }
+</script>
+
+<div id="search-bar">
+    <div class="se-xi">
+        <input class=" " id="newsintro" name="newsintro" type="text" value="" size="60" maxlength="128" placeholder="请输入关键词" autocomplete="off">
+        <div class=" " type="submit" value="search" onclick="topnewssearch()"></div>
+    </div>
+</div>
+<header>
+    <div class="wrap clearfixed">
+        <a href="../index.aspx" class="logo fl">
+            <img src="../images/logo.png"></a>
+        <div class="t-ri fr">
+            <div class="yy fl"> <a href="" style="color: #00b140">中</a> | <a href="https://en.simcere.com/jrwm/jrwm.aspx">EN</a></div>
+            <div class="sou fr">
+                <img src="../images/search.png">
+            </div>
+        </div>
+        <div class="mobile-inner-header" id="xl01">
+            <div class="mobile-inner-header-icon mobile-inner-header-icon-out"><span></span><span></span><span></span></div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript">
+            $(document).ready(function () {
+                $(".sou").click(function () {
+                    $("#search-bar").slideToggle();
+					  const LL = document.getElementById('xl01');
+                        var sds = hasClass(LL, 't-pa');
+                        if (sds == true)
+                            $("#xl01").removeClass("t-pa");
+                        else
+                            $("#xl01").addClass("t-pa");
+                });
+            });
+        </script>
+<nav class=" ">
+    <ul class="wrap clearfixed">
+        <li ><a href="../about/about.aspx" class="subnav">关于我们</a>
+            <ul class="tttt">
+                <li><a href="../about/about.aspx#ab01">企业概况</a></li>
+                <li><a href="../about/about.aspx#ab02">里程碑</a></li>
+                <li><a href="../about/about.aspx#ab03">管理团队</a></li>
+                <li><a href="../about/about.aspx#ab04">企业文化</a></li>
+            </ul>
+        </li>
+        <li ><a href="../pro/pro.aspx" class="subnav">患者第一</a>
+            <ul class="tttt">
+                        
+                        <li><a href="../pro/disease.aspx">疾病</a></li>
+<li><a href="../pro/pro.aspx">产品</a></li>
+
+                    </ul>
+        </li>
+        <li ><a href="../kxcx/kxcx.aspx" class="subnav">协同创新</a>
+            <ul class="tttt">
+                <li><a href="../kxcx/kxcx.aspx#cx01">全球布局</a></li>
+                
+                <li><a href="../kxcx/yggx.aspx">研发管线</a></li>
+
+            </ul>
+        </li>
+        <li ><a href="../zyyw/zyyw.aspx" class="subnav">制药业务</a>
+            <ul class="tttt">
+                <li><a href="../zyyw/zyyw.aspx#zy01">生产基地</a></li>
+                <li><a href="../zyyw/zyyw.aspx#zy02">管理体系</a></li>
+                <li><a href="../zyyw/zyyw.aspx#zy03">管理方针</a></li>
+            </ul>
+        </li>
+        <li ><a href="../kfhz/kfhz.aspx" class="subnav">开放合作</a></li>
+        <li ><a href="../news/news.aspx" class="subnav">先声资讯</a>
+            <ul class="tttt">
+
+                
+                        <li><a href="/news/news.aspx?mtt=1">新闻速递</a></li>
+                    
+
+            </ul>
+        </li>
+<li><a href="../tzz/gjts.aspx" class="subnav">投资者关系</a>
+                    <ul class="tttt">
+                        <li><a href="../tzz/gjts.aspx">股价图示</a></li>
+                        <li><a href="../tzz/gg.aspx">信息披露</a></li>
+                        <li><a href="../tzz/tzz1.aspx">公司治理</a></li>
+<li><a href="../tzz/tzz4.aspx">投资者活动关系日历</a></li>
+                        <li><a href="../tzz/tzz2.aspx">投资者活动</a></li>
+                        <li><a href="../tzz/tzz3.aspx">投资者关系联络</a></li>
+<li><a href="../tzz/tzz5.aspx">邮件订阅</a></li>
+                    </ul>
+                </li>
+        <li ><a href="../shzr/shzr.aspx" class="subnav">社会责任</a></li>
+        <li class="on"><a href="../jrwm/jrwm.aspx" class="subnav">加入我们</a></li>
+    </ul>
+</nav>
+
+
+
+
+<!--手机导航-->
+
+<div class="mobile-inner-nav">
+    <div class="subNavBox1">
+        <div class="subNav1" style="background: url(../images/link_ico.png) no-repeat 96% center;"><a href="../index.aspx" style="color: #fff;">首页</a></div>
+        <div class="subNav1">关于我们</div>
+        <ul class="navContent1 clearfixed">
+            <li><a href="../about/about.aspx#ab01" target="_blank">企业概况</a></li>
+            <li><a href="../about/about.aspx#ab02" target="_blank">里程碑</a></li>
+            <li><a href="../about/about.aspx#ab03" target="_blank">管理团队</a></li>
+            <li><a href="../about/about.aspx#ab04" target="_blank">企业文化</a></li>
+        </ul>
+
+        <div class="subNav1">产品中心</div>
+        <ul class="navContent1">
+
+<li><a href="/pro/pro.aspx">产品</a></li>
+<li><a href="/pro/disease.aspx">疾病</a></li>
+            
+
+        </ul>
+        <div class="subNav1">科学创新</div>
+        <ul class="navContent1">
+            <li><a href="../kxcx/kxcx.aspx#cx01" target="_blank">全球布局</a></li>
+            <li><a href="../kxcx/yggx.aspx">研发管线</a></li>
+
+        </ul>
+        <div class="subNav1">制药业务</div>
+        <ul class="navContent1">
+            <li><a href="../zyyw/zyyw.aspx#zy01" target="_blank">生产基地</a></li>
+            <li><a href="../zyyw/zyyw.aspx#zy02" target="_blank">管理体系</a></li>
+            <li><a href="../zyyw/zyyw.aspx#zy03" target="_blank">管理方针</a></li>
+        </ul>
+        <div class="subNav1" style="background: url(../images/link_ico.png) no-repeat 96% center;"><a href="../index.aspx" style="color: #fff;"><a href="../kfhz/kfhz.aspx" style="color: #fff;">开放合作</a></div>
+        <div class="subNav1">先声资讯</div>
+        <ul class="navContent1">
+
+            
+                    <li><a href="/news/news.aspx?mtt=1">新闻速递</a></li>
+                
+
+        </ul>
+<div class="subNav1">投资者关系</div>
+                            <ul class="navContent1">
+                               <li><a href="../tzz/gg.aspx">信息披露</a></li>
+                        <li><a href="../tzz/tzz1.aspx">公司治理</a></li>
+                        <li><a href="../tzz/tzz2.aspx">投资者日志</a></li>
+                        <li><a href="../tzz/tzz3.aspx">投资者关系联络</a></li>
+                            </ul>
+        <div class="subNav1" style="background: url(../images/link_ico.png) no-repeat 96% center;"><a href="../index.aspx" style="color: #fff;"><a href="../shzr/shzr.aspx" style="color: #fff;">社会责任</a></div>
+        <div class="subNav1" style="background: url(../images/link_ico.png) no-repeat 96% center;"><a href="../index.aspx" style="color: #fff;"><a href="../jrwm/jrwm.aspx" style="color: #fff;">加入我们</a></div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(window).load(function () {
+            $(".mobile-inner-header-icon").click(function () {
+                $(this).toggleClass("mobile-inner-header-icon-click mobile-inner-header-icon-out");
+                $(".mobile-inner-nav").slideToggle(250);
+            });
+        });
+        var show = 0;
+        $('.mobile-inner-header-icon').click(function () {
+            if (show == 0) {
+                $(this).addClass('active_mobile');
+                show = 1;
+            } else {
+                $(this).removeClass('active_mobile');
+                show = 0;
+            }
+
+        })
+        $(".subNav1").click(function () {
+            $(this).toggleClass("currentDd1").siblings(".subNav1").removeClass("currentDd1")
+            $(this).toggleClass("currentDt1").siblings(".subNav1").removeClass("currentDt1")
+
+            // 修改数字控制速度， slideUp(500)控制卷起速度
+            $(this).next(".navContent1").slideToggle(500).siblings(".navContent1").slideUp(500);
+        })
+    })
+</script>
+<!--手机导航-->
+
+
+      
+    <div class="ne-banner">
+        <img src="https://www.simcere.com/images/ne-banner1.jpg" class="pc-banner">
+        <img src="../images/mobile-ne-banner1.jpg" class="mobile-banner">
+    </div>
+    <div class="ne-ab01 zcBox">
+        <div class="wrap">
+            <div class="ab-xi01">
+                <div class="ne-ti">
+                    <span class="wow kd" data-wow-duration="2s"></span>
+                    <p class="wow fadeInDown" data-wow-duration="1s">隐私政策</p>
+                </div>
+ <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                     <p style='text-align:right'>生效日期：2025年12月1日</p>
+                </div>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    本隐私政策（下称“本政策”）说明了江苏先声药业有限公司和/或其关联公司（下称“我们”或“先声药业”）可能收集、使用、披露或以其他方式处理您的个人信息的基础。我们理解并尊重您的隐私对您的重要性。我们仅以我们告知您的方式使用和共享您在线提供的个人信息。我们对您在线提供的个人信息进行保护，以防止其被用于其他目的。
+                </div>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    我们承诺根据本政策以及适用的法律、规则和法规来收集、存储和保护您的个人信息。本政策适用于我们拥有或控制的、从我们的在线资源和通信（如显示本政策链接的网站、电子邮件和其他在线工具）中收集的个人信息。
+                </div>
+                <h1 class="zcTi">我们如何收集您的个人信息</h1>
+
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    我们通过网站和其他在线资源在线收集个人信息。我们还与其他在线服务提供商合作提供在线资源，并可能从这些资源中接收用户的个人信息。这些在线协作受合同约束，要求对个人信息进行适当保护。个人可以在不披露任何个人信息的情况下访问我们网站的大部分内容。我们通过两种方法在线收集个人信息：
+                </div>
+
+
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    （1）由您提供的信息<br>
+                    我们收集您在我们网站表单或数据字段中可能输入的个人信息和其他数据。此类信息可能包括但不限于联络信息（如您的姓名、电子邮件地址、所在组织、国家）、位置（在您允许的情况下）。我们还可能通过您回答我们的问题和调查来收集您提供的健康信息。
+                    <br>
+                    （2）从您的计算机或其他电子设备收集的信息<br>
+                    我们的网站使用跟踪技术（例如Cookie、IP）来提供额外功能，使您能够更有效地使用这些资源。我们以不识别您个人身份的方式使用跟踪技术，例如准确跟踪用户数量或引荐至我们在线资源的网站。
+                </div>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">我们可能收集的关于您的个人信息类别包括：</div>
+                <ul class="zcList">
+                    <li>直接标识符和联系信息，包括您的姓名、电子邮件地址、组织、国家、位置（在您允许的情况下）；</li>
+                    <li>求职信息，包括您的教育背景、就业经历、求职意向偏好；</li>
+                    <li>教育工作信息，包括职业、单位、学术经历、教育及职业资质。</li>
+                </ul>
+
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    在某些个人信息处理活动中，我们将根据适用的个人信息保护法律法规的要求取得您的同意或单独同意。但请您充分知晓，以下情形中，我们可能会收集并处理您的个人信息而无需征得您的授权同意：</div>
+
+                <ul class="zcList">
+                    <li>为订立、履行您为一方当事人的合同所必需；</li>
+                    <li>为履行法定义务所必需；</li>
+                    <li>为应对突发公共卫生事件，或者紧急情况下为保护您或他人的生命健康和财产安全所必需；</li>
+                    <li>在合理的范围内处理您自行公开或者其他已经合法公开的个人信息；</li>
+                    <li>法律、行政法规规定的其他情形。</li>
+                </ul>
+
+                <h1 class="zcTi">我们如何使用您的个人信息</h1>
+
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    我们可能将您的个人信息用于以下目的：</div>
+                <ul class="zcList">
+                    <li>
+                        为公共健康和利益进行的活动；</li>
+                    <li>开展业务运营，包括制定我们的营销计划和活动；</li>
+                    <li>产品的研发或改进；</li>
+                    <li>提供或提升我们的服务；</li>
+                    <li>建立和维护业务协作与沟通；</li>
+                    <li>招聘和人力资源管理活动；</li>
+                    <li>供应商入职和管理活动；</li>
+                    <li>识别或验证您的身份；</li>
+                    <li>数据汇总、分析和统计；</li>
+                    <li>在与您互动期间提供个性化体验；</li>
+                    <li>回应您的询问和投诉；</li>
+                    <li>财务和税务活动；</li>
+                    <li>审计和内部合规管理；</li>
+                    <li>调查、起诉或辩护法律索赔；</li>
+                    <li>遵守适用于先声药业的法律法规，包括回应监管机构的询问和调查。
+                    </li>
+                </ul>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    除非适用法律法规允许且确有必要，我们不会仅基于个人信息的自动化决策做出处理。如果发生此类处理，我们将提前通知您。</div>
+
+                <h1 class="zcTi">我们如何委托处理、共享、转移或公开披露您的个人信息</h1>
+
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    （1）委托处理<br>
+                    我们可能会出于本政策所述目的委托授权业务合作方处理您的个人信息（仅限履行职责所需的信息），以便业务合作方为您提供某些服务或履行职能。我们将会通过协议规范其对您个人信息的处理并要求其对您个人信息采取充分的安全保护措施。
+                    <br>
+                    （2）与第三方共享您的个人信息<br>
+                    在适用法律法规允许的情况下，我们可能会在如下情形下与第三方共享您的个人信息：（i）为实现本政策所述目的，我们可能与业务合作方合作为您提供某些产品/服务或与您进行互动交流，并在必要的情况下与业务合作方共享您的部分个人信息。（ii）我们可能出于遵守监管要求、司法程序、法院命令、政府要求或相关法律程序所必需，共享您的个人信息。考虑到第三方信息的不断更新，您可以通过本政策文末公布的联系方式联系我们获取共享个人信息的更多信息，包括第三方的名称及联系方式。
+                    <br>
+                    （3）转移<br>
+                    如果我们将业务单位（例如子公司）或资产（例如网站）出售或转让给另一家公司（包括与任何破产或类似程序有关的交易），我们将向该公司转移您的个人信息，我们会向您告知接收方的名称或者姓名和联系方式。接收方将继续履行本政策及其他法定义务。接收方变更原先的处理目的、处理方式的，会重新取得您的同意（前提是我们基于您的同意处理个人信息）。
+                    <br>
+                    （4）公开披露<br>
+                    当我们认为出于遵守监管要求、司法程序、法院命令、政府要求或为我们服务的法律程序所必需或适当的披露时，或为保护客户、公众、先声药业及其他方的财产、权利、安全时，我们保留根据法律法规、司法程序、诉讼或政府主管部门强制性要求披露您的个人信息的权利。
+                    <br>
+                    请知悉，根据适用的法律法规，若我们采取技术措施和其他必要措施对个人信息进行匿名化处理，使得接收方无法重新识别特定个人且不能复原，经上述处理后的个人信息的委托处理、共享、转移和/或公开披露无需另行向您告知并征得您的同意。
+                </div>
+
+                <h1 class="zcTi">我们如何存储您的个人信息</h1>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    我们可能会在实现收集目的所需的时间内，或按适用法律要求或允许的期限内保留您的个人信息。一旦有合理理由推定保留个人信息不再服务于其被收集的目的，并且不再用于法律或商业目的时，我们将停止保留您的个人信息，或移除能够将数据与您关联的方式。
+                </div>
+                <h1 class="zcTi">我们如何保护您的个人信息</h1>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    为保护您的个人信息免遭未经授权的访问、收集、使用、披露、复制、修改、处置或类似风险，我们已采取适当的管理、物理和技术措施，例如使用最新的防病毒保护、加密、使用隐私过滤器，并且仅在必须知情的基础上在内部以及向我们授权的第三方服务提供商和代理披露个人信息。<br>
+
+                    但您应知悉，通过互联网传输或电子存储的方法没有一种是完全安全的。虽然无法保证绝对安全，但我们努力保护您信息的安全，并不断审查和加强我们的信息安全措施。
+                </div>
+
+                <h1 class="zcTi">我们如何跨境传输您的信息</h1>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    原则上，我们在中华人民共和国境内运营过程中收集和产生的您的个⼈信息将存储于境内。由于先声药业是一个全球化运营的公司，为实现本隐私声明所述的目的，在特定情形下，您的个人信息会被跨境传输至位于中华人民共和国境外的先声药业关联方（包括SIMCERE
+                    PHARMACEUTICAL(SINGAPORE) PTE. LTD.,地址：38 Beach Road, South Beach Tower,#29-11 Singapore
+                    189767）以及业务合作方。如果适用的数据保护法律法规要求我们需要就跨境传输个人信息取得您的单独同意，我们会在取得您的单独同意后跨境传输您的个人信息。我们将使用合法的跨境传输机制将您的个人信息传输至境外，并采取必要措施确保境外接收方能够提供与适用数据保护法律所要求的相同水平的保护。
+                </div>
+                <h1 class="zcTi">您的权利</h1>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    您明确知悉，根据适用的数据保护法律法规，您拥有关于您的个人信息的访问、复制、更正、补充、限制处理、删除和撤回同意的合法权利。具体而言，您可以要求：
+                </div>
+
+                <ul class="zcList">
+                    <li>
+                        访问和复制您的个人信息；</li>
+                    <li>更正和补充您的个人信息；</li>
+                    <li>转移您的个人信息；</li>
+                    <li>限制或反对我们对您个人信息的处理；</li>
+                    <li>删除您的个人信息；</li>
+                    <li>接收关于个人信息处理规则的说明；</li>
+                    <li>更改您授权同意的范围或撤回您的授权。
+                    </li>
+                </ul>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    您可以通过本政策文末提供的方式联系我们，行使与个人信息相关的权利。我们将根据适用的法律法规对您的请求作出回应。在行使上述权利时，我们可能需要进行身份验证，以确保您的信息安全。
+                </div>
+                <h1 class="zcTi">Cookies</h1>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    本网站使用Cookies。Cookies是由服务器存储在您计算机上的文本文件。它们包含有关浏览器、IP地址、操作系统和互联网连接的信息。未经您同意，我们不会将这些数据传递给第三方或将其与个人信息关联。我们使用Cookies主要用于以下目的：维护网站正常运行，统计您的网站使用情况，改进网站并更好提供服务，广告投放。
+                </div>
+                <h1 class="zcTi">未成年人隐私声明</h1>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    我们的网站和其他在线平台或线下活动并非针对14岁以下的未成年人，我们不会故意收集任何未成年人的个人信息。
+                    <br>
+                    如果出于特定业务目的需要，我们可能在获得未成年人父母或监护人事先同意后收集未成年人的个人信息，例如在处理临床试验或研究中未成年受试者的信息时，或履行与未成年人用药不良反应报告相关的义务时。如果您对未成年人个人信息的处理有任何疑问或顾虑，请通过本政策文末提供的方式联系我们。
+                </div>
+
+                <h1 class="zcTi">集成第三方服务和内容</h1>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    我们的服务范围包括来自其他供应商的内容和服务。例如，可能是来自其他网站的视频、图形或图像。为了在用户的浏览器中检索和显示此数据，传输IP地址是绝对必要的。供应商（以下简称“第三方供应商”）会检测相应用户的IP地址。
+                </div>
+                <h1 class="zcTi">政策变更</h1>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    我们可能随时修订本政策，恕不另行通知。您可以通过参考本政策最后更新的日期来确定是否发生了任何此类修订。您继续使用我们的服务即构成您对此类变更的确认和接受。
+                </div>
+                <h1 class="zcTi">联系我们</h1>
+                <div class="ab-txt wow fadeInDown" data-wow-duration="1s">
+                    [江苏先声药业有限公司]<br>
+                    [公司地址]：南京市玄武大道699-18号<br>
+                    [咨询邮箱]：simcere@simcere.com<br>
+                    [咨询电话]：+86(25)8556 6666<br>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+        
+
+
+
+
+        
+<script type="text/javascript" src="../js/jquery.cssforms.js"></script>
+<div class="footer">
+    <div class="wrap" style="position: relative; z-index: 10;">
+        <div class="f-left">
+            <p class="bit">先声药业</p>
+            <div class="list">
+                <ul>
+                    <li>地址：南京市玄武大道699－18号</li>
+                    <li>电 话：+86(25)8556 6666   </li>
+                  
+                     <li>公司邮箱：simcere@simcere.com<br /> 投资者关系：ir@simcere.com<br /> 媒体联络：simcere.mediarelations@simcere.com </li>
+                           
+                </ul>
+            </div>
+ <div class="xzLink"><a
+                            href="https://dev.izaiming.com:3080/hospital-rd/xdap-app/formShareSkip/skip/shareUrl?shareId=NjE2Mjc5MjI5ODkzNDQzNTg0&tenantId=522732154963099649&appId=542995991612096512"
+                            target="_blank" style="color:#fff; text-decoration:underline;">药品不良反应信息报告</a><a href="../jrwm/sytk.aspx"
+                            style="color:#fff; text-decoration:underline;">使用条款</a><a href="../jrwm/yszc.aspx"
+                            style="color:#fff; text-decoration:underline;">隐私政策</a></div>
+        </div>
+        <div class="f-right">
+            <dl>
+                <dt><a href="../about/about.aspx">关于我们</a></dt>
+                <dd><a href="../about/about.aspx#ab01">企业概况</a></dd>
+                <dd><a href="../about/about.aspx#ab02">里程碑</a></dd>
+                <dd><a href="../about/about.aspx#ab03">管理团队</a></dd>
+                <dd><a href="../about/about.aspx#ab04">企业文化</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="../pro/pro.aspx">患者第一</a></dt>
+    <dd><a href="/pro/disease.aspx">疾病</a></dd>   
+<dd><a href="/pro/pro.aspx">产品</a></dd>
+
+                
+
+            </dl>
+            <dl>
+                <dt><a href="../kxcx/kxcx.aspx">协同创新</a></dt>
+                <dd><a href="../kxcx/kxcx.aspx#cx01">全球布局</a></dd>
+                
+                <dd><a href="../kxcx/yggx.aspx">研发管线</a></dd>
+
+            </dl>
+            <dl>
+                <dt>先声传讯</dt>
+                <dd class="ic01"><p></p><span><img src="../images/ewm.png"></span></dd>
+<dd class="ic02"><a href="https://weibo.com/xianshengyaoye" target="_blank"><p> </p></a></dd>
+<dd class="ic03"><a href="https://www.linkedin.com/company/simcere-pharmaceutical-group" target="_blank"><p> </p></a></dd>
+<dd class="ic04"><a href="https://www.facebook.com/Simcere" target="_blank"> <p></p></a></dd>
+<dd class="ic05"><a href="https://twitter.com/SimcerePharm" target="_blank"><p> </p></a></dd>
+            </dl>
+        </div>
+        <div class="clear"></div>
+        <div class="m_link">
+            <div class="tab" id="table">
+                快速通道
+            </div>
+            <div class="tab_con" style="display: none;">
+                <ul>
+                    <li><a href="../about/about.aspx">关于我们</a> </li>
+                    <li><a href="../pro/pro.aspx">患者第一</a></li>
+                    <li><a href="../kxcx/kxcx.aspx">科学创新</a></li>
+                    <li><a href="../zyyw/zyyw.aspx">制药业务</a></li>
+                    <li><a href="../kfhz/kfhz.aspx">开放合作</a></li>
+                    <li><a href="../news/news.aspx">先声资讯</a></li>
+                    <li><a href="../shzr/shzr.aspx">社会责任</a></li>
+                    <li><a href="../jrwm/jrwm.aspx">加入我们</a></li>
+                     <li><a href="../ztb/ztb.aspx" target="_blank">招投标信息</a></li>
+                    <li><a href="https://www.isimcere.com/YZSoft/login/?ReturnUrl=%2f" target="_blank">OA系统</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            $(".tab").click(function () {
+                $(".tab_con").slideToggle();
+
+                const LL = document.getElementById('table');
+                var sds = hasClass(LL, 'xz-jia');
+                if (sds == true)
+                    $(this).removeClass("xz-jia");
+                else
+                    $(this).addClass("xz-jia");
+            });
+
+            function hasClass(element, className) {
+                const regExp = new RegExp("\\b" + className + "\\b", "gi");
+                return regExp.test(element.className);
+            }
+
+        </script>
+        <div class="f-center">
+服务热线：400-887-7552<br />
+             <span>投诉邮箱：ceo@simcere.com<br />
+
+<a href="../images/zheng.jpg" target="_blank" style="color:#fff;">(苏)-非经营性-2018-0092(互联网药品信息服务资格证书)</a> <b class="sx">|</b> <b><a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" style="color:#fff;">苏ICP备10205883-5号</a></b><b class="sx">|</b> <b><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32010202010345" target="_blank" style="color:#fff;"><img src="../images/footer.png" style="position:relative; top:2px">苏公网安备 32010202010345号</a></b>
+<b class="qu">
+© Copyright 2026 江苏先声药业有限公司 版权所有 All Rights Reserved.</b>
+                    </span>
+            <div class="select">
+                <select name="phpddt" name="jQuery1" class="beautify_input"  onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
+
+                    
+                            <option value='http://www.nmpa.gov.cn/WS04/CL2042/'>国家药品监督管理局</option>
+                        
+                            <option value='http://www.nhsa.gov.cn/'>国家医疗保障局</option>
+                        
+                            <option value='http://www.phirda.com/'>中国医药创新促进会</option>
+                        
+                            <option value='http://www.cha.org.cn/'>中国医院协会</option>
+                        
+                            <option value='https://www.sklsim.com/'>神经与肿瘤药物研发全国重点实验室</option>
+                        
+                            <option value='http://www.simcerebic.com/'>波士顿创新中心</option>
+                        
+                            <option value='http://www.simceredx.com/'>江苏先声医学诊断有限公司</option>
+                        
+
+                </select>
+                  <script type="text/javascript">
+
+		$(function(){	
+
+			$('.beautify_input').cssSelect();
+
+		});
+
+	</script>
+<div class="placeholder">友情链接</div>
+            </div>
+             <p class="oa fr" style="line-height:40px; padding-right:10px;"><a href="http://www.isimcere.com/YZSoft/login/?ReturnUrl=%2f" target="_blank" style="color:#fff;">OA系统</a></p>
+             
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<script src="../js/wow.min.js"></script>
+<script>
+    if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+        new WOW().init();
+    };
+
+    $(".subnav").hover(function () {
+        $(this).next(".tttt").show()
+    }, function () {
+        $(this).next(".tttt").hide()
+    })
+    $(".tttt").hover(function () {
+        $(this).show()
+        $(".subnav").addClass("ts")
+    }, function () {
+        $(this).hide()
+        $(".subnav").removeClass("ts")
+    })
+</script>
+
+
+    </form>
+</body>
+</html>
