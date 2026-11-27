@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a3cbe825-372a-9124-9e7b-00e09fe5d776",
+  "object": "chat.completion",
+  "created": 1795746275,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"T5\"\n      ],\n      \"quote\": \"更新《综合工时管理规程》,以业务需求为基础优化工时统计逻辑。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年度\",\n      \"scope\": \"康希諾生物股份公司\",\n      \"relevance\": \"披露了当期对工时管理规程的更新及工时统计逻辑的优化，属于工时监测相关的实际执行动作。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9663,
+    "total_tokens": 9799,
+    "completion_tokens": 136,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9663
+    }
+  }
+}

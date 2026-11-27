@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e3537272-5fc5-9fe0-89e8-9aa1b3d9f238",
+  "object": "chat.completion",
+  "created": 1795730865,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p038\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"CanSinoBIO values gender equality and is committed to ensuring female employees have equal opportunities for promotion and career development. In 2025, women accounted for 52.47% of total employees and 44.83% of management.\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"female employees\",\n      \"relevance\": \"明确披露反对性别歧视、确保女性员工在晋升和职业发展方面享有平等机会的政策，符合反歧视政策与保障的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13882,
+    "total_tokens": 14070,
+    "completion_tokens": 188,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 13882
+    }
+  }
+}

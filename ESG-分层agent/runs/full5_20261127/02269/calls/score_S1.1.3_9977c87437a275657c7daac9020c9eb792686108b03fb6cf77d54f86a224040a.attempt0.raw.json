@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f5553834-59ce-9626-a260-14c0c779512c",
+  "object": "chat.completion",
+  "created": 1795746275,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露了公司设立最长工作时间限制，属于具体工时控制政策，满足T1判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002披露了通过系统管理加班情况、避免过度加班以及支付加班薪资或安排调休的具体措施，符合加班管理政策的判分要求。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确承诺为所有员工提供带薪年假、福利年假及高温假等休息休假权利，满足T3关于明确权利或取得安排的判分条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露了利用线上系统追踪假期使用情况并向员工发送提醒的具体管理机制，满足T4关于工时及休假管理机制的判分条件。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索记录显示search_complete=true且无相关当期实际执行或结果证据（如当期检查数据、实际休假使用比例等）。仅有制度或工具名称不足以支持T5得分，故判0。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3609,
+    "total_tokens": 4082,
+    "completion_tokens": 473,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3609
+    }
+  }
+}

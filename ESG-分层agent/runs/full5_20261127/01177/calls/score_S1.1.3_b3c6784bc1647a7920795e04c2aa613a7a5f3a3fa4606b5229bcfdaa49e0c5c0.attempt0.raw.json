@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e54139e3-1415-9e5a-90de-d48903683c4e",
+  "object": "chat.completion",
+  "created": 1795746249,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露了公司遵循国家及地方法律法规设定每周工作时间上限，符合‘披露员工具体工作时间...政策’的条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002明确披露了实行加班审核制度、对异常数据进行核查等具体管理程序，符合‘披露与员工加班管理直接对应的至少一项具体政策、程序或事实’的条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确披露了严格落实法定节假日、带薪年假、产假等休假制度，并提及未休年假的提醒安排，符合‘披露员工休息、法定假期、年休假等至少一项明确权利或取得安排’的条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004明确披露了通过考勤管理系统持续跟踪员工考勤、加班时长情况，并对异常数据核查，符合‘披露至少一项具体工时或休假管理机制或运行事实’的条件。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索记录显示search_complete=true且无相关证据（no_relevant_evidence_found）。现有证据仅描述了制度和管理机制（如‘实行加班审核制度’、‘通过考勤系统跟踪’），未提供评分年度实际发生的工时监测结果、休假使用人数/比例或侵害纠正的具体数据或事实。根据规则，只有制度名称或流程优化说明不足以证明当期实际执行或结果，故判0分。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3856,
+    "total_tokens": 4406,
+    "completion_tokens": 550,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3856
+    }
+  }
+}

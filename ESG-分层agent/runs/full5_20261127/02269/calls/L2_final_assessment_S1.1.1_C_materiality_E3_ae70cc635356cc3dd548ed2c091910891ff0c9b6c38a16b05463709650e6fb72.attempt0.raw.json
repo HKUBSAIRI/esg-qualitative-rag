@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a5a801ea-be9f-9e21-aa6b-9119c9f5549d",
+  "object": "chat.completion",
+  "created": 1795739715,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\": [], \"reason\": \"候选e011仅披露员工成本总额（含薪资、退休福利、股份支付），未包含任何关于裁员通知、协商、补偿制度或具体辞退事实的信息。即使核实，该数据无法证明存在裁员程序或相关安排，不满足S1.1.1 C的成立路径，也不与当前‘证据不足’的结论形成实质冲突。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 520,
+    "total_tokens": 607,
+    "completion_tokens": 87,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 520
+    }
+  }
+}

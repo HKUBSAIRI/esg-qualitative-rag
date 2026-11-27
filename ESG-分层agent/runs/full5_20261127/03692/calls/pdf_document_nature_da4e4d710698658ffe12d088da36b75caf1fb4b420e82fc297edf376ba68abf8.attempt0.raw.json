@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0a99f633-18c3-9a51-a10c-9f47d95da57f",
+  "object": "chat.completion",
+  "created": 1795743838,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"policy\",\n  \"report_year\": null,\n  \"publisher\": \"翰森制药集团有限公司\",\n  \"basis\": \"文件标题明确为“人才发展政策”，内容包含目的、招募规范、职业发展体系、培养机制等具体制度条款，且注明“经董事会审批后发布”，符合具体制度（policy）的特征。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1561,
+    "total_tokens": 1641,
+    "completion_tokens": 80,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1561
+    }
+  }
+}

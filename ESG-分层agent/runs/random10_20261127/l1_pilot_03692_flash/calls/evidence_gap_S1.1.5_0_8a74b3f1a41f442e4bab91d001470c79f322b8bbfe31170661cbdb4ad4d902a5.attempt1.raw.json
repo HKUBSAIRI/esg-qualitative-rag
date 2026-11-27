@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a6435dec-6530-954b-845c-2ca1341ab0fa",
+  "object": "chat.completion",
+  "created": 1795729199,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"local_id\": \"e1\",\n      \"ref_id\": \"p001\",\n      \"quote\": \"杜絕販賣人口、強迫勞動、使用童工以及任何形式的歧視和騷擾行為\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"集团员工及供应链\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e2\",\n      \"ref_id\": \"p004\",\n      \"quote\": \"如確認存在職場歧視、騷擾等違規行為,將嚴格依據公司制度給予紀律處分,涉嫌違法案件將依法移送司法處理,並保障申訴人的知情權。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"职场歧视骚扰投诉\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e3\",\n      \"ref_id\": \"p004\",\n      \"quote\": \"所有投訴將由專職機制分類處理,並按事項性質啟動規範調查,重大事件則由專項工作組協同人權調查組進行核查,並將結果與整改措施上報管理層。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"职场申诉及合规风险报告\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e4\",\n      \"ref_id\": \"p004\",\n      \"quote\": \"公司同時實施《舉報及舉報人保護政策》,對舉報信息嚴格保密,保護善意舉報人,對任何打擊報復行為堅持「零容忍」。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"举报人保护\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e5\",\n      \"ref_id\": \"p013\",\n      \"quote\": \"針對內部已發生或潛在的人權問題,我們將成立項目小組對侵權事件開展調查,根據《員工手冊》相關規定對調查屬實的相關責任人採取措施,必要時聯合外部關聯方盡最大努力消除相關事件的影響,同時對相關弱勢群體進行法律、經濟等方面的救濟。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"内部人权问题\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e6\",\n      \"ref_id\": \"p020\",\n      \"quote\": \"我們為全體員工提供《員工多元化政策》培訓,倡導平等、尊重的工作環境,對任何形式的歧視與騷擾行為持零容忍的態度。\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"直接事实\"\n    }\n  ],\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"禁止因性别、年龄或其他身份特征在招聘、薪酬或晋升中歧视员工等\"\n      ],\n      \"evidence_ids\": [\n        \"e1\",\n        \"e6\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"明确披露禁止职场骚扰、反性骚扰或相应零容忍要求\"\n      ],\n      \"evidence_ids\": [\n        \"e1\",\n        \"e6\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"披露适用于歧视或骚扰投诉的至少一项受理、核查、调查或处理程序\"\n      ],\n      \"evidence_ids\": [\n        \"e3\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"对投诉人及投诉内容保密、匿名举报、不报复\"\n      ],\n      \"evidence_ids\": [\n        \"e4\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"对实施者纪律处分、移送处理，或恢复机会、补偿、纠正不公\"\n      ],\n      \"evidence_ids\": [\n        \"e2\",\n        \"e5\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5241,
+    "total_tokens": 6391,
+    "completion_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 5241
+    }
+  }
+}

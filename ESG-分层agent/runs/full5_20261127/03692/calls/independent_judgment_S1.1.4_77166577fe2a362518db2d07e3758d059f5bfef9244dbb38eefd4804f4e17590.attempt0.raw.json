@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f4e4889a-e196-95b9-999a-c6512c2f57b1",
+  "object": "chat.completion",
+  "created": 1795745435,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本阶段仅核查严重事项及纠正。根据规则，投诉、和解、撤诉、职工债权公示和未披露整改不能单独证明严重事项或未纠正。当前证据列表为空，且搜索日志显示本地官方覆盖范围未确认（local_only_official_coverage_unconfirmed），无法排除存在已核实的严重员工福利或社会保障权益侵害事件。由于缺乏必要案件原件以确认是否存在严重违规及其纠正状态，且普通政策组证据不在本阶段重新索取范围内，故判定为待人工核验。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"缺少关于翰森制药集团有限公司在2025年度是否存在经核实的严重员工福利或社会保障权益侵害事件的官方通报、处罚决定或司法判决等必要案件原件。\",\n    \"本地官方覆盖范围未确认，无法断定是否已穷尽所有可能的严重事项线索。\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5753,
+    "total_tokens": 5959,
+    "completion_tokens": 206,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5753
+    }
+  }
+}

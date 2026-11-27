@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5c35c537-b6f0-93e2-a9c0-0fd4a23fa26f",
+  "object": "chat.completion",
+  "created": 1795746248,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p005\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"13,252/4,885/ 关键人才保留 率 96.4%\",\n      \"kind\": \"result\",\n      \"period\": \"2025全年\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了关键人才保留率，虽非直接离职率数值，但属于员工留存相关指标，且包含具体数值和期间。\"\n    },\n    {\n      \"ref_id\": \"p006\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"员工有义务配合公司调查,对于阻挠或拒不配合的员工,公司有权 视情节严重程度给予违纪处分,最高至解除劳动合同或退回劳务派 遣机构。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"提及“解除劳动合同”作为纪律处分的上限，涉及劳动合同解除的条件和程序，属于劳动合同保障相关的政策内容。\"\n    },\n    {\n      \"ref_id\": \"p013\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"if the violation is serious and has caused losses, the disciplinary action will be taken up to terminate the employment contract(s) with such employee(s);\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"违反利益冲突政策的员工\",\n      \"relevance\": \"明确规定了在严重违规造成损失的情况下可终止雇佣合同（terminate the employment contract），涉及劳动合同的解除条款。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3864,
+    "total_tokens": 4271,
+    "completion_tokens": 407,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3864
+    }
+  }
+}

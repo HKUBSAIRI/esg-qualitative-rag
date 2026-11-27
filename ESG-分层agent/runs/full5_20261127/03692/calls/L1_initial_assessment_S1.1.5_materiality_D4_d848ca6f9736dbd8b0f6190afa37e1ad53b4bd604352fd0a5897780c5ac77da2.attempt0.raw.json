@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-199b5788-e0e3-9bf2-b9cc-d8b0786f2f86",
+  "object": "chat.completion",
+  "created": 1795732409,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\": [\"x001\"], \"reason\": \"候选引文明确披露了针对举报人（申诉人）的保护措施，包括信息保密和严禁打击报复（不报复），这直接满足本组指标关于‘适用于歧视或骚扰投诉的至少一项申诉人或受影响人员保护措施’的成立路径。若该引文核实有效，将改变当前‘未识别对应保护安排’的结论，因此属于影响判分的必要证据。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 427,
+    "total_tokens": 523,
+    "completion_tokens": 96,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 427
+    }
+  }
+}

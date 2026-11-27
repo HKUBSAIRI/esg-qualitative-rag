@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ffb00d83-7f5f-9f7a-bbbb-ab2b45de35bf",
+  "object": "chat.completion",
+  "created": 1795744622,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到。根据实际搜索日志，针对药明生物技术有限公司（02269）在2025年度关于严重超时工作、违法剥夺休息休假及纠正的官方监管、司法及通报检索已执行。虽然部分通用法规页面读取失败，但依据规则其blocks_this_check=false且被标记为排除项，不产生unresolved。其他必要案件原件或相关披露源（如HKEX公告、公司注册处记录等）虽部分未打开或无直接引用验证，但日志显示规定官方查找已执行，且在已确认范围内未发现与该公司对应的严重事项通报或违规证据。因此判定为本次已查范围未找到，不证明没有发生。\",\n  \"evidence_refs\": [],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7878,
+    "total_tokens": 8064,
+    "completion_tokens": 186,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7878
+    }
+  }
+}

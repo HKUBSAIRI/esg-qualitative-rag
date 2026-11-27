@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c778da02-4851-92c5-ae94-7931d9e878dc",
+  "object": "chat.completion",
+  "created": 1795739594,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\"\n  ],\n  \"reason\": \"候选引文 e001 明确包含“內部轉崗與競聘員工人數”及其具体数值（2,663人），这直接对应目标条件②中关于“内部招聘人数、内部填补岗位比例、轮岗人数等事实”的要求。即使该数据未经独立核验，其内容本身在逻辑上足以满足成立路径之一，因此对判分具有实质影响，需保留作为关键证据线索。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1067,
+    "total_tokens": 1187,
+    "completion_tokens": 120,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1067
+    }
+  }
+}

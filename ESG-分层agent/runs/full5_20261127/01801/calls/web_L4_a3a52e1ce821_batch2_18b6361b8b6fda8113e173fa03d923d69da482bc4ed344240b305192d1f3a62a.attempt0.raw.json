@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-07853c23-670d-935a-bb65-71afd6e620fc",
+  "object": "chat.completion",
+  "created": 1795735652,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p010\",\n      \"group_ids\": [\n        \"P4\"\n      ],\n      \"quote\": \"本公司僱員的薪酬政策及待遇方案定期接受審閱。薪酬待遇包括薪金、花紅、僱員公積金及社會保障供款、其他福利付款及以股份為基礎的支付開支。待遇方案與同行業公司進行對標，並根據員工的教育背景、工作經驗和業績表現制定。根據適用中國法律，本公司已為其僱員向社保基金（包括養老金計劃、醫療保險、工傷保險、失業保險及生育保險）及住房公積金供款。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"本集團僱員\",\n      \"relevance\": \"披露了薪酬政策包含薪金及依法缴纳社保公积金，明确了适用对象为本集团雇员，符合P4关于保障对象及覆盖范围的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14839,
+    "total_tokens": 15074,
+    "completion_tokens": 235,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 14839
+    }
+  }
+}

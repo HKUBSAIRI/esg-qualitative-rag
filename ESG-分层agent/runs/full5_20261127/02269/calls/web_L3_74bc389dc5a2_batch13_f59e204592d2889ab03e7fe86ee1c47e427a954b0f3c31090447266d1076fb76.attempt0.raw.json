@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a55fe717-bd3c-9816-a8f1-cb86b24e1529",
+  "object": "chat.completion",
+  "created": 1795744349,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p058\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"2019 年,國內員工流失率為 9.88% ,海外員工流失率為 0.21% 。\",\n      \"kind\": \"result\",\n      \"period\": \"2019年\",\n      \"scope\": \"国内及海外员工\",\n      \"relevance\": \"披露了评分年度（2019年）的员工流失率具体数值，符合当期离职率披露要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11416,
+    "total_tokens": 11564,
+    "completion_tokens": 148,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11416
+    }
+  }
+}

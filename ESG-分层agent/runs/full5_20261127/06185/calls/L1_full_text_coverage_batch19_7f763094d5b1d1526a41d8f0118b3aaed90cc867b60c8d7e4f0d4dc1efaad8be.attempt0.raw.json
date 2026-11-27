@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-43612485-a47c-9135-83de-5d8874733b8b",
+  "object": "chat.completion",
+  "created": 1795730935,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p044\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"B1.2 Employee turnover rate by gender, age group and geographical region.\",\n      \"kind\": \"boundary\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"Content Index of ESG Reporting Code of Hong Kong Stock Exchange\",\n      \"relevance\": \"该段落为ESG报告内容索引，仅列出KPI标题及对应章节名称（Employment and Rights Protection），未包含具体的离职率数值或口径说明，无法作为当期离职率披露的直接证据。\"\n    },\n    {\n      \"ref_id\": \"p031\",\n      \"group_ids\": [\n        \"E2\",\n        \"E3\",\n        \"P1\",\n        \"T1\",\n        \"W1\",\n        \"D1\"\n      ],\n      \"quote\": \"Information on: (a) the policies; and (b) compliance with relevant laws and regulations that have a significant impact on the issuer relating to compensation and dismissal, recruitment and promotion, working hours,\",\n      \"kind\": \"boundary\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"Content Index of ESG Reporting Code of Hong Kong Stock Exchange\",\n      \"relevance\": \"该段落为监管要求索引，提及了劳动合同、裁员、薪酬、工时、福利及反歧视等议题的政策合规性要求，但未提供企业具体的政策内容、执行事实或数据，属于目录信息而非实质披露。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13538,
+    "total_tokens": 13932,
+    "completion_tokens": 394,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 13538
+    }
+  }
+}

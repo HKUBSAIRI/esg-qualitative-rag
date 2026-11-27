@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-610b3b3b-0ea7-9790-b7e3-06c3433978e0",
+  "object": "chat.completion",
+  "created": 1795745534,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"③再就业服务、职业转换培训、退休过渡或返聘的具体支持\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1353,
+    "total_tokens": 1460,
+    "completion_tokens": 107,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1353
+    }
+  }
+}

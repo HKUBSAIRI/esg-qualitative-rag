@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-31570097-25ab-9ba6-82da-dadd46dde149",
+  "object": "chat.completion",
+  "created": 1795730209,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"e001明确提及提供包括“五險一金”等法定福利；e002具体列出了“社會保險、住房公積金”，符合披露至少一项具体法定社会保障或基本福利政策的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e007\",\n        \"e008\",\n        \"e009\"\n      ],\n      \"supported_paths\": [\n        \"e004披露了补充医疗保险、健康体检等安排；e007列出员工年度体检、补充商业医疗保险、高温津贴；e008列出免费工作餐/餐贴、通讯卡福利；e009披露职工医疗救助政策。均属于具体的补充福利安排或事实。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e005\",\n        \"e006\",\n        \"e007\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"e003披露育儿假、哺乳室；e005披露家属开放日、家庭活动；e006披露食堂、宿舍、健身房等生活支持；e007披露职场心理咨询；e010披露母婴室、弹性哺乳假。均属于面向员工的家庭或生活支持资源、服务或安排。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e009\",\n        \"e010\",\n        \"e012\"\n      ],\n      \"supported_paths\": [\n        \"e004明确补充福利针对“特定员工”；e009明确《职工医疗救助政策》适用于“全体员工”并规定申领流程；e010明确措施针对“孕期女员工、哺乳期员工”；e012脚注说明部分福利仅针对特定对象。满足披露至少一项福利的具体取得规则或明确适用对象的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e011\"\n      ],\n      \"supported_paths\": [\n        \"e011披露报告期内对106位退休员工和10位困难员工进行春节慰问，并向一线员工发放防暑降温物资。这是评分年度（2025年）已经发生的福利覆盖、使用或受益事实（已发放/已执行）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3827,
+    "total_tokens": 4597,
+    "completion_tokens": 770,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3827
+    }
+  }
+}

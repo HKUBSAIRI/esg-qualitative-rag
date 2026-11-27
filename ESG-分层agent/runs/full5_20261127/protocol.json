@@ -1,0 +1,140 @@
+{
+  "model": "qwen3.8-flash",
+  "embedding_model": "text-embedding-3-small",
+  "dimension": 1024,
+  "year": 2025,
+  "cutoff": "2026-11-27",
+  "selection_seed": 20261127,
+  "population": [
+    "03692",
+    "06185",
+    "01548",
+    "03759",
+    "01801",
+    "00867",
+    "01093",
+    "01177",
+    "02269",
+    "06160"
+  ],
+  "selected": [
+    {
+      "company_id": "03692",
+      "company_name": "翰森制药集团有限公司"
+    },
+    {
+      "company_id": "01801",
+      "company_name": "Innovent Biologics, Inc.（信达生物制药）"
+    },
+    {
+      "company_id": "02269",
+      "company_name": "药明生物技术有限公司"
+    },
+    {
+      "company_id": "01177",
+      "company_name": "中国生物制药有限公司"
+    },
+    {
+      "company_id": "06185",
+      "company_name": "康希諾生物股份公司"
+    }
+  ],
+  "configuration_hash": "8a5a88979bba8f87fa196d0f4f19f0c9533f2cc68e4a18fbcf31bb887a5e8cc3",
+  "index_versions": {
+    "03692/L1": {
+      "corpus_sha256": "4ef14113aa308c50efb75d7a7227da1f68a7d7a3baa8bbabc6734922a9effaae",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "03692/L2": {
+      "corpus_sha256": "641d75e39d4286ddefe2ebcf439b282904a58b572e19a3dae629bc2b93ddb8fa",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "03692/L3": {
+      "corpus_sha256": "7335863535b0eb4c6b74c3b09b731e116c9bcaf2a50871e04707b692fe2bf720",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "01801/L1": {
+      "corpus_sha256": "995ff320445d1b62638761990cf396211878d4e5fcb0a134dacdfdb31f56829b",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "01801/L2": {
+      "corpus_sha256": "57bb4479efbbe76c95e87aabaa78fb8c140e7af7653dc5e92a1741dc51db1a5d",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "01801/L3": {
+      "corpus_sha256": "47d754aa89c8633aafba878bf8cc07772204be922cdbf553e9eb8fd3d8726ef8",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "02269/L1": {
+      "corpus_sha256": "c7e110edcf278421e5d78cab989f00a360c1559b69f067b0598cfe48d2b2d3ae",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "02269/L2": {
+      "corpus_sha256": "f9d59cc70f39b54161f5a11ac25793ced2540b89f7a9913d9d230fe26818d967",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "02269/L3": {
+      "corpus_sha256": "8ef33a59e5fe9a12c31302b0c8a6a0face85f0a2db548d404810aa49b87f6783",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "01177/L1": {
+      "corpus_sha256": "4b2bc65df0b8ba52b6f3a57f33e3fe0c9b6c7a3523ed4391f120bd07f9f75015",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "01177/L2": {
+      "corpus_sha256": "c70c27de62aeb731e12c2f4184915c3cb9d9c67433a25c415b64358f3fa2c440",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "01177/L3": {
+      "corpus_sha256": "f000100d454aa86404b7331ee7509202bd7729538a8ad585397e8eccdf4004ac",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "06185/L1": {
+      "corpus_sha256": "fe0abe4135a65ee1b40498dafd1c3e47ec2ab7f2adf5697c32804f831938be4e",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "06185/L2": {
+      "corpus_sha256": "dae759ae03292d29683587c21d8274544e2d1047557a35dbccd1b8bd7567b82e",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    },
+    "06185/L3": {
+      "corpus_sha256": "8851d3c5082becbe54a1a8a0cede26d86a63a8607d40f2b524480b1ebe498e76",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024
+    }
+  },
+  "code_versions": {
+    "fullflow/web.py": "7ccfff4b5a169474fa4ee1f8898af7cfe5b34ac1a5cbb0c5fb49538b3ea33783",
+    "fullflow/table_verification.py": "14296e69d68044af376662dfe9d675792a31cf2939b198050adafe228a7082b8",
+    "fullflow/scoring.py": "ef549139420186dd5bdcd0dd7f1f4e5c07e271a33799281f7c2213f0ab49d4f9",
+    "fullflow/__init__.py": "6ff4e54b6f119d7b7f936c8b30913607a5fb8d01fb8456bb9c760a1706b4a588",
+    "fullflow/gates.py": "6e7afe946b13ba62da6a29e9ea083ee64740ef5656de82622c878ba6cd75065e",
+    "fullflow/engine.py": "4337d5395f9c7e24bd1e90dac7da7decd53cde216c24e41344ceb807aed8ddd6",
+    "fullflow/local_materials.py": "c65fc76256c36a32d3d044d8444a6ae8ae22e865713b2cd8404c0a83de7987ed",
+    "fullflow/evidence.py": "d65a5ff1ea4b67d6e2fb2fe3d189654a07d0ab7f44be37b269066ca38286beab",
+    "retrieval/llm.py": "711109ee2bdbdd5591063e01e01dccb410b72dbad352a1e3675a977f1bfe2fb4"
+  },
+  "search_backend": "local_hybrid_rag_no_online_discovery",
+  "groups": 25,
+  "independent_checks": 4,
+  "quantitative": false,
+  "workers": 2,
+  "workflow_version": "fullflow-v1",
+  "l4_source": "HKEXnews official title search plus HKEX-domain content discovery",
+  "l4_logs": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4",
+  "decision_contract": "v1-single-assessment-deterministic-score"
+}

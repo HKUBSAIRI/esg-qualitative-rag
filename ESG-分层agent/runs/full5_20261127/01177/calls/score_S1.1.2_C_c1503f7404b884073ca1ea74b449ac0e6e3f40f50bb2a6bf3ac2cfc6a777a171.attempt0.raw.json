@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-3e3012f3-7ece-9403-9291-a1953e7823af",
+  "object": "chat.completion",
+  "created": 1795745573,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001披露了确保全体员工收入不低于所在地区最低工资标准的政策，符合‘最低工资保障’的具体支付保障政策条件；证据e002披露了对额外工作时间依法给予加班费补偿的执行事实，符合‘能识别具体支付内容的执行事实’条件。两者均满足判分要求。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了员工可向主管或人力资源部门反映情况的途径，结合评估记录中确认的‘员工查询工资差错的途径/薪酬申诉渠道’支持路径，满足‘披露与工资支付有关的薪酬申诉渠道及处理安排’的条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"虽然检索记录显示找到相关证据（e004提及持续监测性别薪酬差距），但e004存在‘2025_effectiveness_not_yet_verified’的问题，且其内容主要聚焦于性别薪酬平等而非直接的工资支付合规性检查或内部审查制度。根据规则，使用审计或监测作为依据时需明确范围涉及工资支付，且需核实当期有效性。鉴于关键证据的有效性未确认且适用性存疑，状态定为待核验。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确说明薪酬管理体系适用于‘全体员工’，证据e005明确休假期间薪资权益保障对象为‘全体员工’。这满足了‘明确工资支付保障政策或实际执行适用的员工对象...对象可为全体员工’的条件。尽管检索记录标记search_complete为false，但已提供的证据足以独立支撑该结论，无需冗余补充证据即可判定。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录指出必要材料覆盖尚未确认（necessary_material_coverage_not_confirmed）。现有证据e006仅提供了通用的违规案件调查和纠正措施流程，未明确关联到‘工资差错、欠薪、扣款或加班费支付问题’的具体补救机制（如补发、退还）或已完成纠正的事实。由于无法排除存在更具体的专项补救证据的可能性，且当前证据不足以直接判定为0（因可能遗漏特定场景描述），故记为待核验。\",\n      \"evidence_refs\": [\n        \"e006\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8615,
+    "total_tokens": 9333,
+    "completion_tokens": 718,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 8615
+    }
+  }
+}

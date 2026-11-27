@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a411e4de-4a41-9d16-9da1-a3e557aeb371",
+  "object": "chat.completion",
+  "created": 1795738585,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"Talent retention has continued to be successful, with a key talent retention rate of approximately 96.4%.\",\n      \"kind\": \"result\",\n      \"period\": \"As of the end of the Reporting Period\",\n      \"scope\": \"key talent\",\n      \"relevance\": \"披露了关键人才保留率，可间接反映离职情况，但未提供总员工或主动离职的具体数值及口径。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13497,
+    "total_tokens": 13639,
+    "completion_tokens": 142,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 13497
+    }
+  }
+}

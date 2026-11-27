@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b57529cf-3b1c-9502-b2e5-e85dd498268e",
+  "object": "chat.completion",
+  "created": 1795729188,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"local_id\": \"e1\",\n      \"ref_id\": \"p001\",\n      \"quote\": \"杜絕販賣人口、強迫勞動、使用童工以及任何形式的歧視和騷擾行為\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"自身活动及供应链\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e2\",\n      \"ref_id\": \"p001\",\n      \"quote\": \"对任何限制人身自由、非法搜查、使用武力、侮辱人格、歧視等行為零容忍\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"安保人员\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e3\",\n      \"ref_id\": \"p014\",\n      \"quote\": \"對任何形式的歧視和騷擾零容忍\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e4\",\n      \"ref_id\": \"p020\",\n      \"quote\": \"對任何形式的歧視與騷擾行為持 零容忍的態度\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e5\",\n      \"ref_id\": \"p004\",\n      \"quote\": \"如確認存在職場歧視、騷擾等違規行為,將嚴格依據 公司制度給予紀律處分,涉嫌違法案件將依法移送司法處理\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"职场歧视骚扰\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e6\",\n      \"ref_id\": \"p004\",\n      \"quote\": \"所有投訴將由專職機制分類處理,並按事項性質啟動規範調查,重大事件則由專項工作組協同 人權調查組進行核查\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"所有投诉（含职场申诉）\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e7\",\n      \"ref_id\": \"p004\",\n      \"quote\": \"公司同時實施《舉報及 舉報人保護政策》,對舉報信息嚴格保密,保護善意舉報人,對任何打擊報復行為堅持「零容忍」\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"举报人\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e8\",\n      \"ref_id\": \"p004\",\n      \"quote\": \"2025 年 工單系統纍計處理 1,900 余項員工意見,100% 完成了處理和反饋\",\n      \"kind\": \"result\",\n      \"period\": \"2025年\",\n      \"scope\": \"工单系统处理的员工意见\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e9\",\n      \"ref_id\": \"p013\",\n      \"quote\": \"針對內部已發生或潛在的人權問題,我們將成立項目小組對侵權事件開展調查,根據《員工手冊》相關規定對 調查屬實的相關責任人採取措施\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"内部人权问题\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e10\",\n      \"ref_id\": \"p013\",\n      \"quote\": \"報告期内,我們開展了覆蓋本集團主要運營地的人權盡職調查...未發現重大侵權事件\",\n      \"kind\": \"action\",\n      \"period\": \"报告期内\",\n      \"scope\": \"集团主要运营地\",\n      \"relevance\": \"直接事实\"\n    }\n  ],\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"明确披露反对或禁止员工相关歧视的政策要求\"\n      ],\n      \"evidence_ids\": [\n        \"e1\",\n        \"e3\",\n        \"e4\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"明确披露禁止职场骚扰...或相应零容忍要求\"\n      ],\n      \"evidence_ids\": [\n        \"e1\",\n        \"e3\",\n        \"e4\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"披露适用于歧视或骚扰投诉的至少一项受理、核查、调查或处理程序\"\n      ],\n      \"evidence_ids\": [\n        \"e6\",\n        \"e9\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"披露适用于歧视或骚扰投诉的至少一项申诉人或受影响人员保护措施\"\n      ],\n      \"evidence_ids\": [\n        \"e7\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"披露至少一项针对查实歧视或骚扰的处分、问责或移交处理规则\"\n      ],\n      \"evidence_ids\": [\n        \"e5\",\n        \"e9\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5193,
+    "total_tokens": 6669,
+    "completion_tokens": 1476,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5193
+    }
+  }
+}

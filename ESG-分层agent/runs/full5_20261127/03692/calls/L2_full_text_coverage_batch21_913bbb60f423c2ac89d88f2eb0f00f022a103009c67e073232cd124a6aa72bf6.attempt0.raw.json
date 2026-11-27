@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-937514b3-7c46-9203-9c8e-6fe037fdb601",
+  "object": "chat.completion",
+  "created": 1795730415,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p029\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"年內概無董事從本集團收取任何酬金作為加入本集團或加入本集團後的獎勵或離職補償。\",\n      \"kind\": \"result\",\n      \"period\": \"未明确\",\n      \"scope\": \"董事\",\n      \"relevance\": \"披露了当期（年内）针对特定员工群体（董事）的离职补偿支付结果为零，属于实际离职保障结果的负面事实披露。\"\n    },\n    {\n      \"ref_id\": \"p039\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"年內五名最高薪酬僱員除上述已披露金額外,概無從本集團收取任何酬金作為加入本集團或加入本集團 後的獎勵或離職補償。\",\n      \"kind\": \"result\",\n      \"period\": \"未明确\",\n      \"scope\": \"五名最高薪酬雇员\",\n      \"relevance\": \"披露了当期（年内）针对特定员工群体（五名最高薪酬雇员）的离职补偿支付结果为零，属于实际离职保障结果的负面事实披露。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12795,
+    "total_tokens": 13092,
+    "completion_tokens": 297,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 12795
+    }
+  }
+}

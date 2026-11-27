@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f8648f5d-9756-9ed1-92a2-e9ee3bd66f88",
+  "object": "chat.completion",
+  "created": 1795730950,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别具体工资支付保障内容（如按时足额支付、法定周期、最低工资等），仅有薪酬合规管理政策及津贴发放描述，属于一般激励或竞争力描述范畴。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露工资核算规则、复核机制、工资单发放、差错查询途径或薪酬申诉渠道等具体机制或处理事实。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露与工资支付直接相关的检查、监测或内部审查制度、程序或实际开展事实。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"虽然e002提及“all employees”享有法定福利，但缺乏具体的“工资支付保障政策或实际执行”作为前提支撑，导致无法明确该对象范围是否对应于缺失的工资支付保障机制。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露针对工资差错、欠薪、扣款或加班费问题的补救机制、复核安排或已完成纠正的事实。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2137,
+    "total_tokens": 2634,
+    "completion_tokens": 497,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2137
+    }
+  }
+}

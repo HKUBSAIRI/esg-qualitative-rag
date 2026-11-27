@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-209687bb-8ee2-9a77-9938-f40f29a8d9e9",
+  "object": "chat.completion",
+  "created": 1795731082,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p010\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"于 2025 年,有 4 名员工离职,被授予的股份 1,590 股根据员工持股计划失效。\",\n      \"kind\": \"result\",\n      \"period\": \"2025年\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了评分年度（2025年）实际发生的员工离职事实及相应的股份处理结果，属于当期辞退福利/终止补偿相关的实际发生事项。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13105,
+    "total_tokens": 13263,
+    "completion_tokens": 158,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 13105
+    }
+  }
+}

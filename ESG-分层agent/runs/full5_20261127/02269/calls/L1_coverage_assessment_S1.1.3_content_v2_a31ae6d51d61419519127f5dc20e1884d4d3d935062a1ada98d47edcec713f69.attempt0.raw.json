@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-923863a6-7ef2-9996-865f-e582a4646069",
+  "object": "chat.completion",
+  "created": 1795733746,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"工时控制政策（最长工作时间限制）\",\n        \"灵活工作时间/弹性时间办公制度\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"加班管理措施（通过系统管理加班情况、避免过度加班、支付加班薪资或安排调休）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e008\"\n      ],\n      \"supported_paths\": [\n        \"带薪年休假及福利年假权利\",\n        \"产假、陪产假、育儿假等具体休假安排\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"休假管理机制（线上系统追踪假期使用情况并发送提醒）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际发生的工时监测结果数据\",\n        \"当期实际使用带薪休假的人数或比例\",\n        \"当期执行措施覆盖的具体人数\",\n        \"当期已纠正的休息权侵害案例\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3281,
+    "total_tokens": 3804,
+    "completion_tokens": 523,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3281
+    }
+  }
+}

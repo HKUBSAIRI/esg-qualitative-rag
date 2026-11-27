@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d48bef68-e53f-939d-b814-84e061fcdbea",
+  "object": "chat.completion",
+  "created": 1795740226,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p058\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"信達生物秉持同工同酬的基本原則,建立了多元的薪酬體系,構成部分包括固定薪酬、可變薪酬和長期股權激勵等。我們 每年進行行業薪酬水平與福利體系的調研,確保信達生物員工的收入與待遇始終處於行業領先水平。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了薪酬体系构成及确保收入待遇处于行业领先水平的政策，虽未明确提及法定周期或最低工资，但涉及具体薪酬内容的保障原则（同工同酬）及竞争力保障事实。\"\n    },\n    {\n      \"ref_id\": \"p065\",\n      \"group_ids\": [\n        \"P3\"\n      ],\n      \"quote\": \"蘇州工業園區AAAAA級勞動保障信用單位\",\n      \"kind\": \"result\",\n      \"period\": \"未明确\",\n      \"scope\": \"苏州工业园区\",\n      \"relevance\": \"获得劳动保护信用等级评价，间接反映工资支付等劳动保障合规情况，属于外部监测/审查结果。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11056,
+    "total_tokens": 11352,
+    "completion_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11056
+    }
+  }
+}

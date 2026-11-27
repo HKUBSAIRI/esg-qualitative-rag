@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-856f50a4-c48b-92ed-806c-ac1ec1342cbb",
+  "object": "chat.completion",
+  "created": 1795746176,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p017\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"僱員福利開支\\n工資及薪金 | 1,026,868 | 970,726\\n社會福利及其他福利 * | 469,594 | 442,141\\n以股份為基礎的付款 | 78,585 | 67,587\\n總計 | 1,575,047 | 1,480,454\",\n      \"kind\": \"result\",\n      \"period\": \"截至二零二五年六月三十日止六個月\",\n      \"scope\": \"本集團\",\n      \"relevance\": \"披露了当期实际发生的员工福利开支（含工资及薪金），作为薪酬支付的实际结果证据。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5867,
+    "total_tokens": 6085,
+    "completion_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5867
+    }
+  }
+}

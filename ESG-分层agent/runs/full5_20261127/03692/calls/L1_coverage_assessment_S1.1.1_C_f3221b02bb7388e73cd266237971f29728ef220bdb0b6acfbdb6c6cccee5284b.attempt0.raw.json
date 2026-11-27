@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-810e1f6b-b51d-9e5f-af20-a7204cff6e09",
+  "object": "chat.completion",
+  "created": 1795730320,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工流失率具体数值（14.4%），并通过脚注明确口径为“员工主动离职率”，满足识别评分期间及离职率口径的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"披露了通过数字化合同系统与法务专项审查确保劳动合同签署合规的具体安排，以及工会代表员工签订集体劳动合同的事实，符合劳动合同保障的具体政策或事实要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关的通知、协商、补偿或离职争议处理制度/安排。e005仅提及对违规员工的解雇措施，未涉及裁员程序中的通知、协商或补偿机制。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\",\n        \"e007\",\n        \"e012\"\n      ],\n      \"supported_paths\": [\n        \"披露了内部转岗、竞聘的制度（e006）以及内部填补岗位比例的具体数据（e007, e012），满足员工安置支持中关于内部招聘/转岗制度或事实的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别评分年度已经发生的终止补偿支付、就业安置受益或相应有效纠正结果的具体事实。现有证据多为政策、机制或一般性统计（如流失率、内部填补率），缺乏针对离职人员的实际补偿支付或安置受益的直接证据。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4692,
+    "total_tokens": 5301,
+    "completion_tokens": 609,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 4692
+    }
+  }
+}

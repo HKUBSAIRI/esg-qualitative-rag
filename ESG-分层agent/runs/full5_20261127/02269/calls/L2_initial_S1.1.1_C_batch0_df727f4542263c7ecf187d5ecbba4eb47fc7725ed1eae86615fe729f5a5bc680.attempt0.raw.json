@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c0850728-3a04-9f41-9cd6-3d8e4ef45251",
+  "object": "chat.completion",
+  "created": 1795730555,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"The Group also makes contributions to social insurance fund, including basic pension insurance, medical insurance, unemployment insurance, childbirth insurance, work-related injury insurance funds, and housing reserve fund as applicable to the countries where the Group operates.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"Group employees in operating countries\",\n      \"relevance\": \"Discloses specific employee benefits (social insurance/housing) which are statutory components of labor contract obligations/rights.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9376,
+    "total_tokens": 9531,
+    "completion_tokens": 155,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9376
+    }
+  }
+}

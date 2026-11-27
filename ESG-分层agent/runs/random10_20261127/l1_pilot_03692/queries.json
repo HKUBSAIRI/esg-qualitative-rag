@@ -1,0 +1,179 @@
+{
+  "groups": [
+    {
+      "group_id": "E1",
+      "main_query": "员工离职率 OR 主动离职率 OR 人员流失率 OR turnover rate OR attrition rate",
+      "supplement_queries": [
+        "离职人数 OR 离职比例 OR 员工流动率"
+      ]
+    },
+    {
+      "group_id": "E2",
+      "main_query": "劳动合同 OR labor contract OR employment contract OR 签订劳动合同 OR 合同续签 OR 合同签订率",
+      "supplement_queries": [
+        "劳动合同期限 OR 无固定期限合同 OR 劳动合同管理"
+      ]
+    },
+    {
+      "group_id": "E3",
+      "main_query": "裁员 OR 辞退 OR 解除劳动关系 OR layoff OR redundancy OR severance OR 经济补偿金 OR 辞退福利",
+      "supplement_queries": [
+        "协商解除 OR 离职补偿 OR 遣散费 OR 离职争议处理"
+      ]
+    },
+    {
+      "group_id": "E4",
+      "main_query": "内部招聘 OR 内部竞聘 OR 转岗 OR 岗位轮换 OR 轮岗 OR internal mobility OR redeployment OR 再就业支持 OR 职业转换培训",
+      "supplement_queries": [
+        "内部填补岗位 OR 退休过渡 OR 返聘 OR outplacement"
+      ]
+    },
+    {
+      "group_id": "E5",
+      "main_query": "终止补偿支付 OR 辞退福利 OR 经济补偿金 OR severance payment OR termination benefits OR 离职安置 OR 离职保障",
+      "supplement_queries": [
+        "已支付补偿 OR 实际发放辞退福利 OR 离职受益"
+      ]
+    },
+    {
+      "group_id": "P1",
+      "main_query": "工资支付 OR 薪酬支付 OR wage payment OR salary payment OR 按时足额支付 OR 最低工资保障 OR minimum wage",
+      "supplement_queries": [
+        "工资发放周期 OR 薪酬保障 OR 法定工资标准"
+      ]
+    },
+    {
+      "group_id": "P2",
+      "main_query": "工资核算 OR payroll OR 工资单 OR payslip OR 薪酬申诉 OR 工资差错查询 OR 工资复核",
+      "supplement_queries": [
+        "工资发放明细 OR 薪酬查询渠道 OR 工资计算规则"
+      ]
+    },
+    {
+      "group_id": "P3",
+      "main_query": "工资支付检查 OR 薪酬审计 OR payroll audit OR 工资监测 OR 人力资源审计 OR 人权尽调 工资",
+      "supplement_queries": [
+        "工资支付内部审查 OR 薪酬合规检查 OR 工资支付监督"
+      ]
+    },
+    {
+      "group_id": "P4",
+      "main_query": "工资支付保障 覆盖范围 OR 薪酬保障 适用对象 OR wage coverage OR 全体员工 工资保障",
+      "supplement_queries": [
+        "工资保障 覆盖人数 OR 薪酬政策 适用范围 OR 特定地区 工资保障"
+      ]
+    },
+    {
+      "group_id": "P5",
+      "main_query": "工资补发 OR 欠薪补发 OR 扣款退还 OR 加班费补发 OR wage arrears OR back pay OR 工资差错纠正",
+      "supplement_queries": [
+        "工资争议处理 OR 薪酬补救 OR 欠薪整改"
+      ]
+    },
+    {
+      "group_id": "T1",
+      "main_query": "工作时间 OR working hours OR 排班 OR 轮班 OR shift schedule OR 工时制度 OR 标准工时",
+      "supplement_queries": [
+        "每日工时 OR 每周工作天数 OR 综合计算工时 OR 不定时工作制"
+      ]
+    },
+    {
+      "group_id": "T2",
+      "main_query": "加班管理 OR overtime management OR 加班申请 OR 加班审批 OR 自愿加班 OR 加班时长控制",
+      "supplement_queries": [
+        "加班管控 OR 加班异常处理 OR overtime policy"
+      ]
+    },
+    {
+      "group_id": "T3",
+      "main_query": "休息休假 OR leave OR 带薪年假 OR annual leave OR 法定假期 OR 年休假 OR 婚假 OR 产假",
+      "supplement_queries": [
+        "带薪休假 OR 法定节假日 OR 休息权 OR paid time off"
+      ]
+    },
+    {
+      "group_id": "T4",
+      "main_query": "考勤系统 OR attendance system OR 工时记录 OR 排班检查 OR 休假申请 OR 调休管理",
+      "supplement_queries": [
+        "打卡记录 OR 考勤管理 OR 工时台账"
+      ]
+    },
+    {
+      "group_id": "T5",
+      "main_query": "加班时长检查 OR 带薪休假使用率 OR leave utilization OR 工时监测结果 OR 休假覆盖率 OR 休息权侵害纠正",
+      "supplement_queries": [
+        "实际休假人数 OR 加班监控数据 OR 工时合规检查"
+      ]
+    },
+    {
+      "group_id": "W1",
+      "main_query": "社会保险 OR social insurance OR 养老保险 OR 医疗保险 OR 失业保险 OR 工伤保险 OR 生育保险 OR 住房公积金",
+      "supplement_queries": [
+        "五险一金 OR statutory benefits OR 法定福利 OR 社保缴纳"
+      ]
+    },
+    {
+      "group_id": "W2",
+      "main_query": "补充医疗 OR 商业保险 OR 企业年金 OR 餐补 OR 交通补助 OR supplementary benefits OR 员工福利",
+      "supplement_queries": [
+        "补充养老保险 OR 团体保险 OR 福利津贴"
+      ]
+    },
+    {
+      "group_id": "W3",
+      "main_query": "育儿支持 OR 托育 OR 家庭照护 OR 心理咨询 OR 员工援助计划 OR EAP OR employee assistance program",
+      "supplement_queries": [
+        "母婴室 OR 托儿服务 OR 心理健康支持 OR family support"
+      ]
+    },
+    {
+      "group_id": "W4",
+      "main_query": "福利申请条件 OR 福利适用对象 OR 补贴标准 OR 福利领取方式 OR benefit eligibility OR 报销标准",
+      "supplement_queries": [
+        "福利覆盖范围 OR 福利取得规则 OR 福利资格"
+      ]
+    },
+    {
+      "group_id": "W5",
+      "main_query": "已参保 OR 已缴纳社保 OR 福利覆盖人数 OR benefit coverage OR 补贴已发放 OR 员工受益案例",
+      "supplement_queries": [
+        "实际投保 OR 福利使用人次 OR 已享受福利"
+      ]
+    },
+    {
+      "group_id": "D1",
+      "main_query": "反歧视 OR anti-discrimination OR 禁止歧视 OR 平等就业 OR equal opportunity OR 差别待遇",
+      "supplement_queries": [
+        "性别歧视 OR 年龄歧视 OR 就业歧视 OR 公平雇佣"
+      ]
+    },
+    {
+      "group_id": "D2",
+      "main_query": "反骚扰 OR anti-harassment OR 反性骚扰 OR 职场骚扰 OR 零容忍 harassment OR sexual harassment",
+      "supplement_queries": [
+        "防止骚扰 OR 骚扰预防培训 OR 职场霸凌"
+      ]
+    },
+    {
+      "group_id": "D3",
+      "main_query": "歧视投诉 OR 骚扰举报 OR grievance mechanism OR 投诉受理 OR 调查处理 OR 申诉渠道",
+      "supplement_queries": [
+        "投诉核查 OR 举报调查 OR 歧视申诉 OR 骚扰投诉处理"
+      ]
+    },
+    {
+      "group_id": "D4",
+      "main_query": "举报人保护 OR whistleblower protection OR 保密 OR 匿名举报 OR 不报复 OR non-retaliation OR 风险隔离",
+      "supplement_queries": [
+        "投诉人保护 OR 申诉人保密 OR 防打击报复"
+      ]
+    },
+    {
+      "group_id": "D5",
+      "main_query": "歧视处分 OR 骚扰问责 OR disciplinary action OR 纠正不公 OR 纪律处分 OR 移交处理 OR 整改复核",
+      "supplement_queries": [
+        "违规处罚 OR 责任追究 OR 歧视补救 OR 骚扰处置"
+      ]
+    }
+  ]
+}

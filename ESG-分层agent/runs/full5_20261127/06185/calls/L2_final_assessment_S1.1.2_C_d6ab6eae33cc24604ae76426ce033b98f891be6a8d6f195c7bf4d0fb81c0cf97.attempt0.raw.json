@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0b31f230-9e94-96ea-aaf5-e9510584ada8",
+  "object": "chat.completion",
+  "created": 1795731172,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别工资核算规则、核算复核、向员工发放工资单、员工查询工资差错的途径，或与工资支付有关的薪酬申诉渠道及处理安排等具体机制或事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露与工资支付直接相关的检查、监测或内部审查的具体制度、程序或实际开展事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还、复核）或已完成纠正的事实\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1396,
+    "total_tokens": 1678,
+    "completion_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1396
+    }
+  }
+}

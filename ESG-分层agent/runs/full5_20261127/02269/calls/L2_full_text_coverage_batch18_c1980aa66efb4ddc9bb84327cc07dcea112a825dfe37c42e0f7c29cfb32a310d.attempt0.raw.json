@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-14c12c71-a22d-9061-8ca7-ae7f38ab1a06",
+  "object": "chat.completion",
+  "created": 1795739595,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p016\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"During the year ended December 31, 2025, no emoluments (2024: nil) were paid by the Group to the directors of the Company or the five highest paid individuals (including directors and employees) as an inducement to join or upon joining the Group or as compensation for loss of office.\",\n      \"kind\": \"result\",\n      \"period\": \"For the year ended December 31, 2025\",\n      \"scope\": \"Directors of the Company or the five highest paid individuals (including directors and employees)\",\n      \"relevance\": \"Discloses that no compensation for loss of office was paid to specific high-level employees/directors during the period, which is a fact related to severance/termination compensation.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14120,
+    "total_tokens": 14336,
+    "completion_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 14120
+    }
+  }
+}

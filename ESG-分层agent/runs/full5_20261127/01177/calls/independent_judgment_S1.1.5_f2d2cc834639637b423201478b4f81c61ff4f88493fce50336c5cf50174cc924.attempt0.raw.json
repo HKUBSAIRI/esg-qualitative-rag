@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0cb48100-ca37-9312-854e-b12af781a5c7",
+  "object": "chat.completion",
+  "created": 1795745563,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本阶段仅核查严重事项及纠正。实际搜索日志显示未执行网络搜索，且本地检索结果为空（No supplied L4 regulatory/judicial notice index），导致无法获取任何关于中国生物制药有限公司在2025年度是否存在经核实的严重歧视、骚扰或系统性机会不公平事件及其处置补救情况的必要案件原件。由于关键证据缺失且覆盖范围尚未确认充分，无法判定是否存在‘verified_uncorrected’或‘verified_corrected’状态，故标记为待核验。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"缺少关于严重歧视、骚扰事件的官方通报、司法文书或内部调查记录等必要案件原件\",\n    \"本地RAG检索未命中相关监管/司法通知索引，且未执行网络搜索以补充证据\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5754,
+    "total_tokens": 5944,
+    "completion_tokens": 190,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5754
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-dc44ddb9-f25c-95ac-9a03-52a02d6b6bf0",
+  "object": "chat.completion",
+  "created": 1795746282,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"公司依据《员工手册》建立员工申诉机制,员工在权益受损时可通过指定渠道提交书面申诉材料,公司将在收到申诉后迅速启动调查程序,秉持严谨、公正的态度处理投诉事宜,并 及时向管理层同步调查进展与结果。公司注重隐私保护,对投诉人的个人信息严格保密,确保投诉人隐私安全,并保证处理结果及时反馈至员工。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了员工申诉机制，包括提交渠道、调查程序及反馈安排，符合工资差错查询或薪酬申诉渠道的机制要求。\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"公司制定并完善《薪酬福利管理制度》,加强薪酬合规管理,持续提供津贴,并优化长期激 励制度。 2025 年,公司开展员工薪酬水平市场调研工作,旨在对标行业标准,科学评估公司薪酬 竞争力与内部公平性,为后续的薪酬调整与人工成本预算编制提供数据支撑。同时,公司持续为 员工提供多种津贴,涵盖异地工作派遣补贴、海外艰苦项目补贴及岗位津贴等类别。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确（提及员工）\",\n      \"relevance\": \"披露了《薪酬福利管理制度》及薪酬合规管理，涉及工资核算规则相关的制度基础。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7883,
+    "total_tokens": 8281,
+    "completion_tokens": 398,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7883
+    }
+  }
+}

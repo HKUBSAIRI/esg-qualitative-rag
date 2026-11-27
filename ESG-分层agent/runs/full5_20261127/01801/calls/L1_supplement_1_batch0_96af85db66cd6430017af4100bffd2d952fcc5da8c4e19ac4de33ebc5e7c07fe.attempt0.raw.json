@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a813680c-6bb8-9fae-b75c-1d56eabffd35",
+  "object": "chat.completion",
+  "created": 1795731461,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"信達生物嚴格遵守 《中華人民共和國勞動法》 、 《中華人民共和國勞動合同法》 、 《中華人民共和國社會保險法》 、 《世界人權宣言》及 《國際勞工組織公約》等國內外運營地法律法規,編制了 《招聘入職管理辦法》等人力資源管理制度,指引員工招聘工作的合規開 展。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露依法签订劳动合同的政策依据及管理制度，符合劳动合同保障要求\"\n    },\n    {\n      \"ref_id\": \"p023\",\n      \"group_ids\": [\n        \"T2\",\n        \"T4\"\n      ],\n      \"quote\": \"公司嚴格執行 《中華人民共和國勞動 法》規定,實施標準工時制度,確保員工每週工作時長不超過法定上限。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露标准工时制度及每周工作时长控制，关联加班管理和工时机制\"\n    },\n    {\n      \"ref_id\": \"p026\",\n      \"group_ids\": [\n        \"T4\"\n      ],\n      \"quote\": \"非法定福利 | • 身心健康類福利 • 帶薪年休假和信達福利年假 (每在信達生物服務滿一年,可多享受一天福利年假) • 補充商業醫療保險和員工年度體檢 • 為員工建立健身房 • 節假日和生日福利 • 家庭類福利 • 建立母嬰室並在食堂設立孕婦綠色通道 • 工作場所福利 • 交通補貼、通訊補貼和膳食補貼 • 財務支持類福利 • 年度評優獎勵 • 5 年和 10 年老員工服務獎 • 科研獎勵: • 發明人獎勵制度、 「 Science Star 」 和 「追夢人」 等\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"表格列示带薪年休假及福利年假安排，属于具体的休假管理机制\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13027,
+    "total_tokens": 13616,
+    "completion_tokens": 589,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 13027
+    }
+  }
+}

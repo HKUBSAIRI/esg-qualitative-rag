@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-9cba276c-cb7a-99b9-beed-e1e15cc7b1a2",
+  "object": "chat.completion",
+  "created": 1795743765,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露“杜绝...任何形式的歧视和骚扰行为”；e002详细说明了在招聘环节对信息进行合规审查以避免性别、地域等歧视性内容，符合防止就业中不正当差别待遇的具体制度或措施要求。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"D2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露“杜绝...任何形式的歧视和骚扰行为”；e003披露公司为全体员工提供《员工多元化政策》培训，并对任何形式的歧视与骚扰行为持零容忍态度，符合反骚扰政策与保障的要求。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"D3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004和e005披露了适用于职场申诉（含歧视骚扰）的受理机制（工单平台、总裁信箱），并明确了由专职机制分类处理、启动规范调查的程序。e005还披露了当期实际运行事实：“2025年工单系统累计处理1,900余项员工意见，100%完成了处理和反馈”，满足投诉受理与调查处理的条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"D4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e006披露设立匿名举报热线和邮箱；e007及e005提及制定并公开《举报及举报人保护政策》，明确规定对举报信息严格保密，严禁打击报复，符合申诉人与受影响人员保护的措施要求。\",\n      \"evidence_refs\": [\n        \"e006\",\n        \"e007\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"D5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露如确认存在职场歧视、骚扰等违规行为，将严格依据公司制度给予纪律处分，涉嫌违法案件依法移送司法处理；e008进一步披露针对查实侵权事件采取责任人措施及对弱势群体进行法律、经济救济的机制。这些构成了针对查实歧视或骚扰的责任追究与纠正补救规则。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e008\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30526,
+    "total_tokens": 31205,
+    "completion_tokens": 679,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 30526
+    }
+  }
+}

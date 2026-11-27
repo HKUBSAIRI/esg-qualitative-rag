@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e8ead5b3-a4ce-9ab8-acc5-9a0a833e5d64",
+  "object": "chat.completion",
+  "created": 1795745567,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"记录显示 search_complete=false，且存在 decision_relevant_quote_unverified 问题。虽然证据 e002 明确披露了2025年员工流失率（16.83%）及口径，满足判分条件，但系统标记该关键证据未核实且必要材料覆盖未确认，依据规则需人工核验。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e003 披露了“依法與全體員工簽訂勞動合同”的政策安排，证据 e004 提供了劳动合同员工的具体数量事实，满足披露至少一项员工劳动合同保障具体政策或事实的条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e005 披露了《中國生物製藥員工意見反饋及申訴管理制度》，明确了员工申诉调查与处理流程，属于离职争议处理制度，满足裁员程序组关于通知、协商、补偿或离职争议处理制度的要求。\",\n      \"evidence_refs\": [\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e006 披露了提供“退休及返聘人員權利義務科普等”支持，符合再就业服务、职业转换培训、退休过渡或返聘的具体支持条件。\",\n      \"evidence_refs\": [\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"记录显示 search_complete=false，且 issues 包含 necessary_material_coverage_not_confirmed。当前无已核实的当期实际终止补偿支付或安置受益事实，因核查未完成，不能直接判定为0，需待材料覆盖确认后评分。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9375,
+    "total_tokens": 9949,
+    "completion_tokens": 574,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9375
+    }
+  }
+}

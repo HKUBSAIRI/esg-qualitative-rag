@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a20e5630-4fe0-9d55-a1df-532182566afe",
+  "object": "chat.completion",
+  "created": 1795730982,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"e001: Exit interviews for departing employees (mechanism/fact)\",\n        \"e003: Grievance mechanism for rights/interests (procedural basis for disputes)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"Actual termination compensation payments\",\n        \"Employment placement results\",\n        \"Severance benefit beneficiaries data\",\n        \"Effective correction results in the current period\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1505,
+    "total_tokens": 1729,
+    "completion_tokens": 224,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1505
+    }
+  }
+}

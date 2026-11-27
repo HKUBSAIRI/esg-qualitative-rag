@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4600a210-5783-9169-9789-a3daeda47da2",
+  "object": "chat.completion",
+  "created": 1795745376,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"針對內部已發生或潛在的人權問題,我們將成立項目小組對侵權事件開展調查,根據《員工手冊》相關規定對 調查屬實的相關責任人採取措施,必要時聯合外部關聯方盡最大努力消除相關事件的影響,同時對相關弱勢群 體進行法律、經濟等方面的救濟。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"内部已发生或潜在的人权问题\",\n      \"relevance\": \"披露了针对侵权事件（可能包含工资差错、欠薪等侵犯员工合法权益情形）的调查及救济机制，符合支付问题补救机制的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2859,
+    "total_tokens": 3055,
+    "completion_tokens": 196,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2859
+    }
+  }
+}

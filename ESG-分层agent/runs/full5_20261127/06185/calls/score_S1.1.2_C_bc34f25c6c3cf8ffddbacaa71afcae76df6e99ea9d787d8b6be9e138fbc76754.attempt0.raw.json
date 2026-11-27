@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b3f54b68-c859-9d6c-89c1-e2a70088df39",
+  "object": "chat.completion",
+  "created": 1795746303,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露公司严格确保所有员工享有法定福利（含社保公积金等与薪酬直接相关项目），属于对工资支付保障的具体执行事实，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002披露了依据《员工手册》建立的员工申诉机制，包括提交书面申诉、调查处理及反馈流程，符合“与工资支付有关的薪酬申诉渠道及处理安排”这一具体机制条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索完成且无充分支持。证据e003和e004仅涉及向委员会提供薪酬制度执行情况或人力资源部职责，未明确披露针对“工资支付”本身的定期检查、监测或内部审查程序/事实，不满足判100条件。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确提及“all employees”（所有员工）作为法定福利保障的对象，清晰界定了工资支付保障政策适用的员工范围，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索完成且无相关证据。材料中未披露针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制或已完成纠正的事实，不满足判100条件。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3875,
+    "total_tokens": 4385,
+    "completion_tokens": 510,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3875
+    }
+  }
+}

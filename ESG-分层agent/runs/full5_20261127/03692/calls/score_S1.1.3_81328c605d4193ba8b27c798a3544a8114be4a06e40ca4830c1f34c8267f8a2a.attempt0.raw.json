@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-77b55135-bb4a-9b04-9540-8d1eaf84430d",
+  "object": "chat.completion",
+  "created": 1795746191,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001披露了“允许按岗位性质灵活调整工作时间”，符合“具体工作时间...或合理工时控制的至少一项政策”的条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确披露了“严格执行加班审核与调休制度”，符合“员工加班申请、管理人员审批...等具体政策、程序”的条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004列出了“法定带薪假期”，证据e002提及“育儿假”、“工作日哺乳时间”，均符合“员工休息、法定假期、年休假等至少一项明确权利”的条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了“通过数字化平台实时监测考勤数据，发现异常数据立即启动核查流程”，符合“采用考勤系统、记录工时...等具体工时或休假管理机制”的条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索完成且无相关证据。现有证据（如e003）仅描述了监测机制和核查流程的制度安排，未提供评分年度实际发生的工时监测结果、休假使用数据、执行覆盖人数或侵害纠正结果的具体事实证据，不满足T5对当期实际执行或结果的要求。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4090,
+    "total_tokens": 4613,
+    "completion_tokens": 523,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 4090
+    }
+  }
+}

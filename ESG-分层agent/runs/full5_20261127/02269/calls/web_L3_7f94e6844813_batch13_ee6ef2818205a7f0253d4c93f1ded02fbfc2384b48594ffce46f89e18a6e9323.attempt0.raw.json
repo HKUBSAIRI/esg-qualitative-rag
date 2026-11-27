@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5090f252-0587-973b-8b4e-17d009379cf6",
+  "object": "chat.completion",
+  "created": 1795743928,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p057\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"藥明生物為員工提供不低於最低工資標準且 具有市場競爭力的薪酬和福利,並承諾同工 同酬。公司定期開展薪酬監測與分析,制定 符合市場趨勢和公司戰略的薪酬策略,並根 據員工的績效表現和貢獻給予獎勵。同時, 公司積極開展薪酬公平性的審查與分析,持 續關注性別和背景多樣性的薪酬平等,避免 薪酬歧視。藥明生物承諾持續改善薪酬公平 性,並通過優化薪酬溝通機制,確保員工對 薪酬激勵機制有更清晰的理解和合理預期。 我們通過工作時間管理系統來監控員工工 時,管理加班情況,並設立最長工作時間限 制。我們努力促進員工工作與生活的平衡, 避免過度加班,對於額外及非常規工作時間 的勞動,我們支付加班薪資或合理安排調休。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全球员工\",\n      \"relevance\": \"披露了劳动合同保障相关的薪酬、工时管理及加班费支付政策，属于劳动合同权利义务的具体安排\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10273,
+    "total_tokens": 10565,
+    "completion_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10273
+    }
+  }
+}

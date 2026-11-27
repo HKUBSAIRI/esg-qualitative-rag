@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f13bf20a-0451-9af1-bfc1-53ac6fb0f3bf",
+  "object": "chat.completion",
+  "created": 1795731047,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"支付给职工及为职工支付的 现金 | 378,694,626.36 | 415,638,163.54\",\n      \"kind\": \"result\",\n      \"period\": \"2025年度\",\n      \"scope\": \"合并报表范围\",\n      \"relevance\": \"披露了当期实际发生的员工薪酬支付金额，作为工资支付保障的执行事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 15592,
+    "total_tokens": 15741,
+    "completion_tokens": 149,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 15592
+    }
+  }
+}

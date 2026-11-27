@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-44a680d7-1363-97e6-9f6d-d63ef614c0b9",
+  "object": "chat.completion",
+  "created": 1795744257,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001和e004明确披露了“确保支付的薪酬不低于当地最低工资标准”及“实施薪酬基准动态管理，确保员工收入不低于当地最低工资标准”，符合工资支付保障政策的具体条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002披露了人力资源在线管理平台上线工单系统，员工可通过该系统上传疑问、意见、举报或申诉，并由后台人员处理，构成了具体的员工查询及申诉机制。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露报告期内成立专项小组开展人权尽职调查，内容明确涉及“维生工资”，属于与工资支付直接相关的内部审查/监测实际开展事实。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004提及“翰森制药构建了全方位的劳动权益保障体系...在薪酬管理方面...确保员工收入不低于当地最低工资标准”，结合上下文语境，该政策适用于集团整体员工群体，明确了保障对象范围。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"核查完成但未识别出针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还流程）或已完成纠正的事实。证据e005仅为应付账款余额，e006为终止职务赔偿职权描述，均不符合本组关于“支付问题补救”的特定判据。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8351,
+    "total_tokens": 8898,
+    "completion_tokens": 547,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8351
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-911894f1-4086-9f4b-8703-767859b33233",
+  "object": "chat.completion",
+  "created": 1795730806,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"披露与工资支付直接相关的检查、监测或内部审查至少一项具体制度、程序或实际开展事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"披露工资差错、欠薪、扣款或加班费支付问题的至少一项具体补救机制或已完成纠正事实\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 810,
+    "total_tokens": 987,
+    "completion_tokens": 177,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 810
+    }
+  }
+}

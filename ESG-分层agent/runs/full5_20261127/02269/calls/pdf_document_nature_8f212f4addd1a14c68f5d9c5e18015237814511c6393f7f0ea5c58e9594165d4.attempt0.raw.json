@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-440ad591-8227-98c1-a640-e322dfe89f99",
+  "object": "chat.completion",
+  "created": 1795744058,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"annual\",\n  \"report_year\": 2019,\n  \"publisher\": \"藥明生物技術有限公司\",\n  \"basis\": \"封面及页眉明确标注'2019年度報告'，目录包含公司資料、董事長及首席執行官報告、財務概要、管理層討論及分析、董事會報告、企業管治報告、環境社會及管治報告、獨立核數師報告及綜合財務報表等典型年报组成部分。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1609,
+    "total_tokens": 1718,
+    "completion_tokens": 109,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1609
+    }
+  }
+}

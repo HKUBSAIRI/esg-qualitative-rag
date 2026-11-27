@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0d287308-80ab-93be-93a9-a68122df4982",
+  "object": "chat.completion",
+  "created": 1795744044,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\": [], \"reason\": \"候选引文 e011 描述的是集团子公司员工参与国家管理的退休福利计划及公司的缴费义务，属于薪酬福利或社会保障范畴。该内容与目标指标 S1.1.1 C 要求的‘劳动合同保障’（如依法签订、续签、期限、签订率等）无直接关联，既不能证明劳动合同的具体政策或事实，也不与已核实结论形成实质冲突，因此不影响本组判分。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 441,
+    "total_tokens": 541,
+    "completion_tokens": 100,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 441
+    }
+  }
+}

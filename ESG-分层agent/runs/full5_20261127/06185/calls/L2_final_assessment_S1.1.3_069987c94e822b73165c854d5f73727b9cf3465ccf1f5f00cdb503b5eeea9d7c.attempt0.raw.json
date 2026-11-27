@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7fce9f08-dc04-9f61-bbc3-dbd225f4fbf2",
+  "object": "chat.completion",
+  "created": 1795731174,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"工时监测机制的实际执行或调整结果\",\n        \"实际执行或纠正结果（考勤异常、加班时长合理化）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1003,
+    "total_tokens": 1119,
+    "completion_tokens": 116,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1003
+    }
+  }
+}

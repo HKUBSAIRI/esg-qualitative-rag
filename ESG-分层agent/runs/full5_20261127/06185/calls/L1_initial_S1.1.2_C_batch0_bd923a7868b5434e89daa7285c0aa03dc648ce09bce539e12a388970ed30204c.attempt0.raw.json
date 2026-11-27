@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-00474aa4-6487-983d-baca-24bda5d00465",
+  "object": "chat.completion",
+  "created": 1795730794,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p013\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"CanSinoBIO has formulated and refined its Compensation and Benefits Management Policy to strengthen compensation compliance management, continue providing allowances, and optimize its longterm incentive framework.\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了薪酬福利管理政策以加强合规管理，涉及工资支付保障的政策基础。\"\n    },\n    {\n      \"ref_id\": \"p042\",\n      \"group_ids\": [\n        \"P1\",\n        \"P4\"\n      ],\n      \"quote\": \"The Company strictly ensures that all employees are entitled to statutory benefits, including social insurance and the housing fund, annual leave, and sick leave, so that every employee receives consistent care and protection.\",\n      \"kind\": \"action\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"all employees\",\n      \"relevance\": \"明确了确保所有员工享有法定福利（含社保公积金等与薪酬直接相关项目），体现了对全体员工对象的保障执行事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8353,
+    "total_tokens": 8673,
+    "completion_tokens": 320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8353
+    }
+  }
+}

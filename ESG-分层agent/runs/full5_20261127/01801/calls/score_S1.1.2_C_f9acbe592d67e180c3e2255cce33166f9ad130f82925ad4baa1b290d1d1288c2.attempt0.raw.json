@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d2359254-6136-946b-8017-2ad006ef0975",
+  "object": "chat.completion",
+  "created": 1795743592,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露“严格遵守运营所在地最低工资水平”，符合P1关于“最低工资保障”的具体政策条件。虽然来源标注为未明确期间，但作为现行合规政策声明，且无冲突证据表明其失效，足以支持该组得分。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了“员工投诉及绩效申诉渠道”及“处理流程和管理机制”，并提及相关部门进行调查、处理和反馈。这符合P2关于“与工资支付有关的薪酬申诉渠道及处理安排”或“员工查询工资差错的途径”的要求。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露“定期对员工薪酬开展审查”，证据e005披露“本公司僱員的薪酬政策及待遇方案定期接受審閱”。这些构成了与工资支付直接相关的内部审查制度/程序，符合P3关于“具体制度、程序”的条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005明确提及“本公司僱員”（Innovent's employees）的薪酬政策及待遇方案，确立了工资支付保障政策的适用对象为公司雇员，符合P4关于“明确工资支付保障政策...适用的员工对象”的条件。\",\n      \"evidence_refs\": [\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示search_complete为false，且存在两个关键官方来源（深圳市人社局欠薪通告、市场监管总局信用修复页面）无法读取（official_source_unreadable）。根据规则，必要材料的覆盖尚未确认，不能排除该企业涉及严重欠薪或未纠正事项的可能性，因此状态待定，分数留空。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12886,
+    "total_tokens": 13485,
+    "completion_tokens": 599,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 12886
+    }
+  }
+}

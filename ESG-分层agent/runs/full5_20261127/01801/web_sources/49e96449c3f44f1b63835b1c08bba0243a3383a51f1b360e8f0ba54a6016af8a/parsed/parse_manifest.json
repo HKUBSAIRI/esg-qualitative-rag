@@ -1,0 +1,41 @@
+{
+  "schema_version": "s11-pdf-v1",
+  "document_id": "original",
+  "page_count": 64,
+  "semantic_block_count": 1169,
+  "natural_paragraph_count": 431,
+  "title_count": 410,
+  "list_count": 299,
+  "table_text_count": 29,
+  "cross_page_paragraph_count": 2,
+  "visual_text_count": 955,
+  "toc_pages_excluded": [],
+  "toc_pages_detected": [
+    2
+  ],
+  "cover_pages_excluded": [],
+  "source_pdf": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/full5_20261127/01801/web_sources/49e96449c3f44f1b63835b1c08bba0243a3383a51f1b360e8f0ba54a6016af8a/original.pdf",
+  "source_pdf_sha256": "912d8169ad3a560078cc4cd9727034574b89e795ee3dd6c2200b5c4345ebadf8",
+  "docling_json": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/full5_20261127/01801/web_sources/49e96449c3f44f1b63835b1c08bba0243a3383a51f1b360e8f0ba54a6016af8a/parsed/raw/docling/original.json",
+  "paragraph_unit": "complete_natural_paragraph",
+  "raw_docling_block_is_final_chunk": false,
+  "forced_paragraph_character_split": false,
+  "bbox_coordinate_system": "pdf_points_top_left",
+  "artifacts": {
+    "paragraphs": "paragraphs.jsonl",
+    "retrieval_chunks": "retrieval_chunks.jsonl",
+    "raw_blocks": "blocks.jsonl",
+    "tables": "tables.jsonl",
+    "figures": "figures.jsonl",
+    "visual_texts": "visual_texts.jsonl",
+    "diagnostics": "paragraph_diagnostics.json",
+    "page_quality": "page_quality.json",
+    "source": "source.json",
+    "retrieval_units": "retrieval_units.jsonl",
+    "retrieval_unit_policy": "retrieval_unit_policy.json"
+  },
+  "enriched_chunk_count": 1717,
+  "coverage_status": "not_reviewed",
+  "quote_verification": "not_performed",
+  "local_parser_only": true
+}

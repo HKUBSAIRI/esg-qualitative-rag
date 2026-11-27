@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e7b1587a-cdd3-92dc-8471-a6854470d818",
+  "object": "chat.completion",
+  "created": 1795730529,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e008\",\n        \"e009\"\n      ],\n      \"supported_paths\": [\n        \"披露了具体的法定社会保障项目（养老、医疗等）[e003]，并明确当期已为员工及时且足额缴纳各项社会保险[e008][e009]\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e006\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"披露了补充商业保险、年度健康体检、通勤补贴等具体补充福利安排[e001]，并说明了商业保险的购买机制[e006]及非正式员工享受同等日常福利的规则[e007]\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e004\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露了产假、陪产假、育儿假等家庭福利政策[e002]，提供了心理援助(EAP)热线服务[e004]，以及部分基地的职工子女入学支持[e005]\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\",\n        \"e007\",\n        \"e009\"\n      ],\n      \"supported_paths\": [\n        \"明确了商业保险由员工自主购买且含家属计划[e006]，兼职及外包人员享受与正式员工相同的日常福利[e007]，以及向所有员工提供带薪育儿假等非薪酬类福利[e009]\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e008\",\n        \"e009\"\n      ],\n      \"supported_paths\": [\n        \"披露了当期已发生的社保缴纳事实（及时且足额缴纳）[e008][e009]\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3297,
+    "total_tokens": 3940,
+    "completion_tokens": 643,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 3297
+    }
+  }
+}

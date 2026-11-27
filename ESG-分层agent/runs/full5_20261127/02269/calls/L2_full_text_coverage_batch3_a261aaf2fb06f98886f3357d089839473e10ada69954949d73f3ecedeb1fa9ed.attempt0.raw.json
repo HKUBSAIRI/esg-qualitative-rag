@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-266b7767-471f-9f34-8e2e-b877f49b350e",
+  "object": "chat.completion",
+  "created": 1795739523,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p025\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"As of the end of the Reporting Period, the Group employed a workforce totaling 13,252 employees, with 4,885 scientists. Talent retention has continued to be successful, with a key talent retention rate of approximately 96.4%.\",\n      \"kind\": \"result\",\n      \"period\": \"As of the end of the Reporting Period (2025)\",\n      \"scope\": \"Group\",\n      \"relevance\": \"披露了关键人才保留率，可间接反映离职情况，但未直接披露总离职率或主动离职率的具体数值及口径。\"\n    },\n    {\n      \"ref_id\": \"p025\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"The remuneration package of employees generally includes salary and bonus elements. In general, the Group determines the remuneration package based on the qualifications, position and performance of its employees.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"Employees\",\n      \"relevance\": \"披露了薪酬确定机制（基于资格、职位和绩效），属于工资处理相关的政策描述，但未提及具体的查询机制或申诉渠道。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11540,
+    "total_tokens": 11858,
+    "completion_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 11540
+    }
+  }
+}

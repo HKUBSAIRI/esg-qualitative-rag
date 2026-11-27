@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c9e360ca-4204-9c09-9a19-c9438b1c55a4",
+  "object": "chat.completion",
+  "created": 1795732736,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p014\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"In 2023, we received 14,949 online inquiries from employees,  all of which were promptly received and resolved.\",\n      \"kind\": \"result\",\n      \"period\": \"2023\",\n      \"scope\": \"All employee online inquiries\",\n      \"relevance\": \"Demonstrates the handling mechanism and resolution results for employee queries, which can include wage-related inquiries as part of general employee communication channels.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8613,
+    "total_tokens": 8761,
+    "completion_tokens": 148,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8613
+    }
+  }
+}

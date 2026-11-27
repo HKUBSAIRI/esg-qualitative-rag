@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e6fed19d-330e-93fa-882d-d1a4a3e8f98e",
+  "object": "chat.completion",
+  "created": 1795731152,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际发生的工时监测结果、休假使用数据、执行覆盖人数或已纠正的侵害案例等具体量化或事实性结果证据。现有证据仅显示制度更新和逻辑优化动作，未披露该动作产生的实际运行结果或受影响的具体人员/时长数据。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 833,
+    "total_tokens": 972,
+    "completion_tokens": 139,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 833
+    }
+  }
+}

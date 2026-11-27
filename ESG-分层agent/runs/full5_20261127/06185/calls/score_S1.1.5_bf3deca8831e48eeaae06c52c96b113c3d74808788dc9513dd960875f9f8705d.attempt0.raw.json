@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-71d7df18-088c-98dd-baf0-baf49302781d",
+  "object": "chat.completion",
+  "created": 1795745774,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001 明确披露了禁止就业歧视的政策要求（'We prohibit all forms of discrimination in employment and occupation...'），符合 D1 判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"D2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e002 明确披露了对职场骚扰的零容忍政策（'We have zero tolerance for any form of harassment...'），符合 D2 判分条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"D3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e003 和 e004 均披露了适用于歧视或骚扰投诉的内部报告、调查及处理机制（如 'internal reporting and investigation mechanism', '完善的投诉和举报机制...及时受理、调查并处理'），符合 D3 判分条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"D4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e003 和 e004 披露了对申诉人/举报人的保护措施，包括身份保密和不报复（如 'identity of whistleblowers is kept strictly confidential', '任何人不得对举报人进行任何形式的威胁、报复'），符合 D4 判分条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"D5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e004 和 e005 披露了针对查实违规行为的处分规则，包括纪律措施、解除劳动合同等（如 '采取包括解除劳动合同在内的纪律措施', '口头警告、书面警告...解除劳动合同'），符合 D5 判分条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8281,
+    "total_tokens": 8862,
+    "completion_tokens": 581,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 8281
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5b19e754-3084-9e9d-9375-23c9e49a8fa3",
+  "object": "chat.completion",
+  "created": 1795730495,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空（evidence: []）。根据规则，检索结果可能为空，缺少相关证据本身不能证明应查范围已完成。在没有任何原文支持的情况下，无法判断是否存在严重歧视、骚扰或系统性机会不公平事项，也无法确认是否已有效纠正。因此状态定为待人工核验，而非直接判定无不良事件或已纠正。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"缺乏关于翰森制药集团有限公司在2025年度涉及歧视、骚扰及系统性机会不公平的任何官方披露或第三方通报证据。\",\n    \"无法核实是否存在未披露的严重事项或整改情况。\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5591,
+    "total_tokens": 5748,
+    "completion_tokens": 157,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5591
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5718040b-5537-9664-82ae-ffc2abee1ae0",
+  "object": "chat.completion",
+  "created": 1795732686,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\": [], \"reason\": \"候选引文x001仅披露了期间内的员工成本总额（包括薪酬及福利），属于常规人力成本数据，未具体指向‘终止补偿支付’、‘就业安置’或‘离职保障受益’等特定事件。根据判据，普通应付工资余额或总费用不能单独证明实际离职保障结果或有效纠正，且该引文未满足‘当期实际发生的终止补偿/安置/纠正’这一核心条件，因此不影响本组结论。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 372,
+    "total_tokens": 481,
+    "completion_tokens": 109,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 372
+    }
+  }
+}

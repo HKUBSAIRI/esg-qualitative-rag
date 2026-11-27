@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f20f1227-1eb7-9695-ae61-279328361b7f",
+  "object": "chat.completion",
+  "created": 1795732614,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\":[],\"reason\":\"候选x001仅披露员工成本总额，未包含终止补偿支付、就业安置或离职保障受益等具体实际发生事实，无法证明当期辞退福利的实际纠正结果，不满足成立路径且不与已核实结论冲突。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 370,
+    "total_tokens": 427,
+    "completion_tokens": 57,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 370
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-80a00026-00b1-9b29-9fae-842d0d206eba",
+  "object": "chat.completion",
+  "created": 1795730370,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"员工查询工资差错的途径/薪酬申诉渠道及处理安排\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"明确工资支付保障政策或实际执行适用的员工对象，或披露与该保障直接对应的覆盖人数、比例。e001虽提及‘员工收入’，但主要侧重薪酬原则（同工同酬、最低工资），未明确界定该特定保障机制的具体适用对象范围（如是否全员、特定地区等）或提供直接对应的覆盖数据；e002的工单系统scope为‘未明确’。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"工资差错、欠薪、扣款或加班费支付问题的至少一项具体补救机制或已完成纠正事实。现有证据仅展示了申诉渠道（e002）和薪酬原则（e001），未披露针对具体支付问题（如差错补发、错误扣款退还）的专门补救机制或已完成的纠正案例。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1480,
+    "total_tokens": 1866,
+    "completion_tokens": 386,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1480
+    }
+  }
+}

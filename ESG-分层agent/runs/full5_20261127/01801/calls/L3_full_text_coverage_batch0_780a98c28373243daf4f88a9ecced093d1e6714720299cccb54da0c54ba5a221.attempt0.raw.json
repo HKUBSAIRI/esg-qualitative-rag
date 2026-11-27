@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-507e5d6a-92ed-945e-8b33-92071ea4602b",
+  "object": "chat.completion",
+  "created": 1795732667,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p016\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"我们严格遵守运营所在地最低工资水平及工时要求,坚决保护员工基本权益。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了遵守最低工资水平的具体保障政策，符合薪酬支付保障中关于最低工资保障的要求。\"\n    },\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"D2\"\n      ],\n      \"quote\": \"信达生物尊重员工的合法权益,致力于构建一个零歧视、零骚扰、零欺凌的包容性工作环 境。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"明确披露了禁止职场骚扰（零骚扰）的政策承诺，符合反骚扰政策与保障的要求。\"\n    },\n    {\n      \"ref_id\": \"p069\",\n      \"group_ids\": [\n        \"D2\"\n      ],\n      \"quote\": \"对歧视与骚扰行为秉持零容忍态度,构建多元、平等、包容、尊重的工作环 境。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"在商业道德准则中再次确认了对骚扰行为的零容忍态度，支持反骚扰政策的披露。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11276,
+    "total_tokens": 11634,
+    "completion_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11276
+    }
+  }
+}

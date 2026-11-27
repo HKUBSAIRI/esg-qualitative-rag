@@ -1,0 +1,25 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\"evidence\":[{\"local_id\":\"e1\",\"ref_id\":\"p001\",\"quote\":\"員工流失率* | % | 14.4\",\"kind\":\"result\",\"period\":\"2025年\",\"scope\":\"未明确\",\"relevance\":\"披露2025年员工流失率数值\"},{\"local_id\":\"e2\",\"ref_id\":\"p034\",\"quote\":\"* 指員工主動離職率\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"明确流失率口径为主动离职率\"},{\"local_id\":\"e3\",\"ref_id\":\"p003\",\"quote\":\"通過數字化合同系統與法務專項審查,確保勞動合同及 保密協議的簽署完全合規,實現合同條款與政策要求一致,保障所有勞動合同合法有效。\",\"kind\":\"mechanism\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"劳动合同签订合规保障机制\"},{\"local_id\":\"e4\",\"ref_id\":\"p009\",\"quote\":\"在內部流動方面,我們定期公開研發、生產、商業等 領域的崗位機會,鼓勵員工根據自身能力與意願申請轉崗,並給予轉型指導 與培訓支持\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"内部转岗与培训支持制度\"}],\"groups\":[{\"group_id\":\"E1\",\"content_sufficient\":true,\"supported_paths\":[\"披露评分年度的员工离职率情况，并能注识别评分期间及离职率口径\"],\"evidence_ids\":[\"e1\",\"e2\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"E2\",\"content_sufficient\":true,\"supported_paths\":[\"披露至少一项员工劳动合同保障的具体政策、安排或事实，包括依法与员工签订劳动合同、劳动合同续签、劳动合同期限、劳动合同签订率等\"],\"evidence_ids\":[\"e3\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"E3\",\"content_sufficient\":false,\"supported_paths\":[],\"evidence_ids\":[],\"missing\":[\"裁员相关的通知、协商、补偿或离职争议处理制度、具体安排或事实；辞退福利或成本等当期补偿事实\"],\"conflicts\":[]},{\"group_id\":\"E4\",\"content_sufficient\":true,\"supported_paths\":[\"①员工内部招聘、内部竞聘、转岗或岗位轮换的制度\"],\"evidence_ids\":[\"e4\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"E5\",\"content_sufficient\":false,\"supported_paths\":[],\"evidence_ids\":[],\"missing\":[\"当期实际发生的终止补偿支付、就业安置、离职保障受益或相应有效纠正结果\"],\"conflicts\":[]}]}",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1795728850,
+  "id": "chatcmpl-d891a5fa-6c66-9c55-9494-ea47a1a92d94",
+  "model": "qwen3.8-max",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 540,
+    "prompt_tokens": 6499,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 6499
+    },
+    "total_tokens": 7039
+  }
+}

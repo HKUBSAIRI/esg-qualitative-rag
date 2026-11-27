@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-11d1dc2e-b6ab-941e-b188-06b1db3d0638",
+  "object": "chat.completion",
+  "created": 1795730184,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p012\",\n      \"group_ids\": [\n        \"D1\",\n        \"D2\"\n      ],\n      \"quote\": \"我們建立了完善的 招聘、用工流程與監察體系,杜絕販賣人口、強迫勞動、使用童工以及任何形式的歧視和騷擾行為。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"招聘、用工流程\",\n      \"relevance\": \"明确披露禁止就业中的歧视和骚扰行为，符合反歧视与反骚扰政策要求\"\n    },\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"D3\",\n        \"D5\"\n      ],\n      \"quote\": \"所有投訴將由專職機制分類處理,並按事項性質啟動規範調查,重大事件則由專項工作組協同 人權調查組進行核查,並將結果與整改措施上報管理層。如確認存在職場歧視、騷擾等違規行為,將嚴格依據 公司制度給予紀律處分,涉嫌違法案件將依法移送司法處理,並保障申訴人的知情權。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"职场申诉、劳动合规风险报告及管理改善建议\",\n      \"relevance\": \"披露了适用于歧视骚扰投诉的调查处理程序及针对查实违规行为的纪律处分和移交机制\"\n    },\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"D4\"\n      ],\n      \"quote\": \"翰森製藥制定並公開了《舉報及舉報人保護政策》,規範了舉報事項處理細則、流程和對舉報人信息的保護... 嚴禁任何人、 任何單位以任何形式對舉報人及其親屬、為調查提供幫助的人員進行打擊報復,一經發現將嚴肅處理。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"举报人保护\",\n      \"relevance\": \"披露了适用于歧视或骚扰投诉的举报人保护措施，包括保密和不报复规定\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7774,
+    "total_tokens": 8323,
+    "completion_tokens": 549,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7774
+    }
+  }
+}

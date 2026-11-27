@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-92d1a743-5666-9d56-affa-5b076dcbce68",
+  "object": "chat.completion",
+  "created": 1795746318,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露禁止就业歧视政策（'We prohibit all forms of discrimination in employment...'），符合D1判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"D2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002明确披露对骚扰的零容忍政策（'zero tolerance for any form of harassment...'），符合D2判分条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"D3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003和e004披露了适用于歧视或骚扰投诉的内部报告、调查及处理机制（如向人力资源部举报，公司受理并调查），符合D3判分条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"D4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003和e004披露了对申诉人的保护措施，包括身份严格保密（'identity of whistleblowers is kept strictly confidential'）和不报复条款（'任何人不得对举报人进行任何形式的威胁、报复'），符合D4判分条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"D5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004和e005披露了针对查实违规行为的处分规则，包括解除劳动合同、警告等纪律措施，符合D5判分条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4380,
+    "total_tokens": 4909,
+    "completion_tokens": 529,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 4380
+    }
+  }
+}

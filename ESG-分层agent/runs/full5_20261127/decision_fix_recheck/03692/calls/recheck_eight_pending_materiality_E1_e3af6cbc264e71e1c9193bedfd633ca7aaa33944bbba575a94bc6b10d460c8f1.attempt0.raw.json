@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-550f8bd4-124d-97d9-9320-25e10cb23c0a",
+  "object": "chat.completion",
+  "created": 1795732277,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e002\"\n  ],\n  \"reason\": \"判据要求披露当期离职率具体数值及口径。候选e002直接包含'員工流失率* | % | 14.4'及分维度数据，且标注期间为2025年，完全满足成立路径中关于数值和期间的核心要素（尽管口径需结合脚注确认，但数值本身已具备决定性影响）。候选e003仅补充细分维度，不改变核心结论判定。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1118,
+    "total_tokens": 1238,
+    "completion_tokens": 120,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1118
+    }
+  }
+}

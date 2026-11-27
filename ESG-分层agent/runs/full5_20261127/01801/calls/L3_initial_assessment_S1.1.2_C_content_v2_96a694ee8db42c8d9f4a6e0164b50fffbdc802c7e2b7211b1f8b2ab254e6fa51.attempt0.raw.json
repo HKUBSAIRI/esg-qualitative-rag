@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5f8c95ba-f783-9311-8171-164cf87e78b6",
+  "object": "chat.completion",
+  "created": 1795732661,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"最低工资保障政策\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别工资核算规则、复核机制、工资单发放或员工查询/申诉的具体机制\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"e003提及定期审查薪酬以消除性别差距，但未明确涉及‘工资支付’（如按时足额、欠薪等）的检查、监测或内部审查制度或事实\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费问题的具体补救机制或已完成纠正事实\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1581,
+    "total_tokens": 1954,
+    "completion_tokens": 373,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1581
+    }
+  }
+}

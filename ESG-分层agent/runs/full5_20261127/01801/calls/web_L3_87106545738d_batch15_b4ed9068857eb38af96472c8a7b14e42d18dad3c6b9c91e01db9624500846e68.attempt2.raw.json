@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-92858bc2-d8c9-9a0b-ab95-b9cd4a0ef47a",
+  "object": "chat.completion",
+  "created": 1795744638,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"group_id\": \"1\",\n      \"quote\": \"The company has established a comprehensive safety management system, including the 'Safety Management Manual' and 'Emergency Response Plan', to ensure the safety of employees and assets.\",\n      \"source\": \"Innovent Biologics Annual Report 2023\"\n    },\n    {\n      \"group_id\": \"2\",\n      \"quote\": \"All employees are required to undergo annual safety training and emergency drills to maintain awareness and response capabilities.\",\n      \"source\": \"Innovent Biologics ESG Report 2023\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9892,
+    "total_tokens": 10038,
+    "completion_tokens": 146,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216,
+      "text_tokens": 9892
+    }
+  }
+}

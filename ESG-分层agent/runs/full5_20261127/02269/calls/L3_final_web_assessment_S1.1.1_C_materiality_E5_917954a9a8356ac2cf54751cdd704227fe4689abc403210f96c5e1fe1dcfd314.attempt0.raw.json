@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a3ffe2db-ad10-9891-8a63-3f72ff98cafc",
+  "object": "chat.completion",
+  "created": 1795744393,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [],\n  \"reason\": \"候选e033披露的是2019年度（及2018年）无离职赔偿支付，属于历史期间且为否定性陈述，不符合目标指标要求的'评分年度（2025年）已经发生的...实际纠正结果'；候选x001-x003为2019/2018年度员工成本总额，非终止补偿专项数据，且期间不匹配。所有候选均无法支持当期实际发生证据的成立路径，也不构成对当前缺失结论的实质冲突或补充，故不影响判分。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 751,
+    "total_tokens": 889,
+    "completion_tokens": 138,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 751
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1c8bf84b-bcee-9728-93fb-a76515c81026",
+  "object": "chat.completion",
+  "created": 1795731319,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"T1\"\n      ],\n      \"quote\": \"公司嚴格執行 《中華人民共和國勞動 法》規定,實施標準工時制度,確保員工每週工作時長不超過法定上限。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了标准工时制度及每周工作时长不超过法定上限的具体安排，符合工作时间及排班制度要求。\"\n    },\n    {\n      \"ref_id\": \"p048\",\n      \"group_ids\": [\n        \"E4\"\n      ],\n      \"quote\": \"在人才選拔方 面,我們堅持內部優先原則,當出現崗位空缺時,優先考慮內部員工的晉升與轉崗機會,以促進員工職業成長與組織發展的良性 互動。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"内部员工\",\n      \"relevance\": \"披露了岗位空缺时优先考虑内部晋升与转岗的制度安排，属于员工安置支持中的内部招聘/转岗机制。\"\n    },\n    {\n      \"ref_id\": \"p050\",\n      \"group_ids\": [\n        \"E4\"\n      ],\n      \"quote\": \"於 2025 年,信達生物內部共晉升 722 人次。其中 151 人通過內部競聘成為管理幹部。\",\n      \"kind\": \"result\",\n      \"period\": \"2025年\",\n      \"scope\": \"信达生物内部\",\n      \"relevance\": \"披露了当期内部竞聘成为管理干部的具体人数事实，属于员工安置支持中的内部竞聘事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13228,
+    "total_tokens": 13688,
+    "completion_tokens": 460,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 13228
+    }
+  }
+}

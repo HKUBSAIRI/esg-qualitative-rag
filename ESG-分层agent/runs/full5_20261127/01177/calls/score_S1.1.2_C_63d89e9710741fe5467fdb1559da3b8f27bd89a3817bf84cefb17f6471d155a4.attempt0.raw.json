@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-46bea63e-f783-994d-9a81-a81bf7b2b524",
+  "object": "chat.completion",
+  "created": 1795730887,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001 明确披露了“确保全体员工收入不低于所在地区最低工资标准”的政策，符合薪酬支付保障中关于最低工资保障的条件；证据 e002 披露了对加班依法给予补偿（包括加班费）的执行事实。两者均满足判 100 的明确条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e003 披露了集团基于绩效、经验和市场费率对员工进行薪酬核算（remunerates its employees based on their performance, experience and the prevailing market rates），这构成了工资处理的具体机制，符合判 100 的条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"证据 e004 提及“持续监测性别薪酬差距，持续开展同工同酬评估”，虽然涉及薪酬相关的监测，但其主要焦点在于性别平等和同工同酬，而非直接针对“工资支付情况”的检查或内部审查（如按时足额支付、欠薪等）。规则要求“与工资支付直接相关”，且该证据标记为 `2025_effectiveness_not_yet_verified`，无法确认为当期实际开展的工资支付专项监测或审查事实。关键事实与规则要求的匹配度存在不确定性，需人工核验是否将此类多元化/公平性监测视为广义的工资支付保障监测。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001 明确说明政策适用于“全体员工”（確保全體員工...），证据 e005 也提到休假制度确保“全体员工”权益。这明确了工资支付保障政策适用的员工对象为全体员工，符合判 100 的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"证据 e006 和 e007 披露了通用的员工意见反馈及申诉管理制度，包含调查和纠正措施。然而，这些描述属于一般性的合规或道德违规处理流程，并未明确识别出针对“工资差错、欠薪、扣款或加班费支付问题”的具体补救机制（如专门的工资争议复核通道），也未披露任何已完成的工资补发、退还等具体纠正事实。根据规则，“未识别对应机制或纠正事实”判 0。\",\n      \"evidence_refs\": [\n        \"e006\",\n        \"e007\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9531,
+    "total_tokens": 10266,
+    "completion_tokens": 735,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 9531
+    }
+  }
+}

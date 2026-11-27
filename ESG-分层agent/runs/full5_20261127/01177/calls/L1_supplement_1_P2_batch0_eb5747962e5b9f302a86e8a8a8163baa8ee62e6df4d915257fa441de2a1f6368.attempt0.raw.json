@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4c2e6326-e51f-9c38-8d7d-28cb8b82b995",
+  "object": "chat.completion",
+  "created": 1795745526,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"與主管或人力資源部門反映情況\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工沟通/申诉\",\n      \"relevance\": \"提供了向人力资源部门反映情况的途径，可能涵盖工资差错查询或薪酬申诉，符合S1.1.2 C中关于员工查询工资差错的途径或薪酬申诉渠道的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1019,
+    "total_tokens": 1157,
+    "completion_tokens": 138,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1019
+    }
+  }
+}

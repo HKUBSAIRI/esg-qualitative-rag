@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-49f97dbe-903b-9ed0-8644-577537e09758",
+  "object": "chat.completion",
+  "created": 1795744371,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p038\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"於截至二零一九年十二月三十一日止年度,本集團概無(二零一八年:無) 向本公司董事 或五名最高薪酬人士(括董事及僱員)支付薪酬作為加入本集團或加入本集團後的獎 勵或離職賠償。\",\n      \"kind\": \"result\",\n      \"period\": \"截至二零一九年十二月三十一日止年度\",\n      \"scope\": \"本公司董事或五名最高薪酬人士(包括董事及僱員)\",\n      \"relevance\": \"披露了当期未发生针对特定高薪酬人员（含员工）的离职赔偿支付事实，属于实际离职保障结果的反面证据（即无此类支出）。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13887,
+    "total_tokens": 14092,
+    "completion_tokens": 205,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 13887
+    }
+  }
+}

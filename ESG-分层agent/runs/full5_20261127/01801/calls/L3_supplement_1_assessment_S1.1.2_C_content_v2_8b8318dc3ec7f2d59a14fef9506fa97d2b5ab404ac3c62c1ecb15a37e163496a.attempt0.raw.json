@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7c66282a-ddbb-917e-886f-4bcf330d03cc",
+  "object": "chat.completion",
+  "created": 1795745466,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别与工资处理（如核算规则、复核、发放工资单）或员工查询工资差错/薪酬申诉直接相关的具体机制。现有证据仅涉及一般性违规举报、投诉及沟通渠道，未明确覆盖工资事项。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1683,
+    "total_tokens": 1811,
+    "completion_tokens": 128,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1683
+    }
+  }
+}

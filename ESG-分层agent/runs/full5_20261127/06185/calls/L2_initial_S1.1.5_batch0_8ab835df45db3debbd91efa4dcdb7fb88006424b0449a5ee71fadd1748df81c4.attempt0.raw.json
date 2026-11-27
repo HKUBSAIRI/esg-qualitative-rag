@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-43b9a5ef-5470-99a8-952d-dc9736b8c7e9",
+  "object": "chat.completion",
+  "created": 1795731006,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"D5\"\n      ],\n      \"quote\": \"依托于完善的内部举报与调查机制,公司明确要求全体员工在发现雇佣童工、强制劳工、 歧视或骚扰等违规行为时,须通过人力资源部或直属主管等指定渠道及时上报。公司保 证调查全程遵循公正、透明的程序,并严格保密举报人信息,切实维护员工权益与组织 公信力。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了针对歧视或骚扰违规行为的内部举报与调查机制，属于纠正补救的基础流程规则\"\n    },\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"D5\"\n      ],\n      \"quote\": \"公司依据《员工手册》建立员工申诉机制,员工在权益受损时可通过指定渠道提交书面申诉材料,公司将在收到申诉后迅速启动调查程序,秉持严谨、公正的态度处理投诉事宜,并 及时向管理层同步调查进展与结果。公司注重隐私保护,对投诉人的个人信息严格保密,确保投诉人隐私安全,并保证处理结果及时反馈至员工。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"权益受损员工\",\n      \"relevance\": \"披露了员工申诉及调查处理机制，作为权益受损（含歧视骚扰）时的具体补救途径\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7392,
+    "total_tokens": 7751,
+    "completion_tokens": 359,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7392
+    }
+  }
+}

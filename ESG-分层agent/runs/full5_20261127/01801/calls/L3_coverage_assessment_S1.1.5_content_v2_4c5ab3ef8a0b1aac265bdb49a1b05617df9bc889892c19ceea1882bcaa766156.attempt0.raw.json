@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-2c39a3da-26dc-9b03-a3cd-547da75cf95c",
+  "object": "chat.completion",
+  "created": 1795732679,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止职场骚扰、反性骚扰或相应零容忍要求\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1029,
+    "total_tokens": 1133,
+    "completion_tokens": 104,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1029
+    }
+  }
+}

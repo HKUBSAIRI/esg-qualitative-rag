@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b24fff52-7512-9a4f-810a-ba129494d48a",
+  "object": "chat.completion",
+  "created": 1795745435,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"T4\"\n      ],\n      \"quote\": \"在扣除已支付的金額後,僱員應計福利 (如工資及薪金及年假) 確認為負債。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"原文提及“年假”作为雇员应计福利的一部分，并说明其会计确认方式，间接反映了公司对员工休假（年假）存在管理记录与核算机制，符合工时及休假管理机制中关于休假申请或记录的关联事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 906,
+    "total_tokens": 1073,
+    "completion_tokens": 167,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 906
+    }
+  }
+}

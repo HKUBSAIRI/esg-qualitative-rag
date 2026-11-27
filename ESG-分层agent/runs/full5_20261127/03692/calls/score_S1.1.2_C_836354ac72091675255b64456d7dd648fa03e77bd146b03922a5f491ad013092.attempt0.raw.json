@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-9f5652eb-ca77-9b16-bdcc-c53badeaae86",
+  "object": "chat.completion",
+  "created": 1795746186,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001和e002明确披露了保证员工收入不低于当地最低工资水平的政策，符合‘最低工资保障’的具体支付保障条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了内部平台开设人力资源工单系统方便员工提出问题，属于员工查询工资差错或相关问题的具体机制/途径。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索记录显示search_complete=true且无相关证据（no_relevant_evidence_found），材料中未披露与工资支付直接相关的检查、监测或内部审查制度或实际开展事实。根据规则，核查完成且无支持判0。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002提及‘确保员工收入不低于当地最低工资标准’，结合上下文劳动权益保障体系，隐含覆盖全体员工对象；证据e001也提及‘员工’整体。虽存在quote_not_in_supplied_text的issue标记，但依据提供的evidence原文及assessment结论，已识别出适用对象为全体员工，满足条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索记录显示search_complete=true且无相关证据（no_relevant_evidence_found），材料中未识别针对工资差错、欠薪、扣款或加班费问题的补救机制或已完成纠正事实。根据规则，无事件不自动得分，无机制披露判0。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3822,
+    "total_tokens": 4359,
+    "completion_tokens": 537,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3822
+    }
+  }
+}

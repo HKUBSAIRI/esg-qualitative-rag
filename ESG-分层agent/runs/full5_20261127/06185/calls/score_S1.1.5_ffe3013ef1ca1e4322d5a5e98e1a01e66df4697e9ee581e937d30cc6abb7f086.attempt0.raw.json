@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6ab96ecd-5143-9802-989b-56a6a59bd688",
+  "object": "chat.completion",
+  "created": 1795731301,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001、e002、e004 明确披露了禁止就业歧视的政策，包括基于性别、年龄、种族等特征的零容忍要求及平等机会承诺，符合判分条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"D2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e007 明确披露了对任何形式的骚扰（包括性骚扰、肢体、精神、语言骚扰）的零容忍政策，符合反骚扰政策与保障的判分条件。\",\n      \"evidence_refs\": [\n        \"e007\"\n      ]\n    },\n    {\n      \"group_id\": \"D3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e008、e011、e013 披露了适用于歧视和骚扰投诉的内部报告、调查机制及处理程序，明确了受理渠道（人力资源部或主管）和调查流程，符合判分条件。\",\n      \"evidence_refs\": [\n        \"e008\",\n        \"e011\",\n        \"e013\"\n      ]\n    },\n    {\n      \"group_id\": \"D4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e008、e010、e013 明确披露了对举报人/投诉人身份严格保密的保护措施，以及禁止对举报人进行报复的规定，符合申诉人与受影响人员保护的判分条件。\",\n      \"evidence_refs\": [\n        \"e008\",\n        \"e010\",\n        \"e013\"\n      ]\n    },\n    {\n      \"group_id\": \"D5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e013、e014、e015 披露了针对查实歧视或骚扰行为的纪律处分规则（如解除劳动合同、警告等）及问责机制，符合责任追究与纠正补救的判分条件。\",\n      \"evidence_refs\": [\n        \"e013\",\n        \"e014\",\n        \"e015\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11823,
+    "total_tokens": 12430,
+    "completion_tokens": 607,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 11823
+    }
+  }
+}

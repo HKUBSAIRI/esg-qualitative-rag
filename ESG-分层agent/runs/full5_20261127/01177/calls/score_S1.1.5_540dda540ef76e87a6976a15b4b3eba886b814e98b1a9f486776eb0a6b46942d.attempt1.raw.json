@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-542b077d-258a-9a7b-86fb-55e8c1b0963a",
+  "object": "chat.completion",
+  "created": 1795730913,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001、e002、e003 明确披露了禁止歧视的政策要求（零容忍、招聘晋升薪酬无偏见、不因特定身份特征歧视），满足判100条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"D2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001 明确披露了对骚扰坚持零容忍，严禁任何形式的骚扰（包括性骚扰和非性骚扰），并开展反骚扰培训，满足判100条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"D3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e004、e005 披露了《员工意见反馈及申诉管理制度》，明确了针对歧视或骚扰行为的申诉渠道及调查处理流程，满足判100条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"D4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e004 提到坚决保障举报人权益，证据 e006 明确对报复行为采取零容忍态度，属于适用于投诉的保护措施，满足判100条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"D5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e007 披露了查实后的处分规则（警告、记过、解雇、移交司法），虽当期无诉讼事实，但已识别具体处置规则，满足判100条件。\",\n      \"evidence_refs\": [\n        \"e007\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9725,
+    "total_tokens": 10278,
+    "completion_tokens": 553,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 9725
+    }
+  }
+}

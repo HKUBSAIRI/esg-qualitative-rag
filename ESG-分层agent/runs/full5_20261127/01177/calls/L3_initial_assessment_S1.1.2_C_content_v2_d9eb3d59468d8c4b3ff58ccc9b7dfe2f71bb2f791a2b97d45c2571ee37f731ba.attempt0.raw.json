@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a7b42f39-c5d6-9bcc-8001-e533ca3ad4b7",
+  "object": "chat.completion",
+  "created": 1795744170,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"披露与工资支付直接相关的检查、监测或内部审查至少一项具体制度、程序或实际开展事实\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还）或已完成纠正事实。e002仅提及一般性违规案件的调查和纠正措施，未明确关联到工资支付的具体补救场景。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1480,
+    "total_tokens": 1715,
+    "completion_tokens": 235,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1480
+    }
+  }
+}

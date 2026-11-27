@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5f826de4-523f-9302-8e37-1204fd0944dc",
+  "object": "chat.completion",
+  "created": 1795730901,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001、e002、e003 明确披露了基本养老保险、基本医疗保险、失业保险、工伤保险、生育保险及住房公积金等具体法定社会保障项目，并说明全体员工享有“五险一金”，符合 W1 关于披露具体法定保障政策或事实的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e002、e004 披露了面向全体员工的补充医疗保险、员工年度体检、大病救助爱心基金、住院慰问金等具体补充福利安排，符合 W2 关于披露具体补充福利安排或事实的条件。\",\n      \"evidence_refs\": [\n        \"e002\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e005、e006、e007 披露了补充育儿假、母婴室、幼儿园保育费用报销、EAP（员工援助计划）提供的心理/法律/健康支持、家庭开放日等家庭与生活支持资源及服务，符合 W3 条件。\",\n      \"evidence_refs\": [\n        \"e005\",\n        \"e006\",\n        \"e007\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e002 明确法定福利适用对象为“全体员工”，证据 e008 指出部分非法定福利仅针对“特定对象”，明确了福利的适用对象和取得规则边界，符合 W4 条件。\",\n      \"evidence_refs\": [\n        \"e002\",\n        \"e008\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e006 披露报告期内 EAP 活动累计参与近 2000 人次，属于当期已发生的福利使用事实；证据 e003 披露全体员工享有五险一金，结合 e002 的政策背景，可认定为参保/受益事实。满足 W5 对当期实际覆盖、使用或受益的要求。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e006\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10031,
+    "total_tokens": 10688,
+    "completion_tokens": 657,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 10031
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "company_id": "01177",
+  "source_level": 3,
+  "rows": 646,
+  "corpus_sha256": "f000100d454aa86404b7331ee7509202bd7729538a8ad585397e8eccdf4004ac",
+  "vector_ready": true,
+  "model": "text-embedding-3-small",
+  "dimensions": 1024,
+  "dtype": "float32",
+  "normalized": true,
+  "metric": "cosine_dot",
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "tokenizer": "en-cjk-2gram-3gram-v1"
+  },
+  "usage": []
+}

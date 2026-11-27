@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5e444e54-a8ac-99bf-aa7d-c365abc2cdfb",
+  "object": "chat.completion",
+  "created": 1795730325,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e004\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"最低工资保障政策\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e007\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未明确披露工资核算规则、复核机制或向员工发放工资单的具体事实。e007仅提及通用的人力资源工单系统，虽包含申诉功能，但未明确标识为“薪酬/工资”专项查询或差错处理渠道，且缺乏具体的工资处理流程描述。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"人权尽职调查涉及维生工资\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"e002中关于“全体员工”的覆盖范围被标记为“隐含”，根据规则需以原文明示为准。其他证据（e001, e004, e005）均未明确说明适用对象是全体员工还是特定群体，也未提供具体覆盖人数或比例。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还流程）或已完成纠正的事实。e007的通用申诉渠道不足以证明存在专门的工资问题补救安排。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3356,
+    "total_tokens": 3918,
+    "completion_tokens": 562,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3356
+    }
+  }
+}

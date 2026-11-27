@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b9878ad5-1d7f-9626-9e5a-a689ec2d0bd8",
+  "object": "chat.completion",
+  "created": 1795746181,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001披露了2025年员工流失率为14.4%，证据e002明确该指标口径为“员工主动离职率”，满足披露评分年度离职率及识别期间和口径的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了聘请外部法律顾问对合同签订进行审核，并通过数字化合同系统确保劳动合同签署完全合规、合法有效，属于具体的劳动合同保障安排。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露了对违规员工采取解雇或终止合作的处理措施，涉及解除劳动关系的具体安排，符合裁员/解雇程序相关的制度或事实披露要求。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005披露了内部转岗、竞聘及转型指导培训支持制度；证据e006披露了通过内部招聘补充职位数占比为19%的事实数据，满足员工安置支持的判分条件。\",\n      \"evidence_refs\": [\n        \"e005\",\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索记录显示已完成核查但未找到满足条件的证据。证据e007仅披露了包含工资、社会福利等的员工福利开支总额，未明确区分或提及针对离职保障的终止补偿支付、就业安置受益等具体实际结果，不满足E5组关于当期实际发生且可区分的离职保障结果的判分条件。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4853,
+    "total_tokens": 5405,
+    "completion_tokens": 552,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4853
+    }
+  }
+}

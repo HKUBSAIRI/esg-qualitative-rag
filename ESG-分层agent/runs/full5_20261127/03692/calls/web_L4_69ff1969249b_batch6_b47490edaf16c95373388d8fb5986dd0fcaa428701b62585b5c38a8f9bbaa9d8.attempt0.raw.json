@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-434eb253-9d69-9295-9abb-ca8db96650cd",
+  "object": "chat.completion",
+  "created": 1795743679,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"D3\"\n      ],\n      \"quote\": \"0086-0518-83096182 0086-18652103939 舉報電話\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"举报渠道\",\n      \"relevance\": \"提供了适用于投诉的受理联系方式，但未明确说明该渠道专门用于歧视或骚扰投诉，仅作为一般举报机制存在。\"\n    },\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"D3\"\n      ],\n      \"quote\": \"舉報郵箱 nkns@hspharm.com\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"举报渠道\",\n      \"relevance\": \"提供了适用于投诉的受理邮箱，但未明确说明该邮箱专门用于接收歧视或骚扰投诉，仅作为一般举报渠道存在。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11745,
+    "total_tokens": 12013,
+    "completion_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11745
+    }
+  }
+}

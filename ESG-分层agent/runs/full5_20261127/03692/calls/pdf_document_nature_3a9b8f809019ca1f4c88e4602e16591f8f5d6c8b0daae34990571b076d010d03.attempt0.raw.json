@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-daa90eb5-1d83-9498-8d5e-7e2d3b2dfdaa",
+  "object": "chat.completion",
+  "created": 1795743860,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"esg\",\n  \"report_year\": 2023,\n  \"publisher\": \"翰森製藥集團有限公司\",\n  \"basis\": \"文件标题为'2023年度環境、社會及管治報告'，目录包含'關於本報告'、'ESG亮點績效'等章节，正文明确指出'本報告是...第五份環境、社會及管治（以下簡稱「ESG」）報告'，并说明报告期为2023年1月1日至2023年12月31日。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1740,
+    "total_tokens": 1872,
+    "completion_tokens": 132,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1740
+    }
+  }
+}

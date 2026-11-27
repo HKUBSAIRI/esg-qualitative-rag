@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-bee691cf-5774-9115-991f-c5da7cacd393",
+  "object": "chat.completion",
+  "created": 1795731362,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露标准工时制度及每周工作时长不超过法定上限\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"加班申请、审批、自愿性、时长控制或异常处理的具体政策/程序/事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露带薪年休假及福利年假安排\",\n        \"披露产假和育儿假具体天数权利\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"考勤系统、工时记录、排班检查、休假申请或调休管理的具体机制或运行事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际工时监测、休假使用数据、执行覆盖人数或侵害纠正结果\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1642,
+    "total_tokens": 2071,
+    "completion_tokens": 429,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1642
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a95f0022-0e13-9b4c-928d-6c89eb51d3c2",
+  "object": "chat.completion",
+  "created": 1795745520,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"E4\"\n      ],\n      \"quote\": \"聚焦員工及家庭常見法律需求,提供 實用法律知識科普與專業諮詢支持, 包括退休及返聘人員權利義務科普等\",\n      \"kind\": \"action\",\n      \"period\": \"2025 年1 月1 日至2025 年12 月31 日\",\n      \"scope\": \"员工及家庭\",\n      \"relevance\": \"披露了针对退休及返聘人员的权利义务科普支持，符合再就业服务、退休过渡或返聘的具体支持条件。\"\n    },\n    {\n      \"ref_id\": \"p005\",\n      \"group_ids\": [\n        \"E4\"\n      ],\n      \"quote\": \"本集團成員企業正大天晴制定實習生轉正留用計劃,採用「培訓-崗位實踐-評估-錄用」的閉環機制,爲在校生提供研發、生產、質量、市場等崗位的實習機會, 表現優異者可直接獲得正式聘用資格,實現人才無縫銜接。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025 年1 月1 日至2025 年12 月31 日\",\n      \"scope\": \"实习生转正\",\n      \"relevance\": \"披露了内部招聘/转岗机制（实习生转正留用计划），属于员工内部招聘或岗位填补的制度性安排。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1707,
+    "total_tokens": 2070,
+    "completion_tokens": 363,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1707
+    }
+  }
+}

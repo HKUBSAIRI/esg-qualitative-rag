@@ -1,0 +1,28 @@
+{
+  "network_search": false,
+  "network_material_download": false,
+  "llm_api": true,
+  "embedding_api": true,
+  "supplementary_originals": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/GT报外来源/原件",
+  "retrieval": "BM25+dense hybrid RAG",
+  "classification": {
+    "L2": "年报、财务报表及附注",
+    "L3": "官网政策、制度及专题原件",
+    "L4": "监管或司法具体事项原件；没有则记录材料缺口"
+  },
+  "negative_completion": "L1-L3 configured hybrid queries and supplementary queries completed within supplied local corpus",
+  "full_text_llm_reading": false,
+  "max_supplementary_queries_per_group_per_layer": 2,
+  "stop_on_verified_support": true,
+  "deduplicate_parent_chunks": true,
+  "l4_network_exception": {
+    "authorized": true,
+    "source": "https://www.hkexnews.hk/index_c.htm",
+    "allowed_hosts": [
+      "www.hkexnews.hk",
+      "www1.hkexnews.hk"
+    ],
+    "scope": "L4 only; official title search and HKEX-domain content discovery",
+    "broad_web_search": false
+  }
+}

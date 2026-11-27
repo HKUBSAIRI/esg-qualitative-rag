@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-2dfd1d1e-1f5e-96c6-bc8f-079b5612049d",
+  "object": "chat.completion",
+  "created": 1795730747,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"The Group had 21,435 employees as at 31 December 2025 and remunerates its employees based on their performance, experience and the prevailing market rates.\",\n      \"kind\": \"policy\",\n      \"period\": \"as at 31 December 2025\",\n      \"scope\": \"Group employees\",\n      \"relevance\": \"Discloses the basis for wage calculation (performance, experience, market rates), which constitutes a specific mechanism for wage processing.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7873,
+    "total_tokens": 8031,
+    "completion_tokens": 158,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7873
+    }
+  }
+}

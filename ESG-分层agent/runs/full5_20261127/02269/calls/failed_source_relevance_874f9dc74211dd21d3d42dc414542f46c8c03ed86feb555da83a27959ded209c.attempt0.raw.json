@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-fab67921-9ef3-9015-b51f-b0d3252cb4e0",
+  "object": "chat.completion",
+  "created": 1795744620,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"classification\": \"generic_reference\",\n  \"basis\": \"URL指向国家市场监督管理总局（samr.gov.cn）官网，标题为“随机抽查工作指引”，属于通用法规或政策解读类页面。内容未包含药明生物技术有限公司的具体案件线索、处罚决定或调查记录，符合通用参考材料的定义。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 264,
+    "total_tokens": 333,
+    "completion_tokens": 69,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 264
+    }
+  }
+}

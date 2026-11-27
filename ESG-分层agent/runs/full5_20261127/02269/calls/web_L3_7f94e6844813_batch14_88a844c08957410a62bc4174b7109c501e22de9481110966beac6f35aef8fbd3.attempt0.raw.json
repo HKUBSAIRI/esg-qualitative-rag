@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-26402610-da70-9c14-b3d8-77074edfda1f",
+  "object": "chat.completion",
+  "created": 1795743932,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p016\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"93.93% 16\",\n      \"kind\": \"result\",\n      \"period\": \"2024年\",\n      \"scope\": \"员工保留率（注：原文未直接披露离职率数值，但提供了保留率数据，通常用于推导或作为相关指标）\",\n      \"relevance\": \"提供当期员工保留率具体数值，虽非直接离职率，但属于同一维度的关键人力资本结果指标，且紧邻“员工保留率”标题。\"\n    },\n    {\n      \"ref_id\": \"p019\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"員工保留率\",\n      \"kind\": \"metric_label\",\n      \"period\": \"2024年\",\n      \"scope\": \"药明生物技术有限公司\",\n      \"relevance\": \"明确标识了p016中数据的指标名称为“员工保留率”，与离职率互为补集关系，辅助识别口径。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10600,
+    "total_tokens": 10873,
+    "completion_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10600
+    }
+  }
+}

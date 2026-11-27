@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-bc000e20-fb8e-9eb9-9c84-8d5a80b018aa",
+  "object": "chat.completion",
+  "created": 1795730711,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e009\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年度员工流失率（离职率）的具体数值及口径，满足当期离职率披露要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\",\n        \"e006\",\n        \"e008\"\n      ],\n      \"supported_paths\": [\n        \"披露了依法与全体员工签订劳动合同的政策安排，属于劳动合同保障内容。\",\n        \"明确披露了当期劳动合同签订率为100%，直接满足劳动合同签订率的指标要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关制度、制度或事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e007\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"披露了差异化轮岗项目及岗位轮换制度，符合员工安置支持中关于岗位轮换制度的要求。\",\n        \"披露了内部转岗与竞聘的员工人数，属于员工安置支持事实\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"没有实际纠正结果，只有政策、计划或承诺\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4316,
+    "total_tokens": 4836,
+    "completion_tokens": 520,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 4316
+    }
+  }
+}

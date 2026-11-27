@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d6ae9389-63e0-919a-b223-229a8e2af490",
+  "object": "chat.completion",
+  "created": 1795744724,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"esg\",\n  \"report_year\": 2025,\n  \"publisher\": \"中國生物製藥有限公司\",\n  \"basis\": \"文件标题及封面明确标注为“中國生物製藥有限公司2025 年ESG 報告”，目录包含“關於本報告”、“ESG 管治”、“綠色發展”等章节，正文详细阐述了依据HKEX ESG报告守则编制的内容、碳中和目标及社会责任实践。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3978,
+    "total_tokens": 4084,
+    "completion_tokens": 106,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3978
+    }
+  }
+}

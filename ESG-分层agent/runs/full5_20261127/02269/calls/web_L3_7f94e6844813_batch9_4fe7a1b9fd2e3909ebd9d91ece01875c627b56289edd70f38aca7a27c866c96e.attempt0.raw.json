@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c4b5e5d7-ca0d-970d-9992-33cb04b82a93",
+  "object": "chat.completion",
+  "created": 1795743921,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"，并受合同条款的约束。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"提及员工受合同条款约束，关联劳动合同保障主题\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10406,
+    "total_tokens": 10513,
+    "completion_tokens": 107,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10406
+    }
+  }
+}

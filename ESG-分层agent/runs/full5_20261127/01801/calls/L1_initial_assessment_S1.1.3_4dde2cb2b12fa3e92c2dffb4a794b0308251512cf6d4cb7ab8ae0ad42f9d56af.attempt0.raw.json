@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0279dc4b-5574-9d8d-a343-8d0c19ed01d7",
+  "object": "chat.completion",
+  "created": 1795731285,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"每周工作天数与每日工时、轮班安排或特定岗位工时制度等具体工作时间及排班政策\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"加班申请、管理人员审批、自愿加班、加班时长控制或异常处理等具体加班管理政策或程序\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露员工依法享有带薪年假、周休或法定节假日，或披露婚假、产假等具体休假安排\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"考勤系统、工时记录、排班检查、员工申请休假或办理调休的具体管理机制或运行事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际发生的工时监测、休假使用人数或比例、执行措施覆盖人数或已纠正的休息权侵害结果\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1445,
+    "total_tokens": 1887,
+    "completion_tokens": 442,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1445
+    }
+  }
+}

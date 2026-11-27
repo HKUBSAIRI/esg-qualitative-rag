@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-cb26751a-1b6e-922f-879f-8b4f45c0d498",
+  "object": "chat.completion",
+  "created": 1795730725,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e008\"\n      ],\n      \"supported_paths\": [\n        \"披露了具体的法定社会保障项目（养老、医疗、失业、工伤、生育保险）及住房公积金，并明确全体员工享有。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露了面向全体员工的补充医疗保险、年度体检、大病救助等具体补充福利安排。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\",\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"披露了EAP员工援助计划、育儿假、母婴室、心理咨询服务等家庭与生活支持资源及服务。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"明确了法定福利适用对象为“全体员工”，非法定福利部分针对“特定对象”。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e008\"\n      ],\n      \"supported_paths\": [\n        \"披露了报告期内EAP活动累计参与近2000人次的使用事实，以及全体员工享有五险一金的参保/受益事实。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3458,
+    "total_tokens": 3992,
+    "completion_tokens": 534,
+    "prompt_tokens_details": {
+      "cached_tokens": 3072,
+      "text_tokens": 3458
+    }
+  }
+}

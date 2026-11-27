@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-176ee3b6-b1ae-9c60-a6ef-5424835d2e5c",
+  "object": "chat.completion",
+  "created": 1795744389,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期（2025年度）员工离职率具体数值\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2499,
+    "total_tokens": 2591,
+    "completion_tokens": 92,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2499
+    }
+  }
+}

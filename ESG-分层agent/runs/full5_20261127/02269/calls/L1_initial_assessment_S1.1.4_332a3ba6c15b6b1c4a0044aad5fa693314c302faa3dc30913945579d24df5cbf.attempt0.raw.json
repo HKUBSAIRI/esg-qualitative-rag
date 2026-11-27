@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-2e67012c-0bd1-927d-8331-cd2110ce03db",
+  "object": "chat.completion",
+  "created": 1795730310,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e008\"\n      ],\n      \"supported_paths\": [\n        \"法定社会保障及基本福利\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"补充福利\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"家庭与生活支持\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"福利取得规则\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e008\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"除社保缴纳外，其他具体福利（如商业保险、补贴等）在评分年度已发生覆盖、使用或受益的实质事实证据不足。e008仅证实社保缴纳，未涵盖其他补充福利或生活支持的当期执行结果。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2534,
+    "total_tokens": 2999,
+    "completion_tokens": 465,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2534
+    }
+  }
+}

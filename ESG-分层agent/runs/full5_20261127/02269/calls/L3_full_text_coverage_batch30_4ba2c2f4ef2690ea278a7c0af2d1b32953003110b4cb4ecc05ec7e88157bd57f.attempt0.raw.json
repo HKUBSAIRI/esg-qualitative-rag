@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7df0d6d7-8d8b-993d-aec8-d86fbfbae502",
+  "object": "chat.completion",
+  "created": 1795739799,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p047\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"员工有义务配合公司调查,对于阻挠或拒不配合的员工,公司有权 视情节严重程度给予违纪处分,最高至解除劳动合同或退回劳务派 遣机构。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物技术有限公司员工\",\n      \"relevance\": \"披露了因不配合调查导致解除劳动合同（裁员/解雇）的制度安排及后果，符合裁员程序组别中关于解除劳动关系制度或事实的要求。\"\n    },\n    {\n      \"ref_id\": \"p048\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"对于举报内容被坐实的,公司有权视情节及影响严重程度给予书面 警告及以上违纪处分,最高直至解除劳动合同或退回劳务派遣机构, 涉及违法、犯罪的,公司依照章节 4.5 处理;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物技术有限公司员工\",\n      \"relevance\": \"披露了因违规被查实后可能导致解除劳动合同（裁员/解雇）的制度规定，符合裁员程序组别要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11131,
+    "total_tokens": 11439,
+    "completion_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 11131
+    }
+  }
+}

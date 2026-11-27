@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a9848208-8a1b-9ebb-b96a-8740797624f7",
+  "object": "chat.completion",
+  "created": 1795745742,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本阶段仅核查严重事项及纠正。实际搜索日志显示未执行网络搜索，且本地RAG检索结果为空（No supplied L4 regulatory/judicial notice index），导致无法确认是否已穷尽官方渠道查找严重超时工作、违法剥夺休息休假及相关通报或整改证据。由于必要案件原件的覆盖范围尚未确认，无法判定是否存在经核实的严重事项或未有效纠正情形，故状态为待核验。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"official_search_not_executed_or_incomplete\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5755,
+    "total_tokens": 5894,
+    "completion_tokens": 139,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5755
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6c72448c-8104-9e42-b09b-37bd67a71710",
+  "object": "chat.completion",
+  "created": 1795732413,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露评分年度的员工离职率情况，并能注识别评分期间及离职率口径。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别员工劳动合同保障的对应内容（如签订率、具体政策安排等）\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"披露至少一项与裁员有关的通知、协商、补偿或离职争议处理制度、具体安排或事实。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露以下至少一项：①员工内部招聘、内部竞聘、转岗或岗位轮换的制度；②内部招聘人数、内部填补岗位比例、轮岗人数等事实；③再就业服务、职业转换培训、退休过渡或返聘的具体支持。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"没有实际纠正结果，只有政策、计划或承诺（未披露当期已发生的终止补偿支付、就业安置受益等实际结果）\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3141,
+    "total_tokens": 3662,
+    "completion_tokens": 521,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3141
+    }
+  }
+}

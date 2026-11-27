@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b639ecd1-760f-94c1-a5e7-8a37131a936f",
+  "object": "chat.completion",
+  "created": 1795730607,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了具体的法定社会保障项目（养老、医疗、失业、工伤、生育保险）及住房公积金，符合W1关于具体法定保障政策或安排的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"列出了具体的补充福利项目，如员工年度体检、补充商业医疗保险、大病救助爱心基金等，符合W2关于具体补充福利安排的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\",\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"披露了EAP计划及其提供的心理、家庭支持等服务，以及育儿假、母婴室、心理咨询等家庭与生活支持资源和服务，符合W3要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"明确了“五险一一金”为全体员工享有的法定福利，并指出部分非法定福利仅针对特定对象，提供了福利取得规则中的适用范围限制信息，符合W4要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"记录了报告期内已举办EAP活动且累计参与近2000人次的事实，属于当期已发生的受益/使用事实，符合W5要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3183,
+    "total_tokens": 3756,
+    "completion_tokens": 573,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3183
+    }
+  }
+}

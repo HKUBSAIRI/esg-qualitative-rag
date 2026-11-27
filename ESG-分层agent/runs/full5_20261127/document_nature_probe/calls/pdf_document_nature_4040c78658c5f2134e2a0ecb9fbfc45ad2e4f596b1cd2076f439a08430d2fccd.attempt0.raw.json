@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e565951e-0e02-92b8-af16-89e1df75653d",
+  "object": "chat.completion",
+  "created": 1795743633,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"esg\",\n  \"report_year\": 2024,\n  \"publisher\": \"信達生物製藥\",\n  \"basis\": \"文件目錄包含'附錄一：香港聯交所《環境、社會及管治報告守則》內容索引'，'關於本報告'章節明確指出'本報告是信達生物製藥...發佈的第7份環境、社會及管治（以下簡稱「ESG」）報告'，且標題頁顯示'2024 環境、社會及管治報告'。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3941,
+    "total_tokens": 4068,
+    "completion_tokens": 127,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3941
+    }
+  }
+}

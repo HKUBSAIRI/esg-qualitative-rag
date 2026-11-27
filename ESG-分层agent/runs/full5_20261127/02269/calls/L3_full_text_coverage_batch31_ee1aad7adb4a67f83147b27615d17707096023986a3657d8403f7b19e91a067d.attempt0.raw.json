@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-cca2a48d-c32a-942d-b5fa-179bb42a6338",
+  "object": "chat.completion",
+  "created": 1795739803,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p033\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"Persons making appropriate complaints under this policy are assured of protection against unfair dismissal, victimisation or unwarranted disciplinary action, even if the concerns turn out to be unsubstantiated.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"举报人/投诉人\",\n      \"relevance\": \"披露了针对特定情形（举报）下防止不公平解雇的保护政策，属于裁员/解雇相关的制度安排。\"\n    },\n    {\n      \"ref_id\": \"p047\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"Employees who make a false report maliciously, with an ulterior motive, without reasonable grounds that the information in the report is accurate or reliable, or for personal gain, may face disciplinary actions up to dismissal.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"恶意虚假报告的员工\",\n      \"relevance\": \"披露了因违规行为导致解雇（dismissal）的具体条件和程序性规定，涉及解除劳动关系的依据。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10692,
+    "total_tokens": 10983,
+    "completion_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 10692
+    }
+  }
+}

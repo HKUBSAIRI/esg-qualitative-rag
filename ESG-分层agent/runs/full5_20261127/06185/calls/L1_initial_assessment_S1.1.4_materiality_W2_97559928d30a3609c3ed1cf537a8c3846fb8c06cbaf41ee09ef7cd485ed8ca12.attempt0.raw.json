@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f187204a-6fe0-9b0a-8065-cadc1583064f",
+  "object": "chat.completion",
+  "created": 1795745622,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e002\"\n  ],\n  \"reason\": \"判据相关性：候选引文 e002 明确提及“commercial insurance coverage”（商业保险）和“medical insurance”（医疗保险），直接对应指标 S1.1.4 中关于“补充医疗、商业保险”的具体福利安排要求。即使该引文尚未完全核实，其内容在逻辑上满足成立路径中的“披露面向员工的至少一项具体补充福利安排”，因此对判断本组结论具有实质影响，属于必要证据候选。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 397,
+    "total_tokens": 523,
+    "completion_tokens": 126,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 397
+    }
+  }
+}

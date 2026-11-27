@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-55c1c094-142f-9798-851b-3af036f0cfcb",
+  "object": "chat.completion",
+  "created": 1795730845,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"具体工作时间、排班或轮班的政策细节（如每周工作天数、每日工时标准）\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"通过改进审批流程管理加班人数和时长，符合加班申请/审批及时长控制的披露要求\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"明确披露员工享有法定年假、病假及公司额外提供的非法定休假福利\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"更新综合工时管理程序并优化工时计算逻辑，以及改进考勤异常和加班审批流程，构成具体的管理机制\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e004\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际工时监测结果、休假使用数据（人数/比例）、执行覆盖范围或侵害纠正的具体事实证据\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2103,
+    "total_tokens": 2605,
+    "completion_tokens": 502,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2103
+    }
+  }
+}

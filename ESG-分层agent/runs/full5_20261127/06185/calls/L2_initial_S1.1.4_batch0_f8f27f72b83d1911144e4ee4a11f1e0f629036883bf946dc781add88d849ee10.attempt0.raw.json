@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6b575012-7abc-92a2-bf65-23df0e1972b2",
+  "object": "chat.completion",
+  "created": 1795745685,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"W2\"\n      ],\n      \"quote\": \"为员工提供高于市场平均水平的商业保险,并 为员工子女提供医疗保险以及免费疫苗接种。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"员工及员工子女\",\n      \"relevance\": \"明确披露面向员工的补充商业保险及子女医疗保险，符合补充福利定义。\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"W3\"\n      ],\n      \"quote\": \"开通7*24 小时心理热线,上线EAP心理课程, 保障员工心理健康。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年度\",\n      \"scope\": \"员工\",\n      \"relevance\": \"明确披露面向员工的心理咨询服务（EAP），符合家庭与生活支持中的心理支持定义。\"\n    },\n    {\n      \"ref_id\": \"p010\",\n      \"group_ids\": [\n        \"W3\"\n      ],\n      \"quote\": \"为助力孕期及哺乳期女性员工实现工作与家庭平衡,公司专门设立私密、卫生且 便利的母婴室。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年度\",\n      \"scope\": \"孕期及哺乳期女性员工\",\n      \"relevance\": \"明确披露面向特定员工群体的生活支持设施（母婴室），属于家庭与生活支持资源。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7726,
+    "total_tokens": 8096,
+    "completion_tokens": 370,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7726
+    }
+  }
+}

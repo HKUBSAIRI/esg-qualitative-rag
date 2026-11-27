@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-dc633ea0-b2f7-97b8-ba03-c9719a6aeefa",
+  "object": "chat.completion",
+  "created": 1795743565,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p051\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"翰森製藥重視員工的能力建設和職業發展,開發豐富的培訓課程,推廣內訓師與帶教項目,使員工能夠 更好地勝任工作,並通過榜樣引領、多維度績效考評以及平等的晉升機會等方式,提供多樣化的職業發 展選擇,助力企業與員工協同發展。\",\n      \"kind\": \"policy/mechanism/action/result/plan/boundary\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工职业发展与晋升\",\n      \"relevance\": \"披露了“平等的晋升机会”，属于防止就业中不正当差别待遇的具体制度或事实，符合反歧视政策与保障的要求。\"\n    },\n    {\n      \"ref_id\": \"p070\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"新員工規章制度培訓(括合規承諾書簽署、反腐敗及多元化政策培訓等)\",\n      \"kind\": \"action\",\n      \"period\": \"报告期内（隐含于新员工培训语境）\",\n      \"scope\": \"新员工规章制度培训\",\n      \"relevance\": \"提及开展“多元化政策培训”，虽未详述内容，但作为具体实施的动作，支持存在相关保障机制的推断，辅助证明对平等/非歧视的重视。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10347,
+    "total_tokens": 10686,
+    "completion_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10347
+    }
+  }
+}

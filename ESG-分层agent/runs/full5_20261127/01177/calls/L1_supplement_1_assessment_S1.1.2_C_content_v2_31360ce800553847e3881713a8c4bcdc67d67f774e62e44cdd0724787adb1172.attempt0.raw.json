@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-2998cab5-b70f-9e89-b20e-2b440ad615c4",
+  "object": "chat.completion",
+  "created": 1795745536,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"员工查询工资差错的途径/薪酬申诉渠道\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 952,
+    "total_tokens": 1052,
+    "completion_tokens": 100,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 952
+    }
+  }
+}

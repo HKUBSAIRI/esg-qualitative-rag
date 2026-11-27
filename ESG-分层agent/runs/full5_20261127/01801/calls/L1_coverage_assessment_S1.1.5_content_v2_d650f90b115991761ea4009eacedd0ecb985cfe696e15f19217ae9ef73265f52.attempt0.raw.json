@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6eeeb43d-4a67-9a53-a056-ce5372dea2fc",
+  "object": "chat.completion",
+  "created": 1795732442,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确披露反对或禁止员工相关歧视的政策要求\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别明确针对职场骚扰、性骚扰的禁止政策或具体防护措施，现有证据主要涉及多元化与人权保护\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露适用于违规（含潜在歧视/骚扰）投诉的受理、调查程序\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"披露适用于投诉的申诉人保护措施（保密、匿名、不报复）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"披露针对查实违规行为的处分规则及纠正补救机制\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2756,
+    "total_tokens": 3231,
+    "completion_tokens": 475,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 2756
+    }
+  }
+}

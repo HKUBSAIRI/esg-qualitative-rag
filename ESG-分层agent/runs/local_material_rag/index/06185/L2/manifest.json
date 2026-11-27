@@ -1,0 +1,30 @@
+{
+  "company_id": "06185",
+  "source_level": 2,
+  "rows": 7006,
+  "corpus_sha256": "dae759ae03292d29683587c21d8274544e2d1047557a35dbccd1b8bd7567b82e",
+  "vector_ready": true,
+  "model": "text-embedding-3-small",
+  "dimensions": 1024,
+  "dtype": "float32",
+  "normalized": true,
+  "metric": "cosine_dot",
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "tokenizer": "en-cjk-2gram-3gram-v1"
+  },
+  "usage": [
+    {
+      "model": "text-embedding-3-small",
+      "usage": {
+        "completion_tokens": 0,
+        "prompt_tokens": 1012,
+        "total_tokens": 1012,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "batch_size": 6
+    }
+  ]
+}

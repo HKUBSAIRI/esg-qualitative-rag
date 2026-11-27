@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ccfff401-513b-91db-ad75-8d44cf3d2887",
+  "object": "chat.completion",
+  "created": 1795730604,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"每周工作时间上限政策\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"加班审核制度\",\n        \"加班时长跟踪及异常核查\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"法定节假日、带薪年假等休假制度落实\",\n        \"未休年假提醒安排\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"考勤管理系统跟踪工时\",\n        \"异常数据核查机制\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际工时监测结果\",\n        \"当期休假使用人数或比例\",\n        \"当期执行措施覆盖人数\",\n        \"当期已纠正的休息权侵害结果\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2217,
+    "total_tokens": 2654,
+    "completion_tokens": 437,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2217
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-628bb55b-3869-9a8a-ac5e-36e0b3e274f0",
+  "object": "chat.completion",
+  "created": 1795730138,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"T3\"\n      ],\n      \"quote\": \"非法定福利 | • 身心健康類福利 • 帶薪年休假和信達福利年假 (每在信達生物服務滿一年,可多享受一天福利年假)\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"员工\",\n      \"relevance\": \"明确披露了带薪年休假及福利年假的具体安排，符合休息休假保障要求。\"\n    },\n    {\n      \"ref_id\": \"p015\",\n      \"group_ids\": [\n        \"T3\"\n      ],\n      \"quote\": \"我們為所有產婦提供不少於 98 天的產假,並為全體員工提供至少 5 天的育兒假。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"产妇、全体员工\",\n      \"relevance\": \"明确披露了产假和育儿假的具体天数权利，符合休息休假保障要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8535,
+    "total_tokens": 8836,
+    "completion_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8535
+    }
+  }
+}

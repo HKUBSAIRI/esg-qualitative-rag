@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-12fa6f69-6990-99ab-b8e1-305ffc8b70f9",
+  "object": "chat.completion",
+  "created": 1795740332,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本次核查旨在确认是否存在严重欠薪、违法克扣工资等未纠正事项。已打开的官方原文（HKEX公告及劳工处记录）中未发现针对Innovent Biologics, Inc.（信达生物制药）的此类严重违规通报或处罚记录。然而，关键监管源《关于公布深圳市2025年被垫付欠薪用人单位情况的通告》因连接错误无法读取，且部分HKEX文件标记为普通报告而非独立通知，导致无法完全排除潜在风险。鉴于存在未决的官方来源访问问题，不能直接判定为无严重事项，需人工复核该不可读链接内容以确认是否包含相关主体信息。\",\n  \"evidence_refs\": [\n    \"https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0429/2025042900032_c.pdf\",\n    \"https://www.labour.gov.hk/chs/public/iprd/2025/chapter6.html\"\n  ],\n  \"unresolved\": [\n    {\n      \"url\": \"https://hrss.sz.gov.cn/ztfw/gzqx/pgt/content/post_12981971.html\",\n      \"issue\": \"official_source_unreadable (ConnectError)\",\n      \"impact\": \"无法确认该公司是否出现在深圳市2025年被垫付欠薪名单中\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9088,
+    "total_tokens": 9419,
+    "completion_tokens": 331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9088
+    }
+  }
+}

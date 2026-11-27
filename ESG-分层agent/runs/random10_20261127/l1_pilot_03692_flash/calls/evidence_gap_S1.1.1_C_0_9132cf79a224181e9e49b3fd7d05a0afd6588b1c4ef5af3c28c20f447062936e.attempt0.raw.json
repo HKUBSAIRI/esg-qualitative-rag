@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f4ffd1b7-0269-9e14-80f9-0c9e270e9d07",
+  "object": "chat.completion",
+  "created": 1795729128,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"local_id\": \"e1\",\n      \"ref_id\": \"p026\",\n      \"quote\": \"員工流失率* | % | 14.4\",\n      \"kind\": \"result\",\n      \"period\": \"2025年數據\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e2\",\n      \"ref_id\": \"p014\",\n      \"quote\": \"* 指員工主動離職率\",\n      \"kind\": \"boundary\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e3\",\n      \"ref_id\": \"p004\",\n      \"quote\": \"確保勞動合同及 保密協議的簽署完全合規,實現合同條款與政策要求一致,保障所有勞動合同合法有效。\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"翰森製藥\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e4\",\n      \"ref_id\": \"p009\",\n      \"quote\": \"在內部流動方面,我們定期公開研發、生產、商業等 領域的崗位機會,鼓勵員工根據自身能力與意願申請轉崗,並給予轉型指導 與培訓支持\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"翰森製藥\",\n      \"relevance\": \"直接事实\"\n    }\n  ],\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"披露评分年度的员工离职率情况，并能注识别评分期间及离职率口径。\"\n      ],\n      \"evidence_ids\": [\n        \"e1\",\n        \"e2\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"披露至少一项员工劳动合同保障的具体政策、安排或事实，包括依法与员工签订劳动合同...\"\n      ],\n      \"evidence_ids\": [\n        \"e3\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"supported_paths\": [],\n      \"evidence_ids\": [],\n      \"missing\": [\n        \"裁员程序相关制度、具体安排或事实（如通知、协商、补偿、争议处理）\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"①员工内部招聘、内部竞聘、转岗或岗位轮换的制度；\"\n      ],\n      \"evidence_ids\": [\n        \"e4\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"supported_paths\": [],\n      \"evidence_ids\": [],\n      \"missing\": [\n        \"当期实际发生的终止补偿支付、就业安置、离职保障受益或相应有效纠正结果\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6193,
+    "total_tokens": 7018,
+    "completion_tokens": 825,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 6193
+    }
+  }
+}

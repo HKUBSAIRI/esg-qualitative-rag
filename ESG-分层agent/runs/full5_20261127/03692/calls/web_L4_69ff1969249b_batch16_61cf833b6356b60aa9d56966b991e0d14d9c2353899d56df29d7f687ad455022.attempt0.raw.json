@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f60db9f4-63cf-974f-8d11-8b8be648ed48",
+  "object": "chat.completion",
+  "created": 1795743710,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p014\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"《翰森製藥集團有限公司員工多元化政策》 https://www.hspharm.com/upload/file/2022/02/07/adb8226c0de0435f841fdcbdb41173b3.pdf\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工多元化\",\n      \"relevance\": \"披露了员工多元化政策，通常包含反歧视原则，符合D1关于防止就业中不正当差别待遇的制度要求\"\n    },\n    {\n      \"ref_id\": \"p011\",\n      \"group_ids\": [\n        \"D3\",\n        \"D4\"\n      ],\n      \"quote\": \"《翰森製藥集團有限公司舉報及舉報人保護政策》 https://cn.hspharm.com/upload/file/2022/12/24/8d2c1501be3b448c97a0cb998026c048.pdf\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"举报及举报人保护\",\n      \"relevance\": \"披露了举报及举报人保护政策，涉及投诉受理机制（D3）及对申诉人的保护措施（D4），适用于包括歧视骚扰在内的违规事项\"\n    },\n    {\n      \"ref_id\": \"p050\",\n      \"group_ids\": [\n        \"D1\",\n        \"D2\"\n      ],\n      \"quote\": \"發現歧視、騷擾事件數 | 件 | 0\",\n      \"kind\": \"result\",\n      \"period\": \"2023年\",\n      \"scope\": \"全公司\",\n      \"relevance\": \"披露了发现歧视和骚扰事件的数量为0，表明存在相关监测与统计事实，支持D1和D2的保障措施有效性或现状\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12826,
+    "total_tokens": 13310,
+    "completion_tokens": 484,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 12826
+    }
+  }
+}

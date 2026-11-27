@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0952b62e-0a0d-9f90-9cab-fefaf059f3f4",
+  "object": "chat.completion",
+  "created": 1795732406,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确披露反对或禁止员工相关歧视的政策要求（《人权与多元化政策》致力于推动多元包容，创造平等就职环境）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别明确针对职场骚扰、性骚扰的禁止政策或具体防护措施。现有证据仅涉及一般性违规举报和人权/多元化培训，未明确覆盖‘骚扰’这一特定议题。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露适用于歧视或骚扰投诉的受理、调查程序：设立多种正式举报、申诉渠道，由公司审计团队接收并处理所有通过该渠道提交的事项（涵盖违规行为）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"披露适用于歧视或骚扰投诉的申诉人保护措施：对打击报复零容忍，制定《举报人保护政策》，提供匿名举报选项，严格保密举报人信息及材料。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"披露针对查实违规行为的处分规则：遵照《违纪惩罚制度》对涉事人员进行处分并持续督导教育。虽然原文未显式列出“歧视/骚扰”字样，但作为通用违规处理机制，且前文已建立反歧视/多元化语境下的合规体系，可视为适用于此类违规的责任追究机制。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2756,
+    "total_tokens": 3360,
+    "completion_tokens": 604,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2756
+    }
+  }
+}

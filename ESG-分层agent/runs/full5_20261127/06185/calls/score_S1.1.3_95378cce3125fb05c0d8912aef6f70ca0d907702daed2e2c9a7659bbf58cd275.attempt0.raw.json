@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-adbe89c7-ea87-9164-a475-2854a731aadf",
+  "object": "chat.completion",
+  "created": 1795731290,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001披露了'Reasonable Working Hours'政策标题，关联工作时间及排班制度；证据e002和e009披露了更新《综合工时管理规程》及优化工时统计逻辑的具体机制安排。满足披露至少一项具体工作时间、排班或合理工时控制的政策或事例的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e009\"\n      ]\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004和e010明确披露通过改进审批流程来管理考勤异常、加班人数和加班时长，符合加班申请、审批及时长控制的判据。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e010\"\n      ]\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005确保员工享有法定年假和病假；证据e006提供公司年假、带薪病假及特定地区婚产假；证据e007实施产假、育儿假等法定福利。均满足休息休假保障的披露要求。\",\n      \"evidence_refs\": [\n        \"e005\",\n        \"e006\",\n        \"e007\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e008提及实施《Attendance, Overtime and Leave Management System》（考勤、加班和休假管理制度）；证据e002/e009披露更新工时管理程序；证据e004/e010披露改进考勤异常和加班审批流程。这些构成了具体的工时及休假管理机制。\",\n      \"evidence_refs\": [\n        \"e008\",\n        \"e002\",\n        \"e009\",\n        \"e004\",\n        \"e010\"\n      ]\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e009披露当期对工时统计逻辑的优化动作，属于工时监测机制的实际执行或调整结果；证据e010披露通过优化流程实现考勤异常人次、加班人数及时长合理化，属于实际执行或纠正结果。满足评分年度实际发生的工时监测或执行覆盖条件。\",\n      \"evidence_refs\": [\n        \"e009\",\n        \"e010\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10129,
+    "total_tokens": 10813,
+    "completion_tokens": 684,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 10129
+    }
+  }
+}

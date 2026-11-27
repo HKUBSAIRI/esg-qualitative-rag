@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e0749e7d-4805-9507-aa40-9f0fac7ac2a8",
+  "object": "chat.completion",
+  "created": 1795730299,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工流失率具体数值（10%）及分维度数据，并明确了计算口径（总流失人数/年底员工总人数含退休人员）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别员工劳动合同保障的对应内容（如签订、续签、期限、权利义务与合同签订比例等政策或事实）。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关制度、安排或事实（如通知、协商、补偿、离职争议处理及辞退福利）。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工内部调动人数（610人），符合“内部招聘人数、内部填补岗位比例、轮岗人数等事实”中的转岗/轮换事实要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"没有实际纠正结果，只有政策、计划或承诺；未识别当期辞退福利、终止补偿支付、离职安置受益或相关有效纠正结果的具体金额或事实。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2333,
+    "total_tokens": 2841,
+    "completion_tokens": 508,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2333
+    }
+  }
+}

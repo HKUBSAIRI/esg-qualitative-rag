@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-39d472cc-e7d9-9a48-90de-acb898bd387d",
+  "object": "chat.completion",
+  "created": 1795731370,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"明确披露《人权与多元化政策》及平等就职环境承诺 (e001)\",\n        \"开展针对全体/新员工的反歧视/多元化专项培训作为具体保障措施 (e002)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别明确禁止职场骚扰、性骚扰或相应零容忍要求的政策声明\",\n        \"未识别专门针对骚扰预防的培训或具体防护措施\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露适用于违规行为（含歧视/骚扰）的举报申诉渠道及审计团队接收处理机制 (e005)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"明确对打击报复零容忍并制定《举报人保护政策》 (e003)\",\n        \"提供匿名举报选项及严格保密措施 (e004, e005)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"披露依据《违纪惩罚制度》对涉事人员进行处分及督导教育的纠正补救机制 (e006)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2707,
+    "total_tokens": 3246,
+    "completion_tokens": 539,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 2707
+    }
+  }
+}

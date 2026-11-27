@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5d0d50bc-544b-9414-a227-2bfcf6fd6225",
+  "object": "chat.completion",
+  "created": 1795730974,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p029\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"In accordance with the Employee Handbook , the Company has established an employee grievance mechanism. Where employees believe their rights or interests have been adversely affected, they may submit written grievance materials through designated channels. Upon receipt of a grievance, the Company will promptly initiate an investigation process and handle the matter with rigor and impartiality, while keeping management informed of the progress and outcome of the investigation in a timely manner.\",\n      \"kind\": \"mechanism\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"Employees whose rights or interests are adversely affected\",\n      \"relevance\": \"Discloses a general grievance mechanism for handling disputes regarding adverse effects on rights/interests, which serves as the procedural basis for resolving potential dismissal or severance disputes.\"\n    },\n    {\n      \"ref_id\": \"p024\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"The Company strictly complies with laws and regulations including the Labor Law of the People's Republic of China , the Labor Contract Law of the People's Republic of China... Through the systematic review, formulation, and rigorous implementation of a series of compliant, standardized, and efficient internal policies, including the Employee Handbook, the Labor Contract Management Procedures, and the Attendance, Overtime and Leave Management System, the Company continues to strengthen a fullprocess, comprehensive institutional management system.\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"Job applicants, current employees, and departing employees\",\n      \"relevance\": \"States compliance with labor laws (which mandate wage payment) and implementation of specific management procedures (Employee Handbook, Labor Contract Management) that govern employment terms including compensation.\"\n    },\n    {\n      \"ref_id\": \"p020\",\n      \"group_ids\": [\n        \"P4\"\n      ],\n      \"quote\": \"CanSinoBIO has established a comprehensive welfare support system for full-time employees, part-time personnel, and outsourced personnel. The Company strictly ensures that all employees are entitled to statutory benefits, including social insurance and the housing fund, annual leave, and sick leave, so that every employee receives consistent care and protection.\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"Full-time employees, part-time personnel, and outsourced personnel\",\n      \"relevance\": \"Explicitly defines the coverage scope of the welfare/benefits system, identifying the specific categories of workers protected by the company's policies.\"\n    },\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"D5\"\n      ],\n      \"quote\": \"Supported by a well-established internal reporting and investigation mechanism, the Company clearly requires all employees to promptly report any violations involving child labor, forced labor, discrimination, or harassment through designated channels such as the Human Resources Department or their direct supervisors. The Company ensures that all investigations are conducted in accordance with fair and transparent procedures and that the identity of whistleblowers is kept strictly confidential, thereby effectively protecting employee rights and maintaining organizational credibility.\",\n      \"kind\": \"mechanism\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"Violations involving discrimination or harassment\",\n      \"relevance\": \"Describes the reporting and investigation mechanism for discrimination/harassment, implying a process for accountability and correction, though specific disciplinary outcomes are not detailed in this quote.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12009,
+    "total_tokens": 12867,
+    "completion_tokens": 858,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 12009
+    }
+  }
+}

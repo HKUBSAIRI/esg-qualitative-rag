@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a4746ea5-b60e-9143-842c-4689ddf449c8",
+  "object": "chat.completion",
+  "created": 1795730763,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"The Group had 21,435 employees as at 31 December 2025 and remunerates its employees based on their performance, experience and the prevailing market rates. Other employee benefits include mandatory provident fund, insurance and medical coverage, subsidized training programmes as well as employee share incentive schemes. Total staff cost (including Directors' remuneration and equity settled sharebased payments) in selling and distribution costs and administrative expenses during the year was approximately RMB4,666.76 million (2024: approximately RMB4,670.56 million).\",\n      \"kind\": \"result\",\n      \"period\": \"As at 31 December 2025 / during the year\",\n      \"scope\": \"Group\",\n      \"relevance\": \"Discloses total staff cost for the year, which serves as a verifiable current period compensation fact related to employment/termination costs under E3.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10288,
+    "total_tokens": 10539,
+    "completion_tokens": 251,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10288
+    }
+  }
+}

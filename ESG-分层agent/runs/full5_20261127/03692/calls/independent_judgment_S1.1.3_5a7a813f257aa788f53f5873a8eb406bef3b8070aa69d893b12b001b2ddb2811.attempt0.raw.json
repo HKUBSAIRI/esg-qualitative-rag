@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b36dbb6c-9b3d-9dd6-8eec-b136c87519d8",
+  "object": "chat.completion",
+  "created": 1795742223,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"核查严重超时工作、违法剥夺休息休假及纠正事项时，关键官方来源（HKEX公告2025042803780_c.pdf及SAMR行政处罚信息公示规定页面）因技术错误（RemoteProtocolError/HTTPStatusError）无法打开或读取，导致必要原件未成功获取。虽已执行搜索并尝试打开其他来源，但因核心候选证据不可读，无法确认是否存在未披露的严重违规或未纠正事项，故状态定为待核验。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    {\n      \"url\": \"https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042803780_c.pdf\",\n      \"issue\": \"official_source_unreadable (RemoteProtocolError)\"\n    },\n    {\n      \"url\": \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_20c4f404649640c3bdcbbd157d6b6ebe.html\",\n      \"issue\": \"official_source_unreadable (HTTPStatusError)\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7860,
+    "total_tokens": 8162,
+    "completion_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7860
+    }
+  }
+}

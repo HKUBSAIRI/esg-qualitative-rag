@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-db7a4e31-2a34-9946-b30b-48fa14fe9735",
+  "object": "chat.completion",
+  "created": 1795729802,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示 search_complete=false，且明确标注“仅为接口验证，不是完整核查”，无法确认是否已穷尽当期离职率披露证据。根据规则，必要覆盖未确认时记 pending_review。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e004 披露了聘请外部法律顾问对合同签订进行审核、通过数字化合同系统确保劳动合同签署合规及有效的具体安排；证据 e003 披露了严格遵守劳动合同法及内部制度作为政策依据。符合“披露至少一项员工劳动合同保障的具体政策、安排或事实”的条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示 search_complete=false，且明确标注“仅为接口验证，不是完整核查”。虽然当前提供的证据片段中未直接识别出裁员程序的具体内容，但由于核查未完成，不能判定为缺披露（0分），需待人工核验以确认是否存在相关制度或事实披露。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e005 明确披露了内部流动机制，包括定期公开岗位机会、鼓励员工申请转岗、给予转型指导与培训支持等，符合“披露员工内部招聘、内部竞聘、转岗或岗位轮换的制度”这一条件。\",\n      \"evidence_refs\": [\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示 search_complete=false，且明确标注“仅为接口验证，不是完整核查”。E5 要求证明当期实际发生的终止补偿支付或安置结果，当前证据不足且核查状态未定，故记 pending_review。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7822,
+    "total_tokens": 8369,
+    "completion_tokens": 547,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7822
+    }
+  }
+}

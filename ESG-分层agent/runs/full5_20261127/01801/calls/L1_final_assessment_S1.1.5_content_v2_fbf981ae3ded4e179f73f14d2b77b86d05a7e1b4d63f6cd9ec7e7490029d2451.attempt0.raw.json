@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5ab9eb07-53b3-9979-b70b-f3933164d9af",
+  "object": "chat.completion",
+  "created": 1795732618,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"groups\":[{\"group_id\":\"D2\",\"content_sufficient\":false,\"evidence_refs\":[],\"supported_paths\":[],\"missing\":[\"\\u672a\\u627e\\u5230\\u5173\\u4e8e\\u7981\\u6b62\\u804c\\u573a\\u9a9a\\u6270\\u3001\\u53cd\\u6027\\u9a9a\\u6270\\u3001\\u96f6\\u5bb9\\u5fcd\\u8981\\u6c42\\u6216\\u5177\\u4f53\\u4fdd\\u62a4\\u63aa\\u65bd\\u7684\\u660e\\u786e\\u62ab\\u9732\"],\"conflicts\":[],\"actual_event\":null}]}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 715,
+    "total_tokens": 916,
+    "completion_tokens": 201,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 715
+    }
+  }
+}

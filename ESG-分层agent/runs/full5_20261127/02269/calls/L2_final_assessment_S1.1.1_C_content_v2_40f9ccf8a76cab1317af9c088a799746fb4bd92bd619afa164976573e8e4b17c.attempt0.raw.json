@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1b0599dc-ac66-9717-ba7d-f48d4e5471c7",
+  "object": "chat.completion",
+  "created": 1795739704,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工流失率具体数值（10%）及口径定义（总流失人数/年底员工总人数），满足当期离职率披露要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别关于劳动合同签订、续签、期限或签订率的具体政策、安排或事实。现有证据仅涉及薪酬、福利和退休计划，未直接对应劳动合同保障的核心要素。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关的具体通知、协商、补偿制度或离职争议处理安排。e004仅为索引提及，无具体内容；e010为无纠纷结果，非程序性制度披露。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别评分年度已经发生的终止补偿支付、就业安置或离职保障受益等实际纠正结果。e012显示特定人员未收离职补偿，根据规则不能证明实际离职保障执行；e011为总体薪酬成本，未明确区分辞退福利。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4418,
+    "total_tokens": 4895,
+    "completion_tokens": 477,
+    "prompt_tokens_details": {
+      "cached_tokens": 4096,
+      "text_tokens": 4418
+    }
+  }
+}

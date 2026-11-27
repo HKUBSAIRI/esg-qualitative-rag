@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-88ea5832-27a2-9337-aa3b-2a39d51505b3",
+  "object": "chat.completion",
+  "created": 1795745474,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本阶段仅核查严重事项及纠正。根据实际搜索日志，未执行网络搜索且本地官方覆盖范围未确认（coverage_issues: local_only_official_coverage_unconfirmed），导致无法获取与Innovent Biologics, Inc.相关的严重超时工作或违法剥夺休息休假的必要案件原件或官方通报。由于缺乏必要的证据材料以判断是否存在经核实的严重事项及其纠正状态，且不能排除因检索不足导致的遗漏，故判定为待核验。依据规则，缺少相关证据本身不能证明应查范围已完成，也不能直接认定为无严重事项。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"未执行网络搜索，无法核实是否存在针对该公司的严重劳动权益侵害官方通报或司法判决。\",\n    \"本地官方覆盖范围未确认，无法排除存在已公开但未在本地索引中的严重事项证据。\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5764,
+    "total_tokens": 5969,
+    "completion_tokens": 205,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5764
+    }
+  }
+}

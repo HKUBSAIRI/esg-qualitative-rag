@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-9d1426a9-509f-9209-8769-e9b097e3e834",
+  "object": "chat.completion",
+  "created": 1795732279,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [],\n  \"reason\": \"e011为雇员福利总开支，未明确区分离职保障或终止补偿的具体支付金额，无法证明‘实际离职保障结果’中的具体受益或纠正；x001为非匹配引文且同样仅为总成本。两者均不满足S1.1.1 C关于‘已经发生的终止补偿支付、就业安置...至少一项’的特定性要求，不影响本组结论（即证据不足）。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 555,
+    "total_tokens": 662,
+    "completion_tokens": 107,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 555
+    }
+  }
+}

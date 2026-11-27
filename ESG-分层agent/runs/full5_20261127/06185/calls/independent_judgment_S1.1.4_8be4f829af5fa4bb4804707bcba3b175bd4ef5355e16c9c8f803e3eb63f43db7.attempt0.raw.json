@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b4d4e812-3ccf-95c0-8fb2-e7f45ccd59cf",
+  "object": "chat.completion",
+  "created": 1795745745,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"实际搜索日志显示仅执行了本地RAG检索且未找到监管/司法通知索引，网络搜索未执行。根据规则，缺少相关证据本身不能证明应查范围已完成，且关键证据（严重事项通报）的覆盖尚未确认，无法判断是否存在严重员工福利侵害及纠正情况，故状态为待核验。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"官方监管或司法渠道关于康希诺生物股份公司2025年度严重员工福利权益侵害事件的检索未完成（network_search_executed=false, local_only_official_coverage_unconfirmed）\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5754,
+    "total_tokens": 5903,
+    "completion_tokens": 149,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5754
+    }
+  }
+}

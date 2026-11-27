@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-9fc93b64-0901-9f4b-8c2c-3e15a1e76581",
+  "object": "chat.completion",
+  "created": 1795746171,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"制度安排\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2003,
+    "total_tokens": 2095,
+    "completion_tokens": 92,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2003
+    }
+  }
+}

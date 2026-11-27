@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-fb19b417-4641-9da2-a853-7a292bdb2782",
+  "object": "chat.completion",
+  "created": 1795745454,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露员工具体工作时间、排班、轮班或合理工时控制的至少一项政策或事例（如每周工作天数与每日工时、轮班安排、特定岗位工时制度等）\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1017,
+    "total_tokens": 1135,
+    "completion_tokens": 118,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1017
+    }
+  }
+}

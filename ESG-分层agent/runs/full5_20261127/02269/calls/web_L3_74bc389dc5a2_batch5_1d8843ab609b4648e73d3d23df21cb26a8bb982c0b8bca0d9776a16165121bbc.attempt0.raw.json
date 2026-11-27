@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8ec32880-9eb0-94d2-81f4-d355df18bc8f",
+  "object": "chat.completion",
+  "created": 1795744329,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p006\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"每名董事皆與本公司訂立為期三年的服務合約,但任何一方可向另一方發出不少於三個月的 書面通知在期滿前終止服務合約。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"董事\",\n      \"relevance\": \"披露了与员工（董事）签订服务合约的具体期限及终止条件，属于劳动合同保障范畴\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11968,
+    "total_tokens": 12112,
+    "completion_tokens": 144,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11968
+    }
+  }
+}

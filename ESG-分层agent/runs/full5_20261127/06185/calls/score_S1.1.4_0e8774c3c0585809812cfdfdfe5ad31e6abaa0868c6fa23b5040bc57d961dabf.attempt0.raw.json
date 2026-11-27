@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4f2d2c17-bd6f-9bef-9586-3a04285c9a1a",
+  "object": "chat.completion",
+  "created": 1795746313,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露公司确保所有员工享有法定福利，具体列举了社会保险（social insurance）和住房公积金（housing fund），符合W1关于披露适用员工的至少一项具体法定社会保障或基本福利政策、安排或事实的条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002明确披露为员工提供高于市场平均水平的商业保险，并为员工子女提供医疗保险及免费疫苗接种，属于具体的补充福利安排，符合W2条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确披露开通7*24小时心理热线并上线EAP心理课程以保障员工心理健康，属于面向员工的家庭与生活支持资源（心理咨询/EAP），符合W3条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露了针对经济困难员工的月度补贴发放规则（granting monthly subsidies to eligible employees）以及针对重病员工的慰问金安排，明确了福利的取得规则和适用对象，符合W4条件。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005披露2025年度已发放的员工福利总价值为人民币7312万元，证明了当期实际发生的福利覆盖与受益事实，符合W5关于评分年度已经发生至少一项福利覆盖、使用或受益事实的条件。\",\n      \"evidence_refs\": [\n        \"e005\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3842,
+    "total_tokens": 4383,
+    "completion_tokens": 541,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3842
+    }
+  }
+}

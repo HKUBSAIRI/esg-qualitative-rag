@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f9e751be-a053-9169-8beb-f2087e3803d3",
+  "object": "chat.completion",
+  "created": 1795743579,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p050\",\n      \"group_ids\": [\n        \"D1\",\n        \"D2\"\n      ],\n      \"quote\": \"發現歧視、騷擾事件數 | 件 | 0\",\n      \"kind\": \"result\",\n      \"period\": \"2023年\",\n      \"scope\": \"翰森製藥集團有限公司員工\",\n      \"relevance\": \"披露了当期发现歧视和骚扰事件的数量为0，作为反歧视与反骚扰政策执行结果的明确事实关联。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12241,
+    "total_tokens": 12383,
+    "completion_tokens": 142,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 12241
+    }
+  }
+}

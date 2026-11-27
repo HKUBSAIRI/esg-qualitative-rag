@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-279989b9-957a-92f1-9960-1458a93800d8",
+  "object": "chat.completion",
+  "created": 1795730504,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001、e002、e004、e005 明确披露了“保证员工收入不低于当地最低工资水平”及“确保支付的薪酬不低于当地最低工资标准”的具体政策，符合 P1 关于工资支付保障（如最低工资保障）的判分条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e004\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e006 披露报告期内上线工单系统，员工可通过该系统上传疑问、意见、举报或申诉并由后台人员处理，构成了具体的工资/薪酬相关查询及申诉机制，符合 P2 判分条件。\",\n      \"evidence_refs\": [\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e007 披露报告期内成立专项小组开展人权尽职调查，内容明确涉及“维生工资”，属于与工资支付直接相关的内部审查/监测实际开展事实，符合 P3 判分条件。\",\n      \"evidence_refs\": [\n        \"e007\"\n      ]\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e002 在描述劳动权益保障体系时提及“确保员工收入不低于当地最低工资标准”，结合上下文及 scope 字段标注为“全体员工”，明确了工资支付保障政策的适用对象，符合 P4 判分条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示 search_complete=true 但 retrieval_status=pending_review，且 issues 指出 some_quotes_require_original_visual_review。现有证据中，e008 仅披露应付雇员工资余额，未识别出针对工资差错、欠薪等问题的具体补救机制或已完成纠正的事实。根据规则，关键证据无法核实或必要材料覆盖尚未确认时记为 pending_review。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10140,
+    "total_tokens": 10751,
+    "completion_tokens": 611,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 10140
+    }
+  }
+}

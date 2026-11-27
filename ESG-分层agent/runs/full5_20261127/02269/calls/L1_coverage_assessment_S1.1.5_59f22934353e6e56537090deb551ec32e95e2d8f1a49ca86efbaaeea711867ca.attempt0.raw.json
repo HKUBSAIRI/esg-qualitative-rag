@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4087e629-28a1-95ae-b182-1d51d410ac24",
+  "object": "chat.completion",
+  "created": 1795730533,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e005\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止基于民族、种族、性别等特征的歧视行为 (e001)\",\n        \"披露反对任何形式的歧视的政策要求 (e005)\",\n        \"通过政策培训强调对歧视的零容忍立场 (e007)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e006\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止包括骚扰在内的非人道对待 (e001)\",\n        \"披露对骚扰采取零容忍政策 (e006)\",\n        \"通过政策培训强调对骚扰的零容忍立场 (e007)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e008\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"鼓励员工报告歧视和骚扰行为 (e002)\",\n        \"所有报告的违规行为接受全面和及时的调查 (e008)\",\n        \"设有举报平台、邮箱和热线等投诉渠道，确保员工发表意见及诉求 (e010)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e009\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"允许匿名举报，以保密方式展开调查，严格禁止报复 (e003)\",\n        \"提供公开且保密的举报渠道 (e009)\",\n        \"对举报人身份严格保密，禁止威胁或打击报复 (e010)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e008\"\n      ],\n      \"supported_paths\": [\n        \"针对已确认的违规案件实施相应的纪律处分 (e004)\",\n        \"采取必要的预防、缓解和补救措施 (e008)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3183,
+    "total_tokens": 3865,
+    "completion_tokens": 682,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3183
+    }
+  }
+}

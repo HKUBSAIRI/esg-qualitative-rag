@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-93d049d0-04e8-93ca-8f2e-e2be462fbc9b",
+  "object": "chat.completion",
+  "created": 1795745562,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本阶段仅核查严重事项及纠正。根据规则，认定严重欠薪或未纠正需依据官方原文中的具体通报、处罚或整改记录。当前证据列表为空（evidence: []），且搜索日志显示未执行网络搜索（network_search_executed: false）且无本地监管/司法通知索引结果（No supplied L4 regulatory/judicial notice index）。由于缺乏必要的案件原件或官方通报来确认是否存在严重事项及其纠正状态，无法判定为'no_verified_adverse_event_found'（因覆盖未确认）或'verified_uncorrected/corrected'（因无事实依据）。关键证据缺失导致无法完成严重性核查，故标记为待审核。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"缺少关于药明生物技术有限公司在评价期内是否发生严重欠薪、违法克扣工资及相关纠正措施的官方通报、行政处罚决定书或经核实的整改报告等必要案件原件。\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5758,
+    "total_tokens": 5982,
+    "completion_tokens": 224,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5758
+    }
+  }
+}

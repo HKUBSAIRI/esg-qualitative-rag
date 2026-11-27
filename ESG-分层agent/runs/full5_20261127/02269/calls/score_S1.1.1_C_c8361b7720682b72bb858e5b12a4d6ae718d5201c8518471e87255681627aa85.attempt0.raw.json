@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-9b2e1891-42ec-9038-bcb5-22478a1ca469",
+  "object": "chat.completion",
+  "created": 1795745577,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖未确认（search_complete: false），且关键证据C_4b8aff83c6dd68fb614cdc4b_48b05b8a52c71be9被标记为决策相关引文未核实（decision_relevant_quote_unverified）。虽然候选证据e003包含2025年员工流失率具体数值及口径，但因上述核实状态问题，无法直接判定为verified。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖未确认（search_complete: false）。现有证据仅涉及违纪解除劳动合同的政策（e005, e006），评估认为不符合‘劳动合同保障’通常要求的积极合规或权益保护语境，且无其他相关证据支持依法签订、续签等正面保障措施。因覆盖未确认，不能直接判0。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e006披露了因严重违反利益冲突制度导致损失时，公司可采取终止劳动合同的纪律处分措施，属于与解雇/裁员相关的制度安排，满足E3关于披露至少一项与裁员有关的通知、协商、补偿或离职争议处理制度、具体安排或事实的条件。\",\n      \"evidence_refs\": [\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e007披露了内部人才流动机制（活水计划、转岗等横向发展），证据e008披露了针对离岗员工的技能强化培训以助重返职场。这两项分别对应E4条件中的①内部招聘/转岗制度和③再就业服务/职业转换培训的具体支持。\",\n      \"evidence_refs\": [\n        \"e007\",\n        \"e008\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖未确认（search_complete: false）。评估指出未识别当期已发生的终止补偿支付、就业安置受益等具体事实，仅有政策或计划。由于覆盖未确认，不能直接判0，需待人工核验是否确实缺失当期实际结果证据。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9359,
+    "total_tokens": 10006,
+    "completion_tokens": 647,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9359
+    }
+  }
+}

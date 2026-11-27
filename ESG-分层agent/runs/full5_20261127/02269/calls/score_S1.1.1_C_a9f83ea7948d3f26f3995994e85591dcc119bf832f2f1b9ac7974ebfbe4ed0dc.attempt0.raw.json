@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-650db538-672c-9bb9-959d-6fde1d67fc37",
+  "object": "chat.completion",
+  "created": 1795730743,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002明确披露了2025年度员工流失率为10%，并提供了分维度数据；证据e001和e006定义了计算口径（总流失人数/年底员工总人数，或主动流失数/财年末总人数），满足当期离职率披露及口径识别的要求。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e009披露了董事服务合同的期限（三年）及终止通知安排，属于劳动合同保障的具体政策或事实。虽然范围限于董事，但符合“至少一项...具体政策、安排或事实”的判据要求。\",\n      \"evidence_refs\": [\n        \"e009\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"记录中E3组存在关键引文缺失问题（quote_not_in_supplied_text），且提供的证据e011仅说明无高管离职补偿支付，未披露裁员程序、通知、协商或一般性解雇制度。根据规则，需核实是否有其他关于裁员程序的披露，当前材料不足以确认是否满足条件或应判0，故标记为待人工核验。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e012披露了“活水计划”促进内部人才流动和转岗的制度；证据e013披露了“精英计划”中的轮岗安排；证据e014披露了2025年员工内部调动人数（610人）。这些内容共同支持了内部招聘、转岗或岗位轮换的制度与事实，满足判据。\",\n      \"evidence_refs\": [\n        \"e012\",\n        \"e013\",\n        \"e014\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索状态显示无相关证据（no_relevant_evidence_found）。证据e011明确指出2025年度未向董事或五名最高薪个人支付因失去职位的补偿金，这否定了针对该特定群体的实际终止补偿支付事实。虽可能有普通员工离职，但缺乏已发生的终止补偿支付、就业安置受益等实际结果的正面证据。根据规则，没有实际纠正结果或支付事实，只有政策或承诺时判0。此处确认为无当期实际发生的支持性事实。\",\n      \"evidence_refs\": [\n        \"e011\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10585,
+    "total_tokens": 11299,
+    "completion_tokens": 714,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10585
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\"evidence\":[{\"local_id\":\"e1\",\"ref_id\":\"p004\",\"quote\":\"杜絕販賣人口、強迫勞動、使用童工以及任何形式的歧視和騷擾行為\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"本集團所有運營地全體員工和外来人员及供應鏈上下游及合作夥伴\",\"relevance\":\"明确禁止任何形式的歧视和骚扰行为\"},{\"local_id\":\"e2\",\"ref_id\":\"p013\",\"quote\":\"對任何形式的歧視和騷擾零容忍\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"每一位員工\",\"relevance\":\"对歧视和骚扰零容忍的政策承诺\"},{\"local_id\":\"e3\",\"ref_id\":\"p030\",\"quote\":\"我們為全體員工提供《員工多元化政策》培訓,倡導平等、尊重的工作環境,對任何形式的歧視與騷擾行為持 零容忍的態度\",\"kind\":\"action\",\"period\":\"未明确\",\"scope\":\"全體員工\",\"relevance\":\"开展反歧视与骚扰培训并明确零容忍态度\"},{\"local_id\":\"e4\",\"ref_id\":\"p006\",\"quote\":\"我們進一步完善了人權問題投訴舉報機制,通過工單平臺與總裁信箱全面受理職場申訴、勞動合規風險報告及 管理改善建議。所有投訴將由專職機制分類處理,並按事項性質啟動規範調查,重大事件則由專項工作組協同 人權調查組進行核查,並將結果與整改措施上報管理層。如確認存在職場歧視、騷擾等違規行為,將嚴格依據 公司制度給予紀律處分,涉嫌違法案件將依法移送司法處理,並保障申訴人的知情權。\",\"kind\":\"mechanism\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"适用于职场歧视、骚扰投诉的受理、分类处理、规范调查、核查及纪律处分与移送机制\"},{\"local_id\":\"e5\",\"ref_id\":\"p006\",\"quote\":\"公司同時實施《舉報及 舉報人保護政策》,對舉報信息嚴格保密,保護善意舉報人,對任何打擊報復行為堅持「零容忍」。\",\"kind\":\"mechanism\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"适用于举报（含歧视骚扰）的保密、保护申诉人及不报复措施\"},{\"local_id\":\"e6\",\"ref_id\":\"p018\",\"quote\":\"翰森製藥制定並公開了《舉報及舉報人保護政策》,規範了舉報事項處理細則、流程和對舉報人信息的保護,由董事會審核委員 會負責監察該項政策的執行。 我們採取有力措施以確保舉報人和接受調查的人員得到尊重, 舉報和調查信息嚴格保密, 嚴禁任何人、 任何單位以任何形式對舉報人及其親屬、為調查提供幫助的人員進行打擊報復,一經發現將嚴肅處理。\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"举报及举报人保护政策，含保密、严禁打击报复及严肃处理规则\"},{\"local_id\":\"e7\",\"ref_id\":\"p006\",\"quote\":\"如確認存在職場歧視、騷擾等違規行為,將嚴格依據 公司制度給予紀律處分,涉嫌違法案件將依法移送司法處理\",\"kind\":\"mechanism\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"针对查实职场歧视、骚扰的纪律处分及移送司法处理规则\"}],\"groups\":[{\"group_id\":\"D1\",\"content_sufficient\":true,\"supported_paths\":[\"明确披露反对或禁止员工相关歧视的政策要求\"],\"evidence_ids\":[\"e1\",\"e2\",\"e3\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"D2\",\"content_sufficient\":true,\"supported_paths\":[\"明确披露禁止职场骚扰、反性骚扰或相应零容忍要求\",\"开展针对骚扰预防的培训\"],\"evidence_ids\":[\"e1\",\"e2\",\"e3\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"D3\",\"content_sufficient\":true,\"supported_paths\":[\"披露适用于歧视或骚扰投诉的至少一项受理、核查、调查或处理程序\"],\"evidence_ids\":[\"e4\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"D4\",\"content_sufficient\":true,\"supported_paths\":[\"披露适用于歧视或骚扰投诉的至少一项申诉人或受影响人员保护措施\"],\"evidence_ids\":[\"e4\",\"e5\",\"e6\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"D5\",\"content_sufficient\":true,\"supported_paths\":[\"披露至少一项针对查实歧视或骚扰的处分、问责或移交处理规则\"],\"evidence_ids\":[\"e4\",\"e7\"],\"missing\":[],\"conflicts\":[]}]}",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1795728920,
+  "id": "chatcmpl-14bd2018-aa7d-9d48-a018-0166e081501e",
+  "model": "qwen3.8-max",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 993,
+    "prompt_tokens": 5267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5267
+    },
+    "total_tokens": 6260
+  }
+}

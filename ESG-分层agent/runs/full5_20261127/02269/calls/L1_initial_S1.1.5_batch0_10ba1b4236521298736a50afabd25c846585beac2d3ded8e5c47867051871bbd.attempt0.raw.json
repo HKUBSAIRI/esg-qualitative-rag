@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d0848184-140a-956a-9cfd-9ea3d0f0c600",
+  "object": "chat.completion",
+  "created": 1795730291,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"同時,我們嚴禁任何基於民族、 種族、性別、地域、宗教信仰、用工形式等 各種因素的歧視行為以及包括騷擾在內的非 人道對待。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"明确披露禁止基于多种身份特征的歧视行为，符合反歧视政策要求\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"D2\"\n      ],\n      \"quote\": \"同時,我們嚴禁任何基於民族、 種族、性別、地域、宗教信仰、用工形式等 各種因素的歧視行為以及包括騷擾在內的非 人道對待。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"明确披露禁止骚扰行为，符合反骚扰政策要求\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"D3\"\n      ],\n      \"quote\": \"我們鼓勵員工,報告任何形式的 歧視、騷擾、暴力、虐待等不當行為。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"鼓励员工报告歧视和骚扰行为，涉及投诉受理机制\"\n    },\n    {\n      \"ref_id\": \"p008\",\n      \"group_ids\": [\n        \"D4\"\n      ],\n      \"quote\": \"藥明生物允許匿名舉報,並 以保密方式展開調查。我們嚴格禁止對任何 善意舉報違規行為或配合公司調查的人進行 任何形式的報復,並會採取一系列措施切實 保障舉報人權益。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"所有利益相关者（含员工）\",\n      \"relevance\": \"提供匿名举报、保密调查及禁止报复的保护措施，适用于歧视骚扰投诉的申诉人保护\"\n    },\n    {\n      \"ref_id\": \"p009\",\n      \"group_ids\": [\n        \"D5\"\n      ],\n      \"quote\": \"我們針對已確認的違規案件 實施相應的紀律處分,並發佈調查報告。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年度\",\n      \"scope\": \"已确认的违规案件\",\n      \"relevance\": \"针对确认的违规行为实施纪律处分，构成责任追究与纠正补救机制\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11578,
+    "total_tokens": 12238,
+    "completion_tokens": 660,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11578
+    }
+  }
+}

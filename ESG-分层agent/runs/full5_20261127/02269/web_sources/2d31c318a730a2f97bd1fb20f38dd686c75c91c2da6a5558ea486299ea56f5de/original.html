@@ -1,0 +1,194 @@
+<script type="text/javascript">
+	var contentSearchForm, contentSearchQueryType, contentSearchAllWords, contentSearchExact, contentSearchNoneWords, contentSearchAnyWords;
+
+	
+	//var arrResTypeQuery = {}
+	//arrResTypeQuery['all'] = '';
+	//arrResTypeQuery['pdf'] = 'FileExtension=\u0027pdf\u0027';
+	//arrResTypeQuery['doc'] = 'FileExtension=\u0027doc\u0027 Or FileExtension=\u0027docx\u0027 Or FileExtension=\u0027dot\u0027';
+	//arrResTypeQuery['xls'] = 'FileExtension=\u0027xls\u0027 Or FileExtension=\u0027xlsx\u0027 Or FileExtension=\u0027xlt\u0027 Or FileExtension=\u0027csv\u0027';
+	//arrResTypeQuery['web'] = 'FileExtension=\u0027htm\u0027 Or FileExtension=\u0027html\u0027 Or FileExtension=\u0027asp\u0027 Or FileExtension=\u0027aspx\u0027';
+	
+	var arrResTypeQuery = {}
+	arrResTypeQuery['all'] = '';
+	arrResTypeQuery['pdf'] = 'pdf';
+	arrResTypeQuery['doc'] = 'word';
+	arrResTypeQuery['xls'] = 'excel';
+	arrResTypeQuery['web'] = 'webpages';
+
+	function UpdateResultTypeQueryHiddenField(resType) {
+		var hiddenField = contentSearchQueryType;
+		if (resType && hiddenField && arrResTypeQuery && resType.value && resType.value in arrResTypeQuery) {
+			hiddenField.value = arrResTypeQuery[resType.value];
+		}
+	}
+
+	function ResultTypeOnChange(resType) {
+		if (typeof (UpdateResultTypeQueryHiddenField) == 'function') {
+			UpdateResultTypeQueryHiddenField(resType);
+		}
+	}
+
+	function ContentSearchFormSubmit() {
+		if (contentSearchForm) {
+			contentSearchForm.submit();
+		}
+	}
+
+	function SetContentSearchForm(formId, actionUrl, queryTypeName, allWordsName, exactName, noneWordsName, anyWordsName) {
+		contentSearchForm = document.getElementById(formId);
+		contentSearchQueryType = document.getElementById("ASB_ResType_Query");
+		contentSearchAllWords = document.getElementById("searchAllWords");
+		contentSearchExact = document.getElementById("searchExact");
+		contentSearchNoneWords = document.getElementById("searchNoneWords");
+		contentSearchAnyWords = document.getElementById("searchAnyWords");
+		
+		
+		if (contentSearchForm) {
+			contentSearchForm.action = actionUrl;
+		}
+		if (contentSearchQueryType) {
+			contentSearchQueryType.name = queryTypeName;
+		}
+		if (contentSearchAllWords) {
+			contentSearchAllWords.name = allWordsName;
+		}
+		if (contentSearchExact) {
+			contentSearchExact.name = exactName;
+		}
+		if (contentSearchNoneWords) {
+			contentSearchNoneWords.name = noneWordsName;
+		}
+		if (contentSearchAnyWords) {
+			contentSearchAnyWords.name = anyWordsName;
+		}
+	}
+	
+	function RedirectSearch()
+	{
+	   var epsSearchUrl = "/Search/EPS/EPSSearchResults.html";
+	    
+	   var allwords = document.getElementById("searchAllWords").value;
+	   var exactWords = document.getElementById("searchExact").value;
+	   var anyWords = document.getElementById("searchAnyWords").value;
+	   var noneWords = document.getElementById("searchNoneWords").value;
+	   
+	    var fileType = document.getElementById("ASB_ResType_Query").value;
+	   
+	    
+	   var parameterString = "?allWords="+escape(allwords)+"&exactPhrase="+escape(exactWords)
+	                                             + "&anyWords="+escape(anyWords)+"&noneWords="+escape(noneWords)+"&fileType="+fileType;
+												 
+	   window.location.href = epsSearchUrl + parameterString;
+	}
+	
+</script>
+<form name="content_search_aspnetForm" method="get" id="content_search_aspnetForm">
+	<input type="hidden" id="ASB_ResType_Query" value="" />
+	<div class="filter__container-content-search">
+		<div class="filter__inputGroup">
+			<ul>
+				<li class="filter__container-input">
+					<div class="form-input-text">
+						<label for="searchAllWords">All of These Words</label>
+						<input id="searchAllWords" type="text" placeholder="Keyword(s)" />
+					</div>
+				</li>
+				<li class="filter__container-input">
+					<div class="form-input-text">
+						<label for="searchExact">The Exact Phrase</label>
+						<input id="searchExact" type="text" placeholder="Phrase" />
+					</div>
+				</li>
+				<li class="filter__container-input">
+					<div class="form-input-text">
+						<label for="searchAnyWords">Any of These Words</label>
+						<input id="searchAnyWords" type="text" placeholder="Keyword(s)" />
+					</div>
+				</li>
+				<li class="filter__container-input">
+					<div class="form-input-text">
+						<label for="searchNoneWords">None of These Words</label>
+						<input id="searchNoneWords" type="text" placeholder="Keyword(s)" />
+					</div>
+				</li>
+			</ul>
+			<ul class="filter__radioButton__list radio-custom">
+				<li class="filter__radioButton__item">
+					<div class="filter__radioButton__wrapper">
+						<input type="radio" name="filetype" value="all" id="filetype-all" checked onchange="if (typeof (ResultTypeOnChange) == 'function') ResultTypeOnChange(this);" />
+						<label for="filetype-all">All File Types</label>
+					</div>
+				</li>
+				<li class="filter__radioButton__item">
+					<div class="filter__radioButton__wrapper">
+						<input type="radio" name="filetype" value="pdf" id="filetype-pdf" onchange="if (typeof (ResultTypeOnChange) == 'function') ResultTypeOnChange(this);" />
+						<label for="filetype-pdf">PDF<span class="mobile-hidden"> Documents</span></label>
+					</div>
+				</li>
+				<li class="filter__radioButton__item">
+					<div class="filter__radioButton__wrapper">
+						<input type="radio" name="filetype" value="doc" id="filetype-doc" onchange="if (typeof (ResultTypeOnChange) == 'function') ResultTypeOnChange(this);" />
+						<label for="filetype-doc">Word<span class="mobile-hidden"> Documents</span></label>
+					</div>
+				</li>
+				<li class="filter__radioButton__item">
+					<div class="filter__radioButton__wrapper">
+						<input type="radio" name="filetype" value="xls" id="filetype-xls" onchange="if (typeof (ResultTypeOnChange) == 'function') ResultTypeOnChange(this);" />
+						<label for="filetype-xls">Excel<span class="mobile-hidden"> Documents</span></label>
+					</div>
+				</li>
+				<li class="filter__radioButton__item">
+					<div class="filter__radioButton__wrapper">
+						<input type="radio" name="filetype" value="web" id="filetype-webpage" onchange="if (typeof (ResultTypeOnChange) == 'function') ResultTypeOnChange(this);" />
+						<label for="filetype-webpage">Web Pages</label>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="filter__buttonGroup">
+			<a class="btn-clearall filter__btn-clearallFilters-js" href="#">Clear All</a>
+			<a class="btn-white filter__btn-cancelFilters-js" href="#">CANCEL</a>
+			<a class="btn-blue filter__btn-applyFilters-js" href="javascript:void(0)" id="aBtnSearch" onclick="event.preventDefault(); RedirectSearch();">SEARCH</a>
+		</div>
+	</div>
+</form>
+<div id="content-search-fancynote-container" class="fancy-popup-wrap fancy-note">
+    <div>
+        <div class="fancy-note-popup" id="cms-content-search-explanatory-note">
+            <a class="fancy-note-close" href="#"></a>
+            <div class="fancy-note-detail">
+                <div class="fancy-note-title">Explanatory Note</div>
+                <div class="fancy-note-desc">
+                    <p>Listed Company Information Title Search facilitates search for corporate announcements, shareholder circulars and other corporate communication (e.g. annual reports and prospectuses) issued by Main Board and GEM listed issuers in compliance with the disclosure requirements under the Listing Rules since 1 April 1999. Please note that your search result from the Title Search may not cover all disclosures since submission of soft copy was not mandatory for some types of company information prior to 15 February 2002. To simplify search parameter entries, please refer to the <a class="DisclaimerLink" href="http://www3.hkexnews.hk/listedco/listconews/simplesearch/simplesearch_main.aspx">Listed Company Information Simple Search</a> for the latest or last seven days listed company documents.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fancy-note-shade"></div>
+    </div>
+    <div>
+        <div class="fancy-note-popup" id="cms-content-search-disclaimer">
+            <a class="fancy-note-close" href="#"></a>
+            <div class="fancy-note-detail">
+                <div class="fancy-note-title">Disclaimer</div>
+                <div class="fancy-note-desc">
+                    <p>Information contained in the materials available under the web page containing the hyperlink to this disclaimer is posted on this website for the purpose of providing information to the public in Hong Kong.  It is not intended as investment advice and must not be relied on as such.  It is the sole responsibility of any person who is located outside of Hong Kong to check and comply with all applicable laws and regulations before accessing and using the materials and information.</p>
+                    <p>Please note that the web page contains materials and information provided to HKEX electronically (including information provided in electronic format) by listed issuers, new listing applicants and relevant parties and there is no agency, employee or partner relationship between HKEX and such parties.  HKEX does not assume responsibility for screening, editing or monitoring such materials and the information contained in the materials.  The information contained in the materials is not verified by HKEX.</p>
+                    <p>HKEX and/or its subsidiaries take no responsibility for the materials and information available under the web page, make no representation as to their accuracy, reliability, completeness or ownership and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the information. Some materials may contain hyperlinks to external websites or web pages for which HKEX and/or its subsidiaries are not responsible.  (Please see HKEX’s "<a href='http://www2.hkexnews.hk/Global/Exchange/Hyperlink-Policy?sc_lang=en' ref='noopener noreferrer' target='_blank'>Hyperlink Policy</a>").</p>
+                    <p>Nothing herein shall constitute or be considered to be a limitation upon or a waiver of the privileges and immunities of HKEX and its subsidiaries, which are specifically reserved.</p>
+                    <p>Copyright exists in the information and materials available under the web page and may belong to HKEX, to the author or to any other party depending on the circumstances of publications.  Reproduction, distribution, use and/or linking without consent from the relevant parties is not permitted.</p>
+                    <p>If you believe or are aware that any information contained in the materials is inaccurate, erroneous, unlawful, obscene, defamatory or infringes any intellectual property rights of a third party, please contact HKEX e-Submission by email at: <a href="mailto:ESSHotline@hkex.com.hk">ESSHotline@hkex.com.hk</a>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fancy-note-shade"></div>
+    </div>
+</div>
+<script>
+          
+	SetContentSearchForm("content_search_aspnetForm", "/Search/EPS/EPSSearchResults.html", "ASB_ResType_Query", "ctl00$m$g_efacdebb_914f_43b1_9439_0924f2a52845$ASB_TQS_AndQ_tb", "ctl00$m$g_efacdebb_914f_43b1_9439_0924f2a52845$ASB_TQS_PhraseQ_tb", "ctl00$m$g_efacdebb_914f_43b1_9439_0924f2a52845$ASB_TQS_NotQ_tb", "ctl00$m$g_efacdebb_914f_43b1_9439_0924f2a52845$ASB_TQS_OrQ_tb");
+	
+
+	
+</script>
+                        

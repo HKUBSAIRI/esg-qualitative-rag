@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c8f47fb1-c2d9-9072-99cc-96cfcbcc029d",
+  "object": "chat.completion",
+  "created": 1795730834,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"具体工资支付保障政策或事实，如按时足额支付、支付周期或最低工资保障\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"工资核算、复核、工资单、工资差错查询、薪酬申诉\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"工资支付检查、监测、内部审查，以及人力资源审计或人权尽调的工资支付范围\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"全体员工对象覆盖\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"工资差错、欠薪、扣款、加班费问题的补发、退还、复核或已完成纠正\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1584,
+    "total_tokens": 1993,
+    "completion_tokens": 409,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1584
+    }
+  }
+}

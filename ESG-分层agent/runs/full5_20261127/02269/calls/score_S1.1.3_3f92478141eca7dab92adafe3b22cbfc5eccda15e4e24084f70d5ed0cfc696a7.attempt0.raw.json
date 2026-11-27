@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-09fe5146-58b9-9ca3-895c-cff99848049b",
+  "object": "chat.completion",
+  "created": 1795745599,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露了设立最长工作时间限制的工时控制政策，符合‘具体工作时间、排班、轮班或合理工时控制的至少一项政策’的条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002披露了通过系统管理加班情况、避免过度加班以及支付加班薪资或安排调休的具体措施，符合‘与员工加班管理直接对应的至少一项具体政策、程序或事实’的条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确承诺为所有员工提供带薪年假、福利年假及高温假，符合‘员工休息、法定假期、年休假等至少一项明确权利或取得安排’的条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露了利用线上系统追踪假期使用情况并向员工发送提醒的机制，符合‘具体工时或休假管理机制或运行事实’的条件。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示search_complete为false且retrieval_status为pending_review，提示必要材料覆盖未确认（necessary_material_coverage_not_confirmed）。虽然现有证据展示了制度和管理机制，但缺乏评分年度实际发生的工时监测结果、休假使用数据或侵害纠正事实的直接证据，无法判定是否满足当期实际执行要求。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7616,
+    "total_tokens": 8138,
+    "completion_tokens": 522,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 7616
+    }
+  }
+}

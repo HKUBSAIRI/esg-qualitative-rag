@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ff540b43-11c2-970c-8628-2f0b12d82b9c",
+  "object": "chat.completion",
+  "created": 1795730546,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别员工劳动合同保障的对应内容\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关制度、制度或事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"没有实际纠正结果，只有政策、计划或承诺\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1063,
+    "total_tokens": 1286,
+    "completion_tokens": 223,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1063
+    }
+  }
+}

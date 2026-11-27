@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-71541cd6-4d1b-95a1-9d33-2cbac6d847bb",
+  "object": "chat.completion",
+  "created": 1795732579,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"披露员工具体工作时间、排班、轮班或合理工时控制的至少一项政策或事例。如每周工作天数与每日工时、轮班安排、特定岗位工时制度等。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露与员工加班管理直接对应的至少一项具体政策、程序或事实，如员工加班申请、管理人员审批、自愿加班、加班时长控制，或加班异常的处理安排等。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"披露员工休息、法定假期、年休假等至少一项明确权利或取得安排。如员工依法享有带薪年假、周休或法定节假日，或披露婚假、产假等具体休假安排。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露至少一项具体工时或休假管理机制或运行事实，如采用考勤系统、记录工时、检查排班、员工申请休假，或办理调休的管理安排。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际发生的工时监测结果、休假使用数据、执行覆盖人数或侵害纠正结果的具体事实证据。现有证据仅提及机制存在（如“发现异常...启动核查”）或制度制定，未披露当期实际发生的具体结果或量化数据。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2167,
+    "total_tokens": 2802,
+    "completion_tokens": 635,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 2167
+    }
+  }
+}

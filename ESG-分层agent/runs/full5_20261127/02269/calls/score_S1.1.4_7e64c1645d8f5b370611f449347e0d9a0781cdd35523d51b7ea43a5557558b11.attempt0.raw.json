@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-51966adc-1e16-9134-86db-e46b959116df",
+  "object": "chat.completion",
+  "created": 1795730770,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e002 和 e003 明确列出了养老保险、医疗保险、失业保险、工伤保险、生育保险等具体法定社会保障项目；e001 和 e011 披露了为所有员工及时且足额缴纳各项社会保险的事实。满足披露至少一项具体法定社会保障政策或事实的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e003\",\n        \"e011\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e003 和 e005 列出了补充商业保险、年度健康体检、通勤补贴、免费过渡性住房等具体补充福利安排；e009 说明了商业保险的购买机制。满足披露面向员工的至少一项具体补充福利安排或事实的条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e005\",\n        \"e009\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e003 和 e008 列出了产假、陪产假、育儿假、父母陪护假等家庭福利；e006 披露了为员工开通心理援助(EAP)热线并提供咨询；e007 披露了部分基地提供职工子女入学支持。满足披露面向员工的至少一项家庭或生活支持资源、服务或安排的条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e006\",\n        \"e007\",\n        \"e008\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001 明确适用对象为“所有员工”；e009 明确了商业保险由员工自主购买的取得规则及含家属计划的适用对象；e010 明确了兼职及外包人员享受与正式员工相同日常福利的适用规则。满足披露至少一项福利的具体取得规则或明确适用对象的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e009\",\n        \"e010\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001 和 e011 明确披露当期（2025年度）已发生“为员工及时且足额缴纳各项社会保险”的事实，属于已发生的福利覆盖/缴纳事实。满足披露评分年度已经发生的至少一项福利覆盖、使用或受益事实的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e011\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10284,
+    "total_tokens": 11020,
+    "completion_tokens": 736,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 10284
+    }
+  }
+}

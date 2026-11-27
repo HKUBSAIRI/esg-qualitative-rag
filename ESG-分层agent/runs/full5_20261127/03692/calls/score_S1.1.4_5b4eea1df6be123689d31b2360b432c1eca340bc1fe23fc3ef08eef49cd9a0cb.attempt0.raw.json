@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-339139b3-3a59-97c5-9c45-ab2f7ca0a0ff",
+  "object": "chat.completion",
+  "created": 1795746196,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001和e002明确披露了“五險一金”（法定社会保障）及住房公积金等具体法定福利政策，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003、e004、e005和e006披露了补充医疗保险、商业保险、高温津贴、免费工作餐/餐贴、职工医疗救助等具体补充福利安排，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\",\n        \"e005\",\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004、e007、e008、e009和e010披露了职场心理咨询、育儿假、哺乳室、家属开放日、员工食堂/宿舍/健身房、针对孕期女员工的灵活工作时间及营养餐等家庭与生活支持资源和服务，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e007\",\n        \"e008\",\n        \"e009\",\n        \"e010\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003指出特定福利针对“特定员工”，e006明确《职工医疗救助政策》适用于“全体员工”并规定了申领流程，e011脚注说明部分福利仅针对特定对象，均提供了具体的取得规则或适用对象，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e006\",\n        \"e011\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e012披露了报告期内已发生的实际受益事实：对106位退休员工和10位困难员工进行春节慰问，并向一线员工发放防暑降温物资，符合当期实际发生的要求。\",\n      \"evidence_refs\": [\n        \"e012\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5902,
+    "total_tokens": 6563,
+    "completion_tokens": 661,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 5902
+    }
+  }
+}

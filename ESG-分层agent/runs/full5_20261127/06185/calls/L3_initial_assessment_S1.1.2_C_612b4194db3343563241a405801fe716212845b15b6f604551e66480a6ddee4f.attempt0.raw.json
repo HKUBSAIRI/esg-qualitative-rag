@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c5eef9a2-0310-982f-81b0-5ee858820ad3",
+  "object": "chat.completion",
+  "created": 1795731190,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别具体的工资核算规则、核算复核流程、向员工发放工资单的事实，或明确针对工资差错的查询途径。e001仅提及薪酬管理制度和调研，e003为一般性咨询渠道且未明确包含工资差错查询，不符合‘至少一项具体机制或处理事实’的要求。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露与工资支付直接相关的定期检查、监测或内部审查的具体制度、程序或实际开展事实。e001提及的‘加强薪酬合规管理’及‘市场调研’属于政策或评估活动，非针对工资支付情况的审计或监测；无证据显示人力资源审计或人权尽调中核查了工资支付范围。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还、专项复核）或已完成纠正的事实。e002披露的是通用的员工权益申诉机制，虽可涵盖工资问题，但未明确说明其适用于工资差错的具体补救安排，且无实际纠正案例支持。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1591,
+    "total_tokens": 2030,
+    "completion_tokens": 439,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1591
+    }
+  }
+}

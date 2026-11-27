@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8ebe820c-8b3f-9314-9134-831361d64ff4",
+  "object": "chat.completion",
+  "created": 1795730585,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p035\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"The Group recognizes that employees, suppliers and customers are key to the Group's success. The Group actively maintains a good relationship with employees, suppliers and customers. There was no material and significant dispute between the Group and its employees, suppliers and/or customers during the Reporting Period.\",\n      \"kind\": \"result\",\n      \"period\": \"Reporting Period\",\n      \"scope\": \"Group\",\n      \"relevance\": \"披露了报告期内与员工无重大纠纷，间接反映劳动合同履行及关系稳定情况，符合劳动合同保障中关于权利义务履行的事实关联。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13257,
+    "total_tokens": 13425,
+    "completion_tokens": 168,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 13257
+    }
+  }
+}

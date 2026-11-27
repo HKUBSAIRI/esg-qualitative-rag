@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-79459994-052e-9d52-85a8-4f25a340becf",
+  "object": "chat.completion",
+  "created": 1795746253,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工流失率具体数值（10%）及期间，并提供了计算口径定义。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别员工劳动合同保障的对应内容（如依法签订、续签、期限、签订率等正面保障措施）。现有证据仅涉及违纪解除劳动合同的政策，不符合‘保障’的具体政策或安排要求。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2633,
+    "total_tokens": 2865,
+    "completion_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2633
+    }
+  }
+}

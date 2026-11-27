@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-785dac43-ebe2-9acb-b28e-ec5254f6283f",
+  "object": "chat.completion",
+  "created": 1795730819,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"披露了针对薪酬（工资）的持续监测和评估机制，符合S1.1.2 C中关于工资支付内部审查或监测的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别对应机制或纠正事实：现有证据仅显示一般性员工申诉处理制度，未明确提及针对工资差错、欠薪、扣款或加班费的具体补救机制或已完成纠正事实。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1431,
+    "total_tokens": 1659,
+    "completion_tokens": 228,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1431
+    }
+  }
+}

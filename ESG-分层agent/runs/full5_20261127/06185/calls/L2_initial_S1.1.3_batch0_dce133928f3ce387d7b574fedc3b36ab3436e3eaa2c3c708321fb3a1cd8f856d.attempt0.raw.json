@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0b7fc3b0-74e8-9bf8-a762-2e6a8802cccc",
+  "object": "chat.completion",
+  "created": 1795745680,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p005\",\n      \"group_ids\": [\n        \"T1\"\n      ],\n      \"quote\": \"更新《综合工时管理规程》,以业务需求为基础优化工时统计逻辑。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了具体的工时管理制度名称及优化动作，符合工作时间及排班制度中关于工时控制的政策要求。\"\n    },\n    {\n      \"ref_id\": \"p014\",\n      \"group_ids\": [\n        \"T1\"\n      ],\n      \"quote\": \"通过系统梳理制 定并严格落实《员工手册》《劳动合同管理规程》《考勤、加班与 休假管理制度》等一系列合规化、标准化、高效化的内部规章制度,\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了包含考勤、加班与休假在内的具体管理制度，属于工作时间及排班制度的政策依据。\"\n    },\n    {\n      \"ref_id\": \"p010\",\n      \"group_ids\": [\n        \"T5\"\n      ],\n      \"quote\": \"通过优化审批流程,实现考勤异常人次、加班人数及时长合理化。\",\n      \"kind\": \"result\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了当期实际发生的工时监测结果（考勤异常、加班时长合理化），符合实际执行或纠正结果的定义。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10145,
+    "total_tokens": 10530,
+    "completion_tokens": 385,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10145
+    }
+  }
+}

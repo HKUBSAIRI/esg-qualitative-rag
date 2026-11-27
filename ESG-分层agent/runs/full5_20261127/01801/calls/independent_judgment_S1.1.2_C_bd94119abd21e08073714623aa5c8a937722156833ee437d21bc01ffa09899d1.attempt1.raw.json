@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-12f2d763-e63a-946c-bba1-e48105451c63",
+  "object": "chat.completion",
+  "created": 1795740339,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"核查严重欠薪及纠正事项。已打开HKEX公告（e001, e002）确认无直接违规通报，但存在两个关键官方来源无法读取：深圳市人社局关于公布2025年被垫付欠薪用人单位情况的通告（URL: https://hrss.sz.gov.cn/ztfw/gzqx/pgt/content/post_12981971.html）及市场监管总局信用修复管理办法相关页面（URL: https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_02b9d3e6f31a4cc38079901ab49994d5.html?tt_force_outside=1）。由于无法排除信达生物是否出现在深圳欠薪垫付名单中或涉及其他监管记录，且必要原件未成功打开以完成最终排除，故状态为待核验。现有证据仅显示正面合规信息（同工同酬原则、劳动保障信用单位），不足以单独证明‘无严重事项’的绝对结论，需人工复核上述不可读链接内容。\",\n  \"evidence_refs\": [\n    \"e001\",\n    \"e002\"\n  ],\n  \"unresolved\": [\n    {\n      \"kind\": \"official_source_unreadable\",\n      \"url\": \"https://hrss.sz.gov.cn/ztfw/gzqx/pgt/content/post_12981971.html\",\n      \"issue\": \"无法读取深圳市2025年被垫付欠薪用人单位情况通告，不能排除主体关联。\"\n    },\n    {\n      \"kind\": \"official_source_unreadable\",\n      \"url\": \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_02b9d3e6f31a4cc38079901ab49994d5.html?tt_force_outside=1\",\n      \"issue\": \"无法读取市场监督管理信用修复管理办法相关具体案例或名单，不能排除主体关联。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9132,
+    "total_tokens": 9623,
+    "completion_tokens": 491,
+    "prompt_tokens_details": {
+      "cached_tokens": 8960,
+      "text_tokens": 9132
+    }
+  }
+}

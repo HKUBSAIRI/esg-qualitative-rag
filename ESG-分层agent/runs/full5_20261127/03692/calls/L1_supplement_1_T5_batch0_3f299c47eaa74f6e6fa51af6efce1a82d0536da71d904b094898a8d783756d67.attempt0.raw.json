@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6233aacb-9c59-9803-8029-3c42093a05a0",
+  "object": "chat.completion",
+  "created": 1795745380,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p005\",\n      \"group_ids\": [\n        \"T5\"\n      ],\n      \"quote\": \"報告期内,我們開展了覆蓋本集團主要運營地的人權盡職調查,調查對象覆蓋所有主要運營地的各 級別全職、兼職員工,調查內容包括勞動合同的履行、社保繳納、員工基本權益的保障、維生工資水平、職業 健康與安全生產、避免使用童工的流程、同工同酬、公平晉升、安保人員的行爲規範、女職工孕產期權益等, 未發現重大侵權事件。\",\n      \"kind\": \"result\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"本集團主要運營地\",\n      \"relevance\": \"披露了当期实际开展的人权尽职调查（执行覆盖）及未发现重大侵权事件的纠正/监测结果，符合工时休假侵害纠正或执行覆盖的实际发生事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3322,
+    "total_tokens": 3567,
+    "completion_tokens": 245,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3322
+    }
+  }
+}

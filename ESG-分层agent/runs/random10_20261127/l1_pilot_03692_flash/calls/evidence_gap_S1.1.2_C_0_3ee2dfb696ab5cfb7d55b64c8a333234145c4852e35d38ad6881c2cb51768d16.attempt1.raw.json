@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1ac5b12a-ef50-9747-b844-d9eec8d33aba",
+  "object": "chat.completion",
+  "created": 1795729148,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"local_id\": \"e1\",\n      \"ref_id\": \"p001\",\n      \"quote\": \"保證員工的收入不低於 同崗位市場平均水平和當地最低工資水平\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e2\",\n      \"ref_id\": \"p007\",\n      \"quote\": \"確保員工收入不低於當地最低工資標準\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e3\",\n      \"ref_id\": \"p028\",\n      \"quote\": \"調查內容包括勞動合同的履行、社保繳納、員工基本權益的保障、維生工資水平、職業 健康與安全生產、避免使用童工的流程、同工同酬、公平晉升、安保人員的行爲規範、女職工孕產期權益等, 未發現重大侵權事件。\",\n      \"kind\": \"action\",\n      \"period\": \"報告期内\",\n      \"scope\": \"本集團主要運營地\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e4\",\n      \"ref_id\": \"p029\",\n      \"quote\": \"我們制定了員工權益審查、審計清單,涵蓋了合法合規雇傭、勞動時長、同工同酬、反歧視與騷擾、結社自由、 工會組織與勞動集體協議簽署、職業健康保護等多個易發風險點\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e5\",\n      \"ref_id\": \"p021\",\n      \"quote\": \"通過工單平臺與總裁信箱全面受理職場申訴、勞動合規風險報告及 管理改善建議。所有投訴將由專職機制分類處理,並按事項性質啟動規範調查\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e6\",\n      \"ref_id\": \"p022\",\n      \"quote\": \"人力資源在綫管理平臺上綫了工單系統,員工可以更加便捷地將自己的疑問、意見、舉報或申訴通 過該系統直接上傳,人力資源共享服務中心的後臺人員將給予高效處理。\",\n      \"kind\": \"action\",\n      \"period\": \"報告期内\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    }\n  ],\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"最低工资保障\"\n      ],\n      \"evidence_ids\": [\n        \"e1\",\n        \"e2\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"supported_paths\": [],\n      \"evidence_ids\": [],\n      \"missing\": [\n        \"工资核算规则\",\n        \"核算复核\",\n        \"向员工发放工资单\",\n        \"员工查询工资差错的途径\",\n        \"与工资支付有关的薪酬申诉渠道及处理安排\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"人权尽调中核查工资支付\"\n      ],\n      \"evidence_ids\": [\n        \"e3\",\n        \"e4\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": false,\n      \"supported_paths\": [],\n      \"evidence_ids\": [],\n      \"missing\": [\n        \"工资支付保障政策或实际执行适用的员工对象\",\n        \"与该保障直接对应的覆盖人数、比例\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"supported_paths\": [],\n      \"evidence_ids\": [],\n      \"missing\": [\n        \"工资差错、欠薪、扣款或加班费支付问题的具体补救机制\",\n        \"已完成纠正事实\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5180,
+    "total_tokens": 6299,
+    "completion_tokens": 1119,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 5180
+    }
+  }
+}

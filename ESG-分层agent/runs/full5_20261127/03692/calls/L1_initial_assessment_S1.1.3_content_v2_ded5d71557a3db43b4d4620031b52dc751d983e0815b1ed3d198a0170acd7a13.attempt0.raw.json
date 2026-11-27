@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-9c370382-bc5f-93b8-866a-45b412881ee7",
+  "object": "chat.completion",
+  "created": 1795732394,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"e001: 允许按岗位性质灵活调整工作时间\",\n        \"e004: 披露了灵活工作时间\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"e001: 不鼓励加班，对额外工作依法给予补偿（调休、加班费）\",\n        \"e002: 严格执行加班审核与调休制度\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"e001: 尊重员工的休息权\",\n        \"e003: 法定带薪假期作为福利项目\",\n        \"e004: 育儿假、工作日哺乳时间等具体休假安排\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"e002: 通过数字化平台实时监测考勤数据，发现异常启动核查流程\",\n        \"e005: 参与假勤管理制度的制定\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际发生的工时监测结果、休假使用人数/比例、执行覆盖人数或已纠正的侵害事实。现有证据仅描述机制存在（如‘实时监测’、‘严格执行’），未提供当期具体的运行结果数据或案例。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2170,
+    "total_tokens": 2799,
+    "completion_tokens": 629,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2170
+    }
+  }
+}

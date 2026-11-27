@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e38df2ce-4dde-9573-98f6-9f860d9bd97f",
+  "object": "chat.completion",
+  "created": 1795733726,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工流失率具体数值（10%）及口径定义（总流失人数/年底员工总人数）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别员工劳动合同签订、续签、期限或签订比例的具体政策、安排或事实\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关的具体通知、协商、补偿制度或当期辞退福利支付事实\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"披露了内部转岗机制（活水计划）及2025年员工内部调动具体人数（610人）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"没有实际纠正结果，只有政策、计划或承诺；未披露当期已发生的终止补偿支付、就业安置受益等实际结果\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3947,
+    "total_tokens": 4454,
+    "completion_tokens": 507,
+    "prompt_tokens_details": {
+      "cached_tokens": 3328,
+      "text_tokens": 3947
+    }
+  }
+}

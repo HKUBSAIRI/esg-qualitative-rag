@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a17f8a8e-9c7c-90fc-a255-610f89a4edb8",
+  "object": "chat.completion",
+  "created": 1795730447,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p018\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"僱員福利開支\\n工資及薪金 | 1,026,868 | 970,726\\n社會福利及其他福利 * | 469,594 | 442,141\\n以股份為基礎的付款 | 78,585 | 67,587\\n總計 | 1,575,047 | 1,480,454\",\n      \"kind\": \"result\",\n      \"period\": \"截至二零二五年六月三十日止六個月\",\n      \"scope\": \"本集團\",\n      \"relevance\": \"披露了当期员工福利开支总额，但未明确区分或单独列示终止补偿支付、就业安置等具体离职保障结果，仅作为费用确认依据。\"\n    },\n    {\n      \"ref_id\": \"p038\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"應付僱員工資、福利及花紅 | 245,830 | 438,431\",\n      \"kind\": \"result\",\n      \"period\": \"2025年6月30日\",\n      \"scope\": \"本集團\",\n      \"relevance\": \"披露了期末应付雇员工资余额，反映工资支付义务状态，但未提及具体的工资差错补救机制、欠薪纠正事实或已完成补发/退还的具体行动。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 15828,
+    "total_tokens": 16206,
+    "completion_tokens": 378,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 15828
+    }
+  }
+}

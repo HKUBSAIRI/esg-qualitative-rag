@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5d583816-932c-94d2-a526-d3fc1fa92424",
+  "object": "chat.completion",
+  "created": 1795745441,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001披露了2025年员工流失率为14.4%，证据e002明确该指标口径为“员工主动离职率”。符合E1组关于披露评分年度员工离职率情况并识别期间及口径的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了公司聘请外部法律顾问对合同签订进行全程审核，并通过数字化合同系统确保劳动合同签署完全合规、合法有效。这构成了具体的劳动合同保障政策与安排，符合E2组条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"证据e004仅提及对违规员工的解雇处理措施，未明确披露针对裁员（Redundancy）或一般性雇佣终止的通知、协商、补偿制度或具体安排。根据规则，无裁员时仍需查现行制度，现有证据不足以证明存在符合E3要求的裁员程序或离职争议处理制度，且检索记录显示search_complete为true但内容不足，需人工核验是否遗漏其他相关制度披露。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005披露了内部转岗、竞聘制度及转型指导培训支持；证据e006披露了通过内部招聘补充职位数占比为19%的事实。两者均满足E4组关于内部招聘/转岗制度或事实的判分条件。\",\n      \"evidence_refs\": [\n        \"e005\",\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"E5要求披露当期实际发生的终止补偿支付、就业安置等正向结果。证据e007指出五名最高薪酬雇员无离职补偿，属于特定群体的零支付事实，不能代表集团整体有实际执行或受益。证据e008仅披露员工福利开支总额，未区分终止补偿，且费用确认不自动等于支付。现有证据无法证实集团层面在2025年发生了有效的离职保障结果或纠正措施，且检索记录标记为pending_review，必要覆盖未确认。\",\n      \"evidence_refs\": [\n        \"e007\",\n        \"e008\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9028,
+    "total_tokens": 9717,
+    "completion_tokens": 689,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9028
+    }
+  }
+}

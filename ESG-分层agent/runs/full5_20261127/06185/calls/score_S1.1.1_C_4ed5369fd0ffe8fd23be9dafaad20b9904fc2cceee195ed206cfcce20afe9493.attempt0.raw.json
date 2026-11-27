@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1312ea2a-5f8c-9dd5-804d-f1e6943191ed",
+  "object": "chat.completion",
+  "created": 1795746298,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001披露了2025年员工总离职率为6.97%，并提供了分维度数据；证据e002明确了统计口径仅包含自愿离职人员。期间（2025年）和口径清晰，满足当期离职率披露条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了2025年劳动合同签订率为100%，属于劳动合同保障的具体事实，满足至少一项具体政策、安排或事实的条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露了解除劳动关系及裁员补偿的会计处理政策；证据e005披露了2025年度因解除劳动关系所提供的辞退福利合计人民币1,913,517.72元，作为可核验的当期补偿事实，满足裁员程序相关制度或事实的条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e006披露了公司制定并实施了《内部申请管理程序》（Internal Application Management Procedures），鼓励跨部门/子公司申请，符合员工安置支持中关于内部招聘制度的要求。\",\n      \"evidence_refs\": [\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005明确披露了2025年度实际发生的辞退福利金额（提供辞退福利合计人民币1,913,517.72元），这属于评分年度已经发生的终止补偿支付/受益事实，满足实际离职保障结果的当期实际发生要求。\",\n      \"evidence_refs\": [\n        \"e005\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4554,
+    "total_tokens": 5148,
+    "completion_tokens": 594,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4554
+    }
+  }
+}

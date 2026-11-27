@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-75c8e7da-7f08-9662-a8df-981da6eded45",
+  "object": "chat.completion",
+  "created": 1795730955,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"e003披露了'合理工时'政策标题，关联工作时间及排班制度；e004披露了更新综合工时管理程序及优化工时计算逻辑，属于具体工时控制的政策或机制安排。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"e005明确披露通过改进审批流程来管理加班人数和加班时长，符合加班申请、审批及时长控制的判据。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e006\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"e002确保员工享有法定年假和病假；e006提供公司年假、带薪病假及特定地区婚产假；e007实施产假、育儿假等法定福利。均满足休息休假保障的披露要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e004\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"e001提及实施《考勤、加班和休假管理制度》；e004披露更新工时管理程序；e005披露改进考勤异常和加班审批流程。这些构成了具体的工时及休假管理机制。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际工时监测结果（如检查了多少人/次）\",\n        \"当期实际休假使用数据（如人数或比例）\",\n        \"当期执行措施覆盖的具体人数\",\n        \"当期已纠正的休息权侵害案例或结果\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2794,
+    "total_tokens": 3425,
+    "completion_tokens": 631,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2794
+    }
+  }
+}

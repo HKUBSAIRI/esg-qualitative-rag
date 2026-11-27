@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-55996b5b-8769-95aa-ad3e-e6da8ecf3ae9",
+  "object": "chat.completion",
+  "created": 1795731278,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004和e005明确披露了2025年（评分年度）的员工总离职率为6.97%，并提供了分维度数据。证据e001和e003明确了统计口径仅包含自愿离职人员，满足识别评分期间及离职率口径的要求。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\",\n        \"e001\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e008披露了2025年劳动合同签订率为100%的具体事实；证据e009和e011提及实施《劳动合同管理程序》等具体政策安排。符合披露至少一项员工劳动合同保障的具体政策、安排或事实的条件。\",\n      \"evidence_refs\": [\n        \"e008\",\n        \"e009\",\n        \"e011\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e012披露了对100%离职员工进行退出面谈的机制，属于与裁员/解雇相关的离职争议处理或反馈制度安排；证据e013披露了适用于权利受损员工的申诉机制，可作为处理相关争议的制度依据。符合判100条件中关于通知、协商、补偿或离职争议处理制度的要求。\",\n      \"evidence_refs\": [\n        \"e012\",\n        \"e013\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e014披露了公司制定并实施《内部申请管理程序》，鼓励跨部门或子公司申请，符合员工安置支持中关于内部招聘、转岗的制度要求；证据e008披露了内部招聘人数为5人的事实。符合判100条件。\",\n      \"evidence_refs\": [\n        \"e014\",\n        \"e008\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e015显示2025年度辞退福利科目“本期减少”金额为3,520,620.57元，在应付职工薪酬变动表中通常代表实际支付或清偿，证明了当期已经发生的终止补偿支付事实。证据e016进一步确认了报告期内因解除劳动关系提供的辞退福利金额。符合E5需证明当期实际发生事实的要求。\",\n      \"evidence_refs\": [\n        \"e015\",\n        \"e016\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12094,
+    "total_tokens": 12812,
+    "completion_tokens": 718,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 12094
+    }
+  }
+}

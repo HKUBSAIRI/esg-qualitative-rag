@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e0ce906a-470f-94b2-8560-673740a24d30",
+  "object": "chat.completion",
+  "created": 1795731234,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p016\",\n      \"group_ids\": [\n        \"P3\"\n      ],\n      \"quote\": \"(七)根据薪酬与考核委员会的要求,提供公司各项薪酬制度以及制度的执 行情况。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"公司各项薪酬制度及执行情况\",\n      \"relevance\": \"披露了通过薪酬与考核委员会要求人力资源部提供薪酬制度执行情况的内部审查/监测机制，符合工资支付监测或内部审查的制度性安排。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3525,
+    "total_tokens": 3670,
+    "completion_tokens": 145,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3525
+    }
+  }
+}

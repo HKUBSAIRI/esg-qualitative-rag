@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e4e04ce5-1724-95f5-b0a7-d7bb58ae5f34",
+  "object": "chat.completion",
+  "created": 1795745368,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"P3\"\n      ],\n      \"quote\": \"報告期内,我們開展了覆蓋本集團主要運營地的人權盡職調查,調查對象覆蓋所有主要運營地的各 級別全職、兼職員工,調查內容包括勞動合同的履行、社保繳納、員工基本權益的保障、維生工資水平、職業 健康與安全生產、避免使用童工的流程、同工同酬、公平晉升、安保人員的行爲規範、女職工孕產期權益等, 未發現重大侵權事件。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"本集团主要运营地各级别全职、兼职员工\",\n      \"relevance\": \"披露人权尽职调查内容包含维生工资水平及同工同酬，属于对工资支付相关事项的内部审查/监测事实\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1966,
+    "total_tokens": 2208,
+    "completion_tokens": 242,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1966
+    }
+  }
+}

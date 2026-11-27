@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-2accb05c-4b0f-9305-ba8f-0b36eb917bcb",
+  "object": "chat.completion",
+  "created": 1795746230,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002明确披露了2025年度员工流失率（离职率）的具体数值（16.83%），并提供了按性别和年龄划分的详细口径；证据e001明确了统计期间为2025年及范围为中国生物製藥有限公司及其合併報表範圍內企業。满足“披露评分年度的员工离职率情况，并能注识别评分期间及离职率口径”的条件。虽然记录中标记verification_missing，但依据规则“未核实的冗余补充证据不应拦住独立成立的结论”且本地RAG已完成，该核心事实由原文直接支持，判定为verified。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了“依法與全體員工簽訂勞動合同”的政策安排；证据e004披露了期末劳动合同员工的具体数量事实（19,445人）。满足“披露至少一项员工劳动合同保障的具体政策、安排或事实”的条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005披露了针对董事及高级管理人员因职务终止或丧失而获得补偿的审查机制（reviewing the compensation... in connection with any loss or termination of their office or appointment）。这属于与裁员/解雇相关的补偿制度安排，满足“披露至少一项与裁员有关的通知、协商、补偿或离职争议处理制度、具体安排或事实”的条件。\",\n      \"evidence_refs\": [\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e006披露了集团实施差异化轮岗项目，包括跨部门、跨职能的岗位轮换计划，符合“员工内部招聘、内部竞聘、转岗或岗位轮换的制度”这一条件。此外，证据e002中披露了“內部轉崗與競聘員工人數”为2,663人，进一步佐证了相关事实。满足判100条件。\",\n      \"evidence_refs\": [\n        \"e006\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索状态显示no_relevant_evidence_found，且评估指出“没有实际纠正结果，只有政策、计划或承诺”。现有证据中，e005仅为补偿审查机制（制度/流程），e006为轮岗制度，均未披露评分年度已经发生的终止补偿支付金额、就业安置受益人数等具体实际结果数据。根据规则，无支付、无事件不等于实际执行或受益，且规定核查完成，故判0。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5286,
+    "total_tokens": 6062,
+    "completion_tokens": 776,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5286
+    }
+  }
+}

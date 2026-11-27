@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-3ff2d261-8e88-923f-b1a4-155b57ea9a2c",
+  "object": "chat.completion",
+  "created": 1795732654,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"T2\"\n      ],\n      \"quote\": \"我们严格遵守运营所在地最低工资水平及工时要求,坚决保护员工基本权益。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"运营所在地\",\n      \"relevance\": \"披露了遵守工时要求的政策承诺，属于加班管理相关的总体原则性规定\"\n    },\n    {\n      \"ref_id\": \"p005\",\n      \"group_ids\": [\n        \"T2\"\n      ],\n      \"quote\": \"我们承诺在工作时间、假期保障、招聘、解聘等方面的雇佣制度,均按国家相关法 律法规要求执行,与所有雇员签订符合当地法律法规要求的雇佣合约。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"所有雇员\",\n      \"relevance\": \"披露了工作时间（含加班）和假期保障的雇佣制度遵循法律法规，涉及加班管理的制度基础\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6450,
+    "total_tokens": 6704,
+    "completion_tokens": 254,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 6450
+    }
+  }
+}

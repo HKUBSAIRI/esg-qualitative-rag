@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-dc989a84-a779-95a8-b36e-a781b9f2dff1",
+  "object": "chat.completion",
+  "created": 1795730488,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空。根据规则，缺少相关证据本身不能证明应查范围已完成，且关键证据无法核实或必要材料的覆盖尚未确认时，受影响项记为 pending_review。当前无原文支持判定是否存在严重超时工作、违法剥夺休息休假及纠正情况，也无法依据 T1-T5 进行评分。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"缺失 S1.1.3 指标所需的工作时间、加班管理、休息休假保障、管理机制及实际执行/纠正结果的官方披露原文\",\n    \"未找到关于严重超时工作或违法剥夺休息休假的通报或整改记录，无法判断是否触发特殊条款（最终归0）\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5590,
+    "total_tokens": 5759,
+    "completion_tokens": 169,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5590
+    }
+  }
+}

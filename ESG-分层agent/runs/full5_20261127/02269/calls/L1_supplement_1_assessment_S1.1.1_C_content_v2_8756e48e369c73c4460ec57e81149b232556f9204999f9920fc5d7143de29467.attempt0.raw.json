@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a945fcee-ad5a-9bd3-b8af-07eaa7bfc4f3",
+  "object": "chat.completion",
+  "created": 1795746220,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露评分年度（2025）的员工离职率具体数值（10%），并明确识别了期间及计算口径（总流失人数/年底员工总人数）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露了内部转岗/岗位轮换的事实数据（2025年员工内部调动610人，见e003）；\",\n        \"披露了支持转岗、横向发展的制度安排及“活水计划”等具体支持措施（见e005）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2537,
+    "total_tokens": 2819,
+    "completion_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2537
+    }
+  }
+}

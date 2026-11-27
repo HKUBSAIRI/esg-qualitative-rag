@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5103a5ac-22f5-9afc-9a91-3cb2b2fad4f2",
+  "object": "chat.completion",
+  "created": 1795744077,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p011\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"reviewing the compensation to directors and senior management in connection with any loss or termination of their office or appointment; and\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"directors and senior management\",\n      \"relevance\": \"披露了针对董事及高级管理人员因职务终止或丧失而获得补偿的审查机制，属于裁员/解雇相关的补偿制度安排。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10697,
+    "total_tokens": 10840,
+    "completion_tokens": 143,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10697
+    }
+  }
+}

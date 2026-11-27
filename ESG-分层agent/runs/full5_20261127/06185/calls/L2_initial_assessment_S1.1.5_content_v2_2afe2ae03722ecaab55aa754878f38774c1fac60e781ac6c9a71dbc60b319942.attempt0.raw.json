@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-dea2c200-fc16-9e77-98ef-9a7d14b2ad59",
+  "object": "chat.completion",
+  "created": 1795745703,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对查实歧视或骚扰的具体处分、问责、移交处理规则，或具体的补救机制（如恢复机会、补偿等）及实际处置事实。现有证据仅披露了通用的举报/申诉与调查流程，属于基础程序描述，不符合‘具体补救机制’或‘处分规则’的判据要求。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1168,
+    "total_tokens": 1314,
+    "completion_tokens": 146,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1168
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0515d6c9-1828-965a-bd44-df5c69f47ef4",
+  "object": "chat.completion",
+  "created": 1795743831,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"financial_statement\",\n  \"report_year\": 2025,\n  \"publisher\": \"信達生物製藥 (INNOVENT BIOLOGICS, INC.)\",\n  \"basis\": \"文件标题明确为'INTERIM RESULTS ANNOUNCEMENT FOR THE SIX MONTHS ENDED 30 JUNE 2025'（截至2025年6月30日止六个月的中期业绩公告），内容包含财务亮点、IFRS及Non-IFRS财务数据对比，符合中期报告/业绩财报定义。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3347,
+    "total_tokens": 3471,
+    "completion_tokens": 124,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3347
+    }
+  }
+}

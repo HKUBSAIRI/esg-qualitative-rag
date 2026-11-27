@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7badf5b0-5e4b-973c-a27e-cac5410fe900",
+  "object": "chat.completion",
+  "created": 1795745493,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露了遵守运营所在地最低工资水平及工时要求，属于具体的工资支付保障政策（最低工资保障），满足判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖未确认（search_complete: false）。现有证据中，e002和e003主要涉及一般性违规举报、反舞弊或通用申诉渠道，未明确提及针对“工资核算”、“工资单发放”或“工资差错查询”的具体机制；e004为一般性意见表达渠道。根据规则，若无法核实是否存在专门针对工资处理的查询机制，且候选证据不足以直接支持结论，需标记为待核验。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖未确认（search_complete: false）。证据e005提及的“薪酬审查”旨在消除性别差距，属于薪酬公平性/结构审查，而非针对“工资支付合规性”（如按时足额发放）的检查或监测。证据e006提及薪酬政策定期接受审阅，但未明确说明该审阅包含对工资支付执行情况的检查。由于缺乏明确的工资支付监测制度或当期实际检查事实，且材料覆盖状态为pending，故该项待定。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e006明确披露“本公司僱員”的薪酬政策及待遇方案，界定了工资支付保障政策的适用对象为公司雇员，满足明确保障对象的要求。\",\n      \"evidence_refs\": [\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖未确认（search_complete: false）。现有证据中未发现关于工资差错补发、欠薪退还或加班费争议复核等具体补救机制或已完成纠正事实的披露。虽然无事件不自动得0，但在材料覆盖未确认的情况下，不能直接判定为0，需等待进一步核实是否缺失相关披露。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8208,
+    "total_tokens": 8830,
+    "completion_tokens": 622,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 8208
+    }
+  }
+}

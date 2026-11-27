@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1df09ca0-ae4a-9037-9936-1a08dbd4b1c8",
+  "object": "chat.completion",
+  "created": 1795743533,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p052\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"員工職業健康安全、就 業機會均等、溝通與關 愛、員工培訓與發展、 反歧視、薪酬與福利等\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"在ESG管理重点或议题列表中明确提及“反歧视”，符合D1关于披露反对或禁止员工相关歧视的政策要求或具体制度的条件。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10671,
+    "total_tokens": 10822,
+    "completion_tokens": 151,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10671
+    }
+  }
+}

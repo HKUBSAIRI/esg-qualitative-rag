@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4d7d6f7e-4a78-9bb9-8367-481ee05b9500",
+  "object": "chat.completion",
+  "created": 1795743848,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"announcement\",\n  \"report_year\": null,\n  \"publisher\": \"翰森製藥集團有限公司\",\n  \"basis\": \"文件标题及正文多次明确提及“本通函”（Circular），内容涉及股东週年大会通告、重选董事、授出购回及发行股份一般授权、宣派末期股息及续聘核数师等常规公司治理事项，符合普通公司公告/通函的特征。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2388,
+    "total_tokens": 2486,
+    "completion_tokens": 98,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2388
+    }
+  }
+}

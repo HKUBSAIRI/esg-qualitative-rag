@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6fa308ab-db67-9232-bfd6-046acc342923",
+  "object": "chat.completion",
+  "created": 1795731227,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"工资核算规则/制度依据 (e001)\",\n        \"员工查询工资差错的途径/咨询渠道 (e003)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"内部审查/监督的制度安排 (e006)\"\n      ],\n      \"missing\": [\n        \"当期实际开展检查、监测或审计的事实及结果披露。仅凭制度职责描述(e006)不足以证明已执行，且无其他证据显示2025年有针对工资支付的专项审计或定期检查记录。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"薪酬申诉渠道及处理安排 (e002)\"\n      ],\n      \"missing\": [\n        \"针对工资差错、欠薪等具体问题的补救机制细节（如补发、退还流程）或已完成纠正的具体事实。现有证据仅展示通用申诉调查机制，未明确包含工资类问题的特定补救措施或实际案例。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2233,
+    "total_tokens": 2627,
+    "completion_tokens": 394,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2233
+    }
+  }
+}

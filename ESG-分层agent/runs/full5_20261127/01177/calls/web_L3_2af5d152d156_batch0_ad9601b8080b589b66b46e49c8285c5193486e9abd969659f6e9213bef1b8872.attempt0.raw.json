@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-82d418ed-2f78-94b2-821e-9db0441e3c15",
+  "object": "chat.completion",
+  "created": 1795744498,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p009\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"如若涉及大规模解雇等特殊情况，需设定最低协商或通知期限，为员工提供必要的过渡保障\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"中国生物制药及下属成员企业\",\n      \"relevance\": \"披露了针对大规模解雇的过渡保障政策，但未包含评分年度实际发生的终止补偿支付、就业安置或离职保障受益的具体结果数据。\"\n    },\n    {\n      \"ref_id\": \"p022\",\n      \"group_ids\": [\n        \"T5\"\n      ],\n      \"quote\": \"公司提倡高效率工作，鼓励员工在平日8小时工作制内完成本职工作，原则上不提倡加班。疫情期间，为保障全体员工和家人的身体健康，公司安排全体员工远程居家办公，最大程度降低员工感染风险。\",\n      \"kind\": \"action\",\n      \"period\": \"疫情期间\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了疫情期间安排全体员工远程居家办公的实际执行措施，属于工时/休假相关的执行覆盖事实，但非评分年度（通常指最近完整财年）的常规工时监测或休假使用具体数值。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5240,
+    "total_tokens": 5542,
+    "completion_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5240
+    }
+  }
+}

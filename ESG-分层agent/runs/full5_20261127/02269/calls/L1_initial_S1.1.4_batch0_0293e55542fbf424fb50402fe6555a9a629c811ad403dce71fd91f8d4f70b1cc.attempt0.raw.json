@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ca93e72a-26e1-9e00-8e2f-89075213865d",
+  "object": "chat.completion",
+  "created": 1795730282,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"W1\"\n      ],\n      \"quote\": \"福利類型 | 詳情\\n法定福利 | • 養老保險 • 醫療保險 • 失業保險 • 殘疾保險 • 工傷保險 • 生育保險\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了具体的法定社会保障项目（养老、医疗、失业、工伤、生育保险等）\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"W2\"\n      ],\n      \"quote\": \"額外福利 | • 帶薪年假 • 補充商業保險 24 • 年度健康體檢 • 通勤補貼 • 免費過渡性住房 • 高溫期間帶薪休假 • 加班費和調休\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了具体的补充福利安排（商业保险、体检、补贴等）\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"W3\"\n      ],\n      \"quote\": \"家庭福利 | • 產假 • 陪產假 • 產檢假 • 育兒假 • 父母陪護假 • 哺乳假 • 母嬰室\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了面向员工的家庭支持资源和服务（产假、育儿假、母婴室等）\"\n    },\n    {\n      \"ref_id\": \"p006\",\n      \"group_ids\": [\n        \"W3\"\n      ],\n      \"quote\": \"我們亦高度重視員工心理健康,為員工開通心理援助 (EAP) 熱線,為員工提供一對一的心理健康 諮詢。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年度\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了具体的心理支持服务（EAP热线及咨询）\"\n    },\n    {\n      \"ref_id\": \"p019\",\n      \"group_ids\": [\n        \"W3\"\n      ],\n      \"quote\": \"此外,我們在部分基地提供職工子女入學 (幼兒園、小學、初中和高中) 支持, 解決員工子女在地入學困難問題,助力員工子女教育發展,體現企業對家庭福祉的長期承諾。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年度\",\n      \"scope\": \"部分基地职工\",\n      \"relevance\": \"披露了具体的家庭支持措施（子女入学支持）\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"W4\"\n      ],\n      \"quote\": \"公司與保險機構合作提供商業保險套餐,員工可自主購買,其中包括員工計劃以及配偶和子女計劃。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"员工及其家属\",\n      \"relevance\": \"明确了商业保险的取得规则（自主购买）及适用对象（含配偶子女）\"\n    },\n    {\n      \"ref_id\": \"p016\",\n      \"group_ids\": [\n        \"W4\"\n      ],\n      \"quote\": \"公司承諾為所有員工提供帶薪年假,除法定年假外,還包括福利 年假、高溫假等。... 未休完的年假可按公司 規定結轉至下一年度作為福利年假。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"所有员工\",\n      \"relevance\": \"明确了带薪年假的适用对象（所有员工）及结转规则\"\n    },\n    {\n      \"ref_id\": \"p019\",\n      \"group_ids\": [\n        \"W4\"\n      ],\n      \"quote\": \"我們確保兼職員工及外包人員享受與正式員工相同的日常福利,包括餐費補貼、通勤補貼、生 日福利、休假、節慶福利及家庭日等。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"兼职员工及外包人员\",\n      \"relevance\": \"明确了特定福利（餐补、通勤等）对非正式员工的适用规则\"\n    },\n    {\n      \"ref_id\": \"p029\",\n      \"group_ids\": [\n        \"W5\"\n      ],\n      \"quote\": \"藥明生物高度重視員工福利,嚴格遵循運營地所在國家和地區相關法律法規要求,為員工及時 且足額繳納各項社會保險。\",\n      \"kind\": \"result\",\n      \"period\": \"2025年度\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了当期已发生的社保缴纳事实（及时且足额缴纳）\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8811,
+    "total_tokens": 10006,
+    "completion_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8811
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d52abb3e-eada-93d3-a0bf-428ef16b20e6",
+  "object": "chat.completion",
+  "created": 1795730849,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"e001: 'The Company strictly ensures that all employees are entitled to statutory benefits, including social insurance and the housing fund...'\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"e002: 'The Company provides employees with commercial insurance coverage above the market average and also offers medical insurance and free vaccinations for employees' children.'\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"e003: 'The Company has established a 24/7 psychological support hotline and launched EAP psychological courses to safeguard employees' mental health.'\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"e004: 'The Company also provides assistance to employees in financial hardship by granting monthly subsidies to eligible employees and offers home visits and condolence payments to employees suffering from serious illness.'\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"e005: 'In 2025, the total value of employee benefits distributed by the Company amounted to RMB 73.12 million.'\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2089,
+    "total_tokens": 2615,
+    "completion_tokens": 526,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2089
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-219c2ddb-a7b4-9a7d-869f-c0d7c2aa7a4e",
+  "object": "chat.completion",
+  "created": 1795744449,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"annual\",\n  \"report_year\": 2025,\n  \"publisher\": \"藥明生物技術有限公司\",\n  \"basis\": \"文件封面及页眉明确标注为“2025年度報告”，目录包含公司資料、董事長及首席執行官報告、財務摘要、管理層討論及分析、董事會報告、企業管治報告、獨立核數師報告及綜合財務報表等典型年报组成部分，且正文中提及“提呈本集團二零二五年年度報告”。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1637,
+    "total_tokens": 1755,
+    "completion_tokens": 118,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1637
+    }
+  }
+}

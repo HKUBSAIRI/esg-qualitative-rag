@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-415ad279-99b5-91fa-b14a-b7980af8551b",
+  "object": "chat.completion",
+  "created": 1795744332,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p063\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"薪酬委員會於報告期內舉行了四次會議,以檢討本公司的薪酬政策及架構、執行董事及高級管理人員的薪酬待遇及本公司高級╱主要員工的僱用及離職,並就此向董事會提出建議,評價及評估薪酬委員會職權範圍條款的充足性和其他相關事務,以及考慮與執行董事、三名非執行董事及兩名獨立非執行董事訂立的新董事服務協議所含的主要條款,以及根據受限制股份獎勵計劃授出受限制股份,並就此向董事會提出建議。\",\n      \"kind\": \"action\",\n      \"period\": \"報告期內 (截至二零一九年十二月三十一日止年度)\",\n      \"scope\": \"本公司高級╱主要員工及董事\",\n      \"relevance\": \"披露了對員工僱用及離職事項的檢討，以及與董事簽訂新服務協議的事實，涉及勞動合同/協議的保障安排。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10763,
+    "total_tokens": 11020,
+    "completion_tokens": 257,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10763
+    }
+  }
+}

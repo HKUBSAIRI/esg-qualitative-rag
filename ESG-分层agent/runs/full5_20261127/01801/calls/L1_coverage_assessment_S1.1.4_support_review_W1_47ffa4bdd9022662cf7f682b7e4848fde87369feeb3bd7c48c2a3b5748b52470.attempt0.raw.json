@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-703d49d7-5785-9574-927a-c33dbffce1b0",
+  "object": "chat.completion",
+  "created": 1795732436,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露至少一项具体法定社会保障或基本福利政策、安排或事实（如养老、医疗、失业、工伤、生育保险，住房公积金或其他运营地适用的法定保障等），仅提供了笼统的合规声明\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 904,
+    "total_tokens": 1026,
+    "completion_tokens": 122,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 904
+    }
+  }
+}

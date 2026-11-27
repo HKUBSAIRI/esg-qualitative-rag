@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-3efe57df-9c96-9467-8d09-ff45013ac4b2",
+  "object": "chat.completion",
+  "created": 1795730344,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\",\n        \"e011\",\n        \"e012\",\n        \"e013\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止就业中的歧视行为（e001, e012）\",\n        \"披露包含反歧视在内的内部制度体系及适用范围（e003）\",\n        \"披露具体的反歧视措施，如招聘信息合规审查以避免性别、地域歧视（e011）\",\n        \"披露对歧视行为持零容忍态度及开展相关培训（e013）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\",\n        \"e012\",\n        \"e013\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止职场骚扰行为（e001, e012）\",\n        \"披露包含反骚扰在内的内部制度体系（e003）\",\n        \"披露对骚扰行为持零容忍态度（e013）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e006\",\n        \"e010\",\n        \"e014\"\n      ],\n      \"supported_paths\": [\n        \"披露适用于歧视骚扰投诉的受理渠道（热线、邮箱、工单平台等）（e006, e014）\",\n        \"披露针对此类投诉的调查处理程序，包括分类处理、专项工作组核查等（e002, e014）\",\n        \"披露举报事项处理细则和流程（e010）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e008\",\n        \"e010\",\n        \"e014\"\n      ],\n      \"supported_paths\": [\n        \"披露匿名举报机制以保护申诉人（e008）\",\n        \"披露对举报信息严格保密、禁止打击报复的保护措施（e010, e014）\",\n        \"披露保障申诉人的知情权（e002, e014）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e007\",\n        \"e014\"\n      ],\n      \"supported_paths\": [\n        \"披露针对查实歧视或骚扰违规行为的纪律处分规则（e002, e014）\",\n        \"披露涉嫌违法案件移送司法处理的机制（e002, e014）\",\n        \"披露对侵权事件的责任人采取措施及对弱势群体的救济机制（e007）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5507,
+    "total_tokens": 6330,
+    "completion_tokens": 823,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 5507
+    }
+  }
+}

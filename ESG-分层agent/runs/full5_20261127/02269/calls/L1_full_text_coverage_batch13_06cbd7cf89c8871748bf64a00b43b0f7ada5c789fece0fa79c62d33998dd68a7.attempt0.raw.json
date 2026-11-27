@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0817305b-2ba7-903d-8104-c9f37327afad",
+  "object": "chat.completion",
+  "created": 1795730453,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p036\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"同時,我們嚴禁任何基於民族、 種族、性別、地域、宗教信仰、用工形式等 各種因素的歧視行為以及包括騷擾在內的非 人道對待。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"所有员工\",\n      \"relevance\": \"明确禁止基于多种因素的歧视行为，符合反歧视政策与保障要求\"\n    },\n    {\n      \"ref_id\": \"p036\",\n      \"group_ids\": [\n        \"D2\"\n      ],\n      \"quote\": \"同時,我們嚴禁任何基於民族、 種族、性別、地域、宗教信仰、用工形式等 各種因素的歧視行為以及包括騷擾在內的非 人道對待。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"所有员工\",\n      \"relevance\": \"明确禁止骚扰在内的非人道对待，符合反骚扰政策与保障要求\"\n    },\n    {\n      \"ref_id\": \"p040\",\n      \"group_ids\": [\n        \"D3\"\n      ],\n      \"quote\": \"所有報告的違規行為都將接受全面和及時的調查,並採取必要的預防、緩解和 補救措施。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"所有报告的违规行为（含人权相关）\",\n      \"relevance\": \"披露了针对违规行为的调查和处理程序，适用于歧视或骚扰投诉\"\n    },\n    {\n      \"ref_id\": \"p040\",\n      \"group_ids\": [\n        \"D4\"\n      ],\n      \"quote\": \"我們向內外部利益相關方提供多種公開且保密的舉報渠道\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"内外部利益相关方\",\n      \"relevance\": \"提供了保密举报渠道，涉及申诉人保护机制\"\n    },\n    {\n      \"ref_id\": \"p038\",\n      \"group_ids\": [\n        \"T1\"\n      ],\n      \"quote\": \"我們通過工作時間管理系統來關注員工工時,管理加班情況,並設立最長工作時間限制。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了工时管理和最长工作时间限制的制度安排\"\n    },\n    {\n      \"ref_id\": \"p038\",\n      \"group_ids\": [\n        \"T2\"\n      ],\n      \"quote\": \"對於額外及非常規工作時間的勞動,我們支 付加班薪資或合理安排調休。\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"额外及非常规工作时间劳动者\",\n      \"relevance\": \"披露了加班薪资支付或调休的安排，属于加班管理的一部分\"\n    },\n    {\n      \"ref_id\": \"p038\",\n      \"group_ids\": [\n        \"T3\"\n      ],\n      \"quote\": \"公司承諾為所有員工提供帶薪年假,除法定年假外,還包括福利 年假、高溫假等。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"所有员工\",\n      \"relevance\": \"披露了带薪年休假及其他假期权利\"\n    },\n    {\n      \"ref_id\": \"p038\",\n      \"group_ids\": [\n        \"T4\"\n      ],\n      \"quote\": \"透過線上系 統,我們追蹤假期使用情況,並適時向年假餘額較多的員工發送提醒。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了通过线上系统追踪假期使用情况的管理机制\"\n    },\n    {\n      \"ref_id\": \"p035\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"藥明生物為員工提供不低於最低工資標準且 具有市場競爭力的薪酬和福利,並承諾同工 同酬。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了不低于最低工资标准的薪酬保障政策\"\n    },\n    {\n      \"ref_id\": \"p035\",\n      \"group_ids\": [\n        \"P4\"\n      ],\n      \"quote\": \"此次評估參考了包括 WageIndicator 在內的第三方權威數據,覆蓋了公司所有運營地。\",\n      \"kind\": \"result\",\n      \"period\": \"2025年\",\n      \"scope\": \"公司所有运营地\",\n      \"relevance\": \"明确了生活工资评估覆盖的范围为所有运营地，间接反映薪酬保障对象范围\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13209,
+    "total_tokens": 14377,
+    "completion_tokens": 1168,
+    "prompt_tokens_details": {
+      "cached_tokens": 12288,
+      "text_tokens": 13209
+    }
+  }
+}

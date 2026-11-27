@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-163bdc7b-8aa8-9ae2-a2a2-48e2e77c5547",
+  "object": "chat.completion",
+  "created": 1795730434,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p016\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"僱員福利開支\\n工資及薪金 | 1,026,868 | 970,726\\n社會福利及其他福利 * | 469,594 | 442,141\\n以股份為基礎的付款 | 78,585 | 67,587\\n總計 | 1,575,047 | 1,480,454\",\n      \"kind\": \"result\",\n      \"period\": \"截至二零二五年六月三十日止六個月\",\n      \"scope\": \"本集團\",\n      \"relevance\": \"披露了当期员工福利开支总额，但未明确区分终止补偿或离职保障的具体支付金额，仅作为费用确认证据。\"\n    },\n    {\n      \"ref_id\": \"p032\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"截至二零二五年六月三十日止六個月,員工成本(包括執行董事薪酬及社會福利 及其他福利)約為人民幣十五點七五億元。\",\n      \"kind\": \"result\",\n      \"period\": \"截至二零二五年六月三十日止六個月\",\n      \"scope\": \"本集團\",\n      \"relevance\": \"披露了当期员工成本总额，未单独列示离职保障受益或终止补偿支付结果。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11351,
+    "total_tokens": 11709,
+    "completion_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11351
+    }
+  }
+}

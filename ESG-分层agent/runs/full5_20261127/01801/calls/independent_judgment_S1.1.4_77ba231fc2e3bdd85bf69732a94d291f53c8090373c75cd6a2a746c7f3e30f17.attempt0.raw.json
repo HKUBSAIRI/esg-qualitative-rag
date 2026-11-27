@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6c44c9a7-3431-9641-9748-18f35cabdf7f",
+  "object": "chat.completion",
+  "created": 1795743457,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到。依据提供的候选证据（e001-e012），信达生物披露了遵守《社会保险法》、提供五险一金、补充医疗保险、股权激励及母婴室等员工福利与支持措施，且提及报告期内法定福利政策实现全覆盖。现有材料中无监管通报、司法判决或官方认定的严重员工福利或社会保障权益侵害事件。虽然部分SAMR官方链接因HTTP错误无法读取，但已打开的HKEX公告及搜索日志显示未发现针对该公司的独立严重违规通报。投诉、和解或未披露整改不能单独证明严重事项，故判定为未找到经核实的严重不利事件。\",\n  \"evidence_refs\": [\n    \"e001\",\n    \"e007\",\n    \"e008\"\n  ],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10944,
+    "total_tokens": 11141,
+    "completion_tokens": 197,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10944
+    }
+  }
+}

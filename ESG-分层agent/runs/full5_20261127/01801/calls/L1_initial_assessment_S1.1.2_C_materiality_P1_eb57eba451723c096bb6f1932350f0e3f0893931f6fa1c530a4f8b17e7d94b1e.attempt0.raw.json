@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a7fbfe60-c4db-9aa8-998e-f8a2a9f1f71e",
+  "object": "chat.completion",
+  "created": 1795732387,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\": [], \"reason\": \"候选引文 e001 明确声明相关数据（标准起薪与当地最低工资之比）目前不在公司 ESG 数据管理范围内，且仅表示未来考虑披露。这属于对缺乏具体支付保障事实或数据的否定性陈述，而非提供具体的按时足额支付、最低工资保障执行事实等正面证据。即使核实该引文，它也无法满足‘披露至少一项员工工资支付的具体保障政策或事实’的成立路径，反而印证了当前缺失具体内容的评估结论，因此不影响判分。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 415,
+    "total_tokens": 531,
+    "completion_tokens": 116,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 415
+    }
+  }
+}

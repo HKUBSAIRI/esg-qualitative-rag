@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-955efb3f-6843-97e1-8288-54d292fd6fc8",
+  "object": "chat.completion",
+  "created": 1795745514,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"W1\"\n      ],\n      \"quote\": \"The Group also makes contributions to social insurance fund, including basic pension insurance, medical insurance, unemployment insurance, childbirth insurance, work-related injury insurance funds, and housing reserve fund as applicable to the countries where the Group operates.\",\n      \"kind\": \"action\",\n      \"period\": \"for the year ended December 31, 2025\",\n      \"scope\": \"Group employees in operating countries\",\n      \"relevance\": \"Explicitly lists specific statutory social security items (pension, medical, unemployment, childbirth, work injury) and housing reserve fund contributions.\"\n    },\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"W1\"\n      ],\n      \"quote\": \"The Group participates in state-managed retirement benefit schemes, which are defined contribution schemes, pursuant to which the Group pays a fixed percentage of its qualifying staff's wages as contributions to the schemes. Payments to defined contribution retirement benefit plans are recognized as an expense when employees have rendered service entitling them to the contributions.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"Qualifying staff\",\n      \"relevance\": \"Describes the mechanism for participating in state-managed retirement benefit schemes (statutory pension).\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"W1\"\n      ],\n      \"quote\": \"The employees of the Group's subsidiaries are members of the state-managed retirement benefits schemes operated by government. The subsidiaries are required to contribute a certain percentage of payroll costs to the retirement benefits schemes to fund the benefits. The only obligation of the Group with respect to the retirement benefits schemes is to make the specified contributions.\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"Employees of the Group's subsidiaries\",\n      \"relevance\": \"Confirms membership in state-managed retirement schemes and the requirement for subsidiaries to contribute.\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"W1\"\n      ],\n      \"quote\": \"The total cost charged to profit or loss in respect of the above-mentioned schemes amounted to approximately RMB479,701,000 for the year ended December 31, 2025 (2024: RMB460,568,000).\",\n      \"kind\": \"result\",\n      \"period\": \"for the year ended December 31, 2025\",\n      \"scope\": \"State-managed retirement benefit schemes\",\n      \"relevance\": \"Provides financial evidence of the costs incurred for the statutory retirement schemes mentioned in p001/p004.\"\n    },\n    {\n      \"ref_id\": \"p027\",\n      \"group_ids\": [\n        \"W2\"\n      ],\n      \"quote\": \"The Group entered into finance lease arrangements as a lessor for certain staff living quarters to eligible employees and a plant subleased to an independent third party. The average terms of finance leases entered into usually range from 5 to 10 years. The eligible employees for the staff living quarters have the option to purchase the properties by the end of the lease term. The implicit interest rate of these leases range from 1.5% to 4.9% as determined at the contract date over the lease terms.\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"Eligible employees\",\n      \"relevance\": \"Describes a specific supplementary welfare arrangement (staff living quarters via finance lease) provided to employees.\"\n    },\n    {\n      \"ref_id\": \"p033\",\n      \"group_ids\": [\n        \"W2\"\n      ],\n      \"quote\": \"Note: During the years ended December 31, 2025 and 2024, the Group disposed of certain staff living quarters in Shanghai to eligible employees as part of the employees' benefits. Some of these disposals were made under finance lease arrangements. Details are set out in Note 22.\",\n      \"kind\": \"action\",\n      \"period\": \"During the years ended December 31, 2025 and 2024\",\n      \"scope\": \"Eligible employees in Shanghai\",\n      \"relevance\": \"Confirms the disposal of staff living quarters to employees as part of employee benefits, linking to the supplementary welfare topic.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14558,
+    "total_tokens": 15603,
+    "completion_tokens": 1045,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 14558
+    }
+  }
+}

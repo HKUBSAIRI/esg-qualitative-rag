@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4df7228c-873f-90f2-b73d-85096a41821d",
+  "object": "chat.completion",
+  "created": 1795731535,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p063\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"截至 2025 年及 2024 年 12 月 31 日止年度,本集團並無向本公司任何董事或五名最高薪人士支付酬金,作為其加入本集團或加 入本集團時的獎勵或作為離職補償。\",\n      \"kind\": \"result\",\n      \"period\": \"截至 2025 年及 2024 年 12 月 31 日止年度\",\n      \"scope\": \"本公司任何董事或五名最高薪人士\",\n      \"relevance\": \"披露了评分年度内未发生针对特定高管的离职补偿支付事实，属于当期辞退福利/终止补偿的实际结果（零值）。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 15238,
+    "total_tokens": 15452,
+    "completion_tokens": 214,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 15238
+    }
+  }
+}

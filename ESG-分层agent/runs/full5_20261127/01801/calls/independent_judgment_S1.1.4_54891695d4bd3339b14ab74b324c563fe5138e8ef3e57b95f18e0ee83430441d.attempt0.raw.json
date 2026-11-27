@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e3735328-f872-952e-9c02-cdd2e011a13a",
+  "object": "chat.completion",
+  "created": 1795745478,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本阶段仅核查严重事项及纠正。根据实际搜索日志，未执行网络搜索且本地监管/司法通知索引为空（'No supplied L4 regulatory/judicial notice index'），导致无法确认是否已穷尽官方渠道查找严重员工福利侵害通报或整改记录。由于关键证据来源缺失且覆盖范围未确认，无法判定是否存在经核实的严重事项或未纠正情况，故状态为待核验。依据规则，缺少相关证据本身不能证明应查范围已完成，且不得因排除项读取失败产生unresolved，但此处属于必要案件原件（严重事项通报）的查找路径未完全执行或结果不明，需人工介入确认检索完整性。\",\n  \"evidence_refs\": [],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5763,
+    "total_tokens": 5938,
+    "completion_tokens": 175,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5763
+    }
+  }
+}

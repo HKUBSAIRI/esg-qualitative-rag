@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-47751ff7-551f-9637-b56c-3f23bfd43312",
+  "object": "chat.completion",
+  "created": 1795731549,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年度员工流失率具体数值（14.4%）及口径（主动离职率，见脚注关联e001或隐含在表格标题中，e002本身包含数据且period明确为2025年，虽scope未明确但通常指集团整体，结合e001的边界定义可确认口径）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露了内部填补岗位比例的具体事实数据（19%），符合“②内部招聘人数、内部填补岗位比例...等事实”的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际发生的终止补偿支付、就业安置受益或有效纠正结果的事实证据。现有证据仅显示特定群体（五名最高薪酬雇员、董事）无离职补偿（零支付），根据规则‘无支付...不证明实际执行’及‘特定人员未收离职补偿...不构成实际离职保障结果’，缺乏正向的实际发生事实。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制描述或已完成纠正的事实证据。现有财务数据（e012）仅反映应付余额，未体现补救行动。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e016\"\n      ],\n      \"supported_paths\": [\n        \"明确披露了建立覆盖招聘等环节的反歧视体系，包括避免性别、地域歧视性内容的合规审查，符合“至少一项防止就业中不正当差别待遇的具体制度、措施”的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e018\"\n      ],\n      \"supported_paths\": [\n        \"明确披露了对任何形式的骚扰行为持零容忍态度，并提供相关培训，符合“明确披露禁止职场骚扰...或相应零容忍要求”的条件。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e021\"\n      ],\n      \"supported_paths\": [\n        \"披露了适用于职场申诉（含歧视骚扰）的分类处理、规范调查程序及纪律处分机制，符合“披露适用于歧视或骚扰投诉的至少一项受理、核查、调查或处理程序”的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e023\"\n      ],\n      \"supported_paths\": [\n        \"披露了《举报及举报人保护政策》，明确规定对举报信息严格保密、严禁打击报复，符合“披露适用于歧视或骚扰投诉的至少一项申诉人或受影响人员保护措施”的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9229,
+    "total_tokens": 10173,
+    "completion_tokens": 944,
+    "prompt_tokens_details": {
+      "cached_tokens": 8192,
+      "text_tokens": 9229
+    }
+  }
+}

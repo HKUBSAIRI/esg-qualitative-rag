@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-60bb8675-12d4-9a39-9ee3-b7300ec0fac0",
+  "object": "chat.completion",
+  "created": 1795732438,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e002\",\n    \"e010\"\n  ],\n  \"reason\": \"候选引文 e002 和 e010 均明确列出了“养老、医疗、失业、工伤、生育保险”及“住房公积金”等具体法定社会保障项目，直接满足指标 S1.1.4 关于披露至少一项具体法定社会保障政策或事实的成立路径。尽管 assessment 中 verification_missing 指出缺乏具体项目，但候选原文提供了这些具体项目名称，若核实为真，将推翻“仅笼统合规声明”的不足判定，从而支持 content_sufficient 为 true 的结论。因此，这些候选对判分具有实质影响。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 666,
+    "total_tokens": 826,
+    "completion_tokens": 160,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 666
+    }
+  }
+}

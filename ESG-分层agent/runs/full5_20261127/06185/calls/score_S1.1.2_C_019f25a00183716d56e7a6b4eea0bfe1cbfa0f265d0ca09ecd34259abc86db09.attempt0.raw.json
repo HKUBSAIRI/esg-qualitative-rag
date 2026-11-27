@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-3239a09a-e523-9a19-a42b-6df442add4be",
+  "object": "chat.completion",
+  "created": 1795745759,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露了“坚持同工同酬”的原则，作为工资支付公平性的具体保障政策，符合判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002披露了人力资源部解答雇佣政策及职场困扰的渠道，可识别为员工查询或薪酬申诉的具体机制/途径，符合判分条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示search_complete为false且issues包含necessary_material_coverage_not_confirmed，表明必要材料覆盖尚未确认，无法判定是否完全缺失相关监测制度，故标记待定。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确了权益保障（含工资相关）适用于应聘者、在职员工及离职员工，清晰界定了保障对象范围，符合判分条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示search_complete为false且issues包含necessary_material_coverage_not_confirmed，表明必要材料覆盖尚未确认。虽然现有证据e004/e005显示止付追索不适用，但需确认是否已穷尽所有关于一般员工工资差错补救机制的披露，故标记待定。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7884,
+    "total_tokens": 8369,
+    "completion_tokens": 485,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 7884
+    }
+  }
+}

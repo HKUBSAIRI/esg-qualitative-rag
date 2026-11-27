@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-34999fb6-7f18-91f0-8273-cc6471de7adb",
+  "object": "chat.completion",
+  "created": 1795743753,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p019\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"員工保留率\",\n      \"kind\": \"result\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了员工保留率指标，与离职率口径相关，但原文片段中未包含具体数值及期间，仅作为关联线索提取。\"\n    },\n    {\n      \"ref_id\": \"p024\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"在 2024 年,我們提供了超 160 項針對性的線上及線下課程和研討會。截至 12 月底,共有 529 人參與了 我們的領導力培訓項目,參與者的人才保留率高達 97% 。\",\n      \"kind\": \"result\",\n      \"period\": \"2024年\",\n      \"scope\": \"参与领导力培训项目的529人\",\n      \"relevance\": \"披露了2024年特定群体（领导力培训参与者）的人才保留率为97%，属于当期离职/留任相关数据。\"\n    },\n    {\n      \"ref_id\": \"p043\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"藥明生物高度重視員工福利,嚴格遵循運營地所在國家和地區 相關法律法規要求,為員工及時且足額繳納各項社會保險。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"所有员工\",\n      \"relevance\": \"提及严格遵循法律法规要求缴纳社保，隐含依法建立劳动关系的合规性，但未直接披露劳动合同签订率或续签等具体合同保障细节，作为最接近的合规雇佣证据提取。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10484,
+    "total_tokens": 10929,
+    "completion_tokens": 445,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10484
+    }
+  }
+}

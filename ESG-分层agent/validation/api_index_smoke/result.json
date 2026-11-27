@@ -1,0 +1,22 @@
+{
+  "model": "text-embedding-3-small",
+  "shape": [
+    3,
+    1024
+  ],
+  "self_retrieval_passed": true,
+  "bm25_passed": true,
+  "api_calls": [
+    {
+      "model": "text-embedding-3-small",
+      "usage": {
+        "completion_tokens": 0,
+        "prompt_tokens": 32,
+        "total_tokens": 32,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null
+      },
+      "batch_size": 3
+    }
+  ]
+}

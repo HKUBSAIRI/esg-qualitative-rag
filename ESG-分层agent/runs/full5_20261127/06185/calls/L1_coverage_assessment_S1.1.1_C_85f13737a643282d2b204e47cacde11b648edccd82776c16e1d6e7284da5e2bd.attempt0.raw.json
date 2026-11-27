@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1df8e9cc-96cb-9156-ad14-ede582c2f398",
+  "object": "chat.completion",
+  "created": 1795730945,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e011\",\n        \"e012\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工总离职率（6.97%）及分维度数据，并明确统计口径仅包含自愿离职人员。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\",\n        \"e007\",\n        \"e013\"\n      ],\n      \"supported_paths\": [\n        \"披露了劳动合同签订率为100%，新签劳动合同人数为110人，以及实施《劳动合同管理程序》等具体政策安排。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e008\"\n      ],\n      \"supported_paths\": [\n        \"披露了对100%离职员工进行退出面谈的机制，属于离职争议处理或反馈制度安排。\"\n      ],\n      \"missing\": [\n        \"未识别关于裁员、解雇的具体通知、协商、补偿标准或辞退福利支付事实。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露了内部招聘制度（Internal Application Management Procedures）的实施情况，以及内部招聘人数（5人）的事实。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别评分年度已经发生的终止补偿支付、就业安置受益或相应有效纠正结果的具体事实数据。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4817,
+    "total_tokens": 5388,
+    "completion_tokens": 571,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 4817
+    }
+  }
+}

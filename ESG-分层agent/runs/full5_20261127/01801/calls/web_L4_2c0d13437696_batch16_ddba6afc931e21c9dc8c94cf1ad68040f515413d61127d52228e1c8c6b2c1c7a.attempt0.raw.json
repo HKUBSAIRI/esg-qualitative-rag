@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6fb62dd1-b2f6-94df-977a-47e7e187c458",
+  "object": "chat.completion",
+  "created": 1795743169,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p038\",\n      \"group_ids\": [\n        \"W1\",\n        \"W2\",\n        \"W4\",\n        \"W5\"\n      ],\n      \"quote\": \"信達生物嚴格遵守各運營地法律法規,依法為員工提供保險、住房公積金等基本保障。此外,我們還提供全面的補充福利, 例如補充醫療保險以及孕婦支持等。報告期內,我們的法定福利政策實現了全覆蓋,確保100%的信達生物員工都能夠享 受到公司提供的福利。2024年,信達生物舉辦了婦女節活動,並向所有女性員工發放節日禮金。\",\n      \"kind\": \"policy/mechanism/action/result\",\n      \"period\": \"報告期內/2024年\",\n      \"scope\": \"信達生物員工/所有女性員工\",\n      \"relevance\": \"披露了法定社保公积金及补充医疗等具体福利政策(W1, W2)，明确了适用对象为全体员工(W4)，并陈述了报告期内实现全覆盖及发放节日礼金的事实(W5)。\"\n    },\n    {\n      \"ref_id\": \"p040\",\n      \"group_ids\": [\n        \"W1\"\n      ],\n      \"quote\": \"最高比例的五險一金,含養老保險、醫療保險、失業保險、工傷保險、生育保險、住房公積金\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"列明了具体的法定社会保障项目（五险一金），符合W1要求。\"\n    },\n    {\n      \"ref_id\": \"p046\",\n      \"group_ids\": [\n        \"W2\"\n      ],\n      \"quote\": \"補充商業醫療保險和員工年度體檢\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了具体的补充福利安排（商业保险、体检），符合W2要求。\"\n    },\n    {\n      \"ref_id\": \"p043\",\n      \"group_ids\": [\n        \"W2\"\n      ],\n      \"quote\": \"交通補貼、通訊補貼和膳食補貼\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了具体的补贴类补充福利，符合W2要求。\"\n    },\n    {\n      \"ref_id\": \"p050\",\n      \"group_ids\": [\n        \"W3\"\n      ],\n      \"quote\": \"建立母嬰室並在食堂設立孕婦綠色通道\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"孕妇/母婴\",\n      \"relevance\": \"披露了面向员工的家庭与生活支持资源（母婴室、绿色通道），符合W3要求。\"\n    },\n    {\n      \"ref_id\": \"p042\",\n      \"group_ids\": [\n        \"W2\",\n        \"W4\"\n      ],\n      \"quote\": \"帶薪年休假和信達福利年假(每在信達生物服務滿 一年,可多享受一天福利年假)\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"服务满一年的员工\",\n      \"relevance\": \"披露了具体的假期福利(W2)及其取得规则（服务满一年）(W4)。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11205,
+    "total_tokens": 12014,
+    "completion_tokens": 809,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11205
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-65f0ff2e-db76-9b39-9886-fd2eb721bae7",
+  "object": "chat.completion",
+  "created": 1795732788,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"工资核算规则/薪酬政策定期审查\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还、复核）或已完成纠正事实。e002仅披露一般员工在线查询的处理结果，未明确涉及工资支付问题补救。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1212,
+    "total_tokens": 1431,
+    "completion_tokens": 219,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1212
+    }
+  }
+}

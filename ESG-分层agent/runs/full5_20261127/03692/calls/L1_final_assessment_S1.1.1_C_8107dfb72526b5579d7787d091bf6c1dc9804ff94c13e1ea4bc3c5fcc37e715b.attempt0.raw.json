@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f08d2305-7402-9022-84e4-453a4d53f1c2",
+  "object": "chat.completion",
+  "created": 1795730367,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"披露了解雇/终止合作的处理措施，符合裁员程序组关于‘与裁员有关的通知、协商、补偿或离职争议处理制度、具体安排或事实’的条件。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"缺少评分年度（2025年）已经发生的终止补偿支付、就业安置、离职保障受益或相应有效纠正结果的具体事实证据。现有证据仅涉及违规处理措施（e001）和工时/加班补偿政策（e002），未体现针对正常裁员或解雇的实际当期财务支付或安置结果。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1170,
+    "total_tokens": 1421,
+    "completion_tokens": 251,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1170
+    }
+  }
+}

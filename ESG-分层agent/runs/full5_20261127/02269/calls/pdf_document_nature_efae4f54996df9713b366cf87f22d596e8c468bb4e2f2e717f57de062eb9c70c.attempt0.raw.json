@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-adaeb114-e16c-94fe-8fe6-77a1559865f7",
+  "object": "chat.completion",
+  "created": 1795744762,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"annual\",\n  \"report_year\": 2024,\n  \"publisher\": \"藥明生物技術有限公司\",\n  \"basis\": \"文件封面及页眉明确标注“2024年度報告”，目录包含“董事長及首席執行官報告”、“財務摘要”、“管理層討論及分析”、“獨立核數師報告”及“綜合財務報表附註”等典型年报章节，正文开头提及“提呈本集團二零二四年年度報告”。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1667,
+    "total_tokens": 1780,
+    "completion_tokens": 113,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1667
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a082c224-b1e8-9143-8691-0eb07751b5e7",
+  "object": "chat.completion",
+  "created": 1795731357,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别具体支付保障内容，只有薪酬竞争力或一般激励描述\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别对应机制或事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"没有对应披露，只有不涉及工资支付的财务审计意见\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未说明工资支付保障对应的对象或范围，或只披露无直接关联的员工总人数或比例\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别对应机制或纠正事实\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1376,
+    "total_tokens": 1747,
+    "completion_tokens": 371,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1376
+    }
+  }
+}

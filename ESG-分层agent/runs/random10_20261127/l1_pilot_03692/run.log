@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/run_l1.py", line 109, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/run_l1.py", line 108, in main
+    p=argparse.ArgumentParser();p.add_argument('--index',type=Path,required=True);p.add_argument('--output',type=Path,required=True);p.add_argument('--env-file',type=Path,required=True);p.add_argument('--company',default='03692');a=p.parse_args();run(a.index,a.output,a.env_file,a.company)
+                                                                                                                                                                                                                                                       ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/run_l1.py", line 90, in run
+    reports.append(llm.ask('evidence_gap_'+indicator.replace(' ','_')+'_'+str(number),prompt,dict(groups=groups,general_rules=config['general_rules'],paragraphs=batch,coverage='候选批次；非全文覆盖'),validate))
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/llm.py", line 26, in ask
+    if attempt==2:raise RuntimeError('LLM/API or schema validation failed; see stage error log') from None
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: LLM/API or schema validation failed; see stage error log
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/run_l1.py", line 109, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/run_l1.py", line 108, in main
+    p=argparse.ArgumentParser();p.add_argument('--index',type=Path,required=True);p.add_argument('--output',type=Path,required=True);p.add_argument('--env-file',type=Path,required=True);p.add_argument('--company',default='03692');a=p.parse_args();run(a.index,a.output,a.env_file,a.company)
+                                                                                                                                                                                                                                                       ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/run_l1.py", line 90, in run
+    reports.append(llm.ask('evidence_gap_'+indicator.replace(' ','_')+'_'+str(number),prompt,dict(groups=groups,general_rules=config['general_rules'],paragraphs=batch,coverage='候选批次；非全文覆盖'),validate))
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/llm.py", line 27, in ask
+    if attempt==2:raise RuntimeError('LLM/API or schema validation failed; see stage error log') from None
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: LLM/API or schema validation failed; see stage error log

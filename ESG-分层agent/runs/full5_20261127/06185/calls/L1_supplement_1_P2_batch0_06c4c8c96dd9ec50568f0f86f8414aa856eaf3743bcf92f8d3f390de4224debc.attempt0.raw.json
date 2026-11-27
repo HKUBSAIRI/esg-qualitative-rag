@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-68cdbc96-6f1c-9a3c-9128-1ca02dc83c94",
+  "object": "chat.completion",
+  "created": 1795745636,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"In accordance with the Employee Handbook , the Company has established an employee grievance mechanism. Where employees believe their rights or interests have been adversely affected, they may submit written grievance materials through designated channels. Upon receipt of a grievance, the Company will promptly initiate an investigation process and handle the matter with rigor and impartiality, while keeping management informed of the progress and outcome of the investigation in a timely manner. The Company places a high priority on privacy protection and keeps complainants' personal information strictly confidential to ensure the security of their privacy, while also ensuring that the handling outcome is communicated to employees in a timely manner.\",\n      \"kind\": \"mechanism\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"employees whose rights or interests have been adversely affected\",\n      \"relevance\": \"Discloses an employee grievance mechanism where employees can submit written materials regarding adverse effects on rights/interests (which includes salary issues), with defined investigation and feedback processes.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1098,
+    "total_tokens": 1369,
+    "completion_tokens": 271,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1098
+    }
+  }
+}

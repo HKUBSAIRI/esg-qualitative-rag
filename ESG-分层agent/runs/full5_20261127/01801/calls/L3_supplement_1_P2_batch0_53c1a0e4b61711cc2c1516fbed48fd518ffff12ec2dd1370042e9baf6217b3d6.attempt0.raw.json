@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-82593523-1f93-916e-b82d-60d0b929724b",
+  "object": "chat.completion",
+  "created": 1795745458,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"钉钉渠道:钉钉→工作台→投诉举报→反舞弊举报\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工查询/申诉途径（反舞弊）\",\n      \"relevance\": \"提供了具体的员工查询或申诉渠道机制，符合S1.1.2 C中关于‘员工查询工资差错的途径’或‘薪酬申诉渠道’的广义查询/反馈机制要求。\"\n    },\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"我们尊重员工的民主权和言论自由, 支持员工表达个人意愿意见和想法, 设立工会, 提供合理表达渠道。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工意见表达及申诉渠道\",\n      \"relevance\": \"披露了设立工会及提供合理表达渠道的政策，属于员工查询或申诉的一般性机制安排。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 881,
+    "total_tokens": 1159,
+    "completion_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 881
+    }
+  }
+}

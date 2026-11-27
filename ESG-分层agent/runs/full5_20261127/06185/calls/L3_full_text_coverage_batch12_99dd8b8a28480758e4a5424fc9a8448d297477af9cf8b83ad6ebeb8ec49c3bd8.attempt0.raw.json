@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-df9fcde4-4314-9855-88d1-e44e9cc37e4f",
+  "object": "chat.completion",
+  "created": 1795731222,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p049\",\n      \"group_ids\": [\n        \"P3\"\n      ],\n      \"quote\": \"(四)负责对公司薪酬制度执行情况进行监督;\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"公司薪酬制度执行情况\",\n      \"relevance\": \"披露了董事会薪酬与考核委员会对薪酬制度执行情况的监督职责，属于工资支付监测或内部审查的制度安排。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12321,
+    "total_tokens": 12446,
+    "completion_tokens": 125,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 12321
+    }
+  }
+}

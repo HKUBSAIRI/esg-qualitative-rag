@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-309b8b88-7aa1-9947-9310-e90bb460b87a",
+  "object": "chat.completion",
+  "created": 1795739791,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p040\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"We are committed to ensuring fair and equitable treatment at work in terms of labor matters such as hiring, compensation, training opportunities, promotion, termination of employment or retirement, without relation to or support any decisions based on race, social class, religious belief, disability status, gender, sexual orientation, age, marital status, pregnancy, union membership or political affiliation.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"WuXi Biologics (Cayman) Inc.及其全球控股子公司和关联公司\",\n      \"relevance\": \"披露了关于终止雇佣（termination of employment）等劳动事项的公平待遇政策，涉及劳动合同保障中的权利义务原则。\"\n    },\n    {\n      \"ref_id\": \"p051\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"If any employee is proved to have engaged in any form of workplace harassment after investigation, he/she will be considered as a serious violation of the Company's system and will be subject to disciplinary action or even termination of employment relationship.\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"WuXi Biologics (Cayman) Inc.及其全球控股子公司和关联公司\",\n      \"relevance\": \"披露了解除劳动关系（termination of employment relationship）的具体情形（经调查证实的骚扰行为），属于裁员/解雇程序中的事实依据或制度安排。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10055,
+    "total_tokens": 10426,
+    "completion_tokens": 371,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 10055
+    }
+  }
+}

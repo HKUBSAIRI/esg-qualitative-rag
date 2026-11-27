@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-bcd1a5de-34dc-90fe-a3a6-2819cd2aa4a2",
+  "object": "chat.completion",
+  "created": 1795744486,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"policy\",\n  \"report_year\": null,\n  \"publisher\": \"中远海运能源运输股份有限公司\",\n  \"basis\": \"文件主体内容为《年报信息披露重大差错责任追究制度》，属于公司内部具体管理制度。虽然以海外监管公告形式发布，但实质为制度文本而非一般性通函或财报。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1527,
+    "total_tokens": 1603,
+    "completion_tokens": 76,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1527
+    }
+  }
+}

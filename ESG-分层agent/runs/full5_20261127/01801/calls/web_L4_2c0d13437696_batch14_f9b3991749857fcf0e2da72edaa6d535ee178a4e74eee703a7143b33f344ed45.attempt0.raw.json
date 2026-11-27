@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6baf50cc-b79b-9adf-b1ba-7599485314e5",
+  "object": "chat.completion",
+  "created": 1795743162,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p043\",\n      \"group_ids\": [\n        \"W2\"\n      ],\n      \"quote\": \"信達生物建立了股權激勵與研發人才激勵制度,基於績效評估的表現,對優秀員工進行經濟獎勵。股權激勵依照崗位以及 員工績效發放,所有員工都有機會參與股權激勵項目。2024年,參與股權激勵計劃的員工覆蓋正式員工總數的20%。\",\n      \"kind\": \"action/result\",\n      \"period\": \"2024年\",\n      \"scope\": \"正式員工\",\n      \"relevance\": \"披露了面向员工的补充福利（股权激励）的具体安排及当期覆盖事实，符合W2补充福利及W5实际覆盖要求。\"\n    },\n    {\n      \"ref_id\": \"p044\",\n      \"group_ids\": [\n        \"W4\"\n      ],\n      \"quote\": \"股權激勵包括股票期權計劃和限制性股票激勵計劃,每 年面向關鍵崗位人員和年度績效為A/A+的員工發放,由 薪酬委員會和董事會批准。所有員工都有機會獲得股權 激勵。\",\n      \"kind\": \"policy/mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"关键岗位人员和年度绩效为A/A+的员工/所有员工\",\n      \"relevance\": \"披露了福利（股权激励）的具体取得规则、适用对象及审批机制，符合W4福利取得规则要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11038,
+    "total_tokens": 11392,
+    "completion_tokens": 354,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11038
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d40b6be6-0fa2-9bcd-a5df-d9ef27262aae",
+  "object": "chat.completion",
+  "created": 1795730791,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"e001: Discloses a mechanism for reviewing compensation in connection with loss or termination of office/appointment (directors and senior management), satisfying the condition for 'compensation... system/arrangement'.\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"Specific current period termination compensation payments, severance pay amounts, or employment placement results. e002 discloses total staff cost, which is an aggregate figure not explicitly identified as termination/severance compensation required by E5's condition ('actual correction results', 'termination compensation payment').\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1210,
+    "total_tokens": 1462,
+    "completion_tokens": 252,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1210
+    }
+  }
+}

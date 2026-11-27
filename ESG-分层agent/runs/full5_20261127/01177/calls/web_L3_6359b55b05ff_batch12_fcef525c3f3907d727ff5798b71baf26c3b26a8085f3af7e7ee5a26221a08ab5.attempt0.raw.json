@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-981a136a-da79-900f-a117-776b728b10a4",
+  "object": "chat.completion",
+  "created": 1795744647,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p027\",\n      \"group_ids\": [\n        \"T5\"\n      ],\n      \"quote\": \"1.带薪年休假\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工福利矩阵\",\n      \"relevance\": \"披露了带薪年休假制度，属于工时休假相关机制，但未提供当期实际执行或纠正结果数据。\"\n    },\n    {\n      \"ref_id\": \"p062\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"2022年,集团启动员工满意度及敬业度调查,旨在通过 了解员工对公司的客观评价,全面评估公司雇佣情况和 各项措施对员工的影响,并以此为依据采取针对性改善 措施。2022年,集团员工满意度调查结果90.3%。\",\n      \"kind\": \"result\",\n      \"period\": \"2022年\",\n      \"scope\": \"集团\",\n      \"relevance\": \"披露了2022年员工满意度调查结果，但未披露离职率具体数值或口径。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10310,
+    "total_tokens": 10585,
+    "completion_tokens": 275,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10310
+    }
+  }
+}

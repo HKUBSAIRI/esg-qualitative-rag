@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e6087766-a273-92e2-9c82-876ec7caeb0b",
+  "object": "chat.completion",
+  "created": 1795739782,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p065\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"(f) 檢討及批准向本公司執行董事及高級管理人員就喪失或終止職 務或委任而須支付的賠償,以確保該等賠償與合約條款一致; 若未能與合約條款一致,賠償亦須公平合理,不致過多;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"本公司执行董事及高级管理人员\",\n      \"relevance\": \"披露了关于终止职务赔偿的审查与批准机制，属于裁员/解雇相关的补偿制度安排。\"\n    },\n    {\n      \"ref_id\": \"p066\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"(g) 檢討及批准因董事行為失當而辭退或罷免有關董事所涉及的賠 償安排,以確保該等安排與合約條款一致;若未能與合約條款\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"因行为失当被辞退或罢免的董事\",\n      \"relevance\": \"披露了针对辞退或罢免董事的赔偿安排审查机制，涉及离职争议处理及补偿制度。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9828,
+    "total_tokens": 10145,
+    "completion_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 9828
+    }
+  }
+}

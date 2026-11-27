@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b0177b8e-686f-9c82-a262-ae56fae34e27",
+  "object": "chat.completion",
+  "created": 1795746224,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\"\n  ],\n  \"reason\": \"候选 e001 直接提供了评分年度（2025）的员工流失率具体数值（10%），满足指标 S1.1.1 C 中‘披露评分年度的员工离职率情况’的核心判据。尽管其口径标注为‘未明确’，但作为原始数据源，它构成了支持结论成立的必要事实基础（即存在当期数值）。若完全核实该引文，将直接消除 assessment 中关于‘verification_missing: 当期离职率具体数值’的疑虑，从而实质影响对证据充分性的判断。候选 e004 仅涉及定义公式，不包含当期具体数值，不影响对‘是否披露了当期离职率数值’这一核心条件的判定。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 895,
+    "total_tokens": 1072,
+    "completion_tokens": 177,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 895
+    }
+  }
+}

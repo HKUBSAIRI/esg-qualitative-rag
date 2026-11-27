@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-90bdaaad-78e1-98b1-9d9e-e1d9bc15b4a4",
+  "object": "chat.completion",
+  "created": 1795743715,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p046\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"《員工多元化政策》\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了名为“员工多元化政策”的内部制度，虽标题为多元化，但在ESG语境下通常涵盖反歧视与平等机会保障，作为最接近的关联证据提取。\"\n    },\n    {\n      \"ref_id\": \"p041\",\n      \"group_ids\": [\n        \"D3\",\n        \"D4\"\n      ],\n      \"quote\": \"《舉報及舉報人保護政策》\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"举报人/投诉人\",\n      \"relevance\": \"披露了适用于举报（可能包含歧视或骚扰投诉）的受理及举报人保护政策，涉及投诉处理机制及对申诉人的保护措施。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11008,
+    "total_tokens": 11261,
+    "completion_tokens": 253,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11008
+    }
+  }
+}

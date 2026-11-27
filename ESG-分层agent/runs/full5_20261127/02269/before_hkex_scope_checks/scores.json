@@ -1,0 +1,278 @@
+[
+  {
+    "indicator_id": "S1.1.1 C",
+    "groups": [
+      {
+        "group_id": "E1",
+        "status": "pending_review",
+        "score": null,
+        "reason": "关键证据无法核实。虽然检索记录显示内容充分（披露了2025年员工流失率具体数值及口径），但评估状态标记为'pending_review'，且存在'decision_relevant_quote_unverified'问题，指出支持核心结论的证据ID（C_4b8aff83c6dd68fb614cdc4b_48b05b8a52c71be9等）未通过验证。根据规则，关键事实冲突或必要材料覆盖未确认/无法核实时需挂起。；程序保留未决覆盖/原文核验问题。",
+        "evidence_ids": []
+      },
+      {
+        "group_id": "E2",
+        "status": "verified",
+        "score": 0,
+        "reason": "完成核查未识别当期离职率具体数值对应的劳动合同保障内容。现有证据（e006, e007）仅涉及违纪解除劳动合同的政策，属于纪律处分范畴，不符合'E2 劳动合同保障'中要求的依法签订、续签、期限、签订率等正面保障措施的具体政策、安排或事实。检索状态为'relevant_evidence_found'但评估判定'content_sufficient: false'，且无其他支持性证据，故判0分。",
+        "evidence_ids": [
+          "C_7501f2234a1fecf308eddeb6_69c4906370e4115d",
+          "C_0a48ba2f39db6243b621dbce_89ebadf4806aebc4"
+        ]
+      },
+      {
+        "group_id": "E3",
+        "status": "verified",
+        "score": 100,
+        "reason": "披露了与裁员/解雇相关的制度安排。证据e008明确披露了在严重违反利益冲突制度导致损失时，公司可采取终止劳动合同的纪律处分措施，这属于'与裁员有关的通知、协商、补偿或离职争议处理制度、具体安排或事实'中的解雇/解除劳动关系制度。检索记录显示'verified_support_sufficient: true'，符合判100条件。",
+        "evidence_ids": [
+          "C_0a48ba2f39db6243b621dbce_de91f6250d42277f"
+        ]
+      },
+      {
+        "group_id": "E4",
+        "status": "verified",
+        "score": 100,
+        "reason": "披露了员工内部招聘、转岗或岗位轮换的制度。证据e009明确提到'支持員工通過專案、轉崗等方式橫向發展'以及推出'活水計劃'以促进跨地区和跨部门的人才流动，并提及2025年持续优化内部人才流动项目。这符合'E4 员工安置支持'中关于内部竞聘、转岗或岗位轮换制度的要求。检索记录显示'verified_support_sufficient: true'，符合判100条件。",
+        "evidence_ids": [
+          "C_7680e6640cca7db66b1acd0a_76c227745b02fe9b"
+        ]
+      },
+      {
+        "group_id": "E5",
+        "status": "verified",
+        "score": 0,
+        "reason": "没有实际纠正结果，只有政策、计划或承诺。检索状态为'no_relevant_evidence_found'，评估判定'content_sufficient: false'，明确指出未识别当期已发生的终止补偿支付、就业安置受益等具体事实。E5组要求证明当期实际发生的事实，仅有政策或一般性描述不足以得分。",
+        "evidence_ids": []
+      }
+    ],
+    "base_score": null,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": []
+  },
+  {
+    "indicator_id": "S1.1.2 C",
+    "groups": [
+      {
+        "group_id": "P1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001明确披露提供不低于最低工资标准的薪酬，e002披露支付加班薪资政策，符合‘具体保障政策或事实’条件。",
+        "evidence_ids": [
+          "C_741898c516f7d342d728f621_a6b19233e1afcf86",
+          "C_87e79ffeb1a7d8d2c311fbf9_bd8f33812751d772"
+        ]
+      },
+      {
+        "group_id": "P2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003披露了基于资格、职位和绩效确定薪酬包的具体机制，属于工资处理及核算规则范畴，满足条件。",
+        "evidence_ids": [
+          "C_624e28ab6aade0c052aaeea3_f7e0e17ee4640981"
+        ]
+      },
+      {
+        "group_id": "P3",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e004披露定期开展薪酬监测与分析、薪酬公平性审查，以及2025年启动覆盖全员的生活工资评估，属于与工资支付直接相关的内部审查/监测机制。",
+        "evidence_ids": [
+          "C_741898c516f7d342d728f621_5e475caeac779cae"
+        ]
+      },
+      {
+        "group_id": "P4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e005明确生活工资评估（作为工资保障相关举措）覆盖对象为‘全员’及‘所有运营地’，明确了保障政策的适用员工对象。",
+        "evidence_ids": [
+          "C_741898c516f7d342d728f621_cdc699bac2146494"
+        ]
+      },
+      {
+        "group_id": "P5",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索完成且无相关证据。未识别针对工资差错、欠薪等问题的具体补救机制或已完成纠正的事实。根据规则，无事件不自动得分，缺披露判0。",
+        "evidence_ids": []
+      }
+    ],
+    "base_score": 80.0,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  },
+  {
+    "indicator_id": "S1.1.3",
+    "groups": [
+      {
+        "group_id": "T1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001明确披露了公司设立最长工作时间限制，属于具体工时控制政策，满足T1判分条件。",
+        "evidence_ids": [
+          "C_87e79ffeb1a7d8d2c311fbf9_bf14c92085e7db04"
+        ]
+      },
+      {
+        "group_id": "T2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e002披露了通过系统管理加班情况、避免过度加班以及支付加班薪资或安排调休的具体措施，符合加班管理政策的判分要求。",
+        "evidence_ids": [
+          "C_87e79ffeb1a7d8d2c311fbf9_1faeacae368f8760"
+        ]
+      },
+      {
+        "group_id": "T3",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003明确承诺为所有员工提供带薪年假、福利年假及高温假等休息休假权利，满足T3关于明确权利或取得安排的判分条件。",
+        "evidence_ids": [
+          "C_87e79ffeb1a7d8d2c311fbf9_9b35c7953a3bae69"
+        ]
+      },
+      {
+        "group_id": "T4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e004披露了利用线上系统追踪假期使用情况并向员工发送提醒的具体管理机制，满足T4关于工时及休假管理机制的判分条件。",
+        "evidence_ids": [
+          "C_87e79ffeb1a7d8d2c311fbf9_84337a2e2e1647f7"
+        ]
+      },
+      {
+        "group_id": "T5",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索记录显示search_complete=true且无相关当期实际执行或结果证据（如当期检查数据、实际休假使用比例等）。仅有制度或工具名称不足以支持T5得分，故判0。",
+        "evidence_ids": []
+      }
+    ],
+    "base_score": 80.0,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  },
+  {
+    "indicator_id": "S1.1.4",
+    "groups": [
+      {
+        "group_id": "W1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001明确披露公司为员工缴纳各项社会保险，符合法定社会保障及基本福利的判分条件。",
+        "evidence_ids": [
+          "C_b08a6b16ee3cbe84a35aa601_a8f41e51351b8ec4"
+        ]
+      },
+      {
+        "group_id": "W2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001披露提供带薪育儿假、通勤补贴、全球医疗保险等非薪酬类福利；证据e003披露商业保险套餐安排。符合补充福利判分条件。",
+        "evidence_ids": [
+          "C_b08a6b16ee3cbe84a35aa601_a8f41e51351b8ec4",
+          "C_0b753c9d4a4070d4b68d3e23_5b8aeb606f4f5c3c"
+        ]
+      },
+      {
+        "group_id": "W3",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001披露提供父母陪护假、配偶或子女服务性支持；证据e002披露开通心理援助(EAP)热线及咨询。符合家庭与生活支持判分条件。",
+        "evidence_ids": [
+          "C_b08a6b16ee3cbe84a35aa601_a8f41e51351b8ec4",
+          "C_b9eb3ddc55995fd9598ad5d9_2c3eeceedcbc866c"
+        ]
+      },
+      {
+        "group_id": "W4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003明确商业保险的取得规则为员工自主购买及适用对象（含家属）；证据e001提及向所有员工提供福利。符合福利取得规则判分条件。",
+        "evidence_ids": [
+          "C_b08a6b16ee3cbe84a35aa601_a8f41e51351b8ec4",
+          "C_0b753c9d4a4070d4b68d3e23_5b8aeb606f4f5c3c"
+        ]
+      },
+      {
+        "group_id": "W5",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e004明确披露2025年度已发生“及时且足额缴纳各项社会保险”的事实，满足当期实际覆盖/使用/受益的要求。",
+        "evidence_ids": [
+          "C_b08a6b16ee3cbe84a35aa601_669f4622cfa2f376"
+        ]
+      }
+    ],
+    "base_score": 100.0,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  },
+  {
+    "indicator_id": "S1.1.5",
+    "groups": [
+      {
+        "group_id": "D1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001明确披露严禁基于民族、种族、性别等身份特征的歧视行为，符合反歧视政策与保障的判分条件。",
+        "evidence_ids": [
+          "C_5b32415ea0d2386a35e8756f_9ad574a6efee45dd"
+        ]
+      },
+      {
+        "group_id": "D2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001明确披露严禁包括骚扰在内的非人道对待，符合反骚扰政策与保障的判分条件。",
+        "evidence_ids": [
+          "C_5b32415ea0d2386a35e8756f_9ad574a6efee45dd"
+        ]
+      },
+      {
+        "group_id": "D3",
+        "status": "pending_review",
+        "score": null,
+        "reason": "虽然证据e002和e003显示存在鼓励报告及调查机制，但检索记录标记search_complete=false且issues包含necessary_material_coverage_not_confirmed，依据规则需确认必要材料覆盖后方可定分。；程序保留未决覆盖/原文核验问题。",
+        "evidence_ids": [
+          "C_5b32415ea0d2386a35e8756f_5aabcbb4bab1c23c",
+          "C_e578a4bdb7edf30c538b84ea_5208e25854f2b5f0"
+        ]
+      },
+      {
+        "group_id": "D4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003明确披露允许匿名举报、保密调查以及严格禁止对善意举报人进行报复，符合申诉人与受影响人员保护的判分条件。",
+        "evidence_ids": [
+          "C_e578a4bdb7edf30c538b84ea_5208e25854f2b5f0"
+        ]
+      },
+      {
+        "group_id": "D5",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e004披露针对已确认的违规案件实施相应的纪律处分并发布调查报告，构成责任追究与纠正补救机制，符合判分条件。",
+        "evidence_ids": [
+          "C_95d6d7d15bd3f4e4b9c18216_6a01910531029623"
+        ]
+      }
+    ],
+    "base_score": null,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  }
+]

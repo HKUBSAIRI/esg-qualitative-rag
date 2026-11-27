@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-26dfe24d-1ec5-9147-882a-b818b73cdaac",
+  "object": "chat.completion",
+  "created": 1795736585,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"薪酬待遇包括薪金、花紅、僱員公積金及社會保障供款、其他福利付款及以股份為基礎的付款開支。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"本公司僱員\",\n      \"relevance\": \"披露了薪酬待遇的具体构成内容，包含薪金等支付项目，符合识别具体支付内容的要求。\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"P4\"\n      ],\n      \"quote\": \"於2025年6月30日，本公司總共有6,190名僱員（於2024年12月31日：5,659名僱員），其中研發人員1,100多名，化學、製造和控制人員1,000多名以及銷售及市場推廣人員3,600多名。本公司僱員的薪酬政策及待遇方案乃定期接受審閱。\",\n      \"kind\": \"result\",\n      \"period\": \"截至2025年6月30日\",\n      \"scope\": \"本公司全体雇员\",\n      \"relevance\": \"明确了薪酬政策适用的对象为本公司雇员，并提供了具体的员工总数及分类人数，界定了覆盖范围。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11771,
+    "total_tokens": 12122,
+    "completion_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11771
+    }
+  }
+}

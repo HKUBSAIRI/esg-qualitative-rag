@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html lang="zh-HK" class="news-hkex">
+<head>
+    <title>搜尋結果</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link href="/ncms/images/favicon.ico" rel="icon" />
+
+    <link href="/ncms/css/main.css" rel="stylesheet">
+    <link href="/Search/custom/lib/jqpagi/jqpagination.css" rel="stylesheet" />
+    <link href="/Search/custom/css/gts_custom.css" rel="stylesheet" />
+    <!--<link href="/ncms/lib/pagination_zh.css" rel="stylesheet" />-->
+
+
+    <script type="text/javascript" src="/ncms/script/hkex_app.js"></script>
+    <script type="text/javascript" src="/ncms/script/hkex_settings.js"></script>
+    <script type="text/javascript" src="/ncms/script/hkex_widget.js"></script>
+
+    <script type="text/javascript">
+        var pageDefaultTitle = "搜尋結果";
+        var pageCode = "CH";
+		var date_sc_lang = "zh-HK";
+    </script>
+    <script id="siteSearchTrTemplate" type="text/x-jsrender">
+        <div class="search-results__content-result">
+            <div class="search-results__content-result-index">
+                {{:#index+1}}
+            </div>
+            <div class="search-results__content-result-details">
+                <div class="search-results__content-result-date">{{>LastModify}}</div>
+                <div class="search-results__content-result-title">
+                    <a class="result-link" href="{{>FilePath}}" target="_blank" >{{>Title}}</a>
+                    <span class="file-size">({{:~format(FileSize)}})</span><span class="{{>FileType}}"></span>
+                </div>
+                <p class="result">{{:HighlightedSummary}}</p>
+                <a href="{{>FilePath}}" target="_blank" >{{>FilePath}}</a>
+            </div>
+        </div>
+    </script>
+
+
+
+
+</head>
+
+<body>
+    <script type="text/javascript" src="/ncms/script/vendor.js"></script>
+    <!-- CMS Control Header START -->
+    <script type="text/javascript" src="/ncms/script/hkex_head_c.js"></script>
+    <!-- CMS Control Header END -->
+    <!-- Search Panel -->
+    <div id="hkex_news_header_section" class="contentsearch-header-section">
+        <section class="eps-search-bar search-bar content-search-search-bar">
+            <div class="container search-component">
+                <div class="filter__container-eps search-bar-filter__container">
+                    <div class="filter__buttonGroup-mobile">
+						<a tabindex="0" class="btn-close-overlay" href="#">X</a>
+					</div>
+                    <div class="filter__inputGroup">
+                        <ul>
+                            <li class="filter__container-input searchAll">
+                                <div class="form-input-text">
+                                    <label for="searchAllWords">包含全部的字詞</label>
+                                    <input id="searchAllWords" type="text" placeholder="關鍵字">
+                                </div>
+                            </li>
+                            <li class="filter__container-input searchExact">
+                                <div class="form-input-text">
+                                    <label for="searchExact">包含完整的字句</label>
+                                    <input id="searchExact" type="text" placeholder="完整的字句">
+                                </div>
+                            </li>
+                            <li class="filter__container-input searchAny">
+                                <div class="form-input-text">
+                                    <label for="searchAnyWords">包含任何一個字詞</label>
+                                    <input id="searchAnyWords" type="text" placeholder="關鍵字">
+                                </div>
+                            </li>
+                            <li class="filter__container-input searchNone">
+                                <div class="form-input-text">
+                                    <label for="searchNoneWords">不包括指定字詞</label>
+                                    <input id="searchNoneWords" type="text" placeholder="關鍵字">
+                                </div>
+                            </li>
+                            <li class="filter__container-input searchFileType" >
+                                <div class="form-input-text">
+                                    <label for="searchSecuritiesType">文件類型</label>
+                                    <div class="combobox-group filter__dropdown-js"  >
+                                        <div class="combobox-body" id="searchFileType">
+                                            <div class="combobox-trigger-wrap">
+                                                <div class="combobox-input-wrap" style="height: 47px;">
+                                                    <a class="combobox-field" data-select="true" data-value="current-securities" href="" aria-expanded="false">所有</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="combobox-boundlist" aria-expanded="false" style="display: none;">
+                                            <div class="combobox-picker-list-wrap">
+                                                <div class="droplist-group">
+                                                    <div class="combobox-list-scroll-div" style="position: relative; overflow: visible; width: auto; max-height: 300px;">
+                                                        <div class="droplist-items" style="overflow: hidden; width: auto; max-height: 300px;">
+                                                            <div class="droplist-item" data-value="" data-select-target="true" data-select-default="true"><a href="">所有</a></div>
+															<div class="droplist-item" data-value="pdf" data-select-target="false"><a href="">PDF 文件</a></div>
+                                                            <div class="droplist-item" data-value="word" data-select-target="false"><a href="">Word 文件</a></div>
+                                                            <div class="droplist-item" data-value="excel" data-select-target="false"><a href="">Excel 文件</a></div>
+                                                            <div class="droplist-item" data-value="webpages" data-select-target="false"><a href="">網頁</a></div>
+                                                        </div>
+														 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="filter__container-input searchButton desktop-hidden content-search-searchButton">
+                                <div class="filter__buttonGroup"  >
+									<a class="btn-clearall filter__btn-clearallFilters-js" href="">清 除</a>
+									<a class="btn-blue filter__btn-applyFilters-js" name="searchButton" href="javascript:void(0);" >搜 尋</a>
+								</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filter__buttonGroup tablet-hidden mobile-hidden" >
+                        <a class="btn-clearall filter__btn-clearallFilters-js" href=""> 清 除 </a>
+                        <a id="PageSearchButton" class="btn-blue filter__btn-applyFilters-js" id="aBtnSearch" name="searchButton" href="javascript:void(0);"  >搜 尋</a>
+                    </div>
+                </div>
+            </div>
+             <div class="search-bar__mobile-buttons">
+				    <a tabindex="0" class="search-bar__mobile-edit-button">Edit</a>
+			    </div>
+        </section>
+        
+    </div>
+    <!-- CMS Control PageBanner START -->
+    <script type="text/javascript" src="/ncms/script/hkex_pagebanner_c.js"></script>
+    <!-- CMS Control PageBanner END -->
+
+    <div id="skip-to-content"></div>
+ 
+    <div class="content-container content-container-reset">
+        <!-- main -->
+
+        <div class="container content-container content-search-container content-container-reset">
+            <!-- Conent HERE -->
+            <main class="search__main">
+					<div id="loadingSection" class="Loading">
+						 <img src="/ncms/images/videocontrol/video_loading.gif" ></img>
+					</div>
+                <section class="search-results">
+                    <div class=" title-search-topbar content-search-topbar clearfix">
+                        <div class="title-search-info-footer content-search-info-footer">
+                             <div class="total-records"><span id="resultTotalCount">0</span>個結果 (總搜尋結果是約數，只供參考。) 
+							第<span id="resultCurrentPage">1</span>頁，
+							共<span id="resultTotalPage">1</span>頁。</div>
+                        </div>
+                    </div>
+                    <div id="SearchResultPanel" style="display:none" >
+					<div class="search-results__content search-page-container">
+                        <div class="search-results__content-result">
+                            <div id="divChangeSortMsgBtn" class="sortingOnMobile">
+                                <span>Sort by:</span>
+                                <a href=" " class="sortOptions active">Relevance</a>
+                                <a href=" " class="sortOptions last">Modified Date</a>
+                            </div>
+                            <div class="search-results__content-criteria">
+
+                            </div>
+                            <div class="search-results__content-container" id="tblQueryResult">
+                            </div>
+                        </div>
+                    </div>
+                   <!--<div class="search-results__content-pagenation" id="paginationDIV"></div>-->
+                    <div class="PaginationParent" >
+                        <div class="PaginationChild">
+                            <div class="pagination">
+                                <a href="#" class="previous" data-action="previous"></a>
+                                <span class="pageText">第</span>
+                                <input type="text">
+                                <span class="pageText">頁，共<span id="TotalPage">0</span>頁</span>
+                                <a href="#" class="next" data-action="next"></a>
+                            </div>
+                        </div>
+                    </div>
+					</div>
+					<div  class="result-norecord" style="display:none" id="EmptyDataInfo">
+						找不到符合您搜尋的結果。<br/>
+						1. 請確保所有字詞拼寫正確。<br/>
+						2. 請嘗試使用不同的字詞。<br/>
+						3. 請使用比較普通的字詞。<br/>
+						4. 請嘗試使用更少的字詞。<br/>
+					</div>
+					<div  class="result-norecord" style="display:none" id="ErrorSearchInfo">
+						Your query included only common workds and / or characters, which were removed.<br/>
+						No Results are available.<br/>
+						Try to add query terms.<br/>
+					</div>
+                </section>
+               
+            </main>
+			        <div id="ccass-tools-container" style="display:none;">
+            <div class="tools-links-nav">
+                <ul class="tools-links">
+                    <li class="tools-link"></li>
+                </ul>
+            </div>
+            <div class="fancy-note-popup-wrap fancy-note">
+                <div class="fancy-note-popup" id="ccass-disclaimer" style="display: none;">
+                    <a class="fancy-note-close" href="#"></a>
+                    <div class="fancy-note-detail">
+                        <div class="fancy-note-title">免責聲明</div>
+                        <div class="fancy-note-desc">
+                          <p>載有本免責聲明的超連結的網頁所顯示的文件及資料在本網站上登載，目的是向香港公眾人士提供資料；其中的內容並非投資建議，不應倚賴其作為投資建議。在香港以外地區的人士在瀏覽及使用該等文件及資料前，須自行查閱及遵守所有適用法例及規定。</p>
+                          <p>請注意：該網頁載有由上市發行人、新上市申請人及有關人士以電子方式 (包括以電子格式提供的資料) 向香港交易所提供的文件及資料，而香港交易所與上述人士之間並無任何代理、僱員或合夥關係。香港交易所並不負責審查、編輯或監察該等文件及當中所載資料，有關文件內的資料全部未經香港交易所核實。</p>
+                          <p>香港交易所及/或其附屬公司對通過該網頁而取得的該等文件及資料的內容概不負責，對其準確性、可靠性、完整性或擁有權亦不發表任何聲明，並明確表示概不對任何因該等資料全部或任何部分內容而產生或因倚賴該等內容而引致的損失承擔任何責任。另外，有些文件及資料可能包含有連接到外部網站或網頁的超連結，香港交易所及/或其附屬公司對可否成功連接到有關網站或網頁及其所載內容亦概不負責。(見香港交易所「<a href="http://www2.hkexnews.hk/Global/Exchange/Hyperlink-Policy?sc_lang=zh-HK" ref="noopener noreferrer" target="_blank">超連結政策</a>」)。</p>
+                          <p>本聲明的內容概不構成或被視為香港交易所及其附屬公司放棄其專有的特權及豁免權又或對上述權力構成任何限制。</p>
+                          <p>通過該網頁而取得的資料及文件均具有版權，可能屬香港交易所、作者或任何其他人士所有，視乎刊物的情況而定。未經有關當事人同意，任何人士不得轉載、發布、使用及／或連結該等內容。</p>
+                          <p>如得悉或相信該等文件所載的任何資料不準確、錯誤、不合法、淫褻、誹謗或侵犯第三者的知識產權，請聯絡【香港交易所電子呈交小組】(HKEX e-Submission)，電郵地址： <a href="mailto:ESSHotline@hkex.com.hk">ESSHotline@hkex.com.hk</a>。</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="fancy-note-shade" style="display: none;"></div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $("#ccass-tools-container").each(function () {
+                var $this = $(this);
+                $(".tools-links-nav", $this).appendTo($(".banner__mobile_breadcrumb .banner__container .banner__pageheading").next(".tools"));
+                $(".fancy-note-popup-wrap", $this).appendTo(".banner__mobile_breadcrumb");
+              });
+            $("#ccass-tools-container").remove();
+            $("#ccass-tools-container").show();
+        </script>
+        </div>
+
+    </div>
+
+    <!-- CMS Control Footer START -->
+    <script type="text/javascript" src="/ncms/script/hkex_foot_c.js"></script>
+    <!-- CMS Control Footer END -->
+    <!-- NEWS Main Scripts START -->
+    <script type="text/javascript" src="/ncms/script/main.js"></script>
+    <!-- NEWS Main Scripts END -->
+     
+    <script type="text/javascript" src="/Search/custom/lib/jqpagi/jqPagination.js?tId=912"></script>
+    <script type="text/javascript" src="/Search/custom/lib/jsrender.min.js"></script>
+    <script type="text/javascript" src="/Search/custom/js/CommonResults.js?v=2208"></script>
+    <script type="text/javascript" src="/Search/custom/js/EPSQuery.js?id=302208"></script>
+	 <!-- Custom Scripts START -->
+	<script type="text/javascript" src="/search/custom/js/search.js"></script>
+	<script type="text/javascript">
+		$(".filter__inputGroup :text").keydown(function() {
+			if(event.keyCode=="13") {
+				$("#aBtnSearch").click();
+			}
+		});
+    </script>
+<script type="text/javascript" nonce="d8179b18fac1e3eea75591bf9622993b" src="/1KiERb_iGLFg3K-SKQ/bQaiw6afOOLa/agxsR2Ji/IjZ3axB/TVRB2AQ?v=2b683b6f-0eb4-b1ce-956e-7f83ed5a17d5" defer></script></body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-001c1eef-6082-9884-a142-dbab86cd4f90",
+  "object": "chat.completion",
+  "created": 1795745560,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本阶段仅核查严重事项及纠正。根据实际搜索日志，未执行网络搜索且本地监管/司法通知索引无结果（'No supplied L4 regulatory/judicial notice index'），导致无法确认是否已穷尽官方渠道查找严重员工福利或社会保障权益侵害事件。由于必要案件原件的覆盖范围尚未确认充分，不能直接判定为'no_verified_adverse_event_found'，需人工核验以确认是否存在未披露的严重违规事实或核实检索完整性。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"coverage_unconfirmed: local_only_official_coverage_unconfirmed\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5752,
+    "total_tokens": 5905,
+    "completion_tokens": 153,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5752
+    }
+  }
+}

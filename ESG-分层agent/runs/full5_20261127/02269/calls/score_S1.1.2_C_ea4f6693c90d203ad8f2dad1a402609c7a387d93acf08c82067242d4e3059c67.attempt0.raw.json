@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7e9341ca-c18a-92de-99b3-6be6b8cde45e",
+  "object": "chat.completion",
+  "created": 1795746269,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露提供不低于最低工资标准的薪酬，e002披露支付加班薪资政策，符合‘具体保障政策或事实’条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了基于资格、职位和绩效确定薪酬包的具体机制，属于工资处理及核算规则范畴，满足条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露定期开展薪酬监测与分析、薪酬公平性审查，以及2025年启动覆盖全员的生活工资评估，属于与工资支付直接相关的内部审查/监测机制。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005明确生活工资评估（作为工资保障相关举措）覆盖对象为‘全员’及‘所有运营地’，明确了保障政策的适用员工对象。\",\n      \"evidence_refs\": [\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索完成且无相关证据。未识别针对工资差错、欠薪等问题的具体补救机制或已完成纠正的事实。根据规则，无事件不自动得分，缺披露判0。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4079,
+    "total_tokens": 4566,
+    "completion_tokens": 487,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 4079
+    }
+  }
+}

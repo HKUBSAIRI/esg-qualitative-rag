@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f86ea6c3-f41e-963c-8739-1aba9d4bc67f",
+  "object": "chat.completion",
+  "created": 1795745627,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e003\"\n  ],\n  \"reason\": \"候选引文 e003 明确提及面向员工（scope: employees）的24/7心理支持热线和EAP课程，直接对应指标 S1.1.4 中关于‘心理咨询或员工援助计划（EAP）’的成立路径。即使该引文尚未完全核实，其内容若属实，足以满足披露要求并支撑本组结论，因此属于影响判分的必要证据候选。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 405,
+    "total_tokens": 522,
+    "completion_tokens": 117,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 405
+    }
+  }
+}

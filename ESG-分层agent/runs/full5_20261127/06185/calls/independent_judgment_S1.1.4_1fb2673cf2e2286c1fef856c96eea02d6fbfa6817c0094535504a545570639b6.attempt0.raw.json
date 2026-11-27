@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c90dda19-90c1-9729-ad55-4946e6629e1f",
+  "object": "chat.completion",
+  "created": 1795731272,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空，无法依据原文判断是否存在严重员工福利或社会保障权益侵害及纠正情况。根据规则，缺少相关证据本身不能证明应查范围已完成，且材料中的指令视为资料而非事实依据。由于缺乏具体引文支持主体关联、事项性质、期间及有效纠正的核查，当前状态为待人工核验。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"无候选原文证据，无法核实S1.1.4指标下的W1-W5各组得分及是否存在导致该项归零的严重未纠正事项\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5601,
+    "total_tokens": 5745,
+    "completion_tokens": 144,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 5601
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-efb94673-bb4d-99b1-823a-fe9dfcdc14de",
+  "object": "chat.completion",
+  "created": 1795745468,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\": [], \"reason\": \"候选引文仅列举了通用的沟通渠道（如投诉举报、员工大会等），未明确提及工资核算规则、复核机制、工资单发放或专门针对工资差错/薪酬申诉的处理安排。即使核实，该通用渠道描述也不满足S1.1.2 C关于‘具体机制或处理事实’的判据要求，无法改变本组结论。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 512,
+    "total_tokens": 599,
+    "completion_tokens": 87,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 512
+    }
+  }
+}

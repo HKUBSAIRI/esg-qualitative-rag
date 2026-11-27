@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4daa5efb-4c97-9f2d-b624-dd3d538f5ede",
+  "object": "chat.completion",
+  "created": 1795730857,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止就业歧视政策及同工同酬要求，并细化禁止基于性别、年龄等特征的歧视。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"明确披露对职场骚扰（含性骚扰）的零容忍政策。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露适用于歧视和骚扰投诉的内部报告与调查机制，以及员工申诉机制中的受理与调查程序。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露对举报人/投诉人身份严格保密的保护措施。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"针对查实歧视或骚扰的具体处分、问责规则或纠正补救机制\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2363,
+    "total_tokens": 2830,
+    "completion_tokens": 467,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2363
+    }
+  }
+}

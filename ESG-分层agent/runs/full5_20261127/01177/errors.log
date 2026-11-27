@@ -1,0 +1,126 @@
+Traceback (most recent call last):
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/run_full5.py", line 43, in work
+    engine=Engine(index,folder,a.env_file,queries,config);retrieval,scores=engine.run(company)
+                                                                           ~~~~~~~~~~^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 173, in run
+    if level!=3:self.ordinary_level(company,level,active)
+                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 102, in ordinary_level
+    self.evaluate(groups,f'L{level}_initial_assessment')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 68, in evaluate
+    self.assessments.update({g['group_id']:g for g in assess(self.llm,gs,cards,self.config['general_rules'],stage+'_'+indicator.replace(' ','_'))})
+                                                      ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/evidence.py", line 126, in assess
+    obj=llm.ask(stage,'仅判断内容充分性和缺项，不评分、不决定是否查完。按目标允许路径，任一路径成立即可，不凑齐例子。综合本次全部证据，不能将前批缺项当作最终缺项。只引用输入短编号。期间、对象、机制适用范围有缺口时列missing；有实质冲突列conflicts。确认充分时只引用最小充分的已核实证据集，未核实的冗余补充证据不要纳入支撑链。E5/T5/W5必须有当期实际发生事实；无支付、无裁员、零投诉或零事件本身不证明实际执行。尤其E5，特定人员未收离职补偿或零支付不构成实际离职保障结果。对实际结果组若content_sufficient=true，另返回actual_event={occurred:true,period_confirmed:true,evidence_refs:[已核实正向事实编号]}；否则actual_event=null。输出{"groups":[{"group_id":"E1","content_sufficient":false,"evidence_refs":[],"supported_paths":[],"missing":[],"conflicts":[]}]}。',dict(groups=groups,rules=rules,evidence=data),validate)
+        ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/llm.py", line 35, in ask
+    if attempt==2:raise RuntimeError('LLM/API or schema validation failed; see stage error log') from None
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: LLM/API or schema validation failed; see stage error log
+
+Traceback (most recent call last):
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/run_full5.py", line 43, in work
+    engine=Engine(index,folder,a.env_file,queries,config);retrieval,scores=engine.run(company)
+                                                                           ~~~~~~~~~~^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 173, in run
+    if level!=3:self.ordinary_level(company,level,active)
+                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 102, in ordinary_level
+    self.evaluate(groups,f'L{level}_initial_assessment')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 68, in evaluate
+    self.assessments.update({g['group_id']:g for g in assess(self.llm,gs,cards,self.config['general_rules'],stage+'_'+indicator.replace(' ','_'))})
+                                                      ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/evidence.py", line 126, in assess
+    obj=llm.ask(stage,'仅判断内容充分性和缺项，不评分、不决定是否查完。按目标允许路径，任一路径成立即可，不凑齐例子。综合本次全部证据，不能将前批缺项当作最终缺项。只引用输入短编号。期间、对象、机制适用范围有缺口时列missing；有实质冲突列conflicts。确认充分时只引用最小充分的已核实证据集，未核实的冗余补充证据不要纳入支撑链。E5/T5/W5必须有当期实际发生事实；无支付、无裁员、零投诉或零事件本身不证明实际执行。尤其E5，特定人员未收离职补偿或零支付不构成实际离职保障结果。对实际结果组若content_sufficient=true，另返回actual_event={occurred:true,period_confirmed:true,evidence_refs:[已核实正向事实编号]}；否则actual_event=null。输出{"groups":[{"group_id":"E1","content_sufficient":false,"evidence_refs":[],"supported_paths":[],"missing":[],"conflicts":[]}]}。',dict(groups=groups,rules=rules,evidence=data),validate)
+        ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/llm.py", line 35, in ask
+    if attempt==2:raise RuntimeError('LLM/API or schema validation failed; see stage error log') from None
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: LLM/API or schema validation failed; see stage error log
+
+Traceback (most recent call last):
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/run_full5.py", line 43, in work
+    engine=Engine(index,folder,a.env_file,queries,config);retrieval,scores=engine.run(company)
+                                                                           ~~~~~~~~~~^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 173, in run
+    if level!=3:self.ordinary_level(company,level,active)
+                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 102, in ordinary_level
+    self.evaluate(groups,f'L{level}_initial_assessment')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 68, in evaluate
+    self.assessments.update({g['group_id']:g for g in assess(self.llm,gs,cards,self.config['general_rules'],stage+'_'+indicator.replace(' ','_'))})
+                                                      ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/evidence.py", line 126, in assess
+    obj=llm.ask(stage,'仅判断内容充分性和缺项，不评分、不决定是否查完。按目标允许路径，任一路径成立即可，不凑齐例子。综合本次全部证据，不能将前批缺项当作最终缺项。只引用输入短编号。期间、对象、机制适用范围有缺口时列missing；有实质冲突列conflicts。确认充分时只引用最小充分的已核实证据集，未核实的冗余补充证据不要纳入支撑链。E5/T5/W5必须有当期实际发生事实；无支付、无裁员、零投诉或零事件本身不证明实际执行。尤其E5，特定人员未收离职补偿或零支付不构成实际离职保障结果。对实际结果组若content_sufficient=true，另返回actual_event={occurred:true,period_confirmed:true,evidence_refs:[已核实正向事实编号]}；否则actual_event=null。输出{"groups":[{"group_id":"E1","content_sufficient":false,"evidence_refs":[],"supported_paths":[],"missing":[],"conflicts":[]}]}。',dict(groups=groups,rules=rules,evidence=data),validate)
+        ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/llm.py", line 35, in ask
+    if attempt==2:raise RuntimeError('LLM/API or schema validation failed; see stage error log') from None
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: LLM/API or schema validation failed; see stage error log
+
+Traceback (most recent call last):
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/run_full5.py", line 43, in work
+    engine=Engine(index,folder,a.env_file,queries,config);retrieval,scores=engine.run(company)
+                                                                           ~~~~~~~~~~^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 173, in run
+    if level!=3:self.ordinary_level(company,level,active)
+                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 102, in ordinary_level
+    self.evaluate(groups,f'L{level}_initial_assessment')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 68, in evaluate
+    self.assessments.update({g['group_id']:g for g in assess(self.llm,gs,cards,self.config['general_rules'],stage+'_'+indicator.replace(' ','_'))})
+                                                      ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/evidence.py", line 126, in assess
+    obj=llm.ask(stage,'仅判断内容充分性和缺项，不评分、不决定是否查完。按目标允许路径，任一路径成立即可，不凑齐例子。综合本次全部证据，不能将前批缺项当作最终缺项。只引用输入短编号。期间、对象、机制适用范围有缺口时列missing；有实质冲突列conflicts。确认充分时只引用最小充分的已核实证据集，未核实的冗余补充证据不要纳入支撑链。E5/T5/W5必须有当期实际发生事实；无支付、无裁员、零投诉或零事件本身不证明实际执行。尤其E5，特定人员未收离职补偿或零支付不构成实际离职保障结果。对实际结果组若content_sufficient=true，另返回actual_event={occurred:true,period_confirmed:true,evidence_refs:[已核实正向事实编号]}；否则actual_event=null。输出{"groups":[{"group_id":"E1","content_sufficient":false,"evidence_refs":[],"supported_paths":[],"missing":[],"conflicts":[]}]}。',dict(groups=groups,rules=rules,evidence=data),validate)
+        ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/llm.py", line 35, in ask
+    if attempt==2:raise RuntimeError('LLM/API or schema validation failed; see stage error log') from None
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: LLM/API or schema validation failed; see stage error log
+
+Traceback (most recent call last):
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/run_full5.py", line 43, in work
+    engine=Engine(index,folder,a.env_file,queries,config);retrieval,scores=engine.run(company)
+                                                                           ~~~~~~~~~~^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 173, in run
+    if level!=3:self.ordinary_level(company,level,active)
+                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 102, in ordinary_level
+    self.evaluate(groups,f'L{level}_initial_assessment')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 68, in evaluate
+    self.assessments.update({g['group_id']:g for g in assess(self.llm,gs,cards,self.config['general_rules'],stage+'_'+indicator.replace(' ','_'))})
+                                                      ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/evidence.py", line 126, in assess
+    obj=llm.ask(stage,'仅判断内容充分性和缺项，不评分、不决定是否查完。按目标允许路径，任一路径成立即可，不凑齐例子。综合本次全部证据，不能将前批缺项当作最终缺项。只引用输入短编号。期间、对象、机制适用范围有缺口时列missing；有实质冲突列conflicts。确认充分时只引用最小充分的已核实证据集，未核实的冗余补充证据不要纳入支撑链。E5/T5/W5必须有当期实际发生事实；无支付、无裁员、零投诉或零事件本身不证明实际执行。尤其E5，特定人员未收离职补偿或零支付不构成实际离职保障结果。对实际结果组若content_sufficient=true，另返回actual_event={occurred:true,period_confirmed:true,evidence_refs:[已核实正向事实编号]}；否则actual_event=null。输出{"groups":[{"group_id":"E1","content_sufficient":false,"evidence_refs":[],"supported_paths":[],"missing":[],"conflicts":[]}]}。',dict(groups=groups,rules=rules,evidence=data),validate)
+        ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/llm.py", line 35, in ask
+    if attempt==2:raise RuntimeError('LLM/API or schema validation failed; see stage error log') from None
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: LLM/API or schema validation failed; see stage error log
+
+Traceback (most recent call last):
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/run_full5.py", line 43, in work
+    engine=Engine(index,folder,a.env_file,queries,config);retrieval,scores=engine.run(company)
+                                                                           ~~~~~~~~~~^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 173, in run
+    if level!=3:self.ordinary_level(company,level,active)
+                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 102, in ordinary_level
+    self.evaluate(groups,f'L{level}_initial_assessment')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/engine.py", line 68, in evaluate
+    self.assessments.update({g['group_id']:g for g in assess(self.llm,gs,cards,self.config['general_rules'],stage+'_'+indicator.replace(' ','_'))})
+                                                      ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/fullflow/evidence.py", line 126, in assess
+    obj=llm.ask(stage,'仅判断内容充分性和缺项，不评分、不决定是否查完。按目标允许路径，任一路径成立即可，不凑齐例子。综合本次全部证据，不能将前批缺项当作最终缺项。只引用输入短编号。期间、对象、机制适用范围有缺口时列missing；有实质冲突列conflicts。确认充分时只引用最小充分的已核实证据集，未核实的冗余补充证据不要纳入支撑链。E5/T5/W5必须有当期实际发生事实；无支付、无裁员、零投诉或零事件本身不证明实际执行。尤其E5，特定人员未收离职补偿或零支付不构成实际离职保障结果。对实际结果组若content_sufficient=true，另返回actual_event={occurred:true,period_confirmed:true,evidence_refs:[已核实正向事实编号]}；否则actual_event=null。输出{"groups":[{"group_id":"E1","content_sufficient":false,"evidence_refs":[],"supported_paths":[],"missing":[],"conflicts":[]}]}。',dict(groups=groups,rules=rules,evidence=data),validate)
+        ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/retrieval/llm.py", line 35, in ask
+    if attempt==2:raise RuntimeError('LLM/API or schema validation failed; see stage error log') from None
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: LLM/API or schema validation failed; see stage error log
+

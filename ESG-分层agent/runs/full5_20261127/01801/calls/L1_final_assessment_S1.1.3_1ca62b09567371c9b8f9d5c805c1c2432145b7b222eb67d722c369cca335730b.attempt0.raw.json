@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-9573934d-a51f-92ef-809d-dd60c9b5d2dd",
+  "object": "chat.completion",
+  "created": 1795731478,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"加班申请、审批、自愿性、时长控制或异常处理的具体政策/程序\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"工时记录/排班检查机制：披露实施标准工时制度，确保每周工作时长不超过法定上限\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际工时监测数据\",\n        \"休假使用人数或比例\",\n        \"执行措施覆盖人数\",\n        \"已纠正的休息权侵害结果\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1352,
+    "total_tokens": 1626,
+    "completion_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1352
+    }
+  }
+}

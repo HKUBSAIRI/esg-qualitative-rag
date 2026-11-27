@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-dbf4d646-9283-964f-b0e6-19a8f3005fa7",
+  "object": "chat.completion",
+  "created": 1795732687,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"加班申请、审批、自愿性、时长控制、异常处理等具体管理政策或程序\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际工时监测数据\",\n        \"休假使用人数或比例\",\n        \"执行措施覆盖人数\",\n        \"已纠正的休息权侵害结果\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1343,
+    "total_tokens": 1541,
+    "completion_tokens": 198,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1343
+    }
+  }
+}

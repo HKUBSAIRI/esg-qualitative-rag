@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f22fb70f-8dd6-94eb-bbd0-738783649d92",
+  "object": "chat.completion",
+  "created": 1795745608,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [],\n  \"reason\": \"候选引文 e001 仅提及制定薪酬福利管理政策以加强合规管理及优化激励框架，属于一般性管理声明或制度描述。根据判据，'未识别具体支付保障内容（如按时足额、最低工资等），仅有薪酬合规管理政策声明'被明确列为不充分证据。即使该引文完全核实，其内容仍无法证明具体的工资支付执行事实（如法定周期、足额支付或最低工资保障的具体落实），因此不满足成立路径，也不与已核实结论形成实质冲突，不影响本组判定。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 415,
+    "total_tokens": 546,
+    "completion_tokens": 131,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 415
+    }
+  }
+}

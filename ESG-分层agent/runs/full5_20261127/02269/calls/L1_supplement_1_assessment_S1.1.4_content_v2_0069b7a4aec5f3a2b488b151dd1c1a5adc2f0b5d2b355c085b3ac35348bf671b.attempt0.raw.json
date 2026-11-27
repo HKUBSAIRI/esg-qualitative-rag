@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-87cc3f9c-0c24-9612-9101-cee4f43a548a",
+  "object": "chat.completion",
+  "created": 1795746228,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"e002: 披露了具体的法定社会保障项目（养老、医疗、失业、工伤、生育保险等）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"e001: 披露了补充商业保险、通勤补贴等具体补充福利安排\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1471,
+    "total_tokens": 1682,
+    "completion_tokens": 211,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1471
+    }
+  }
+}

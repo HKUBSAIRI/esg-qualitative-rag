@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4747ab3d-93d7-9469-b7ec-f4ce5e4281df",
+  "object": "chat.completion",
+  "created": 1795732421,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\"\n  ],\n  \"reason\": \"判据相关性：候选 e001 包含“員工流失率* | % | 14.4”及按性别、年龄划分的流失率数据，直接对应指标 S1.1.1 C 要求的“当期离职率具体数值”。尽管标记为未核验，但若核实该引文真实存在，则满足成立路径中关于披露具体数值的要求，从而消除 assessment 中的 verification_missing。候选 e011 主要涉及地区/职级细分及新员工数据，虽含部分流失率但非核心总体口径，对判定是否缺失“具体数值”这一关键证据的影响次于 e001，故仅保留 e001 作为影响判分的关键候选。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "total_tokens": 1296,
+    "completion_tokens": 177,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1119
+    }
+  }
+}

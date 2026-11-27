@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4cb7c408-20ae-933e-8e42-7f99c2c9a3da",
+  "object": "chat.completion",
+  "created": 1795730595,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年度员工流失率具体数值（16.83%等）及按性别、年龄划分的明细，并明确了统计口径为集团财务并表的全部实体内的全部劳动合同员工。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"披露了依法与全体员工签订劳动合同的政策安排，以及截至报告期末劳动合同员工的具体数量事实。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关制度、通知、协商、补偿或离职争议处理的具体安排或事实。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"披露了内部转岗与竞聘员工人数（2,663人），属于内部招聘、竞聘、转岗的事实数据。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别评分年度已经发生的终止补偿支付、就业安置、离职保障受益或相应有效纠正结果的具体事实。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2686,
+    "total_tokens": 3188,
+    "completion_tokens": 502,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2686
+    }
+  }
+}

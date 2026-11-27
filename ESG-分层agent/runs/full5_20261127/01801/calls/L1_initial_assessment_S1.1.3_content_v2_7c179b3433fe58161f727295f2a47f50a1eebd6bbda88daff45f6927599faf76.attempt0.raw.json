@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-14216e73-e70a-9e83-aa06-71e1105771d9",
+  "object": "chat.completion",
+  "created": 1795732571,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露具体工作时间、排班、轮班或合理工时控制的政策或事例\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露加班申请、审批、自愿性、时长控制或异常处理等具体政策或事实\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"明确披露带薪年休假及福利年假安排 (e001)\",\n        \"明确披露产假和育儿假的具体天数权利 (e002)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露考勤系统、工时记录、排班检查、休假申请或调休管理等具体机制或运行事实\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"无当期实际发生的工时监测、休假使用数据、执行覆盖人数或侵害纠正结果证据\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1498,
+    "total_tokens": 1975,
+    "completion_tokens": 477,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1498
+    }
+  }
+}

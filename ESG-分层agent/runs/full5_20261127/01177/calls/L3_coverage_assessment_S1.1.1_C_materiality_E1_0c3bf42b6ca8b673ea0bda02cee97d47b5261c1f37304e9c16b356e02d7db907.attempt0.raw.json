@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-97c30b73-b08d-9182-bc8e-d2c62ee4dccc",
+  "object": "chat.completion",
+  "created": 1795744418,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e003\"\n  ],\n  \"reason\": \"判据要求披露‘当期离职率’并明确口径。已核实结论(e001)提供了总体及按性别/年龄划分的流失率，但缺失‘主动离职率’这一常见细分口径的具体数值（verification_missing指出未识别具体数值）。候选e003提供了2025年度按地区划分的‘员工主动离职率’具体数值，若核实，可直接满足‘其他明确口径离职率’的成立路径，从而消除评估中的验证缺失项，实质影响本组结论的完整性判定。e004和e005仅涉及总人数、成本或定性描述，无法提供离职率数值；x001为重复且被拒引文。因此仅e003影响判分。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1703,
+    "total_tokens": 1890,
+    "completion_tokens": 187,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1703
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-fd260f29-0ffe-99b9-8988-e434c6be90e5",
+  "object": "chat.completion",
+  "created": 1795739746,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"对于因触犯法律、法规被施以行政处罚或法律处罚者,将被立即解除 劳动合同或被退回劳务派遣机构;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物技术有限公司员工\",\n      \"relevance\": \"披露了因违法被处罚导致解除劳动合同（辞退）的具体政策安排，符合裁员/解雇相关制度要求。\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"Employees being imposed administrative or criminal punishment, due to violation of applicable laws and regulations, will be dismissed immediately or sent back to the employment agency;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"WuXi Biologics employees\",\n      \"relevance\": \"英文原文对应条款，确认了解除劳动关系（dismissed）的政策事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11951,
+    "total_tokens": 12214,
+    "completion_tokens": 263,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 11951
+    }
+  }
+}

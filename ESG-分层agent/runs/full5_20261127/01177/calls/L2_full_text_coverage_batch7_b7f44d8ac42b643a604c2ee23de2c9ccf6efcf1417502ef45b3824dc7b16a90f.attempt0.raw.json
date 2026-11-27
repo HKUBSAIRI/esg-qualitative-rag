@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1f3291c2-b407-901e-a37a-f25cf76ce30b",
+  "object": "chat.completion",
+  "created": 1795744112,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p015\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"Including the Directors, the Group had 21,435 employees as at 31 December 2025. The Group remunerates its employees based on their performance, experience and prevailing market rate. Other employee benefits include insurance and medical coverage, subsidized training programmes as well as employee share incentive schemes.\",\n      \"kind\": \"policy/mechanism/action/result/plan/boundary\",\n      \"period\": \"as at 31 December 2025\",\n      \"scope\": \"The Group\",\n      \"relevance\": \"该段落披露了员工总数及薪酬福利政策，但未包含任何关于裁员、解雇、辞退补偿或离职争议处理的具体制度、安排或事实。根据E3组要求（需识别至少一项与裁员有关的通知、协商、补偿或离职争议处理制度、具体安排或事实），此段内容不足以支持E3组的证据提取，故不返回有效引文。由于本批次所有原文均未涉及裁员相关事项，无法为E3提供符合要求的连续引文。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10702,
+    "total_tokens": 10973,
+    "completion_tokens": 271,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 10702
+    }
+  }
+}

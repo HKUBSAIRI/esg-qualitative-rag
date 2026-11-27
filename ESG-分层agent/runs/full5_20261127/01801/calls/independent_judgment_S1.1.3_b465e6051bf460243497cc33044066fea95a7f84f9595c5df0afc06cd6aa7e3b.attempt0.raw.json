@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-42bc2a8b-1bc6-9343-a3cb-c69a821fe6cd",
+  "object": "chat.completion",
+  "created": 1795741280,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"核查范围包含官方监管及司法通报。实际搜索日志显示，部分关键官方来源（如国家市场监督管理总局的行政处罚信息公示规定、信用修复管理办法，以及深圳市司法局的企业合规风险提示）因HTTP错误或连接错误导致无法打开（official_source_unreadable）。由于必要原件未成功读取且存在未决问题，无法确认是否已穷尽所有严重超时工作或违法剥夺休息休假的通报候选，故不能判定为无违规或已纠正，需人工复核以解决源文件访问问题。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    {\n      \"url\": \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_20c4f404649640c3bdcbbd157d6b6ebe.html\",\n      \"issue\": \"official_source_unreadable\"\n    },\n    {\n      \"url\": \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_02b9d3e6f31a4cc38079901ab49994d5.html?sessionid=&tt_force_outside=1\",\n      \"issue\": \"official_source_unreadable\"\n    },\n    {\n      \"url\": \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_02b9d3e6f31a4cc38079901ab49994d5.html?tt_force_outside=1\",\n      \"issue\": \"official_source_unreadable\"\n    },\n    {\n      \"url\": \"https://sf.sz.gov.cn/ztzl/hg/yjxx/zxxx/content/post_10360976.html\",\n      \"issue\": \"official_source_unreadable\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8527,
+    "total_tokens": 8993,
+    "completion_tokens": 466,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8527
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-35c1e25d-2f48-902c-8798-54e308ac2da8",
+  "object": "chat.completion",
+  "created": 1795745531,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露至少一项与裁员有关的通知、协商、补偿或离职争议处理制度、具体安排或事实\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"②内部招聘人数、内部填补岗位比例、轮岗人数等事实\",\n        \"③再就业服务、职业转换培训、退休过渡或返聘的具体支持\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2576,
+    "total_tokens": 2809,
+    "completion_tokens": 233,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2576
+    }
+  }
+}

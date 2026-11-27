@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-270bece5-5259-97f6-a7a5-824ec347d1b7",
+  "object": "chat.completion",
+  "created": 1795745510,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\",\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"①员工内部招聘、内部竞聘、转岗或岗位轮换的制度\",\n        \"③再就业服务、职业转换培训、退休过渡或返聘的具体支持\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1204,
+    "total_tokens": 1338,
+    "completion_tokens": 134,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1204
+    }
+  }
+}

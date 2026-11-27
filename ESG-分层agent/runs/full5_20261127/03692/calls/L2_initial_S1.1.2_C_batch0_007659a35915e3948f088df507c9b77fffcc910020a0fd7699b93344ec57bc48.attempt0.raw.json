@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-149ce2cd-d881-9a6f-8619-ac5c37c9b58b",
+  "object": "chat.completion",
+  "created": 1795746162,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p026\",\n      \"group_ids\": [\n        \"P4\"\n      ],\n      \"quote\": \"僱員被視為本集團最重要及具價值的資產。僱員的薪酬組合通常包括薪金及花紅。本集團定期審核僱員的表現,而彼等的薪酬乃與表現有關。僱員亦獲得福利,包括醫療、住房津貼、退休金、工傷保險以及其他各種福利。本集團也為僱員提供定期培訓,培訓旨在加強員工的敬業精神,增加彼等對本集團服務的多個重要領域的了解,以提高僱員的生產率。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"本集团雇员\",\n      \"relevance\": \"披露了薪酬组合包含薪金，且适用于本集团雇员，明确了工资支付保障政策的适用对象。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8347,
+    "total_tokens": 8567,
+    "completion_tokens": 220,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8347
+    }
+  }
+}

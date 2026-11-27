@@ -1,0 +1,287 @@
+[
+  {
+    "indicator_id": "S1.1.1 C",
+    "groups": [
+      {
+        "group_id": "E1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001披露了2025年员工流失率为14.4%，证据e002明确该指标口径为“员工主动离职率”，满足披露评分年度离职率及识别期间和口径的条件。",
+        "evidence_ids": [
+          "C_86fa5907f91a6458b9527bd5_1b5c876e8b50983b",
+          "C_f1006eada3b8dc6b19fe4eb9_04de0b750528fcd1"
+        ]
+      },
+      {
+        "group_id": "E2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003披露了聘请外部法律顾问对合同签订进行审核，并通过数字化合同系统确保劳动合同签署完全合规、合法有效，属于具体的劳动合同保障安排。",
+        "evidence_ids": [
+          "C_e70ea4acf88aeaab98fa6b7c_b5a5159fa808692f"
+        ]
+      },
+      {
+        "group_id": "E3",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e004披露了对违规员工采取解雇或终止合作的处理措施，涉及解除劳动关系的具体安排，符合裁员/解雇程序相关的制度或事实披露要求。",
+        "evidence_ids": [
+          "C_854e454bda38fc00a1faa96e_aa274a97f24b1695"
+        ]
+      },
+      {
+        "group_id": "E4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e005披露了内部转岗、竞聘及转型指导培训支持制度；证据e006披露了通过内部招聘补充职位数占比为19%的事实数据，满足员工安置支持的判分条件。",
+        "evidence_ids": [
+          "C_2b02c97e038d6c44b28eb052_2d9bc6ff641eda16",
+          "C_48800addf1b333a853db19f5_24b3b3ee015b0515"
+        ]
+      },
+      {
+        "group_id": "E5",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索记录显示已完成核查但未找到满足条件的证据。证据e007仅披露了包含工资、社会福利等的员工福利开支总额，未明确区分或提及针对离职保障的终止补偿支付、就业安置受益等具体实际结果，不满足E5组关于当期实际发生且可区分的离职保障结果的判分条件。",
+        "evidence_ids": []
+      }
+    ],
+    "base_score": 80.0,
+    "final_score": 80.0,
+    "status": "verified",
+    "issues": []
+  },
+  {
+    "indicator_id": "S1.1.2 C",
+    "groups": [
+      {
+        "group_id": "P1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001和e002明确披露了保证员工收入不低于当地最低工资水平的政策，符合‘最低工资保障’的具体支付保障条件。",
+        "evidence_ids": [
+          "C_3a38991905e7fa090cd62ec8_3674a91497e10932",
+          "C_efab9ea0ea4641e5fa232ae4_287076588dbcd671"
+        ]
+      },
+      {
+        "group_id": "P2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003披露了内部平台开设人力资源工单系统方便员工提出问题，属于员工查询工资差错或相关问题的具体机制/途径。",
+        "evidence_ids": [
+          "C_4cf624c3aee601e5ffdc0de2_3da11cb04ba22efc"
+        ]
+      },
+      {
+        "group_id": "P3",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索记录显示search_complete=true且无相关证据（no_relevant_evidence_found），材料中未披露与工资支付直接相关的检查、监测或内部审查制度或实际开展事实。根据规则，核查完成且无支持判0。",
+        "evidence_ids": []
+      },
+      {
+        "group_id": "P4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e002提及‘确保员工收入不低于当地最低工资标准’，结合上下文劳动权益保障体系，隐含覆盖全体员工对象；证据e001也提及‘员工’整体。虽存在quote_not_in_supplied_text的issue标记，但依据提供的evidence原文及assessment结论，已识别出适用对象为全体员工，满足条件。",
+        "evidence_ids": [
+          "C_efab9ea0ea4641e5fa232ae4_287076588dbcd671"
+        ]
+      },
+      {
+        "group_id": "P5",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索记录显示search_complete=true且无相关证据（no_relevant_evidence_found），材料中未识别针对工资差错、欠薪、扣款或加班费问题的补救机制或已完成纠正事实。根据规则，无事件不自动得分，无机制披露判0。",
+        "evidence_ids": []
+      }
+    ],
+    "base_score": 60.0,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  },
+  {
+    "indicator_id": "S1.1.3",
+    "groups": [
+      {
+        "group_id": "T1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001披露了“允许按岗位性质灵活调整工作时间”，符合“具体工作时间...或合理工时控制的至少一项政策”的条件。",
+        "evidence_ids": [
+          "C_fbadfe91f6625b03a5e83be6_aaf0880accbaf9e9"
+        ]
+      },
+      {
+        "group_id": "T2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003明确披露了“严格执行加班审核与调休制度”，符合“员工加班申请、管理人员审批...等具体政策、程序”的条件。",
+        "evidence_ids": [
+          "C_5ebf61328e149f19eefc7430_b02d8f8afe1615e2"
+        ]
+      },
+      {
+        "group_id": "T3",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e004列出了“法定带薪假期”，证据e002提及“育儿假”、“工作日哺乳时间”，均符合“员工休息、法定假期、年休假等至少一项明确权利”的条件。",
+        "evidence_ids": [
+          "C_767a41334bc358ba2f641ac8_02cec6e332b71788",
+          "C_cd6bfa91858e948b7d8a88b6_a2f7cfe9c78fab94"
+        ]
+      },
+      {
+        "group_id": "T4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003披露了“通过数字化平台实时监测考勤数据，发现异常数据立即启动核查流程”，符合“采用考勤系统、记录工时...等具体工时或休假管理机制”的条件。",
+        "evidence_ids": [
+          "C_5ebf61328e149f19eefc7430_b02d8f8afe1615e2"
+        ]
+      },
+      {
+        "group_id": "T5",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索完成且无相关证据。现有证据（如e003）仅描述了监测机制和核查流程的制度安排，未提供评分年度实际发生的工时监测结果、休假使用数据、执行覆盖人数或侵害纠正结果的具体事实证据，不满足T5对当期实际执行或结果的要求。",
+        "evidence_ids": []
+      }
+    ],
+    "base_score": 80.0,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  },
+  {
+    "indicator_id": "S1.1.4",
+    "groups": [
+      {
+        "group_id": "W1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001和e002明确披露了“五險一金”（法定社会保障）及住房公积金等具体法定福利政策，符合判100条件。",
+        "evidence_ids": [
+          "C_3a38991905e7fa090cd62ec8_3674a91497e10932",
+          "C_767a41334bc358ba2f641ac8_02cec6e332b71788"
+        ]
+      },
+      {
+        "group_id": "W2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003、e004、e005和e006披露了补充医疗保险、商业保险、高温津贴、免费工作餐/餐贴、职工医疗救助等具体补充福利安排，符合判100条件。",
+        "evidence_ids": [
+          "C_78397deaf269430a5de7cffc_d9e5a47fb182f1aa",
+          "C_0c100b64bbc10e6c3feb30a7_b43a152e394c5207",
+          "C_1773b73696236ca54bc5566d_85ccdb1360c25a7b",
+          "C_cf3fb770e422f13ea2c0ebdd_ef5f4a50ca5a56b6"
+        ]
+      },
+      {
+        "group_id": "W3",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e004、e007、e008、e009和e010披露了职场心理咨询、育儿假、哺乳室、家属开放日、员工食堂/宿舍/健身房、针对孕期女员工的灵活工作时间及营养餐等家庭与生活支持资源和服务，符合判100条件。",
+        "evidence_ids": [
+          "C_0c100b64bbc10e6c3feb30a7_b43a152e394c5207",
+          "C_cd6bfa91858e948b7d8a88b6_a2f7cfe9c78fab94",
+          "C_7f280e622dcf11f5542132c8_725e6e5409a8a332",
+          "C_b2bb792f49f886e013e79979_7ac8358c124b18b3",
+          "C_aa4f9777a70c35bb7f87f423_75451868d3a96d9c"
+        ]
+      },
+      {
+        "group_id": "W4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003指出特定福利针对“特定员工”，e006明确《职工医疗救助政策》适用于“全体员工”并规定了申领流程，e011脚注说明部分福利仅针对特定对象，均提供了具体的取得规则或适用对象，符合判100条件。",
+        "evidence_ids": [
+          "C_78397deaf269430a5de7cffc_d9e5a47fb182f1aa",
+          "C_cf3fb770e422f13ea2c0ebdd_ef5f4a50ca5a56b6",
+          "C_4ecce0420734501e53f0596c_77d9100b9ca29a57"
+        ]
+      },
+      {
+        "group_id": "W5",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e012披露了报告期内已发生的实际受益事实：对106位退休员工和10位困难员工进行春节慰问，并向一线员工发放防暑降温物资，符合当期实际发生的要求。",
+        "evidence_ids": [
+          "C_0496814e1b0abd8592a80d14_f615fc94b0e946c4"
+        ]
+      }
+    ],
+    "base_score": 100.0,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  },
+  {
+    "indicator_id": "S1.1.5",
+    "groups": [
+      {
+        "group_id": "D1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001明确披露公司建立了招聘、用工流程与监察体系，杜绝任何形式的歧视行为，符合反歧视政策与保障的判分条件。",
+        "evidence_ids": [
+          "C_19c8441b523f1f6c1655e6c2_dd1e8e13eb2f2ae6"
+        ]
+      },
+      {
+        "group_id": "D2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001明确披露公司杜绝任何形式的骚扰行为，符合反骚扰政策与保障的判分条件。",
+        "evidence_ids": [
+          "C_19c8441b523f1f6c1655e6c2_dd1e8e13eb2f2ae6"
+        ]
+      },
+      {
+        "group_id": "D3",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e002披露了投诉由专职机制分类处理，启动规范调查，重大事件由专项工作组协同人权调查组核查，并上报管理层，符合适用于歧视或骚扰投诉的调查处理程序要求。",
+        "evidence_ids": [
+          "C_9c19d8f5fcb04d7b54dfaca0_aa5e4e3d764c970d"
+        ]
+      },
+      {
+        "group_id": "D4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003披露实施《举报及举报人保护政策》，对举报信息严格保密，保护善意举报人，对打击报复行为坚持零容忍；证据e002亦提及保障申诉人的知情权。符合申诉人与受影响人员保护措施的要求。",
+        "evidence_ids": [
+          "C_9c19d8f5fcb04d7b54dfaca0_28027a3a3ec760ee",
+          "C_9c19d8f5fcb04d7b54dfaca0_aa5e4e3d764c970d"
+        ]
+      },
+      {
+        "group_id": "D5",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e002明确披露如确认存在职场歧视、骚扰等违规行为，将严格依据公司制度给予纪律处分，涉嫌违法案件依法移送司法处理，符合责任追究与纠正补救的规则要求。",
+        "evidence_ids": [
+          "C_9c19d8f5fcb04d7b54dfaca0_aa5e4e3d764c970d"
+        ]
+      }
+    ],
+    "base_score": 100.0,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6bd0e521-99fd-96e2-a54c-377fae6b6716",
+  "object": "chat.completion",
+  "created": 1795743778,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p042\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"員工保留率 = 1 - 員工主動流失率;員工主動流失率 = 員工主動流失數 / 財年期末員工總人數。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"定义了员工主动流失率的计算口径，符合当期离职率披露中关于识别离职率口径的要求\"\n    },\n    {\n      \"ref_id\": \"p066\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"員工流失率 = 總流失人數 / 年底員工總人數 (含退休人員)\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"定义了员工总流失率的计算口径，符合当期离职率披露中关于识别离职率口径的要求\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10872,
+    "total_tokens": 11125,
+    "completion_tokens": 253,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10872
+    }
+  }
+}

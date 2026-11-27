@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-60a9e557-e7ec-98df-8c25-6b200cdc397c",
+  "object": "chat.completion",
+  "created": 1795730215,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止就业中的歧视行为\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止职场骚扰行为\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露适用于歧视骚扰投诉的调查处理程序\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对申诉人或受影响人员的具体保护措施（如保密、匿名、不报复等），仅提及保障知情权，不足以覆盖保护要求\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露针对查实歧视骚扰的纪律处分及移送司法机制\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1603,
+    "total_tokens": 2032,
+    "completion_tokens": 429,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1603
+    }
+  }
+}

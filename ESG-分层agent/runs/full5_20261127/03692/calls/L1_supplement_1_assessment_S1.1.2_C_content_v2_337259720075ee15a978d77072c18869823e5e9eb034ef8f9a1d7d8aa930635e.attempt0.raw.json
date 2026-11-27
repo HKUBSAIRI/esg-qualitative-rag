@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8964283c-c196-93e5-b443-f56ff7ffa7ca",
+  "object": "chat.completion",
+  "created": 1795745388,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"人权尽职调查内容包含维生工资水平及同工同酬，属于对工资支付相关事项的内部审查/监测事实\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还、复核）或已完成纠正的事实。e002仅提及一般性侵权事件的救济，未明确关联到工资支付问题。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1411,
+    "total_tokens": 1646,
+    "completion_tokens": 235,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1411
+    }
+  }
+}

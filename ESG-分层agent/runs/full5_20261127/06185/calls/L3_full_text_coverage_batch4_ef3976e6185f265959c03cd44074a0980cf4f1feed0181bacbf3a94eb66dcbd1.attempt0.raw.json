@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8b21816f-1ead-9bd6-8902-16b44d609403",
+  "object": "chat.completion",
+  "created": 1795731206,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p076\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"可为您解答雇佣政策、奖惩机制和在职场中的困扰等方面的问题。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"康希诺生物股份公司员工\",\n      \"relevance\": \"人力资源部提供解答雇佣政策（含工资）及职场困扰的渠道，符合员工查询或申诉机制的定义\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11515,
+    "total_tokens": 11645,
+    "completion_tokens": 130,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11515
+    }
+  }
+}

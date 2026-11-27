@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-39df2e41-da6b-9ff7-9f37-63d0dad917ca",
+  "object": "chat.completion",
+  "created": 1795745500,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖未确认（search_complete: false），且现有证据中无关于具体工作时间、排班或轮班制度的披露。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖未确认（search_complete: false），且现有证据中无关于加班申请、审批或时长控制等具体管理政策的披露。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e003 明确披露了带薪年休假及福利年假安排，证据 e004 明确披露了产假和育儿假的具体天数权利，符合休息休假保障的判分条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖未确认（search_complete: false）。虽然证据 e005 提及年假作为应计福利的会计处理，但缺乏考勤系统、工时记录或休假申请等具体管理机制的直接披露，不足以确认为已核实的支持性证据。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖未确认（search_complete: false），且 T5 要求当期实际执行事实（如检查加班时长、实际休假人数等），现有证据仅包含政策声明，无当期实际结果数据。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7715,
+    "total_tokens": 8193,
+    "completion_tokens": 478,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 7715
+    }
+  }
+}

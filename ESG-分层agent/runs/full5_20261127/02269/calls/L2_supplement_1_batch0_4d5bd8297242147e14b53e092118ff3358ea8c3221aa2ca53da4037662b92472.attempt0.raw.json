@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-47c9f7dc-03f3-938c-ad0d-6498654afd95",
+  "object": "chat.completion",
+  "created": 1795739701,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"As of the end of the Reporting Period, the Group employed a workforce totaling 13,252 employees, with 4,885 scientists. Talent retention has continued to be successful, with a key talent retention rate of approximately 96.4%.\",\n      \"kind\": \"result\",\n      \"period\": \"Reporting Period (Year ended December 31, 2025)\",\n      \"scope\": \"Key talent\",\n      \"relevance\": \"Discloses key talent retention rate, which is an inverse metric related to turnover/retention for a specific employee group.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14251,
+    "total_tokens": 14430,
+    "completion_tokens": 179,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 14251
+    }
+  }
+}

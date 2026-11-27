@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7eb55bc7-a5c7-9389-89f4-6cd76d79d88e",
+  "object": "chat.completion",
+  "created": 1795745550,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到经核实的严重欠薪、违法克扣工资且未有效纠正的事件。依据规则，投诉、和解、撤诉、职工债权公示和未披露整改不能单独证明严重事项或未纠正；仅因缺少相关证据或覆盖确认问题（local_only_official_coverage_unconfirmed）不等同于存在未决的严重违规事实，也不阻塞对‘无已核实不利事件’状态的判定，除非有明确指向该公司的必要案件原件读取失败导致无法排除严重事项。当前日志显示无L4监管/司法通知索引，且无其他候选证据表明存在未纠正的严重薪酬违规。\",\n  \"evidence_refs\": [],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5757,
+    "total_tokens": 5925,
+    "completion_tokens": 168,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5757
+    }
+  }
+}

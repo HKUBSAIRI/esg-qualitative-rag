@@ -1,0 +1,902 @@
+[
+  {
+    "indicator_id": "S1.1.2 C",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=194142&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=256&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 194142,
+          "c": "06160",
+          "n": "百濟神州",
+          "s": 5293
+        },
+        "records": 256,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"百濟神州\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/06160/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501828_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年9月30日止三個月及九個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0914/2026091400471_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090900391_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080501449_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年6月30日止三個月及六個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0611/2026061100950_c.pdf",
+            "title": "薪酬委員會章程",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0506/2026050602077_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年3月31日止三個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0312/2026031200513_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031000487_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0226/2026022600889_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年12月31日止三個月未經審核業績及截至2025年12月31日止全年經審核業績以及業務進展",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1106/2025110601715_c.pdf",
+            "title": "內幕消息 -\n百濟神州有限公司截至2025年9月30日止三個月及九個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0912/2025091200502_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0904/2025090400682_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0825/2025082500887_c.pdf",
+            "title": "內幕消息 - 百濟神州宣佈簽訂IMDELLTRA特許權使用費購買協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0806/2025080601646_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年6月30日止三個月及六個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0528/2025052800538_c.pdf",
+            "title": "薪酬委員會章程",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0507/2025050701563_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年3月31日止三個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0313/2025031300905_c.pdf",
+            "title": "員工購股計劃項下的股份購買及澄清公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0310/2025031001021_c.pdf",
+            "title": "擬議註冊地遷址及存續、擬議採納擬議瑞士章程及瑞士審計師的選聘及批准相關審計服務與薪酬之預期時間表",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0306/2025030601394_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0227/2025022700958_c.pdf",
+            "title": "內幕消息 -\n百濟神州有限公司截至2024年12月31日止三個月未經審核業績及截至2024年12月31日止全年經審核業績以及業務進展",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0114/2025011400004_c.pdf",
+            "title": "內幕消息 - 業務發展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401067_c.pdf",
+            "title": "2025年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042802983_c.pdf",
+            "title": "2024年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0227/2026022701671_c.pdf",
+            "decision": "statutory_financial_statements_not_L4",
+            "basis": "已打开原件核对封面与审计报告，为2025年瑞士法定财务报表公告，不是员工侵权事项通报",
+            "local_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/06160/business_update_20260227.pdf"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042802983_c.pdf",
+            "title": "2024年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401059_c.pdf",
+            "title": "2025年度報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.3",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=194142&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=256&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 194142,
+          "c": "06160",
+          "n": "百濟神州",
+          "s": 5293
+        },
+        "records": 256,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"百濟神州\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/06160/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501828_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年9月30日止三個月及九個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0914/2026091400471_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090900391_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080501449_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年6月30日止三個月及六個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0611/2026061100950_c.pdf",
+            "title": "薪酬委員會章程",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0506/2026050602077_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年3月31日止三個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0312/2026031200513_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031000487_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0226/2026022600889_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年12月31日止三個月未經審核業績及截至2025年12月31日止全年經審核業績以及業務進展",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1106/2025110601715_c.pdf",
+            "title": "內幕消息 -\n百濟神州有限公司截至2025年9月30日止三個月及九個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0912/2025091200502_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0904/2025090400682_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0825/2025082500887_c.pdf",
+            "title": "內幕消息 - 百濟神州宣佈簽訂IMDELLTRA特許權使用費購買協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0806/2025080601646_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年6月30日止三個月及六個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0528/2025052800538_c.pdf",
+            "title": "薪酬委員會章程",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0507/2025050701563_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年3月31日止三個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0313/2025031300905_c.pdf",
+            "title": "員工購股計劃項下的股份購買及澄清公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0310/2025031001021_c.pdf",
+            "title": "擬議註冊地遷址及存續、擬議採納擬議瑞士章程及瑞士審計師的選聘及批准相關審計服務與薪酬之預期時間表",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0306/2025030601394_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0227/2025022700958_c.pdf",
+            "title": "內幕消息 -\n百濟神州有限公司截至2024年12月31日止三個月未經審核業績及截至2024年12月31日止全年經審核業績以及業務進展",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0114/2025011400004_c.pdf",
+            "title": "內幕消息 - 業務發展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401067_c.pdf",
+            "title": "2025年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042802983_c.pdf",
+            "title": "2024年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0227/2026022701671_c.pdf",
+            "decision": "statutory_financial_statements_not_L4",
+            "basis": "已打开原件核对封面与审计报告，为2025年瑞士法定财务报表公告，不是员工侵权事项通报",
+            "local_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/06160/business_update_20260227.pdf"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042802983_c.pdf",
+            "title": "2024年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401059_c.pdf",
+            "title": "2025年度報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.4",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=194142&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=256&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 194142,
+          "c": "06160",
+          "n": "百濟神州",
+          "s": 5293
+        },
+        "records": 256,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"百濟神州\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/06160/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501828_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年9月30日止三個月及九個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0914/2026091400471_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090900391_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080501449_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年6月30日止三個月及六個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0611/2026061100950_c.pdf",
+            "title": "薪酬委員會章程",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0506/2026050602077_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年3月31日止三個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0312/2026031200513_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031000487_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0226/2026022600889_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年12月31日止三個月未經審核業績及截至2025年12月31日止全年經審核業績以及業務進展",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1106/2025110601715_c.pdf",
+            "title": "內幕消息 -\n百濟神州有限公司截至2025年9月30日止三個月及九個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0912/2025091200502_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0904/2025090400682_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0825/2025082500887_c.pdf",
+            "title": "內幕消息 - 百濟神州宣佈簽訂IMDELLTRA特許權使用費購買協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0806/2025080601646_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年6月30日止三個月及六個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0528/2025052800538_c.pdf",
+            "title": "薪酬委員會章程",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0507/2025050701563_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年3月31日止三個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0313/2025031300905_c.pdf",
+            "title": "員工購股計劃項下的股份購買及澄清公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0310/2025031001021_c.pdf",
+            "title": "擬議註冊地遷址及存續、擬議採納擬議瑞士章程及瑞士審計師的選聘及批准相關審計服務與薪酬之預期時間表",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0306/2025030601394_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0227/2025022700958_c.pdf",
+            "title": "內幕消息 -\n百濟神州有限公司截至2024年12月31日止三個月未經審核業績及截至2024年12月31日止全年經審核業績以及業務進展",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0114/2025011400004_c.pdf",
+            "title": "內幕消息 - 業務發展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401067_c.pdf",
+            "title": "2025年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042802983_c.pdf",
+            "title": "2024年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0227/2026022701671_c.pdf",
+            "decision": "statutory_financial_statements_not_L4",
+            "basis": "已打开原件核对封面与审计报告，为2025年瑞士法定财务报表公告，不是员工侵权事项通报",
+            "local_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/06160/business_update_20260227.pdf"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042802983_c.pdf",
+            "title": "2024年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401059_c.pdf",
+            "title": "2025年度報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.5",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=194142&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=256&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 194142,
+          "c": "06160",
+          "n": "百濟神州",
+          "s": 5293
+        },
+        "records": 256,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"百濟神州\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"百濟神州\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/06160/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501828_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年9月30日止三個月及九個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0914/2026091400471_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090900391_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080501449_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年6月30日止三個月及六個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0611/2026061100950_c.pdf",
+            "title": "薪酬委員會章程",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0506/2026050602077_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2026年3月31日止三個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0312/2026031200513_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0310/2026031000487_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0226/2026022600889_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年12月31日止三個月未經審核業績及截至2025年12月31日止全年經審核業績以及業務進展",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1106/2025110601715_c.pdf",
+            "title": "內幕消息 -\n百濟神州有限公司截至2025年9月30日止三個月及九個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0912/2025091200502_c.pdf",
+            "title": "員工購股計劃項下的股份購買",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0904/2025090400682_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0825/2025082500887_c.pdf",
+            "title": "內幕消息 - 百濟神州宣佈簽訂IMDELLTRA特許權使用費購買協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0806/2025080601646_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年6月30日止三個月及六個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0528/2025052800538_c.pdf",
+            "title": "薪酬委員會章程",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0507/2025050701563_c.pdf",
+            "title": "內幕消息 - 百濟神州有限公司截至2025年3月31日止三個月未經審核業績以及業務進展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0313/2025031300905_c.pdf",
+            "title": "員工購股計劃項下的股份購買及澄清公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0310/2025031001021_c.pdf",
+            "title": "擬議註冊地遷址及存續、擬議採納擬議瑞士章程及瑞士審計師的選聘及批准相關審計服務與薪酬之預期時間表",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0306/2025030601394_c.pdf",
+            "title": "員工購股計劃",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0227/2025022700958_c.pdf",
+            "title": "內幕消息 -\n百濟神州有限公司截至2024年12月31日止三個月未經審核業績及截至2024年12月31日止全年經審核業績以及業務進展",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0114/2025011400004_c.pdf",
+            "title": "內幕消息 - 業務發展最新情況",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401067_c.pdf",
+            "title": "2025年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042802983_c.pdf",
+            "title": "2024年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0227/2026022701671_c.pdf",
+            "decision": "statutory_financial_statements_not_L4",
+            "basis": "已打开原件核对封面与审计报告，为2025年瑞士法定财务报表公告，不是员工侵权事项通报",
+            "local_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/06160/business_update_20260227.pdf"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042802983_c.pdf",
+            "title": "2024年負責任商業和可持續發展報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0414/2026041401059_c.pdf",
+            "title": "2025年度報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  }
+]

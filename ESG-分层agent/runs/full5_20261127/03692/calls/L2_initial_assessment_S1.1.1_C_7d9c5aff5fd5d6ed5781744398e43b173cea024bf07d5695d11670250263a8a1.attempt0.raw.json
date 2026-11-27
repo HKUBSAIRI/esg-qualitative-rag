@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-60b51d02-6f4c-9972-a7b5-c1b82f01af8d",
+  "object": "chat.completion",
+  "created": 1795730379,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"集团合并员工层面的实际离职保障结果（如终止补偿支付、就业安置或受益）证据缺失，现有证据仅覆盖五名最高薪酬雇员且为无发生声明\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 874,
+    "total_tokens": 993,
+    "completion_tokens": 119,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 874
+    }
+  }
+}

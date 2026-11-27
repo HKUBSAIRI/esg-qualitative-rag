@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-bc224661-eeaa-9a7e-976f-36914f3462a1",
+  "object": "chat.completion",
+  "created": 1795737615,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到经核实的严重欠薪、违法克扣工资或未有效纠正事项。依据提供的候选原文（e001-e004），仅披露了薪酬政策定期审阅、同工同酬原则及依法缴纳社保公积金等常规合规安排，未提及任何具体的欠薪事件、违规扣款或需补救的支付问题。搜索日志显示已执行官方查找并打开必要原件（如HKEX公告、劳工处记录等），虽部分外部链接不可读，但基于已打开的官方原文未发现负面通报或整改要求。投诉、和解或未披露整改不能单独证明严重事项，且无证据表明存在未纠正的严重违规。\",\n  \"evidence_refs\": [\n    \"e001\",\n    \"e002\",\n    \"e003\",\n    \"e004\"\n  ],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9675,
+    "total_tokens": 9890,
+    "completion_tokens": 215,
+    "prompt_tokens_details": {
+      "cached_tokens": 6656,
+      "text_tokens": 9675
+    }
+  }
+}

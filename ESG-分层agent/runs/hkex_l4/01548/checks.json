@@ -1,0 +1,558 @@
+[
+  {
+    "indicator_id": "S1.1.2 C",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=135102&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=129&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 135102,
+          "c": "01548",
+          "n": "金斯瑞生物科技",
+          "s": 6552
+        },
+        "records": 129,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"金斯瑞\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/01548/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112401142_c.pdf",
+            "title": "內幕消息（1）PROBIO CAYMAN股份重組相關的須予披露交易&#x3b;（2）A輪融資、B輪融資及C輪融資條款的重大變更",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400068_c.pdf",
+            "title": "內幕消息：PROBIO TECHNOLOGY LIMITED建議分拆及獨立上市",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400068_c.pdf",
+            "title": "內幕消息：PROBIO TECHNOLOGY LIMITED建議分拆及獨立上市",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1014/2025101400541_c.pdf",
+            "title": "內幕消息公告: 根據與禮新醫藥科技有限公司的許可協議蓬勃收到付款",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0722/2025072200028_c.pdf",
+            "title": "內幕消息: 正面盈利預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0630/2025063000332_c.pdf",
+            "title": "內幕消息公告：根據與禮新醫藥科技有限公司的許可協議蓬勃收到付款",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0314/2025031401169_c.pdf",
+            "title": "關於內幕消息公告上市聯營公司傳奇生物科技股份有限公司截至二零二四年十二月三十一日止第四季度及全年的財務業績的補充公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0311/2025031101108_c.pdf",
+            "title": "內幕消息：上市聯營公司傳奇生物科技股份有限公司截至二零二四年十二月三十一日止第四季度及全年的財務業績",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0216/2025021600018_c.pdf",
+            "title": "內幕消息: 正面盈利預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0413/2026041300765_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2024/0422/2024042201554_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042800926_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.3",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=135102&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=129&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 135102,
+          "c": "01548",
+          "n": "金斯瑞生物科技",
+          "s": 6552
+        },
+        "records": 129,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"金斯瑞\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/01548/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112401142_c.pdf",
+            "title": "內幕消息（1）PROBIO CAYMAN股份重組相關的須予披露交易&#x3b;（2）A輪融資、B輪融資及C輪融資條款的重大變更",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400068_c.pdf",
+            "title": "內幕消息：PROBIO TECHNOLOGY LIMITED建議分拆及獨立上市",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400068_c.pdf",
+            "title": "內幕消息：PROBIO TECHNOLOGY LIMITED建議分拆及獨立上市",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1014/2025101400541_c.pdf",
+            "title": "內幕消息公告: 根據與禮新醫藥科技有限公司的許可協議蓬勃收到付款",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0722/2025072200028_c.pdf",
+            "title": "內幕消息: 正面盈利預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0630/2025063000332_c.pdf",
+            "title": "內幕消息公告：根據與禮新醫藥科技有限公司的許可協議蓬勃收到付款",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0314/2025031401169_c.pdf",
+            "title": "關於內幕消息公告上市聯營公司傳奇生物科技股份有限公司截至二零二四年十二月三十一日止第四季度及全年的財務業績的補充公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0311/2025031101108_c.pdf",
+            "title": "內幕消息：上市聯營公司傳奇生物科技股份有限公司截至二零二四年十二月三十一日止第四季度及全年的財務業績",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0216/2025021600018_c.pdf",
+            "title": "內幕消息: 正面盈利預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0413/2026041300765_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2024/0422/2024042201554_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042800926_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.4",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=135102&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=129&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 135102,
+          "c": "01548",
+          "n": "金斯瑞生物科技",
+          "s": 6552
+        },
+        "records": 129,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"金斯瑞\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/01548/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112401142_c.pdf",
+            "title": "內幕消息（1）PROBIO CAYMAN股份重組相關的須予披露交易&#x3b;（2）A輪融資、B輪融資及C輪融資條款的重大變更",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400068_c.pdf",
+            "title": "內幕消息：PROBIO TECHNOLOGY LIMITED建議分拆及獨立上市",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400068_c.pdf",
+            "title": "內幕消息：PROBIO TECHNOLOGY LIMITED建議分拆及獨立上市",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1014/2025101400541_c.pdf",
+            "title": "內幕消息公告: 根據與禮新醫藥科技有限公司的許可協議蓬勃收到付款",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0722/2025072200028_c.pdf",
+            "title": "內幕消息: 正面盈利預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0630/2025063000332_c.pdf",
+            "title": "內幕消息公告：根據與禮新醫藥科技有限公司的許可協議蓬勃收到付款",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0314/2025031401169_c.pdf",
+            "title": "關於內幕消息公告上市聯營公司傳奇生物科技股份有限公司截至二零二四年十二月三十一日止第四季度及全年的財務業績的補充公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0311/2025031101108_c.pdf",
+            "title": "內幕消息：上市聯營公司傳奇生物科技股份有限公司截至二零二四年十二月三十一日止第四季度及全年的財務業績",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0216/2025021600018_c.pdf",
+            "title": "內幕消息: 正面盈利預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0413/2026041300765_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2024/0422/2024042201554_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042800926_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.5",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=135102&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=129&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 135102,
+          "c": "01548",
+          "n": "金斯瑞生物科技",
+          "s": 6552
+        },
+        "records": 129,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"金斯瑞\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"金斯瑞\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/01548/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112401142_c.pdf",
+            "title": "內幕消息（1）PROBIO CAYMAN股份重組相關的須予披露交易&#x3b;（2）A輪融資、B輪融資及C輪融資條款的重大變更",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400068_c.pdf",
+            "title": "內幕消息：PROBIO TECHNOLOGY LIMITED建議分拆及獨立上市",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400068_c.pdf",
+            "title": "內幕消息：PROBIO TECHNOLOGY LIMITED建議分拆及獨立上市",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1014/2025101400541_c.pdf",
+            "title": "內幕消息公告: 根據與禮新醫藥科技有限公司的許可協議蓬勃收到付款",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0722/2025072200028_c.pdf",
+            "title": "內幕消息: 正面盈利預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0630/2025063000332_c.pdf",
+            "title": "內幕消息公告：根據與禮新醫藥科技有限公司的許可協議蓬勃收到付款",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0314/2025031401169_c.pdf",
+            "title": "關於內幕消息公告上市聯營公司傳奇生物科技股份有限公司截至二零二四年十二月三十一日止第四季度及全年的財務業績的補充公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0311/2025031101108_c.pdf",
+            "title": "內幕消息：上市聯營公司傳奇生物科技股份有限公司截至二零二四年十二月三十一日止第四季度及全年的財務業績",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0216/2025021600018_c.pdf",
+            "title": "內幕消息: 正面盈利預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0413/2026041300765_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2024/0422/2024042201554_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042800926_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  }
+]

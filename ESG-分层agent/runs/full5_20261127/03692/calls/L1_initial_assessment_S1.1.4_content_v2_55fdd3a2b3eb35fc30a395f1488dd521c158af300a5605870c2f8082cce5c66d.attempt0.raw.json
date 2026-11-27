@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b3c90f48-8d2c-97bb-bafe-349d2e087dae",
+  "object": "chat.completion",
+  "created": 1795732402,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"法定社会保障及基本福利\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e007\",\n        \"e008\",\n        \"e009\"\n      ],\n      \"supported_paths\": [\n        \"补充福利\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e005\",\n        \"e006\",\n        \"e007\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"家庭与生活支持\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e009\",\n        \"e012\"\n      ],\n      \"supported_paths\": [\n        \"福利取得规则\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e011\"\n      ],\n      \"supported_paths\": [\n        \"实际覆盖、使用或受益\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": {\n        \"occurred\": true,\n        \"period_confirmed\": true,\n        \"evidence_refs\": [\n          \"e011\"\n        ]\n      }\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3876,
+    "total_tokens": 4416,
+    "completion_tokens": 540,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3876
+    }
+  }
+}

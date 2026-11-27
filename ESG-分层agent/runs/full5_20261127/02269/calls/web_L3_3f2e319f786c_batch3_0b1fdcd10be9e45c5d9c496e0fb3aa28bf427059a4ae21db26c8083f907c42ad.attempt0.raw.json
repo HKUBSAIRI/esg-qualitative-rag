@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-15564d72-57c7-9050-a771-1b95f822a224",
+  "object": "chat.completion",
+  "created": 1795744008,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p049\",\n      \"group_ids\": [\n        \"T5\"\n      ],\n      \"quote\": \"严格遵守有关工作时间的当地法律法规的规定,为劳动者提供合理的休息时间,尊 重他们休息的权利,如需加班的,应告知劳动者并依法支付加班费;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物员工\",\n      \"relevance\": \"披露了关于工作时间、休息权利及加班费支付的合规政策，属于工时休假相关的制度安排。\"\n    },\n    {\n      \"ref_id\": \"p050\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"致力于提供良好的就业条件,依法提供、支付公平合理合法具有竞争力的薪酬,包 括但不限于支付的工资不低于法定最低标准、提供法定福利、依法支付加班费等;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物员工\",\n      \"relevance\": \"披露了关于薪酬支付（包括加班费）的政策承诺，涉及工资支付保障。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9568,
+    "total_tokens": 9842,
+    "completion_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9568
+    }
+  }
+}

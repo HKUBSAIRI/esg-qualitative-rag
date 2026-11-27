@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4b4c0b26-ad1d-97a4-9156-c72ce25cb5ba",
+  "object": "chat.completion",
+  "created": 1795744161,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际发生的工时监测结果（如具体检查数据、异常处理数量）\",\n        \"休假使用人数或比例\",\n        \"执行措施覆盖人数\",\n        \"已纠正的休息权侵害案例\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 995,
+    "total_tokens": 1118,
+    "completion_tokens": 123,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 995
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b623977f-80e7-9524-ae0a-13b6363470be",
+  "object": "chat.completion",
+  "created": 1795745629,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确披露反对或禁止员工相关歧视的政策要求\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止职场骚扰、反性骚扰或相应零容忍要求\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露适用于歧视或骚扰投诉的至少一项受理、核查、调查或处理程序\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露适用于歧视或骚扰投诉的至少一项申诉人或受影响人员保护措施（如保密）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对查实歧视或骚扰的具体处分、问责规则或纠正补救机制。现有证据仅提及调查程序和保密，未说明违规后的具体处置措施。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2412,
+    "total_tokens": 2895,
+    "completion_tokens": 483,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2412
+    }
+  }
+}

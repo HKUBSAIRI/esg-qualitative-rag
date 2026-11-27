@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f20af271-ec73-9636-9495-3d9864d354c6",
+  "object": "chat.completion",
+  "created": 1795745698,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"policy_or_case\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"monitoring_result\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": {\n        \"occurred\": true,\n        \"period_confirmed\": true,\n        \"evidence_refs\": [\n          \"e004\"\n        ]\n      }\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1513,
+    "total_tokens": 1734,
+    "completion_tokens": 221,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1513
+    }
+  }
+}

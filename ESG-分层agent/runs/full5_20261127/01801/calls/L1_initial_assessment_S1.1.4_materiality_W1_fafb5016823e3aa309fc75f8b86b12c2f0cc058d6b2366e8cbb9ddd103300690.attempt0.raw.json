@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b96d2d38-dd06-9e7c-a5d1-a75eb7bb32ec",
+  "object": "chat.completion",
+  "created": 1795732402,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e002\"\n  ],\n  \"reason\": \"候选引文 e002 明确列举了‘養老保險、醫療保險、失業保險、工傷保險、生育保險、住房公積金’等具体法定社会保障项目，直接满足指标 S1.1.4 中关于‘披露适用员工的至少一项具体法定社会保障或基本福利政策、安排或事实’的成立路径。尽管评估部分指出缺乏细节，但该引文本身提供了具体的险种名称，足以支撑结论，因此该候选对判分具有实质影响，属于必要证据。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 474,
+    "total_tokens": 611,
+    "completion_tokens": 137,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 474
+    }
+  }
+}

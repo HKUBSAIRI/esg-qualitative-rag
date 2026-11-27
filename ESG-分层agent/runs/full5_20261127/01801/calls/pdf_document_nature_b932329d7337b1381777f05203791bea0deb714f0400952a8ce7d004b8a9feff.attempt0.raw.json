@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-30382b2c-a151-9f6a-afc8-245d7d4da797",
+  "object": "chat.completion",
+  "created": 1795743847,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"esg\",\n  \"report_year\": 2021,\n  \"publisher\": \"Innovent Biologics, Inc.\",\n  \"basis\": \"文件标题为'ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT'及'環境、社會及管治報告．2021'，目录包含'Management’s Statement'、'About This Report'、'Board Statement'等典型ESG报告章节，内容涉及公司治理、创新承诺、员工关怀及绿色运营等可持续发展议题。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2507,
+    "total_tokens": 2626,
+    "completion_tokens": 119,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2507
+    }
+  }
+}

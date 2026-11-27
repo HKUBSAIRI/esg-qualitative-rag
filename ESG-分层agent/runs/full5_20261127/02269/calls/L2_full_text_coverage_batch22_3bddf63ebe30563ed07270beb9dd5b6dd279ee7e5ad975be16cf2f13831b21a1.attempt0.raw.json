@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-581720c0-5f12-9e5c-826b-b6d83086e3ef",
+  "object": "chat.completion",
+  "created": 1795739603,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p014\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"The employees of the Group's subsidiaries are members of the state-managed retirement benefits schemes operated by government. The subsidiaries are required to contribute a certain percentage of payroll costs to the retirement benefits schemes to fund the benefits. The only obligation of the Group with respect to the retirement benefits schemes is to make the specified contributions.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"集团子公司员工\",\n      \"relevance\": \"披露了子公司员工参与政府管理退休福利计划及公司缴纳义务，属于劳动合同保障中的法定福利安排事实。\"\n    },\n    {\n      \"ref_id\": \"p015\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"The total cost charged to profit or loss in respect of the above-mentioned schemes amounted to approximately RMB479,701,000 for the year ended December 31, 2025 (2024: RMB460,568,000).\",\n      \"kind\": \"result\",\n      \"period\": \"截至2025年12月31日止年度\",\n      \"scope\": \"集团\",\n      \"relevance\": \"提供了当期退休福利计划的具体费用数据，佐证了上述劳动合同保障政策的实际执行与财务影响。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14055,
+    "total_tokens": 14402,
+    "completion_tokens": 347,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 14055
+    }
+  }
+}

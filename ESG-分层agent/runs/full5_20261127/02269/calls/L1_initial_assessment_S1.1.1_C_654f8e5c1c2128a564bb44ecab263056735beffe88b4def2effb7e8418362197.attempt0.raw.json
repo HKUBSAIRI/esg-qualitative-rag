@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c3c12c10-c9d0-9f13-b2c2-b777c7674a94",
+  "object": "chat.completion",
+  "created": 1795731956,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工流失率具体数值（10%）及计算口径定义\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别员工劳动合同签订、续签、期限或签订比例等具体政策、安排或事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关的通知、协商、补偿制度或辞退福利等具体安排或事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工内部调动人数（610人），符合内部转岗/轮换的事实数据要求\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"无当期实际发生的终止补偿支付、就业安置受益或有效纠正结果的具体事实证据\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2432,
+    "total_tokens": 2879,
+    "completion_tokens": 447,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 2432
+    }
+  }
+}

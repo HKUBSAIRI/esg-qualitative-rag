@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-27ec5754-940b-936d-b050-84d17b73cda4",
+  "object": "chat.completion",
+  "created": 1795729163,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"local_id\": \"e1\",\n      \"ref_id\": \"p002\",\n      \"quote\": \"我們不鼓勵加班,嚴格執行加班審核與調休制度,保障員工充分休 息,並通過數字化平臺實時監測考勤數據,發現異常數據立即啟動核查流程,必要時調整人力資源配置,減輕 相關崗位的工作負荷。\",\n      \"kind\": \"policy/mechanism/action\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e2\",\n      \"ref_id\": \"p014\",\n      \"quote\": \"尊重員工的勞動權和休息權,允許按崗位性質靈活調整工作時間,不鼓勵加班,不強迫勞動,對額外或非 常規時間的工作依法給予補償,包括調休、加班費等;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e3\",\n      \"ref_id\": \"p005\",\n      \"quote\": \"社會保險、住房公積金、法定帶薪假期、勞模津貼、獨生子女補貼、職業健康體檢等\",\n      \"kind\": \"policy/benefit\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e4\",\n      \"ref_id\": \"p017\",\n      \"quote\": \"育兒假、工作日哺乳時間、哺乳室、靈活工作時間、子女商業醫療險等\",\n      \"kind\": \"policy/benefit\",\n      \"period\": \"未明确\",\n      \"scope\": \"特定员工/福利项目\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e5\",\n      \"ref_id\": \"p007\",\n      \"quote\": \"因工損失工作日數 | 天 | 494\",\n      \"kind\": \"result\",\n      \"period\": \"2025年\",\n      \"scope\": \"集团合并\",\n      \"relevance\": \"直接事实\"\n    }\n  ],\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"e1\",\n        \"e2\"\n      ],\n      \"evidence_ids\": [\n        \"e1\",\n        \"e2\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"e1\",\n        \"e2\"\n      ],\n      \"evidence_ids\": [\n        \"e1\",\n        \"e2\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"e1\",\n        \"e2\",\n        \"e3\",\n        \"e4\"\n      ],\n      \"evidence_ids\": [\n        \"e1\",\n        \"e2\",\n        \"e3\",\n        \"e4\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"e1\"\n      ],\n      \"evidence_ids\": [\n        \"e1\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"supported_paths\": [],\n      \"evidence_ids\": [],\n      \"missing\": [\n        \"当期实际工时监测结果\",\n        \"当期休假使用人数或比例\",\n        \"当期执行措施覆盖人数\",\n        \"当期已纠正的休息权侵害具体案例或数据\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5042,
+    "total_tokens": 6038,
+    "completion_tokens": 996,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5042
+    }
+  }
+}

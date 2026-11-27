@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ca5f19d5-8949-93c1-8879-942c86ee2ed5",
+  "object": "chat.completion",
+  "created": 1795739530,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p035\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"There was no material and significant dispute between the Group and its employees, suppliers and/or customers during the Reporting Period.\",\n      \"kind\": \"result\",\n      \"period\": \"Reporting Period\",\n      \"scope\": \"Group\",\n      \"relevance\": \"披露了报告期内与员工无重大纠纷，虽未直接给出离职率数值，但提供了劳动关系稳定性的相关事实结果，作为当期员工关系状态的间接证据。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13450,
+    "total_tokens": 13593,
+    "completion_tokens": 143,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 13450
+    }
+  }
+}

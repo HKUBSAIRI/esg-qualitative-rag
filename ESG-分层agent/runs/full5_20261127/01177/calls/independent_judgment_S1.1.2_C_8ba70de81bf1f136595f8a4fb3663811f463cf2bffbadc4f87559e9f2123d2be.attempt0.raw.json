@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-45670a09-6767-9223-bcfd-1bd55a1579fa",
+  "object": "chat.completion",
+  "created": 1795730867,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空。根据规则，缺少相关证据本身不能证明应查范围已完成，且关键证据无法核实或必要材料的覆盖尚未确认时，受影响项记为 pending_review。当前无原文支持判断是否存在严重欠薪、违法克扣工资或未纠正事项，也无法评估薪酬支付保障的具体披露情况。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"缺失关于中国生物制药有限公司2025年度薪酬支付保障、欠薪事件及纠正措施的任何官方原文证据\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5593,
+    "total_tokens": 5724,
+    "completion_tokens": 131,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5593
+    }
+  }
+}

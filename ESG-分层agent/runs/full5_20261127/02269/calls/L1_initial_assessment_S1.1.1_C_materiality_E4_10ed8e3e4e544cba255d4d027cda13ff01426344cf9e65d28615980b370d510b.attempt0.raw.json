@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-43152afe-2a49-9d82-bd5b-3bcf0b90af1f",
+  "object": "chat.completion",
+  "created": 1795732735,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e003\"\n  ],\n  \"reason\": \"判据相关性：候选引文 e003 包含“員工內部調動”的具体数值（2025年为610人），直接对应成立路径②中的“内部填补岗位比例、轮岗人数等事实”。即使该数据未经独立核验，其内容本身在逻辑上满足披露要求，足以支撑本组结论的成立，因此属于影响判分的必要证据。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 771,
+    "total_tokens": 883,
+    "completion_tokens": 112,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 771
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d7a83d2a-af6e-9ee2-840a-acff546f6c24",
+  "object": "chat.completion",
+  "created": 1795745490,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"我們的薪酬結構主要包括基本工資、年度績效獎金、長期激勵計劃和其他福利待遇,以獎勵員工的短期表現與長期成長。公司將績效評估 與薪酬激勵緊密掛鈎,以績效導向制定獎金和長期激勵的分配規則,綜合考量組織、團隊及個 人目標的整體達成情況。同時,公司基於業務需求積極拓展長短期的激勵模式,激發員工為公 司整體業務的共創精神。除基本薪酬外,所有員工均有資格參與績效激勵計劃。此外,公司還 通過各類調薪方式 (年度、晉升、特殊調薪等) ,確保高績效員工得到認可。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"藥明生物員工\",\n      \"relevance\": \"披露了薪酬结构（基本工资等）及奖金分配规则，属于工资核算规则的具体机制\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1305,
+    "total_tokens": 1557,
+    "completion_tokens": 252,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1305
+    }
+  }
+}

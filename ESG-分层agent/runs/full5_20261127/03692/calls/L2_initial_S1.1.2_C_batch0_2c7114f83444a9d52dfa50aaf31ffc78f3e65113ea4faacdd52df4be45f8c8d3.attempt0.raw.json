@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8a30d6ed-4891-998a-b83b-cfe08285c8c7",
+  "object": "chat.completion",
+  "created": 1795745395,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p028\",\n      \"group_ids\": [\n        \"P4\"\n      ],\n      \"quote\": \"僱員福利開支 (包括載於附註 8 的董事薪酬) : 工資及薪金 | 2,268,906 | 2,183,878\\n社會保險及其他福利 * | 1,009,501 | 1,006,062\\n以股份為基礎的付款 | 143,268 | 137,725\\n總計 | 3,421,675 | 3,327,665\",\n      \"kind\": \"result\",\n      \"period\": \"2025年及2024年\",\n      \"scope\": \"本集團僱員（含董事）\",\n      \"relevance\": \"披露了工资及薪金、社会保险等员工福利开支的具体金额，明确了工资支付保障政策适用的对象为本集团全体员工（含董事），符合P4关于覆盖范围的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8476,
+    "total_tokens": 8740,
+    "completion_tokens": 264,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8476
+    }
+  }
+}

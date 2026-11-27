@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c629eeca-5d3b-932b-b43b-bd0f26da7336",
+  "object": "chat.completion",
+  "created": 1795731542,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年度员工流失率具体数值（14.4%）及按性别、年龄、地区、职级划分的详细数据，并通过脚注明确口径为主动离职率。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露了内部转岗、竞聘及职业转换培训支持制度（e004），以及内部填补岗位比例的具体事实数据（e005）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"缺乏当期实际发生的终止补偿支付、就业安置受益或有效纠正结果的正向事实证据。现有证据仅显示特定群体无离职补偿（零支付/未发生），根据规则不构成实际执行保障结果。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制或已完成纠正的事实。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e016\",\n        \"e018\"\n      ],\n      \"supported_paths\": [\n        \"披露了建立覆盖招聘、用工的反歧视体系，包括招聘信息合规审查以避免性别、地域歧视，以及对任何形式的歧视行为持零容忍态度。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e017\",\n        \"e018\"\n      ],\n      \"supported_paths\": [\n        \"明确披露反对各种形式的职场骚扰行为，并对任何形式的骚扰行为持零容忍的态度。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e021\",\n        \"e024\"\n      ],\n      \"supported_paths\": [\n        \"披露了适用于歧视、骚扰投诉的受理、分类处理、规范调查及纪律处分程序，并提及工单系统处理员工意见的事实。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e023\",\n        \"e026\"\n      ],\n      \"supported_paths\": [\n        \"披露了《举报及举报人保护政策》，规定对举报信息严格保密、禁止打击报复，并设立匿名举报热线和邮箱。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9166,
+    "total_tokens": 10031,
+    "completion_tokens": 865,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9166
+    }
+  }
+}

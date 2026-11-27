@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-2d685cb3-667f-904c-b2a9-5caaf490935d",
+  "object": "chat.completion",
+  "created": 1795745740,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到经核实的严重欠薪、违法克扣工资且未有效纠正的证据。依据规则，投诉、和解、撤诉、职工债权公示和未披露整改不能单独证明严重事项或未纠正；且本阶段仅核查严重事项及纠正，不重新索取普通政策组证据。实际搜索日志显示无相关监管/司法通知索引，无必要案件原件读取失败导致的阻塞。\",\n  \"evidence_refs\": [],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5759,
+    "total_tokens": 5883,
+    "completion_tokens": 124,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5759
+    }
+  }
+}

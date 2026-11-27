@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-55259d87-0b0d-9ca5-8a19-0bf8d2abca3c",
+  "object": "chat.completion",
+  "created": 1795743692,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p070\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"新員工規章制度培訓(括合規承諾書簽署、反腐敗及多元化政策培訓等)\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"新员工\",\n      \"relevance\": \"原文提及开展“多元化政策培训”，虽未直接出现“反歧视”字样，但多元化政策通常涵盖禁止基于身份特征的差别待遇，属于防止就业中不正当差别待遇的具体措施或事实关联。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11022,
+    "total_tokens": 11176,
+    "completion_tokens": 154,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11022
+    }
+  }
+}

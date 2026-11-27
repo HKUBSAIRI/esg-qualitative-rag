@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8d0d78a1-9d58-962f-a847-cba06fa45fd8",
+  "object": "chat.completion",
+  "created": 1795730812,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p012\",\n      \"group_ids\": [\n        \"P3\"\n      ],\n      \"quote\": \"推动实现性别薪酬平等与同工同酬,持续监测性别薪酬差距,持续开展同 工同酬评估。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"性别薪酬差距、同工同酬\",\n      \"relevance\": \"披露了针对薪酬（工资）的持续监测和评估机制，符合S1.1.2 C中关于工资支付内部审查或监测的要求。\"\n    },\n    {\n      \"ref_id\": \"p009\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"我们制定并执行《中国生物制药员工意见反馈及申诉管理制度》 ,会及时处理员 工提出的举报与申诉,并对所有可能的违规案件实施严肃、有效的调查。在认真 评估事实后,我们将在适当的情况下,把调查结果反馈给上报人员。在得到证实 后, 我们将采取必要或适当的纠正措施。 本公司也接受任何针对报复行为的举报, 对举报的报复行为采取零容忍态度。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工举报与申诉、违规案件\",\n      \"relevance\": \"建立了处理员工申诉的制度，包含调查、反馈及采取纠正措施的流程，可作为工资支付争议复核或补救的一般性机制依据。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11041,
+    "total_tokens": 11390,
+    "completion_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11041
+    }
+  }
+}

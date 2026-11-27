@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6fe3a396-8724-99ac-bba3-f511e5db3640",
+  "object": "chat.completion",
+  "created": 1795744041,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\",\n    \"e007\"\n  ],\n  \"reason\": \"判据相关性：目标指标要求披露当期（2025年）离职率具体数值及口径。候选e001直接提供了2025年的员工流失率数值（10%），满足‘具体数值’这一核心缺失项；候选e007提供了主动流失率的计算公式，有助于识别或补充‘离职率口径’。其他候选如e005、e006仅为索引或分类描述，无具体数据；e018、e020为往年数据或非直接离职率指标，不影响当期结论的成立路径判断。因此，e001和e007是真正影响判分的关键证据。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1800,
+    "total_tokens": 1978,
+    "completion_tokens": 178,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1800
+    }
+  }
+}

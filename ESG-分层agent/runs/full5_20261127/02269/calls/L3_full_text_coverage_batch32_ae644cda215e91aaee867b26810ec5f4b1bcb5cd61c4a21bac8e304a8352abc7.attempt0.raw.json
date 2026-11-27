@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-cc9dc12f-6f50-9336-a0b3-fb41a2b7bd6e",
+  "object": "chat.completion",
+  "created": 1795739807,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p016\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"Employees should cooperate with the Company in the investigation. For employees who obstruct or refuse to cooperate in the investigation, the disciplinary actions could be taken by the Company up to dismissal or sent back to the employment agency depending on the severity of the violation;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物技术有限公司员工\",\n      \"relevance\": \"披露了因不配合调查可能导致解雇（dismissal）的纪律处分制度，属于裁员/解雇相关的处理制度。\"\n    },\n    {\n      \"ref_id\": \"p017\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"For the proven whistleblowing cases, the disciplinary actions could be taken to the relevant employees by the Company up to including written warning, dismissal or sent back to the employment agency depending on the severity of the violation.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物技术有限公司相关员工\",\n      \"relevance\": \"披露了经证实的举报案件中可能采取的包括解雇（dismissal）在内的纪律处分措施，涉及解除劳动关系的制度安排。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10830,
+    "total_tokens": 11144,
+    "completion_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 10830
+    }
+  }
+}

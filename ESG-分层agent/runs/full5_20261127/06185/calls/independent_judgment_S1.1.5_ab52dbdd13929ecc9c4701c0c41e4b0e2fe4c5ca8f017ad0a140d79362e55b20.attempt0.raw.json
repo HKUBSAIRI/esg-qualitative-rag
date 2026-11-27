@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-65fbfa5b-9ba7-9d1c-bc66-afb94b15be6a",
+  "object": "chat.completion",
+  "created": 1795731275,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空，且存在覆盖问题标记 'existing_official_scanned_lead_requires_quote_and_subject_review'。根据规则，缺少相关证据本身不能证明应查范围已完成，关键证据无法核实或必要材料的覆盖尚未确认时，受影响项记为 pending_review。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"S1.1.5 D1-D5: No evidence provided to verify anti-discrimination/harassment policies, mechanisms, or events.\",\n    \"Coverage Issue: Existing official scanned lead requires quote and subject review but was not included in evidence list.\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5603,
+    "total_tokens": 5753,
+    "completion_tokens": 150,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5603
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c9355f85-44d9-91b8-af39-0162ef47bbda",
+  "object": "chat.completion",
+  "created": 1795745470,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露公司建立了招聘、用工流程与监察体系，杜绝任何形式的歧视行为，符合反歧视政策与保障的判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"D2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露公司杜绝任何形式的骚扰行为，符合反骚扰政策与保障的判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"D3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002披露了投诉由专职机制分类处理，启动规范调查，重大事件由专项工作组协同人权调查组核查，符合适用于歧视或骚扰投诉的受理、核查、调查程序要求。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"D4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002提及保障申诉人的知情权；证据e003及检索记录中引用的《举报及举报人保护政策》明确禁止对举报人进行打击报复（不报复），并保护举报人信息（保密），符合申诉人与受影响人员保护的判分条件。虽然e003本身未详述不报复条款，但结合检索记录中的具体引文及e002的知情权保障，足以认定存在相关保护安排。\",\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"D5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002明确披露如确认存在职场歧视、骚扰等违规行为，将严格依据公司制度给予纪律处分，涉嫌违法案件将依法移送司法处理，符合责任追究与纠正补救的判分条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7544,
+    "total_tokens": 8108,
+    "completion_tokens": 564,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 7544
+    }
+  }
+}

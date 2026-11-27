@@ -1,0 +1,554 @@
+[
+  {
+    "indicator_id": "S1.1.2 C",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000015262&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=200&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 1000015262,
+          "c": "03759",
+          "n": "康龍化成",
+          "s": 12712
+        },
+        "records": 200,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"康龍化成\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/03759/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1015/2026101501011_c.pdf",
+            "title": "內幕消息主要股東出售A股",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0713/2026071300960_c.pdf",
+            "title": "內幕消息公告\n有關2026年半年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0113/2026011301094_c.pdf",
+            "title": "內幕消息公告\n有關2025年年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1028/2025102801981_c.pdf",
+            "title": "董事會薪酬與考核委員會工作細則",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0715/2025071501043_c.pdf",
+            "title": "內幕消息公告\n有關2025年半年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0630/2025063004283_c.pdf",
+            "title": "內幕消息及持股權益變動",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0121/2025012101149_c.pdf",
+            "title": "內幕消息公告\n有關2024年年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0926/2024092601585_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042801852_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1218/2024121801102_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0529/2025052900680_c.pdf",
+            "title": "2024年股東週年大會及2025年第一次H股類別股東大會的通函",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0428/2021042801705_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.3",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000015262&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=200&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 1000015262,
+          "c": "03759",
+          "n": "康龍化成",
+          "s": 12712
+        },
+        "records": 200,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"康龍化成\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/03759/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1015/2026101501011_c.pdf",
+            "title": "內幕消息主要股東出售A股",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0713/2026071300960_c.pdf",
+            "title": "內幕消息公告\n有關2026年半年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0113/2026011301094_c.pdf",
+            "title": "內幕消息公告\n有關2025年年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1028/2025102801981_c.pdf",
+            "title": "董事會薪酬與考核委員會工作細則",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0715/2025071501043_c.pdf",
+            "title": "內幕消息公告\n有關2025年半年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0630/2025063004283_c.pdf",
+            "title": "內幕消息及持股權益變動",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0121/2025012101149_c.pdf",
+            "title": "內幕消息公告\n有關2024年年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0926/2024092601585_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042801852_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1218/2024121801102_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0529/2025052900680_c.pdf",
+            "title": "2024年股東週年大會及2025年第一次H股類別股東大會的通函",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0428/2021042801705_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.4",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000015262&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=200&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 1000015262,
+          "c": "03759",
+          "n": "康龍化成",
+          "s": 12712
+        },
+        "records": 200,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"康龍化成\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/03759/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1015/2026101501011_c.pdf",
+            "title": "內幕消息主要股東出售A股",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0713/2026071300960_c.pdf",
+            "title": "內幕消息公告\n有關2026年半年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0113/2026011301094_c.pdf",
+            "title": "內幕消息公告\n有關2025年年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1028/2025102801981_c.pdf",
+            "title": "董事會薪酬與考核委員會工作細則",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0715/2025071501043_c.pdf",
+            "title": "內幕消息公告\n有關2025年半年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0630/2025063004283_c.pdf",
+            "title": "內幕消息及持股權益變動",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0121/2025012101149_c.pdf",
+            "title": "內幕消息公告\n有關2024年年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0926/2024092601585_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042801852_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1218/2024121801102_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0529/2025052900680_c.pdf",
+            "title": "2024年股東週年大會及2025年第一次H股類別股東大會的通函",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0428/2021042801705_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.5",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000015262&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=200&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 1000015262,
+          "c": "03759",
+          "n": "康龍化成",
+          "s": 12712
+        },
+        "records": 200,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"康龍化成\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"康龍化成\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/03759/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1015/2026101501011_c.pdf",
+            "title": "內幕消息主要股東出售A股",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0713/2026071300960_c.pdf",
+            "title": "內幕消息公告\n有關2026年半年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0113/2026011301094_c.pdf",
+            "title": "內幕消息公告\n有關2025年年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1028/2025102801981_c.pdf",
+            "title": "董事會薪酬與考核委員會工作細則",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0715/2025071501043_c.pdf",
+            "title": "內幕消息公告\n有關2025年半年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0630/2025063004283_c.pdf",
+            "title": "內幕消息及持股權益變動",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0121/2025012101149_c.pdf",
+            "title": "內幕消息公告\n有關2024年年度業績預告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为普通业务、融资、业绩、股权交易、员工购股计划、审计聘任或薪酬委员会制度，不是员工严重侵权具体通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0926/2024092601585_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042801852_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1218/2024121801102_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0529/2025052900680_c.pdf",
+            "title": "2024年股東週年大會及2025年第一次H股類別股東大會的通函",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0428/2021042801705_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  }
+]

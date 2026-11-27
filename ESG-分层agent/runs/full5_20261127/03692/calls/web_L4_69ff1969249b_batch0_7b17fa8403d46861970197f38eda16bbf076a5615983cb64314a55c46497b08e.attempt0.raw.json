@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-58adc646-0f3f-9fab-85d1-f94ecb69640a",
+  "object": "chat.completion",
+  "created": 1795743648,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p060\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"我們積極培育多元容的企業文化,協 助員工做好職業發展規劃,着力提升員工的專業能力,讓員工的個人價值與企業發展同步增長。 2023 年, 我們推出了專業技術和綜合素質並行的系列課程,開展了豐富多彩的文體活動,讓員工感受到企業發展的活 力,以及平等容的工作氛圍。\",\n      \"kind\": \"policy\",\n      \"period\": \"2023\",\n      \"scope\": \"翰森製藥集團有限公司及其附屬公司\",\n      \"relevance\": \"披露了培育多元包容的企业文化及平等包容的工作氛围，虽未明确列出禁止歧视的具体条款，但体现了反歧视的政策导向和文化保障。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11279,
+    "total_tokens": 11494,
+    "completion_tokens": 215,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11279
+    }
+  }
+}

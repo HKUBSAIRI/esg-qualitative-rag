@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-27b45b03-5643-929e-aa03-a4578a99a239",
+  "object": "chat.completion",
+  "created": 1795730734,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空。根据规则，缺少相关证据本身不能证明应查范围已完成，且关键证据无法核实或必要材料的覆盖尚未确认时，受影响项记为 pending_review。当前无法判断是否存在严重员工福利侵害及纠正情况，也无法评估 W1-W5 各组的得分条件。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"缺失关于法定社会保障及基本福利（W1）的披露证据\",\n    \"缺失关于补充福利（W2）的披露证据\",\n    \"缺失关于家庭与生活支持（W3）的披露证据\",\n    \"缺失关于福利取得规则（W4）的披露证据\",\n    \"缺失关于实际覆盖、使用或受益事实（W5）的披露证据\",\n    \"未找到任何关于严重员工福利权益侵害及其纠正情况的通报或记录\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5589,
+    "total_tokens": 5793,
+    "completion_tokens": 204,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5589
+    }
+  }
+}

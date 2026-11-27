@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-85f4c62d-9c24-90e9-a870-d99f78195d22",
+  "object": "chat.completion",
+  "created": 1795730547,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p011\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"中國生物製藥以同工同酬爲基本原則構建薪酬管 理體系,確保全體員工收入不低於所在地區最低 工資標準\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了确保员工收入不低于所在地区最低工资标准的政策，符合薪酬支付保障中关于最低工资保障的要求。\"\n    },\n    {\n      \"ref_id\": \"p010\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"對額外或非常規時間的工作依法給予補償,包括調休、加班費等。\",\n      \"kind\": \"action\",\n      \"period\": \"2025 年1 月1 日至2025 年12 月31 日\",\n      \"scope\": \"涉及额外或非常规时间工作的员工\",\n      \"relevance\": \"披露了对加班依法给予补偿（包括加班费）的执行事实，属于具体工资支付内容的执行。\"\n    },\n    {\n      \"ref_id\": \"p010\",\n      \"group_ids\": [\n        \"P4\"\n      ],\n      \"quote\": \"公司嚴格落實國家法定節假日、帶薪年假、帶薪產假、陪產假等休假制度,確保員工休假期間薪資及社保權益不受影響\",\n      \"kind\": \"policy\",\n      \"period\": \"2025 年1 月1 日至2025 年12 月31 日\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"明确了休假期间薪资权益不受影响的保障对象为全体员工，对应工资支付保障的覆盖范围。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8962,
+    "total_tokens": 9400,
+    "completion_tokens": 438,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8962
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-840e3112-0297-9c02-b7cb-b5da1cbde2bd",
+  "object": "chat.completion",
+  "created": 1795743753,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001披露了“允許按崗位性質靈活調整工作時間”，符合具体工作时间或工时控制的政策条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确披露了“嚴格執行加班審核與調休制度”，符合加班管理的具体政策或程序条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004列出了“法定帶薪假期”作为福利项目，证据e002提及“育兒假、工作日哺乳時間”，均支持员工享有法定假期及具体休假安排的权利。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了“通過數字化平臺實時監測考勤數據”及“發現異常數據立即啟動核查流程”，证据e005提及参与制定“假勤管理”制度，符合具体工时或休假管理机制的条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"虽然证据e006显示当期有实际工时监测行为（数字化平台实时监测），但独立检查记录显示关键官方来源（HKEX公告及SAMR页面）因技术错误无法读取，导致无法确认是否存在未披露的严重违规或未纠正事项。根据规则，必要材料的覆盖尚未完全确认且存在核实障碍，故状态为待核验。\",\n      \"evidence_refs\": [\n        \"e006\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10927,
+    "total_tokens": 11476,
+    "completion_tokens": 549,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 10927
+    }
+  }
+}

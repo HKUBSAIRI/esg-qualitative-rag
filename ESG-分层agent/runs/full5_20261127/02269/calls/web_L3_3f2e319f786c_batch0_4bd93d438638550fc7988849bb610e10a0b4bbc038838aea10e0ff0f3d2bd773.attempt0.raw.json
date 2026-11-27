@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-468030a8-54b2-9807-847e-9d2ebb18ecb4",
+  "object": "chat.completion",
+  "created": 1795744003,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p071\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"在药明生物,我们不容忍任何人员由于依照商业行为准则报告疑虑或者协助调 查而遭受打击报复。我们将视严重程度对实施打击报复的人员进行处罚,直到 并包括解除劳动合约。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物全体员工\",\n      \"relevance\": \"披露了关于解除劳动合约（劳动合同终止）的具体政策安排，涉及员工劳动合同保障中的权利义务与合同期限/终止条件。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9301,
+    "total_tokens": 9464,
+    "completion_tokens": 163,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9301
+    }
+  }
+}

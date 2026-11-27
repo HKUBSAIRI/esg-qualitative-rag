@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c5bd9706-200e-9ab2-8c88-eee84bf927e2",
+  "object": "chat.completion",
+  "created": 1795744590,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"esg\",\n  \"report_year\": 2022,\n  \"publisher\": \"中国生物制药有限公司\",\n  \"basis\": \"文件标题及封面明确标注为“环境、社会及管治报告”，内容包含“关于本报告”、“ESG管治”、“联交所ESG报告指引索引”等典型ESG报告结构，且依据《主板上市规则》附录二十七编制。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2666,
+    "total_tokens": 2762,
+    "completion_tokens": 96,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2666
+    }
+  }
+}

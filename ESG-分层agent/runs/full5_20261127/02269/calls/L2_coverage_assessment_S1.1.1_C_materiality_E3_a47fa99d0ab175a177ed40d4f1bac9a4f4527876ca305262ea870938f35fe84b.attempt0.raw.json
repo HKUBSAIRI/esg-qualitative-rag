@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-9bdd7dc5-6db7-94ff-8fd4-60e522f2c584",
+  "object": "chat.completion",
+  "created": 1795739691,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\": [], \"reason\": \"候选e011仅披露员工成本总额（含薪资、退休福利及股份支付），未包含任何关于裁员通知、协商、具体补偿安排或离职争议处理制度的信息。根据判据，普通员工福利总费用不自动证明终止补偿实际支付或裁员程序存在，该引文即使核实也无法满足本组成立路径，亦不与已核实结论冲突，故不影响判分。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 521,
+    "total_tokens": 615,
+    "completion_tokens": 94,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 521
+    }
+  }
+}

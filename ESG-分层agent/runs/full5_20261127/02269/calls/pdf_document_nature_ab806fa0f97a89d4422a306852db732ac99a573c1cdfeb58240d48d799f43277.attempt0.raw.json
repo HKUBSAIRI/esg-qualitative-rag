@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b59dd195-622b-910f-aa4e-cfa248681889",
+  "object": "chat.completion",
+  "created": 1795743986,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"kind\":\"policy\",\"report_year\":2024,\"publisher\":\"药明生物\",\"basis\":\"文件标题为《商业行为准则》，内容包含CEO致辞、目录及具体行为规范（如打击腐败、利益冲突等），属于公司内部管理制度。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 826,
+    "total_tokens": 878,
+    "completion_tokens": 52,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 826
+    }
+  }
+}

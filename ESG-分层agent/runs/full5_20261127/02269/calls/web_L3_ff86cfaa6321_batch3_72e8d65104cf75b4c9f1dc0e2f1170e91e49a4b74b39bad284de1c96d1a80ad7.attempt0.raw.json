@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ae1438a8-b42d-98bd-bba3-d091a628e502",
+  "object": "chat.completion",
+  "created": 1795744025,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p063\",\n      \"group_ids\": [\n        \"T5\"\n      ],\n      \"quote\": \"通过线上系统，我们追踪假期使用情况，并在下半年向年假余额较多的员工发送提醒。未休完的年假可按公司规定结转至下一年度作为福利年假。\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"所有享有带薪年假的员工\",\n      \"relevance\": \"披露了当期实际发生的工时监测（追踪假期使用情况）及执行措施（发送提醒、结转），符合T5关于实际执行或结果证据的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6906,
+    "total_tokens": 7063,
+    "completion_tokens": 157,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 6906
+    }
+  }
+}

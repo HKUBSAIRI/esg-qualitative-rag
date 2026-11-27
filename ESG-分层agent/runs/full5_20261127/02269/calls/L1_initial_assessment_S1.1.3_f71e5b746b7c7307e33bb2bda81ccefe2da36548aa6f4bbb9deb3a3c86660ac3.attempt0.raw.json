@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0764ea11-abe7-9dff-9fe0-d0ca3bc7dad0",
+  "object": "chat.completion",
+  "created": 1795730307,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"设立最长工作时间限制属于工时控制政策\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"通过系统管理加班情况、避免过度加班及安排调休属于具体加班管理措施\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"承诺提供带薪年假、福利年假、高温假及各类家庭假期属于明确权利披露\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"利用线上系统追踪假期使用情况并发送提醒属于具体休假管理机制\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际工时监测结果\",\n        \"当期休假使用人数或比例数据\",\n        \"当期执行覆盖范围\",\n        \"当期工时休假侵害纠正结果\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2352,
+    "total_tokens": 2807,
+    "completion_tokens": 455,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2352
+    }
+  }
+}

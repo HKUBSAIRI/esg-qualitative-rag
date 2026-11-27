@@ -1,0 +1,171 @@
+﻿<script src="/ncms/eds/titlesearch/config_c.js"></script>
+<form name="TitleSearchPanel" method="POST">
+    <input name="lang" value="ZH" type="hidden" />
+    <input name="market" value="SEHK" type="hidden" />
+    <input name="searchType" value="0" type="hidden" />
+    <input name="documentType" value="" type="hidden" />
+    <input name="t1code" value="" type="hidden" />
+    <input name="t2Gcode" value="" type="hidden" />
+    <input name="t2code" value="" type="hidden" />
+    <input name="stockId" value="" type="hidden" />
+    <input name="from" value="" type="hidden" />
+    <input name="to" value="" type="hidden" />
+    <div class="filter__container-title-search">
+        <div class="filter__radioGroup radio-custom">
+            <input type="radio" name="category" value="0" checked id="stockType1"><label for="stockType1">現有上市證券</label>
+            <input type="radio" name="category" value="1" id="stockType2"><label for="stockType2">已除牌證券</label>
+        </div>
+        <div class="filter__inputGroup">
+            <ul>
+                <li class="filter__container-input searchCodeName">
+                    <div class="form-input-text">
+                        <label for="searchStockCode">股份代號/股份名稱</label>
+                        <input id="searchStockCode" autocomplete="off" data-auto="false" type="text" placeholder="股份代號/股份名稱" value="" />
+                    </div>
+                    <a class="reminder popup-stocks-list" href="#">股份代號名單 &gt;</a>
+                </li>
+                <li class="filter__container-input searchCategory">
+                    <div class="form-input-text  clearfix">
+                        <div>
+                            <label for="searchType"><span>標題類別</span><span class="with-doctype">及文件類別</span></label>
+                            <div class="fancy-note-tooltip-hover">
+                                <a href="#" class="fancy-note-label tooltip" data-toggle="popup" data-target="#cms-lci-tooltip-popup"></a>
+                            </div>
+                        </div>
+                        <div class="combobox-group searchType filter__dropdown-js">
+                            <div class="combobox-body" id="tier1-select">
+                                <div class="combobox-trigger-wrap">
+                                    <div class="combobox-input-wrap">
+                                        <a class="combobox-field" data-select="true" data-value="rbAll" href="#">所有</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="combobox-boundlist">
+                                <div class="combobox-picker-list-wrap">
+                                    <div class="droplist-group">
+                                        <div class="droplist-items">
+                                            <div class="droplist-item" data-value="rbAll"><a href="#">所有</a></div>
+                                            <div class="droplist-item" data-value="rbAfter2006" data-select-target="true"><a href="#">標題類別</a></div>
+                                            <div class="droplist-item" data-value="rbPrior2006"><a href="#">文件類別</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 level dropdown -->
+                        <div class="tier1-wrap searchType-Categroy filter__dropdown-js">
+                            <div class="combobox-group combobox-group-disabled" id="rbAll" style="display: none;">
+                                <div class="combobox-body">
+                                    <div class="combobox-trigger-wrap">
+                                        <div class="combobox-input-wrap">
+                                            <a class="combobox-field" data-select="true" data-value="-2" tabindex="-1" href="#">所有</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="combobox-group" id="rbPrior2006" style="display: none;">
+                                <div class="combobox-body">
+                                    <div class="combobox-trigger-wrap">
+                                        <div class="combobox-input-wrap">
+                                            <a class="combobox-field" data-select="true" data-value="-2" href="#">所有</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="combobox-boundlist">
+                                    <div class="combobox-picker-list-wrap"><div class="droplist-group"></div></div>
+                                </div>
+                            </div>
+                            <div class="combobox-group" data-list-height="300" id="rbAfter2006">
+                                <div class="combobox-body">
+                                    <div class="combobox-trigger-wrap">
+                                        <div class="combobox-input-wrap">
+                                            <a class="combobox-field" data-select="true" data-value="-2" href="#">所有</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="combobox-boundlist">
+                                    <div class="combobox-picker-list-wrap"><div class="droplist-group"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="filter__container-input-wrap">
+                    <div class="filter__container-input searchDate">
+                        <div class="form-input-text">
+                            <!-- datepicker -->
+                            <label for="searchDate-From">開始日期</label>
+                            <input class="input-searchDate" id="searchDate-From" type="text" placeholder="yyyy/mm/dd" />
+                        </div><div class="form-input-text">
+                            <!-- datepicker -->
+                            <label for="searchDate-To">完結日期</label>
+                            <input class="input-searchDate" id="searchDate-To" type="text" placeholder="yyyy/mm/dd" />
+                        </div>
+                        <span class="reminder desktop-hidden">
+                            <span class="rbAfter2006-reminder">提示：適用於在 2007年 6月 25日 及其後發放的文件</span>
+                            <span class="rbPrior2006-reminder reminder-hidden">提示：適用於在 2007年 6月 25日 之前發放的文件</span>
+                        </span>
+                    </div><div class="filter__container-input searchTitle ">
+                        <div class="form-input-text homepage-news-title-input">
+                            <label for="searchTitle">訊息標題</label>
+                            <input id="searchTitle" type="text" name="title" placeholder="請輸入關鍵字" maxlength="30"/>
+                        </div>
+                    </div>
+                    <span class="reminder mobile-hidden tablet-hidden homepage-search-reminder">
+                        <span class="rbAfter2006-reminder">提示：適用於在 2007年 6月 25日 及其後發放的文件</span>
+                        <span class="rbPrior2006-reminder reminder-hidden">提示：適用於在 2007年 6月 25日 之前發放的文件</span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="filter__buttonGroup">
+            <a class="btn-clearall filter__btn-clearallFilters-js" href="#">清除</a>
+            <a class="btn-white filter__btn-cancelFilters-js" href="#">取消</a>
+            <a class="btn-blue filter__btn-applyFilters-js" href="#">搜尋</a>
+        </div>
+    </div>
+</form>
+<div id="lci-fancynote-container" class="fancy-popup-wrap fancy-note">
+    <div>
+        <div class="fancy-note-popup" id="cms-lci-tooltip-popup">
+            <a class="fancy-note-close" href="#"></a>
+            <div class="fancy-note-detail">
+                <div class="fancy-note-title">標題類別索引</div>
+                <div class="fancy-note-desc">
+                    <p><a href="http://www2.hkexnews.hk/-/media/HKEXnews/Homepage/Listed-Company-Publications/Search-Guide/HeadlineCategoriesIndex_c.pdf">發行人文件標題類別索引</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="fancy-note-shade"></div>
+    </div>
+    <div>
+        <div class="fancy-note-popup" id="cms-lci-explanatory-note">
+            <a class="fancy-note-close" href="#"></a>
+            <div class="fancy-note-detail">
+                <div class="fancy-note-title">說明注釋</div>
+                <div class="fancy-note-desc">
+                    <p>上市公司公告進階搜尋可供搜尋自１９９９年４月１日起由主板及創業板上市發行人根據上市條例披露要求而發出的公司公告、股東通函及其他公司信息（如年報及上市招股書）。請注意，由於在２００２年２月１５日前部份公司信息並未強制要求提交電子檔案，所以閣下的進階搜尋結果也許未能包括該等公司信息在內。為簡化搜尋參數的輸入，請到<a href="http://www3.hkexnews.hk/listedco/listconews/simplesearch/simplesearch_main_c.aspx" ref="noopener noreferrer" target="_blank">上市公司公告簡易搜尋</a>以搜尋最新或過去七天的上市公司文件。</p>
+                </div>
+            </div>
+        </div>
+        <div class="fancy-note-shade"></div>
+    </div>
+    <div>
+        <div class="fancy-note-popup" id="cms-lci-disclaimer">
+            <a class="fancy-note-close" href="#"></a>
+            <div class="fancy-note-detail">
+                <div class="fancy-note-title">免責聲明</div>
+                <div class="fancy-note-desc">
+                    <p>載有本免責聲明的超連結的網頁所顯示的文件及資料在本網站上登載，目的是向香港公眾人士提供資料；其中的內容並非投資建議，不應倚賴其作為投資建議。在香港以外地區的人士在瀏覽及使用該等文件及資料前，須自行查閱及遵守所有適用法例及規定。</p>
+                    <p>請注意：該網頁載有由上市發行人、新上市申請人及有關人士以電子方式 (包括以電子格式提供的資料) 向香港交易所提供的文件及資料，而香港交易所與上述人士之間並無任何代理、僱員或合夥關係。香港交易所並不負責審查、編輯或監察該等文件及當中所載資料，有關文件內的資料全部未經香港交易所核實。</p>
+                    <p>香港交易所及/或其附屬公司對通過該網頁而取得的該等文件及資料的內容概不負責，對其準確性、可靠性、完整性或擁有權亦不發表任何聲明，並明確表示概不對任何因該等資料全部或任何部分內容而產生或因倚賴該等內容而引致的損失承擔任何責任。另外，有些文件及資料可能包含有連接到外部網站或網頁的超連結，香港交易所及/或其附屬公司對可否成功連接到有關網站或網頁及其所載內容亦概不負責。(見香港交易所「<a href="http://www2.hkexnews.hk/Global/Exchange/Hyperlink-Policy?sc_lang=zh-HK" ref="noopener noreferrer" target="_blank">超連結政策</a>」)。</p>
+                    <p>本聲明的內容概不構成或被視為香港交易所及其附屬公司放棄其專有的特權及豁免權又或對上述權力構成任何限制。</p>
+                    <p>通過該網頁而取得的資料及文件均具有版權，可能屬香港交易所、作者或任何其他人士所有，視乎刊物的情況而定。未經有關當事人同意，任何人士不得轉載、發布、使用及／或連結該等內容。</p>
+                    <p>如得悉或相信該等文件所載的任何資料不準確、錯誤、不合法、淫褻、誹謗或侵犯第三者的知識產權，請聯絡【香港交易所電子呈交小組】(HKEX e-Submission)，電郵地址： <a href="mailto:ESSHotline@hkex.com.hk">ESSHotline@hkex.com.hk</a>。</p>
+                </div>
+            </div>
+        </div>
+        <div class="fancy-note-shade"></div>
+    </div>
+</div>
+<script src="/ncms/eds/titlesearch/main.js"></script>

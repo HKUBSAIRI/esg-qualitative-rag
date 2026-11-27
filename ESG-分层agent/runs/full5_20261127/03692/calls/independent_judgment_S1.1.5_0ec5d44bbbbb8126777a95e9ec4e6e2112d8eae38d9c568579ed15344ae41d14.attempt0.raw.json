@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b32ffb0a-93f1-93ec-a1e9-f9d094940d38",
+  "object": "chat.completion",
+  "created": 1795744254,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到。根据实际搜索日志，针对翰森制药集团有限公司（03692）在2025年关于严重歧视、骚扰及系统性机会不公平的官方监管、司法通报及整改记录进行了检索。HKEX披露易中打开的年报/公告被标记为'ordinary_report_not_independent_notice'，即普通报告而非独立违规通报；公司注册处执法页面及证监会法规查询页面虽已打开但未提取到针对该公司的具体严重事项案件原件或处罚决定。通用法规链接读取失败但标记为排除项且不阻塞核查。未发现经核实的严重歧视、骚扰或系统性机会不公平且未有效纠正的证据。\",\n  \"evidence_refs\": [],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7588,
+    "total_tokens": 7765,
+    "completion_tokens": 177,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7588
+    }
+  }
+}

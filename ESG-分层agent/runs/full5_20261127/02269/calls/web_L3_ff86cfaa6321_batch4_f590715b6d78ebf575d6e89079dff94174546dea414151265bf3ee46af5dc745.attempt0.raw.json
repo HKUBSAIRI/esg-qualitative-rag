@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c1d28353-d5c8-9f84-b1a3-6b5989e7dee9",
+  "object": "chat.completion",
+  "created": 1795744028,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p030\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"Recruit employees based on their professional and academic achievements\\n regardless\\n of religion, disability, age, race, color, sex, gender identity, sexual\\n orientation,\\n or marital status\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"招聘环节\",\n      \"relevance\": \"该段落描述了药明生物在招聘员工时的原则，涉及基于专业成就而非歧视性因素录用，属于劳动合同签订前或建立劳动关系的基础政策安排，与劳动合同保障中的权利义务及公平就业相关。\"\n    },\n    {\n      \"ref_id\": \"p031\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"Adhere to equal employment opportunity to advance a diverse workforce and to\\n create\\n an equal and inclusive corporate culture\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"整体雇佣关系\",\n      \"relevance\": \"该段落声明公司遵守平等就业机会，旨在创造包容的企业文化，这是确立员工与公司之间合法、公平劳动关系（即劳动合同基础）的重要政策依据。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4538,
+    "total_tokens": 4836,
+    "completion_tokens": 298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4538
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-dca4a080-8533-955b-bbc3-867f0be9017e",
+  "object": "chat.completion",
+  "created": 1795730798,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"discloses wage calculation basis (performance, experience, market rates) as a specific mechanism for wage processing\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"no disclosure of checks, monitoring, or internal reviews related to wage payment\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"no disclosure of remedial mechanisms or completed corrections for wage errors, unpaid wages, deductions, or overtime pay issues\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1108,
+    "total_tokens": 1367,
+    "completion_tokens": 259,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1108
+    }
+  }
+}

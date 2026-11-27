@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-46eacdd7-4d5e-9c6b-bb2d-51591d7fe1cb",
+  "object": "chat.completion",
+  "created": 1795739822,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露工资处理及员工查询至少一项具体机制或处理事实，如...与工资支付有关的薪酬申诉渠道及处理安排。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别对应机制或纠正事实\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1292,
+    "total_tokens": 1491,
+    "completion_tokens": 199,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1292
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-50128a61-b0c7-9939-9e4a-6fe5972d6518",
+  "object": "chat.completion",
+  "created": 1795745484,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"E4\"\n      ],\n      \"quote\": \"為激勵員工充分發揮潛力並促進內部人才流動,藥明生物既支持員工不斷精進向上晉升,也支 持員工通過專案、轉崗等方式橫向發展。我們推出的 「活水計劃」 以促進跨地區和跨部門的人才 流動,為員工提供更廣泛機會的同時也助力公司加速新業務的發展。 2025 年,我們持續優化和 提升公司內部的人才流動項目,通過改進政策與流程,滿足公司人才需求,並支持員工的職業 發展。\",\n      \"kind\": \"policy/mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了内部招聘、转岗或岗位轮换的制度（活水计划、横向发展）\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"E4\"\n      ],\n      \"quote\": \"針對離崗超過 6 個月的員 工,我們提供針對性的技能強化培訓,確保其專業技能與職位需求同步,助力順利重返職場。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年度\",\n      \"scope\": \"离岗超过6个月的员工\",\n      \"relevance\": \"披露了再就业服务或职业转换培训的具体支持（针对离岗员工的技能强化培训以助重返职场）\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2653,
+    "total_tokens": 3017,
+    "completion_tokens": 364,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2653
+    }
+  }
+}

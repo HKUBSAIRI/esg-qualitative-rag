@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-62d947d3-b057-9a27-8760-1db475ab39ed",
+  "object": "chat.completion",
+  "created": 1795730363,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p035\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"尊重員工的勞動權和休息權,允許按崗位性質靈活調整工作時間,不鼓勵加班,不強迫勞動,對額外或非 常規時間的工作依法給予補償,包括調休、加班費等;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了关于额外或非常规时间工作的补偿制度（调休、加班费），属于与劳动关系解除/终止相关的补偿安排或事实依据。\"\n    },\n    {\n      \"ref_id\": \"p028\",\n      \"group_ids\": [\n        \"T5\"\n      ],\n      \"quote\": \"公司通過入職背景審查、在職監督與離職審計,結合全員合規培訓,將國際勞工標準轉化為可執行的內部細則, 實現用工全流程的合規化管理與道德提升。我們不鼓勵加班,嚴格執行加班審核與調休制度,保障員工充分休 息,並通過數字化平臺實時監測考勤數據,發現異常數據立即啟動核查流程,必要時調整人力資源配置,減輕 相關崗位的工作負荷。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了当期实际执行的工时监测措施（通过数字化平台实时监测考勤数据，发现异常启动核查），符合T5对当期实际执行或结果的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9314,
+    "total_tokens": 9707,
+    "completion_tokens": 393,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9314
+    }
+  }
+}

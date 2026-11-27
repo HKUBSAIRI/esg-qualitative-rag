@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-48071295-85b5-94ba-a15d-a285ee3263fb",
+  "object": "chat.completion",
+  "created": 1795730560,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别员工劳动合同保障的对应内容\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"裁员程序的具体制度、安排或事实（如通知、协商、补偿标准等）\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"评分年度已经发生的终止补偿支付、就业安置、离职保障受益或相应有效纠正结果至少一项\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1251,
+    "total_tokens": 1501,
+    "completion_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1251
+    }
+  }
+}

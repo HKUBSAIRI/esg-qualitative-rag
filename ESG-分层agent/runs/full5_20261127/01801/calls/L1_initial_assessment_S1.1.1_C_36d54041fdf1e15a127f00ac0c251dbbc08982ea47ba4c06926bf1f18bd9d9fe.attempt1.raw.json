@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b4f64564-ff36-9c3f-acfb-f403cac8beef",
+  "object": "chat.completion",
+  "created": 1795731888,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"披露了当期员工离职率的具体数值及口径（按性别、年龄、地区细分）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别员工劳动合同保障的对应内容（如签订率、续签等具体政策或事实，仅提及遵守法律及编制招聘制度不足以证明劳动合同保障的具体安排）\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关制度、制度或事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别内部招聘、竞聘、转岗、再就业支持等对应内容\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"没有实际纠正结果，只有政策、计划或承诺；无当期终止补偿支付、就业安置受益等实际发生事实\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1964,
+    "total_tokens": 2401,
+    "completion_tokens": 437,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1964
+    }
+  }
+}

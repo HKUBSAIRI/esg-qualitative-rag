@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-60789ff1-bb71-9925-be54-1709487ab669",
+  "object": "chat.completion",
+  "created": 1795731012,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\",\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"披露了《薪酬福利管理制度》及加强薪酬合规管理的政策，符合‘依法定周期按时足额支付’或‘最低工资保障’等具体保障政策的识别要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别工资核算规则、核算复核、向员工发放工资单、员工查询工资差错的途径或与工资支付有关的薪酬申诉渠道及处理安排的具体机制或事实。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露与工资支付直接相关的检查、监测或内部审查的具体制度、程序或实际开展事实（如定期检查工资支付情况、审计范围涉及工资支付等）。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"明确福利支持体系覆盖全职员工、兼职人员和外包人员（e005），以及严格遵守法律法规保障在职员工权益（e007），明确了工资支付保障政策适用的员工对象。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还、复核）或已完成纠正的事实。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2988,
+    "total_tokens": 3525,
+    "completion_tokens": 537,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 2988
+    }
+  }
+}

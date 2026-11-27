@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-67f5f0ab-b73b-95a8-930a-d566d92b099e",
+  "object": "chat.completion",
+  "created": 1795743886,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001和e002明确披露了提供“五險一金”（法定福利）及“社會保險、住房公積金”等具体法定社会保障政策，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003、e004和e005披露了补充医疗保险、健康体检、高温津贴、免费工作餐或餐贴、通讯卡福利等具体补充福利安排，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e006、e007、e008和e009披露了家属开放日、员工食堂/宿舍/健身房、孕期女员工支持（母婴室、弹性哺乳假）、职工医疗救助政策等家庭与生活支持资源及服务，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e006\",\n        \"e007\",\n        \"e008\",\n        \"e009\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003指出针对“特定员工”，e009明确《职工医疗救助政策》适用于“全体员工”并规定了申领流程，e010说明部分福利仅针对特定对象，均体现了具体的取得规则或适用对象，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e009\",\n        \"e010\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e011披露了报告期内已对106位退休员工和10位困难员工进行慰问，并向一线员工发放防暑降温物资，属于当期已经发生的福利受益事实，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e011\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11922,
+    "total_tokens": 12562,
+    "completion_tokens": 640,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216,
+      "text_tokens": 11922
+    }
+  }
+}

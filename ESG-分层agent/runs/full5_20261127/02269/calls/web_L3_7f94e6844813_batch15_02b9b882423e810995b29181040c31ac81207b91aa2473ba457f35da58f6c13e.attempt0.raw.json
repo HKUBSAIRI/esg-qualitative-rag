@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7a1d1fff-e033-9eba-ab60-1bdce403b8a8",
+  "object": "chat.completion",
+  "created": 1795743937,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p014\",\n      \"group_ids\": [\n        \"T5\"\n      ],\n      \"quote\": \"我們倡導員工生活與工作平衡,提供遠程辦公及彈性時間辦 公等靈活工作模式,為員工創造更加友好的工作環境。此外,\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了弹性工作时间政策，属于工时管理相关制度，但未包含当期实际执行数据或纠正结果\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"加班費和調休\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工福利项目\",\n      \"relevance\": \"提及加班费和调休作为员工福利/政策项，但未披露具体的工资差错补救机制或已完成纠正事实\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10262,
+    "total_tokens": 10507,
+    "completion_tokens": 245,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10262
+    }
+  }
+}

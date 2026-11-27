@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-377af456-abb5-94b4-a2fe-af4cc064ea62",
+  "object": "chat.completion",
+  "created": 1795730612,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止歧视政策及零容忍要求，并提及开展反歧视培训的具体措施\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止骚扰（包括性骚扰和非性骚扰）的政策及零容忍要求，并提及开展反骚扰培训的具体措施\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了适用于歧视或骚扰投诉的申诉渠道及受理机制（《员工意见反馈及申诉管理制度》）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了针对举报人权益的保障安排（坚决保障举报人权益）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露了针对查实歧视或骚扰行为的处分规则（警告、记过、解雇、移交司法）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2043,
+    "total_tokens": 2513,
+    "completion_tokens": 470,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2043
+    }
+  }
+}

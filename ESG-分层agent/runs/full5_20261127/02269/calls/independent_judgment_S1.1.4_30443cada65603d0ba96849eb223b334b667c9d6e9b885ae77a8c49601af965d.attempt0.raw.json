@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8b502af3-3e66-9c46-ae53-da5026755f02",
+  "object": "chat.completion",
+  "created": 1795745570,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本阶段仅核查严重事项及纠正。实际搜索日志显示未执行网络搜索，且本地官方覆盖范围未确认（coverage_issues: local_only_official_coverage_unconfirmed），导致无法确定是否已穷尽必要案件原件的检索。由于缺乏关于药明生物技术有限公司在2025年度是否存在严重员工福利或社会保障权益侵害事件的任何证据或排除性结论，无法判定为无严重事项或存在未纠正/已纠正事项。根据规则，关键证据无法核实、必要材料的覆盖尚未确认时，受影响项记 pending_review。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"official_source_coverage_unconfirmed\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5753,
+    "total_tokens": 5914,
+    "completion_tokens": 161,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5753
+    }
+  }
+}

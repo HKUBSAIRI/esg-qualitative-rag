@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-28e1b484-994d-915f-9496-16d6860fd741",
+  "object": "chat.completion",
+  "created": 1795739530,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到。依据提供的证据及搜索日志，未发现关于Innovent Biologics, Inc.（信达生物制药）在2025年存在严重欠薪、违法克扣工资且未有效纠正的官方通报或司法判决。虽然部分官方来源（如深圳市人社局通告页面）因技术原因无法读取，但已打开的其他主要监管与披露渠道（HKEX公告、劳工处记录等）中无相关负面事项确认。投诉、和解或未披露整改不能单独证明严重事项，故判定为无经核实的不良事件。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"https://hrss.sz.gov.cn/ztfw/gzqx/pgt/content/post_12981971.html (official_source_unreadable)\",\n    \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_02b9d3e6f31a4cc38079901ab49994d5.html?tt_force_outside=1 (official_source_unreadable)\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9585,
+    "total_tokens": 9862,
+    "completion_tokens": 277,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9585
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-adfbed4a-9fb2-98b5-8679-781dd898451d",
+  "object": "chat.completion",
+  "created": 1795743598,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露公司严格执行《中华人民共和国劳动法》规定，实施标准工时制度，确保员工每周工作时长不超过法定上限。这符合“披露员工具体工作时间、排班、轮班或合理工时控制的至少一项政策”的条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"虽然证据e003提及遵守法律法规的雇佣制度，但缺乏关于加班申请、审批流程、自愿性说明、时长控制具体措施或异常处理安排的具体披露。根据规则，仅有支付加班费而无管理内容不足以得分，且当前材料未确认是否穷尽所有相关证据（检索记录显示content_sufficient为false），故标记为待复核以确认是否有遗漏的加班管理制度细节。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004和e005分别披露了带薪年休假、福利年假以及不少于98天的产假和至少5天的育儿假。这些属于明确的休息休假权利及取得安排，符合判分条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001中提到的“实施标准工时制度，确保员工每周工作时长不超过法定上限”隐含了对工时的监控与管理机制（如考勤或工时记录系统作为执行手段）。此外，评估记录指出该证据支持工时管理机制。虽未显式列出“考勤系统”名称，但“确保...不超过...”的执行事实通常依赖于具体的工时管理措施，结合e001的政策执行描述，可认定存在相应的管理机制。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"T5要求当期实际发生的工时监测、休假使用数据或纠正结果。现有证据主要为政策声明（e001, e003, e004, e005），缺乏2025年度具体的执行数据（如实际休假人数、检查记录等）。检索记录显示no_relevant_evidence_found，且独立核查因官方来源不可读而处于pending_review状态，无法确认是否存在未披露的违规或已执行的合规事实，故需人工复核以确认是否真的无当期实际执行证据或是否有外部监管通报涉及此方面。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11035,
+    "total_tokens": 11724,
+    "completion_tokens": 689,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 11035
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a3474e61-173e-9078-a782-76dddcefff3a",
+  "object": "chat.completion",
+  "created": 1795746288,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p012\",\n      \"group_ids\": [\n        \"P3\"\n      ],\n      \"quote\": \"(七)根据薪酬与考核委员会的要求,提供公司各项薪酬制度以及制度的执 行情况。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"公司各项薪酬制度及执行情况\",\n      \"relevance\": \"该条款规定人力资源部需向薪酬与考核委员会提供薪酬制度的执行情况，属于对工资支付相关制度执行情况的内部监测或审查机制的一部分。\"\n    },\n    {\n      \"ref_id\": \"p037\",\n      \"group_ids\": [\n        \"P3\"\n      ],\n      \"quote\": \"第十二条 公司人力资源部为薪酬与考核委员会的日常办事机构, 负责提供 公司有关人力资源方面的资料及被考评人员的有关资料, 负责筹备薪酬与考核委 员会会议并执行董事会及薪酬与考核委员会的有关决议。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"人力资源部作为日常办事机构的职责\",\n      \"relevance\": \"明确了人力资源部在薪酬与考核体系中的角色，包括提供资料和执行决议，间接支持了通过该委员会进行薪酬（含工资）相关事项的内部管理与审查流程。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8273,
+    "total_tokens": 8584,
+    "completion_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8273
+    }
+  }
+}

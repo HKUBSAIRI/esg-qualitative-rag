@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-9e7ed800-0156-9eb4-89d6-9cc3ae9d1082",
+  "object": "chat.completion",
+  "created": 1795730326,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p049\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"我們珍視多樣性,為所有員工創造平等機會,堅決反對任何形式的歧視和非法僱傭行為,包括童 工和強迫勞動。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明確\",\n      \"scope\": \"所有員工\",\n      \"relevance\": \"披露了反对员工歧视的政策要求，符合反歧视政策与保障指标。\"\n    },\n    {\n      \"ref_id\": \"p049\",\n      \"group_ids\": [\n        \"D2\"\n      ],\n      \"quote\": \"我們秉持誠實守信的原則,對歧視和騷擾採取零容忍政策,確保營造一個相互尊重、安全的工作環境。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明確\",\n      \"scope\": \"工作環境/員工\",\n      \"relevance\": \"披露了对骚扰采取零容忍的政策，符合反骚扰政策与保障指标。\"\n    },\n    {\n      \"ref_id\": \"p049\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"我們確保公平薪酬,遵守最低生活工資標 準,提供有競爭力的福利水平,凸顯我們對員工福利的承諾。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明確\",\n      \"scope\": \"員工\",\n      \"relevance\": \"披露了遵守最低生活工资标准的薪酬支付保障政策，符合薪酬支付保障指标。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13462,
+    "total_tokens": 13846,
+    "completion_tokens": 384,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 13462
+    }
+  }
+}

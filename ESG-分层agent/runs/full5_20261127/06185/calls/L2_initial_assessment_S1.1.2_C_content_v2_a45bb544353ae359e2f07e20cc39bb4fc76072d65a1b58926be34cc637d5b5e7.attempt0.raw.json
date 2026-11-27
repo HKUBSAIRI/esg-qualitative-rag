@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-00e681a5-4133-97fd-aaa9-48d76321e304",
+  "object": "chat.completion",
+  "created": 1795746278,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"e002: 'strictly ensures that all employees are entitled to statutory benefits' constitutes a specific guarantee of payment/benefits execution.\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"e002: Explicitly states 'all employees' as the object of the benefit guarantee.\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1820,
+    "total_tokens": 2035,
+    "completion_tokens": 215,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1820
+    }
+  }
+}

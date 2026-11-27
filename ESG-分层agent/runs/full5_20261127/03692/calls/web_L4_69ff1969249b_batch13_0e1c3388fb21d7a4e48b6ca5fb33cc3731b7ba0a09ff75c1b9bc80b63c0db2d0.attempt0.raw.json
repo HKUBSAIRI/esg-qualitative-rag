@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4befe06f-e33b-9f91-9736-37518e32691f",
+  "object": "chat.completion",
+  "created": 1795743696,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p063\",\n      \"group_ids\": [\n        \"D1\",\n        \"D2\"\n      ],\n      \"quote\": \"翰森製藥嚴格遵守《中華人民共和國勞動法》 及各運營地法規,在招聘和用工的每一個階段確保員 工的合法權益得到尊重,杜絕販賣人口、強迫勞動、使用童工及歧視、騷擾等行為,尊重員工結 社自由和集體談判權,保證所支付的薪酬不低於當地最低工資標準,嚴格踐行男女同工同酬政策。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"招聘和用工的每一个阶段\",\n      \"relevance\": \"明确披露杜绝歧视、骚扰行为，并践行男女同工同酬，符合反歧视与反骚扰的政策要求。\"\n    },\n    {\n      \"ref_id\": \"p067\",\n      \"group_ids\": [\n        \"D1\",\n        \"D2\"\n      ],\n      \"quote\": \"同時,我們為全體員工提供《員工多元化政策》 相關培訓,培養員工反歧視、反 騷擾意識,營造健康的職場環境。\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了针对全体员工的反歧视、反骚扰意识培训措施，属于具体的防止就业中不正当差别待遇的制度或事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11190,
+    "total_tokens": 11541,
+    "completion_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11190
+    }
+  }
+}

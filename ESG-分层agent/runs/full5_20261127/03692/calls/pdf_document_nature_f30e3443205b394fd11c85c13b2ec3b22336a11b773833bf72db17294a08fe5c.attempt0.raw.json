@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-2c5e5055-5cb1-9b16-9511-56779ecaedb1",
+  "object": "chat.completion",
+  "created": 1795743843,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"announcement\",\n  \"report_year\": null,\n  \"publisher\": \"翰森製藥集團有限公司\",\n  \"basis\": \"文件标题及内容明确为'2025年6月20日...舉行之股東週年大會的表決結果'，属于上市公司发布的普通公司公告/通函类文件，非ESG报告、年报、中期财报或具体制度。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1751,
+    "total_tokens": 1843,
+    "completion_tokens": 92,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1751
+    }
+  }
+}

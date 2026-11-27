@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1bfbdd0c-5b28-94c3-846b-d8184f9bcccc",
+  "object": "chat.completion",
+  "created": 1795730875,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空。根据规则，缺少相关证据本身不能证明应查范围已完成，且关键证据无法核实或必要材料的覆盖尚未确认时，受影响项记为 pending_review。当前无原文支持判断是否存在严重员工福利侵害及纠正情况。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"S1.1.4 指标缺乏任何候选证据以进行判分\",\n    \"无法确认是否发生严重员工福利权益侵害事件\",\n    \"无法确认是否存在有效纠正措施\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5588,
+    "total_tokens": 5722,
+    "completion_tokens": 134,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5588
+    }
+  }
+}

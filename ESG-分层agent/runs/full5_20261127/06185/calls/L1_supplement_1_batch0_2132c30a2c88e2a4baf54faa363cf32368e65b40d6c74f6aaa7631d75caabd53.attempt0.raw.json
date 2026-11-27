@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-993e9f97-ac46-90db-8df7-3989d1eda436",
+  "object": "chat.completion",
+  "created": 1795746268,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"T1\"\n      ],\n      \"quote\": \"By improving the approval process, we promoted more reasonable management of attendance irregularities, overtime headcount, and overtime hours.\",\n      \"kind\": \"action\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"Company employees\",\n      \"relevance\": \"Discloses specific measures for managing working hours (overtime) and attendance, satisfying the requirement for work time/scheduling policies or facts.\"\n    },\n    {\n      \"ref_id\": \"p014\",\n      \"group_ids\": [\n        \"T1\"\n      ],\n      \"quote\": \"Reasonable Working Hours\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"Company employees\",\n      \"relevance\": \"Identifies a section or policy heading related to working hours control.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11333,
+    "total_tokens": 11599,
+    "completion_tokens": 266,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11333
+    }
+  }
+}

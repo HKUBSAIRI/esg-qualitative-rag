@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-cb858821-f09b-9774-928e-3fcaf1fa77a7",
+  "object": "chat.completion",
+  "created": 1795746183,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001和e002明确披露了2025年（评分年度）的员工离职率具体数值（13.3%），并按性别、年龄、地区提供了细分口径，满足当期离职率披露及识别期间和口径的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003显示公司严格遵守《中华人民共和国劳动合同法》并编制相关人力资源管理制度；证据e004承诺与所有雇员签订符合当地法律法规要求的雇佣合约。这些构成了员工劳动合同保障的具体政策和安排。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004明确披露公司在解聘方面的雇佣制度按国家相关法律法规要求执行，这属于与裁员/解雇相关的制度安排，满足本组关于披露至少一项与裁员有关的制度或安排的条件。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e006披露公司为员工提供内部培训项目，这属于员工安置支持中“职业转换培训”或能力提升支持的具体事实/安排，满足本组判分条件。虽然e005提及内部提升但针对董事，e006更直接对应员工层面的支持措施。\",\n      \"evidence_refs\": [\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"根据规则，E5需证明当期实际发生的终止补偿支付、就业安置受益或有效纠正结果。检索记录显示search_complete=true且无相关证据（no_relevant_evidence_found）。现有证据仅包含政策（e003, e004）、机制（e005）或一般性行动（e006培训），未披露具体的当期辞退福利金额、实际支付的补偿金或已完成的再就业安置案例数据。因此判定为0分。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4043,
+    "total_tokens": 4667,
+    "completion_tokens": 624,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4043
+    }
+  }
+}

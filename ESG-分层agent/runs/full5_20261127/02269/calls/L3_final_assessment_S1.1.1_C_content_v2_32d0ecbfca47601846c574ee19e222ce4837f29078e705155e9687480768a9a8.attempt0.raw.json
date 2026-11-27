@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5c848e1c-de27-9b18-8e25-3b2b24f73f1f",
+  "object": "chat.completion",
+  "created": 1795739834,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工流失率具体数值（10%）及计算口径（总流失人数/年底员工总人数），满足当期离职率披露要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别员工劳动合同签订、续签、期限或签订比例等具体保障政策、安排或事实。现有证据仅涉及退休福利缴纳义务（e011/e012）或解雇纪律措施（e013/e014/e015），不属于劳动合同保障的核心定义范畴。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"没有实际纠正结果，只有政策、计划或承诺。未披露评分年度已经发生的终止补偿支付、就业安置、离职保障受益或相应有效纠正结果的具体数据或事实。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4400,
+    "total_tokens": 4772,
+    "completion_tokens": 372,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4400
+    }
+  }
+}

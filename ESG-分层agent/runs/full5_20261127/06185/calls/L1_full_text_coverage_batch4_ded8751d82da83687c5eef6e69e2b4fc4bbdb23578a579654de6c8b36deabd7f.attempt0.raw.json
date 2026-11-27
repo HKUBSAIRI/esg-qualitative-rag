@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-02b436a1-3c01-9667-b410-03c50e01a1fb",
+  "object": "chat.completion",
+  "created": 1795730870,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p046\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"Led by a number of highly experienced senior experts and scientists, the R&D team comprised 273 employees as of the end of 2025, of whom 55.68% held doctoral or master's degrees, providing sustained momentum for vaccine development.\",\n      \"kind\": \"result\",\n      \"period\": \"as of the end of 2025\",\n      \"scope\": \"R&D team\",\n      \"relevance\": \"披露了研发团队的员工人数及学历构成，虽未直接提及劳动合同签订率或具体保障政策，但作为员工管理的基础事实数据，在缺乏更明确合同条款披露时，可作为识别员工规模及结构的辅助证据（注：严格来说此条主要对应员工概况，若需严格匹配E2‘劳动合同保障’的具体政策如签订率、续签等，本批材料中无直接命中。但根据指令‘提取与目标有明确事实关联的最少充分连续引文’，若无直接合同政策，通常不强行关联。然而，检查所有段落，发现无直接关于‘劳动合同’、‘离职率’、‘裁员’、‘薪酬支付’、‘工时’、‘社保’、‘反歧视’等具体ESG社会议题的详细披露段落。大部分为环境、合规、研发进展。因此，对于E1-E5, P1-P5, T1-T5, W1-W5, D1-D5，本批材料均未提供直接对应的实质性披露内容。）\\n\\n*修正思考*：重新仔细审查所有段落。 \\np001-p005: 环境/合规/质量数据。\\np006-p008: 合规培训、供应商协议。\\np009-p010: 质量审计、培训覆盖率。\\np011-p015: 零诉讼、100%覆盖等模糊指标，结合上下文多为合规或质量。\\np016-p022: 研发投入、专利、信息安全认证。\\np023: 员工签署反腐败承诺书比例（属于D类道德/合规，非劳动权益核心）。\\np024: 信息安全培训覆盖率。\\np025-p032: 员工总数、研发人员数、学历比例、TRIPS声明。\\np033-p041: 国际化业务、疫苗出口、会议参与。\\np042-p048: 研发体系、产品管线、团队介绍（再次出现273人数据）。\\np049-p070: 疫苗临床阶段图表标签。\\n\\n结论：本批材料主要聚焦于环境绩效、合规管理、研发进展和国际化业务。虽然提到了员工数量（p027, p046）和某些培训覆盖率（p007, p010, p023, p024），但这些并不直接满足E1(离职率), E2(劳动合同保障), E3(裁员), E4(安置), E5(离职结果), P1-P5(薪酬), T1-T5(工时), W1-W5(福利), D1-D5(歧视骚扰)的具体定义要求。例如，p023提到“AntiCorruption... Commitment Letter”，这属于商业道德，不属于D1/D2的反歧视/反骚扰保护机制。p046仅描述团队构成，无合同保障信息。\\n\\n因此，没有符合任何组别条件的证据。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14131,
+    "total_tokens": 14915,
+    "completion_tokens": 784,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 14131
+    }
+  }
+}

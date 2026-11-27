@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e1c34637-bcfa-98b5-adc2-f2812bba0062",
+  "object": "chat.completion",
+  "created": 1795746308,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003和e004披露了更新《综合工时管理规程》及优化工时统计逻辑，符合‘合理工时控制’的政策或制度安排条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露通过改进审批流程来管理加班人数和加班时长，涉及加班申请、审批及时长控制的具体政策/程序，满足加班管理判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002明确披露确保所有员工享有法定福利，包括年休假（annual leave），满足休息休假保障中关于法定假期或年休假权利的条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003/e004披露了更新综合工时管理程序及优化工时计算逻辑，属于具体的工时管理机制；证据e001披露了通过审批流程管理考勤异常，属于运行事实。满足工时及休假管理机制条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\",\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"虽然披露了制度更新（e003/e004）和管理措施（e001），但未提供评分年度实际发生的工时监测结果、休假使用数据（如人数或比例）、执行覆盖人数或侵害纠正结果等具体量化或事实性结果证据。根据规则，仅有制度名称或流程优化说明不足以证明当期实际执行或结果，且检索记录确认无此类支持证据。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3688,
+    "total_tokens": 4261,
+    "completion_tokens": 573,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3688
+    }
+  }
+}

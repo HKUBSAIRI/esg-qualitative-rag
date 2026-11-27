@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-407cfac5-953a-92d7-a496-ace0efe930ae",
+  "object": "chat.completion",
+  "created": 1795732485,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\": [], \"reason\": \"候选x001仅披露员工成本总额，属于一般费用数据，未包含具体的终止补偿支付、就业安置或有效纠正结果。即使核实该引文，其内容仍不满足S1.1.1 C关于‘实际离职保障结果’的成立路径（需具体事件而非总成本），且不与已核实的‘无特定离职保障结果’结论形成实质冲突，故不影响判分。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 429,
+    "total_tokens": 527,
+    "completion_tokens": 98,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 429
+    }
+  }
+}

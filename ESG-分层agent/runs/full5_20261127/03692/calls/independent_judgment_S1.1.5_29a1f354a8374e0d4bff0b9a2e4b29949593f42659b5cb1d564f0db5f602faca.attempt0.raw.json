@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-31e3028b-d6fa-97ec-a4e5-7086befce826",
+  "object": "chat.completion",
+  "created": 1795743734,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到经核实的严重歧视、骚扰或系统性机会不公平且未有效纠正的事件。依据e014，公司披露了针对歧视、骚扰的投诉受理、调查处理及处罚机制，并明确报告期内未发生因歧视、骚扰产生的诉讼案件；e015显示2023年发现歧视、骚扰事件数为0。虽存在部分引用原文未在提供文本中直接核实（coverage_issues）及个别官方源不可读的情况，但基于现有证据未发现确凿的严重违规事实或未纠正事项。\",\n  \"evidence_refs\": [\n    \"e014\",\n    \"e015\"\n  ],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14479,
+    "total_tokens": 14651,
+    "completion_tokens": 172,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 14479
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-fffc0d79-cf92-9734-b7de-974c4708f125",
+  "object": "chat.completion",
+  "created": 1795730912,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"Exit interviews are conducted with 100% of departing employees, and effective feedback is translated into management improvement actions through analysis.\",\n      \"kind\": \"mechanism\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"departing employees\",\n      \"relevance\": \"披露了针对离职员工的退出面谈机制，属于裁员/解雇相关的离职争议处理或反馈制度安排。\"\n    },\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"W1\",\n        \"W4\",\n        \"W5\"\n      ],\n      \"quote\": \"CanSinoBIO has established a comprehensive welfare support system for full-time employees, part-time personnel, and outsourced personnel. The Company strictly ensures that all employees are entitled to statutory benefits, including social insurance and the housing fund, annual leave, and sick leave, so that every employee receives consistent care and protection. On this basis, the Company has introduced a range of non-statutory benefits and care programs covering multiple areas. In 2025, the total value of employee benefits distributed by the Company amounted to RMB 73.12 million.\",\n      \"kind\": \"result\",\n      \"period\": \"In 2025\",\n      \"scope\": \"full-time employees, part-time personnel, and outsourced personnel\",\n      \"relevance\": \"披露了法定社会保障（社保、公积金）及基本福利政策，明确了适用对象（全职、兼职、外包），并提供了当期已发放福利总额的事实数据。\"\n    },\n    {\n      \"ref_id\": \"p010\",\n      \"group_ids\": [\n        \"P1\",\n        \"W2\",\n        \"W4\"\n      ],\n      \"quote\": \"CanSinoBIO has formulated and refined its Compensation and Benefits Management Policy to strengthen compensation compliance management, continue providing allowances, and optimize its longterm incentive framework. In 2025, the Company conducted a market benchmarking study on employee compensation levels to align with industry standards, scientifically assess the competitiveness and internal fairness of its compensation practices, and provide data support for subsequent compensation adjustments and labor cost budgeting. At the same time, the Company continued to provide employees with a range of allowances, including off-site work assignment allowances, overseas hardship project allowances, and position-based allowances.\",\n      \"kind\": \"policy\",\n      \"period\": \"In 2025\",\n      \"scope\": \"employees\",\n      \"relevance\": \"披露了薪酬合规管理政策及津贴提供情况，涉及工资支付保障的具体政策（合规管理）及补充福利（各类津贴）的取得规则。\"\n    },\n    {\n      \"ref_id\": \"p011\",\n      \"group_ids\": [\n        \"T3\",\n        \"W4\"\n      ],\n      \"quote\": \"The Company provides full-time employees with nonstatutory leave benefits, including company annual leave and fully paid sick leave, and in certain regions applies the more favorable standard for marriage leave and paternity leave.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"full-time employees; certain regions\",\n      \"relevance\": \"披露了员工休息休假保障的具体安排（年假、病假、婚假、产假等）及适用对象和地区差异。\"\n    },\n    {\n      \"ref_id\": \"p012\",\n      \"group_ids\": [\n        \"W2\",\n        \"W5\"\n      ],\n      \"quote\": \"The Company provides employees with commercial insurance coverage above the market average and also offers medical insurance and free vaccinations for employees' children.\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"employees; employees' children\",\n      \"relevance\": \"披露了面向员工及其子女的补充商业保险和医疗福利，属于具体补充福利安排及实际提供的服务事实。\"\n    },\n    {\n      \"ref_id\": \"p013\",\n      \"group_ids\": [\n        \"W3\",\n        \"W5\"\n      ],\n      \"quote\": \"The Company has established a 24/7 psychological support hotline and launched EAP psychological courses to safeguard employees' mental health.\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"employees\",\n      \"relevance\": \"披露了员工援助计划（EAP）和心理支持热线，属于家庭与生活支持资源及服务的具体实施。\"\n    },\n    {\n      \"ref_id\": \"p014\",\n      \"group_ids\": [\n        \"W2\",\n        \"W4\",\n        \"W5\"\n      ],\n      \"quote\": \"The Company also provides assistance to employees in financial hardship by granting monthly subsidies to eligible employees and offers home visits and condolence payments to employees suffering from serious illness.\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"eligible employees; employees suffering from serious illness\",\n      \"relevance\": \"披露了针对困难员工的月度补贴和重疾员工的慰问金，属于补充福利的具体取得规则（符合条件）及实际发放事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13882,
+    "total_tokens": 15087,
+    "completion_tokens": 1205,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 13882
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-120abb4c-a995-9023-8937-2ee6cdafd56f",
+  "object": "chat.completion",
+  "created": 1795744431,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\",\n    \"e003\"\n  ],\n  \"reason\": \"判据要求披露当期离职率具体数值、期间及口径。候选 e001 提供了2025年员工流失率（总离职率）的具体数值（16.83%）及分性别/年龄的明细，明确了期间为2025年；候选 e003 提供了按地区划分的员工主动离职率具体数值及期间。这两者直接满足“识别评分期间及离职率口径”并披露“具体数值”的成立路径，足以推翻 assessment 中关于“未识别当期离职率具体数值”的 verification_missing 结论。e004 仅涉及薪酬总额与人数，e005 为定性描述，均不直接提供离职率数值，故不影响核心判分。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1658,
+    "total_tokens": 1854,
+    "completion_tokens": 196,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1658
+    }
+  }
+}

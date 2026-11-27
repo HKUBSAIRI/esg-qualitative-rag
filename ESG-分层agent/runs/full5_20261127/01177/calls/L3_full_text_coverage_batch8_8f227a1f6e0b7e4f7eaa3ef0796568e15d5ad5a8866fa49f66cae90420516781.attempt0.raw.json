@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d6f1c17b-a69a-9a01-af4d-40578104f75a",
+  "object": "chat.completion",
+  "created": 1795744411,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p016\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"调查结论属实的,应对违规行为予以纠正,或按规定进行相应的处罚。情\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"本集团全体员工\",\n      \"relevance\": \"披露了申诉处理中针对违规行为的纠正机制，虽未特指工资支付问题，但属于通用的内部审查与纠正程序，可作为P5（支付问题补救机制）的间接关联证据，表明存在对不当行为（可能包含薪酬违规）的纠正流程。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9269,
+    "total_tokens": 9433,
+    "completion_tokens": 164,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 9269
+    }
+  }
+}

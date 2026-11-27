@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-fa25ceec-89f6-97db-acb8-fc23ac062fb4",
+  "object": "chat.completion",
+  "created": 1795739590,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p040\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"Staff cost (including directors' emoluments): - Salaries and other benefits | 5,880,242 | 5,073,271\\n- Retirement benefits scheme contributions | 479,701 | 460,568\\n- Share-based payment expenses | 966,055 | 1,208,992\\n7,325,998 | 6,742,831\",\n      \"kind\": \"result\",\n      \"period\": \"For the year ended December 31, 2025\",\n      \"scope\": \"Group\",\n      \"relevance\": \"披露了当期员工薪酬成本总额，虽未明确区分辞退福利，但作为员工相关费用的总体事实，可能隐含包含离职补偿等支出，需结合其他信息判断是否满足裁员程序或实际离职保障结果的证据要求。鉴于仅依据本段无法直接确认为裁员补偿或离职保障结果，且无更具体细分，暂不作为E3/E5的直接充分证据，但若后续有细分可复用。此处主要提取与员工相关的财务事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13223,
+    "total_tokens": 13527,
+    "completion_tokens": 304,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 13223
+    }
+  }
+}

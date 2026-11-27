@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1d6a8a22-8f51-9829-88d5-93bf9277c6af",
+  "object": "chat.completion",
+  "created": 1795730524,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e006\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"工时控制政策（最长工作时间限制）\",\n        \"灵活工作时间/弹性时间办公安排\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"通过系统管理加班情况，避免过度加班，支付加班薪资或安排调休\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e008\"\n      ],\n      \"supported_paths\": [\n        \"提供带薪年假、福利年假、高温假\",\n        \"提供产假、陪产假、育儿假等具体休假安排\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"采用工作时间管理系统关注员工工时\",\n        \"利用线上系统追踪假期使用情况并发送提醒\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际工时监测结果\",\n        \"当期休假使用人数或比例数据\",\n        \"当期执行措施覆盖人数\",\n        \"当期已纠正的休息权侵害案例\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3234,
+    "total_tokens": 3739,
+    "completion_tokens": 505,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3234
+    }
+  }
+}

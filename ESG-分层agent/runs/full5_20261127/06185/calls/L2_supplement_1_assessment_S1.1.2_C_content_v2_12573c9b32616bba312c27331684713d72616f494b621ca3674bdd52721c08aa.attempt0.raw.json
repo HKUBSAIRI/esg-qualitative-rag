@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ff835af8-b899-9bda-a3e9-003a3b2f0540",
+  "object": "chat.completion",
+  "created": 1795745717,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别工资核算规则、核算复核、向员工发放工资单、员工查询工资差错的途径，或与工资支付有关的薪酬申诉渠道及处理安排。现有证据仅涉及一般性权益受损申诉机制，未明确针对工资支付或差错查询的具体机制。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还、复核）或已完成纠正事实。证据e003/e004显示止付追索情况为“不适用”，且e001/e002为一般性申诉机制，均未证明存在针对工资支付问题的具体补救安排或实际纠正行为。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1761,
+    "total_tokens": 2043,
+    "completion_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1761
+    }
+  }
+}

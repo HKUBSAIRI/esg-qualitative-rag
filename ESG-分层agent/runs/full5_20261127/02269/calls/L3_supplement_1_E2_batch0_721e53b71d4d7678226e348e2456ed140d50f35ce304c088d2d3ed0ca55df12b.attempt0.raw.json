@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1f86a3fe-e8b2-9a1b-95b6-a4795835757b",
+  "object": "chat.completion",
+  "created": 1795745548,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"员工有义务配合公司调查,对于阻挠或拒不配合的员工,公司有权 视情节严重程度给予违纪处分,最高至解除劳动合同或退回劳务派 遣机构。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物技术有限公司员工\",\n      \"relevance\": \"披露了关于解除劳动合同的具体政策安排，涉及劳动合同终止的情形，属于劳动合同保障相关的权利义务内容。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 845,
+    "total_tokens": 992,
+    "completion_tokens": 147,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 845
+    }
+  }
+}

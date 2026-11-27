@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b7945849-120f-9948-9c57-af3e1f940db5",
+  "object": "chat.completion",
+  "created": 1795745482,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本阶段仅核查严重事项及纠正。根据实际搜索日志，未执行网络搜索且本地监管/司法通知索引为空（No supplied L4 regulatory/judicial notice index），导致无法确认是否已穷尽官方渠道查找与Innovent Biologics相关的严重歧视、骚扰或系统性机会不公平通报。由于关键证据的覆盖范围尚未确认充分，无法判定是否存在经核实的严重事项或未纠正情形，故状态为待核验。依据规则，缺少相关证据本身不能证明应查范围已完成，且不得因排除项读取失败产生unresolved，但此处属于必要案件原件（严重通报）的查找未执行/未覆盖，因此阻塞结论。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"未执行网络搜索以查找官方严重事项通报\",\n    \"本地监管/司法通知索引缺失，无法确认严重事项覆盖情况\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5765,
+    "total_tokens": 5975,
+    "completion_tokens": 210,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5765
+    }
+  }
+}

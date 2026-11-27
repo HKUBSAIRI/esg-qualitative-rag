@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f824b318-914c-9928-923d-0842c2a91cd8",
+  "object": "chat.completion",
+  "created": 1795731199,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p037\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"接收、处理员工有关会计、审计事项、内部控制或其他方面可能发生的不正当行为的投诉或匿名举报,并保证其保密性。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"康希诺生物股份公司\",\n      \"relevance\": \"披露了处理员工关于会计、审计及内部控制等方面不正当行为（可能包含工资差错或违规）的投诉或举报机制，符合S1.1.2 C中关于薪酬申诉渠道或员工查询/反馈机制的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12628,
+    "total_tokens": 12795,
+    "completion_tokens": 167,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 12628
+    }
+  }
+}

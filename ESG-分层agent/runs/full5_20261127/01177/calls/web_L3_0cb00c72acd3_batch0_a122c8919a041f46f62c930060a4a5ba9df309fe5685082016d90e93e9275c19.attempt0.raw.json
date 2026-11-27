@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-28d0f96b-4d33-9bdb-82c5-a73facb6edf9",
+  "object": "chat.completion",
+  "created": 1795744493,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p021\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"中国生物制药制定实施适用集团及成员企业的《薪酬管理制度》，以保证工资的正确认定和发放，确保公司和员工利益。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"集团及成员企业\",\n      \"relevance\": \"披露了保证工资正确认定和发放的制度，属于针对工资差错等问题的补救机制或预防性管理措施。\"\n    },\n    {\n      \"ref_id\": \"p028\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"7.监督制度。薪酬由人力资源部门计算制单、集团财务部审核发放，应符合公司相关制度和规范并接受审计的监督。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"集团\",\n      \"relevance\": \"描述了薪酬计算的复核与审计监督流程，构成工资支付问题的内部复核机制。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6132,
+    "total_tokens": 6391,
+    "completion_tokens": 259,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 6132
+    }
+  }
+}

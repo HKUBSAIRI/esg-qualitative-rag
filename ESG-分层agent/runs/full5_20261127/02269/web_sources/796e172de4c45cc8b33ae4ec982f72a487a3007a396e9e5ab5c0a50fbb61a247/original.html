@@ -1,0 +1,281 @@
+
+
+
+
+
+
+<!doctype html>
+<html>
+<head>
+<title>文书综合查询</title>
+<link type="text/css" rel="stylesheet" href="//neris.csrc.gov.cn/falvfagui//styles/datetimepicker/css/bootstrap-datetimepicker.min.css" />
+<script type="text/javascript" src="//neris.csrc.gov.cn/static/pubmui/1.15.1/webjars/pubmui//styles/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+<script type="text/javascript" src="//neris.csrc.gov.cn/static/pubmui/1.15.1/webjars/pubmui//styles/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+<script type="text/javascript" src="//neris.csrc.gov.cn/falvfagui/static/multipleWrit.js"></script>
+<script>
+$(function(){
+	initwritVue();
+	datetimepicker();
+	var writeName = window.parent.$("#writeName").val();
+	$("#writ_name").val(writeName);
+	$("#wsSearch").click();
+});
+</script>
+</head>
+<body>
+ 	<sf-main id="writApp">
+            <div class="page_middle iframeBorder">
+                <form action="" id="Form" name="Form" class="form-horizontal" method="POST" role="form">
+                    <input type="hidden" id="writpageNo" name="pageNo" value="1"/>
+                    <input type="hidden" id="writname" name="name"/>
+                    <input type="hidden" name="body" id="body2"/>
+                    <div id="remove_370" class="middle_content height_370">
+                        <div class="page-header">
+                        <h3>文书综合查询</h3>
+                        </div>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                   class="table table-bordered table-condensed">
+                                <tr>
+                                    <td width="20%" class="table_bg text-center">发文单位</td>
+                                    <td width="20%">
+                                    
+                                    	
+                            			<select id="writ_issueOrgName" name="issueOrgName" class="form-control">
+                            				<option>请选择</option>
+                            				
+                            					<option>中国证券监督管理委员会</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会安徽监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会北京监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会大连监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会福建监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会甘肃监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会广东监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会广西监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会贵州监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会海南监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会河北监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会河南监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会黑龙江监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会湖北监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会湖南监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会吉林监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会江苏监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会江西监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会辽宁监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会内蒙古监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会宁波监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会宁夏监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会青岛监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会青海监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会厦门监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会山东监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会山西监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会陕西监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会上海监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会深圳监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会四川监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会天津监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会西藏监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会新疆监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会云南监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会浙江监管局</option>                           			
+                            				
+                            					<option>中国证券监督管理委员会重庆监管局</option>                           			
+                            				
+                            			</select>
+                            			
+                                    
+                                    </td>
+                                    <td width="20%" class="table_bg text-center">文号</td>
+                                    <td width="20%">
+                                        <input type="text" id="writ_fileno" name="fileno"
+                                               value="" class="form-control"
+                                               placeholder="请输入文号" @keyup.enter="searchWrit"/></td>
+                                </tr>
+                                <tr>
+                                    <td class="table_bg">文件名称</td>
+                                    <td colspan="5">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                            <tr>
+                                                <td width="25%;">
+                                                    <input type="text"  id="lawName_5"  class="form-control" placeholder="请输入文件名称" @keyup.enter="searchWrit"/>
+                                                </td>
+                                                <td width="12%;">
+                                                    <select id="lawNameSel_3">
+                                                        <option value="AND">并且</option>
+                                                        <option value="OR">或者</option>
+                                                    </select>
+                                                </td>
+                                                <td width="25%;">
+                                                    <input type="text"  id="lawName_6"  class="form-control" placeholder="请输入文件名称" @keyup.enter="searchWrit"/>
+                                                </td>
+                                                <td width="12%;">
+                                                    <select id="lawNameSel_4">
+                                                        <option value="AND">并且</option>
+                                                        <option value="OR">或者</option>
+                                                    </select>
+                                                </td>
+                                                <td width="25%;">
+                                                    <input type="text"  id="lawName_7"  class="form-control" placeholder="请输入文件名称" @keyup.enter="searchWrit"/>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table_bg">正文关键字</td>
+                                    <td colspan="5">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                            <tr>
+                                                <td width="25%;">
+                                                    <input type="text"  id="body_5" class="form-control" placeholder="请输入正文关键字" @keyup.enter="searchWrit"/>
+                                                </td>
+                                                <td width="12%;">
+                                                    <select id="bodySel_3">
+                                                        <option value="AND">并且</option>
+                                                        <option value="OR">或者</option>
+                                                    </select>
+                                                </td>
+                                                <td width="25%;">
+                                                    <input type="text"  id="body_6" class="form-control" placeholder="请输入正文关键字" @keyup.enter="searchWrit"/>
+                                                </td>
+                                                <td width="12%;">
+                                                    <select id="bodySel_4">
+                                                        <option value="AND">并且</option>
+                                                        <option value="OR">或者</option>
+                                                    </select>
+                                                </td>
+                                                <td width="25%;">
+                                                    <input type="text"  id="body_7" class="form-control" placeholder="请输入正文关键字" @keyup.enter="searchWrit"/>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+
+
+
+
+
+
+
+                                <tr>
+                                    <td width="20%" class="table_bg text-center">人员机构类型</td>
+                                    <td width="20%">
+                                       <select id="psntype" class="form-control" v-model="issuePsnName">
+                                          <option value="">请选择</option>
+		                                  <option value="09">董事会秘书</option><option value="04">高管</option><option value="00">公司本身</option><option value="16">会计师事务所及其从业人员</option><option value="25">法定代表人</option><option value="30">私募实际控制人</option><option value="34">私募投资经理</option><option value="23">董事长</option><option value="03">实际控制人</option><option value="17">证券公司及其从业人员</option><option value="26">私募从业人员</option><option value="07">交易公司股票账户</option><option value="18">其他机构及其从业人员</option><option value="24">挂牌公司</option><option value="02">公司其它关联方</option><option value="22">期货公司及其从业人员</option><option value="15">律师事务所及其从业人员</option><option value="01">法人股东</option><option value="27">私募本身</option><option value="19">自然人股东</option><option value="08">控股股东</option><option value="28">私募总经理</option><option value="11">董事</option><option value="13">独立董事</option><option value="33">私募合规风控负责人</option><option value="21">基金公司及其从业人员</option><option value="12">监事</option><option value="20">评估机构及其从业人员</option><option value="14">当事人本身</option><option value="29">私募高管</option><option value="32">私募董事长</option><option value="06">控股参股公司</option><option value="05">原高管</option><option value="31">私募法定代表人</option><option value="10">财务总监</option>
+		                               </select>
+                                 	<input type="hidden" name="issuePsnName" id="issuePsnName" :value="issuePsnName | processStr" />
+                                 </td>
+                                    <td width="20%" class="table_bg text-center">案由</td>
+                                    <td width="20%">
+                                       <select id="penalty" class="form-control" v-model="issuePsnId">
+                                 <option value="">请选择</option>
+                                   <option value="83">信息披露不准确</option><option value="0137">股份减持披露不规范</option><option value="0147">消防安全不合规</option><option value="98">购买、出售资产不规范</option><option value="92">未按规定披露实控人、董监高情况</option><option value="0127">基金备案信息不准确</option><option value="95">信息披露不真实</option><option value="0148">生产安全问题</option><option value="93">未按规定披露重要合同（框架协议）</option><option value="94">财务报告错误、虚假记载</option><option value="0119">立案调查</option><option value="0102">不当营销宣传</option><option value="0103">其他证券投资咨询机构违规</option><option value="0144">其他募集资金管理、使用违规</option><option value="0100">关联方资金占用违规</option><option value="75">限制期买卖股票</option><option value="78">超比例违规增持</option><option value="82">借他人名义从事证券交易</option><option value="0145">变更募集资金用途不规范</option><option value="87">评估程序不规范</option><option value="0110">虚列营业收入、应收（预付）账款</option><option value="0105">未建立防范利益输送和利益冲突机制</option><option value="0133">虚构客户、合同、虚开发票</option><option value="0113">利用未公开信息交易</option><option value="0129">防范利益输送与冲突机制未有效执行</option><option value="0106">未按规定披露一致行动关系</option><option value="0128">向非合格投资者募集资金</option><option value="79">审计程序缺陷</option><option value="0116">其他未充分履行核查、验证、见证义务</option><option value="0135">未按规定实行留痕管理</option><option value="0131">股票冻结不规范</option><option value="0132">股票质押不规范</option><option value="90">未履行充分核查、验证义务</option><option value="77">提供财务资助不规范</option><option value="86">未按规定披露立案调查、行政处罚</option><option value="89">投资收益确认不规范</option><option value="0140">对外投资不规范</option><option value="0138">其他股份变动不规范</option><option value="03">违反做市业务规则</option><option value="05">未按规定履行权益分派手续</option><option value="07">暂停转让业务申请违规</option><option value="09">做市业务内部控制不规范</option><option value="11">未尽责督导权益分派</option><option value="13">未尽责督导收购过渡期</option><option value="15">违反重大资产重组流程</option><option value="17">违反推荐挂牌尽职调查工作</option><option value="19">未能勤勉尽责地履行审计师职责</option><option value="21">私募违规</option><option value="23">公司运营</option><option value="25">宣传推介</option><option value="27">投资者适当性</option><option value="29">投资行为</option><option value="32">利益冲突</option><option value="35">审计报告非标意见</option><option value="37">交易类违规</option><option value="40">敏感期买卖</option><option value="42">操纵证券市场</option><option value="44">限制期内转让股份</option><option value="46">公司经营运作</option><option value="0146">未按规定披露重大债务、损失</option><option value="49">募集资金违规使用</option><option value="51">内部控制不规范</option><option value="54">定期报告未在法定期限内披露</option><option value="56">其他重大事项信息披露违规</option><option value="59">挪用客户资金买卖证券</option><option value="62">未履行公开承诺事项</option><option value="64">其他</option><option value="66">立案调查或协助调查</option><option value="68">未经许可经营</option><option value="70">中介机构出具的报告存在虚假记载、误导性陈述或重大遗漏</option><option value="72">借他人名义持有、买卖股票</option><option value="97">未及时披露临时公告</option><option value="0134">减持未预披露</option><option value="96">违规提供融资、担保</option><option value="85">收入确认不规范</option><option value="0149">重大资产重组不规范</option><option value="0101">评估报告存在重大遗漏</option><option value="0125">其他违规行为</option><option value="88">私下接受投资者委托买卖证券</option><option value="0107">关联交易不规范</option><option value="80">操纵市场</option><option value="0121">未及时更新备案信息或重大事项变更</option><option value="73">利用他人账户进行交易</option><option value="0115">承诺保本保收益</option><option value="0108">风险管理及内控不规范</option><option value="91">子公司管理不规范</option><option value="0118">侵占挪用或混同基金财产</option><option value="0114">重大事项消息泄露</option><option value="0136">未及时备案人员、业务、分支机构信息</option><option value="0112">出具的文件存在虚假记载、误导性陈述</option><option value="0130">未按规定披露重大诉讼和仲裁</option><option value="0154">从业人员违规买卖证券</option><option value="0143">股份增持披露不规范</option><option value="0139">基金未按规定办理备案手续</option><option value="01">欺诈发行</option><option value="0117">内部控制制度存在重大缺陷</option><option value="74">公开宣传推介或不当宣传</option><option value="0124">业务人员不适格</option><option value="81">操纵证券市场行为</option><option value="0123">三会运作流程不规范</option><option value="0155">基金托管不合规</option><option value="76">超比例违规减持</option><option value="0104">其他交易不规范</option><option value="0120">提供担保不规范</option><option value="99">未按规定披露股票异动</option><option value="0111">其他损害基金财产行为</option><option value="84">监管指标未能达标</option><option value="0141">违反环保规定</option><option value="0142">医疗器械不合规</option><option value="0122">基金管理人及从业人员管理不规范</option><option value="02">违反做市操作流程</option><option value="04">违反内核规定</option><option value="06">违反证券账户开户流程</option><option value="08">违反尽职调查工作</option><option value="10">违反收购过渡期规则</option><option value="12">未尽责督导信息披露</option><option value="14">违反投资者适当性的规定</option><option value="16">未尽责督导重大资产重组</option><option value="18">未能履行持续督导职责</option><option value="20">操纵期货市场</option><option value="22">登记备案</option><option value="24">产品设计</option><option value="26">募集资金</option><option value="28">财产安全</option><option value="30">风险控制</option><option value="31">信息披露</option><option value="33">其他违规</option><option value="34">财务类</option><option value="36">财务会计有重大差错或虚假记载</option><option value="38">内幕交易</option><option value="39">短线交易</option><option value="41">股份变动不合规</option><option value="43">超比例减持</option><option value="45">法人以他人名义设立账户或者利用他人账户买卖证券</option><option value="47">非经营性资金占用</option><option value="48">违规担保</option><option value="50">未按规定履行审批程序</option><option value="52">需明确监管要求的相关事项</option><option value="55">业绩预告、业绩快报</option><option value="57">未按规定履行信息披露义务</option><option value="58">中介机构（其他组织）违规</option><option value="60">利用非公开信息交易</option><option value="61">公司其他违规行为</option><option value="63">编造、传播证券市场虚假信息</option><option value="65">董监高未勤勉尽责</option><option value="67">违规经营</option><option value="69">内部管理不规范</option><option value="71">中介机构未勤勉尽责</option><option value="0109">管理人登记备案信息不准确</option><option value="0126">违规增减持</option><option value="0150">未按合同约定进行信息披露</option><option value="0133">偷税漏税</option><option value="0146">未对投资者进行风险评估</option><option value="0147">关联交易或关联关系披露违规</option><option value="0148">未按要求保存资料、合同</option><option value="0149">未及时跟踪、披露信用评级</option><option value="0150">坏账、存货跌价准备计提不规范</option><option value="0151">违规操作客户账户</option><option value="0152">违规从事证券投资咨询业务</option><option value="0153">未经审批擅自开工建设、生产</option><option value="0156">关联关系披露不规范</option><option value="0157">未建立完善的内控制度并有效执行</option><option value="0158">其他特定重大事项披露不规范</option><option value="0159">出借证券账户或借用他人证券账户从事证券交易</option><option value="0160">信息披露不完整</option><option value="0161">未持续披露事项进展</option><option value="0162">信息披露不及时规范完整</option><option value="0163">违规借用客户账户</option><option value="0164">未建立投资者适当性制度或制度未落实到位</option><option value="0165">未按规定报告重大事项</option><option value="0166">投资行为不符合基金合同约定</option><option value="0167">投资者与产品风险等级不匹配</option><option value="0168">不配合监管机构检查</option><option value="0169">资产减值不规范</option><option value="0170">商誉计提不规范</option><option value="0171">以他人名义设立账户买卖证券</option><option value="0172">未按规定安装、使用污染防治设施</option><option value="0173">未按规定披露生产经营情况等发生重大变化</option><option value="0174">出借基金证券账户</option><option value="0175">虚列存货</option><option value="0176">未按规定提交董事会审议</option><option value="0177">不具备持续经营的条件</option><option value="0178">工作底稿不规范</option><option value="0179">未按规定履行报告义务</option><option value="0180">营业收入低于一亿元未及时披露</option><option value="0181">委托理财不规范</option><option value="0182">财务数据造假</option><option value="0183">未经批准、验收擅自开工建设</option><option value="0184">未履行尽调及投后管理职责</option><option value="0185">借他人名义从事期货交易</option><option value="0186">募集资金未专户管理</option>
+                                 </select>
+                                 <input type="hidden" name="issuePsnId" id="issuePsnId" :value="issuePsnId | processStr" />
+                                 </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td width="20%" class="table_bg text-center">发文日期</td>
+                                    <td width="80%" colspan="3">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                            <tr>
+                                                <td width="49%" >
+                                                    <div id="writdatetimepicker1" class="input-group date form_date width100per form-control" data-date="" data-date-format="dd MM yyyy" data-link-field="dsptDate_from" data-link-format="yyyy-mm-dd">
+                                                        <input id="dsptDate_from" name="dsptDate_from" class="form-control" placeholder="开始日期" size="40" type="text"  pattern="yyyy-MM-dd" readonly="readonly" />
+                                                        <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                                                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                                                    </div>
+                                                </td>
+                                                <td width="4%" class="text-center">至</td>
+                                                <td width="49%" >
+                                                    <div id="writdatetimepicker2" class="input-group date form_date width100per form-control" data-date="" data-date-format="dd MM yyyy" data-link-field="dsptDate_thru" data-link-format="yyyy-mm-dd">
+                                                        <input id="dsptDate_thru" name="dsptDate_thru" class="form-control" placeholder="结束日期" size="40" type="text"  pattern="yyyy-MM-dd" readonly="readonly" />
+                                                        <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                                                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                	<td width="20%" class="table_bg text-center">文书类型</td>
+                                	<td>
+                                		<select id="writlawWritClsfCde" class="form-control" name="lawWritClsfCde">
+                                          <option value="">请选择</option>
+		                                  <option value="01">行政处罚</option>
+		                                  <option value="02">市场禁入</option>
+		                               </select>
+                                	</td>
+                                	<td width="20%" class="table_bg text-center">处罚对象名称</td>
+                                	<td width="20%">
+                                        <input type="text" id="partyName" name="partyName"
+                                               value="" class="form-control"
+                                               placeholder="请输入处罚对象名称" @keyup.enter="searchWrit"/>
+                                	</td>
+                                </tr>
+                                <tr>
+                                    <td class="table_bg text-center"  colspan="4" rowspan="4">
+                                        <input type="button" onclick="search()" id="wsSearch" value="查询" class="btn btn-primary btn_bg"/>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input id="cls" type="button" class="btn btn-warning btn_bg"
+                                               value="清空" onclick="cleanwritForm();"/>
+                                    </td>
+                                </tr>
+                            </table>
+                    </div>
+                </form>
+            </div>
+            
+           <sf-table v-if="tableShow" :columns="writcolumns" :data="tableDatas"
+                     :current="currentPage" :page-size="20" :show-page="true"
+                     @on-page-change="onPageChange" :total="total" :loading-msg="loadMsg">
+           </sf-table>
+        </sf-main>
+</body>
+</html>

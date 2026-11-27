@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-10f57fc6-ea4c-9d02-a0e8-92a2a16a1a8d",
+  "object": "chat.completion",
+  "created": 1795746261,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"关键证据无法核实。虽然检索记录显示内容充分（披露了2025年员工流失率具体数值及口径），但评估状态标记为'pending_review'，且存在'decision_relevant_quote_unverified'问题，指出支持核心结论的证据ID（C_4b8aff83c6dd68fb614cdc4b_48b05b8a52c71be9等）未通过验证。根据规则，关键事实冲突或必要材料覆盖未确认/无法核实时需挂起。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"完成核查未识别当期离职率具体数值对应的劳动合同保障内容。现有证据（e006, e007）仅涉及违纪解除劳动合同的政策，属于纪律处分范畴，不符合'E2 劳动合同保障'中要求的依法签订、续签、期限、签订率等正面保障措施的具体政策、安排或事实。检索状态为'relevant_evidence_found'但评估判定'content_sufficient: false'，且无其他支持性证据，故判0分。\",\n      \"evidence_refs\": [\n        \"e006\",\n        \"e007\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"披露了与裁员/解雇相关的制度安排。证据e008明确披露了在严重违反利益冲突制度导致损失时，公司可采取终止劳动合同的纪律处分措施，这属于'与裁员有关的通知、协商、补偿或离职争议处理制度、具体安排或事实'中的解雇/解除劳动关系制度。检索记录显示'verified_support_sufficient: true'，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e008\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"披露了员工内部招聘、转岗或岗位轮换的制度。证据e009明确提到'支持員工通過專案、轉崗等方式橫向發展'以及推出'活水計劃'以促进跨地区和跨部门的人才流动，并提及2025年持续优化内部人才流动项目。这符合'E4 员工安置支持'中关于内部竞聘、转岗或岗位轮换制度的要求。检索记录显示'verified_support_sufficient: true'，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e009\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"没有实际纠正结果，只有政策、计划或承诺。检索状态为'no_relevant_evidence_found'，评估判定'content_sufficient: false'，明确指出未识别当期已发生的终止补偿支付、就业安置受益等具体事实。E5组要求证明当期实际发生的事实，仅有政策或一般性描述不足以得分。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5427,
+    "total_tokens": 6197,
+    "completion_tokens": 770,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5427
+    }
+  }
+}

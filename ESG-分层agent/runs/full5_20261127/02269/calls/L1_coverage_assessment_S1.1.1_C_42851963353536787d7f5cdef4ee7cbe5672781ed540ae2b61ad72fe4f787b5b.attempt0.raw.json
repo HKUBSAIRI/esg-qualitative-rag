@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1940aee8-0b09-9507-839a-3ba0c4f47942",
+  "object": "chat.completion",
+  "created": 1795730512,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工流失率具体数值（10%）及分维度数据，并明确了计算口径（总流失人数/年底员工总人数）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别员工劳动合同签订、续签、期限或签订比例的具体政策、安排或事实。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关制度、通知、协商、补偿或离职争议处理的具体安排或事实。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露了内部调动人数（610人），以及“活水计划”促进跨地区/部门流动和“精英计划”中的轮岗安排，符合内部招聘、转岗或岗位轮换的制度与事实要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别评分年度已经发生的终止补偿支付、就业安置受益或相应有效纠正结果的实际数据。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3900,
+    "total_tokens": 4403,
+    "completion_tokens": 503,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 3900
+    }
+  }
+}

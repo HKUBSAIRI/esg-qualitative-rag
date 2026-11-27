@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-3fa67438-6b4b-9d35-93be-567e10924951",
+  "object": "chat.completion",
+  "created": 1795746261,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露了禁止歧视的政策要求（'堅決守護平等尊重的職場底線...嚴禁在工作場所進行任何形式的歧視'）及具体保障措施（'每年至少一次向全體員工開展反歧視和反騷擾培訓'），符合判100条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"D2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露了禁止骚扰的政策及零容忍要求（'對歧視與騷擾堅持零容忍...嚴禁...任何形式的...騷擾行爲（包括性騷擾和非性騷擾）'）及培训措施，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"D3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002披露了适用于歧视或骚扰投诉的受理机制，即制定《中國生物製藥員工意見反饋及申訴管理制度》并明确了相关申诉渠道，符合判100条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"D4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002披露了针对举报人/申诉人的保护措施，即'堅決保障舉報人權益'，符合判100条件中关于保护措施的披露要求。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"D5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了针对查实歧视或骚扰行为的处分规则（'執行警告、記過、解雇等處罰'）及移交处理机制（'涉嫌違法犯罪者移交司法機關處理'），符合判100条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4003,
+    "total_tokens": 4579,
+    "completion_tokens": 576,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 4003
+    }
+  }
+}

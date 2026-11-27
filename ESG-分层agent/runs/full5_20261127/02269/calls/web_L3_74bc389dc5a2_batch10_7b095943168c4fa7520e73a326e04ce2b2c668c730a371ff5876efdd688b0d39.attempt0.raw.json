@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-85908483-d7de-93f8-b8a3-15f8611dfeb0",
+  "object": "chat.completion",
+  "created": 1795744339,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p015\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"為了降低員工瞞報或者漏報出行信息,保障全體員工的工作場所安全,經公司研究決定,在 員工因疫情防控自我隔離期間仍然支付全薪。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工因疫情防控自我隔离期间\",\n      \"relevance\": \"披露了劳动合同保障中关于薪酬支付的安排，即在特定条件下（疫情隔离）仍支付全薪，属于劳动合同权利义务的具体事实或政策。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11212,
+    "total_tokens": 11371,
+    "completion_tokens": 159,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11212
+    }
+  }
+}

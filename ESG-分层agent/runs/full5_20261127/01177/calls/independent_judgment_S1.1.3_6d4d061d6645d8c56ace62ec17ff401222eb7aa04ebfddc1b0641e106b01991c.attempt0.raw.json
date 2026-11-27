@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-80dfbb39-e403-9acb-9f27-57bfbcd52ab6",
+  "object": "chat.completion",
+  "created": 1795745555,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本阶段仅核查严重事项及纠正。实际搜索日志显示未执行网络搜索，且本地官方覆盖范围未确认（local_only_official_coverage_unconfirmed），导致无法核实是否存在针对中国生物制药有限公司的严重超时工作或违法剥夺休息休假通报。由于缺乏必要的案件原件或官方通报证据来排除或确认严重事项，且材料中无相关候选证据，故状态为待审核。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"未执行网络搜索以查找官方严重违规通报\",\n    \"本地官方覆盖范围未确认，无法判断是否已穷尽必要检索\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5753,
+    "total_tokens": 5905,
+    "completion_tokens": 152,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5753
+    }
+  }
+}

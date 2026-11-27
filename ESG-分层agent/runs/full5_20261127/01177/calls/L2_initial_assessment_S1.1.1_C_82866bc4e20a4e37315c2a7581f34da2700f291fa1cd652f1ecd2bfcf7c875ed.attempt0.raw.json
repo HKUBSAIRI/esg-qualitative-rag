@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1fe1c2da-278f-91c2-a092-e39ec371ffbe",
+  "object": "chat.completion",
+  "created": 1795730752,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"披露了与董事及高级管理人员因职务终止或丧失而获得补偿的审查机制，属于裁员/解雇相关的补偿制度安排。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别评分年度已经发生的终止补偿支付、就业安置、离职保障受益或相应有效纠正结果。现有证据仅涉及审查机制（制度），且未明确当期实际执行结果。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 927,
+    "total_tokens": 1137,
+    "completion_tokens": 210,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 927
+    }
+  }
+}

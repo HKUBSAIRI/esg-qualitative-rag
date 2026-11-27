@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b98300bc-ac98-9fd9-8c23-96790cd92dce",
+  "object": "chat.completion",
+  "created": 1795745505,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露了法定社会保障项目（五险一金：养老、医疗、失业、工伤、生育保险及住房公积金）及缴纳比例政策，符合W1关于具体法定社会保障政策或安排的判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002列出了多项具体补充福利安排，包括补充商业医疗保险、员工年度体检、交通/通讯/膳食补贴等，符合W2关于具体补充福利安排或事实的判分条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003和e002披露了面向员工的家庭与生活支持资源，如建立母婴室、设立孕妇绿色通道等，符合W3关于家庭或生活支持资源、服务或安排的判分条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004明确了福利年假的具体取得规则（每在信达生物服务满一年，可多享受一天福利年假），符合W4关于福利具体取得规则或明确适用对象的判分条件。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005披露了报告期内非法定福利实现100%覆盖的事实，证据e006披露了2025年向女性员工发放节日礼金的实际受益事实。这些均属于评分年度已经发生的福利覆盖或受益事实，符合W5关于当期实际发生事实的判分条件。\",\n      \"evidence_refs\": [\n        \"e005\",\n        \"e006\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8177,
+    "total_tokens": 8752,
+    "completion_tokens": 575,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 8177
+    }
+  }
+}

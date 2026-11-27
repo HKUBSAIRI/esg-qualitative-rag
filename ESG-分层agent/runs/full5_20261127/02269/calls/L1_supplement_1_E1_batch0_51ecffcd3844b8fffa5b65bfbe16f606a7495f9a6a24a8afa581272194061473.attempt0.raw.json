@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-78443ed2-8d52-9c1e-b8f9-ad17e7f72d7b",
+  "object": "chat.completion",
+  "created": 1795745478,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"關鍵績效指標 B1.2 | 按性別、年齡組別及地區劃分的僱員流失比率。 | 附錄一 :關鍵績效表\",\n      \"kind\": \"boundary\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物技术有限公司\",\n      \"relevance\": \"索引指出员工流失比率数据位于附录一关键绩效表中，但提供的附录一片段（p001, p003）中未包含该具体数值表格，仅作为定位线索。因无法从现有文本提取具体离职率数值，此条主要证明披露位置而非直接提供当期离职率事实。根据规则“完成核查未识别当期离职率具体数值”为不足，此处无直接数值证据支持E1的充分性，故不返回无效或无关引文。若必须返回最接近关联项，通常若无具体数值则视为无有效证据。鉴于指令要求提取“与目标有明确事实关联的最少充分连续引文”，且目标是“当期离职率披露...能注识别评分期间及离职率口径”，现有段落均未提供具体的离职率百分比数值。因此，没有符合要求的证据。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2628,
+    "total_tokens": 2927,
+    "completion_tokens": 299,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2628
+    }
+  }
+}

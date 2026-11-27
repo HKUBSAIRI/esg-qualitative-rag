@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c0a14fec-0fc7-9158-a891-3e75951b406d",
+  "object": "chat.completion",
+  "created": 1795739831,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"With regards to conflicts of interest, employee(s) who does not actively report or avoid such conflicts of interest, disciplinary actions will be taken up to including retain post on probation or above depending on the severity of the violation upon discovery; if the violation is serious and has caused losses, the disciplinary action will be taken up to terminate the employment contract(s) with such employee(s);\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"利益冲突违规员工\",\n      \"relevance\": \"披露了因严重违规导致解除劳动合同的政策安排，属于劳动合同保障中的权利义务及解除情形。\"\n    },\n    {\n      \"ref_id\": \"p014\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"员工有义务配合公司调查,对于阻挠或拒不配合的员工,公司有权 视情节严重程度给予违纪处分,最高至解除劳动合同或退回劳务派 遣机构。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"阻挠或拒不配合调查的员工\",\n      \"relevance\": \"披露了因不配合调查可能导致解除劳动合同的政策，涉及劳动合同期限终止的条件与权利义务。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4732,
+    "total_tokens": 5050,
+    "completion_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4732
+    }
+  }
+}

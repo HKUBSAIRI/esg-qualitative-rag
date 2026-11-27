@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-30ae5484-788c-96c7-88a5-7c8dca9d1d9b",
+  "object": "chat.completion",
+  "created": 1795731288,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露了具体的法定社会保障项目（五险一金）及依法提供保险、公积金的事实\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"列出了多项具体补充福利，包括商业医疗保险、体检、各类补贴及奖励\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"披露了母婴室和孕妇绿色通道等家庭与生活支持设施\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"明确了福利年假的取得规则（服务满一年增加一天）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e008\",\n        \"e009\"\n      ],\n      \"supported_paths\": [\n        \"披露了当期非法定福利实现100%覆盖的事实\",\n        \"披露了2025年实际发放节日礼金的具体受益事实\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2728,
+    "total_tokens": 3208,
+    "completion_tokens": 480,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2728
+    }
+  }
+}

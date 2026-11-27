@@ -1,0 +1,25 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\"evidence\":[{\"local_id\":\"e1\",\"ref_id\":\"p001\",\"quote\":\"保證員工的收入不低於 同崗位市場平均水平和當地最低工資水平\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"最低工资保障政策\"},{\"local_id\":\"e2\",\"ref_id\":\"p008\",\"quote\":\"確保員工收入不低於當地最低工資標準\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"最低工资保障政策\"},{\"local_id\":\"e3\",\"ref_id\":\"p011\",\"quote\":\"對額外或非 常規時間的工作依法給予補償,包括調休、加班費等\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"加班费支付保障政策\"},{\"local_id\":\"e4\",\"ref_id\":\"p027\",\"quote\":\"已在內部平臺開設人 力資源工單系統,方便員工隨時提出問題\",\"kind\":\"mechanism\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"员工可通过工单系统提出人力资源问题，可作为工资差错查询途径\"},{\"local_id\":\"e5\",\"ref_id\":\"p031\",\"quote\":\"報告期内,人力資源在綫管理平臺上綫了工單系統,員工可以更加便捷地將自己的疑問、意見、舉報或申訴通 過該系統直接上傳,人力資源共享服務中心的後臺人員將給予高效處理\",\"kind\":\"mechanism\",\"period\":\"报告期内\",\"scope\":\"未明确\",\"relevance\":\"员工可通过工单系统上传疑问或申诉，后台人员给予处理，构成薪酬申诉渠道及处理安排\"},{\"local_id\":\"e6\",\"ref_id\":\"p009\",\"quote\":\"我們為全體員工提供《員工多元化政策》培訓\",\"kind\":\"action\",\"period\":\"未明确\",\"scope\":\"全體員工\",\"relevance\":\"说明政策覆盖对象为全体员工\"}],\"groups\":[{\"group_id\":\"P1\",\"content_sufficient\":true,\"supported_paths\":[\"最低工资保障\"],\"evidence_ids\":[\"e1\",\"e2\",\"e3\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"P2\",\"content_sufficient\":true,\"supported_paths\":[\"员工查询工资差错的途径\",\"与工资支付有关的薪酬申诉渠道及处理安排\"],\"evidence_ids\":[\"e4\",\"e5\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"P3\",\"content_sufficient\":false,\"supported_paths\":[],\"evidence_ids\":[],\"missing\":[\"与工资支付直接相关的检查、监测或内部审查的具体制度、程序或实际开展事实\"],\"conflicts\":[]},{\"group_id\":\"P4\",\"content_sufficient\":true,\"supported_paths\":[\"全体员工\"],\"evidence_ids\":[\"e6\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"P5\",\"content_sufficient\":false,\"supported_paths\":[],\"evidence_ids\":[],\"missing\":[\"工资差错、欠薪、扣款、加班费问题的具体补救机制或已完成纠正事实\"],\"conflicts\":[]}]}",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1795728876,
+  "id": "chatcmpl-1e09ccc8-d99e-9b95-8c13-f883f3cb4f10",
+  "model": "qwen3.8-max",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 615,
+    "prompt_tokens": 4600,
+    "prompt_tokens_details": {
+      "cached_tokens": 4352,
+      "text_tokens": 4600
+    },
+    "total_tokens": 5215
+  }
+}

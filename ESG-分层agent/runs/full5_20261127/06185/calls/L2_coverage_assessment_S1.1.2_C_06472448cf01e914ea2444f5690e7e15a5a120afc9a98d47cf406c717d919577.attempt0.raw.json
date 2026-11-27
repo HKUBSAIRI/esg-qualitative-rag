@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f5f1da38-c496-9396-acd7-488771c401a4",
+  "object": "chat.completion",
+  "created": 1795731148,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e008\",\n        \"e009\"\n      ],\n      \"supported_paths\": [\n        \"e008披露了董事和高级管理人员报酬已根据相关规定支付的事实，属于具体工资支付保障的执行事实。\",\n        \"e009披露了支付给职工及为职工支付的现金金额，作为当期实际发生的员工薪酬支付执行事实。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别工资核算规则、核算复核、向员工发放工资单、员工查询工资差错的途径或薪酬申诉渠道等具体机制。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露与工资支付直接相关的检查、监测或内部审查的具体制度、程序或实际开展事实。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\",\n        \"e012\"\n      ],\n      \"supported_paths\": [\n        \"e005和e012明确界定了福利支持体系（含法定福利如五险一金等）适用的对象为正式员工、兼职及外包人员，覆盖了工资支付保障的主要对象范围。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制或已完成纠正事实。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4015,
+    "total_tokens": 4535,
+    "completion_tokens": 520,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 4015
+    }
+  }
+}

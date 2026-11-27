@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ee7f9645-fce4-91c2-a31c-0e64660d1490",
+  "object": "chat.completion",
+  "created": 1795746166,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关制度、具体安排或实际发生的补偿/争议处理事实（现有证据仅证明无纠纷、无支付，属于零事件，不能证明执行了相关程序或制度）\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1665,
+    "total_tokens": 1787,
+    "completion_tokens": 122,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1665
+    }
+  }
+}

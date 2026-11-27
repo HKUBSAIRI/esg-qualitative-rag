@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-712ffd12-9aa6-9aa0-8643-1dfe5ae06f10",
+  "object": "chat.completion",
+  "created": 1795744570,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"policy\",\n  \"report_year\": null,\n  \"publisher\": \"山东黄金矿业股份有限公司\",\n  \"basis\": \"文件主体内容为《山东黄金矿业股份有限公司信息披露事务管理办法》等具体制度文本，虽以海外监管公告形式发布，但核心披露物为公司内部管理制度。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2647,
+    "total_tokens": 2717,
+    "completion_tokens": 70,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2647
+    }
+  }
+}

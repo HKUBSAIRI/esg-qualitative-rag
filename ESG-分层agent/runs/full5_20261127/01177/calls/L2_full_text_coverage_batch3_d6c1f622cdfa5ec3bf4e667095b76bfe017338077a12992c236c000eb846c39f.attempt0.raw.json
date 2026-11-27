@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d642fb00-fdc0-97c8-9098-a51d89803e29",
+  "object": "chat.completion",
+  "created": 1795744100,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"The Group had 21,435 employees as at 31 December 2025 and remunerates its employees based on their performance, experience and the prevailing market rates. Other employee benefits include mandatory provident fund, insurance and medical coverage, subsidized training programmes as well as employee share incentive schemes. Total staff cost (including Directors' remuneration and equity settled sharebased payments) in selling and distribution costs and administrative expenses during the year was approximately RMB4,666.76 million (2024: approximately RMB4,670.56 million).\",\n      \"kind\": \"result\",\n      \"period\": \"As at 31 December 2025 / during the year\",\n      \"scope\": \"The Group\",\n      \"relevance\": \"Discloses total employee count and total staff cost for the period, but does not explicitly disclose turnover rate or specific termination compensation figures.\"\n    },\n    {\n      \"ref_id\": \"p011\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"In terms of talent development, the Group promotes the building of a diverse and inclusive workforce, and continues to launch talent development initiatives such as leadership enhancement programs, employee further education support, and university-enterprise joint training programs. These efforts strengthen talent attraction and retention, enrich talent pool, and foster the development of a talent pipeline. During the year, the Group was honored with the 'Bloomberg ESG Inclusive Workplace', the '2025-2026 Excellence in Practice Award' and the 'Best Employer Award'.\",\n      \"kind\": \"action\",\n      \"period\": \"During the year\",\n      \"scope\": \"The Group\",\n      \"relevance\": \"Mentions efforts to strengthen talent retention, which is related to turnover management, but does not provide quantitative turnover data.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10372,
+    "total_tokens": 10825,
+    "completion_tokens": 453,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 10372
+    }
+  }
+}

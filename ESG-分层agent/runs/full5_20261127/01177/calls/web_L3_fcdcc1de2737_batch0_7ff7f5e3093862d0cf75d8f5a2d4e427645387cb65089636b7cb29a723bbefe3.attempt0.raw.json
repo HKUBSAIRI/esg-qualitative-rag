@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-67db065b-e751-9731-b6f8-9a9c662a5407",
+  "object": "chat.completion",
+  "created": 1795744663,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p020\",\n      \"group_ids\": [\n        \"T5\"\n      ],\n      \"quote\": \"中国生物制药员工依法享有护理假期。同时，我们为员工提供弹性工作时间，员工在保证劳动法规定劳动时间基础上，可在一定范围内自主决定工作时间。我们相信，这有助于员工更好的平衡工作和个人生活。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了关于休假（护理假）和工时（弹性工作时间）的制度安排，但未包含当期实际执行数据、监测结果或纠正事实，不满足T5对‘实际执行或纠正结果’的要求，仅作为相关制度背景证据提取。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4304,
+    "total_tokens": 4486,
+    "completion_tokens": 182,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4304
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d3b6ceed-7265-9947-96e0-281fa3d6fd2e",
+  "object": "chat.completion",
+  "created": 1795730939,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p023\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"Employee turnover 17\\nOverall employee turnover rate | % | 6.97 | 7.53 | 13.14\",\n      \"kind\": \"result\",\n      \"period\": \"2025\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了评分年度（2025年）的整体员工离职率具体数值，满足当期离职率披露要求。\"\n    },\n    {\n      \"ref_id\": \"p025\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"17 Data includes only employees who left voluntarily.\",\n      \"kind\": \"boundary\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"明确了离职率的统计口径为主动离职，支持对E1指标中离职率口径的识别。\"\n    },\n    {\n      \"ref_id\": \"p021\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"Number of new employees under labor contracts (including those who joined and left during the year) | persons | 110 | 91 | 214\",\n      \"kind\": \"result\",\n      \"period\": \"2025\",\n      \"scope\": \"新入职员工\",\n      \"relevance\": \"披露了新签订劳动合同的员工数量事实，关联劳动合同保障主题。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 15161,
+    "total_tokens": 15536,
+    "completion_tokens": 375,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 15161
+    }
+  }
+}

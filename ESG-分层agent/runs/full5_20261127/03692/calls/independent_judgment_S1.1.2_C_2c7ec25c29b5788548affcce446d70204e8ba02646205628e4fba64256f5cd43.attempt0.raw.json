@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-11875062-b58b-9202-90dc-7e18518d0a64",
+  "object": "chat.completion",
+  "created": 1795730483,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空（evidence=[]），且检索记录显示 search_count=1。根据规则，缺少相关证据本身不能证明应查范围已完成，关键证据无法核实或必要材料的覆盖尚未确认时，受影响项记为 pending_review。当前无原文支持判断是否存在严重欠薪、违法克扣工资或未纠正事项，也无法依据 P1-P5 各子项条件进行评分。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"缺失关于薪酬支付保障政策、工资处理机制、监测审查、覆盖范围及补救机制的具体披露原文\",\n    \"未确认是否已充分检索所有可能包含 S1.1.2 C 指标证据的官方文件\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5594,
+    "total_tokens": 5766,
+    "completion_tokens": 172,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5594
+    }
+  }
+}

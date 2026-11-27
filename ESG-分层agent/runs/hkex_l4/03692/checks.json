@@ -1,0 +1,422 @@
+[
+  {
+    "indicator_id": "S1.1.2 C",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=225787&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=143&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 225787,
+          "c": "03692",
+          "n": "翰森製藥",
+          "s": 15844
+        },
+        "records": 143,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"翰森製藥\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/03692/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1019/2026101900016_c.pdf",
+            "title": "內幕消息 - 與羅氏訂立戰略合作及許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1017/2025101700030_c.pdf",
+            "title": "內幕消息 - 與羅氏訂立許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0602/2025060203071_c.pdf",
+            "title": "內幕消息 - 與REGENERON訂立許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042803882_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042803780_c.pdf",
+            "title": "2024環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042803832_c.pdf",
+            "title": "2025年報",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.3",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=225787&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=143&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 225787,
+          "c": "03692",
+          "n": "翰森製藥",
+          "s": 15844
+        },
+        "records": 143,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"翰森製藥\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/03692/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1019/2026101900016_c.pdf",
+            "title": "內幕消息 - 與羅氏訂立戰略合作及許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1017/2025101700030_c.pdf",
+            "title": "內幕消息 - 與羅氏訂立許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0602/2025060203071_c.pdf",
+            "title": "內幕消息 - 與REGENERON訂立許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042803882_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042803780_c.pdf",
+            "title": "2024環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042803832_c.pdf",
+            "title": "2025年報",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.4",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=225787&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=143&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 225787,
+          "c": "03692",
+          "n": "翰森製藥",
+          "s": 15844
+        },
+        "records": 143,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"翰森製藥\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/03692/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1019/2026101900016_c.pdf",
+            "title": "內幕消息 - 與羅氏訂立戰略合作及許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1017/2025101700030_c.pdf",
+            "title": "內幕消息 - 與羅氏訂立許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0602/2025060203071_c.pdf",
+            "title": "內幕消息 - 與REGENERON訂立許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042803882_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042803780_c.pdf",
+            "title": "2024環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042803832_c.pdf",
+            "title": "2025年報",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.5",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=225787&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=143&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 225787,
+          "c": "03692",
+          "n": "翰森製藥",
+          "s": 15844
+        },
+        "records": 143,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"翰森製藥\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"翰森製藥\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/03692/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1019/2026101900016_c.pdf",
+            "title": "內幕消息 - 與羅氏訂立戰略合作及許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1017/2025101700030_c.pdf",
+            "title": "內幕消息 - 與羅氏訂立許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0602/2025060203071_c.pdf",
+            "title": "內幕消息 - 與REGENERON訂立許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042803882_c.pdf",
+            "title": "2025環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042803780_c.pdf",
+            "title": "2024環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042803832_c.pdf",
+            "title": "2025年報",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e2a154a2-6480-91a8-83a5-decbc95e5c9b",
+  "object": "chat.completion",
+  "created": 1795730730,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e004\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止歧视政策及零容忍要求 (e001)\",\n        \"具体制度措施：招聘、晋升、薪酬无偏见 (e004)\",\n        \"具体身份特征保护承诺 (e005)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止骚扰（含性骚扰）及零容忍要求 (e001)\",\n        \"开展反骚扰培训的具体措施 (e001)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"明确针对歧视或骚扰行为的申诉渠道 (e002)\",\n        \"员工申诉调查与处理流程制度 (e006)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"保障举报人权益 (e002)\",\n        \"对报复行为零容忍 (e007)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"查实后的处分规则（警告、记过、解雇、移交司法） (e003)\",\n        \"当期无诉讼事实 (e003)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3058,
+    "total_tokens": 3624,
+    "completion_tokens": 566,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3058
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-03ff85e5-d97b-9de6-93b6-a8a002adb77f",
+  "object": "chat.completion",
+  "created": 1795730518,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"最低工资保障政策 (e001)\",\n        \"加班薪资支付政策 (e004)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"具体的工资核算规则、复核流程或明确的工资差错查询/申诉处理机制。e006仅提及一般性沟通渠道（HR服务台等），未明确指向工资处理或薪酬申诉的具体操作机制，且缺乏对‘工资单发放’或‘核算复核’的直接描述。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"定期开展薪酬监测与分析 (e002)\",\n        \"启动全员生活工资评估 (e002)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"全体员工 (e001, e003)\",\n        \"所有运营地 (e003, e007)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还流程）或已完成纠正的事实。现有证据仅涉及预防性政策和监测，未披露事后补救安排。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2896,
+    "total_tokens": 3455,
+    "completion_tokens": 559,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2896
+    }
+  }
+}

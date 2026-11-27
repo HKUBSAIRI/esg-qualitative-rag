@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5f02dd6c-62d1-9a66-beb5-3b0c7cb4785f",
+  "object": "chat.completion",
+  "created": 1795731246,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空，无法依据原文判断主体关联、事项性质及纠正情况。根据规则，缺少相关证据本身不能证明应查范围已完成，且材料中明确标注存在需人工核验的官方扫描线索（existing_official_scanned_lead_requires_quote_and_subject_review），因此状态定为待审核。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"No evidence provided to verify S1.1.2 C indicators (P1-P5).\",\n    \"Existing official scanned lead requires quote and subject review.\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5606,
+    "total_tokens": 5743,
+    "completion_tokens": 137,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5606
+    }
+  }
+}

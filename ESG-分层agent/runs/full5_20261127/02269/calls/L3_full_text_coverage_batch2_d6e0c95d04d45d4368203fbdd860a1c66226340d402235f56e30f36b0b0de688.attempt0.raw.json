@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-dde55e4f-3576-9b59-aeaa-32ddb4019dfa",
+  "object": "chat.completion",
+  "created": 1795739740,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p064\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"违反本制度规定收受或对外提供礼品、餐饮或商业款待或其他利益 的,视情节严重程度,给予相应的纪律处分,直至开除;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物技术有限公司员工\",\n      \"relevance\": \"披露了因违反反腐败制度（如违规接受宴请）导致的最严厉后果为“开除”，属于裁员/解雇相关的纪律处分制度安排。\"\n    },\n    {\n      \"ref_id\": \"p065\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"Employees who accept or give gifts or provide benefits (gift, meal or business hospitality, or other interest) against this policy, corresponsive disciplinary actions (up to dismissal) shall be given depending on the severity of the violation;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"WuXi Biologics employees\",\n      \"relevance\": \"英文原文确认了针对违规行为的纪律处分最高可达“dismissal”（解雇），支持裁员/解雇程序中的处罚依据。\"\n    },\n    {\n      \"ref_id\": \"p066\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"对于侵占本公司资产、利用本公司资产谋利或用于私人用途等行为, 视情节严重程度,给予留司察看至解除劳动合同或被退回劳务派遣 机构;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"药明生物技术有限公司员工及劳务派遣人员\",\n      \"relevance\": \"明确提及“解除劳动合同”作为对严重违纪行为（如侵占资产）的处理措施，直接关联裁员/解雇制度。\"\n    },\n    {\n      \"ref_id\": \"p067\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"Employees who have committed embezzlement of the Company's assets, gained profits by taking advantage of the Company's assets or used them for personal ends, etc., disciplinary actions will be taken up to including retain post on probation, dismissal or sent back to the employment agency depending on the severity of the violation upon discovery;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"WuXi Biologics employees and dispatched workers\",\n      \"relevance\": \"英文原文确认了包括“dismissal”（解雇）和“sent back to the employment agency”（退回派遣机构）在内的处理措施，涉及劳动关系解除的程序性规定。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11171,
+    "total_tokens": 11800,
+    "completion_tokens": 629,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 11171
+    }
+  }
+}

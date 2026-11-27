@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ee910c65-0982-9445-b346-0ff5bc25da60",
+  "object": "chat.completion",
+  "created": 1795739713,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\": [], \"reason\": \"候选e013仅涉及退休福利计划及缴费义务，属于薪酬福利范畴，未包含劳动合同签订、续签、期限或签订率等核心要素，无法支持S1.1.1 C的成立路径，也不与现有结论冲突。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 429,
+    "total_tokens": 492,
+    "completion_tokens": 63,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 429
+    }
+  }
+}

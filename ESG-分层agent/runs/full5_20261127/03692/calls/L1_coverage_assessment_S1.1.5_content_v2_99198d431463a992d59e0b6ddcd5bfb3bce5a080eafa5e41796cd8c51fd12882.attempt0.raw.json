@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f04152de-84c2-9cfe-a317-7de15ccc9e82",
+  "object": "chat.completion",
+  "created": 1795732584,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e011\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止就业中的歧视行为（e001）\",\n        \"具体制度措施：招聘信息合规审查以避免性别、地域等歧视性内容（e011）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e013\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止职场骚扰行为（e001）\",\n        \"零容忍要求及反骚扰培训（e013）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e014\"\n      ],\n      \"supported_paths\": [\n        \"披露适用于歧视骚扰投诉的受理、核查、调查程序（e002, e014）\",\n        \"当期实际运行记录：工单系统累计处理员工意见并完成反馈（e014）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": {\n        \"occurred\": true,\n        \"period_confirmed\": true,\n        \"evidence_refs\": [\n          \"e014\"\n        ]\n      }\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e008\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"匿名举报机制（e008）\",\n        \"对举报人信息严格保密、禁止打击报复的保护措施（e010）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"针对查实违规行为的纪律处分、移送司法处理规则（e002）\",\n        \"对责任人的措施及对弱势群体的法律、经济救济机制（e007）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5523,
+    "total_tokens": 6188,
+    "completion_tokens": 665,
+    "prompt_tokens_details": {
+      "cached_tokens": 3072,
+      "text_tokens": 5523
+    }
+  }
+}

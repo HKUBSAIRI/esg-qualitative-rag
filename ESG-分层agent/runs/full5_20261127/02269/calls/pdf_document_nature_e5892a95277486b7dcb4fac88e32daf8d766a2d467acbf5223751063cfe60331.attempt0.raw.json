@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e21a1b44-83dc-9ffc-8c76-2a40ccbda795",
+  "object": "chat.completion",
+  "created": 1795744472,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"policy\",\n  \"report_year\": null,\n  \"publisher\": \"杭州泰格医药科技股份有限公司\",\n  \"basis\": \"文件正文标题为《董事、高级管理人员内部问责制度》，内容包含总则、问责范围、方式及程序等具体规章制度条款，属于公司内部管理制度。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2106,
+    "total_tokens": 2176,
+    "completion_tokens": 70,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2106
+    }
+  }
+}

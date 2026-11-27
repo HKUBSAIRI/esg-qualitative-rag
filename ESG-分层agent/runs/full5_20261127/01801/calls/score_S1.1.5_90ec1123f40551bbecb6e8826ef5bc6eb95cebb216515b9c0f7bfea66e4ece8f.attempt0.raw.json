@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-edbeec3d-8296-94ad-8ca0-322849c1105d",
+  "object": "chat.completion",
+  "created": 1795746203,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露《人权与多元化政策》，致力于推动多元包容，创造平等就职环境，符合反歧视政策要求。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"D2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002明确披露对歧视与骚扰行为秉持零容忍态度，符合反骚扰政策条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"D3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露设立多种正式举报、申诉渠道（含匿名），由公司审计团队接收并处理所有违规事项，该机制适用于包括歧视、骚扰在内的违规行为投诉受理与调查。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"D4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004和e005披露制定《举报人保护政策》，对打击报复零容忍，提供匿名举报选项，严格保密举报人信息及材料，符合申诉人保护措施条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"D5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e006披露遵照《违纪惩罚制度》对涉事人员进行处分并持续督导教育。虽然原文未显式列出“歧视/骚扰”字样，但作为通用违规处理机制，且前文已建立反歧视/多元化语境下的合规体系，可视为适用于此类违规的责任追究机制。\",\n      \"evidence_refs\": [\n        \"e006\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4547,
+    "total_tokens": 5066,
+    "completion_tokens": 519,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 4547
+    }
+  }
+}

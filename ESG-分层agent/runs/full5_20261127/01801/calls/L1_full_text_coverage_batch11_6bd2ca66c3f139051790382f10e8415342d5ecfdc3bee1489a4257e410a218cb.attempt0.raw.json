@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-97be6c60-a0e9-9d10-ace1-ef603575a402",
+  "object": "chat.completion",
+  "created": 1795731315,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p044\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"信達生物嚴格遵守 《中華人民共和國勞動法》 、 《中華人民共和國勞動合同法》 、 《中華人民共和國社會保險法》 、 《世界人權宣言》及 《國際勞工組織公約》等國內外運營地法律法規,編制了 《招聘入職管理辦法》等人力資源管理制度,指引員工招聘工作的合規開 展。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露公司严格遵守《中华人民共和国劳动合同法》，并编制人力资源管理制度指引员工招聘工作合规开展，涉及劳动合同保障的法律依据和管理制度安排。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13510,
+    "total_tokens": 13718,
+    "completion_tokens": 208,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 13510
+    }
+  }
+}

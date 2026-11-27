@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-425d0da4-2bb8-9aa1-a37c-16e70b9143b2",
+  "object": "chat.completion",
+  "created": 1795731883,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工离职率具体数值（13.3%）及细分口径，并明确标注期间为2025年1月1日至2025年12月31日。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别劳动合同签订、续签、期限或签订比例等具体政策、安排或事实。仅提及遵守法律法规和编制招聘管理办法，不足以证明劳动合同保障的具体内容。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关的通知、协商、补偿制度或辞退福利等具体安排或事实。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别内部招聘、转岗、轮岗制度或再就业服务、职业转换培训等员工安置支持的具体内容。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"无当期实际发生的终止补偿支付、就业安置受益或有效纠正结果的事实证据。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1901,
+    "total_tokens": 2381,
+    "completion_tokens": 480,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1901
+    }
+  }
+}

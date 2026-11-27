@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4c5f39c0-d172-9437-a3ea-645f278897d5",
+  "object": "chat.completion",
+  "created": 1795746237,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露了确保全体员工收入不低于所在地区最低工资标准的政策，符合‘最低工资保障’的具体支付保障条件；证据e002披露了对加班依法给予补偿（包括加班费）的执行事实，属于具体支付内容的执行。满足判100的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了基于绩效、经验和市场费率确定薪酬的机制，这构成了工资核算的具体规则或处理事实，符合‘工资核算规则’等具体机制的要求。满足判100的条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露了持续监测性别薪酬差距及开展同工同酬评估的机制。虽然主要关注公平性，但薪酬监测和评估属于与工资支付直接相关的内部审查或监测范畴，符合‘对工资支付问题进行内部监测’或相关制度安排的条件。满足判100的条件。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示search_complete为false，且issues指出necessary_material_coverage_not_confirmed（必要材料覆盖未确认）。尽管现有证据e001、e005提及‘全体员工’，但在本地RAG召回未完成的情况下，依据规则‘关键证据无法核实、必要材料的覆盖尚未确认...则pending_review且score=null’，不能直接判定通过或失败，需等待覆盖范围确认。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索记录显示search_complete为true，configured_local_rag_completed表示已完成指定本地材料的RAG召回。证据e006仅披露了一般性的员工申诉和违规调查纠正机制，未明确关联到工资差错、欠薪等具体支付问题的补救（如补发、退还）。根据规则，无支持且规定核查完成才0，此处已识别出缺乏针对工资支付特定问题的具体补救机制或纠正事实，故判0。\",\n      \"evidence_refs\": [\n        \"e006\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4608,
+    "total_tokens": 5261,
+    "completion_tokens": 653,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 4608
+    }
+  }
+}

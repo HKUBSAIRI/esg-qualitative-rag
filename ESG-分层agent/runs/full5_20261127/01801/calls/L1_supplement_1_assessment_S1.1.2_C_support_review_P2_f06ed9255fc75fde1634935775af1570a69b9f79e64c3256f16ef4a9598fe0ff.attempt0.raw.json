@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ea3dcd42-f761-91b6-8e68-e506c00d05ab",
+  "object": "chat.completion",
+  "created": 1795745406,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别工资核算规则、核算复核、向员工发放工资单、员工查询工资差错的途径，或与工资支付有关的薪酬申诉渠道及处理安排。原文仅披露针对违规行为（如歧视、骚扰）的通用举报/申诉机制，未明确该机制适用于工资差错或薪酬申诉，且无具体工资处理事实。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1071,
+    "total_tokens": 1219,
+    "completion_tokens": 148,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1071
+    }
+  }
+}

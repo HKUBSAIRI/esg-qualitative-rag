@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e2b199cf-be78-9b28-ab7e-494843237f4f",
+  "object": "chat.completion",
+  "created": 1795744084,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\",\n    \"e003\"\n  ],\n  \"reason\": \"判据相关性：目标指标S1.1.1 C要求披露当期离职率具体数值及口径。已核实结论指出缺失'当期离职率具体数值'。候选e001明确列示了2025年员工流失率为16.83%，并提供了按性别、年龄划分的详细数据，直接填补了总离职率数值的空白；候选e003补充了2025年按地区划分的主動離職率数值（中国大陆12.74%，港澳台及海外16.67%），满足了'主动离职率或其他明确口径'的要求。两者若核实，均能实质改变'未识别具体数值'的判定结果，故为影响判分的关键候选。x001为重复或拒绝项，不单独作为新证据阻断。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1373,
+    "total_tokens": 1582,
+    "completion_tokens": 209,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1373
+    }
+  }
+}

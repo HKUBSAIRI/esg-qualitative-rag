@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5cbf0677-19d1-98dc-b2a3-5a61676f6bf9",
+  "object": "chat.completion",
+  "created": 1795730741,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别对应机制或事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"没有对应披露，只有不涉及工资支付的财务审计意见\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别对应机制或纠正事实\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 919,
+    "total_tokens": 1135,
+    "completion_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 919
+    }
+  }
+}

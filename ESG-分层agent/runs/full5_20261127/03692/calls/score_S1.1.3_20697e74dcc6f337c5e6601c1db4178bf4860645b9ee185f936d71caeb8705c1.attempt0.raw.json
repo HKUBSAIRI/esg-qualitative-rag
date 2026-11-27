@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f231b241-3ef7-9fbb-8ba3-f91d9e52b3e6",
+  "object": "chat.completion",
+  "created": 1795745456,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001披露了“允許按崗位性質靈活調整工作時間”，符合工作时间及排班制度中关于合理工时控制或特定岗位工时制度的政策披露要求。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确披露了“嚴格執行加班審核與調休制度”，包含加班申请/审核的具体管理程序，符合加班管理组的判分条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004列出了“法定帶薪假期”作为员工福利/权利，证据e002提及“育兒假、工作日哺乳時間”，均属于休息休假保障中的具体权利或安排披露。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了“通過數字化平臺實時監測考勤數據...發現異常數據立即啟動核查流程”，以及证据e005提及制定“假勤管理”制度，构成了具体的工时及休假管理机制。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"虽然检索记录显示search_complete为false且存在necessary_material_coverage_not_confirmed问题，但依据规则需确认当期实际执行结果（如监测数据、休假使用人数等）。现有证据仅展示了机制和制度（e003提到实时监测，但未提供当期监测的具体结果数据；e006人权尽调未明确针对工时休假侵害的纠正结果），缺乏明确的当期实际执行或受益事实数据，且材料覆盖状态标记为待核实，故判定为pending_review。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8382,
+    "total_tokens": 8966,
+    "completion_tokens": 584,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 8382
+    }
+  }
+}

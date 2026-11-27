@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e358ba17-5f8a-9a18-8958-3dab80b0fa2e",
+  "object": "chat.completion",
+  "created": 1795732626,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露与员工加班管理直接对应的具体政策、程序或事实（如加班申请、审批、自愿性、时长控制的具体执行安排或异常处理）\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露评分年度实际发生的工时监测、休假使用、执行覆盖或工时休假侵害纠正结果\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1013,
+    "total_tokens": 1212,
+    "completion_tokens": 199,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1013
+    }
+  }
+}

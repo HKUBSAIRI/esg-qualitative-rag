@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7df0704e-1d70-9f8d-a3e0-dbe2df67563d",
+  "object": "chat.completion",
+  "created": 1795739742,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p005\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"On the basis of strict compliance with the regulations on wage stipulated by the relevant laws in each region where it operates, Innovent has established a fair, impartial, rationalised, competitive and comprehensive remuneration and staff benefits management system, covering remuneration and staff benefits, performance and recognition, work and life, and other aspects, such as making contributions to social insurance and the housing provident fund for employees, supplemented with commercial medical and accident insurance, and providing physical checkups for all employees who have worked at the Company for more than one year.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"Innovent\",\n      \"relevance\": \"披露了工资核算及薪酬福利管理系统的建立，符合工资处理机制的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10662,
+    "total_tokens": 10878,
+    "completion_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10662
+    }
+  }
+}

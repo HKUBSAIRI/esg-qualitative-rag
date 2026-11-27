@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c7eda2b3-8562-9873-92e0-b11c95dcdc4d",
+  "object": "chat.completion",
+  "created": 1795731325,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p067\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"對每一位離職員工,我們都安排了詳 細的離職訪談,深入了解其離職原因,並從員工視角收集對公司及部門管理的建議,為相關團隊改進工作提供參考。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"全體離職員工\",\n      \"relevance\": \"披露了針對離職員工的離職訪談機制，屬於解僱/離職相關的處理安排\"\n    },\n    {\n      \"ref_id\": \"p070\",\n      \"group_ids\": [\n        \"W1\"\n      ],\n      \"quote\": \"信達生物嚴格遵守各運營地法律法規,依法為員工提供保險、住房公積金等基本保障。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"員工\",\n      \"relevance\": \"明確披露依法提供保險和住房公積金等法定基本保障\"\n    },\n    {\n      \"ref_id\": \"p070\",\n      \"group_ids\": [\n        \"W2\"\n      ],\n      \"quote\": \"此外,我們還提供全面的補充福利,例如 補充醫療保險以及孕婦支持等。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"員工\",\n      \"relevance\": \"披露了補充醫療保險等具體補充福利安排\"\n    },\n    {\n      \"ref_id\": \"p070\",\n      \"group_ids\": [\n        \"T3\"\n      ],\n      \"quote\": \"我們為所有產婦提供不少於 98 天的產假,並為全體員工提供至少 5 天的育兒假。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"產婦及全體員工\",\n      \"relevance\": \"披露了產假和育兒假的具體天數權利\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13604,
+    "total_tokens": 14169,
+    "completion_tokens": 565,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 13604
+    }
+  }
+}

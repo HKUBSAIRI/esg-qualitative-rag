@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-19c3a467-7db9-9649-a386-328b15219b81",
+  "object": "chat.completion",
+  "created": 1795743746,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001和e004明确披露了“确保支付的薪酬不低于当地最低工资标准”及“实施薪酬基准动态管理，确保员工收入不低于当地最低工资标准”，符合薪酬支付保障的具体政策条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002披露报告期内人力资源在线管理平台上线工单系统，员工可通过该系统上传疑问、意见、举报或申诉并由后台人员处理，构成了具体的工资查询及申诉机制。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露报告期内成立专项小组开展人权尽职调查，内容涉及维生工资（即工资支付相关），属于与工资支付直接相关的内部审查/监测实际开展事实。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004在描述劳动权益保障体系时提及“确保员工收入不低于当地最低工资标准”，结合上下文及集团合并披露性质，明确了该保障政策适用于全体员工对象。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索记录显示search_complete为true且retrieval_status为relevant_evidence_found但assessment中content_sufficient为false，明确指出“未识别对应机制或纠正事实”。证据e005仅披露应付工资余额，e006仅提及终止职务赔偿职权，均无针对工资差错、欠薪等具体补救机制或已完成纠正的披露。依据规则，完成核查后无对应披露判0分。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11220,
+    "total_tokens": 11779,
+    "completion_tokens": 559,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 11220
+    }
+  }
+}

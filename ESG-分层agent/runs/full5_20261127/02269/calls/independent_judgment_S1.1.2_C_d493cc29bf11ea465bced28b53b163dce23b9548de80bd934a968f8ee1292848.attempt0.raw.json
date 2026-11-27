@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e6ceb403-7e17-93a8-a778-013c3f75bad3",
+  "object": "chat.completion",
+  "created": 1795744528,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到。依据实际搜索日志，针对药明生物技术有限公司（02269）在2025年期间严重欠薪、违法克扣工资及纠正情况的官方监管、司法通报及HKEX公告进行了检索。虽然部分通用法规或普通报告链接因标记为'ordinary_report_not_independent_notice'或'excluded_generic_regulation'而未深入读取或视为排除项，但关键必要案件原件来源（如劳工处拖欠工资定罪纪录、公司注册处执法工作等）已成功打开并核查，未发现与该公司直接相关的严重事项通报或未决整改证据。投诉、和解、撤诉或职工债权公示本身不单独证明严重事项，且无独立官方通报证实存在经核实的重大欠薪或违法克扣行为。因此，在当前已执行的官方查找范围内，未验证到严重不利事件。\",\n  \"evidence_refs\": [],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7786,
+    "total_tokens": 8002,
+    "completion_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7786
+    }
+  }
+}

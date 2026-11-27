@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-760ec294-6218-9c3a-ab2c-8288b395757f",
+  "object": "chat.completion",
+  "created": 1795730600,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"最低工资保障政策 (e001)\",\n        \"加班费支付执行事实 (e002)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"工资核算规则、复核机制、工资单发放或员工查询/申诉渠道的具体披露\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"针对工资支付的检查、监测、内部审查制度或实际开展事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"明确适用对象为全体员工 (e001, e003)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"针对工资差错、欠薪、扣款或加班费问题的补救机制（如补发、退还、复核）或已完成纠正的事实\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1941,
+    "total_tokens": 2388,
+    "completion_tokens": 447,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1941
+    }
+  }
+}

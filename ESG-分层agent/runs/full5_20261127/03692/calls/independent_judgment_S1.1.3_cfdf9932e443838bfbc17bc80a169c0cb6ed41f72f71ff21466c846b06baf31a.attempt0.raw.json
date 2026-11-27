@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-66bd373a-8e8b-95fa-bcdf-1f444ecc4969",
+  "object": "chat.completion",
+  "created": 1795743856,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"存在未决问题：官方来源 https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_20c4f404649640c3bdcbbd157d6b6ebe.html 因 HTTPStatusError 无法读取，导致必要原件未完全打开，无法确认是否已执行规定官方查找及是否存在严重事项。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    {\n      \"url\": \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_20c4f404649640c3bdcbbd157d6b6ebe.html\",\n      \"issue\": \"official_source_unreadable\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7654,
+    "total_tokens": 7870,
+    "completion_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7654
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-2ed981a9-7d89-99fd-97d6-e4a6d75d3d80",
+  "object": "chat.completion",
+  "created": 1795739824,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\",\n    \"e007\"\n  ],\n  \"reason\": \"判据相关性：候选 e001 直接提供了2025年度员工流失率的具体数值（10%）及分维度数据，满足‘披露评分年度的员工离职率情况’的核心要求；候选 e007 明确定义了‘员工主动流失率’的计算口径（主动流失数/财年末总人数），与 e001 中的数据结合可识别‘离职率口径’。两者共同支撑了本组结论中关于当期离职率数值及口径的成立路径。e005 和 e006 仅为索引或分类描述，未提供具体数值或明确计算定义，不影响核心判据。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "total_tokens": 1335,
+    "completion_tokens": 173,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1162
+    }
+  }
+}

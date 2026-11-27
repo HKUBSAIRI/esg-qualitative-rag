@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-745776a6-3297-9f3e-9b41-8d0d2585b9f3",
+  "object": "chat.completion",
+  "created": 1795745450,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001和e002明确披露了保证员工收入不低于当地最低工资水平的政策，符合‘最低工资保障’的具体支付保障条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示search_complete为false且issues包含necessary_material_coverage_not_confirmed，表明必要材料覆盖未确认，无法判定是否缺失工资核算、查询或申诉机制的披露。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露报告期内开展了人权尽职调查，内容明确包括‘维生工资水平’及‘同工同酬’，属于对工资支付相关事项的内部审查/监测事实，满足当期实际开展检查的条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002提及‘确保员工收入不低于当地最低工资标准’，结合上下文劳动权益保障体系，隐含适用对象为全体员工；证据e003进一步证实调查对象覆盖所有主要运营地的各级别全职、兼职员工，明确了保障政策的适用对象范围。\",\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示search_complete为false且issues包含necessary_material_coverage_not_confirmed，表明必要材料覆盖未确认。虽然证据e004提及一般性侵权事件的救济机制，但未明确关联到具体的工资差错、欠薪等支付问题的补救，且因覆盖未确认不能直接判0。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8201,
+    "total_tokens": 8740,
+    "completion_tokens": 539,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 8201
+    }
+  }
+}

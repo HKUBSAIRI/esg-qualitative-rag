@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5c9396f8-b2ca-9e75-bea7-5f9351be1891",
+  "object": "chat.completion",
+  "created": 1795732731,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\"\n  ],\n  \"reason\": \"候选原文 e001 明确列示了2025年（评分年度）的‘员工流失率’具体数值为10%，并提供了按性别、年龄、地区等维度的细分数据，符合指标 S1.1.1 C 关于‘披露评分年度的员工离职率情况’及‘识别评分期间’的核心判据。尽管评估中提及‘verification_missing: 当期离职率具体数值’，但该候选直接提供了该缺失的关键事实证据，若核实无误，将直接支持‘content_sufficient’结论，属于影响判分的必要证据。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 820,
+    "total_tokens": 971,
+    "completion_tokens": 151,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 820
+    }
+  }
+}

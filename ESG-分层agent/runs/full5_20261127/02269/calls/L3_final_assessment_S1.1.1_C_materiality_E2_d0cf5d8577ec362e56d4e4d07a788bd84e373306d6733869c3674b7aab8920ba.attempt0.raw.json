@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0734fbea-17a5-9587-9e22-7366a87d15f7",
+  "object": "chat.completion",
+  "created": 1795739845,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [],\n  \"reason\": \"候选e011仅涉及退休福利缴纳义务，属于员工福利范畴，未包含劳动合同签订、续签、期限或签订率等核心要素。即使核实该引文，仍无法满足S1.1.1 C关于‘劳动合同保障’的成立路径，且不与已核实结论（缺乏合同保障证据）形成实质冲突，故不影响判分。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 456,
+    "total_tokens": 549,
+    "completion_tokens": 93,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 456
+    }
+  }
+}

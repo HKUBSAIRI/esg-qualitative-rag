@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-afc64b4b-883c-9b07-8b2b-d7f8f086c9ba",
+  "object": "chat.completion",
+  "created": 1795745710,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p005\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"报告期末全体董事和高级管理人 员实际获得薪酬的止付追索情况 | 不适用\",\n      \"kind\": \"boundary\",\n      \"period\": \"2025年度\",\n      \"scope\": \"董事、高级管理人员\",\n      \"relevance\": \"披露了针对董事及高管薪酬的止付追索机制状态为“不适用”，属于对支付问题补救/纠正机制（如追索）的明确事实陈述，虽未显示具体补发或退还动作，但界定了该机制在当期的适用边界。\"\n    },\n    {\n      \"ref_id\": \"p006\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"报告期末全体董事和高级管理人 员实际获得薪酬的止付追索情况 | 不适用\",\n      \"kind\": \"boundary\",\n      \"period\": \"未明确\",\n      \"scope\": \"董事、高级管理人员\",\n      \"relevance\": \"同上，另一来源中关于止付追索机制状态的披露，确认为“不适用”。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3025,
+    "total_tokens": 3311,
+    "completion_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3025
+    }
+  }
+}

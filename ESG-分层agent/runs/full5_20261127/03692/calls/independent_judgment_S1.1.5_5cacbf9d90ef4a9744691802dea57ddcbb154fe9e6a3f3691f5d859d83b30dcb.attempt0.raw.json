@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4d0e3120-bb5c-9168-81e0-492d48e20716",
+  "object": "chat.completion",
+  "created": 1795743870,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"实际搜索日志显示，针对严重歧视、骚扰及系统性机会不公平的官方监管通报检索中，关键来源（市场监督管理行政处罚信息公示规定）因HTTPStatusError无法打开（official_source_unreadable），导致必要原件未完全核实。虽然其他HKEX和公司注册处页面已打开但未发现相关严重事项证据，但由于存在未决的官方源读取问题，且规则要求‘没有严重通报候选不代表普通政策披露缺失’但需确认‘必要原件已打开且无未决问题’方可返回no_verified_adverse_event_found，故当前状态为待核验。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    {\n      \"url\": \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_20c4f404649640c3bdcbbd157d6b6ebe.html\",\n      \"issue\": \"official_source_unreadable (HTTPStatusError)\",\n      \"impact\": \"无法确认该官方渠道是否存在针对翰森制药的严重歧视或骚扰处罚记录\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7561,
+    "total_tokens": 7831,
+    "completion_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 7561
+    }
+  }
+}

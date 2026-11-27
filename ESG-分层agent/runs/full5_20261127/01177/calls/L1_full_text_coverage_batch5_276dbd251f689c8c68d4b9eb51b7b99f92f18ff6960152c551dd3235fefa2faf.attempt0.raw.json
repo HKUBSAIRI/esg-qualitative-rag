@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0ee292a8-96a0-964d-a38a-7b77f7b4bf9d",
+  "object": "chat.completion",
+  "created": 1795730626,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p048\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"我們在員工勞動合同及《員工行爲準則》內 明確要求,員工對客戶及經銷商等第三方的 非公開信息,需嚴格恪守信息保密原則。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了劳动合同中包含的具体条款（信息保密），属于劳动合同保障内容\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17892,
+    "total_tokens": 18032,
+    "completion_tokens": 140,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 17892
+    }
+  }
+}

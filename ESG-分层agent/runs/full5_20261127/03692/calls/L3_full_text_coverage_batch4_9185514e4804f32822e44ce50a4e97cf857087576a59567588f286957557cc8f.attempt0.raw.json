@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6fbbebca-0233-9c93-ac23-ce339ec69206",
+  "object": "chat.completion",
+  "created": 1795730450,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p026\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"(f) 檢討及批准就任何喪失或終止職務或委任而向本公司執行董事及高級管 理層支付的賠償,以確保該等賠償與合約條款一致;若未能與有關合約\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"本公司执行董事及高级管理层\",\n      \"relevance\": \"披露了薪酬委员会检讨及批准终止职务赔偿的机制，但未提供当期实际支付、安置受益或纠正结果的事实证据。\"\n    },\n    {\n      \"ref_id\": \"p027\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"條款一致,賠償亦須公平合理,不會造成過重負擔;\",\n      \"kind\": \"boundary\",\n      \"period\": \"未明确\",\n      \"scope\": \"本公司执行董事及高级管理层\",\n      \"relevance\": \"规定了赔偿的公平合理性边界，属于政策/机制描述，非当期实际离职保障结果。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13104,
+    "total_tokens": 13382,
+    "completion_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 13104
+    }
+  }
+}

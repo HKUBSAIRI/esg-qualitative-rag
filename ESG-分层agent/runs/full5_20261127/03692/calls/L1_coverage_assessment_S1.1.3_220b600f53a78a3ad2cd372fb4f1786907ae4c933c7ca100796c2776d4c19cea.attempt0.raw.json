@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-df59c570-8d26-9cab-bcfd-d4a5f6b68f3d",
+  "object": "chat.completion",
+  "created": 1795730329,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"政策/事例：允许按岗位性质灵活调整工作时间 (e001)\",\n        \"政策/事例：披露育儿假、工作日哺乳时间等具体休假安排及灵活工作时间 (e004)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"政策/程序：不鼓励加班，依法给予补偿包括调休、加班费 (e001)\",\n        \"政策/程序：严格执行加班审核与调休制度 (e002)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"权利/安排：尊重休息权，对额外工作给予调休补偿 (e001)\",\n        \"权利/安排：明确列出法定带薪假期作为福利项目 (e003)\",\n        \"权利/安排：披露育儿假、工作日哺乳时间等具体休假安排 (e004)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"机制/事实：通过数字化平台实时监测考勤数据，发现异常启动核查流程 (e002)\",\n        \"机制/事实：参与制定假勤管理制度 (e005)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际工时监测结果（如检查加班时长的具体数据或结论）\",\n        \"当期实际使用带薪休假的人数或比例\",\n        \"当期执行措施覆盖的具体人数\",\n        \"当期已纠正的休息权侵害案例或结果\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2118,
+    "total_tokens": 2756,
+    "completion_tokens": 638,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 2118
+    }
+  }
+}

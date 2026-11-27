@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-512bcde5-77b6-9fff-9069-d6a0dd8db495",
+  "object": "chat.completion",
+  "created": 1795744356,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p019\",\n      \"group_ids\": [\n        \"E1\"\n      ],\n      \"quote\": \"類別 | 單位 | 2019 | 2018\\n員工流失\\n員工流失總人數 | 總數 | 572 | 358\\n員工流失率 | 流失比率 | 10% | 9%\",\n      \"kind\": \"result\",\n      \"period\": \"2019\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了评分年度（2019年）的员工流失总人数及流失率，符合当期离职率披露要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12640,
+    "total_tokens": 12810,
+    "completion_tokens": 170,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 12640
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-741311e9-5a98-9ee7-b95d-bd1943d971bc",
+  "object": "chat.completion",
+  "created": 1795745696,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"同工同酬原则作为工资支付公平性的具体保障政策\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"明确权益保障（含工资相关）适用于应聘者、在职员工及离职员工\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2581,
+    "total_tokens": 2777,
+    "completion_tokens": 196,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2581
+    }
+  }
+}

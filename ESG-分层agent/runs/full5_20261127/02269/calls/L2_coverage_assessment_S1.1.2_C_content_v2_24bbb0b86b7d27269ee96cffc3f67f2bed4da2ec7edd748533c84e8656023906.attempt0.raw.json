@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-3d164c59-ee9a-97a4-a159-f3aeb743a28d",
+  "object": "chat.completion",
+  "created": 1795739693,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"e001: 披露了员工咨询热线和HR服务台作为查询/申诉途径，符合‘与工资支付有关的薪酬申诉渠道及处理安排’或‘员工查询工资差错的途径’。\",\n        \"e002: 披露了基于资格、职位和绩效确定薪酬包的具体机制，符合‘工资核算规则’。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还、复核）或已完成纠正的事实。e001仅提及一般性沟通渠道，未明确指向支付问题的补救；e002/e003为常规核算机制，非补救机制。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1574,
+    "total_tokens": 1881,
+    "completion_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1574
+    }
+  }
+}

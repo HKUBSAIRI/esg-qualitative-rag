@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-458ed909-e76b-90da-9dc0-ba6ee71f39d1",
+  "object": "chat.completion",
+  "created": 1795731033,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p029\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"董事和高级管理人员薪酬的实际 支付情况 | 公司董事和高级管理人员的报酬已根据相关规定支付。\",\n      \"kind\": \"result\",\n      \"period\": \"2025年度\",\n      \"scope\": \"董事和高级管理人员\",\n      \"relevance\": \"披露了董事及高管报酬已按规定支付的事实，属于具体工资支付保障的执行事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13575,
+    "total_tokens": 13707,
+    "completion_tokens": 132,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 13575
+    }
+  }
+}

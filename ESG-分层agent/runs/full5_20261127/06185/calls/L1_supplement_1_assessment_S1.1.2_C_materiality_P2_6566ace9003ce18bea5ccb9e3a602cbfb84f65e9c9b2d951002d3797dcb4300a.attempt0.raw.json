@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f5f66941-2c03-9820-a748-64a906949e2c",
+  "object": "chat.completion",
+  "created": 1795745664,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e002\"\n  ],\n  \"reason\": \"判据相关性：候选引文 e002 描述了员工申诉机制（grievance mechanism），包括提交渠道、调查处理及结果反馈。目标条件 S1.1.2 C 要求披露“与工资支付有关的薪酬申诉渠道及处理安排”或“员工查询工资差错的途径”。虽然该机制是通用的员工权利/利益申诉，但通常涵盖工资差错等权益受损情形。若核实该通用申诉机制确实用于处理工资相关投诉，则满足成立路径；若仅作为一般性合规描述而未明确关联工资/薪酬，则可能不足以单独证明“工资处理及员工查询机制”的具体存在。鉴于评估中已将其列为 supported_paths 之一，且其内容直接涉及申诉渠道和处理安排，属于影响判分的关键证据候选。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 520,
+    "total_tokens": 712,
+    "completion_tokens": 192,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 520
+    }
+  }
+}

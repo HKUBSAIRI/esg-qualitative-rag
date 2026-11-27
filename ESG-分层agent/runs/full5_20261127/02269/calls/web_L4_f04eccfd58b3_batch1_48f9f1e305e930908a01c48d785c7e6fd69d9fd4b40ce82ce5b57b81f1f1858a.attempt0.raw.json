@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d98e47e7-5185-9f5e-819c-83c071f1d589",
+  "object": "chat.completion",
+  "created": 1795744566,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6904,
+    "total_tokens": 6914,
+    "completion_tokens": 10,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 6904
+    }
+  }
+}

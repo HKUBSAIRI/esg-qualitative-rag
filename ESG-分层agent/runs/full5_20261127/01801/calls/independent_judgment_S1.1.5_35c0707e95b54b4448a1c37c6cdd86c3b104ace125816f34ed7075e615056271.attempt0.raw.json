@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-31bd8202-37e2-90ad-aaba-78c658517bab",
+  "object": "chat.completion",
+  "created": 1795743580,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"核查范围未完全覆盖。虽然已打开部分HKEX公告及监管网站，但多个关键官方来源（如SAMR反垄断指南、信用修复办法、行政处罚裁量规定等）因HTTPStatusError无法读取（official_source_unreadable）。此外，已打开的HKEX公告中quote_verified均为false，且无明确证据显示存在严重歧视、骚扰或系统性机会不公平事项。由于必要原件未能成功获取内容以排除潜在风险或确认无违规，不能直接判定为no_verified_adverse_event_found，需人工复核未读源及已开源的具体文本内容。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"https://www.samr.gov.cn/zt/ndzt/2025n/sqxzjcgs/jcbz/art/2025/art_ca6c4b1ea7a444d98e4c13db9b46d16f.html (unreadable)\",\n    \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_02b9d3e6f31a4cc38079901ab49994d5.html?sessionid=&tt_force_outside=1 (unreadable)\",\n    \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_e1e110a177e14cc5b74fda00c814c3d6.html (unreadable)\",\n    \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_eb5331517f7b4ed6b31b1bc5e816b88a.html (unreadable)\",\n    \"HKEX opened sources have quote_verified=false, requiring manual text verification for adverse events.\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8832,
+    "total_tokens": 9293,
+    "completion_tokens": 461,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8832
+    }
+  }
+}

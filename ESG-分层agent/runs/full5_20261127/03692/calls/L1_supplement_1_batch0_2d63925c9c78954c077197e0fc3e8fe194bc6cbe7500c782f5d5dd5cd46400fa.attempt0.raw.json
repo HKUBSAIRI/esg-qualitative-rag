@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d37f7b42-5fff-9810-aaf5-66687a8fbe7c",
+  "object": "chat.completion",
+  "created": 1795746152,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"D4\"\n      ],\n      \"quote\": \"公司同時實施《舉報及 舉報人保護政策》,對舉報信息嚴格保密,保護善意舉報人,對任何打擊報復行為堅持「零容忍」。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"举报人/申诉人\",\n      \"relevance\": \"披露了适用于歧视或骚扰投诉的举报人保护措施，包括保密、保护善意举报人及零容忍报复。\"\n    },\n    {\n      \"ref_id\": \"p019\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"已在內部平臺開設人 力資源工單系統,方便員工隨時提出問題。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了员工查询问题的具体机制（人力资源工单系统），符合工资处理及员工查询机制中关于查询途径的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10173,
+    "total_tokens": 10446,
+    "completion_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10173
+    }
+  }
+}

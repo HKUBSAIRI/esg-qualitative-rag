@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a93079dc-534d-95bb-8c20-bd163abb24e0",
+  "object": "chat.completion",
+  "created": 1795744280,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001、e002、e003 明确披露了禁止就业歧视的政策要求及具体制度（如招聘信息合规审查避免性别地域歧视、员工多元化政策培训），符合 D1 判分条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"D2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001、e003 明确披露了对任何形式的骚扰行为持零容忍态度，并建立了杜绝骚扰行为的流程与监察体系，符合 D2 判分条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"D3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e004、e005 详细披露了适用于职场申诉（含歧视骚扰）的受理机制（工单平台、总裁信箱）、分类处理程序及专项调查核查流程，符合 D3 判分条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"D4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e005、e006、e007 披露了《举报及举报人保护政策》，包括对举报信息严格保密、设立匿名举报热线/邮箱、严禁打击报复等具体的申诉人保护措施，符合 D4 判分条件。\",\n      \"evidence_refs\": [\n        \"e005\",\n        \"e006\",\n        \"e007\"\n      ]\n    },\n    {\n      \"group_id\": \"D5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e004、e005、e008 披露了针对查实歧视或骚扰违规行为的纪律处分规则、涉嫌违法案件移送司法处理机制，以及对弱势群体的法律经济救济措施，符合 D5 判分条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\",\n        \"e008\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9588,
+    "total_tokens": 10214,
+    "completion_tokens": 626,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 9588
+    }
+  }
+}

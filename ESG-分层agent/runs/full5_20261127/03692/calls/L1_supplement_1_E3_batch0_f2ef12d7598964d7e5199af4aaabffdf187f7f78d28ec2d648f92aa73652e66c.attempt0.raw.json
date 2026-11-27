@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-72b319ca-23e1-9976-9f8e-b77028d3d8a6",
+  "object": "chat.completion",
+  "created": 1795745352,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p005\",\n      \"group_ids\": [\n        \"E3\"\n      ],\n      \"quote\": \"1 立即停止雇傭,並將他們從工作環境中移除;\",\n      \"kind\": \"action\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"人力資源風險管理\",\n      \"relevance\": \"披露了涉及解除雇佣关系的具体处理措施，符合裁员程序或离职争议处理制度/事实的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1991,
+    "total_tokens": 2136,
+    "completion_tokens": 145,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1991
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8c34a683-3051-9a3e-9b7d-fefb66d146d9",
+  "object": "chat.completion",
+  "created": 1795739690,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\": [], \"reason\": \"候选引文仅涉及退休福利计划及缴费义务，属于薪酬福利范畴，未提及劳动合同的签订、续签、期限或签订率等核心要素，无法满足本组成立路径，也不与已核实结论形成实质冲突。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 429,
+    "total_tokens": 487,
+    "completion_tokens": 58,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 429
+    }
+  }
+}

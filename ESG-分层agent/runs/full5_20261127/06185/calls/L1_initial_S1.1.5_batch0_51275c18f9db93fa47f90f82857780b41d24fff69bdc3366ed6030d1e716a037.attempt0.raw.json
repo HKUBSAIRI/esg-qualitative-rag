@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8aac820b-e1cd-94c0-b82f-f9c218d0b2bb",
+  "object": "chat.completion",
+  "created": 1795730820,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"We prohibit all forms of discrimination in employment and occupation and uphold equal pay for equal work.\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"employment and occupation\",\n      \"relevance\": \"明确披露禁止就业歧视及同工同酬政策，符合反歧视政策与保障要求。\"\n    },\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"D2\"\n      ],\n      \"quote\": \"We have zero tolerance for any form of harassment, including but not limited to physical harassment, sexual harassment, psychological harassment, verbal harassment, or any other form of inappropriate conduct.\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"any form of harassment\",\n      \"relevance\": \"明确披露对职场骚扰（含性骚扰）的零容忍政策，符合反骚扰政策与保障要求。\"\n    },\n    {\n      \"ref_id\": \"p006\",\n      \"group_ids\": [\n        \"D3\",\n        \"D4\"\n      ],\n      \"quote\": \"Supported by a well-established internal reporting and investigation mechanism, the Company clearly requires all employees to promptly report any violations involving child labor, forced labor, discrimination, or harassment through designated channels such as the Human Resources Department or their direct supervisors. The Company ensures that all investigations are conducted in accordance with fair and transparent procedures and that the identity of whistleblowers is kept strictly confidential, thereby effectively protecting employee rights and maintaining organizational credibility.\",\n      \"kind\": \"mechanism\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"violations involving discrimination or harassment\",\n      \"relevance\": \"披露了适用于歧视和骚扰投诉的内部报告、调查机制（受理/调查），以及举报人身份严格保密的保护措施（申诉人保护）。\"\n    },\n    {\n      \"ref_id\": \"p014\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"We have zero tolerance for any improper conduct such as discrimination, offense, or insult based on nationality, race, place of origin, gender, sexual orientation, economic status, political beliefs, or religious faith.\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"discrimination based on specific characteristics\",\n      \"relevance\": \"进一步细化禁止基于国籍、种族、性别等特征的歧视行为，支持反歧视政策证据。\"\n    },\n    {\n      \"ref_id\": \"p025\",\n      \"group_ids\": [\n        \"D3\",\n        \"D4\"\n      ],\n      \"quote\": \"In accordance with the Employee Handbook , the Company has established an employee grievance mechanism. Where employees believe their rights or interests have been adversely affected, they may submit written grievance materials through designated channels. Upon receipt of a grievance, the Company will promptly initiate an investigation process and handle the matter with rigor and impartiality, while keeping management informed of the progress and outcome of the investigation in a timely manner. The Company places a high priority on privacy protection and keeps complainants' personal information strictly confidential to ensure the security of their privacy, while also ensuring that the handling outcome is communicated to employees in a timely manner.\",\n      \"kind\": \"mechanism\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"employee grievance mechanism\",\n      \"relevance\": \"披露员工申诉机制，包含受理、调查处理程序及对投诉人隐私保密的保护措施，适用于权益受损情形（涵盖歧视骚扰）。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7059,
+    "total_tokens": 7987,
+    "completion_tokens": 928,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7059
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-bac6c395-2b75-931f-8383-eea8a2ec80b9",
+  "object": "chat.completion",
+  "created": 1795729177,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"local_id\": \"e1\",\n      \"ref_id\": \"p001\",\n      \"quote\": \"社會保險、住房公積金、法定帶薪假期、勞模津貼、獨生子女補貼、職業健康體檢等\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e2\",\n      \"ref_id\": \"p002\",\n      \"quote\": \"在法定「五險一金」全面覆蓋基礎上,針對特定員工,我們設置了補 充醫療保險與健康體檢、學歷提升資助、專利申報激勵等福利包\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"针对特定员工\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e3\",\n      \"ref_id\": \"p003\",\n      \"quote\": \"通勤班車、交通補貼、差旅補貼、商務旅行保險等\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e4\",\n      \"ref_id\": \"p009\",\n      \"quote\": \"員工年度體檢、員工補充商業醫療保險、高溫津貼、職場心理諮詢、健身設施等\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e5\",\n      \"ref_id\": \"p010\",\n      \"quote\": \"節日福利、部門團建、員工生日福利、新婚禮品、入職周年福利、退休職工慰問禮品、外 派員工探親福利、特殊人員海外探親假等\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"部分针对外派/特殊人员\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e6\",\n      \"ref_id\": \"p013\",\n      \"quote\": \"免費工作餐或餐貼、加班餐、生日餐、孕產餐、通訊卡福利等\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e7\",\n      \"ref_id\": \"p020\",\n      \"quote\": \"育兒假、工作日哺乳時間、哺乳室、靈活工作時間、子女商業醫療險等\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e8\",\n      \"ref_id\": \"p017\",\n      \"quote\": \"我們為孕期女員工提供靈活工作時間、定制營養餐與通 勤專座等支持;在各運營地設置私密母嬰室,並為哺乳期員工實施彈性哺乳假制度。\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"孕期及哺乳期女员工\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e9\",\n      \"ref_id\": \"p024\",\n      \"quote\": \"報告期内,本集團制定了適用於全體員工的《職工醫療救助政策》,明確並統一了員工在罹患重大疾病時,公司提供經濟支持的額度和申領流程。\",\n      \"kind\": \"policy\",\n      \"period\": \"报告期内\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e10\",\n      \"ref_id\": \"p025\",\n      \"quote\": \"報告期内,我們對106位退休員工和10位困難員工進行了春節慰問,並在炎炎夏日向一綫員工送上了防暑降 溫物資。\",\n      \"kind\": \"result\",\n      \"period\": \"报告期内\",\n      \"scope\": \"退休员工、困难员工、一线员工\",\n      \"relevance\": \"直接事实\"\n    },\n    {\n      \"local_id\": \"e11\",\n      \"ref_id\": \"p029\",\n      \"quote\": \"同時提供包括「五險一金」等法定福利在內的更多生活保障\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"直接事实\"\n    }\n  ],\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"p001\",\n        \"p002\",\n        \"p029\"\n      ],\n      \"evidence_ids\": [\n        \"e1\",\n        \"e2\",\n        \"e11\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"p002\",\n        \"p003\",\n        \"p009\",\n        \"p010\",\n        \"p013\"\n      ],\n      \"evidence_ids\": [\n        \"e2\",\n        \"e3\",\n        \"e4\",\n        \"e5\",\n        \"e6\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"p009\",\n        \"p017\",\n        \"p020\"\n      ],\n      \"evidence_ids\": [\n        \"e4\",\n        \"e8\",\n        \"e7\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"p002\",\n        \"p024\"\n      ],\n      \"evidence_ids\": [\n        \"e2\",\n        \"e9\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": true,\n      \"supported_paths\": [\n        \"p024\",\n        \"p025\"\n      ],\n      \"evidence_ids\": [\n        \"e9\",\n        \"e10\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3552,
+    "total_tokens": 5193,
+    "completion_tokens": 1641,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3552
+    }
+  }
+}

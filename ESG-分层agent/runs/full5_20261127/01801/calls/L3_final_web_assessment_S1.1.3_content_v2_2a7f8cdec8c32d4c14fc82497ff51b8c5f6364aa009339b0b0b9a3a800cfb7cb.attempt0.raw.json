@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e1688884-5645-91eb-a2c8-f10322c5de75",
+  "object": "chat.completion",
+  "created": 1795735619,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露具体的加班申请、审批流程、自愿性说明、时长控制机制或异常处理安排。现有证据仅涉及标准工时制度（e001）和一般合规承诺（e002, e003），不符合“具体政策、程序或事实”的要求。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露当期实际发生的工时监测数据、休假使用人数/比例、执行覆盖情况或已纠正的侵害结果。e004提及无重大劳动纠纷，属于负面结果声明，且规则指出“零事件/无支付本身不能证明执行”，故不满足T5对正向实际执行或结果证据的要求。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1590,
+    "total_tokens": 1864,
+    "completion_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1590
+    }
+  }
+}

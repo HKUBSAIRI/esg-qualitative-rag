@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5013756f-8984-9f74-8b3d-83ace2e48757",
+  "object": "chat.completion",
+  "created": 1795732803,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\"\n  ],\n  \"reason\": \"候选引文 e001 明确列出了“補充商業保險”、“通勤補貼”等具体补充福利项目，直接满足指标 S1.1.4 关于披露面向员工的至少一项具体补充福利安排或事实的成立路径。即使该引文完全核实，其内容足以支撑本组结论，因此属于影响判分的必要证据。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 409,
+    "total_tokens": 512,
+    "completion_tokens": 103,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 409
+    }
+  }
+}

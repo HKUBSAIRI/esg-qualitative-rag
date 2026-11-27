@@ -1,0 +1,25 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\"evidence\":[{\"local_id\":\"e1\",\"chunk_id\":\"C_3a38991905e7fa090cd62ec8\",\"source_id\":\"03692_858d5db458418baa04f3afaddd843d11d4034c5303061d111333f6e22040c2b0\",\"quote\":\"保證員工的收入不低於 同崗位市場平均水平和當地最低工資水平\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"员工\",\"relevance\":\"最低工资保障政策\"},{\"local_id\":\"e2\",\"chunk_id\":\"C_efab9ea0ea4641e5fa232ae4\",\"source_id\":\"03692_858d5db458418baa04f3afaddd843d111333f6e22040c2b0\",\"quote\":\"確保員工收入不低於當地最低工資標準\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"员工\",\"relevance\":\"最低工资保障政策\"},{\"local_id\":\"e3\",\"chunk_id\":\"C_fbadfe91f6625b03a5e83be6\",\"source_id\":\"03692_858d5db458418baa04f3afaddd843d111333f6e22040c2b0\",\"quote\":\"對額外或非 常規時間的工作依法給予補償,包括調休、加班費等\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"员工\",\"relevance\":\"加班费支付保障政策\"},{\"local_id\":\"e4\",\"chunk_id\":\"C_4cf624c3aee601e5ffdc0de2\",\"source_id\":\"03692_858d5db458418baa04f3afaddd843d111333f6e22040c2b0\",\"quote\":\"已在內部平臺開設人 力資源工單系統,方便員工隨時提出問題\",\"kind\":\"mechanism\",\"period\":\"未明确\",\"scope\":\"员工\",\"relevance\":\"员工可通过工单系统提出人力资源问题，可作为工资差错查询途径\"},{\"local_id\":\"e5\",\"chunk_id\":\"C_85107801f62096c8ddec71f7\",\"source_id\":\"03692_858d5db458418baa04f3afaddd843d111333f6e22040c2b0\",\"quote\":\"報告期内,人力資源在綫管理平臺上綫了工單系統,員工可以更加便捷地將自己的疑問、意見、舉報或申訴通 過該系統直接上傳,人力資源共享服務中心的後臺人員將給予高效處理。\",\"kind\":\"mechanism\",\"period\":\"报告期内\",\"scope\":\"员工\",\"relevance\":\"员工可通过工单系统上传疑问和申诉，由人力资源后台处理\"},{\"local_id\":\"e6\",\"chunk_id\":\"C_9c19d8f5fcb04d7b54dfaca0\",\"source_id\":\"03692_858d5db458418baa04f3afaddd843d111333f6e22040c2b0\",\"quote\":\"通過工單平臺與總裁信箱全面受理職場申訴、勞動合規風險報告及 管理改善建議\",\"kind\":\"mechanism\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"薪酬申诉渠道\"},{\"local_id\":\"e7\",\"chunk_id\":\"C_efab9ea0ea4641e5fa232ae4\",\"source_id\":\"03692_858d5db458418baa04f3afaddd843d111333f6e22040c2b0\",\"quote\":\"實施薪酬基準動態管理,確保員工收入不低於當地最低工資標準\",\"kind\":\"mechanism\",\"period\":\"未明确\",\"scope\":\"员工\",\"relevance\":\"薪酬基准动态管理作为工资核算规则\"}],\"groups\":[{\"group_id\":\"P1\",\"content_sufficient\":true,\"supported_paths\":[\"最低工资保障\"],\"evidence_ids\":[\"e1\",\"e2\",\"e3\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"P2\",\"content_sufficient\":true,\"supported_paths\":[\"员工查询工资差错的途径\",\"薪酬申诉渠道及处理安排\",\"工资核算规则\"],\"evidence_ids\":[\"e4\",\"e5\",\"e6\",\"e7\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"P3\",\"content_sufficient\":false,\"supported_paths\":[],\"evidence_ids\":[],\"missing\":[\"与工资支付直接相关的检查、监测或内部审查的具体制度、程序或实际开展事实\"],\"conflicts\":[]},{\"group_id\":\"P4\",\"content_sufficient\":true,\"supported_paths\":[\"全体员工\"],\"evidence_ids\":[\"e1\",\"e2\",\"e3\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"P5\",\"content_sufficient\":false,\"supported_paths\":[],\"evidence_ids\":[],\"missing\":[\"工资差错、欠薪、扣款、加班费问题的补发、退还、复核或已完成纠正的具体机制或事实\"],\"conflicts\":[]}]}",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1795728721,
+  "id": "chatcmpl-84bfad3f-efb7-968f-9970-169df93ac0fd",
+  "model": "qwen3.8-max",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 1197,
+    "prompt_tokens": 7696,
+    "prompt_tokens_details": {
+      "cached_tokens": 7552,
+      "text_tokens": 7696
+    },
+    "total_tokens": 8893
+  }
+}

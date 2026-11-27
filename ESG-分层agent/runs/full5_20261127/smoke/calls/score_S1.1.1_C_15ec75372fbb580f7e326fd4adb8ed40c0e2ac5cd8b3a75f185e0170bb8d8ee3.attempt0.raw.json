@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d65dfcab-f4f4-9d4c-be81-278a77c87192",
+  "object": "chat.completion",
+  "created": 1795730065,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示 search_complete=false，且明确标注“仅为接口验证，不是完整核查”，同时 assessment 指出缺失当期离职率具体数值。根据规则，必要覆盖未确认时记 pending_review。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e003 披露严格遵守《劳动合同法》及内部制度；e004 披露通过外部法律顾问审核、数字化合同系统确保劳动合同签署合规有效；e002 披露工会代表签订集体劳动合同。这些内容满足“披露至少一项员工劳动合同保障的具体政策、安排或事实”的条件。\",\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示 search_complete=false，且明确标注“仅为接口验证，不是完整核查”，assessment 指出缺失裁员、解雇相关制度或事实。虽然无裁员不要求虚构案例，但需核查现行制度，当前材料覆盖状态未确认充分，故记 pending_review。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e005 明确披露了内部流动机制，包括定期公开岗位机会、鼓励员工申请转岗、给予转型指导与培训支持等，符合“披露员工内部招聘、转岗或岗位轮换的制度”这一判分条件。\",\n      \"evidence_refs\": [\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示 search_complete=false，且明确标注“仅为接口验证，不是完整核查”。E5 需要评分年度实际发生的终止补偿支付或安置结果等事实，当前 assessment 指出缺失此类实际纠正结果，且因核查未完成无法确认为 0，故记 pending_review。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7829,
+    "total_tokens": 8398,
+    "completion_tokens": 569,
+    "prompt_tokens_details": {
+      "cached_tokens": 6144,
+      "text_tokens": 7829
+    }
+  }
+}

@@ -1,0 +1,271 @@
+[
+  {
+    "indicator_id": "S1.1.1 C",
+    "groups": [
+      {
+        "group_id": "E1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001和e002明确披露了2025年（评分年度）的员工离职率具体数值（13.3%），并按性别、年龄、地区提供了细分口径，满足当期离职率披露及识别期间和口径的条件。",
+        "evidence_ids": [
+          "C_ee7b3276d823bfc5be73049c_1f43112e437d8fdb",
+          "C_5f9b9ca1f61bdab5c2046d18_200235374d2e8f20"
+        ]
+      },
+      {
+        "group_id": "E2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003显示公司严格遵守《中华人民共和国劳动合同法》并编制相关人力资源管理制度；证据e004承诺与所有雇员签订符合当地法律法规要求的雇佣合约。这些构成了员工劳动合同保障的具体政策和安排。",
+        "evidence_ids": [
+          "C_61dacc922f34cb68fa9fd2a8_168f47fa99dd12f9",
+          "C_049df0b162f04cfe0c766264_fb7dc940e14b7b76"
+        ]
+      },
+      {
+        "group_id": "E3",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e004明确披露公司在解聘方面的雇佣制度按国家相关法律法规要求执行，这属于与裁员/解雇相关的制度安排，满足本组关于披露至少一项与裁员有关的制度或安排的条件。",
+        "evidence_ids": [
+          "C_049df0b162f04cfe0c766264_fb7dc940e14b7b76"
+        ]
+      },
+      {
+        "group_id": "E4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e006披露公司为员工提供内部培训项目，这属于员工安置支持中“职业转换培训”或能力提升支持的具体事实/安排，满足本组判分条件。虽然e005提及内部提升但针对董事，e006更直接对应员工层面的支持措施。",
+        "evidence_ids": [
+          "C_4564097fae90ffeb570c33fd_a9990260c79ab670"
+        ]
+      },
+      {
+        "group_id": "E5",
+        "status": "verified",
+        "score": 0,
+        "reason": "根据规则，E5需证明当期实际发生的终止补偿支付、就业安置受益或有效纠正结果。检索记录显示search_complete=true且无相关证据（no_relevant_evidence_found）。现有证据仅包含政策（e003, e004）、机制（e005）或一般性行动（e006培训），未披露具体的当期辞退福利金额、实际支付的补偿金或已完成的再就业安置案例数据。因此判定为0分。",
+        "evidence_ids": []
+      }
+    ],
+    "base_score": 80.0,
+    "final_score": 80.0,
+    "status": "verified",
+    "issues": []
+  },
+  {
+    "indicator_id": "S1.1.2 C",
+    "groups": [
+      {
+        "group_id": "P1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001明确披露“严格遵守运营所在地最低工资水平”，符合判100条件中关于“最低工资保障”的具体政策或事实要求。虽然evidence_issues提示2025年有效性未验证，但P1组规则不要求当期实际执行事实（actual_current_period_required=false），且search_complete=true，故判定为已核实支持。",
+        "evidence_ids": [
+          "C_4dcf472f61f375ce0d9995a6_dbfc7efc9434f413"
+        ]
+      },
+      {
+        "group_id": "P2",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索记录显示search_complete=true且retrieval_status=no_relevant_evidence_found。现有证据中无关于工资核算规则、复核、发放工资单或员工查询/申诉机制的披露。根据规则，材料覆盖已确认充分且无对应披露时，组分0。",
+        "evidence_ids": []
+      },
+      {
+        "group_id": "P3",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索记录显示search_complete=true。评估指出e002提及的是消除性别薪酬差距的审查，与“工资支付合规性监测”主题不匹配；e001排除相关数据管理范围。未识别出针对工资支付本身的检查、监测或内部审查制度或事实。根据规则，无对应披露判0。",
+        "evidence_ids": []
+      },
+      {
+        "group_id": "P4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003明确披露“本公司僱員的薪酬政策...定期接受審閱”，并列出待遇包含薪金等，明确了工资支付保障政策适用的员工对象为“本公司雇员”。符合判100条件中“明确工资支付保障政策...适用的员工对象”的要求。",
+        "evidence_ids": [
+          "C_4564097fae90ffeb570c33fd_967d0c699081f73e"
+        ]
+      },
+      {
+        "group_id": "P5",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索记录显示search_complete=true且retrieval_status=no_relevant_evidence_found。未识别出关于工资差错、欠薪、扣款或加班费支付问题的具体补救机制或已完成纠正事实。根据规则，无对应披露判0。",
+        "evidence_ids": []
+      }
+    ],
+    "base_score": 40.0,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  },
+  {
+    "indicator_id": "S1.1.3",
+    "groups": [
+      {
+        "group_id": "T1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001明确披露公司实施标准工时制度，确保员工每周工作时长不超过法定上限，符合工作时间及排班制度的政策披露要求。",
+        "evidence_ids": [
+          "C_0d1275fdce74d6c76b9145f6_f3758124b53f086a"
+        ]
+      },
+      {
+        "group_id": "T2",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索完成且无相关证据支持加班管理的具体政策、程序或事实（如申请、审批、时长控制等），不满足得分条件。",
+        "evidence_ids": []
+      },
+      {
+        "group_id": "T3",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e004和e005分别明确披露了带薪年休假/福利年假安排以及产假、育儿假的具体天数权利，符合休息休假保障的判分条件。",
+        "evidence_ids": [
+          "C_565392b59d01952e72b1447d_7fbbd2a718b75306",
+          "C_dc7aefa5f586e3e4fe848816_de934d789be5611e"
+        ]
+      },
+      {
+        "group_id": "T4",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索完成且无相关证据支持具体的工时或休假管理机制（如考勤系统、记录、检查等运行事实），仅有泛泛的制度声明不足以得分。",
+        "evidence_ids": []
+      },
+      {
+        "group_id": "T5",
+        "status": "verified",
+        "score": 0,
+        "reason": "检索完成且无当期实际发生的工时监测、休假使用数据或侵害纠正结果等证据，不满足实际执行或结果的判分条件。",
+        "evidence_ids": []
+      }
+    ],
+    "base_score": 40.0,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  },
+  {
+    "indicator_id": "S1.1.4",
+    "groups": [
+      {
+        "group_id": "W1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001明确披露了“最高比例的五險一金，含養老保險、醫療保險、失業保險、工傷保險、生育保險、住房公積金”，符合法定社会保障及基本福利的判分条件。",
+        "evidence_ids": [
+          "C_565392b59d01952e72b1447d_ab3a2cfc438c7858"
+        ]
+      },
+      {
+        "group_id": "W2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e002列出了多项具体补充福利安排，包括“補充商業醫療保險”、“交通補貼、通訊補貼和膳食補貼”等，符合补充福利的判分条件。",
+        "evidence_ids": [
+          "C_565392b59d01952e72b1447d_ed56569a1bd4d520"
+        ]
+      },
+      {
+        "group_id": "W3",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003披露了“建立母嬰室並在食堂設立孕婦綠色通道”，属于面向员工的家庭与生活支持资源/安排，符合判分条件。",
+        "evidence_ids": [
+          "C_565392b59d01952e72b1447d_5385d985230c83f3"
+        ]
+      },
+      {
+        "group_id": "W4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e004明确了福利年假的具体取得规则：“每在信達生物服務滿一年，可多享受一天福利年假”，符合福利取得规则的判分条件。",
+        "evidence_ids": [
+          "C_565392b59d01952e72b1447d_c463b5f2d5f67573"
+        ]
+      },
+      {
+        "group_id": "W5",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e005披露了报告期内非法定福利实现100%覆盖的事实；证据e006披露了2025年实际向女性员工发放节日礼金的受益事实。两者均证实当期已发生福利覆盖或受益行为，符合实际覆盖、使用或受益的判分条件。",
+        "evidence_ids": [
+          "C_31454614e0ab4c7501a78405_ffb26ef3eb57abe1",
+          "C_31454614e0ab4c7501a78405_f6747dc9be7d7ae7"
+        ]
+      }
+    ],
+    "base_score": 100.0,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  },
+  {
+    "indicator_id": "S1.1.5",
+    "groups": [
+      {
+        "group_id": "D1",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e001明确披露《人权与多元化政策》，致力于推动多元包容，创造平等就职环境，符合反歧视政策要求。",
+        "evidence_ids": [
+          "C_5c1f9a2e126119a7f28631af_1524166f3f438d42"
+        ]
+      },
+      {
+        "group_id": "D2",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e002明确披露对歧视与骚扰行为秉持零容忍态度，符合反骚扰政策条件。",
+        "evidence_ids": [
+          "C_9c279df5c54502a5b2ff61fb_8bd6f8bc75de27ae"
+        ]
+      },
+      {
+        "group_id": "D3",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e003披露设立多种正式举报、申诉渠道（含匿名），由公司审计团队接收并处理所有违规事项，该机制适用于包括歧视、骚扰在内的违规行为投诉受理与调查。",
+        "evidence_ids": [
+          "C_d021db65dab6d1b0b66517bb_d86ce4643ad28d46"
+        ]
+      },
+      {
+        "group_id": "D4",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e004和e005披露制定《举报人保护政策》，对打击报复零容忍，提供匿名举报选项，严格保密举报人信息及材料，符合申诉人保护措施条件。",
+        "evidence_ids": [
+          "C_ecf0330cdf5efee28d0f7c35_6be675fbb6f64b90",
+          "C_b6528edec837565c5dd06df4_7025793783b80dc5"
+        ]
+      },
+      {
+        "group_id": "D5",
+        "status": "verified",
+        "score": 100,
+        "reason": "证据e006披露遵照《违纪惩罚制度》对涉事人员进行处分并持续督导教育。虽然原文未显式列出“歧视/骚扰”字样，但作为通用违规处理机制，且前文已建立反歧视/多元化语境下的合规体系，可视为适用于此类违规的责任追究机制。",
+        "evidence_ids": [
+          "C_02c3057b87c5cbc81b615db1_7fe8242ca55f277d"
+        ]
+      }
+    ],
+    "base_score": 100.0,
+    "final_score": null,
+    "status": "pending_review",
+    "issues": [
+      "独立严重事项核查未决"
+    ]
+  }
+]

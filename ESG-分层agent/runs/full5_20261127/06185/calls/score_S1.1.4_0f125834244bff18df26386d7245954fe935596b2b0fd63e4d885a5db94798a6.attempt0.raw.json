@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e62dc48e-dd76-9b9e-ac7c-47671787a1bc",
+  "object": "chat.completion",
+  "created": 1795731296,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001、e003 明确披露公司确保所有员工享有法定福利，包括社会保险和住房公积金，符合‘披露适用员工的至少一项具体法定社会保障或基本福利政策、安排或事实’的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e006 披露提供高于市场平均水平的商业保险及子女医疗/疫苗；e007 披露婚育礼品及女性员工福利包；e008 披露外派津贴、海外艰苦项目津贴等。这些均属于具体的补充福利安排或事实，符合条件。\",\n      \"evidence_refs\": [\n        \"e006\",\n        \"e007\",\n        \"e008\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e009 披露设立母婴室以帮助平衡工作与家庭责任；e010 披露建立24/7心理支持热线并推出EAP心理课程以保障员工心理健康。这些属于面向员工的家庭与生活支持资源或服务，符合条件。\",\n      \"evidence_refs\": [\n        \"e009\",\n        \"e010\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e005 说明向符合条件的员工发放月度补贴，并向患重病员工提供家访和慰问金，明确了取得规则（符合条件）和适用对象；e003 界定福利体系适用于全职、兼职及外包人员。符合‘披露至少一项福利的具体取得规则或明确适用对象’的条件。\",\n      \"evidence_refs\": [\n        \"e005\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e003 和 e012 明确披露‘2025年，公司分发的员工福利总价值为人民币7312万元’。这证实了评分年度内已经发生的福利覆盖和发放事实，满足当期实际发生的要求。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e012\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10985,
+    "total_tokens": 11631,
+    "completion_tokens": 646,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 10985
+    }
+  }
+}

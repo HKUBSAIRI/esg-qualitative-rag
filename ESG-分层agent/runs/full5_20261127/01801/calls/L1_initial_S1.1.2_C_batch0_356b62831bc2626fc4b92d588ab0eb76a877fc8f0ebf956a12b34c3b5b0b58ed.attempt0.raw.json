@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ff5d9c39-b022-97e1-800f-f632e1c96022",
+  "object": "chat.completion",
+  "created": 1795730135,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p027\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"202-1 | 按性別的標準起薪水平工資與當地最低工資之比 | 這些數據目前不在本公司 ESG 數據管理 的範圍內,本公司將在未來逐步擴大數據 的範圍,並考慮在納入這些信息時予以披 露。\",\n      \"kind\": \"boundary\",\n      \"period\": \"未明确\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了关于最低工资保障相关数据（标准起薪与当地最低工资之比）的管理边界，表明该具体指标当前未纳入管理范围，属于对工资支付保障中‘最低工资’维度的负面/限制证据。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7726,
+    "total_tokens": 7917,
+    "completion_tokens": 191,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7726
+    }
+  }
+}

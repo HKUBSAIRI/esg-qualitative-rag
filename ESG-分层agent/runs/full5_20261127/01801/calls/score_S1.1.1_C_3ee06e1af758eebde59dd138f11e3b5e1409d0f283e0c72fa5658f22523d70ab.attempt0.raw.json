@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1085369c-b455-9e30-bb9a-3ee2e94307c9",
+  "object": "chat.completion",
+  "created": 1795743587,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001和e002明确披露了2025年员工离职率为13.3%，并提供了按性别、年龄、地区细分的口径及具体数值，满足当期离职率披露条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露公司严格遵守《中华人民共和国劳动合同法》并编制相关人力资源管理制度，符合劳动合同保障的具体政策或安排要求。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露了对每一位离职员工安排详细离职访谈的机制，属于与解雇/离职相关的处理安排，满足裁员程序（含离职争议处理制度）的条件。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005披露了内部晋升与转岗的制度安排，证据e006披露了2025年内部竞聘成为管理干部的具体人数事实，均满足员工安置支持的条件。\",\n      \"evidence_refs\": [\n        \"e005\",\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"评分规则规定“无支付、无事件不等于实际执行或受益”，且“没有实际纠正结果，只有政策、计划或承诺”判0分。证据e007-e010仅披露董事层面无终止服务报酬或离职补偿支付（零事件），未提供针对普通员工的实际终止补偿支付、就业安置受益或有效纠正结果的事实证据。e011为总薪酬成本，非专项离职保障结果。故判定为0分。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9423,
+    "total_tokens": 9994,
+    "completion_tokens": 571,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9423
+    }
+  }
+}

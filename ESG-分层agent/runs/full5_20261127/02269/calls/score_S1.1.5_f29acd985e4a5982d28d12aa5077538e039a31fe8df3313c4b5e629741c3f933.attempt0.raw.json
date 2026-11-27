@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f817db69-d2b4-97a1-80d0-2fe83104d39e",
+  "object": "chat.completion",
+  "created": 1795745614,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露严禁基于民族、种族、性别等身份特征的歧视行为，符合反歧视政策与保障的判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"D2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露禁止包括骚扰在内的非人道对待，符合反骚扰政策与保障的判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"D3\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示search_complete为false且issues包含necessary_material_coverage_not_confirmed，尽管有鼓励报告及匿名调查的证据(e002, e003)，但必要材料覆盖未确认，需人工核验。\",\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"D4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确披露允许匿名举报、保密调查以及严格禁止对善意举报人进行报复的保护措施，符合申诉人与受影响人员保护的判分条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"D5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露针对已确认的违规案件实施相应的纪律处分并发布调查报告，构成责任追究与纠正补救机制，符合判分条件。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7592,
+    "total_tokens": 8079,
+    "completion_tokens": 487,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 7592
+    }
+  }
+}

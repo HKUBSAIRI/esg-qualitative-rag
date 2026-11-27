@@ -1,0 +1,18 @@
+{
+  "files_scanned": 6423,
+  "python_files_parsed": 83,
+  "issues": [],
+  "credential_scan": "Known environment credentials plus common API/GitHub token patterns; secret values never recorded.",
+  "local_regression_tests": {
+    "passed": 26,
+    "model_api_calls": 0,
+    "test_files": [
+      "test_fullflow.py",
+      "test_decisive_gates.py",
+      "test_assessment_separation.py",
+      "test_official_relevance.py",
+      "test_retrieval_token_budget.py",
+      "test_token_call_reduction.py"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f7b9c867-92c9-952d-9ba3-06da879cefc0",
+  "object": "chat.completion",
+  "created": 1795739817,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工流失率具体数值（10%）及计算口径（总流失人数/年底员工总人数），满足当期离职率披露要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别关于劳动合同签订、续签、期限或签订率的具体政策、安排或事实。现有证据主要涉及薪酬、福利、解雇制度及离职率数据，缺乏直接的劳动合同管理内容。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e015\",\n        \"e017\",\n        \"e019\",\n        \"e021\",\n        \"e023\",\n        \"e026\",\n        \"e027\",\n        \"e028\"\n      ],\n      \"supported_paths\": [\n        \"披露了多项与裁员/解雇相关的制度安排，包括因违反利益冲突、反腐败规定、不配合调查等情形下的解除劳动合同（dismissal/termination of employment contract）程序及纪律处分措施。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别评分年度已经发生的终止补偿支付、就业安置或离职保障受益的实际结果。e012显示特定人员无离职补偿，属于零事件，不能证明执行；其他证据多为政策或一般性财务成本，未明确对应离职保障的实际发生结果。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8100,
+    "total_tokens": 8644,
+    "completion_tokens": 544,
+    "prompt_tokens_details": {
+      "cached_tokens": 4096,
+      "text_tokens": 8100
+    }
+  }
+}

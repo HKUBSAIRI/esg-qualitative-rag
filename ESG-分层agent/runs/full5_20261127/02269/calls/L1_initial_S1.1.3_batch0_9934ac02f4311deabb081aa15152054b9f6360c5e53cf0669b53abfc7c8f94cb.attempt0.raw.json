@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-09aaec32-9088-9071-ad72-6efe7902c26a",
+  "object": "chat.completion",
+  "created": 1795730272,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"T1\"\n      ],\n      \"quote\": \"我們通過工作時間管理系統來關注員工工時,管理加班情況,並設立最長工作時間限制。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了设立最长工作时间限制的工时控制政策，符合工作时间及排班制度要求。\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"T2\"\n      ],\n      \"quote\": \"我們通過工作時間管理系統來關注員工工時,管理加班情況,並設立最長工作時間限制。我們 努力促進員工工作與生活的平衡,避免過度加班,對於額外及非常規工作時間的勞動,我們支 付加班薪資或合理安排調休。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了通过系统关注工时、管理加班情况、避免过度加班以及支付加班薪资或安排调休的具体加班管理措施。\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"T3\"\n      ],\n      \"quote\": \"公司承諾為所有員工提供帶薪年假,除法定年假外,還包括福利 年假、高溫假等。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"所有员工\",\n      \"relevance\": \"明确披露了为员工提供带薪年休假、福利年假及高温假等休息休假权利。\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"T4\"\n      ],\n      \"quote\": \"透過線上系 統,我們追蹤假期使用情況,並適時向年假餘額較多的員工發送提醒。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了利用线上系统追踪假期使用情况并向员工发送提醒的具体管理机制。\"\n    },\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"T1\"\n      ],\n      \"quote\": \"靈活性安排 | • 靈活工作時間 • 遠程工作安排\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"表格中列出了灵活工作时间作为灵活性安排的一项，涉及具体工作时间制度。\"\n    },\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"T2\"\n      ],\n      \"quote\": \"額外福利 | • 帶薪年假 • 補充商業保險 24 • 年度健康體檢 • 通勤補貼 • 免費過渡性住房 • 高溫期間帶薪休假 • 加班費和調休\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"表格中列出了加班费和调休作为额外福利的一部分，关联加班管理中的补偿机制。\"\n    },\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"T3\"\n      ],\n      \"quote\": \"家庭福利 | • 產假 • 陪產假 • 產檢假 • 育兒假 • 父母陪護假 • 哺乳假 • 母嬰室\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"表格中详细列出了产假、陪产假、育儿假等具体休假安排，支持休息休假保障。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9869,
+    "total_tokens": 10798,
+    "completion_tokens": 929,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9869
+    }
+  }
+}

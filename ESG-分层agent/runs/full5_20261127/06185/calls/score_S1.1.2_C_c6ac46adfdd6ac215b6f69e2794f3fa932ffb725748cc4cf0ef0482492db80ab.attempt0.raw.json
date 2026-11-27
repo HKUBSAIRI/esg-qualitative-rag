@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8190b047-df05-9462-901e-31e74b8f2a72",
+  "object": "chat.completion",
+  "created": 1795731284,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e006明确披露了董事和高级管理人员报酬已根据相关规定支付的事实，属于具体工资支付保障的执行事实；证据e010披露了支付给职工及为职工支付的现金金额，作为当期实际发生的员工薪酬支付执行事实。满足判100的条件。\",\n      \"evidence_refs\": [\n        \"e006\",\n        \"e010\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003/e005/e008披露了《薪酬福利管理制度》以加强薪酬合规管理，构成工资核算规则/制度依据；证据e012披露了人力资源部可解答雇佣政策等问题的咨询渠道，符合员工查询工资差错途径或薪酬申诉渠道的要求。满足判100的条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e005\",\n        \"e008\",\n        \"e012\"\n      ]\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e015和e016披露了董事会薪酬与考核委员会负责对公司薪酬制度执行情况进行监督，以及要求人力资源部提供各项薪酬制度执行情况的具体机制。这构成了与工资支付直接相关的内部审查或监测的制度安排。满足判100的条件。\",\n      \"evidence_refs\": [\n        \"e015\",\n        \"e016\"\n      ]\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e007、e017和e018明确界定了福利支持体系（含法定福利如五险一金等）适用的对象为正式员工、兼职及外包人员，覆盖了工资支付保障的主要对象范围。满足判100的条件。\",\n      \"evidence_refs\": [\n        \"e007\",\n        \"e017\",\n        \"e018\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示search_complete为false，且存在需人工核验的官方扫描线索（existing_official_scanned_lead_requires_quote_and_subject_review），涉及职工债权公示，可能关联欠薪或纠正情况。由于关键证据无法核实且必要材料的覆盖尚未确认，状态定为pending_review。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12549,
+    "total_tokens": 13205,
+    "completion_tokens": 656,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 12549
+    }
+  }
+}

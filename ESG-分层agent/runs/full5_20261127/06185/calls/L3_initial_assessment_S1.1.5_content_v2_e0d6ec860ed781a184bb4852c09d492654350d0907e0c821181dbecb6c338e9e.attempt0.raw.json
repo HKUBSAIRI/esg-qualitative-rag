@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6beac509-106b-9290-9f79-10c689a97b15",
+  "object": "chat.completion",
+  "created": 1795745735,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"针对实施者纪律处分规则（解除劳动合同、警告等）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1779,
+    "total_tokens": 1889,
+    "completion_tokens": 110,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1779
+    }
+  }
+}

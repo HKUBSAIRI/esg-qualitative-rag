@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d83d619c-080a-9959-9407-3696c796897f",
+  "object": "chat.completion",
+  "created": 1795730498,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002披露了2025年员工流失率为14.4%，证据e001通过脚注明确该指标口径为“员工主动离职率”，满足识别评分期间及离职率口径的要求。\",\n      \"evidence_refs\": [\n        \"e002\",\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露了通过数字化合同系统与法务专项审查确保劳动合同签署合规的具体安排；证据e008披露了工会代表员工签订集体劳动合同的事实，符合劳动合同保障的条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e008\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e009披露了对违规员工实施解雇的处理措施，属于与裁员/解雇相关的制度或事实安排，满足本组条件。\",\n      \"evidence_refs\": [\n        \"e009\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e011披露了内部转岗、竞聘的制度及转型指导支持；证据e012和e013披露了内部填补岗位比例（19%）的具体数据，满足员工安置支持中关于内部招聘/转岗制度或事实的要求。\",\n      \"evidence_refs\": [\n        \"e011\",\n        \"e012\",\n        \"e013\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"证据e014和e015仅披露了特定群体（五名最高薪酬雇员、董事）在当期无离职补偿支付，这属于“未发生”的负面事实，而非规则要求的“已经发生的终止补偿支付...结果”。证据e018虽披露了员工福利开支总额，但未明确区分其中包含的终止补偿金额，且费用确认不自动等于支付。现有证据未能证实当期有实际发生的离职保障受益或有效纠正结果，需人工核验是否有其他具体案例或数据支持。\",\n      \"evidence_refs\": [\n        \"e014\",\n        \"e015\",\n        \"e018\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12029,
+    "total_tokens": 12678,
+    "completion_tokens": 649,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 12029
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-724e37c7-7894-9e86-9872-ff6e745294ff",
+  "object": "chat.completion",
+  "created": 1795730670,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p052\",\n      \"group_ids\": [\n        \"E4\"\n      ],\n      \"quote\": \"中國生物製藥堅持「內部培養爲主,外部選拔爲輔」的人才發展理念,構建了公平、透明、 競爭擇優的內部崗位競聘機制。根據業務發展及崗位空缺需要,本集團各成員企業持續開展 崗位競聘,在全公司範圍內選拔人才,拓寬員工職業發展路徑,實現人才結構的動態優化。 2025 年,中國生物製藥內部獲得晉升晉級1,129人,內部轉崗與競聘2,663人。\",\n      \"kind\": \"action\",\n      \"period\": \"2025 年\",\n      \"scope\": \"中國生物製藥\",\n      \"relevance\": \"披露了内部竞聘机制及当期内部转岗与竞聘的具体人数事实，符合员工安置支持中关于内部招聘、竞聘或转岗的制度及事实要求。\"\n    },\n    {\n      \"ref_id\": \"p060\",\n      \"group_ids\": [\n        \"E4\"\n      ],\n      \"quote\": \"本集團創新實施差異化輪崗項目,針對不同層級、不同專業背景的人才定制實施年度/半年 度輪崗計劃。通過跨部門、跨職能的崗位輪換,幫助員工拓展職業寬度、審視個人職業發展 規劃,並通過多崗位歷練機制培養具備多元技能和全域思維的複合型人才。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"本集团\",\n      \"relevance\": \"披露了差异化轮岗项目及岗位轮换制度，符合员工安置支持中关于岗位轮换制度的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 18544,
+    "total_tokens": 18962,
+    "completion_tokens": 418,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 18544
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-2582728b-ef93-979d-bcee-4a67682b9a64",
+  "object": "chat.completion",
+  "created": 1795743751,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p057\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"我們通過工作時間管理系統來監控員工工時,管理加班情況,並設立最長工作時間限制。我們努力促進員工工作與生活的平衡,避免過度加班,對於額外及非常規工作時間的勞動,我們支付加班薪資或合理安排調休。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工工时与加班\",\n      \"relevance\": \"披露了针对加班费支付的机制（支付加班薪资或安排调休），符合工资差错、欠薪、扣款或加班费支付问题的补救机制要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10145,
+    "total_tokens": 10326,
+    "completion_tokens": 181,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10145
+    }
+  }
+}

@@ -1,0 +1,150 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>综合查询</title>
+    <link rel="stylesheet" type="text/css" href="//neris.csrc.gov.cn/static//bootstrap/3.3.0/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="//neris.csrc.gov.cn/falvfagui/styles/skin-standard/css/style.css">
+    <link type="text/css" rel="stylesheet" href="//neris.csrc.gov.cn/static/pubmui/1.15.1/webjars/pubmui/styles/skin-default/customui/css/jquery.windowdiv.css" />
+    <link type="text/css" rel="stylesheet" href="//neris.csrc.gov.cn/falvfagui/styles/css/ui.css">
+
+    <script type="text/javascript" src="//neris.csrc.gov.cn/static//jquery/1.11.1/jquery.min.js"></script>        
+    <script type="text/javascript"
+            src="//neris.csrc.gov.cn/static/neris-widget/customui/1.19/js/customui.js"></script>
+    <script type="text/javascript"
+            src="//neris.csrc.gov.cn/static/neris-widget/windowdiv/1.17/js/jquery.windowdiv.js"></script>
+    <script type="text/javascript"
+            src="//neris.csrc.gov.cn/static/neris-widget/dialog/1.19/js/neris.dialog.js"></script>
+    
+    <script src="//neris.csrc.gov.cn/static//bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//neris.csrc.gov.cn/falvfagui/styles/skin-standard/css/placeholder.js"></script>
+    <script src="//neris.csrc.gov.cn/static/vue/2.3.3/js/vue.js"></script>
+    <script src="//neris.csrc.gov.cn/falvfagui/dist/sflds-vue.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="//neris.csrc.gov.cn/falvfagui//styles/datetimepicker/css/bootstrap-datetimepicker.min.css" />
+	<script type="text/javascript" src="//neris.csrc.gov.cn/static/pubmui/1.15.1/webjars/pubmui//styles/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="//neris.csrc.gov.cn/static/pubmui/1.15.1/webjars/pubmui//styles/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+	<script type="text/javascript">
+	    var basePath="//neris.csrc.gov.cn/falvfagui/";
+	</script>
+	<script type="text/javascript" src="//neris.csrc.gov.cn/falvfagui/static/multiple.js"></script>
+    <script type="text/javascript" src="//neris.csrc.gov.cn/falvfagui/static/hint.js"></script>
+	<script type="text/javascript">
+	    $(function(){
+	       var type= $("#type").val();
+           if(type==2 ){//行政执法文书
+                $("#tab1").attr("header","行政执法文书");
+                $("#tab2").attr("header","法律法规");
+                initIsIE();
+                initVue();
+                IEPlaceholder();
+                $("#tab1Jsp").load('./writJsp');
+                $("#tab2Jsp").load('./lawJsp');
+            }else{// 执行法律法规 
+                $("#tab1").attr("header","法律法规");
+                $("#tab2").attr("header","行政执法文书");
+               initIsIE();
+                initVue();
+                IEPlaceholder();
+                $("#tab1Jsp").load('./lawJsp');
+                $("#tab2Jsp").load('./writJsp');
+            }
+	    })
+	    /**
+	    //取消回车按键
+	    $(document).keydown(function(event){
+		    if(event.keyCode==13){ 
+		    } 
+		});
+	    **/
+	</script>
+</head>
+<body>
+<div id="app">
+ <input type="hidden"  id="secName"  value=""/>
+ <input type="hidden"  id="writeName"  value=""/>
+ <input type="hidden"  id="type"  value=""/>
+    <sf-view>
+        
+        <sf-header website-cn="证券期货法规数据库系统" website-en="Securities and futures law database">
+            
+            <sf-toolbar>
+                <sf-toolbar-item href="http://www.csrc.gov.cn" target="_self">
+                    返回主站首页</sf-toolbar-item>
+                
+                
+                <sf-toolbar-item target="_blank" href="//neris.csrc.gov.cn/falvfagui/classifyController/helpFile">
+                    系统简介</sf-toolbar-item>
+            </sf-toolbar>
+            
+            <sf-navbar>
+                <sf-navbar-item href="//neris.csrc.gov.cn/falvfagui/multipleFindController/indexJsp" active
+                                target="_self">综合查询</sf-navbar-item>
+                <sf-navbar-item href="//neris.csrc.gov.cn/falvfagui/classifyController/indexJsp"
+                                target="_self">法规体系查询</sf-navbar-item>
+                <sf-navbar-item href="//neris.csrc.gov.cn/falvfagui/" target="_self">最新法律资讯</sf-navbar-item>
+            </sf-navbar>
+            
+            <sf-position>
+                
+                <sf-breadcrumb>
+                    <sf-breadcrumb-item href="//neris.csrc.gov.cn/falvfagui/" target="_self">首页</sf-breadcrumb-item>
+                    <sf-breadcrumb-item href="//neris.csrc.gov.cn/falvfagui/multipleFindController/indexJsp" target="_self">
+                        <template>综合查询</template>
+                        <template slot="separator"></template>
+                    </sf-breadcrumb-item>
+                </sf-breadcrumb>
+                
+                <sf-font selector="table"></sf-font>
+            </sf-position>
+        </sf-header>
+        
+        <sf-main>
+                
+                <sf-tabs @show:tab="onShowTab" :active="0">
+                    <sf-tab id="tab1" header="">	
+                    	<div id="tab1Jsp"></div>
+                    </sf-tab>
+                    <sf-tab id="tab2" header="">
+                        <div id="tab2Jsp"></div>
+                    </sf-tab>
+                </sf-tabs>
+        </sf-main>
+            <sf-footer  style="height: 120px" copyright="" address="" >
+
+                <div    style="float:left;width:35%;text-align:right;padding: 5px; ">
+                    
+                        <span id="_ideConac">
+                        <a href="http://bszs.conac.cn/sitename?method=show&amp;id=07D000F9927315F5E053022819ACAB12" target="_blank">
+                          <img id="imgConac" vspace="0" hspace="0" border="0" src="//neris.csrc.gov.cn/falvfagui//img/blue.png?v=1" data-bd-imgshare-binded="1">
+                        </a>
+                        <script id="_jiucuo_" sitecode="bm56000001" src="//neris.csrc.gov.cn/falvfagui//static/jiucuo.js"></script>
+                    </span>
+                </div>
+                <div  class="shengming_font"  style="float:right;width:65%;text-align:left;line-height:28px;font-size:14px;padding: 12px; ">
+                    <!--img src="./2014/images/foot_link.gif"><br /-->
+                    
+                    <a href="http://www.csrc.gov.cn/pub/newsite/fzlm/lxwm">联系我们</a> |
+                    <a href="http://www.csrc.gov.cn/pub/newsite/fzlm/flsm">法律声明</a><br/>
+                    主办单位：中国证券监督管理委员会&nbsp;&nbsp;&nbsp;&nbsp;版权所有：中国证券监督管理委员会<br/>
+                    网站识别码：bm56000001&nbsp;&nbsp;&nbsp;&nbsp;京ICP备 05035542号 　
+                    <a  href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700080" style="text-decoration:none;" target="_blank"><img src="//neris.csrc.gov.cn/falvfagui/img/gaba.png" style="vertical-align:middle;" border="0"><font color="#333333"> 京公网安备 11040102700080号</font></a >
+                </div>
+            </sf-footer>
+    </sf-view>
+    <div class="scrool_menu">
+        <a class="top_h" href="#"></a>
+        <a class="feedback" href="#" onclick="feedback()"></a>
+    </div>
+</div>
+</body>
+
+
+</html>

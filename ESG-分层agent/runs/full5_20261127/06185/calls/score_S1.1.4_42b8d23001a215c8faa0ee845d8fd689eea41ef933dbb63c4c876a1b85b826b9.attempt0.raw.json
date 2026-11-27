@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-786d970d-19a8-90e1-bf31-095f15feb294",
+  "object": "chat.completion",
+  "created": 1795745769,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露公司确保所有员工享有法定福利，包括社会保险和住房公积金（social insurance and the housing fund），符合法定社会保障及基本福利的判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002明确披露为员工提供高于市场平均水平的商业保险，并为员工子女提供医疗保险，属于具体的补充福利安排。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确披露开通7*24小时心理热线并上线EAP心理课程，保障员工心理健康，符合家庭与生活支持中关于心理咨询或员工援助计划（EAP）的条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露了针对经济困难员工的月度补贴发放规则（granting monthly subsidies to eligible employees）以及重病员工的慰问金安排，明确了福利的具体取得规则和适用对象。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005披露2025年员工福利总价值为7312万元人民币，证明了当期已发生的福利覆盖、使用或受益事实，满足实际结果组的评分要求。\",\n      \"evidence_refs\": [\n        \"e005\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7851,
+    "total_tokens": 8352,
+    "completion_tokens": 501,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 7851
+    }
+  }
+}

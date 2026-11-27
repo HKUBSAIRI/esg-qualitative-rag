@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5bd3831a-4bee-96e3-bdaa-aa5653ca64e9",
+  "object": "chat.completion",
+  "created": 1795745507,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\"\n  ],\n  \"reason\": \"候选原文 e001 明确列示了2025年员工流失率为10%，并提供了按性别、年龄、地区等维度的细分数据，直接满足‘披露评分年度的员工离职率情况’及‘识别评分期间’的判据要求。尽管评估状态标记为未核验，但该引文内容若核实即构成充分证据，因此影响本组结论（从缺失具体数值变为已披露）。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 827,
+    "total_tokens": 946,
+    "completion_tokens": 119,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 827
+    }
+  }
+}

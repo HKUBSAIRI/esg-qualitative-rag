@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7c2ebd0c-4889-9ea9-9e97-3fa289cb41bb",
+  "object": "chat.completion",
+  "created": 1795743862,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"核查严重员工福利或社会保障权益侵害及纠正事项时，发现关键官方来源（市场监督管理行政处罚信息公示规定）因HTTP错误无法打开（official_source_unreadable），导致必要原件未完全获取且存在未决问题。虽已执行搜索并打开其他HKEX及公司注册处页面，但未在已读材料中找到确凿的严重违规通报或有效纠正证据。由于关键法规原文缺失，无法完成对监管合规性的最终独立判断，故状态定为待核验。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    {\n      \"kind\": \"official_source_unreadable\",\n      \"url\": \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_20c4f404649640c3bdcbbd157d6b6ebe.html\",\n      \"error_type\": \"HTTPStatusError\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7682,
+    "total_tokens": 7915,
+    "completion_tokens": 233,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7682
+    }
+  }
+}

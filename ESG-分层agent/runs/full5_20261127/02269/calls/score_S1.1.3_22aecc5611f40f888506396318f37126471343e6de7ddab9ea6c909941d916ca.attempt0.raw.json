@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-929de2d7-712b-9508-8c1f-0e7d9fb80658",
+  "object": "chat.completion",
+  "created": 1795730762,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001 明确披露了“设立最长时间限制”的工时控制政策，e002 和 e003 披露了“弹性时间办公”、“灵活工作时间”等具体排班或工时安排。符合判 100 的条件：披露员工具体工作时间、排班、轮班或合理工时控制的至少一项政策或事例。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e006 明确披露了通过系统“管理加班情况”、“避免过度加班”，以及针对额外工作时间的“支付加班薪资或合理安排调休”。这构成了具体的加班管理政策和程序，符合判 100 的条件。\",\n      \"evidence_refs\": [\n        \"e005\",\n        \"e006\",\n        \"e007\"\n      ]\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e008 明确承诺提供“带薪年假”、“福利年假”、“高温假”，e009 列出了“产假”、“陪产假”、“育儿假”等具体休假安排。符合判 100 的条件：披露员工休息、法定假期、年休假等至少一项明确权利或取得安排。\",\n      \"evidence_refs\": [\n        \"e008\",\n        \"e009\",\n        \"e010\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据 e001 提到使用“工作时间管理系统”，e011 提到利用“线上系统追踪假期使用情况并发送提醒”。这些属于具体的工时及休假管理机制，符合判 100 的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e011\"\n      ]\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"规则要求 T5 需证明当期实际发生的事实（如当期检查加班时长、实际使用带薪休假的人数或比例、执行措施覆盖人数等）。现有证据 e001、e006、e011 仅描述了机制的存在（“我们通过...来关注...”、“我们追踪...”），属于制度或工具名称的描述，未提供评分年度内具体的监测结果数据、实际休假使用统计或纠正案例。根据规则，“无实际执行或结果证据，只有制度、工具名称或未来计划”判 0，但鉴于检索记录中 `retrieval_status` 为 `pending_review` 且提示 `quote_not_in_supplied_text` 可能涉及原文视觉复核，且独立核查显示缺乏确凿的当期量化结果证据，为避免误判缺失关键事实，标记为待核验。若确认仅有机制描述而无当期结果数据，则应判 0。此处因无法完全排除隐含的执行事实或需进一步核实原文细节，故置为 pending_review。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9919,
+    "total_tokens": 10731,
+    "completion_tokens": 812,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 9919
+    }
+  }
+}

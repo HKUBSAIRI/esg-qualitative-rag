@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-25a46bb1-66e3-9621-9417-89e7ce658b07",
+  "object": "chat.completion",
+  "created": 1795730380,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确工资支付保障政策适用的员工对象为全体员工（隐含于“员工收入”及上下文劳动权益保障体系，且提及确保员工收入不低于当地最低工资标准）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还、复核流程）或已完成纠正的事实。现有证据仅涉及薪酬管理原则和最低工资保障承诺，未涉及问题发生后的补救措施。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "total_tokens": 1351,
+    "completion_tokens": 231,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1120
+    }
+  }
+}

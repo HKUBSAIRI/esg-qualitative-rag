@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-67971b6e-87fb-9166-89f2-c954c55dfa39",
+  "object": "chat.completion",
+  "created": 1795738587,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p015\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"The remuneration package of employees generally includes salary and bonus elements. In general, the Group determines the remuneration package based on the qualifications, position and performance of its employees.\",\n      \"kind\": \"policy\",\n      \"period\": \"year ended December 31, 2025\",\n      \"scope\": \"employees\",\n      \"relevance\": \"Discloses the specific mechanism for determining employee remuneration (salary/bonus) based on qualifications, position, and performance, satisfying the requirement for wage processing mechanisms.\"\n    },\n    {\n      \"ref_id\": \"p009\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"A liability is recognized for benefits accruing to employees (such as wages and salaries, annual leave, and sick leave) after deducting any amount already paid.\",\n      \"kind\": \"mechanism\",\n      \"period\": \"For the year ended December 31, 2025\",\n      \"scope\": \"Group\",\n      \"relevance\": \"Describes the accounting mechanism for recognizing accrued wages and salaries, which constitutes a part of the wage processing/calculation rules.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9263,
+    "total_tokens": 9567,
+    "completion_tokens": 304,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9263
+    }
+  }
+}

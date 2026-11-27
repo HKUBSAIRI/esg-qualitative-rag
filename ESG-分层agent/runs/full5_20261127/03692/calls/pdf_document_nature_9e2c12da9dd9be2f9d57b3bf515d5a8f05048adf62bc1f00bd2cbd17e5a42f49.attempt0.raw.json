@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-49708831-8fb4-9914-b995-3536d4032cd2",
+  "object": "chat.completion",
+  "created": 1795743847,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"announcement\",\n  \"report_year\": null,\n  \"publisher\": \"翰森製藥集團有限公司\",\n  \"basis\": \"文件标题为“股東週年大會通告”，内容涉及召开股东大会、审议财务报表、派息及重选董事等常规公司治理事项，属于普通公司公告。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2623,
+    "total_tokens": 2694,
+    "completion_tokens": 71,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2623
+    }
+  }
+}

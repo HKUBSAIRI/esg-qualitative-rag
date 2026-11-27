@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-18450829-3a2d-908d-b036-570168dd2117",
+  "object": "chat.completion",
+  "created": 1795730427,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确工资支付保障政策适用的员工对象为全体员工（隐含于“员工收入”及上下文劳动权益保障体系，且scope字段标注为全体员工）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露工资差错、欠薪、扣款或加班费支付问题的具体补救机制或已完成纠正事实\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "total_tokens": 1316,
+    "completion_tokens": 196,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1120
+    }
+  }
+}

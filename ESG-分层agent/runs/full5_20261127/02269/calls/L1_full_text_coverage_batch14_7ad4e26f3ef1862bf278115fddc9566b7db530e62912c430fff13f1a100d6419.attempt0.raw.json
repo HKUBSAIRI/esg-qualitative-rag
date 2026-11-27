@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-443d171e-672e-986d-bac0-fd2e3f4e63d2",
+  "object": "chat.completion",
+  "created": 1795730462,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"E4\"\n      ],\n      \"quote\": \"為激勵員工充分發揮潛力並促進內部人才流動,藥明生物既支持員工不斷精進向上晉升,也支 持員工通過專案、轉崗等方式橫向發展。我們推出的 「活水計劃」 以促進跨地區和跨部門的人才 流動,為員工提供更廣泛機會的同時也助力公司加速新業務的發展。\",\n      \"kind\": \"policy/mechanism/action/result/plan/boundary\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了内部转岗及人才流动计划，符合员工安置支持中关于转岗或岗位轮换的制度要求。\"\n    },\n    {\n      \"ref_id\": \"p039\",\n      \"group_ids\": [\n        \"W1\",\n        \"W2\",\n        \"W3\",\n        \"W4\"\n      ],\n      \"quote\": \"藥明生物高度重視員工福利,嚴格遵循運營地所在國家和地區相關法律法規要求,為員工及時 且足額繳納各項社會保險。此外,我們向所有員工提供廣泛的非薪酬類福利,如帶薪育兒假、 父母陪護假和通勤補貼等,為員工提供有保障的工作條件。\",\n      \"kind\": \"policy/mechanism/action/result/plan/boundary\",\n      \"period\": \"2025年度\",\n      \"scope\": \"所有员工\",\n      \"relevance\": \"披露了依法缴纳社保（法定保障）、提供带薪育儿假/父母陪护假（家庭支持）及通勤补贴（补充福利），并明确了适用对象为所有员工。\"\n    },\n    {\n      \"ref_id\": \"p041\",\n      \"group_ids\": [\n        \"W3\",\n        \"W4\"\n      ],\n      \"quote\": \"我們確保兼職員工及外包人員享受與正式員工相同的日常福利,包括餐費補貼、通勤補貼、生 日福利、休假、節慶福利及家庭日等。炎熱的夏季,公司會為在戶外高溫下工作的員工準備清 涼禮包以消暑。此外,我們在部分基地提供職工子女入學 (幼兒園、小學、初中和高中) 支持, 解決員工子女在地入學困難問題,助力員工子女教育發展,體現企業對家庭福祉的長期承諾。\",\n      \"kind\": \"policy/mechanism/action/result/plan/boundary\",\n      \"period\": \"2025年度\",\n      \"scope\": \"兼职员工及外包人员；部分基地员工\",\n      \"relevance\": \"披露了针对兼职/外包人员的同等福利覆盖规则，以及职工子女入学支持（家庭与生活支持）。\"\n    },\n    {\n      \"ref_id\": \"p043\",\n      \"group_ids\": [\n        \"W3\"\n      ],\n      \"quote\": \"我們亦高度重視員工心理健康,為員工開通心理援助 (EAP) 熱線,為員工提供一對一的心理健康 諮詢。\",\n      \"kind\": \"policy/mechanism/action/result/plan/boundary\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了员工援助计划（EAP）及心理咨询服务，属于家庭与生活支持中的心理支持资源。\"\n    },\n    {\n      \"ref_id\": \"p046\",\n      \"group_ids\": [\n        \"W1\",\n        \"W2\",\n        \"W3\",\n        \"T3\"\n      ],\n      \"quote\": \"福利類型 | 詳情\\n法定福利 | • 養老保險 • 醫療保險 • 失業保險 • 殘疾保險 • 工傷保險 • 生育保險\\n額外福利 | • 帶薪年假 • 補充商業保險 24 • 年度健康體檢 • 通勤補貼 • 免費過渡性住房 • 高溫期間帶薪休假 • 加班費和調休\\n靈活性安排 | • 靈活工作時間 • 遠程工作安排\\n家庭福利 | • 產假 • 陪產假 • 產檢假 • 育兒假 • 父母陪護假 • 哺乳假 • 母嬰室\",\n      \"kind\": \"policy/mechanism/action/result/plan/boundary\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"表格详细列出了法定社会保险项目、补充商业保险、带薪年休假（休息休假保障）及各类家庭福利（产假、育儿假等），涵盖多个指标组的具体政策内容。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13483,
+    "total_tokens": 14543,
+    "completion_tokens": 1060,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 13483
+    }
+  }
+}

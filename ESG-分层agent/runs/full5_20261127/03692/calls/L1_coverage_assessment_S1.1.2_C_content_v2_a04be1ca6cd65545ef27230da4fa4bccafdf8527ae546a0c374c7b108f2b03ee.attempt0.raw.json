@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-6266def8-764a-9f8d-9cf8-62848bd9f9e6",
+  "object": "chat.completion",
+  "created": 1795732426,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"最低工资保障政策\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别具体的工资核算规则、复核机制、工资单发放或专门针对工资差错的查询/申诉渠道。e007提及的工单系统为通用HR申诉渠道，未明确限定于工资处理或查询，且缺乏具体工资处理事实描述。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"人权尽职调查中涉及维生工资（工资支付相关）的检查\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": {\n        \"occurred\": true,\n        \"period_confirmed\": true,\n        \"evidence_refs\": [\n          \"e006\"\n        ]\n      }\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未明确说明工资支付保障政策适用的具体员工对象（如全体员工、特定地区等），或披露对应的覆盖人数/比例。e002/e005虽提及“员工”，但未明确界定保障政策的适用边界或覆盖率数据。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费问题的具体补救机制（如补发、退还流程）或已完成纠正的事实。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3405,
+    "total_tokens": 3967,
+    "completion_tokens": 562,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3405
+    }
+  }
+}

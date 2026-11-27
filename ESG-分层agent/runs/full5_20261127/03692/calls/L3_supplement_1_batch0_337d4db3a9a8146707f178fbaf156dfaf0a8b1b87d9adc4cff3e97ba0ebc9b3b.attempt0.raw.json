@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a3502da8-9edb-9c0e-95a1-3d0d91dff4c1",
+  "object": "chat.completion",
+  "created": 1795732621,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p017\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"僱員福利開支\\n工資及薪金 | 1,026,868 | 970,726\\n社會福利及其他福利 * | 469,594 | 442,141\\n以股份為基礎的付款 | 78,585 | 67,587\\n總計 | 1,575,047 | 1,480,454\",\n      \"kind\": \"result\",\n      \"period\": \"截至二零二五年六月三十日止六個月\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了当期员工福利开支总额，但未单独列示终止补偿或离职保障的具体支付金额，无法直接证实E5所需的实际离职保障结果（如终止补偿支付）。\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"P5\"\n      ],\n      \"quote\": \"終止職務或委任的賠償付款) ;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"薪酬委员会职权范围\",\n      \"relevance\": \"提及终止职务赔偿付款属于薪酬委员会职权，但仅为政策描述，未涉及工资差错、欠薪等具体补救机制或纠正事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4952,
+    "total_tokens": 5303,
+    "completion_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4952
+    }
+  }
+}

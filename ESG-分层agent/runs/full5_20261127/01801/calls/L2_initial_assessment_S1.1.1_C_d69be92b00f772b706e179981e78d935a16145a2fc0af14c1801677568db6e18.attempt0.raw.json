@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e98911a3-3d69-9466-afea-787a0fd8c4ca",
+  "object": "chat.completion",
+  "created": 1795731491,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"集团合并员工（非董事/最高薪人士）的终止补偿支付、就业安置或离职保障受益结果\",\n        \"针对普通员工的实际纠正结果或有效执行记录\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1155,
+    "total_tokens": 1283,
+    "completion_tokens": 128,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1155
+    }
+  }
+}

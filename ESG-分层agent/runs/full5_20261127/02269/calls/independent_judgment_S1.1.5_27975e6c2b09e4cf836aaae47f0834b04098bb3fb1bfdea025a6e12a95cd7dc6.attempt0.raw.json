@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-99155d2d-6a93-9028-9a92-c69bf8d61989",
+  "object": "chat.completion",
+  "created": 1795745574,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"本阶段仅核查严重事项及纠正。根据规则，投诉、和解、撤诉、职工债权公示和未披露整改不能单独证明严重事项或未纠正。当前证据列表为空，且搜索日志显示未执行网络搜索（network_search_executed: false），仅依赖本地RAG且无相关监管/司法通知索引。由于缺乏必要的官方原文来确认是否存在经核实的严重歧视、骚扰或系统性机会不公平事件及其纠正状态，无法判定是否触发S1.1.5的特殊归零条款，也无法确认为'no_verified_adverse_event_found'（因覆盖范围未确认充分）。关键事实核实受阻，需人工核验或补充检索以确认是否存在未纠正的严重事项。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"缺少关于药明生物技术有限公司在2025年度涉及严重歧视、骚扰或系统性机会不公平的官方通报、处罚决定或经核实的内部调查结论等必要案件原件。\",\n    \"本地覆盖范围未确认（local_only_official_coverage_unconfirmed），且未执行网络搜索，无法排除存在已公开但未收录的严重违规事项。\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5755,
+    "total_tokens": 6017,
+    "completion_tokens": 262,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5755
+    }
+  }
+}

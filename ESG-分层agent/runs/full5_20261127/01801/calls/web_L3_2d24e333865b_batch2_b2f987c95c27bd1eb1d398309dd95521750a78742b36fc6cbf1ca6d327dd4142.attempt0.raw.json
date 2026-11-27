@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1c3bba82-276d-9a56-921a-8cadc5285dcc",
+  "object": "chat.completion",
+  "created": 1795732704,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p009\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"The remuneration policy and package of the Company’s employees are periodically reviewed. The remuneration package comprises salaries, bonuses, employees provident fund and social security contributions, other welfare payments and share-based payment expenses. The packages were set by benchmarking with companies in similar industries and in accordance with employees’ educational backgrounds, experience and performance.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"Company's employees\",\n      \"relevance\": \"披露了薪酬政策定期审查及构成，属于工资处理机制的一部分\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11515,
+    "total_tokens": 11684,
+    "completion_tokens": 169,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11515
+    }
+  }
+}

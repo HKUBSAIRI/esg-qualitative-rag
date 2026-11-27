@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f686a11b-4229-9f15-9356-bb02b69af851",
+  "object": "chat.completion",
+  "created": 1795731249,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空，且存在覆盖问题提示（existing_official_scanned_lead_requires_quote_and_subject_review），表明可能存在未提取的官方线索或需人工核验的主体关联。根据规则，检索结果可能为空，缺少相关证据本身不能证明应查范围已完成；关键证据无法核实或必要材料的覆盖尚未确认时，受影响项记 pending_review。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"S1.1.3 T1-T5 各组因无具体原文引用而无法判定是否满足政策、机制或执行事实条件\",\n    \"覆盖状态未确认：存在待核验的官方扫描线索，需补充原文以判断是否存在严重超时工作或违法剥夺休息休假及纠正情况\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5602,
+    "total_tokens": 5778,
+    "completion_tokens": 176,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5602
+    }
+  }
+}

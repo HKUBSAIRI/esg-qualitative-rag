@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-df378026-2d96-9193-913f-ebce7d585a0a",
+  "object": "chat.completion",
+  "created": 1795746188,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露“严格遵守运营所在地最低工资水平”，符合判100条件中关于“最低工资保障”的具体政策或事实要求。虽然evidence_issues提示2025年有效性未验证，但P1组规则不要求当期实际执行事实（actual_current_period_required=false），且search_complete=true，故判定为已核实支持。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索记录显示search_complete=true且retrieval_status=no_relevant_evidence_found。现有证据中无关于工资核算规则、复核、发放工资单或员工查询/申诉机制的披露。根据规则，材料覆盖已确认充分且无对应披露时，组分0。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索记录显示search_complete=true。评估指出e002提及的是消除性别薪酬差距的审查，与“工资支付合规性监测”主题不匹配；e001排除相关数据管理范围。未识别出针对工资支付本身的检查、监测或内部审查制度或事实。根据规则，无对应披露判0。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确披露“本公司僱員的薪酬政策...定期接受審閱”，并列出待遇包含薪金等，明确了工资支付保障政策适用的员工对象为“本公司雇员”。符合判100条件中“明确工资支付保障政策...适用的员工对象”的要求。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索记录显示search_complete=true且retrieval_status=no_relevant_evidence_found。未识别出关于工资差错、欠薪、扣款或加班费支付问题的具体补救机制或已完成纠正事实。根据规则，无对应披露判0。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3363,
+    "total_tokens": 3953,
+    "completion_tokens": 590,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3363
+    }
+  }
+}

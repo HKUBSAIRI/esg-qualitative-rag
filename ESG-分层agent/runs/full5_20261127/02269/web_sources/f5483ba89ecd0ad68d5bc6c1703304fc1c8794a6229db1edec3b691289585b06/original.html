@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="always">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>国务院国资委监管企业产权信息查询平台</title>
+    <script src="./js/jquery-3.1.1.min.js?v=1.1.3"></script>
+    <script src="./js/login_html.js?v=1.1.3"></script>
+    <script src="./js/footer.js?v=1.1.3"></script>
+    <script src="./js/sm/SM.js?v=1.1.3"></script>
+<!--    <script src="./js/bootstrap.min.js?v=1.1.3"></script>-->
+    <link rel="stylesheet" href="./css/login.css?v=1.1.3">
+    <link rel="stylesheet" href="./css/reset.css?v=1.1.3">
+<!--    <link rel="stylesheet" href="./css/bootstrap.min.css?v=1.1.3">-->
+    <style>
+        html {
+            font-family: "Microsoft YaHei";
+            font-weight: 400;
+        }
+        .first_title{
+            margin-bottom: 0.1rem;
+        }
+        .second_title{
+            text-indent: 2em;
+            margin-bottom: 0.1rem;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <!-- logo部分 -->
+    <header id="header">
+<!--        <div class="header_box">-->
+<!--            <img src="./images/logo.png" alt="">-->
+<!--        </div> -->
+    </header>
+    <!-- 登陆部分 -->
+    <article id="article">
+        <div class="syzn_div_mobile"><img onclick="myFunction()" src="./images/syzn_logo.png" alt=""></div>
+    </article>
+    <!-- 底部样式 -->
+    <footer id="footer"></footer>
+    <!-- 模糊层 -->
+    <div class="fuzzy_box"></div>
+    <!-- 提示框 -->
+    <div class="message"><img src="./images/ok.png" alt=""> <span>登录成功</span></div>
+
+    <!-- 模态框（Modal） -->
+    <div class="Modal_box modal" id="xieyi" onclick="dianjiXieYi()">
+        <div class="modal-header">
+            <h2>国务院国资委监管企业产权信息查询平台用户服务协议</h2>
+        </div>
+        <div class="Modal-header-mobile">
+            <h2>国务院国资委监管企业产权信息查询平台<br>用户服务协议</h2>
+        </div>
+        <div class="modal-content">
+            <p class="second_title">欢迎您使用国务院国资委监管企业产权信息查询平台（以下简称本平台）。本平台为社会公众提供国务院国资委监管的中央企业及所属企业基本信息的查询服务。本平台根据现行法律及政策，制定《国务院国资委监管企业产权信息查询平台用户服务协议》（以下简称本协议）。本协议将详细说明本平台在协议变更与修改、用户信息验证、使用注意事项、软件更新、系统生产日志管理、用户隐私保护等方面的政策及相应措施。
+            </p>
+            <p class="second_title">一．【定义】</p>
+            <p class="second_title">1.中央企业：指国务院授权国务院国有资产监督管理委员会履行出资人职责的企业。</p>
+            <p class="second_title">2.用户：指使用本平台查询服务的查询人。</p>
+            <p class="second_title">3.用户信息：指用户验证时需要提供的个人信息，包括但不限于姓名、身份证号码、手机号码等，以及用户使用本平台服务时提交的、被本平台所知悉的相关信息。
+            </p>
+            <p class="second_title">4.用户验证：指用户使用本平台，按要求填写用户信息并确认同意履行本协议的过程。</p>
+            <p class="second_title">5.用户指令：本协议中，除非专门指明或声明，均指用户以数据电文形式向本平台提出的申请、要求，包括但不限于用户要求本平台提供、变更或取消其依据本平台业务流程可享有的各项服务的申请、要求。
+            </p>
+            <p class="second_title">6.服务：指本平台基于互联网方式向用户提供的查询服务。</p>
+            <p class="second_title">二．【协议条款的确认和接受】</p>
+            <p class="second_title">1.本平台在此特别提醒用户，在使用本平台前请仔细阅读本协议，如果用户对本协议的任何条款或将来随时可能修改、补充的条款有异议，可选择不使用本平台。
+            </p>
+            <p class="second_title">2.当用户点击勾选“我已阅读并同意 《国务院国资委监管企业产权信息查询平台用户服务协议》”时，即视为用户已仔细阅读本协议，同意接受本协议条款的所有规范包括接受本平台对本协议条款随时所做的任何修改，并愿受其约束。
+            </p>
+            <p class="second_title">3.本平台有权在必要时修改本协议条款，协议条款一旦发生变动，将会在页面上提示修改内容。如果不同意所改动的内容，用户可选择不使用本平台。如果用户继续使用本平台所提供的服务，则视为接受本协议条款的变动。
+            </p>
+            <p class="second_title">4.本平台保留在任何时候自行决定对本平台及其相关功能的变更、升级、修改、转移的权利。本平台进一步保留在本平台中开发新功能的权利。上述所有新的功能、软件服务的提供，除非本平台另有说明，否则仍适用本协议。
+            </p>
+            <p class="second_title">三．【用户验证】</p>
+            <p class="second_title">本平台用户无需注册，但需要对用户信息进行实名验证，用户应当按验证页面引导提供真实、准确及完整的信息进行实名验证。用户不得提供虚假信息或其他违法和不良信息。如果用户提供的信息不合法、不真实、不准确、不完整，需要承担因此引起的相应责任及后果。本平台有权对用户信息的合法性、真实性、准确性及完整性进行审核，并将用户信息与法律法规允许的机构或政府机关授权的机构进行实名验证。用户阅读并同意本协议且完成全部验证程序后，即可获得本平台查询权限。
+            </p>
+            <p class="second_title">四．【服务内容】</p>
+            <p class="second_title">本平台将按照本协议及相关操作规程为用户提供相应的服务。本平台所提供的查询结果，来自中央企业国有产权登记信息。
+            </p>
+            <p class="second_title">禁止用户将本平台查询服务结果用于商业目的。
+            </p>
+            <p class="second_title">五．【使用注意事项】</p>
+            <p class="second_title">1.用户信息为用户在本平台的唯一身份权证，为使用本平台提供的服务，用户应按照对应的服务要求键入正确的信息。用户应保管好自己的信息。若用户提供任何虚假、错误或不完整的信息，或者本平台有合理理由怀疑前述信息为虚假、错误或不完整的，本平台有权拒绝现在或将来用户使用本平台的全部或部分服务。
+            </p>
+            <p class="second_title">2.本平台发现用户在使用本平台服务过程中有违反法律规定或本协议约定的，有权不经通知，单方终止或解除本协议，暂停、中断或终止向用户提供服务并追究用户的法律责任。
+            </p>
+            <p class="second_title">用户使用本平台过程中不得从事下列行为：</p>
+            <p class="second_title">（1）删除本平台及其副本上关于著作权的信息；</p>
+            <p class="second_title">（2）对本平台进行反向工程、反向汇编、反向编译，或者以其他方式尝试发现本平台的源代码；</p>
+            <p class="second_title">（3）对本平台拥有知识产权的内容进行使用、出租、出借、复制、修改、链接、转载、汇编、发表、出版、建立镜像站点等；
+            </p>
+            <p class="second_title">（4）对本平台或者本平台运行过程中释放到任何终端内存中的数据、软件运行过程中客户端与服务器端的交互数据，以及本平台运行所必需的系统数据，进行复制、修改、增加、删除、挂接运行或创作任何衍生品，形式包括但不限于使用插件、外挂或非本平台授权的第三方工具、服务接入本平台和相关系统；
+            </p>
+            <p class="second_title">（5）通过修改或伪造软件运行中的指令、数据，增加、删减、变动软件的功能或运行效果，或者将用于上述用途的软件、方法进行运营或向公众传播，无论这些行为是否为商业目的；
+            </p>
+            <p class="second_title">（6）自行或者授权他人、第三方软件对本平台及其组件、模块、数据进行干扰。</p>
+            <p class="second_title">3.用户在使用本平台时承诺并确认：</p>
+            <p class="second_title">（1）用户上传到本平台的除个人信息以外的文字等内容，本平台具有免费使用权；</p>
+            <p class="second_title">（2）本平台提供的网络服务内容可能包括：文字、软件、图片、图表等。所有这些内容受版权、商标和其他财产所有权法律的保护，用户只有在获得本平台或其他相关权利人的授权之后才能使用这些内容。
+            </p>
+            <p class="second_title" style="font-weight: bold">4.本平台查询结果仅供参考，不具有法律效力，不能作为是否出资的证明。</p>
+            <p class="second_title" style="font-weight: bold">5.本平台查询结果为国有产权登记信息，可能存在国有产权已发生变动但未及时办理变更登记的情形。</p>
+            <p class="second_title" style="font-weight: bold">6.本平台未查询到企业相关信息，可能存在以下情形：该企业与中央企业不存在直接或间接出资关系；用户填写的企业名称或统一社会信用编码不完整、不准确；部分企业按照有关规定无法通过本平台查询。对于未查询到相关信息的企业，可结合工商登记信息或联系相关中央企业进一步核实。</p>
+            <p class="second_title" style="font-weight: bold">7.本平台所称产权级次是指企业在所属中央企业的产权层级，中央企业为一级，中央企业直接持股的企业为二级，以此类推。</p>
+            <p class="second_title" style="font-weight: bold">8.本平台所称全资、控股、实际控制、参股，其定义如下：
+            </p>
+            <p class="second_title" style="font-weight: bold">（1）全资：中央企业直接或间接合计持股为100%的国有全资企业；
+            </p>
+            <p class="second_title" style="font-weight: bold">（2）控股：本条第（1）款所列企业单独或共同出资，合计拥有产（股）权比例超过50%，且其中之一为最大股东的企业；本条第（1）款及前述所列企业对外出资，拥有股权比例超过50%的各级子企业；
+            </p>
+            <p class="second_title" style="font-weight: bold">（3）实际控制：单一中央企业及所属全资和控股企业直接或间接持股比例未超过50%，但为第一大股东，并且通过股东协议、公司章程、董事会决议或者其他协议安排能够对其实际支配的企业；
+            </p>
+            <p class="second_title" style="font-weight: bold">（4）参股：中央企业直接或间接出资但不属于全资、控股、实际控制的情形。
+            </p>
+            <p class="second_title">9.本平台所称境外企业是指中央企业及其各级子企业在我国境外以及香港特别行政区、澳门特别行政区和台湾地区依据当地法律出资设立的企业。境外企业无统一社会信用编码。
+            </p>
+            <p class="second_title">10.用户使用平台5分钟内无有效动作的，需重新验证；当天查询超过5次的，需次日才能继续使用本平台。
+            </p>
+            <p class="second_title">六．【软件更新】</p>
+            <p class="second_title">1.本平台有权根据业务发展需要采用包括但不限于软件修改、替换、功能优化、版本升级等形式，对本平台进行更新升级或对本平台服务功能、内容等进行调整。
+            </p>
+            <p class="second_title">2.本平台根据系统升级、改造需要，有修改软件功能、暂时中止提供本平台服务的权利，本平台将进行通告告知。因行使上述修改或中止软件使用而造成的任何损失，用户同意本平台不需对用户或任何第三方负责。
+            </p>
+            <p class="second_title">七．【隐私保护】</p>
+            <p class="second_title">1.为提供相应服务，用户充分知悉并授权本平台可以收集和使用用户提供的信息。本平台将留存系统生产日志所记录的用户信息，并妥善保管，严格保密，依法保护用户信息。
+            </p>
+            <p class="second_title">2.本平台非常重视用户的隐私和用户信息保护，并会尽全力保护用户信息安全。用户信息非经用户亲自许可或根据相关法律、法规的强制性规定，本平台不会主动地泄露或以任何形式向任何第三方提供。</p>
+            <p class="second_title">3.在本平台向用户提供查询服务期间，用户同意授权本平台持续收集信息。在符合相关法律法规的前提下，本平台可能将收集的信息用作以下用途：
+            </p>
+            <p class="second_title">（1）提供服务。例如，实名认证信息是继续获得服务的前提。</p>
+            <p class="second_title">（2）服务优化和开发。例如，本平台会根据响应用户需求时产生的信息，优化本平台的服务，但这些信息不会包含用户个人信息。</p>
+            <p class="second_title">（3）保护用户的人身财产安全免遭侵害，更好地预防钓鱼网站、欺诈、网络漏洞、计算机病毒、网络攻击、网络侵入等安全风险，更准确地识别违反法律法规或本平台相关协议、规则的情况，本平台可能使用用户信息、并整合设备信息、有关网络日志以及有关政府机构、合作伙伴分享的信息，来判断用户使用风险、进行实名验证、安全事件的检测及防范，并依法采取必要的记录、审计、分析、处置措施。
+            </p>
+            <p class="second_title">（4）用户授权同意的以及法律法规规定的其它用途。</p>
+            <p class="second_title">4.本平台不会与本平台以外的公司、组织和个人共享用户信息，但会遵循以下原则：</p>
+            <p class="second_title">（1）在获取明确同意的情况下共享：获取用户明确同意后，本平台会与其他方共享用户信息。</p>
+            <p class="second_title">（2）在法定情形下的共享：本平台可能会根据法律法规规定、诉讼争议解决需要，或按行政、司法机关依法提出的要求，对外共享用户信息。</p>
+            <p class="second_title">5.本平台会在以下情况下，公开披露用户信息：</p>
+            <p class="second_title">（1）获得用户明确同意或基于用户的主动选择，本平台可能会公开披露用户信息；</p>
+            <p class="second_title">（2）如果本平台确定用户出现违反法律法规或严重违反本平台相关协议规则的情况，或为保护本平台或其它相关方的人身财产安全免遭侵害，本平台可能依据法律法规，遵守法院判决、裁定或其他法律程序的规定，遵守相关政府机关或其他有权机关的要求或本平台相关协议规则公开披露用户信息，包括相关违规行为以及本平台已对用户采取的措施。
+            </p>
+            <p class="second_title">6.本平台在下列情况下，且出于下列情况相关的目的，我们有可能需要较长时间保留用户的信息或部分信息：</p>
+            <p class="second_title">（1）遵守适用的法律法规等有关规定。</p>
+            <p class="second_title">（2）遵守法院判决、裁定或其他法律程序的要求。</p>
+            <p class="second_title">（3）遵守相关政府机关或其他有权机关的要求。</p>
+            <p class="second_title">（4）本平台有理由确信需遵守法律法规等有关规定。</p>
+            <p class="second_title">（5）为执行相关服务协议、维护社会公共利益、处理投诉或纠纷，保护用户的人身和财产安全或合法权益所合理必需的用途。</p>
+            <p class="second_title">7.本平台将努力为用户信息安全提供保障，以防止信息的丢失、不当使用、未经授权访问或公开披露。</p>
+            <p class="second_title">（1）为了保障用户的信息安全，本平台将在法律法规相关规定要求和现有技术水平下使用符合业界标准的安全保护措施保护用户信息，采取物理、技术和行政管理安全措施降低丢失、误用、非授权访问、披露和更改的风险，尽力防止数据遭到未经授权的访问、公开披露、使用、修改、损坏或丢失。
+            </p>
+            <p class="second_title">（2）本平台建立专门的管理制度、流程和组织以保障信息的安全，严格限制访问信息的人员范围，要求他们遵守保密义务。</p>
+            <p class="second_title">（3）如因技术故障、网络攻击、自然灾害及事故、人为因素等各种原因造成查询服务无法使用，本平台将采取应急处置和恢复措施予以应对，尽快恢复服务。
+            </p>
+            <p class="second_title">（4）互联网环境并非百分之百安全，本平台将确保用户信息安全性。如果本平台的物理、技术、或管理防护设施遭到破坏，导致发生信息被非授权访问、公开披露、篡改、或毁坏及其它个人信息泄露安全事件，本平台会启动应急预案，阻止安全事件扩大。同时，本平台还将按照相关要求，上报个人信息安全事件的处置情况。
+            </p>
+            <p class="second_title">八．【服务变更、中断或终止】</p>
+            <p class="second_title">1.若因系统维护或升级的需要而需暂停网络服务，本平台将进行通告告知。</p>
+            <p class="second_title">2.用户在浏览器退出后，本协议终止，本平台对用户提供的服务即终止。即时起，本平台除系统生产日志外将不保留用户使用中的任何内容。</p>
+            <p class="second_title">3.本协议的终止并不能被认为免除用户在本协议生效期间应履行的相关义务；不意味着终止前所发生的未完成用户指令的撤销，也不能消除因终止前的行为所带来的法律后果。
+            </p>
+            <p class="second_title">九．【知识产权声明】</p>
+            <p class="second_title">1.国务院国资委是本平台的知识产权权利人。本平台的一切著作权、商标权、专利权、商业秘密等知识产权，以及与本平台相关的所有信息内容（包括但不限于文字、图表、界面设计、版面框架、有关数据或电子文档等）均受中华人民共和国著作权法、商标法、专利法、反不正当竞争法和相应的国际条约以及其他知识产权法律法规的保护。
+            </p>
+            <p class="second_title">2.未经本平台或相关权利人书面同意，用户不得自行或许可任何第三方实施、利用、转让上述知识产权。</p>
+            <p class="second_title">十．【责任声明】</p>
+            <p class="second_title">1.鉴于网络服务的特殊性，用户同意本平台有权随时变更、中断或终止部分或全部的网络服务。本平台不就通信系统或互联网的中断或无法运作、技术故障、计算机错误或病毒、信息损坏或丢失或其它在本平台合理控制范围之外的原因而产生的其它任何性质的破坏而向用户或任何第三方承担赔偿责任。
+            </p>
+            <p class="second_title">2.本平台无法保证其所提供的查询服务能满足用户的全部要求，亦无法保证用户在操作上不会中断或没有错误，本平台将尽力纠正使用上的缺陷。</p>
+            <p class="second_title">十一．【不可抗力】</p>
+            <p class="second_title">因不可抗力、黑客攻击、病毒、木马、恶意程序攻击、网络拥堵、通讯故障、电力故障等原因而导致的用户信息泄漏、服务中断及其他损失，本平台不承担任何损害赔偿责任。
+            </p>
+            <p class="second_title">十二．【争议解决】</p>
+            <p class="second_title">如双方就本协议内容或执行发生任何争议，双方应协商解决；协商不成时，应向本平台运营方所在地人民法院提起诉讼解决。</p>
+            <p class="second_title">十三．【其他规定】</p>
+            <p class="second_title">1.本协议取代用户和本平台就有关本协议所载任何事项于先前以口头及书面达成的共识。</p>
+            <p class="second_title">2.如本协议的任何条款被视作无效或无法执行，则上述条款可被分离，其余部分则仍具有法律效力。</p>
+            <p class="second_title">3.本协议自用户点击同意“提交”时生效。</p>
+
+        </div>
+        <div class="modal-footer">
+            <button class="yudu" disabled>我已阅读</button> <span class="miao">（10秒）</span>
+        </div>
+    </div>
+    <div class="Modal_box modal" id="xuzhi" onclick='dianjixuzhi()' >
+        <div class="modal-header">
+            <h2>举报须知</h2>
+        </div>
+        <div class="modal-content">
+            <p class="second_title">一、受理范围
+            </p>
+            <p class="second_title">依据《防范和查处假冒企业登记违法行为的规定》（市场监管总局令第88号）等有关规定，不法企业、中介机构通过伪造印章和证照等手段，在中央企业不知情的情况下，将中央企业冒名登记为公司股东的情形。
+            </p>
+            <p class="second_title">二、填报要求
+            </p>
+            <p class="second_title">1.请按照页面样式要求填写各项内容，反映的问题应事实清楚、条理清晰、简明扼要，有关证明材料作为附件提交。
+            </p>
+            <p class="second_title">2.举报人应填写真实姓名、联系方式和身份信息，不得伪造身份。我们将按照有关规定严格保护举报人信息，维护举报人合法权益。
+            </p>
+            <p class="second_title">三、举报处理
+            </p>
+            <p class="second_title">平台收到问题反映后，将按规定处理，举报人可在20个工作日后通过平台查询处理结果。
+            </p>
+            <p class="second_title">四、注意事项
+            </p>
+            <p class="second_title">1.请根据受理范围反映问题，不要重复反映同一问题，不要反映超出受理范围的问题。
+            </p>
+            <p class="second_title">2.举报人应对举报事项的客观性、真实性负责，不得伪造证明证据。故意举报不实或伪造证据的，应承担相应法律责任。
+            </p>
+        </div>
+        <div class="modal-footer">
+            <button class="yudu" disabled>我已阅读</button> <span class="miao">（10秒）</span>
+        </div>
+    </div>
+    <div class="znModal_box znModal" id="zhinan" onclick="dianjiZn()">
+        <div class="znModal-header">
+            <h2 class="znModal-header-pc">国务院国资委监管企业产权信息查询平台使用指南</h2>
+            <h2 class="znModal-header-mobile">国务院国资委监管企业产权信息<br>查询平台使用指南</h2>
+<!--            <div class="znModal_box_close" onclick="znClose()">&times;</div>-->
+            <div class="znModal_box_close" onclick="znClose()"><img src="./images/zn_close.png" style="display: block"/></div>
+        </div>
+        <div class="znModal-content">
+            <p class="znSecond_title">一、用户输入姓名、身份证号码、手机号码等信息，阅读并同意用户服务协议后，可登录本平台。</p>
+            <img  data-src="./images/zn1.png" class="zn_mg" ><br>
+            <img  data-src="./images/zn2.png" class="zn_mg" >
+            <p class="znSecond_title">二、登录后输入企业名称或统一社会信用编码，查询本平台提供的相关信息。当天查询超过5次的，需次日才能继续使用本平台。</p>
+            <img  data-src="./images/zn3.png" class="zn_mg">
+            <p class="znSecond_title">三、查询结果存在三种情形。一是被查询企业与中央企业存在出资关系的，显示该企业所归属中央企业、产权级次、注册资本等基本信息；二是未查询到该企业相关信息；三是被查询企业曾经与中央企业存在出资关系目前已不存在的，显示该企业曾经归属的中央企业和产权级次。查询结果可打印。</p>
+            <p class="znSecond_title">四、本平台查询结果为国有产权登记信息，可能存在国有产权已发生变动但未及时办理变更登记的情形。</p>
+            <p class="znSecond_title">五、本平台未查询到相关信息的企业，应当提高警惕，可结合工商登记信息或联系相关中央企业进一步核实。</p>
+            <p class="znSecond_title">六、本平台查询结果仅供参考，不具有法律效力，不能作为是否出资的证明。</p>
+            <p class="znSecond_title">七、本平台目前处于试运行阶段，下一步将根据社会公众意见建议进一步完善。</p>
+        </div>
+        <div class="znModal-footer">
+<!--            <button class="zn_close" onclick="znClose()" style="background-color: red;">关闭</button>-->
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    function znClose(){
+        $(".znModal_box").hide();
+    }
+    $.extend({
+        F_SIZE: function (size) {//使用传参的方式，以便灵活调用
+            var $html = $('html');
+            var $window = $('window');
+            var $body = $('body');
+            var psdsize = size;//这里表示我设计图的宽度
+            var htmlfont = $body.width() / psdsize * 100 + 'px';//计算字体大小
+            $html.css('font-size', htmlfont);//设置字体大小
+            $body.css('opacity', 1);//针对一些手机浏览器的默认样式
+            //屏幕尺寸修改时，改变其大小
+            $(window).resize(function (event) {
+                htmlfont = $body.width() / psdsize * 100 + 'px';
+                $html.css('font-size', htmlfont);
+            });
+        }
+    });
+    $.F_SIZE(1712)
+    setHeader()
+    setArticle()
+    setFooter()
+    var timer = null
+    var windowTime = 10
+
+    $('.yudu').click(function () {
+        if (windowTime <= 0) {
+            $('.modal').hide()
+            $('.modal-footer').hide()
+            // $('.checkbox_one').prop('checked', true)
+        }
+    })
+    $('.checkbox_one').click(function () {
+        //查询当前登录人是否以阅读过此版协议
+        var name = $('#name').val();
+        var idCard = $('#idCard').val();
+        if(windowTime == 0){
+            return true;
+        }
+        if(name != '' && idCard != ''){
+            name = SG_sm2Encrypt($('#name').val(),publicKey);
+            idCard = SG_sm2Encrypt($('#idCard').val(),publicKey);
+            $.ajax({
+                url:"finishYuDu",
+                type:"post",
+                async:false,
+                data:{
+                    "name" : name,
+                    "idCard" : idCard
+                },
+                success : function(data) {
+                    if(data.indexOf("finishYuDu") != -1){
+                        windowTime = 0;
+                        return true;
+                    }else{
+                        windowTime = 10;
+                        return false;
+                    }
+                }
+            })
+        }
+        if(windowTime > 0){
+            $('.checkbox-box input').prop('checked', false);
+            messFun('no', '请先阅读国务院国资委监管企业产权信息查询平台服务协议!')
+        }
+
+    })
+
+    $('.checkbox_two').click(function () {
+        //查询当前登录人是否以阅读过此版协议
+        var name = $('#name').val();
+        var idCard = $('#idCard').val();
+        if(windowTime == 0){
+            return true;
+        }
+        if(name != '' && idCard != ''){
+            name = SG_sm2Encrypt($('#name').val(),publicKey);
+            idCard = SG_sm2Encrypt($('#idCard').val(),publicKey);
+            $.ajax({
+                url:"finishYuDu",
+                type:"post",
+                async:false,
+                data:{
+                    "name" : name,
+                    "idCard" : idCard
+                },
+                success : function(data) {
+                    if(data.indexOf("finishYuDu") != -1){
+                        windowTime = 0;
+                        return true;
+                    }else{
+                        windowTime = 10;
+                        return false;
+                    }
+                }
+            })
+        }
+        if(windowTime > 0){
+            $('.checkbox-box input').prop('checked', false);
+            messFun('no', '请先阅读举报须知!')
+        }
+
+    })
+    $('.agreement').click(function () {
+        $(".yudu").attr("style", "background-color: #ccc;");
+        clearInterval(timer)
+        // windowTime = 10
+        $('.modal').show()
+        $('.modal-footer').show()
+        if (windowTime <= 0) {
+            clearInterval(timer)
+            $(".yudu").attr("style", "background-color: red;");//设为灰色，看起来更像不能操作的按钮
+            $('.yudu').attr('disabled', false)
+            $('.miao').html('')
+        }
+        timer = setInterval(function(){
+            if (windowTime <= 1) {
+                clearInterval(timer)
+                $(".yudu").attr("style", "background-color: red;");//设为灰色，看起来更像不能操作的按钮
+                $('.yudu').attr('disabled', false)
+                $('.miao').html('')
+                windowTime--
+            }else{
+                windowTime--
+                var str = '(' + windowTime + '秒)'
+                $('.miao').html(str)
+            }
+        }, 1000)
+    })
+
+    function messFun(url, text) {
+        $(".message img").attr('src', './images/' + url + '.png');
+        $(".message span").html(text);
+        $(".message").show();
+        setTimeout(function () {
+            $(".message").hide();
+        }, 3000);
+    }
+    $("#loginToken").val("23632f47f35040bea17f28afe82e6b23");
+    //获取useragent信息
+    function isMobile(){
+        let userAgentInfo = navigator.userAgent.toLowerCase();
+        let Agents = ['Android','iPhone','SymbianOs','Windows Phone','iPad','iPod'];
+        let getArr = Agents.filter(i => userAgentInfo.includes(i));
+        // return getArr.length ? true : false;
+        // true:移动端 false:pc端
+        return userAgentInfo;
+    }
+$(document).ready(function(){
+    // //解决弹出键盘页面高度变化bug
+    var viewWidth = window.innerWidth; //获取可视区域宽度
+    var viewHeight = window.innerHeight; //获取可视区域高度
+    if (viewWidth > viewHeight) {
+        horizontalScreen = true; // 横屏 判断横竖屏，需要的时候用
+    } else {
+        horizontalScreen = false; // 竖屏
+    }
+    $("input").focus(function () { // 监听获取焦点事件
+        $("body").css("height", viewHeight); //键盘弹起的时候把body高度设置可视高度
+    })
+    window.addEventListener('resize', function () {
+        // 变化后需要做的事
+        // viewHeight = window.innerHeight; //获取可视区域高度
+        // viewWidth = window.innerWidth; //获取可视区域高度
+    })
+    var localhref = window.location.href;//当前页面url
+    $("#referrerUrl").val(localhref);
+    var referrer = document.referrer; //页面来源地址
+    if(referrer != null && referrer !='' && referrer != undefined) {
+        $("#referrerUrl").val(referrer);
+    }
+        $("#userAgent").val(isMobile());
+})
+
+</script>
+<script src="./js/login.js?v=1.1.3"></script>
+<script type="text/javascript">
+    //监察是否长时未操作
+    /**
+     * 超时校验
+     * @param timeOut
+     * 超时时间，单位：毫秒
+     */
+    const checkTimeOut = function(timeOut) {
+        currentTime = new Date().getTime(); //更新当前时间
+        if (currentTime - oldTime >= timeOut) { //判断是否超时
+            window.location.href = "/"+rootName;
+            // location.reload()
+        }
+    }
+    //超时刷新页面前，提示信息
+    const messageInfo = function(timeOut) {
+        currentTime = new Date().getTime(); //更新当前时间
+        if (currentTime - oldTime >= timeOut) { //判断是否超时
+            messFun('no', '页面长时间停留超过两分钟，即将刷新页面!')
+        }
+    }
+    //这个默认值必须为系统时间（因为可能登录之后就没有操作）
+    var oldTime = new Date().getTime()
+    var currentTime;
+
+    window.onload=function(){
+        getRootName();
+        // sleep();
+        window.setInterval('messageInfo(119*1000)',1000);//119秒提示页面刷新
+        window.setInterval('checkTimeOut(119*1000)',1000);//119+1秒刷新页面
+        /**
+         * 鼠标悬浮时触发
+         */
+        window.document.onmouseover = function() {
+            //重置时间
+            oldTime = new Date().getTime();
+        }
+    }
+    function sleep(){
+        var start = (new Date()).getTime();
+        while ((new Date()).getTime()- start<10000){
+            continue;
+        }
+    }
+</script>
+</html>

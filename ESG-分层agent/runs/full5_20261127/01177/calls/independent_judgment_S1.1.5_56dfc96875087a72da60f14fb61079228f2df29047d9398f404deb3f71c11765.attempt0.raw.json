@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-916bf28e-c01e-919e-bf6e-150ae2872d08",
+  "object": "chat.completion",
+  "created": 1795730878,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空。根据规则，检索结果可能为空，缺少相关证据本身不能证明应查范围已完成。在材料覆盖未确认充分且无具体原文支持的情况下，无法判定S1.1.5各子项（D1-D5）是否满足得分条件或确认为0分，需人工核验材料完整性。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"材料覆盖状态未确认：证据列表为空，无法判断是确实无披露还是检索/提供遗漏。\",\n    \"严重事项核查缺失：无证据表明存在经核实的严重歧视、骚扰或系统性机会不公平事件，亦无证据表明已纠正或未纠正，故无法应用特殊归零条款，也无法正常评分。\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5590,
+    "total_tokens": 5770,
+    "completion_tokens": 180,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5590
+    }
+  }
+}

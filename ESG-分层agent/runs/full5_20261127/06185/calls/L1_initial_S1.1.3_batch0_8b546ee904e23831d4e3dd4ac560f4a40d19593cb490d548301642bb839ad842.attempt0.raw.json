@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7a92b40a-0813-9612-8eaa-8beeab160a28",
+  "object": "chat.completion",
+  "created": 1795730797,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"T1\"\n      ],\n      \"quote\": \"Reasonable Working Hours\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了合理工时相关的政策标题，关联工作时间及排班制度\"\n    },\n    {\n      \"ref_id\": \"p008\",\n      \"group_ids\": [\n        \"T4\"\n      ],\n      \"quote\": \"We updated the Comprehensive Working Hours Management Procedures and optimized the logic for working hours calculation based on business needs.\",\n      \"kind\": \"mechanism\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了更新综合工时管理程序及优化工时计算逻辑的具体机制\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"T2\",\n        \"T4\"\n      ],\n      \"quote\": \"By improving the approval process, we promoted more reasonable management of attendance irregularities, overtime headcount, and overtime hours.\",\n      \"kind\": \"action\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了通过改进审批流程来管理考勤异常、加班人数和加班时长的具体措施，涉及加班管理和工时管理机制\"\n    },\n    {\n      \"ref_id\": \"p005\",\n      \"group_ids\": [\n        \"T3\"\n      ],\n      \"quote\": \"The Company provides full-time employees with nonstatutory leave benefits, including company annual leave and fully paid sick leave, and in certain regions applies the more favorable standard for marriage leave and paternity leave.\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"full-time employees; certain regions\",\n      \"relevance\": \"披露了提供非法定休假福利（公司年假、带薪病假）及特定地区更优婚假产假标准，关联休息休假保障\"\n    },\n    {\n      \"ref_id\": \"p026\",\n      \"group_ids\": [\n        \"T3\"\n      ],\n      \"quote\": \"The Company strictly ensures that all employees are entitled to statutory benefits, including social insurance and the housing fund, annual leave, and sick leave, so that every employee receives consistent care and protection.\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"all employees\",\n      \"relevance\": \"披露了确保所有员工享有法定年假和病假等权益，关联休息休假保障\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8343,
+    "total_tokens": 9057,
+    "completion_tokens": 714,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8343
+    }
+  }
+}

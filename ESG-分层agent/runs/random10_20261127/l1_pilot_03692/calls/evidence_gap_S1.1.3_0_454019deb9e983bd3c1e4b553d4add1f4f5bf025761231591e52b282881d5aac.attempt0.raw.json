@@ -1,0 +1,25 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\"evidence\":[{\"local_id\":\"e1\",\"ref_id\":\"p002\",\"quote\":\"我們不鼓勵加班,嚴格執行加班審核與調休制度,保障員工充分休息\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"披露不鼓励加班政策、加班审核与调休制度，以及保障员工休息的安排\"},{\"local_id\":\"e2\",\"ref_id\":\"p002\",\"quote\":\"通過數字化平臺實時監測考勤數據,發現異常數據立即啟動核查流程,必要時調整人力資源配置,減輕相關崗位的工作負荷\",\"kind\":\"mechanism\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"披露采用数字化平台实时监测考勤数据、异常核查及调整配置的工时管理机制\"},{\"local_id\":\"e3\",\"ref_id\":\"p010\",\"quote\":\"允許按崗位性質靈活調整工作時間\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"披露允许按岗位性质灵活调整工作时间的政策\"},{\"local_id\":\"e4\",\"ref_id\":\"p010\",\"quote\":\"不鼓勵加班\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"披露不鼓励加班的政策\"},{\"local_id\":\"e5\",\"ref_id\":\"p010\",\"quote\":\"對額外或非常規時間的工作依法給予補償,包括調休、加班費等\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"披露对额外工作时间给予调休、加班费等补偿的政策\"},{\"local_id\":\"e6\",\"ref_id\":\"p005\",\"quote\":\"法定帶薪假期\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"披露员工享有法定带薪假期的权利\"},{\"local_id\":\"e7\",\"ref_id\":\"p017\",\"quote\":\"育兒假、工作日哺乳時間、哺乳室、靈活工作時間\",\"kind\":\"policy\",\"period\":\"未明确\",\"scope\":\"未明确\",\"relevance\":\"披露育儿假、哺乳时间等具体休假安排及灵活工作时间\"}],\"groups\":[{\"group_id\":\"T1\",\"content_sufficient\":true,\"supported_paths\":[\"披露员工具体工作时间、排班、轮班或合理工时控制的至少一项政策或事例\"],\"evidence_ids\":[\"e3\",\"e7\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"T2\",\"content_sufficient\":true,\"supported_paths\":[\"披露与员工加班管理直接对应的至少一项具体政策、程序或事实，如员工加班申请、管理人员审批、自愿加班、加班时长控制，或加班异常的处理安排等\"],\"evidence_ids\":[\"e1\",\"e4\",\"e5\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"T3\",\"content_sufficient\":true,\"supported_paths\":[\"披露员工休息、法定假期、年休假等至少一项明确权利或取得安排\"],\"evidence_ids\":[\"e1\",\"e6\",\"e7\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"T4\",\"content_sufficient\":true,\"supported_paths\":[\"披露至少一项具体工时或休假管理机制或运行事实，如采用考勤系统、记录工时、检查排班、员工申请休假，或办理调休的管理安排\"],\"evidence_ids\":[\"e1\",\"e2\"],\"missing\":[],\"conflicts\":[]},{\"group_id\":\"T5\",\"content_sufficient\":false,\"supported_paths\":[],\"evidence_ids\":[],\"missing\":[\"当期实际发生的工时监测结果、休假使用人数或比例、执行措施覆盖人数、已纠正的休息权侵害等实际数据或事实\"],\"conflicts\":[]}]}",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1795728888,
+  "id": "chatcmpl-2f0042d7-6291-9969-9382-22d88bdb8714",
+  "model": "qwen3.8-max",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 739,
+    "prompt_tokens": 5754,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5754
+    },
+    "total_tokens": 6493
+  }
+}

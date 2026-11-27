@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-87da9dae-b29f-947c-a618-fb3ceade32ba",
+  "object": "chat.completion",
+  "created": 1795730814,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"W1\"\n      ],\n      \"quote\": \"The Company strictly ensures that all employees are entitled to statutory benefits, including social insurance and the housing fund, annual leave, and sick leave, so that every employee receives consistent care and protection.\",\n      \"kind\": \"policy\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"all employees\",\n      \"relevance\": \"明确披露了法定社会保障（社保、公积金）及基本福利政策。\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"W2\"\n      ],\n      \"quote\": \"The Company provides employees with commercial insurance coverage above the market average and also offers medical insurance and free vaccinations for employees' children.\",\n      \"kind\": \"action\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"employees and their children\",\n      \"relevance\": \"披露了具体的补充福利安排（商业保险、子女医疗/疫苗）。\"\n    },\n    {\n      \"ref_id\": \"p005\",\n      \"group_ids\": [\n        \"W3\"\n      ],\n      \"quote\": \"The Company has established a 24/7 psychological support hotline and launched EAP psychological courses to safeguard employees' mental health.\",\n      \"kind\": \"action\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"employees\",\n      \"relevance\": \"披露了面向员工的家庭与生活支持资源（心理热线、EAP课程）。\"\n    },\n    {\n      \"ref_id\": \"p006\",\n      \"group_ids\": [\n        \"W4\"\n      ],\n      \"quote\": \"The Company also provides assistance to employees in financial hardship by granting monthly subsidies to eligible employees and offers home visits and condolence payments to employees suffering from serious illness.\",\n      \"kind\": \"mechanism\",\n      \"period\": \"January 1, 2025, to December 31, 2025\",\n      \"scope\": \"eligible employees / employees suffering from serious illness\",\n      \"relevance\": \"披露了福利的具体取得规则或适用对象（符合条件员工获月度补贴，重病员工获慰问金）。\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"W5\"\n      ],\n      \"quote\": \"In 2025, the total value of employee benefits distributed by the Company amounted to RMB 73.12 million.\",\n      \"kind\": \"result\",\n      \"period\": \"2025\",\n      \"scope\": \"Company\",\n      \"relevance\": \"披露了当期已发生的福利发放事实（总金额），证明实际覆盖与使用。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8205,
+    "total_tokens": 8908,
+    "completion_tokens": 703,
+    "prompt_tokens_details": {
+      "cached_tokens": 7168,
+      "text_tokens": 8205
+    }
+  }
+}

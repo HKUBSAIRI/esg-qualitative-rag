@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4fe354d9-f3e6-9ed3-8084-992e987e705f",
+  "object": "chat.completion",
+  "created": 1795743562,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p042\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"我們要求各級管理層平等對待每一位員工的發展,避免有意或無意的歧視與偏見。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"各級管理層、員工發展\",\n      \"relevance\": \"明确披露反对员工歧视的政策要求，符合反歧视政策与保障指标\"\n    },\n    {\n      \"ref_id\": \"p047\",\n      \"group_ids\": [\n        \"D1\"\n      ],\n      \"quote\": \"公平對待不同性別、民族、宗教信仰和文化背景的候選人及員 工。\",\n      \"kind\": \"action\",\n      \"period\": \"未明确\",\n      \"scope\": \"招聘与录用、候选人及员工\",\n      \"relevance\": \"具体描述了在招聘和用工中防止不正当差别待遇的措施，符合反歧视政策与保障指标\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10903,
+    "total_tokens": 11149,
+    "completion_tokens": 246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10903
+    }
+  }
+}

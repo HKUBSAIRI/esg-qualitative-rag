@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c4878dee-e1ec-9b4a-a3c8-2a7ff2ca5a6d",
+  "object": "chat.completion",
+  "created": 1795745450,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"最低工资保障政策\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别与工资支付直接相关的检查、监测或内部审查的具体制度、程序或实际开展事实。e004提及的是‘薪酬审查’以消除性别差距，属于薪酬公平性/结构审查，而非针对‘工资支付’（如按时足额发放、合规性）的监测或审计；且无当期实际执行记录。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2418,
+    "total_tokens": 2650,
+    "completion_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2418
+    }
+  }
+}

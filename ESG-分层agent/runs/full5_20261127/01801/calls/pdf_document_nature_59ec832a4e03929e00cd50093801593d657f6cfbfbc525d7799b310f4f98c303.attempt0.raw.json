@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-db680fd7-14f4-9038-9aa6-c64a0a865cdf",
+  "object": "chat.completion",
+  "created": 1795743870,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"esg\",\n  \"report_year\": 2023,\n  \"publisher\": \"Innovent Biologics, Inc.\",\n  \"basis\": \"文件标题明确为'ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT'及'環境、社會及管治報告．2023'，目录包含ESG治理、环境管理、社会责任等章节，'About This Report'部分声明这是信达生物发布的第六份ESG报告，报告期覆盖2023年1月1日至2023年12月31日。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3191,
+    "total_tokens": 3322,
+    "completion_tokens": 131,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 3191
+    }
+  }
+}

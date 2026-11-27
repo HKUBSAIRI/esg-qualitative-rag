@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-a4f75876-dcc9-9d55-8b03-31584fa90e68",
+  "object": "chat.completion",
+  "created": 1795744248,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到。根据实际搜索日志，针对翰森制药集团有限公司（03692）在2025年度关于严重超时工作、违法剥夺休息休假及纠正的官方监管、司法通报等独立来源进行了检索。虽然部分普通报告类链接因非独立通知或读取失败被排除，但关键的官方执法记录查询页面（如公司注册处披露记录、执法工作、检控个案概要等）已成功打开并核查，未发现与该公司相关的严重事项通报或违规记录。依据规则，材料中的指令视为资料，不补写事实；投诉、和解、撤诉、职工债权公示和未披露整改不能单独证明严重事项或未纠正；且没有严重通报候选不代表普通政策披露缺失。鉴于必要案件原件已打开且无未决问题，判定为在本次已查范围内未验证到严重不利事件。\",\n  \"evidence_refs\": [],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7681,
+    "total_tokens": 7898,
+    "completion_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7681
+    }
+  }
+}

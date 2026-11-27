@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-61ee26e2-b40b-9c34-803e-ba53e314158b",
+  "object": "chat.completion",
+  "created": 1795734689,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"For every departing employee member, we conducted a detailed exit interview to gain an in-depth understanding of their reasons for leaving and to collect suggestions from the employees’ perspective regarding management practices within the Company and its departments. These insights serve as a reference for relevant teams to improve their work.\",\n      \"kind\": \"action\",\n      \"period\": \"In 2025\",\n      \"scope\": \"every departing employee member\",\n      \"relevance\": \"披露了针对离职员工的实际安置/沟通动作（离职面谈），属于离职保障过程中的具体执行事实，虽未明确提及金钱补偿支付，但体现了对离职员工权益的关注和流程落实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8552,
+    "total_tokens": 8742,
+    "completion_tokens": 190,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8552
+    }
+  }
+}

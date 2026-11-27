@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f0ac353b-e904-99d1-9756-a065057d2eee",
+  "object": "chat.completion",
+  "created": 1795731539,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"截至 2025 年及 2024 年 12 月 31 日止年度,概無直接或間接向董事支付終止董事服務的報酬或利益;亦無任何應付款項。\",\n      \"kind\": \"result\",\n      \"period\": \"截至 2025 年及 2024 年 12 月 31 日止年度\",\n      \"scope\": \"董事\",\n      \"relevance\": \"披露了评分年度内终止服务报酬的实际支付情况（无支付），属于离职保障结果的负面事实证据。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 15392,
+    "total_tokens": 15578,
+    "completion_tokens": 186,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 15392
+    }
+  }
+}

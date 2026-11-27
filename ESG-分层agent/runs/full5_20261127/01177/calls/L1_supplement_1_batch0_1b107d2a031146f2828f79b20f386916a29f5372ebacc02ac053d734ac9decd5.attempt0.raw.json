@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-00738670-a5c2-9a6a-838e-6500163c4dac",
+  "object": "chat.completion",
+  "created": 1795730736,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"T5\"\n      ],\n      \"quote\": \"我們通過考勤管理系統持續跟蹤員工考勤、加班時長 情況,對異常數據進行核查,必要時調整人力資源配置,減輕相關崗位的工作負荷。\",\n      \"kind\": \"action\",\n      \"period\": \"2025 年1 月1 日至2025 年12 月31 日\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"披露了当期实际进行的工时监测（跟踪加班时长）及异常数据核查，符合T5关于实际执行或纠正结果的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9833,
+    "total_tokens": 10010,
+    "completion_tokens": 177,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9833
+    }
+  }
+}

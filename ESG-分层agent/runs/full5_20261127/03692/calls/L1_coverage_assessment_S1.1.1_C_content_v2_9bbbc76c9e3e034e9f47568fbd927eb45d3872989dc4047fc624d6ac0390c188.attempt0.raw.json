@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ec3b4961-47bd-9329-bcc4-ed9aa3fd07b2",
+  "object": "chat.completion",
+  "created": 1795732571,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工流失率具体数值（14.4%）及口径（主动离职率），并明确期间为2025年。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"披露了劳动合同签订合规审核机制、数字合同系统保障，以及工会代表员工签订集体劳动合同的具体安排。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关的通知、协商、补偿或离职争议处理制度/事实。e005仅提及对违规员工的解雇措施，属于纪律处分而非裁员/解除劳动关系的一般性程序或补偿披露；且无辞退福利等当期补偿事实。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\",\n        \"e007\",\n        \"e012\"\n      ],\n      \"supported_paths\": [\n        \"披露了内部转岗、竞聘制度及转型指导（e006），以及内部填补岗位比例的具体数据（19%，e007/e012）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露评分年度已经发生的终止补偿支付、就业安置受益或相应有效纠正结果。现有证据主要为政策、机制或一般性统计指标（如流失率、内部填补率），缺乏针对离职人员的具体补偿支付或安置受益的实际发生事实。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4782,
+    "total_tokens": 5400,
+    "completion_tokens": 618,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 4782
+    }
+  }
+}

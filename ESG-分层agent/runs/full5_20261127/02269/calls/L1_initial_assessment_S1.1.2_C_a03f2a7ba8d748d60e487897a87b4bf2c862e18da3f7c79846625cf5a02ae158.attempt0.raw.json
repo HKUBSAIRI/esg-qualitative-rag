@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-33d5470f-7f82-91c4-9de1-ed965b9bcfec",
+  "object": "chat.completion",
+  "created": 1795730303,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"最低工资保障政策 (e001)\",\n        \"加班薪资支付政策 (e004)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"工资核算规则、复核机制、工资单发放或员工查询/申诉渠道的具体披露\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"定期薪酬监测与分析、薪酬公平性审查及生活工资评估 (e002)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"全体员工适用最低工资承诺 (e001)\",\n        \"全员及所有运营地覆盖的生活工资评估 (e003)\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"针对工资差错、欠薪、扣款或加班费问题的具体补救机制（如补发、退还、复核）或已完成纠正的事实\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1958,
+    "total_tokens": 2432,
+    "completion_tokens": 474,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1958
+    }
+  }
+}

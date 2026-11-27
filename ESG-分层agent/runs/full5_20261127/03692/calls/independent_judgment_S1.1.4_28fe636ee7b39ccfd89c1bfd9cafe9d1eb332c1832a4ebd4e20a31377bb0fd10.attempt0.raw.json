@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e3c968b3-042c-9518-bf3d-bf5997287a81",
+  "object": "chat.completion",
+  "created": 1795730492,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"候选证据列表为空。根据规则，检索结果可能为空，缺少相关证据本身不能证明应查范围已完成。在材料覆盖未确认充分且无具体原文支持的情况下，无法判定S1.1.4指标下各证据组（W1-W5）是否满足得分条件或存在严重侵害未纠正的情形，故状态定为待核验。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    \"缺失所有关于员工福利、社会保障、补充福利、家庭支持及实际受益的官方披露原文\",\n    \"无法核实是否存在严重员工福利权益侵害事件及其纠正情况\"\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5589,
+    "total_tokens": 5740,
+    "completion_tokens": 151,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 5589
+    }
+  }
+}

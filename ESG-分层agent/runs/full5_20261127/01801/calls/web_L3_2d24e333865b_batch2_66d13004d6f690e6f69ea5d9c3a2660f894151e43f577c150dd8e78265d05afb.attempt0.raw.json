@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-abeb605a-8489-90cc-9e98-eee728161e3d",
+  "object": "chat.completion",
+  "created": 1795733724,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p009\",\n      \"group_ids\": [\n        \"E5\",\n        \"P5\",\n        \"T2\",\n        \"T5\"\n      ],\n      \"quote\": \"During the six months ended 30 June 2025, the Company did not experience any significant labour disputes or any difficulty in recruiting employees.\",\n      \"kind\": \"result\",\n      \"period\": \"Six months ended 30 June 2025\",\n      \"scope\": \"Company (Innovent Biologics)\",\n      \"relevance\": \"The disclosure states no significant labour disputes occurred. This negative result implies the absence of wage arrears, incorrect deductions, overtime payment issues requiring remediation (P5), and potentially supports the lack of evidence for specific termination compensation payments or labor rights violations requiring correction (E5, T5). It also indicates no operational disruptions related to labor management (T2).\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11406,
+    "total_tokens": 11629,
+    "completion_tokens": 223,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11406
+    }
+  }
+}

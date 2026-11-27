@@ -1,0 +1,650 @@
+[
+  {
+    "indicator_id": "S1.1.2 C",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=202911&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=102&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 202911,
+          "c": "01801",
+          "n": "信達生物",
+          "s": 7417
+        },
+        "records": 102,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"信達生物\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/01801/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900054_c.pdf",
+            "title": "內幕消息公告 - 2026年第三季度的產品收入",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080500054_c.pdf",
+            "title": "內幕消息公告 - 2026年上半年及第二季度的產品收入公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0529/2026052900030_c.pdf",
+            "title": "內幕消息公告 - 與輝瑞達成全球戰略合作加速創新腫瘤藥物開發",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000286_c.pdf",
+            "title": "內幕消息公告 - 2026年第一季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0208/2026020800010_c.pdf",
+            "title": "內幕消息公告 - 與禮來製藥達成全球戰略合作推進腫瘤及免疫領域的新藥開發",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0204/2026020401749_c.pdf",
+            "title": "內幕消息公告 - 2025年全年及第四季度產品收入實現強勁增長",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1030/2025103000940_c.pdf",
+            "title": "內幕消息公告－2025年第三季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0807/2025080700667_c.pdf",
+            "title": "內幕消息公告－2025年第二季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0501/2025050100002_c.pdf",
+            "title": "內幕消息公告－2025年第一季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0206/2025020601188_c.pdf",
+            "title": "內幕消息公告－2024年全年及第四季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0102/2025010200010_c.pdf",
+            "title": "內幕消息公告 -\n與羅氏達成新一代DLL3抗體偶聯藥物的全球獨家許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2024/0430/2024043000286_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042805186_c.pdf",
+            "title": "2025 環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042805074_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042805172_c.pdf",
+            "title": "2025年報",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042805074_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.3",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=202911&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=102&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 202911,
+          "c": "01801",
+          "n": "信達生物",
+          "s": 7417
+        },
+        "records": 102,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"信達生物\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/01801/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900054_c.pdf",
+            "title": "內幕消息公告 - 2026年第三季度的產品收入",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080500054_c.pdf",
+            "title": "內幕消息公告 - 2026年上半年及第二季度的產品收入公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0529/2026052900030_c.pdf",
+            "title": "內幕消息公告 - 與輝瑞達成全球戰略合作加速創新腫瘤藥物開發",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000286_c.pdf",
+            "title": "內幕消息公告 - 2026年第一季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0208/2026020800010_c.pdf",
+            "title": "內幕消息公告 - 與禮來製藥達成全球戰略合作推進腫瘤及免疫領域的新藥開發",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0204/2026020401749_c.pdf",
+            "title": "內幕消息公告 - 2025年全年及第四季度產品收入實現強勁增長",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1030/2025103000940_c.pdf",
+            "title": "內幕消息公告－2025年第三季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0807/2025080700667_c.pdf",
+            "title": "內幕消息公告－2025年第二季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0501/2025050100002_c.pdf",
+            "title": "內幕消息公告－2025年第一季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0206/2025020601188_c.pdf",
+            "title": "內幕消息公告－2024年全年及第四季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0102/2025010200010_c.pdf",
+            "title": "內幕消息公告 -\n與羅氏達成新一代DLL3抗體偶聯藥物的全球獨家許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2024/0430/2024043000286_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042805186_c.pdf",
+            "title": "2025 環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042805074_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042805172_c.pdf",
+            "title": "2025年報",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042805074_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.4",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=202911&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=102&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 202911,
+          "c": "01801",
+          "n": "信達生物",
+          "s": 7417
+        },
+        "records": 102,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"信達生物\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/01801/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900054_c.pdf",
+            "title": "內幕消息公告 - 2026年第三季度的產品收入",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080500054_c.pdf",
+            "title": "內幕消息公告 - 2026年上半年及第二季度的產品收入公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0529/2026052900030_c.pdf",
+            "title": "內幕消息公告 - 與輝瑞達成全球戰略合作加速創新腫瘤藥物開發",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000286_c.pdf",
+            "title": "內幕消息公告 - 2026年第一季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0208/2026020800010_c.pdf",
+            "title": "內幕消息公告 - 與禮來製藥達成全球戰略合作推進腫瘤及免疫領域的新藥開發",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0204/2026020401749_c.pdf",
+            "title": "內幕消息公告 - 2025年全年及第四季度產品收入實現強勁增長",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1030/2025103000940_c.pdf",
+            "title": "內幕消息公告－2025年第三季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0807/2025080700667_c.pdf",
+            "title": "內幕消息公告－2025年第二季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0501/2025050100002_c.pdf",
+            "title": "內幕消息公告－2025年第一季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0206/2025020601188_c.pdf",
+            "title": "內幕消息公告－2024年全年及第四季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0102/2025010200010_c.pdf",
+            "title": "內幕消息公告 -\n與羅氏達成新一代DLL3抗體偶聯藥物的全球獨家許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2024/0430/2024043000286_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042805186_c.pdf",
+            "title": "2025 環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042805074_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042805172_c.pdf",
+            "title": "2025年報",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042805074_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  },
+  {
+    "indicator_id": "S1.1.5",
+    "check_id": "official_adverse_event",
+    "evidence": [],
+    "search_log": [
+      {
+        "source_type": "HKEX_official_title_search",
+        "url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=202911&documentType=-1&fromDate=20250101&toDate=20261127&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=102&lang=ZH",
+        "period": [
+          "2025-01-01",
+          "2026-11-27"
+        ],
+        "stock": {
+          "i": 202911,
+          "c": "01801",
+          "n": "信達生物",
+          "s": 7417
+        },
+        "records": 102,
+        "pagination_complete": true
+      },
+      {
+        "source_type": "HKEX_domain_content_discovery",
+        "queries": [
+          {
+            "q": "\"信達生物\" 欠薪 工資 wage arrears (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 超時 休假 overtime rest (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 社保 福利 social insurance employee (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          },
+          {
+            "q": "\"信達生物\" 歧視 騷擾 discrimination harassment (處罰 OR 訴訟 OR 監管 OR 整改 OR penalty OR litigation) 2025 2026",
+            "domains": [
+              "hkexnews.hk"
+            ]
+          }
+        ],
+        "raw_result_path": "/Users/liusuyao/code/python_code/IS/ESG-agent/ESG-分层agent/runs/hkex_l4/01801/content_discovery.json",
+        "limitation": "官网内容搜索脚本不可用，补查使用限定hkexnews.hk域名的网页索引；搜索摘要不作为事实证据"
+      },
+      {
+        "source_type": "candidate_screening",
+        "exclusions": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900054_c.pdf",
+            "title": "內幕消息公告 - 2026年第三季度的產品收入",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080500054_c.pdf",
+            "title": "內幕消息公告 - 2026年上半年及第二季度的產品收入公告",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0529/2026052900030_c.pdf",
+            "title": "內幕消息公告 - 與輝瑞達成全球戰略合作加速創新腫瘤藥物開發",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000286_c.pdf",
+            "title": "內幕消息公告 - 2026年第一季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0208/2026020800010_c.pdf",
+            "title": "內幕消息公告 - 與禮來製藥達成全球戰略合作推進腫瘤及免疫領域的新藥開發",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0204/2026020401749_c.pdf",
+            "title": "內幕消息公告 - 2025年全年及第四季度產品收入實現強勁增長",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1030/2025103000940_c.pdf",
+            "title": "內幕消息公告－2025年第三季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0807/2025080700667_c.pdf",
+            "title": "內幕消息公告－2025年第二季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0501/2025050100002_c.pdf",
+            "title": "內幕消息公告－2025年第一季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0206/2025020601188_c.pdf",
+            "title": "內幕消息公告－2024年全年及第四季度產品收入的最新消息",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0102/2025010200010_c.pdf",
+            "title": "內幕消息公告 -\n與羅氏達成新一代DLL3抗體偶聯藥物的全球獨家許可協議",
+            "decision": "not_employee_adverse_case",
+            "basis": "标题明确为药品审批、收入业绩、业务合作、配售或薪酬委员会制度，不披露员工严重侵权具体案件"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2024/0430/2024043000286_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042805186_c.pdf",
+            "title": "2025 環境、社會及管治報告",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042805074_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          },
+          {
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042805172_c.pdf",
+            "title": "2025年報",
+            "decision": "ordinary_report_not_L4",
+            "basis": "与官方公司公告目录匹配，性质为ESG/年报/中报，保留原层级，不重复全文阅读"
+          },
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0428/2023042805074_c.pdf",
+            "decision": "outside_discovery_period",
+            "basis": "发布早于本次检索2025-01-01起始日；不作为2025严重事项通报"
+          }
+        ]
+      }
+    ],
+    "search_complete": true,
+    "source_scope": "HKEX指定公司公告目录及限定域名内容检索，2025-01-01至2026-11-27；非全监管/司法渠道无事件证明",
+    "retrieval_status": "no_relevant_evidence_found",
+    "issues": [],
+    "judgment": {
+      "state": "no_verified_adverse_event_found",
+      "reason": "已完成本次指定披露易查找范围，未发现可核实的员工相关严重事项通报。结论不保证未发生或未在其他渠道披露。",
+      "unresolved": [],
+      "evidence_ids": []
+    }
+  }
+]

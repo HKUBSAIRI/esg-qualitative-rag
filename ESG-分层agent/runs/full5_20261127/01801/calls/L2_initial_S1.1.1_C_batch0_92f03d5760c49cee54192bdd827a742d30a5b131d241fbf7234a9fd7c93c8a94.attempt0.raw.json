@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5211fb65-ace7-9fa7-9d71-698b5adc3c64",
+  "object": "chat.completion",
+  "created": 1795731482,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"截至 2025 年及 2024 年 12 月 31 日止年度,概無直接或間接向董事支付終止董事服務的報酬或利益;亦無任何應付款項。此 外,概無向第三方就提供董事服務提供或應付任何第三方的代價,亦無以董事、董事的受控制法人團體及關連實體為受益人 的貸款、准貸款及其他交易。\",\n      \"kind\": \"result\",\n      \"period\": \"截至 2025 年及 2024 年 12 月 31 日止年度\",\n      \"scope\": \"董事\",\n      \"relevance\": \"明确披露当期无终止服务报酬支付，属于离职保障结果（零支付）的事实陈述\"\n    },\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"截至 2025 年及 2024 年 12 月 31 日止年度,本集團並無向本公司任何董事或五名最高薪人士支付酬金,作為其加入本集團或加 入本集團時的獎勵或作為離職補償。\",\n      \"kind\": \"result\",\n      \"period\": \"截至 2025 年及 2024 年 12 月 31 日止年度\",\n      \"scope\": \"本公司任何董事或五名最高薪人士\",\n      \"relevance\": \"明确披露当期无离职补偿支付，属于离职保障结果（零支付）的事实陈述\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9131,
+    "total_tokens": 9553,
+    "completion_tokens": 422,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9131
+    }
+  }
+}

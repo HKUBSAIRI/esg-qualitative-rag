@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-94b2be5e-9ccf-9484-b47d-eeb4213aee38",
+  "object": "chat.completion",
+  "created": 1795744689,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年度员工流失率具体数值（e001），并明确了计算口径为集团财务并表的全部实体内的全部劳动合同员工（e002）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"评分年度已经发生的终止补偿支付、就业安置、离职保障受益或相应有效纠正结果至少一项。现有证据仅包含政策描述（e006, e007）或未提及具体离职保障结果的财务/运营数据（e004, e005）。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4421,
+    "total_tokens": 4685,
+    "completion_tokens": 264,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 4421
+    }
+  }
+}

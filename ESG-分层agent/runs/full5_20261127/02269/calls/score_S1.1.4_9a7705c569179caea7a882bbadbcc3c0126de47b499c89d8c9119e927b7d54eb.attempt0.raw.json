@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8780f0af-d309-902b-9956-00eee6b1203d",
+  "object": "chat.completion",
+  "created": 1795745609,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露集团为运营地员工缴纳基本养老保险、医疗保险、失业保险、生育保险、工伤保险及住房公积金，符合法定社会保障具体项目的披露要求。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002披露了面向符合条件员工的员工宿舍融资租赁安排（补充福利），证据e004提及商业保险套餐供员工自主购买。存在具体的补充福利安排或事实。\",\n      \"evidence_refs\": [\n        \"e002\",\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确披露为员工开通心理援助(EAP)热线并提供一对一心理健康咨询，属于家庭与生活支持中的心理支持服务。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004明确了商业保险的取得规则（员工可自主购买）及适用对象（包括员工计划以及配偶和子女计划）。证据e002也隐含了“eligible employees”的适用对象限制。满足披露至少一项福利的具体取得规则或明确适用对象的条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005明确披露2025年度已为员工及时且足额缴纳各项社会保险，属于当期已经发生的福利覆盖/缴纳事实。证据e001也佐证了当期（for the year ended December 31, 2025）的缴纳行为。\",\n      \"evidence_refs\": [\n        \"e005\",\n        \"e001\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8120,
+    "total_tokens": 8678,
+    "completion_tokens": 558,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 8120
+    }
+  }
+}

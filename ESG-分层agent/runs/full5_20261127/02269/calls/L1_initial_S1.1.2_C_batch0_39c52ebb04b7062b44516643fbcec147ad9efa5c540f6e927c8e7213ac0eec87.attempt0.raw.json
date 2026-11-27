@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5dc5167f-61f1-9ca3-8c8e-b9251838a43a",
+  "object": "chat.completion",
+  "created": 1795730262,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"藥明生物為員工提供不低於最低工資標準且 具有市場競爭力的薪酬和福利,並承諾同工 同酬。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"员工\",\n      \"relevance\": \"明确披露了不低于最低工资标准的薪酬政策，符合工资支付保障的具体事实要求。\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"P3\"\n      ],\n      \"quote\": \"公司定期開展薪酬監測與分析,制定 符合市場趨勢和公司戰略的薪酬策略,並根 據員工的績效表現和貢獻給予獎勵。同時, 公司積極開展薪酬公平性的審查與分析,持續關注性別和背景多樣性的薪酬平等,避免薪酬歧視。 2025 年,我們啓動了覆蓋全員的生活工 資評估。此次評估參考了包括 WageIndicator 在內的第三方權威數據,覆蓋了公司所有運營地。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年度\",\n      \"scope\": \"全员/所有运营地\",\n      \"relevance\": \"披露了定期的薪酬监测与分析、薪酬公平性审查以及2025年启动的全员生活工资评估，属于与工资支付相关的内部审查或监测机制。\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"P4\"\n      ],\n      \"quote\": \"2025 年,我們啓動了覆蓋全員的生活工 資評估。此次評估參考了包括 WageIndicator 在內的第三方權威數據,覆蓋了公司所有運營地。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年度\",\n      \"scope\": \"全员/所有运营地\",\n      \"relevance\": \"明确了生活工资评估（作为工资保障相关举措）覆盖的对象为全员及所有运营地。\"\n    },\n    {\n      \"ref_id\": \"p012\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"對於額外及非常規工作時間的勞動,我們支 付加班薪資或合理安排調休。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了针对额外工作时间的加班薪资支付政策，属于具体工资支付内容。\"\n    },\n    {\n      \"ref_id\": \"p015\",\n      \"group_ids\": [\n        \"P2\"\n      ],\n      \"quote\": \"人力資源部會以政策發佈、線上線下座談會等多渠道與廣大 員工積極溝通,清晰傳達政策價值主張、要點並開展答疑。...並按約定流程監督薪酬激勵發放工作,確 保員工激勵的及時性。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025年度\",\n      \"scope\": \"广大员工\",\n      \"relevance\": \"披露了通过座谈会开展答疑（查询/沟通机制）以及监督发放确保及时性的处理安排，涉及工资/激励发放的沟通与执行监控。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9756,
+    "total_tokens": 10530,
+    "completion_tokens": 774,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9756
+    }
+  }
+}

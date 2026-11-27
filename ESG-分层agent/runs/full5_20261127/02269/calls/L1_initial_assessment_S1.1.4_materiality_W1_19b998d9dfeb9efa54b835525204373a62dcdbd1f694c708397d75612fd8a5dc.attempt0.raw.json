@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-24c2a5b1-b15b-998d-bd82-131cd8b40f73",
+  "object": "chat.completion",
+  "created": 1795732799,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e003\"\n  ],\n  \"reason\": \"候选引文 e003 明确列出了养老保险、医疗保险等具体法定社会保障项目，直接满足 S1.1.4 指标中关于‘披露适用员工的至少一项具体法定社会保障或基本福利政策、安排或事实’的成立路径。即使该引文完全核实，其内容本身即构成充分证据，因此它是影响判分的关键候选。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 412,
+    "total_tokens": 517,
+    "completion_tokens": 105,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 412
+    }
+  }
+}

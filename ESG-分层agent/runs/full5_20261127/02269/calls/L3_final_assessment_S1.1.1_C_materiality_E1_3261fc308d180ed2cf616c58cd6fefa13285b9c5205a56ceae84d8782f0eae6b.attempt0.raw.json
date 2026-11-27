@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-88286619-4167-955d-bceb-4bf182eb6bd7",
+  "object": "chat.completion",
+  "created": 1795739842,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\",\n    \"e007\"\n  ],\n  \"reason\": \"判据相关性：候选 e001 直接提供了2025年员工流失率的具体数值（10%）及分维度数据，是验证‘当期离职率披露’核心事实的关键证据；候选 e007 定义了‘员工主动流失率’的计算口径，对于满足条件中‘识别离职率口径’的要求至关重要。两者结合可确认是否满足披露评分年度离职率情况并明确口径的成立路径。e005和e006仅为索引或分类指引，不直接提供数值或具体定义，故不作为影响判分的必要证据。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "total_tokens": 1322,
+    "completion_tokens": 160,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1162
+    }
+  }
+}

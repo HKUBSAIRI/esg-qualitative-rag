@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-67e66480-4f68-987b-927d-34cc552f303d",
+  "object": "chat.completion",
+  "created": 1795745462,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露提供包括“五險一金”等法定福利，符合法定社会保障及基本福利的判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003、e004、e005、e006披露了补充医疗保险、健康体检、高温津贴、免费工作餐/餐贴、通讯卡福利、职工医疗救助政策等具体补充福利安排，符合判分条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\",\n        \"e005\",\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004、e007、e008、e009、e010披露了职场心理咨询、健身设施、育儿假、哺乳室、家属开放日、员工食堂宿舍等家庭与生活支持资源或服务，符合判分条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e007\",\n        \"e008\",\n        \"e009\",\n        \"e010\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003、e006、e010、e011明确了福利适用对象（如特定员工、全体员工、孕期女员工）及申领流程或限制条件（部分福利仅针对特定对象），符合福利取得规则的判分条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e006\",\n        \"e010\",\n        \"e011\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e012披露了报告期内对106位退休员工和10位困难员工进行春节慰问，并向一线员工发放防暑降温物资，属于当期已发生的福利受益事实，符合实际覆盖、使用或受益的判分条件。\",\n      \"evidence_refs\": [\n        \"e012\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9911,
+    "total_tokens": 10556,
+    "completion_tokens": 645,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 9911
+    }
+  }
+}

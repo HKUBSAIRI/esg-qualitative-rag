@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-3853e11c-7479-9551-b28c-ad17defb941e",
+  "object": "chat.completion",
+  "created": 1795746175,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"material_refs\": [], \"reason\": \"候选引文x001仅披露包含工资、社会福利及股份付款的员工成本总额，未区分或明确提及针对离职保障的具体终止补偿支付、就业安置或有效纠正结果。即使该数据完全核实，仍属于‘员工福利总费用’范畴，无法单独证明‘实际离职保障结果’这一特定指标所需的当期具体事件发生，不满足成立路径，也不与已核实的‘证据不足’结论形成实质冲突。\"}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 396,
+    "total_tokens": 499,
+    "completion_tokens": 103,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 396
+    }
+  }
+}

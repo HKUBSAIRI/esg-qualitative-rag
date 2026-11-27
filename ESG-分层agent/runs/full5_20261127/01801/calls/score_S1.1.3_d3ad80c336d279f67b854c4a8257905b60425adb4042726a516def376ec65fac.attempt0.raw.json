@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-84b30283-3017-93fd-a3e5-1cd0282c582c",
+  "object": "chat.completion",
+  "created": 1795746195,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露公司实施标准工时制度，确保员工每周工作时长不超过法定上限，符合工作时间及排班制度的政策披露要求。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"T2\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索完成且无相关证据支持加班管理的具体政策、程序或事实（如申请、审批、时长控制等），不满足得分条件。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"T3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004和e005分别明确披露了带薪年休假/福利年假安排以及产假、育儿假的具体天数权利，符合休息休假保障的判分条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"T4\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索完成且无相关证据支持具体的工时或休假管理机制（如考勤系统、记录、检查等运行事实），仅有泛泛的制度声明不足以得分。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"T5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索完成且无当期实际发生的工时监测、休假使用数据或侵害纠正结果等证据，不满足实际执行或结果的判分条件。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3649,
+    "total_tokens": 4092,
+    "completion_tokens": 443,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3649
+    }
+  }
+}

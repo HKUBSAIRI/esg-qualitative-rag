@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1a6ac1ec-a635-91ed-a95a-014e7e5eaa5e",
+  "object": "chat.completion",
+  "created": 1795731231,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\",\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"针对歧视或骚扰的处分、问责规则（解除劳动合同等纪律措施）\",\n        \"具体补救机制（投诉举报受理、调查处理流程）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2187,
+    "total_tokens": 2317,
+    "completion_tokens": 130,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 2187
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-fae223f4-18f2-9cb6-b66a-3c97272d2a6d",
+  "object": "chat.completion",
+  "created": 1795730587,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"D1\",\n        \"D2\"\n      ],\n      \"quote\": \"我們堅決守護平等尊重的職場底線,對歧視與騷擾堅持零容忍,嚴禁在工作場所進行任何形式的歧視或騷擾行爲(包 括性騷擾和非性騷擾)。本集團每年至少一次向全體員工開展反歧視和反騷擾培訓,持續打造公平、尊重、包容的工 作氛圍。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"工作场所/全体员工\",\n      \"relevance\": \"明确披露禁止歧视与骚扰的政策及零容忍要求，以及开展相关培训的具体措施\"\n    },\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"D3\",\n        \"D4\"\n      ],\n      \"quote\": \"我們鼓勵相關人員在發現任何歧視或騷擾行爲時儘快進行上報,制定《中國生物製藥員工意見反饋及申訴管理制度》, 明確了歧視或騷擾行爲的申訴渠道,堅決保障舉報人權益。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"歧视或骚扰行为\",\n      \"relevance\": \"明确了针对歧视或骚扰行为的申诉渠道（受理机制）及举报人权益保障（保护措施）\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"D5\"\n      ],\n      \"quote\": \"經查實發現歧視、騷擾等不當行爲的,我們將依據《中國生物製藥員工手冊》《中國生物製藥有限公司火爐法則》中 相關規定,根據不當行爲的嚴重程度,對涉事人員執行警告、記過、解雇等處罰,涉嫌違法犯罪者移交司法機關處理。 報告期內,本集團未發生因歧視或騷擾而產生的訴訟案件。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年1月1日至2025年12月31日\",\n      \"scope\": \"查实的不当行为\",\n      \"relevance\": \"披露了对查实歧视或骚扰行为的处分规则（警告、记过、解雇、移交司法）及当期无诉讼的事实\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9208,
+    "total_tokens": 9787,
+    "completion_tokens": 579,
+    "prompt_tokens_details": {
+      "cached_tokens": 8960,
+      "text_tokens": 9208
+    }
+  }
+}

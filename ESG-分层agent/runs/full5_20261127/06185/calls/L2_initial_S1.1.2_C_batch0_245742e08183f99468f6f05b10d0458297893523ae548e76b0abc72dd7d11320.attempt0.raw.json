@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e37bfc62-8588-97ed-8ec4-b68f92b693a4",
+  "object": "chat.completion",
+  "created": 1795745673,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"通过系统梳理制 定并严格落实《员工手册》《劳动合同管理规程》《考勤、加班与 休假管理制度》等一系列合规化、标准化、高效化的内部规章制度, 持续完善全流程、全覆盖的制度管理体系,以规范化管理为基石, 依法保障应聘者、在职员工及离职员工的各项合法权益\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"全体员工（应聘者、在职员工及离职员工）\",\n      \"relevance\": \"披露了落实《劳动合同管理规程》等制度，依法保障员工合法权益，隐含工资支付需符合法定周期和足额要求，属于薪酬支付保障的政策依据。\"\n    },\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"杜绝任何在用工与职业方面的歧视行为,坚持同工同酬。\",\n      \"kind\": \"policy\",\n      \"period\": \"2025年度\",\n      \"scope\": \"未明确\",\n      \"relevance\": \"‘同工同酬’是工资支付公平性的具体原则，属于薪酬支付保障的一部分。\"\n    },\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"P4\"\n      ],\n      \"quote\": \"依法保障应聘者、在职员工及离职员工的各项合法权益\",\n      \"kind\": \"boundary\",\n      \"period\": \"2025年度\",\n      \"scope\": \"应聘者、在职员工及离职员工\",\n      \"relevance\": \"明确了权益保障（含工资支付相关权益）适用的对象范围。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6621,
+    "total_tokens": 7038,
+    "completion_tokens": 417,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 6621
+    }
+  }
+}

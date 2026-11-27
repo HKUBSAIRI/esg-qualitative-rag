@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1175484e-3ffc-9444-84da-5944652bda12",
+  "object": "chat.completion",
+  "created": 1795744386,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工流失率具体数值（10%）及计算口径（总流失人数/年底员工总人数），满足当期离职率披露要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e032\"\n      ],\n      \"supported_paths\": [\n        \"披露了依法与员工签订劳动合同的政策安排，符合劳动合同保障指标中关于‘依法与员工签订劳动合同’的具体政策或事实要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别评分年度（2025年）已经发生的终止补偿支付、就业安置、离职保障受益或相应有效纠正结果的实际发生证据。现有证据多为政策声明或历史年份数据，且零事件/无支付本身不能证明执行。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8648,
+    "total_tokens": 9010,
+    "completion_tokens": 362,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 8648
+    }
+  }
+}

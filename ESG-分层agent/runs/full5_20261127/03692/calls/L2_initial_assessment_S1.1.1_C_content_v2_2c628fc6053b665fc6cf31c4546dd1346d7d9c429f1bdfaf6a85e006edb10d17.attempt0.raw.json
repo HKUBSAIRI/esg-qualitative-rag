@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-5e93f46e-bcd7-9aa9-a256-6160d27022c1",
+  "object": "chat.completion",
+  "created": 1795746168,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"披露至少一项与裁员有关的通知、协商、补偿或离职争议处理制度、具体安排或事实\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "total_tokens": 1230,
+    "completion_tokens": 111,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1119
+    }
+  }
+}

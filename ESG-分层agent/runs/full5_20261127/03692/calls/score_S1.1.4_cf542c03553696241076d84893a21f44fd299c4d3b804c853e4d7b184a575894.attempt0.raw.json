@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d25d4b3f-4b4a-9d40-b25b-24089188983a",
+  "object": "chat.completion",
+  "created": 1795743759,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露提供包括“五險一金”等法定福利在内的生活保障；证据e002列出社会保险、住房公积金等具体法定社会保障项目。符合披露适用员工的至少一项具体法定社会保障或基本福利政策、安排或事实的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露设置了补充医疗保险与健康体检、学历提升资助等福利包；证据e004列出员工年度体检、员工补充商业医疗保险、高温津贴；证据e005列出免费工作餐或餐贴、通讯卡福利等。符合披露面向员工的至少一项具体补充福利安排或事实的条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\",\n        \"e005\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露职场心理咨询、健身设施；证据e006披露举办家属开放日、家庭活动以支持员工家庭生活；证据e007披露提供生活支持服务如食堂、宿舍；证据e008披露为孕期女员工提供灵活工作时间、定制营养餐，设置母婴室及弹性哺乳假。符合披露面向员工的至少一项家庭或生活支持资源、服务或安排的条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e006\",\n        \"e007\",\n        \"e008\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e009披露《职工医疗救助政策》适用于全体员工，并明确了经济支持的额度和申领流程；证据e003指出特定福利针对特定员工；证据e010脚注说明部分福利仅针对特定对象。符合披露至少一项福利的具体取得规则或明确适用对象的条件。\",\n      \"evidence_refs\": [\n        \"e003\",\n        \"e009\",\n        \"e010\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e011披露报告期内对106位退休员工和10位困难员工进行了春节慰问，并向一线员工送上了防暑降温物资。这属于评分年度已经发生的福利覆盖、使用或受益事实（已发放/已实施），满足当期实际发生的要求。\",\n      \"evidence_refs\": [\n        \"e011\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12063,
+    "total_tokens": 12774,
+    "completion_tokens": 711,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 12063
+    }
+  }
+}

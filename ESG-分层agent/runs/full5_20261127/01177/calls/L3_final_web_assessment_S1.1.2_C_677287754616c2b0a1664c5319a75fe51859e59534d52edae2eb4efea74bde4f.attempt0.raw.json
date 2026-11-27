@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ea469511-b61d-90dc-90aa-23538cb743cb",
+  "object": "chat.completion",
+  "created": 1795730860,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别针对工资差错、欠薪、扣款或加班费支付问题的具体补救机制（如补发、退还、复核）\",\n        \"未披露上述事项已完成纠正的具体事实\",\n        \"现有证据仅为一般性申诉处理制度，未明确适用于目标薪酬特定场景\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1262,
+    "total_tokens": 1413,
+    "completion_tokens": 151,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1262
+    }
+  }
+}

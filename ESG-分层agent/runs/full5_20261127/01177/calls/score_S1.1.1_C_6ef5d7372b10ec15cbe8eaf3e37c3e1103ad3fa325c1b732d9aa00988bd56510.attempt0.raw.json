@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ad7bbe4a-238a-9e6e-8498-5e891939f258",
+  "object": "chat.completion",
+  "created": 1795730882,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002明确披露了2025年员工流失率为16.83%，且e001明确了统计口径为集团财务并表的全部实体内的全部劳动合同员工，满足当期离职率披露及口径识别要求。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露了依法与全体员工签订劳动合同的政策安排，证据e007明确披露了2025年劳动合同签订率为100%，满足劳动合同保障的具体政策或事实条件。\",\n      \"evidence_refs\": [\n        \"e004\",\n        \"e007\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e009披露了审查董事及高级管理人员因职务终止或丧失而获得补偿的机制，属于与裁员/解雇相关的补偿制度安排，满足判分条件。\",\n      \"evidence_refs\": [\n        \"e009\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e011披露了差异化轮岗项目及岗位轮换制度，证据e012披露了2025年内部转岗与竞聘员工人数为2,663人，满足员工安置支持中关于制度或事实的条件。\",\n      \"evidence_refs\": [\n        \"e011\",\n        \"e012\"\n      ]\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示未找到相关证据（no_relevant_evidence_found），且无其他候选证据支持当期已发生的终止补偿支付、就业安置等实际结果。根据规则，必要覆盖未确认时记为pending_review。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11122,
+    "total_tokens": 11679,
+    "completion_tokens": 557,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11122
+    }
+  }
+}

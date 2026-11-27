@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8638469a-2415-9d15-850b-a740707d59e2",
+  "object": "chat.completion",
+  "created": 1795731511,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p003\",\n      \"group_ids\": [\n        \"P4\"\n      ],\n      \"quote\": \"本公司僱員的薪酬政策及待遇方案定期接受審閱。薪酬待遇包括薪金、花紅、僱員公積金及社會保障供款、其他福利付款及以股份為基礎的支付開支。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"本公司僱員\",\n      \"relevance\": \"披露了薪酬政策适用对象为本公司雇员，且包含薪金等具体支付内容，符合P4关于保障对象及覆盖范围的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14180,
+    "total_tokens": 14347,
+    "completion_tokens": 167,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 14180
+    }
+  }
+}

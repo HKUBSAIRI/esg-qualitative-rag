@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-015a4eee-1d45-9ac8-a556-f2f7993c09d7",
+  "object": "chat.completion",
+  "created": 1795740319,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到。依据实际搜索日志，针对翰森制药集团有限公司（03692）在2025年评价期内关于严重欠薪、违法克扣工资及纠正的官方监管、司法通报及HKEX公告进行了检索。已打开并核查了劳工处拖欠工资定罪纪录、公司注册处执法工作、相关年度大事纪要及多份HKEX通告/通函。候选证据中未发现明确指向该主体的严重欠薪或违法克扣工资的独立通报、处罚决定或未决整改事项。投诉、和解、撤诉或职工债权公示等普通程序性信息不足以单独证明严重违规事项存在或未纠正。因无经核实的重大欠薪或违法克扣工资且未有效纠正的证据，不触发S1.1.2 C项最终归0的特殊条款。此结论仅基于本次已执行的官方查找范围，不代表绝对没有发生此类事件。\",\n  \"evidence_refs\": [],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8275,
+    "total_tokens": 8504,
+    "completion_tokens": 229,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8275
+    }
+  }
+}

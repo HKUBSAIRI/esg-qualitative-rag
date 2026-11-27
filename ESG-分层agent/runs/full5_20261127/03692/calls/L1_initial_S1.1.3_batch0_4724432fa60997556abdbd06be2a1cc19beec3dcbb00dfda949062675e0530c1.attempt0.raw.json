@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d4e7f157-b72b-99a9-9b72-ddc622a333a6",
+  "object": "chat.completion",
+  "created": 1795730153,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p014\",\n      \"group_ids\": [\n        \"T1\",\n        \"T2\",\n        \"T3\"\n      ],\n      \"quote\": \"尊重員工的勞動權和休息權,允許按崗位性質靈活調整工作時間,不鼓勵加班,不強迫勞動,對額外或非 常規時間的工作依法給予補償,包括調休、加班費等;\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"披露了灵活调整工作时间（工时制度）、不鼓励加班（加班管理原则）以及依法给予调休/加班费补偿（休息休假保障及权利）。\"\n    },\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"T2\",\n        \"T4\"\n      ],\n      \"quote\": \"我們不鼓勵加班,嚴格執行加班審核與調休制度,保障員工充分休 息,並通過數字化平臺實時監測考勤數據,發現異常數據立即啟動核查流程,必要時調整人力資源配置,減輕 相關崗位的工作負荷。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"相关岗位/全员\",\n      \"relevance\": \"披露了具体的加班审核与调休制度（加班管理），以及通过数字化平台实时监测考勤数据、发现异常启动核查的流程（工时管理机制）。\"\n    },\n    {\n      \"ref_id\": \"p007\",\n      \"group_ids\": [\n        \"T3\"\n      ],\n      \"quote\": \"社會保險、住房公積金、法定帶薪假期、勞模津貼、獨生子女補貼、職業健康體檢等\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"全体员工\",\n      \"relevance\": \"明确列出了“法定帶薪假期”作为福利项目，支持员工享有法定假期的权利。\"\n    },\n    {\n      \"ref_id\": \"p034\",\n      \"group_ids\": [\n        \"T1\",\n        \"T3\"\n      ],\n      \"quote\": \"育兒假、工作日哺乳時間、哺乳室、靈活工作時間、子女商業醫療險等\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"特定员工（育儿/哺乳）\",\n      \"relevance\": \"披露了“靈活工作時間”（工时安排）以及“育兒假”、“工作日哺乳時間”（具体休假安排）。\"\n    },\n    {\n      \"ref_id\": \"p021\",\n      \"group_ids\": [\n        \"T4\"\n      ],\n      \"quote\": \"大會審議並通過了新版本 《員 工手冊》,深度參與了本集團入職聘用、假勤管理、員工獎懲等制度的制定。\",\n      \"kind\": \"action\",\n      \"period\": \"2025年11月\",\n      \"scope\": \"集团范围\",\n      \"relevance\": \"提及了“假勤管理”制度的制定与审议，属于工时及休假管理机制的一部分。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8837,
+    "total_tokens": 9576,
+    "completion_tokens": 739,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8837
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-20a75f76-2722-9921-9408-6a74385b2f01",
+  "object": "chat.completion",
+  "created": 1795744088,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"工资核算规则\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别与工资支付直接相关的检查、监测或内部审查制度、程序或实际开展事实\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别工资差错、欠薪、扣款或加班费支付问题的具体补救机制或已完成纠正事实\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1157,
+    "total_tokens": 1426,
+    "completion_tokens": 269,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1157
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-040d8fb7-acbe-916d-9770-3d97adcc1326",
+  "object": "chat.completion",
+  "created": 1795739832,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p032\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"The total remuneration cost incurred by the Group for the six months ended 30 June 2025 was RMB1,603.4 million, as compared to RMB1,391.6 million for the six months ended 30 June 2024.\",\n      \"kind\": \"result\",\n      \"period\": \"six months ended 30 June 2025\",\n      \"scope\": \"Group\",\n      \"relevance\": \"披露了当期实际发生的员工薪酬成本总额，作为离职保障或终止补偿等员工相关支出的财务结果证据（注：原文未单独拆分终止补偿支付金额，但提供了总薪酬成本这一实际发生额）。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11808,
+    "total_tokens": 12012,
+    "completion_tokens": 204,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 11808
+    }
+  }
+}

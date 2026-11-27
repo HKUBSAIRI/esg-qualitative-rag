@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e59a34dd-a26f-9133-8ef7-7f7d5ebb1c96",
+  "object": "chat.completion",
+  "created": 1795743573,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p002\",\n      \"group_ids\": [\n        \"D1\",\n        \"D2\",\n        \"D3\",\n        \"D4\",\n        \"D5\"\n      ],\n      \"quote\": \"我們通過內部舉報電話和郵箱、總裁信箱、合理化建議項目等方式,傾聽員工心聲,接收員工申 訴、舉報、風險事項報告和優化提升建議,使員工有通暢、保密的渠道反饋任何不當職場事件。 我們設有專人專職接收和處理員工申訴與舉報事件,根據投訴和申訴事項性質,按照相應程序和 以恰當方式開展調查,必要時成立專案小組,一旦發現歧視、騷擾等不當職場事件,將依據《員 工手冊》對涉事人員進行處罰,涉賺違法的,移交司法機關處理,調查處理結果將及時反饋給申 訴人。我們嚴格執行《舉報及舉報人保護政策》 ,保密申訴和舉報人的信息,併嚴禁任何打擊報復 行為。報告期內,翰森製藥未發生因歧視、騷擾或侵犯員工權益而產生的訴訟案件。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"披露了禁止歧视骚扰的政策依据（员工手册）、投诉受理调查程序、举报人保护机制（保密、严禁报复）以及违规处罚措施，覆盖D1-D5所有指标要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10717,
+    "total_tokens": 11081,
+    "completion_tokens": 364,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10717
+    }
+  }
+}

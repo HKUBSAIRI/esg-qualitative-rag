@@ -1,0 +1,188 @@
+﻿<script type="text/javascript">
+	var contentSearchForm, contentSearchQueryType, contentSearchAllWords, contentSearchExact, contentSearchNoneWords, contentSearchAnyWords;
+
+	//var arrResTypeQuery = {}
+	//arrResTypeQuery['all'] = '';
+	//arrResTypeQuery['pdf'] = 'FileExtension=\u0027pdf\u0027';
+	//arrResTypeQuery['doc'] = 'FileExtension=\u0027doc\u0027 Or FileExtension=\u0027docx\u0027 Or FileExtension=\u0027dot\u0027';
+	//arrResTypeQuery['xls'] = 'FileExtension=\u0027xls\u0027 Or FileExtension=\u0027xlsx\u0027 Or FileExtension=\u0027xlt\u0027 Or FileExtension=\u0027csv\u0027';
+	//arrResTypeQuery['web'] = 'FileExtension=\u0027htm\u0027 Or FileExtension=\u0027html\u0027 Or FileExtension=\u0027asp\u0027 Or FileExtension=\u0027aspx\u0027';
+	
+	var arrResTypeQuery = {}
+	arrResTypeQuery['all'] = '';
+	arrResTypeQuery['pdf'] = 'pdf';
+	arrResTypeQuery['doc'] = 'word';
+	arrResTypeQuery['xls'] = 'excel';
+	arrResTypeQuery['web'] = 'webpages';
+	
+
+	function UpdateResultTypeQueryHiddenField(resType) {
+		var hiddenField = contentSearchQueryType;
+		if (resType && hiddenField && arrResTypeQuery && resType.value && resType.value in arrResTypeQuery) {
+			hiddenField.value = arrResTypeQuery[resType.value];
+		}
+	}
+
+	function ResultTypeOnChange(resType) {
+		if (typeof (UpdateResultTypeQueryHiddenField) == 'function') {
+			UpdateResultTypeQueryHiddenField(resType);
+		}
+	}
+
+	function ContentSearchFormSubmit() {
+		if (contentSearchForm) {
+			contentSearchForm.submit();
+		}
+	}
+
+	function SetContentSearchForm(formId, actionUrl, queryTypeName, allWordsName, exactName, noneWordsName, anyWordsName) {
+		contentSearchForm = document.getElementById(formId);
+		contentSearchQueryType = document.getElementById("ASB_ResType_Query");
+		contentSearchAllWords = document.getElementById("searchAllWords");
+		contentSearchExact = document.getElementById("searchExact");
+		contentSearchNoneWords = document.getElementById("searchNoneWords");
+		contentSearchAnyWords = document.getElementById("searchAnyWords");
+		if (contentSearchForm) {
+			contentSearchForm.action = actionUrl;
+		}
+		if (contentSearchQueryType) {
+			contentSearchQueryType.name = queryTypeName;
+		}
+		if (contentSearchAllWords) {
+			contentSearchAllWords.name = allWordsName;
+		}
+		if (contentSearchExact) {
+			contentSearchExact.name = exactName;
+		}
+		if (contentSearchNoneWords) {
+			contentSearchNoneWords.name = noneWordsName;
+		}
+		if (contentSearchAnyWords) {
+			contentSearchAnyWords.name = anyWordsName;
+		}
+	}
+	
+	function RedirectSearch()
+	{
+	   var epsSearchUrl = "/Search/EPS/EPSSearchResults_c.html";
+	    
+	   var allwords = document.getElementById("searchAllWords").value;
+	   var exactWords = document.getElementById("searchExact").value;
+	   var anyWords = document.getElementById("searchAnyWords").value;
+	   var noneWords = document.getElementById("searchNoneWords").value;
+	   
+	    var fileType = document.getElementById("ASB_ResType_Query").value;
+	   
+	    
+	   var parameterString = "?allWords="+escape(allwords)+"&exactPhrase="+escape(exactWords)
+	                                             + "&anyWords="+escape(anyWords)+"&noneWords="+escape(noneWords)+"&fileType="+fileType;
+												 
+	   window.location.href = epsSearchUrl + parameterString;
+	}
+</script>
+<form name="content_search_aspnetForm" method="post" id="content_search_aspnetForm">
+	<input type="hidden" id="ASB_ResType_Query" value="" />
+	<div class="filter__container-content-search">
+		<div class="filter__inputGroup">
+			<ul>
+				<li class="filter__container-input">
+					<div class="form-input-text">
+						<label for="searchAllWords">包含全部的字詞</label>
+						<input id="searchAllWords" type="text" placeholder="請輸入關鍵字" />
+					</div>
+				</li>
+				<li class="filter__container-input">
+					<div class="form-input-text">
+						<label for="searchExact">包含完整的字句</label>
+						<input id="searchExact" type="text" placeholder="請輸入完整的字句" />
+					</div>
+				</li>
+				<li class="filter__container-input">
+					<div class="form-input-text">
+						<label for="searchAnyWords">包含任何一個字詞</label>
+						<input id="searchAnyWords" type="text" placeholder="請輸入關鍵字" />
+					</div>
+				</li>
+				<li class="filter__container-input">
+					<div class="form-input-text">
+						<label for="searchNoneWords">不包括指定字詞</label>
+						<input id="searchNoneWords" type="text" placeholder="請輸入關鍵字" />
+					</div>
+				</li>
+			</ul>
+			<ul class="filter__radioButton__list radio-custom">
+				<li class="filter__radioButton__item">
+					<div class="filter__radioButton__wrapper">
+						<input type="radio" name="filetype" value="all" id="filetype-all" checked onchange="if (typeof (ResultTypeOnChange) == 'function') ResultTypeOnChange(this);" />
+						<label for="filetype-all">所有結果</label>
+					</div>
+				</li>
+				<li class="filter__radioButton__item">
+					<div class="filter__radioButton__wrapper">
+						<input type="radio" name="filetype" value="pdf" id="filetype-pdf" onchange="if (typeof (ResultTypeOnChange) == 'function') ResultTypeOnChange(this);" />
+						<label for="filetype-pdf">PDF<span class="mobile-hidden"> 文件</span></label>
+					</div>
+				</li>
+				<li class="filter__radioButton__item">
+					<div class="filter__radioButton__wrapper">
+						<input type="radio" name="filetype" value="doc" id="filetype-doc" onchange="if (typeof (ResultTypeOnChange) == 'function') ResultTypeOnChange(this);" />
+						<label for="filetype-doc">Word<span class="mobile-hidden"> 文件</span></label>
+					</div>
+				</li>
+				<li class="filter__radioButton__item">
+					<div class="filter__radioButton__wrapper">
+						<input type="radio" name="filetype" value="xls" id="filetype-xls" onchange="if (typeof (ResultTypeOnChange) == 'function') ResultTypeOnChange(this);" />
+						<label for="filetype-xls">Excel<span class="mobile-hidden"> 文件</span></label>
+					</div>
+				</li>
+				<li class="filter__radioButton__item">
+					<div class="filter__radioButton__wrapper">
+						<input type="radio" name="filetype" value="web" id="filetype-webpage" onchange="if (typeof (ResultTypeOnChange) == 'function') ResultTypeOnChange(this);" />
+						<label for="filetype-webpage">網頁</label>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="filter__buttonGroup">
+			<a class="btn-clearall filter__btn-clearallFilters-js" href="#">清除</a>
+			<a class="btn-white filter__btn-cancelFilters-js" href="#">取消</a>
+			<a class="btn-blue filter__btn-applyFilters-js" href="javascript:void(0)" id="aBtnSearch" onclick="event.preventDefault(); RedirectSearch();">搜尋</a>
+		</div>
+	</div>
+</form>
+<div id="content-search-fancynote-container" class="fancy-popup-wrap fancy-note">
+    <div>
+        <div class="fancy-note-popup" id="cms-content-search-explanatory-note">
+            <a class="fancy-note-close" href="#"></a>
+            <div class="fancy-note-detail">
+                <div class="fancy-note-title">說明注釋</div>
+                <div class="fancy-note-desc">
+                    <p>上市公司公告進階搜尋可供搜尋自１９９９年４月１日起由主板及GEM上市發行人根據上市條例披露要求而發出的公司公告、股東通函及其他公司信息（如年報及上市招股書）。請注意，由於在２００２年２月１５日前部份公司信息並未強制要求提交電子檔案，所以閣下的進階搜尋結果也許未能包括該等公司信息在內。為簡化搜尋參數的輸入，請到<a class="DisclaimerLink" href="http://www3.hkexnews.hk/listedco/listconews/simplesearch/simplesearch_main_c.aspx">上市公司公告簡易搜尋</a>以搜尋最新或過去七天的上市公司文件。</p>
+                </div>
+            </div>
+        </div>
+        <div class="fancy-note-shade"></div>
+    </div>
+    <div>
+        <div class="fancy-note-popup" id="cms-content-search-disclaimer">
+            <a class="fancy-note-close" href="#"></a>
+            <div class="fancy-note-detail">
+                <div class="fancy-note-title">免責聲明</div>
+                <div class="fancy-note-desc">
+                    <p>載有本免責聲明的超連結的網頁所顯示的文件及資料在本網站上登載，目的是向香港公眾人士提供資料；其中的內容並非投資建議，不應倚賴其作為投資建議。在香港以外地區的人士在瀏覽及使用該等文件及資料前，須自行查閱及遵守所有適用法例及規定。</p>
+                    <p>請注意：該網頁載有由上市發行人、新上市申請人及有關人士以電子方式 (包括以電子格式提供的資料) 向香港交易所提供的文件及資料，而香港交易所與上述人士之間並無任何代理、僱員或合夥關係。香港交易所並不負責審查、編輯或監察該等文件及當中所載資料，有關文件內的資料全部未經香港交易所核實。</p>
+                    <p>香港交易所及/或其附屬公司對通過該網頁而取得的該等文件及資料的內容概不負責，對其準確性、可靠性、完整性或擁有權亦不發表任何聲明，並明確表示概不對任何因該等資料全部或任何部分內容而產生或因倚賴該等內容而引致的損失承擔任何責任。另外，有些文件及資料可能包含有連接到外部網站或網頁的超連結，香港交易所及/或其附屬公司對可否成功連接到有關網站或網頁及其所載內容亦概不負責。(見香港交易所「<a href="http://www2.hkexnews.hk/Global/Exchange/Hyperlink-Policy?sc_lang=zh-HK" ref="noopener noreferrer" target="_blank">超連結政策</a>」)。</p>
+                    <p>本聲明的內容概不構成或被視為香港交易所及其附屬公司放棄其專有的特權及豁免權又或對上述權力構成任何限制。</p>
+                    <p>通過該網頁而取得的資料及文件均具有版權，可能屬香港交易所、作者或任何其他人士所有，視乎刊物的情況而定。未經有關當事人同意，任何人士不得轉載、發布、使用及／或連結該等內容。</p>
+                    <p>如得悉或相信該等文件所載的任何資料不準確、錯誤、不合法、淫褻、誹謗或侵犯第三者的知識產權，請聯絡【香港交易所電子呈交小組】(HKEX e-Submission)，電郵地址： <a href="mailto:ESSHotline@hkex.com.hk">ESSHotline@hkex.com.hk</a>。</p>
+                </div>
+            </div>
+        </div>
+        <div class="fancy-note-shade"></div>
+    </div>
+</div>
+<script>
+	SetContentSearchForm("content_search_aspnetForm", "/Search/EPS/EPSSearchResults_c.html", "ASB_ResType_Query", "ctl00$m$g_efacdebb_914f_43b1_9439_0924f2a52845$ASB_TQS_AndQ_tb", "ctl00$m$g_efacdebb_914f_43b1_9439_0924f2a52845$ASB_TQS_PhraseQ_tb", "ctl00$m$g_efacdebb_914f_43b1_9439_0924f2a52845$ASB_TQS_NotQ_tb", "ctl00$m$g_efacdebb_914f_43b1_9439_0924f2a52845$ASB_TQS_OrQ_tb");
+	
+
+</script>

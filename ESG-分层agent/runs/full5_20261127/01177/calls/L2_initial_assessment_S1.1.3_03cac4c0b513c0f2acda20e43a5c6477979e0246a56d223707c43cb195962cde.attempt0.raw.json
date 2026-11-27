@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-d85bc3b9-b387-959e-9fa8-a638bc3f0d12",
+  "object": "chat.completion",
+  "created": 1795730757,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"T5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际工时监测、休假使用、执行覆盖或工时休假侵害纠正结果的具体数据或事实（如检查加班时长数值、实际使用带薪休假的人数或比例、执行措施覆盖人数、已纠正的休息权侵害案例）\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 946,
+    "total_tokens": 1077,
+    "completion_tokens": 131,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 946
+    }
+  }
+}

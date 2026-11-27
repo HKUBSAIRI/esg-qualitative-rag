@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7d2aaf1c-d331-9222-8e3c-147b78b92b8d",
+  "object": "chat.completion",
+  "created": 1795745661,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"员工查询工资差错的途径/薪酬申诉渠道及处理安排\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未明确披露工资支付保障政策或实际执行适用的具体员工对象（如全体员工、特定地区等），现有证据仅涉及法定福利或长期激励，未直接对应工资支付保障的范围定义\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2131,
+    "total_tokens": 2341,
+    "completion_tokens": 210,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2131
+    }
+  }
+}

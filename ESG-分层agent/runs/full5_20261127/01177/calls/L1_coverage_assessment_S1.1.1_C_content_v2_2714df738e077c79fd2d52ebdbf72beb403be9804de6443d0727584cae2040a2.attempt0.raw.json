@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1ac2edad-cba2-91d8-828d-a0a93186f1c3",
+  "object": "chat.completion",
+  "created": 1795743779,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年度员工流失率（离职率）的具体数值及口径，并明确了统计范围。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"明确披露了2025年集团及各成员企业劳动合同签订率为100%。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关制度、通知、协商、补偿或离职争议处理的具体安排或事实。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e007\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"披露了差异化轮岗项目及岗位轮换制度，以及内部转岗与竞聘的员工人数事实。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"没有实际纠正结果，只有政策、计划或承诺；未披露评分年度已经发生的终止补偿支付、就业安置受益或相应有效纠正结果。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4353,
+    "total_tokens": 4867,
+    "completion_tokens": 514,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 4353
+    }
+  }
+}

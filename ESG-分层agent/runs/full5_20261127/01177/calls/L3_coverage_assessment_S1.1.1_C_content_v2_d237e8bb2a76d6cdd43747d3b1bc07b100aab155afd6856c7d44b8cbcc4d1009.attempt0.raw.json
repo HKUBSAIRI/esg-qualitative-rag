@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c1ffde69-b2ef-9160-8f9e-838b22d19c69",
+  "object": "chat.completion",
+  "created": 1795744414,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年度员工流失率（离职率）的具体数值（如总体16.83%，按性别、年龄细分等），并明确了统计口径为集团财务并表的全部实体内的全部劳动合同员工，满足当期离职率披露要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未披露评分年度已经发生的终止补偿支付、就业安置、离职保障受益或相应有效纠正结果至少一项。现有证据仅包含离职率数据、总人力成本及人才发展举措，无具体离职保障执行结果。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2714,
+    "total_tokens": 2981,
+    "completion_tokens": 267,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 2714
+    }
+  }
+}

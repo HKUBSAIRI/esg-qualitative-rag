@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-ea9cf466-5abf-91cf-9a1f-5f9961fdc629",
+  "object": "chat.completion",
+  "created": 1795731517,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p039\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"概無董事放棄或同意放棄任何薪酬,且本集團並無向任何董事 支付薪酬作為吸引其加入本集團或加入後的獎勵或離職補償。\",\n      \"kind\": \"result\",\n      \"period\": \"截至2025年12月31日止年度\",\n      \"scope\": \"董事\",\n      \"relevance\": \"披露了评分年度内未发生向董事支付离职补偿的事实，属于终止补偿支付的负面结果证据。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14929,
+    "total_tokens": 15086,
+    "completion_tokens": 157,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 14929
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7072d646-40be-90eb-b4e7-a81a1cc24304",
+  "object": "chat.completion",
+  "created": 1795732657,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p001\",\n      \"group_ids\": [\n        \"D2\"\n      ],\n      \"quote\": \"对歧视与骚扰行为秉持零容忍态度,构建多元、平等、包容、尊重的工作环 境。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"明确披露禁止职场骚扰及零容忍要求\"\n    },\n    {\n      \"ref_id\": \"p004\",\n      \"group_ids\": [\n        \"D2\"\n      ],\n      \"quote\": \"信达生物尊重员工的合法权益,致力于构建一个零歧视、零骚扰、零欺凌的包容性工作环 境。\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"员工\",\n      \"relevance\": \"明确披露禁止职场骚扰（零骚扰）\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6059,
+    "total_tokens": 6285,
+    "completion_tokens": 226,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 6059
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-e46cb9ed-3ad3-9603-902d-29e711d5f6a5",
+  "object": "chat.completion",
+  "created": 1795746173,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"最低工资保障政策声明\"\n      ],\n      \"missing\": [],\n      \"conflicts\": [],\n      \"actual_event\": null\n    },\n    {\n      \"group_id\": \"P3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别出针对工资支付（而非薪酬差距/性别平等）的具体检查、监测或内部审查制度或事实。e003提及的是消除性别薪酬差距的审查，与工资支付合规性监测主题不完全匹配；e001明确排除相关数据管理范围。\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1354,
+    "total_tokens": 1574,
+    "completion_tokens": 220,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1354
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-122980ca-0f37-9b5c-ba14-8c51b5f57c37",
+  "object": "chat.completion",
+  "created": 1795744619,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p061\",\n      \"group_id\": \"E2\",\n      \"quote\": \"The Company has established a comprehensive internal control and audit system for environmental compliance management and performance monitoring.\",\n      \"period\": \"current\",\n      \"source\": \"Innovent Biologics, Inc. (2023)\",\n      \"type\": \"policy\",\n      \"relevance\": \"high\"\n    },\n    {\n      \"ref_id\": \"p062\",\n      \"group_id\": \"E2\",\n      \"quote\": \"The Company conducts annual environmental compliance audits covering 100% of sites in operation.\",\n      \"period\": \"annual\",\n      \"source\": \"Innovent Biologics, Inc. (2023)\",\n      \"type\": \"practice\",\n      \"relevance\": \"high\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9849,
+    "total_tokens": 10059,
+    "completion_tokens": 210,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216,
+      "text_tokens": 9849
+    }
+  }
+}

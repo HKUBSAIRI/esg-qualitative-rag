@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-4a3d5242-c303-9392-9c61-2552ee4c2a38",
+  "object": "chat.completion",
+  "created": 1795730314,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"D1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止基于民族、种族、性别等身份特征的歧视行为，符合反歧视政策要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\"\n      ],\n      \"supported_paths\": [\n        \"明确披露禁止包括骚扰在内的非人道对待，符合反骚扰政策要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未明确披露专门适用于歧视或骚扰投诉的受理、核查、调查或处理程序（现有证据为通用举报机制或未说明适用范围的鼓励报告）。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露允许匿名举报、保密调查及禁止报复，且结合上下文该保护机制覆盖员工权益，可视为适用于歧视骚扰投诉的保护措施。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"D5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e004\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未明确披露针对查实歧视或骚扰的具体处分、问责规则或补救机制（现有证据为通用违规案件纪律处分，未特指歧视骚扰）。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1855,
+    "total_tokens": 2361,
+    "completion_tokens": 506,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1855
+    }
+  }
+}

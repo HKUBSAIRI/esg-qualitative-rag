@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-1b34a6be-746d-9776-9c18-34fcbf8d24bc",
+  "object": "chat.completion",
+  "created": 1795746199,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露了“最高比例的五險一金，含養老保險、醫療保險、失業保險、工傷保險、生育保險、住房公積金”，符合法定社会保障及基本福利的判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e002列出了多项具体补充福利安排，包括“補充商業醫療保險”、“交通補貼、通訊補貼和膳食補貼”等，符合补充福利的判分条件。\",\n      \"evidence_refs\": [\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露了“建立母嬰室並在食堂設立孕婦綠色通道”，属于面向员工的家庭与生活支持资源/安排，符合判分条件。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004明确了福利年假的具体取得规则：“每在信達生物服務滿一年，可多享受一天福利年假”，符合福利取得规则的判分条件。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e005披露了报告期内非法定福利实现100%覆盖的事实；证据e006披露了2025年实际向女性员工发放节日礼金的受益事实。两者均证实当期已发生福利覆盖或受益行为，符合实际覆盖、使用或受益的判分条件。\",\n      \"evidence_refs\": [\n        \"e005\",\n        \"e006\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4168,
+    "total_tokens": 4713,
+    "completion_tokens": 545,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 4168
+    }
+  }
+}

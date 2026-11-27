@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-f4d5c207-6b25-93b6-827f-944e37435e8b",
+  "object": "chat.completion",
+  "created": 1795743446,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"pending_review\",\n  \"reason\": \"核查范围未完全覆盖。虽然已执行官方搜索并打开部分索引页面，但关键候选原文（2024年年报 https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0429/2024042905310_c.pdf）因 RemoteProtocolError 无法读取，且 SAMR 规定页面因 HTTPStatusError 无法读取。由于必要原件未能成功打开以核实是否存在严重员工福利侵害及纠正情况，不能确认为无违规或已纠正，需人工复核或重试获取原文。\",\n  \"evidence_refs\": [],\n  \"unresolved\": [\n    {\n      \"url\": \"https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0429/2024042905310_c.pdf\",\n      \"issue\": \"official_source_unreadable (RemoteProtocolError)\"\n    },\n    {\n      \"url\": \"https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_20c4f404649640c3bdcbbd157d6b6ebe.html\",\n      \"issue\": \"official_source_unreadable (HTTPStatusError)\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7737,
+    "total_tokens": 8064,
+    "completion_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7737
+    }
+  }
+}

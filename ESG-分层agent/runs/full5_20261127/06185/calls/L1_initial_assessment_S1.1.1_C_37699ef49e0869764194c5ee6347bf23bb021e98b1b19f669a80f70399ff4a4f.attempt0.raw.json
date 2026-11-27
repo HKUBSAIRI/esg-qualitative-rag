@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-7a1d0102-3ccb-9b77-94fd-4fa1e2688f1f",
+  "object": "chat.completion",
+  "created": 1795730827,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年员工总离职率及分维度离职率，并明确统计口径仅包含自愿离职人员。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"披露了劳动合同签订率为100%，并提及实施《劳动合同管理程序》等制度。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关制度、具体安排或事实（如通知、协商、补偿、争议处理等）。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露了内部招聘制度的实施（Internal Application Management Procedures）及当期内部招聘人数（5人）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别评分年度已经发生的终止补偿支付、就业安置受益或相应有效纠正结果的具体数据或事实。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2395,
+    "total_tokens": 2879,
+    "completion_tokens": 484,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2395
+    }
+  }
+}

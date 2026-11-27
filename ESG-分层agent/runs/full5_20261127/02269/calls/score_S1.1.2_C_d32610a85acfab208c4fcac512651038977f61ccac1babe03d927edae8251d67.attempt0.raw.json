@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-64a28c2c-6c93-96be-8d8e-9c770a49b137",
+  "object": "chat.completion",
+  "created": 1795730752,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"P1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露“提供不低于最低工资标准...的薪酬”，e002披露“支付加班薪资或合理安排调休”，符合‘依法定周期按时足额支付、最低工资保障’的具体政策条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"P2\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"记录显示search_complete为false，且存在quote_not_in_supplied_text问题（引用了未提供的文本片段）。虽然评估认为有支持路径，但依据规则‘必要覆盖未确认...则pending_review’，需人工核验原文是否确实包含员工查询工资差错或申诉的具体机制描述。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"P3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e006披露‘定期开展薪酬监测与分析’及‘启动全员生活工资评估’，属于与工资支付直接相关的内部审查/监测制度及当期实际开展事实。\",\n      \"evidence_refs\": [\n        \"e006\"\n      ]\n    },\n    {\n      \"group_id\": \"P4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001、e003、e006、e007明确提及适用对象为‘员工’、‘全体员工’及‘所有运营地’，符合‘明确工资支付保障政策...适用的员工对象’的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\",\n        \"e006\",\n        \"e007\"\n      ]\n    },\n    {\n      \"group_id\": \"P5\",\n      \"status\": \"verified\",\n      \"score\": 0,\n      \"reason\": \"检索完成且无相关证据发现。材料中仅披露了预防性政策（如最低工资、同工同酬）和监测机制，未识别出针对工资差错、欠薪等问题的具体补救机制（如补发流程、争议复核程序）或已完成纠正的事实。根据规则，无对应披露判0。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9512,
+    "total_tokens": 10096,
+    "completion_tokens": 584,
+    "prompt_tokens_details": {
+      "cached_tokens": 5120,
+      "text_tokens": 9512
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-11d91fa9-3935-9625-b00d-4e9ed506d5ed",
+  "object": "chat.completion",
+  "created": 1795730375,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p020\",\n      \"group_ids\": [\n        \"E5\"\n      ],\n      \"quote\": \"年內五名最高薪酬僱員除上述已披露金額外,概無從本集團收取任何酬金作為加入本集團或加入本集團 後的獎勵或離職補償。\",\n      \"kind\": \"result\",\n      \"period\": \"截至 2025 年 12 月 31 日止年度\",\n      \"scope\": \"五名最高薪酬僱員\",\n      \"relevance\": \"明确披露当期（2025年）针对特定员工群体（五名最高薪酬雇员）无离职补偿支付，属于实际发生的终止补偿支付结果（零支付/无发生），符合E5对当期事实的要求。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14642,
+    "total_tokens": 14842,
+    "completion_tokens": 200,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 14642
+    }
+  }
+}

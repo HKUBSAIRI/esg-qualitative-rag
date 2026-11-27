@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-fea5b4f4-4117-946a-92bd-9a498f69c949",
+  "object": "chat.completion",
+  "created": 1795744573,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"kind\": \"announcement\",\n  \"report_year\": null,\n  \"publisher\": \"瑞森生活服務有限公司\",\n  \"basis\": \"文件标题为“有關復牌進展的季度更新及繼續暫停買賣”，正文开头明确声明“本公告乃由...作出”，内容涉及股份暂停买卖、复牌指引进展及财务披露延迟等一般性监管合规事项，属于普通公司公告。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2132,
+    "total_tokens": 2222,
+    "completion_tokens": 90,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 2132
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-df10c3e2-18ea-9915-a2de-35756f0c4f9f",
+  "object": "chat.completion",
+  "created": 1795746279,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001明确披露公司为员工缴纳各项社会保险，符合法定社会保障及基本福利的判分条件。\",\n      \"evidence_refs\": [\n        \"e001\"\n      ]\n    },\n    {\n      \"group_id\": \"W2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001披露提供带薪育儿假、通勤补贴、全球医疗保险等非薪酬类福利；证据e003披露商业保险套餐安排。符合补充福利判分条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"W3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001披露提供父母陪护假、配偶或子女服务性支持；证据e002披露开通心理援助(EAP)热线及咨询。符合家庭与生活支持判分条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"W4\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003明确商业保险的取得规则为员工自主购买及适用对象（含家属）；证据e001提及向所有员工提供福利。符合福利取得规则判分条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"W5\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004明确披露2025年度已发生“及时且足额缴纳各项社会保险”的事实，满足当期实际覆盖/使用/受益的要求。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3875,
+    "total_tokens": 4391,
+    "completion_tokens": 516,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3875
+    }
+  }
+}

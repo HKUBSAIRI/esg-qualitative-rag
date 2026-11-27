@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-8be8a049-c6be-9183-9bb2-c8debb97631c",
+  "object": "chat.completion",
+  "created": 1795730960,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e007\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"e001/e010: Discloses statutory benefits including social insurance and housing fund for all employees.\",\n        \"e007: Discloses implementation of maternity leave and maternity insurance.\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e008\",\n        \"e011\"\n      ],\n      \"supported_paths\": [\n        \"e003: Discloses commercial insurance coverage above market average.\",\n        \"e008: Discloses marriage/childbirth gifts and benefit packages (beauty, health items).\",\n        \"e011: Discloses various allowances (off-site, overseas hardship, position-based).\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e009\"\n      ],\n      \"supported_paths\": [\n        \"e004: Discloses psychological support hotline and EAP courses.\",\n        \"e009: Discloses mother and baby rooms for balancing work and family.\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e005\",\n        \"e010\",\n        \"e011\"\n      ],\n      \"supported_paths\": [\n        \"e005: Specifies eligibility rules for financial hardship subsidies (eligible employees) and serious illness condolences.\",\n        \"e010: Defines scope of welfare system as full-time, part-time, and outsourced personnel.\",\n        \"e011: Lists specific types of allowances provided.\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\",\n        \"e010\"\n      ],\n      \"supported_paths\": [\n        \"e006/e010: Discloses total value of employee benefits distributed in 2025 (RMB 73.12 million), confirming actual occurrence.\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3840,
+    "total_tokens": 4503,
+    "completion_tokens": 663,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 3840
+    }
+  }
+}

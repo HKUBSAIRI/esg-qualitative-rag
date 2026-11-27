@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-38e0eb8a-ee06-9779-8e1b-8e9aef4922f7",
+  "object": "chat.completion",
+  "created": 1795731366,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"披露了具体的法定社会保障项目（五险一金：养老、医疗、失业、工伤、生育、公积金）及依法提供的事实。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e005\"\n      ],\n      \"supported_paths\": [\n        \"披露了多项具体补充福利安排，包括补充商业医疗保险、年度体检、各类补贴（交通、通讯、膳食）、奖励等。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\"\n      ],\n      \"supported_paths\": [\n        \"披露了面向员工的家庭与生活支持资源，如建立母婴室和孕妇绿色通道。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"披露了福利年假的具体取得规则（每服务满一年多享受一天）。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e008\",\n        \"e009\"\n      ],\n      \"supported_paths\": [\n        \"披露了报告期内非法定福利实现100%覆盖的事实，以及2025年向女性员工发放节日礼金的实际受益案例。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3305,
+    "total_tokens": 3814,
+    "completion_tokens": 509,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048,
+      "text_tokens": 3305
+    }
+  }
+}

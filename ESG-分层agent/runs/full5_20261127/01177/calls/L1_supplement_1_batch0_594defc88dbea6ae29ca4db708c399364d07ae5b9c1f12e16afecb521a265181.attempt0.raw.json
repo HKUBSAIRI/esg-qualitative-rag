@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-2ebbcc84-72ba-9ae3-ae51-479eae2c1bbc",
+  "object": "chat.completion",
+  "created": 1795746212,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p036\",\n      \"group_ids\": [\n        \"E4\"\n      ],\n      \"quote\": \"本集團創新實施差異化輪崗項目,針對不同層級、不同專業背景的人才定制實施年度/半年 度輪崗計劃。通過跨部門、跨職能的崗位輪換,幫助員工拓展職業寬度、審視個人職業發展 規劃,並通過多崗位歷練機制培養具備多元技能和全域思維的複合型人才。\",\n      \"kind\": \"mechanism\",\n      \"period\": \"2025 年1 月1 日至2025 年12 月31 日\",\n      \"scope\": \"本集團\",\n      \"relevance\": \"披露了岗位轮换的制度安排，符合员工安置支持中关于转岗或岗位轮换制度的要求\"\n    },\n    {\n      \"ref_id\": \"p012\",\n      \"group_ids\": [\n        \"E4\"\n      ],\n      \"quote\": \"聚焦員工及家庭常見法律需求,提供 實用法律知識科普與專業諮詢支持, 包括退休及返聘人員權利義務科普等 圍繞投資避雷指南、理財產品解析, 為員工個人理財規劃提供支持\",\n      \"kind\": \"action\",\n      \"period\": \"2025 年1 月1 日至2025 年12 月31 日\",\n      \"scope\": \"未明确（上下文为工作生活平衡与员工关爱）\",\n      \"relevance\": \"披露了针对退休及返聘人员权利义务的法律知识科普与支持，符合员工安置支持中关于退休过渡或返聘的具体支持\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9583,
+    "total_tokens": 9973,
+    "completion_tokens": 390,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9583
+    }
+  }
+}

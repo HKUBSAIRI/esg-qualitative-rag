@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-bedd9ec7-6286-97dd-9c85-002a7f72d4b9",
+  "object": "chat.completion",
+  "created": 1795745720,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [],\n  \"reason\": \"候选引文描述的是通用的员工权益受损申诉机制，未明确提及工资核算、复核、工资单发放或针对工资差错/薪酬支付的具体查询与处理安排。即使该引文完全核实，其内容仍属于一般性申诉渠道，不满足S1.1.2 C指标中关于‘工资处理及员工查询具体机制’的成立路径，也不构成对已核实结论（即缺乏特定工资机制证据）的实质冲突。因此，该候选不影响判分。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 547,
+    "total_tokens": 667,
+    "completion_tokens": 120,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 547
+    }
+  }
+}

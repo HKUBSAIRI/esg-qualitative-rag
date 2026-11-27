@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-2357f7e5-731f-984c-b93d-ba69eb398480",
+  "object": "chat.completion",
+  "created": 1795730191,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了2025年度员工流失率具体数值（14.4%）及口径（主动离职率），满足当期离职率披露要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"披露了劳动合同签订合规审核机制、数字化合同系统及遵守劳动合同法的具体安排，满足劳动合同保障披露要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e005\"\n      ],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关的通知、协商、补偿或离职争议处理制度/事实。e005仅提及对违规员工的解雇措施，属于纪律处分范畴，不符合‘裁员程序’中关于通知、协商、补偿等常规劳动关系解除程序的披露要求。\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e006\",\n        \"e007\"\n      ],\n      \"supported_paths\": [\n        \"披露了内部转岗、竞聘制度及转型指导培训支持（e006），以及内部招聘填补岗位比例数据（e007），满足员工安置支持披露要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别评分年度已经发生的终止补偿支付、就业安置受益或相应有效纠正结果的具体事实。现有证据多为政策、机制或一般性统计数据，缺乏针对离职人员的实际补偿支付或安置结果的当期执行记录。\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2825,
+    "total_tokens": 3403,
+    "completion_tokens": 578,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 2825
+    }
+  }
+}

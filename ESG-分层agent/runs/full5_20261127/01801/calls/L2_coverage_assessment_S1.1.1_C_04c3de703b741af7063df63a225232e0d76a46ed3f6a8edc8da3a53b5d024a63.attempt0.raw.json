@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-92711e40-560c-958e-9b21-5ed9728adc0a",
+  "object": "chat.completion",
+  "created": 1795731555,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\",\n        \"e003\",\n        \"e004\"\n      ],\n      \"supported_paths\": [\n        \"披露评分年度已经发生的终止补偿支付（含零支付事实）\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1583,
+    "total_tokens": 1704,
+    "completion_tokens": 121,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1583
+    }
+  }
+}

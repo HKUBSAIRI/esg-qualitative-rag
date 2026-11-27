@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-28031af4-a643-9e31-89ba-b3e36771e12c",
+  "object": "chat.completion",
+  "created": 1795744624,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p053\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"3\",\n      \"kind\": \"fact\",\n      \"period\": \"2023\",\n      \"source\": \"Innovent\",\n      \"context\": \"Number of work days lost due to occupational injuries and illnesses (days)\",\n      \"relevance\": \"Directly supports the metric for work days lost due to occupational injuries and illnesses.\"\n    },\n    {\n      \"ref_id\": \"p060\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"1\",\n      \"kind\": \"fact\",\n      \"period\": \"2023\",\n      \"source\": \"Innovent\",\n      \"context\": \"Number of fatalities due to occupational injuries and illnesses (persons)\",\n      \"relevance\": \"Directly supports the metric for fatalities due to occupational injuries and illnesses.\"\n    },\n    {\n      \"ref_id\": \"p054\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"3\",\n      \"kind\": \"fact\",\n      \"period\": \"2023\",\n      \"source\": \"Innovent\",\n      \"context\": \"Number of work days lost due to occupational injuries and illnesses (days)\",\n      \"relevance\": \"Supports the metric for work days lost due to occupational injuries and illnesses.\"\n    },\n    {\n      \"ref_id\": \"p055\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"3\",\n      \"kind\": \"fact\",\n      \"period\": \"2023\",\n      \"source\": \"Innovent\",\n      \"context\": \"Number of work days lost due to occupational injuries and illnesses (days)\",\n      \"relevance\": \"Supports the metric for work days lost due to occupational injuries and illnesses.\"\n    },\n    {\n      \"ref_id\": \"p056\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"3\",\n      \"kind\": \"fact\",\n      \"period\": \"2023\",\n      \"source\": \"Innovent\",\n      \"context\": \"Number of work days lost due to occupational injuries and illnesses (days)\",\n      \"relevance\": \"Supports the metric for work days lost due to occupational injuries and illnesses.\"\n    },\n    {\n      \"ref_id\": \"p057\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"3\",\n      \"kind\": \"fact\",\n      \"period\": \"2023\",\n      \"source\": \"Innovent\",\n      \"context\": \"Number of work days lost due to occupational injuries and illnesses (days)\",\n      \"relevance\": \"Supports the metric for work days lost due to occupational injuries and illnesses.\"\n    },\n    {\n      \"ref_id\": \"p058\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"2\",\n      \"kind\": \"fact\",\n      \"period\": \"2023\",\n      \"source\": \"Innovent\",\n      \"context\": \"Number of fatalities due to occupational injuries and illnesses (persons)\",\n      \"relevance\": \"Supports the metric for fatalities due to occupational injuries and illnesses.\"\n    },\n    {\n      \"ref_id\": \"p059\",\n      \"group_ids\": [\n        \"P1\"\n      ],\n      \"quote\": \"2\",\n      \"kind\": \"fact\",\n      \"period\": \"2023\",\n      \"source\": \"Innovent\",\n      \"context\": \"Number of fatalities due to occupational injuries and illnesses (persons)\",\n      \"relevance\": \"Supports the metric for fatalities due to occupational injuries and illnesses.\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9894,
+    "total_tokens": 10801,
+    "completion_tokens": 907,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216,
+      "text_tokens": 9894
+    }
+  }
+}

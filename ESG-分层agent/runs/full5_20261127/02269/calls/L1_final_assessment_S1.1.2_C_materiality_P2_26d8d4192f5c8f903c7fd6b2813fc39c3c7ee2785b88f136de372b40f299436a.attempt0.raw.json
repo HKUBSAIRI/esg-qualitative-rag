@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-dce532a4-8cbf-940a-8a3b-bdca023e4d64",
+  "object": "chat.completion",
+  "created": 1795738581,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"material_refs\": [\n    \"e001\"\n  ],\n  \"reason\": \"候选 e001 提及“員工諮詢熱線和 HR 服務台”及“CEO 信箱”，属于员工查询或沟通渠道。虽然未明确限定为“工资差错”专用，但作为通用的员工咨询/申诉机制，在反事实检验下（假设核实），其具备覆盖工资相关查询或申诉的可能性，与已核实结论中支持的“员工查询工资差错的途径/薪酬申诉渠道”路径存在潜在重叠或补充关系，可能影响对机制具体性的判定强度，故列为需进一步核验的候选。x001 已被标记为非匹配引用，不纳入。\"\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 504,
+    "total_tokens": 659,
+    "completion_tokens": 155,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 504
+    }
+  }
+}

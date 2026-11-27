@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-9e2c0e52-8cc4-9191-9204-4f7a17d13a2f",
+  "object": "chat.completion",
+  "created": 1795731273,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"披露了当期员工离职率的具体数值及口径（按性别、年龄、地区细分）\",\n        \"明确提及2025年整体员工离职率为13.3%\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E2\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [\n        \"e003\"\n      ],\n      \"supported_paths\": [\n        \"表明严格遵守《中华人民共和国劳动合同法》，并编制相关人力资源管理制度，涉及劳动合同保障的政策基础\"\n      ],\n      \"missing\": [\n        \"未识别员工劳动合同保障的对应内容（如具体签订率、续签安排等事实或具体政策细节）\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E3\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别裁员、解雇相关制度、制度或事实\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E4\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"未识别对应支持（内部招聘、竞聘、转岗、再就业服务等）\"\n      ],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"没有实际纠正结果，只有政策、计划或承诺（未识别当期辞退福利、终止补偿支付等实际发生的事实）\"\n      ],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1802,
+    "total_tokens": 2284,
+    "completion_tokens": 482,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 1802
+    }
+  }
+}

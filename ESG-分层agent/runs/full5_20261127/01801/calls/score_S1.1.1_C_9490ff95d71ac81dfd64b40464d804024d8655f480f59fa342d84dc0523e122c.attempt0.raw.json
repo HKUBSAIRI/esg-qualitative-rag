@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-c637cdc0-ec14-9f0a-9adb-925d19e525f5",
+  "object": "chat.completion",
+  "created": 1795745485,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E1\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e001和e002明确披露了2025年（评分年度）的员工离职率具体数值（13.3%），并提供了按性别、年龄、地区划分的口径数据，满足当期离职率披露及识别期间和口径的条件。\",\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ]\n    },\n    {\n      \"group_id\": \"E2\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e003披露公司严格遵守《中华人民共和国劳动合同法》并编制相关人力资源管理制度，符合劳动合同保障的具体政策或安排要求。\",\n      \"evidence_refs\": [\n        \"e003\"\n      ]\n    },\n    {\n      \"group_id\": \"E3\",\n      \"status\": \"verified\",\n      \"score\": 100,\n      \"reason\": \"证据e004披露公司在解聘方面的雇佣制度均按国家相关法律法规要求执行，并与所有雇员签订符合当地法律法规要求的雇佣合约，构成了与裁员/解雇相关的制度安排。\",\n      \"evidence_refs\": [\n        \"e004\"\n      ]\n    },\n    {\n      \"group_id\": \"E4\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖尚未确认（search_complete: false）。虽然证据e005提及董事选拔中的内部提升/调任，e006提及提供内部培训项目，但缺乏针对普通员工明确的内部招聘、转岗制度或再就业服务的具体披露，且系统标记为待核验状态，依据规则需人工复核以确认是否满足‘员工安置支持’的充分性条件。\",\n      \"evidence_refs\": []\n    },\n    {\n      \"group_id\": \"E5\",\n      \"status\": \"pending_review\",\n      \"score\": null,\n      \"reason\": \"检索记录显示必要材料覆盖尚未确认（search_complete: false）。该组要求证明评分年度已经发生的终止补偿支付、就业安置等实际结果。现有证据仅包含政策或一般性描述，未核实到具体的当期实际发生事实（如辞退福利金额、安置人数等），故处于待定状态。\",\n      \"evidence_refs\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8051,
+    "total_tokens": 8622,
+    "completion_tokens": 571,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 8051
+    }
+  }
+}

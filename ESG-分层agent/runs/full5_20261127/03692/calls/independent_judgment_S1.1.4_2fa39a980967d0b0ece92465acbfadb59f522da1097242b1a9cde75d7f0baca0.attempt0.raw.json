@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-0f196aa6-c816-9720-8221-14c620570fbb",
+  "object": "chat.completion",
+  "created": 1795744251,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"state\": \"no_verified_adverse_event_found\",\n  \"reason\": \"本次已查范围未找到。根据实际搜索日志，针对翰森制药集团有限公司（03692）在2025年度严重员工福利或社会保障权益侵害及纠正的官方监管、司法及通报检索已执行。打开的HKEX新闻标题页、公司注册处执法/检控页面及证监会法规查询页面均未显示与该公司相关的严重事项独立通报或案件原件。普通报告因非独立通报被排除，通用法规读取失败但不阻塞核查。无证据表明存在经核实的严重福利权益侵害且未有效纠正的情形。\",\n  \"evidence_refs\": [],\n  \"unresolved\": []\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7709,
+    "total_tokens": 7864,
+    "completion_tokens": 155,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 7709
+    }
+  }
+}

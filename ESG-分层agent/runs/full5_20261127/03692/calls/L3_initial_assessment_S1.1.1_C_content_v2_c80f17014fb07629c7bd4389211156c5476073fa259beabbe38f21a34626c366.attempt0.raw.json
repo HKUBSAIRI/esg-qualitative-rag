@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-fb7c4ea1-86a9-9be4-bac9-c8fc94657387",
+  "object": "chat.completion",
+  "created": 1795732612,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"E5\",\n      \"content_sufficient\": false,\n      \"evidence_refs\": [],\n      \"supported_paths\": [],\n      \"missing\": [\n        \"当期实际发生的终止补偿支付、就业安置或离职保障受益等正向事实\"\n      ],\n      \"conflicts\": [],\n      \"actual_event\": null\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1411,
+    "total_tokens": 1506,
+    "completion_tokens": 95,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "text_tokens": 1411
+    }
+  }
+}

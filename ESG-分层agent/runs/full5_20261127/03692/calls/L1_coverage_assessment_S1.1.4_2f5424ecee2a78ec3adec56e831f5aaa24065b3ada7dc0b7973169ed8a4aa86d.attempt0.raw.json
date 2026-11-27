@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-b2f426a1-2785-9dc8-917e-0c0a40f633a5",
+  "object": "chat.completion",
+  "created": 1795730335,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"group_id\": \"W1\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e001\",\n        \"e002\"\n      ],\n      \"supported_paths\": [\n        \"e001明确披露提供包括“五險一金”等法定福利；e002列出社會保險、住房公積金。符合至少一项具体法定社会保障或基本福利政策的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W2\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e007\",\n        \"e008\",\n        \"e009\"\n      ],\n      \"supported_paths\": [\n        \"e004披露补充医疗保险；e007披露员工补充商业医疗保险、高温津贴；e008披露免费工作餐/餐贴、通讯卡福利；e009披露职工医疗救助政策。均属于具体的补充福利安排。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W3\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e003\",\n        \"e005\",\n        \"e006\",\n        \"e007\",\n        \"e010\",\n        \"e014\"\n      ],\n      \"supported_paths\": [\n        \"e003/e010/e014披露育儿假、哺乳室、灵活工作时间等家庭支持；e005披露家属开放日；e006/e007披露食堂、宿舍、健身房、心理咨询等生活支持资源。符合至少一项家庭或生活支持资源的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W4\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e002\",\n        \"e004\",\n        \"e009\",\n        \"e012\"\n      ],\n      \"supported_paths\": [\n        \"e002明确适用全体员工；e004明确针对特定员工；e009明确适用于全体员工并规定申领流程；e012说明部分福利仅针对特定对象。符合至少一项福利的具体取得规则或明确适用对象的要求。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    },\n    {\n      \"group_id\": \"W5\",\n      \"content_sufficient\": true,\n      \"evidence_refs\": [\n        \"e004\",\n        \"e011\",\n        \"e013\"\n      ],\n      \"supported_paths\": [\n        \"e004提及在法定五险一金全面覆盖基础上（暗示已缴纳/覆盖）；e011明确披露报告期内对退休及困难员工进行慰问、向一线员工发放防暑物资（已发生事实）；e013披露对社保缴纳等进行调查且未发现重大侵权（间接证实执行）。满足当期已发生的至少一项福利覆盖、使用或受益事实。\"\n      ],\n      \"missing\": [],\n      \"conflicts\": []\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4361,
+    "total_tokens": 5134,
+    "completion_tokens": 773,
+    "prompt_tokens_details": {
+      "cached_tokens": 3072,
+      "text_tokens": 4361
+    }
+  }
+}

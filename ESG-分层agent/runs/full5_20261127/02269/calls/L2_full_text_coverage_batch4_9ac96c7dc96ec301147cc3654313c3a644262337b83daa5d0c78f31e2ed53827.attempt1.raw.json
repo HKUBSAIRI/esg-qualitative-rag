@@ -1,0 +1,26 @@
+{
+  "id": "chatcmpl-eb10837e-f28a-9f1b-977f-dbef877d7ec6",
+  "object": "chat.completion",
+  "created": 1795730580,
+  "model": "qwen3.8-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"evidence\": [\n    {\n      \"ref_id\": \"p039\",\n      \"group_ids\": [\n        \"E2\"\n      ],\n      \"quote\": \"Each of the Directors has entered into a three-year service contract with the Company, subject to termination before expiry by either party giving not less than three months' notice in writing to the other.\",\n      \"kind\": \"policy\",\n      \"period\": \"未明确\",\n      \"scope\": \"Directors\",\n      \"relevance\": \"披露了董事服务合同的期限（三年）及终止通知安排，属于劳动合同保障的具体政策或事实。\"\n    }\n  ]\n}"
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10706,
+    "total_tokens": 10853,
+    "completion_tokens": 147,
+    "prompt_tokens_details": {
+      "cached_tokens": 10240,
+      "text_tokens": 10706
+    }
+  }
+}
